@@ -8,35 +8,35 @@ use common;
 
 sub read_XF86Config {
     my ($file) = @_;
-    my $raw_X = raw_from_file($file);
-    from_raw(@$raw_X);
-    $raw_X;
+    my $raw = _rraw_from_file($file);
+    _from_rraw(@$raw);
+    $raw;
 }
 
 sub prepare_write_XF86Config {
-    my ($raw_X) = @_;
-    map { raw_to_string(before_to_string({ %$_ }, 0)) } @$raw_X;
+    my ($raw) = @_;
+    map { _raw_to_string(_before_to_string({ %$_ }, 0)) } @$raw;
 }
 
 sub write_XF86Config {
-    my ($raw_X, $file) = @_;
-    my @blocks = prepare_write_XF86Config($raw_X);
+    my ($raw, $file) = @_;
+    my @blocks = prepare_write_XF86Config($raw);
     @blocks ? output($file, @blocks) : unlink $file;
 }
 
 sub read_XF86Config_from_string {
     my ($s) = @_;
-    my $raw_X = raw_from_file('-', [ split "\n", $s ]);
-    from_raw(@$raw_X);
-    $raw_X;
+    my $raw = _rraw_from_file('-', [ split "\n", $s ]);
+    _from_rraw(@$raw);
+    $raw;
 }
 
 #-###############################################################################
 #- raw reading/saving
 #-###############################################################################
-sub raw_from_file { #- internal
+sub _rraw_from_file {
     my ($file, $o_lines) = @_;
-    my $raw_X = [];
+    my $rraw = [];
 
     my $lines = $o_lines || [ cat_($file) ];
     my $line;
@@ -68,7 +68,7 @@ sub raw_from_file { #- internal
 	if (/^Section\s+"(.*)"/i) {
 	    die "$file:$line: missing EndSection\n" if @objs;
 	    my $e = { name => $1, l => [], kind => 'Section' };
-	    push @$raw_X, $e;
+	    push @$rraw, $e;
 	    unshift @objs, $e; $obj = '';
 	    $attach_comment->('pre');
 	} elsif (/^Subsection\s+"(.*)"/i) {
@@ -110,21 +110,26 @@ sub raw_from_file { #- internal
 	    push @{$objs[0]{l}}, $obj;
 	}
     }
-    $raw_X;
+    $rraw;
 }
 
-sub raw_to_string {
+sub _simple_val_to_string {
+    my ($name, $e) = @_;
+    my $key = $e->{Option} ? qq(Option "$name") : $name;
+    my $val = defined $e->{val} ? ($e->{Option} && $e->{val} !~ /^"/ ? qq( "$e->{val}") : qq( $e->{val})) : '';
+    ($e->{commented} ? '#' : '') . $key . $val;
+}
+
+sub _raw_to_string {
     my ($e, $b_want_spacing) = @_;
     my $s = do {
 	if ($e->{l}) {
-	    my $inside = join('', map_index { raw_to_string($_, $::i) } @{$e->{l}});
+	    my $inside = join('', map_index { _raw_to_string($_, $::i) } @{$e->{l}});
 	    $inside .= $e->{post_comment} || '';
 	    $inside =~ s/^/    /mg;
 	    qq(\n$e->{kind} "$e->{name}"\n) . $inside . "End$e->{kind}";
 	} else {
-	    ($e->{commented} ? '#' : '') .
-	      ($e->{Option} ? qq(Option "$e->{name}") : $e->{name}) .
-	      (defined $e->{val} ? ($e->{Option} && $e->{val} !~ /^"/ ? qq( "$e->{val}") : qq( $e->{val})) : '');
+	    _simple_val_to_string($e->{name}, $e);
 	}
     };
     ($e->{pre_comment} ? ($b_want_spacing ? "\n" : '') . $e->{pre_comment} : '') . $s . ($e->{comment_on_line} || '') . "\n" . (!$e->{l} && $e->{post_comment} || '');
@@ -147,16 +152,16 @@ my %kind_names = (
     WacomEraser => [ qw(Port) ], #-/
     ServerLayout => [ qw(Identifier) ],
 );
-my @want_string = qw(Identifier DeviceName VendorName ModelName BoardName Driver Device Chipset Monitor Protocol XkbModel XkbLayout XkbOptions XkbCompat Load BusID);
+my @want_string = qw(Identifier DeviceName VendorName ModelName BoardName Driver Device Chipset Monitor Protocol XkbModel XkbLayout XkbOptions XkbCompat Load ModulePath BusID);
 
 %kind_names = map_each { lc $::a => [ map { lc } @$::b ] } %kind_names;
 @want_string = map { lc } @want_string;
 
-sub from_raw {
-    sub from_raw__rec {
+sub _from_rraw {
+    sub _from_rraw__rec {
 	my ($current, $e) = @_;
 	if ($e->{l}) {
-	    from_raw($e);
+	    _from_rraw($e);
 	    push @{$current->{l}{$e->{name}}}, $e;
 	} else {
 	    if (member(lc $e->{name}, @want_string)) {
@@ -178,13 +183,13 @@ sub from_raw {
 
     foreach my $e (@_) {
 	($e->{l}, my $l) = ({}, $e->{l});
-	from_raw__rec($e, $_) foreach @$l;
+	_from_rraw__rec($e, $_) foreach @$l;
 
 	delete $e->{kind};
     }
 }
 
-sub before_to_string {
+sub _before_to_string {
     my ($e, $depth) = @_;
 
     if ($e->{l}) {
@@ -195,7 +200,7 @@ sub before_to_string {
 	$e->{l} = [ map {		  
 	    my $name = $_;
 	    map { 
-		before_to_string({ name => $name, %$_ }, $depth+1);
+		_before_to_string({ name => $name, %$_ }, $depth+1);
 	    } deref_array($e->{l}{$name});
 	} @sorted ];
     } elsif (member(lc $e->{name}, @want_string)) {

@@ -1,0 +1,1786 @@
+# translation of DrakX-fr.po to Français
+# Translation file of Mandriva Linux graphic install
+# Copyright (C) 1999,2000,2001,2002,2003,2004,2005,2006 Mandriva
+#
+# Veuillez ne pas mettre à jour ce fichier à moins d'être
+# certain tant de vos traductions que de votre grammaire et
+# de votre orthographe. Ces dernières sont trop souvent
+# approximatives. Elles nécessitent alors des relectures et
+# des corrections qui n'ont d'autre conséquence que de faire
+# perdre du temps à tout le monde (à vous si votre travail est
+# imparfait et aux relecteurs qui doivent rechercher puis corriger
+# vos éventuelles fautes).
+#
+# VEUILLEZ RESPECTER LA TYPOGRAPHIE FRANÇAISE !
+# Les majuscules doivent être accentuées si besoin est. Respectez
+# les espaces nécessaires pour la ponctuation (espace après la virgule et
+# le point, espace insécables avant les points d'interrogation,
+# d'exclamation, les deux-points et le point virgule, espace aussi après
+# le point virgule).
+# N'enlevez pas l'espace qui suit un signe de ponctuation en fin de
+# phrase; vous devez respecter la version originale.  Dans ce type de
+# cas, il est extrèmement probable que le programme va afficher
+# quelque chose d'autre à la fin.  En enlevant l'espace, vous allez
+# accoller deux mots.
+#
+# ESPACES INSÉCABLES
+# Vous devez utiliser un espace insécable (c'est un espace qui ne peut
+# pas servir de rupture à la ligne) avant le point d'exclamation, le
+# point d'interrogation, le deux-points, le point virgules, et pour les
+# "quantités", entre le nombre et l'unité abbrégée (par exemple "10 g").
+# L'espace normal en ISO et UTF8 est le caractere 0x20 tandis que l'espace
+# insécable est le caractère 0xA0. Sous Emacs en utilisant le po mode
+# livré avec gettext >= 0.10.40-4mdk vous pouvez voir celui-ci avec un
+# fond de couleur spécial. Sous Vi celui-ci est normalement affiché
+# précédé du caractère pipe "|". Pour le taper sous la plupart des
+# éditeurs, vous pouvez utiliser la touche "Compose" puis en tapant
+# deux espaces. Si vous n'avez pas de touche compose, vous pouvez
+# donner cette fonction à la touche "Windows" droite de votre clavier
+# avec la commande suivante :
+#   xmodmap -e 'keycode 116 = Multi_key'
+#
+# Les guillemets françaises sont « et » et non ". La guillemet ouvrante
+# « est suivie d'un espace insécable et la guillemet fermante » est
+# précédée du même type d'espace. Pour le taper, vous pouvez utiliser
+# la combinaison Compose < <, et Compose > > (ou alt-z et alt-x).
+#
+# Enfin, traduisez INTELLIGEMMENT et non mot à mot. Certaines traductions
+# n'ont aucun sens en français.
+#
+# MOTS À ÉVITER
+#  - application. Ce terme n'étant pas compris par le grand public, il est
+#    préférable de le remplacer par le mot "programme".
+#
+# Nous vous remercions de votre compréhension.
+#
+#
+#
+# Stéphane Teletchéa, 2005.
+# David BAUDENS <baudens@mandriva.com>, 1999-2004.
+# David ODIN <odin@mandriva.com>, 2000.
+# Pablo Saratxaga <pablo@mandriva.com>, 2001, 2005.
+# KAtiOS <katios@nolabel.net>, 2001.
+# Guillaume Cottenceau <gc@mandriva.com>, 2001-2002.
+# Thierry Vignaud <tvignaud@mandriva.com>, 2001-2004.
+# Christophe Combelles <ccomb@free.fr>, 2002,2003.
+# Adrien REZER <monsieurdidi@free.fr>, 2003.
+# RICHARD Nicolas <richardnicolas22@yahoo.fr>, 2004.
+# Lecureuil Nicolas <n1c0l4s.l3@wanadoo.fr>, 2004.
+# Teletchéa <steletch@free.fr>, 2004, 2005.
+# Christophe Berthelé <cpjc@free.fr>, 2005, 2006, 2007.
+# Didier Hérisson <didier.herisson@angstrom.uu.se>, 2005.
+# Nicolas Lécureuil <neoclust@mandriva.org>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-fr\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2007-01-21 20:08+0100\n"
+"Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
+"Language-Team: Français <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2;plural=(n>1);\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 ko"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 ko"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 Mo"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 Mo"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 Mo"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 Mo"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 Mo"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 Mo"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 Mo ou plus"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "serveur Xorg"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Choisissez un serveur d'affichage (serveur Xorg)"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Configuration multi-écrans"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Votre système peut utiliser simultanément plusieurs écrans.\n"
+"Que souhaitez-vous faire ?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr ""
+"Veuillez préciser la quantité de mémoire vidéo de votre carte graphique"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+"Il existe un pilote propriétaire pour votre carte graphique qui peut fournir "
+"des fonctionnalités additionnelles.\n"
+"Voulez-vous l'utiliser ?"
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Configurer les écrans séparément"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Répartir l'affichage sur plusieurs écrans (Xinerama)"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Configurer seulement la carte « %s » %s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: ../lib/Xconfig/main.pm:126
+#, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Configuration de la carte graphique et du moniteur"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Carte graphique"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Moniteur"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Résolution"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Test"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Options"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Greffons"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+"Votre fichier de configuration Xorg est invalide, nous allons l'ignorer."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Désirez-vous conserver les changements ?\n"
+"La configuration actuelle est :\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Choisissez un moniteur pour l'écran nº %d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Choisissez un moniteur"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Générique"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Vendeur"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Échec de la détection « Plug'n Play ». Veuillez choisir un moniteur"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Les deux paramètres importants sont la fréquence de rafraîchissement\n"
+"verticale (qui détermine la vitesse à laquelle l'écran est rafraîchi)\n"
+"et, surtout, la fréquence de synchronisation horizontale (qui détermine\n"
+"la vitesse à laquelle les lignes sont tracées).\n"
+"\n"
+"Il ne faut SURTOUT PAS choisir un type de moniteur ayant\n"
+"une fréquence de rafraîchissement excédant les capacités de votre\n"
+"moniteur. Vous risqueriez de l'endommager.\n"
+"En cas de doute, choisissez un réglage moins performant mais\n"
+"sans risque pour votre matériel."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Fréquence de rafraîchissement horizontal"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Fréquence de rafraîchissement vertical"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, c-format
+msgid "Choose plugins"
+msgstr "Choix des greffons"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 couleurs (8 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 mille couleurs (15 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 mille couleurs (16 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 millions de couleurs (24 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Résolutions"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Autre"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Choix de la résolution et du nombre de couleurs"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Carte graphique : %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Aide"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Test de la configuration"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Désirez-vous tester la configuration ?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Attention : tester cette carte vidéo peut bloquer votre ordinateur"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Une erreur est survenue :\n"
+"%s\n"
+"Essayez de changer les paramètres"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Fin dans %d secondes"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "La configuration est-elle correcte ?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr "Accélération 3D matérielle : %s\n"
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Disposition du clavier : %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Type de souris : %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Moniteur : %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Fréquence de synchronisation horizontale : %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Fréquence de synchronisation verticale : %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Carte graphique : %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Mémoire vidéo : %s ko\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Nombre de couleurs : %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Résolution : %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Pilote Xorg : %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Configuration d'Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, c-format
+msgid "Graphic card options"
+msgstr "Options de la carte graphique"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr "Avec accélération 3D matérielle"
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr "Activer la transparence (extension Composite)"
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr "Utiliser l'accélération matérielle pour le pointeur de la souris"
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+"Activer l'accélération RENDER (peut causer des anomalies dans l'affichage de "
+"textes)"
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr "Activer l'affichage dupliqué sur le moniteur externe"
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr "Activer l'affichage dupliqué sur le second écran"
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr "Activer le basculement d'affichage par la touche de raccourci du BIOS"
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+"Utiliser EXA au lieu de XAA (meilleures performances pour Render et "
+"Composite)"
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Interface graphique lors du démarrage"
+
+#: ../lib/Xconfig/various.pm:222
+#, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr "Lancement automatique de l'interface graphique (Xorg) au démarrage"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Votre carte graphique semble avoir un connecteur TV-OUT.\n"
+"Elle peut être configurée pour fonctionner avec le « frame-buffer ».\n"
+"\n"
+"Pour cela vous devez connecter votre carte graphique à votre TV avant de "
+"démarrer votre ordinateur.\n"
+"Ensuite choisissez l'option « TVout » dans le menu d'amorçage\n"
+"\n"
+"Avez-vous cette fonction ?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Quelle norme utilise votre téléviseur ?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+"La résolution d'affichage peut être incorrecte.\n"
+"\n"
+"Si l'affichage du bureau dépasse les limites de l'écran, l'installation\n"
+"de %s pourrait résoudre ce problème. L'installer maintenant ?"
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "autre"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Tchèque (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Allemand"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak standard"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Espagnol"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Finlandais"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Français"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Anglais (Angleterre)"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norvégien"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Polonais"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Russe"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Suédois"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Américain (États-Unis)"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Albanais"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Arménien (ancien)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Arménien (machine à écrire)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Arménien (phonétique)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Arabe"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbaïdjanais (latin)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belge"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengali (disposition Inscript)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengali (disposition Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgare (phonétique)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgare (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brésilien"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Bosniaque"
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Dzongkha/Tibétain"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Biélorusse"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Suisse (allemand)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Suisse (français)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Cherokee syllabique"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Tchèque (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Allemand (sans touches mortes)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagari"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Danois"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak américain"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Esperanto)"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Français)"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (Royaume-Uni)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak norvégien"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (Polonais)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak suédois"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonien"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Féroïen"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Géorgien (disposition russe)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Géorgien (disposition latine)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Grec"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Grec (polytonic)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Gujarati"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Croate"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Hongrois"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Irlandais"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Israélien"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Israélien (phonétique)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iranien"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Islandais"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Italien"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japonais 106 touches"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kannada"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Kirghiz"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Coréen"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Kurde"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latino-américain"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laotien"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Lituanien (AZERTY, ancien modèle)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Lituanien (AZERTY, nouveau modèle)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Lituanien « ligne de nombres » QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Lituanien « phonétique » QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Letton"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Malayalam"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr "Maori"
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Macédonien"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Myanmar (Burmese)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Mongolien (cyrillique)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Maltais (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Maltais (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr "Nigérien"
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Hollandais"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Oriya"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Polonais (QWERTY)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Polonais (QWERTZ)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Pashto"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portugais"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Canadien (Québec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Roumain (QWERTZ)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Roumain (QWERTY)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Russe (phonétique)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Slovénien"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr "Cinghalais"
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovaque (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovaque (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (norvégien)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saami (Suédois/Finnois)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Sindhi"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Serbe (cyrillique)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Syriaque"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Syriaque (phonétique)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telegu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamoul (ISCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamoul (façon machine à écrire)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Thaïlandais (Kedmanee)"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Thaïlandais (TIS-820)"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Thaïlandais"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr "Tifinagh (Disposition marocaine)  (+latin/arabe)"
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr "Tifinagh (Disposition phonétique)  (+latin/arabe)"
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tadjik"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Turkmène"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Turc (modèle traditionnel « F »)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Turc (modèle moderne « Q »)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukrainien"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Ourdou"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Américain (international)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr "ISO9995-3 (Américain avec 3 niveaux par touche)"
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Ouzbékistanais (cyrillique)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vietnamien « colonne numérique » QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Yougoslave (latin)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Touche Alt droite"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Deux touches Maj simultanément"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Touches Ctrl et Maj simultanément"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Touche CapsLock (verrouillage majuscule)"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Touches Maj et CapsLock (verrouillage majuscule) simultanément"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Touches Ctrl et Alt simultanément"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Touches Alt et Maj simultanément"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Touche « Menu »"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Touche « Windows » gauche"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Touche « Windows » droite"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Les deux touches Contrôle simultanément"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Les deux touches Alt simultanément"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Touche Majuscule gauche"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Touche Majuscule droite"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Touche Alt gauche"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Touche Contrôle gauche"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Touche Contrôle droite"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Vous pouvez choisir ici la touche ou la combinaison de touches qui\n"
+"permettra de commuter entre les différents types de claviers\n"
+"(ex : latin et non latin)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Attention"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Ce paramètre sera activé après l'installation.\n"
+"Pendant l'installation, vous devrez utiliser la touche « Ctrl » droite\n"
+"pour commuter entre les différentes configurations du clavier."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Souris SUN"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Souris standard PS2 à molette"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automatique"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 bouton"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Souris standard à 2 boutons"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Souris standard à 3 boutons avec émulation de la molette"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Roulette"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "série"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Souris standard à 3 boutons"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan avec émulation de la molette"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series avec émulation de la molette"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Souris Logitech (série, ancien modèle C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Souris Logitech (série, ancien modèle C7) avec émulation de la molette"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse avec émulation de la molette"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "souris bus"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 boutons"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 boutons"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 boutons avec émulation de la molette"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Universelle"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "N'importe quelle souris PS/2 ou USB"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Controlleur Microsoft Xbox S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "aucun"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Pas de souris"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr "Test de la souris..."
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Veuillez choisir votre type de souris."
+
+#: ../lib/mouse.pm:517
+#, c-format
+msgid "Mouse choice"
+msgstr "Choix de la souris"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Émuler le troisième bouton ?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Port souris"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Veuillez choisir le port série sur lequel votre souris est connectée."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Émulation des boutons"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Émulation 2e bouton"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Émulation 3e bouton"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Veuillez tester votre souris"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Pour activer la souris,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "VEUILLEZ FAIRE TOURNER LA MOLETTE !"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr ""
+"Vous devez vous déconnecter puis vous connecter à nouveau afin de prendre "
+"les changements en considération"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Clavier"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Veuillez choisir votre type de clavier."
+
+#: ../tools/keyboarddrake:31
+#, c-format
+msgid "Keyboard layout"
+msgstr "Disposition du clavier"
+
+#: ../tools/keyboarddrake:39
+#, c-format
+msgid "Keyboard type"
+msgstr "Type du clavier"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Souhaitez-vous que la touche BackSpace retourne Delete en console ?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Test de la souris"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Veuillez tester votre souris :"

@@ -2,6 +2,9 @@
 
 use lib qw(/usr/lib/libDrakX);
 
+# i18n: IMPORTANT: to get correct namespace (drakx-kbd-mouse-x11 instead of libDrakX)
+BEGIN { unshift @::textdomains, 'drakx-kbd-mouse-x11' }
+
 use standalone;     #- warning, standalone must be loaded very first, for 'explanations'
 
 use interactive;
@@ -28,10 +31,16 @@ if (my ($kb) = grep { !/^-/ } @ARGV) {
   choose:
     $in->ask_from(N("Keyboard"),
 		  N("Please, choose your keyboard layout."),
-		  [ { val => \$keyboard->{KEYBOARD},
+		  [ { label => N("Keyboard layout"),
+		      title => 1,
+		    },
+		    { val => \$keyboard->{KEYBOARD},
 		      format => sub { translate(keyboard::KEYBOARD2text($_[0])) },
 		      list => [ keyboard::KEYBOARDs() ],
 		      type => 'list',
+		    },
+		    { label => N("Keyboard type"),
+		      title => 1,
 		    },
 		    { val => \$keyboard->{XkbModel},
 		      format => sub { $model2text->{$_[0]} },

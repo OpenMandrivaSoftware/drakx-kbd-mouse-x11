@@ -1,0 +1,4217 @@
+# translation of DrakX-sc.po to Sardu
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Antoni Pistis <antonio.pistis@virgilio.it>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-sc\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2005-09-14 11:29+0100\n"
+"Last-Translator: Antoni Pistis <antonio.pistis@virgilio.it>\n"
+"Language-Team: Sardu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB o prus"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X server"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Sçobera unu X server"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Assètiu multi-head"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Su sistema suportat assètius a (multi-head).\n"
+"Ita bolis fai?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Sçobera su manniori de memòria de sa skeda gràfiga"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Assètia totu is concas (head) una a una"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Imprea alladiaduras Xinerama"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Assètia feti sa skeda \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Personalisada"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Assètiu Acàpiu"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Bessi"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Skeda gràfiga"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Bisori"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Arresolutzioni"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Test"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Sceras"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Plugins"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Su file de assètiu de Xorg est purdiau, d'eus a innyorai."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Sarvai is mudas?\n"
+"S'assètiu imoi est:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Sçobera unu bisori po sa conca #%d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Sçobera unu bisori"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Genèrigu"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Produsidori"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Controllu Plug'n Play faddiu. Sçobera su bisori justu"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Is duus paràmetrus perigulosus funt sa frecuèntzia de arrecasçu strantaxa,\n"
+"est a nai sa de totu su bisori, e prus ancora sa frecuèntzia crocada, ki "
+"est\n"
+"sa frecuèntzia de amostu de is arrayas.\n"
+"\n"
+"Est DE IMPORTU MANNU ki no ponjas unu tipu de bisori cun frecuèntzia\n"
+"prus arta de sa ki podit donai su bisori tuu: iast a podi adanniai su "
+"bisori.\n"
+" Ki ses in duda, sçobera unu assètiu moderau."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Frecuèntzia de arrecasçu crocau"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Frecuèntzia de arrecasçu strantaxu"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Sçobera atzioni"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 coloris (8 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 milla coloris (15 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 milla coloris (16 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 millionis de coloris (24 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Arresolutzionis"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Atru"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Sçobera s'arresolutzioni e sa profundidadi de colori"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Skeda gràfiga: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Annudda"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Ajudu"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Test de s'assètiu"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Bolis fai su test de s'assètiu?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Atentu: "
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Faddina:\n"
+"%s\n"
+"Prova a mudai cancu paràmetru"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Bessu aintru de %d segundus"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Est s'assètiu justu?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Skema de su tecrau: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Tipu de sòrixi: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Bisori: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Frecuèntzia Bisori crocada: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Frecuèntzia Bisori strantaxa: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Skeda gràfiga: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Memòria gràfiga: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Profundidadi de colori: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Arresolutzioni: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg driver: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Assètiu de Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Skeda gràfiga: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Interfaci gràfiga a s'alluidura"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Potzu assetiai sa computadora po allui in automàtigu s'interfaci gràfiga "
+"(Xorg) a s'alluidura.\n"
+"Bolis a fai partiri Xorg candu torras a allui?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Sa skeda gràfiga parit ki tenjat unu acàpiu TV-OUT.\n"
+"Fait a d'assetiai po traballai in frame-buffer.\n"
+"\n"
+"Po custu depis acapiai sa skeda a sa TV innantis de torrai a allui sa "
+"computadora.\n"
+"Apustis sçobera sa boxi \"TVout\" in su bootloader\n"
+"\n"
+"Bolis tenni custa possibilidadi?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "De cali standard est sa TV?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "atru"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr ""
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr ""
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr ""
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr ""
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr ""
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr ""
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Tecrau UK"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr ""
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr ""
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr ""
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr ""
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Tecrau US"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr ""
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr ""
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr ""
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr ""
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr ""
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr ""
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr ""
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr ""
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr ""
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr ""
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr ""
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr ""
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr ""
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr ""
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr ""
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr ""
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr ""
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr ""
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr ""
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr ""
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr ""
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr ""
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr ""
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr ""
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr ""
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr ""
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr ""
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr ""
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr ""
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr ""
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr ""
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr ""
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr ""
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr ""
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr ""
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr ""
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr ""
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr ""
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr ""
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr ""
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr ""
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr ""
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr ""
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr ""
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr ""
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr ""
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr ""
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr ""
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr ""
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr ""
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr ""
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr ""
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr ""
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr ""
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr ""
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr ""
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr ""
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr ""
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr ""
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr ""
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr ""
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr ""
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr ""
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr ""
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr ""
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr ""
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr ""
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr ""
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr ""
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr ""
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr ""
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr ""
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr ""
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr ""
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr ""
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Tecrau US (intrenatzionali)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr ""
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr ""
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr ""
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr ""
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr ""
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr ""
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr ""
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr ""
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr ""
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr ""
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr ""
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr ""
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Atentu"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Mouse"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Sòrixi genèrigu PS2 a arroda"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automàtigu"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 butoni"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Sòrixi genèrigu a 2 butonis"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Sòrixi genèrigu a 3 butonis cun emuladori de arroda"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Arroda"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "seriali"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Sòrixi genèrigu a 3 butonis"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan cun emuladori de arroda"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr ""
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series cun emuladori de arroda"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (seriali, tipu C7 beçu)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (seriali, tipu C7 beçu) cun emuladori de arroda"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse cun emuladori de arroda"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 butonis"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 butonis"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 butonis cun emuladori de arroda"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Universali"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Sòrixis PS/2 & USB"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Xbox Controller S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr ""
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Nisçunu sòrixi"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Sçobera su tipu de sòrixi."
+
+#: ../lib/mouse.pm:517
+#, c-format
+msgid "Mouse choice"
+msgstr "Sçoberu de su sòrixi"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr ""
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Porta de su sòrixi"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Sçobera sa porta seriali ki dui est su sòrixi acapiau."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Emuladura de is butonis"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Emuladura de su Butoni 2"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Emuladura de su Butoni 3"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Prova su sòrixi"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Po abivai su sòrixi,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "MOVI S'ARRODA!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Depis torrai a allui innantis ki sa muda tenjat efetu"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Tecrau"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Sçobera su skema de su tecrau"
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Layout de Tecrau"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Tecrau"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr ""
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Esàmini de su sòrixi"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Esàmina su sòrixi:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "ID umperadori"
+
+#~ msgid "Please wait"
+#~ msgstr "Abeta"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Aposentadura de su bootloader in cursu"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO bolis donai unu Volume ID nou a su trastu %s. Comuncas, mudai su\n"
+#~ "Volume ID de unu discu de alluidura de Windows NT, 2000 o XP est faddina\n"
+#~ "mortali po Windows. Custu no balit po Windows 95 o 98 o discus dadus NT.\n"
+#~ "\n"
+#~ "Donas unu Volume ID nou?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr ""
+#~ "Aposentadura de su bootloader faddia. Dui est stètia sa faddina ki sighit:"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Primu segadura de su discu (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Primu segadura de sa pratzidura root"
+
+#~ msgid "On Floppy"
+#~ msgstr "In d-unu floppy"
+
+#~ msgid "Skip"
+#~ msgstr "Lassa a perdi"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Aposentadura de LILO/Grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Aundi bolis aposentai su bootloader?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Assètiu de su Stili de Boot"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Sceras fundamentalis de su bootloader"
+
+#~ msgid "Bootloader"
+#~ msgstr "Bootloader"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Bootloader de impreai"
+
+#~ msgid "Boot device"
+#~ msgstr "Trastu de alluidura"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Arretradu innantis de allui sa màgini predefinia"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Abiva ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Abiva ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Abiva ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Is password no cunsonant"
+
+#~ msgid "Please try again"
+#~ msgstr "Prova ancora"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "No fait a impreai unu filesystem cuau po su puntu de càrrigu %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Password (torra)"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Sa scera ``Restrict command line options'' no balit sentza de una password"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Lìmpia /tmp a dònnia alluidura"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Indida sa mesura de sa RAM ki serbit (agataus %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Dona sa mesura de sa RAM in MB"
+
+#~ msgid "Init Message"
+#~ msgstr "Missada de Init"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Abivu alluidura de CD?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Abivu alluidura OF?"
+
+#~ msgid "Default OS?"
+#~ msgstr "OS predefiniu?"
+
+#~ msgid "Image"
+#~ msgstr "Màgini"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Video mode"
+#~ msgstr "Modalidadi gràfiga"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "Profilu de arretza"
+
+#~ msgid "Label"
+#~ msgstr "Etiketa"
+
+#~ msgid "Default"
+#~ msgstr "Predefiniu"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoVideo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "No fait a lassai sbuida sa boxi"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Depis indidai una màgini de kernel"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Depis indidai una pratzidura arrèxini"
+
+#~ msgid "This label is already used"
+#~ msgstr "Custa boxi dui est jai"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Ita tipu de boxi bolis açungi?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Atru OS (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Atru OS (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Atru OS (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Innoi dui funt is boxis de sa lista de alluidura finas a imoi.\n"
+#~ "Podis açungi atras boxis o mudai is ki nci funt."
+
+#~ msgid "access to X programs"
+#~ msgstr "acessu a programas X"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "acessu a ainas rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "permiti \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "acessu a file de aministradura"
+
+#~ msgid "access to network tools"
+#~ msgstr "acessu a ainas po s'arretza"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "acessu a ainas po cumpilai"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(jai açuntu %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Intra unu nòmini umperadori"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Su nòmini umperadori depit tenni feti litras piticas, nùmerus, `-' e `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Nòmini umperadori tropu longu"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Su nòmini umperadori est jai açuntu"
+
+#~ msgid "User ID"
+#~ msgstr "ID umperadori"
+
+#~ msgid "Group ID"
+#~ msgstr "IP Grupu"
+
+#~ msgid "%s must be a number"
+#~ msgstr "%s depit essi unu nùmeru"
+
+#~ msgid "%s should be above 500. Accept anyway?"
+#~ msgstr "%s iat a bolli prus artu de 500. Du pigu a su pròpiu?"
+
+#~ msgid "Add user"
+#~ msgstr "Açungi umperadori"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Intra unu umperadori\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Fatu"
+
+#~ msgid "Accept user"
+#~ msgstr "Aceta umperadori"
+
+#~ msgid "Real name"
+#~ msgstr "Nòmini beru"
+
+#~ msgid "Login name"
+#~ msgstr "Nòmini de intrada"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "icona"
+
+#~ msgid "Autologin"
+#~ msgstr "Autologin"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Potzu assetiai sa computadora po fai intrai in automàtigu unu umperadori."
+
+#~ msgid "Use this feature"
+#~ msgstr "Imprea custa caraterìstiga"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Sçobera s'umperadori predefiniu:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Sçobera su manijadori de fentanas de allui:"
+
+#~ msgid "License agreement"
+#~ msgstr "Cuntratu de permissu"
+
+#~ msgid "Accept"
+#~ msgstr "Acetu"
+
+#~ msgid "Refuse"
+#~ msgstr "Arrevuda"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Sçobera sa lìngua de impreai."
+
+#~ msgid "Language choice"
+#~ msgstr "Sçoberu de sa lìngua"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Mandriva Linux podit suportai prus lìnguas a sa borta. Sçobera\n"
+#~ "is lìnguas ki bolis aposentai. Ndi as a podi disponni candu as a\n"
+#~ "essi acabau s'aposentadura e torrau a allui su sistema."
+
+#~ msgid "Multi languages"
+#~ msgstr "Tanti lìnguas"
+
+#~ msgid "All languages"
+#~ msgstr "Totu is lìnguas"
+
+#~ msgid "Country / Region"
+#~ msgstr "Stadu / Arrejoni"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Sçobera su stadu anca bivis."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Innoi dui at sa lista de totu is stadus a disposta"
+
+#~ msgid "Other Countries"
+#~ msgstr "Atrus Stadus"
+
+#~ msgid "Advanced"
+#~ msgstr "Adelantau"
+
+#~ msgid "Input method:"
+#~ msgstr "Manera de input:"
+
+#~ msgid "None"
+#~ msgstr "Nisçuna"
+
+#~ msgid "No sharing"
+#~ msgstr "Nisçunu acomunu"
+
+#~ msgid "Allow all users"
+#~ msgstr "Permiti a totu is umperadoris"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Bolis permiti a is umperadoris de acomunai cancu directory?\n"
+#~ "Ki du permitis, is umperadoris ant a podi cricai \"Share\" in konqueror e "
+#~ "nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permitit unu assètiu personalisau.\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr ""
+#~ "NFS: su sistema de acomunai file de Unix, cun prus pagus suportu in Mac e "
+#~ "Windows."
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: sistema de acomunai file de Windows, Mac OS X e medas sistemas Linux "
+#~ "de oi."
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr "Podis esportai cun NFS o SMB. Sçobera cali bolis impreai."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Lança userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Serra"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Su cumoni personalisau impreat su grupu \"fileshare\". \n"
+#~ "Podis impreai userdrake po açungi umperadoris a su grupu."
+
+#~ msgid "Timezone"
+#~ msgstr "Fasci oràriu"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Cali est su fasci oràriu?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Arreloju de sistema assetiau a GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Arreloju de sistema assetiau a GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "Server NTP"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Sincronisadura automàtiga de s'ora (cun NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "File locali"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Smart Card"
+#~ msgstr "Smart Card"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows Domain"
+
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Active Directory cun SFU"
+
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Active Directory cun Winbind"
+
+#~ msgid "Local file:"
+#~ msgstr "File locali:"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "Narat a sa computadora a impreai LDAP po parti o po totu is "
+#~ "autentigaduras: LDAParregollit unus cantu tipus de scedas in sa cumpangia "
+#~ "tua."
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "Ti permitit de fai girai unu grupu de computadoras in su pròpiu domìniu "
+#~ "Network Information Service cun sa pròpiu password e su pròpiu file de "
+#~ "grupu."
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows Domain:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "iWinbind permitit a su sistema de agatai scedas e autentigai umperadoris "
+#~ "in d-unu domìniu Windows."
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Active Directory cun SFU:"
+
+#~ msgid ""
+#~ "With Kerberos and Ldap for authentication in Active Directory Server "
+#~ msgstr "cun Kerberos e Ldap po si autentigai in Active Directory Server "
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Active Directory cun Winbind:"
+
+#~ msgid ""
+#~ "Winbind allows the system to authenticate users in a Windows Active "
+#~ "Directory Server."
+#~ msgstr ""
+#~ "Winbind permitit a su sistema de autentigai umperadoris in d-unu Windows "
+#~ "Active Directory Server."
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Autentigadura LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP Server"
+
+#~ msgid "simple"
+#~ msgstr "simpli"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "skema de siguresa (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Autentigadura in Active Directory"
+
+#~ msgid "Domain"
+#~ msgstr "Domìniu"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "LDAP users database"
+#~ msgstr "Database de is umperadoris LDAP"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "Imprea Anonymous BIND"
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "Umperadori LDAP autorisau a sfollyai sa Active Directory"
+
+#~ msgid "Password for user"
+#~ msgstr "Password po umperadori"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Autentigadura NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Domìniu NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Server NIS"
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Autentigadura in Windows Domain"
+
+#~ msgid "Active Directory Realm "
+#~ msgstr "Active Directory Realm "
+
+#~ msgid "Authentication"
+#~ msgstr "Autentigadura"
+
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Assètia sa password de s'aministradori (root)"
+
+#~ msgid "Authentication method"
+#~ msgstr "Mètudu de autentigadura"
+
+#~ msgid "No password"
+#~ msgstr "Nisçuna password"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "Custa password est tropu curtza (bolit longa a su mancu %d caràteris)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "No fait a impreai broadcast sentza de domìniu NIS"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Beni beniu a su sçoberadori de sistema obradori!\n"
+#~ "\n"
+#~ "Sçobera unu sistema obradori de sa lista asuta o\n"
+#~ "abeta po s'alluidura predefinia.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO cun lista scriturali"
+
+#~ msgid "GRUB with graphical menu"
+#~ msgstr "GRUB cun lista gràfiga"
+
+#~ msgid "GRUB with text menu"
+#~ msgstr "GRUB cun lista scriturali"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "no dui at spàtziu abasta in /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "No podis aposentai su bootloader in d-una pratzidura %s\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "S'assètiu de su bootloader bolit ajorronau ca sa pratzidura d'ant torrada "
+#~ "a numerai"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "No fait a aposentai beni su bootloader. Depis allui e sçoberai \"%s\""
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Torra a aposentai su Boot Loader"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minudus"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minudu"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d segundus"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV est unu protocollu ki ti permitit de una directory de unu server "
+#~ "web\n"
+#~ "in locali, e a da manijai ke unu filesystem locali (postu ki su server "
+#~ "web siat\n"
+#~ "assetiau ke WebDAV server). Ki bolis açungi puntus de càrrigu WebDAV,\n"
+#~ "sçobera \"Nou\"."
+
+#~ msgid "New"
+#~ msgstr "Nou"
+
+#~ msgid "Unmount"
+#~ msgstr "Scàrriga"
+
+#~ msgid "Mount"
+#~ msgstr "Càrriga"
+
+#~ msgid "Mount point"
+#~ msgstr "Puntu de càrrigu"
+
+#~ msgid "Error"
+#~ msgstr "Faddina"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Intra sa URL de su server WebDAV"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "Sa URL depit cumentzai cun http:// o https://"
+
+#~ msgid "Server: "
+#~ msgstr "Server: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Puntu de càrrigu: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Sceras: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Pratzimentu"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Ligi cun coidau!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Fai una còpia de is dadus tuus po primu cosa"
+
+#~ msgid "Exit"
+#~ msgstr "Bessi"
+
+#~ msgid "Continue"
+#~ msgstr "Sighi"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Ki pensas de impreai aboot, atentu a lassai spàtziu lìberu (abastant 2048 "
+#~ "segaduras)\n"
+#~ "a su cumentzu de su discu"
+
+#~ msgid "Choose action"
+#~ msgstr "Sçobera atzioni"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Tenis una pratzidura manna Microsoft Windows.\n"
+#~ "Ti cunsillu de arremesurai custa pratzidura\n"
+#~ "(cricanci apitzus, aputzis crica \"Arremesura\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Crica in d-una pratzidura"
+
+#~ msgid "Details"
+#~ msgstr "A minudu"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Nisçunu discu agatau"
+
+#~ msgid "Unknown"
+#~ msgstr "Disconnotu"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Journalised FS"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Sbuidu"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Tipus de filesystem:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "No fait a arremesurai custa pratzidura"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Imprea ``Scàrriga'' po primu cosa"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Imprea ``%s'' intamis"
+
+#~ msgid "Type"
+#~ msgstr "Tipu"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Sçobera un'atra pratzidura"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Sçobera una pratzidura"
+
+#~ msgid "Undo"
+#~ msgstr "No fatzas"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Modalidadi normali"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Modalidadi sperta"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Assètiu"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Sigu comuncas?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Bessi sentza de sarvai"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Bessu sentza de scriri sa tàula de is pratziduras?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Bolis sarvai is mudas de /etc/fstab"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Depis torrai a allui po fai balli is mudas a sa tàula de is pratziduras"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "Iast a depi formatai sa pratzidura %s.\n"
+#~ "De ki no no fait a scriri nudda in fstab po su puntu de càrrigu%s.\n"
+#~ "Bessu comuncas?"
+
+#~ msgid "Clear all"
+#~ msgstr "Lìmpia totu"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Pratziduramentu automàtigu"
+
+#~ msgid "More"
+#~ msgstr "Atru"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Scedas discu tostau"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Totu is pratziduras primarjas funt impreadas"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "No potzu açungi atras pratziduras"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Po tenni prus pratziduras, burrandi una po podi creai una pratzidura "
+#~ "tirada"
+
+#~ msgid "Supermount"
+#~ msgstr "Supermount"
+
+#~ msgid "Supermount except for CDROM drives"
+#~ msgstr "Supermount ma no po is trastus CDROM"
+
+#~ msgid "Save partition table"
+#~ msgstr "Sarva sa tàula de is pratziduras"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Arrecasça sa tàula de is pratziduras"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Arranja sa tàula de is pratziduras"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Torra a carrigai sa tàula de is pratziduras"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Càrrigu automàtigu mèdius arremoviditzus"
+
+#~ msgid "Select file"
+#~ msgstr "Sçobera file"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Sa còpia de sa tàula de pratzidura no est manna uguali\n"
+#~ "Sigu a andai?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Provu a sarvai sa tàula de pratzidura"
+
+#~ msgid "Detailed information"
+#~ msgstr "Scedas a minudu"
+
+#~ msgid "Resize"
+#~ msgstr "Arremesura"
+
+#~ msgid "Format"
+#~ msgstr "Formata"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Açungi a RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Açungi a LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Burra"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Burra de RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Burra de LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Muda RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Imprea po loopback"
+
+#~ msgid "Create"
+#~ msgstr "Crea"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Crea una pratzidura noa"
+
+#~ msgid "Start sector: "
+#~ msgstr "Segadura de partèntzia: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Manniori in MB: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Tipu de filesystem: "
+
+#~ msgid "Preference: "
+#~ msgstr "Preferèntzia: "
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "No podis creai una pratzidura noa\n"
+#~ "(ses lòmpiu a su nùmeru permìtiu de pratziduras primarjas).\n"
+#~ "Innantis burra una pratzidura primarja e creandi una tirada."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Burru su file de loopback?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "Apustis de sa muda de tipu de sa pratzidura %s, totu su ki dui at du "
+#~ "perdis"
+
+#~ msgid "Change partition type"
+#~ msgstr "Muda tipu de pratzidura"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Ita filesystem bolis?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Mudai de ext2 a ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Etiketa"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Aundi bolis carrigai su file de loopback %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Aundi bolis carrigai su trastu %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "No fait a disassetiai su puntu de càrrigu ca sa pratzidura est po "
+#~ "loopback.\n"
+#~ "Boga su loopback innantis"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Aundi bolis carrigai %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Arremesuru"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Càrculu is làcanas de su filesystem FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "No fait a arremesurai custa pratzidura"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Totu su ki dui est in custa pratzidura iat a bolli sarvau in còpia"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Apustis de s'arremesuru de sa pratzidura %s, totu su ki dui at du perdis"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Sçobera sa mesura noa"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Mesura noa in MB: "
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Sçobera unu RAID ki jai dui est po d'açungi"
+
+#~ msgid "new"
+#~ msgstr "nou"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Sçobera unu LVM ki jai dui est po d'açungi"
+
+#~ msgid "LVM name?"
+#~ msgstr "Nòmini LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "No fait a impreai custa pratzidura po loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Nòmini de su file de loopback:"
+
+#~ msgid "Give a file name"
+#~ msgstr "Dona unu nòmini de file"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Un'atru loopback est jai impreendi su file, sçoberandi un'atru"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Su file esistit jai. A d'impreai?"
+
+#~ msgid "Mount options"
+#~ msgstr "Sceras de càrrigu"
+
+#~ msgid "device"
+#~ msgstr "trastu"
+
+#~ msgid "level"
+#~ msgstr "arrasu"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Atentu: custa cosa est perigulosa."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Ita tipu de pratzimentu?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Depis torrai a allui innantis ki sa muda tenjat efetu"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Megu a scrìiri sa tàula de pratzidura de su trastu %s in su discu!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "Apustis formatada sa pratzidura %s, as a perdi totu su ki dui est"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Movi is file a sa pratzidura noa"
+
+#~ msgid "Hide files"
+#~ msgstr "Cua is file"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Movu is file a sa pratzidura noa"
+
+#~ msgid "Copying %s"
+#~ msgstr "Còpiu %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Burru %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "sa pratzidura %s imoi da connosceus po %s"
+
+#~ msgid "Partitions have been renumbered: "
+#~ msgstr "Is nùmerus de is pratziduras funt mudaus:"
+
+#~ msgid "Device: "
+#~ msgstr "Trastu: "
+
+#~ msgid "Type: "
+#~ msgstr "Tipu: "
+
+#~ msgid "Name: "
+#~ msgstr "Nòmini: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Cumentzu: segadura %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Mesura: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s segaduras"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Cilindru %d finas a %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Formatau\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "No formatau\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Carrigau\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "File (s) de loopback:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Pratzidura alluta de predefiniu\n"
+#~ "    (po allui MS-DOS, no po lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Arrasu %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Discus RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Nòmini de su file de loopback: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Custa pratzidura spetziali\n"
+#~ "Bootstrap est po\n"
+#~ "allui su sistema in dual-boot.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Ligi-feti"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Mesura: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Jometria: %s cilindrus, %s concas, %s segaduras\n"
+
+#~ msgid "Info: "
+#~ msgstr "Sceda: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Discus LVM %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Tipu de tàula de is pratziduras: %s\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Crai de cuadura de su filesystem"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Sçobera sa crai de cuadura de su filesystem"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Sa crai de cuadura est tropu simpli (bolit longa a su mancu %d caràteris)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Is crais de cuadura no cunsonant"
+
+#~ msgid "Encryption key"
+#~ msgstr "Crai de cuadura"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Crai de cuadura (torra)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Algoritmu de critadura"
+
+#~ msgid "Change type"
+#~ msgstr "Muda tipu"
+
+#~ msgid "Another one"
+#~ msgstr "Unu atru"
+
+#~ msgid "Username"
+#~ msgstr "Nòmini umperadori"
+
+#~ msgid "Search servers"
+#~ msgstr "Circa is server"
+
+#~ msgid "Search new servers"
+#~ msgstr "Circa server nous"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Bolit aposentau su pakitu %s. Du bolis aposentai?"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Amancat su pakitu %s, necessàriu"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Aposentu is pakitus..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Srèxinu is pakitus..."
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Depis tenni una pratzidura FAT carrigada in /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Formatu sa pratzidura %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Creu e formatu su file %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "No sciu comenti formatai %s in tipu %s"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Càrrigu sa pratzidura %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "càrrigu de sa pratzidura %s in sa directory %s faddia"
+
+#~ msgid "Checking %s"
+#~ msgstr "Controllu %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "faddina de scàrrigu %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Abivu pratzidura swap %s"
+
+#~ msgid "Use an encrypted file system"
+#~ msgstr "Impreai unu filesystem cuau"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Càrriga su filesystem ligi-feti."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "Totu su I/O po su filesystem iat a bolli fatu in sincronia."
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Dona permissu de scriidura a umperadoris normalis"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Dona a is umperadoris normalis acessu a ligi-feti"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Dòpia su puntu de càrrigu %s"
+
+#~ msgid "No partition available"
+#~ msgstr "Nisçuna pratzidura a disposta"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Controllu is pratziduras po agatai is puntus de càrrigu"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Sçobera is puntus de càrrigu"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Sçobera is pratziduras ki bolis formatai"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Depis tenni una pratzidura root.\n"
+#~ "Po custu, crea una pratzidura (o crica in d-una ki jai dui est).\n"
+#~ "Apustis sçobera s'atzioni ``Puntu de càrrigu'' e assetiaddu a `/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "No tenis una pratzidura de swap.\n"
+#~ "\n"
+#~ "Sigu comuncas?"
+
+#~ msgid "Use free space"
+#~ msgstr "Imprea spàtziu lìberu"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "No dui at spàtziu abasta po ponni pratziduras noas"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Imprea is pratziduras ki jai dui funt"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "No dui at pratzidura de da podi impreai"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Imprea sa pratzidura Microsoft Windows® po loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Cali pratzidura bolis impreai po Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Sçobera is mesuras"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Mesura de sa pratzidura root in MB: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Mesura de sa pratzidura swap in MB: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "No dui at pratzidura FAT de impreai po loopback (no abarrat spàtziu "
+#~ "abasta)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Imprea su spàtziu lìberu in sa pratzidura Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Calli pratzidura bolis arremesurai?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "S'arremesuradori FAT no podit manijai sa pratzidura, \n"
+#~ "dui est sa faddina ki sighit: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Càrculu sa mesura de sa pratzidura Microsoft Windows®"
+
+#~ msgid "Next"
+#~ msgstr "Sighi"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Ita mesura bolis apoderai po sa pratzidura Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Mesura: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Arremesuru sa pratzidura Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Arremesuradura FAT faddia: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr "No dui at pratzidura FAT de arremesurai (no abarrat spàtziu abasta)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Srèxina Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Burra totu su discu"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Tenis prus de unu discu tostau, cali est ki nci bolis aposentai linux?"
+
+#, fuzzy
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ "Apustis de s'arremesuru de sa pratzidura %s, totu su ki dui at du perdis"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Pratziduramentu discu personalisau"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Imprea fdisk"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "No potzu agatai spàtziu po s'aposentadura"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr ""
+#~ "Su wizard de pratziduramentu DrakX at agatau is solutzionis ki sighint:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Pratziduramentu faddiu: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "No fait a impreai JFS po pratziduras prus piticas de 16MB"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "No fait a impreai ReiserFS po pratziduras prus piticas de 32MB"
+
+#~ msgid "with /usr"
+#~ msgstr "cun /usr"
+
+#~ msgid "server"
+#~ msgstr "server"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Is puntus de càrrigu depint cumetzai cun d-una /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Is puntus de càrrigu iant a bolli de litras e nùmerus feti"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Dui at jai una pratzidura cun puntu de càrrigu in %s\n"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Custa directory iat a bolli lassada in su filesystem root"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Ti serbit unu filesystem beru (ext2/ext3, reiserfs, xfs, or jfs) po custu "
+#~ "puntu de càrrigu\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "No fait a impreai unu filesystem cuau po su puntu de càrrigu %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "No dui at spàtziu abasta po sa aposentadura automàtiga"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Nudda de fai"
+
+#~ msgid "Floppy"
+#~ msgstr "Floppy"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Hard Disk"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "Scriidoris CD/DVD"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Tape"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Controlladoris AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Skeda Vìdeo"
+
+#~ msgid "DVB card"
+#~ msgstr "Skeda DVB"
+
+#~ msgid "Tvcard"
+#~ msgstr "Skeda TV"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Atrus trastus multimedia"
+
+#~ msgid "Soundcard"
+#~ msgstr "Skeda de sonu"
+
+#~ msgid "Webcam"
+#~ msgstr "Webcam"
+
+#~ msgid "Processors"
+#~ msgstr "Processoris"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "Adatadoris ISDN"
+
+#~ msgid "USB sound devices"
+#~ msgstr "Trastus USB po su sonu"
+
+#~ msgid "Radio cards"
+#~ msgstr "Skedas arràdiu"
+
+#~ msgid "ATM network cards"
+#~ msgstr "Skedas de arretza ATM"
+
+#~ msgid "WAN network cards"
+#~ msgstr "Skedas de arretza WAN"
+
+#~ msgid "Bluetooth devices"
+#~ msgstr "Trastus Bluetooth"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Skeda Ethernet"
+
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "Adatadoris ADSL"
+
+#~ msgid "Memory"
+#~ msgstr "Memòria"
+
+#~ msgid "Printer"
+#~ msgstr "Imprentadora"
+
+#~ msgid "Game port controllers"
+#~ msgstr "Controlladoris de sa Porta de Jogu"
+
+#~ msgid "Joystick"
+#~ msgstr "Joystick"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Controlladoris SATA"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Controlladoris RAID"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "Controlladoris (E)IDE/ATA"
+
+#, fuzzy
+#~ msgid "USB Mass Storage Devices"
+#~ msgstr "Trastus USB po su sonu"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Controlladoris Firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "Controlladoris PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "Controlladoris SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Controlladoris USB"
+
+#~ msgid "USB ports"
+#~ msgstr "Portas USB"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Controlladoris SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Pontis e controlladoris de sistema"
+
+#~ msgid "Tablet and touchscreen"
+#~ msgstr "Tablet e touchscreen"
+
+#~ msgid "Mouse"
+#~ msgstr "Sòrixi"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Scannidora"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Disconnotu/Atrus"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Abeta... Àprigu s'assètiu"
+
+#~ msgid "Sound configuration"
+#~ msgstr "Assètiu de su Sonu"
+
+#~ msgid "Driver:"
+#~ msgstr "Driver:"
+
+#~ msgid "No open source driver"
+#~ msgstr "Nisçunu driver open source"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "No dui est unu driver lìberu po sa skeda àudio (%s), ma nci nd'at unu "
+#~ "propiedàriu in \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Nisçunu driver connotu"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "No connosçu driver po sa skeda àudio (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Driver disconnotu"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Disconnotu|Genèrigu"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Disconnotu|CPH05X (bt878) [meda produsidoris]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Disconnotu[CPH06X (bt878) [meda produsidoris]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Po su prus de is skedas TV de oi, su mòdulu bttv de su kernel GNU/Linux "
+#~ "connoscit a solu is paràmetrus justus.\n"
+#~ "Ki no connoscit beni sa skeda, podis fortzai innoi is tipus de tuner e "
+#~ "skeda. Ki serbit, sçobera is paràmetrus de sa skeda tv."
+
+#~ msgid "Card model:"
+#~ msgstr "Modellu de sa skeda:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Tipu de sintonisadori:"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Assètius PLL:"
+
+#~ msgid "Radio support:"
+#~ msgstr "Suportu arràdiu:"
+
+#~ msgid "enable radio support"
+#~ msgstr "abiva su suportu arràdiu"
+
+#~ msgid "Yes"
+#~ msgstr "Eya"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Choose a file"
+#~ msgstr "Sçobera unu file"
+
+#~ msgid "Add"
+#~ msgstr "Açungi"
+
+#~ msgid "Modify"
+#~ msgstr "Muda"
+
+#~ msgid "Remove"
+#~ msgstr "Burra"
+
+#~ msgid "Finish"
+#~ msgstr "Acaba"
+
+#~ msgid "Previous"
+#~ msgstr "Agoa"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Sçoberu malu, torra a provai\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Ita sçoberas? (predefiniu %s)"
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Boxis ki depis preni:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Ita sçoberas? (0/1, predefiniu `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Butoni `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Bolis cricai custu butoni?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Ita sçoberas? (predefiniu `%s'%s)"
+
+#~ msgid "default:LTR"
+#~ msgstr "predefiniu:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Emiraus Aràbius Unius"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistàn"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antìgua e Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Albania"
+#~ msgstr "Albania"
+
+#~ msgid "Armenia"
+#~ msgstr "Armènia"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Antillas Olandesas"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antàrtiga"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentina"
+
+#~ msgid "American Samoa"
+#~ msgstr "Samoa Americana"
+
+#~ msgid "Austria"
+#~ msgstr "Àustria"
+
+#~ msgid "Australia"
+#~ msgstr "Austràlia"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaijàn"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bòsnia e Erzegòvina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Belgium"
+#~ msgstr "Belju"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaria"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolìvia"
+
+#~ msgid "Brazil"
+#~ msgstr "Brasili"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Ìsula Bouvet"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Bielorùssia"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Cànada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Ìsulas Cocos (Keeling)"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Congo (Kinshasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Repùbrica de Centru Àfriga"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Congo (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Svìtzera"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Cote d'Ivoire"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Ìsulas Cook"
+
+#~ msgid "Chile"
+#~ msgstr "Cili"
+
+#~ msgid "Cameroon"
+#~ msgstr "Càmerun"
+
+#~ msgid "China"
+#~ msgstr "Cina"
+
+#~ msgid "Colombia"
+#~ msgstr "Colòmbia"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Serbia & Montenegro"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cabu Birdi"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Ìsula Christmas"
+
+#~ msgid "Cyprus"
+#~ msgstr "Cipru"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Arrepùbriga Ceca"
+
+#~ msgid "Germany"
+#~ msgstr "Germània"
+
+#~ msgid "Djibouti"
+#~ msgstr "Gibuti"
+
+#~ msgid "Denmark"
+#~ msgstr "Danimarca"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Repùbriga Dominigana"
+
+#~ msgid "Algeria"
+#~ msgstr "Algeria"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecuadòr"
+
+#~ msgid "Estonia"
+#~ msgstr "Estònia"
+
+#~ msgid "Egypt"
+#~ msgstr "Egitu"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Sahara"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Spain"
+#~ msgstr "Spannya"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiòpia"
+
+#~ msgid "Finland"
+#~ msgstr "Finlàndia"
+
+#~ msgid "Fiji"
+#~ msgstr "Figi"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Falkland Islands (Malvinas)"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronèsia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Ìsulas Faeroer"
+
+#~ msgid "France"
+#~ msgstr "França"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabòn"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Arrennu Uniu"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Georgia"
+#~ msgstr "Georja"
+
+#~ msgid "French Guiana"
+#~ msgstr "Guyana Frantzesa"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibilterra"
+
+#~ msgid "Greenland"
+#~ msgstr "Groenlàndia"
+
+#~ msgid "Gambia"
+#~ msgstr "Gàmbia"
+
+#~ msgid "Guinea"
+#~ msgstr "Ghinea"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Ghinea Ecuadoriali"
+
+#~ msgid "Greece"
+#~ msgstr "Grexa"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "South Georgia and the South Sandwich Islands"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinea-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Hong Kong SAR (Cina)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Ìsulas Heard e McDonald"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Croàtzia"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Ungheria"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonèsia"
+
+#~ msgid "Ireland"
+#~ msgstr "Irlanda"
+
+#~ msgid "Israel"
+#~ msgstr "Israeli"
+
+#~ msgid "India"
+#~ msgstr "Ìndia"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "British Indian Ocean Territory"
+
+#~ msgid "Iraq"
+#~ msgstr "Iràq"
+
+#~ msgid "Iran"
+#~ msgstr "Iràn"
+
+#~ msgid "Iceland"
+#~ msgstr "Islanda"
+
+#~ msgid "Italy"
+#~ msgstr "Itàlia"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaica"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordània"
+
+#~ msgid "Japan"
+#~ msgstr "Japoni"
+
+#~ msgid "Kenya"
+#~ msgstr "Kènia"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirghìsistan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Camboja"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Comorras"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Saint Kitts and Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Korea (Nord)"
+
+#~ msgid "Korea"
+#~ msgstr "Korea"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuwait"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Ìsulas Cayman"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakhstan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Lìbanu"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Santa Luxia"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Libèria"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lituània"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Lussemburgu"
+
+#~ msgid "Latvia"
+#~ msgstr "Letònia"
+
+#~ msgid "Libya"
+#~ msgstr "Lìbia"
+
+#~ msgid "Morocco"
+#~ msgstr "Marrocu"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldova"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagascàr"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Ìsulas Marshall"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macedònia"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Birmània"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongòlia"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Ìsulas Nord Mariannas"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinique"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritània"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Maurìtziu"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldivas"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Mèssigu"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malèsia"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mosambicu"
+
+#~ msgid "Namibia"
+#~ msgstr "Namìbia"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Caledònia Noa"
+
+#~ msgid "Niger"
+#~ msgstr "Niger"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Ìsula Norfolk"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigèria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaràgua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Olanda"
+
+#~ msgid "Norway"
+#~ msgstr "Norvexa"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "Zelanda Noa"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Pànama"
+
+#~ msgid "Peru"
+#~ msgstr "Perù"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Polinèsia Frantzesa"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Pàpua Ghinea Noa"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipinas"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistàn"
+
+#~ msgid "Poland"
+#~ msgstr "Polònia"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Saint Pierre e Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestina"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugallu"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Romania"
+
+#~ msgid "Russia"
+#~ msgstr "Rùssia"
+
+#~ msgid "Rwanda"
+#~ msgstr "Ruanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Aràbia Saudia"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Ìsulas Salomoni"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Svètzia"
+
+#~ msgid "Singapore"
+#~ msgstr "Singabura"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Sant'Elena"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovènia"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Svalbard e Jan Mayen"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovàkia"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegàl"
+
+#~ msgid "Somalia"
+#~ msgstr "Somàlia"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tomè e Prìncipe"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvadòr"
+
+#~ msgid "Syria"
+#~ msgstr "Sìria"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swaziland"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turks Caicos"
+
+#~ msgid "Chad"
+#~ msgstr "Çad"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Terras Francesas de Mesudì"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Tailàndia"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tagìkistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "Timor Est"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistàn"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunisia"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turkia"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzània"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ucraina"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "United States Minor Outlying Islands"
+
+#~ msgid "United States"
+#~ msgstr "Stadus Unius"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Usbekistàn"
+
+#~ msgid "Vatican"
+#~ msgstr "Vaticanu"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Saint Vincent e Grenadines"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Virgin Islands (British)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Virgin Islands (U.S.)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnàm"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis e Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "South Africa"
+#~ msgstr "Sud Àfriga"
+
+#~ msgid "Zambia"
+#~ msgstr "Zàmbia"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwe"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Beni bènniu a %s"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Cumprimentus, s'aposentadura est acabada.\n"
+#~ "Boga su mèdiu de alluidura e craca return po torrai a allui.\n"
+#~ "\n"
+#~ "\n"
+#~ "Po sciri de ajorronus disponiditzus po custa versioni de Mandriva Linux,\n"
+#~ "ligi is Errata a disposta de:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Imparus po assetiai su sistema funt a disposta in su cabìtulu\n"
+#~ "post install de sa Official Mandriva Linux User's Guide."
+
+#~ msgid "Module configuration"
+#~ msgstr "Assètiu mòdulu"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Podis assetiai dònnia paràmentru de su mòdulu innoi."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Agatadas %s interfacis"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Tenis interfacis %s?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Càstia sa sceda hardware"
+
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Aposentu driver po controlladori USB"
+
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Aposentu driver po controlladori firewire %s"
+
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Aposentu driver po controlladori de discu tostau %s"
+
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Aposentu driver po controlladori ethernet %s"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Faddina ligendi su file %s"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Security"
+#~ msgstr "Siguresa"
+
+#~ msgid "Printing"
+#~ msgstr "Imprenta"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Services"
+#~ msgstr "Serbìtzius"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Serbìtzius: %d abivaus po %d assentaus"
+
+#~ msgid "Info"
+#~ msgstr "Scedas"
+
+#~ msgid "On boot"
+#~ msgstr "A s'alluidura"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "Stop"
+#~ msgstr "Firma"
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "X server"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Sud Àfriga"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Àustria"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Sud Àfriga"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Macedònia"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Sud Àfriga"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Rùssia"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Yugoslàvia"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Andat beni?"
+
+#~ msgid "No file chosen"
+#~ msgstr "Nisçunu file sçoberau"
+
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "As sçoberau unu file, no una directory"
+
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "As sçoberau una directory, no unu file"
+
+#~ msgid "No such directory"
+#~ msgstr "Nisçuna directory de aici"
+
+#~ msgid "No such file"
+#~ msgstr "Nisçunu file de aici"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Allàdia s'arrampili"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Serra s'arrampili"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s no est aposentau\n"
+#~ "Crica \"Sighi\" po aposentai o \"Annudda\" po bessiri"
+
+#~ msgid "Installation failed"
+#~ msgstr "Aposentadura faddia"

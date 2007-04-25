@@ -1,0 +1,5755 @@
+# translation of mt.po to Maltese
+# translation of DrakX-mt.po to Maltese
+# Copyright (C) 2002,2003, 2004 Free Software Foundation, Inc.
+# Ramon Casha <ramon.casha@linux.org.mt>, 2002,2003, 2004.
+# Ramon Casha <rcasha@waldonet.net.mt>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mt\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2004-10-04 18:45+0200\n"
+"Last-Translator: Ramon Casha <ramon.casha@linux.org.mt>\n"
+"Language-Team: Maltese <mt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB jew iżjed"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X server"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Agħżel server X"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Konfigurazzjoni multi-head"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Is-sistema tiegħek tissapporti konfigurazzjoni \"multi-head\".\n"
+"Xi trid tagħmel?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Agħżel id-daqs tal-memorja tal-kard tal-grafika"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Ikkonfigura l-heads kollha independentement"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Uża estensjoni Xinerama"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Ikkonfigura l-kard \"%s\"%s biss"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Personalizzat"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Konfigurazzjoni tal-konnessjoni"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Noħroġ"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Kard grafika"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Skrin"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Reżoluzzjoni"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Ittestja"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Għażliet"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Plagins"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Il-konfigurazzjoni Xorg hija ħażina - se ninjorawha."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Trid iżżomm il-bidliet?\n"
+"Il-konfigurazzjoni kurrenti hija:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Agħżel skrin għal \"head\" #%d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Agħżel skrin"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Ġeneriku"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Manifattur"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Analiżi Plug'n'play falliet. Jekk jogħġbok agħżel monitur speċifiku"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Iż-żewġ parametri kritiċi huma frekwenza vertikali (vertical refresh rate), "
+"li\n"
+"hija r-rata li biha l-iskrin sħiħ jiġi aġġornat, u iżjed importanti il-"
+"frekwenza\n"
+"orizzontali (horizontal refresh rate), li hija r-rata li biha jiġu aġġornati "
+"l-linji.\n"
+"\n"
+"Huwa importanti ħafna li ma tispeċifikax skrin b'rata iżjed mgħaġġla milli\n"
+"kapaċi juri l-iskrin tiegħek, għax tista' tagħmillu l-ħsara.\n"
+"Jekk għandek xi dubju, agħżel valur żgħir."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Frekwenza orizzontali"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Frekwenza vertikali"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Agħżel azzjoni"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 kuluri (8 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 elf kulur (15 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 elf kulur (16 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 miljun kulur (24 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Reżoluzzjonijiet"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Oħrajn"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Agħżel reżoluzzjoni u finezza ta' kuluri"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Kard grafika: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Ikkanċella"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Għajnuna"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Test tal-konfigurazzjoni"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Trid tittestja din il-konfigurazzjoni?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Twissija: it-test ta' din il-kard grafika jista' jwaħħal il-kompjuter"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Inqalgħet problema:\n"
+"%s\n"
+"Ipprova ibdel xi parametri"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Ħiereġ f' %d sekondi"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Dan huwa s-seting tajjeb?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Tqassim tat-tastiera: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Tip ta' maws: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Skrin: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Frek.Orizzontali Skrin: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Frek. Vertikali Skrin: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Kard grafika: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Memorja grafika: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Numru ta' kuluri: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Reżoluzzjoni: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Drajver Xorg: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Konfigurazzjoni Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Kard grafika: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "X fil-bidu"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Nista' nissettja l-kompjuter biex awtomatikament jidħol f' X malli jitla'.\n"
+"Trid ittella' X Windows meta tixgħel?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Il-kard ta' grafika tiegħek donnha għandha konnessjoni TV-OUT.\n"
+"Tista' tiġi kkonfigurata biex taħdem bil-framebuffer.\n"
+"\n"
+"Biex tagħmel dan trid tqabbad il-kard grafika mat-televiżjoni qabel tixgħel "
+"il-kompjuter.\n"
+"Imbagħad agħżel \"TVout\" fil-bootloader.\n"
+"\n"
+"Għandek din il-faċilità?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Liema standard juża t-TV tiegħek?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Ċekk (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Ġermaniż"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Spanjol"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Finlandiż"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Franċiż"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Renju Unit"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norveġiż"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Pollakk"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Russu"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Svediż"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Stati Uniti"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Albaniż"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Armen (antik)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Armen (tajprajter)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Armen (fonetiku)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Għarbi"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Ażeri (latin)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belġjan"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengali (tqassim Inscript)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengali (tqassim Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgaru (fonetiku)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgaru (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brażiljan (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Bożnian"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Bożnian"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Bjelorussu"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Svizzeru (tqassim Ġermaniż)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Svizzeru (tqassim Franċiż)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Għarbi"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Ċekk (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Ġermaniż (bla deadkeys)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagari"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Daniż"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Esperanto)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Norveġiż)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (Norveġiż)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (Svediż)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (Svediż)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonjan"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Grieg"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Ġorġjan (tqassim \"Russu\")"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Ġorġjan (tqassim \"Latin\")"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Grieg"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Grieg (politoniku)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Guġarati"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmukħi"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Kroat"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Ungeriż"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Irlandiż"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Iżraeli"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Iżraeli (fonetiku)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iranjan"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Islandiż"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Taljan"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Ġappuniż 106 buttuna"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kannada"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Kirgiż"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Korean"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Għarbi"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latin Amerikan"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laotjan"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Litwan AZERTY (antik)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Litwan AZERTY (ġdid)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Litwan QWERTY \"number row\""
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Litwan QWERTY fonetiku"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Latvjan"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Malajalam"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Maċedonjan"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Mjanmar (Burmiż)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Mongoljan (ċirilliku)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Malti"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Malti (tqassim US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Olandiż"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Orija"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Pollakk (qwerty)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Pollakk (qwertz)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Pollakk"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portugiż"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Kanadiż (Quebec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Rumen (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Rumen (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Russu (fonetiku)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Sloven"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovakk (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovakk (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (Norveġiż)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saami (svediż/finlandiż)"
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Tajlandiż"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Serb (ċirilliku)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Sirjakk"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Sirjakk (fonetiku)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamil (ISCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamil (tajprajter)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Tajlandiż"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Tajlandiż"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Tajlandiż"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Taġik"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Ġermaniż"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Tork (mudell tradizzjonali \"F\")"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Tork (mudell modern \"Q\")"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukranjan"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Orija"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Tastiera US (internazzjonali)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Użbeki (ċirilliku)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vjetnamiż qwerty \"numeric row\""
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Jugoslav (latin)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Tast Alt tal-lemin"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Iż-żewġ tasti \"shift\" flimkien"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Ctrl u Shift flimkien"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Tast CapsLock"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Shift u CapsLock flimkien"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl u Alt flimkien"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt u Shift flimkien"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Tast Menu"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Tast Windows tax-xellug"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Tast Windows tal-lemin"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Iż-żewġ tasti Ctrl flimkien"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Iż-żewġ tasti Alt flimkien"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Tast Shift tax-xellug"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Tast Shift tal-lemin"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Tast Alt tal-lemin"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Tast Ctrl tax-xellug"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Tast Ctrl tal-lemin"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Hawn tista' tagħżel it-tast jew kombinazzjoni ta' tasti\n"
+"li jħalluk tibdel minn tqassim għal ieħor tat-tastiera \n"
+"(eż. latin u mhux latin)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Twissija"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Din l-għażla tiġi attivata wara l-installazzjoni.\n"
+"Waqt l-installazzjoni, trid tuża t-tast Ctrl tal-lemin\n"
+"biex taqleb minn tqassim għall-ieħor."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Maws - Sun"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Maws bir-rota ġeneriku PS2"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Awtomatiku"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "buttuna waħda"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Ġeneriku 2 buttuni"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Maws ġeneriku bi 3 buttuni u emulazzjoni tar-rota"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Rota"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "serjali"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Ġeneriku 3 buttuni"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan b'emulazzjoni tar-rota"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series b'emulazzjoni tar-rota"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Maws Logitech (serjali, tip C7 antik)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Maws Logitech (serjali, tip C7 antik) b'emulazzjoni tar-rota"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse b'emulazzjoni tar-rota"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 buttuni"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 buttuni"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 buttuni b' emulazzjoni tar-rota"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Universali"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Kwalinkwa maws PS/2 u USB"
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "ebda"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Ebda maws"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Jekk jogħġbok agħżel it-tip tal-maws."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Għażla manwali"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Emula t-tielet buttuna?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Port tal-maws"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Jekk jogħġbok agħżel il-port serjali li miegħu hemm imqabbad il-maws."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Emulazzjoni tal-buttuni"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Emulazzjoni ta' buttuna #2"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Emulazzjoni ta' buttuna #3"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Jekk jogħġbok ittestja l-maws"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Biex tħaddem il-maws"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "MEXXI R-ROTA!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr ""
+"Trid tilloggja 'l barra u terġa' tidħol biex ikollhom effett il-bidliet."
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Tastiera"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Jekk jogħġbok, agħżel it-tqassim tat-tastiera."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Tqassim tat-Tastiera"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Tastiera"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Trid li l-Backspace tirritorna Delete fuq il-konsol?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Ittestja l-maws"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Jekk jogħġbok ittestja l-maws:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "umask tal-utenti"
+
+#~ msgid "Please wait"
+#~ msgstr "Stenna ftit"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Għaddejja l-installazzjoni tal-bootloader"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO jixtieq jassenja ID tal-Volum ġdid għad-drajv %s. Però, li tibdel\n"
+#~ "l-ID tal-Volum ta' diska \"boot\" ta' Windows NT, 2000 jew XP hija "
+#~ "problema\n"
+#~ "kritika għall-Windows.\n"
+#~ "Din it-twissija ma tapplikax għal Windows 95 jew 98, jew għal diski tad-"
+#~ "data tal-NT.\n"
+#~ "\n"
+#~ "Trid tagħti ID tal-Volum ġdid?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "L-installazzjoni tal-bootloader falla. Dan kien il-messaġġ:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Għandek mnejn trid tbiddel is-setings tal-Open Firmware u tbiddel l-\n"
+#~ "apparat tal-boot biex jiffunzjona l-bootloader.  Jekk ma tixtieqx tara\n"
+#~ "l-prompt tal-bootloader meta tirristartja, żomm Command-Option-O-F \n"
+#~ "waqt ir-ristartjar u daħħal:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Imbagħad ittajpja: shut-down\n"
+#~ "Meta jerġa' jitla' għandek tara l-prompt tal-bootloader."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Int għażilt li tinstalla l-bootloader fuq partizzjoni. \n"
+#~ "Dan jimplika li diġà għandek bootloader fuq il-ħard disk mnejn tistartja "
+#~ "(eż: System Commander).\n"
+#~ "\n"
+#~ "Minn fuq liema drajv tistartja?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "L-ewwel settur tal-ħard disk (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "L-ewwel settur tal-partizzjoni root"
+
+#~ msgid "On Floppy"
+#~ msgstr "Fuq Flopi"
+
+#~ msgid "Skip"
+#~ msgstr "Aqbeż"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Installazzjoni LILO/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Fejn tixtieq tinstalla l-\"bootloader\"?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Konfigurazzjoni ta' l-istil ta' boot"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Għażliet prinċipali tal-bootloader"
+
+#~ msgid "Bootloader"
+#~ msgstr "Bootloader"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Liema bootloader tuża"
+
+#~ msgid "Boot device"
+#~ msgstr "Diska/apparat \"boot\""
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Stennija qabel ittella' l-għażla impliċita"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Ippermetti ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Ippermetti ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Ippermetti ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Il-passwords ma jaqblux"
+
+#~ msgid "Please try again"
+#~ msgstr "Erġa' pprova"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "Ma tistax tuża filesystem iċċifrat għall-punt ta' mmuntar %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Password (erġa')"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Irrestrinġi l-għażliet tal-linja tal-kmand"
+
+#~ msgid "restrict"
+#~ msgstr "restrict"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "L-għażla \"irrestrinġi l-għażliet tal-linja tal-kmand\" m'għandha ebda "
+#~ "effett minngħajr password"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Naddaf /tmp kull meta tixgħel"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Daqs eżatt ta' memorja jekk meħtieġ (sibt %d RAM)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Agħti d-daqs tar-RAM f'MB"
+
+#~ msgid "Init Message"
+#~ msgstr "Messaġġ tal-bidu"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Stennija Open Firmware"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Skadenza tal-ħin għall-kernel boot"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Ippermetti boot mis-CD?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Ippermetti Boot OF?"
+
+#~ msgid "Default OS?"
+#~ msgstr "OS Impliċitu?"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Żid fl-aħħar"
+
+#~ msgid "Video mode"
+#~ msgstr "Konfigurazzjoni video"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "Profil tan-network"
+
+#~ msgid "Label"
+#~ msgstr "Isem"
+
+#~ msgid "Default"
+#~ msgstr "Impliċitu"
+
+#~ msgid "NoVideo"
+#~ msgstr "EbdaVideo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Isem vojt mhux aċċettat"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Trid tispeċifika \"image\" tal-kernel"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Trid tispeċifika partizzjoni \"root\""
+
+#~ msgid "This label is already used"
+#~ msgstr "Dan l-isem diġà qed jintuża"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Liema tip ta' sistema operattiva trid iżżid?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "OS ieħor (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "OS ieħor (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "OS ieħor (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Hawn huma l-elementi differenti>\n"
+#~ "Tista' żżid iżjed jew tibdel dawk li hemm."
+
+#~ msgid "access to X programs"
+#~ msgstr "aċċess għall-programmi X"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "aċċess għall-għodda rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "ippermetti \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "aċċess għall-fajls amministrattivi"
+
+#~ msgid "access to network tools"
+#~ msgstr "aċċess għall-għodda tan-network"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "aċċess għall-għodda tal-kompilazzjoni"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(%s diġà miżjud)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Jekk jogħġbok agħti isem ta' user"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "L-isem tal-user jista' jkun fih biss ittri żgħar, numri, \"-\" u \"_\"."
+
+#~ msgid "The user name is too long"
+#~ msgstr "Dan l-isem ta' user huwa twil wisq"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Dan l-isem ta' user diġà jeżisti"
+
+#~ msgid "User ID"
+#~ msgstr "ID tal-utent"
+
+#~ msgid "Group ID"
+#~ msgstr "ID tal-Grupp"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "Għażla %s trid tkun numru!"
+
+#~ msgid "Add user"
+#~ msgstr "Żid user"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Daħħal dettalji ta' user\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Lest"
+
+#~ msgid "Accept user"
+#~ msgstr "Aċċetta user"
+
+#~ msgid "Real name"
+#~ msgstr "Isem veru"
+
+#~ msgid "Login name"
+#~ msgstr "Isem tal-login"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "Stampa"
+
+#~ msgid "Autologin"
+#~ msgstr "Awto-login"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Nista' nissettja l-kompjuter biex awtomatikament jagħmel login fuq user "
+#~ "wieħed."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Trid tuża din il-faċilità?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Agħżel il-user impliċitu:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Agħżel liema \"window manager\" trid tħaddem:"
+
+#~ msgid "License agreement"
+#~ msgstr "Qbil mal-liċenzja"
+
+#~ msgid "Release Notes"
+#~ msgstr "Noti dwar il-ħarġa"
+
+#~ msgid "Accept"
+#~ msgstr "Naċċetta"
+
+#~ msgid "Refuse"
+#~ msgstr "Ma naċċettax"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Agħżel liema lingwa trid tuża."
+
+#~ msgid "Language choice"
+#~ msgstr "Għażla ta' lingwa"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr "Tista' tagħżel lingwi oħra li jkun u disponibbli wara li tinstalla"
+
+#~ msgid "All languages"
+#~ msgstr "Lingwi kollha"
+
+#~ msgid "Country / Region"
+#~ msgstr "Pajjiż"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Jekk jogħġbok agħżel il-pajjiż."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Hawn issib lista sħiħa ta' pajjiżi disponibbli"
+
+#~ msgid "Other Countries"
+#~ msgstr "Pajjiżi oħrajn"
+
+#~ msgid "Advanced"
+#~ msgstr "Avvanzat"
+
+#~ msgid "Input method:"
+#~ msgstr "Metodu ta' input:"
+
+#~ msgid "None"
+#~ msgstr "Ebda"
+
+#~ msgid "No sharing"
+#~ msgstr "Ebda offerti (sharing)"
+
+#~ msgid "Allow all users"
+#~ msgstr "Ippermetti l-users kollha"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Trid tippermetti lill-users li joffru xi direttorji fid-direttorju "
+#~ "personali tagħhom għal fuq in-network?\n"
+#~ "Jekk tippermetti dan, il-users ikunu jistgħu jagħżlu \"Offri\" jew \"Share"
+#~ "\" ġo konqueror jew nautilus.\n"
+#~ "\n"
+#~ "\"Personalizzat\" jippermetti setings għal kull user.\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr ""
+#~ "NFS: sistema ta' qsim ta' fajls tradizzjonali Unix, b'inqas sapport fuq "
+#~ "Mac u Windows."
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: sistema ta' qsim ta' fajls użata minn Windows, Mac OSX u diversi "
+#~ "sistemi moderni ta' Linux."
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr "Tista' toffri direttorji bl-NFS jew SMB. Liema trid?"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Ħaddem userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Agħlaq"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Id-direttorju offruti (file sharing) għall-users juża l-\n"
+#~ "grupp \"fileshare\". Tista' tuża userdrake biex iżżid\n"
+#~ "users ma' dan il-grupp."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Jekk jogħġbok oħroġ mid-desktop u agħfas Ctrl-Alt-Backspace"
+
+#~ msgid "Timezone"
+#~ msgstr "Żona tal-ħin"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Liem hi ż-żona orarja tiegħek?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Arloġġ tal-kompjuter issettjat GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Arloġġ tal-kompjuter issettjat GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "Server NTP"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Sinkronizzazzjoni tal-ħin awtomatiku (permezz ta' NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "Fajl lokali"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Dominju tal-Windows"
+
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Active Directory b' SFU"
+
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Active Directory b' Winbind"
+
+#~ msgid "Local file:"
+#~ msgstr "Fajl lokali:"
+
+#~ msgid ""
+#~ "Use local for all authentication and information user tell in local file"
+#~ msgstr ""
+#~ "Uża lokali biex iżżomm l-awtentikazzjoni kollha u l-informazzjoni dwar l-"
+#~ "utenti ġo fajl lokali"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "Jgħid lill-kompjuter juża LDAP għall-awtentikazzjoni kollha jew kważi "
+#~ "kollha. LDAP jgħaqqad ċerti tipi ta' informazzjoni fl-għaqda jew ditta."
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "Jippermettilek tħaddem grupp ta' kompjuters fl-istess dominju NIS b'fajls "
+#~ "tal-password u gruppi komuni."
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Dominju tal-Windows:"
+
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "Winbind iħalli s-sistema tikseb informazzjoni u tawtentika users "
+#~ "f'dominju tal-Windows."
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Active Directory b' SFU:"
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Active Directory b' Winbind:"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Awtentikazzjoni LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "DN bażi LDAP"
+
+#~ msgid "LDAP Server"
+#~ msgstr "Server LDAP"
+
+#~ msgid "simple"
+#~ msgstr "sempliċi"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "tqassim tas-sigurtà (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Awtentikazzjoni Active Directory"
+
+#~ msgid "Domain"
+#~ msgstr "Dominju"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "LDAP users database"
+#~ msgstr "Databażi ta' utenti LDAP"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "Uża BIND anonimu "
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "Utent LDAP jitħalla jibbrawżja l-Active Directory"
+
+#~ msgid "Password for user"
+#~ msgstr "Password għall-utent"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Awtentikazzjoni NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Dominju NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Server NIS"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Biex dan jaħdem għal PDC tal-W2K, aktarx ikollok bżonn lill-amministratur "
+#~ "iħaddem: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" "
+#~ "everyone /add u jirristartja s-server.\n"
+#~ "Ikollok bżonn ukoll isem l-utent u password ta' Amministratur tad-Dominju "
+#~ "biex tingħaqad mad-dominju Windows(TM).\n"
+#~ "Jekk in-network għadu ma ġiex imtella', Drakx jipprova jingħaqad mad-"
+#~ "dominju wara l-issettjar tan-network.\n"
+#~ "Jekk dan il-pass ifalli għal xi raġuni u l-awtentikazzjoni tad-dominju "
+#~ "m'hux jaħdem, ħaddem \"smbpasswd -j DOMINJU -U UTENT%%PASSWORD' u uża d-"
+#~ "dominju, utent u password tal-amministratur tad-dominju tal-Windows(TM), "
+#~ "wara li titla' l-magna.\n"
+#~ "Il-kmand \"wbinfo -t\" jittestja jekk is-sigrieti ta' awtentikazzjoni "
+#~ "humiex tajbin."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Awtentikazzjoni Dominju Windows"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "User ta' amministrazzjoni tad-dominju"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Password ta' amministrazzjoni tad-dominju"
+
+#~ msgid "Authentication"
+#~ msgstr "Awtentikazzjoni"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Issettja l-password ta' \"root\""
+
+#~ msgid "Authentication method"
+#~ msgstr "Metodu ta' awtentikazzjoni"
+
+#~ msgid "No password"
+#~ msgstr "Ebda password"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "Dan il-password qasir wisq (irid ikun twil tal-inqas %d ittri)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Ma nistax nuża \"broadcast\" minngħajr dominju NIS"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Merhba ghall-ghazla ta' sistema operattiva\n"
+#~ "\n"
+#~ "Aghzel sistema operattiva mil-lista ta' fuq, jew\n"
+#~ "stenna ghall-ghazla implicita\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO b'menu testwali"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "M'hemmx biżżejjed spazju fuq /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Ma tistax tinstalla l-bootloader fil-partizzjoni %s\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "Il-konfigurazzjoni tal-bootloader trid tiġi aġġornata għax il-partizzjoni "
+#~ "inbidlilha n-numru"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "Il-bootloader ma jistax jiġi nstallat sew. Trid tibbutja \"rescue\" u "
+#~ "tagħżel \"%s\""
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Erġa' Installa bootloader"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minuti"
+
+#~ msgid "1 minute"
+#~ msgstr "minuta"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d sekondi"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV huwa protokoll li jħallik timmonta d-direttorju ta' webserver\n"
+#~ "lokalment u tittrattah bħala filesystem lokali (dejjem jekk il-webserver\n"
+#~ "huwa ssettjat bħala server WebDAV). Jekk tixtieq iżżid punti ta' mmuntar\n"
+#~ "WebDAV, agħżel \"Ġdid\"."
+
+#~ msgid "New"
+#~ msgstr "Ġdid"
+
+#~ msgid "Unmount"
+#~ msgstr "Żmonta"
+
+#~ msgid "Mount"
+#~ msgstr "Immonta"
+
+#~ msgid "Mount point"
+#~ msgstr "Post għall-immontar"
+
+#~ msgid "Error"
+#~ msgstr "Problema"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Jekk jogħġbok daħħal il-URL tas-server WebDAV"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "Il-URL irid jibda' b' http:// jew https://"
+
+#~ msgid "Server: "
+#~ msgstr "Server: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Punt ta' mmuntar: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Għażliet: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Partizzjonament"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Aqra sew!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Ħu kopja tad-data kollha qabel tkompli"
+
+#~ msgid "Exit"
+#~ msgstr "Oħroġ"
+
+#~ msgid "Continue"
+#~ msgstr "Kompli"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Jekk bi ħsiebek tuża aboot, kun ċert li tħalli spazju fil-bidu tad-diska "
+#~ "(2048 setturi biżżejjed)"
+
+#~ msgid "Choose action"
+#~ msgstr "Agħżel azzjoni"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Għandek partizzjoni waħda kbira Microsoft Windows.\n"
+#~ "Nissuġġerixxi li l-ewwel iċċekken dik il-partizzjoni\n"
+#~ "(klikkja fuqha, u agħfas \"ibdel daqs\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Jekk jogħġbok klikkja fuq partizzjoni"
+
+#~ msgid "Details"
+#~ msgstr "Dettalji"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Ebda ħard disk ma nstab!"
+
+#~ msgid "Unknown"
+#~ msgstr "Mhux magħruf"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Journalised FS"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Vojt"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Tipi ta' filesystem"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Din il-partizzjoni ma tistax tinbidel id-daqs tagħha"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "L-ewwel agħfas \"żmonta\""
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Uża \"%s\" minnflok"
+
+#~ msgid "Type"
+#~ msgstr "Tip"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Agħżel partizzjoni oħra"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Agħżel partizzjoni"
+
+#~ msgid "Undo"
+#~ msgstr "Annulla"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Lura f'modalità normali"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Idħol f'modalità għal esperti"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Konfigurazzjoni"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Trid tkompli xorta?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Oħroġ minngħajr ma tikteb"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Trid toħroġ minngħajr ma tikteb it-tabella tal-partizzjonijiet?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Trid tikteb il-modifiki għal /etc/fstab"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Trid tirristartja sabiex il-bidliet fit-tabella tal-partizzjonijiet "
+#~ "ikollhom effett."
+
+#~ msgid "Clear all"
+#~ msgstr "Neħħi kollox"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Awto-allokazzjoni"
+
+#~ msgid "More"
+#~ msgstr "Iżjed"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Informazzjoni dwar il-ħard disk"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Il-partizzjonijiet primarji kollha mimlijin"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Ma nistax inżid iżjed partizzjonijiet"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Biex iżżid iżjed partizzjonijiet, trid tħassar waħda milli hemm biex tkun "
+#~ "tista' toħloq partizzjoni estiża"
+
+#~ msgid "Save partition table"
+#~ msgstr "Ikteb it-tabella ta' partizzjonijiet"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Erġa' tella' tabella ta' partizzjonijiet"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Salva tabella ta' partizzjonijiet"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Erġa' aqra t-tabella ta' partizzjonijiet"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Awtomuntar ta' diski li jinħarġu"
+
+#~ msgid "Select file"
+#~ msgstr "Agħżel fajl"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Il-kopja tat-tabella tal-partizzjonijiet m'għandiex l-istess daqs.\n"
+#~ "Tkompli xorta?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Qed nipprova nsalva t-tabella ta' partizzjonijiet"
+
+#~ msgid "Detailed information"
+#~ msgstr "Informazzjoni dettaljata"
+
+#~ msgid "Resize"
+#~ msgstr "Ibdel daqs"
+
+#~ msgid "Format"
+#~ msgstr "Formattja"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Żid ma' RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Żid ma' LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Ħassar"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Neħħi mir-RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Neħħi mill-LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Biddel RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Uża bħala loopback"
+
+#~ msgid "Create"
+#~ msgstr "Oħloq"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Oħloq partizzjoni ġdida"
+
+#~ msgid "Start sector: "
+#~ msgstr "Settur tal-bidu: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Daqs f' MB: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Tip ta' filesystem: "
+
+#~ msgid "Preference: "
+#~ msgstr "Preferenzi: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Isem tal-volum loġiku"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Ma nistax noħloq partizzjoni ġdida\n"
+#~ "(għax ilħaqt il-limitu ta' partizzjonijiet primarji).\n"
+#~ "L-ewwel neħħi partizzjoni primarja u oħloq partizzjoni estiża."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Trid tneħħi l-fajl ta' loopback?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "Jekk tibdel it-tip ta' partizzjoni %s, l-informazzjoni kollha li hemm "
+#~ "fuqha tintilef"
+
+#~ msgid "Change partition type"
+#~ msgstr "Ibdel tip ta' partizzjoni"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Liema filesystem trid?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Qed nibdel minn ext2 għal ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Isem"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Fejn trid timmonta l-fajl ta' loopback %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Fejn trid timmonta d-diska %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Ma nistax inneħħi l-punt ta' mmuntar għax din il-partizzjoni qed tintuża "
+#~ "għal loopback.\n"
+#~ "L-ewwel neħħiha minn loopback"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Fejn trid timmonta %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Qed nibdel id-daqs"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Qed nikkalkula l-limiti tal-filesystem FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Din il-partizzjoni ma tistax tinbidel id-daqs tagħha"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr ""
+#~ "L-informazzjoni kollha fuq din il-partizzjoni għandha tiġi kkupjata fuq "
+#~ "kopja tas-sigurtà"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Wara li tibdel id-daqs tal-partizzjoni %s, l-informazzjoni kollha fuqha "
+#~ "tintilef"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Agħżel id-daqs il-ġdid"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Daqs ġdid f'MB: "
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Biex tassigura l-integrità tad-data wara li tibdel id-daqs tal-partizzjoni"
+#~ "(jiet),\n"
+#~ "se jiġu ċċekkjati l-filesystems meta terġa' tibbutja l-Windows(TM)"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Agħżel RAID eżistenti biex iżżid miegħu"
+
+#~ msgid "new"
+#~ msgstr "ġdid"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Agħżel LVM eżistenti biex iżżid miegħu"
+
+#~ msgid "LVM name?"
+#~ msgstr "Isem tal-LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Din il-partizzjoni ma tistax tintuża għal loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Isem ta' fajl għal loopback: "
+
+#~ msgid "Give a file name"
+#~ msgstr "Agħti isem ta' fajl"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Fajl diġà qed jintuża minn loopback ieħor, agħżel ieħor"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Fajl diġà jeżisti. Tuża lilu?"
+
+#~ msgid "Mount options"
+#~ msgstr "Għażliet għall-immuntar"
+
+#~ msgid "Various"
+#~ msgstr "Varji"
+
+#~ msgid "device"
+#~ msgstr "apparat"
+
+#~ msgid "level"
+#~ msgstr "livell"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "daqs ta' \"chunk\" f' KiB"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Oqgħod attent: dan il-proċess huwa perikoluż."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "X'tip ta' partizzjoni?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Trid tirristartja sabiex il-bidliet ikollhom effett."
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr ""
+#~ "It-tabella tal-partizzjonijiet tad-diska %s se tinkiteb fuq id-diska."
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Wara li tifformattja l-partizzjoni %s, l-informazzjoni kollha fuqha "
+#~ "tintilef."
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Trid tiċċekkja għal blokki ħżiena?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Mexxi fajls għal partizzjoni ġdida"
+
+#~ msgid "Hide files"
+#~ msgstr "Aħbi fajls"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Qed jitmexxew il-fajls għal partizzjoni ġdida"
+
+#~ msgid "Copying %s"
+#~ msgstr "Qed nikkopja %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Qed inneħħi %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "partizzjoni %s issa magħrufa bħala %s"
+
+#~ msgid "Device: "
+#~ msgstr "Apparat: "
+
+#~ msgid "Volume label: "
+#~ msgstr "Isem il-volum: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Ittra tad-diska fid-DOS: %s (probabbli)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Tip: "
+
+#~ msgid "Name: "
+#~ msgstr "Isem: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Bidu: settur %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Daqs: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s setturi"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Ċilindri %d sa %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Formattjat\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Mhux formattjat\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Immuntat\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Fajl/s ta' loopback:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Partizzjoni li tibda' impliċitament\n"
+#~ "    (għad-DOS/Windows, mhux għal-lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Livell %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Daqs ta' \"chunk\" %d KiB\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Diski RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Isem ta' fajl loopback: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Aktarx, din il-partizzjoni\n"
+#~ "hija partizzjoni ta' Driver,\n"
+#~ "jaqbillek tħalliha kif inhi.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Din il-partizzjoni speċjali\n"
+#~ "\"bootstrap\" qegħda biex\n"
+#~ "tagħżel OS meta tixgħel.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Jinqara biss"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Daqs: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Ġeometrija: %s ċilindri, %s heads, %s setturi\n"
+
+#~ msgid "Info: "
+#~ msgstr "Info: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Diski LVM %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Tip ta' tabella tal-partizzjonijiet: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "fuq kanal %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Ċavetta taċ-ċifrazzjoni tal-filesystem (password)"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Agħżel ċavetta għaċ-ċifrazzjoni tal-filesystem"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Din iċ-ċavetta taċ-ċifrazzjoni huwa sempliċi wisq (irid ikun twil tal-"
+#~ "inqas %d ittri)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Iċ-ċifrarji ma jaqblux"
+
+#~ msgid "Encryption key"
+#~ msgstr "Ċavetta taċ-ċifrazzjoni"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Ċavetta taċ-ċifrazzjoni (darb' oħra)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Algoritmu ta' ċifrazzjoni"
+
+#~ msgid "Change type"
+#~ msgstr "Ibdel tip"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Ma nistax nilloggja bil-user \"%s\" (password ħażin?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Awtentikazzjoni tad-dominju meħtieġ"
+
+#~ msgid "Which username"
+#~ msgstr "Liema user"
+
+#~ msgid "Another one"
+#~ msgstr "Ieħor"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Jekk jogħġbok daħħal il-user, password u dominju biex taċċessa dan il-"
+#~ "kompjuter"
+
+#~ msgid "Username"
+#~ msgstr "User"
+
+#~ msgid "Search servers"
+#~ msgstr "Fittex servers"
+
+#~ msgid "Search new servers"
+#~ msgstr "Fittex servers ġodda"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Irid jiġi nstallat il-pakkett %s. Tridni ninstallah?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Ma stajtx ninstalla il-pakkett %s!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Pakkett meħtieġ %s huwa nieqes"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Dawn il-pakketti jridu jiġu nstallati:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Qed ninstalla pakketti..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Qed jitneħħew pakketti..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Instabet problema - ebda apparat validu ma nstab fejn jinħolqu "
+#~ "filesystems ġodda. Iċċekkja l-kompjuter għall-kawża ta' din il-problema."
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Għandek bżonn partizzjoni FAT immuntata fuq /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Qed nifformattja partizzjoni %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Qed noħloq u nifformattja fajl %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Ma nafx kif nifformattja %s b'tip %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s formattjar ta' %s falla"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Muntaġġ ċirkolari %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Qed nimmonta partizzjoni %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "immuntar ta' partizzjoni %s fid-direttorju %s falla"
+
+#~ msgid "Checking %s"
+#~ msgstr "Qed niċċekkja %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "problema fl-iżmuntar ta' %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Qed nixgħel partizzjoni swap %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr "Ma tistax tuża filesystem iċċifrat għall-punt ta' mmuntar %s"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Taġġornax ħinijiet ta' aċċess fuq din is-sistema ta' fajls\n"
+#~ "(eż, għal aċċess iżjed malajr fid-direttorju spool ta' news server)."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Jista' biss jiġi mmuntat espliċitament (i.e.,\n"
+#~ "l-għażla -a ma jimmontax din is-sistema ta' fajls)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr ""
+#~ "Tinterpretax apparat speċjali ta' karattri jew blokk fuq is-sistema ta' "
+#~ "fajls."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Tħallix it-tħaddim ta' programmi minn fuq din is-sistema ta' fajls. Din l-"
+#~ "għażla\n"
+#~ "tista' tkun utli fuq server li għandu binarji għal arkitettura differenti."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Tippermettix li l-bits set-user-identifier jew set-group-identifier \n"
+#~ "ikollhom effett. (Dan jidher bla problemi, imma fil-fatt jista' joħloq "
+#~ "problemi\n"
+#~ "jekk għandek suidperl(1) installat)"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Immonta s-sistema ta' fajls tinqara biss."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "L-I/O fuq is-sistema ta' fajls għandu jsir b'mod sinkronu."
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Agħti aċċess għall-ktib lil utenti normali"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Agħti aċċess għall-qari lil utenti normali"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Punt ta' mmuntar doppju %s"
+
+#~ msgid "No partition available"
+#~ msgstr "m'hemmx partizzjonijiet disponibbli"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Qed niskannja partizzjonijiet biex insib punti ta' mmuntar"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Agħżel punti ta' mmuntar"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Agħżel liema partizzjonijiet trid tifformattja"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Ma rnexxielix jiċċekkja l-filesystem %s. Trid issewwi l-problemi? "
+#~ "(attent, tista' titlef informazzjoni)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "M'hemmx biżżejjed swap biex issir l-installazzjoni, jekk jogħġbok żid ftit"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Għandek bżonn partizzjoni \"root\".\n"
+#~ "Għal dan l-ewwel oħloq partizzjoni (jew agħżel waħda eżistenti)\n"
+#~ "Imbagħad agħżel \"Punt ta' mmuntar\" u ssettjah għal \"/\""
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "M'għandekx partizzjoni \"swap\".\n"
+#~ "\n"
+#~ "Trid tkompli xorta?"
+
+#~ msgid "Use free space"
+#~ msgstr "Uża l-ispazju vojt"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr ""
+#~ "M'hemmx biżżejjed spazju vojt biex jinħolqu l-partizzjonijiet il-ġodda"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Uża partizzjoni eżistenti"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "M'hemmx partizzjonijiet eżistenti x'nuża"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Uża l-partizzjoni tal-Microsoft Windows® għal loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Liema partizzjoni trid tuża għal Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Agħżel id-daqsijiet"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Daqs tal-partizzjoni root f' MB: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Daqs tal-partizzjoni Swap f' MB: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "M'hemmx partizzjonijiet FAT biex tintuża bħala loopback (jew m'hemmx\n"
+#~ "biżżejjed spazju)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Uża l-ispazju vojt fil-partizzjoni tal-Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Liema partizzjoni trid tibdlilha d-daqs?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Il-programm biex tibdel id-daqs ta' partizzjoni FAT m'hux\n"
+#~ "kapaċi tbiddel din il-partizzjoni - instabet din il-problema:\n"
+#~ "%s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Qed jiġi kalkulat id-daqs tal-partizzjoni Microsoft Windows®"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Il-partizzjoni tal-Microsoft Windows® hija mgerfxa wisq. Jekk jogħġbok "
+#~ "ħaddem \"defrag\"."
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "TWISSIJA!\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX issa se jbiddel id-daqs tal-partizzjoni Windows.\n"
+#~ "\n"
+#~ "\n"
+#~ "Oqgħod attent: dan il-proċess huwa perikoluż. Jekk għadek m'għamiltx dan, "
+#~ "jaqbillek l-ewwel toħroġ mill-proċess tal-installazzjoni, tħaddem "
+#~ "\"scandisk\" mill-\"command prompt\" tal-Windows u idejalment  anke "
+#~ "\"defrag\", u mbagħad terġa' tibda l-installazzjoni. Int  rakkomandat "
+#~ "ukoll li tieħu kopja tas-sigurtà tal-informazzjoni  importanti.\n"
+#~ "\n"
+#~ "\n"
+#~ "Meta tkun ċert, agħfas %s."
+
+#~ msgid "Next"
+#~ msgstr "Li jmiss"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "X'daqs trid iżżomm għall-windows fuq"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Daqs: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Qed nikkalkula l-limiti tal-filesystem tal-Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Bdil tad-daqs FAT falla: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "M'hemmx partizzjonijiet FAT biex tibdel id-daqs (jew m'hemmx biżżejjed "
+#~ "spazju)."
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Neħħi l-Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Ħassar kull m'hemm fid-diska"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Għandek iżjed minn ħard disk waħda. Fuq liema trid tinstalla l-Linux?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ "Il-partizzjonijiet kollha fuq id-diska %s u l-informazzjoni ta' ġo fihom "
+#~ "se jintilfu"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Partizzjonament personalizzat"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Uża fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Tista' tippartizzjona %s.\n"
+#~ "X'ħin tlesti, tinsiex tikteb il-bidliet billi tittajpja \"w\"."
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Ma nistax insib spazju fejn ninstalla."
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "Is-saħħar ta' partizzjonament DrakX sab dawn is-soluzzjonijiet:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Partizzjonament falla: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Ma tistax tuża JFS għal partizzjonijiet iżgħar minn 16MB"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Ma tistax tuża ReiserFS għal partizzjonijiet iżgħar minn 32MB"
+
+#~ msgid "with /usr"
+#~ msgstr "b' /usr"
+
+#~ msgid "server"
+#~ msgstr "server"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Ma nistax naqra t-tabella tal-partizzjonijiet għall-apparat %s, hija \n"
+#~ "korrotta wisq. Nista' nkompli billi nħassar partizzjonijiet ħżiena \n"
+#~ "(L-INFORMAZZJONI KOLLHA tintilef). L-alternattiva hi li ma tħallix \n"
+#~ "lill DrakX ibiddel it-tabella tal-partizzjonijiet (il-problema hi \n"
+#~ "%s)\n"
+#~ "\n"
+#~ "Trid titlef il-partizzjonijiet kollha?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Punti ta' mmuntar iridu jibdew b' /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Punti tal-immunar jista' jkun fihom biss ittri u numri"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Diġà hemm partizzjoni b'punt ta' mmuntar %s\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Int għażilt partizzjoni software-RAID bħala root (/).\n"
+#~ "Ebda bootloader m'hu kapaċi jħaddem dan mingħajr partizzjoni /boot.\n"
+#~ "Għalhekk aċċerta li jkollok partizzjoni /boot mhux fuq ir-RAID."
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "Ma tistax tuża volum loġiku LVM għall-punt ta' mmuntar %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Int għażilt volum loġiku LVM bħala root (/).\n"
+#~ "Ebda bootloader m'hu kapaċi jħaddem dan mingħajr partizzjoni /boot.\n"
+#~ "Għalhekk aċċerta li jkollok partizzjoni /boot mhux fuq ir-RAID."
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Dan id-direttorju irid jibqa' fil-filesystem root."
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Għandek bżonn filesystem vera (ext2/ext3, reiserfs, xfs jew jfs) għal dan "
+#~ "il-punt ta' mmuntar\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "Ma tistax tuża filesystem iċċifrat għall-punt ta' mmuntar %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "M'hemmx biżżejjed spazju għal awto-allokazzjoni"
+
+#~ msgid "Nothing to do"
+#~ msgstr "M'hemm xejn x'nagħmel"
+
+#~ msgid "Floppy"
+#~ msgstr "Flopi"
+
+#~ msgid "Zip"
+#~ msgstr "Żip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Diska"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD burners"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Tejp"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Kontrollaturi AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Kard tal-video"
+
+#~ msgid "Tvcard"
+#~ msgstr "Kard TV"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Tagħmir multimedia ieħor"
+
+#~ msgid "Soundcard"
+#~ msgstr "Kard awdjo"
+
+#~ msgid "Webcam"
+#~ msgstr "Webcam"
+
+#~ msgid "Processors"
+#~ msgstr "Proċessaturi"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "Kard ISDN"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Kard Ethernet"
+
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "ADSL kard"
+
+#~ msgid "Memory"
+#~ msgstr "Memorja"
+
+#~ msgid "Printer"
+#~ msgstr "Printer"
+
+#~ msgid "Joystick"
+#~ msgstr "Ġojstik"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Kontrollaturi SATA"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Kontrollaturi RAID"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "Kontrollaturi (E)IDE/ATA"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Kontrollaturi tal-firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "Kontrollaturi PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "Kontrollaturi SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Kontrollaturi USB"
+
+#~ msgid "USB ports"
+#~ msgstr "Ports USB"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Kontrollaturi SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Bridges u kontrollaturi tas-sistema"
+
+#~ msgid "Mouse"
+#~ msgstr "Maws"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Skaner"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Mhux magħruf/oħrajn"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Stenna ftit... qed napplika l-konfigurazzjoni"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Ebda drajver alternattiv"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "M'hemm ebda drajver alternattiv OSS/ALSA għall-kard awdjo tiegħek (%s) li "
+#~ "bħalissa tuża \"%s\""
+
+#~ msgid "Sound configuration"
+#~ msgstr "Konfigurazzjoni tal-awdjo"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Hawn tista' tagħżel drajver alternattiv  (OSS jew ALSA) għall-kard awdjo "
+#~ "tiegħek (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Il-kard tiegħek tuża d-drajver %s\"%s\" (id-drajver impliċitu għall-kard "
+#~ "tiegħekhuwa \"%s\")."
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Open Sound System) kien l-ewwel API tal-awdjo. Huwa API indipendenti "
+#~ "mis-sistema operattiva (huwa disponibbli fuq diversi forom ta' UNIX(tm)) "
+#~ "imma huwa API bażiku u limitat ħafna.\n"
+#~ "Apparti minn dan, id-drajvers tal-OSS kollha jirrepetu ħafna affarijiet.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) hija arkitettura modulari li "
+#~ "jissapportja ħafna kards ISA, USB u PCI.\n"
+#~ "\n"
+#~ "Hija tipprovdi API ħafna iżjed komprensiv mill-OSS.\n"
+#~ "Biex tuża l-ALSA, tista' tuża:\n"
+#~ "- l-API qadim għall-kompatibbiltà mal-OSS\n"
+#~ "- l-API il-ġdid li jipprovdi diversi faċilitajiet ġodda imma jiħtieġ l-"
+#~ "użu tal-libreriji l-ġodda ALSA.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Drajver:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Identifikazzjoni ta' problemi"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Id-drajver \"%s\" antik huwa mmarkat li hu ħażin.\n"
+#~ "\n"
+#~ "Huwa rrapportat li jikkawża problemi fil-kernel waqt it-tneħħija.\n"
+#~ "\n"
+#~ "Id-drajver il-ġdid \"%s\" jintuża biss għall-istartjar li jmiss."
+
+#~ msgid "No open source driver"
+#~ msgstr "Ebda drajver sors miftuħ"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "M'hemm ebda drajver ab'xejn OSS/ALSA għall-kard awdjo tiegħek (%s),imma "
+#~ "hemm drajver propjetarju f' \"%s\""
+
+#~ msgid "No known driver"
+#~ msgstr "Ebda drajver magħruf"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "M'hemm ebda drajver magħruf għall-kard awdjo tiegħek (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Drajver mhux magħruf"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Problema: Id-drajver %s għall-kard awdjo tiegħek mhux elenkat"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Sib problemi fl-awdjo"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "It-tester klassiku ta' bugs ta' l-awdjo se jħaddem dawn il-kmandijiet:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" jgħidlek liema drajver juża "
+#~ "impliċitament\n"
+#~ "il-kard tiegħek.\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" jgħidlek liema drajver juża "
+#~ "bħalissa\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" jippermettilek tiċċekkja jekk il-modulu (drajver) hux\n"
+#~ "imtella' jew le.\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" u \"/sbin/chkconfig --list alsa\" \n"
+#~ "jgħidulek jekk is-servizzi sound u alsa humiex konfigurati biex jitilgħu\n"
+#~ "f'initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" jgħidlek jekk il-volum tal-awdjo hux mitfu jew le\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" jgħidlek liema programm qed juża l-kard\n"
+#~ "tal-awdjo.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Ħallini nagħżel drajver ieħor"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Agħżel drajver arbitrarju"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Jekk taħseb li taf liema drajver huwa dak adattat għall-kard tiegħek,\n"
+#~ "tista' tagħżel wieħed mil-lista ta' fuq.\n"
+#~ "\n"
+#~ "Id-drajver kurrenti għall-kard awdjo \"%s\" tiegħek huwa \"%s\"."
+
+#~ msgid "Auto-detect"
+#~ msgstr "Għarfien awtomatiku"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Mhux magħruf/Ġeneriku"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Mhux magħruf|CPH05X (bt878) [diversi manifatturi]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Mhux magħruf|CPH06X (bt878) [diversi manifatturi]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Għal ħafna kards tat-TV moderni, il-modulu bttv tal-kernel GNU/Linux "
+#~ "awtomatikament isib il-parametri tajba.\n"
+#~ "Jekk il-kard ma tingħarafx sew, tista' ġġegħlu jieħu t-tuner u kard it-"
+#~ "tajba minn hawn. Sempliċiment agħżel il-kard u parametri jekk meħtieġa."
+
+#~ msgid "Card model:"
+#~ msgstr "Mudell tal-kard :"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Tip ta' tuner :"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Numru ta' buffers għall-kattura :"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "numru ta' buffers għall-kattura mmapp"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Seting PLL :"
+
+#~ msgid "Radio support:"
+#~ msgstr "Sapport għar-radju :"
+
+#~ msgid "enable radio support"
+#~ msgstr "ippermetti sapport għal radju"
+
+#~ msgid "Yes"
+#~ msgstr "Iva"
+
+#~ msgid "No"
+#~ msgstr "Le"
+
+#~ msgid "Choose a file"
+#~ msgstr "Agħżel fajl"
+
+#~ msgid "Add"
+#~ msgstr "Żid"
+
+#~ msgid "Modify"
+#~ msgstr "Biddel"
+
+#~ msgid "Remove"
+#~ msgstr "Neħħi"
+
+#~ msgid "Finish"
+#~ msgstr "Spiċċa"
+
+#~ msgid "Previous"
+#~ msgstr "Ta' qabel"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Għażla ħażina, erġa' pprova\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "L-għażla tiegħek? (impliċita: %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Elementi li trid timla':\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "L-għażla tiegħek? (0/1, impliċitu: %s) "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Buttuna \"%s\": %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Trid tikklikkja din il-buttuna?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "L-għażla tiegħek? (impliċita: \"%s\"%s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr "daħħal \"void\" għal element vojt"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Hemm ħafna affarijiet minn xiex tagħżel (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Jekk jogħġbok agħżel l-ewwel numru minn dawn l-għaxra li trid tbiddel, "
+#~ "jew agħfas Enter biex tkompli.\n"
+#~ "X'tagħżel?"
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Nota, l-isem inbidel:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Erġa' ssottometti"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Emirati Għarab Magħquda"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigwa u Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Angwilla"
+
+#~ msgid "Albania"
+#~ msgstr "Albanija"
+
+#~ msgid "Armenia"
+#~ msgstr "Armenija"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Netherlands Antilles"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarktika"
+
+#~ msgid "Argentina"
+#~ msgstr "Arġentina"
+
+#~ msgid "American Samoa"
+#~ msgstr "Samoa Amerikana"
+
+#~ msgid "Austria"
+#~ msgstr "Awstrija"
+
+#~ msgid "Australia"
+#~ msgstr "Awstralja"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Ażerbajġan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bożnija u Ħerżegovina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladexx"
+
+#~ msgid "Belgium"
+#~ msgstr "Belġju"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgarija"
+
+#~ msgid "Bahrain"
+#~ msgstr "Baħrein"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunej Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivja"
+
+#~ msgid "Brazil"
+#~ msgstr "Brażil"
+
+#~ msgid "Bahamas"
+#~ msgstr "Baħamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Butan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Gżira Bouvet"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Bjelorussja"
+
+#~ msgid "Belize"
+#~ msgstr "Beliż"
+
+#~ msgid "Canada"
+#~ msgstr "Kanada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Gżejjer Cocos (Keeling)"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Kongo (Kinxasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Repubblika Ċentrali Afrikana"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Kongo (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Svizzera"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Kosta tal-Avorju"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Gżejjer Cook"
+
+#~ msgid "Chile"
+#~ msgstr "Ċilè"
+
+#~ msgid "Cameroon"
+#~ msgstr "Kamerun"
+
+#~ msgid "China"
+#~ msgstr "Ċina"
+
+#~ msgid "Colombia"
+#~ msgstr "Kolombja"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Kosta Rika"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Serbja u Montenegro"
+
+#~ msgid "Cuba"
+#~ msgstr "Kuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cape Verde"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Gżira Christmas"
+
+#~ msgid "Cyprus"
+#~ msgstr "Ċipru"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Repubblika Ċeka"
+
+#~ msgid "Germany"
+#~ msgstr "Ġermanja"
+
+#~ msgid "Djibouti"
+#~ msgstr "Dġibuti"
+
+#~ msgid "Denmark"
+#~ msgstr "Danimarka"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominika"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Repubblika Dumnikana"
+
+#~ msgid "Algeria"
+#~ msgstr "Alġerija"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ekwador"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonja"
+
+#~ msgid "Egypt"
+#~ msgstr "Eġittu"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Saħara tal-Punent"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Spain"
+#~ msgstr "Spanja"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etjopja"
+
+#~ msgid "Finland"
+#~ msgstr "Finlandja"
+
+#~ msgid "Fiji"
+#~ msgstr "Fiġi"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Gżejjer Falkland"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronesia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Gżejjer Faroe"
+
+#~ msgid "France"
+#~ msgstr "Franza"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Renju Unit"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Georgia"
+#~ msgstr "Ġorġja"
+
+#~ msgid "French Guiana"
+#~ msgstr "Gwijana Franċiża"
+
+#~ msgid "Ghana"
+#~ msgstr "Gana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Ġibiltar"
+
+#~ msgid "Greenland"
+#~ msgstr "Grinlandja"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambja"
+
+#~ msgid "Guinea"
+#~ msgstr "Gwinea"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Gwadelup"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Gwinea Ekwatorjali"
+
+#~ msgid "Greece"
+#~ msgstr "Greċja"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Georgia t'Isfel u l-Gżejjer Sandwich tan-Nofsinhar"
+
+#~ msgid "Guatemala"
+#~ msgstr "Gwatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Gwam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Gwinea-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Gujana"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Ħong Kong SAR (Ċina)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Gżejjer Heard u McDonald"
+
+#~ msgid "Honduras"
+#~ msgstr "Ħonduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Kroazja"
+
+#~ msgid "Haiti"
+#~ msgstr "Ħaiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Ungerija"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indoneżja"
+
+#~ msgid "Ireland"
+#~ msgstr "Irlanda"
+
+#~ msgid "Israel"
+#~ msgstr "Iżrael"
+
+#~ msgid "India"
+#~ msgstr "Indja"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Territorju Brittaniku ta' l-Oċean Indjan"
+
+#~ msgid "Iraq"
+#~ msgstr "Iraq"
+
+#~ msgid "Iran"
+#~ msgstr "Iran"
+
+#~ msgid "Iceland"
+#~ msgstr "Islandja"
+
+#~ msgid "Italy"
+#~ msgstr "Italja"
+
+#~ msgid "Jamaica"
+#~ msgstr "Ġamajka"
+
+#~ msgid "Jordan"
+#~ msgstr "Ġordan"
+
+#~ msgid "Japan"
+#~ msgstr "Ġappun"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenja"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirgiżstan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Kambodja"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Komoros"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "San Kitts u Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Korea ta' fuq"
+
+#~ msgid "Korea"
+#~ msgstr "Korea"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuwajt"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Gżejjer Kajmani"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Każakstan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Libanu"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Santa Luċija"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberja"
+
+#~ msgid "Lesotho"
+#~ msgstr "Leżoto"
+
+#~ msgid "Lithuania"
+#~ msgstr "Litwanja"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Lussemburgu"
+
+#~ msgid "Latvia"
+#~ msgstr "Latvja"
+
+#~ msgid "Libya"
+#~ msgstr "Libja"
+
+#~ msgid "Morocco"
+#~ msgstr "Marokk"
+
+#~ msgid "Monaco"
+#~ msgstr "Monako"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldavja"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagaskar"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Gżejjer Marshall"
+
+#~ msgid "Macedonia"
+#~ msgstr "Maċedonja"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Mjanmar"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolja"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Gżejjer Mariana tat-Tramuntana"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinik"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mawritanja"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mawrizju"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Messiku"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malażja"
+
+#~ msgid "Mozambique"
+#~ msgstr "Możambik"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibja"
+
+#~ msgid "New Caledonia"
+#~ msgstr "New Caledonia"
+
+#~ msgid "Niger"
+#~ msgstr "Niġer"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Gżira Norfolk"
+
+#~ msgid "Nigeria"
+#~ msgstr "Niġerja"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nikaragwa"
+
+#~ msgid "Netherlands"
+#~ msgstr "Netherlands"
+
+#~ msgid "Norway"
+#~ msgstr "Norveġja"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nawru"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "New Zealand"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Perù"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Polineżja Franċiża"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua New Guinea"
+
+#~ msgid "Philippines"
+#~ msgstr "Filippini"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Polonja"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "San Pierre u Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestina"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugall"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paragwaj"
+
+#~ msgid "Palau"
+#~ msgstr "Palaw"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Rumanija"
+
+#~ msgid "Russia"
+#~ msgstr "Russja"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Għarabja Sawdita"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Gżejjer Solomon"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Svezja"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapor"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Santa Liena"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovenja"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Gżejjer Svalbard u Jan Mayen"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovakkja"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegall"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalija"
+
+#~ msgid "Suriname"
+#~ msgstr "Surinam"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome u Principe"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syria"
+#~ msgstr "Sirja"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swazilandja"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Gżejjer Turks u Caicos"
+
+#~ msgid "Chad"
+#~ msgstr "Ċadd"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Territorji Franċiżi tan-Nofsinhar"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Tajlandja"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Taġikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelaw"
+
+#~ msgid "East Timor"
+#~ msgstr "Timor tal-Lvant"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tuneżija"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turkija"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad u Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Tajwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanżanija"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukranja"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Gżejjer Żgħar Imbegħda ta' l-Istati Uniti"
+
+#~ msgid "United States"
+#~ msgstr "Stati Uniti"
+
+#~ msgid "Uruguay"
+#~ msgstr "Urugwaj"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Użbekistan"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatikan"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "San Vinċenz u l-Grenadini"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezwela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Gżejjer Virgin (Brittanniċi)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Gżejjer Virgin (US)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vjetnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis u Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Jemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Majott"
+
+#~ msgid "South Africa"
+#~ msgstr "Afrika t'Isfel"
+
+#~ msgid "Zambia"
+#~ msgstr "Żambja"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Żimbabwe"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Merħba għal %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "L-ewwel neħħi l-volumi loġiċi minn ġo fih\n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Twissija: Softwer Ħieles mhux neċessarjament ħieles minn patenti, u "
+#~ "ċerti \n"
+#~ "Softwer Ħieles inkluż jista' jkun kopert minn patenti fil-pajjiż fejn "
+#~ "tużah.\n"
+#~ "Per eżempju, programmi MP3 inklużi jistgħu jeħtieġu liċenzja biex "
+#~ "tużahom\n"
+#~ "(ara http://www.mp3licensing.com għal dettalji). Jekk m'intix ċert jekk\n"
+#~ "patent japplikax għalik, iċċekkja l-liġijiet lokali."
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Twissija\n"
+#~ "\n"
+#~ "Jekk jogħġbok aqra sew it-termini ta' taħt. Jekk ma taqbilx ma xi parti,\n"
+#~ "ma tistax tinstalla s-CD li jmiss. Agħfas \"Ma naċċettax\" biex tkompli \n"
+#~ "l-installazzjoni minngħajr dan is-CD.\n"
+#~ "\n"
+#~ "\n"
+#~ "Xi komponenti tas-CD li jmiss ma jaqgħux taħt il-liċenzja GPL jew "
+#~ "liċenzji\n"
+#~ "simili. Kull komponent simili għalhekk huwa kontrollat mit-termini u\n"
+#~ "kundizzjonijiet tal-liċenzja speċifika tiegħu. Jekk jogħġbok aqra sew\n"
+#~ "u segwi dawn il-liċenzji speċifiċi qabel tuża jew tiddistribwixxi dawn "
+#~ "il-\n"
+#~ "komponenti.\n"
+#~ "Dawn il-liċenzji ġeneralment jipprojbixxu t-trasferiment, ikkupjar "
+#~ "(ħlief \n"
+#~ "bħala kopja tas-sigurtà), ridistribuzzjoni, \"reverse engineering\", "
+#~ "diżassemblaġġ,\n"
+#~ "dikompilazzjoni jew modifika ta' dawn il-komponenti. Ksur ta' dan\n"
+#~ "il-qbil jittermina immedjatament id-drittijiet tiegħek taħt din il-"
+#~ "liċenzja.\n"
+#~ "Sakemm il-liċenzja ma tagħtikx dawn id-drittijiet, normalment ma tistax\n"
+#~ "tinstalla dawn il-programmi fuq iżjed minn kompjuter wieħed, jew \n"
+#~ "tadattahom biex jintużaw fuq network. Jekk għandek xi dubju, jekk \n"
+#~ "jogħġbok ikkuntattja direttament lid-distributur jew editur tal-"
+#~ "komponent.\n"
+#~ "It-trasferiment lill terzi partijiet jew ikkupjar ta' dawn il-komponenti "
+#~ "inkluż\n"
+#~ "id-dokumentazzjoni normalment huwa miċħud.\n"
+#~ "\n"
+#~ "\n"
+#~ "Id-drittijiet kollha tal-komponenti tas-CD li jmiss huma tal-awturi "
+#~ "rispettivi u\n"
+#~ "huma protetti minn liġijiet ta' propjetà intellettwali u copyright "
+#~ "applikabbli\n"
+#~ "għal programmi ta' softwer.\n"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Prosit! L-installazzjoni issa lesta.\n"
+#~ "Neħħi l-flopi/CD u agħfas Enter biex tirristartja.\n"
+#~ "\n"
+#~ "\n"
+#~ "Għal informazzjoni dwar aġġornamenti li saru għal din il-verżjoni ta' \n"
+#~ "Mandriva Linux, iċċekkja s-sezzjoni \"Errata\" li hemm fuq:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Informazzjoni dwar kif tissettja s-sistema tinstab fil-kapitlu \"Post-"
+#~ "install\"\n"
+#~ "fil-Mandriva Linux User's Guide uffiċjali."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Konfigurazzjoni drajver UPS"
+
+#~ msgid "Module configuration"
+#~ msgstr "Konfigurazzjoni tal-modulu"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Tista' tikkonfigura kull parametru tal-modulu minn hawn."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Sibt %s interfaċċji"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Għandek iżjed?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Il-kompjuter għandu interfaċċji %s?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Ara info. dwar ħardwer"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Qed ninstalla drajver għal %s kard %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Qed ninstalla drajver għal %s kard %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Qed ninstalla drajver għal %s kard %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Qed ninstalla drajver għal %s kard %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Qed ninstalla drajver għal %s kard %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Issa trid tipprovdi l-għażliet lill-modulu %s.\n"
+#~ "Innota li l-indirizzi jridu jiddaħħlu bil-prefiss 0x, bħal \"0x123\"."
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Tista' tipprovdi l-għażliet lill-modulu %s.\n"
+#~ "L-għażliet għandhom il-format \"isem=valur isem=valur ...\".\n"
+#~ "Per eżempju, \"io=0x300 irq=7\"."
+
+#~ msgid "Module options:"
+#~ msgstr "Għażliet tal-modulu:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Liema drajver %s tridni nipprova?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "F'ċerti każi id-drajver %s ikollu bżonn iżjed informazzjoni biex jaħdem\n"
+#~ "sew, għalkemm is-soltu jaħdem sew mingħajrha. Trid tispeċifika xi\n"
+#~ "informazzjoni lid-drajver, jew tħallih ifittex l-apparat waħdu? Kulltant, "
+#~ "it-\n"
+#~ "tfittix iġiegħel lill-kompjuter jeħel, imma dan m'għandux jagħmel ħsara."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Fittex"
+
+#~ msgid "Specify options"
+#~ msgstr "Speċifika informazzjoni"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Il-modulu %s ma rnexxielux jitla'.\n"
+#~ "Trid terġa' tipprova b'parametri oħra?"
+
+#~ msgid "mount failed: "
+#~ msgstr "immuntar falla: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Partizzjoni estiża m'hix sapportita fuq din il-pjattaforma"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Għandek toqba fit-tabella tal-partizzjonijiet imma ma nistax nużaha.\n"
+#~ "L-unika soluzzjoni hija li tmexxi l-partizzjoni primarja sabiex din it-"
+#~ "toqba tkun maġenb il-partizzjoni estiża"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Problema fil-qari tal-fajl %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Restawr minn fajl %s falliet: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Fajl ta' kopja tas-sigurtà ħażin"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Problema waqt kitba fil-fajl %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Qed jiġri xi ħaġa ħażina fuq il-ħard disk.\n"
+#~ "It-test biex niċċekkja l-integrità tal-informazzjoni falla.\n"
+#~ "Dan ifisser li kull ma tikteb fuq id-diska jista' jispiċċa mimli mbarazz."
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Ma nistax inżid partizzjoni fuq RAID _formattjat_ %s"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "M'hemmx biżżejjed partizzjonijiet għal RAID livell %d\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "Ma stajtx noħloq direttorju /usr/share/sane/firmware!"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "Ma stajtx noħloq link /usr/share/sane/%s!"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr ""
+#~ "Ma stajtx nikkopja l-fajl tal-formware %s għal /usr/share/sane/firmware!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr "Ma stajtx nissettja l-permessi tal-fajl ta' firmware %s!"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr "Ma stajtx ninstalla l-pakketti meħtieġa biex naqsam l-iskaners"
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "L-iskaners mhux se jkunu disponibbli għal utenti apparti root."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Aċċetta/iċħad messaġġi fittizji ta' żbalji IPv4."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Aċċetta/iċħad icmp echo imxandra."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Aċċetta/iċħad icmp echo."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Ippermetti/iċħad autologin."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Jekk tissettja għal \"KOLLHA\", /etc/issue u /etc/issue.net jitħallew "
+#~ "jeżistu.\n"
+#~ "\n"
+#~ "Jekk tissettja għal \"EBDA\", ma jitħallewx issues\n"
+#~ "\n"
+#~ "Altrimenti jitħalla biss /etc/issue"
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "Ippermetti/iċħad reboot mill-utent fuq il-konsol."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Ippermetti/iċħad reboot remot mill-utent root."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Ippermetti/iċħad login dirett ta' root."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Ippermetti/iċħad il-lista ta' utenti tas-sistema fuq id-display managers "
+#~ "(kdm u gdm)"
+
+#~ msgid ""
+#~ "Allow/forbid to export display when\n"
+#~ "passing from the root account to the other users.\n"
+#~ "\n"
+#~ "See pam_xauth(8) for more details.'"
+#~ msgstr ""
+#~ "Ippermetti/iċħad li tesporta display meta tgħaddi\n"
+#~ "mill-kont root għal users oħrajn.\n"
+#~ "\n"
+#~ "Ara pam_xauth(8) għal iżjed tagħrif."
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Ippermetti/iċħad konnessjonijiet X:\n"
+#~ "\n"
+#~ " - KOLLHA (konnessjonijiet kollha permessi),\n"
+#~ "\n"
+#~ " - LOKALI (konnessjonijiet biss mill-kompjuter lokali),\n"
+#~ "\n"
+#~ " - EBDA (ebda konnessjoni)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "L-argument jispeċifika jekk klijenti humiex awtorizzati jaqbdu\n"
+#~ "mas-serevr X min-network fuq il-port tat-TCP 6000 jew le."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Awtorizza:\n"
+#~ "\n"
+#~ "- is-servizzi kollha kontrollati minn tcp_wrappers (ara l-paġna man hosts."
+#~ "deny(5)) jekk tissettja \"KOLLHA\",\n"
+#~ "\n"
+#~ "- dawk lokali biss jekk tissettja \"LOKALI\"\n"
+#~ "\n"
+#~ "- ebda konnessjoni jekk tissettja \"EBDA\".\n"
+#~ "\n"
+#~ "Biex tissettja s-servizzi li trid, uża /etc/hosts.allow (ara hosts.allow"
+#~ "(5))."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Jekk SERVER_LEVEL (jew SECURE_LEVEL jekk assenti)\n"
+#~ "huwa iżjed minn 3 f' /etc/security/msec/security.conf, joħloq\n"
+#~ "il-link simboliku /etc/security/msec/server biex jipponta lejn\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "/etc/security/msec/server jintuża minn chkconfig --add biex \n"
+#~ "jiddeċiedi iżidx servizz jekk huwa preżenti fil-fajl waqt\n"
+#~ "l-installazzjoni tal-pakketti."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Ixgħel/itfi crontab u at għal utenti.\n"
+#~ "\n"
+#~ "Poġġi utenti permessi f' /etc/cron.allow u /etc/at.allow (ara man ta'\n"
+#~ "at(1) u crontab(1))."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "Igħel/itfi rapporti syslog fuq konsol 12"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Ixgħel/itfi protezzjoni kontra \"spoofing\" tar-reżoluzzjoni ta' "
+#~ "ismijiet. Jekk \"%s\" huwa veru, jirrapporta fuq syslog."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Allerti ta' sigurtà:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Igħel/itfi protezzjoni kontra IP spoofing."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "Ixgħel/ifti libsafe jekk dan jinstab fuq is-sistema."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Ixgħel/itfi l-illoggjar tal-pakketti strambi IPv4."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "Ixgħel/itfi l-kontroll ta' sigurtà msec ta' kull siegħa"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Ippermetti su biss mill-membri tal-grupp \"wheel\" jew ippermetti su mill-"
+#~ "utenti kollha."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Uża passwords biex tawtentika utenti."
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr "Ixgħel/itfi l-iċċekkjar għall-promiskwità tal-kards ethernet."
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Ixgħel/itfi ċċekkjar tas-sigurtà ta' kuljum."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Ixgħel/itfi sulogin(8) fil-livell ta' utent wieħed."
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Żid l-isem bħala eċċezzjoni għall-iċċekkjar tal-iskadenza tal-passwords "
+#~ "minn msec."
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "Issettja l-iskadenza tal-passwords għal \"max\" ġranet u ippermetti "
+#~ "dewmien biex jaqleb inattiv."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Issettja t-tul tal-kronoloġija tal-passwords u tippermettix li jerġa' "
+#~ "jintuża password."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Issettja t-tul minimu ta' password u numru minimu ta' numri u ittri kbar."
+
+#~ msgid "Set the root umask."
+#~ msgstr "Issettja umask ta' root."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "Jekk mixgħul, jiċċekkja ports miftuħa"
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "Jekk mixgħul, jiċċekkja :\n"
+#~ "\n"
+#~ "- passwords vojta,\n"
+#~ "\n"
+#~ "- ebda password f' /etc/shadow\n"
+#~ "\n"
+#~ "- għal users b'id 0 apparti root."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "Jekk mixgħul, jiċċekkja l-permessi tal-fajls fid-direttorju personali tal-"
+#~ "utenti."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "Jekk mixgħul, jiċċekkja jekk it-tagħmir tan-network hux f'modalità "
+#~ "promiskwa."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "jekk mixgħul, iħaddem it-testijiet tas-sigurtà ta' kuljum."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr "Jekk mixgħul, jiċċekkja żieda jew tneħħija ta' fajls sgid."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr "Jekk mixgħul, jiċċekkja għal passwords vojta f' /etc/shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr "jekk mixgħul, jivverifika l-integrità ta' fajls suid/sgid."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr "jekk mixgħul, jiċċekkja ż-żieda jew tneħħija ta' fajls suid root."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "Jekk mixgħul, jiċċekkja fajls li m'huma ta' ħadd."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr "Jekk mixgħul, jiċċekkja fajls li jistgħu jinkitbu minn kulħadd."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "Jekk mixgħul, jiċċekkja għall-eżistenza ta' rootkits"
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "jekk mixgħul, ibgħat rapport bl-imejl f'dan l-indirizz, inkella root."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "jekk mixgħul, jibgħad ir-rapport tar-riżultat bl-imejl."
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "Tibgħatx imejl jekk m'hemm xejn fuq xiex twissi"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr "Jekk mixgħul, jiċċekkja xi affarijiet dwar id-databażi rpm."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr "jekk mixgħul, ibgħat riżultati fuq syslog."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "jekk mixgħul, rapporti jintbagħatu fuq tty"
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Issettja d-daqs tal-kronoloġija tax-shell. Valur ta' -1 ifisser bla "
+#~ "limitu."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Issettja \"timeout\" għax-shell. Valur ta' żero jfisser is-sessjoni ma "
+#~ "tiskadix."
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "Timeout huwa f'sekondi"
+
+#~ msgid "Set the user umask."
+#~ msgstr "Issettja umask ta' l-utenti"
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Aċċetta messaġġi fittizji ta' problemi IPv4"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Aċċetta icmp echo imxandrin"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "Aċċetta icmp echo"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* jeżisti"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Irributjar mill-utent fuq il-konsol"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Ippermetti login ta' root remot"
+
+#~ msgid "Direct root login"
+#~ msgstr "Login root dirett"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "Elenka l-utenti fuq display managers (kdm u gdm)"
+
+#~ msgid "Export display when passing from root to the other users"
+#~ msgstr "Esporta display meta tgħaddi minn root għal utenti oħrajn"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Ippermetti konnessjoni X Window"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Awtorizza konnessjonijiet TCP għal XWindows"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "Awtoriżża s-servizzi kollha kontrollati minn tcp_wrappers"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig jobdi regoli ta' msec"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "Ixgħel \"crontab\" u \"at\" għal utenti"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Syslog jirrapporta fuq konsol 12"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "Protezzjoni kontra \"spoofing\" tar-reżoluzzjoni ta' ismijiet"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "Protezzjoni kontra spoofing IP"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Uża libsafe jekk jinstab fuq is-sistema"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "Illoggja pakketti strambi IPv4"
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Ixgħel test tas-sigurtà kull siegħa msec"
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "Ippermetti su biss minn membri tal-grupp \"wheel\", jew utenti kollha"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Uża password biex tawtentika users"
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "Iċċekkja promiskwità ta' kards ethernet"
+
+#~ msgid "Daily security check"
+#~ msgstr "Iċċekkjar ta' sigurtà kuljum"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) f'livell single user"
+
+#~ msgid "No password aging for"
+#~ msgstr "Ebda skadenza tal-password għal"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr ""
+#~ "Issettja l-iskandeza tal-password u dewmien fl-inattivazzjoni ta' kont"
+
+#~ msgid "Password history length"
+#~ msgstr "Tul ta' kronoloġija ta' passwords"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr "Tul minimu tal-passwords, u numru ta' figuri u ittri kbar"
+
+#~ msgid "Root umask"
+#~ msgstr "umask ta' root"
+
+#~ msgid "Shell history size"
+#~ msgstr "Daqs tal-kronoloġija tax-shell"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Skadenza tal-ħin tax-shell"
+
+#~ msgid "User umask"
+#~ msgstr "umask tal-utenti"
+
+#~ msgid "Check open ports"
+#~ msgstr "Iċċekjka ports miftuħa"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Iċċekkja kontijiet mhux sikuri"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Iċċekkja permessi tal-fajls fid-direttorji personali ta' l-utenti"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "Iċċekkja jekk hemmx tagħmir tan-network b'modalità promiskwa"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Ħaddem it-testijiet ta' sigurtà ta' kuljum"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Iċċekkja żieda/tneħħija ta' fajls sgid"
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Iċċekkja passwords vojta f' /etc/shadow"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "Ivverifika checksum ta' fajls suid/sgid"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "Iċċekkja ż-żieda/tneħħija ta' fajls suid root"
+
+#~ msgid "Report unowned files"
+#~ msgstr "Irrapporta fajls bla sid"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Iċċekkja fajls u direttorji jinkitbu minn kulħadd"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Ħaddem testijiet chkrootkit"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "Jekk mixgħul, ir-rapport jintbagħat lil dan l-indirizz, inkella lil root"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Irrapporta r-riżultat tal-iċċekkjar bl-imejl"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Ħaddem xi testijiet fuq id-databażi rpm"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Irrapporta r-riżultat lis-syslog"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "Irrapporta r-riżultati fuq terminal"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Bieb miftuħ beraħ!"
+
+#~ msgid "Poor"
+#~ msgstr "Ftit li xejn"
+
+#~ msgid "High"
+#~ msgstr "Tajjeb"
+
+#~ msgid "Higher"
+#~ msgstr "Tajjeb ħafna"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranojku"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Oqgħod attent jekk tuża dan il-livell. Il-kompjuter tiegħek jista' ikun "
+#~ "iżjed faċli tużah, imma jkun vulnerabbli ħafna. Qatt m'għandu jintuża fuq "
+#~ "kompjuter imqabbad ma' oħrajn permezz ta' network jew ma' l-internet. Ma "
+#~ "hemm ebda password."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Il-passwords issa huma mixgħula, imma l-użu fuq l-internet jew network "
+#~ "xorta m'hux rakkomandat."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Dan huwa s-seting rakkomandat jekk se tuża dan il-kompjuter fuq l-"
+#~ "internet bħala klijent."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Diġà hemm xi restrizzjonijiet, u iżjed testijiet awtomatiċi jitħaddmu "
+#~ "kuljum bil-lejl."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "B'dan il-livell ta' sigurtà jsir possibbli li tuża dan il-kompjuter bħala "
+#~ "server.\n"
+#~ "Is-sigurtà hija għolja biżżejjed biex jintuża bħala server li jaċċetta "
+#~ "konnessjonijiet\n"
+#~ "minn ħafna kompjuters oħra. Jekk int se tuża l-kompjuter bħala klijent "
+#~ "biss, jew biex taċċessa l-internet, jaqbillek livell iżjed baxx."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Ibbażat fuq il-livell ta' qabel, imma issa s-sistema hija magħluqa għal "
+#~ "kollox.\n"
+#~ "Is-setings tas-sigurtà qegħdin fil-massimu."
+
+#~ msgid "Security"
+#~ msgstr "Sigurtà"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Għażliet bażiċi DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Agħżel livell ta' sigurtà mixtieq"
+
+#~ msgid "Security level"
+#~ msgstr "Livell ta' sigurtà"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Uża libsafe għas-servers"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Din hija librerija li tipproteġi kontra attakki \"buffer overflow\" u "
+#~ "\"format string\"."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Amministratur tas-sigurtà (login jew imejl)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr ""
+#~ "Ħaddem is-sistema tal-awdjo ALSA (Advanced Linux Sound Architecture)"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron iħaddem kmandijiet perjodikament."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd jintuża biex tiċċekkja l-istatus tal-batterija ta' laptop u żżomm\n"
+#~ "rikordju fis-syslog. Jista' jintuża wkoll biex jintefa' awtomatikament\n"
+#~ "beta l-batterija titbaxxa wisq."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Iħaddem kmandijiet li jiġu appuntati mill-kmand \"at\" fil-ħin "
+#~ "speċifikat\n"
+#~ "meta tħaddem \"at\", u jħaddem programmi meta t-tagħbija tas-sistema "
+#~ "tkun\n"
+#~ "baxxa biżżejjed."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron huwa programm standard tal-UNIX li jħaddem programmi speċifikati \n"
+#~ "mill-user f'ħinijiet speċifiċi. Vixie cron iżid numru ta' fattizzi lill-\n"
+#~ "cron bażiku tal-UNIX, inkluż sigurtà aħjar u konfigurazzjoni iżjed "
+#~ "b'saħħitha."
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM huwa proċess li jimmonitorja l-fajls. Huwa jintuża biex jiġi "
+#~ "rappurtat meta xi fajls jinbidlu.\n"
+#~ "Huwa jintuża minn GNOME u KDE"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM jippermetti l-użu tal-maws fi programmi non-grafiċi bħall-Midnight\n"
+#~ "Commander. Jippermetti wkoll ikkopjar ta' test u menus popup fil-konsol."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake iħaddem inkjesta tal-ħardwer, u jista' jsib u \n"
+#~ "jikkonfigura apparat ġdid li twaħħal."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr "Apache huwa server tal-web. Huwa jista' joffri fajls HTML u CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Id-daemon tal-internet \"superserver\" (magħruf bħala inetd) itella'\n"
+#~ "varjetà ta' servizzi oħra tal-internet skond il-ħtieġa. Huwa "
+#~ "responsabbli\n"
+#~ "li jtella' diversi servizzi, inkluż telnet, ftp, rsh u rlogin. Jekk "
+#~ "tneħħi\n"
+#~ "lill-inetd tkun neħħejt is-servizzi kollha tiegħu."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Ħaddem filtrar ta' pakketti għall-kernel verżjoni 2.2 tal-Linux,\n"
+#~ "biex tissettja firewall biex tipproteġi l-kompjuter minn attakki \n"
+#~ "min-network"
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Dan il-pakkett itella' t-tqassim tat-tastiera kif konfigurat f'\n"
+#~ "/etc/sysconfig/keyboard.  Dan jista' jiġi ssettjat bil-programm "
+#~ "kbdconfig.\n"
+#~ "Dan għandu jibqa' ssettjat għal ħafna magni."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Riġenerazzjoni awtomatika tal-headers tal-kernel ġewwa\n"
+#~ "/boot għal /usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Għarfien u konfigurazzjoni ta' apparat ġdid meta tixgħel."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Il-programm Linuxconf ġieli jagħmel diversi xogħlijiet waqt li qed\n"
+#~ "jitla' l-kompjuter biex imantni l-konfigurazzjoni."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd huwa daemon tal-ipprintjar li huwa meħtieġ biex jaħdem sew l-lpr.\n"
+#~ "Huwa bażikament server li jqassam xogħol ta' pprintjar lill-printer/s."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Linux Virtual Server, li jintuża biex tibni servers kbar u \n"
+#~ "effiċjenti ħafna."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) huwa \"Domain Name Server\" (DNS) li jirrisolvi l-indirizz "
+#~ "IP minn isem ta' kompjuter."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Jimmonta u jiżmonta l-filesystems kollha NFS (Unix/Linux), \n"
+#~ "SMB (LANmanager/Windows) jew NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Itella' jew iwaqqaf l-interfaċċji kollha tan-network li qegħdin \n"
+#~ "konfigurati biex jitilgħu meta tixgħel."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS huwa protokoll popolari għal qsim ta' fajls fuq networks TCP/IP. \n"
+#~ "Dan is-servizz jipprovdi funzjonalità ta' server NFS, li jiġi "
+#~ "konfigurat \n"
+#~ "mill-fajl /etc/exports."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS huwa protokoll popolari għal qsim ta' fajls fuq networks \n"
+#~ "TCP/IP. Dan il-modulu jipprovdi faċilità li ssakkar fajls bl-NFS."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Awtomatikament ixgħel in-\"numlock\" taħt il-konsol u Xorg \n"
+#~ "meta tixgħel"
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Jippermetti l-użu tal-Oki4w \"win-printer\" jew kompatibbli"
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "Il-PCMCIA normalment jintuża għal kards tan-network jew modems fuq \n"
+#~ "kompjuters laptop. Dan ma jittellax jekk ma jkunx konfigurat għalhekk \n"
+#~ "m'hux problema jekk tħallih fuq kompjuters li m'għandhomx bżonnu."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Il-portmapper jimmaniġġja konnessjonijiet RPC, li jintużaw minn \n"
+#~ "protokolli bħal NFS u NIS. Is-server portmap irid ikun qed jaħdem fuq\n"
+#~ "kompjuters li jaġixxu bħala servers għal protokolli li jużaw il-\n"
+#~ "mekkaniżmu RPC."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix huwa aġent tat-trasport tal-imejl, ċioè programm li jgħaddi "
+#~ "imejls minn kompjuter għall-ieħor."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Jikteb u jirrestawra blokka ta' entropija għall-ġenerazzjoni ta' \n"
+#~ "numri bil-polza iżjed randomi."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Jassenja apparat \"raw\" lill apparat \"block\" (bħal partizzjoni tal-"
+#~ "ħard disk), għall-użu ta' programmi bħal Oracle jew werrejja ta' DVDs"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Id-daemon routed jippermetti lit-tabella tar-\"routing\" li tiġi\n"
+#~ "aġġornata awtomatikament bil-protokoll RIP. Filwaqt li l-protokoll RIP\n"
+#~ "huwa komuni fuq networks żgħar, huma meħtieġa protokolli ta' routing\n"
+#~ "iżjed sofistikati fuq networks komplikati."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Il-protokoll rstat jippermetti users fuq network li jiksbu\n"
+#~ "informazzjoni dwar l-effiċjenza ta' kull magna fuq dan in-network."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Il-protokoll rusers jippermetti lill users fuq network li jidentifikaw\n"
+#~ "min qiegħed illoggjat fuq magni oħra."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Il-protokoll rwho jippermetti lill user remot li jikseb lista \n"
+#~ "tal-users kollha li qegħdin konnessi mal-kompjuter (simili għal finger)"
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Ħaddem is-sistema awdjo fuq il-kompjuter"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog huwa faċilità li permezz tagħha d-daemons jistgħu iżommu\n"
+#~ "log ta' messaġġi. Dejjem huwa rakkomandat li tħaddem 'is-syslog."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Tella' d-drajvers għall-apparat usb"
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Itella' l-\"X Font Server\" (dan huwa meħtieġ biex jaħdem l-Xorg)."
+
+#~ msgid "Printing"
+#~ msgstr "Printjar"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "File sharing"
+#~ msgstr "Qsim ta' fajls"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Amministrazzjoni remota"
+
+#~ msgid "Database Server"
+#~ msgstr "Server Database"
+
+#~ msgid "Services"
+#~ msgstr "Servizzi"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr ""
+#~ "Agħżel liema servizzi għandhom jittellgħu awtomatikament meta tixgħel"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Servizzi: %d imtella' għal %d reġistrati"
+
+#~ msgid "running"
+#~ msgstr "imtella'"
+
+#~ msgid "stopped"
+#~ msgstr "imwaqqaf"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Servizzi u daemons"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "M'hemmx iżjed informazzjoni\n"
+#~ "dwar dan l-apparat, jiddispjaċini."
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Start when requested"
+#~ msgstr "Tella' meta meħtieġ"
+
+#~ msgid "On boot"
+#~ msgstr "Malli tixgħel"
+
+#~ msgid "Start"
+#~ msgstr "Ibda"
+
+#~ msgid "Stop"
+#~ msgstr "Ieqaf"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Dan il-programm huwa softwer ħieles; tista' tiddistribwih u/jew tibdlu\n"
+#~ "skond it-termini tal-Liċenzja Ġenerali Pubblika (GPL) GNU, kif "
+#~ "ippubblikata\n"
+#~ "mill-Free Software Foundation; jew verżjoni 2 tal-liċenzja, jew (skond "
+#~ "il-\n"
+#~ "ġudizzju tiegħek) waħda iżjed riċenti.\n"
+#~ "\n"
+#~ "Dan il-programm huwa distribwit bl-isperanza li jkun utli, imma\n"
+#~ "MINNGĦAJR EBDA GARANZIJA; minngħajr saħansitra l-garanzija impliċita \n"
+#~ "ta' MERKANTABILITÀ jew LI HU ADEGWAT GĦAL UŻU PARTIKULARI. Ara\n"
+#~ "l-Liċenzja Ġenerali Pubblika GNU (GNU General Public License) għal iżjed\n"
+#~ "dettalji.\n"
+#~ "\n"
+#~ "Għandek tirċievi kopja tal-Liċenzja Ġenerali Pubblika GNU flimkien ma' "
+#~ "dan\n"
+#~ "il-programm. Jekk le, ikteb lill-Free Software Foundation, Inc., \n"
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[tastiera]"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Żid server"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Afrika t'Isfel"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Awstrija"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Afrika t'Isfel"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Maċedonja"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Afrika t'Isfel"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Ħong Kong"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Federazzjoni Russa"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Jugoslavja"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Dan tajjeb?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "Ebda ikona"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Direttorju personali ma nstabx."
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Direttorju lokali"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "Fajl lokali"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Espandi friegħi"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Agħlaq friegħi"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Aqleb bejn lista sempliċi jew kategorizzata"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s m'hux installat\n"
+#~ "Klikkja \"Li jmiss\" biex tinstalla jew \"Ikkanċella\" biex tieqaf"
+
+#~ msgid "Installation failed"
+#~ msgstr "Installazzjoni falliet"

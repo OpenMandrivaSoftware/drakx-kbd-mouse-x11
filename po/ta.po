@@ -1,0 +1,4893 @@
+# Drak X
+# Copyright (C) 2002 Mandriva
+#
+# NOTE: use UTF-8 only
+#
+# prabu <prabu_anand2000@yahoo.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX 1.0\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2002-09-06 00:35+0800\n"
+"Last-Translator: prabu anand <prabu_anand2000@yahoo.com>\n"
+"Language-Team: Tamil <tamilinix@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB கிலோபைட்"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB கிலோபைட்"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB மெகாபைட்"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB மெகாபைட்"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB மெகாபைட்"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB மெகாபைட்"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB மெகாபைட்"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB மெகாபைட்"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB மெகாபைட் அல்லது அதற்கு அதிகமாக"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X-பரிமாறி"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "X-பரிமாறியைத் தேர்வு செய்"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "பல்திரையக வடிவமைப்பு"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"உங்கள் கணினி அமைப்பு பல்திரையக வடிவமைப்பில் வேலைச் செய்யும்\n"
+"நீங்கள் என்ன செய்ய விரும்புகிறீர்கள்?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "உங்கள் காட்சியமைப்பு அட்ைடயின் நினைவகத்தின் அளவைத் தேர்ந்ெதடுங்கள்"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "அனைத்து திரைகளையும் தனித்தனியாக வடிவமைக்கவும்"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "சினிராமா நீட்டிப்புகளை பயன்படுத்தவும்"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "\"%s\"%s என்ற அட்ைடயை மட்டும்  வடிவமைக்கவும்"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "தனிப்பயனாக்கம்"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "இணையத்ெதாடர்பு  வடிவமைப்பாளன்"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "வெளிச்ெசல்"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "காட்சியமைப்பு அட்ைட"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "திரையகம்"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "பரிமாணங்கள்"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "சோதனை"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "விருப்பத்ேதர்வுகள்"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "செருகல்கள்"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"இந்த மாற்றங்களை அப்படியே வைத்துக்ெகாள்கிறீர்களா?\n"
+"தற்ேபாதைய வடிவமைப்பு\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "திரையகத்ைத தேர்வுச் செய்"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "திரையகத்ைத தேர்வுச் செய்"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play -1997 க்கு பிறகு வந்த திரையகங்கள் இவ்வகையைச் சேரும்"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "பொது-இன திரையகம்"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "விற்பவர்"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr ""
+"தானாக தேடிய முறை வெற்றிபெறவில்ைல.தயவுசெய்து சரியான  திரையகத்ைத.தேர்ந்ெதடுக்கவும்"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"இங்கு நீங்கள் செய்யும் மாற்றங்கள் உங்கள் திரையகத்ைத முற்றிலும் செயலிழக்கச் செய்து விடலாம். \n"
+"உங்களுக்கு வன்ெபாருள் பற்றி தெரிந்து இருந்தால் மட்டுமே இங்குள்ளதை \n"
+"மாற்றுங்கள். \n"
+"\n"
+"திரையகத்தின் ஒத்தியக்க அளவுகளை சிந்தித்து தேர்வுச் செய்யுங்கள்\n"
+"\n"
+"எப்ேபாதும் சிறிய வீச்சுகளையே தேர்வுச் செய்யுங்கள் \n"
+"தவறான ஒத்தியக்க அளவுகளை தேர்வுச் செய்தால்  திரையகம் முற்றிலும் செயலிழந்து போகலாம்"
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "கிடையான புதுக்கல் வீதம்"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "செங்குத்தான புதுக்கல் வீதம்"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "செருகல்களை பயன்படுத்து"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 வண்ணங்கள் (8 பிட்டுகள்)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32000 வண்ணங்கள் (15 பிட்டுகள்)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65000 வண்ணங்கள் (16 பிட்டுகள்)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 மில்லியன் வண்ணங்கள் (24 பிட்டுகள்)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "பரிமாணங்கள்"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "மற்றவை"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "உங்களுக்கு விருப்பமான பரிமாணங்களையும், ஆழங்களையும் தேர்ந்ெதடுங்கள்"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "காட்சியமைப்பு அட்ைட: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "சரி"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "தவிர்"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "உதவி"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "வடிவமைப்பு சோதித்து பார்க்கப்படுகிறது"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "உங்கள் வடிவமைப்ைப சோதித்து பார்க்க வேண்டுமா? [சோதித்து பார்ப்பது முக்கியம்]"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "எச்சரிக்ைக; காட்சியமைப்பு அட்ைடயை சோதிப்பது உங்கள் கணினியை முடமாக்கலாம்"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"பிழை ேநர்ந்துள்ளது:\n"
+"%s\n"
+"சில அளபுருக்களை மாற்றி பாருங்கள்"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "%d விநாடிகளில் ெவளிேயறுகிறது"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "இந்த அைமப்பு சரியா?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "விசைப்பலகையின் இட அமைவு %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "எலியின் வகை: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "திரையகம்: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "திரையகத்தின் கிடையான ஒத்தியக்கம் %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "திரையகத்தின் செங்குத்து ஒத்தியக்கம் %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "காட்சியமைப்பு அட்ைட %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "காட்சியமைப்பு அட்ைடயின் நினைவக அளவு: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "வண்ணங்களின் ஆழம்: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "பரிமாணம்: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "X பரிமாறியின் இயக்கு நிரல் %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "X வடிவமைப்பு"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "காட்சியமைப்பு அட்ைட: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "துவங்கும் போது வரைவியல்வழியில் துவங்குக"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"என்னால் உங்கள் கணினியை துவங்கும் போது வரைவியல்வழியில் துவக்க முடியும்.\n"
+"ஒவ்வொரு முறை கணினி துவங்கும்போதும் X துவங்கட்டுமா?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"உங்கள் காட்சியமைப்பு அட்ைடயில் டிவிக்கான இடைமுகம் உள்ளது.\n"
+"தொலைப்புழங்கி மூலம் இதனை வடிவமைக்கலாம்.\n"
+".\n"
+"இது சரியாக வேலைச் செய்ய நீங்கள் கணினி துவங்குமுன்பே உங்கள் டிவியுடன் இனைத்திருக்க "
+"வேண்டும்\n"
+"துவங்குநிரலில் டிவி-வழி என்பதை தேர்வுச் செய்தால் டிவியில் பார்க்கலாம்\n"
+"\n"
+"நீங்கள் இதனை பயன் படுத்தப் போகிறீர்களா?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "உங்கள் டிவி எந்த செந்தர வரையேட்டின் கீழ் வருகிறது?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "செக்(குவர்டி)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "ெஜர்மன்"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "வோராக்"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "ஸ்பானிஷ்"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "பின்னிஷ்"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "பிரஞ்சு "
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "ஆங்கில விசைப்பலகை"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "நார்ேவ "
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "பொலிஸ்"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "ரஷியன்"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "சுவிடிஷ்"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "அமெரிக்க விசைப்பலகை"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "அல்பேனியன்"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "ஆர்மினியன்(பழைய)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "ஆர்மினியன்(தட்டச்சு)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "ஆர்மினியன்(ஒலியமைப்பு)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr ""
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "அசர்பைஜான்"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "பெல்ஜியன்"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "வங்காளம் (Inscript)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "வங்காளம் (Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "பல்ேகரிய(ஒலியமைப்பு)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "பல்ேகரிய(பிடிஸ)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "பிரேசில்"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "போஸ்னியா"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "போஸ்னியா"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "பேலாருஸ்"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "சுவிஷ்(ெஜர்மன்)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "சுவிஷ்(பிரெஞ்சு)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "செர்பிய"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "செக்(குவர்ட்டி)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "ெஜர்மன்(ெடட் விைச இல்லாமல்"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "ேதவநாகரி"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "டச்சு"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "வோரக்(US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "வோரக்(நார்ேவ)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "வோரக்(நார்ேவ)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "வோரக்(US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "வோரக்(நார்ேவ)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "வோரக்-சுவிடிசு "
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "வோரக்-சுவிடிசு "
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "எஸ்ேதானியா"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "கிரேக்கம் "
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "ஜார்ஜியா(\"Russian\" layout)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "ஜார்ஜியா"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "கிரேக்கம் "
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "குஜராத்தி"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr ""
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "குரேசிய "
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "அங்கேரிய "
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr ""
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr ""
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "இஸ்ரலேிய"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "இஸ்ரலேிய(ஒலியமைப்பு)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "இரானிய"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "ஐஸ்லாந்து "
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "இத்தாலிய "
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "ஜப்பானிய 106 விசை"
+
+#: ../lib/keyboard.pm:253
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "கனடா"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "ஆங்கில விசைப்பலகை"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "கொரிய விசைப்பலகை"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "ஆர்மினியன்(ஒலியமைப்பு)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "லத்தின் அமெரிக்க"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "லாவோஸ்"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "லிதுவேனிய-பழைய"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "லிதுவேனிய-புதிய"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "லிதுவேனிய-குவர்ட்டி"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "லிதுவேனிய-ஒலியமைப்பு குவர்ட்டி"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "லாட்விய"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "மலையாளம்"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "மாசிடோனிய"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "மியான்மார்(பர்மீஸ்)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "மங்ேகாலியன்(சிரிலிக்)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "மால்டீஸ்(UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "மால்டீஸ்(US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "டச்சு"
+
+#: ../lib/keyboard.pm:279
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "லைபிரியா"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "பொலிஷ்(குவர்ட்டி)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "பொலிஷ்(குவார்ட்ஸ்)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "பொலிஸ்"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "போர்த்துகிசிய"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "கனடிய(Quebec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "ரோமேனிய(குவார்ட்ஸ்)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "ரோமேனிய(குவர்ட்டி)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "ரஷிய(ஒலியமைப்பு)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "சுலோவெனிய"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "சுலோவெனிய(குவார்ட்ஸ்)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "சுலோவெனிய(குவர்ட்டி)"
+
+#: ../lib/keyboard.pm:296
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "வோரக்(நார்ேவ)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "தாய் விசைப்பலகை"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "செர்பிய"
+
+#: ../lib/keyboard.pm:302
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "தொடர்நிலைத் துறை"
+
+#: ../lib/keyboard.pm:303
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "ஆர்மினியன்(ஒலியமைப்பு)"
+
+#: ../lib/keyboard.pm:304
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "பெல்ஜியம்"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "தமிழ்(இஸ்கி) "
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "தமிழ்(தட்டச்சு)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "தாய் விசைப்பலகை"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "தாய் விசைப்பலகை"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "தாய் விசைப்பலகை"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "தாஜிக் விசைப்பலகை"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "ெஜர்மன்"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "துருக்கிய "
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "புது துருக்கிய "
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "உக்ேரனிய"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "லைபிரியா"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "அமெரிக்க விசைப்பலகை(சர்வதேச)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "செர்பிய"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "வியட்நாமிய "
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "யுகோஸ்சுலோவிய"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "வலது  Alt விசை"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "இரண்டு Shift விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Control  மற்றும் Shift விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock விசை"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Ctrl மற்றும் Alt  விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl மற்றும் Alt  விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt மற்றும் Shift விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"Menu\" விசை"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "இடது விண்ேடாஸ் விசை"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "வலது விண்ேடாஸ் விசை"
+
+#: ../lib/keyboard.pm:348
+#, fuzzy, c-format
+msgid "Both Control keys simultaneously"
+msgstr "இரண்டு Shift விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:349
+#, fuzzy, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "இரண்டு Shift விசைகளும் ஒன்றாக"
+
+#: ../lib/keyboard.pm:350
+#, fuzzy, c-format
+msgid "Left Shift key"
+msgstr "இடது விண்ேடாஸ் விசை"
+
+#: ../lib/keyboard.pm:351
+#, fuzzy, c-format
+msgid "Right Shift key"
+msgstr "வலது  Alt விசை"
+
+#: ../lib/keyboard.pm:352
+#, fuzzy, c-format
+msgid "Left Alt key"
+msgstr "வலது  Alt விசை"
+
+#: ../lib/keyboard.pm:353
+#, fuzzy, c-format
+msgid "Left Control key"
+msgstr "டிரேக்தொலைப்புழங்கி"
+
+#: ../lib/keyboard.pm:354
+#, fuzzy, c-format
+msgid "Right Control key"
+msgstr "வலது  Alt விசை"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"நீங்கள் பயன்படுத்தவிருக்கும் பலவகை விசைப்பலகை இட அமைவுகளை\n"
+"மாற்ற எந்த விசை அல்லது விசை சேர்மானங்களை தேர்வுச் செய்க\n"
+"(உதாரனத்திற்கு தமிழ் மற்றும் ஆங்கிலம்)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "எச்சரிக்ைக"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "சன்-எலி"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "இயல்பான"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "லாஜிடெக்- Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "பொதுவான PS2 சக்கர எலி"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "கிளைட்பாயின்ட்-GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "தானாக"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "கென்ஸிங்க்டன் சிந்திக்கும் எலி-Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "ஜினியஸ் நெட்எலி-Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "ஜினியஸ் நெட்சக்கரஎலி-Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "மைக்ேரசாப்ட் Explorer-மேலோடி"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 பொத்தான்"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "பொதுவான 2 பொத்தான் எலி"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, fuzzy, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "பொதுவான 3 பொத்தான் எலி"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "சக்கரம்"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "தொடர்நிலைத் துறை"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "பொதுவான 3 பொத்தான் எலி"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "மைக்ேரசாப்ட் இன்டெலி"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "லாஜிடெக் எலி-Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, fuzzy, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "லாஜிடெக் எலி-Logitech MouseMan"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "எலி இயக்கங்கள்"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "லாஜிடெக் CC வகை எலி"
+
+#: ../lib/mouse.pm:64
+#, fuzzy, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "லாஜிடெக் CC வகை எலி"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "லாஜிடெக் MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM வகை"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "லாஜிடெக் எலி(பழைய, C7 வகை)"
+
+#: ../lib/mouse.pm:70
+#, fuzzy, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "லாஜிடெக் எலி(பழைய, C7 வகை)"
+
+#: ../lib/mouse.pm:72
+#, fuzzy, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "கென்ஸிங்க்டன் சிந்திக்கும் எலி-Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "பஸ்எலி"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 பொத்தான்கள்"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 பொத்தான்கள்"
+
+#: ../lib/mouse.pm:80
+#, fuzzy, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "பொத்தான் போன்மி"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "உலகளாவிய"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "மைக்ேரசாப்ட் Explorer-மேலோடி"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "ஒன்றுமில்ைல"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "எலி ஏதுமில்ைல"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "தயவுசெய்து, உங்கள் எலியின் வகையைத் தேர்வுச் செய்யுங்கள் "
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "மியான்மர்"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "மூன்றாவது பொத்தான் இருப்பதாக கருதுங்கள்?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "எலி இணைக்கப்பட்டுள்ள துறை"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "தயவுசெய்து, உங்கள் எலி இணைக்கப்பட்டுள்ள தொடர்நிலைத் துறைவயைத் தேர்வுச் செய்யுங்கள்"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "பொத்தான் போன்மி"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "2-பொத்தான் போன்மி"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "3-பொத்தான் போன்மி"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "தயவுசெய்து, உங்கள் எலியை சோதனை செய்யுங்கள்"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "உங்கள் எலியை செயல்பட வைக்க"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "உங்கள் சக்கரத்ைத உருட்டுங்கள்"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "நீங்கள் செய்த மாற்றங்கள் வேலை செய்ய மறு தொடக்கம் தேவை"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "விசைப்பலகை"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "தயவுசெய்து உங்கள் விசைப்பலகை இட அமைவைத் தேர்வு செய்க"
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "விசைப்பலகை உருவரை"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "விசைப்பலகை"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr ""
+
+#: ../tools/mousedrake:41
+#, fuzzy, c-format
+msgid "Mouse test"
+msgstr "எலி இயக்கங்கள்"
+
+#: ../tools/mousedrake:44
+#, fuzzy, c-format
+msgid "Please test your mouse:"
+msgstr "தயவுசெய்து, உங்கள் எலியை சோதனை செய்யுங்கள்"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "பயனர்கள்"
+
+#~ msgid "Please wait"
+#~ msgstr "தயவுசெய்து காத்திருக்கவும்.."
+
+#, fuzzy
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "துவங்குநிரல் நிறுவல்"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "துவங்குநிரலை நிறுவப்படுவதில் பிழை நேர்ந்துள்ளது"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "தயவுசெய்து நிறுவுவதற்கு ஆங்கிலத்ைத பயன்படுத்துங்கள் You may need to change your "
+#~ "Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "நீங்கள் துவங்குநிரலை ஓர் வகிரில் நிறுவுகிறீர்கள்\n"
+#~ "உங்கள் வன்வட்டின் துவக்கத்தில் ஓர் துவங்குநிரல் இருப்பது இதற்கு பொதுவான காரனம்.\n"
+#~ "\n"
+#~ "நீங்கள் எந்த வன்வட்டில் இருந்து துவங்க விரும்புகிறீர்கள்?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "வன்தட்டின் முதல் வில்ைல "
+
+#, fuzzy
+#~ msgid "First sector of the root partition"
+#~ msgstr "துவங்குவகிர்தலின் முதல் வில்ைல"
+
+#~ msgid "On Floppy"
+#~ msgstr "நெகிழ்வட்டில்"
+
+#~ msgid "Skip"
+#~ msgstr "தவிர்"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "லிலோ/கிரப் நிறுவல்"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "உங்கள் துவங்குநிரலை எங்கு நிறுவ விரும்புகிறீர்கள்?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "தொடங்கல் பாந்த வடிவமைப்பு"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "துவங்குநிரலின் முக்கிய விருப்பத்ேதர்வுகள்"
+
+#~ msgid "Bootloader"
+#~ msgstr "துவங்குநிரல்"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "பயன்படுத்த வேண்டிய துவங்குநிரல்"
+
+#~ msgid "Boot device"
+#~ msgstr "துவங்கு சாதனம்"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "கொடாநிலை உருவம் துவங்குவதற்கான தாமதம்"
+
+#, fuzzy
+#~ msgid "Enable ACPI"
+#~ msgstr "சிடியில் இருந்து தொடங்கலாமா?"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "சிடியில் இருந்து தொடங்கலாமா?"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "சிடியில் இருந்து தொடங்கலாமா?"
+
+#~ msgid "Password"
+#~ msgstr "கடவுச்ெசால்"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "கடவுச்ெசாற்கள் இரண்டும் பொருந்தவில்ைல"
+
+#~ msgid "Please try again"
+#~ msgstr "மீண்டும் முயற்சித்து பார்க்கவும்"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "மறைக்குறியீடு செய்யப்பட்ட கோப்பமைப்புக்கு %s ஏற்றப்புள்ளியை பயன்படுத்த முடியாது"
+
+#~ msgid "Password (again)"
+#~ msgstr "கடவுச்ெசால் (மீண்டும்)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "உரைவழியில் பயன்படுத்தக்கூடிய விருப்பத்ேதர்வுகளைக் கட்டுபடுத்து"
+
+#~ msgid "restrict"
+#~ msgstr "கட்டுபடுத்து"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "விருப்பத்ேதர்வு ``Restrict command line options''  என்பது கடவுச்ெசால் "
+#~ "இல்ைலயென்றால் பயனற்றது"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "/tmp அடைவை ஒவ்வொரு முறைத் துவங்கும்போதும் துடைத்து விடு"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "சரியான நினைவகத்ைத தெரிவிக்கவும்(கண்டுள்ள அளவு %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "சரியான நினைவகத்ைத மெகாபைட்டில் தெரிவிக்கவும்"
+
+#~ msgid "Init Message"
+#~ msgstr "முதல் செய்தி"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "ஒபன்பர்ம்வேர் தாமதம்"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "கரு தொடங்கல் வெளியேற்ற நேரம்"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "சிடியில் இருந்து தொடங்கலாமா?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "ஒபன்பர்ம்வேர்-ல்  இருந்து தொடங்கலாமா?"
+
+#~ msgid "Default OS?"
+#~ msgstr "கொடாநிலை இயங்கு தளம்?"
+
+#~ msgid "Image"
+#~ msgstr "உருவம்"
+
+#~ msgid "Root"
+#~ msgstr "மூலம்"
+
+#~ msgid "Append"
+#~ msgstr "பின் சேர்"
+
+#~ msgid "Video mode"
+#~ msgstr "ஒளித்ேதாற்ற முறைமை"
+
+#~ msgid "Initrd"
+#~ msgstr "தொடங்கலுருவம்"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "வலையமைப்பு பினாமி"
+
+#~ msgid "Label"
+#~ msgstr "தலைப்பு"
+
+#~ msgid "Default"
+#~ msgstr "கொடாநிலை"
+
+#~ msgid "NoVideo"
+#~ msgstr "ஒளித்ேதாற்றம் இல்ைல"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "வெற்றுத் தலைப்புகளுக்கு அனுமதியில்ைல"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "நீங்கள் நிச்சயம் ஒரு கரு உருவை குறிப்பிட வேண்டும்"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "நீங்கள் நிச்சயம் ஒரு மூல வகிரை குறிப்பிட வேண்டும்"
+
+#~ msgid "This label is already used"
+#~ msgstr "இந்த தலைப்பு ஏற்கனவே பயன்பாட்டில் உள்ளது"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "நீங்கள் எந்த வகையான நுழைவை சேர்க்க போகிறீர்கள்?"
+
+#~ msgid "Linux"
+#~ msgstr "லினக்ஸ்"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "மற்ற இயங்கு தளம்(சன்...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "மற்ற இயங்கு தளம்(மேக்...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "மற்ற இயங்கு தளம்(விண்ேடாஸ்...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "உங்கள் தொடங்கல்பட்டியில் உள்ள உருப்படிகள் இதோ உள்ளது\n"
+#~ "இதை நீங்கள் விருப்பம் போல் மாற்றியமைக்கலாம்"
+
+#~ msgid "access to X programs"
+#~ msgstr "X நிரல்களுக்கான அனுமதி"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "rpmபொதிக் கருவிகளுக்கான அனுமதி"
+
+#~ msgid "allow \"su\""
+#~ msgstr "\"su\" நிர்வாகியாக மாறும் கட்டளையை அனுமதி"
+
+#~ msgid "access to administrative files"
+#~ msgstr "நிர்வாக கோப்புகளுக்கு அனுமதி"
+
+#~ msgid "access to network tools"
+#~ msgstr "வலையமைப்புக் கருவிகளுக்கு அனுமதி"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "உருவாக்கக் கருவிகளுக்கான அனுமதி"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(%s ஏற்கனவே சேர்க்கப்பட்டுவிட்டது)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "பயனருக்கு ஓர் பெயர் கொடுக்கவும்"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr "பயனர் பெயரில் சிறிய எழுத்துக்கள், எண்கள் `-' `_' மட்டுமே இருக்கலாம்"
+
+#~ msgid "The user name is too long"
+#~ msgstr "பயனர் பெயர் மிக நீளமாக உள்ளது"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "இந்தப் பயனர் பெயர் ஏற்கனவே சேர்க்கப்பட்டுவிட்டது"
+
+#~ msgid "User ID"
+#~ msgstr "உபயோகிப்பாளர் அடையாளம்"
+
+#~ msgid "Group ID"
+#~ msgstr "குழு ID"
+
+#~ msgid "Add user"
+#~ msgstr "பயனரைச் சேர்"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "பயனர் பெயரை உள்ளிடவும்\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "முடிந்தது"
+
+#~ msgid "Accept user"
+#~ msgstr "பயனரை ஏற்றுக்ெகாள்"
+
+#~ msgid "Real name"
+#~ msgstr "உன்ைமயான பெயர்"
+
+#, fuzzy
+#~ msgid "Login name"
+#~ msgstr "களத்தின் பெயர்"
+
+#~ msgid "Shell"
+#~ msgstr "ஓடு"
+
+#~ msgid "Icon"
+#~ msgstr "குறும்படம்"
+
+#~ msgid "Autologin"
+#~ msgstr "தன்னியக்கநுழைவு"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr "என்னால் உங்கள் கணினியை தன்னியக்கமாக பயனர் பயன்படுத்தும் வகையில் அமைக்க முடியும்"
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "நீங்கள் இந்த வசதியை பயன்படுத்த விரும்புகிறீர்களா?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "கொடாநிலை பயனரைத் தேர்வுச் செய்யவும்"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "பயன்படுத்த விரும்பும் சாளர மேலாளரைத் தேர்வுச் செய்யவும்"
+
+#~ msgid "License agreement"
+#~ msgstr "அனுமதி ஒப்பந்தம்"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "வெளியீடு: "
+
+#~ msgid "Accept"
+#~ msgstr "ஒப்புக் கொள்கிறேன்"
+
+#~ msgid "Refuse"
+#~ msgstr "ஒப்புக்ெகாள்ளவில்ைல"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "நீங்கள் பயன்படுத்த விரும்பும் மொழியைத் தேர்வுச் செய்யவும்"
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "மியான்மர்"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "மாண்ட்ேரக் லினக்ஸில் பல மொழிகளை பயன்படுத்தலாம்\n"
+#~ "நீங்கள் நிறுவ விரும்பும் மொழியைத் தேர்வுச் செய்க\n"
+#~ "நீங்கள் நிறுவி முடித்தவுடன் உங்களுக்கு அவை கிடைக்கும்"
+
+#, fuzzy
+#~ msgid "All languages"
+#~ msgstr "உங்கள் மொழியைத்  தேர்வுச் செய்க"
+
+#, fuzzy
+#~ msgid "Country / Region"
+#~ msgstr "நாடு"
+
+#, fuzzy
+#~ msgid "Please choose your country."
+#~ msgstr "தயவுசெய்து, உங்கள் எலியின் வகையைத் தேர்வுச் செய்யுங்கள்"
+
+#, fuzzy
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "உங்கள் பயன்பாட்டிற்கு உள்ள விசைப்பலகைகள் அனைத்தும் இங்கே கொடுக்கப்பட்டுள்ளன"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "மற்ற துறைகளை"
+
+#~ msgid "Advanced"
+#~ msgstr "அலாதியான "
+
+#~ msgid "None"
+#~ msgstr "வெற்று"
+
+#~ msgid "No sharing"
+#~ msgstr "பகிர்தல் கிடையாது"
+
+#~ msgid "Allow all users"
+#~ msgstr "அனைத்து பயனரையும் அனுமதி"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "நீங்கள் உங்கள் பயனர்களை தத்தம் அடைவுகளை எளிதாக பகிர்ந்து கொள்ள\n"
+#~ "விரும்புகிறீர்களா? இதன் மூலம் பயனர்கள் கான்கொரர், நாடிலஸ் ஆகியவற்றில் \"பகிர்\" என்பதைத் "
+#~ "தேர்வுச் செய்ய முடியும் .\n"
+#~ "\n"
+#~ "\"தனிப்பயனாக்கம்\" மூலம் ஒவ்வொரு பயனருக்கும் தனித்தனியாக அனுமதி அளித்தல்.\n"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "நீங்கள் சம்பா, NFS மூலம் ஏற்றுமதி செய்யலாம். உங்களுக்கு தேவையானதைத் தேர்வுச் செய்யவும்"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "டிரேக்பயனரை துவக்கு"
+
+#~ msgid "Close"
+#~ msgstr "மூடு"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "நீங்கள் பின்னர் \"fileshare\". \n"
+#~ "என்ற குழுவிற்கு பயனரை டிரேக்பயனர் மூலம் எளிதாகச் சேர்க்கலாம்"
+
+#~ msgid "Timezone"
+#~ msgstr "கால மண்டலம்"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "நீங்கள் எந்த கால மண்டலத்ைதச் சேர்ந்தவர்?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "வன்ெபாருள் கடிகாரத்ைத GMT க்கு மாற்று"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "வன்ெபாருள் கடிகாரத்ைத GMT க்கு மாற்று"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP சேவையகம்"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "தானியங்கி நேர ஒத்தியக்கி(NTP உதவியுடன்)"
+
+#~ msgid "Local file"
+#~ msgstr "வட்டார கோப்பு"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#, fuzzy
+#~ msgid "Smart Card"
+#~ msgstr "வலையமைப்பு அட்ைட"
+
+#~ msgid "Windows Domain"
+#~ msgstr "விண்ேடாஸ் களம்"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "உள்ளமை கோப்புகள்:"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "விண்ேடாஸ் களம்:"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "நல்குாிமை LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP சேவையகம்"
+
+#~ msgid "simple"
+#~ msgstr "எளிய"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "நல்குாிமை"
+
+#~ msgid "Domain"
+#~ msgstr "வின்களம்"
+
+#~ msgid "Server"
+#~ msgstr "சேவையகம்"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "தரவுதளங்கள்"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "கடவுச்ெசால்"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "நல்குாிமை NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS  களம்"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS  சேவையகம்"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "இதை நீங்கள் பார்த்தால் நீங்கள் மிகப் தவறான \n"
+#~ "தேர்வு செய்து இருக்கிறீர்கள் என \n"
+#~ "அர்த்தம். உடனடியாக கணினியில் நல்ல தேர்ச்சியுள்ளவர் \n"
+#~ "உதவியுடன மாண்ட்ேரக் லினக்ைஸ நிறுவுங்கள். அல்லது ஆரம்பத்தலிருந்து\n"
+#~ "பொறுமையாக தேர்வுச் செய்து வாருங்கள். வாழ்த்துக்கள்\n"
+#~ "தயவுசெய்து ஆங்கிலத்தில் நிறுவுங்கள்"
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "நல்குாிமை விண்ேடாஸ் களம்"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "விண்ேடாஸ் களத்தின் பயனர் பெயர்"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "விண்ேடாஸ் களம் நிர்வாகியின் கடவுச்ெசால்"
+
+#~ msgid "Authentication"
+#~ msgstr "நல்குாிமை"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "உங்கள் கடவுச்ெசால்ைல உருவாக்கவும்"
+
+#, fuzzy
+#~ msgid "Authentication method"
+#~ msgstr "நல்குாிமை"
+
+#~ msgid "No password"
+#~ msgstr "கடவுச்ெசால் ஏதுமில்ைல"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "உங்கள் கடவுச்ெசால் மிக சிறியதாக உள்ளது (குறைந்த பட்சம் இது %d எழுத்துக்கள் இருக்க "
+#~ "வேண்டும்)  "
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "NIS களத்தில் பரப்ப முடியாது"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "உரைவழி லிலோ"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "சிலோ"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "/boot அடைவில் போதிய இடமில்ைல"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "%s இந்த வகிர் உங்கள் துவங்குநிரலை ஏற்றுக் கொள்ளாது\n"
+
+#, fuzzy
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "துவங்குநிரலை நிறுவுங்கள்"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "கிலோபைட்"
+
+#~ msgid "KB"
+#~ msgstr "கிலோபைட்"
+
+#~ msgid "MB"
+#~ msgstr "மெகாபட்"
+
+#~ msgid "GB"
+#~ msgstr "கிகாபைட் "
+
+#~ msgid "TB"
+#~ msgstr "டெராபைட்"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d நிமிடங்கள்"
+
+#~ msgid "1 minute"
+#~ msgstr "1 நிமிடம்"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d விநாடிகள்"
+
+#~ msgid "New"
+#~ msgstr "புதிய"
+
+#~ msgid "Unmount"
+#~ msgstr "இறக்கு"
+
+#~ msgid "Mount"
+#~ msgstr "ஏற்று"
+
+#~ msgid "Mount point"
+#~ msgstr "ஏற்றப் புள்ளி"
+
+#~ msgid "Error"
+#~ msgstr "பிழை"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "தயவுெசய்து சேவையகத்தின் URL அடிக்கவும்"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL எப்ேபாதும் http:// அல்லது https:// எனத் தொடங்கவேண்டும்"
+
+#~ msgid "Server: "
+#~ msgstr "சேவையகம்: "
+
+#~ msgid "Mount point: "
+#~ msgstr "ஏற்றப் புள்ளி: "
+
+#~ msgid "Options: %s"
+#~ msgstr "விருப்பத்ேதர்வுகள்: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "வகிர் ெசய்தல்"
+
+#~ msgid "Read carefully!"
+#~ msgstr "கவனமாக படிக்கவும்"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "தயவுசெய்து உங்களுக்கு தேவையான அனைத்ைதயும் காப்ெபடுத்துக்ெகாள்ளவும்"
+
+#~ msgid "Exit"
+#~ msgstr "வெளிச்ெசல்"
+
+#~ msgid "Continue"
+#~ msgstr "தொடர்க"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr "எதொடங்கல் "
+
+#~ msgid "Choose action"
+#~ msgstr "இயக்கத்ைத தேர்வுச் செய் "
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "உங்கள் விண்ேடாஸ் வகிர்\n"
+#~ "மிகப்ெபரியதாக உள்ளது .\n"
+#~ "அதை நீங்கள் மாற்றியமைக்க நான் அறிவுருத்துவேன்\n"
+#~ "(\"மாற்றியமை\" என்பதன் மீது கிளிக் செய்)"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "தயவுசெய்து வகிர் ஒன்ைற தேர்ந்ெதடுக்கவும்"
+
+#~ msgid "Details"
+#~ msgstr "விவரங்கள்"
+
+#~ msgid "No hard drives found"
+#~ msgstr "வன்தட்டு ஏதும் காணப்படவில்ைல"
+
+#~ msgid "Unknown"
+#~ msgstr "தெரியாதது"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2 கோப்பமைப்பு"
+
+#~ msgid "Journalised FS"
+#~ msgstr "தாளிகையான கோப்பமைப்பு"
+
+#~ msgid "Swap"
+#~ msgstr "இடமாற்று"
+
+#~ msgid "SunOS"
+#~ msgstr "சன் இயங்குதளம்"
+
+#~ msgid "HFS"
+#~ msgstr "HFS கோப்பமைப்பு"
+
+#~ msgid "Windows"
+#~ msgstr "விண்ேடாஸ்"
+
+#~ msgid "Empty"
+#~ msgstr "ஒன்றுமில்ைல"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "கோப்பமைப்பு வகைகள்:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "இந்த வகிர் மாற்றியமைக்கப்பட முடியாதது"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "முதலில்  இறக்கு கட்டளையை  பயன்படுத்து"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "பதிலாக  ``%s'' ஐ பயன்படுத்து"
+
+#~ msgid "Type"
+#~ msgstr "வகை: "
+
+#~ msgid "Choose another partition"
+#~ msgstr "வேறு வகிர் ஒன்றை தேர்வுச் செய் "
+
+#~ msgid "Choose a partition"
+#~ msgstr "வகிர் ஒன்றை தேர்வுச் செய்"
+
+#~ msgid "Undo"
+#~ msgstr "செயல்நீக்கு"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "சாதாரனர் முறைமைக்கு மாறு"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "அறிஞர் முறைமைக்கு மாறு"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "வடிவமைப்புகள்"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "எப்படியும் தொடரவதா?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "சேமிக்காமல் வெளிச்ெசல்"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "மாற்றங்களை தட்டில் சேமிக்காமல் வெளிச்ெசல்"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr " /etc/fstab மாற்றங்களை தட்டில் சேமிக்க வேண்டுமா"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr "நீங்கள் செய்த மாற்றங்கள் செயல்பட உங்கள் கணினியை மறுதொடக்கம் செய்யவும்"
+
+#~ msgid "Clear all"
+#~ msgstr "அனைத்ைதயும் மாற்றியமை"
+
+#~ msgid "Auto allocate"
+#~ msgstr "தானியக்க வகுத்தல்"
+
+#~ msgid "More"
+#~ msgstr "மேலும்"
+
+#~ msgid "Hard drive information"
+#~ msgstr "வன்தட்ைட பற்றிய தகவல்"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "தொடக்க வகிர் அனைத்தும் பயஙனபாட்டில் உள்ளது"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "இதற்கு மேல் வகிர் எதனையும் சேர்க்க முடியாது"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "மேலும் வகிர் எதனையும் சேர்க்க வேண்டுமானால், தொடக்க வகிர் ஒன்றை நீக்கி விட்டு புதிய "
+#~ "நீட்டிப்பு வகிர் ஒன்றை உருவாக்கவும்"
+
+#~ msgid "Save partition table"
+#~ msgstr "மாற்றங்களை தட்டில் சேமிக்கவும்"
+
+#~ msgid "Restore partition table"
+#~ msgstr "தட்டின் வகிர் அமைப்புகளை பழைய நிலைக்கு கொண்டு வாருங்கள்"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "தட்டின் வகிர் அமைப்புகளை மீட்கவும்"
+
+#~ msgid "Reload partition table"
+#~ msgstr "தட்டின் வகிர் அமைப்புகளை புதுக்கல் செய்யவும்"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "கழற்று ஊடகங்கள் தானேற்றம்"
+
+#~ msgid "Select file"
+#~ msgstr "கோப்ேபா தேர்வுச் செய்"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "காப்பில் உள்ள தட்டின் வகிர் அமைப்பின் அளவு வேறாக உள்ளது\n"
+#~ "தொடர்ந்து` செல்லலாமா?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "தட்டின் வகிர் அமைப்புகளை மீட்க முயல்கிறேன்"
+
+#~ msgid "Detailed information"
+#~ msgstr "விரிவான தகவல்"
+
+#~ msgid "Resize"
+#~ msgstr "மாற்றியமை "
+
+#~ msgid "Format"
+#~ msgstr "வடிவூட்டு"
+
+#~ msgid "Add to RAID"
+#~ msgstr "RAID உடன் சேர்"
+
+#~ msgid "Add to LVM"
+#~ msgstr "LVM உடன் சேர்"
+
+#~ msgid "Delete"
+#~ msgstr "நீக்கு"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "RAID இருந்து நீக்கு"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "LVM இருந்து நீக்கு"
+
+#~ msgid "Modify RAID"
+#~ msgstr "RAID மாற்று"
+
+#~ msgid "Use for loopback"
+#~ msgstr "கண்ணியாக பயன்படு"
+
+#~ msgid "Create"
+#~ msgstr "உருவாக்கு"
+
+#~ msgid "Create a new partition"
+#~ msgstr "வகிர் ஒன்றை உருவாக்ககு "
+
+#~ msgid "Start sector: "
+#~ msgstr "ஆரம்ப வில்: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "மெகாபைட்டில் அளவு: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "கோப்பமைப்பு வகை: "
+
+#~ msgid "Preference: "
+#~ msgstr "விருப்பங்கள்: "
+
+#, fuzzy
+#~ msgid "Logical volume name "
+#~ msgstr "உள்ளமை கோப்புகள்"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "வகிர் ஒன்றை உருவாக்க முடியாது\n"
+#~ "அதிகபட்ச தொடக்க வகிர் ஏற்கனவே உள்ளது.\n"
+#~ "ஒரு தொடக்க வகிர் ஒன்றை நீக்கி விட்டு நீட்டிப்பு வகிர் ஒன்றை உருவாக்குங்கள்"
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "கண்ணியின் கோப்ேபா நீக்கவா?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ " %s, என்ற வகிர் அதன் வகையை மாற்றியவுடன், அதலிருந்த தகவல் அனைத்ைதயும் இழந்துவிடும்"
+
+#~ msgid "Change partition type"
+#~ msgstr "வகிர் வகையை மாற்று: "
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "நீங்கள் எந்த கோப்பமைப்ேபா பயன்படுத்த போகிறீர்கள்?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "ext2 யிலிருந்து ext3 கோப்பமைப்பிற்கு மாறுகிறது"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "தலைப்பு"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "உங்கள் கண்ணி கோப்பு %s எங்கு ஏற்ற  விரும்புகிறீர்கள்?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "உங்கள் %s வட்ைட எங்கு ஏற்ற விரும்புகிறீர்கள்?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "ஏற்கனவே பயனீட்டில் உள்ளதால் ஏற்றப்புள்ளியை பயன்படுத்த முடியாது.\n"
+#~ "முதலில் கண்ணியின் கோப்ேபா நீக்குங்கள்"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "உங்கள் %s வட்ைட எங்கு ஏற்ற விரும்புகிறீர்கள்?"
+
+#~ msgid "Resizing"
+#~ msgstr "மாற்றியமைக்கப்படுகிறது"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "FAT கோப்பமைப்பு அளவுகள் அளக்கப்படுகின்றன"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "இந்த வகிர் மாற்றியமைக்கப்பட முடியாதது"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "தயவுசெய்து உங்களுக்கு தேவையான அனைத்ைதயும் காப்ெபடுத்துக்ெகாள்ளவும்"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "%s, மாற்றியமைத்த பிறகு அனைத்ைதயும் அழித்து விடும்"
+
+#~ msgid "Choose the new size"
+#~ msgstr "புதிய அளவை தேர்வுச் செய்யவும்"
+
+#~ msgid "New size in MB: "
+#~ msgstr "புதிய அளவை மெகா பைட்டில் : "
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "ஏற்கனவே இருக்கும் RAID உடன் சேர்"
+
+#~ msgid "new"
+#~ msgstr "புதிய"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "ஏற்கனவே இருக்கும் LVM உடன் சேர்"
+
+#~ msgid "LVM name?"
+#~ msgstr "LVM  பெயர்"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "இந்த வகிர் கண்ணியாக பயன்ழடுத்த முடியாது"
+
+#~ msgid "Loopback"
+#~ msgstr "கண்ணி"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "கண்ணி கோப்பின் பெயர்: "
+
+#~ msgid "Give a file name"
+#~ msgstr "கோப்பிற்கு பெயர் கொடுக்கவும்"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "இந்த ேகாப்பு ஏற்கனவே பயன்பாட்டில் உள்ளது, வேறு பெயர் கொடுக்கவும்"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "இந்த கோப்பு ஏற்கனவே உள்ளது. பயன்பாடுத்தி கொள்ளலாமா?"
+
+#~ msgid "Mount options"
+#~ msgstr "ஏற்ற விருப்பத்ேதர்வுகள்"
+
+#~ msgid "Various"
+#~ msgstr "வேறு"
+
+#~ msgid "device"
+#~ msgstr "சாதனம்"
+
+#~ msgid "level"
+#~ msgstr "நிலை"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "அளவு"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "இந்த செயல் அபாயகரமானது. கவனமாக இருக்கவும்"
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "எந்த வகை வகிர்?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "நீங்கள் செய்த மாற்றங்கள் வேலை செய்ய மறு தொடக்கம் தேவை"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "%s வட்டின் வகிர் அமைப்பு தட்டில் எழுதப்படவுள்ளது"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "தயவுசெய்து உங்களுக்கு தேவையான அனைத்ைதயும் காப்ெபடுத்துக்ெகாள்ளவும் %s வடிவூட்டிய "
+#~ "பிறகு அனைத்து விவரங்களையும் இழந்து விடுவீர்கள்"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "கட்டங்களை சோதிக்க வேண்டுமா?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "கோப்புகளை வேறு வகிர் ஒன்றுக்கு மாற்றவும்"
+
+#~ msgid "Hide files"
+#~ msgstr "கோப்புகளை மறைக்கவும்"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "கோப்புகளை வேறு வகிர் ஒன்றுக்கு மாற்றப்படுகிறது "
+
+#~ msgid "Copying %s"
+#~ msgstr "%s நகலெடுக்கபடுகிறது"
+
+#~ msgid "Removing %s"
+#~ msgstr "%s நீக்கப்படுகிறது"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "%s வகிர் இப்ேபாது %s என வழங்கப்படுகிறது"
+
+#~ msgid "Device: "
+#~ msgstr "சாதனம்: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr ": %s டாஸ் இயக்கி எண்\n"
+
+#~ msgid "Type: "
+#~ msgstr "வகை: "
+
+#~ msgid "Name: "
+#~ msgstr "கணினியின்பெயர்:  "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "ஆரம்பவில் %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "அளவு: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s வில்"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "%d முதல்  %d வரை உள்ள உருளைகள்\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "வடிவூட்டப்பட்டது\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "வடிவூட்டப்பட்டவில்ைல\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "ஏற்றப்பட்டுள்ளது\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "கண்ணி கோப்பு:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "கொடாநிலையாக தொடங்கிய வகிர்\n"
+#~ ".\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "நிலை %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "வெட்டு அளவு%s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "RAID-வட்டிகள் %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "கண்ணி கோப்பின் பெயர்: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "இந்த வகிர்\n"
+#~ "முக்கியமானது\n"
+#~ "இதை ஒன்றும் செய்யாதீர்கள்\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "இந்த வகிர் உங்கள்\n"
+#~ "கணினி இரண்டு இயக்க நிரல்களும் துவங்க\n"
+#~ "தேவை\n"
+
+#~ msgid "Read-only"
+#~ msgstr "படிப்பதற்கு மட்டும்"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "அளவு: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "கோனங்கள்: %s உருளைகள், %s தலைகள், %s விற்கள்\n"
+
+#~ msgid "Info: "
+#~ msgstr "தகவல்: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-தட்டுகள்%s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "வகிர் அமைப்பின் வகை: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "%d தடத்தில் %d உள்ளது\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "கோப்பமைப்பு மறைக்குறியீட்டுச் சாவி"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "உங்கள் கோப்பமைப்புக்கு மறைக்குறியீட்டுச் சாவியை தேர்வுச் செய்"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr "இந்த மறைக்குறியீட்டுச் சாவி மிக எளிதாக உள்ளது  %d அளவு இருக்கவேண்டும்"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "மறைக்குறியீட்டுச் சாவிகள் இரண்டும் ஒன்றாக இல்ைல"
+
+#~ msgid "Encryption key"
+#~ msgstr "மறைக்குறியீட்டுச் சாவி"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "மறைக்குறியீட்டுச் சாவி(மீண்டும்)"
+
+#, fuzzy
+#~ msgid "Encryption algorithm"
+#~ msgstr "நல்குாிமை"
+
+#~ msgid "Change type"
+#~ msgstr "வகையை மாற்று"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "பயனர்ெபயர் %s தொடங்க முடியவில்ைல(தவறான கடவுச்ெசால்?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "வின்கள நல்குரிமை வேண்டும்"
+
+#~ msgid "Which username"
+#~ msgstr "எந்த பயனர்ெபயர்"
+
+#~ msgid "Another one"
+#~ msgstr "மற்ெறான்று"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr "தயவுசெய்து உங்கள் பயனர்ெபயர், கடவுச்ெசால், வின்களம் ஆகியவற்ைற தட்டவும்"
+
+#~ msgid "Username"
+#~ msgstr "பயனர்ெபயர்"
+
+#~ msgid "Search servers"
+#~ msgstr "சேவையகத்ைத தேடு"
+
+#, fuzzy
+#~ msgid "Search new servers"
+#~ msgstr "சேவையகத்ைத தேடு"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "%s என்ற பொதி நிறுவப்படவேண்டும். இதை நிறுவ வேண்டுமா?"
+
+#, fuzzy
+#~ msgid "Could not install the %s package!"
+#~ msgstr "%s பொதி நிறுவப்படுகிறது"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "கட்டாயமாக இருக்க வேண்டியப் பொதி %s இல்ைல"
+
+#, fuzzy
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "கிழ்கானும் பொதிகள் நிறுவுவதற்கு தேர்வுச் செய்யப்பட்டுள்ளது"
+
+#~ msgid "Installing packages..."
+#~ msgstr "பொதிகளை நிறுவப்படுகிறது..."
+
+#, fuzzy
+#~ msgid "Removing packages..."
+#~ msgstr "%s நீக்கப்படுகிறது..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr "பிழை நேர்ந்துள்ளது -உங்கள் வன்ெபாருளைச் சோதிக்கவும்"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "FAT வடிவூட்டப்பட்ட வகிர் /boot/efi என்ற இடத்தில் ஏற்றப்பட வேண்டும்"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "%s வகிர் வடிவூட்டப்படுகிறது"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "%s என்ற கோப்பு உருவாக்கப்பட்டு வடிவூட்டபடுகின்றன"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "%s இந்த %s வகையில் வடிவூட்டுவது எப்படி என எனக்கு தெரியாது"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s போல்  %s வடிவூட்டியது முடியவில்ைல"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "சுற்று ஏற்றங்கள் %s\n"
+
+#, fuzzy
+#~ msgid "Mounting partition %s"
+#~ msgstr "%s வகிர் வடிவூட்டப்படுகிறது"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "%s வகிர்  %s அடைவில் ஏற்றுவதில் பிழை நேர்ந்துள்ளது"
+
+#~ msgid "Checking %s"
+#~ msgstr "%s சரிபார்த்தல்"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "இறக்குவதில் பிழை நேர்ந்துள்ளது %s: %s"
+
+#, fuzzy
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "%s வகிர் வடிவூட்டப்படுகிறது"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr "மறைக்குறியீடு செய்யப்பட்ட கோப்பமைப்புக்கு %s ஏற்றப்புள்ளியை பயன்படுத்த முடியாது"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "ஏற்றப் புள்ளி %s ஏற்கனவே உள்ளது"
+
+#~ msgid "No partition available"
+#~ msgstr "வகிர் ஏதுமில்ைல"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "ஏற்றப் புள்ளிகளுக்காக வகிர்கள் தேடப்படுகின்றன"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "ஏற்றப் புள்ளிகளை தேர்வுச் செய்"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "எந்த வகிர் வடிவூட்டபட வேண்டுமென தேர்வு சேய்யுங்கள்"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "%s என்ற கோப்பமைப்பு சோதிக்கப் படவில்ைல. தவறு ஏதுமிருநதால் அதை சரிசெய்யலாமா? "
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "இடமாற்றுக்கு போதுமான இடமில்ைல, தயவுசெய்து இன்னும் சிறிது சேர்க்கவும்"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr "உங்களிடம் நிச்சயம் ஒரு மூல வகிர் இருக்க வேண்டும்"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "உங்களிடம்  இடமாற்று வகிர் இல்ைல.\n"
+#~ "\n"
+#~ "அப்படியே தொடரலாமா?"
+
+#~ msgid "Use free space"
+#~ msgstr "காலியாக உள்ள இடத்ைத பயன்படுத்து"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "போதுமான காலியிடம் இல்ைல"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "இருக்கும் வகிர்களை பயன்படுத்துங்கள்"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "பயன்படுத்த வகிர்கள் ஏதுமில்ைல"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "வின்ேடாஸ் வகிற்ைற பயன்படுத்தவும்"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "எந்த வகிற்றில் நீங்கள் வின்ேடாஸ்லினக்ைஸ பயன்படுத்த விரும்புகிறீர்கள்?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "அளவை தேர்வுச் செய்யவும்"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "மெகா பைட்டில் மூல வகிர் அளவு : "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "மெகா பைட்டில் இடமாற்று வகிர் அளவு : "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr "கண்ணி ேகாப்ைப பயன்படுத்த FAT வகிர் ஏதுமில்ைல(அல்லது காலியிடம் இல்ைல)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "விண்ேடாஸ் வகிற்றில் உள்ள காலியிடத்ைத பயன்படுத்து"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "நீங்கள் எந்த வகிற்றின் அளவை மாற்றியமைக்க போகிறீர்கள்?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "விண்ேடாஸ் வகிற்றின் அளவு  மாற்றியமைக்கப்பதில் , \n"
+#~ "இந்த பிழை நேர்ந்துள்ளது மன்னிக்கவும்  %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "விண்ேடாஸ் வகிற்றில் உள்ள இடம் கண்டுபிடிக்கிறது"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "விண்ேடாஸ் வகிர் மிகவும் துண்டாக்கப்பட்டுள்ளது. தயவுசெய்து நீங்கள் கணினியை விண்ேடாஸில் "
+#~ "தொடங்கி  ``defrag'' என்ற கருவியை இயக்கவும். பின்னர் மீண்டும் இங்கு வந்து மாண்ட்ேரக் "
+#~ "நிறுவலைத் தொடரவும்"
+
+#, fuzzy
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "எச்சரிக்ைக!\n"
+#~ "\n"
+#~ "\n"
+#~ "டிரேக்X இப்ேபாது விண்ேடாஸ் வகிற்றின் அளவை  மாற்றியமைக்கப் போகிறது: இது மிகவும் "
+#~ "ஆபத்தானது. நீங்கள் நிச்சயம் விண்ேடாஸில் scandisk நிரலை  இயக்கியிருக்க வேண்டும்  மேலும் "
+#~ "உங்களுக்கு தேவையான தகவல்களை காப்பு எடுத்துக் கொள்ளவும்\n"
+#~ "\n"
+#~ "\n"
+#~ "இவையனைத்தும் சரியாக இருந்தால் %s என தேர்வுச் செய்யவும்"
+
+#~ msgid "Next"
+#~ msgstr "அடுத்து"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "விண்ேடாஸ் அளவு எவ்வளவு பெரிதாக இருக்க வேண்டும்"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "அளவு: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "விண்ேடாஸ் வகிற்றின் அளவு  மாற்றியமைக்கப்படுகிறது"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "FAT அளவு  மாற்றியமைக்கப்டுவதில் பிழை நேர்ந்துள்ளது: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr "அளவை மாற்றுவதற்கு FAT வகிர் ஏதுமில்ைல(காலியிடம் ஏதுமில்ைல"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "விண்ேடாைஸ நீக்கி விடு"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "முழு வட்ைடயும் அழித்து விடு"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "உங்களிடம் ஒன்றுக்கு மேற்ப்பட்ட வன் வட்டு உள்ளது, எதில் லினக்ைஸ நிறுவ வேண்டும்?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ " %s வட்டில் உள்ள அனைத்து வகிரும் அதில் உள்ள அனைத்து தகவல்களும் அழிக்கப்பட்டுவிடும்"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "வகிர்தலை தனிப்பயனாக்கு"
+
+#~ msgid "Use fdisk"
+#~ msgstr "fdisk-ஐ பயன்படுத்து"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "இப்ேபாது நீங்கள் இந்த %s வட்ைட வகிர்தல் வேண்டும்.\n"
+#~ "முடிந்தவுடன் , `w' என்ழதன் மூலம் சேமிப்பதை மறந்து விடாதே"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "நிறுவுவதற்கு வகிற்றில் போதிய இடமில்ைல"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "டிரேக்X மாயாவி உங்களுக்கு இந்த பதில்களை கொடுக்கிறது"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "வகிர்தலில் பிழை நேர்ந்துள்ளது: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "JFS வகையை  16மெகா பைட்டுக்கு குறைவான வகிற்றில் பயன்படுத்த முடியாது"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "ReiserFS  வகையை  32மெகா பைட்டுக்கு குறைவான வகிற்றில் பயன்படுத்த முடியாது"
+
+#~ msgid "with /usr"
+#~ msgstr "/usr உடன்"
+
+#~ msgid "server"
+#~ msgstr "பரிமாறி"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "உங்கள் வகிர் அமைப்பு %s குழப்பமாக உள்ளது.\n"
+#~ "%s என்ற பிழை நேர்ந்துள்ளது\n"
+#~ "\n"
+#~ "உங்கள் வன் வட்டில் உள்ள அனைத்து விவரங்களையும் இழக்க சம்மதமா?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "ஏற்றப் புள்ளிகள்  / உடன் மட்டும் தான் தொடங்க வேண்டும்"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr " %s என்ற ஏற்றப் புள்ளியுடன் ஏற்கனவே வகிர் ஒன்று உள்ளது\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "உங்கள்  root (/) வகிர்  RAID வகையில் உள்ளது. நீங்கள் லிலோ பயன்படுத்தினால் அது வேலை "
+#~ "செய்ய. /boot தேவை. அதனால்  /boot உருவாக்கவும்"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "%s என்ற ஏற்றப் புள்ளியில் LVM வகிர் ஆகையால் ஏற்ற முடியாது"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "உங்கள்  root (/) வகிர்  RAID வகையில் உள்ளது. நீங்கள் லிலோ பயன்படுத்தினால் அது வேலை "
+#~ "செய்ய. /boot தேவை. அதனால்  /boot உருவாக்கவும்"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "இந்த அடைவு மூல கோப்பமைப்பில் இருக்க வேண்டும்"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "நீங்கள் இதனை ஏற்ற  (ext2/ext3, reiserfs, xfs, or jfs) போன்ற கோப்பமைப்பு தேவை\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "மறைக்குறியீடு செய்யப்பட்ட கோப்பமைப்புக்கு %s ஏற்றப்புள்ளியை பயன்படுத்த முடியாது"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "தன்னியக்கமாக அளிக்க போதிய இடமில்ைல"
+
+#~ msgid "Nothing to do"
+#~ msgstr "ஒன்றும் செய்வதற்கில்ைல"
+
+#~ msgid "Floppy"
+#~ msgstr "ெநகிழ்வட்டு"
+
+#~ msgid "Zip"
+#~ msgstr "ஜிப்"
+
+#~ msgid "Hard Disk"
+#~ msgstr "வட்டு"
+
+#~ msgid "CDROM"
+#~ msgstr "சிடி இயக்கி"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "சிடி/டிவிடி எரிப்பான்கள்"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "டிவிடி-இயக்கி"
+
+#~ msgid "Tape"
+#~ msgstr "நாடா"
+
+#~ msgid "AGP controllers"
+#~ msgstr "AGP கட்டுபாடுகள்"
+
+#~ msgid "Videocard"
+#~ msgstr "ஒளித்ேதற்ற அட்ைட"
+
+#~ msgid "Tvcard"
+#~ msgstr "TV அட்ைட"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "மற்ற பல்லூடக சாதனங்கள்"
+
+#~ msgid "Soundcard"
+#~ msgstr "ஒலியட்ைட"
+
+#~ msgid "Webcam"
+#~ msgstr "வலைபடக் கருவி"
+
+#~ msgid "Processors"
+#~ msgstr "ெசயலகங்கள்"
+
+#, fuzzy
+#~ msgid "ISDN adapters"
+#~ msgstr "ISDN அட்ைட"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "வலையமைப்பு அட்ைட"
+
+#~ msgid "Modem"
+#~ msgstr "ேமாடம்"
+
+#~ msgid "Memory"
+#~ msgstr "நினைவு"
+
+#~ msgid "Printer"
+#~ msgstr "அச்சுப்ெபாறி"
+
+#~ msgid "Joystick"
+#~ msgstr "ஜாய்ஸ்டிக்"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA கட்டுபாடுகள்"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID கட்டுபாடுகள்"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA கட்டுபாடுகள்"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire கட்டுபாடுகள்"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA கட்டுபாடுகள்"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI கட்டுபாடுகள்"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB கட்டுபாடுகள்"
+
+#, fuzzy
+#~ msgid "USB ports"
+#~ msgstr "USB அச்சுப்ெபாறி"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus கட்டுபாடுகள்"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "பிரிட்ஜ் மற்றும் இயக்க கட்டுபாடுகள்"
+
+#~ msgid "Mouse"
+#~ msgstr "எலி"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "வருடி"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "ெதரியாத/மற்றவை"
+
+#~ msgid "cpu # "
+#~ msgstr "ெசயலகம் # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "தயவுசெய்து காத்திருக்கவும்...செயல்படுத்தப்படுகிறது"
+
+#~ msgid "No alternative driver"
+#~ msgstr "மாற்று இயக்கநிரல் ஏதுமில்ைல"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "உங்கள் (%s) ஒலியட்ைடக்கு OSS/ALSA இயக்க நிரல் ஏதுமில்ைல. அதனால் \"%s\" பயன்படுகிறது"
+
+#~ msgid "Sound configuration"
+#~ msgstr "ஒலி வடிவமைப்பு"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr "உங்கள் ஒலியட்ைடக்கு (%s) மாற்று இயக்கநிரலை இங்கு தேர்வு செய்யலாம்"
+
+#~ msgid "Driver:"
+#~ msgstr "இயக்கநிரல்:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "சரிபார்க்க படுகிறது"
+
+#~ msgid "No open source driver"
+#~ msgstr "விடுவிக்கப்பட்ட இயக்கநிரல் ஏதுமில்ைல"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "உங்கள் ஒலியட்ைடக்கு (%s), விடுவிக்கப்பட்ட  இயக்கநிரல் ஏதுமில்ைலமாற்று இயக்கநிரல்  \"%s"
+#~ "\" உள்ளது"
+
+#~ msgid "No known driver"
+#~ msgstr "இயக்கநிரல் ஏதுமில்ைல"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "உங்கள் ஒலியட்ைடக்கு (%s) இயக்கநிரல் ஏதுமில்ைல"
+
+#~ msgid "Unknown driver"
+#~ msgstr "தெரியாத இயக்க நிரல்"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "உங்கள் ஒலியட்ைடக்கான இயக்கநிரல்  \"%s\" ஏதுமில்ைல"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "ஒலியை சரிபார்த்தல்"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "நாேன இயக்கு நிரலை ேதர்ந்ெதடுக்கிேறன்"
+
+#~ msgid "Auto-detect"
+#~ msgstr "தன்னியக்க-கண்டுபிடித்தல்"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "பொதுவின திரையகம்"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Unknown|CPH05X (bt878) [many vendors]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Unknown|CPH06X (bt878) [many vendors]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+
+#~ msgid "Card model:"
+#~ msgstr "அட்ைட மாதிரி:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Tuner type:"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Number of capture buffers:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "number of capture buffers for mmap'ed capture"
+
+#~ msgid "PLL setting:"
+#~ msgstr "PLL அமைப்புக்கள்"
+
+#~ msgid "Radio support:"
+#~ msgstr "வாெனாலி ஆதரவு"
+
+#~ msgid "enable radio support"
+#~ msgstr "வாெனாலி ஆதரவை ெசயலபடுத்து"
+
+#~ msgid "Yes"
+#~ msgstr "ஆம்"
+
+#~ msgid "No"
+#~ msgstr "இல்ைல"
+
+#~ msgid "Choose a file"
+#~ msgstr "கோப்பு ஒன்றைத் தேர்வுச் செய்"
+
+#~ msgid "Add"
+#~ msgstr "சேர்"
+
+#~ msgid "Modify"
+#~ msgstr "மாற்று"
+
+#~ msgid "Remove"
+#~ msgstr "நீக்கு"
+
+#~ msgid "Finish"
+#~ msgstr "முடிந்தது"
+
+#~ msgid "Previous"
+#~ msgstr "முன்னது"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "தவறான தேர்வு, மீண்டும் முயற்சித்து பார்க்கவும்\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "உங்கள் தேர்வு? (கொடாநிலை %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "நீங்கள் நிரப்ப வேண்டியவை \n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "உங்கள் தேர்வு? (0/1 கொடாநிலை %s)"
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "பொத்தான் %s: %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "நீங்கள் இந்த பொத்தானை கிளிக் செய்ய வேண்டுமா?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "உங்கள் தேர்வு? (கொடாநிலை `%s'%s)"
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr "enter `void' for void entry"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> தேர்வுச் செய்வதற்கு பல உள்ளன(%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "தயவுசெய்து நீங்கள் விரும்பும் 10-வீச்சின் முதல் எண்ணை தேர்வுச் செய்,\n"
+#~ "அல்லது நுழைவு சாவியை தட்டி தொடரவும்\n"
+#~ "உங்கள் தேர்வு? "
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> கவனிக்கவும், பெயர் மாறியுள்ளது\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "மீண்டும் சமர்பித்தல்"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "அந்தோரா"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "ஐக்கிய அரபு குடியரசுகள்"
+
+#~ msgid "Afghanistan"
+#~ msgstr "ஆப்கானிஸ்தான்"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "ஆன்டிகுவா"
+
+#~ msgid "Anguilla"
+#~ msgstr "அங்குயிலா"
+
+#~ msgid "Albania"
+#~ msgstr "அல்பேனியா"
+
+#~ msgid "Armenia"
+#~ msgstr "ஆர்மினியா"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "ெநதர்லாந்து ஆன்டிலிஸ்"
+
+#~ msgid "Angola"
+#~ msgstr "அங்கோலா"
+
+#~ msgid "Antarctica"
+#~ msgstr "அன்டார்டிகா"
+
+#~ msgid "Argentina"
+#~ msgstr "அர்ெஜன்டினா"
+
+#~ msgid "American Samoa"
+#~ msgstr "சாமோ"
+
+#~ msgid "Austria"
+#~ msgstr "ஆஸ்திரியா"
+
+#~ msgid "Australia"
+#~ msgstr "ஆஸ்திரேலியா"
+
+#~ msgid "Aruba"
+#~ msgstr "அருபா"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "அசர்பைசான்"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "போஸ்னியா"
+
+#~ msgid "Barbados"
+#~ msgstr "பார்படாஸ்"
+
+#~ msgid "Bangladesh"
+#~ msgstr "வங்கதேசம்"
+
+#~ msgid "Belgium"
+#~ msgstr "பெல்ஜியம்"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "பர்கினா போஸா"
+
+#~ msgid "Bulgaria"
+#~ msgstr "பல்கேரியா"
+
+#~ msgid "Bahrain"
+#~ msgstr "பஹ்ரைன்"
+
+#~ msgid "Burundi"
+#~ msgstr "புருண்டி"
+
+#~ msgid "Benin"
+#~ msgstr "பெனின்"
+
+#~ msgid "Bermuda"
+#~ msgstr "பெர்முடா"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "புருனை"
+
+#~ msgid "Bolivia"
+#~ msgstr "பொலிவியா"
+
+#~ msgid "Brazil"
+#~ msgstr "பிரேசில்"
+
+#~ msgid "Bahamas"
+#~ msgstr "பகாமாஸ்"
+
+#~ msgid "Bhutan"
+#~ msgstr "பூடான்"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "பொவே தீவுகள்"
+
+#~ msgid "Botswana"
+#~ msgstr "போட்ஸ்வானா"
+
+#~ msgid "Belarus"
+#~ msgstr "பேலாரூஸ்"
+
+#~ msgid "Belize"
+#~ msgstr "பெலிஸ்"
+
+#~ msgid "Canada"
+#~ msgstr "கனடா"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "கோகோ தீவுகள்"
+
+#~ msgid "Central African Republic"
+#~ msgstr "காங்கோ"
+
+#~ msgid "Switzerland"
+#~ msgstr "சுவிட்சர்லாந்து"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "டீகாட் டைவோர்"
+
+#~ msgid "Cook Islands"
+#~ msgstr "குக் தீவுகள்"
+
+#~ msgid "Chile"
+#~ msgstr "சிலி"
+
+#~ msgid "Cameroon"
+#~ msgstr "கேமருன்"
+
+#~ msgid "China"
+#~ msgstr "சீனா"
+
+#~ msgid "Colombia"
+#~ msgstr "கொலம்பியா "
+
+#~ msgid "Costa Rica"
+#~ msgstr "கோஸ்டா ரிகா"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "சேர்பியா மற்றும் மொன்டிநீக்ரோ"
+
+#~ msgid "Cuba"
+#~ msgstr "கியுபா"
+
+#~ msgid "Cape Verde"
+#~ msgstr "கேப் வேர்தி"
+
+#~ msgid "Christmas Island"
+#~ msgstr "கிருஸ்துமஸ் தீவுகள்"
+
+#~ msgid "Cyprus"
+#~ msgstr "சைப்ரஸ்"
+
+#~ msgid "Czech Republic"
+#~ msgstr "செக் குடியரசு"
+
+#~ msgid "Germany"
+#~ msgstr "ெஜர்மனி"
+
+#~ msgid "Djibouti"
+#~ msgstr "டிஜிபொட்டி"
+
+#~ msgid "Denmark"
+#~ msgstr "டென்மார்க்"
+
+#~ msgid "Dominica"
+#~ msgstr "டோமினிகா"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "டோமினிகா குடியரசு"
+
+#~ msgid "Algeria"
+#~ msgstr "அல்ஜிரியா"
+
+#~ msgid "Ecuador"
+#~ msgstr "இகுவேடார்"
+
+#~ msgid "Estonia"
+#~ msgstr "எஸ்தோனியா"
+
+#~ msgid "Egypt"
+#~ msgstr "எகிப்து"
+
+#~ msgid "Western Sahara"
+#~ msgstr "ேமற்கு சகாரா"
+
+#~ msgid "Eritrea"
+#~ msgstr "எரிதிரியா"
+
+#~ msgid "Spain"
+#~ msgstr "ஸ்ெபயின்"
+
+#~ msgid "Ethiopia"
+#~ msgstr "எத்தியோப்பியா"
+
+#~ msgid "Finland"
+#~ msgstr "பின்லாந்து"
+
+#~ msgid "Fiji"
+#~ msgstr "பிஜி"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "பாக்லாந்து தீவுகள்"
+
+#~ msgid "Micronesia"
+#~ msgstr "ைமக்ேரானிசியா"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "பரோ தீவுகள்"
+
+#~ msgid "France"
+#~ msgstr "பிரான்சு"
+
+#~ msgid "Gabon"
+#~ msgstr "கேபான்"
+
+#~ msgid "United Kingdom"
+#~ msgstr "பிரிட்டன்"
+
+#~ msgid "Grenada"
+#~ msgstr "கிரேனடா"
+
+#~ msgid "Georgia"
+#~ msgstr "ஜார்ஜியா"
+
+#~ msgid "French Guiana"
+#~ msgstr "பிரஞ்சு கினியா "
+
+#~ msgid "Ghana"
+#~ msgstr "கானா"
+
+#~ msgid "Gibraltar"
+#~ msgstr "கிப்ரேலடார்"
+
+#~ msgid "Greenland"
+#~ msgstr "கிரின்லாந்து"
+
+#~ msgid "Gambia"
+#~ msgstr "ஜாம்பியா"
+
+#~ msgid "Guinea"
+#~ msgstr "கினியா"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "குவாடிலோப்"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "கினியா"
+
+#~ msgid "Greece"
+#~ msgstr "கிரிஸ்"
+
+#~ msgid "Guatemala"
+#~ msgstr "குவாடிமாலா"
+
+#~ msgid "Guam"
+#~ msgstr "குவாம்"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "கினியா-பிஸ்ஸ்ாவு"
+
+#~ msgid "Guyana"
+#~ msgstr "கயானா"
+
+#, fuzzy
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "ஹாங்காங்"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "ஹெர்ட் மற்றும் மெக்டொனால்ட் தீவுகள்"
+
+#~ msgid "Honduras"
+#~ msgstr "ெஹான்டுரஸ்"
+
+#~ msgid "Croatia"
+#~ msgstr "குரேசியா"
+
+#~ msgid "Haiti"
+#~ msgstr "ைஹதி"
+
+#~ msgid "Hungary"
+#~ msgstr "ஹங்கேரி"
+
+#~ msgid "Indonesia"
+#~ msgstr "இந்தோனிசியா"
+
+#~ msgid "Ireland"
+#~ msgstr "அயர்லாந்து"
+
+#~ msgid "Israel"
+#~ msgstr "இஸ்ரேல்"
+
+#~ msgid "India"
+#~ msgstr "இந்தியா"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "பிரிட்டீஷ் தீவுகள்"
+
+#~ msgid "Iraq"
+#~ msgstr "ஈராக்"
+
+#~ msgid "Iran"
+#~ msgstr "ஈரான்"
+
+#~ msgid "Iceland"
+#~ msgstr "ஐஸ்லாந்து"
+
+#~ msgid "Italy"
+#~ msgstr "இத்தாலி"
+
+#~ msgid "Jamaica"
+#~ msgstr "ஜமைக்கா"
+
+#~ msgid "Jordan"
+#~ msgstr "ஜோர்டான்"
+
+#~ msgid "Japan"
+#~ msgstr "ஜப்பான்"
+
+#~ msgid "Kenya"
+#~ msgstr "கென்யா"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "கிரிகிஸ்தான்"
+
+#~ msgid "Cambodia"
+#~ msgstr "கம்போடியா"
+
+#~ msgid "Kiribati"
+#~ msgstr "கிரிபாடி"
+
+#~ msgid "Comoros"
+#~ msgstr "கோமோரஸ்"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "ெசயின்ட் கிட்ஸ் ெநவிஸ்"
+
+#~ msgid "Korea"
+#~ msgstr "கொரியா"
+
+#~ msgid "Kuwait"
+#~ msgstr "குவைத்"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "கேமன் தீவுகள்"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "கசகஸ்தான்"
+
+#~ msgid "Laos"
+#~ msgstr "லாவோஸ்"
+
+#~ msgid "Lebanon"
+#~ msgstr "லெபனான்"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "ெசயின்ட் லுசியா"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "இலங்ைக"
+
+#~ msgid "Liberia"
+#~ msgstr "லைபிரியா"
+
+#~ msgid "Lesotho"
+#~ msgstr "லெசாதோ"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lithuania"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxembourg"
+
+#~ msgid "Latvia"
+#~ msgstr "லாட்வியா"
+
+#~ msgid "Libya"
+#~ msgstr "லிபியா"
+
+#~ msgid "Morocco"
+#~ msgstr "ெமாராக்ேகா"
+
+#~ msgid "Monaco"
+#~ msgstr "ெமானாேகா"
+
+#~ msgid "Moldova"
+#~ msgstr "மால்ேடாவா"
+
+#~ msgid "Madagascar"
+#~ msgstr "மடகாஸ்கர்"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "மார்ஷல் தீவுகள்"
+
+#~ msgid "Macedonia"
+#~ msgstr "மாசிேடானியா"
+
+#~ msgid "Mali"
+#~ msgstr "மாலி"
+
+#~ msgid "Myanmar"
+#~ msgstr "மியான்மர்"
+
+#~ msgid "Mongolia"
+#~ msgstr "மங்ேகாலியா"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "வடக்கு மாரியானா தீவுகள்"
+
+#~ msgid "Martinique"
+#~ msgstr "மார்டினிக்"
+
+#~ msgid "Mauritania"
+#~ msgstr "ெமாரிஷியானா"
+
+#~ msgid "Montserrat"
+#~ msgstr "மான்ட்ெசர்ராட்"
+
+#~ msgid "Malta"
+#~ msgstr "மால்டா"
+
+#~ msgid "Mauritius"
+#~ msgstr "ெமாரிஷியஸ்"
+
+#~ msgid "Maldives"
+#~ msgstr "மாலத்தீவு"
+
+#~ msgid "Malawi"
+#~ msgstr "மாலாவி"
+
+#~ msgid "Mexico"
+#~ msgstr "ெமக்சிேகா"
+
+#~ msgid "Malaysia"
+#~ msgstr "மலேஷியா"
+
+#~ msgid "Mozambique"
+#~ msgstr "ெமாசம்பிக்"
+
+#~ msgid "Namibia"
+#~ msgstr "நமிபியா"
+
+#~ msgid "New Caledonia"
+#~ msgstr "நியு  ெசலடோனியா "
+
+#~ msgid "Niger"
+#~ msgstr "நைஜர்"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "நார்ேபாள்க் தீவு"
+
+#~ msgid "Nigeria"
+#~ msgstr "நைஜிரியா"
+
+#~ msgid "Nicaragua"
+#~ msgstr "நிகரகுவா"
+
+#~ msgid "Netherlands"
+#~ msgstr "நெதர்லாந்து"
+
+#~ msgid "Norway"
+#~ msgstr "நார்ேவ"
+
+#~ msgid "Nepal"
+#~ msgstr "ேநபாளம்"
+
+#~ msgid "Nauru"
+#~ msgstr "நாவ்ரு"
+
+#~ msgid "Niue"
+#~ msgstr "நிய்யு"
+
+#~ msgid "New Zealand"
+#~ msgstr "நியுசிலாந்து"
+
+#~ msgid "Oman"
+#~ msgstr "ஓமன்"
+
+#~ msgid "Panama"
+#~ msgstr "பனாமா"
+
+#~ msgid "Peru"
+#~ msgstr "ெபரு"
+
+#~ msgid "French Polynesia"
+#~ msgstr "பிரஞ்சு பாலினேசியா"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "பப்பாவ் நியு கினியா"
+
+#~ msgid "Philippines"
+#~ msgstr "பிலிப்ைபன்ஸ்"
+
+#~ msgid "Pakistan"
+#~ msgstr "பாகிஸ்தான்"
+
+#~ msgid "Poland"
+#~ msgstr "ேபாலாந்து"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "ெசயின்ட் பியரி மிக்ேகாலன்"
+
+#~ msgid "Pitcairn"
+#~ msgstr "பிடிகைர்ன்"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "பியுர்ேடா ரிகா"
+
+#~ msgid "Palestine"
+#~ msgstr "பாலஸ்தீனம்"
+
+#~ msgid "Portugal"
+#~ msgstr "ேபார்ச்சுகல்"
+
+#~ msgid "Paraguay"
+#~ msgstr "பராகுேவ"
+
+#~ msgid "Palau"
+#~ msgstr "பாலாவ்"
+
+#~ msgid "Qatar"
+#~ msgstr "கதார்"
+
+#~ msgid "Reunion"
+#~ msgstr "ரியூனியன்"
+
+#~ msgid "Romania"
+#~ msgstr "ெராமானியா"
+
+#~ msgid "Russia"
+#~ msgstr "ரஷ்யா"
+
+#~ msgid "Rwanda"
+#~ msgstr "ருவாண்டா"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "சவுதி அேரபியா"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "சாலமன் தீவுகள்"
+
+#~ msgid "Seychelles"
+#~ msgstr "சிெசய்ல்ஸ்"
+
+#~ msgid "Sudan"
+#~ msgstr "சுடான்"
+
+#~ msgid "Sweden"
+#~ msgstr "சுவிடன்"
+
+#~ msgid "Singapore"
+#~ msgstr "சிங்கப்பூர்"
+
+#~ msgid "Saint Helena"
+#~ msgstr "ெசயின்ட் ெஹலனா"
+
+#~ msgid "Slovenia"
+#~ msgstr "ஸ்ேலாேவனியா"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "சுவால்பார்ட் மற்றும் ேமயன் தீவுகள்"
+
+#~ msgid "Slovakia"
+#~ msgstr "ஸ்ேலாேவகியா"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "சியரா லிேயான்"
+
+#~ msgid "San Marino"
+#~ msgstr "சான் மரிேனா"
+
+#~ msgid "Senegal"
+#~ msgstr "ெசனகல்"
+
+#~ msgid "Somalia"
+#~ msgstr "சோமாலியா"
+
+#~ msgid "Suriname"
+#~ msgstr "சுரினாம்"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "சாவ் ேதாம் பிரின்சிப்"
+
+#~ msgid "El Salvador"
+#~ msgstr "எல் சால்வேடார்"
+
+#~ msgid "Syria"
+#~ msgstr "சிரியா"
+
+#~ msgid "Swaziland"
+#~ msgstr "சுவாஸிலாந்து"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "துருக்கிய மற்றும் ேகய்கஸ் தீவுகள்"
+
+#~ msgid "Chad"
+#~ msgstr "சாட்"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "பிரஞ்சு தென் குடியிருப்பு"
+
+#~ msgid "Togo"
+#~ msgstr "ெதாேகா"
+
+#~ msgid "Thailand"
+#~ msgstr "தாய்லாந்து"
+
+#~ msgid "Tajikistan"
+#~ msgstr "தஜிகிஸ்தான்"
+
+#~ msgid "Tokelau"
+#~ msgstr "ெடாெகலாவ்"
+
+#~ msgid "East Timor"
+#~ msgstr "கிழக்கு தைமூர்"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "துருக்ெமனிஸ்தான்"
+
+#~ msgid "Tunisia"
+#~ msgstr "துனிஷியா"
+
+#~ msgid "Tonga"
+#~ msgstr "ேடாங்கா"
+
+#~ msgid "Turkey"
+#~ msgstr "துருக்கி"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "டிரினிடட் மற்றும் ெடாபாேகா"
+
+#~ msgid "Tuvalu"
+#~ msgstr "துவாலு"
+
+#~ msgid "Taiwan"
+#~ msgstr "தைவான்"
+
+#~ msgid "Tanzania"
+#~ msgstr "டான்சானியா"
+
+#~ msgid "Ukraine"
+#~ msgstr "உக்ைரன்"
+
+#~ msgid "Uganda"
+#~ msgstr "உகாண்டா"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "United States Minor Outlying Islands"
+
+#~ msgid "United States"
+#~ msgstr "அமெரிக்கா"
+
+#~ msgid "Uruguay"
+#~ msgstr "உருகுேவ"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "உஸ்ெபகிஸ்தான்"
+
+#, fuzzy
+#~ msgid "Vatican"
+#~ msgstr "லாட்விய"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "ெசயின்ட் வின்ெசன்ட் மற்றும் கிரிேனடைன்"
+
+#~ msgid "Venezuela"
+#~ msgstr "ெவனிசுலா"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "விர்ஜின் தீவுகள்(பிரிட்டிஷ்)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "விர்ஜின் தீவுகள்(அெமரிக்க)"
+
+#~ msgid "Vietnam"
+#~ msgstr "வியட்நாம் "
+
+#~ msgid "Vanuatu"
+#~ msgstr "வனுவாடு"
+
+#~ msgid "Samoa"
+#~ msgstr "சாேமாவோ"
+
+#~ msgid "Yemen"
+#~ msgstr "ேயமன்"
+
+#~ msgid "Mayotte"
+#~ msgstr "ேமயோட்"
+
+#~ msgid "South Africa"
+#~ msgstr "ெதன் ஆப்ரிகா"
+
+#~ msgid "Zambia"
+#~ msgstr "ஜாம்பியா"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "ஜிம்பாப்ேவ"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "%s க்கு நல்வரவு "
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "ஏரண வகிற்ைற முதலில் நீக்கு\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "அனுமதி ஒப்பந்தம் -தைரியமாக ஒப்புக்ெகாள்ளலாம்\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "எச்சரிக்ைக\n"
+#~ "\n"
+#~ "பின்வரும் விவரங்களை கவனமாக படிக்கவும். இதில் உங்களுக்கு\n"
+#~ "உடன்பாடு இல்ைலயென்றால் அடுத்து வரும்\n"
+#~ "சிடியை நிறுவ கூடாது\n"
+#~ "\n"
+#~ "\n"
+#~ "அடுத்து வரும் சிடியில் சில நிரல்கள் GPL உரிமைப்படி இல்ைல\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "வாழ்த்துக்கள், நிறுவுதல் வெற்றிகரமாக முடிந்தது\n"
+#~ "நிறுவல்வட்ைடயும், நிறுவல் சிடியையும் வெளியெ எடுத்துவிட்டு மறுதொடக்கம் செய்யவும்.\n"
+#~ "\n"
+#~ "\n"
+#~ "உங்கள் மாண்ட்ேரக் லின பற்றிய கடைசி தகவல்களுக்கு \n"
+#~ "பிழையறிவிப்ேபா பார்க்கவும் \n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "தயவுசெய்து உங்கள் கணினியை வடிவமைக்க மாண்ட்ேரக் உதவிநூல்களை \n"
+#~ "படிக்கவும்"
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "OKI அச்சுபொறியின் வடிவமைப்பு"
+
+#, fuzzy
+#~ msgid "Module configuration"
+#~ msgstr "கைமுறை வடிவமைப்பு "
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "கூற்ைற நீங்கள் இங்கே வடிவமைக்கலாம்"
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "%s இடைமுக அட்ைடகள் உள்ளன"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "மேலும்  உள்ளனவா?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "நீங்கள் %s இடைமுக அட்ைடகள் ஏதேனும் பயன்படுத்துகிறிர்களா?"
+
+#~ msgid "See hardware info"
+#~ msgstr "வன்ெபாருட்களின் விவரங்களைப் பாருங்கள்"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "%s அட்ைட %s க்கு இயக்கு நிரல் நிறுவப்படுகிறது"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "%s அட்ைட %s க்கு இயக்கு நிரல் நிறுவப்படுகிறது"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "%s அட்ைட %s க்கு இயக்கு நிரல் நிறுவப்படுகிறது"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "%s அட்ைட %s க்கு இயக்கு நிரல் நிறுவப்படுகிறது"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "%s அட்ைட %s க்கு இயக்கு நிரல் நிறுவப்படுகிறது"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "%s.கூறுக்கான விருப்பத்ேதர்வுகளை தாருங்கள்\n"
+#~ "0x like '0x123' போன்ற துவக்கத்துடன் அது இருக்கவேண்டும்"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "%s.கூறுக்கான விருப்பத்ேதர்வுகளை தாருங்கள்\n"
+#~ "பெயர்=மதிப்பு என்ற அமைப்பில் இருக்கவேண்டும்...''.\n"
+#~ "உதாரனத்திற்கு , ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "கூறு அமைப்புகள்"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "இந்த %s க்கு எந்த இயக்க நிரலை பயன்படுத்த வேண்டும்?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "இந்த %s க்கு எந்த இயக்க நிரலை பயன்படுத்த சில\n"
+#~ "அதிக விவரங்கள் தேவை. இதை நீங்கள் தருகிறீர்களாஅல்லது \n"
+#~ "டிரேக்x தன்னியக்கத் தேடியறிதல் செய்யட்டுமா\n"
+#~ "இது எப்ேபாதாவது உங்கள் கணினி தொங்கல் நிலைக்கு இட்டுச் செல்லலாம்\n"
+#~ "ஆனால் எதனையும் செயலிழக்கச் செய்யாது"
+
+#~ msgid "Autoprobe"
+#~ msgstr "தன்னியக்கத் தேடியறிதல்"
+
+#~ msgid "Specify options"
+#~ msgstr "விருப்பத்ேதர்வு தெரிவிக்கவும்"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "%s என்ற இயக்க நிரல் ஏற்றத்தில் பிழை நேர்ந்துள்ளது\n"
+#~ "நீங்கள் வேறு விருப்பத்ேதர்வுகளை தெரிவித்து பார்க்கவும்"
+
+#~ msgid "mount failed: "
+#~ msgstr "ஏற்றத்தில் பிழை நேர்ந்துள்ளது: "
+
+#~ msgid "Error reading file %s"
+#~ msgstr "%s என்ற கோப்ேபா படிப்பதில் பிழை நேர்ந்துள்ளது"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "%s: %s என்ற பிைழயான ேகாப்பிலிருற்து நிறுவப்பட்டது"
+
+#~ msgid "Bad backup file"
+#~ msgstr "பிழையான காப்பு ேகாப்பு"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "%s என்ற ேகாப்ைப எழுதுவதில் பிைழ"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "வன்வட்டில் ஏேதா பழுது ேநர்ந்துள்ளது\n"
+#~ "அதனால் நீங்கள் எழுத விரும்பும் விவரங்களை இழக்க\n"
+#~ "ேநரிடும்"
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "வகிர் _formatted_ RAID md%d உடன் சேர்க்க முடியவில்ைல"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "%d என்ற RAID நிலைக்கு போதுமான வகிர் இல்ைல\n"
+
+#, fuzzy
+#~ msgid "Scannerdrake"
+#~ msgstr "வருடியை தேர்வுச் செய்யுங்கள்"
+
+#, fuzzy
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "தொலைவு அச்சுப்பொறி"
+
+#, fuzzy
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "தொலைவு அச்சுப்பொறி"
+
+#, fuzzy
+#~ msgid "Security Alerts:"
+#~ msgstr "பாதுகாப்பு நிலை"
+
+#, fuzzy
+#~ msgid "Set the root umask."
+#~ msgstr "கடவுச்ெசால் ஏதுமில்ைல"
+
+#, fuzzy
+#~ msgid "Set the user umask."
+#~ msgstr "பயனர்கள்"
+
+#, fuzzy
+#~ msgid "Allow remote root login"
+#~ msgstr "தொலைவு அச்சுப்பொறி"
+
+#, fuzzy
+#~ msgid "Allow X Window connections"
+#~ msgstr "சாதரன மோடம்வழி தொடர்பு"
+
+#, fuzzy
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "சேவைகளை வடிவமையுங்கள்"
+
+#, fuzzy
+#~ msgid "No password aging for"
+#~ msgstr "கடவுச்ெசால் ஏதுமில்ைல"
+
+#, fuzzy
+#~ msgid "Password history length"
+#~ msgstr "இந்த கடவுச்ெசால் மிக எளிதாக உள்ளது"
+
+#, fuzzy
+#~ msgid "Root umask"
+#~ msgstr "கடவுச்ெசால் ஏதுமில்ைல"
+
+#, fuzzy
+#~ msgid "Shell timeout"
+#~ msgstr "கரு தொடங்கல் வெளியேற்ற நேரம்"
+
+#, fuzzy
+#~ msgid "User umask"
+#~ msgstr "பயனர்கள்"
+
+#, fuzzy
+#~ msgid "Check open ports"
+#~ msgstr "%s என்ற துறையில் கண்டுபிடிக்கப்பட்டுள்ளது"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "பகைவர்களே வருக"
+
+#~ msgid "Poor"
+#~ msgstr "மோசமான"
+
+#~ msgid "High"
+#~ msgstr "உயர்வான"
+
+#~ msgid "Higher"
+#~ msgstr "மிக உயர்வான"
+
+#~ msgid "Paranoid"
+#~ msgstr "சந்ேதகப் பேய்"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "இந்த அமைப்புகளை பயன்படுத்துதல் கூடாது,\n"
+#~ "முற்றிலும் பாதுகாப்பற்றது. கடவுச்ெசால் கூட கிடையாது\n"
+#~ "இணையத்திற்கு இப்படியே தொடர்பு கொள்ளக்கூடாது"
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "ஓரளவு பாதுகாப்பானது. கடவுச்ெசால் உடையது\n"
+#~ "இணையத்திற்கு இப்படியே தொடர்பு கொள்ளக்கூடாது"
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "சரியான பாதுகாப்பானது. கடவுச்ெசால் உடையது\n"
+#~ "இணையத்திற்கு இப்படியே தொடர்பு கொள்ளலாம்"
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr "அதிக பாதுகாப்பானது. தினமும் பல சோதனைகள் நடைபெறும்"
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "உங்கள் கணினி தற்ேபாது ஓர் பரிமாறியாக பயன்படக்கூடிய அளவு பாதுகாப்பானது\n"
+#~ "இது வெளியில் இருந்து வேண்டிகளின் தேவையை ஈடுச் செய்ய முடியும் \n"
+#~ "உங்கள் கணினி ஒரு சாதரன பயன்பாட்டிற்கு என்றால், இன்னும் சற்று குறைந்த பாதுகாப்பளவை "
+#~ "பயன்படுத்தலாம்"
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr "இது சென்ற நிலை போன்றதே. இது முற்றிலும் மூடப்பட்ட ஓர் கணினியாகும்"
+
+#~ msgid "Security"
+#~ msgstr "பாதுகாப்பு"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "டிரேக்பாதுகாப்பு அடிப்படை விருப்பத்ேதர்வுகள்"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "உங்களுக்கு தேவையான பாதுகாப்பு நிலையைத் தேர்வுச் செய்யவும்"
+
+#~ msgid "Security level"
+#~ msgstr "பாதுகாப்பு நிலை"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "libsafe என்ற நூலகநிரலை  பரிமாறிகளில் பயன்படுத்துங்கள்"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "இந்த நூலகநிரலை  பயன்படுத்துவதால் பல பாதுகாப்பு பிரச்சினைகளை தவிர்க்க முடியும்"
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "பாதுகாப்பு மேலாளர்(பெயர் அல்லது மின்னஞ்சல் முகவரி)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "அல்சா ஒலியமைப்பு இயக்கத்ைத துவக்கு"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron தன்னியக்க செயல் மேலாளர்"
+
+#~ msgid "Printing"
+#~ msgstr "அச்சு மேலாளர்"
+
+#~ msgid "Internet"
+#~ msgstr "இணையம்"
+
+#~ msgid "File sharing"
+#~ msgstr "கோப்பு பகிர்தல்"
+
+#~ msgid "System"
+#~ msgstr "கணினி"
+
+#~ msgid "Remote Administration"
+#~ msgstr "தொலைவு மேலாண்மை"
+
+#~ msgid "Database Server"
+#~ msgstr "தரவுத்தள வேவையகம்"
+
+#~ msgid "Services"
+#~ msgstr "சேவைகள்"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "தன்னயக்கமாக கணினி ெதாடங்கும்ேபாது துவங்க ேவண்டிய ேசவைகள்"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "சேவைகள்: %d பதிவான %d செயல்படுத்தப்பட்டது  "
+
+#~ msgid "running"
+#~ msgstr "இயங்குகிறது"
+
+#~ msgid "stopped"
+#~ msgstr "நிறுத்தப்பட்டது"
+
+#~ msgid "Services and daemons"
+#~ msgstr "சேவைகளும் செயலிகளும்"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "மேல் விவரம் ஏதுமில்ைல\n"
+#~ "மன்னிக்கவும்"
+
+#~ msgid "Info"
+#~ msgstr "தகவல்"
+
+#, fuzzy
+#~ msgid "Start when requested"
+#~ msgstr "தொடக்கபட்டி"
+
+#~ msgid "On boot"
+#~ msgstr "தொடங்குதலின் போது"
+
+#~ msgid "Start"
+#~ msgstr "துவக்கு"
+
+#~ msgid "Stop"
+#~ msgstr "நிறுத்து"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[விசைப்பலகை]"
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "சேவையகத்தை சேர்க்கவும்"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "ெதன் ஆப்ரிகா"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "ஆஸ்திரியா"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "ெதன் ஆப்ரிகா"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "மாசிேடானியா"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "ெதன் ஆப்ரிகா"
+
+#~ msgid "Hong Kong"
+#~ msgstr "ஹாங்காங்"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "ரஷிய(ஒலியமைப்பு)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "யுகோஸ்சுலோவிய"
+
+#~ msgid "Is this correct?"
+#~ msgstr "இது சரியா?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "கோப்பு தேர்வாளர்"
+
+#, fuzzy
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "அதுபோன்ற கோப்போ அடைவோ இல்லை"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "'/'னின் பெயர் கோப்பகத்துக்கு மட்டுமே, விசைக்கு அல்ல "
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "அடைவு இல்லை"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "`%s' கோப்பு கிரையாது\n"
+
+#~ msgid "Expand Tree"
+#~ msgstr "கிளைகளை விரி"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "கிளைகளை சுருக்கு"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "தட்ைட மற்றும் கிளை வரிசைக்குமிடையே மாற்றியமை"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s  நிறுவப்படவில்ைல\n"
+#~ "\"அடுத்து\" என்றால் நிறுவப்படும்,\n"
+#~ "இல்ைலயெனில் \"தவிர்\" என்றால் நிறுவப்படாமல் வெளிச்ெசல்லும்"
+
+#~ msgid "Installation failed"
+#~ msgstr "நிறுவுதலில் பிழை நேர்ந்துள்ளது"

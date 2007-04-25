@@ -1,0 +1,1695 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Copyright (c) 2000 Mandriva.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2002-09-27 17:45+0200\n"
+"Last-Translator: Raivo Saars <spaiks@inbox.lv>\n"
+"Language-Team: Latvian <ll10nt@listes.murds.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB vai vairāk"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X serveris"
+
+#: ../lib/Xconfig/card.pm:172
+#, fuzzy, c-format
+msgid "Choose an X server"
+msgstr "Izvēlieties X serveri"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "N-ekrānu konfigurācija"
+
+#: ../lib/Xconfig/card.pm:206
+#, fuzzy, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Jūsu sistēma atbalsta n-ekrānu konfigurāciju.\n"
+"Ko nu darīsim?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Izvēlieties grafiskās kartes atmiņas apjomu"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Konfigurēt visus ekrānus neatkarīgi"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Lietot Xinerama piebūvi"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Konfigurāt tikai karti \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Pielāgota"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Savienojuma konfigurēšana"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Beigt"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Grafiskā karte"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Monitors"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Izšķirtspēja"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Pārbaude"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Opcijas"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Spraudņi"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Saglabāt izmaiņas?\n"
+"Pašreizējā konfigurācija ir:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Norādiet monitoru"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Norādiet monitoru"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Vispārēja"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Pārdevējs"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Plug'n Play pārbaude neizdevās. Lūdzu, izvēlieties precīzu monitoru"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Divi svarīgākie parametri ir vertikālā pārzīmēšanas frekvence, kas nosaka\n"
+"visa ekrāna pārzīmēšanas biežumu, un horizontālās sinhronizācijas\n"
+"frekvence, kas nosaka skanēšanas līniju parādīšanas biežumu.\n"
+"\n"
+"Ir ĻOTI SVARĪGI, lai jūs nenorādītu monitora tipu, kura sinhronizācijas\n"
+"frekvence pārsniedz jūsu monitora iespējas: jūs varat sabojāt savu "
+"monitoru.\n"
+" Ja neesat pārliecināts, izvēlieties konservatīvāko variantu."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Horizontālā frekvence"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Vertikālā frekvence"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Izvēlieties darbību"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 krāsas (8 biti)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 tūkstoši krāsu (15 biti)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 tūkstoši krāsu (16 biti)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 miljoni krāsu (24 biti)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Izšķirtspējas"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Cits"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Norādiet izšķirtspēju un krāsu dziļumu"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Grafiskā karte: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Labi"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Palīdzība"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Konfigurācijas izmēģināšana"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Vai vēlaties izmēģināt šo konfigurāciju?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Brīdinājums: šīs grafiskās kartes izmēģināšana var uzkārt datoru"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+
+#: ../lib/Xconfig/test.pm:129
+#, fuzzy, c-format
+msgid "Leaving in %d seconds"
+msgstr "%d sekundes"
+
+#: ../lib/Xconfig/test.pm:129
+#, fuzzy, c-format
+msgid "Is this the correct setting?"
+msgstr "Vai tas ir pareizi?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Tastatūras izkārtojums: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Peles tips: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Monitors: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Monitora horiz. frekv.: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Monitora vert. frekv.: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Grafiskā karte: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Grafiskā atmiņa: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Krāsu dziļums: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Izšķirtspēja: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg draiveris: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Xorg konfigurācija"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Grafiskā karte: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "X pēc startēšanas"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Datoru var konfigurēt, lai pēc sistēmas ielādes automātiski startētu X.\n"
+"Vai vēlaties, lai pēc pārstartēšanas tiktu palaists X?"
+
+#: ../lib/Xconfig/various.pm:234
+#, fuzzy, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Liekas, ka Jūsu grafiskajai kartei ir TV-OUT savienotājs.\n"
+"To var nokonfigurēt, lai tiktu lietots kadru buferis.\n"
+"\n"
+"Priekš tā Jums jāpievieno Jūsu grafiskā karte pie TV pirms datora "
+"startēšanas.\n"
+"Tad izvēlieties \"TVout\" ierakstu IN THE BOOTLOADER\n"
+"\n"
+"Vai Jums ir šī iespēja?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Kādu TV standartu jūs izmantojat?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Čehijas (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Vācijas"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvoraka"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Spānijas"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Somijas"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Francijas"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Apvienotās Karalistes"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norvēģijas"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Polijas"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Krievijas"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Zviedrijas"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "ASV tastatūra"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Albāņu"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Armēnijas (vecā)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Armēnijas (rakstāmmašīna)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Armēnijas (fonētiskā)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Arābu"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbaidžānas (latīņu)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Beļģijas"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengāļu (Inscript izvietojums)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengāļu (Probhat izvietojums)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgāru (fonētiskā)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgāru (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brazīlijas (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Bosniešu"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Bosniešu"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Baltkrievijas"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Šveices (vācu izvietojums)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Šveices (franču izvietojums)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Arābu"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Čehijas (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Vācijas (bez mēmajiem taustiņiem)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagari"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Dānijas"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvoraka (US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvoraka (Norvēģijas)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvoraka (Norvēģijas)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvoraka (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvoraka (Norvēģijas)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvoraka (Zviedru)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvoraka (Zviedru)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Igaunijas"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Grieķijas"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Gruzijas (\"krievu\" izvietojums)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Gruzijas (\"latīņu\" izvietojums)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Grieķijas"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Gujarati"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Horvātijas"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Ungārijas"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr ""
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Izraēlas"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Izraēlas (fonētiskā)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Irānas"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Islandes"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Itālijas"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japānas 106 taistiņi"
+
+#: ../lib/keyboard.pm:253
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kanāda"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Apvienotās Karalistes"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Korejiešu tastatūra"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Arābu"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latīņamerikas"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laoiešu"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Lietuvas AZERTY (vecā)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Lietuvas AZERTY (jaunā)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Lietuvas \"numuru rinda\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Lietuvas \"fonētiskā\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Latviešu"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr ""
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Maķedonijas"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Myanmar (Burmese)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Mongoļu (kirilica)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Maltese (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Maltese (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Dānijas"
+
+#: ../lib/keyboard.pm:279
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Surinama"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Polijas (qwerty izvietojums)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Polijas (qwertz izvietojums)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Polijas"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portugāles"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Kanādas (Kvebeka)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Rumāņu (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Rumāņu (qwertz)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Krievijas (fonētiskā)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Slovēnijas"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovākijas (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovākijas (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Dvoraka (Norvēģijas)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Tai tastatūra"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Serbu (kirilica)"
+
+#: ../lib/keyboard.pm:302
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Surinama"
+
+#: ../lib/keyboard.pm:303
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Armēnijas (fonētiskā)"
+
+#: ../lib/keyboard.pm:304
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Tokelau salas"
+
+#: ../lib/keyboard.pm:306
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamil (TSCII)"
+
+#: ../lib/keyboard.pm:307
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Armēnijas (rakstāmmašīna)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Tai tastatūra"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Tai tastatūra"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Tai tastatūra"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tadžiku tastatūra"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Vācijas"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Turcijas (tradicionālais \"F\" modelis)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Turcijas (modernais \"Q\" modelis)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukrainas"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Surinama"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "ASV tastatūra (starptautiskā)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Serbu (kirilica)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vjetnamas \"numuru rinda\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Dienvidslāvu (latīņu)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Labais Alt taustiņs"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Abi Shift taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Ctrll un Shift taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock taustiņš"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Ctrl un Alt taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl un Alt taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt un Shift taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"Menu\" taustiņš"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Kreisais \"Windows\" taustiņš"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Labais \"Windows\" taustiņš"
+
+#: ../lib/keyboard.pm:348
+#, fuzzy, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Abi Shift taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:349
+#, fuzzy, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Abi Shift taustiņi vienlaicīgi"
+
+#: ../lib/keyboard.pm:350
+#, fuzzy, c-format
+msgid "Left Shift key"
+msgstr "Kreisais \"Windows\" taustiņš"
+
+#: ../lib/keyboard.pm:351
+#, fuzzy, c-format
+msgid "Right Shift key"
+msgstr "Labais Alt taustiņs"
+
+#: ../lib/keyboard.pm:352
+#, fuzzy, c-format
+msgid "Left Alt key"
+msgstr "Labais Alt taustiņs"
+
+#: ../lib/keyboard.pm:353
+#, fuzzy, c-format
+msgid "Left Control key"
+msgstr "Attālināta kontrole"
+
+#: ../lib/keyboard.pm:354
+#, fuzzy, c-format
+msgid "Right Control key"
+msgstr "Labais Alt taustiņs"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Šeit Jūs varat izvēlēties taustiņu vai taustiņu kombināciju,\n"
+"kas Jums ļaus pārslēgties starp dažādiem tastatūras\n"
+"izkārtojumiem (piemēram, latīņu un ne-latīņu)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Uzmanību"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - pele"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standarta"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Parasta PS2 Wheel pele"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automātiski"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 poga"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Parasta 2 pogu pele"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, fuzzy, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Parasta 3 pogu pele"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Ritenis"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "seriāla"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Parasta 3 pogu pele"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, fuzzy, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, fuzzy, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (seriāla, vecs C7 tips)"
+
+#: ../lib/mouse.pm:70
+#, fuzzy, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (seriāla, vecs C7 tips)"
+
+#: ../lib/mouse.pm:72
+#, fuzzy, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 pogas"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 pogas"
+
+#: ../lib/mouse.pm:80
+#, fuzzy, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "Pogu emulācija"
+
+#: ../lib/mouse.pm:83
+#, fuzzy, c-format
+msgid "Universal"
+msgstr "Pēc atinstalēšanas"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "neviens"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Nav peles"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Lūdzu izvēlieties jūsu peles tipu."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Mjanma"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Vai emulēt trešo pogu?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Peles ports"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Lūdzu izvēlieties, ar kuru seriālo portu ir saslēgta pele."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Pogu emulācija"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "2. pogas emulācija"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "3. pogas emulācija"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Lūdzu notestējiet peli"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Lai aktivizētu peli,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "PAKUSTINIET RITENI!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Lai izmaiņas stātos spēkā, jums ir jāpārstartē dators"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Tastatūra"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Lūdzu izvēlieties jūsu tastatūras izkārtojumu."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Tastatūras izkārtojums: %s\n"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Tastatūra"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Vai vēlaties, lai BackSpace konsolē darbotos kā Delete?"
+
+#: ../tools/mousedrake:41
+#, fuzzy, c-format
+msgid "Mouse test"
+msgstr "Mouse Systems"
+
+#: ../tools/mousedrake:44
+#, fuzzy, c-format
+msgid "Please test your mouse:"
+msgstr "Lūdzu notestējiet peli"

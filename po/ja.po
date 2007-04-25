@@ -1,0 +1,1713 @@
+# translation of libDrakX.po to Japanese
+# Drakbootdisk Japanese translation
+# Copyright (C) 2000,2003, 2004, 2006 Free Software Foundation, Inc.
+# YAMAGATA Hiroo <hiyori13@alum.mit.edu>, 2000.
+# UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2003, 2004, 2006.
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2004, 2005, 2006, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libDrakX-ja\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2007-03-01 19:00+0900\n"
+"Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
+"Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 KB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 KB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB 以上"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X サーバ"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "X サーバを選んでください"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "マルチヘッド設定"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"お使いのシステムはマルチヘッド設定をサポートしています。\n"
+"どうしますか？"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "グラフィックカードのメモリサイズを選んでください"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+"お使いのビデオカードには付加的な機能をサポートするプロプライエタリドライバが"
+"あります。\n"
+"それを使いますか？"
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "ヘッドを別々に設定"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Xinerama 拡張を使う"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "以下のカードだけを設定: %s %s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "カスタム"
+
+#: ../lib/Xconfig/main.pm:126
+#, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "グラフィックカードとモニタの設定"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "終了"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "グラフィックカード"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "モニタ"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "解像度"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "テスト"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "オプション"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Xorg 設定ファイルが壊れています。無視します。"
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"変更を保存しますか？\n"
+"現在の設定は以下のとおりです:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "ヘッド #%d のモニタを選んでください"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "モニタを選んでください"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "プラグ＆プレイ"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "一般"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "ベンダー"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "プラグ＆プレイの検出に失敗しました。手動でモニタを選んでください。"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"重要なパラメータが二つあります。\n"
+"垂直周波数: スクリーン全体を再描画する周期。\n"
+"水平周波数: 走査線の表示周期。最も重要です。\n"
+"\n"
+"*警告* モニタの許容範囲を外れた垂直/水平同期範囲を指定すると\n"
+"モニタが破損する場合があります。\n"
+"わからない場合は低めに設定してください。"
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "水平周波数"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "垂直周波数"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, c-format
+msgid "Choose plugins"
+msgstr "プラグインを選択"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256色 (8 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "3万2千色 (15 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "6万5千色 (16 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "1600万色 (24 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "解像度"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "その他"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "解像度と色深度を選んでください"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "グラフィックカード: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "ヘルプ"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "設定のテスト"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "この設定で試してみますか？"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr ""
+"警告: このグラフィックカードをテストするとマシンがフリーズするかもしれません"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"エラーが発生しました:\n"
+"%s\n"
+"設定を変更してみてください"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "残り %d 秒"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "この設定でよろしいですか？"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr "3D ハードウェアアクセラレーション: %s\n"
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "キーボードの配列: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "マウスの種類: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "モニタ: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "モニタの水平周波数: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "モニタの垂直周波数: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "グラフィックカード: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "グラフィックメモリ: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "色深度: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "解像度: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg ドライバ: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Xorg の設定"
+
+#: ../lib/Xconfig/various.pm:198
+#, c-format
+msgid "Graphic card options"
+msgstr "グラフィックカードのオプション"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr "3D ハードウェアアクセラレーション"
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr "半透明性を有効にする (コンポジット拡張機能)"
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr "ハードウェアアクセラレーションのマウスポインタを使う"
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+"RENDER アクセラレーションを有効にする (テキストの表示に問題が生じる可能性があ"
+"ります)"
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr "外部モニタを使っての二重表示を有効にする"
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr "セカンドディスプレイを使っての二重表示を有効にする"
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr "BIOS ホットキーによる外部モニタの切り替えを有効にする"
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr "XAA の代わりに EXA を使う (Render と Composite のパフォーマンスを向上)"
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "起動時のグラフィカルインターフェース"
+
+#: ../lib/Xconfig/various.pm:222
+#, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr "起動時に自動的にグラフィカルインターフェース (Xorg) を立ち上げる"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"お使いのグラフィックカードには TV-OUT コネクタが付いているようです。\n"
+"フレームバッファを使って動くように設定することができます。\n"
+"\n"
+"設定を行うには、コンピュータを起動する前にグラフィックカードをテレビに\n"
+"つないでください。\n"
+"その後ブートローダで TVout を選んでください。\n"
+"\n"
+"グラフィックカードにこの機能はありますか？"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "テレビの画像方式は何ですか？"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+"使用されているディスプレイの解像度が正しくないかもしれません。\n"
+"\n"
+"デスクトップがディスプレイからはみ出しているようであれば、\n"
+"%s をインストールすることによって問題を解決できるかもしれません。\n"
+"インストールしますか？"
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "その他"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "チェコ語 (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "ドイツ語"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "スペイン語"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "フィンランド語"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "フランス語"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "イギリス式キーボード"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "ノルウェー語"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "ポーランド語"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "ロシア語"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "スウェーデン語"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "アメリカ式キーボード"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "アルバニア語"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "アルメニア語 (旧)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "アルメニア語 (タイプライター)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "アルメニア語 (phonetic)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "アラビア語"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "アゼルバイジャン (ラテン)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "ベルギー"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "ベンガル語 (Inscript)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "ベンガル語 (Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "ブルガリア語 (phonetic)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "ブルガリア語 (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "ブラジル (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "ボスニア語"
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "ゾンカ語/チベット語"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "ベラルーシ語"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "スイス (ドイツ語配列)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "スイス (フランス語配列)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "チェロキー語 (syllabics)"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "チェコ語 (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "ドイツ語 (デッドキーなし)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "デヴァナガーリー"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "デンマーク語"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (US 英語)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (エスペラント語)"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (フランス語)"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (UK 英語)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (ノルウェー語)"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (ポーランド語)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (スウェーデン語)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "エストニア語"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "フェーロー語"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "グルジア語 (ロシア語配列)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "グルジア語 (ラテン配列)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "ギリシャ語"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "ギリシャ語 (polytonic)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "グジャラート語"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "グルムキ"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "クロアチア語"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "ハンガリー語"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "アイルランド語"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "イヌイット語"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "イスラエル"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "イスラエル (phonetic)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "イラン語"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "アイスランド語"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "イタリア語"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "日本語 106 キーボード"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "カンナダ語"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "キルギス語"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "韓国式キーボード"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "クルド語 (アラビア表記)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "ラテンアメリカ"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "ラオス語"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "リトアニア語 (AZERTY 旧)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "リトアニア語 (AZERTY 新)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "リトアニア語 (数字列 QWERTY)"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "リトアニア語 (phonetic)"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "ラトビア語"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "マラヤーラム語"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr "マオリ語"
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "マケドニア語"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "ミャンマー (ビルマ)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "モンゴル語 (キリル文字)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "マルタ語 (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "マルタ語 (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr "ナイジェリア"
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "オランダ語"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "オリヤー語"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "ポーランド語 (QWERTY)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "ポーランド語 (QWERTZ)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "パシュトウ語"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "ポルトガル語"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "カナダ (ケベック)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "ルーマニア語 (QWERTZ)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "ルーマニア語 (QWERTY)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "ロシア語 (phonetic)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "スロベニア語"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr "シンハラ語"
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "スロバキア語 (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "スロバキア語 (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "サーミ語 (ノルウェー)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "サーミ語 (スウェーデン/フィンランド)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "シンド語"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "セルビア語 (キリル文字)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "シリア語"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "シリア語 (phonetic)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "テルグ語"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "タミル語 (ISCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "タミル語 (タイプライター)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "タイ語 (Kedmanee 配列)"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "タイ語 (TIS-820)"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "タイ語 (Pattachote 配列)"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr "ティフナグ (モロッコ配列) (+latin/arabic)"
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr "ティフナグ (phonetic) (+latin/arabic)"
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "タジク語"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "トルクメン語"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "トルコ語 (伝統的 F モデル)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "トルコ語 (モダン Q モデル)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "ウクライナ語"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "ウルドゥー語"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "US キーボード (国際式)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr "ISO9995-3 (US キーボード, キーごとに 3 レベル)"
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "ウズベク語 (キリル文字)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "ベトナム語 (数字列 QWERTY)"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "ユーゴスラビア (ラテン)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "右側の Alt キー"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "左右の Shift を同時に押す"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Ctrl と Shift を同時に押す"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock キー"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Shift と CapsLock を同時に押す"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl と Alt を同時に押す"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt と Shift を同時に押す"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "メニューキー"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "左側の Windows キー"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "右側の Windows キー"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "左右の Ctrl を同時に押す"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "左右の Alt を同時に押す"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "左側の Shift キー"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "右側の Shift キー"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "左側の Alt キー"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "左側の Ctrl キー"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "右側の Ctrl キー"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"キーボードの配列 (例:ラテンと非ラテン) を切り替えるキーの\n"
+"組み合わせを選んでください"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"この設定はインストール後に有効となります。\n"
+"インストール中は右 Ctrl キーでキーボードの配列を\n"
+"切り替えてください。"
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Mouse"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "標準"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "一般的な PS/2 ホイールマウス"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "自動"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 ボタン"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "一般的な 2 ボタンマウス"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "一般的な 3 ボタンマウス (ホイールエミュレーション付き)"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "ホイール"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "シリアル"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "一般的な 3 ボタンマウス"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan with Wheel emulation"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series with Wheel emulation"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (serial, old C7 type)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (serial, old C7 type) (マウスエミュレーション付き)"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse (ホイールエミュレーション付き)"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "バスマウス"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 ボタン"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 ボタン"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "ホイールエミュレーション付きの 3 ボタン"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "ユニバーサル"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "PS/2 & USB マウス"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Xbox コントローラ S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "なし"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "マウスなし"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr "マウスのテスト"
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "マウスの種類を選んでください。"
+
+#: ../lib/mouse.pm:517
+#, c-format
+msgid "Mouse choice"
+msgstr "マウスの選択"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "中ボタンをエミュレートしますか？"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "マウスのポート"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "マウスが接続されているシリアルポートを選んでください。"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "ボタンエミュレーション"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "ボタン 2 エミュレーション"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "ボタン 3 エミュレーション"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "マウスをテストしてください。"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "マウスを有効にするには、"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "ホイールを動かしてください"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "変更を有効にするには再起動してください"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "キーボード"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "キーボードの配列を選んでください。"
+
+#: ../tools/keyboarddrake:31
+#, c-format
+msgid "Keyboard layout"
+msgstr "キーボードの配列"
+
+#: ../tools/keyboarddrake:39
+#, c-format
+msgid "Keyboard type"
+msgstr "キーボードの種類"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "BackSpace キーがコンソールで Delete の働きをするようにしますか？"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "マウスのテスト"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "マウスをテストしてください:"

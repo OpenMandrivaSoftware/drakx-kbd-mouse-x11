@@ -1,0 +1,6199 @@
+# translation of DrakX-uk.po to ukrainian
+# translation of DrakX.po to ukrainian
+# $Id: uk.po 116995 2007-02-07 09:38:54Z pablo $
+# Copyright (C) 2000,2003, 2004, 2005 Free Software Foundation, Inc.
+# Dmytro  Kovalov <kov@tokyo.email.ne.jp>, 2000.
+# Taras Boychuk <btr1@torba.com>, 2003, 2004.
+# Taras Boychuk <btr1@mail.ru>, 2004, 2003.
+# Taras Boychuk <btr1@ukrpost.net>, 2004, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-uk\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2005-03-01 01:29+0200\n"
+"Last-Translator: Taras Boychuk <btr1@ukrpost.net>\n"
+"Language-Team: ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 кб"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 кб"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 Мб"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 Мб"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 Мб"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 Мб"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 Мб"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 Мб"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 Мб чи більше"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X сервер"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Виберіть X сервер"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Конфігурація з багатьма головками"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Ваша система підтримує налаштування багатосекційної головки.\n"
+"Що Ви хочете зробити?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Виберіть розмір пам'яті графічної плати"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Сконфігурувати всі головки незалежно"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Користуватися розширенням Xinerama"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Налаштувати тільки плату \"%s\" %s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Спеціальний"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Конфігурація з'єднання"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Вийти"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Графічна карта"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Монітор"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Роздільна здатність"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Перевірити"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Параметри"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Втулки"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Конфігураційний файл Xorg пошкоджений, ігнорується."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Зберегти зміни?\n"
+"Існуюча конфігурація:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Виберіть монітор для головки #%d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Виберіть тип монітору"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Загальний"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Виробник"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr ""
+"Пошук пристроїв Plug'n'Play завершився невдало. Будь ласка, виберіть "
+"відповідний монітор"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Двома дуже важливими параметрами є частота вертикальної розгортки\n"
+"(тобто частота, з якою поновлюється зображення на екрані) та\n"
+"найбільш важлива частота горизонтальної синхронізації (тобто та\n"
+"частота, з якою на екрані малюються горизонтальні рядки).\n"
+"\n"
+"ДУЖЕ ВАЖЛИВО ПАМ'ЯТАТИ, що Ви повинні вибрати такий монітор, параметри\n"
+"якого не перевищують справжніх параметрів Вашого монітора, інакше Ви\n"
+"можете його пошкодити. \n"
+"Якщо Ви маєте сумніви щодо характеристик свого монітора, виберіть\n"
+"гірший монітор."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Частота горизонтальної розгортки"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Частота вертикальної розгортки"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Виберіть дію"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "265 кольорів (8 біт)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 тисячі кольорів (15 біт)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 тисяч кольорів (16 біт)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 мільйонів кольорів (24 біт)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Роздільні здатності"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Інші"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Виберіть роздільну здатність та кількість кольорів"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Відеоплата: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Гаразд"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Довідка"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Тестування конфігурації"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Чи хочете Ви випробувати нову конфігурацію?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr ""
+"Попередження: тестування цієї графічної карти може призвести до зависання "
+"Вашого комп'ютера"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Сталася помилка:\n"
+"%s\n"
+"Спробуйте змінити деякі параметри"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Залишається %d секунд"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Це правильні установки?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Розкладка клавіатури: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Тип миші: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Монітор: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Горизонтальна синхронізація монітора: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Частота вертикальної розгортки монітора: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Графічна плата: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Відео пам'ять: %s кб\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Глибина кольору: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Роздільна здатність: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg драйвер: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Налаштування Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Відеоплата: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Графічний інтерфейс при завантаженні"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Я можу налаштувати Вашу систему, щоб графічний інтерфейс (Xorg) стартував "
+"автоматично\n"
+"після завантаження системи. Чи Ви хочете, щоб Xorg стартував автоматично?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Схоже, Ваша відеокарта має конектор TV-OUT.\n"
+"Вона може бути налаштована для роботи з використанням буфера кадрів.\n"
+"\n"
+"Для цього Ви повинні під'єднати відеокарту до телевізора перед завантаженням "
+"комп'ютера.\n"
+"Потім виберіть пункт \"TVout\" в завантажувачі\n"
+"\n"
+"У Вас є така можливість?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Який формат використовує Ваш телевізор?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "інше"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Чеська (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Німецька"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Дворака"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Іспанська"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Фінська"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Французька"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Британська клавіатура"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Норвезька"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Польська"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Російська"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Шведська"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Клавіатура США"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Албанська"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Вірменська (стара)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Вірменська (друкарська машинка)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Вірменська (фонетична)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Арабський"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Азербайджанська (латина)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Бельгійська"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Бенгальська (Inscript-layout)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Бенгальська (Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Болгарська (фонетична)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Болгарська (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Бразілійська (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Боснійська"
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Джонха/Тібетська"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Білоруська"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Швейцарська (німецька розкладка)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Швейцарська (французька розкладка)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Cherokee syllabics"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Чеська (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Німецька (без мертвих клавіш)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Деванагарі"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Датська"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Дворака (США)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Дворака"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Дворака (Французька)"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Дворака (Велика Британія)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Дворака (Норвезька)"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Дворака (Польська)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Дворака (Шведська)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Естонська"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Фарерська"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Грузинська (російська мапа)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Грузинська (латинська розкладка)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Грецька"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Грецька (політонічна)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Ґуджараті"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Ґурмухі"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Хорватська"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Угорська"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Ірландська"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Ізраїльська"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Ізраїльська (фонетична)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Іранська"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Ісландська"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Італійська"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Японська 106 клавіш"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Каннада"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Киргизька клавіатура"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Корейська клавіатура"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Курдська (арабське письмо)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Латиноамериканська"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Лаоська"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Литовська AZERTY (стара)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Литовська AZERTY (нова)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Литовська \"цифровий ряд\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Литовська \"фонетична\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Латвійська"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Малайська"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Македонська"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Мьянма (Бірманська)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Монгольська (кирилиця)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Мальтійська (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Мальтійська (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Голандська"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Орія"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Польська (розкладка qwerty)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Польська (розкладка qwertz)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Пушту"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Португальська"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Канадська (Квебек)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Румунська (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Румунська (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Російська (фонетична)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Словенська"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Словацька (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Словацька (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Саамі (норвезька)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saami (шведська/фінська)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Сінді"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Сербська (кирилиця)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Сірійська"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Сірійська (фонетична)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Телуґу"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Тамільська (мапа ISCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Тамільська (машинописна мапа)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Тайська (Кедмані)"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Тайська (TIS-820)"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Тайська (Патачот)"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Таджицька клавіатура"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Туркменська"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Турецька (традиційна \"F\" модель)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Турецька (традиційна \"Q\" модель)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Українська"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Урду"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Клавіатура США (міжнародна)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Узбецька (кирилиця)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "В'єтнамська \"цифровий ряд\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Югославська (латинська)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Права клавіша Alt"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Обидві клавіші Shift одночасно"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Клавіші Control і Shift одночасно"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Клавіша CapsLock"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Клавіші Shift і CapsLock одночасно"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Клавіші Ctrl і Alt одночасно"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Клавіші Alt і Shift одночасно"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Клавіша \"Меню\""
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Ліва клавіша \"Windows\""
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Права клавіша \"Windows\""
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Обидві клавіші Control одночасно"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Обидві клавіші Alt одночасно"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Ліва клавіша Shift"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Права клавіша Shift"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Ліва клавіша Alt"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Ліва клавіша Control"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Права клавіша Control"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Тут Ви можете вибрати клавішу або комбінацію клавіш, якими Ви будете\n"
+"перемикати різні розкладки клавіатури (наприклад, англійську і українську)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Попередження"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Ці налаштування буде задіяно після встановлення.\n"
+"Під час встановлення Вам потрібно буде використовувати праву\n"
+"клавішу Control для перемикання між різними мапами клавіатури."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Миша Sun"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Стандартний"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Звичайна миша PS2 з коліщатком"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Автоматично"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 кнопка"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Звичайна 2-х кнопкова миша"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Звичайна 3х кнопкова миша з емуляцією коліщатка"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Коліщатко"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "послідовний"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Звичайна 3х кнопкова миша"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan з емуляцією коліщатка"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Серія Logitech CC"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Типу Logitech CC з емуляцією коліщатка"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "Серія MM"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Миша Logitech (послідовна, старий тип C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (serial, тип C7) з емуляцією коліщатка"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse з емуляцією коліщатка"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "Дві кнопки"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "Трьох кнопкова"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 кнопки з емуляцією коліщатка"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Універсальний"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Будь яка миша PS/2 та USB"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Xbox Controller S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "нічого"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Немає миші"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Будь ласка, вкажіть тип Вашої миші."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Вибір вручну"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Емулювати третю кнопку?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Порт миші"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Виберіть, до якого послідовного порта під'єднано мишу?"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Емуляція кнопок"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Емуляція 2 клавіш"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Емуляція 3-ї кнопки"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Випробуйте мишу, будь ласка"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Щоб активізувати мишу, "
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "ПОСУНЬТЕ КОЛІЩАТКО!"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Потрібно перезавантажитися, щоб задіяти зміни"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Клавіатура"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Будь ласка, виберіть мапу клавіатури."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Розкладка клавіатури"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Клавіатура"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Ви хочете, щоб BackSpace повертав Delete на консолі?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Тест миші"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Випробуйте мишу, будь ласка:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Маска користувача"
+
+#~ msgid "Please wait"
+#~ msgstr "Зачекайте, будь ласка"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Триває встановлення завантажувача"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO хоче присвоїти новий ідентифікатор тома диску %s. Проте, зміна\n"
+#~ "ідентифікатора тому у завантажувальному диску Windows NT, 2000,\n"
+#~ "або XP є фатальною помилкою.\n"
+#~ "Це попередження не стосується дисків з даними у Windows 95, 98 абоNT.\n"
+#~ "\n"
+#~ "Присвоїти новий ідентифікатор тому?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "Встановлення завантажувача неуспішне. Сталася наступна помилка:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Можливо, Вам потрібно змінити пристрій завантаження у Open Firmware,\n"
+#~ "щоб дозволити роботу завантажувача. Якщо Ви не бачите запрошення\n"
+#~ "завантажувача при завантаженні системи, натисніть Command-Option-O-F\n"
+#~ "при завантаженні і введіть setenv boot-device %s,\\\\:tbxi. Після\n"
+#~ "цього надрукуйте shut-down. При наступному завантаженні ви побачите\n"
+#~ "підказку завантажувача. "
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Ви дозволили встановити bootloader в розділ.\n"
+#~ "Це передбачає, що Ви маєте bootloader на твердому диску, з якого Ви "
+#~ "завантажилися (напр.: System Commander).\n"
+#~ "\n"
+#~ "З якого диска Ви завантажуєтеся?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Перший сектор диску (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Перший сектор системного розділу (boot partition)"
+
+#~ msgid "On Floppy"
+#~ msgstr "На дискету"
+
+#~ msgid "Skip"
+#~ msgstr "Пропустити"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Встановлення LILO/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Де Ви хочете встановити завантажувач?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Налаштування стилю завантаження"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Основні параметри завантажувача"
+
+#~ msgid "Bootloader"
+#~ msgstr "Завантажувач"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Використовувати завантажувач"
+
+#~ msgid "Boot device"
+#~ msgstr "Пристрій завантаження"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Пауза перед завантаженням основної системи"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Увімкнути ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Увімкнути ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Увімкнути ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Паролі не співпадають"
+
+#~ msgid "Please try again"
+#~ msgstr "Будь ласка, спробуйте ще раз"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr ""
+#~ "Ви не можете використовувати зашифровану файлову систему для точки "
+#~ "монтування %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Пароль (ще раз)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Обмежити параметри командного рядка"
+
+#~ msgid "restrict"
+#~ msgstr "обмежити"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Параметр ``Обмежити параметри командного рядка'' не використовується без "
+#~ "пароля"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Очищати /tmp при кожному перезавантаженні"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Уточніть об'єм RAM, якщо потрібно (знайдено %d Мб)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Вкажіть розмір пам'яті в Мб"
+
+#~ msgid "Init Message"
+#~ msgstr "Повідомлення ініціалізації"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Затримка Open Firmware"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Затримка при завантаженні ядра"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Дозволити завантаження з компакт-диску?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Дозволити завантаження OF?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Основна система?"
+
+#~ msgid "Image"
+#~ msgstr "Образ"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Приєднати"
+
+#~ msgid "Video mode"
+#~ msgstr "Відео-режим"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "Мережевий профіль"
+
+#~ msgid "Label"
+#~ msgstr "Мітка"
+
+#~ msgid "Default"
+#~ msgstr "Основна"
+
+#~ msgid "NoVideo"
+#~ msgstr "БезВідео"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Не дозволяються порожні мітки"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Ви повинні вказати образ ядра"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Ви повинні вказати кореневий розділ"
+
+#~ msgid "This label is already used"
+#~ msgstr "Ця етикетка вже використовується"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Який тип вводу Ви хочете додати?"
+
+#~ msgid "Linux"
+#~ msgstr "Лінакс"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Інші операційні системи (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Інші системи (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Інші Windows"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Тут наведені пункти меню завантаження.\n"
+#~ "Ви можете створити додаткові пункти або змінити існуючі."
+
+#~ msgid "access to X programs"
+#~ msgstr "доступ до X програм"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "доступ до засобів rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "дозволити \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "доступ до виконавчих файлів"
+
+#~ msgid "access to network tools"
+#~ msgstr "доступ до мережевих засобів"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "доступ до інструментів компіляції"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(вже додано %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Дайте, будь ласка, ім'я користувача"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Ім'я користувача повинно складатися тільки з малих латинських літер,\n"
+#~ "чисел, `-' та `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Ім'я користувача занадто довге"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Таке ім'я користувача вже створене раніше"
+
+#~ msgid "User ID"
+#~ msgstr "Код користувача"
+
+#~ msgid "Group ID"
+#~ msgstr "Код групи"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "Параметр %s має бути числом!"
+
+#~ msgid "Add user"
+#~ msgstr "Додати користувача"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Введіть користувача\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Виконано"
+
+#~ msgid "Accept user"
+#~ msgstr "Прийняти користувача"
+
+#~ msgid "Real name"
+#~ msgstr "Дійсна назва"
+
+#~ msgid "Login name"
+#~ msgstr "Ім'я користувача, що реєструється"
+
+#~ msgid "Shell"
+#~ msgstr "Командна оболонка"
+
+#~ msgid "Icon"
+#~ msgstr "Піктограма"
+
+#~ msgid "Autologin"
+#~ msgstr "Автореєстрація"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Я можу налаштувати Ваш комп'ютер так, щоб автоматично реєструвався\n"
+#~ "один користувач."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Ви хочете використовувати цю можливість?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Виберіть стандартного користувача:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Виберіть менеджер вікон, яким Ви хочете користуватися:"
+
+#~ msgid "License agreement"
+#~ msgstr "Ліцензійна угода"
+
+#~ msgid "Release Notes"
+#~ msgstr "Нотатки випуску"
+
+#~ msgid "Accept"
+#~ msgstr "Прийняти"
+
+#~ msgid "Refuse"
+#~ msgstr "Відкинути"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Виберіть, будь ласка, мову."
+
+#~ msgid "Language choice"
+#~ msgstr "Вибір мови"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Мандріва лінакс може підтримувати багато мов. Виберіть\n"
+#~ "мови, які Ви хочете встановити. Вони стануть доступними\n"
+#~ "після завершення встановлення і перезавантаження системи."
+
+#~ msgid "All languages"
+#~ msgstr "Всі мови"
+
+#~ msgid "Country / Region"
+#~ msgstr "Країна / Регіон"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Будь ласка, вкажіть Вашу країну."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Тут наведено повний список можливих країн"
+
+#~ msgid "Other Countries"
+#~ msgstr "Інші країни"
+
+#~ msgid "Advanced"
+#~ msgstr "Додатково"
+
+#~ msgid "Input method:"
+#~ msgstr "Метод вводу:"
+
+#~ msgid "None"
+#~ msgstr "Нічого"
+
+#~ msgid "No sharing"
+#~ msgstr "Немає спільного доступу"
+
+#~ msgid "Allow all users"
+#~ msgstr "Дозволити всіх користувачів"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Чи хотіли б Ви дозволити користувачам надавати доступ до деяких з їхніх "
+#~ "тек? \n"
+#~ "Такий дозвіл дасть можливість користувачам просто натискати на \"доступ\" "
+#~ "в konqueror та nautilus.\n"
+#~ "\n"
+#~ "\"Вибірково\" дозволяє надати доступ окремим користувачам \n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr "увімкнути Windows."
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: система доступу до файлів, яка використовується Windows, Mac OS X і "
+#~ "багатьма сучасними системами Лінакс."
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr "використовує."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Запуск userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Закрити"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Доступ для окремих користувачів здійснюється групою \"fileshare\". \n"
+#~ "Ви можете використовувати userdrake, щоб додати користувача в цю групу."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Будь ласка, вийдіть із системи і потім натисніть Ctrl-Alt-BackSpace"
+
+#~ msgid "You need to log out and back in again for changes to take effect"
+#~ msgstr "Ви повинні перезареєструватися, щоб задіяти зміни"
+
+#~ msgid "Timezone"
+#~ msgstr "Часовий пояс"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "В якому часовому поясі Ви знаходитесь?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Годинник встановлено в GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Годинник встановлено в GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "Сервер NTP"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Автоматична синхронізація часу (із застосуванням NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "Локальний файл"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Smart Card"
+#~ msgstr "Карта Smart"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Домен Windows"
+
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Активна тека з SFU"
+
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Активна тека з Winbind"
+
+#~ msgid "Local file:"
+#~ msgstr "Локальний файл:"
+
+#~ msgid ""
+#~ "Use local for all authentication and information user tell in local file"
+#~ msgstr ""
+#~ "Використовувати локально для всіх розпізнавань і інформації, вказаної "
+#~ "користувачем у локальному файлі."
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "Встановлює використання LDAP для окремих чи всіх розпізнавань. LDAP "
+#~ "узгоджує деякі види інформації всередині однієї організації."
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "Дозволяє запускати групу комп'ютерів в одному домені мережевих "
+#~ "інформаційних послуг із загальним паролем і груповим файлом."
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Домен Windows:"
+
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "Winbind дає можливість системі отримувати інформацію і розпізнавати "
+#~ "користувачів з домену Windows."
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Активна тека з SFU:"
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Активна тека з Winbind:"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Автентифікація LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "Сервер LDAP"
+
+#~ msgid "simple"
+#~ msgstr "простий"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "безпечний вивід (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Автентифікація"
+
+#~ msgid "Domain"
+#~ msgstr "Домен"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "LDAP users database"
+#~ msgstr "LDAP"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "Використовувати анонімний BIND "
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "LDAP переглянути"
+
+#~ msgid "Password for user"
+#~ msgstr "Пароль"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "NIS автентифікація"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Домен NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Сервер NIS"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Для того, щоб це запрацювало під W2K PDC, Вам, можливо, потрібно виконати "
+#~ "під адміністратором: C:\\>net localgroup \"Pre-Windows 2000 Compatible "
+#~ "Access\" everyone /add і перезавантажити сервер.\n"
+#~ "Вам також буде потрібно ім'я_користувача/пароль адміністратора домена, "
+#~ "щоб під'єднати машину до домена Windows(TM).\n"
+#~ "Якщо мережу ще не увімкнено, DrakX спробує під'єднатися до домена після "
+#~ "завершення етапу встановлення мережі.\n"
+#~ "Якщо з якої-небудь причини це встановлення завершилось невдало і "
+#~ "автентифікація в домені не працює, виконайте 'smbpasswd -j ДОМЕН -U "
+#~ "КОРИСТУВАЧ%%ПАРОЛЬ', використовуючи домен і ім'я_користувача/пароль своєї "
+#~ "Windows(tm), після завантаження системи.\n"
+#~ "Команда 'wbinfo -t' перевірить, наскільки секретна Ваша автентифікація."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Автентифікація домену Віндовс"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Ім'я користувача - адміністратора домена"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Пароль адміністратора домена"
+
+#~ msgid "Authentication"
+#~ msgstr "Автентифікація"
+
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Встановіть пароль користувача root"
+
+#~ msgid "Authentication method"
+#~ msgstr "Метод розпізнавання"
+
+#~ msgid "No password"
+#~ msgstr "Без паролю"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "Цей пароль занадто короткий (він повинен бути завдовжки хоча б %d літер)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Не можу використовувати трансляцію без NIS-домена"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Laskavo prosymo do  peremykacha operaciynih system!\n"
+#~ "\n"
+#~ "Vyberit' odnu z operaciynikh system v spysku abo pochekajte\n"
+#~ "poki pochne vantazhytysja persha z nih.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO з текстовим меню"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "недостатньо місця в /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Ви не можете встановити завантажувач в розділ %s\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "Конфігурація Вашого завантажувача має бути поновлена, бо розділи були "
+#~ "перенумеровані"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "Завантажувач не може бути коректно встановлений. Вам необхідно "
+#~ "завантажити rescue, і вибрати \"%s\""
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Перевстановити завантажувач"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "кб"
+
+#~ msgid "KB"
+#~ msgstr "кб"
+
+#~ msgid "MB"
+#~ msgstr "Мб"
+
+#~ msgid "GB"
+#~ msgstr "Ґб"
+
+#~ msgid "TB"
+#~ msgstr "ТБ"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d хвилин"
+
+#~ msgid "1 minute"
+#~ msgstr "1 хвилина"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d секунд"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV - це протокол, який дозволяє Вам локально монтувати теки\n"
+#~ "веб-сервера, інтерпретуючи їх як локальну файлову систему (якщо\n"
+#~ "веб-сервер сконфігуровано як сервер WebDAV). Якщо Ви захочете\n"
+#~ "додати точки монтування WebDAV, виберіть \"Нова\"."
+
+#~ msgid "New"
+#~ msgstr "Новий"
+
+#~ msgid "Unmount"
+#~ msgstr "Розмонтувати"
+
+#~ msgid "Mount"
+#~ msgstr "Монтувати"
+
+#~ msgid "Mount point"
+#~ msgstr "Точка монтування"
+
+#~ msgid "Error"
+#~ msgstr "Помилка"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Будь ласка, вкажіть посилання на сервер WebDAV"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "адреса повинна починатися з http:// або https://"
+
+#~ msgid "Server: "
+#~ msgstr "Сервер: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Точка монтування: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Параметри: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Розбиття на розділи"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Читайте уважно!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Будь ласка, створіть спочатку резервну копію Ваших даних"
+
+#~ msgid "Exit"
+#~ msgstr "Вийти"
+
+#~ msgid "Continue"
+#~ msgstr "Продовжити"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Якщо Ви збираєтесь користуватися aboot, не забудьте залишити вільний\n"
+#~ "розділ (достатньо 2048 секторів) на початку диску"
+
+#~ msgid "Choose action"
+#~ msgstr "Виберіть дію"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Ви маєте один великий розділ Microsoft Windows.\n"
+#~ "Я пропоную Вам спочатку змінити розмір цього розділу\n"
+#~ "(клацніть на ньому, потім клацніть на \"Змінити розмір\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Клацніть, будь ласка, на розділі"
+
+#~ msgid "Details"
+#~ msgstr "Детально"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Не знайдено твердих дисків"
+
+#~ msgid "Unknown"
+#~ msgstr "Невідомий"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Журнальна файлова система"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Порожній"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Типи файлових систем:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Розмір цього розділу неможливо змінити"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Спочатку скористуйтеся ``Розмонтувати''"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Замість цього скористайтеся ``%s''"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Створити інший розділ"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Виберіть розділ"
+
+#~ msgid "Undo"
+#~ msgstr "Повернути дію"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Перемикнути в нормальний режим"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Перемикнути в режим експерта"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Конфігурація"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Все-таки продовжувати?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Вийти без запису"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Вийти без запису таблиці розділів?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Чи хочете Ви зберегти зміни в /etc/fstab?"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Для того, щоб таблиця розділів була активізована, Вам треба\n"
+#~ "перезавантажити систему"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "Вам потрібно відформатувати розділ %s.\n"
+#~ "В іншому випадку в fstab не буде додано жодного запису для точки "
+#~ "монтування %s.\n"
+#~ "Всеодно вийти?"
+
+#~ msgid "Clear all"
+#~ msgstr "Очистити все"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Автоматично розподілити"
+
+#~ msgid "More"
+#~ msgstr "Ще"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Інформація про твердий диск"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Всі первинні розділи використовуються"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Не можу додати жодного розділу"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Щоб мати більше розділів, зітріть один з них, щоб створити розширений "
+#~ "розділ"
+
+#~ msgid "Save partition table"
+#~ msgstr "Зберегти таблицю розділів"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Відновити таблицю розділів"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Аварійна таблиця розділів"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Перечитати таблицю розділів"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Автоматичне монтування змінних носіїв"
+
+#~ msgid "Select file"
+#~ msgstr "Виберіть файл"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Копія таблиці розділів має інший розмір.\n"
+#~ "Все-таки продовжувати?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Пробую відновити таблицю розділів"
+
+#~ msgid "Detailed information"
+#~ msgstr "Детальна інформація"
+
+#~ msgid "Resize"
+#~ msgstr "Змінити розмір"
+
+#~ msgid "Format"
+#~ msgstr "Форматувати"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Додати до RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Додати до LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Видалити"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Видалити з RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Видалити з LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Змінити RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Використовувати для зворотнього монтування"
+
+#~ msgid "Create"
+#~ msgstr "Створити"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Створити новий розділ"
+
+#~ msgid "Start sector: "
+#~ msgstr "Початковий сектор: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Розмір (Мб): "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Тип файлової системи: "
+
+#~ msgid "Preference: "
+#~ msgstr "Перевага: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Назва логічного диску"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Ви не можете створити новий розділ\n"
+#~ "(оскільки Ви вже досягли максимальної кількості первинних розділів).\n"
+#~ "Спочатку видаліть первинний розділ і створіть додатковий."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Стерти файл зворотнього монтування?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr "Після зміни типу розділу %s всі дані на ньому будуть втрачені"
+
+#~ msgid "Change partition type"
+#~ msgstr "Змінити тип розділу"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Яку файлову систему Ви хочете?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Перемикаюсь з ext2 на ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Мітка"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Де Ви хочете змонтувати файл зворотнього монтування %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Де Ви хочете змонтувати пристрій %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Не можу змінити точку монтування даного розділу, оскільки він\n"
+#~ "використовується для зворотнього монтування. Спочатку відмініть\n"
+#~ "зворотнє монтування."
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Де Ви хочете змонтувати пристрій %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Зміна розміру"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Обчислюю межі розділу FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Розмір цього розділу неможливо змінити"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Потрібно зробити резервну копію всіх даних на цьому розділі"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "Після зміни розміру розділу %s всі дані на ньому буде втрачено"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Виберіть новий розмір"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Новий розмір в Мб: "
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Для забезпечення цілісності даних після зміни розміру \n"
+#~ "розділу(ів), при наступному завантаженні Windows(TM)\n"
+#~ "буде здійснено перевірку файлової системи"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Виберіть існуючий RAID, до якого додати"
+
+#~ msgid "new"
+#~ msgstr "новий"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Виберіть існуючий LVM, до якого додати"
+
+#~ msgid "LVM name?"
+#~ msgstr "Назва LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Цей розділ не може використовуватися для зворотнього монтування"
+
+#~ msgid "Loopback"
+#~ msgstr "Зворотнє монтування"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Назва файла зворотнього монтування: "
+
+#~ msgid "Give a file name"
+#~ msgstr "Вкажіть назву файла"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr ""
+#~ "Файл вже використовується іншим пристроєм зворотнього монтування, "
+#~ "виберіть інший"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Файл вже існує. Користуватися ним?"
+
+#~ msgid "Mount options"
+#~ msgstr "Параметри монтування:"
+
+#~ msgid "Various"
+#~ msgstr "Різноманітне"
+
+#~ msgid "device"
+#~ msgstr "пристрій"
+
+#~ msgid "level"
+#~ msgstr "рівень"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "розмір ділянки в Кб"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Обережно: ця операція небезпечна."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Який тип розбиття на розділи?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Щоб зміни почали діяти, Вам слід перезавантажити комп'ютер"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Таблицю розділів диску %s буде записано на диск!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "Після форматування розділу %s всі дані на ньому будуть втрачені"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Перевіряти збійні блоки?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Перемістити файли в новий розділ"
+
+#~ msgid "Hide files"
+#~ msgstr "Сховати файли"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Переміщення файлів у новий розділ"
+
+#~ msgid "Copying %s"
+#~ msgstr "Копіювання %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Видалення %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "розділ %s відомий, як %s"
+
+#~ msgid "Partitions have been renumbered: "
+#~ msgstr "Нумерацію розділів буде змінено: "
+
+#~ msgid "Device: "
+#~ msgstr "Пристрій: "
+
+#~ msgid "Volume label: "
+#~ msgstr "Мітка тому: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Літера диску в ДОСі: %s (припущення)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Тип: "
+
+#~ msgid "Name: "
+#~ msgstr "Назва: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Початок: сектор %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Розмір: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s секторів"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Від циліндра %d до циліндра %d \n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Форматований\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Не форматований\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Змонтований\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Файл(и) зворотнього монтування: \n"
+#~ "  %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Типовий розділ для завантаження системи\n"
+#~ "     (для завантаження ДОСу, не для lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Рівень %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Розмір ділянки %d в Кб\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Диски RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Назви файлів зворотнього монтування: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Можливо цей розділ є розділом\n"
+#~ "Driver, Вам мабуть не потрібно\n"
+#~ "його змінювати.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Це спеціальний розділ для \n"
+#~ "можливості подвійного \n"
+#~ "завантаження системи.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Тільки для читання"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Розмір: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Геометрія: %s циліндрів, %s головок, %s секторів\n"
+
+#~ msgid "Info: "
+#~ msgstr "Інформація: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Диски LVM %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Тип таблиці розділів: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "на каналі %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Ключ шифрування файлової системи"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Виберіть ключ шифрування Вашої файлової системи"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Цей пароль занадто простий (він повинен бути хоча б %d літер завдовжки)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Ключі шифрування не співпадають"
+
+#~ msgid "Encryption key"
+#~ msgstr "Ключ шифрування"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Ключ шифрування (знову)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Алгоритм шифрування"
+
+#~ msgid "Change type"
+#~ msgstr "Змінити тип"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr ""
+#~ "Неможливо зареєструватися з іменем користувача %s (неправильний пароль?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Потрібна автентифікація домена"
+
+#~ msgid "Which username"
+#~ msgstr "Яке ім'я користувача"
+
+#~ msgid "Another one"
+#~ msgstr "Ще один"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Будь ласка, введіть своє ім'я користувача, пароль і назву домена, щоб "
+#~ "отримати доступ до цієї машини."
+
+#~ msgid "Username"
+#~ msgstr "Ім'я користувача"
+
+#~ msgid "Search servers"
+#~ msgstr "Пошук серверів"
+
+#~ msgid "Search new servers"
+#~ msgstr "Шукати нові сервери"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Потрібно встановити пакунок %s. Ви хочете його встановити?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Неможливо встановити пакунок %s!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Обов'язковий пакунок %s відсутній"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Наступні пакунки повинні бути встановлені:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Встановлюються пакунки..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Вилучення пакунків..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Сталася помилка - не знайдено відповідних пристроїв для створення нових "
+#~ "файлових систем. Перевірте, будь ласка, свою систему і спробуйте "
+#~ "відшукати причину цього."
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Ви повинні мати розділ FAT, змонтований в /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Форматування розділу %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Створюю та форматую файл %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Я не знаю, як форматувати %s типу %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s форматування %s невдале"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Замикаюче монтування %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Монтування розділу %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "монтування розділу %s в теку %s завершилося невдало"
+
+#~ msgid "Checking %s"
+#~ msgstr "Перевірка %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "помилка розмонтування %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Активізується swap-розділ %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr ""
+#~ "Ви не можете використовувати зашифровану файлову систему для точки "
+#~ "монтування %s"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Не поновлювати час доступу до інодів цієї файлової системи (напр., \n"
+#~ "для прискорення серверів новин і швидшого доступу до повідомлень)."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Може бути змонтований тільки явно (тобто параметр -a\n"
+#~ "не монтує систему автоматично)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr ""
+#~ "Не інтерпретувати символ або блокувати спеціальні пристрої у файловій "
+#~ "системі."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Не дозволяти виконання бінарних файлів у змонтованій файловій системі.\n"
+#~ "Цей параметр може використовуватися для сервера, який має файлову\n"
+#~ "систему, який містить бінарні файли для іншої архітектури."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Не дозволяти встановлювати біти set-user-identifier, або set-group-"
+#~ "identifier.\n"
+#~ "(Вони здаються безпечними, але все змінюється після встановлення\n"
+#~ "suidperl(1))."
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Монтувати файлову систему в режимі тільки читання."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr ""
+#~ "Всі операції вводу/виводу файлової системи повинні виконуватися синхронно."
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Дати доступ для запису звичайним користувачам"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Дати доступ тільки для запису звичайним користувачам"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Подвійні точки монтування %s"
+
+#~ msgid "No partition available"
+#~ msgstr "Немає розділів"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Сканування розділів для знаходження точок монтування"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Виберіть точки монтування"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Виберіть розділи, які Ви хочете відформатувати"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Перевірка файлової системи %s завершилася помилкою. Чи хочете Ви "
+#~ "виправити помилки (майте на увазі, що Ви можете втратити дані)?"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "Не вистачає простору підкачки, закінчити встановлення. Збільшіть\n"
+#~ "його, будь ласка"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Ви повинні мати розділ root.\n"
+#~ "Для цього створіть новий розділ (або клацніть на вже\n"
+#~ "існуючому). Після цього виберіть ``Точка монтування'' і встановіть її в "
+#~ "`/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Ви не маєте розділу swap.\n"
+#~ "\n"
+#~ "Все-таки продовжувати? "
+
+#~ msgid "Use free space"
+#~ msgstr "Використовувати вільний простір"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Недостатньо вільного простору для розташування нових розділів"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Користуватися існуючими розділами"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Немає існуючих розділів для використання"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr ""
+#~ "Використовувати розділ Microsoft Windows® для зворотнього монтування"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Який розділ Ви хочете використовувати для Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Виберіть розміри"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Розмір розділу root в Мб:"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Розмір розділу Swap в Мб: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Немає розділу FAT для використання як пристрою зворотнього монтування "
+#~ "(або не вистачає вільного місця)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Використовувати вільний простір на розділі Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Розмір якого розділу Ви хочете змінити?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Програма зміни розміру розділу FAT не може працювати з Вашим\n"
+#~ "розділом, при роботі сталася така помилка: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Розраховується розмір розділу Віндовс"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Розділ з Microsoft Windows® на Вашому комп'ютері занадто фраґментований. "
+#~ "Будь ласка, перезавантажте свій комп'ютер під Microsoft Windows®, "
+#~ "запустіть програму 'defrag', тоді перезапустіть встановлення Мандріва "
+#~ "лінакса."
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "ПОПЕРЕДЖЕННЯ!\n"
+#~ "\n"
+#~ "\n"
+#~ "Зараз DrakX змінить розмір розділу Windows.\n"
+#~ "\n"
+#~ "\n"
+#~ "Будьте уважні: ця операція небезпечна. Якщо Ви ще не зробили, Вам "
+#~ "потрібно зараз припинити встановлення, виконати \"chkdsk c:\" з "
+#~ "командного рядка у Windows (майте на увазі, запуску графічної програми "
+#~ "\"scandisk\" недостатньо, необхідно виконати \"chkdsk\" саме з командного "
+#~ "рядка!), виконати defrag (необов'язково), тоді перезапустити "
+#~ "встановлення. Потрібно також зробити резервну копію Ваших даних.\n"
+#~ "\n"
+#~ "\n"
+#~ "Якщо Ви впевнені - тисніть %s."
+
+#~ msgid "Next"
+#~ msgstr "Далі"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Який розмір Ви хочете залишити для Microsoft Windows®?"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Розмір: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Зміна розміру розділу Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Зміна розміру FAT не відбулася: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "Немає розділу FAT для зміни розміру (або не залишилося вільного місця)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Стерти Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Стерти весь диск"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "У Вас більше одного диску. На який з них Ви хочете встановити Лінакс?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "ВСІ існуючі розділи та всі дані на диску %s будуть втрачені"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Спеціальний розподіл диску"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Використовувати fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Тепер Ви можете розбити диск %s на розділи.\n"
+#~ "Після того, як закінчите, не забудьте виконати команду `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Не можу знайти вільного місця для встановлення"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "Помічник розбивки на розділи DrakX знайшов такі можливі рішення:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Розбиття на розділи невдале: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "JFS не можна користуватися на розділах, менших за 16 Мб."
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Ви не можете використовувати ReiserFS на розділах, менших за 32Мб."
+
+#~ msgid "with /usr"
+#~ msgstr "з /usr"
+
+#~ msgid "server"
+#~ msgstr "сервер"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Не можу прочитати таблицю розділів на пристрої %s, вона занадто\n"
+#~ "зіпсована для мене :( Я спробую стерти зіпсовані розділи і ВСІ ДАНІ\n"
+#~ "будуть втрачені). Проблемі можна також запобігти, якщо заборонити DrakX\n"
+#~ "змінювати таблицю розділів. (помилка: %s)\n"
+#~ "\n"
+#~ "Ви погоджуєтесь втратити всі розділи?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Точка монтування повинна починатися з /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Точки монтування можуть містити тільки символи букв і цифр"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Вже є розділ з точкою монтування %s\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "В якості розділа для root (/) Ви вибрали програмний RAID.\n"
+#~ "Немає завантажувачів, які могли б працювати з такими розділами без /"
+#~ "boot.\n"
+#~ "Тож, будь ласка, не забудьте додати розділ /boot."
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "Для точки монтування %s не можна користуватися логічним томом LVM"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "В якості розділа для root (/) Ви вибрали логічний розділ LVM.\n"
+#~ "Немає завантажувачів, які могли б працювати з такими розділами без /"
+#~ "boot.\n"
+#~ "Тож, будь ласка, не забудьте додати розділ /boot."
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Ця тека має залишитися в корені файлової системи"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Для цієї точки монтування потрібна реальна файлова система (ext2/ext3,\n"
+#~ "reiserfs, xfs, or jfs)\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr ""
+#~ "Ви не можете використовувати зашифровану файлову систему для точки "
+#~ "монтування %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Недостатньо вільного місця для автоматичного розподілу"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Нічого виконувати"
+
+#~ msgid "Floppy"
+#~ msgstr "Дискета"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Диск"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "Записувачі CD/DVD"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Плівка"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Контролери AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Відеокарта"
+
+#~ msgid "Tvcard"
+#~ msgstr "Телевізійна карта"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Інші пристрої мультимедіа"
+
+#~ msgid "Soundcard"
+#~ msgstr "Звукова плата"
+
+#~ msgid "Webcam"
+#~ msgstr "Веб-камера"
+
+#~ msgid "Processors"
+#~ msgstr "Процесорів"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "Адаптери ISDN"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Плата Ethernet"
+
+#~ msgid "Modem"
+#~ msgstr "Модем"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "Адаптери ADSL"
+
+#~ msgid "Memory"
+#~ msgstr "Пам'ять"
+
+#~ msgid "Printer"
+#~ msgstr "Друкарка"
+
+#~ msgid "Joystick"
+#~ msgstr "Джойстік"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Контролери SATA"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Контролери RAID"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "Контролери (E)IDE/ATA"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Контролери Firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "Контролери PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "Контролери SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Контролери USB"
+
+#~ msgid "USB ports"
+#~ msgstr "Порти USB"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Контролери SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Мости і системні контролери"
+
+#~ msgid "Mouse"
+#~ msgstr "Миша"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Сканер"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Невідомий/Інші"
+
+#~ msgid "cpu # "
+#~ msgstr "процесор # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Зачекайте, будь ласка... Йде застосування конфігурації"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Немає альтернативного драйвера"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "Для Вашої звукової карти (%s), яка в даний момент використовує \"%s\", "
+#~ "немає альтернативного драйвера OSS/ALSA."
+
+#~ msgid "Sound configuration"
+#~ msgstr "Конфігурація звуку"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Тут Ви можете вибрати альтернативний драйвер (або OSS, або ALSA) для "
+#~ "Вашої звукової карти (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ваша картка зараз використовує драйвер %s\"%s\" (типовим драйвером для "
+#~ "Вашої картки є \"%s\")"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Open Sound System) була першою звуковою API. Це незалежний від "
+#~ "операційної системи API звуку (використовується на більшості юніксових "
+#~ "систем), але має дуже загальний і обмежений API.\n"
+#~ "Більше того, всі драйвери OSS видумують нове колесо.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) є архітектурою з модулями, яка\n"
+#~ "підтримує широкий спектр карт ISA, USB і PCI.\n"
+#~ "\n"
+#~ "Вона також надає API багато вищого рівня, ніж OSS.\n"
+#~ "\n"
+#~ "Використовуючи alsa, Ви можете мати:\n"
+#~ "- сумісність з старим api OSS\n"
+#~ "- новий api ALSA, який надає багато розширених можливостей, але вимагає "
+#~ "використання бібліотеки ALSA.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Драйвер:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Вирішення проблем"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Старий драйвер \"%s\" занесено в чорний список.\n"
+#~ "\n"
+#~ "Про нього створено звіт, щоб попередити ядро при вивантаженні.\n"
+#~ "\n"
+#~ "Новий драйвер \"%s\" буде використано тільки при наступному початковому\n"
+#~ "завантаженні."
+
+#~ msgid "No open source driver"
+#~ msgstr "Немає драйвера з відкритим кодом"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Для вашої звукової карти (%s) немає безкоштовного драйвера, але є власний "
+#~ "драйвер на \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Немає відомого драйвера"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Немає відомого драйвера для Вашої звукової плати (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Невідомий"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Помилка: Драйвера \"%s\" для Вашої звукової карти немає в списку"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Вирішення проблем зі звуком"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Класична програма тестування звуку виконується з наступними командами:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" повідомить Вам, який драйвер типово\n"
+#~ "використовує Ваша карта\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" повідомить Вам, який драйвер\n"
+#~ "використовується зараз\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" зробить можливою перевірку, чи драйвер карти "
+#~ "завантажений,\n"
+#~ "чи ні\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "повідомить\n"
+#~ "Вам, чи звук і служби alsa налаштовані для роботи в режимі\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" повідомить Вам, чи відключена гучність звуку\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" повідомить Вам, яка програма використовує "
+#~ "звукову\n"
+#~ "карту.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Дозвольте мені підібрати драйвера"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Вибір довільного драйвера"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Якщо Ви справді вважаєте, що знаєте, який драйвер підходить для "
+#~ "Вашоїкарти,\n"
+#~ "можете вибрати його із списку зверху.\n"
+#~ "\n"
+#~ "Теперішнім драйвером для Вашої звукової карти \"%s\" є \"%s\" "
+
+#~ msgid "Auto-detect"
+#~ msgstr "Користуватися автовизначенням"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Невідомий|Загальний"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Невідомий|CPH05X (bt878) [багато виробників]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Невідомий|CPH06X (bt878) [багато виробників]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Для найсучасніших TV-карт модуль bttv ядра GNU/Linux точно автовизначає "
+#~ "правильні параметри.\n"
+#~ "Якщо Вашу карту визначено неправильно, Ви можете вказати правильний тюнер "
+#~ "і тип карти тут. Просто виберіть параметри TV-карти, які потрібно."
+
+#~ msgid "Card model:"
+#~ msgstr "Модель карти:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Тип тюнера :"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Кількість буферів захоплення:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "кількість буферів для захоплення з допомогою mmap"
+
+#~ msgid "PLL setting:"
+#~ msgstr "встановлення PLL :"
+
+#~ msgid "Radio support:"
+#~ msgstr "Підтримка радіо:"
+
+#~ msgid "enable radio support"
+#~ msgstr "увімкнути підтримку радіо"
+
+#~ msgid "Yes"
+#~ msgstr "Так"
+
+#~ msgid "No"
+#~ msgstr "Ні"
+
+#~ msgid "Choose a file"
+#~ msgstr "Виберіть файл"
+
+#~ msgid "Add"
+#~ msgstr "Додати"
+
+#~ msgid "Modify"
+#~ msgstr "Змінити"
+
+#~ msgid "Remove"
+#~ msgstr "Видалити"
+
+#~ msgid "Finish"
+#~ msgstr "Закінчити"
+
+#~ msgid "Previous"
+#~ msgstr "Попередній"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Невдалий вибір, спробуйте ще раз\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Ваш вибір? (типово %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Пункти, які Вам потрібно заповнити:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Ваш вибір? (0/1, типово %s) "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Кнопка `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Ви хочете натиснути на цю кнопку?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Ваш вибір? (типовий %s %s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " введіть `void' для порожнього пункту"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Існує багато чого, щоб вибрати з (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Будь ласка, виберіть перше число з 10-значного діапазону,\n"
+#~ "яке Ви хочете змінити, або просто натисніть Enter для продовження.\n"
+#~ "Ваш вибір?"
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Зауважте, мітка змінилася:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Ще раз відправити"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Андорра"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Об'єднані Арабські Емірати"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Афганістан"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Антигуа та Барбуда"
+
+#~ msgid "Anguilla"
+#~ msgstr "Ангілья"
+
+#~ msgid "Albania"
+#~ msgstr "Албанія"
+
+#~ msgid "Armenia"
+#~ msgstr "Вірменія"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Голандські Антильські острови"
+
+#~ msgid "Angola"
+#~ msgstr "Ангола"
+
+#~ msgid "Antarctica"
+#~ msgstr "Антарктика"
+
+#~ msgid "Argentina"
+#~ msgstr "Аргентина"
+
+#~ msgid "American Samoa"
+#~ msgstr "Американське Самоа"
+
+#~ msgid "Austria"
+#~ msgstr "Австрія"
+
+#~ msgid "Australia"
+#~ msgstr "Австралія"
+
+#~ msgid "Aruba"
+#~ msgstr "Аруба"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Азербайджан"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Боснія та Герцеговина"
+
+#~ msgid "Barbados"
+#~ msgstr "Барбадос"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Бангладеш"
+
+#~ msgid "Belgium"
+#~ msgstr "Бельгія"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Буркіна-Фасо"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Болгарія"
+
+#~ msgid "Bahrain"
+#~ msgstr "Бахрейн"
+
+#~ msgid "Burundi"
+#~ msgstr "Бурунді"
+
+#~ msgid "Benin"
+#~ msgstr "Бенін"
+
+#~ msgid "Bermuda"
+#~ msgstr "Бермуди"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Брунейський Даруссалам"
+
+#~ msgid "Bolivia"
+#~ msgstr "Болівія"
+
+#~ msgid "Brazil"
+#~ msgstr "Бразилія"
+
+#~ msgid "Bahamas"
+#~ msgstr "Багами"
+
+#~ msgid "Bhutan"
+#~ msgstr "Бутан"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Острів Буве"
+
+#~ msgid "Botswana"
+#~ msgstr "Ботсвана"
+
+#~ msgid "Belarus"
+#~ msgstr "Білорусь"
+
+#~ msgid "Belize"
+#~ msgstr "Беліз"
+
+#~ msgid "Canada"
+#~ msgstr "Канада"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Кокосові острови"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Конго (Кіншаса)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Центрально-Африканська Республіка"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Конго (Браззавіль)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Швейцарія"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Кот д'Івуар"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Острови Кука"
+
+#~ msgid "Chile"
+#~ msgstr "Чілі"
+
+#~ msgid "Cameroon"
+#~ msgstr "Камерун"
+
+#~ msgid "China"
+#~ msgstr "Китай"
+
+#~ msgid "Colombia"
+#~ msgstr "Колумбія"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Коста-Ріка"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Сербія і Монтенегро"
+
+#~ msgid "Cuba"
+#~ msgstr "Куба"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Острови Зеленого Мису"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Острів Різдва"
+
+#~ msgid "Cyprus"
+#~ msgstr "Кіпр"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Чеська республіка"
+
+#~ msgid "Germany"
+#~ msgstr "Німеччина"
+
+#~ msgid "Djibouti"
+#~ msgstr "Джибуті"
+
+#~ msgid "Denmark"
+#~ msgstr "Данія"
+
+#~ msgid "Dominica"
+#~ msgstr "Домініка"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Домініканська Республіка"
+
+#~ msgid "Algeria"
+#~ msgstr "Алжир"
+
+#~ msgid "Ecuador"
+#~ msgstr "Еквадор"
+
+#~ msgid "Estonia"
+#~ msgstr "Естонія"
+
+#~ msgid "Egypt"
+#~ msgstr "Єгипет"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Західна Сахара"
+
+#~ msgid "Eritrea"
+#~ msgstr "Еритрея"
+
+#~ msgid "Spain"
+#~ msgstr "Іспанія"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Ефіопія"
+
+#~ msgid "Finland"
+#~ msgstr "Фінляндія"
+
+#~ msgid "Fiji"
+#~ msgstr "Фіджі"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Фолклендські острови (Мальвінські)"
+
+#~ msgid "Micronesia"
+#~ msgstr "Мікронезія"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Фарерські острови"
+
+#~ msgid "France"
+#~ msgstr "Франція"
+
+#~ msgid "Gabon"
+#~ msgstr "Ґабон"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Об'єднане Королівство"
+
+#~ msgid "Grenada"
+#~ msgstr "Ґренада"
+
+#~ msgid "Georgia"
+#~ msgstr "Грузія"
+
+#~ msgid "French Guiana"
+#~ msgstr "Французька Ґаяна"
+
+#~ msgid "Ghana"
+#~ msgstr "Ґана"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Ґібралтар"
+
+#~ msgid "Greenland"
+#~ msgstr "Ґренландія"
+
+#~ msgid "Gambia"
+#~ msgstr "Ґамбія"
+
+#~ msgid "Guinea"
+#~ msgstr "Ґвінея"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Ґваделупа"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Екваторіальна Гвінея"
+
+#~ msgid "Greece"
+#~ msgstr "Греція"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Південна Джорджія і Південні Сандвічські острови"
+
+#~ msgid "Guatemala"
+#~ msgstr "Ґватемала"
+
+#~ msgid "Guam"
+#~ msgstr "Ґуам"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Гвінея-Бісау"
+
+#~ msgid "Guyana"
+#~ msgstr "Ґаяна"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Китай (Гонґ-Конґ)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Хердські і МакДональдські острови"
+
+#~ msgid "Honduras"
+#~ msgstr "Гондурас"
+
+#~ msgid "Croatia"
+#~ msgstr "Хорватія"
+
+#~ msgid "Haiti"
+#~ msgstr "Гаїті"
+
+#~ msgid "Hungary"
+#~ msgstr "Угорщина"
+
+#~ msgid "Indonesia"
+#~ msgstr "Індонезія"
+
+#~ msgid "Ireland"
+#~ msgstr "Ірландія"
+
+#~ msgid "Israel"
+#~ msgstr "Ізраїль"
+
+#~ msgid "India"
+#~ msgstr "Індія"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Британська територія в Індійському океані"
+
+#~ msgid "Iraq"
+#~ msgstr "Ірак"
+
+#~ msgid "Iran"
+#~ msgstr "Іран"
+
+#~ msgid "Iceland"
+#~ msgstr "Ісландія"
+
+#~ msgid "Italy"
+#~ msgstr "Італія"
+
+#~ msgid "Jamaica"
+#~ msgstr "Ямайка"
+
+#~ msgid "Jordan"
+#~ msgstr "Йорданія"
+
+#~ msgid "Japan"
+#~ msgstr "Японія"
+
+#~ msgid "Kenya"
+#~ msgstr "Кенія"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Киргизстан"
+
+#~ msgid "Cambodia"
+#~ msgstr "Камбоджа"
+
+#~ msgid "Kiribati"
+#~ msgstr "Кірібаті"
+
+#~ msgid "Comoros"
+#~ msgstr "Коморські острови"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Св. Кітс і Невіс"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Корея (Північ)"
+
+#~ msgid "Korea"
+#~ msgstr "Корея"
+
+#~ msgid "Kuwait"
+#~ msgstr "Кувейт"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Кайманські острови"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Казахстан"
+
+#~ msgid "Laos"
+#~ msgstr "Лаос"
+
+#~ msgid "Lebanon"
+#~ msgstr "Ліван"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Санта-Лючія"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Ліхтенштейн"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Шрі Ланка"
+
+#~ msgid "Liberia"
+#~ msgstr "Ліберія"
+
+#~ msgid "Lesotho"
+#~ msgstr "Лесото"
+
+#~ msgid "Lithuania"
+#~ msgstr "Литва"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Люксембург"
+
+#~ msgid "Latvia"
+#~ msgstr "Латвія"
+
+#~ msgid "Libya"
+#~ msgstr "Лівія"
+
+#~ msgid "Morocco"
+#~ msgstr "Марокко"
+
+#~ msgid "Monaco"
+#~ msgstr "Монако"
+
+#~ msgid "Moldova"
+#~ msgstr "Молдавія"
+
+#~ msgid "Madagascar"
+#~ msgstr "Мадагаскар"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Маршалові острови"
+
+#~ msgid "Macedonia"
+#~ msgstr "Македонія"
+
+#~ msgid "Mali"
+#~ msgstr "Малі"
+
+#~ msgid "Myanmar"
+#~ msgstr "М'янма"
+
+#~ msgid "Mongolia"
+#~ msgstr "Монголія"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Північні Маріанські острови"
+
+#~ msgid "Martinique"
+#~ msgstr "Мартініка"
+
+#~ msgid "Mauritania"
+#~ msgstr "Мавританія"
+
+#~ msgid "Montserrat"
+#~ msgstr "Монсеррат"
+
+#~ msgid "Malta"
+#~ msgstr "Мальта"
+
+#~ msgid "Mauritius"
+#~ msgstr "Маврикій"
+
+#~ msgid "Maldives"
+#~ msgstr "Мальдіви"
+
+#~ msgid "Malawi"
+#~ msgstr "Малаві"
+
+#~ msgid "Mexico"
+#~ msgstr "Мексика"
+
+#~ msgid "Malaysia"
+#~ msgstr "Малайзія"
+
+#~ msgid "Mozambique"
+#~ msgstr "Мозамбік"
+
+#~ msgid "Namibia"
+#~ msgstr "Намібія"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Нова Каледонія"
+
+#~ msgid "Niger"
+#~ msgstr "Нігер"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Норфолкські острови"
+
+#~ msgid "Nigeria"
+#~ msgstr "Нігерія"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Нікарагуа"
+
+#~ msgid "Netherlands"
+#~ msgstr "Голландія"
+
+#~ msgid "Norway"
+#~ msgstr "Норвегія"
+
+#~ msgid "Nepal"
+#~ msgstr "Непал"
+
+#~ msgid "Nauru"
+#~ msgstr "Науру"
+
+#~ msgid "Niue"
+#~ msgstr "Ніуе"
+
+#~ msgid "New Zealand"
+#~ msgstr "Нова Зеландія"
+
+#~ msgid "Oman"
+#~ msgstr "Оман"
+
+#~ msgid "Panama"
+#~ msgstr "Панама"
+
+#~ msgid "Peru"
+#~ msgstr "Перу"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Французька Полінезія"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Папуа Нова Гвінея"
+
+#~ msgid "Philippines"
+#~ msgstr "Філіппіни"
+
+#~ msgid "Pakistan"
+#~ msgstr "Пакістан"
+
+#~ msgid "Poland"
+#~ msgstr "Польща"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Св. П'єр і Мікелон"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Піткерн"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Пуерто-Ріко"
+
+#~ msgid "Palestine"
+#~ msgstr "Палестина"
+
+#~ msgid "Portugal"
+#~ msgstr "Португалія"
+
+#~ msgid "Paraguay"
+#~ msgstr "Парагвай"
+
+#~ msgid "Palau"
+#~ msgstr "Палау"
+
+#~ msgid "Qatar"
+#~ msgstr "Катар"
+
+#~ msgid "Reunion"
+#~ msgstr "Реюніон"
+
+#~ msgid "Romania"
+#~ msgstr "Румунія"
+
+#~ msgid "Russia"
+#~ msgstr "Росія"
+
+#~ msgid "Rwanda"
+#~ msgstr "Руанда"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Саудівська Аравія"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Соломонові острови"
+
+#~ msgid "Seychelles"
+#~ msgstr "Сейшельські острови"
+
+#~ msgid "Sudan"
+#~ msgstr "Судан"
+
+#~ msgid "Sweden"
+#~ msgstr "Швеція"
+
+#~ msgid "Singapore"
+#~ msgstr "Сінгапур"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Свята Гелена"
+
+#~ msgid "Slovenia"
+#~ msgstr "Словенія"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Острови Свальбард і Ян Майєн"
+
+#~ msgid "Slovakia"
+#~ msgstr "Словаччина"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Сьєрра-Леоне"
+
+#~ msgid "San Marino"
+#~ msgstr "Сан Маріно"
+
+#~ msgid "Senegal"
+#~ msgstr "Сенегал"
+
+#~ msgid "Somalia"
+#~ msgstr "Сомалі"
+
+#~ msgid "Suriname"
+#~ msgstr "Сурінам"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Сан-Томе і Прінсіпі"
+
+#~ msgid "El Salvador"
+#~ msgstr "Сальвадор"
+
+#~ msgid "Syria"
+#~ msgstr "Сірія"
+
+#~ msgid "Swaziland"
+#~ msgstr "Свазіленд"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Острови Туркс і Кайкос"
+
+#~ msgid "Chad"
+#~ msgstr "Чад"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Французькі Південні Території"
+
+#~ msgid "Togo"
+#~ msgstr "Тоґо"
+
+#~ msgid "Thailand"
+#~ msgstr "Таїланд"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Таджикістан"
+
+#~ msgid "Tokelau"
+#~ msgstr "Токелау"
+
+#~ msgid "East Timor"
+#~ msgstr "Східний Тімор"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Туркменістан"
+
+#~ msgid "Tunisia"
+#~ msgstr "Туніс"
+
+#~ msgid "Tonga"
+#~ msgstr "Тонга"
+
+#~ msgid "Turkey"
+#~ msgstr "Туреччина"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Трінідад і Тобаго"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Тувалу"
+
+#~ msgid "Taiwan"
+#~ msgstr "Тайвань"
+
+#~ msgid "Tanzania"
+#~ msgstr "Танзанія"
+
+#~ msgid "Ukraine"
+#~ msgstr "Україна"
+
+#~ msgid "Uganda"
+#~ msgstr "Уганда"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Острови Сполучених Штатів Америки"
+
+#~ msgid "United States"
+#~ msgstr "Сполучені Штати"
+
+#~ msgid "Uruguay"
+#~ msgstr "Уругвай"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Узбекистан"
+
+#~ msgid "Vatican"
+#~ msgstr "Ватикан"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Св. Вінсент і Гренадінз"
+
+#~ msgid "Venezuela"
+#~ msgstr "Венесуела"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Віргінські острови (Британія)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Віргінські острови (США)"
+
+#~ msgid "Vietnam"
+#~ msgstr "В'єтнам"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Вануату"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Валліс і Футунські острови"
+
+#~ msgid "Samoa"
+#~ msgstr "Самоа"
+
+#~ msgid "Yemen"
+#~ msgstr "Ємен"
+
+#~ msgid "Mayotte"
+#~ msgstr "Майотт"
+
+#~ msgid "South Africa"
+#~ msgstr "Південна Африка"
+
+#~ msgid "Zambia"
+#~ msgstr "Замбія"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Зімбабве"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Ласкаво просимо до %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Спочатку зітріть логічні томи\n"
+
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Вступ\n"
+#~ "\n"
+#~ "Операційна система та різноманітні компоненти, які входять в\n"
+#~ "дистрибутив Мандріва лінакс, надалі називатимуться \"Програмні\n"
+#~ "продукти\". Програмні продукти включають, крім іншого, набори\n"
+#~ "програм, методів, правил та документації, які мають відношення до\n"
+#~ "операційної системи та різноманітних складових частин дистрибутива\n"
+#~ "Мандріва Лінакс .\n"
+#~ "\n"
+#~ "1. Ліцензійна угода\n"
+#~ "\n"
+#~ "Будь ласка, прочитайте цю угоду уважно. Цей документ є ліцензійною\n"
+#~ "угодою між Вами та Mandriva S.A., яка стосується програмних\n"
+#~ "продуктів. Встановленням, дублюванням чи використанням Програмних\n"
+#~ "продуктів будь-яким чином, Ви явно приймаєте та повністю\n"
+#~ "погоджуєтесь з умовами даної Ліцензії. Якщо Ви не погоджуєтесь з\n"
+#~ "будь якою частиною Ліцензійної угоди, Вам не дозволяється\n"
+#~ "встановлювати, дублювати чи користуватися Програмним\n"
+#~ "продуктом. Будь-яка спроба встановлення, дублювання чи використання\n"
+#~ "Програмного продукту чином, який не відповідає умовам Угоди, визнається\n"
+#~ "порушенням Угоди, і тим самим Ви позбавляєтесь прав за цією\n"
+#~ "Угодою. Після припинення дії цієї Угоди Ви повинні негайно знищити\n"
+#~ "всі копії Програмних Продуктів.\n"
+#~ "\n"
+#~ "2. Обмежена гарантія\n"
+#~ "\n"
+#~ "Програмні продукти та доповнююча документація поставляються \"як є\",\n"
+#~ "без гарантії, в межах встановлених законодавством. Ні за яких умов\n"
+#~ "Mandriva S.A. не буде нести відповідальності, в межах встановлених\n"
+#~ "законодавством, за випадкові, прямі чи опосередковані (включаючи, але\n"
+#~ "не обмежуючись втратами чи перепинами бізнесу, фінансовими втратами,\n"
+#~ "адвокатськими витратами чи штрафами як результат присуду судової\n"
+#~ "інстанції, чи будь-які інші втрати), що походять від використання,\n"
+#~ "або, навпаки, від неможливості використання Програмного продукту, навіть\n"
+#~ "у випадку, якщо Mandriva S.A. повідомляло про можливості таких\n"
+#~ "втрат.\n"
+#~ "\n"
+#~ "ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ, ЗАЛЕЖНОЇ ВІД ОБЛАДНАННЯ АБО\n"
+#~ "ВИКОРИСТАННЯ ЗАБОРОНЕНИХ ПРОГРАМНИХ ПРОДУКТІВ В ДЕЯКИХ\n"
+#~ "КРАЇНАХ\n"
+#~ "\n"
+#~ "В межах, встановлених законодавством, Mandriva S.A. чи його\n"
+#~ "дистриб'ютори ні за яких умов не несуть відповідальності за жодне\n"
+#~ "навмисне, випадкове, пряме чи опосередковане пошкодження, (включаючи\n"
+#~ "але не обмежуючись перешкодами для бізнесу, припиненням бізнесу,\n"
+#~ "фінансовими втратами, адвокатськими витратами чи штрафами як\n"
+#~ "результат присуду судової інстанції, чи будь-якими іншим втратами),\n"
+#~ "які виникають від обладнання чи використання програмних компонентів чи\n"
+#~ "виникають від завантаження заборонених законодавством чи обмежених до\n"
+#~ "використання в деяких країнах програмних компонент по мережі з однієї\n"
+#~ "з домашніх сторінок Мандріва Лінакс. Ця обмежена відповідальність\n"
+#~ "включає також (але не обмежується) так званими сильними\n"
+#~ "криптографічними методами, які включені в Програмний продукт.\n"
+#~ "\n"
+#~ "3. Ліцензія GPL та подібні\n"
+#~ "\n"
+#~ "Програмні продукти складаються із складових, розроблених різними\n"
+#~ "фізичними чи юридичними особами. Більшість компонент виконано\n"
+#~ "відповідно до умов загальної публічної ліцензії GNU (GNU General\n"
+#~ "Public Licence), яка надалі в даному документі називається GPL,\n"
+#~ "або подібними до даної ліцензіями. Більшість\n"
+#~ "з цих ліцензій дозволяють використання, дублювання, прийняття та\n"
+#~ "перерозповсюдження складових частин, які вони регулюють. Будь ласка,\n"
+#~ "ознайомтесь уважно з термінами та умовами ліцензійних умов для кожної\n"
+#~ "складової частини, перш ніж використовувати будь-яку з\n"
+#~ "частин. Будь-які запитання стосовно ліцензії на окрему складову\n"
+#~ "частину мають адресуватися автору цієї складової частини, а не до\n"
+#~ "Mandriva. Програми, розроблені Mandriva S.A., керуються\n"
+#~ "ліцензією GPL. Документація, розроблена Mandriva S.A,. керується\n"
+#~ "спеціальною ліцензією. Зверніться, будь ласка, до документації за\n"
+#~ "подробицями.\n"
+#~ "\n"
+#~ "4. Права інтелектуальної власності\n"
+#~ "\n"
+#~ "Всі права на складові компоненти Програмних продуктів належать\n"
+#~ "відповідним авторам і захищені законами про інтелектуальну власність\n"
+#~ "на програмне забезпечення.\n"
+#~ "Mandriva S.A. залишає за собою право змінювати чи\n"
+#~ "адаптувати Програмні продукти як в цілому, так і окремими частинами з\n"
+#~ "будь-якою метою і для будь-яких цілей. \"Mandriva\", \"Mandriva Linux\" "
+#~ "та\n"
+#~ "відповідні логотипи є торгівельними марками MandarakeSoft S.A.\n"
+#~ "\n"
+#~ "5. Законодавство\n"
+#~ "\n"
+#~ "Якщо будь який розділ цієї угоди буде признано недійсним, таким, що не\n"
+#~ "відповідає законодавству чи невідповідним згідно судової постанови, цей\n"
+#~ "розділ угоди видаляється з даного контракту. Ви залишаєтесь зв'язаними\n"
+#~ "іншими розділами цієї угоди, які ще мають дію. Терміни та\n"
+#~ "умови цієї Ліцензії керуються Законодавством Франції. Всі спірні\n"
+#~ "питання щодо термінів та умов цієї ліцензії будуть розв'язуватися по\n"
+#~ "можливості поза межами судових установ. В крайніх випадках спірні\n"
+#~ "питання будуть вирішуватися відповідним Судом Парижа - Франція.\n"
+#~ "З будь-якими питаннями щодо цього документа звертайтеся, будь ласка,\n"
+#~ "до Mandriva S.A.\n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Попередження: Безкоштовні програми необов'язково можуть "
+#~ "використовуватися\n"
+#~ "без патентів і деякі з таких програм, включених сюди, можуть бути "
+#~ "захищені\n"
+#~ "патентами у Вашій країні. Наприклад, декодери MP3 можуть потребувати\n"
+#~ "ліцензії для подальшого використання (див. http://www.mp3licensing.com "
+#~ "для\n"
+#~ "детальнішого ознайомлення. Якщо Ви не впевнені, чи патент годиться для "
+#~ "Вас,\n"
+#~ "проконсультуйтесь про законодавство Вашої країни."
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Попередження\n"
+#~ "\n"
+#~ "Будь ласка, уважно прочитайте умови, подані далі. Якщо Ви не\n"
+#~ "погоджуєтесь з будь-якою частиною, Вам не дозволяється встановлювати\n"
+#~ "наступний компакт-диск. Натисніть на Відмовитися для того, щоб\n"
+#~ "продовжити встановлення без використання цього носія.\n"
+#~ "\n"
+#~ "Деякі компоненти на наступному компакт-диску не керуються ліцензією\n"
+#~ "GPL чи подібною до неї. В такому випадку кожен із компонентів\n"
+#~ "керується своєю специфічною ліцензією. Будь ласка, прочитайте уважно і\n"
+#~ "дотримуйтесь умов такої специфічної ліцензії перш, ніж користуватися\n"
+#~ "або перерозповсюджувати таку компоненту. Такі ліцензії у більшості\n"
+#~ "випадків забороняють передачу, копіювання (крім створення резервної\n"
+#~ "копії), перерозповсюдження, зворотню інженерію, дизасемблювання,\n"
+#~ "декомпіляцію чи модифікацію компоненти. Будь-яке порушення ліцензії\n"
+#~ "негайно припиняє Ваші права щодо компоненти. Якщо специфічно не\n"
+#~ "вказано про надання таких прав, Ви не маєте права встановлювати ці\n"
+#~ "програми на більш, ніж одній системі, або пристосовувати їх для\n"
+#~ "установки в мережі. Якщо Ви маєте сумніви щодо ліцензії, зверніться\n"
+#~ "безпосередньо до дистриб'ютора чи редактора такої компоненти. Передача\n"
+#~ "таких компонент (включаючи документацію) третім особам у більшості\n"
+#~ "випадків заборонена. \n"
+#~ "\n"
+#~ "Всі авторські права компонент на наступному компакт-диску застережені\n"
+#~ "за їх відповідними авторами і захищаються законами про охорону\n"
+#~ "авторських прав, які мають право застосовуватися до програмних\n"
+#~ "продуктів.\n"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Вітання, встановлення завершено. Вийміть з дисководів завантажувальні\n"
+#~ "носії і потім натисніть Return для перезавантаження системи.\n"
+#~ "\n"
+#~ "\n"
+#~ "Для інформації про виправлені помилки, знайдені в цій версії\n"
+#~ "Мандріва лінакса, зверніться до розділу Errata на сервері\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Інформація про налаштування Вашої системи приведена в "
+#~ "післявстановлювальному\n"
+#~ "розділі Офіційного Керівництва Користувача Мандріва лінакса."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Налаштування драйвера UPS"
+
+#~ msgid "Module configuration"
+#~ msgstr "Налаштування модулів"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Тут Ви можете налаштувати кожен параметр модуля."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Знайдені інтерфейси %s"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Чи Ви маєте інші?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Чи Ви маєте які-небуть %s інтерфейси?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Перегляньте інформацію про апаратне забезпечення"
+
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Встановлюю драйвер для контролера USB"
+
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Встановлюю драйвер для контролера захисного шлюзу %s"
+
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Встановлюю драйвер для контролера твердого диску %s"
+
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Встановлюю драйвер для контролера мережевої плати %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Встановлюю драйвер для %s плати %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Тепер Ви можете передати параметри в модуль %s.\n"
+#~ "Зауважте, що будь-які адреси повинні вводитися с префіксом 0x, напр., "
+#~ "'0z123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Ви можете тепер передати параметри в модуль %s.\n"
+#~ "Параметри мають формат ``назва=величина назва2=величина2 ...''.\n"
+#~ "Наприклад, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Параметри модуля:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Який драйвер %s мені спробувати?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "В деяких випадках драйвер %s вимагає додаткової інформації для того,\n"
+#~ "щоб вірно працювати, хоча звичайно працює нормально без неї. Чи не\n"
+#~ "хотіли б Ви вказати додаткові параметри для нього чи дозволити драйверу\n"
+#~ "протестувати Вашу систему, щоб знайти потрібну інформацію? Інколи таке\n"
+#~ "тестування може призвести до зависання комп'ютера, але не повинно\n"
+#~ "зашкодити йому."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Автотест"
+
+#~ msgid "Specify options"
+#~ msgstr "Вкажіть параметри"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Завантаження модуля %s неуспішне.\n"
+#~ "Хочете спробувати інші параметри?"
+
+#~ msgid "mount failed: "
+#~ msgstr "помилка монтування: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Розширені розділи не підтримуються на цій платформі."
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "У Вас є проміжок в таблиці розділів, але я не можу ним скористуватися.\n"
+#~ "Єдиним рішенням може бути пересунути Ваші основні розділи так, щоб\n"
+#~ "проміжок був поруч з розширеними розділами."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Помилка при читанні файла %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Відновлення з файлу %s не спрацювало: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Поганий резервний файл"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Помилка при записі у файл %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Щось недобре відбувається на вашому диску.\n"
+#~ "Тестування цілісності даних було невдалим.\n"
+#~ "Це означає, що результатом запису будь-чого на диск будуть випадкові, "
+#~ "пошкоджені дані."
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Не можу додати розділ до _форматованого_ RAID %s"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Недостатньо розділів для RAID рівня %d\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "Не можу створити теку /usr/share/sane/firmware!"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "Неможливо створити посилання link /usr/share/sane/%s!"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr ""
+#~ "Не можу скопіювати файл мікропрограми %s в теку /usr/share/sane/firmware!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr "Не можу встановити права доступу до файлу мікропрограми %s!"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr ""
+#~ "Неможливо встановити пакунки, необхідні для організації спільного доступу "
+#~ "до сканерів."
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "Ваші сканери не будуть доступними користувачам, крім root."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Прийняти/Відкинути повідомлення про помилку bogus IPv4."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Приймати/Відкидати оповіщувальні icmp echo."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Приймати/Відкидати icmp echo."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Дозволити/Заборонити автореєстрацію."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Якщо встановлено у \"ВСЕ\", /etc/issue і /etc/issue.net  можуть "
+#~ "існувати.\n"
+#~ "\n"
+#~ "Якщо встановлено в НІ, issue не дозволені.\n"
+#~ "\n"
+#~ "Інакше дозволено /etc/issue."
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "Дозволити/Заборонити перезавантаження консольним користувачем."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Дозволити/Заборонити реєстрацію віддаленого користувача root."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Дозволити/Заборонити безпосередню реєстрацію користувача root."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Дозволити/Заборонити список користувачів системи в менеджерах дисплею "
+#~ "(kdm і gdm)."
+
+#~ msgid ""
+#~ "Allow/forbid to export display when\n"
+#~ "passing from the root account to the other users.\n"
+#~ "\n"
+#~ "See pam_xauth(8) for more details.'"
+#~ msgstr ""
+#~ "Дозволити/Заборонити показ перебігу експорту\n"
+#~ "при передаванні з рахунку користувача root іншим користувачам.\n"
+#~ "\n"
+#~ "Детальніше див. pam_xauth(8)."
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Дозволяє/Забороняє X-з'єднання:\n"
+#~ "\n"
+#~ "- ALL (всі з'єднання дозволені),\n"
+#~ "\n"
+#~ "- LOCAL (тільки з'єднання з місцевої машини),\n"
+#~ "\n"
+#~ "- NONE (немає з'єднань)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "Аргумент вказує, чи мають клієнти дозвіл на під'єднання до X сервера\n"
+#~ "з мережі через порт tcp 6000, чи ні."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Дозволяти:\n"
+#~ "\n"
+#~ "- всі служби, що контролюються tcp_wrappers (див. hosts.deny(5) man "
+#~ "page), якщо встановлено у \"ВСІ\",\n"
+#~ "\n"
+#~ "- тільки локальні, якщо встановлено в \"ЛОКАЛЬНІ\"\n"
+#~ "\n"
+#~ "- ніякі, якщо встановлено в \"НІЧОГО\".\n"
+#~ "\n"
+#~ "Щоб дозволити служби, які Вам потрібні, використовуйте /etc/hosts.allow "
+#~ "(див. hosts.allow (5))."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Якщо SERVER_LEVEL (або SECURE_LEVEL, якщо немає)\n"
+#~ "є більшим за 3 в /etc/security/msec/security.conf, створює\n"
+#~ "посилання на /etc/security/msec/server, щоб помістити в\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "/etc/security/msec/server використовується chkconfig --додайте, якщо\n"
+#~ "вирішите додати службу, якщо він є у файлі під час встановлення\n"
+#~ "пакунків."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Увімкнути/Вимкнути crontab і at для користувачів.\n"
+#~ "\n"
+#~ "Помістити дозволених користувачів у /etc/cron.allow і /etc/at.allow\n"
+#~ "(дивіться man at(1) і crontab(1))."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "Увімкнути/Вимкнути звіти системного журналу на консоль 12"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Увімкнути/Вимкнути захист маскування назв. Якщо\n"
+#~ "\"%s\" встановлено в true, також робиться звіт в syslog."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Попередження безпеки:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Увімкнути/Вимкнути захист від маскування IP."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "Увімкнути/Вимкнути libsafe, якщо libsafe знайдено в системі."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Увімкнути/Вимкнути ведення журналу невідомих пакунків IPv4."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "Увімкнути/вимкнути щогодинну перевірку безпеки msec."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Дозволяє su тільки для членів групи wheel або для будь-якого користувача."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Використовувати пароль для розпізнавання користувачів."
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr "Увімкнути/Вимкнути перевірку різнорідності карт ethernet."
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Увімкнути/Вимкнути щоденну перевірку безпеки."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Увімкнути/Вимкнути sulogin(8) на однокористувацькому рівні."
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Додати name як виняток до керування терміном дії пароля командою msec."
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "Встановлює термін дії пароля в \"max\" днів і затримку зміни в \"inactive"
+#~ "\"."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Встановити довжину історії паролів, щоб уникнути повторного використання "
+#~ "пароля."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Встановити мінімальну довжину пароля, мінімальну кількість цифр і "
+#~ "мінімальну кількість великих літер."
+
+#~ msgid "Set the root umask."
+#~ msgstr "Встановити маску користувача root."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "якщо встановлено в 'так', перевіряє відкриті порти."
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "якщо встановлено в так, перевіряє :\n"
+#~ "\n"
+#~ "- порожні паролі,\n"
+#~ "\n"
+#~ "- чи є паролі в /etc/shadow\n"
+#~ "\n"
+#~ "- чи є користувачі з 0 id, іншим, ніж root."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "якщо встановлено в так, то перевіряє права доступу до файлів у домівці "
+#~ "користувача."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "якщо встановлено в так, перевіряє, чи мережеві пристрої працюють в "
+#~ "різнотипних режимах."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "якщо встановлено в 'так', виконує щоденні перевірки безпеки."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr "якщо встановлено в так, помітьте додатки/переміщувані файлів sgid."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr "якщо встановлено в 'так', перевіряє порожні паролі в /etc/shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr "якщо встановлено в так, перевіряє контрольну суму файлів suid/sgid."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "якщо встановлено в так, перевіряє додатки/переміщувані файлів "
+#~ "адміністратора."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "якщо встановлено в 'так', повідомляє про файли без власників."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "якщо встановлено в 'так', перевіряє для всіх права запису у файли/теки."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "якщо встановлено в 'так', виконує перевірки chkrootkit."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "якщо встановлено, відсилає поштове повідомлення на цю поштову адресу, ще "
+#~ "відсилає його rootу."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "якщо встановлено в Так, то повідомити результат перевірки поштою."
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "Не відсилати листи, якщо нема про що попереджувати"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr "якщо встановлено в 'так', виконує деякі перевірки бази даних rpm."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr ""
+#~ "якщо встановлено в 'так', то повідомляє результат перевірки в syslog."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr ""
+#~ "якщо встановлено в так, то повідомляє про результат перевірки на tty."
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Встановити розмір історії команд оболонки. Величина -1 означає "
+#~ "відсутність обмеження."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Встановити затримку командного процесора. Нульова величина означає "
+#~ "відсутність затримки."
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "Час чекання в секундах"
+
+#~ msgid "Set the user umask."
+#~ msgstr "Встановити маску користувача."
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Прийняти повідомлення про фіктивні помилки IPv4"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Прийняти оповіщувальне ехо icmp"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "Прийняти ехо icmp"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* існує"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Перезавантаження консольним користувачем"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Дозволити реєстрацію віддаленого користувача root"
+
+#~ msgid "Direct root login"
+#~ msgstr "Пряма реєстрація root"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "Показувати список користувачів в менеджерах дисплею (kdm і gdm)."
+
+#~ msgid "Export display when passing from root to the other users"
+#~ msgstr ""
+#~ "Показувати перебіг експорту при передаванні від root іншим користувачам"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Дозволити з'єднання X Window"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Дозволити TCP-з'єднання з X Window"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "Дозволити всі сервіси, що контролюються tcp_wrappers"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig з дотриманням правил msec"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "Увімкнути \"crontab\" і \"at\" для користувачів"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Системний журнал генерує звіт на консоль 12"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "Захист від маскарадингу назв"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "Увімкнути захист імітації IP"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Увімкнути/Вимкнути libsafe, якщо libsafe знайдено в системі."
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "Увімкнути ведення журналу підозрілих пакунків IPv4"
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Увімкнути щогодинну перевірку безпеки msec"
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "Увімкнути su тільки для членів групи wheel, або для будь-якого користувача"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Використовувати пароль для розпізнавання користувачів"
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "Перевірка різнорідності карт ethernet."
+
+#~ msgid "Daily security check"
+#~ msgstr "Щоденна перевірка безпеки"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) в однокористувацькому рівні"
+
+#~ msgid "No password aging for"
+#~ msgstr "Немає терміну дії пароля для"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr "Встановити термін дії пароля і облік призупинень активності"
+
+#~ msgid "Password history length"
+#~ msgstr "Довжина історії пароля"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr "Найменша довжина пароля і кількість цифр і великих літер"
+
+#~ msgid "Root umask"
+#~ msgstr "Маска користувача root"
+
+#~ msgid "Shell history size"
+#~ msgstr "Розмір історії командної оболонки"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Затримка командної оболонки"
+
+#~ msgid "User umask"
+#~ msgstr "Маска користувача"
+
+#~ msgid "Check open ports"
+#~ msgstr "Перевірити відкриті порти"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Перевірити на незахищені рахунки"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Перевірити права доступу файлів у домівці користувача"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "Перевіряє, чи мережеві пристрої знаходяться в різних режимах"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Запустити щоденні перевірки безпеки"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Помітити додатки/переміщувані файлів sgid"
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Виберіть порожній пароль в /etc/shadow"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "Перевірити контрольну суму файлів suid/sgid"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "Перевіряє додатки/переміщувані файлів адміністратора."
+
+#~ msgid "Report unowned files"
+#~ msgstr "Звітувати про файли без власників"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Перевірити файли/теки, доступні для запису всім"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Виконати перевірки chkrootkit"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "якщо встановлено, відсилає поштове повідомлення на цю поштову адресу, ще "
+#~ "відсилає його rootу"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Відіслати звіт про результат перевірки поштою"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Виконати деякі перевірки бази даних rpm"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Відсилати результати перевірки в системний журнал"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "Повідомляти результати перевірки по tty"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Ласкаво просимо до кракерів!"
+
+#~ msgid "Poor"
+#~ msgstr "Дуже низький"
+
+#~ msgid "High"
+#~ msgstr "Високий"
+
+#~ msgid "Higher"
+#~ msgstr "Підвищений"
+
+#~ msgid "Paranoid"
+#~ msgstr "Параноїдальний"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Цей рівень потрібно використовувати з обережністю. Він дозволяє більш\n"
+#~ "просте користування Вашою системою, але є надзвичайно ненадійним. Не\n"
+#~ "можна користуватися такою системою, коли вона під'єднана мережею до\n"
+#~ "інших систем, або до Інтернету. Паролі не використовуються в цій\n"
+#~ "системі."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Паролі тепер увімкнені, але все одно не рекомендується користуватися цим "
+#~ "комп'ютером в мережі."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Це - стандартний рівень безпеки, який рекомендується мати на комп'ютері, "
+#~ "підключеному до Інтернету в якості клієнта."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Вже є деякі обмеження і інші автоматичні перевірки запускаються кожної "
+#~ "ночі."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "На цьому рівні безпеки систему можна використовувати в якості сервера.\n"
+#~ "Рівень безпеки для цієї системи тепер достатній для того, щоб\n"
+#~ "використовувати її як сервер, що допускає під'єднання до нього\n"
+#~ "багатьох клієнтів. Зауваження: якщо Ваша машина є клієнтом тільки "
+#~ "Інтернету, Ви можете вибрати нижчий рівень безпеки."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Подібний до попереднього рівня, але тепер система є повністю закритою і "
+#~ "всі режими безпеки на найвищому рівні."
+
+#~ msgid "Security"
+#~ msgstr "Безпека"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Основні параметри DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Будь ласка, виберіть бажаний рівень захисту"
+
+#~ msgid "Security level"
+#~ msgstr "Рівень безпеки"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Використовувати libsafe для сервера"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Бібліотека, яка захищає від атак переповнення буфера і форматування рядка."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Адміністратор безпеки (логін або email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "Запуск звукової системи ALSA (Advanced Linux Sound Architecture)"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron служить для періодичного виконання команд."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd служить для контролю за рівнем батареї та запису повідомлень про\n"
+#~ "це у системний журнал syslog. Крім цього, він може вимикати комп'ютер,\n"
+#~ "коли батарея розрядилася."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Виконує команди, заплановані командою at під час виконання команди at\n"
+#~ "і виконує пакетні команди, коли системне навантаження достатньо\n"
+#~ "низьке. "
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron - це стандартна програма UNIX, яка виконує вибрані користувачем\n"
+#~ "програми періодично у вибраний час. vixie cron додає до стандартного\n"
+#~ "UNIX cron кілька нових можливостей, включаючи підвищену безпеку та\n"
+#~ "більш потужні конфігураційні параметри."
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM - це демон моніторингу за файлами. Він використовується для отримання "
+#~ "повідомлень при зміні файлу.\n"
+#~ "GNOME та KDE використовують його"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM додає підтримку миші до текстових програм у Лінаксі, таких як,\n"
+#~ "наприклад, Midnight Commander. Додає також можливості \"cut-and-paste\"\n"
+#~ "до програм, що працюють на консолі, включаючи підтримку меню на\n"
+#~ "консолі."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake виконує тестування апаратного забезпечення і, якщо потрібно,\n"
+#~ "конфіґурує нове або змінене апаратне забезпечення."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache - це сервер для World Wide Web. Він використовується з файлами "
+#~ "HTML та CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Служба Інтернет суперсервер (більше відома як inetd) служить для запуску\n"
+#~ "різноманітних сервісів Інтернету, коли це необхідно. Вона\n"
+#~ "відповідає за старт багатьох сервісів, таких як telnet, ftp, rsh,\n"
+#~ "та rlogin. При непрацюючій службі inetd не будуть також працювати\n"
+#~ "всі інші сервіси."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Запускає механізм фільтрування пакунків для ядра Лінакса\n"
+#~ "серії 2.2, щоб встановити захисний шлюз для захисту від атак\n"
+#~ "з мережі."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Цей пакунок завантажує вибрану розкладку клавіатури, яка встановлюється\n"
+#~ "в /etc/sysconfig/keyboard. Ця клавіатура може бути вибрана за\n"
+#~ "допомогою програми kbdconfig. Краще залишити цей пакунок працюючим на\n"
+#~ "більшості систем."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Автоматичне створення файлів заголовків для ядра в теці /boot для\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr ""
+#~ "Автоматичне визначення та конфіґурування апаратного забезпечення при\n"
+#~ "завантаженні."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf буде деколи організовувати виконання різних задач\n"
+#~ "під час завантаження для підтримання конфігурації системи в\n"
+#~ "робочому стані."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd - це служба друку, яка забезпечує роботу lpr. Фактично, вона є\n"
+#~ "сервером, який надсилає завдання на друкарку."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Linux Virtual Server використовується для побудови високонадійного\n"
+#~ "сервера з високою продуктивністю."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) - це сервер назв доменів (Domain Name Server, DNS), який\n"
+#~ "використовується для перетворення назв машин у IP-адреси."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Монтує та розмонтовує всі файлові системи типу Network File System\n"
+#~ "(NFS), SMB (Lan Manager/Windows) та NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Вмикає/Вимикає всі інтерфейси мережі, налаштовані\n"
+#~ "стартувати при завантаженні системи."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS - це поширений протокол для спільного доступу до файлів\n"
+#~ "в мережах TCP/IP. Цей сервіс забезпечує функціональні можливості\n"
+#~ "сервера NFS, який налаштовується за допомогою файла /etc/exports. "
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS - це популярний протокол для спільного використання файлів на\n"
+#~ "комп'ютерах, з'єднаних мережею TCP/IP. Цей сервіс забезпечує\n"
+#~ "можливість блокування файлів NFS."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Автоматично увімкнути NumLock на консолі і в Xorg \n"
+#~ "при завантаженні."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Підтримка для OKI 4w і сумісних win-друкарок."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "PCMCIA підтримка потрібна в основному для забезпечення роботи таких\n"
+#~ "речей, як ethernet та модем в переносних комп'ютерах. Вони не почнуть\n"
+#~ "працювати, якщо його не сконфіґуровано, тому краще його встановлювати\n"
+#~ "на комп'ютерах, які цього не потребують."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "portmapper керує з'єднаннями з протоколом RPC, які використовуються\n"
+#~ "такими протоколами, як NFS та NIS. portmaper повинен працювати на\n"
+#~ "машинах, які є серверами для протоколів, що користуються RPC."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix - це програма для передачі електронної пошти, яка передає поштові "
+#~ "повідомлення від одного комп'ютера до іншого."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Зберігає і відновлює джерело ентропії в системі, тим самим підвищуючи\n"
+#~ "якість генерації випадкових чисел."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Поставити пристрої необроблених даних у відповідність до\n"
+#~ "блокових пристроїв (як, наприклад, розділи твердого диску) для\n"
+#~ "використання в програмах типу Oracle а програвачі DVD."
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Служба routed дає можливість користуватися автоматичним поновленням\n"
+#~ "таблиці маршрутизації IP за допомогою протоколу RIP. Протокол RIP\n"
+#~ "широко використовується на невеликих мережах, в той час, як на більш\n"
+#~ "складних необхідне застосування більш розвинених протоколів\n"
+#~ "маршрутизації."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Протокол rstat дає можливість користувачам в мережі отримувати дані\n"
+#~ "про завантаження будь-якого комп'ютера в цій мережі."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Протокол rusers дає можливість отримувати інформацію про те,\n"
+#~ "хто зареєстрований на іншій машині, що відповідає на запити."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Протокол rwho видає користувачам на віддалених системах інформацію про\n"
+#~ "всіх користувачів, зареєстрованих в системі, яка має службу rwho\n"
+#~ "(подібний до служби finger)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Запустити звукову систему на Вашій машині"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "syslog - це сервіс в системі, за допомогою якого багато служб записують\n"
+#~ "системні повідомлення у різні системні файли реєстрації повідомлень. В\n"
+#~ "будь-якій системі непогано мати syslog."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Завантажити драйвери для пристроїв usb."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr ""
+#~ "Стартує сервер шрифтів для X (обов'язковий для роботи\n"
+#~ "сервера Xorg)."
+
+#~ msgid "Printing"
+#~ msgstr "Друк"
+
+#~ msgid "Internet"
+#~ msgstr "Інтернет"
+
+#~ msgid "File sharing"
+#~ msgstr "Спільний доступ до файла"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Віддалене адміністрування"
+
+#~ msgid "Database Server"
+#~ msgstr "Сервер баз даних"
+
+#~ msgid "Services"
+#~ msgstr "Сервіси"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr ""
+#~ "Виберіть, які сервіси мають стартувати автоматично при завантаженні "
+#~ "системи"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Сервіси: %d увімкнено із %d зареєстрованих"
+
+#~ msgid "running"
+#~ msgstr "виконується"
+
+#~ msgid "stopped"
+#~ msgstr "зупинено"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Сервіси та служби"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Вибачте, немає додаткової \n"
+#~ "інформації про цей сервіс."
+
+#~ msgid "Info"
+#~ msgstr "Інформація"
+
+#~ msgid "Start when requested"
+#~ msgstr "Запустити за запитом"
+
+#~ msgid "On boot"
+#~ msgstr "При завантаженні"
+
+#~ msgid "Start"
+#~ msgstr "Запустити"
+
+#~ msgid "Stop"
+#~ msgstr "Зупинити"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Ця програма є безкоштовною; Ви можете розповсюджувати її та/або\n"
+#~ "змінювати її згідно умов загальної публічної ліцензії GNU, опублікованої\n"
+#~ "фундацією безкоштовних програм; версії 2 або будь-якої пізнішої.\n"
+#~ "\n"
+#~ "Ця програма розповсюджується з надією, що може бути придатною, але\n"
+#~ "БЕЗ БУДЬ-ЯКОЇ ГАРАНТІЇ; навіть без припущення гарантії ПРАЦЕЗДАТНОСТІ\n"
+#~ "або ПРИДАТНОСТІ ДЛЯ КОНКРЕТНОЇ МЕТИ. Деталі дивіться в загальній\n"
+#~ "публічній ліцензії GNU.\n"
+#~ "\n"
+#~ "Ви повинні були отримати копію загальної публічної ліцензії GNU разом з "
+#~ "цією\n"
+#~ "програмою; якщо ні - напишіть у Free Software Foundation, Inc.,\n"
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Програма для резервування і відновлення\n"
+#~ "\n"
+#~ "--default             : записати типові теки.\n"
+#~ "--debug               : показати всі повідомлення при відлагодженні.\n"
+#~ "--show-conf           : показати список файлів або тек для резервування.\n"
+#~ "--config-info         : пояснити параметри конфігураційного файла (не для "
+#~ "користувачів Х.\n"
+#~ "--daemon              : використовувати службу конфігурації. \n"
+#~ "--help                : показати це повідомлення.\n"
+#~ "--version             : показати номер версії.\n"
+
+#~ msgid ""
+#~ "[--boot] [--splash]\n"
+#~ "OPTIONS:\n"
+#~ "  --boot            - enable to configure boot loader\n"
+#~ "  --splash          - enable to configure boot theme\n"
+#~ "default mode: offer to configure autologin feature"
+#~ msgstr ""
+#~ "[--boot] [--splash]\n"
+#~ "ПАРАМЕТРИ:\n"
+#~ "  --boot            - дозволити налаштування початкового завантажувача\n"
+#~ "  --splash          - дозволити налаштування теми для завантаження\n"
+#~ "типовий режим: пропонувати налаштувати можливість автореєстрації"
+
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[ПАРАМЕТРИ] [НАЗВА_ПРОГРАМИ]\n"
+#~ "\n"
+#~ "ПАРАМЕТРИ:\n"
+#~ "  --help            - вивести цю довідку.\n"
+#~ "  --report          - програма повинна бути з набору інструментів "
+#~ "Мандріва лінакса\n"
+#~ "  --incident        - програма повинна бути з набору інструментів "
+#~ "Мандріва лінакса"
+
+#~ msgid ""
+#~ "[--add]\n"
+#~ "  --add             - \"add a network interface\" wizard\n"
+#~ "  --del             - \"delete a network interface\" wizard\n"
+#~ "  --skip-wizard     - manage connections\n"
+#~ "  --internet        - configure internet\n"
+#~ "  --wizard          - like --add"
+#~ msgstr ""
+#~ "[--add]\n"
+#~ "  --add             - Помічник \"додавання мережевого інтерфейса\"\n"
+#~ "  --del             - Помічник \"видалення мережевого інтерфейса\"\n"
+#~ "  --skip-wizard     - керування з'єднаннями\n"
+#~ "  --internet        - налаштування Інтернету\n"
+#~ "  --wizard          - те саме, що --add"
+
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "\n"
+#~ "Програма імпорту і керування шрифтами\n"
+#~ "\n"
+#~ "ПАРАМЕТРИ:\n"
+#~ "--windows_import : імпортувати з усіх доступних розділів Віндовс.\n"
+#~ "--xls_fonts      : показати всі шрифти, які вже існують з xls\n"
+#~ "--install        : включити будь-який файл шрифта і будь-яку теку.\n"
+#~ "--uninstall      : вилучити будь-який шрифт або теку шрифтів.\n"
+#~ "--replace        : замінити всі шрифти, які вже існують\n"
+#~ "--application    : 0 немає програми.\n"
+#~ "                 : 1 всі наявні програми, які підтримуються.\n"
+#~ "                 : назва_програми, так само для staroffice \n"
+#~ "                 : і gs для ghostscript для цього випадку."
+
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[ПАРАМЕТРИ]...\n"
+#~ "Конфігуратор Mandriva Linux Terminal Server\n"
+#~ "--enable         : увімкнути MTS\n"
+#~ "--disable        : вимкнути MTS\n"
+#~ "--start          : запустити MTS\n"
+#~ "--stop           : зупинити MTS\n"
+#~ "--adduser        : додати існуючого системного користувача до MTS "
+#~ "(потребує назви користувача)\n"
+#~ "--deluser        : вилучити існуючого системного користувача з MTS "
+#~ "(потребує назви користувача)\n"
+#~ "--addclient      : додати клієнтську машину до MTS (потребує MAC-адресу, "
+#~ "IP, назву образу nbi)\n"
+#~ "--delclient      : вилучити клієнтську машину з MTS (потребує MAC-адресу, "
+#~ "IP, назву образу nbi)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[клавіатура]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr ""
+#~ "[--file=мій_файл] [--word=моє_слово] [--explain=регулярний_вираз] [--"
+#~ "alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[ПАРАМЕТРИ]\n"
+#~ "Програми для під'єднання і слідкування за мережею і Інтернетом\n"
+#~ "\n"
+#~ "--defaultintf interface : показати цей інтерфейс як типовий\n"
+#~ "--connect : під'єднатися до інтернета, якщо ще не під'єднано\n"
+#~ "--disconnect : від'єднатися віж інтернета, якщо вже під'єднано\n"
+#~ "--force : використовується з (dis)connect : примусово при(від)єднатися.\n"
+#~ "--status : повертає 1, якщо під'єднано, інакше 0, потім виходить.\n"
+#~ "--quiet : не бути діалоговим. Використовується з при(від)єднатися."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[ПАРАМЕТР]...\n"
+#~ "  --no-confirmation      не запитувати першого підтвердження в режимі "
+#~ "Mandriva Update\n"
+#~ "  --no-verify-rpm        не перевіряти підписи пакунків\n"
+#~ "  --changelog-first      показувати журнал змін перед списком файлів у "
+#~ "вікні опису\n"
+#~ "  --merge-all-rpmnew     пропонувати об'єднати всі знайдені файли ."
+#~ "rpmnew/.rpmsave"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] монітор\n"
+#~ "       роздільна здатність XFdrake"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Використання: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] "
+#~ "[--testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Додати сервера"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Південна Африка"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Австрія"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Південна Африка"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Македонія"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Південна Африка"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Сянган"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Російська Федерація"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Югославія"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Все вірно?"
+
+#~ msgid "No file chosen"
+#~ msgstr "Файл не вибрано"
+
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "Ви вибрали файл, не теку"
+
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Ви вибрали теку, а не файл"
+
+#~ msgid "No such directory"
+#~ msgstr "Немає такої теки"
+
+#~ msgid "No such file"
+#~ msgstr "Немає такого файла"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Розгорнути дерево"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Згорнути дерево"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Перемикнути між простим списком і сортованим по групах"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s не встановлено\n"
+#~ "Клацніть \"Далі\" для встановлення або \"Скасувати\" для виходу"
+
+#~ msgid "Installation failed"
+#~ msgstr "Встановлення завершилося невдало"

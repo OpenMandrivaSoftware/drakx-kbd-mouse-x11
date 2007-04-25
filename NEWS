@@ -1,0 +1,77 @@
+- workaround buggy fglrx driver: make dm restart xserver (#29550)
+
+Version 0.15 - 3 April 2007, by Pascal "Pixel" Rigaux
+
+- drakkeyboard & rescue: fix loadkeys_files() for x86_64
+- ensure VertRefresh range include 60Hz (for buggy edids, #30094)
+
+Version 0.14 - 23 March 2007, by Pascal "Pixel" Rigaux
+
+- enable Composite by default on nvidia97xx and nvidia96xx 
+  (still disabled on nvidia71xx and fglrx) (#29445)
+
+Version 0.13 - 22 March 2007, by Pascal "Pixel" Rigaux
+
+- fix typo making installation discard nvidia driver
+
+Version 0.12 - 22 March 2007, by Pascal "Pixel" Rigaux
+
+- ensure ModulePath is not dropped after changing an option (#29591)
+
+Version 0.11 - 15 March 2007, by Olivier "blino" Blin
+
+- introduce pkg_name_for_Driver2 (for One generation)
+
+Version 0.10 - 13 March 2007, by Pascal "Pixel" Rigaux
+
+- use option AddARGBGLXVisuals when Composite is enabled on proprietary nvidia
+  driver (cf #28779)
+- remove empty section Extensions after disabling Composite
+- ensure "/usr/lib/xorg/modules/" is removed from ModulePath (note the ending "/")
+- if we have some special ModulePath, ensure the last one is the standard ModulePath
+
+Version 0.9 - 12 March 2007, by Pascal "Pixel" Rigaux
+
+- fix typo breaking GL configuration for fglrx (#29379)
+- old behaviour of X auto configuration: prompt for (old school) multi-head
+  choice instead of failing
+- adapt the card names to Cards+ changes
+  (nb: this is mostly obsolete stuff, to be dropped after 2007.1)
+
+Version 0.8 - 5 March 2007, by Pascal "Pixel" Rigaux
+
+- bug fix release:
+- the Driver must be nvidia for nvidia drivers
+- remove debug code forcing GeForce
+
+Version 0.7 - 2 March 2007, by Pascal "Pixel" Rigaux
+
+- handle 'nvidia97xx',  'nvidia96xx' & 'nvidia71xx' NV drivers
+
+Version 0.6 - 1 March 2007, by Pascal "Pixel" Rigaux
+
+- use ModulePath "/usr/LIB/xorg/modules/extensions/nvidia"
+  instead of Load "/usr/LIB/xorg/modules/extensions/nvidia/libglx.so"
+  (#28779)
+
+Version 0.5 - 8 February 2007, by Thierry Vignaud
+
+- add icons moved out of drakxtools
+
+Version 0.4 - 29 January 2007, by Pascal "Pixel" Rigaux
+
+- bug fix release
+- keyboarddrake
+  o make it work again (#28438)
+
+Version 0.3 - 19 January 2007, by Thierry Vignaud
+
+- do use translations
+
+Version 0.2 - 19 January 2007, by Thierry Vignaud
+
+- fix installing
+
+Version 0.1 - 18 January 2007, by Thierry Vignaud
+
+- initial release (splited out of drakxtools)

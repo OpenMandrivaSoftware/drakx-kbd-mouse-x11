@@ -1,0 +1,6237 @@
+# translation of DrakX-tl.po to Filipino
+# translation of DrakX.po to Filipino
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Arys P. Deloso <arys@deloso.org>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-tl\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2004-09-15 13:35+0200\n"
+"Last-Translator: Arys P. Deloso <arys@deloso.org>\n"
+"Language-Team: Filipino <salinpinoy@comitus.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 KB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 KB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB o mahigit"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "\"X server\""
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Pumili ng \"X server\""
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "\"Multi-head configuration\""
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Ang inyong sistema ay sumusuporta sa \"multiple head\n"
+"configuration\". Ano ang gusto ninyong gawin?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Piliin ang laki ng \"memory\" ng inyong graphics card"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "I-configure isa-isa ang lahat ng mga head"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Gamitin ang \"Xinerama extension\""
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "I-configure lang ang \"card\" \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Custom"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Pagko-configure ng koneksyon"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Quit"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Graphic Card"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Resolution"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Subukan"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Mga option"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Mga Plugin"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Gamitin ba ang mga pagbabago?\n"
+"Ang kasalukuyang configuration ay:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Pumili ng monitor para sa head #%d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Pumili ng monitor"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Generic"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Vendor"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Pagsusuri ng Plug'n Play nabigo. Pakipili ang tamang monitor"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Ang dalawang critical na mga parameter ay ang \"vertical refresh rate\", na\n"
+"bilis ng pag-refresh ng buong screen, at ang mas mahalaga na \"horizontal\n"
+"sync rate\", na bilis ng pag-display ng mga \"scanlines\".\n"
+"\n"
+" NAPAKAHALAGA na hindi kayo pipili ng uri ng monitor na may \"sync range\"\n"
+"na higit sa kakayahan ng inyong monitor: maari ninyong mapinsala ang inyong\n"
+"monitor. Kung may alinlangan, mamili ng konserbatibong setting."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Horizontal refresh rate"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Vertical refresh rate"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Pumili ng gagawin"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 kulay (8 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 libong kulay (15 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 libong kulay (16 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 milyong kulay (24 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Mga \"resolution\""
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Ang iba"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Piliin ang \"resolution\" at dami ng kulay"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "\"Graphics card\": %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Tulong"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Pagsubok ng configuration"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Gusto ninyo bang subukan ang configuration?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr ""
+"Babala:ang pagsubok ng graphic card na ito ay maaring mag-freeze ng computer "
+"ninyo"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"May naganap na \"error\":\n"
+"%s\n"
+"Subukang palitan ang ilang mga parameter"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Aalis sa loob ng %d segundo"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Ito ba ang tamang \"setting\"?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Keyboard layout: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Uri ng mouse: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Monitor: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Monitor HorizSync: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Monitor VertRefresh: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Graphics card: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Graphics memory: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Color depth: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Resolution: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg driver: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Configuration ng Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "\"Graphics card\": %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Graphical interface na panimula"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Maaari kong i-setup ang inyong computer na kaagad simulan ang \"graphical "
+"interface\" pag-boot.\n"
+"Gusto ninyo bang magsimula ang Xorg kapag kayo ay nag-reboot?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Tila may pangdugtong sa TV ang inyong \"graphic card\".\n"
+"Maaari itong i-configure na gumana gamit ang \"frame-buffer\".\n"
+"\n"
+"Ikabit ninyo muna ang \"graphic card\" sa inyong TV bago i-boot ang inyong "
+"computer.\n"
+"Pagkatapos ay piliin ang \"TVOut\" na \"entry\" sa \"bootloader\"\n"
+"\n"
+"Mayroon ba kayo ng ganitong katangian?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Anong \"norm\" ang ginagamit ng inyong TV?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Czech (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "German"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Spanish"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Finnish"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "French"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "UK keyboard"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norwegian"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Polish"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Russian"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Swedish"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "US keyboard"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Albanian"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Armenian (luma)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Armenian (typewriter)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Armenian (phonetic)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Arabic"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbaidjani (latin)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belgian"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengali (Inscript layout)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengali (Probhat layout)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgarian (phonetic)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgarian (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brazilian (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Bosnian"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Bosnian"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Belarusian"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Swiss (German layout)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Swiss (French layout)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Arabic"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Czech (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "German (walang mga dead key)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagari"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Danish"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (Swedish)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (Swedish)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonian"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Greek"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Georgian (\"Russian\" layout)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Georgian (\"Latin\" layout)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Greek"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Greek (polytonic)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Gujarati"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Croatian"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Hungarian"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Irish"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Israeli"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Israeli (Phonetic)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iranian"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Icelandic"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Italian"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japanese 106 key"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kannada"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "UK keyboard"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Korean keyboard"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Arabic"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latin American"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laotian"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Lithuanian AZERTY (luma)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Lithuanian AZERTY (bago)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Lithuanian \"number row\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Lithuanian \"phonetic\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Latvian"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Malayalam"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Macedonian"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Myanmar (Burmese)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Mongolian (cyrillic)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Maltese (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Maltese (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Dutch"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Oriya"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Polish (qwerty layout)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Polish (qwertz layout)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Polish"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portuguese"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Canadian (Quebec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Romanian (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Romanian (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Russian (Phonetic)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Slovenian"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovakian (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovakian (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (norwegian)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saami (swedish/finnish)"
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Thai keyboard"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Serbian (cyrillic)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Syriac"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Syriac (phonetic)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamil (ISCII-layout)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamil (Typewriter-layout)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Thai keyboard"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Thai keyboard"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Thai keyboard"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tajik keyboard"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "German"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Turkish (traditional \"F\" model)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Turkish (modern \"Q\" model)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukrainian"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Oriya"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "US keyboard (international)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Uzbek (cyrillic)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vietnamese \"numeric row\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Yugoslavian (latin)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Kanang Alt key"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Parehong Shift key magkasabay"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Control at Shift key magkasabay"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock key"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Ctrl at Alt key magkasabay"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl at Alt key magkasabay"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt at Shift key magkasabay"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"Menu\" key"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Kaliwang \"Windows\" key"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Kanang \"Windows\" key"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Parehong Control key magkasabay"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Parehong Alt key magkasabay"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Kaliwang Shift key"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Kanang Shift key"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Kaliwang Alt key"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Kaliwang Control key"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Kanang Control key"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Dito maaari ninyong piliin ang key o kombinasyon ng key na\n"
+"magpapahintulot ng paglilipat sa pagitan ng iba't-ibang mga\n"
+"layout ng keyboard (e.g. latin at non latin)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Babala"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Ang setting na ito ay ia-activate pagkataos ng pag-install.\n"
+"Habang nag-i-install, kakailanganin ninyong gamitin ang\n"
+"Kanang Control key para lumipat sa pagitan ng iba't-ibang\n"
+"mga layout ng keyboard."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Mouse"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Generic PS2 Wheel Mouse"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automatic"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 pindutan"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Generic 2 Button Mouse"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Generic 3 Button Mouse na may Wheel kunwari"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Wheel"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "serial"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Generic 3 Button Mouse"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan na may Wheel kunwari"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series na may Wheel kunwari"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (serial, lumang C7 na uri)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (serial, lumang C7 na uri) na may Wheel kunwari"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse na may Wheel kunwari"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 pindutan"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 pindutan"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 pindutan na may Wheel kunwari"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Universal"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Kahit anong PS/2 & USB mouse"
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "wala"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Walang mouse"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Piliin ang inyong uri ng mouse."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Mano-manong pili"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Magkunwaring may pangatlong pindutan?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Mouse Port"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Piliin kung sa aling serial port nakakabit ang inyong mouse."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Pagkukunwari ng mga pindutan"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Pagkunwari ng ika-2 Pindutan"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Pagkunwari ng ika-3 Pindutan"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Pakisubok ang mouse"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Para paganahin ang mouse,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "GALAWIN ANG INYONG WHEEL!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr ""
+"Kailangan ninyong mag-logout at login ulit para magkabisa ang mga pagbabago"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Keyboard"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Pakiusap, piliin ang layout ng inyong keyboard."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Layout ng Keyboard"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Keyboard"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr ""
+"Gusto ba ninyo na ang BackSpace ay magbalik ng Delete kung nasa console?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Pagsubok ng mouse"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Pakisubukan ang inyong mouse:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Umask ng user"
+
+#~ msgid "Please wait"
+#~ msgstr "Maghintay lamang"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Tumatakbo ang pag-i-install ng bootloader"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr ""
+#~ "Ang pag-i-install ng bootloader ay nabigo. Nangyari ang sumusunod na "
+#~ "error:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Baka kailanganin ninyong baguhin ang inyong boot-device ng\n"
+#~ "Open Firmware para mapagana ang bootloader.  Kung hindi ninyo\n"
+#~ "makita ang prompt ng bootloader sa reboot, hawakang pababa ang\n"
+#~ "Command-Option-O-F sa reboot at ipasok ang:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Tapos i-type ang: shut-down\n"
+#~ "Sa inyong susunod na boot dapat makita ninyo ang prompt ng bootloader."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Nagpasya kayo na i-install ang bootloader sa isang partition.\n"
+#~ "Nagpapahiwatig ito na mayroon na kayong bootloader sa \"hard drive\"(eg: "
+#~ "System Commander).\n"
+#~ "\n"
+#~ "Aling \"drive\" ang inyong bino-boot?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Unang sector ng drive (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Unang sector ng root partition"
+
+#~ msgid "On Floppy"
+#~ msgstr "Sa Floppy"
+
+#~ msgid "Skip"
+#~ msgstr "Laktawan"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "LILO/grub Installation"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Saan ninyo gustong i-install ang bootloader?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Configuration ng Boot Style"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Mga main option ng bootloader"
+
+#~ msgid "Bootloader"
+#~ msgstr "Bootloader"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Gagamiting bootloader"
+
+#~ msgid "Boot device"
+#~ msgstr "Boot device"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Delay bago i-boot ang default na image"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Paganahin ang ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Paganahin ang ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Paganahin ang ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Hindi pareho ang mga password"
+
+#~ msgid "Please try again"
+#~ msgstr "Pakisubukan muli"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr ""
+#~ "Hindi kayo maaaring gumamit ng encrypted na file system para sa mount "
+#~ "point na %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Password (ulit)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "I-restrict ang mga option ng command line"
+
+#~ msgid "restrict"
+#~ msgstr "i-restrict"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Ang option na ``I-restrict ang mga option ng command line'' ay walang "
+#~ "bisa kung walang password"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Linisin ang /tmp bawa boot"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Tamang laki ng RAM kung kailangan (%d MB ang nahanap)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Ibigay ang laki ng RAM sa MB"
+
+#~ msgid "Init Message"
+#~ msgstr "Mensahe ng \"init\""
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Open Firmware Delay"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Kernel Boot Timeout"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Paganahin ang pag-boot sa CD?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Paganahin ang OF Boot?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Default OS?"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Append"
+
+#~ msgid "Video mode"
+#~ msgstr "Video mode"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "Bagong profile..."
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoVideo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Hindi maaaring walang label"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Dapat kayong mag-specify ng \"kernel image\""
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Dapat kayong mag-specify ng \"root partition\""
+
+#~ msgid "This label is already used"
+#~ msgstr "Gamit na ang \"label\" na ito"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Anong uri ng entry ang gusto ninyong idagdag?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Ibang OS (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Ibang OS (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Ibang OS (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Narito ang mga \"entry\" sa inyong \"boot menu\" sa ngayon.\n"
+#~ "Maaari kayong gumawa ng bagong \"entry\" o baguhin ang alinmang \"entry\"."
+
+#~ msgid "access to X programs"
+#~ msgstr "\"access\" sa mga \"X program\""
+
+#~ msgid "access to rpm tools"
+#~ msgstr "\"access\" sa mga kasangkapang pang-RPM"
+
+#~ msgid "allow \"su\""
+#~ msgstr "payagan ang \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "\"access\" sa mga file na pangtagapamahala"
+
+#~ msgid "access to network tools"
+#~ msgstr "\"access\" sa mga kasangkapang pang-network"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "\"access\" sa mga kasangkapang pang-compile"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(naidagdag na ang %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Magbigay po ng \"user name\""
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Ang \"user name\" ay dapat maglaman lamang ng maliliit na titik, bilang, "
+#~ "`-' at `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Masyadong mahaba ang \"user name\""
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Naidagdag na ang \"user name\" na ito"
+
+#~ msgid "User ID"
+#~ msgstr "User ID"
+
+#~ msgid "Group ID"
+#~ msgstr "Group ID"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "Ang option na %s ay dapat isang bilang!"
+
+#~ msgid "Add user"
+#~ msgstr "Magdagdag ng \"user\""
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Magpasok \"user\"\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Tapos"
+
+#~ msgid "Accept user"
+#~ msgstr "Tanggapin ang \"user\""
+
+#~ msgid "Real name"
+#~ msgstr "Totoong pangalan"
+
+#~ msgid "Login name"
+#~ msgstr "Login name"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "Icon"
+
+#~ msgid "Autologin"
+#~ msgstr "Autologin"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Maaari kong i-setup ang inyong computer na kaagad mag-log ng isang \"user"
+#~ "\"."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Gusto ninyong gamitin ang katangian na ito?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Piliin ang \"default\" na \"user\":"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Piliin ang \"window manager\" na patatakbuhin:"
+
+#~ msgid "License agreement"
+#~ msgstr "Kasunduang Lisensiya"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "Release: "
+
+#~ msgid "Accept"
+#~ msgstr "Tanggapin"
+
+#~ msgid "Refuse"
+#~ msgstr "Tanggihan"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Pumili ng wika na gagamitin."
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "Mano-manong pili"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Kaya ng Mandriva Linux na sumuporta sa maraming wika. Piliin\n"
+#~ "ang mga wika na nais ninyong i-install. Sila ay mapapakinabangan\n"
+#~ "kung natapos na ang inyong installation at ni-restart ang inyong sistema."
+
+#~ msgid "All languages"
+#~ msgstr "Lahat ng wika"
+
+#~ msgid "Country / Region"
+#~ msgstr "Bansa / Rehiyon"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Pakipili ang inyong bansa."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Narito ang buong listahan ng mga \"available\" na bansa"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "Ibang mga port"
+
+#~ msgid "Advanced"
+#~ msgstr "Advanced"
+
+#, fuzzy
+#~ msgid "Input method:"
+#~ msgstr "Net Method:"
+
+#~ msgid "None"
+#~ msgstr "Wala"
+
+#~ msgid "No sharing"
+#~ msgstr "Walang \"sharing\""
+
+#~ msgid "Allow all users"
+#~ msgstr "Payagan lahat ng mga \"user\""
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Gusto ninyo bang payagan ang mga \"user\" na mag-share ng kanilang "
+#~ "directory?\n"
+#~ "Sa pagpayag dito ay maaarin nang i-click ng mga \"user\" ang \"Share\" "
+#~ "sa\n"
+#~ "konqueror at natutilus.\n"
+#~ "\n"
+#~ "Sa \"Custom\" maaaring piliin kung sinong \"user\" lamang ang papayagan.\n"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "Maaaring mag-export gamit ang NFS o SMB. Pakipili kung alin ang gagamitin."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "I-launch ang userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Isara"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Ang per-user na pag-share ay ginagamit ang group na \"fileshare\". \n"
+#~ "Maaari ninyong gamitin ang userdrake para magdagdag ng user sa group na "
+#~ "ito."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Mag-logout at gamitin ang Ctrl-Alt-Backspace"
+
+#~ msgid "Timezone"
+#~ msgstr "Timezone"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Alin ang inyong timezone?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Orasan ng hardware ginawang GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Orasan ng hardware ginawang GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP Server"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Automatic na pagsasabaysabay ng oras (gamit ang NTP)"
+
+#, fuzzy
+#~ msgid "Local file"
+#~ msgstr "Mga file na \"local\""
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows Domain"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Directory na may mga backup"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Directory na may mga backup"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "Mga file na \"local\":"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows Domain:"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Directory na may mga backup"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Directory na may mga backup"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Authentication LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP Server"
+
+#~ msgid "simple"
+#~ msgstr "simple"
+
+#, fuzzy
+#~ msgid "TLS"
+#~ msgstr "LSB"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Paraan ng authentication"
+
+#~ msgid "Domain"
+#~ msgstr "Domain"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "Database"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "Password kailangan"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Authentication NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS Domain"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS Server"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Para gumana ito sa W2K PDC, kailangan ng admin na i-run ang: C:\\>net "
+#~ "localgroup \"Pre-Windows 2000 Compatible Access\" everyone /add at i-"
+#~ "reboot ang server.\n"
+#~ "Kailangan ninyo rin ang username/password ng isang Domain Admin para "
+#~ "maisali ang makina sa Windows(TM) domain.\n"
+#~ "Kung ang network ay hindi gumagana, susubukan ng Drakx na sumali sa "
+#~ "domain matapos ang hakbang sa pag-setup ng network.\n"
+#~ "Kung mabigo ang setup at ang domain authentication ay hindi gumana, i-run "
+#~ "ang 'smbpasswd -j DOMAIN -U USER%%PASSWORD' gamit ang inyong Windows(tm) "
+#~ "Domain, at Username/Password ng Admin, matapos ma-boot ang sistema.\n"
+#~ "Ang command na 'wbinfo -t' ay susubukan kung mabuti ang inyong "
+#~ "authentication secrets."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Authentication Windows Domain"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Domain Admin User Name"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Domain Admin Password"
+
+#~ msgid "Authentication"
+#~ msgstr "Authentication"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "I-set ang password ng root"
+
+#~ msgid "Authentication method"
+#~ msgstr "Paraan ng authentication"
+
+#~ msgid "No password"
+#~ msgstr "Walang password"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "Masyadong maikli ang password na ito (dapat hindi iikli sa %d character)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Hindi magagamit ang \"broadcast\" na walang NIS domain"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Maligayang pagdating sa tagapili ng operating system (OS)!\n"
+#~ "\n"
+#~ "Pumili ng OS mula sa listahan sa itaas o maghintay\n"
+#~ "para sa default na boot.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO na may \"text menu\""
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "Walang sapat na puwang sa /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Hindi maaaring i-install ang bootloader sa isang partisyon ng %s\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "Ang configuration ng inyong bootloader ay dapat ma-update dahil nabago "
+#~ "ang bilang ng partisyon"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "Hindi ma-install ng tama ang bootloader. Dapat i-boot ninyo ang rescue at "
+#~ "piliin ang \"%s\""
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "I-install ulit ang Boot loader"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minuto"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minuto"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d segundo"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "Ang WebDAV ay isang protocol na magpapahintulot mai-mount ang directory\n"
+#~ "ng \"web server\" sa local na filesystem (kung ang \"web server\" ay "
+#~ "naka-\n"
+#~ "configure bilang WebDAV server). Kung gusto ninyong magdagdag ng mga\n"
+#~ "\"mount point\" ng WebDAV, piliin ang \"NEW\"."
+
+#~ msgid "New"
+#~ msgstr "New"
+
+#~ msgid "Unmount"
+#~ msgstr "Unmount"
+
+#~ msgid "Mount"
+#~ msgstr "Mount"
+
+#~ msgid "Mount point"
+#~ msgstr "Mount point"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Pakipasok ang URL ng WebDAV server"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "Ang URL ay dapat magsimula sa http:// o https://"
+
+#~ msgid "Server: "
+#~ msgstr "Server: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Mount point: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Mga option: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Pagpartisyon"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Basahing mabuti!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Paki-backup muna ang inyong data"
+
+#~ msgid "Exit"
+#~ msgstr "Exit"
+
+#~ msgid "Continue"
+#~ msgstr "Magpatuloy"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Kung plano ninyong gamitin ang aboot, mag-ingat na mag-iwan ng libreng "
+#~ "puwang (2048 sector ay sapat)\n"
+#~ "sa simula ng inyong disk"
+
+#~ msgid "Choose action"
+#~ msgstr "Pumili ng gagawin"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Mayroon kayong isang malaking partisyon ng Windows.\n"
+#~ "Iminumungkahi ko na i-resize ninyo muna ang partisyon na iyon\n"
+#~ "(i-click iyon, tapos i-click ang \"Resize\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Paki-click ang isang partisyon"
+
+#~ msgid "Details"
+#~ msgstr "Mga detalye"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Walang \"hard drive\" na nahanap"
+
+#~ msgid "Unknown"
+#~ msgstr "Hindi kilala"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Journalised FS"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Walang laman"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Mga uri ng filesystem:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Hindi na-re-resize ang partisyon na ito"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Gamitin muna ang ``Unmount''"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Sa halip ay gamitin ang ``%s''"
+
+#~ msgid "Type"
+#~ msgstr "Uri"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Pumili ng ibang partisyon"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Pumili ng partisyon"
+
+#~ msgid "Undo"
+#~ msgstr "Undo"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Gamitin ang karaniwang paraan"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Gamitin ang bihasang paraan"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Configuration"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Magpatuloy kahit paano?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Mag-quit na walang pag-save"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Mag-quit na hindi isinusulat ang \"partition table\"?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Gusto ninyo bang i-save ang mga pagbabago sa /etc/fstab"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Kailangan kayong mag-reboot bago gumana ang mga pagbabago sa \"partition "
+#~ "table\""
+
+#~ msgid "Clear all"
+#~ msgstr "Liwanagin lahat"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Auto allocate"
+
+#~ msgid "More"
+#~ msgstr "Marami pa"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Inpormasyon sa \"hard drive\""
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Lahat ng mga \"primary partition\" ay gamit na"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Hindi na ako makapagdagdag ng partisyon"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Para magkaroon ng karagdagang partisyon, magtanggal ng isa upang makagawa "
+#~ "ng \"extended partition\""
+
+#~ msgid "Save partition table"
+#~ msgstr "I-save ang \"partition table\""
+
+#~ msgid "Restore partition table"
+#~ msgstr "Ibalik ang \"partition table\""
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Iligtas ang \"partition table\""
+
+#~ msgid "Reload partition table"
+#~ msgstr "I-reload ang \"partition table\""
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Nag-o-automount ng \"removable media\""
+
+#~ msgid "Select file"
+#~ msgstr "Pumili ng file"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Iba ang laki ng backup na partition table\n"
+#~ "Magpatuloy pa rin?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Sinusubukang iligtas ang \"partition table\""
+
+#~ msgid "Detailed information"
+#~ msgstr "Detalyadong inpormasyon"
+
+#~ msgid "Resize"
+#~ msgstr "I-resize"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Idagdag sa RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Idagdag sa LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Tanggalin"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Alisin sa RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Alisin sa LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Baguhin ang RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Gamitin para sa loopback"
+
+#~ msgid "Create"
+#~ msgstr "Gumawa"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Gumawa ng bagong partisyon"
+
+#~ msgid "Start sector: "
+#~ msgstr "Umpisang sector: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Laki sa MB: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Uri ng filesystem: "
+
+#~ msgid "Preference: "
+#~ msgstr "Pagtatangi: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Pangalan ng logical volume "
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Hindi ka makakagawa ng bagong partisyon\n"
+#~ "(dahil naabot na ninyo ang pinakamaraming bilang ng \"primary partition"
+#~ "\").\n"
+#~ "Alisin muna ng \"primary partition\" at gumawa ng \"extended partition\"."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Alisin ang \"loopback file\"?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "Matapos baguhin ang uri ng partisyon na %s, lahat ng data nito ay mawawala"
+
+#~ msgid "Change partition type"
+#~ msgstr "Baguhin ang uri ng partisyon"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Aling filesystem ang gusto ninyo?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Lumilipat mula ext2 patungong ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Label"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Saan ninyo gustong i-mount ang \"loopback file\" na %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Saan ninyo gustong i-mount ang device na %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Hindi ma-unset ang \"mount point\" dahil ang partisyon na ito ay "
+#~ "ginagamit sa \"loopback\".\n"
+#~ "Alisin muna ang \"loopback\""
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Saan ninyo gustong i-mount ang %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Nag-re-resize"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Kino-compute ang hangganan ng filesystem na FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Hindi na-re-resize ang partisyon na ito"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Lahat ng data sa partisyon na ito ay dapat mai-backup"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Matapos mai-resize ang partisyon na %s, lahat ng data nito ay mawawala"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Piliin ang bagong laki"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Bagong laki sa MB: "
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Para matiyak ang integridad ng inyong data matapos ma-resize ang mga "
+#~ "partisyon, \n"
+#~ "magsasagawa ng pagsusuri ng filesystem sa susunod ninyong pag-boot sa "
+#~ "Windows(TM)"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Pumili ng mayroon ng RAID na daragdagan"
+
+#~ msgid "new"
+#~ msgstr "bago"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Pumili ng mayroon ng LVM na daragdagan"
+
+#~ msgid "LVM name?"
+#~ msgstr "Pangalan ng LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Hindi magamit ang partisyon na ito para sa \"loopback\""
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Pangalan ng \"loopback file\": "
+
+#~ msgid "Give a file name"
+#~ msgstr "Magbigay ng pangalan ng file"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Ang file ay gamit na ng ibang loopback, pumili ng iba"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Mayroon ng file. Gamitin ito?"
+
+#~ msgid "Mount options"
+#~ msgstr "Mga option ng mount"
+
+#~ msgid "Various"
+#~ msgstr "Sari-sari"
+
+#~ msgid "device"
+#~ msgstr "device"
+
+#~ msgid "level"
+#~ msgstr "level"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "laki ng chunk"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Mag-ingat: ang operasyon na ito ay mapanganib."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Anong uri ng pagpapartisyon?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Kailangan ninyong mag-reboot bago gumana ang mga pagbabago"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Ang \"partition table\" ng drive na %s ay isusulat sa disk!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Matapos i-format ang  partsyon nan %s,lahat ng data nito ay mawawalat"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Suriin ang mga sirang block?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Ilipat ang mga file sa bagong partisyon"
+
+#~ msgid "Hide files"
+#~ msgstr "Itago ang mga file"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Naglilipat ng mga file sa bagong partisyon"
+
+#~ msgid "Copying %s"
+#~ msgstr "Nagsisipi ng %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Tinatanggal ang %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "ang partisyon na %s ay ngayon %s na"
+
+#~ msgid "Device: "
+#~ msgstr "Device: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Titik ng DOS drive: %s (hula lamang)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Uri: "
+
+#~ msgid "Name: "
+#~ msgstr "Pangalan: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Umpisa: ika-%s sector\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Laki: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s sector"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Cylinder bilang %d hanggang %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Na-format\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Hindi na-format\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Na-mount\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Mga loopback file:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Ang partisyon na i-bu-boot bilang default\n"
+#~ "    (para sa boot ng MS-DOS, hingi para sa LILO)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Level %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Laki ng chunk %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Mga RAID-disk %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Pangalan ng loopback file: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Malamang ay \"Driver partition\"\n"
+#~ "ang partisyon na ito. Dapat ay\n"
+#~ "pabayaan ninyo na lang ito.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Itong tanging \"Bootstrap\n"
+#~ "partition\" ay para sa\n"
+#~ "pangdalawahang boot ng\n"
+#~ "inyong sistema.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Read-only"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Laki: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Geometry: %s cylinder, %s head, %s sector\n"
+
+#~ msgid "Info: "
+#~ msgstr "Info: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Mga LVM-disk %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Uri ng \"partition table\": %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "sa channel %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "\"Encryption key\" ng filesystem"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Piliin ang \"encryption key\" ng inyong filesystem"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Ang \"encryption key\" na ito ay masyadong simple (dapat hindi iikli sa %"
+#~ "d character)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Ang mga \"encryption key\" ay hindi magkatumbas"
+
+#~ msgid "Encryption key"
+#~ msgstr "\"Encryption key\""
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "\"Encryption key\" (ulit)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Encryption algorithm"
+
+#~ msgid "Change type"
+#~ msgstr "Baguhin ang uri"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr ""
+#~ "Hindi makapag-login gamit ang username na %s (hindi magandang password?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Kailangan ng Domain Authentication"
+
+#~ msgid "Which username"
+#~ msgstr "Aling username"
+
+#~ msgid "Another one"
+#~ msgstr "Isa pa"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Pakipasok ang inyong username, password at domain name para ma-access "
+#~ "itong host."
+
+#~ msgid "Username"
+#~ msgstr "Username"
+
+#~ msgid "Search servers"
+#~ msgstr "Hanapan ang mga server"
+
+#~ msgid "Search new servers"
+#~ msgstr "Hanapan ang mga bagong server"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr ""
+#~ "Ang package na %s ay kailangang i-install. Gusto ninyo bang i-install ito?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Hindi ma-install ang package na %s!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Ang kinakailangan na package na %s ay nawawala"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Kailangang i-install ang mga sumusunod na package:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Ini-install ang mga package..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Tinatanggal ang mga package..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "May nangyaring error - walang balidong device na nakita kung saan lilikha "
+#~ "ng bagong mga filesystem. Paki-suri ang inyong hardware para sa ugat ng "
+#~ "problemang ito"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Dapat mayroon kayong partisyon ng FAT na naka-mount sa /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Fino-format ang partition na %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Ginagawa at fino-format ang file na %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Hindi ko alam kung paano i-format ang %s sa uring %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "Ang %s na pagfo-format ng %s ay nabigo"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Mga circular mount %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Mina-mount ang partisyon na %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "pagma-mount ng partisyon na %s sa directory na %s ay nabigo"
+
+#~ msgid "Checking %s"
+#~ msgstr "Nagsusuri %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "may error sa pag-a-unmount ng %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Pinapagana ang \"swap partition\" na %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr ""
+#~ "Hindi kayo maaaring gumamit ng encrypted na file system para sa mount "
+#~ "point na %s"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Huwag i-update ang mga \"access time\" ng inode dito sa filesystem\n"
+#~ "(e.g. para mas mabilis ang pag-access sa \"news spool\" upang mapabilis "
+#~ "ang mga \"news servers\")."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Mai-ma-mount lang ng explicit (i.e.,\n"
+#~ "hindi mai-ma-mount ang \"file system\" gamit ang -a na option)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr ""
+#~ "Huwag i-interpret ang mga \"character\" o \"block special device\" sa "
+#~ "\"file system\"."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Huwag pahintulutan ang pag-execute ng kahit anong binaries sa nai-mount\n"
+#~ "na file system. Ang option na ito ay kapakipakinabang para sa server na "
+#~ "may\n"
+#~ "file system na naglalaman ng mga binaries para sa mga architecture na\n"
+#~ "maliban sa kanya."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Huwag pahintulutan ang \"set-user-identifier\" o \"set-group-identifier"
+#~ "\"\n"
+#~ "na mga bits na magka-epekto. (Ito ay tila ligtas, ngunit sa katotohanan "
+#~ "ay hindi ligtas\n"
+#~ "kung naka-install ang suidperl(1).)"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "I-mount ang file system na read-only."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "Lahat ng I/O sa file system ay dapat gawin ng pa-synchronous."
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Magbigay ng pahintulot magsulat sa mga ordinaryong user"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Magbigay ng pahintulot ma magbasa lamang sa mga ordinaryong user"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Duplicate mount point %s"
+
+#~ msgid "No partition available"
+#~ msgstr "Walang available na partisyon"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr ""
+#~ "Minamasdang mabuti ang mga partisyon para hanapin ang mga mount point"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Piliin ang mga mount point"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Piliin ang mga partisyon na inyong gustong i-format"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Nabigo na suriin ang filesystem na %s. Gusto ninyo bang kumpunihin ang "
+#~ "mga error? (maaaring mawala ang data!)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "Walang sapat na puwang ng swap para isaganap ang pag-i-install, "
+#~ "pakidagdagan"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Dapat kayong lumikha ng partisyon ng \"root\".\n"
+#~ "Para dito, gumawa ng partisyon (o mag-click sa mayroon na).\n"
+#~ "Tapos piliin ang aksyon na ``Mount point'' at i-set ito sa `/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Wala kayong partisyon ng swap.\n"
+#~ "\n"
+#~ "Magpatuloy pa rin?"
+
+#~ msgid "Use free space"
+#~ msgstr "Gamitin ang libreng puwang"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr ""
+#~ "Walang sapat na libreng puwang para maibahagi sa mga bagong partisyon"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Gamitin ang partisyons mayroon"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Walang partisyon na magagamit"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Gamitin ang partisyon ng Microsoft Windows® para sa loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Aling partisyon ang gusto ninyong gamitin para sa Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Piliin ang mga laki"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Laki ng partisyon ng root sa MB: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Laki ng partisyon ng swap sa MB: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Walang partisyon ng FAT na gagamitin bilang loopback (o walang sapat na "
+#~ "puwang)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Gamitin ang libreng puwang sa partisyon ng Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Aling partisyon ang gusto ninyong i-resize?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Ang taga-resize ng FAT ay hindi kayang pangasiwaan ang inyong "
+#~ "partisyon, \n"
+#~ "nangyari ang sumusunod na error: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Kino-compute ang laki ng partisyon ng Microsoft Windows®"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Ang inyong partisyon ng Microsoft Windows® ay sobrang fragmented. Paki-"
+#~ "reboot ang inyong computer sa Microsoft Windows®, patakbuhin ang "
+#~ "``defrag'', at simulan ulit ang pag-i-install ng Mandriva Linux."
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "BABALA!\n"
+#~ "\n"
+#~ "\n"
+#~ "Babaguhin na ngayon ng DrakX ang laki ng inyong partisyon ng Windows.\n"
+#~ "\n"
+#~ "\n"
+#~ "Mag-ingat: ang operasyon na ito ay mapanganib. Kung hindi pa ninyo "
+#~ "nagagawa, dapat muna kayong lumabas ng pag-i-install, patakbuhin ang "
+#~ "\"chkdsk c:\" mula sa \"Command Prompt\" ng Windows (babala, ang paggamit "
+#~ "ng graphical na program na \"scandisk\" ay hindi sapat, tiyaking gamitin "
+#~ "ang \"chkdsk\" sa \"Command Prompt\"!), maaaring patakbuhin ang \"defrag"
+#~ "\", at simulan ulit ang pag-i-install. Dapat rin ninyong i-backup\n"
+#~ "\n"
+#~ "\n"
+#~ "ang inyong data. Kung sigurado na, pindutin ang %s."
+
+#~ msgid "Next"
+#~ msgstr "Kasunod"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Aling laki ang gusto ninyong itago para sa Microsoft Windows® sa"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Laki: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Binabago ang laki ng partisyon ng Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Pagbago ng laki ng FAT nabigo: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr "Walang partisyon ng FAT para i-resize (o walang sapat na puwang)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Tanggalin ang Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Burahin ang buong disk"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Mayroon kayong mahigit isang hard drive, alin ang gusto ninyong lagyan ng "
+#~ "linux?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ "LAHAT ng mayroong mga partisyon at kanilang data ay mawawala sa drive %s"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Custom na pagpapartisyon ng disk"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Gamitin ang fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Maaari na ninyo ngayong ipartisyon ang  %s.\n"
+#~ "Kung tapos na kayo, huwag kalimutang i-save gamit ang `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Wala akong makitang puwang para sa pag-install"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr ""
+#~ "Nakita ng \"DrakX Partitioning wizard\" ang mga sumusunod na paglutas:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Pagpapartisyon nabigo: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr ""
+#~ "Hindi ninyo maaaring gamitin ang JFS para sa mga partisyon na mas maliit "
+#~ "sa 16MB"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr ""
+#~ "Hindi ninyo maaaring gamitin ang ReiserFS para sa mga partisyon na mas "
+#~ "maliit sa 32MB"
+
+#~ msgid "with /usr"
+#~ msgstr "may /usr"
+
+#~ msgid "server"
+#~ msgstr "server"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Hindi ko mabasa ang \"partition table\" ng device na %s, masyadong\n"
+#~ "corrupted para sa akin :(\n"
+#~ " Maaari kung subukang magpatuloy na binubura ang mga\n"
+#~ "masasamang partisyon (LAHAT NG DATA ay mawawala!).\n"
+#~ "Ang isa pang solusyon ay huwag pahintulutan ang DrakX na baguhin\n"
+#~ "ang \"partition table\".\n"
+#~ "(ang error ay %s)\n"
+#~ "\n"
+#~ "Pumapayag ba kayo na mawala ang mga partisyon?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Ang mga \"mount point\" ay dapat mag-umpisa sa /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr ""
+#~ "Ang mga \"mount point\" ay dapat maglaman lamang ng mga character na "
+#~ "\"alphanumeric\""
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Mayroon nang partisyon na may \"mount point\" na %s\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Pumili kayo ng partisyon na \"software RAID\" bilang root (/).\n"
+#~ "Walang bootloader ang may kayang pakialaman ito na walang partisyon na /"
+#~ "boot.\n"
+#~ "Tiyaking magdagdag ng partisyon na /boot"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr ""
+#~ "Hindi kayo maaaring gumamit ng \"LVM Logical Volume\" para sa \"mount "
+#~ "point\" na %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Ikaw ay pumili ng LVM Logical Volume bilang root (/).\n"
+#~ "Hindi mahahawakan ng bootloader ito kung walang partisyon na /boot.\n"
+#~ "Pakitiyak na magdagdag ng partisyon na /boot"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Ang directory na ito ay dapat manatili sa loob filesystem na root"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Kailangan ninyo ng tunay na filesystem (ext2/ext3, reiserfs, xfs, o jfs) "
+#~ "para sa mount point na ito\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr ""
+#~ "Hindi kayo maaaring gumamit ng encrypted na file system para sa mount "
+#~ "point na %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Walang sapat na puwang para sa pag-auto-allocate"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Walang kailangang gawin"
+
+#~ msgid "Floppy"
+#~ msgstr "Floppy"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Hard Disk"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD burners"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Tape"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Mga AGP controller"
+
+#~ msgid "Videocard"
+#~ msgstr "Videocard"
+
+#~ msgid "Tvcard"
+#~ msgstr "TVcard"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Iba pang mga device na MultiMedia"
+
+#~ msgid "Soundcard"
+#~ msgstr "Soundcard"
+
+#~ msgid "Webcam"
+#~ msgstr "Webcam"
+
+#~ msgid "Processors"
+#~ msgstr "Processors"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "ISDN adapter"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Ethernetcard"
+
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "ADSL adapter"
+
+#~ msgid "Memory"
+#~ msgstr "Memory"
+
+#~ msgid "Printer"
+#~ msgstr "Printer"
+
+#~ msgid "Joystick"
+#~ msgstr "Joystick"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Mga SATA controller"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Mga RAID controller"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA controller"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire controller"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA controller"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI controller"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB controller"
+
+#~ msgid "USB ports"
+#~ msgstr "Mga USB port"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus controller"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "\"Bridge\" at \"system controller\""
+
+#~ msgid "Mouse"
+#~ msgstr "Mouse"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Scanner"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Hindi kilala/Iba pa"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Maghintay Lamang... Ina-apply ang configuration"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Walang alternatibong driver"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "Walang kilalang OSS/ALSA na alternatibong driver para sa inyong sound "
+#~ "card na (%s) na gumagamit sa kasalukuyan ng \"%s\""
+
+#~ msgid "Sound configuration"
+#~ msgstr "Configuration ng sound"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Dito makakapili kayo ng alternatibong driver (OSS o ALSA) para sa inyong "
+#~ "sound card na (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sa kasalukuyan, ginagamit ng inyong card ang %s\"%s\" na driver (default "
+#~ "na driver para sa inyong card ay \"%s\")"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "Ang OSS (Open Sound System) ang naunang \"sound API\". Ito ay \"OS "
+#~ "independent\" na \"sound API\" (available sa karamihan ng sistema ng UNIX"
+#~ "(tm))\n"
+#~ "subalit ito ay napaka-basic at limitadong API. Dagdag pa, ang mga OSS "
+#~ "driver ay nagsisimula sa wala.\n"
+#~ "\n"
+#~ "Ang ALSA (Advanced Linux Sound Architecture) ay na-modularize na "
+#~ "architecture na\n"
+#~ "sumusuporta sa malawak-lawak na range ng mga ISA, USB at PCI card.\n"
+#~ "\n"
+#~ "Ito rin ay nagbibigay ng higit na mas mataas na API kaysa OSS.\n"
+#~ "\n"
+#~ "Para magamit ang ALSA, maaaring gamitin ang:\n"
+#~ "- ang lumang \"compatibility OSS API\"; o kaya\n"
+#~ "- ang bagong ALSA API na may mas maraming pinabuting feature pero "
+#~ "nangangailangang gamitin ang ALSA library.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Driver:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Tino-troubleshoot"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Ang lumang driver na \"%s\" ay naka-blacklist.\n"
+#~ "\n"
+#~ "Napaulat na ito ay ino-oops ang kernel sa pag-a-unload.\n"
+#~ "\n"
+#~ "Ang bagong driver na \"%s\" ay magagamit lamang sa susunod na bootstrap."
+
+#~ msgid "No open source driver"
+#~ msgstr "Walang \"open source\" na driver"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Walang libreng driver para sa inyong sound card na (%s), pero may "
+#~ "proprietary na driver sa \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Walang kilalang driver"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Walang kilalang driver para sa inyong sound card na (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Hindi kilalang driver"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr ""
+#~ "Error: Ang driver na \"%s\" para sa inyong sound card ay hindi nakalista"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Pagto-troubleshoot ng sound"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Ang classic na tagasubok ng \"bug sound\" ay patatakbuhin ang mga\n"
+#~ "sumusunod na command:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" ay sasabihin kung aling driver ang "
+#~ "gamit\n"
+#~ "ng inyong card bilang default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" ay sasabihin kung anong driver\n"
+#~ "ang gamit nito sa kasalukuyan\n"
+#~ "- \"/sbin/lsmod\" ay bibigyan kayo ng kakayahan na suriin kung ang "
+#~ "module\n"
+#~ "(driver) ay naka-load o hindi\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" at \"/sbin/chkconfig --list alsa\" ay\n"
+#~ "sasabihin kung ang mga sound at alsa service ay naka-configure\n"
+#~ "na tumakbo sa initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" ay sasabihin kung ang sound volume ay naka-mute o hindi\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" ay sasabihin kung aling mga program ang\n"
+#~ "gumagamit ng sound card.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Hayaan akong pumili ng kahit anong driver"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Pumipili na lang basta ng driver"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Kung sa palagay ninyo ay alam ninyo kung aling driver ang tama para sa "
+#~ "inyong card\n"
+#~ "maaari kayong pumili ng isa mula sa listahan sa itaas.\n"
+#~ "\n"
+#~ "Ang kasalukuyang driver para sa inyong \"%s\" na sound card ay \"%s\" "
+
+#~ msgid "Auto-detect"
+#~ msgstr "Auto na pagtiktik"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Hindi kilala|Generic"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Hindi kilala|CPH05X (bt878) [many vendors]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Hindi kilala|CPH06X (bt878) [many vendors]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Para sa mga makabagong TV card, ang bttv module ng GNU/Linux kernel ay "
+#~ "automatic na natiktikan ang mga tamang parameter.\n"
+#~ "Kung hindi tama ang pagkatiktik sa inyong card, maaari ninyong ipilit ang "
+#~ "tamang tuner at uri ng card dito. Basa piliin ang mga parameter ng inyong "
+#~ "tv card kung kailangan."
+
+#~ msgid "Card model:"
+#~ msgstr "Modelo ng Card:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Uri ng tuner:"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Bilang ng mga capture buffer:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "bilang ng mga capture buffer para sa mga na-mmap na capture"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Setting ng PLL:"
+
+#~ msgid "Radio support:"
+#~ msgstr "Suporta sa Radyo:"
+
+#~ msgid "enable radio support"
+#~ msgstr "Paganahin ang suporta sa radyo"
+
+#~ msgid "Yes"
+#~ msgstr "Oo"
+
+#~ msgid "No"
+#~ msgstr "Hindi"
+
+#~ msgid "Choose a file"
+#~ msgstr "Pumili ng file"
+
+#~ msgid "Add"
+#~ msgstr "Magdagdag"
+
+#~ msgid "Modify"
+#~ msgstr "Baguhin"
+
+#~ msgid "Remove"
+#~ msgstr "Tanggalin"
+
+#~ msgid "Finish"
+#~ msgstr "Wakas"
+
+#~ msgid "Previous"
+#~ msgstr "Nakaraan"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Masamang pili, subukan ulit\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Inyong pili? (default %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Mga entry na dapat ninyong punuin:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Pili ninyo? (0/1, default `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Pindutang `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Gusto ninyong mag-click sa pindutang ito?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Pili ninyo? (default `%s'%s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " ipasok ang `void' para sa void na entry"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Maraming mga bagay na mapipili mula sa (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Pakipili ang unang bilang ng 10-range na nais ninyong i-edit,\n"
+#~ "o basta pindutin ang Enter para tumuloy.\n"
+#~ "Pili ninyo? "
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Paunawa, may label na nabago:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "I-submit ulit"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "United Arab Emirates"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afghanistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua and Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Albania"
+#~ msgstr "Albania"
+
+#~ msgid "Armenia"
+#~ msgstr "Armenia"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Netherlands Antilles"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarctica"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentina"
+
+#~ msgid "American Samoa"
+#~ msgstr "American Samoa"
+
+#~ msgid "Austria"
+#~ msgstr "Austria"
+
+#~ msgid "Australia"
+#~ msgstr "Australia"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaijan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnia and Herzegovina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgium"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaria"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivia"
+
+#~ msgid "Brazil"
+#~ msgstr "Brazil"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvet Island"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Belarus"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Cocos (Keeling) Islands"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Congo (Kinshasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Central African Republic"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Congo (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Switzerland"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Cote d'Ivoire"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Cook Islands"
+
+#~ msgid "Chile"
+#~ msgstr "Chile"
+
+#~ msgid "Cameroon"
+#~ msgstr "Cameroon"
+
+#~ msgid "China"
+#~ msgstr "China"
+
+#~ msgid "Colombia"
+#~ msgstr "Colombia"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Serbia & Montenegro"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cape Verde"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Christmas Island"
+
+#~ msgid "Cyprus"
+#~ msgstr "Cyprus"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Czech Republic"
+
+#~ msgid "Germany"
+#~ msgstr "Germany"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Denmark"
+#~ msgstr "Denmark"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Dominican Republic"
+
+#~ msgid "Algeria"
+#~ msgstr "Algeria"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecuador"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonia"
+
+#~ msgid "Egypt"
+#~ msgstr "Egypt"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Western Sahara"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Spain"
+#~ msgstr "Spain"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Ethiopia"
+
+#~ msgid "Finland"
+#~ msgstr "Finland"
+
+#~ msgid "Fiji"
+#~ msgstr "Fiji"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Falkland Islands (Malvinas)"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronesia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Faroe Islands"
+
+#~ msgid "France"
+#~ msgstr "France"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "United Kingdom"
+#~ msgstr "United Kingdom"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Georgia"
+#~ msgstr "Georgia"
+
+#~ msgid "French Guiana"
+#~ msgstr "French Guiana"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltar"
+
+#~ msgid "Greenland"
+#~ msgstr "Greenland"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambia"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinea"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Equatorial Guinea"
+
+#~ msgid "Greece"
+#~ msgstr "Greece"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "South Georgia and the South Sandwich Islands"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinea-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Hong Kong SAR (China)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Heard and McDonald Islands"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Croatia"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Hungary"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonesia"
+
+#~ msgid "Ireland"
+#~ msgstr "Ireland"
+
+#~ msgid "Israel"
+#~ msgstr "Israel"
+
+#~ msgid "India"
+#~ msgstr "India"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "British Indian Ocean Territory"
+
+#~ msgid "Iraq"
+#~ msgstr "Iraq"
+
+#~ msgid "Iran"
+#~ msgstr "Iran"
+
+#~ msgid "Iceland"
+#~ msgstr "Iceland"
+
+#~ msgid "Italy"
+#~ msgstr "Italy"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaica"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordan"
+
+#~ msgid "Japan"
+#~ msgstr "Japan"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenya"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kyrgyzstan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Cambodia"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Comoros"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Saint Kitts and Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Korea (North)"
+
+#~ msgid "Korea"
+#~ msgstr "Korea"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuwait"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Cayman Islands"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakhstan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Lebanon"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Saint Lucia"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr " "
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lithuania"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxembourg"
+
+#~ msgid "Latvia"
+#~ msgstr "Latvia"
+
+#~ msgid "Libya"
+#~ msgstr "Libya"
+
+#~ msgid "Morocco"
+#~ msgstr "Morocco"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldova"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagascar"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Marshall Islands"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macedonia"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Myanmar"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolia"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Northern Mariana Islands"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinique"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritania"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mauritius"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Mexico"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malaysia"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambique"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibia"
+
+#~ msgid "New Caledonia"
+#~ msgstr "New Caledonia"
+
+#~ msgid "Niger"
+#~ msgstr "Niger"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Norfolk Island"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigeria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaragua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Netherlands"
+
+#~ msgid "Norway"
+#~ msgstr "Norway"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "New Zealand"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "French Polynesia"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua New Guinea"
+
+#~ msgid "Philippines"
+#~ msgstr "Philippines"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Poland"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Saint Pierre and Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestine"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugal"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Romania"
+
+#~ msgid "Russia"
+#~ msgstr "Russia"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Saudi Arabia"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Solomon Islands"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Sweden"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapore"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Saint Helena"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovenia"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Svalbard and Jan Mayen Islands"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovakia"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalia"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome and Principe"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syria"
+#~ msgstr "Syria"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swaziland"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turks and Caicos Islands"
+
+#~ msgid "Chad"
+#~ msgstr "Chad"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "French Southern Territories"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Thailand"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tajikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "East Timor"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunisia"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turkey"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad and Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzania"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukraine"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "United States Minor Outlying Islands"
+
+#~ msgid "United States"
+#~ msgstr "United States"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Uzbekistan"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatican"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Saint Vincent and the Grenadines"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Virgin Islands (British)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Virgin Islands (U.S.)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis and Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "South Africa"
+#~ msgstr "South Africa"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambia"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwe"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Maligayang pagdating sa %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Tanggalin muna ang mga logical volume\n"
+
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Pagpapakilala\n"
+#~ "\n"
+#~ "Ang \"operating system\" (OS) at ang mga iba't-ibang bahagi na available "
+#~ "sa distribusyon ng Mandriva Linux\n"
+#~ "ay tatawaging \"Software Products\" magmula ngayon. Ang mga Software "
+#~ "Products ay\n"
+#~ "nagsasama ng, pero hindi limitado dito, mga kumpol ng mga program, "
+#~ "paraan, pamamalakad\n"
+#~ "at dokumentasyon na may kaugnayan sa \"operating system\" at iba't-ibang "
+#~ "mga bahagi ng\n"
+#~ "distribusyon ng Mandriva Linux.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. Kasunduang Lisensiya\n"
+#~ "\n"
+#~ "Pakibasa ng mabuti ang dokumentong ito. Ang dokumentong ito ay kasunduan "
+#~ "na lisensiya\n"
+#~ "sa pagitan ninyo at ng Mandriva S.A. na sumasakod sa \"Software Products"
+#~ "\". Sa\n"
+#~ "pag-i-install, pagkokopya o paggagamit ng Software Products sa ano mang "
+#~ "paraan, kayo\n"
+#~ "ay malinaw na tumatanggap at sumasang-ayon na sumunod sa mga nasasaad at "
+#~ "kondisyon\n"
+#~ "nitong Lisensiya na ito. Kung kayo ay hindi sumasang-ayon sa kahit anong "
+#~ "bahagi ng\n"
+#~ "Lisensiya, kayo ay walang pahintulot na i-install, kopyahin o gamitin ang "
+#~ "Software Products.\n"
+#~ "Kahit anong balak na mag-install, mangopya o gumamit ng Software Products "
+#~ "sa paraang\n"
+#~ "hindi ayon sa mga nasasaad at kondisyon ng Lisensiya na ito ay void "
+#~ "(walang bisa) at\n"
+#~ "tatapos sa inyong mga karapatanAny attempt to install, duplicate or use "
+#~ "the Software Products in a manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. \"Limited Warranty\" (May Hanggahang Warranty)\n"
+#~ "\n"
+#~ "Ang mga Software Product at nakakabit na dokumentasyon ay binigay na \"as "
+#~ "is\", na walang warranty,\n"
+#~ "hanggang sa pinahihintulutan ng batas. Ang Mandriva S.A. ay, sa ano mang "
+#~ "pangyayari at hanggang\n"
+#~ "sa pinahihintulutan ng batas, walang pananagutan para sa mga natatangi, "
+#~ "di-sinasadya, anumang direkta\n"
+#~ "o hindi direktang mga pinsala (kasama na walang hanggahan ang mga pinsala "
+#~ "dahil sa kawalan ng\n"
+#~ "negosyo, paggambala ng negosyo, kawalan ng pera, legal fees at penalties "
+#~ "na bunga ng hatol ng\n"
+#~ "hukuman, o kahit ano pang ibang kakalabasang kawalan) na gawa ng paggamit "
+#~ "ng o hindi magamit ang\n"
+#~ "Software Products, kahit na napayuhan ang Mandriva S.A. ng ikapangyayari "
+#~ "o pangyayari ng gayong\n"
+#~ "mga kapinsalaan.\n"
+#~ "\n"
+#~ "MAY HANGGAHANG PANANAGUTAN KAUGNAY SA PAGHAHAWAK O PAGGAGAMIT NG "
+#~ "IPINAGBABAWAL NA\n"
+#~ "SOFTWARE SA MGA IBANG BANSA\n"
+#~ "\n"
+#~ "Hanggang sa pinahihintulutan ng batas, ang Mandriva S.A. o ang mga "
+#~ "distributor nito ay, sa ano\n"
+#~ "mang pangyayari, walang pananagutan para sa mga natatangi, di-sinasadya, "
+#~ "anumang direkta\n"
+#~ "o hindi direktang mga pinsala (kasama na walang hanggahan ang mga pinsala "
+#~ "dahil sa kawalan ng\n"
+#~ "negosyo, paggambala ng negosyo, kawalan ng pera, legal fees at penalties "
+#~ "na bunga ng hatol ng\n"
+#~ "hukuman, o kahit ano pang ibang kakalabasang kawalan) na gawa ng "
+#~ "paghahawak at paggamit ng mga\n"
+#~ "software component o gawa ng  pagda-download ng mga software component "
+#~ "mula sa isa sa mga site ng\n"
+#~ "Mandriva Linux  na ipinagbabawal ng batas sa mga ibang bansa ng mga local "
+#~ "na batas. Itong may\n"
+#~ "hanggahang pananagutan ay sumasakop, pero hindi lamang dito, sa mga "
+#~ "strong cryptography component\n"
+#~ "na kalakip sa Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. Ang GPL License at mga kaugnay na Lisensiya\n"
+#~ "\n"
+#~ "Ang Software Products ay binubuo ng mga component na gawa ng iba't-ibang "
+#~ "mga tao o entity.\n"
+#~ "Karamihan sa mga component na ito ay nasasaklaw sa ilalim ng mga nasasaad "
+#~ "at kondisyon ng\n"
+#~ "GNU General Public License, na tatawagin ngayong \"GPL\", o mga kahawig "
+#~ "na lisensiya. Karamihan sa\n"
+#~ "mga linsensiyang ito ay nagpapahintulot sa inyong i-duplicate, i-adapt o "
+#~ "muling ipamahagi ang mga\n"
+#~ "component na nasasaklawan nila. Pakibasa ng maingat ang mga nasasaad at "
+#~ "kondisyon ng kasunduang\n"
+#~ "lisensiya para sa bawat component bago gumamit ng kahit anong component. "
+#~ "Ang kahit anong tanong\n"
+#~ "sa lisensiya ng component ay dapat ipaabot sa autor ng component at hindi "
+#~ "sa Mandriva. Ang mga\n"
+#~ "program na nilinang ng Mandriva S.A. ay nasasaklaw ng GPL License. Ang "
+#~ "dokumentasyon na sinulat\n"
+#~ "ng Mandriva S.A. ay nasasaklaw ng tiyak na lisensiya. Pakisangguni ang "
+#~ "dokumentasyon para sa\n"
+#~ "karagdagang detalye.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. \"Intellectual Property Rights\" (Mga Karapatan sa Pag-aaring "
+#~ "Intelectuwal)\n"
+#~ "\n"
+#~ "Lahat ng karapatan sa mga component ng Software Products ay pagmamay-aryi "
+#~ "ng kani-kanilang mga\n"
+#~ "autor at protektado by mga batas ng intellectual property at copyright na "
+#~ "nagagamit sa mga software\n"
+#~ "program. Inilalaan ng Mandriva S.A. ang mga karapatan nito na baguhin o i-"
+#~ "adapt ang mga Software\n"
+#~ "Products, sa kabuuan o bahagi, sa lahat ng paraan at para sa lahat ng "
+#~ "layunin.\n"
+#~ "Ang \"Mandriva\", \"Mandriva Linux\" at mga kasamahang logo ay mga "
+#~ "trademark ng Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. \"Governing Laws\" (Mga Sumasaklaw na Batas)\n"
+#~ "\n"
+#~ "Kung nahatulan ng hukuman na void, ilegal o hindi magagamit ang kahit "
+#~ "anong bahagi ng kasunduang ito,\n"
+#~ "ang bahaging ito ay maaalis sa kontratang ito. Kayo ay mananatiling "
+#~ "obligado sa ilalim ng ibang magagamit\n"
+#~ "na section ng kasunduang ito.\n"
+#~ "Ang mga nasasaad at kondisyon ng Lisensiyang ito ay nasasaklaw ng mga "
+#~ "Batas ng France.\n"
+#~ "Lahat ng pagtatalo sa mga nasasaad ng lisensiyang ito ay ninanais na "
+#~ "maayos sa labas ng hukuman. Bilang\n"
+#~ "huling gagawin, ang pagtatalo ay isasangguni sa mga naaangkop na mga "
+#~ "Hukuman ng Batas ng Paris - France.\n"
+#~ "Para sa kahit anong katanungan sa dokumentong ito, makipag-alam sa "
+#~ "Mandriva S.A.  \n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Babala: Ang \"Free Software\" ay hindi nangangahulugang walang patent, "
+#~ "at\n"
+#~ "ilang mga nilalaman na \"Free Software\" ay maaaring sakop ng mga patent\n"
+#~ "sa inyong bansa. Halimbawa, ang mga MP3 decoder na kasama ay maaaring\n"
+#~ "mangailangan ng lisensiya para ito magamit (tingnan ang site na\n"
+#~ "http://www.mp3licensing.com para sa karagdagang detalye). Kung kayo ay\n"
+#~ "hindi nakakasiguro kung ang patent ay sumasakop sa inyo, suriin ang "
+#~ "inyong\n"
+#~ "mga local na batas."
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Babala\n"
+#~ "\n"
+#~ "Pakibasa ng mabuti ang mga nasasaad sa ilalim. Kung kayo ay hindi\n"
+#~ "sumasang-ayon sa kahit anong bahagi, wala kayong pahintulot na i-install\n"
+#~ "ang kasunod na CD media. Pindutin ang 'Tanggihan' para magpatuloy ng\n"
+#~ "pag-i-install na hindi gagamitin ang mga media na ito.\n"
+#~ "\n"
+#~ "\n"
+#~ "Ilang bahagi na nilalaman ng kasunod na CD media ay sakop ng lisensiya\n"
+#~ "ng GPL o mga kahawig na kasunduan. Bawat siyang bahagi ay sakop\n"
+#~ "naman ng mga nasasaad at kondisyon sa kani-kanilang lisensiya. Pakibasa\n"
+#~ "ng mabuti at sumunod sa mga lisensiyang ito bago ninyo gamitin o\n"
+#~ "ikalat ang mga nasabing bahagi. Ang mga lisensiyang ito ay, sa\n"
+#~ "karaniwan, nagpipigil ng paglipat, pagkopya (maliban sa layuning\n"
+#~ "mag-backup), pagpapakalat, pag-reverse engineer, pag-disassemble,\n"
+#~ "pag-decompile o pagbago ng bahagi. Kahit anong paglabag ng\n"
+#~ "kasunduan ay kaaagad na magpapawalang bisa sa inyong mga\n"
+#~ "karapatan sa ilalim ng natatanging lisensiya. Maliban kung "
+#~ "ipinagkakaloob\n"
+#~ "ng natatanging lisensiya sa inyo ang gayong mga karapatan, karaniwan\n"
+#~ "ay hindi ninyo maaaring i-install sa mahigit isang sistema, o i-adapt "
+#~ "ito\n"
+#~ "para magamit sa network. Kung may alinlangan, makipag-ugnayan sa\n"
+#~ "\"distributor\" o \"editor\" ng bahagi (\"component\"). Ang paglipat sa\n"
+#~ "ibang tao o pagkopya ng gayong mga bahagi pati ang dokumentasyon\n"
+#~ "ay karaniwang ipinagbabawal.\n"
+#~ "\n"
+#~ "\n"
+#~ "Lahat ng mga karapatan sa mga bahagi ng kasunod na CD media ay\n"
+#~ "pag-aari ng kani-kanilang mga may-katha at protektado ng batas ng\n"
+#~ "\"intellectual property\" at \"copyright\" na magagamit sa mga "
+#~ "\"software\n"
+#~ "program.\n"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Maligayang bati, tapos na ang pag-i-install.\n"
+#~ "Tanggalin ang boot media at pindutin ang return para mag-boot ulit.\n"
+#~ "\n"
+#~ "\n"
+#~ "Para sa inpormasyon sa mga fixes na available para sa labas ng Mandriva "
+#~ "Linux\n"
+#~ "na ito, konsultahin ang Errata na available mula sa:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Inpormasyon sa pagko-configure ng inyong sistema ay available sa "
+#~ "kabanata\n"
+#~ "tungkol sa \"post install\" (pagkatapos mag-install) sa \"Official "
+#~ "Mandriva Linux\n"
+#~ "User's Guide\"."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "UPS driver configuration"
+
+#~ msgid "Module configuration"
+#~ msgstr "Configuration ng module"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Maaari ninyong i-configure dito ang bawat parameter ng module."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Nahanap ang mga %s na interface"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Mayroon ba kayong isa pa?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Mayroon ba kayong kahit anong %s na interface?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Tingnan ang inpormasyon ng hardware"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Ini-install ang driver para sa %s card %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Ini-install ang driver para sa %s card %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Ini-install ang driver para sa %s card %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Ini-install ang driver para sa %s card %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Ini-install ang driver para sa %s card %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Maaari na kayo ngayong magbigay ng mga option sa module na %s.\n"
+#~ "Tandaan na kahit anong address ay dapat ipasok na may prefix na 0x gaya "
+#~ "ng '0x123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Maaari na kayo ngayong magbigay ng mga option sa module na %s.\n"
+#~ "Ang mga option ay may format na ``pangalan=halaga "
+#~ "pangalan2=halaga2 ...''.\n"
+#~ "Halimbawa, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Mga option ng module:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Aling %s na driver ang dapat kong subukan?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "Sa ilang kaso, ang %s na driver ay kailangang magkaroon ng extra na\n"
+#~ "inpormasyon para gumana ng maayos, kahit na ito ay maayos na gumagana ng\n"
+#~ "normal na wala nila. Gusto ba ninyong magbigay ng mga extra na option "
+#~ "para\n"
+#~ "dito o hayaan ang driver na i-probe (suriing mabuti) ang inyong makina "
+#~ "para sa mga\n"
+#~ "inpormasyon na kinakailangan nito? Paminsan-minsan, ang pagsusuring "
+#~ "mabuti\n"
+#~ "ay magpapatigil ng inyong computer, pero hindi ito dapat makapinsala."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Autoprobe"
+
+#~ msgid "Specify options"
+#~ msgstr "Magbanggit ng mga option"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Paglo-load ng module na %s nabigo.\n"
+#~ "Gusto ninyong subukan ulit na may ibang mga parameter?"
+
+#~ msgid "mount failed: "
+#~ msgstr "mount nabigo: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Ang extended na partisyon ay hindi suportado sa platform na ito"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Mayroon kayong butas sa inyong partition table pero hindi ko ito "
+#~ "magamit.\n"
+#~ "Ang paglutas ay ilipat ang inyong mga primary na partisyon para kasunod "
+#~ "ng mga extended na partisyon ang butas."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "May error sa pagbabasa ng file na %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Pagre-restore mula sa file na %s nabigo: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Sirang backup file"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "May error sa pagsusulat sa file na %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "May masamang nangyayari sa inyong drive. \n"
+#~ "Ang pagsubok para suriin ang integridad ng inyong data ay nabigo.\n"
+#~ "Nangangahulugan na ang pagsusulat ng kahit na ano sa disk ay magiging "
+#~ "corrupted na data."
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Hindi makapagdagdag ng partisyon sa _formatted_ na RAID md%d"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Walang sapat na partisyon para sa RAID level %d\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "Hindi malikha ang directory na /usr/share/sane/firmware!"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "Hindi malikha ang link na /usr/share/sane/%s!"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr "Hindi makopya ang firmware file na %s sa /usr/share/sane/firmware!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr "Hindi ma-set ang mga pahintulot(permission) ng firmware file na %s!"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr ""
+#~ "Hindi ma-install ang mga package na kailangan para mai-share ang inyong "
+#~ "scanner."
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr ""
+#~ "Ang inyong scanner ay hindi available sa mga gumagamit(user) na hindi "
+#~ "\"root\"."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Tanggapin/Tanggihan ang mga bogus IPv4 na mensaheng error."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Tanggapin/Tanggihan ang mga na-broadcast na icmp echo."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Tanggapin/Tanggihan ang icmp echo."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Payagan/Ipagbawal ang autologin."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Kapag naka-set sa \"LAHAT\", papayagang magkaroon ng /etc/issue at /etc/"
+#~ "issue.net.\n"
+#~ "\n"
+#~ "Kapag naka-set sa WALA, walang papayagang mga issue.\n"
+#~ "\n"
+#~ "Kung hindi, papayagan lamang ang /etc/issue."
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "Payagan/Ipagbawal ang pag-reboot ng gumagamit ng console."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Payagan/Ipagbawal ang remote na login ng root."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Payagan/Ipagbawal ang direktang login ng root."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Payagan/Ipagbawal ang talaan ng mga user ng sistema sa mga display "
+#~ "manager (kdm at gdm)."
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Payagan/Ipagbawal ang mga koneksyon ng X:\n"
+#~ "\n"
+#~ "- LAHAT (payagan lahat ng koneksyon),\n"
+#~ "\n"
+#~ "- LOCAL (koneksyon lamang mula sa local na makina),\n"
+#~ "\n"
+#~ "- WALA (walang koneksyon)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "Sinasabi ng argument kung ang mga client ay may pahintulot na\n"
+#~ "kumonekta sa X server mula sa network sa tcp port 6000 o hindi."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Bigyan ng kapangyarihan ang:\n"
+#~ "\n"
+#~ "- lahat ng mga service na kontrolado ng tcp_wrappers (tingnan ang hosts."
+#~ "deny(5) na man page) kung naka-set sa \"LAHAT\",\n"
+#~ "\n"
+#~ "- mga local lamang kung naka-set sa \"LOCAL\"\n"
+#~ "\n"
+#~ "- wala kung naka-set sa \"WALA\".\n"
+#~ "\n"
+#~ "Upang bigyan ng kapangyarihan ang mga service na kailangan ninyo, gamitin "
+#~ "ang /etc/hosts.allow (tingnan ang hosts.allow(5))."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Kung ang SERVER_LEVEL (o SECURE_LEVEL kung absent)\n"
+#~ "ay mahigit sa 3 sa /etc/security/msec/security.conf, likhain ang\n"
+#~ "symlink /etc/security/msec/server para tumuro sa\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "Ang /etc/security/msec/server ay ginagamit ng \"chkconfig --add\" para\n"
+#~ "magpasyang magdagdag ng service kung mayroon ito sa file habang\n"
+#~ "nag-i-install ng mga package."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Paganahin/I-disable ang \"crontab\" at \"at\" para sa mga gumagamit.\n"
+#~ "\n"
+#~ "Ilagay ang mga pinayagang user sa /etc/cron.allow at /etc/at.allow "
+#~ "(tingnan ang man at(1)\n"
+#~ "at crontab(1))."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "Paganahin/I-disable ang mga ulat ng syslog sa console 12"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Paganahin/I-disable ang proteksiyon laban sa name resolution spoofing.\n"
+#~ "Kung ang \"%s\" ay totoo, pati mga ulat sa syslog."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Mga Security Alert:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Paganahin/I-disable ang proteksiyon laban sa IP spoofing."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "Paganahin/I-disable ang libsafe kung nahanap ito sa sistema."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Paganahin/I-disable ang pagla-log ng mga IPv4 strange packet."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr ""
+#~ "Paganahin/I-disable ang oras-oras na pagsusuri ng seguridad ng msec."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Pinapagana ang su mula lamang sa mga kasapi ng wheel group o payagan ang "
+#~ "su mula sa kahit sinong user."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Gamitin ang password para patunayan ang mga gumagamit."
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr ""
+#~ "Paganahin/I-disable ang pagsuri na promiscuity sa mga ethernet card."
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Paganahin/I-disable ang araw-araw na pagsuri ng seguridad."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Paganahin/I-disable ang sulogin(8) sa single user na level."
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Idagdag ang pangalan bilang exception sa pagha-handle ng password aging "
+#~ "ng msec."
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "I-set ang password aging sa \"max\" na araw at ang delay para ibahin sa "
+#~ "\"inactive\"."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "I-set ang haba ng kasaysayan ng password para iwasan ang paggamit ulit ng "
+#~ "password."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "I-set ang pinakamaikling haba ng password at pinakakonting bilang ng "
+#~ "digit at pinakakonting bilang ng malaking titik."
+
+#~ msgid "Set the root umask."
+#~ msgstr "I-set ang umask ng root."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "kung naka-set sa oo, suriin ang mga bukas na port."
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "kung naka-set sa oo, magsuri para sa :\n"
+#~ "\n"
+#~ "- mga password na walang laman,\n"
+#~ "\n"
+#~ "- walang password sa /etc/shadow\n"
+#~ "\n"
+#~ "- mga gumagamit na may 0 na id maliban sa root."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "kung naka-set sa oo, suriin ang mga pahintulot ng mga file sa home ng "
+#~ "user."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "kung naka-set sa oo, magsuri kung ang mga network device ay nasa "
+#~ "promiscuous na mode."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr ""
+#~ "kung naka-set sa oo, patakbuhin ang araw-araw na pagsusuri ng seguridad."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr ""
+#~ "kung naka-set sa oo, suriin ang mga pagdadagdag/pagtatanggal ng mga sgid "
+#~ "file."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr ""
+#~ "kung naka-set sa oo, suriin ang mga walang laman na password sa /etc/"
+#~ "shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr ""
+#~ "kung naka-set sa oo, i-verify ang checksum ng mga suid/sgid na file."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "kung naka-set sa oo, suriin ang mga pagdadagdag/pagtatanggal ng mga suid "
+#~ "root na file."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "kung naka-set sa oo, iulat ang mga file na walang may-ari."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "kung naka-set sa oo, suriin ang mga file/directory na masusulatan ng "
+#~ "lahat."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "kung naka-set sa oo, patakbuhin ang mga pagsuring chkrootkit."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "kung naka-set, ipadala ang sulat na ulat sa email address na ito, kung "
+#~ "hindi ipadala ito sa root."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr ""
+#~ "kung naka-set sa oo, iulat ang resulta ng pagsusuri sa pamamagitan ng "
+#~ "mail."
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "Huwag magpadala ng mga mail kung walang babala"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr ""
+#~ "kung naka-set sa oo, magpatakbo ng ilang mga pagsusuri ng database ng rpm."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr "kung naka-set sa oo, iulat ang resulta ng pagsusuri sa syslog."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "kung naka-set sa oo, nag-uulat ng resulta ng pagsusuri sa tty."
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "I-set ang laki ng kasaysayan ng mga shell command. Ang halaga na 1 ay "
+#~ "nangangahulugang hindi limitado."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "I-set ang timeout ng shell. Ang halaga na zero ay nangangahulugang walang "
+#~ "timeout."
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "Ang unit ng timeout ay segundo"
+
+#~ msgid "Set the user umask."
+#~ msgstr "I-set ang umask ng user"
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Tanggapin ang mga bogus IPv4 na mensaheng error"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Tanggapin ang na-broadcast na icmp echo."
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "Tanggapin ang icmp echo."
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "mayroong /etc/issue*"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Pag-reboot ng gumagamit ng console"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Payagan ang remote na login ng root"
+
+#~ msgid "Direct root login"
+#~ msgstr "Direktang login ng root"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "Ilista ang mga gumagamit sa mga display manager (kdm at gdm)"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Payagan ang mga koneksyon ng X Window"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Bigyan ng kapangyarihan ang mga koneksyon ng TCP sa X Window"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr ""
+#~ "Bigyan ng kapangyarihan lahat ng mga service na kontrolado ng tcp_wrappers"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig sumunod sa mga batas ng msec"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "Paganahin ang \"crontab\" at \"at\" para sa mga user"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Nag-uulat ang syslog sa console 12"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "Proteksyon sa name resolution spoofing"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "Paganahin ang proteksyon sa IP spoofing"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Paganahin ang libsafe kung nahanap ang libsafe sa sistema"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "Paganahin ang pagla-log ng mga IPv4 strange packet"
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Paganahin ang oras-oras na pagsusuri ng seguridad ng msec."
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "Paganahin ang su mula lamang sa mga kasapi ng wheel group o para sa kahit "
+#~ "sinong user."
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Gamitin ang password para patunayan ang mga gumagamit."
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "Mga pagsuri na promiscuity sa mga ethernet card."
+
+#~ msgid "Daily security check"
+#~ msgstr "Araw-araw na pagsuri ng seguridad."
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) sa single user na level"
+
+#~ msgid "No password aging for"
+#~ msgstr "Walang \"password aging\" para sa"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr "I-set ang expiration ng password at delay ng account inactivation"
+
+#~ msgid "Password history length"
+#~ msgstr "Haba ng kasaysayan ng password"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr ""
+#~ "Pinaka-maikling haba at bilang ng mga digit at malaking titik ng password"
+
+#~ msgid "Root umask"
+#~ msgstr "Umask ng root"
+
+#~ msgid "Shell history size"
+#~ msgstr "Laki ng kasaysayan ng shell"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Timeout ng shell"
+
+#~ msgid "User umask"
+#~ msgstr "Umask ng user"
+
+#~ msgid "Check open ports"
+#~ msgstr "Suriin ang mga bukas na port"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Magsuri para sa mga unsecured account"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Suriin ang mga pahintulot ng mga file sa home ng user"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "Suriin kung ang mga network device ay nasa promiscuous na mode"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Patakbuhin ang araw-araw na pagsusuri ng seguridad"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Suriin ang mga pagdadagdag/pagtatanggal ng mga sgid file"
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Suriin ang mga walang laman na password sa /etc/shadow"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "I-verify ang checksum ng mga suid/sgid na file"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "Suriin ang mga pagdadagdag/pagtatanggal ng mga suid root na file"
+
+#~ msgid "Report unowned files"
+#~ msgstr "Iulat ang mga file na walang may-ari"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Suriin ang mga file/directory na masusulatan ng lahat"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Patakbuhin ang mga pagsuring chkrootkit"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "Kung naka-set, ipadala ang sulat na ulat sa email address na ito, kung "
+#~ "hindi ipadala ito sa root"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Iulat ang resulta ng pagsusuri sa pamamagitan ng mail"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Magpatakbo ng ilang mga pagsusuri ng database ng rpm"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Iulat ang resulta ng pagsusuri sa syslog"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "Nag-uulat ng resulta ng pagsusuri sa tty"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Maligayang Pagdating sa Crackers"
+
+#~ msgid "Poor"
+#~ msgstr "Mababa"
+
+#~ msgid "High"
+#~ msgstr "Mataas"
+
+#~ msgid "Higher"
+#~ msgstr "Mas Mataas"
+
+#~ msgid "Paranoid"
+#~ msgstr "Praning"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Ang level na ito ay gamitan ng ingat. Gagawin nitong madaling gamitin "
+#~ "ang\n"
+#~ "inyong sistema, pero masyadong sensitibo. Huwag itong gamitin sa "
+#~ "makinang\n"
+#~ "nakakabit sa iba o sa Internet. Walang password na access."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Gumagana na ngayon ang mga password, pero gamitin bilang naka-network na "
+#~ "computer ay hindi pa rin inirerekomenda."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Ito ang standard na seguridad na nirerekomenda para sa computer na "
+#~ "gagamitin sa pagkabit sa Internet bilang client."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Mayroon nang ilang paglilimita, at mas maraming automatic na pagsusuri ay "
+#~ "patatakbuhin gabi-gabi."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Sa level ng seguridad ng ito, maaari nang gamitin ang sistemang ito "
+#~ "bilang server.\n"
+#~ "Sapat na ang taas ng seguridad para gamitin ang sistema bilang server na "
+#~ "makakatanggap\n"
+#~ "ng mga koneksyon mula sa maraming client. Tandaan: kung client lamang ang "
+#~ "computer ninyo sa Internet, pumili kayo ng mas mababang level."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Ito ay katulad ng nakaraang level, pero ang sistema ay ganap na sarado at "
+#~ "ang mga katangian ng seguridad ay nasa kanilang pinakamataas."
+
+#~ msgid "Security"
+#~ msgstr "Seguridad"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Mga Basic Option ng DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Pakipili ang nais na level ng seguridad"
+
+#~ msgid "Security level"
+#~ msgstr "Level ng Seguridad"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Gamitin ang libsafe para sa mga server"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Isang library na nagtatanggol laban sa buffer overflow at atakeng "
+#~ "\"format string\"."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Tagapamahala ng Seguridad (login o email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "Ilunsad ang ALSA (Advanced Linux Sound Architecture) sound system"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Ang anacron ay tuwinang (periodic) taga-schedule ng command."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "Ang apmd ay ginagamit para sa pagmo-monitor ng lagay ng baterya at pagla-"
+#~ "log\n"
+#~ "nito sa syslog. Maaari rin itong gamitin para sa pagsha-shut down ng "
+#~ "makina kung\n"
+#~ "mababa na ang baterya."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Nagpapatakbo ng mga command na in-schedule ng command na \"at\" sa oras\n"
+#~ "na binanggit nang pinatakbo ang \"at\", at nagpapatakbo ng mga batch "
+#~ "command\n"
+#~ "kung mababa na ang load average."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "Ang cron ay isang standard na program ng UNIX na nagpapatakbo ng mga "
+#~ "program\n"
+#~ "na binaggit ng mga user sa tuwinang in-schedule na oras. Ang vixie cron "
+#~ "ay may\n"
+#~ "ilang karagdagang katangian sa basic na UNIX cron, gaya ng mas magandang\n"
+#~ "seguridad at mas makapangyarihang mga option ng configuration."
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "Ang FAM ay isang daemon na nagmo-monitor ng file. Ginagamit ito para "
+#~ "makakuha\n"
+#~ "ng mga ulat kung nagbago ang mga file. Ginagamit ito ng GNOME at KDE"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "Ang GPM ay nagbibigay ng suporta sa mouse sa mga application na text-"
+#~ "based (console)\n"
+#~ "gaya ng Midnight Commander. Pinapayagan din nito ang mga operasyong cut-"
+#~ "at-paste\n"
+#~ "sa console gamit ang mouse, at may suporta para sa mga pop-up menu sa "
+#~ "console."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "Ang HardDrake ay nagsasagawa ng hardware probe, at maaaring\n"
+#~ "pang-configure ng bago/naiba na hardware."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Ang Apache ay isang server ng World Wide Web. Ginagamit itong pang-serve "
+#~ "ng HTML file at CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Ang internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Ilunsad ang pagfi-filter ng packet para sa Linux kernel 2.2 series,\n"
+#~ "para mag-setup ng firewall upang protektahan ang inyong makina\n"
+#~ "laban sa mga atake sa network."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Ang package na ito ay maglo-load ng napiling keyboard map na\n"
+#~ "naka-set sa /etc/sysconfig/keyboard.  Maaari itong piliin gamit ang "
+#~ "kbdconfig na\n"
+#~ "utility. Dapat ninyong iwan itong gumagana para sa karamihan ng makina."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Automatic na regeneration ng kernel header sa /boot para sa\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Automatic na pagtiktik at pag-configure ng hardware pag boot."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Ang linuxconf ay minsan magsasagawa ng sari-saring gawain\n"
+#~ "sa panahon ng boot para ma-maintain ang configuration ng sistema."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "Ang lpd ay ang print daemon na kailangan para gumana ang lpr.\n"
+#~ "Ito ay isang server na naghahatol sa mga print job sa mga printer."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Linux Virtual Server, ginagamit para bumuo ng isang high-performance at\n"
+#~ "highly available na server."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) ay isang Domain Name Server (DNS) na ginagamit para iresolba "
+#~ "ang mga pangalan ng host sa mga IP address."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Nagma-mount at nag-a-unmount ng lahat ng mga mount point ng\n"
+#~ "Network File System (NFS), SMB (Lan Manager/Windows), at NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Ina-activate/Dine-deactivate lahat ng mga interface ng network na\n"
+#~ "na-configure magsimula sa panahon ng boot."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "Ang NFS ay isang sikat na protocol para sa pamamahagi ng file (\"file "
+#~ "sharing\")\n"
+#~ "sa ibayo ng mga TCP/IP network. Ang service na ito ay nagbibigay ng NFS "
+#~ "server na\n"
+#~ "gamit, na mako-configure sa pamamagitan ng pag-edit ng /etc/exports na "
+#~ "file."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "Ang NFS ay isang sikat na protocol para sa pamamahagi ng file\n"
+#~ "(\"file sharing\") sa ibayo ng mga TCP/IP network. Ang service na\n"
+#~ "ito ay nagbibigay ng NFS file locking na gamit."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "I-on kaagad ang numlock key sa ilalim ng console at ng\n"
+#~ "Xorg pag boot."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Suportahan ang OKI 4w at mga compatible na winprinter."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "Ang PCMCIA ay karaniwang sumusuporta sa mga bagay gaya ng ethernet\n"
+#~ "at modem sa mga laptop.  Hindi ito magsisimula kung hindi na-configure\n"
+#~ "kaya mas ligtas kung i-install ito sa mga makinang hindi ito kailangan."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Ang portmapper ay nangangasiwa ng mga koneksyon ng RPC, na ginagamit ng "
+#~ "mga\n"
+#~ "protocol gaya ng NFS at NIS. Ang portmap server ay dapat tumatakbo sa mga "
+#~ "makinang\n"
+#~ "gaganap bilang mga server para sa mga protocol na gagamit ng mekanismo ng "
+#~ "RPC."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Ang postfix ay isang Mail Transport Agent, na siyang program na "
+#~ "naglilipat ng mga mail mula sa isang makina papunta sa iba."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Nagse-save at nagbabalik ng \"system entropy pool\" para sa mas mataas na "
+#~ "kalidad\n"
+#~ "na paglikha ng \"random number\"."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Itakda (assign) ang mga raw device sa mga block device (gaya ng mga\n"
+#~ "mga partisyon ng hard drive), para sa mga application gaya ng Oracle o "
+#~ "DVD player"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Ang routed daemon ay nagpapahintulot ng automatic na pag-update ng\n"
+#~ "IP router table via ng RIP protocol. Habang ang RIP ay pinaka ginagamit "
+#~ "sa mga\n"
+#~ "maliliit na network, nangangailangan ng mas komplikadong mga routing "
+#~ "protocol\n"
+#~ "ang mga komplikadong network."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Ang rstat protocol ay nagpapahintulot sa mga user sa network na\n"
+#~ "kunin ang \"performance metrics\" para sa kahit aling makina sa network."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Ang rusers protocol ay nagpapahintulot sa mga user sa network na "
+#~ "kilalanin\n"
+#~ "kung sino ang mga naka-login sa mga ibang makinang sumasagot."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Ang rwho protocol ay nagpapahintulot sa mga remote user na kumuha ng\n"
+#~ "talaan ng lahat ng mga user na naka-login sa makinang nagpapatakbo ng\n"
+#~ "rwho daemon (hawig sa finger)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Ilunsad ang sound system sa inyong makina"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Ang syslog ay isang pasilidad na ginagamit ng maraming daemon sa\n"
+#~ "pag log ng mga mensahe sa sari-saring mga log file ng sistema.\n"
+#~ "Magandang kaisipan na parating patakbuhin ang syslog."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "I-load ang mga driver para sa inyong mga USB device."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Sisimulan ang X Font Server (kinakailangan ito ng Xorg)."
+
+#~ msgid "Printing"
+#~ msgstr "Pagpi-print"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "File sharing"
+#~ msgstr "Pamamahagi ng file"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Malayuang Pamamahala"
+
+#~ msgid "Database Server"
+#~ msgstr "Database Server"
+
+#~ msgid "Services"
+#~ msgstr "Mga serbisyo"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr ""
+#~ "Piliin kung aling mga service ang dapat simulan agad sa panahon ng boot."
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Mga Service: %d na-activate para sa %d nakarehistro"
+
+#~ msgid "running"
+#~ msgstr "tumatakbo"
+
+#~ msgid "stopped"
+#~ msgstr "huminto"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Mga service at daemon"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Walang karagdagang inpormasyon\n"
+#~ "tungkol sa service na ito, sorry."
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Start when requested"
+#~ msgstr "Simulan kung hiniling"
+
+#~ msgid "On boot"
+#~ msgstr "Sa boot"
+
+#~ msgid "Start"
+#~ msgstr "Simulan"
+
+#~ msgid "Stop"
+#~ msgstr "Hinto"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Ang program na ito ay libreng software; maaari ninyong muling ipamahagi\n"
+#~ "at/o baguhin ito sa ilalim ng mga sinasaad ng GNU General Public License\n"
+#~ "na inilathala ng Free Software Foundation; ang version 2, o (nasasainyo)\n"
+#~ "kahit anong mas huling version.\n"
+#~ "\n"
+#~ "Ang program na ito ay ipinamahagi sa pag-asang ito ay magiging\n"
+#~ "kapaki-pakinabang, pero WALANG KAHIT ANONG WARRANTY; ni walang\n"
+#~ "ipinahiwatig na warranty ng MERCHANTABILITY o FITNESS PARA SA ISANG\n"
+#~ "NAMUMUKOD NA LAYUNIN.  Tingnan ang GNU General Public License para\n"
+#~ "sa karagdagang detalye.\n"
+#~ "\n"
+#~ "Dapat ay nakatanggap kayo ng sipi o kopya ng GNU General Public License "
+#~ "na\n"
+#~ "kalakip nitong program; kung hindi, sumulat sa Free Software Foundation, "
+#~ "Inc.,\n"
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Taga-Backup at Tagabalik (Restore) na application\n"
+#~ "\n"
+#~ "--default             : i-save ang mga default directory.\n"
+#~ "--debug               : ipakita lahat ng mga mensaheng debug.\n"
+#~ "--show-conf           : talaan ng mga file o directory na iba-backup.\n"
+#~ "--config-info         : ipaliwanag ang mga configuration file option "
+#~ "(para sa non-X users).\n"
+#~ "--daemon              : gamitin ang daemon configuration. \n"
+#~ "--help                : ipakita ang mensaheng ito.\n"
+#~ "--version             : ipakita ang numero ng version.\n"
+
+#~ msgid ""
+#~ "[--boot] [--splash]\n"
+#~ "OPTIONS:\n"
+#~ "  --boot            - enable to configure boot loader\n"
+#~ "  --splash          - enable to configure boot theme\n"
+#~ "default mode: offer to configure autologin feature"
+#~ msgstr ""
+#~ "[--boot] [--splash]\n"
+#~ "MGA OPTION:\n"
+#~ "  --boot            - i-enable para i-configure ang boot loader\n"
+#~ "  --splash          - i-enable para i-configure ang boot theme\n"
+#~ "default mode: maghandog na i-configure ang autologin na katangian"
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[MGA_OPTION] [PANGALAN_NG_PROGRAM]\n"
+#~ "\n"
+#~ "MGA OPTION:\n"
+#~ "  --help            - i-print ang mensaheng tulong na ito.\n"
+#~ "  --report          - ang program ay dapat isa sa mga Mandriva tool\n"
+#~ "  --incident        - ang program ay dapat isa sa mga Mandriva tool"
+
+#~ msgid ""
+#~ "[--add]\n"
+#~ "  --add             - \"add a network interface\" wizard\n"
+#~ "  --del             - \"delete a network interface\" wizard\n"
+#~ "  --skip-wizard     - manage connections\n"
+#~ "  --internet        - configure internet\n"
+#~ "  --wizard          - like --add"
+#~ msgstr ""
+#~ "[--add]\n"
+#~ "  --add             - \"magdagdag ng network interface\" na wizard\n"
+#~ "  --del             - \"magtanggal ng network interface\" na wizard\n"
+#~ "  --skip-wizard     - pangasiwaan ang mga connection\n"
+#~ "  --internet        - i-configure ang internet\n"
+#~ "  --wizard          - katulad ng --add"
+
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "\n"
+#~ "Application na nag-i-import ng Font at nagmo-monitor\n"
+#~ "\n"
+#~ "MGA OPTION:\n"
+#~ "--windows_import : i-import mula sa lahat ng available na partisyon ng "
+#~ "windows.\n"
+#~ "--xls_fonts      : ipakita lahat ng font na mayroon na mula sa xls\n"
+#~ "--install        : tanggapin kahit anong font file at directory.\n"
+#~ "--uninstall      : i-uninstall kahit anong font o directory ng font.\n"
+#~ "--replace        : palitan lahat ng font kung mayroon na\n"
+#~ "--application    : 0 walang application.\n"
+#~ "                 : 1 lahat ng available na application na suportado.\n"
+#~ "                 : pangalan_ng_application katulad ng  so para sa "
+#~ "staroffice \n"
+#~ "                 : at gs para sa ghostscript para dito lamang."
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[MGA_OPTION]...\n"
+#~ "Taga-configure ng Mandriva Terminal Server\n"
+#~ "--enable         : paganahin ang MTS\n"
+#~ "--disable        : i-disable ang MTS\n"
+#~ "--start          : paandarin ang MTS\n"
+#~ "--stop           : ihinto ang MTS\n"
+#~ "--adduser        : magdagdag ng mayroon nang system user sa MTS "
+#~ "(kailangan ng username)\n"
+#~ "--deluser        : magtanggal ng mayroon nang system user mula sa MTS "
+#~ "(kailangan ng username)\n"
+#~ "--addclient      : magdagdag ng client na makina sa MTS (kailangan ng MAC "
+#~ "address, IP, nbi image name)\n"
+#~ "--delclient      : magtanggal ng client na makina mula sa MTS (kailangan "
+#~ "ng MAC address, IP, nbi image name)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[keyboard]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[MGA_OPTION]\n"
+#~ "Application na kumukonekta sa at nagmomonitor ng Network & Internet \n"
+#~ "\n"
+#~ "--defaultintf interface : ipakita itong interface bilang default\n"
+#~ "--connect : kumonek sa internet kung hindi pa nakakonekta\n"
+#~ "--disconnect : i-disconnect sa internet kung nakakonekta na\n"
+#~ "--force : gamit kasama ang (dis)connect : pilitin ang pagkonekta/"
+#~ "disconnect.\n"
+#~ "--status : nagbabalik ng 1 kung nakakonekta at 0 kung hindi, tapos "
+#~ "labas.\n"
+#~ "--quiet : huwag maging interactive. Gagamitin kasama ang (dis)connect."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      huwag magtanong ng unang patotoo sa Mandriva "
+#~ "Update na mode\n"
+#~ "  --no-verify-rpm        huwag i-verify ang mga signature ng mga package\n"
+#~ "  --changelog-first      ipakita ang changelog bago ang filelist sa "
+#~ "window ng paglalarawan\n"
+#~ "  --merge-all-rpmnew     imungkahi na pagsamahin lahat ng mahanap na ."
+#~ "rpmnew/.rpmsave file"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Paggamit: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Magdagdag ng server"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "South Africa"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Austria"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "South Africa"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Macedonia"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "South Africa"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "Russian (Phonetic)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "Yugoslavian (latin)"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Tama ba ito?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "Walang icon"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Hindi available ang home directory."
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Local directory"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "Mga file na \"local\""
+
+#~ msgid "Expand Tree"
+#~ msgstr "I-expand ang tree"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "I-collapse ang tree"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Ayusing ng batay sa pangkat/grupo o flat lamang"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s ay hindi naka-install\n"
+#~ "I-click ang \"Kasunod\" para i-install o ang \"I-cancel\" para mag-quit"
+
+#~ msgid "Installation failed"
+#~ msgstr "Pag-i-install nabigo"

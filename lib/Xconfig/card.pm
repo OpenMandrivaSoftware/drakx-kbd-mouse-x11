@@ -3,11 +3,17 @@ package Xconfig::card; # $Id$
 use diagnostics;
 use strict;
 
+use lib '/usr/lib/libDrakX';
 use detect_devices;
+use Xconfig::xfree;
 use modules;
 use common;
+use interactive;
 use log;
 
+my $lib = arch() =~ /x86_64/ ? "lib64" : "lib";
+
+sub modules_dir() { "/usr/$lib/xorg/modules" }
 
 my %VideoRams = (
      256 => N_("256 kB"),
@@ -21,12 +27,10 @@ my %VideoRams = (
    65536 => N_("64 MB or more"),
 );
 
-my $lib = arch() =~ /x86_64/ ? "lib64" : "lib";
- 
 my @xfree4_Drivers = ((arch() =~ /^sparc/ ? qw(sunbw2 suncg14 suncg3 suncg6 sunffb sunleo suntcx) :
-		    qw(apm ark chips cirrus cyrix glide i128 i740 i810 imstt 
-                       mga neomagic newport nv rendition r128 radeon vesa
-                       s3 s3virge savage siliconmotion sis tdfx tga trident tseng vmware)), 
+		    qw(amd apm ark ast chips cirrus cyrix glide i128 i740 i810 imstt
+                       mga nsc neomagic newport nv rendition openchrome vesa via
+                       s3 s3virge savage siliconmotion sis sisusb tdfx tga trident tseng vmware)), 
 		    qw(ati glint vga fbdev));
 
 sub from_raw_X {
@@ -36,7 +40,11 @@ sub from_raw_X {
 
     my $card = {
 	use_DRI_GLX  => eval { any { /dri/ } $raw_X->get_modules },
+	DRI_GLX_SPECIAL => first($raw_X->get_ModulePaths),
 	%$device,
+	if_($device->{Driver} eq 'nvidia',
+	    DriverVersion => 
+	      readlink("$::prefix/etc/alternatives/gl_conf") =~ m!nvidia(.*)/! ? $1 : '97xx'),
     };
     add_to_card__using_Cards($card, $card->{BoardName});
     $card;
@@ -56,6 +64,12 @@ sub to_raw_X {
 	if (arch() =~ /ppc/ && ($_->{Driver} eq 'r128' || $_->{Driver} eq 'radeon')) {
 	    $_->{UseFBDev} = 1;
 	}
+	if ($_->{Driver} eq 'i810') {
+	    $_->{Options}{May_Need_ForceBIOS} = '1';
+	}
+        if (member($_->{Driver}, qw(i810 ati))) {
+	    $_->{Options}{XaaNoOffscreenPixmaps} = '1';
+        }
     }
 
     $raw_X->set_devices(@cards);
@@ -63,19 +77,21 @@ sub to_raw_X {
     $raw_X->get_ServerLayout->{Xinerama} = { commented => !$card->{Xinerama}, Option => 1 }
       if defined $card->{Xinerama};
 
-    # cleanup previous special nvidia libglx
-    $raw_X->remove_load_module($_) foreach @{$card->{REMOVE_GLX} || []};
+    # cleanup deprecated previous special nvidia explicit libglx
+    $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia', '/extensions/nvidia_legacy', '/extensions';
 
+    # remove ModulePath that we added
+    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx';
+    $raw_X->remove_ModulePath(modules_dir());
+    # then may re-add some
     if ($card->{DRI_GLX_SPECIAL}) {
-        $raw_X->remove_load_module('glx'); # this doesn't duplicate the above glx line
-        # This loads the NVIDIA GLX extension module.
-        # IT IS IMPORTANT TO KEEP NAME AS FULL PATH TO libglx.so ELSE
-        # IT WILL LOAD XFree86 glx module and the server will crash.
-        $raw_X->add_load_module($card->{DRI_GLX_SPECIAL});
-    } else {
-        $raw_X->set_load_module('glx', $card->{Driver} ne 'fbdev'); #- glx for everyone, except proprietary nvidia and fbdev
-        $raw_X->set_load_module('dri', $card->{use_DRI_GLX});
+	$raw_X->add_ModulePath($card->{DRI_GLX_SPECIAL});
     }
+    #- if we have some special ModulePath, ensure the last one is the standard ModulePath
+    $raw_X->add_ModulePath(modules_dir()) if $raw_X->get_ModulePaths;
+
+    $raw_X->set_load_module('glx', $card->{Driver} ne 'fbdev'); #- glx for everyone, except fbdev
+    $raw_X->set_load_module('dri', $card->{use_DRI_GLX}); #- dri when needed, except proprietary nvidia
 
     $raw_X->remove_Section('DRI');
 
@@ -96,14 +112,18 @@ sub probe() {
 	    VendorName => $l[0], BoardName => $l[1],
 	    BusID => "PCI:$_->{pci_bus}:$_->{pci_device}:$_->{pci_function}",
 	};
-	if    ($_->{driver} =~ /Card:(.*)/)   { $card->{BoardName} = $1; add_to_card__using_Cards($card, $1) }
-	elsif ($_->{driver} =~ /Driver:(.*)/) { $card->{Driver} = $1 }
-	else { internal_error() }
-
+	if (my ($card_name) = $_->{driver} =~ /Card:(.*)/) { 
+	    $card->{BoardName} = $card_name; 
+	    add_to_card__using_Cards($card, $card_name);
+	} elsif ($_->{driver} =~ /Driver:(.*)/) { 
+	    $card->{Driver} = $1;
+	} else { 
+	    internal_error();
+	}
 	$card;
     } @c;
 
-    if (@cards >= 2 && $cards[0]{card_name} eq $cards[1]{card_name} && $cards[0]{card_name} eq 'Intel 830') {
+    if (@cards >= 2 && $cards[0]{card_name} eq $cards[1]{card_name} && $cards[0]{card_name} eq 'Intel 830 - 965') {
 	shift @cards;
     }
     #- take a default on sparc if nothing has been found.
@@ -178,20 +198,19 @@ sub card_config__not_listed {
 	add_to_card__using_Cards($card, $s);
     } else {
 	$card->{Driver} = $s;
+	$card->{DRI_GLX} = 0;
     }
     $card->{manually_chosen} = 1;
     1;
 }
 
 sub multi_head_choose {
-    my ($in, $auto, @cards) = @_;
+    my ($in, $_auto, @cards) = @_;
 
     my @choices = multi_head_choices('', @cards);
 
     my $tc = $choices[0];
-    if ($auto) {
-	@choices == 1 or return;
-    } else {
+    if (@choices > 1) {
 	$tc = $in->ask_from_listf(N("Multi-head configuration"),
 				  N("Your system supports multiple head configuration.
 What do you want to do?"), sub { $_[0]{text} }, \@choices) or return;
@@ -223,12 +242,12 @@ sub configure_auto_install {
 	};
     }
 
-    my ($glx_choice) = xfree_and_glx_choices($card);
-    log::explanations("Using $glx_choice->{text}");
-    $glx_choice->{code}();
+    install_server($card, $options, $do_pkgs) or return;
+    $card = choose_Driver2_or_not($card, undef);
+
+    Xconfig::various::various_auto_install($raw_X, $card, $old_X);
     set_glx_restrictions($card);
 
-    install_server($card, $options, $do_pkgs);
     if ($card->{needVideoRam} && !$card->{VideoRam}) {
 	$card->{VideoRam} = $options->{VideoRam_probed} || 4096;
 	log::explanations("argh, I need to know VideoRam! Taking " . ($options->{probed_VideoRam} ? "the probed" : "a default") . " value: VideoRam = $card->{VideoRam}");
@@ -246,38 +265,30 @@ sub configure {
     if (!$cards[0]{Driver}) {
 	if ($options->{allowFB}) {
 	    $cards[0]{Driver} = 'fbdev';
-	} elsif ($auto) {
-	    log::explanations("Xconfig::card: auto failed (unknown card and no allowFB)");
-	    return 0;
 	}
     }
-    if (!$auto) {
+    if (!$auto || !$cards[0]{Driver}) {
       card_config__not_listed:
 	card_config__not_listed($in, $cards[0], $options) or return;
     }
 
     my $card = multi_head_choose($in, $auto, @cards) or return;
 
-    xfree_and_glx_choose($in, $card, $auto) or return;
+    install_server($card, $options, $do_pkgs) or goto card_config__not_listed;
 
-    eval { install_server($card, $options, $do_pkgs) };
-    if ($@) {
-	$in->ask_warn('', N("Can not install Xorg package: %s", $@));
-	goto card_config__not_listed;
-    }
-    
+    $card = choose_Driver2_or_not($card, $in);
+
+    Xconfig::various::various($in, $raw_X, $card, $options, $auto);
+    set_glx_restrictions($card);
+
     if ($card->{needVideoRam} && !$card->{VideoRam}) {
-	if ($auto) {
-	    log::explanations("Xconfig::card: auto failed (needVideoRam)");
-	    return;
-	}
 	$card->{VideoRam} = (find { $_ <= $options->{VideoRam_probed} } reverse ikeys %VideoRams) || 4096;
 	$in->ask_from('', N("Select the memory size of your graphics card"),
 		      [ { val => \$card->{VideoRam},
 			  type => 'list',
 			  list => [ ikeys %VideoRams ],
 			  format => sub { translate($VideoRams{$_[0]}) },
-			  not_edit => !$::expert } ]) or return;
+			  not_edit => 0 } ]) or return;
     }
 
     to_raw_X($card, $raw_X);
@@ -287,97 +298,80 @@ sub configure {
 sub install_server {
     my ($card, $options, $do_pkgs) = @_;
 
-    my $prog = "$::prefix/usr/X11R6/bin/Xorg";
-
     my @packages;
-    push @packages, 'xorg-x11-server' if ! -x $prog;
-
-    #- additional packages to install according available card.
-    #- add XFree86-libs-DRI here if using DRI (future split of XFree86 TODO)
-    if ($card->{use_DRI_GLX}) {
-	push @packages, 'Glide_V5' if $card->{card_name} eq 'Voodoo5 (generic)';
-	push @packages, 'Glide_V3-DRI' if member($card->{card_name}, 'Voodoo3 (generic)', 'Voodoo Banshee (generic)');
-	push @packages, 'xorg-x11-glide-module' if $card->{card_name} =~ /Voodoo/;
-    }
+    my @must_have = "x11-driver-video-$card->{Driver}";
 
     if ($options->{freedriver}) {
 	delete $card->{Driver2};
     }
 
-    my %nvidia_packages = (
-                            #- using NVIDIA Legacy driver for old NVIDIA cards (TNT, TNT2, Vanta, Quadro, Quadro2, GeForce and GeForce2):
-                            legacy => [ qw(nvidia_legacy-kernel nvidia_legacy) ],
-                            #- using current NVIDIA driver for recent NVIDIA cards (Geforce/Quadro 3/4/FX/6x00/NVS):
-                            new => [ qw(nvidia-kernel nvidia) ],
-                           );
-
-    my %proprietary_Driver2 = (
-	nvidia => $nvidia_packages{ $card->{NVIDIA_LEGACY} ? 'legacy' : 'new' },
-	fglrx => [ 'ati-kernel', 'ati' ], #- using ATI fglrx driver (Radeon, Fire GL cards only).
-    );
-    if (my $rpms_needed = $proprietary_Driver2{$card->{Driver2}}) {
-	if (my $proprietary_packages = $do_pkgs->check_kernel_module_packages($rpms_needed->[0], $rpms_needed->[1])) {
-	    push @packages, @$proprietary_packages;
-	    # prevent having both nvidia & nvidia_legacy driver installed due to incompatibility:
-	    if ($card->{Driver2} eq 'nvidia') {
-	       $do_pkgs->remove($_) foreach @{$do_pkgs->check_kernel_module_packages(@{$nvidia_packages{ $card->{NVIDIA_LEGACY} ? 'new' : 'legacy' }})};
-	    }
-	}
+    if ($card->{Driver2}) {       
+	require Xconfig::proprietary;
+	push @packages, Xconfig::proprietary::pkgs_for_Driver2($card, $do_pkgs);
     }
 
-    $do_pkgs->install(@packages) if @packages;
-    -x $prog or die "server not available (should be in $prog)";
-
-    my $modules_dir = "/usr/X11R6/$lib/modules";
-    my $new_nvidia_libglx = "$modules_dir/extensions/nvidia/libglx.so";
-    my $old_nvidia_libglx = "$modules_dir/extensions/libglx.so";
-    #- make sure everything is correct at this point, packages have really been installed
-    #- and driver and GLX extension is present.
-    if ($card->{Driver2} eq 'nvidia' &&
-	(-e "$::prefix$modules_dir/drivers/nvidia_drv.o" || -e "$::prefix$modules_dir/drivers/nvidia_drv.so")) {
-	#- when there is extensions/libglx.a, it means extensions/libglx.so is not xorg's libglx, so it may be nvidia's
-	#- new nvidia packages have libglx.so in extensions/nvidia instead of simply extensions/
-	my $libglx_a = -e "$::prefix$modules_dir/extensions/libglx.a";
-	my $libglx = find { -l "$::prefix$_" } $new_nvidia_libglx, if_($libglx_a, $old_nvidia_libglx);
-	if ($libglx) {
-	    log::explanations("Using specific NVIDIA driver and GLX extensions");
-	    $card->{Driver} = 'nvidia';
-	    $card->{DRI_GLX_SPECIAL} = $libglx;
-	}
-    }
-    if ($card->{Driver2} eq 'fglrx' &&
-	-e "$::prefix$modules_dir/dri/fglrx_dri.so" &&
-	(-e "$::prefix$modules_dir/drivers/fglrx_drv.o" || -e "$::prefix$modules_dir/drivers/fglrx_drv.so")) {
-	log::explanations("Using specific ATI fglrx and DRI drivers");
-	$card->{Driver} = 'fglrx';
-    }
-    $card->{REMOVE_GLX} = [ $old_nvidia_libglx, $new_nvidia_libglx ];
-
-    libgl_config($card);
+    $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
+      @must_have == listlength($do_pkgs->are_installed(@must_have))
+	or return;
 
     if ($card->{need_MATROX_HAL}) {
 	require Xconfig::proprietary;
 	Xconfig::proprietary::install_matrox_hal($::prefix);
     }
+    1;
 }
 
-sub xfree_and_glx_choose {
-    my ($in, $card, $auto) = @_;
+sub choose_Driver2_or_not {
+    my ($card, $o_in) = @_;
 
-    my @choices = xfree_and_glx_choices($card);
+    my $card2;
+    if ($card->{Driver2}) {
+        require Xconfig::proprietary;
+        $card2 = Xconfig::proprietary::may_use_Driver2($card);
+    }
 
-    my $tc = 
-      $auto ? $choices[0] :
-	$in->ask_from_listf_raw({ title => N("Xorg configuration"), 
-				  messages => formatAlaTeX(join("\n\n\n", (grep { $_ } map { $_->{more_messages} } @choices),
-								N("Which configuration of Xorg do you want to have?"))), 
-				  interactive_help_id => 'configureX_xfree_and_glx',
-				},
-				sub { $_[0]{text} }, \@choices) or return;
-    log::explanations("Using $tc->{text}");
-    $tc->{code}();
-    set_glx_restrictions($card);
-    1;
+    if ($card2) {
+	!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
+Do you wish to use it?")), 1) and $card = $card2;
+    }
+
+    libgl_config_and_more($card);
+    $card;
+}
+
+#- configures which libGL.so.1 to use, using update-alternatives
+#- it also configures nvidia_drv.so (using a slave alternative, cf "update-alternatives --display gl_conf")
+sub libgl_config_and_more {
+    my ($card) = @_;
+
+    if ($card->{Driver} eq 'nvidia') {
+	$card->{DriverVersion} or internal_error("DriverVersion should be set for driver nvidia!");
+    }
+
+    #- ensure old deprecated conf files are not there anymore
+    unlink("/etc/ld.so.conf.d/$_.conf") foreach 'nvidia', 'nvidia_legacy', 'ati';
+
+    my $wanted = $card->{Driver} eq 'fglrx' ? "/etc/ld.so.conf.d/GL/ati.conf" :
+                 $card->{Driver} eq 'nvidia' ? "/etc/nvidia$card->{DriverVersion}/ld.so.conf" :
+		   '/etc/ld.so.conf.d/GL/' . (arch() =~ /64/ ? 'lib64' : 'lib') . 'mesagl1.conf';
+    my $link = "$::prefix/etc/alternatives/gl_conf";
+    if (readlink($link) ne $wanted) {
+	-e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
+	common::symlinkf_update_alternatives('gl_conf', $wanted);
+	if ($::isStandalone) {
+	    log::explanations("ldconfig will be run because the GL library was " . ($wanted ? 'enabled' : 'disabled'));
+	    system("/sbin/ldconfig");
+	}
+    }
+    if ($card->{Driver} eq 'fglrx') {
+	log::l("workaround buggy fglrx driver: make dm restart xserver (#29550)");
+        eval { common::update_gnomekderc_no_create("$::prefix/etc/kde/kdm/kdmrc", 'X-:0-Core' => (
+            TerminateServer => "true",
+        )) };
+        eval { update_gnomekderc("$::prefix/etc/X11/gdm/custom.conf", daemon => (
+            AlwaysRestartServer => "true",
+        )) };
+    }
 }
 
 sub multi_head_choices {
@@ -415,36 +409,6 @@ sub multi_head_choices {
     @choices;
 }
 
-#- Xorg version available, it would be better to parse available package and get version from it.
-sub xorg_version() { '6.9' }
-
-sub xfree_and_glx_choices {
-    my ($card) = @_;
-
-    my @choices = if_($card->{Driver}, { text => N("Xorg %s", xorg_version()), code => sub {} });
-
-    #- no GLX with Xinerama
-    return @choices if $card->{Xinerama};
-
-    #- ask the expert or any user on second pass user to enable or not hardware acceleration support.
-    if ($card->{DRI_GLX}) {
-	unshift @choices, { text => N("Xorg %s with 3D hardware acceleration", xorg_version()),
-			    code => sub { $card->{use_DRI_GLX} = 1 },
-			    more_messages => N("Your card can have 3D hardware acceleration support with Xorg %s.", xorg_version()),
-			  };
-    }
-
-    #- an expert user may want to try to use an EXPERIMENTAL 3D acceleration.
-    if ($card->{DRI_GLX_EXPERIMENTAL} && $::expert) {
-	push @choices, { text => N("Xorg %s with EXPERIMENTAL 3D hardware acceleration", xorg_version()),
-			 code => sub { $card->{use_DRI_GLX} = 1 },
-			 more_messages => N("Your card can have 3D hardware acceleration support with Xorg %s,
-NOTE THIS IS EXPERIMENTAL SUPPORT AND MAY FREEZE YOUR COMPUTER.", xorg_version()),
-		       };
-    }
-    @choices;
-}
-
 sub set_glx_restrictions {
     my ($card) = @_;
 
@@ -453,51 +417,13 @@ sub set_glx_restrictions {
     if ($card->{use_DRI_GLX}) {
 	$card->{needVideoRam} = 1 if $card->{description} =~ /Matrox.* G[245][05]0/;
 	($card->{needVideoRam}, $card->{VideoRam}) = (1, 16384)
-	  if member($card->{card_name}, 'Intel 810', 'Intel 815');
+	  if $card->{card_name} eq 'Intel 810 / 815';
 
 	#- hack for ATI Rage 128 card using a bttv or peripheral with PCI bus mastering exchange
 	#- AND using DRI at the same time.
-	if (member($card->{card_name}, 'ATI Rage 128', 'ATI Rage 128 TVout', 'ATI Rage 128 Mobility')) {
-	    $card->{Options}{UseCCEFor2D} = bool2text(modules::probe_category('multimedia/tv'));
+	if ($card->{card_name} eq 'ATI Rage 128 TV-out') {
+	    $card->{Options}{UseCCEFor2D} = bool2text(detect_devices::probe_category('multimedia/tv'));
 	}
-    }
-
-    #- check for Matrox G200 PCI cards, disable AGP in such cases, causes black screen else.
-    if (member($card->{card_name}, 'Matrox Millennium 200', 'Matrox Millennium 200', 'Matrox Mystique') && $card->{description} !~ /AGP/) {
-	log::explanations("disabling AGP mode for Matrox card, as it seems to be a PCI card");
-	log::explanations("this is only used for XFree 3.3.6, see /etc/X11/glx.conf");
-	substInFile { s/^\s*#*\s*mga_dma\s*=\s*\d+\s*$/mga_dma = 0\n/ } "$::prefix/etc/X11/glx.conf";
-    }
-}
-
-sub libgl_config {
-    my ($card) = @_;
-
-    my $dir = "$::prefix/etc/ld.so.conf.d";
-    my $comment = '# commented-by-DrakX ';
-
-    my %driver_to_libgl_config = (
-	nvidia => $card->{NVIDIA_LEGACY} ? 'nvidia_legacy.conf' : 'nvidia.conf',
-	nvidia_other => !$card->{NVIDIA_LEGACY} ? 'nvidia_legacy.conf' : 'nvidia.conf',
-	fglrx => 'ati.conf',
-    );
-    my $need_to_run_ldconfig;
-    my $wanted = $driver_to_libgl_config{$card->{Driver}};
-    foreach my $file (values %driver_to_libgl_config) {
-	substInFile {
-	    my ($commented, $s) = /^(\Q$comment\E)?(.*)/;
-	    if ($file eq $wanted) {
-		$_ = "$s\n";
-		$need_to_run_ldconfig ||= $commented;
-	    } else {
-		$_ = "$comment$s\n";
-		$need_to_run_ldconfig ||= !$commented;
-	    }	    
-	} "$dir/$file" if -e "$dir/$file";
-    }
-    if ($::isStandalone && $need_to_run_ldconfig) {
-	log::explanations("ldconfig will be run because the GL library was " . ($wanted ? 'enabled' : 'disabled'));
-	system("/sbin/ldconfig");
     }
 }
 
@@ -550,8 +476,6 @@ sub readCardsDB {
 	BAD_FB_RESTORE => sub { $card->{BAD_FB_RESTORE} = 1 },
 	FB_TVOUT => sub { $card->{FB_TVOUT} = 1 },
 	UNSUPPORTED => sub { delete $card->{Driver} },
-	NVIDIA_LEGACY => sub { $card->{NVIDIA_LEGACY} = 1 },
-
 	COMMENT => sub {},
     };
 

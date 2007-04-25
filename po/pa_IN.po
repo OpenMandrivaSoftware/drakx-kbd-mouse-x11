@@ -1,0 +1,5507 @@
+# translation of DrakX.po to Punjabi
+# translation of DrakX.po to Panjabi
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Kanwaljeet Singh Brar <kanwaljeetbrar@yahoo.co.in>, 2005.
+# Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2005-03-27 17:55+0530\n"
+"Last-Translator: Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>\n"
+"Language-Team: Punjabi <punlinux-i18n@lists.soruceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 ਕਿਬਾ"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 ਕਿਬਾ"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 ਮੈਬਾ"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 ਮੈਬਾ"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 ਮੈਬਾ"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 ਮੈਬਾ"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 ਮੈਬਾ"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 ਮੈਬਾ"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 ਮੈਬਾ ਜਾਂ ਵੱਧ"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X ਸਰਵਰ"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "X ਸਰਵਰ ਚੁਣੋ"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "ਬਹੁ-ਹੈੱਡ ਸੰਰਚਨਾ"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"ਤੁਹਾਡਾ ਸਿਸਟਮ ਬਹੁ ਹੈੱਡ ਸੰਰਚਨਾ ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ।\n"
+"ਤੁਸੀਂ ਕੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "ਆਪਣੇ ਗਰਾਫਿਕਸ ਕਾਰਡ ਦਾ ਮੈਮੋਰੀ ਅਕਾਰ ਚੁਣੋ"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "ਸਾਰੇ ਹੈੱਡ ਨਿਰਭਰਤਾ ਤੋਂ ਬਿਨਾ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Xinerama ਐਕਸਟੈਂਸ਼ਨ ਵਰਤੋ"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "ਸਿਰਫ ਕਾਰਡ \"%s\"%s ਹੀ ਸੰਰਚਿਤ ਕਰੋ"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "ਪਸੰਦ"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "ਕੁਨੈਕਸ਼ਨ ਸੰਰਚਨਾ"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "ਬਾਹਰ"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "ਮਾਨੀਟਰ"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "ਰੈਜ਼ੋਲੇਸ਼ਨ"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "ਜਾਂਚ"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "ਚੋਣ"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "ਪਲੱਗਇਨ"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "ਤੁਹਾਡੀ Xorg ਸੰਰਚਨਾ ਫਾਇਲ ਖਰਾਬ ਹੈ, ਅਸੀਂ ਇਸ ਨੂੰ ਰੱਦ ਕਰਾਂਗੇ।"
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"ਤਬਦੀਲੀਆਂ ਰੱਖੋ?\n"
+"ਵਰਤਮਾਨ ਸੰਰਚਨਾ ਹੈ:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "ਹੈੱਡ #%d ਲਈ ਮਾਨੀਟਰ ਚੁਣੋ"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "ਮਾਨੀਟਰ ਚੁਣੋ"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "ਲਾਓ ਤੇ ਚਲਾਓ"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "ਵਿਆਪਕ"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "ਵਿਕ੍ਰੇਤਾ"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "ਲਾਓ ਤੇ ਚਲਾਓ ਖੋਜ ਅਸਫਲ ਹੋਈ। ਕਿਰਪਾ ਕਰਕੇ ਠੀਕ ਮਾਨੀਟਰ ਚੁਣੋ"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"ਦੋ ਨਾਜ਼ੁਕ ਪੈਰਾਮੀਟਰ ਲੰਬਕਾਰੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ ਹੈ, ਜੋ ਦਰ ਹੈ ਜਿਸ ਨਾਲ ਸਾਰਾ \n"
+"ਪਰਦਾ ਮੁੜ-ਤਾਜ਼ਾ ਹੋ ਜਾਂਦਾ ਹੈ, ਅਤੇ ਜਿਆਦਾ ਜਰੂਰੀ ਖਤਿਜੀ ਦਰ, ਜਿਸ \n"
+"ਨਾਲ ਜਾਂਚ-ਸਤਰਾਂ ਵਿਖਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ।\n"
+"\n"
+"ਇਹ *ਬਹੁਤ ਖਾਸ* ਹੈ, ਕਿ ਤੁਸੀਂ ਸਮਕਾਲੀ ਸੀਮਾ ਜੋ ਤੁਹਾਡੇ ਮਾਨੀਟਰ ਦੀ ਯੋਗਤਾ ਦੇ ਪਿੱਛੇ ਹੈ, \n"
+"ਨਾਲ ਮਾਨੀਟਰ ਕਿਸਮ ਨਹੀਂ ਚੁਣੀ ਹੈ: ਤੁਸੀਂ ਆਪਣਾ ਮਾਨੀਟਰ ਖਰਾਬ ਕਰ ਸਕਦੇ ਹੋ।\n"
+"ਜੇ ਕੋਈ ਸ਼ੱਕ ਹੈ, ਸੰਭਾਲ ਵਿਵਸਥਾ ਚੁਣੋ।"
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "ਖਤਿਜੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "ਲੰਬਕਾਰੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "ਕਾਰਵਾਈ ਚੁਣੋ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 ਰੰਗ (8 ਬਿੱਟ)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 ਹਜ਼ਾਰ ਰੰਗ (15 ਬਿੱਟ)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 ਹਜ਼ਾਰ ਰੰਗ (16 ਬਿੱਟ)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 ਮਿਲੀਅਨ ਰੰਗ (24 ਬਿੱਟ)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "ਰੈਜ਼ੋਲੇਸ਼ਨ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "ਹੋਰ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "ਰੈਜ਼ੋਲੂਸ਼ਨ ਅਤੇ ਰੰਗ ਡੂੰਘਾਈ ਚੁਣੋ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "ਠੀਕ ਹੈ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "ਸਹਾਇਤਾ"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "ਸੰਰਚਨਾ ਦੀ ਜਾਂਚ"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "ਕੀ ਤੁਸੀਂ ਸੰਰਚਨਾ ਦੀ ਜਾਂਚ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "ਚੇਤਾਵਨੀ: ਇਸ ਗਰਾਫਿਕਸ ਕਾਰਡ ਦੀ ਜਾਂਚ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਰੋਕ ਸਕਦੀ ਹੈ"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"ਗਲਤੀ ਹੋਈ ਹੈ:\n"
+"%s\n"
+"ਕੁਝ ਪੈਰਾਮੀਟਰ ਤਬਦੀਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "%d ਸਕਿੰਟਾਂ ਵਿੱਚ ਖਤਮ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "ਕੀ ਇਹ ਠੀਕ ਵਿਵਸਥਾ ਹੈ?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "ਕੀਬੋਰਡ ਖਾਕਾ: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "ਮਾਊਸ ਕਿਸਮ: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "ਮਾਨੀਟਰ: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "ਮਾਨੀਟਰ ਖਤਿਜੀ-ਸਮਾਕਾਲਤਾ: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "ਮਾਨੀਟਰ ਲੰਬਕਾਰੀ-ਮੁੜਤਾਜ਼ਾ: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "ਗਰਾਫਿਕਸ ਮੈਮੋਰੀ: %s ਕਿਬਾ\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "ਰੰਗ ਡੂੰਘਾਈ: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "ਰੈਜ਼ੋਲੂਸ਼ਨ: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg ਡਰਾਈਵਰ: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Xorg ਸੰਰਚਨਾ"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "ਸ਼ੁਰੂਆਤੀ ਤੇ ਗਰਾਫੀਕਲ ਇੰਟਰਫੇਸ"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"ਇਹ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਗਰਾਫੀਕਲ ਇੰਟਰਫੇਸ (Xorg) ਨੂੰ ਬੂਟਿੰਗ ਦੌਰਾਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਨਿਰਧਾਰਿਤ ਕਰ ਸਕਦਾ "
+"ਹੈ।\n"
+"ਕੀ ਤੁਸੀਂ ਮੁੜ ਚਲਾਉਣ ਸਮੇਂ Xorg ਸ਼ੁਰੂ ਕਰਨਾ ਪਸੰਦ ਕਰਦੇ ਹੋ?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"ਤੁਹਾਡੇ ਗਰਾਫਿਕ ਕਾਰਡ ਵਿੱਚ TV-OUT ਕੁਨੈਕਟਰ ਜਾਪਦਾ ਹੈ।\n"
+"ਇਹ ਫਰੇਮ-ਬਫਰ ਵਰਤ ਕੇ ਕੰਮ ਕਰਨ ਲਈ ਸੰਰਚਿਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।\n"
+"\n"
+"ਇਹ ਲਈ ਤੁਹਾਨੂੰ ਕੰਪਿਊਟਰ ਬੂਟ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣਾ ਗਰਾਫਿਕ ਕਾਰਡ ਆਪਣੇ TV ਨਾਲ ਜੋੜਨਾ ਪਵੇਗਾ।\n"
+"ਫਿਰ ਬੂਟ-ਲੋਡਰ ਵਿੱਚ \"TVout\" ਇੰਦਰਾਜ ਚੁਣੋ\n"
+"\n"
+"ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "ਤੁਹਾਡਾ TV ਕਿਹੜਾ norm ਵਰਤ ਰਿਹਾ ਹੈ?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "ਚੈੱਕ (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "ਜਰਮਨ"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "ਡਵੋਰਕ"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "ਸਪੇਨੀ"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "ਫੈਨਿਸ਼"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "ਫਰੈਂਚ"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "UK ਕੀਬੋਰਡ"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "ਨਾਰਵੇਜੀਅਨ"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "ਪੋਲੈਂਡੀ"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "ਰੂਸੀ"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "ਸਵੈਡਿਸ਼"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "US ਕੀਬੋਰਡ"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "ਅਲਬੇਨੀਅਨ"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "ਅਮਰੀਕੀ (ਪੁਰਾਣਾ)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "ਅਮਰੀਕਨ (ਟਾਈਪਰਾਈਟਰ)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "ਅਮਰੀਕਨ (ਬੋਲੀ ਮੁਤਾਬਕ)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "ਅਰਬੀ"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "ਅਜ਼ਰਬਾਈਜਾਨੀ (ਲੈਟਿਨ)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "ਬੈਲਜੀਅਨ"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "ਬੰਗਾਲੀ (ਇੰਸਕ੍ਰਿਪਟ)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "ਬੰਗਾਲੀ (ਪਰਭਾਤ)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "ਬੁਲਗਾਰੀਅਨ (ਬੋਲੀ ਮਤਾਬਕ)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "ਬੁਲਗਾਰੀਅਨ (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "ਬਰਜ਼ੀਲੀ (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "ਬੋਸਨੀਅਨ"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "ਡਜ਼ੋਂਖਾ/ਤਿੱਬਤੀ"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "ਬੇਲਾਰੂਸੀ"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "ਸਵਿਸ (ਜਰਮਨ ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "ਸਵਿਸ (ਫਰੈਂਚ ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "ਚੇਰੂਕੀ ਸਿਲੇਬਿਕਸ"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "ਚੈੱਕ (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "ਜਰਮਨ (ਬਿਨਾ ਡੈੱਡ ਸਵਿੱਚ)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "ਦੇਵਨਾਗਰੀ"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "ਡੈਨਿਸ਼"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "ਡਵਿਰਕ (US)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "ਡਵੋਰਕ (ਇਸਪੇਰਾਂਟੋ)"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "ਡਵੋਰਕ (ਫਰੈਂਚ)"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "ਡਵੋਰਕ (UK)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "ਡਵੋਰਕ (ਨਾਰਵੇਜੀਅਨ)"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "ਡਵੋਰਕ (ਪੌਲਿਸ਼)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "ਡਵੋਰਕ (ਸਵੈਡਿਸ਼)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "ਇਸਟੋਨੀਅਨ"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "ਫੈਰੋਈਜ਼"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "ਜੀਓਰਜੀਅਨ (\"ਰੂਸੀ\" ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "ਜੀਓਰਜੀਅਨ (\"ਲੈਟਿਨ\" ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "ਗਰੀਕ"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "ਗਰੀਕ (ਪੌਲੀਟੋਨਿਕ)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "ਗੁਜਰਾਤੀ"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "ਗੁਰਮੁਖੀ"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "ਕਰੋਆਟੀਅਨ"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "ਹੁੰਗਾਰੀਅਨ"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "ਇਰਿਸ਼"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "ਇਨੁਕਟੀਟੁਟ"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "ਇਸਰਾਈਲੀ"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "ਇਸਰਾਈਲੀ (ਬੋਲੀ-ਅਧਾਰਿਤ)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "ਇਰਾਨੀ"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "ਟਾਪੂਿਕ"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "ਇਟਲੀਅਨ"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "ਜਪਾਨੀ 106 ਕੁੰਜੀਆਂ"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "ਕਾਨਾਡਾ"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "ਕਾਈਰਗਈਜ਼"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "ਕੋਰੀਅਨ"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "ਕੁਰਡਿਸ਼ (ਅਰਬਿਕ ਸਕਰਿਪਟ)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "ਲੈਟਿਨ ਅਮਰੀਕਨ"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "ਲਾਓਟੀਅਨ"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "ਲਿਥੂਨੀਅਨ ਅਜ਼ਰਟੀ (ਪੁਰਾਣੀ)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "ਲਿਥੂਨੀਅਨ ਅਜ਼ਰਟੀ (ਨਵੀਂ)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "ਲਿਥੂਨੀਅਨ \"ਅੰਕ ਕਤਾਰ\" ਕੁਵੇਰਟੀ"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "ਲਿਥੂਨੀਅਨ \"ਬੋਲੀ-ਅਧਾਰਿਤ\" ਕੁਵੇਰਟੀ"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "ਲਾਟਵਿਨ"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "ਮਲਿਆਲਮ"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "ਮੈਕੇਡੋਨੀਅਨ"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "ਮਯਾਨਮਾਰ (ਬਰਮੀਸ)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "ਮੰਗੋਲੀਅਨ (ਸਿਰਿੱਲਿਕ)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "ਮਲਟੀਸ (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "ਮਲਟੀਸ (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "ਡੱਚ"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "ਉੜੀਆ"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "ਪੌਲਿਸ਼ (ਕਵੈਰਟੀ ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "ਪੌਲਿਸ਼ (ਕਵੈਰਟਜ਼ ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "ਪਾਸ਼ਟੋ"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "ਪੋਰਤੂਗੈਈਸ"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "ਕੈਨੇਡੀਅਨ (ਕੂਈਬੇਕ)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "ਰੋਮਾਨੀਅਨ (ਕਵੈਰਟਜ਼)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "ਰੋਮਾਨੀਅਨ (ਕਵੇਰਟੀ)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "ਰੂਸੀ (ਬੋਲੀ-ਅਧਾਰਿਤ)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "ਸਲੋਵੇਨੀਅਨ"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "ਸਲੋਵਾਕੀਅਨ (ਕਵੇਰਟਜ਼)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "ਸਲੋਵਾਕੀਅਨ (ਕਵੇਰਟੀ)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "ਸਾਮੀ (ਨਾਰਵੇਜੀਅਨ)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "ਸਾਮੀ (ਸਵੈਡਿਸ਼/ਫਿਨਿਸ਼)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "ਸਿੰਧੀ"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "ਸਰਬੀਅਨ (ਸਿਰਿੱਲਿਕ)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "ਸਾਇਰਿਆਕ"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "ਸਾਇਰਿਆਕ (ਬੋਲੀ-ਅਧਾਰਿਤ)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "ਤੇਲਗੂ"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "ਤਾਮਿਲ (ISCII-ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "ਤਾਮਿਲ (ਟਾਈਪ-ਰਾਈਟਰ-ਖਾਕਾ)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "ਥਾਈ (ਕੇਡਮਾਨੀ)"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "ਥਾਈ ((TIS-820)"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "ਥਾਈ (ਪਾਟਾਚੋਟੇ)"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "ਟਾਜਿਕ"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "ਤੁਰਕਮੇਨ"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "ਤੁਰਕਿਸ਼ (ਪੁਰਾਣਾ \"F\" ਮਾਡਲ)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "ਤੁਰਕਿਸ਼ (ਨਵਾਂ \"Q\" ਮਾਡਲ)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "ਯੁਕਰੇਨੀਅਨ"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "ਉਰਦੂ ਕੀਬੋਰਡ"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "US ਕੀਬੋਰਡ ( ਅੰਤਰਰਾਸ਼ਟਰੀ)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "ਉਜ਼ਬੇਕ (ਸਿਰਿੱਲਿਕ)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "ਵੀਅਤਨਾਮੀ \"ਅੰਕੀ ਕਤਾਰ\" ਕਵੇਰਟੀ"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "ਯੂਗੋਸਲਾਵੀਅਨ (ਲੈਟਿਨ)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "ਸੱਜੀ Alt ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "ਦੋਨੋ Shift ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Control ਅਤੇ Shift ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Shift ਅਤੇ CapsLock ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl ਅਤੇ Alt ਸਵਿੱਚਾਂ ਇਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt ਅਤੇ Shift ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"ਮੇਨੂ\" ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "ਖੱਬੀ \"Windows\" ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "ਸੱਜੀ \"Windows\" ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "ਦੋਨੋ Control ਸਵਿੱਚਾਂ ਇਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "ਦੋਨੋ Alt ਸਵਿੱਚਾਂ ਇਕੋ-ਸਮੇਂ"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "ਖੱਬੀ Shift ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "ਸੱਜੀ Shift ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "ਖੱਬੀ Alt ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "ਖੱਬੀ Control ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "ਸੱਜੀ Control ਸਵਿੱਚ"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"ਇੱਥੇ ਤੁਸੀਂ ਸਵਿੱਚ ਜਾਂ ਸਵਿੱਚ ਸੰਬੰਧ ਚੁਣ ਸਕਦੇ ਹੋ ਜੋ ਵੱਖ-ਵੱਖ \n"
+"ਕੀਬੋਰਡ ਵਿੱਚ ਤਬਦੀਲ ਹੋਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹਨ\n"
+"(ਉਦਾਹਰਨ: ਲੈਟਿਨ ਅਤੇ ਨਾਨ ਲੈਟਿਨ)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "ਚੇਤਾਵਨੀ"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"ਇਹ ਵਿਵਸਥਾ ਇੰਸਟਾਲੇਸ਼ਨ ਤੋਂ ਬਾਅਦ ਸਰਗਰਮ ਹੋਵੇਗੀ। ਇੰਸਟਾਲੇਸ਼ਨ\n"
+"ਦੌਰਾਨ, ਤੁਹਾਨੂੰ ਵੱਖ-ਵੱਖ ਕੀਬੋਰਡ ਖਾਕਿਆਂ ਵਿੱਚ ਤਬਦੀਲੀ ਲਈ ਸੱਜੀ\n"
+"ਕੰਟਰੋਲ ਸਵਿੱਚ ਵਰਤਣ ਦੀ ਲੋੜ ਪਵੇਗੀ।"
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "ਸੰਨ - ਮਾਊਸ"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "ਮਿਆਰੀ"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "ਲੌਜੀਟਿਕ ਮਾਊਸਮੈਨ+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "ਸਧਾਰਨ PS2 ਪਹੀਆ ਮਾਊਸ"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "ਗਲਾਈਡ-ਬਿੰਦੂ"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "ਸਵੈ-ਚਾਲਿਤ"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "ਕੇਨਸਿੰਗਟੋਨ ਥਿੰਕਿੰਗ ਮਾਊਸ"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "ਸਧਾਰਨ ਨੈੱਟ-ਮਾਊਸ"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "ਸਧਾਰਨ ਨੈੱਟ-ਸਕਰਾਲ"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਝਲਕਾਰਾ"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 ਬਟਨ"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "ਸਧਾਰਨ 2 ਬਟਨ ਮਾਊਸ"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "ਪਹਿਆ ਸਮਰੂਪ ਨਾਲ ਸਧਾਰਨ 3 ਬਟਨ ਮਾਊਸ"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "ਚੱਕਰ"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "ਸੀਰੀਅਲ"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "ਸਧਾਰਨ 3 ਬਟਨ ਮਾਊਸ"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਇੰਟੈਲੀ-ਮਾਊਸ"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "ਲੌਜਿਟਿਕ ਮਾਊਸ-ਮੈਨ"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਲੌਜਿਟਿਕ ਮਾਊਸ-ਮੈਨ"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "ਮਾਊਸ ਸਿਸਟਮ"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "ਲੌਜੀਟਿਕ CC ਲੜੀ"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਲੌਜੀਟਿਕ CC ਲੜੀ"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "ਲੌਜੀਟਿਕ ਮਾਊਸਮੈਨ+/ਪਹਿਲਾਮਾਊਸ+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM ਲੜੀ"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM ਹਿੱਟਟੈਬਲਿਟ"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "ਲੌਜੀਟਿਕ ਮਾਊਸ (ਸੀਰੀਅਲ, ਪੁਰਾਣਾ C7 ਕਿਸਮ)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਲੌਜੀਟਿਕ ਮਾਊਸ (ਸੀਰੀਅਲ, ਪੁਰਾਣਾ C7 ਕਿਸਮ)"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਕੇਨਸਿੰਗਟੋਨ ਥਿੰਕਿੰਗ ਮਾਊਸ"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "ਬਸਮਾਊਸ"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 ਬਟਨ"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 ਬਟਨ"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ 3 ਬਟਨ"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "ਸਰਬ-ਵਿਆਪਕ"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "ਕੋਈ PS/2 ਤੇ USB ਮਾਊਸ"
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਝਲਕਾਰਾ"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "ਕੋਈ ਮਾਊਸ ਨਹੀਂ"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਮਾਊਸ ਕਿਸਮ ਚੁਣੋ।"
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "ਦਸਤੀ ਜੰਤਰ"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "ਤੀਜਾ ਬਟਨ ਸਮਰੂਪ?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "ਮਾਊਸ ਪੋਰਟ"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਾਊਸ ਜੋੜਨ ਲਈ ਸੀਰੀਅਲ ਪੋਰਟ ਚੁਣੋ।"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "ਬਟਨ ਸਮਰੂਪਤਾ"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "ਬਟਨ 2 ਸਮਰੂਪਤਾ"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "ਬਟਨ 3 ਸਮਰੂਪਤਾ"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਾਊਸ ਜਾਂਚ ਕਰੋ"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "ਮਾਊਸ ਸਰਗਰਮ ਕਰਨ ਲਈ,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "ਆਪਣਾ ਪਹੀਆ ਹਿਲਾਓ!"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "ਤੁਹਾਨੂੰ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣ ਲਈ ਮੁੜ ਚਲਾਉਣ ਦੀ ਲੋੜ ਹੈ"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "ਕੀ-ਬੋਰਡ"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ, ਆਪਣਾ ਕੀਬੋਰਡ ਖਾਕਾ ਚੁਣੋ।"
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "ਕੀ-ਬੋਰਡ ਖਾਕ"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "ਕੀਬੋਰਡ"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "ਕੀ ਤੁਸੀਂ ਕੰਸੋਲ ਵਿੱਚ ਹਟਾਉਣ ਕਿਰਿਆ ਵਾਪਿਸ ਲਿਆਉਣ ਲਈ ਬੈਕਸਪੇਸ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "ਮਾਊਸ ਜਾਂਚ"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਮਾਊਸ ਦੀ ਜਾਂਚ ਕਰੋ:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "ਉਪਭੋਗੀ umask"
+
+#~ msgid "Please wait"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "ਬੂਟ-ਲੋਡਰ ਇੰਸਟਾਲੇਸ਼ਨ ਹੋ ਰਹੀ ਹੈ"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO ਡਰਾਈਵ %s ਨੂੰ ਨਵਾਂ ਵਾਲਿਅਮ ID ਨਿਰਧਾਰਿਤ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ। ਭਾਵੇਂ, \n"
+#~ "Windows NT, 2000, ਜਾਂ XP ਬੂਟ ਡਿਸਕ ਤਬਦੀਲ ਕਰਨੀ ਖਤਰਨਾਕ Windows ਗਲਤੀ ਹੈ।\n"
+#~ "ਇਹ ਸਾਵਧਾਨੀ Windows 95 ਜਾਂ 98, ਜਾਂ NT ਡਾਟਾ ਡਿਸਕ ਨੂੰ ਲਾਗੂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।\n"
+#~ "\n"
+#~ "ਨਵਾਂ ਵਾਲਿਅਮ ID ਨਿਰਧਾਰਿਤ ਕਰੋ?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "ਬੂਟ-ਲੋਡਰ ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫਲ ਹੋਈ। ਹੇਠਲੀ ਗਲਤੀ ਹੋਈ ਹੈ:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "ਤੁਹਾਨੂੰ ਬੂਟ-ਲੋਡਰ ਯੋਗ ਕਰਨ ਲਈ ਆਪਣਾ Open Firmware ਬੂਟ-ਜੰਤਰ ਤਬਦੀਲ \n"
+#~ "ਕਰਨ ਦੀ ਜਰੂਰਤ ਪੈ ਸਕਦੀ ਹੈ। ਜੇ ਤੁਸੀਂ ਮੁੜ ਚਲਾਉਣ ਤੇ ਬੂਟ-ਲੋਡਰ ਪਰੌਂਪਟ ਨਹੀਂ \n"
+#~ "ਵੇਖਦੇ, ਮੁੜ ਚੱਲਣ ਤੇ Command-Option-O-F ਦਬਾ ਕੇ ਰੱਖੋ ਅਤੇ ਇਹ ਭਰੋ:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ "ਫਿਰ ਲਿਖੋ:shut-down\n"
+#~ "ਅਗਲੀ ਬੂਟ ਤੇ ਤੁਹਾਨੂੰ ਬੂਟ-ਲੋਡਰ ਪਰੌਂਪਟ ਦਿਸਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਇੱਕ ਭਾਗ ਤੇ ਬੂਟ-ਲੋਡਰ ਇੰਸਟਾਲ ਕਰਨ ਬਾਰੇ ਫੈਸਲਾ ਕੀਤਾ ਹੈ।\n"
+#~ "ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਪਹਿਲਾਂ ਹੀ ਬੂਟ ਕੀਤੀ ਹਾਰਡ ਡਰਾਈਵ ਤੇ ਬੂਟ-ਲੋਡਰ ਹੈ (ਜਿਵੇਂ: ਸਿਸਟਮ "
+#~ "ਕਮਾਂਡਰ)।\n"
+#~ "\n"
+#~ "ਤੁਸੀਂ ਕਿਸ ਡਰਾਈਵ ਤੋਂ ਬੂਟ ਕਰਾ ਰਹੇ ਹੋ?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "ਡਰਾਈਵ ਦਾ ਪਹਿਲਾ ਹਿੱਸਾ (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "root ਭਾਗ ਦਾ ਪਹਿਲਾ ਹਿੱਸਾ"
+
+#~ msgid "On Floppy"
+#~ msgstr "ਫਲਾਪੀ ਤੇ"
+
+#~ msgid "Skip"
+#~ msgstr "ਛੱਡੋ"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "LILO/grub ਇੰਸਟਾਲੇਸ਼ਨ"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "ਤੁਸੀ ਬੂਟ-ਲੋਡਰ ਕਿੱਥੇ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੋਗੇ?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "ਬੂਟ ਸ਼ੈਲੀ ਸੰਰਚਨਾ"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "ਬੂਟ-ਲੋਡਰ ਮੁੱਖ ਚੋਣ"
+
+#~ msgid "Bootloader"
+#~ msgstr "ਬੂਟ-ਲੋਡਰ"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "ਵਰਤਣ ਲਈ ਬੂਟ-ਲੋਡਰ"
+
+#~ msgid "Boot device"
+#~ msgstr "ਬੂਟ ਜੰਤਰ"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "ਮੂਲ ਪ੍ਰਤੀਬਿੰਬ ਬੂਟ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਵਿਖਾਓ"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "ACPI ਯੋਗ ਕਰੋ"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "ACPI ਯੋਗ ਕਰੋ"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "ACPI ਯੋਗ ਕਰੋ"
+
+#~ msgid "Password"
+#~ msgstr "ਗੁਪਤ-ਕੋਡ"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "ਗੁਪਤ-ਕੋਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ"
+
+#~ msgid "Please try again"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਫਿਰ ਕੋਸ਼ਿਸ਼ ਕਰੋ"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "ਤੁਸੀਂ ਮਾਊਂਟ %s ਸਥਿਤੀ ਲਈ ਇਨਕ੍ਰਿਪਡ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
+
+#~ msgid "Password (again)"
+#~ msgstr "ਗੁਪਤ-ਕੋਡ (ਫਿਰ)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "ਕਮਾਂਡ ਲਾਈਨ ਚੋਣ ਮਨਾਹੀ"
+
+#~ msgid "restrict"
+#~ msgstr "ਮਨਾਹੀ"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr "ਚੋਣ ``ਕਮਾਂਡ ਲਾਈਨ ਚੋਣ ਮਨਾਹੀ'' ਦਾ ਗੁਪਤ-ਕੋਡ ਤੋਂ ਬਿਨਾ ਕੋਈ ਮਤਲਬ ਨਹੀਂ"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "ਹਰੇਕ ਬੂਟ ਦੌਰਾਨ /tmp ਸਾਫ ਕਰੋ"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "ਜੇ ਲੋੜ ਹੈ RAM ਅਕਾਰ ਠੀਕ ਕਰੋ (%d ਮੈਬਾ ਲੱਭਿਆ ਹੈ)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "ਮੈਬਾ ਵਿੱਚ ਰੈਮ ਅਕਾਰ ਦਿਓ"
+
+#~ msgid "Init Message"
+#~ msgstr "Init ਸੁਨੇਹਾ"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "ਫਰਮਵੇਅਰ ਦ੍ਰਿਸ਼ ਖੋਲੋ"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "ਕਰਨਲ ਬੂਟ ਮਿਆਦ"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "CD ਬੂਟ ਯੋਗ?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "OF ਬੂਟ ਯੋਗ?"
+
+#~ msgid "Default OS?"
+#~ msgstr "ਮੂਲ OS?"
+
+#~ msgid "Image"
+#~ msgstr "ਚਿੱਤਰ"
+
+#~ msgid "Root"
+#~ msgstr "ਰੂਟ"
+
+#~ msgid "Append"
+#~ msgstr "ਜੋੜਨਾ"
+
+#~ msgid "Video mode"
+#~ msgstr "ਵੀਡੀਓ ਵਿਧੀ"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "ਨੈੱਟਵਰਕ ਪਰੋਫਾਈਲ"
+
+#~ msgid "Label"
+#~ msgstr "ਲੇਬਲ"
+
+#~ msgid "Default"
+#~ msgstr "ਮੂਲ"
+
+#~ msgid "NoVideo"
+#~ msgstr "ਕੋਈ ਵੀਡੀਓ ਨਹੀਂ"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "ਖਾਲੀ ਲੇਬਲ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "ਤੁਹਾਨੂੰ ਕਰਨਲ ਪ੍ਰਤੀਬਿੰਬ ਦਰਸਾਉਣਾ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "ਤੁਹਾਨੂੰ ਰੂਟ ਭਾਗ ਦਰਸਾਉਣਾ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "This label is already used"
+#~ msgstr "ਇਹ ਲੇਬਲ ਪਹਿਲਾਂ ਹੀ ਵਰਤਿਆ ਹੈ"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "ਤੁਸੀਂ ਕਿਸ ਕਿਸਮ ਦੀ ਇੰਦਰਾਜ ਸ਼ਾਮਿਲ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Linux"
+#~ msgstr "ਲੀਨਕਸ"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "ਹੋਰ OS (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "ਹੋਰ OS (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "ਹੋਰ OS (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "ਇੱਥੇ ਤੁਹਾਡੇ ਬੂਟ ਮੇਨੂ ਉਪਰਲੀਆਂ ਇੰਦਰਾਜਾਂ ਹਨ।\n"
+#~ "ਤੁਸੀਂ ਵਾਧੂ ਇੰਦਰਾਜਾਂ ਬਣਾ ਜਾਂ ਮੌਜੂਦ ਨੂੰ ਤਬਦੀਲ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "access to X programs"
+#~ msgstr "X ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਪਹੁੰਚ"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "rpm ਸੰਦਾਂ ਨੂੰ ਪਹੁੰਚ"
+
+#~ msgid "allow \"su\""
+#~ msgstr "\"su\" ਲਾਗੂ ਕਰੋ"
+
+#~ msgid "access to administrative files"
+#~ msgstr "ਪ੍ਰਬੰਧਕੀ ਫਾਇਲਾਂ ਨੂੰ ਪਹੁੰਚ"
+
+#~ msgid "access to network tools"
+#~ msgstr "ਨੈੱਟਵਰਕ ਸੰਦਾਂ ਨੂੰ ਪਹੁੰਚ"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "ਕੰਪਾਇਲੇਸਨ ਸੰਦਾਂ ਨੂੰ ਪਹੁੰਚ"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(%s ਪਹਿਲਾਂ ਸ਼ਾਮਿਲ ਹੈ)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਪਭੋਗੀ ਨਾਂ ਦਿਓ"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr "ਉਪਭੋਗੀ ਨਾਂ ਵਿੱਚ ਸਿਰਫ ਛੋਟੇ ਅੱਖਰ, ਅੰਕ, `-' ਅਤੇ `_' ਸ਼ਾਮਿਲ ਹੋਣੇ ਜਰੂਰੀ ਹਨ"
+
+#~ msgid "The user name is too long"
+#~ msgstr "ਉਪਭੋਗੀ ਨਾਂ ਬਹੁਤ ਲੰਬਾ ਹੈ"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "ਇਹ ਉਪਭੋਗੀ ਨਾਂ ਪਹਿਲਾ ਹੀ ਸ਼ਾਮਿਲ ਹੈ"
+
+#, fuzzy
+#~ msgid "User ID"
+#~ msgstr "ਉਪਭੋਗੀ:"
+
+#, fuzzy
+#~ msgid "Group ID"
+#~ msgstr "ਸਮੂਹ"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "ਚੋਣ %s ਅੰਕ ਹੋਣਾ ਜਰੂਰੀ ਹੈ!"
+
+#~ msgid "Add user"
+#~ msgstr "ਉਪਭੋਗੀ ਸ਼ਾਮਿਲ"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ਉਪਭੋਗੀ ਭਰੋ\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "ਸਮਾਪਤ"
+
+#~ msgid "Accept user"
+#~ msgstr "ਉਪਭੋਗੀ ਸਵੀਕਾਰ"
+
+#~ msgid "Real name"
+#~ msgstr "ਅਸਲੀ ਨਾਂ"
+
+#~ msgid "Login name"
+#~ msgstr "ਲਾਗਇਨ ਨਾਂ"
+
+#~ msgid "Shell"
+#~ msgstr "ਸ਼ੈਲ"
+
+#~ msgid "Icon"
+#~ msgstr "ਆਈਕਾਨ"
+
+#~ msgid "Autologin"
+#~ msgstr "ਸਵੈ-ਲਾਗਇਨ"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr "ਮੈਂ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਇੱਕ ਉਪਭੋਗੀ ਦੇ ਸਵੈ-ਲਾਗਇਨ ਹੋਣ ਲਈ ਨਿਰਧਾਰਿਤ ਕਰ ਸਕਦਾ ਹਾਂ।"
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "ਕੀ ਤੁਸੀਂ ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਵਰਤਣੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "ਮੂਲ ਉਪਭੋਗੀ ਚੁਣੋ:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "ਚਲਾਉਣ ਲਈ ਝਰੋਖਾ ਪ੍ਰਬੰਧਕ ਚੁਣੋ:"
+
+#~ msgid "License agreement"
+#~ msgstr "ਲਾਈਸਿੰਸ ਸਹਿਮਤੀ"
+
+#~ msgid "Release Notes"
+#~ msgstr "ਜਾਰੀ ਸੂਚਨਾ"
+
+#~ msgid "Accept"
+#~ msgstr "ਸਵੀਕਾਰ"
+
+#~ msgid "Refuse"
+#~ msgstr "ਇਨਕਾਰ"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਵਰਤਣ ਲਈ ਬੋਲੀ ਚੁਣੋ।"
+
+#~ msgid "Language choice"
+#~ msgstr "ਬੋਲੀ ਚੋਣ"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਕਈ ਬੋਲੀਆਂ ਨੂੰ ਸਹਿਯੋਗ ਦੇ ਸਕਦਾ ਹੈ। ਭਾਸ਼ਾ ਜੋ\n"
+#~ "ਤੁਸੀਂ ਇੰਸਟਾਲ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ ਚੁਣੋ। ਇਹ ਉਪਲੱਬਧ ਹੋਣਗੇ ਜਦੋਂ ਤੁਹਾਡੀ\n"
+#~ "ਇੰਸਟਾਲੇਸ਼ਨ ਸਮਾਪਤ ਹੋ ਗਈ ਅਤੇ ਆਪਣਾ ਸਿਸਟਮ ਸਿਸਟਮ ਮੁੜ ਚਲਾਇਆ।"
+
+#~ msgid "All languages"
+#~ msgstr "ਸਭ ਬੋਲੀਆਂ"
+
+#~ msgid "Country / Region"
+#~ msgstr "ਦੇਸ਼ / ਖੇਤਰ"
+
+#~ msgid "Please choose your country."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਦੇਸ਼ ਚੁਣੋ।"
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "ਇੱਥੇ ਉਪਲੱਬਧ ਦੇਸ਼ਾਂ ਦੀ ਪੂਰੀ ਸੂਚੀ ਹੈ"
+
+#~ msgid "Other Countries"
+#~ msgstr "ਹੋਰ ਦੇਸ਼"
+
+#~ msgid "Advanced"
+#~ msgstr "ਤਕਨੀਕੀ"
+
+#~ msgid "Input method:"
+#~ msgstr "ਇੰਪੁੱਟ ਵਿਧੀ:"
+
+#~ msgid "None"
+#~ msgstr "ਕੋਈ ਨਹੀਂ"
+
+#~ msgid "No sharing"
+#~ msgstr "ਕੋਈ ਸ਼ੇਅਰਿੰਗ ਨਹੀਂ"
+
+#~ msgid "Allow all users"
+#~ msgstr "ਸਭ ਉਪਭੋਗੀਆਂ ਨੂੰ ਇਜਾਜ਼ਤ ਦਿਓ"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "ਕੀ ਤੁਸੀਂ ਉਪਭੋਗੀਆਂ ਨੂੰ ਉਹਨਾਂ ਦੀਆਂ ਕੁਝ ਡਾਇਰੈਕਟਰੀਆਂ ਸ਼ੇਅਰ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓਗੇ?\n"
+#~ "ਇਸ ਦੀ ਮਨਜੂਰੀ ਨਾਲ ਉਪਭੋਗੀ ਨੂੰ ਕੁਕਿਊਰਰ ਅਤੇ ਨਟਾਲਿਸ ਵਿੱਚ \"ਸ਼ੇਅਰ\" ਤੇ ਕਲਿੱਕ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ "
+#~ "ਹੋਵੇਗੀ।\n"
+#~ "\n"
+#~ "\n"
+#~ "\"ਪਸੰਦੀਦਾ\" ਪ੍ਰਤੀ-ਉਪਭੋਗੀ ਮਨਜੂਰੀ ਦਿੰਦਾ ਹੂ।\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr ""
+#~ "NFS: ਵਾਧੂ ਪੁਰਾਣਾ ਯੂਨਿਕਸ ਫਾਇਲ ਸ਼ੇਅਰਿੰਗ ਸਿਸਟਮ, Mac ਅਤੇ Windows ਤੇ ਘੱਟ ਸਹਿਯੋਗ ਨਾਲ।"
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: Windows ਦੁਆਰਾ ਵਰਤਿਆ ਫਾਇਲ ਸ਼ੇਅਰਿੰਗ ਸਿਸਟਮ, Mac OS X ਅਤੇ ਬਹੁਤੇ ਨਵੀਨ ਲੀਨਕਸ "
+#~ "ਸਿਸਟਮ।"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "ਤੁਸੀਂ NFS ਜਾਂ SMB ਵਰਤ ਕੇ ਨਿਰਯਾਤ ਕਰ ਸਕਦੇ ਹੋ। ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ ਤੁਸੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ।"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "userdrake ਚਲਾਓ"
+
+#~ msgid "Close"
+#~ msgstr "ਬੰਦ ਕਰੋ"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "ਪ੍ਰਤੀ-ਉਪਭੋਗੀ ਸ਼ੇਅਰਿੰਗ \"fileshare\" ਸਮੂਹ ਵਰਤਦਾ ਹੈ। ਤੁਸੀਂ ਇਸ \n"
+#~ "ਸਮੂਹ ਵਿੱਚ ਉਪਭੋਗੀ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ userdrake ਵਰਤ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਲਾਗ-ਆਊਟ ਕਰੋ ਅਤੇ Ctrl-Alt-BackSpace ਵਰਤੋ"
+
+#~ msgid "You need to log out and back in again for changes to take effect"
+#~ msgstr "ਤੁਹਾਨੂੰ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣ ਲਈ ਫਿਰ ਬਾਹਰ (ਲਾਗ-ਆਊਟ) ਜਾਣ ਦੀ ਲੋੜ ਹੈ"
+
+#~ msgid "Timezone"
+#~ msgstr "ਸਮਾਂ-ਖੇਤਰ"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "ਤੁਹਾਡਾ ਸਮਾਂ-ਖੇਤਰ ਕਿਹੜਾ ਹੈ?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "ਜੰਤਰ ਘੜੀ ਨੂੰ GMT ਨਿਰਧਾਰਿਤ ਕੀਤਾ"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "ਜੰਤਰ ਘੜੀ ਨੂੰ GMT ਨਿਰਧਾਰਿਤ ਕੀਤਾ"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP ਸਰਵਰ"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "ਸਵੈਚਾਲਤ ਸਮਾਂ ਸਮਕਾਲਤਾ (NTP ਵਰਤ ਰਿਹਾ ਹੈ)"
+
+#~ msgid "Local file"
+#~ msgstr "ਲੋਕਲ ਫਾਇਲ"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Smart Card"
+#~ msgstr "ਸਮਾਰਟ ਕਾਰਡ"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows ਡੋਮੇਨ"
+
+#~ msgid "Active Directory with SFU"
+#~ msgstr "SFU ਨਾਲ ਸਰਗਰਮ ਡਾਇਰੈਕਟਰੀ"
+
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Winbind ਨਾਲ ਸਰਗਰਮ ਡਾਇਰੈਕਟਰੀ"
+
+#~ msgid "Local file:"
+#~ msgstr "ਲੋਕਲ ਫਾਇਲ:"
+
+#~ msgid ""
+#~ "Use local for all authentication and information user tell in local file"
+#~ msgstr "ਸਭ ਪ੍ਰਮਾਣਿਕਤਾ ਅਤੇ ਜਾਣਕਾਰੀ ਜੋ ਉਪਭੋਗੀ ਲੋਕਲ ਫਾਇਲ ਵਿੱਚ ਦੱਸਦਾ ਹੈ ਲਈ ਲੋਕਲ ਵਰਤੋ"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "ਆਪਣੇ ਕੰਪਿਊਟਰ ਨੂੰ ਕੁਝ ਜਾਂ ਸਾਰੀਆਂ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ LDAP ਵਰਤਣ ਲਈ ਦੱਸੋ। LDAP ਤੁਹਾਡੀ ਸੰਗਠਨ "
+#~ "ਵਿਚਲੀ ਜਾਣਕਾਰੀ ਦੀਆਂ ਕੁਝ ਕਿਸਮਾਂ ਇਕੱਠੀਆਂ ਕਰਦਾ ਹੈ।"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "ਤੁਹਾਨੂੰ ਇੱਕੋ ਨੈੱਟਵਰਕ ਜਾਣਕਾਰੀ ਸੇਵਾ ਡੋਮੇਨ ਵਿੱਚ ਸਾਂਝੇ ਗੁਪਤ-ਕੋਡ ਅਤੇ ਸਮੂਹ ਫਾਇਲ ਨਾਲ ਕੰਪਿਊਟਰਾਂ ਦੇ "
+#~ "ਸਮੂਹ ਨੂੰ ਚਲਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ।"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows ਡੋਮੇਨ:"
+
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "Winbind ਸਿਸਟਮ ਨੂੰ Windows ਡੋਮੇਨ ਵਿੱਚ ਜਾਣਕਾਰੀ ਅਤੇ ਪ੍ਰਮਾਣਿਕਤਾ ਉਪਭੋਗੀ ਮੁੜ-ਪ੍ਰਾਪਤ ਕਰਨ "
+#~ "ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ।"
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "SFU ਨਾਲ ਸਰਗਰਮ ਡਾਇਰੈਕਟਰੀ:"
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Winbind ਨਾਲ ਸਰਗਰਮ ਡਾਇਰੈਕਟਰੀ:"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "LDAP ਪ੍ਰਮਾਣਿਕਤਾ"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP ਮੁੱਢਲਾ dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP ਸਰਵਰ"
+
+#~ msgid "simple"
+#~ msgstr "ਸਧਾਰਨ"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "ਸੁਰੱਖਿਆ ਖਾਕਾ (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਸਰਗਰਮ ਡਾਇਰੈਕਟਰੀ"
+
+#~ msgid "Domain"
+#~ msgstr "ਡੋਮੇਨ"
+
+#~ msgid "Server"
+#~ msgstr "ਸਰਵਰ"
+
+#~ msgid "LDAP users database"
+#~ msgstr "LDAP ਉਪਭੋਗੀ ਡਾਟਾਬੇਸ"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "ਨਕਲੀ BIND ਵਰਤੋ"
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "LDAP ਉਪਭੋਗੀ ਨੂੰ ਸਰਗਰਮ ਡਾਇਰੈਕਟਰੀ ਵੇਖਣ ਦੀ ਇਜਾਜ਼ਤ ਹੈ"
+
+#~ msgid "Password for user"
+#~ msgstr "ਉਪਭੋਗੀ ਲਈ ਗੁਪਤ-ਕੋਡ"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "ਪ੍ਰਮਾਣਕਿਤਾ NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS ਡੋਮੇਨ"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS ਸਰਵਰ"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "ਇਸ ਨੂੰ W2K PDC ਲਈ ਕੰਮ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਸੰਭਾਵੀ ਹੀ admin ਚਲਾਉਣ ਦੀ ਲੋੜ ਪਵੇਗੀ: C:\\>ਨੈੱਟ "
+#~ "ਲੋਕਲ-ਗਰੁੱਪ \"Pre-Windows 2000 ਅਨੁਕੂਲ ਪਹੁੰਚ\" ਹਰੇਕ ਸਰਵਰ ਨੂੰ /ਸ਼ਾਮਿਲ ਅਤੇ ਮੁੜ ਚਲਾਉਂਦਾ ਹੈ।\n"
+#~ "ਤੁਹਾਨੂੰ Windows(TM) ਡੋਮੇਨ ਨਾਲ ਮਸ਼ੀਨ ਜੋੜਨ ਲਈ ਡੋਮੇਨ Admin ਦੇ ਉਪਭੋਗੀ-ਨਾਂ/ਗੁਪਤ-ਕੋਡ ਦੀ ਲੋੜ "
+#~ "ਪਵੇਗੀ।\n"
+#~ "ਜੇ ਹਾਲੇ ਨੈੱਟਵਰਕਿੰਗ ਯੋਗ ਨਹੀਂ, Drakx ਨੈੱਟਵਰਕ ਨਿਰਧਾਰਨ ਪਗ਼ ਤੋਂ ਬਾਅਦ ਜੋੜਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੇਗਾ।\n"
+#~ "ਕੀ ਇਹ ਪਗ਼ ਕੁਝ ਕਾਰਨਾ ਕਰਕੇ ਅਸਫਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਡੋਮੇਨ ਪ੍ਰਮਾਣਿਕਤਾ ਕੰਮ ਨਹੀਂ ਕਰਦੀ, "
+#~ "ਸਿਸਟਮ ਬੂਟ ਹੋਣ ਮਗਰੋਂ ਆਪਣੇ Windows(tm) ਡੋਮੇਨ, ਅਤੇ Admin ਉਪਭੋਗੀ-ਨਾਂ/ਗੁਪਤ-ਕੋਡ ਵਰਤ ਕੇ "
+#~ "'smbpasswd -j DOMAIN -U USER%%PASSWORD' ਚਲਾਓ।\n"
+#~ "ਕਮਾਂਡ 'wbinfo -t' ਜਾਂਚ ਕਰੇਗੀ ਕਿ ਕੀ ਤੁਹਾਡੀ ਪ੍ਰਮਾਣਿਕਤਾ ਸਹੀ ਹੈ ਜਾਂ ਨਹੀਂ।"
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "ਪ੍ਰਮਾਣਿਕਤਾ Windows ਡੋਮੇਨ"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "ਡੋਮੇਨ ਪ੍ਰਬੰਧਕ ਉਪਭੋਗੀ ਨਾਂ"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "ਡੋਮੇਨ ਪ੍ਰਬੰਧਕ ਗੁਪਤ-ਕੋਡ"
+
+#~ msgid "Authentication"
+#~ msgstr "ਪ੍ਰਮਾਣਿਕਤਾ"
+
+#~ msgid "Set administrator (root) password"
+#~ msgstr "ਪ੍ਰਬੰਧਕ (root) ਗੁਪਤ-ਕੋਡ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+
+#~ msgid "Authentication method"
+#~ msgstr "ਪ੍ਰਮਾਣਿਕਤਾ ਵਿਧੀ"
+
+#~ msgid "No password"
+#~ msgstr "ਕੋਈ ਗੁਪਤ-ਕੋਡ ਨਹੀਂ"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "ਇਹ ਗੁਪਤ-ਕੋਡ ਬਹੁਤ ਛੋਟਾ ਹੈ (ਇਹ ਘੱਟੋ-ਘੱਟ %d ਅੱਖਰਾਂ ਦਾ ਹੋਵੇ)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "ਕੋਈ ਨਾ NIS ਡੋਮੇਨ ਨਾਲ ਬਰਾਡਕਾਸਟ ਨਹੀਂ ਵਰਤ ਸਕਦਾ"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ਆਪਰਟਿੰਗ ਸਿਸਟਮ ਚੋਣਕਾਰ ਵੱਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ!\n"
+#~ "\n"
+#~ "ਉਪਰਲੀ ਸੂਚੀ ਵਿੱਚੋਂ ਆਪਰੇਟਿੰਗ ਸਿਸਟਮ ਚੁਣੋ ਜਾਂ\n"
+#~ "ਮੂਲ ਬੂਟ ਲਈ ਉਡੀਕ ਕਰੋ।\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "ਪਾਠ ਮੇਨੂ ਨਾਲ LILO"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "/boot ਵਿੱਚ ਲੋੜੀਂਦੀ ਥਾਂ ਨਹੀਂ ਹੈ"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "ਤੁਸੀਂ %s ਭਾਗ ਤੇ ਬੂਟ ਲੋਡਰ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦੇ\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੀ ਬੂਟ-ਲੋਡਰ ਸੰਰਚਨਾ ਦਾ ਨਵੀਨੀਕਰਨ ਹੋਣਾ ਜਰੂਰੀ ਹੈ ਕਿਉਂਕਿ ਭਾਗ ਮੁੜ ਅੰਕਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "ਬੂਟ-ਲੋਡਰ ਠੀਕ ਤਰਾਂ ਇੰਸਟਾਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਤੁਹਾਨੂੰ ਸੰਕਟ-ਕਾਲੀਨ ਚਲਾਉਣਾ ਪਵੇਗਾ ਅਤੇ \"%s\" "
+#~ "ਚੁਣੋ।"
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "ਬੂਟ ਲੋਡਰ ਮੁੜ ਇੰਸਟਾਲ ਕਰੋ"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "ਕਿਬਾ"
+
+#~ msgid "KB"
+#~ msgstr "ਕਿਬਾ"
+
+#~ msgid "MB"
+#~ msgstr "ਮੈਬਾ"
+
+#~ msgid "GB"
+#~ msgstr "ਗੀਬਾ"
+
+#~ msgid "TB"
+#~ msgstr "ਟੈਬਾ"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d ਮਿੰਟ"
+
+#~ msgid "1 minute"
+#~ msgstr "1 ਮਿੰਟ"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d ਸਕਿੰਟ"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV ਇੱਕ ਪਰੋਟੋਕਾਲ ਹੈ ਜੋ ਤੁਹਾਨੂੰ ਵੈਬ ਸਰਵਰ ਦੀ ਡਾਇਰੈਕਟਰੀ ਲੋਕਲ ਹੀ ਮਾਊਂਟ ਕਰਨ\n"
+#~ "ਦਿੰਦਾ ਹੈ, ਅਤੇ ਇਸ ਨੂੰ ਲੋਕਲ ਫਾਇਲ ਸਿਸਟਮ ਤੌਰ ਤੇ ਸਮਝਦਾ ਹੈ (ਵੈਬ ਸਰਵਰ ਨੂੰ WebDAV ਸਰਵਰ\n"
+#~ "ਤੌਰ ਤੇ ਸੰਰਚਿਤ ਕਰਦਾ ਹੈ)। ਜੇ ਤੁਸੀਂ WebDAV ਮਾਊਂਟ ਸਥਿਤੀ ਸ਼ਾਮਿਲ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ,\n"
+#~ "\"ਨਵਾਂ\" ਚੁਣੋ।"
+
+#~ msgid "New"
+#~ msgstr "ਨਵਾਂ"
+
+#~ msgid "Unmount"
+#~ msgstr "ਅਨ-ਮਾਊਟ"
+
+#~ msgid "Mount"
+#~ msgstr "ਮਾਊਟ"
+
+#~ msgid "Mount point"
+#~ msgstr "ਮਾਂਊਟ ਪੁਆਂਇਟ"
+
+#~ msgid "Error"
+#~ msgstr "ਗਲਤੀ"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ WebDAV ਸਰਵਰ URL ਭਰੋ"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL, http:// ਜਾਂ https:// ਨਾਲ ਸ਼ੁਰੂ ਹੋਣਾ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "Server: "
+#~ msgstr "ਸਰਵਰ:"
+
+#~ msgid "Mount point: "
+#~ msgstr "ਮਾਊਂਟ ਸਥਿਤੀ:"
+
+#~ msgid "Options: %s"
+#~ msgstr "ਚੋਣ: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "ਵਿਭਾਗੀਕਰਨ"
+
+#~ msgid "Read carefully!"
+#~ msgstr "ਧਿਆਨ ਨਾਲ ਪੜੋ!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਆਪਣੇ ਡਾਟੇ ਦਾ ਬੈਕਅੱਪ ਲਵੋ"
+
+#~ msgid "Exit"
+#~ msgstr "ਬਾਹਰ"
+
+#~ msgid "Continue"
+#~ msgstr "ਜਾਰੀ ਰੱਖੋ"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "ਜੇ ਤੁਸੀਂ aboot ਵਰਤਣ ਬਾਰੇ ਸੋਚਿਆ ਹੈ, ਡਿਸਕ ਦੇ ਸ਼ੁਰੂ ਵਿੱਚ ਖਾਲੀ ਥਾਂ (2048 ਸੈਕਟਰ ਕਾਫੀ ਹਨ)\n"
+#~ " ਛੱਡਣ ਦਾ ਧਿਆਨ ਰੱਖੋ।"
+
+#~ msgid "Choose action"
+#~ msgstr "ਕਾਰਵਾਈ ਚੁਣੋ"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਵੱਡਾ ਮਾਈਕ੍ਰੋਸਾਫਟ Windows ਭਾਗ ਹੈ।\n"
+#~ "ਮੈਂ ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਇਸ ਭਾਗ ਨੂੰ ਮੁੜ ਅਕਾਰ ਦੇਣ ਬਾਰੇ ਕਹਿੰਦਾ ਹਾਂ\n"
+#~ "(ਇਸ ਨੂੰ ਦਬਾਓ, ਫਿਰ \"ਮੁੜ-ਅਕਾਰ\" ਦਬਾਓ)"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਭਾਗ ਤੇ ਕਲਿੱਕ ਕਰੋ"
+
+#~ msgid "Details"
+#~ msgstr "ਵੇਰਵਾ"
+
+#~ msgid "No hard drives found"
+#~ msgstr "ਕੋਈ ਹਾਰਡ ਡਰਾਈਵ ਨਹੀਂ ਲੱਭੀ"
+
+#~ msgid "Unknown"
+#~ msgstr "ਅਣਪਛਾਤਾ"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "ਜਰਨਲਾਈਜ਼ਡ FS"
+
+#~ msgid "Swap"
+#~ msgstr "ਸਵੈਪ"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "ਖਾਲੀ"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "ਫਾਇਲ-ਸਿਸਟਮ ਕਿਸਮ:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "ਇਹ ਭਾਗ ਮੁੜ-ਅਕਾਰ ਦੇ ਯੋਗ ਨਹੀਂ"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "ਪਹਿਲਾਂ ``ਅਨ-ਮਾਊਂਟ'' ਵਰਤੋ"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "``%s'' ਵਰਤੋ"
+
+#~ msgid "Type"
+#~ msgstr "ਕਿਸਮ"
+
+#~ msgid "Choose another partition"
+#~ msgstr "ਹੋਰ ਭਾਗ ਵਰਤੋ"
+
+#~ msgid "Choose a partition"
+#~ msgstr "ਭਾਗ ਚੁਣੋ"
+
+#~ msgid "Undo"
+#~ msgstr "ਵਾਪਿਸ"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "ਸਧਾਰਨ ਵਿਧੀ ਤਬਦੀਲ ਕਰੋ"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "ਮਾਹਿਰ ਵਿਧੀ ਤਬਦੀਲ ਕਰੋ"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "ਸੰਰਚਨਾ"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "ਕਿਸੇ ਤਰਾਂ ਜਾਰੀ ਰਹੋ?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "ਬਿਨਾਂ ਸੰਭਾਲੇ ਹੀ ਬਾਹਰ"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "ਭਾਗ ਸਾਰਣੀ ਲਿਖਣ ਬਿਨਾ ਬਾਹਰ?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "ਕੀ ਤੁਸੀਂ /etc/fstab ਤਬਦੀਲੀਆਂ ਸੰਭਾਲਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr "ਤੁਹਾਨੂੰ ਭਾਗ ਸਾਰਣੀ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣ ਲਈ ਮੁੜ ਚਲਾਉਣ ਦੀ ਜਰੂਰਤ ਹੈ।"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "ਤੁਹਾਨੂੰ ਭਾਗ %s ਫਾਰਮਿਟ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।\n"
+#~ "ਨਹੀਂ ਤਾਂ ਮਾਊਂਟ ਸਥਿਤੀ %s ਲਈ ਕੋਈ ਇੰਦਰਾਜ fstab ਵਿੱਚ ਲਿਖੀ ਨਹੀਂ ਜਾਵੇਗੀ।\n"
+#~ "ਕਿਸੇ ਤਰਾਂ ਬਾਹਰ?"
+
+#~ msgid "Clear all"
+#~ msgstr "ਸਭ ਸਾਫ"
+
+#~ msgid "Auto allocate"
+#~ msgstr "ਸਵੈ ਜਾਰੀ"
+
+#~ msgid "More"
+#~ msgstr "ਹੋਰ"
+
+#~ msgid "Hard drive information"
+#~ msgstr "ਹਾਰਡ ਡਰਾਈਵ ਜਾਣਕਾਰੀ"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "ਸਭ ਪ੍ਰਾਇਮਰੀ ਭਾਗ ਵਰਤੇ ਹਨ"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "ਮੈਂ ਹੋਰ ਭਾਗ ਸ਼ਾਮਿਲ ਨਹੀਂ ਕਰ ਸਕਦਾ"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr "ਹੋਰ ਭਾਗ ਹੋਣ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਐਕਸਟੈਂਡਡ ਭਾਗ ਬਣਾਉਣ ਲਈ ਇੱਕ ਹਟਾਓ।"
+
+#~ msgid "Save partition table"
+#~ msgstr "ਭਾਗ ਸਾਰਣੀ ਸੰਭਾਲੋ"
+
+#~ msgid "Restore partition table"
+#~ msgstr "ਭਾਗ ਸਾਰਣੀ ਮੁੜ-ਸੰਭਾਲੋ"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "ਭਾਗ ਸਾਰਣੀ ਸੰਕਟ-ਕਾਲੀਨ"
+
+#~ msgid "Reload partition table"
+#~ msgstr "ਭਾਗ ਸਾਰਣੀ ਮੁੜ-ਲੋਡ"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "ਹਟਾਉਣ ਯੋਗ ਮਾਧਿਅਮ ਸਵੈ-ਮਾਊਂਟ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Select file"
+#~ msgstr "ਫਾਇਲ ਚੁਣੋ"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "ਬੈਕਅੱਪ ਭਾਗ ਸਾਰਣੀ ਦਾ ਸਮਾਨ ਅਕਾਰ ਨਹੀਂ ਹੈ\n"
+#~ "ਹਾਲੇ ਜਾਰੀ ਕਰੋ?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "ਸੰਕਟ-ਕਾਲੀਨ ਭਾਗ ਸਾਰਣੀ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Detailed information"
+#~ msgstr "ਵਿਸਥਾਰ ਜਾਣਕਾਰੀ"
+
+#~ msgid "Resize"
+#~ msgstr "ਮੁੜ-ਆਕਾਰ"
+
+#~ msgid "Format"
+#~ msgstr "ਫਾਰਮਿਟ"
+
+#~ msgid "Add to RAID"
+#~ msgstr "RAID ਵਿੱਚ ਸ਼ਾਮਿਲ"
+
+#~ msgid "Add to LVM"
+#~ msgstr "LVM ਵਿੱਚ ਸ਼ਾਮਿਲ"
+
+#~ msgid "Delete"
+#~ msgstr "ਹਟਾਓ"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "RAID ਵਿੱਚੋਂ ਹਟਾਓ"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "LVM ਵਿੱਚੋਂ ਹਟਾਓ"
+
+#~ msgid "Modify RAID"
+#~ msgstr "LVM ਤਬਦੀਲ"
+
+#~ msgid "Use for loopback"
+#~ msgstr "ਲੂਪਬੈਕ ਲਈ ਵਰਤੋ"
+
+#~ msgid "Create"
+#~ msgstr "ਬਣਾਓ"
+
+#~ msgid "Create a new partition"
+#~ msgstr "ਨਵਾਂ ਭਾਗ ਬਣਾਓ"
+
+#~ msgid "Start sector: "
+#~ msgstr "ਸੈਕਟਰ ਸ਼ੁਰੂ ਕਰੋ:"
+
+#~ msgid "Size in MB: "
+#~ msgstr "ਮੈਬਾ ਵਿੱਚ ਅਕਾਰ:"
+
+#~ msgid "Filesystem type: "
+#~ msgstr "ਫਾਇਲ-ਸਿਸਟਮ ਕਿਸਮ:"
+
+#~ msgid "Preference: "
+#~ msgstr "ਮੇਰੀ ਪਸੰਦ:"
+
+#~ msgid "Logical volume name "
+#~ msgstr "ਲੋਕਲ ਵਾਲਿਅਮ ਨਾਂ"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਨਵਾਂ ਭਾਗ ਨਹੀਂ ਬਣਾ ਸਕਦੇ\n"
+#~ "(ਕਿਉਂਕਿ ਤੁਸੀਂ ਵੱਧ-ਤੋਂ-ਵੱਧ ਭਾਗ ਬਣਾ ਚੁੱਕੇ ਹੋ)।\n"
+#~ "ਪਹਿਲਾਂ ਪ੍ਰਾਇਮਰੀ ਭਾਗ ਹਟਾਓ ਅਤੇ ਐਕਸਟੈਂਡਡ ਭਾਗ ਬਣਾਓ।"
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "ਲੂਪਬੈਕ ਫਾਇਲ ਹਟਾਓ?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr "ਭਾਗ %s ਦੀ ਕਿਸਮ ਤਬਦੀਲ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਇਸ ਭਾਗ ਤੋਂ ਸਾਰਾ ਡਾਟਾ ਗੁੰਮ ਹੋ ਜਾਵੇਗਾ।"
+
+#~ msgid "Change partition type"
+#~ msgstr "ਭਾਗ ਕਿਸਮ ਤਬਦੀਲ"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "ਤੁਸੀਂ ਕਿਹੜਾ ਫਾਇਲ ਸਿਸਟਮ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "ext2 ਤੋਂ ext3 ਤਬਦੀਲੀ"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "ਲੇਬਲ"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "ਤੁਸੀਂ ਲੂਪਬੈਕ ਫਾਇਲ %s ਕਿੱਥੇ ਮਾਊਂਟ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "ਤੁਸੀਂ ਜੰਤਰ %s ਕਿੱਥੇ ਮਾਊਂਟ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "ਮਾਊਂਟ ਸਥਿਤੀ ਹਟਾ ਨਹੀਂ ਸਕਦਾ ਕਿਉਂਕਿ ਇਹ ਭਾਗ ਲੂਪਬੈਕ ਲਈ ਵਰਤਿਆ ਹੈ।\n"
+#~ "ਪਹਿਲਾ ਲੂਪਬੈਕ ਹਟਾਓ।"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "ਤੁਸੀਂ %s ਨੂੰ ਕਿੱਥੇ ਮਾਊਂਟ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Resizing"
+#~ msgstr "ਮੁੜ-ਆਕਾਰ"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "FAT ਫਾਇਲ ਸਿਸਟਮ ਬੰਧਨ ਜਾਂਚ ਜਾਰੀ"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "ਇਹ ਭਾਗ ਮੁੜ-ਅਕਾਰ ਦੇ ਯੋਗ ਨਹੀਂ"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "ਇਸ ਭਾਗ ਤੇ ਸਾਰਾ ਡਾਟਾ ਬੈਕਅੱਪ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "ਭਾਗ %s ਮੁੜ ਅਕਾਰ ਤੋਂ ਬਾਅਦ, ਇਸ ਭਾਗ ਤੇ ਸਾਰਾ ਡਾਟਾ ਗੁੰਮ ਹੋ ਜਾਵੇਗਾ"
+
+#~ msgid "Choose the new size"
+#~ msgstr "ਨਵਾਂ ਅਕਾਰ ਚੁਣੋ"
+
+#~ msgid "New size in MB: "
+#~ msgstr "ਮੈਬਾ ਵਿੱਚ ਨਵਾਂ ਅਕਾਰ:"
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "ਭਾਗ ਮੁੜ-ਅਕਾਰ ਤੋਂ ਬਾਅਦ ਡਾਟਾ ਇੱਕਸਾਰਤਾ ਜਾਂਚ ਲਈ, \n"
+#~ "Windows(TM) ਵਿੱਚ ਤੁਹਾਡੀ ਅਗਲੀ ਬੂਟ ਦੌਰਾਨ ਫਾਇਲ ਸਿਸਟਮ ਜਾਂਚ ਚੱਲੇਗੀ"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਮੌਜੂਦਾ RAID ਚੁਣੋ"
+
+#~ msgid "new"
+#~ msgstr "ਨਵਾਂ"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਮੌਜੂਦਾ LVM ਚੁਣੋ"
+
+#~ msgid "LVM name?"
+#~ msgstr "LVM ਨਾਂ?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "ਇਹ ਭਾਗ ਲੂਪਬੈਕ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ"
+
+#~ msgid "Loopback"
+#~ msgstr "ਲੂਪਬੈਕ"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "ਲੂਪਬੈਕ ਫਾਇਲ ਨਾਂ:"
+
+#~ msgid "Give a file name"
+#~ msgstr "ਫਾਇਲ ਨਾਂ ਦਿਓ"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "ਫਾਇਲ ਪਹਿਲਾਂ ਹੀ ਹੋਰ ਲੂਪਬੈਕ ਦੁਆਰਾ ਵਰਤੀ ਹੈ, ਹੋਰ ਚੁਣੋ"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "ਫਾਇਲ ਪਹਿਲਾਂ ਮੌਜੂਦ ਹੈ, ਇਹ ਵਰਤੋ?"
+
+#~ msgid "Mount options"
+#~ msgstr "ਮਾਊਂਟ ਚੋਣ"
+
+#~ msgid "Various"
+#~ msgstr "ਵੱਖਰੇ"
+
+#~ msgid "device"
+#~ msgstr "ਜੰਤਰ"
+
+#~ msgid "level"
+#~ msgstr "ਪੱਧਰ"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "ਕਿਬਾ ਵਿੱਚ chunk ਅਕਾਰ"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "ਸਾਵਧਾਨ: ਇਹ ਕਿਰਿਆ ਖਤਰਨਾਕ ਹੈ।"
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "ਭਾਗ ਦੀ ਕਿਹੜੀ ਕਿਸਮ?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "ਤਬਦੀਲੀ ਲਾਗੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਮੁੜ ਚਲਾਉਣਾ ਪਵੇਗਾ"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "ਡਰਾਈਵ %s ਦੀ ਭਾਗ ਸਾਰਣੀ ਡਿਸਕ ਤੇ ਲਿਖੀ ਜਾ ਰਹੀ ਹੈ!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "ਭਾਗ %s ਫਾਰਮਿਟ ਕਰਨ ਤੋਂ ਬਾਅਦ, ਇਸ ਭਾਗ ਤੇ ਸਾਰਾ ਡਾਟਾ ਗੁੰਮ ਹੋ ਜਾਵੇਗਾ"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "ਨਕਾਰਾ ਬਲਾਕਾਂ ਦੀ ਜਾਂਚ?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "ਫਾਇਲਾਂ ਨਵੇਂ ਭਾਗ ਤੇ ਲਿਜਾਓ"
+
+#~ msgid "Hide files"
+#~ msgstr "ਫਾਇਲਾਂ ਓਹਲੇ"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "ਫਾਇਲਾ ਨਵੇਂ ਭਾਗ ਤੇ ਜਾ ਰਹੀਆਂ ਹਨ"
+
+#~ msgid "Copying %s"
+#~ msgstr "%s ਨਕਲ ਹੋ ਰਹੀ ਹੈ"
+
+#~ msgid "Removing %s"
+#~ msgstr "%s ਹਟਾ ਰਿਹਾ ਹੈ"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "ਭਾਗ %s ਹੁਣ %s ਨਾਲ ਜਾਣਿਆ ਜਾਂਦਾ ਹੈ"
+
+#~ msgid "Partitions have been renumbered: "
+#~ msgstr "ਭਾਗ ਮੁੜ ਅੰਕਿਤ ਕੀਤੇ ਗਏ:"
+
+#~ msgid "Device: "
+#~ msgstr "ਜੰਤਰ:"
+
+#~ msgid "Volume label: "
+#~ msgstr "ਵਾਲਿਅਮ ਲੇਬਲ:"
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "DOS ਡਰਾਈਵ ਅੱਖਰ: %s (ਅੰਦਾਜਾ)\n"
+
+#~ msgid "Type: "
+#~ msgstr "ਕਿਸਮ:"
+
+#~ msgid "Name: "
+#~ msgstr "ਨਾਂ:"
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "ਸ਼ੁਰੂ: ਸੈਕਟਰ %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "ਅਕਾਰ: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s ਸੈਕਟਰ"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "ਸਿਲੰਡਰ %d ਤੋਂ %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "ਫਾਰਮਿਟ ਕੀਤੀ\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "ਫਾਰਮਿਟ ਨਹੀਂ\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "ਮਾਊਂਟ ਕੀਤੀ\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "ਲੂਪਬੈਕ ਫਾਇਲਾਂ:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "ਮੂਲ ਬੂਟ ਕੀਤਾ ਭਾਗ\n"
+#~ "    (MS-DOS ਬੂਟ ਲਈ, lilo ਲਈ ਨਹੀਂ)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "ਪੱਧਰ %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Chunk ਅਕਾਰ %d ਕਿਬਾ\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "RAID-ਡਿਸਕ %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "ਲੂਪਬੈਕ ਫਾਇਲ ਨਾਂ: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "ਮੌਕੇ ਹਨ, ਇਹ ਭਾਗ\n"
+#~ "ਡਰਾਈਵਰ ਭਾਗ ਹੈ। ਤੁਹਾਨੂੰ ਸੰਭਾਵੀ ਹੀ\n"
+#~ "ਇਸ ਨੂੰ ਇਕੱਲੀ ਛੱਡਣਾ ਪਵੇਗਾ।\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "ਇਹ ਖਾਸ Bootstrap\n"
+#~ "ਭਾਗ ਤੁਹਾਡੇ ਸਿਸਟਮ ਨੂੰ \n"
+#~ "ਦੋਹਰਾ-ਬੂਟ ਕਰਨ ਲਈ ਹੈ।\n"
+
+#~ msgid "Read-only"
+#~ msgstr "ਸਿਰਫ਼ ਪੜਨ ਲਈ"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "ਅਕਾਰ: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "ਬਣਤਰ: %s ਸਿਲੰਡਰ, %s ਹੈੱਡ, %s ਸੈਕਟਰ\n"
+
+#~ msgid "Info: "
+#~ msgstr "ਜਾਣਕਾਰੀ:"
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-ਡਿਸਕਾਂ %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "ਭਾਗ ਸਾਰਣੀ ਕਿਸਮ: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "ਚੈਨਲ %d id %d ਤੇ\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "ਫਾਇਲ ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "ਆਪਣੀ ਫਾਇਲ ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ ਚੁਣੋ"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr "ਇਹ ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ ਬਹੁਤ ਸੌਖੀ ਹੈ (ਘੱਟੋ-ਘੱਟ %d ਅੱਖਰਾਂ ਦੀ ਹੋਵੇ)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ"
+
+#~ msgid "Encryption key"
+#~ msgstr "ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ "
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ (ਫਿਰ)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "ਇਨਕ੍ਰਿਪਸ਼ਨ ਕਲਨ ਵਿਧੀ"
+
+#~ msgid "Change type"
+#~ msgstr "ਕਿਸਮ ਤਬਦੀਲ"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "ਉਪਭੋਗੀ-ਨਾਂ %s ਵਰਤ ਕੇ ਲਾਗਇਨ ਨਹੀਂ ਕਰ ਸਕਦਾ ਹੈ (ਗੁਪਤ-ਕੋਡ ਗਲਤ?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "ਡੋਮੇਨ ਪ੍ਰਮਾਣਿਕਤਾ ਦੀ ਲੋੜ ਹੈ"
+
+#~ msgid "Which username"
+#~ msgstr "ਕਿਹੜਾ ਉਪਭੋਗੀ-ਨਾਂ"
+
+#~ msgid "Another one"
+#~ msgstr "ਕੋਈ ਹੋਰ"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਮੇਜ਼ਬਾਨ ਵਰਤਣ ਲਈ ਆਪਣਾ ਉਪਭੋਗੀ-ਨਾਂ, ਗੁਪਤ-ਕੋਡ ਅਤੇ ਡੋਮੇਨ ਨਾਂ ਦਿਓ।"
+
+#~ msgid "Username"
+#~ msgstr "ਉਪਭੋਗੀ-ਨਾਂ"
+
+#~ msgid "Search servers"
+#~ msgstr "ਸਰਵਰ ਖੋਜ"
+
+#~ msgid "Search new servers"
+#~ msgstr "ਨਵਾਂ ਸਰਵਰ ਖੋਜ"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "ਪੈਕੇਜ %s ਇੰਸਟਾਲ ਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "%s ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "ਲਾਜ਼ਮੀ ਪੈਕੇਜ %s ਗੁੰਮ ਹੈ"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "ਹੇਠਲੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਹੋਣੇ ਜਰੂਰੀ ਹਨ:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "ਪੈਕੇਜ ਇੰਸਟਾਲ ਹੋ ਰਹੇ ਹਨ..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "ਪੈਕੇਜ ਹਟਾ ਰਿਹਾ ਹੈ"
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "ਇੱਕ ਗਲਤੀ ਹੋਈ ਹੈ - ਫਾਇਲ ਸਿਸਟਮ ਬਣਾਉਣ ਲਇ ਕੋਈ ਯੋਗ ਜੰਤਰ ਨਹੀਂ ਲੱਭਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਸਮੱਸਿਆ "
+#~ "ਲਈ ਆਪਣੇ ਜੰਤਰ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "ਤੁਹਾਡੇ ਕੋਲ /boot/efi ਵਿੱਚ ਮਾਊਂਟ ਕੀਤਾ FAT ਭਾਗ ਹੋਣਾ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "ਭਾਗ %s ਫਾਰਮਿਟ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "ਫਾਇਲ %s ਬਣਾ ਅਤੇ ਫਾਰਮਿਟ ਕਰ ਰਿਹਾ ਹੈ"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "ਮੈਂ ਨਹੀਂ ਜਾਣਦਾ ਕਿ %s ਨੂੰ %s ਕਿਸਮ ਵਿੱਚ ਕਿਵੇਂ ਫਾਰਮਿਟ ਕਰਨਾ ਹੈ"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s ਫਾਰਮਿਟਿੰਗ %s ਦੀ ਅਸਫਲ"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "ਚੱਕਰੀ ਮਾਊਂਟ ਕਰਦਾ ਹੈ %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "ਭਾਗ %s ਮਾਊਂਟ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "ਭਾਗ %s ਨੂੰ ਡਾਇਰੈਕਟਰੀ %s ਵਿੱਚ ਮਾਊਂਟ ਕਰਨਾ ਅਸਫਲ"
+
+#~ msgid "Checking %s"
+#~ msgstr "%s ਦੀ ਜਾਂਚ ਜਾਰੀ ਹੈ"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "%s ਅਨ-ਮਾਊਂਟ ਸਮੇਂ ਗਲਤੀ: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "ਸਵੈਪ ਭਾਗ %s ਯੋਗ ਹੋ ਰਿਹਾ ਹੈ"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr "ਤੁਸੀਂ ਮਾਊਂਟ %s ਸਥਿਤੀ ਲਈ ਇਨਕ੍ਰਿਪਡ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "ਇਸ ਫਾਇਲ ਸਿਸਟਮ ਤੇ inode ਪਹੁੰਚ ਸਮੇਂ ਦਾ ਨਵੀਨੀਕਰਨ ਨਾ ਕਰੋ\n"
+#~ "(ਜਿਵੇਂ, ਖਬਰ ਸਰਵਰ ਦੀ ਗਤੀ ਵਧਾਉਣ ਲਈ ਖਬਰ ਸਪੂਲ ਵਿੱਚ ਤੇਜ ਪਹੁੰਚ)।"
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "ਸਿਰਫ ਬਾਹਰੀ ਤੌਰ ਤੇ ਮਾਊਂਟ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ\n"
+#~ "(ਜਿਵੇਂ, -a ਚੋਣ ਫਾਇਲ ਸਿਸਟਮ ਨੂੰ ਮਾਊਂਟ ਹੋਣ ਨਹੀਂ ਦੇਵੇਗੀ)।"
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr "ਫਾਇਲ ਸਿਸਟਮ ਤੇ ਅੱਖਰ ਜਾਂ ਬਲਾਕ ਸਪੈਸ਼ਲ ਜੰਤਰਾਂ ਨਾ ਵਰਤੋ।"
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "ਮਾਊਂਟ ਫਾਇਲ ਸਿਸਟਮ ਤੇ ਕੋਈ ਵੀ ਬਾਇਨਰੀ ਨੂੰ ਚੱਲਣ ਦੀ ਮਨਜੂਰੀ ਨਾ\n"
+#~ "ਦਿਓ। ਇਹ ਚੋਣ ਸਰਵਰ ਲਈ ਉਪਯੋਗੀ ਹੋ ਸਕਦੀ ਹੈ ਜਿਸ ਦੇ ਫਾਇਲ ਸਿਸਟਮ ਵਿੱਚ ਇਸ ਦੇ ਆਪਣੇ\n"
+#~ "ਤੋਂ ਬਿਨਾ ਹੋਰ ਢਾਂਚੇ ਵਿੱਚ ਬਾਇਨਰੀ ਸ਼ਾਮਿਲ ਹਨ।"
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "ਉਪਭੋਗੀ-ਪਛਾਣ-ਨਿਰਧਾਰਨ(suid) ਜਾਂ ਸਮੂਹ-ਪਛਾਣ-ਨਿਰਧਾਰਨ(sgid)\n"
+#~ "ਬਿੱਟ ਨੂੰ ਪ੍ਰਭਾਵੀ ਹੋਣ ਨਾ ਦਿਓ। (ਇਸ ਸੁਰੱਖਿਅਤ ਲੱਗਦਾ ਹੈ, ਪਰ ਅਸੁਰੱਖਿਅਤ ਵੀ ਹੈ\n"
+#~ "ਜੇ ਤੁਹਾਡੇ ਕੋਲ suidperl(1) ਇੰਸਟਾਲ ਹੈ)।"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "ਫਾਇਲ ਸਿਸਟਮ ਸਿਰਫ ਪੜਨ ਲਈ ਮਾਊਂਟ ਕਰੋ।"
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "ਫਾਇਲ ਸਿਸਟਮ ਨੂੰ ਸਭ I/O ਸਮਕਾਲੀ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "ਸਧਾਰਨ ਉਪਭੋਗੀਆਂ ਨੂੰ ਲਿਖਣ ਦੀ ਮਨਜੂਰੀ ਦਿਓ"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "ਸਧਾਰਨ ਉਪਭੋਗੀਆਂ ਨੂੰ ਸਿਰਫ ਪੜਨ ਦੀ ਮਨਜੂਰੀ ਦਿਓ"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "ਨਕਲੀ ਮਾਊਂਟ ਸਥਿਤੀ %s"
+
+#~ msgid "No partition available"
+#~ msgstr "ਕੋਈ ਭਾਗ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "ਮਾਊਂਟ ਸਥਿਤੀ ਲੱਭਣ ਲਈ ਭਾਗ ਖੋਜ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "ਮਾਊਂਟ ਸਥਿਤੀ ਚੁਣੋ"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "ਫਾਰਮਿਟ ਕਰਨ ਲਈ ਭਾਗ ਚੁਣੋ"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "ਫਾਇਲ-ਸਿਸਟਮ %s ਦੀ ਜਾਂਚ ਅਸਫਲ ਹੋਈ। ਕੀ ਤੁਸੀਂ ਗਲਤੀ ਮੁਰੰਮਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? (ਧਿਆਨ ਰੱਖੋ, ਤੁਸੀਂ "
+#~ "ਡਾਟਾ ਗਵਾ ਸਕਦੇ ਹੋ)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਪੂਰੀ ਕਰਨ ਲਈ ਲੋੜੀਂਦੀ ਸਵੈਪ ਸਪੇਸ਼ ਨਹੀਂ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਸ਼ਾਮਿਲ ਕਰੋ।"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੇ ਕੋਲ ਰੂਟ (root) ਭਾਗ ਹੋਣਾ ਜਰੂਰੀ ਹੈ।\n"
+#~ "ਇਸ ਲਈ, ਇੱਕ ਭਾਗ ਬਣਾਓ (ਜਾਂ ਮੌਜੂਦਾ ਤੇ ਕਲਿੱਕ ਕਰੋ)।\n"
+#~ "ਫਿਰ ``ਮਾਊਂਟ ਸਥਿਤੀ'' ਚੁਣੋ ਇਸ ਨੂੰ `/' ਨਿਰਧਾਰਿਤ ਕਰੋ।"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "ਤੁਹਾਡੇ ਕੋਲ ਸਵੈਪ ਭਾਗ ਨਹੀਂ ਹੈ।\n"
+#~ "\n"
+#~ "ਕਿਸੇ ਤਰਾਂ ਜਾਰੀ ਕਰੋ?"
+
+#~ msgid "Use free space"
+#~ msgstr "ਖਾਲੀ ਥਾਂ ਵਰਤੋ"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "ਨਵੇਂ ਭਾਗ ਨਿਰਧਾਰਿਤ ਕਰਨ ਲਈ ਲੋੜੀਂਦੀ ਖਾਲੀ ਥਾਂ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "ਮੌਜੂਦਾ ਭਾਗ ਵਰਤੋ"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "ਇੱਥੇ ਵਰਤਣ ਲਈ ਕੋਈ ਮੋਜੂਦਾ ਭਾਗ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "ਲੂਪਬੈਕ ਲਈ Microsoft Windows® ਭਾਗ ਵਰਤੋ"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "ਤੁਸੀਂ ਕਿਹੜਾ ਭਾਗ Linux4Win ਲਈ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "ਅਕਾਰ ਚੁਣੋ"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "ਮੈਬਾ ਵਿੱਚ ਪ੍ਰਬੰਧਕ (root) ਭਾਗ ਅਕਾਰ:"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "ਮੈਬਾ ਵਿੱਚ ਸਵੈਪ ਭਾਗ ਅਕਾਰ:"
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr "ਇੱਥੇ ਲੂਪਬੈਕ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਕੋਈ FAT ਭਾਗ ਨਹੀਂ ਹੈ (ਜਾਂ ਲੋੜੀਂਦੀ ਬਾਕੀ ਥਾਂ ਨਹੀਂ ਹੈ)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Windows ਭਾਗ ਤੇ ਖਾਲੀ ਥਾਂ ਵਰਤੋ"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "ਤੁਸੀਂ ਕਿਹੜਾ ਭਾਗ ਅਕਾਰ ਤਬਦੀਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "FAT ਮੁੜ-ਅਕਾਰ ਜੰਤਰ ਤੁਹਾਡੇ ਭਾਗ ਦੇ ਪ੍ਰਬੰਧਨ ਲਈ ਅਸਮਰਥ ਹੈ, \n"
+#~ "ਹੇਠਲੀ ਗਲਤੀ ਹੋਈ ਹੈ: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Microsoft Windows® ਭਾਗ ਦਾ ਅਕਾਰ ਪਤਾ ਕਰ ਰਿਹਾ ਹੈ"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "ਤੁਹਾਡਾ Microsoft Windows® ਭਾਗ ਬਹੁਤ ਫਰੈਗਮਿੰਟਡ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਕੰਪਿਊਟਰ "
+#~ "Microsoft Windows® ਅਧੀਨ ਮੁੜ ਚਲਾਓ, ``defrag'' ਸਹੂਲਤ ਚਲਾਓ, ਫਿਰ ਮੈਂਡਰਿਵ-ਲੀਨਕਸ "
+#~ "ਇੰਸਟਾਲੇਸ਼ਨ ਮੁੜ ਚਲਾਓ।"
+
+#~ msgid "Next"
+#~ msgstr "ਅੱਗੇ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "ਤੁਸੀਂ Microsoft Windows® ਰੱਖਣ ਲਈ ਕਿਹੜਾ ਅਕਾਰ ਚਾਹੁੰਦੇ ਹੋ"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "ਅਕਾਰ: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Microsoft Windows® ਭਾਗ ਮੁੜ-ਅਕਾਰ ਜਾਰੀ"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "FAT ਮੁੜ-ਅਕਾਰ ਅਸਫਲ: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr "ਇੱਥੇ ਮੁੜ ਅਕਾਰ ਲਈ ਕੋਈ FAT ਭਾਗ ਨਹੀਂ ਹੈ (ਜਾਂ ਬਾਕੀ ਲੋੜੀਂਦੀ ਖਾਲੀ ਥਾਂ ਨਹੀਂ ਹੈ)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Microsoft Windows® ਹਟਾਓ"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "ਸਾਰੀ ਡਿਸਕ ਸਾਫ"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਤੋਂ ਜਿਆਦਾ ਹਾਰਡ ਡਰਾਈਵਾਂ ਹਨ, ਤੁਸੀਂ ਕਿਸ ਤੇ ਲੀਨਕਸ ਇੰਸਟਾਲ ਕਰਨਾ ਹੈ?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "ਡਰਾਈਵ %s ਤੇ ਸਭ ਮੌਜੂਦ ਭਾਗ ਅਤੇ ਉਹਨਾਂ ਦਾ ਡਾਟਾ ਗੁੰਮ ਹੋ ਜਾਵੇਗਾ"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "ਪਸੰਦੀ ਦਾ ਡਿਸਕ ਵਿਭਾਗੀਕਰਨ "
+
+#~ msgid "Use fdisk"
+#~ msgstr "fdisk ਵਰਤੋ"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਹੁਣ %s ਦਾ ਵਿਭਾਗੀਕਰਨ ਕਰ ਸਕਦੇ ਹੋ।\n"
+#~ "ਜਦੋਂ ਤੁਸੀਂ ਸਮਾਪਤ ਕੀਤਾ, `w' ਵਰਤ ਕੇ ਸੰਭਾਲਣਾ ਨਾ ਭੁਲਣਾ।"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "ਮੈਂ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਕੋਈ ਥਾਂ ਨਹੀਂ ਲੱਭ ਸਕਿਆ"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "DrakX ਵਿਭਾਗੀਕਰਨ ਤਖਤੀ ਨੇ ਹੇਠਲੇ ਹੱਲ ਲੱਭੇ ਹਨ:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "ਵਿਭਾਗੀਕਰਨ ਅਸਫਲ: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "ਤੁਸੀਂ 16 ਮੈਬਾ ਤੋਂ ਘੱਟ ਭਾਗ ਲਈ JFS ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "ਤੁਸੀਂ 32 ਮੈਬਾ ਤੋਂ ਘੱਟ ਭਾਗ ਲਈ ReiserFS ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
+
+#~ msgid "with /usr"
+#~ msgstr "/usr ਨਾਲ"
+
+#~ msgid "server"
+#~ msgstr "ਸਰਵਰ"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "ਮੈਂ ਜੰਤਰ %s ਦੀ ਭਾਗ ਸਾਰਣੀ ਨਹੀਂ ਪੜ ਸਕਦਾ, ਇਹ ਮੇਰੇ ਲਈ ਨਕਾਰਾ ਹੈ :(\n"
+#~ "ਮੈਂ ਅੱਗੇ ਜਾਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦਾ ਹਾਂ, ਖਰਾਬ ਭਾਗ ਹਟਾਉਣ ਲਈ (ਸਾਰਾ ਡਾਟਾ ਗੁੰਮ ਹੋ ਜਾਵੇਗਾ!)।\n"
+#~ "ਹੋਰ ਹੱਲ ਹੈ DrakX ਨੂੰ ਭਾਗ ਸਾਰਣੀ ਤਬਦੀਲ ਨਾ ਕਰਨ ਦਿੱਤੀ ਜਾਵੇ।\n"
+#~ "(ਗਲਤੀ ਹੈ %s)\n"
+#~ "\n"
+#~ "ਕੀ ਤੁਸੀਂ ਸਾਰੇ ਭਾਗ ਗਵਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "ਮਾਊਂਟ ਸਥਿਤੀ / ਨਾਲ ਸ਼ੁਰੂ ਹੋਣੀ ਜਰੂਰੀ ਹੈ"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "ਮਾਊਂਟ ਸਥਿਤੀ ਵਿੱਚ ਸਿਰਫ ਅੱਖਰ-ਅੰਕੀ ਅੱਖਰਾਂ ਸ਼ਾਮਿਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "ਇੱਥੇ ਪਹਿਲਾ ਹੀ ਮਾਊਂਟ ਸਥਿਤੀ %s ਵਾਲਾ ਭਾਗ ਹੈ\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਸਾਫਟਵੇਅਰ RAID ਭਾਗ ਨੂੰ root (/) ਤੌਰ ਤੇ ਚੁਣਿਆ ਹੈ।\n"
+#~ "ਕੋਈ ਬੂਟ-ਲੋਡਰ ਇਸ ਦਾ /boot ਭਾਗ ਤੋਂ ਬਿਨਾ ਪ੍ਰਬੰਧਨ ਨਹੀਂ ਕਰ ਸਕਦਾ।\n"
+#~ "ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨਨ /boot ਭਾਗ ਸ਼ਾਮਿਲ ਕਰੋ"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "ਤੁਸੀਂ ਮਾਊਂਠ ਸਥਿਤੀ %s ਲਈ LVM ਲੌਜ਼ੀਕਲ ਵਾਲਿਅਮ ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਸਾਫਟਵੇਅਰ LVM ਲੌਜ਼ੀਕਲ ਵਾਲਿਅਮ ਨੂੰ root (/) ਤੌਰ ਤੇ ਚੁਣਿਆ ਹੈ।\n"
+#~ "ਕੋਈ ਬੂਟ-ਲੋਡਰ ਇਸ ਦਾ /boot ਭਾਗ ਤੋਂ ਬਿਨਾ ਪ੍ਰਬੰਧਨ ਨਹੀਂ ਕਰ ਸਕਦਾ।\n"
+#~ "ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨਨ /boot ਭਾਗ ਸ਼ਾਮਿਲ ਕਰੋ"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "ਇਹ ਡਾਇਰੈਕਟਰੀ root ਫਾਇਲ-ਸਿਸਟਮ ਵਿੱਚ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "ਤੁਹਾਨੂੰ ਇਸ ਮਾਊਂਟ ਸਥਿਤੀ ਲਈ ਫਾਇਲ-ਸਿਸਟਮ (ext2/ext3, reiserfs, xfs, ਜਾਂ jfs) ਦੀ ਲੋੜ "
+#~ "ਹੈ\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "ਤੁਸੀਂ ਮਾਊਂਟ %s ਸਥਿਤੀ ਲਈ ਇਨਕ੍ਰਿਪਡ ਫਾਇਲ ਸਿਸਟਮ ਨਹੀਂ ਵਰਤ ਸਕਦੇ"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "ਸਵੈ-ਜਾਰੀ ਕਰਨ ਲਈ ਲੋੜੀਂਦੀ ਖਾਲੀ ਥਾਂ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Nothing to do"
+#~ msgstr "ਕੁਝ ਕਰਨ ਲਈ ਨਹੀਂ"
+
+#~ msgid "Floppy"
+#~ msgstr "ਫਲਾਪੀ"
+
+#~ msgid "Zip"
+#~ msgstr "ਸੰਕੁਚਿਤ"
+
+#~ msgid "Hard Disk"
+#~ msgstr "ਹਾਰਡ ਡਿਸਕ"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD ਨਿਰਮਾਤਾ"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "ਟੇਪ"
+
+#~ msgid "AGP controllers"
+#~ msgstr "AGP ਕੰਟਰੋਲਰ"
+
+#~ msgid "Videocard"
+#~ msgstr "ਵੀਡੀਓ-ਕਾਰਡ"
+
+#~ msgid "Tvcard"
+#~ msgstr "Tv-ਕਾਰਡ"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "ਹੋਰ ਮਲਟੀਮੀਡੀਆ ਜੰਤਰ"
+
+#~ msgid "Soundcard"
+#~ msgstr "ਸਾਊਂਡਕਾਰਡ"
+
+#~ msgid "Webcam"
+#~ msgstr "ਵੈਬਕੈਮ"
+
+#~ msgid "Processors"
+#~ msgstr "ਪਰੋਸੈੱਸਰ"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "ISDN ਅਡਾਪਟਰ"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "ਈਥਰਨੈੱਟ-ਕਾਰਡ"
+
+#~ msgid "Modem"
+#~ msgstr "ਮਾਡਮ"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "ADSL ਅਡਾਪਟਰ"
+
+#~ msgid "Memory"
+#~ msgstr "ਮੈਮੋਰੀ"
+
+#~ msgid "Printer"
+#~ msgstr "ਪ੍ਰਿੰਟਰ"
+
+#~ msgid "Joystick"
+#~ msgstr "ਜਾਏਸਟਿੱਕ"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA ਕੰਟਰੋਲਰ"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID ਕੰਟਰੋਲਰ"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA ਕੰਟਰੋਲਰ"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire ਕੰਟਰੋਲਰ"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA ਕੰਟਰੋਲਰ"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI ਕੰਟਰੋਲਰ"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB ਕੰਟਰੋਲਰ"
+
+#~ msgid "USB ports"
+#~ msgstr "USB ਪੋਰਟ"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus ਕੰਟਰੋਲਰ"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "ਬਰਿੱਜ ਅਤੇ ਸਿਸਟਮ ਕੰਟਰੋਲਰ"
+
+#~ msgid "Mouse"
+#~ msgstr "ਮਾਊਸ"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "ਸਕੈਨਰ"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "ਅਣਪਛਾਤੇ/ਹੋਰ"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕੋ... ਸੰਰਚਨਾ ਲਾਗੂ ਹੋ ਰਹੀ ਹੈ"
+
+#~ msgid "No alternative driver"
+#~ msgstr "ਕੋਈ ਅਨੁਸਾਰੀ ਡਰਾਈਵਰ ਨਹੀਂ"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "ਇੱਥੇ ਤੁਹਾਡੇ ਸਾਊਂਡ ਕਾਰਡ (%s) ਜੋ ਵਰਤਮਾਨ \"%s\" ਵਰਤ ਰਿਹਾ ਹੈ ਲਈ ਕੋਈ OSS/ALSA ਅਨੁਸਾਰੀ "
+#~ "ਡਰਾਈਵਰ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Sound configuration"
+#~ msgstr "ਸਾਊਂਡ ਸੰਰਚਨਾ"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr "ਇੱਥੇ ਤੁਸੀਂ ਆਪਣੇ ਸਾਊਂਡ ਕਾਰਡ (%s) ਲਈ ਅਨੁਸਾਰੀ ਡਰਾਈਵਰ (OSS ਜਾਂ ALSA) ਚੁਣ ਸਕਦੇ ਹੋ।"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "ਤੁਹਾਡਾ ਕਾਰਡ ਹੁਣ %s\"%s\" ਡਰਾਈਵਰ ਵਰਤਦਾ ਹੈ (ਤੁਹਾਡੇ ਕਾਰਡ ਲਈ ਮੂਲ ਡਰਾਈਵਰ \"%s\" ਹੈ)"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (ਮੁਕਤ ਸਾਊਂਡ ਸਿਸਟਮ) ਪਹਿਲਾ ਸਾਊਂਡ API ਸੀ। ਇਹ ਇੱਕ OS ਤੇ ਨਾ-ਨਿਰਭਰ ਸਾਊਂਡ API ਹੈ "
+#~ "(ਇਹ ਬਹੁਤੇ UNIX(tm) ਸਿਸਟਮਾਂ ਤੇ ਉਪਲੱਬਧ ਹੈ) ਪਰ ਇਹ ਮੁਢਲਾ ਅਤੇ ਸੀਮਿਤ API ਹੈ।\n"
+#~ "ਹੋਰ ਕੀ ਹੈ, ਸਭ OSS ਡਰਾਈਵਰ ਚੱਕਰ ਨੂੰ ਰੇਨਵਿੰਟ ਕਰਦੇ ਹਨ। \n"
+#~ "\n"
+#~ "ALSA (ਤਕਨੀਕੀ ਲੀਨਕਸ ਸਾਊਂਡ ਢਾਂਚਾ) ਮੈਡਿਊਲਾਂ ਵਿੱਚ ਵੰਡਿਆ ਢਾਂਚਾ ਹੈ ਜੋ ਕਿ\n"
+#~ "ISA ਦੀ ਵੱਡੀ ਸੀਮਾ ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ, USB ਅਤੇ PCI ਕਾਰਡ।\n"
+#~ "\n"
+#~ "ਇਹ OSS ਨਾਲੋਂ ਬਹੁਤ ਉੱਚੇ API ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ।\n"
+#~ "\n"
+#~ "alsa ਵਰਤਣ ਲਈ, ਤੁਸੀਂ ਹੇਠਲੇ ਵਰਤ ਸਕਦੇ ਹੋ:\n"
+#~ "- ਪੁਰਾਣਾ ਅਨੁਕੂਲਤਾ OSS api\n"
+#~ "- ਨਵਾਂ ALSA api ਜੋ ਬਹੁਤ ਨਵੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਮੁਹੱਈਆ ਕਰਦਾ ਹੈ ਪਰ ALSA ਲਾਇਬ੍ਰੇਰੀ ਵਰਤਣ ਸੀ ਲੋੜ "
+#~ "ਪੈਂਦੀ ਹੈ।\n"
+
+#~ msgid "Driver:"
+#~ msgstr "ਡਰਾਈਵਰ:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "ਪੁਰਾਣਾ \"%s\" ਡਰਾਈਵਰ ਕਾਲੀ-ਸੂਚੀ ਵਿੱਚ ਹੈ।\n"
+#~ "\n"
+#~ "ਇਹ ਅਨ-ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਕਰਨਲ ਨੂੰ oops ਕਰਨ ਲਈ ਰਿਪੋਰਟ ਕੀਤਾ ਹੈ।\n"
+#~ "\n"
+#~ "ਨਵਾਂ \"%s\" ਡਰਾਈਵਰ ਸਿਰਫ ਨਵੇਂ ਬੂਟਸਟਰੈਪ ਦੌਰਾਨ ਵਰਤਿਆ ਜਾਵੇਗਾ।"
+
+#~ msgid "No open source driver"
+#~ msgstr "ਕੋਈ ਖੁੱਲਾ ਸਰੋਤ ਡਰਾਈਵਰ ਨਹੀਂ"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "ਇੱਥੇ ਤੁਹਾਡੇ ਸਾਊਂਡ ਕਾਰਡ (%s) ਲਈ ਕੋਈ ਫਰੀ ਡਰਾਈਵਰ ਨਹੀਂ ਹੈ, ਪਰ \"%s\" ਤੇ ਇੱਕ ਮਲਕੀਅਤ "
+#~ "ਡਰਾਈਵਰ ਹੈ।"
+
+#~ msgid "No known driver"
+#~ msgstr "ਕੋਈ ਜਾਣਿਆ ਡਰਾਈਵਰ ਨਹੀਂ ਹੈ"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "ਇੱਥੇ ਤੁਹਾਡੇ ਸਾਊਂਡ ਕਾਰਡ (%s) ਲਈ ਕੋਈ ਜਾਣਿਆ ਡਰਾਈਵਰ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Unknown driver"
+#~ msgstr "ਅਣਪਛਾਤਾ ਡਰਾਈਵਰ"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "ਗਲਤੀ: ਤੁਹਾਡੇ ਸਾਊਂਡ ਕਾਰਡ ਲਈ \"%s\" ਡਰਾਈਵਰ ਵਿਖਾਇਆ ਨਹੀਂ ਹੈ"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "ਸਾਊਂਡ ਸਮੱਸਿਆ ਨਿਪਟਾਰਾ"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "ਪੁਰਾਣਾ ਬੱਗ ਸਾਊਂਡ ਜਾਂਚਕਾਰ ਹੇਠਲੀਆਂ ਕਮਾਂਡਾਂ ਚਲਾਉਣ ਲਈ ਹੈ:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" ਇਹ ਤੁਹਾਨੂੰ ਦੱਸੇਗੀ ਕਿ ਤੁਹਾਡਾ ਕਾਰਡ ਕਿਹੜਾ ਮੂਲ\n"
+#~ "ਡਰਾਇਵਰ ਵਰਤ ਰਿਹਾ ਹੈ\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" ਤੁਹਾਨੂੰ ਦੱਸੇਗੀ ਕਿ ਇਹ ਹੁਣ ਕਿਹੜਾ\n"
+#~ "ਡਰਾਈਵਰ ਵਰਤਦੀ ਹੈ\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" ਤੁਹਾਨੂੰ ਜਾਂਚ ਕਰਨ ਦੇਵੇਗੀ ਕਿ ਇਸ ਦਾ ਮੈਡਿਊਲ (ਡਰਾਈਵਰ) ਲੋਡ\n"
+#~ "ਹੈ ਜਾਂ ਨਹੀਂ\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" ਅਤੇ \"/sbin/chkconfig --list alsa\" "
+#~ "ਤੁਹਾਨੂੰ\n"
+#~ "ਦੱਸੇਗੀ ਕਿ ਸਾਊਂਡ ਅਤੇ alsa ਸੇਵਾਵਾਂ initlevel 3 ਤੇ ਚੱਲਣ ਲਈ ਸੰਰਚਿਤ ਹਨ ਜਾਂ\n"
+#~ "ਨਹੀਂ\n"
+#~ "\n"
+#~ "- \"aumix -q\" ਤੁਹਾਨੂੰ ਦੱਸੇਗੀ ਕਿ ਸਾਊਂਡ ਵਾਲਿਅਮ ਬੰਸ ਹੈ ਜਾਂ ਨਹੀਂ\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" ਦੱਸੇਗੀ ਕਿ ਸਾਊਂਡ ਕਾਰਡ ਕਿਹੜਾ ਪ੍ਰੋਗਰਾਮ ਵਰਤ ਰਿਹਾ ਹੈ\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "ਮੈਨੂੰ ਕੋਈ ਡਰਾਈਵਰ ਚੁੱਕਣ ਦਿਓ"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "ਅਨਕੂਲ ਡਰਾਈਵਰ ਚੁਣ ਰਿਹਾ ਹੈ"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "ਜੇ ਤੁਸੀਂ ਇਹ ਸੋਚਦੇ ਹੋ ਕਿ ਤੁਹਾਨੂੰ ਆਪਣੇ ਕਾਰਡ ਲਈ ਸਹੀ ਡਰਾਈਵਰ ਦਾ ਪਤਾ ਹੈ\n"
+#~ "ਤੁਸੀਂ ਉੱਪਰ ਸੂਚੀ ਵਿੱਚੋਂ ਇੱਕ ਚੁਣ ਸਕਦੇ ਹੋ।\n"
+#~ "\n"
+#~ "ਤੁਹਾਡੇ \"%s\" ਸਾਊਂਡ ਕਾਰਡ ਲਈ ਮੌਜੂਦਾ ਡਰਾਈਵਰ ਹੈ \"%s\""
+
+#~ msgid "Auto-detect"
+#~ msgstr "ਸਵੈ-ਖੋਜ"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "ਅਣਪਛਾਤਾ|ਸਧਾਰਨ"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "ਅਣਪਛਾਤਾ|CPH05X (bt878) [ਕਈ ਵਿਕ੍ਰੇਤਾ]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "ਅਣਪਛਾਤਾ|CPH06X (bt878) [ਕਈ ਵਿਕ੍ਰੇਤਾ]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "ਬਹੁਤੇ ਨਵੇਂ TV ਕਾਰਡਾਂ ਲਈ, GNU/ਲੀਨਕਸ ਕਰਨਲ  ਦਾ bttv ਮੈਡਿਊਲ ਸਹੀ ਪੈਰਾਮੀਟਰ ਸਵੈ ਹੀ ਖੋਜ "
+#~ "ਲੈਂਦਾ ਹੈ।\n"
+#~ "ਜੇ ਤੁਹਾਡਾ ਕਾਰਡ ਨਹੀਂ ਲੱਭਿਆ ਗਿਆ, ਤੁਸੀਂ ਇੱਥੇ ਸਹੀ ਟਿਊਨਰ ਅਤੇ ਕਾਰਡ ਕਿਸਮ ਨੂੰ ਮਜਬੂਰ ਕਰ ਸਕਦੇ "
+#~ "ਹੋ।ਆਪਣਾ tv ਕਾਰਡ ਪੈਰਾਮੀਟਰ ਚੁਣੋ ਜੇ ਲੋੜ ਹੈ।"
+
+#~ msgid "Card model:"
+#~ msgstr "ਕਾਰਡ ਮਾਡਲ:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "ਟਿਊਨਰ ਕਿਸਮ:"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "ਖੋਜੇ ਬਫਰਾਂ ਦੀ ਗਿਣਤੀ"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "mmap'ed ਖੋਜ ਲਈ ਖੋਜੇ ਬਫਰਾਂ ਦੀ ਗਿਣਤੀ"
+
+#~ msgid "PLL setting:"
+#~ msgstr "PLL ਵਿਵਸਥਾ:"
+
+#~ msgid "Radio support:"
+#~ msgstr "ਰੇਡੀਓ ਸਹਿਯੋਗ:"
+
+#~ msgid "enable radio support"
+#~ msgstr "ਰੇਡੀਓ ਸਹਿਯੋਗ ਯੋਗ"
+
+#~ msgid "Yes"
+#~ msgstr "ਹਾਂ"
+
+#~ msgid "No"
+#~ msgstr "ਨਹੀਂ"
+
+#~ msgid "Choose a file"
+#~ msgstr "ਇੱਕ ਫਾਇਲ ਚੁਣੋ"
+
+#~ msgid "Add"
+#~ msgstr "ਸ਼ਾਮਲ"
+
+#~ msgid "Modify"
+#~ msgstr "ਸੋਧਿਆ"
+
+#~ msgid "Remove"
+#~ msgstr "ਹਟਾਓ"
+
+#~ msgid "Finish"
+#~ msgstr "ਮੁਕੰਮਲ"
+
+#~ msgid "Previous"
+#~ msgstr "ਪਿੱਛੇ"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "ਗਲਤ ਚੋਣ, ਫਿਰ ਕੋਸ਼ਿਸ਼\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "ਤੁਹਾਡੀ ਚੋਣ? (ਮੂਲ %s)"
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ਇੰਦਰਾਜਾਂ ਜੋ ਤੁਸੀਂ ਭਰਨੀਆਂ ਹਨ:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "ਤੁਹਾਡੀ ਚੋਣ? (0/1, ਮੂਲ `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "ਬਟਨ `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "ਕੀ ਤੁਸੀਂ ਇਹ ਬਟਨ ਦਬਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "ਤੁਹਾਡੀ ਚੋਣ? (ਮੂਲ `%s'%s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr "ਬਚਾਓ ਇੰਦਰਾਜ ਲਈ `void' ਭਰੋ"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> ਇੱਥੇ (%s) ਵਿੱਚੋਂ ਚੁਣਨ ਲਈ ਬਹੁਤ ਇਕਾਈਆਂ ਹਨ।\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "ਕਿਰਪਾ ਕਰਕੇ 10-ਸੀਮਾ ਵਿੱਚੋਂ ਪਹਿਲਾ ਅੰਕ ਜੋ ਤੁਸੀਂ ਸੋਧਣਾ ਚਾਹੁੰਦੇ ਹੋ ਚੁਣੋ,\n"
+#~ "ਜਾਂ ਅੱਗੇ ਜਾਣ ਲਈ ਸਿਰਫ Enter ਦਬਾਓ।\n"
+#~ "ਤੁਹਾਡੀ ਚੋਣ? "
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> ਸੂਚਨਾ, ਲੇਬਲ ਤਬਦੀਲ ਹੋਇਆ:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "ਮੁੜ-ਪੇਸ਼"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "ਐਂਡੋਰਾ"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "ਸੰਯੁਕਤ ਰਾਜ ਅਮੀਰਾਤ"
+
+#~ msgid "Afghanistan"
+#~ msgstr "ਅਫਗਾਨਿਸਤਾਨ"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "ਐਟੀਗੂਆ ਤੇ ਬਾਰਬੂਡਾ"
+
+#~ msgid "Anguilla"
+#~ msgstr "ਅੰਗੂਲੀਆਂ"
+
+#~ msgid "Albania"
+#~ msgstr "ਅਲਬੀਨਾ"
+
+#~ msgid "Armenia"
+#~ msgstr "ਅਰਮੀਨਾ"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "ਨੀਦਰਲੈਂਡ ਐਟੀਲਸ"
+
+#~ msgid "Angola"
+#~ msgstr "ਅੰਗੋਲਾ"
+
+#~ msgid "Antarctica"
+#~ msgstr "ਅੰਟਾਰਿਕਟਾ"
+
+#~ msgid "Argentina"
+#~ msgstr "ਅਰਜਨਟੀਨਾ"
+
+#~ msgid "American Samoa"
+#~ msgstr "ਅਮਰੀਕੀ ਸਾਮੋਨਾ"
+
+#~ msgid "Austria"
+#~ msgstr "ਆਸਟਰੀਆ"
+
+#~ msgid "Australia"
+#~ msgstr "ਅਸਟਰੇਲੀਆ"
+
+#~ msgid "Aruba"
+#~ msgstr "ਅਰੂਬਾ"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "ਅਜ਼ਰਬਾਈਜਾਨ"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "ਬੋਸਨੀਅ ਤੇ ਹਰਜ਼ੀਗੋਨੀਆ"
+
+#~ msgid "Barbados"
+#~ msgstr "ਬਾਰਬਾਡਾਸ"
+
+#~ msgid "Bangladesh"
+#~ msgstr "ਬੰਗਲਾਦੇਸ਼"
+
+#~ msgid "Belgium"
+#~ msgstr "ਬੈਲਜੀਅਮ"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "ਬੂਪਕੀਨਾ ਫਾਸੋ"
+
+#~ msgid "Bulgaria"
+#~ msgstr "ਬੁਲਗਾਰੀਆ"
+
+#~ msgid "Bahrain"
+#~ msgstr "ਬਹਿਰਾਨ"
+
+#~ msgid "Burundi"
+#~ msgstr "ਬੂਰੂਮਾਡੀ"
+
+#~ msgid "Benin"
+#~ msgstr "ਬੀਨਾਨ"
+
+#~ msgid "Bermuda"
+#~ msgstr "ਬਾਰਾਮੂਡਾ"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "ਬਰੂਨਈ ਡਾਰੂਸ਼ਲਾਮ"
+
+#~ msgid "Bolivia"
+#~ msgstr "ਬੋਲੋਵੀਆ"
+
+#~ msgid "Brazil"
+#~ msgstr "ਬਰਾਜ਼ੀਲ"
+
+#~ msgid "Bahamas"
+#~ msgstr "ਬਾਹਾਮਾਸ"
+
+#~ msgid "Bhutan"
+#~ msgstr "ਭੁਟਾਨ"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "ਬੂਟਵਟ ਟਾਪੂ"
+
+#~ msgid "Botswana"
+#~ msgstr "ਬੂਟਸਵਾਨਾ"
+
+#~ msgid "Belarus"
+#~ msgstr "ਬੇਲਾਰੂਸ"
+
+#~ msgid "Belize"
+#~ msgstr "ਬੀਲੀਜ਼ੀ"
+
+#~ msgid "Canada"
+#~ msgstr "ਕੈਨੇਡਾ"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "ਕੋਕੋਸ(ਕਿਲਿੰਗ) ਟਾਪੂ"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "ਕੌਂਗੋ (ਕਿਨਸ਼ਾਸਾ)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "ਕੇਦਰੀ ਅਫਰੀਕਾ ਗਣਰਾਜ਼"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "ਕੌਂਗੋ (ਬਰਾਜ਼ਾਵਿਲੇ)"
+
+#~ msgid "Switzerland"
+#~ msgstr "ਸਵਿਟਰਜ਼ਰਲੈਂਡ"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "ਕੋਟੀ ਡੀਵੋਰਆ"
+
+#~ msgid "Cook Islands"
+#~ msgstr "ਕੁੱਕ ਟਾਪੂ"
+
+#~ msgid "Chile"
+#~ msgstr "ਚਿੱਲੀ"
+
+#~ msgid "Cameroon"
+#~ msgstr "ਕੈਮਰੂਨ"
+
+#~ msgid "China"
+#~ msgstr "ਚੀਨ"
+
+#~ msgid "Colombia"
+#~ msgstr "ਕੋਲੰਬੀਆ"
+
+#~ msgid "Costa Rica"
+#~ msgstr "ਕਾਸਟ ਰੀਕਾ"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "ਸਰਬੀਆ ਤੇ ਮੌਂਟੇਨੀਗਰੋ"
+
+#~ msgid "Cuba"
+#~ msgstr "ਕਿਊਬਾ"
+
+#~ msgid "Cape Verde"
+#~ msgstr "ਕੇਪ ਵਾਰਡੀ"
+
+#~ msgid "Christmas Island"
+#~ msgstr "ਕ੍ਰਿਸਮਿਸ ਟਾਪੂ"
+
+#~ msgid "Cyprus"
+#~ msgstr "ਕਿਊਰੂਸ"
+
+#~ msgid "Czech Republic"
+#~ msgstr "ਚੈੱਕ ਗਣਰਾਜ"
+
+#~ msgid "Germany"
+#~ msgstr "ਜਰਮਨੀ"
+
+#~ msgid "Djibouti"
+#~ msgstr "ਡਜੀਬੂਟੀ"
+
+#~ msgid "Denmark"
+#~ msgstr "ਡੈਨਮਾਰਕ"
+
+#~ msgid "Dominica"
+#~ msgstr "ਡੋਮੀਨੀਆ"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "ਡੋਮੀਨੀਆਨ ਗਣਰਾਜ਼"
+
+#~ msgid "Algeria"
+#~ msgstr "ਅਲਜੀਰੀਆ"
+
+#~ msgid "Ecuador"
+#~ msgstr "ਏਕਵੇਡਰ"
+
+#~ msgid "Estonia"
+#~ msgstr "ਈਸਟੋਨੀਆ"
+
+#~ msgid "Egypt"
+#~ msgstr "ਮਿਸਰ"
+
+#~ msgid "Western Sahara"
+#~ msgstr "ਦੱਖਣੀ ਸਹਾਰਾ"
+
+#~ msgid "Eritrea"
+#~ msgstr "ਈਰਟੀਰਆ"
+
+#~ msgid "Spain"
+#~ msgstr "ਸਪੇਨ"
+
+#~ msgid "Ethiopia"
+#~ msgstr "ਈਥੋਪਈਆ"
+
+#~ msgid "Finland"
+#~ msgstr "ਫ਼ਿਨਲੈਂਡ"
+
+#~ msgid "Fiji"
+#~ msgstr "ਫਿਜ਼ੀ"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "ਫਾਲਕਲੈਂਡ ਟਾਪੂ (ਮਲਵੀਨਾਸ)"
+
+#~ msgid "Micronesia"
+#~ msgstr "ਮਾਕਰੋਨੀਸ਼ੀਆ"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "ਫਾਰੀਓ ਟਾਪੂ"
+
+#~ msgid "France"
+#~ msgstr "ਫਰਾਂਸ"
+
+#~ msgid "Gabon"
+#~ msgstr "ਗਾਬੋਨ"
+
+#~ msgid "United Kingdom"
+#~ msgstr "ਬਰਤਾਨੀਆ"
+
+#~ msgid "Grenada"
+#~ msgstr "ਗਰੀਨਾਡਾਆ"
+
+#~ msgid "Georgia"
+#~ msgstr "ਜਾਰਜੀਆ"
+
+#~ msgid "French Guiana"
+#~ msgstr "ਫਰੈਂਚ ਗੁਆਨਾ"
+
+#~ msgid "Ghana"
+#~ msgstr "ਗਾਨਾ"
+
+#~ msgid "Gibraltar"
+#~ msgstr "ਗੀਬਰਾਲਟਾਰ"
+
+#~ msgid "Greenland"
+#~ msgstr "ਗਰੀਨਲੈਂਡ"
+
+#~ msgid "Gambia"
+#~ msgstr "ਗਾਬੀਆ"
+
+#~ msgid "Guinea"
+#~ msgstr "ਗੂਈਨੀਆ"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "ਗੁਆਡੀਲੂਪੀ"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "ਭੂ-ਖੰਡੀ ਗੁਆਨਾ"
+
+#~ msgid "Greece"
+#~ msgstr "ਗਰੀਸ"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "ਦੱਖਣੀ ਜੀਓਰਜੀਆ ਅਤੇ ਦੱਖਣੀ ਸੈਂਡਵਿਚ ਟਾਪੂ"
+
+#~ msgid "Guatemala"
+#~ msgstr "ਗੂਆਟੇਮਾਲਾ"
+
+#~ msgid "Guam"
+#~ msgstr "ਗੁਆਮ"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "ਗੁਨੇਆ-ਬਿਸਾਉ"
+
+#~ msgid "Guyana"
+#~ msgstr "ਗੁਆਨਾ"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "ਹਾਂਗ ਕਾਂਗ ਸਾਰ (ਚੀਨ)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "ਹੀਅਰਡ ਅਤੇ ਮੈਕਡੋਨਾਲਡ ਟਾਪੂ"
+
+#~ msgid "Honduras"
+#~ msgstr "ਹਾਨਡੂਰਸ"
+
+#~ msgid "Croatia"
+#~ msgstr "ਕਰੋਟੀਆ"
+
+#~ msgid "Haiti"
+#~ msgstr "ਹਾਈਟੀ"
+
+#~ msgid "Hungary"
+#~ msgstr "ਹੰਗਰੀ"
+
+#~ msgid "Indonesia"
+#~ msgstr "ਇੰਡੋਨੇਸੀਆ"
+
+#~ msgid "Ireland"
+#~ msgstr "ਆਈਰਲੈਂਡ"
+
+#~ msgid "Israel"
+#~ msgstr "ਇਜ਼ਰਾਈਲ"
+
+#~ msgid "India"
+#~ msgstr "ਭਾਰਤ"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "ਬਰਤਾਨੀਆ ਭਾਰਤੀ ਸਮੁੰਦਰੀ ਖੇਤਰ"
+
+#~ msgid "Iraq"
+#~ msgstr "ਇਰਾਕ"
+
+#~ msgid "Iran"
+#~ msgstr "ਈਰਾਨ"
+
+#~ msgid "Iceland"
+#~ msgstr "ਟਾਪੂ"
+
+#~ msgid "Italy"
+#~ msgstr "ਇਟਲੀ"
+
+#~ msgid "Jamaica"
+#~ msgstr "ਜੈਮਾਈਕਾ"
+
+#~ msgid "Jordan"
+#~ msgstr "ਜਾਰਡਨ"
+
+#~ msgid "Japan"
+#~ msgstr "ਜਾਪਾਨ"
+
+#~ msgid "Kenya"
+#~ msgstr "ਕੀਨੀਆ"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "ਕਿਰਗਸਤਾਨ"
+
+#~ msgid "Cambodia"
+#~ msgstr "ਕੋਲੰਬੀਆ"
+
+#~ msgid "Kiribati"
+#~ msgstr "ਕੀਰੀਬਾਟੀ"
+
+#~ msgid "Comoros"
+#~ msgstr "ਕੋਮੋਰਸ"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "ਸੇਂਟ ਕਿਟਸ ਅਤੇ ਨੇਵੀਸ"
+
+#~ msgid "Korea (North)"
+#~ msgstr "ਕੋਰੀਆ (ਉੱਤਰੀ)"
+
+#~ msgid "Korea"
+#~ msgstr "ਕੋਰੀਆ"
+
+#~ msgid "Kuwait"
+#~ msgstr "ਕੁਵੈਤ"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "ਕਾਯਮਨ ਟਾਪੂ"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "ਕਜ਼ਾਕਸਤਾਨ"
+
+#~ msgid "Laos"
+#~ msgstr "ਲਿਉਸ"
+
+#~ msgid "Lebanon"
+#~ msgstr "ਲੀਬਨਾਨ"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "ਸੇਂਟ ਲੂਸੀਆ"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "ਲੀਚਟੀਨੀਆ"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "ਸ੍ਰੀਲੰਕਾ"
+
+#~ msgid "Liberia"
+#~ msgstr "ਲੀਬਾਰੀਆ"
+
+#~ msgid "Lesotho"
+#~ msgstr "ਲੀਸੋਥੋ"
+
+#~ msgid "Lithuania"
+#~ msgstr "ਲੀਥੂਨੀਆ"
+
+#~ msgid "Luxembourg"
+#~ msgstr "ਲ਼ਕਸ਼ਬਰਗ"
+
+#~ msgid "Latvia"
+#~ msgstr "ਲਾਟੀਵਾਆ"
+
+#~ msgid "Libya"
+#~ msgstr "ਲੀਬੀਆ"
+
+#~ msgid "Morocco"
+#~ msgstr "ਮੋਰੋਸ਼ਸ"
+
+#~ msgid "Monaco"
+#~ msgstr "ਮੋਨਸ਼ੀਆ"
+
+#~ msgid "Moldova"
+#~ msgstr "ਮੋਲਡੋਵਾ"
+
+#~ msgid "Madagascar"
+#~ msgstr "ਮੈਡਾਗਾਸਕਰ"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "ਮਾਰਸ਼ਲ ਟਾਪੂ"
+
+#~ msgid "Macedonia"
+#~ msgstr "ਮੈਕਡੋਨੀਆ"
+
+#~ msgid "Mali"
+#~ msgstr "ਮਾਲੀ"
+
+#~ msgid "Myanmar"
+#~ msgstr "ਮਿਆਂਮਾਰ"
+
+#~ msgid "Mongolia"
+#~ msgstr "ਮੰਗੋਲੀਆ"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "ਉੱਤਰੀ ਮਰੀਵੀਆਨਾ ਟਾਪੂ"
+
+#~ msgid "Martinique"
+#~ msgstr "ਮਾਰਟੀਨੀਕਿਊ"
+
+#~ msgid "Mauritania"
+#~ msgstr "ਮਾਓਰੀਟਆਨਾ"
+
+#~ msgid "Montserrat"
+#~ msgstr "ਮੋਨਟਸ਼ਟੀਟ"
+
+#~ msgid "Malta"
+#~ msgstr "ਮਾਲਟਾ"
+
+#~ msgid "Mauritius"
+#~ msgstr "ਮਾਓਟੀਸ"
+
+#~ msgid "Maldives"
+#~ msgstr "ਮਾਲਦੀਪ"
+
+#~ msgid "Malawi"
+#~ msgstr "ਮਾਲਾਵੀਆ"
+
+#~ msgid "Mexico"
+#~ msgstr "ਮੈਕਸੀਕੋ"
+
+#~ msgid "Malaysia"
+#~ msgstr "ਮਲੇਸ਼ੀਆ"
+
+#~ msgid "Mozambique"
+#~ msgstr "ਮੋਜ਼ਾਮਬੀਕਿਉ"
+
+#~ msgid "Namibia"
+#~ msgstr "ਨੀਮੀਬੀਆ"
+
+#~ msgid "New Caledonia"
+#~ msgstr "ਨਵਾਂ ਕਾਲੀਡੋਨੀਆਂ"
+
+#~ msgid "Niger"
+#~ msgstr "ਨੀਜ਼ਰ"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "ਨੋਰਫੋਕ ਟਾਪੂ"
+
+#~ msgid "Nigeria"
+#~ msgstr "ਨੀਜ਼ੀਰਆ"
+
+#~ msgid "Nicaragua"
+#~ msgstr "ਨਿਕਾਰਗੁਆ"
+
+#~ msgid "Netherlands"
+#~ msgstr "ਨੀਂਦਰਲੈਂਡ"
+
+#~ msgid "Norway"
+#~ msgstr "ਨਾਰਵੇ"
+
+#~ msgid "Nepal"
+#~ msgstr "ਨੇਪਾਲ"
+
+#~ msgid "Nauru"
+#~ msgstr "ਨੀਓਰੂ"
+
+#~ msgid "Niue"
+#~ msgstr "ਨੀਊਈ"
+
+#~ msgid "New Zealand"
+#~ msgstr "ਨਿਊਜੀਲੈਂਡ"
+
+#~ msgid "Oman"
+#~ msgstr "ਓਮਾਨ"
+
+#~ msgid "Panama"
+#~ msgstr "ਪੈਨਾਮਾ"
+
+#~ msgid "Peru"
+#~ msgstr "ਪੇਰੂ"
+
+#~ msgid "French Polynesia"
+#~ msgstr "ਫਰੈਂਚ ਪੋਲੀਸੇਲੇਵੀਆ"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "ਪਾਪੂਆ ਨਵਾਂ ਗੂਈਨਿਆ"
+
+#~ msgid "Philippines"
+#~ msgstr "ਫਿਲਿਪੀਨੀਜ਼"
+
+#~ msgid "Pakistan"
+#~ msgstr "ਪਾਕਿਸਤਾਨ"
+
+#~ msgid "Poland"
+#~ msgstr "ਪੋਲੈਂਡ"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "ਸੇਂਟ ਪਿੱਰੇ ਅਤੇ ਮੀਕੇਲੋਨ"
+
+#~ msgid "Pitcairn"
+#~ msgstr "ਪਿਟਸਾਰਨ"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "ਪੁਈਰਟੋ ਰੀਸੋ"
+
+#~ msgid "Palestine"
+#~ msgstr "ਪੇਲੇਸਟਾਈਨ"
+
+#~ msgid "Portugal"
+#~ msgstr "ਪੁਰਤਗਾਲ"
+
+#~ msgid "Paraguay"
+#~ msgstr "ਪੇਰੂਗਵੇ"
+
+#~ msgid "Palau"
+#~ msgstr "ਪਾਲਾਊ"
+
+#~ msgid "Qatar"
+#~ msgstr "ਕਤਰ"
+
+#~ msgid "Reunion"
+#~ msgstr "ਰੀਯੁਨੀਅਨ"
+
+#~ msgid "Romania"
+#~ msgstr "ਰੋਮਾਨੀਆ"
+
+#~ msgid "Russia"
+#~ msgstr "ਰੂਸ"
+
+#~ msgid "Rwanda"
+#~ msgstr "ਰਵਾਂਡਾਂ"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "ਸਾਊਦੀ ਅਰਬ"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "ਸੋਲੋਮੋਨ ਟਾਪੂ"
+
+#~ msgid "Seychelles"
+#~ msgstr "ਸੀਆਚਿਲਸ"
+
+#~ msgid "Sudan"
+#~ msgstr "ਸੂਡਾਨ"
+
+#~ msgid "Sweden"
+#~ msgstr "ਸਵੀਡਨ"
+
+#~ msgid "Singapore"
+#~ msgstr "ਸਿੰਘਾਪੁਰ"
+
+#~ msgid "Saint Helena"
+#~ msgstr "ਸੇਂਟ ਹੇਲੇਨਾ"
+
+#~ msgid "Slovenia"
+#~ msgstr "ਸਲੋਵੀਨੀਆ"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "ਸਵਾਲਬੋਰਡ ਅਤੇ ਜਾਨ ਮਾਈਨ ਟਾਪੂ"
+
+#~ msgid "Slovakia"
+#~ msgstr "ਸਲੋਵਾਕੀਆ"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "ਸੀਈਰਆ ਲਿਏਨ"
+
+#~ msgid "San Marino"
+#~ msgstr "ਸਾਨ ਮਾਰੀਨੂ"
+
+#~ msgid "Senegal"
+#~ msgstr "ਸੈਨੇਗਾਲ"
+
+#~ msgid "Somalia"
+#~ msgstr "ਸੋਮਾਲੀਆ"
+
+#~ msgid "Suriname"
+#~ msgstr "ਸੂਰੀਨਾਂ"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "ਸਾਓ ਟੋਮ ਅਤੇ ਪ੍ਰਿਨਸਾਈਪ"
+
+#~ msgid "El Salvador"
+#~ msgstr "ਈਲ ਸਾਲੇਵਡੋਰ"
+
+#~ msgid "Syria"
+#~ msgstr "ਸੀਰੀਆ"
+
+#~ msgid "Swaziland"
+#~ msgstr "ਸਵਰਜ਼ਲੈਂਡ"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "ਤੁਰਕਸ ਅਤੇ ਕੇਈਕੋਸ ਟਾਪੂ"
+
+#~ msgid "Chad"
+#~ msgstr "ਚੰਦ"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "ਫਰੈਂਚ ਦੱਖਣੀ ਖੇਤਰ"
+
+#~ msgid "Togo"
+#~ msgstr "ਟੂਗੂ"
+
+#~ msgid "Thailand"
+#~ msgstr "ਥਾਈਲੈਂਡ"
+
+#~ msgid "Tajikistan"
+#~ msgstr "ਤਜ਼ਾਕਸਤਾਨ"
+
+#~ msgid "Tokelau"
+#~ msgstr "ਟੂਕੀਲਾਊ"
+
+#~ msgid "East Timor"
+#~ msgstr "ਪੂਰਬੀ ਟੀਮੋਰ"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "ਤੁਰਕਸਤਾਨ"
+
+#~ msgid "Tunisia"
+#~ msgstr "ਟੁਨੀਸ਼ੀਆ"
+
+#~ msgid "Tonga"
+#~ msgstr "ਟੂਨਗਾ"
+
+#~ msgid "Turkey"
+#~ msgstr "ਤੁਰਕੀ"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "ਟਰਿਨੀਦਾਦ ਅਤੇ ਟੋਬੇਗੋ"
+
+#~ msgid "Tuvalu"
+#~ msgstr "ਟੂਵਾਲੂ"
+
+#~ msgid "Taiwan"
+#~ msgstr "ਤਾਈਵਾਨ"
+
+#~ msgid "Tanzania"
+#~ msgstr "ਤਾਨਜ਼ੀਆ"
+
+#~ msgid "Ukraine"
+#~ msgstr "ਯੂਕਰੇਨ"
+
+#~ msgid "Uganda"
+#~ msgstr "ਯੂਗਾਂਡਾ"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "ਅਮਰੀਕਾ ਦੇ ਛੋਟੇ ਟਾਪੂ"
+
+#~ msgid "United States"
+#~ msgstr "ਅਮਰੀਕਾ"
+
+#~ msgid "Uruguay"
+#~ msgstr "ਉਰੂਗਵੇ"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "ਉਜ਼ੇਬਕਸਤਾਨ"
+
+#~ msgid "Vatican"
+#~ msgstr "ਵਾਟੀਕਾਨ"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "ਸੇਂਟ ਵਿਨਸਨਟ ਅਤੇ ਗਰੇਨਾਡਾਈਨਸ"
+
+#~ msgid "Venezuela"
+#~ msgstr "ਵੈਨੂਜੇਏਲਾ"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "ਵਿਰਗਿਨ ਟਾਪੂ (ਬ੍ਰਿਟਿਸ਼)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "ਵਿਰਗਿਨ ਟਾਪੂ (U.S.)"
+
+#~ msgid "Vietnam"
+#~ msgstr "ਵੀਅਤਨਾਮ"
+
+#~ msgid "Vanuatu"
+#~ msgstr "ਵਾਨੂਟੂ"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "ਵਾਲਿਸ ਅਤੇ ਫੂਟੂਨਾ"
+
+#~ msgid "Samoa"
+#~ msgstr "ਸਾਮੋਆ"
+
+#~ msgid "Yemen"
+#~ msgstr "ਯਮਨ"
+
+#~ msgid "Mayotte"
+#~ msgstr "ਮਾਈਟੀ"
+
+#~ msgid "South Africa"
+#~ msgstr "ਦੱਖਣੀ ਅਫਰੀਕਾ"
+
+#~ msgid "Zambia"
+#~ msgstr "ਜ਼ੈਬੀਆ"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "ਜਿੰਬਾਬਾਵੇ"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "%s ਤੇ ਜੀ ਆਇਆਂ ਨੂੰ"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "ਪਹਿਲਾਂ ਲੌਜ਼ੀਕਲ ਵਾਲਿਅਮ ਹਟਾਓ\n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "ਚੇਤਾਵਨੀ: ਮੁਕਤ ਸਾਫਟਵੇਅਰ ਪੇਟਿੰਟ ਮੁਕਤ ਹੋਣੇ ਜਰੂਰੀ ਨਹੀਂ ਹੋ ਸਕਦੇ, ਅਤੇ ਕੁਝ ਸ਼ਾਮਿਲ ਮੁਕਤ\n"
+#~ "ਸਾਫਟਵੇਅਰ ਤੁਹਾਡੇ ਦੇਸ਼ ਵਿੱਚ ਪੇਟਿੰਟ ਦੁਆਰਾ ਸ਼ਾਮਿਲ ਕੀਤੇ ਹਨ। ਉਦਾਹਰਨ ਲਈ, ਸ਼ਾਮਿਲ MP3\n"
+#~ "ਡੀਕੋਡਰਾਂ ਨੂੰ ਅੱਗੇ ਵਰਤੋਂ ਲਈ ਲਾਈਸਿੰਸ ਦੀ ਲੋੜ ਪੈ ਸਕਦੀ ਹੈ (ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ\n"
+#~ "http://www.mp3licensing.com ਵੇਖੋ)। ਜੇ ਤੁਹਾਨੂੰ ਯਕੀਨ ਨਹੀਂ ਕਿ ਤੁਹਾਡਾ \n"
+#~ "ਪੇਟਿੰਟ ਤੁਹਾਨੂੰ ਉਪਲੱਬਧ ਹੋ ਸਕਦਾ ਹੈ, ਆਪਣੇ ਲੋਕਲ ਨਿਯਮਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "UPS ਡਰਾਈਵਰ ਸੰਰਚਨਾ"
+
+#~ msgid "Module configuration"
+#~ msgstr "ਮੈਡਿਊਲ ਸੰਰਚਨਾ"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "ਤੁਸੀਂ ਇੱਥੇ ਮੈਡਿਊਲ ਦਾ ਹਰੇਕ ਪੈਰਾਮੀਟਰ ਸੰਰਚਿਤ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "%s ਇੰਟਰਫੇਸ ਲੱਭੇ ਹਨ"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕੋਈ ਹੋਰ ਹੈ?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਕੋਈ ਹੋਰ %s ਇੰਟਰਫੇਸ ਹੈ?"
+
+#~ msgid "See hardware info"
+#~ msgstr "ਹਾਰਡਵੇਅਰ ਜਾਣਕਾਰੀ ਵੇਖੋ"
+
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "USB ਕੰਟਰੋਲਰ ਲਈ ਡਰਾਈਵਰ ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "firewire ਕੰਟਰੋਲਰ %s ਲਈ ਡਰਾਈਵਰ ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "ਹਾਰਡ ਡਰਾਈਵ ਕੰਟਰੋਲਰ %s ਲਈ ਡਰਾਈਵਰ ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "ਈਥਰਨੈੱਟ ਕੰਟਰੋਲਰ %s ਲਈ ਡਰਾਈਵਰ ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "%s ਕਾਰਡ %s ਲਈ ਡਰਾਈਵਰ ਇੰਸਟਾਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਹੁਣ ਮੈਡਿਊਲ %s ਲਈ ਚੋਣ ਮੁਹੱਈਆ ਕਰ ਸਕਦੇ ਹੋ।\n"
+#~ "ਯਾਦ ਰੱਖੋ ਕਿ ਕੋਈ ਸਿਰਨਾਵਾਂ ਪਿਛੇਤਰ 0x ਜਿਵੇਂ '0x123' ਨਾਲ ਭਰਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "ਤੁਸੀਂ ਹੁਣ ਮੈਡਿਊਲ %s ਲਈ ਚੋਣ ਮੁਹੱਈਆ ਕਰ ਸਕਦੇ ਹੋ।\n"
+#~ "ਚੋਣ ਫਾਰਮਿਟ ਹੈ ``ਨਾਂ=ਮੁੱਲ ਨਾਂ2=ਮੁੱਲ2 ...''।\n"
+#~ "ਉਦਾਹਰਨ ਲਈ, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "ਮੈਡਿਊਲ ਚੋਣ:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "ਮੈਂ ਕਿਸ %s ਡਰਾਈਵਰ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂ?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "ਕਈ ਵਾਰ, %s ਡਰਾਈਵਰ ਲਈ ਠੀਕ ਤਰਾਂ ਕੰਮ ਕਰਨ ਲਈ ਵਾਧੂ ਜਾਣਕਾਰੀ ਦੀ ਜਰੂਰਤ ਹੁੰਦੀ\n"
+#~ "ਹੈ, ਭਾਵੇਂ ਇਹ ਇਹਨਾਂ ਤੋਂ ਬਿਨਾਂ ਠੀਕ ਕੰਮ ਕਰਦਾ ਹੈ। ਕੀ ਤੁਸੀਂ ਇਸ ਲਈ ਵਾਧੂ ਚੋਣ ਦਰਸਾਉਣੀ\n"
+#~ "ਚਾਹੁੰਦੇ ਹੋ ਜਾਂ ਡਰਾਈਵਰ ਨੂੰ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਲਈ ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਤੇ ਖੋਜ ਕਰਨ ਦੀ\n"
+#~ "ਇਜਾਜ਼ਤ ਦੇਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਸੰਭਾਵੀ ਹੀ, ਖੋਜ ਕੰਪਿਊਟਰ ਨੂੰ ਲਟਕਾ ਦੇਵੇਗੀ, ਪਰ ਇਸ ਨਾਲ ਕੋਈ\n"
+#~ "ਨੁਕਸਾਨ ਨਹੀਂ ਹੁੰਦਾ ਹੈ।"
+
+#~ msgid "Autoprobe"
+#~ msgstr "ਸਵੈ-ਖੋਜ"
+
+#~ msgid "Specify options"
+#~ msgstr "ਚੋਣ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "ਮੈਡਿਊਲ %s ਦੀ ਲੋਡਿੰਗ ਅਸਫਲ ਹੋਈ।\n"
+#~ "ਕੀ ਤੁਸੀਂ ਫਿਰ ਹੋਰ ਪੈਰਾਮੀਟਰ ਨਾਲ ਕੋਸ਼ਿਸ਼ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "mount failed: "
+#~ msgstr "ਮਾਊਂਟ ਅਸਫਲ:"
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "ਐਕਸਟੈਂਡਡ ਭਾਗ ਨੂੰ ਇਸ ਪਲੇਟਫਾਰਮ ਤੇ ਸਹਿਯੋਗ ਨਹੀਂ"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "ਤੁਹਾਡੀ ਭਾਗ ਸਾਰਣੀ ਵਿੱਚ ਮੋਰੀ ਹੈ ਪਰ ਮੈਂ ਇਸ ਨੂੰ ਨਹੀਂ ਵਰਤਦਾ।\n"
+#~ "ਹੱਲ ਸਿਰਫ ਇਹ ਹੈ ਕਿ ਮੋਰੀ ਨੂੰ ਐਮਸਟੈਂਡਡ ਭਾਗ ਤੋਂ ਮਗਰ ਲਿਜਾਣ ਲਈ ਆਪਣਾ ਪ੍ਰਾਇਮਰੀ ਭਾਗ ਹਟਾਓ।"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "ਫਾਇਲ %s ਪੜਨ ਵਿੱਚ ਗਲਤੀ"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "ਫਾਇਲ %s ਤੋਂ ਮੁੜ ਸੰਭਾਲ ਅਸਫਲ ਹੋਈ: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "ਗਲਤ ਬੈਕਅੱਪ ਫਾਇਲ"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "ਫਾਇਲ %s ਲਿਖਣ ਵਿੱਚ ਗਲਤੀ"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "ਤੁਹਾਡੀ ਡਰਾਈਵ ਤੇ ਕੁਝ ਗਲਤ ਵਾਪਰਿਆ ਹੈ। \n"
+#~ "ਡਾਟੇ ਦੀ ਇੱਕਸਾਰਤਾ ਜਾਂਚ ਅਸਫਲ ਹੋਈ ਹੈ। \n"
+#~ "ਇਸ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਡਿਸਕ ਤੇ ਕੁਝ ਲਿਖਣ ਨਾਲ, ਨਕਾਰਾ ਡਾਟਾ ਪ੍ਰਾਪਤ ਹੋਵੇਗਾ।"
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr " _ਫਾਰਮਿਟ_ RAID %s ਵਿੱਚ ਭਾਗ ਨਹੀਂ ਬਣਾ ਸਕਦਾ"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr " RAID ਪੱਧਰ %d ਲਈ ਲੋੜੀਂਦੇ ਭਾਗ ਨਹੀਂ ਹਨ\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "/usr/share/sane/firmware ਡਾਇਰੈਕਟਰੀ ਨਹੀਂ ਬਣਾ ਸਕਦਾ!"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "ਸੰਬੰਧ /usr/share/sane/%s ਨਹੀਂ ਬਣਾ ਸਕਦਾ!"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr "firmware ਫਾਇਲ %s ਨੂੰ /usr/share/sane/firmware ਵਿੱਚ ਨਕਲ ਨਹੀਂ ਕਰ ਸਕਦਾ!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr "firmware ਫਾਇਲ %s ਲਈ ਅਧਿਕਾਰ ਨਿਰਧਾਰਿਤ ਨਹੀਂ ਕੀਤੇ!"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr "ਤੁਹਾਡਾ ਸਕੈਨਰ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਲੋੜੀਂਦੇ ਪੈਕੇਜ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦਾ।"
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "ਤੁਹਾਡਾ ਸਕੈਨਰ ਪ੍ਰਬੰਧਕ (root) ਤੋਂ ਬਿਨਾ ਕਿਸੇ ਲਈ ਉਪਲੱਬਧ ਨਹੀਂ।"
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "ਬੱਗ IPv4 ਗਲਤੀ ਸੁਨੇਹੇ ਸਵੀਕਾਰ/ਇਨਕਾਰ।"
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "ਬਰਾਡਕਾਸਟ icmp echo ਸਵੀਕਾਰ/ਇਨਕਾਰ।"
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "icmp echo ਸਵੀਕਾਰ/ਇਨਕਾਰ।"
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "ਸਵੈਲਾਗਇਨ ਇਜਾਜ਼ਤ/ਮਨਾਹੀ।"
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "ਜੇ \"ਸਭ\" ਨਿਰਧਾਰਿਤ ਹੈ, /etc/issue ਅਤੇ /etc/issue.net ਨੂੰ ਬੰਦ ਹੋਣ ਦੀ ਇਜਾਜ਼ਤ ਹੈ।\n"
+#~ "\n"
+#~ "ਜੇ ਕੋਈ ਨਹੀਂ ਨਿਰਧਾਰਿਤ ਹੈ, ਕੁਝ ਜਾਰੀ ਨਹੀਂ ਕਰਨੀ।\n"
+#~ "\n"
+#~ "ਨਹੀਂ ਤਾਂ ਸਿਰਫ /etc/issue ਦੀ ਇਜਾਜ਼ਤ ਹੈ।"
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "ਕੰਸੋਲ ਉਪਭੋਗੀ ਦੁਆਰਾ ਮੁੜ-ਚਲਾਓ ਇਜਾਜ਼ਤ/ ਮਨਾਹੀ।"
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "ਰਿਮੋਟ ਪ੍ਰਬੰਧਕ (root) ਲਾਗਇਨ ਇਜਾਜ਼ਤ/ਮਨਾਹੀ।"
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "ਸਿੱਧਾ ਪ੍ਰਬੰਧਕ (root) ਲਾਗਇਨ ਇਜਾਜ਼ਤ/ਮਨਾਹੀ।"
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr "ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ (kdm ਅਤੇ gdm) ਵਿੱਚ ਸਿਸਟਮ ਤੇ ਉਪਭੋਗੀਆਂ ਦੀ ਸੂਚੀ ਇਜਾਜ਼ਤ/ਮਨਾਹੀ।"
+
+#~ msgid ""
+#~ "Allow/forbid to export display when\n"
+#~ "passing from the root account to the other users.\n"
+#~ "\n"
+#~ "See pam_xauth(8) for more details.'"
+#~ msgstr ""
+#~ "ਦ੍ਰਿਸ਼ ਨਿਰਯਾਤ ਇਜਾਜ਼ਤ/ਮਨਾਹੀ\n"
+#~ "ਪ੍ਰਬੰਧਕ (root) ਖਾਤੇ ਤੋਂ ਹੋਰ ਉਪਭੋਗੀ ਵੱਲ ਤਬਦੀਲੀ ਦੌਰਾਨ।\n"
+#~ "\n"
+#~ "ਵਧੇਰੇ ਜਾਣਕਾਰੀ ਲਈ See pam_xauth(8) ਵੇਖੋ।'"
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "ਇਜਾਜ਼ਤ/ਮਨਾਹੀ X ਕੁਨੈਕਸ਼ਨ:\n"
+#~ "\n"
+#~ "- ਸਭ (ਸਭ ਕੁਨੈਕਸ਼ਨਾਂ ਨੂੰ ਇਜਾਜ਼ਤ ਹੈ),\n"
+#~ "\n"
+#~ "- ਲੋਕਲ (ਸਿਰਫ ਲੋਕਲ ਮਸ਼ੀਨਾਂ ਤੋਂ ਕੁਨੈਕਸ਼ਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ),\n"
+#~ "\n"
+#~ "- ਕੋਈ ਨਹੀਂ (ਕੋਈ ਕੁਨੈਕਸ਼ਨ ਨਹੀਂ)।"
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "ਆਰਗੂਮੈਂਟ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਜੇ ਕਲਾਂਈਟਾਂ ਨੂੰ ਨੈੱਟਵਰਕ ਤੋਂ tcp ਪੋਰਟ 6000\n"
+#~ "ਤੇ X ਸਰਵਰ ਨਾਲ ਜੁੜਨ ਦੀ ਇਜਾਜ਼ਤ ਹੈ ਜਾਂ ਨਹੀਂ।"
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "ਪ੍ਰਮਾਣਿਤ:\n"
+#~ "\n"
+#~ "- ਸਾਰੀਆਂ ਸੇਵਾਵਾਂ ਦਾ ਕੰਟਰੋਲ tcp_wrappers ਦੁਆਰਾ ਹੁੰਦਾ ਹੈ (hosts.deny(5) man ਸਫਾ ਵੇਖੋ) "
+#~ "ਜੇ \"ਸਭ\" ਨਿਰਧਾਰਿਤ ਹੈ,\n"
+#~ "\n"
+#~ "- ਸਿਰਫ ਲੋਕਲ ਜੇ \"ਲੋਕਲ\" ਨਿਰਧਾਰਿਤ ਹੈ\n"
+#~ "\n"
+#~ "- ਕੋਈ ਨਹੀਂ \"ਕੋਈ ਨਹੀਂ\" ਨਿਰਧਾਰਿਤ ਹੈ।\n"
+#~ "\n"
+#~ "ਲੋੜੀਂਦੀਆਂ ਸੇਵਾਵਾਂ ਦੀ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ, /etc/hosts.allow ਵਰਤੋ (hosts.allow(5) ਵੇਖੋ)।"
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "ਜੇ SERVER_LEVEL (ਜਾਂ SECURE_LEVEL ਜੇ ਮੌਜੂਦ ਨਹੀਂ ਹੈ)\n"
+#~ "ਇਹ /etc/security/msec/security.conf ਵਿੱਚ 3 ਤੋਂ ਵੱਡਾ ਹੈ, \n"
+#~ "/etc/security/msec/server ਨੂੰ ਵਿਖਾਉਂਦਾ symlink \n"
+#~ "/etc/security/msec/server ਬਣਾਓ। <SERVER_LEVEL>।\n"
+#~ "\n"
+#~ "/etc/security/msec/server ਨੂੰ chkconfig --add ਰਾਹੀਂ ਇੱਕ ਸੇਵਾ ਸ਼ਾਮਿਲ ਕਰਨ\n"
+#~ "ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ, ਜੇ ਇਹ ਫਾਇਲ ਵਿੱਚ ਪੈਕੇਜ ਦੀ ਇੰਸਟਾਲੇਸ਼ਨ ਦੌਰਾਨ ਇਹ\n"
+#~ "ਮੌਜੂਦ ਹੈ।"
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "ਯੋਗ/ਅਯੋਗ crontab ਅਤੇ ਉਪਭੋਗੀ ਲਈ।\n"
+#~ "\n"
+#~ "ਮਨਜੂਰ ਉਪਭੋਗੀਆਂ ਨੂੰ /etc/cron.allow ਅਤੇ /etc/at.allow ਵਿੱਚ ਭੇਜੋ (man at(1)\n"
+#~ "ਅਤੇ crontab(1) ਵੇਖੋ)।"
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "syslog ਰਿਪੋਰਟਾਂ ਨੂੰ ਕੰਸੋਲ 12 ਵੱਲ ਯੋਗ/ਅਯੋਗ"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "ਨਾਂ ਰੈਜ਼ੋਲੂਸ਼ਨ spoofing ਬਚਾਓ ਲਈ ਯੋਗ/ਅਯੋਗ।ਜੇ\n"
+#~ "\"%s\" ਸਹੀ ਹੈ, syslog ਨੂੰ ਵੀ ਰਿਪੋਰਟ ਕਰੋ।"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "ਸੁਰੱਖਿਆ ਚੇਤਾਵਨੀ:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "IP spoofing ਬਚਾਓ ਯੋਗ/ਅਯੋਗ।"
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "libsafe ਯੋਗ/ਅਯੋਗ ਜੇ ਸਿਸਟਮ ਤੇ libsafe ਨਹੀਂ ਲੱਭਿਆ।"
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "IPv4 ਅਜੀਬ ਪੈਕਟਾਂ ਦੀ ਲਾਗਿੰਗ ਯੋਗ/ਅਯੋਗ।"
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "ਮਿ:ਸੈ: ਘੰਟੇ ਵਾਲੀ ਸੁਰੱਖਿਆ ਜਾਂਚ ਯੋਗ/ਅਯੋਗ।"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "su ਨੂੰ ਸਿਰਫ ਵੀਲ ਸਮੂਹ ਦੇ ਮੈਂਬਰਾਂ ਤੋਂ ਯੋਗ ਕਰ ਰਿਹਾ ਹੈ ਜਾਂ su ਨੂੰ ਕਿਸੇ ਉਪਭੋਗੀ ਤੋਂ ਇਜਾਜ਼ਤ ਹੈ।"
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "ਉਪਭੋਗੀ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਗੁਪਤ-ਕੋਡ ਵਰਤੋ।"
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr "ਈਥਰਨੈੱਟ ਕਾਰਡ ਮਨਜੂਰੀ-ਸੁਰੱਖਿਆ ਜਾਂਚ ਸਰਗਰਮ/ਅਯੋਗ।"
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "ਰੋਜ਼ਾਨਾ ਸੁਰੱਖਿਆ ਜਾਂਚ ਸਰਗਰਮ/ਅਯੋਗ।"
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "ਇਕਹਿਰਾ ਉਪਭੋਗੀ ਪੱਧਰ ਵਿੱਚ sulogin(8) ਸਰਗਰਮ/ਅਯੋਗ।"
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr "ਮਿ: ਸੈ: ਦੁਆਰਾ ਗੁਪਤ-ਕੋਡ ਮਿਆਦ ਦੇ ਪ੍ਰਬੰਧਨ ਲਈ ਐਕਸੈਪਸ਼ਨ ਤੌਰ ਤੇ ਨਾਂ ਸ਼ਾਮਿਲ ਕਰੋ।"
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "ਗੁਪਤ-ਕੋਡ ਮਿਆਦ \"max\" ਅਤੇ ਅੰਤਰਾਲ ਨੂੰ \"inactive\" ਤਬਦੀਲ ਹੋਣ ਲਈ ਨਿਰਧਾਰਿਤ ਕਰੋ।"
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr "ਗੁਪਤ-ਕੋਡ ਮੁੜ ਵਰਤੋਂ ਤੋਂ ਬਚਾਉਣ ਲਈ ਗੁਪਤ-ਕੋਡ ਅਤੀਤ ਲੰਬਾਈ ਨਿਰਧਾਰਿਤ ਕਰੋ।"
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "ਗੁਪਤ-ਕੋਡ ਘੱਟੋ-ਘੱਟ ਲੰਬਾਈ ਅਤੇ ਘੱਟੋ-ਘੱਟ ਅੰਕ ਗਿਣਤੀ ਅਤੇ ਘੱਟੋ-ਘੱਟ ਵੱਡੇ ਅੱਖਰਾਂ ਦੀ ਗਿਣਤੀ ਨਿਰਧਾਰਿਤ ਕਰੋ।"
+
+#~ msgid "Set the root umask."
+#~ msgstr "ਰੂਟ umask ਨਿਰਧਾਰਿਤ ਕਰੋ।"
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "ਜੇ ਹਾਂ ਨਿਰਧਾਰਿਤ ਹੈ, ਖੁੱਲੇ ਪੋਰਟ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "ਜੇ ਹਾਂ ਨਿਰਧਾਰਿਤ ਹੈ, ਇਹਨਾਂ ਦੀ ਜਾਂਚ ਕਰੋ:\n"
+#~ "\n"
+#~ "- ਖਾਲੀ ਗੁਪਤ-ਕੋਡ,\n"
+#~ "\n"
+#~ "- /etc/shadow ਵਿੱਚ ਕੋਈ ਗੁਪਤ-ਕੋਡ ਨਹੀਂ\n"
+#~ "\n"
+#~ "- ਰੂਟ ਤੋਂ ਬਗੈਰ 0 id ਵਾਲੇ ਉਪਭੋਗੀਆਂ ਲਈ।"
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, ਉਪਭੋਗੀ ਦੇ ਘਰ ਵਿੱਚ ਫਾਇਲਾਂ ਦੀ ਮਨਜੂਰੀ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਨੈੱਟਵਰਕ ਜੰਤਰ ਮਿਸ਼ਰਤ ਵਿਧੀ ਵਿੱਚ ਹੈ।"
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, ਰੋਜ਼ਾਨਾ ਜਾਂਚ ਚਲਾਓ।"
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, sgid ਫਾਇਲਾਂ ਦੀ ਸ਼ਾਮਿਲੀਅਤ/ਹਟਾਉਣ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, /etc/shadow ਵਿੱਚ ਖਾਲੀ ਗੁਪਤ-ਕੋਡ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, suid/sgid ਫਾਇਲਾਂ ਦੇ ਚੈੱਕਸਮ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, suid ਰੂਟ ਫਾਇਲਾਂ ਦੀ ਸ਼ਾਮਿਲੀਅਤ/ਹਟਾਓਣ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, ਨਾ-ਮਾਲਕੀਅਤ ਫਾਇਲਾਂ ਬਾਰੇ ਦੱਸੋ।"
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, ਹਰੇਕ ਦੁਆਰਾ ਲਿਖਣ ਯੋਗ ਫਾਇਲਾਂ/ਡਾਇਰੈਕਟਰੀਆਂ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, chkrootkit ਜਾਂਚ ਚਲਾਓ।"
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr "ਜੇ ਨਿਰਧਾਰਿਤ ਹੈ, ਇਸ ਪੱਤਰ ਸਿਰਨਾਵੇਂ ਤੇ ਪੱਤਰ ਰਿਪੋਰਟ ਭੇਜੋ ਜਾਂ ਇਹ ਪ੍ਰਬੰਧਕ (root) ਨੂੰ ਭੇਜੋ।"
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, ਪੱਤਰ ਦੁਆਰਾ ਜਾਂਚ ਨਤੀਜਾ ਭੇਜੋ।"
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "ਪੱਤਰ ਨਾ ਭੇਜੋ ਜੇ ਇਸ ਭਾਰੇ ਕੋਈ ਚੇਤਾਵਨੀ ਨਹੀਂ ਹੈ"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, rpm ਪੈਕੇਜਾਂ ਲਈ ਕੁਝ ਜਾਂਚ ਚਲਾਓ।"
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, syslog ਨੂੰ ਜਾਂਚ ਨਤੀਜਾ ਭੇਜੋ।"
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "ਜੇ ਠੀਕ ਹੈ ਨਿਰਧਾਰਿਤ ਹੈ, tty ਨੂੰ ਜਾਂਚ ਨਤੀਜਾ ਭੇਜੋ।"
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr "ਸ਼ੈੱਲ ਕਮਾਂਡ ਅਤੀਤ ਅਕਾਰ ਨਿਰਧਾਰਿਤ ਕਰੋ। ਮੁੱਲ -1 ਦਾ ਮਤਲਬ ਹੈ ਬੇਅੰਤ।"
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr "ਸ਼ੈੱਲ ਮਿਆਦ ਨਿਰਧਾਰਿਤ ਕਰੋ। ਸਿਫਰ ਦਾ ਮਤਲਬ ਹੈ ਕੋਈ ਮਿਆਦ ਨਹੀਂ।"
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "ਮਿਆਦ ਇਕਾਈ ਹੈ ਸਕਿੰਟ"
+
+#~ msgid "Set the user umask."
+#~ msgstr "ਉਪਭੋਗੀ umask ਨਿਰਧਾਰਿਤ ਕਰੋ।"
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "ਬੱਗ IPv4 ਗਲਤੀ ਸੁਨੇਹੇ ਪ੍ਰਾਪਤ ਕਰੋ"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "ਬਰਾਡਕਾਸਟ icmp echo ਪ੍ਰਾਪਤ ਕਰੋ"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "icmp echo ਪ੍ਰਾਪਤ ਕਰੋ"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* ਤੋਂ ਬਾਹਰ"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "ਕੰਸੋਲ ਉਪਭੋਗੀ ਦੁਆਰਾ ਮੁੜ ਚਲਾਓ"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "ਰਿਮੋਟ ਰੂਟ ਲਾਗਇਨ ਮਨਜੂਰ ਕਰੋ"
+
+#~ msgid "Direct root login"
+#~ msgstr "ਸਿੱਧਾ ਰੂਟ ਲਾਗਇਨ"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "ਦ੍ਰਿਸ਼ ਮੈਨੇਜਰ (kdm ਅਤੇ gdm) ਉਪਭੋਗੀ ਉਪਭੋਗੀ ਵਿਖਾਓ"
+
+#~ msgid "Export display when passing from root to the other users"
+#~ msgstr "ਰੂਟ ਤੋਂ ਹੋਰ ਉਪਭੋਗੀ ਵੱਲ ਤਬਦੀਲੀ ਸਮੇਂ ਦ੍ਰਿਸ਼ ਨਿਰਯਾਤ ਕਰੋ"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "X ਝਰੋਖਾ ਕੁਨੈਕਸ਼ਨ ਮਨਜੂਰੀ ਦਿਓ"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "TCP ਕੁਨੈਕਸ਼ਨ ਨੂੰ X ਝਰੋਖਾ ਮਨਜੂਰੀ ਦਿਓ"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "tcp_wrappers ਦੁਆਰਾ ਕੰਟਰੋਲ ਕੀਤੀਆਂ ਸਭ ਸੇਵਾਵਾਂ ਨੂੰ ਮਨਜੂਰੀ ਦਿਓ"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig, msec ਨਿਯਮਾਂ ਤੇ ਚੱਲਦੀ ਹੈ"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "ਉਪਭੋਗੀਆਂ ਲਈ \"crontab\" ਅਤੇ \"at\" ਯੋਗ ਕਰੋ"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Syslog ਕੰਸੋਲ 12 ਨੂੰ ਰਿਪੋਰਟ ਕਰਦਾ ਹੈ"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "ਨਾਂ ਰੈਜ਼ੋਲੂਸ਼ਨ spoofing ਬਚਾਓ"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "IP spoofing ਬਚਾਓ ਯੋਗ ਕਰੋ"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "libsafe ਯੋਗ ਕਰੋ ਜੇ libsafe ਤੁਹਾਡੇ ਸਿਸਟਮ ਤੇ ਲੱਭੀ ਹੈ"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "IPv4 ਅਜੀਬ ਪੈਕੇਟਾਂ ਦੀ ਲਾਗਿੰਗ ਯੋਗ ਕਰੋ"
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "ਮਿ:ਸੈ: ਘੰਟਿਆਂ ਵਾਲੀ ਸੁਰੱਖਿਆ ਜਾਂਚ ਯੋਗ ਕਰੋ"
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr "su ਨੂੰ ਸਿਰਫ ਚੱਕਰ ਸਮੂਹ ਮੈਂਬਰ ਜਾਂ ਕਿਸੇ ਉਪਭੋਗੀ ਲਈ ਯੋਗ ਕਰੋ"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "ਉਪਭੋਗੀ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਗੁਪਤ-ਕੋਡ ਵਰਤੋ"
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "ਈਥਰਨੈੱਟ ਕਾਰਡ ਮਿਸ਼ਰਤ ਜਾਂਚ"
+
+#~ msgid "Daily security check"
+#~ msgstr "ਰੋਜ਼ਾਨਾ ਸੁਰੱਖਿਆ ਜਾਂਚ"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) ਇਕਹਿਰੇ ਉਪਭੋਗੀ ਪੱਧਰ ਵਿੱਚ"
+
+#~ msgid "No password aging for"
+#~ msgstr "ਇਸ ਲਈ ਕੋਈ ਗੁਪਤ-ਕੋਡ ਮਿਆਦ ਨਹੀਂ"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr "ਗੁਪਤ-ਕੋਡ ਮਿਆਦ ਅਤੇ ਖਾਤਾ ਨਾ-ਸਰਗਰਮੀ ਅੰਤਰਾਲ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+
+#~ msgid "Password history length"
+#~ msgstr "ਗੁਪਤ-ਕੋਡ ਅਤੀਤ ਲੰਬਾਈ"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr "ਗੁਪਤ-ਕੋਡ ਘੱਟੋ-ਘੱਟ ਲੰਬਾਈ ਅਤੇ ਅੰਕਾਂ ਅਤੇ ਵੱਡੇ ਅੱਖਰਾਂ ਦੀ ਗਿਣਤੀ"
+
+#~ msgid "Root umask"
+#~ msgstr "ਰੂਟ umask"
+
+#~ msgid "Shell history size"
+#~ msgstr "ਸ਼ੈੱਲ ਅਤੀਤ ਅਕਾਰ"
+
+#~ msgid "Shell timeout"
+#~ msgstr "ਸ਼ੈੱਲ ਮਿਆਦ"
+
+#~ msgid "User umask"
+#~ msgstr "ਉਪਭੋਗੀ umask"
+
+#~ msgid "Check open ports"
+#~ msgstr "ਖੁੱਲੇ ਪੋਰਟ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "ਅਸੁਰੱਖਿਅਤ ਖਾਤਿਆਂ ਲਈ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "ਉਪਭੋਗੀ ਦੇ ਘਰ ਵਿੱਚ ਫਾਇਲਾਂ ਦੀ ਮਨਜੂਰੀ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਨੈੱਟਵਰਕ ਜੰਤਰ ਮਿਸ਼ਰਤ ਵਿਧੀ ਵਿੱਚ ਹਨ"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "ਰੋਜ਼ਾਨਾ ਸੁਰੱਖਿਆ ਜਾਂਚ ਚਲਾਓ"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "sgid ਫਾਇਲਾਂ ਦੀ ਸ਼ਾਮਲੀਅਤ/ਹਟਾਉਣ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "/etc/shadow ਵਿੱਚ ਖਾਲੀ ਗੁਪਤ-ਕੋਡ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "suid/sgid ਫਾਇਲਾਂ ਦੇ ਚੈੱਕਸਮ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "suid ਰੂਟ ਫਾਇਲਾਂ ਦੀ ਸ਼ਾਮਲੀਅਤ/ਹਟਾਉਣ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Report unowned files"
+#~ msgstr "ਨਾ-ਮਲਕੀਅਤ ਫਾਇਲਾਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "ਹਰੇਕ ਦੁਆਰਾ ਲਿਖਣ ਯੋਗ ਫਾਇਲਾਂ/ਡਾਇਰੈਕਟਰੀਆਂ ਦੀ ਜਾਂਚ ਕਰੋ"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "chkrootkit ਜਾਂਚ ਚਲਾਓ"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr "ਜੇ ਨਿਰਧਾਰਿਤ ਹੈ, ਇਸ ਇ-ਪੱਤਰ ਸਿਰਨਾਵੇਂ ਤੇ ਪੱਤਰ ਭੇਜੋ ਜਾਂ ਇਹ ਪ੍ਰਬੰਧਕ (root) ਨੂੰ ਭੇਜੋ"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "ਪੱਤਰ ਦੁਆਰਾ ਜਾਂਚ ਨਤੀਜਾ ਭੇਜੋ"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "rpm ਡਾਟਾਬੇਸ ਲਈ ਕੁਝ ਜਾਂਚ ਚਲਾਓ"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "syslog ਨੂੰ ਜਾਂਚ ਨਤੀਜਾ ਭੇਜੋ"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "tty ਨੂੰ ਜਾਂਚ ਨਤੀਜਾ ਭੇਜੋ"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "ਖੋਜੀਆਂ ਵੱਲੋਂ ਜੀ ਆਇਆਂ ਨੂੰ"
+
+#~ msgid "Poor"
+#~ msgstr "ਘੱਟ"
+
+#~ msgid "High"
+#~ msgstr "ਜਿਆਦਾ"
+
+#~ msgid "Higher"
+#~ msgstr "ਬਹੁਤ-ਜਿਆਦਾ"
+
+#~ msgid "Paranoid"
+#~ msgstr "ਪੈਰਾਨਾਇਡ"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "ਇਹ ਪੱਧਰ ਧਿਆਨ ਨਾਲ ਵਰਤਣ ਲਈ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਸਿਸਟਮ ਨੂੰ ਵਰਤਣ ਲਈ ਸੌਖਾ ਬਣਾਉਂਦਾ ਹੈ,\n"
+#~ "ਪਰ ਬਹੁਤ ਨਾਜ਼ੁਕ ਹੈ। ਇਹ ਹੋਰ ਜਾਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਜੁੜੀਆਂ ਮਸ਼ੀਨਾਂ ਲਈ ਨਹੀਂ ਵਰਤਿਆ ਜਾ ਸਕਦਾ\n"
+#~ "ਹੈ। ਇੱਥੇ ਕੋਈ ਗੁਪਤ-ਕੋਡ ਪਹੁੰਚ ਨਹੀਂ।"
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr "ਗੁਪਤ-ਕੋਡ ਹੁਣ ਯੋਗ ਹੈ, ਪਰ ਨੈੱਟਵਰਕ ਕੰਪਿਊਟਰ ਤੌਰ ਤੇ ਵਰਤਣ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "ਇਹ ਕਲਾਂਈਟ ਤੌਰ ਤੇ ਇੰਟਰਨੈੱਟ ਨਾਲ ਜੁੜਨ ਵਾਲੇ ਕੰਪਿਊਟਰਾਂ ਲਈ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਮਿਆਰੀ ਸੁਰੱਖਿਆ ਹੈ।"
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr "ਇੱਥੇ ਪਹਿਲਾਂ ਹੀ ਕੁਝ ਪਾਬੰਦੀਆਂ ਹਨ, ਅਤੇ ਹਰ ਰਾਤ ਨੂੰ ਬਹੁਤ ਸਾਰੀ ਸਵੈ ਜਾਂਚ ਚਲੱਦੀ ਹੈ।"
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "ਇਸ ਸੁਰੱਖਿਆ ਪੱਧਰ ਵਿੱਚ, ਇਸ ਸਿਸਟਮ ਦੀ ਸਰਵਰ ਤੌਰ ਤੇ ਵਰਤੋਂ ਸੰਭਵ ਹੈ।\n"
+#~ "ਸੁਰੱਖਿਆ ਹੁਣ ਸਿਸਟਮ ਨੁੰ ਸਰਵਰ ਤੌਰ ਤੇ ਵਰਤਣ ਲਈ ਇੰਨੀ ਟੈਟ ਹੈ ਕਿ ਕਲਾਂਈਟ ਤੋਂ ਕੁਨੈਕਸ਼ਨ ਸਵੀਕਾਰ ਨਹੀਂ "
+#~ "ਕਰ ਸਕਦਾ ਹੈ।\n"
+#~ "ਸੂਚਨਾ: ਜੇ ਤੁਹਾਡੀ ਮਸ਼ੀਨ ਇੰਟਰਨੈੱਟ ਤੇ ਸਿਰਫ ਕਲਾਂਈਟ ਹੈ, ਤੁਹਾਨੂੰ ਹੇਠਲਾ ਪੱਧਰ ਚੁਣਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "ਇਹ ਪਿਛਲੇ ਪੱਧਰ ਦੇ ਸਮਾਨ ਹੈ, ਪਰ ਸਿਸਟਮ ਪੂਰੀ ਤਰਾਂ ਬੰਦ ਹੈ ਅਤੇ ਸੁਰੱਖਿਆ ਵਿਸ਼ੇਸ਼ਤਾ ਆਪਣੇ ਸਿਖਰ ਤੇ ਹੈ।"
+
+#~ msgid "Security"
+#~ msgstr "ਸੁਰੱਖਿਆ"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "DrakSec ਮੁੱਢਲੀ ਚੋਣ"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਲੋੜੀਂਦਾ ਸੁਰੱਖਿਆ ਪੱਧਰ ਚੁਣੋ"
+
+#~ msgid "Security level"
+#~ msgstr "ਸੁਰੱਖਿਆ ਪੱਧਰ"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "ਸਰਵਰਾਂ ਲਈ libsafe ਵਰਤੋ"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr "ਇੱਕ ਲਾਇਬ੍ਰੇਰੀ ਜੋ ਬਫਰ ਭਰਨ ਅਤੇ ਫਾਰਮਿਟ ਸਤਰ ਹਮਲੇ ਤੋਂ ਰੱਖਿਆ ਕਰਦੀ ਹੈ।"
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "ਸੁਰੱਖਿਆ ਪ੍ਰਬੰਧਕ (ਲਾਗਇਨ ਜਾਂ ਈ-ਪੱਤਰ)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "ALSA (ਤਕਨੀਕੀ ਲੀਨਕਸ ਸਾਊਂਡ ਢਾਂਚਾ) ਸਾਊਂਡ ਸਿਸਟਮ ਚਲਾਓ"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron ਇੱਕ ਚੱਕਰੀ ਕਮਾਂਡ ਕ੍ਰਮਕਾਰ ਹੈ।"
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd ਬੈਟਰੀ ਸਥਿਤੀ ਦੀ ਨਿਗਰਾਨੀ ਅਤੇ ਇਸ ਨੂੰ syslog ਦੁਆਰਾ ਲਾਗ ਕਰਨ ਲਈ\n"
+#~ "ਵਰਤੀਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਬੈਟਰੀ ਘੱਟ ਹੋਣ ਤੇ ਸਿਸਟਮ ਬੰਦ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "ਦਰਸਾਏ ਸਮੇਂ ਅਨੁਸਾਰ ਕਮਾਂਡ ਤੇ ਕਮਾਂਡ ਕ੍ਰਮਕਾਰ ਚਲਾਉਂਦਾ ਹੈ ਜਦੋਂ ਇਹ \n"
+#~ "ਚੱਲਦਾ ਸੀ, ਅਤੇ ਬੈਚ ਕਮਾਂਡਾ ਚਲਾਉਂਦਾ ਹੈ ਜਦੋਂ ਲੋਡ ਔਸਤਨ ਘੱਟ ਹੁੰਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron ਇੱਕ ਮਿਆਰੀ ਯੂਨਿਕਸ ਪ੍ਰੋਗਰਾਮ ਹੈ ਜੋ ਉਪਭੋਗੀ-ਰਾਹੀਂ ਪ੍ਰਭਾਸ਼ਿਤ ਪ੍ਰੋਗਰਾਮ ਕੰਮਬੱਧ ਸਮੇਂ\n"
+#~ "ਤੇ ਚਲਾਉਂਦਾ ਹੈ। vixie cron ਕਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਮੁੱਢਲੇ ਯੂਨੈਕਸ cron ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰਦਾ ਹੈ, ਜਿਸ "
+#~ "ਵਿੱਚ ਵਧੀਆ ਸੁਰੱਖਿਆ ਅਤੇ ਵਧੇਰੇ ਸ਼ਕਤੀਸ਼ਾਲੀ ਸੰਰਚਨਾ ਚੋਣ ਸ਼ਾਮਿਲ ਹੈ।"
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM ਇੱਕ ਫਾਇਲ ਨਿਗਰਾਨੀ ਡੈਮਨ ਹੈ। ਇਹ ਫਾਇਲ ਤਬਦੀਲੀ ਦੌਰਾਨ ਰਿਪੋਰਟ ਪ੍ਰਾਪਤੀ ਲਈ \n"
+#~ " ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਗਨੋਮ ਅਤੇ ਕੇ ਡੀ ਈ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake ਹਾਰਡਵੇਅਰ ਖੋਜ ਚਲਾਉਂਦਾ ਹੈ, ਅਤੇ ਨਾਲ ਹੀ ਨਵੇਂ/ਤਬਦੀਲ\n"
+#~ "ਹਾਰਡਵੇਅਰ ਨੂੰ ਸੰਰਚਿਤ ਕਰਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr "Apache ਇੱਕ ਵਰਡ ਵਾਈਡ ਵੈਬ ਸਰਵਰ ਹੈ। HTML ਫਾਇਲਾਂ ਅਤੇ CGI ਮੁਹੱਈਆ ਕਰਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "ਨੈੱਟਵਰਕ ਹਮਲਿਆਂ ਤੋਂ ਆਪਣੀ ਮਸ਼ੀਨ ਬਚਾਉਣ ਲਈ ਫਾਇਲਵਾਲ ਨਿਰਧਾਰਿਤ \n"
+#~ "ਕਰਨ ਵਾਸਤੇ, ਲੀਨਕਸ ਕਰਨਲ 2.2 ਲੜੀ ਲਈ ਪੈਕੇਟ ਫਿਲਟਰਿੰਗ ਚਲਾਓ।"
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "/boot ਵਿੱਚ /usr/include/linux/{autoconf,version}.h ਲਈ\n"
+#~ "ਕਰਨਲ ਸਿਰਲੇਖ ਦਾ ਸਵੈ ਮੁੜ ਉਤਪਾਦ"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "ਬੂਟ ਦੌਰਾਨ ਹਾਰਡਵੇਅਰ ਦੀ ਸਵੈ ਖੋਜ ਅਤੇ ਸੰਰਚਨਾ।"
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf ਸਿਸਟਮ ਸੰਰਚਨਾ ਪ੍ਰਬੰਧਨ ਲਈ ਬੂਟ ਦੌਰਾਨ ਵੱਖ-ਵੱਖ ਕਾਰਜ\n"
+#~ "ਕਰਨ ਲਈ ਪ੍ਰਬੰਧਨ ਕਰਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd ਇੱਕ ਪ੍ਰਿੰਟਰ ਡੈਮਨ ਹੈ ਜੋ lpr ਨੂੰ ਠੀਕ ਤਰਾਂ ਕੰਮ ਕਰਨ ਲਈ ਲੋੜੀਂਦਾ ਹੈ। ਇਹ\n"
+#~ "ਮੁੱਢਲੇ ਰੂਪ ਵਿੱਚ ਸਰਵਰ ਹੈ ਜੋ ਪ੍ਰਿੰਟਰ ਨੂੰ ਪ੍ਰਿੰਟ ਕਾਰਜ ਸੌਂਪਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "ਲੀਨਕਸ ਫਰਜ਼ੀ ਸਰਵਰ, ਜਿਆਦਾ-ਅਦਾਕਾਰੀ ਅਤੇ ਵੱਧ ਉਪਲੱਬਧ ਸਰਵਰ ਨਿਰਮਾਣ\n"
+#~ "ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) ਇੱਕ ਡੋਮੇਨ ਨਾਂ ਸਰਵਰ (DNS) ਹੈ ਜੋ ਮੇਜ਼ਬਾਨ ਨਾਂ ਤੋਂ IP ਸਿਰਨਾਵਾਂ ਮਿਲਾਣ ਲਈ "
+#~ "ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "ਸਭ ਨੈੱਟਵਰਕ ਫਾਇਲ ਸਿਸਟਮ (NFS), SMB (ਲਾਨ ਮੈਨੇਜਰ/Windows), ਅਤੇ NCP\n"
+#~ "(NetWare) ਮਾਊਂਟ ਸਥਿਤੀਆਂ ਮਾਊਂਟ ਅਤੇ ਅਨ-ਮਾਊਂਟ ਕਰਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "ਬੂਟ ਦੌਰਾਨ ਚੱਲਣ ਲਈ ਸੰਰਚਿਤ ਨੈੱਟਵਰਕ ਇੰਟਰਫੇਸਾਂ ਨੂੰ ਸਰਗਰਮ/ਨਾ-ਸਰਗਰਮ\n"
+#~ "ਕਰਦਾ ਹੈ"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS, TCP/IP ਨੈੱਟਵਰਕ ਦੁਆਰਾ ਫਾਇਲਾਂ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਪ੍ਰਸਿੱਧ ਪਰੋਟੋਕਾਲ ਹੈ।\n"
+#~ "ਇਹ ਸੇਵਾ NFS ਸਰਵਰ ਸਹੂਲਤ ਮੁਹੱਈਆ ਕਰਦਾ ਹੈ, /etc/exports ਫਾਇਲ ਦੁਆਰਾ\n"
+#~ "ਸੰਰਚਿਤ ਕੀਤੀ ਹੈ।"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS, TCP/IP ਨੈੱਟਵਰਕ ਦੁਆਰਾ ਫਾਇਲਾਂ ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਪ੍ਰਸਿੱਧ\n"
+#~ "ਪਰੋਟੋਕਾਲ ਹੈ। ਇਹ ਸੇਵਾ NFS ਫਾਇਲ ਲਾਕਿੰਗ ਸਹੂਲਤ ਮੁਹੱਈਆ ਕਰਦੀ ਹੈ।"
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "ਬੂਟ ਦੌਰਾਨ ਕੰਸੋਲ ਅਤੇ Xorg ਅਧੀਨ numlock ਸਵਿੱਚ ਜਿੰਦਰੇ ਵੱਲ\n"
+#~ "ਸਵੈ ਤਬਦੀਲੀ।"
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "OKI 4w ਅਨੁਕੂਲ winprinters ਨੂੰ ਸਹਿਯੋਗ ਦਿਓ।"
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix ਇੱਕ ਪੱਤਰ ਤਬਦੀਲੀ ਏਜੰਟ ਹੈ, ਜੋ ਇੱਕ ਮਸ਼ੀਨ ਤੋਂ ਦੂਜੀ ਤੇ ਪੱਤਰ ਤਬਦੀਲ ਕਰਨ ਵਾਲਾ ਇੱਕ "
+#~ "ਪ੍ਰੋਗਰਾਮ ਹੈ।"
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "ਉੱਚੀ ਖਾਸੀਅਤ ਲਗਾਤਾਰ ਅੰਕ ਉਤਪਾਦ ਲਈ ਸਿਸਟਮ ਇੰਟਰੌਪੀ ਪੂਲ ਸੰਭਾਲਦਾ ਅਤੇ\n"
+#~ "ਮੁੜ ਸੰਭਾਲਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "ਕਾਰਜ ਜਿਵੇਂ Oracle ਜਾਂ DVD ਪਲੇਅਰ ਵਰਤਣ ਲਈ ਰੁਕਾਵਟੀ ਜੰਤਰਾਂ\n"
+#~ "(ਜਿਵੇਂ ਹਾਰਡ ਡਰਾਈਵ ਭਾਗਾਂ) ਨੂੰ ਵਾਧੂ ਜੰਤਰ ਨਿਰਧਾਰਿਤ ਕਰੋ"
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "rstat ਪਰੋਟੋਕਾਲ ਉਪਭੋਗੀਆਂ ਨੂੰ ਨੈੱਟਵਰਕ ਤੋਂ ਕਿਸੇ ਮਸ਼ੀਨ ਦੀ\n"
+#~ "ਅਦਾਕਾਰੀ ਮੈਟ੍ਰਿਕਸ ਮੁੜ-ਪ੍ਰਾਪਤੀ ਲਈ ਮਨਜੂਰੀ ਦਿੰਦਾ ਹੈ।"
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "rusers ਪਰੋਟੋਕਾਲ ਉਪਭੋਗੀਆਂ ਨੂੰ ਨੈੱਟਵਰਕ ਤੇ ਇਹ ਨਿਰਧਾਰਿਤ ਕਰਨ ਲਈ ਵਰਤਿਆ\n"
+#~ "ਜਾਂਦਾ ਹੈ ਕਿ ਕਿਸ ਨੇ ਹੋਰ ਜਵਾਬੀ ਮਸ਼ੀਨ ਤੇ ਲਾਗ ਕੀਤਾ ਹੈ।"
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "rwho ਪਰੋਟੋਕਾਲ ਰਿਮੋਟ ਉਪਭੋਗੀਆਂ ਨੂੰ ਮਸ਼ੀਨ ਜਿਸ ਤੇ rwho ਡੈਮਨ ਚੱਲਦਾ ਹੈ,\n"
+#~ "ਵਿੱਚ ਲਾ ਕਰਨ ਵਾਲੇ ਉਪਭੋਗੀ ਵਿਖਾਉਣ ਦੀ ਮਨਜੂਰੀ ਦਿੰਦਾ ਹੈ।"
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "ਆਪਣੀ ਮਸ਼ੀਨ ਤੇ ਸਾਊਂਡ ਸਿਸਟਮ ਚਲਾਓ"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog ਇੱਕ ਸਹੂਲਤ ਹੈ ਜਿਸ ਦੁਆਰਾ ਬਹੁਤ ਸਾਰੇ ਡੈਮਨ ਵੱਖ-ਵੱਖ ਸਿਸਟਮ ਲਾਗ ਫਾਇਲਾਂ ਵਿੱਚ ਸੁਨੇਹੇ ਲਾਗ "
+#~ "ਕੀਤੇ ਜਾਂਦੇ ਹਨ। syslog ਨੂੰ ਹਮੇਸ਼ਾ ਚਲਾਉਣ ਲਈ ਵਧੀਆ ਤਰੀਕਾ ਹੈ।"
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "ਆਪਣੇ usb ਜੰਤਰਾਂ ਲਈ ਡਰਾਈਵਰ ਲੋਡ ਕਰੋ।"
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "X ਫੌਂਟ ਸਰਵਰ ਚਲਾਓ (Xorg ਨੂੰ ਚਲਾਉਣ ਲਈ ਜਰੂਰੀ ਹੈ)।"
+
+#~ msgid "Printing"
+#~ msgstr "ਛਪਾਈ"
+
+#~ msgid "Internet"
+#~ msgstr "ਇੰਟਰਨੈਟ"
+
+#~ msgid "File sharing"
+#~ msgstr "ਫਾਇਲ ਸ਼ੇਅਰਿੰਗ"
+
+#~ msgid "System"
+#~ msgstr "ਸਿਸਟਮ"
+
+#~ msgid "Remote Administration"
+#~ msgstr "ਰਿਮੋਟ ਪ੍ਰਬੰਧਨ"
+
+#~ msgid "Database Server"
+#~ msgstr "ਡਾਟਾਬੇਸ ਸਰਵਰ"
+
+#~ msgid "Services"
+#~ msgstr "ਸੇਵਾਵਾਂ"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "ਚੁਣੋ ਕਿ ਕਿਹੜੀ ਸੇਵਾ ਬੂਟ ਦੌਰਾਨ ਸਵੈ ਚੱਲਣੀ ਚਾਹੀਦੀ ਹੈ"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "ਸੇਵਾਵਾਂ: %d ਸਰਗਰਮ ਹਨ ਰਜਿਸਟਰ ਕੀਤੇ %d ਲਈ"
+
+#~ msgid "running"
+#~ msgstr "ਚੱਲ ਰਿਹਾ ਹੈ"
+
+#~ msgid "stopped"
+#~ msgstr "ਰੋਕਿਆ"
+
+#~ msgid "Services and daemons"
+#~ msgstr "ਸੇਵਾਵਾਂ ਅਤੇ ਡੈਮਨ"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "ਮਾਫ ਕਰਨਾ, ਇਸ ਸੇਵਾ ਬਾਰੇ ਕੋਈ\n"
+#~ "ਜਾਣਕਾਰੀ ਨਹੀਂ ਹੈ।"
+
+#~ msgid "Info"
+#~ msgstr "ਜਾਣਕਾਰੀ"
+
+#~ msgid "Start when requested"
+#~ msgstr "ਲੋੜ ਅਨੁਸਾਰ ਚਲਾਓ"
+
+#~ msgid "On boot"
+#~ msgstr "ਬੂਟ ਸਮੇਂ"
+
+#~ msgid "Start"
+#~ msgstr "ਸ਼ੁਰੂ"
+
+#~ msgid "Stop"
+#~ msgstr "ਰੋਕੋ"
+
+#~ msgid ""
+#~ "[--add]\n"
+#~ "  --add             - \"add a network interface\" wizard\n"
+#~ "  --del             - \"delete a network interface\" wizard\n"
+#~ "  --skip-wizard     - manage connections\n"
+#~ "  --internet        - configure internet\n"
+#~ "  --wizard          - like --add"
+#~ msgstr ""
+#~ "[--ਸ਼ਾਮਿਲ]\n"
+#~ "  --ਸ਼ਾਮਿਲ             - \"ਨੈੱਟਵਰਕ ਇੰਟਰਫੇਸ ਸ਼ਾਮਿਲ\" ਤਖਤੀ\n"
+#~ "  --ਹਟਾਓ             - \"ਨੈੱਟਵਰਕ ਇੰਟਰਫੇਸ ਹਟਾਓ\" ਤਖਤੀ\n"
+#~ "  --ਤਖਤੀ-ਛੱਡੋ     - ਕੁਨੈਕਸ਼ਨ ਪ੍ਰਬੰਧਨ\n"
+#~ "  --ਇੰਟਰਨੈੱਟ        - ਇੰਟਰਨੈੱਟ ਸੰਰਚਨਾ\n"
+#~ "  --ਤਖਤੀ          -  --ਸ਼ਾਮਿਲ ਵਾਂਗ"
+
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[OPTIONS]...\n"
+#~ "ਮੈਂਡਰਿਵ-ਲੀਨਕਸ ਟਰਮੀਨਲ ਸਰਵਰ ਸੰਰਚਨਾ-ਕਾਰ\n"
+#~ "--ਯੋਗ         : MTS ਯੋਗ ਕਰੋ\n"
+#~ "--ਅਯੋਗ        : MTS ਅਯੋਗ ਕਰੋ\n"
+#~ "--ਚਲਾਓ          : MTS ਚਲਾਓ\n"
+#~ "--ਰੋਕੋ           : MTS ਰੋਕੋ\n"
+#~ "--ਉਪਭੋਗੀ-ਸ਼ਾਮਿਲ        : ਇੱਕ ਮੌਜੂਦਾ ਉਪਭੋਗੀ MTS ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰੋ (ਉਪਭੋਗੀ-ਨਾਂ ਦੀ ਲੋੜ ਹੈ)\n"
+#~ "--ਉਪਭੋਗੀ-ਹਟਾਓ        : MTS ਵਿੱਚੋਂ ਮੌਜੂਦਾ ਉਪਭੋਗੀ ਹਟਾਓ (ਉਪਭੋਗੀ-ਨਾਂ ਦੀ ਲੋੜ ਹੈ)\n"
+#~ "--ਕਲਾਂਈਟ-ਸ਼ਾਮਿਲ      : MTS ਵਿੱਚ ਕਲਾਂਈਟ ਮਸ਼ੀਨ ਸ਼ਾਮਿਲ ਕਰੋ (MAC ਸਿਰਨਾਵਾਂ, IP, nbi "
+#~ "ਪ੍ਰਤਿਬਿੰਬ ਦੀ ਲੋੜ ਹੈ)\n"
+#~ "--ਕਲਾਈਂਟ-ਹਟਾਓ      : MTS ਵਿੱਚੋਂ ਕਲਾਂਈਟ ਮਸ਼ੀਨ ਹਟਾਓ (MAC ਸਿਰਨਾਵਾਂ, IP, nbi ਪ੍ਰਤਿਬਿੰਬ "
+#~ "ਦੀ ਲੋੜ ਹੈ)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[keyboard]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      ਮੈਂਡਰਿਵ ਨਵਿਨੀਕਰਨ ਵਿਧੀ ਵਿੱਚ ਪਹਿਲਾਂ ਤਸਦੀਕੀ ਪ੍ਰਸ਼ਨ ਨਾ ਪੁਛੋ\n"
+#~ "  --no-verify-rpm        ਪੈਕੇਜ ਦਸਤਖਤ ਜਾਂਚ ਨਾ ਕਰੋ\n"
+#~ "  --changelog-first      ਵਰਣਨ ਝਰੋਖੇ ਵਿੱਚ ਫਾਇਲ-ਸੂਚੀ ਤੋਂ ਪਹਿਲਾਂ changelog ਨਾ "
+#~ "ਵਿਖਾਓ\n"
+#~ "  --merge-all-rpmnew     ਸਭ .rpmnew/.rpmsave ਫਾਇਲਾਂ ਸ਼ਾਮਿਲ ਕਰਨ ਦਾ ਮਕਸਦ ਮਿਲਿਆ"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "ਉਪਯੋਗਤਾ: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "ਸਰਵਰ ਸ਼ਾਮਿਲ"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "ਦੱਖਣੀ ਅਫਰੀਕਾ"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "ਆਸਟਰੀਆ"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "ਦੱਖਣੀ ਅਫਰੀਕਾ"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "ਮੈਕਡੋਨੀਆ"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "ਦੱਖਣੀ ਅਫਰੀਕਾ"
+
+#~ msgid "Hong Kong"
+#~ msgstr "ਹਾਂਗ ਕਾਂਗ"
+
+#~ msgid "Russian Federation"
+#~ msgstr "ਰੂਸੀ ਰਾਜ-ਸੰਘ"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "ਯੂਗੋਸਲਾਵੀਆ"
+
+#~ msgid "Is this correct?"
+#~ msgstr "ਕੀ ਇਹ ਠੀਕ ਹੈ?"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "ਲੋਕਲ ਫਾਇਲ"
+
+#~ msgid "Expand Tree"
+#~ msgstr "ਲੜੀ ਫੈਲਾਓ"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "ਲੜੀ ਸਮੇਟੋ"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "ਕ੍ਰਮਬੱਧ ਫਲੈਟ ਅਤੇ ਸਮੂਹ ਵਿੱਚ ਤਬਦੀਲੀ"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s ਇੰਸਟਾਲ ਨਹੀਂ\n"
+#~ "ਇੰਸਟਾਲ ਕਰਨ ਲਈ \"Next\" ਜਾਂ ਬਾਹਰ ਜਾਣ ਲਈ \"Cancel\" ਦਬਾਓ"
+
+#~ msgid "Installation failed"
+#~ msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਅਸਫਲ"

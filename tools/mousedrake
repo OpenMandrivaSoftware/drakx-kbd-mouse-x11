@@ -2,6 +2,9 @@
 
 use lib qw(/usr/lib/libDrakX);
 
+# i18n: IMPORTANT: to get correct namespace (drakx-kbd-mouse-x11 instead of libDrakX)
+BEGIN { unshift @::textdomains, 'drakx-kbd-mouse-x11' }
+
 use standalone;     #- warning, standalone must be loaded very first, for 'explanations'
 
 use common;
@@ -22,34 +25,12 @@ my %old = %$mouse;
 
 if (!$::noauto) {
     my $probed_mouse = mouse::detect($modules_conf);
-    $mouse = $probed_mouse if !$mouse->{XMOUSETYPE} || !$probed_mouse->{unsafe};
+    $mouse = $probed_mouse if !$mouse->{Protocol} || !$probed_mouse->{unsafe};
 }
 
 if (!$mouse || !$::auto) {
-    $mouse ||= mouse::fullname2mouse("serial|Generic 2 Button Mouse");
-    my $test_hbox;
-    my $name = $in->ask_from_treelistf('mousedrake', N("Please choose your mouse type."), '|',
-				       sub { join '|', map { translate($_) } split '\|', $_[0] },
-				       [ mouse::fullnames() ], 
-				       $mouse->{type} . '|' . $mouse->{name});
-    $name or $in->exit(0);
-    my $mouse_chosen = mouse::fullname2mouse($name);
-    $mouse = $mouse_chosen if !($mouse->{type} eq $mouse_chosen->{type} && $mouse->{name} eq $mouse_chosen->{name});
-
-    if ($mouse->{device} eq "usbmouse") {
-	modules::load_category($modules_conf, 'bus/usb') or die 'no usb bus found\n';
-	modules::load(qw(hid mousedev usbmouse));
-    }
-
-    $mouse->{XEMU3} = 'yes' if $mouse->{nbuttons} < 3 && (!$::noauto || $in->ask_yesorno('', N("Emulate third button?"), 1));
-
-    $mouse->{device} = $in->ask_from_listf(N("Mouse Port"),
-					   N("Please choose which serial port your mouse is connected to."),
-					   \&mouse::serial_port2text,
-					   [ mouse::serial_ports ],
-					   $mouse->{device},
-					  ) || goto begin if $mouse->{type} eq 'serial';
-    $test_hbox and $test_hbox->destroy;
+    $mouse ||= mouse::fullname2mouse('Universal|Any PS/2 & USB mice');
+    mouse::select($in, $mouse) or $in->exit(0);
 }
 
 mouse::write_conf($in->do_pkgs, $modules_conf, $mouse, 1);
@@ -58,12 +39,14 @@ if ($in->isa('interactive::gtk') && mouse::change_mouse_live($mouse, \%old)) {
 
     require ugtk2;
     ugtk2->import(qw(:wrappers :create));
+    require mygtk2;
+    mygtk2->import(qw(gtknew));
     my $w = ugtk2->new(N("Mouse test"));
     gtkadd($w->{window},
-           gtkpack(Gtk2::VBox->new(0, 5),
-                   Gtk2::Label->new(N("Please test your mouse:")),
-                   my $test_hbox = Gtk2::HBox->new(0, 5),
-		   $w->create_okcancel));
+           gtknew('VBox', spacing => 5, children_loose => [
+                   gtknew('Label', text => N("Please test your mouse:")),
+                   my $test_hbox = gtknew('HBox', spacing => 5),
+		   $w->create_okcancel]));
     mouse::test_mouse_standalone($mouse, $test_hbox);
     $w->main or goto begin;
 }
@@ -71,4 +54,3 @@ if ($in->isa('interactive::gtk') && mouse::change_mouse_live($mouse, \%old)) {
 system('service', 'gpm', 'restart') if -e '/var/lock/subsys/gpm';
 
 $in->exit(0);
-goto begin;

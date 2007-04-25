@@ -5,6 +5,7 @@ use strict;
 
 use Xconfig::monitor;
 use Xconfig::card;
+use Xconfig::plugins;
 use Xconfig::resolution_and_depth;
 use Xconfig::various;
 use Xconfig::screen;
@@ -34,7 +35,11 @@ sub configure_resolution {
 	card => Xconfig::card::from_raw_X($raw_X),
 	monitors => [ $raw_X->get_monitors ],
     };
-    $X->{resolution} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}) or return;
+    if (my $rc = Xconfig::various::handle_May_Need_ForceBIOS($in, $raw_X)) {
+	return $rc;
+    }
+
+    $X->{resolutions} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}) or return;
     if ($raw_X->prepare_write ne $before) {
 	&write($raw_X, $X);
     } else {
@@ -50,11 +55,9 @@ sub configure_everything_auto_install {
     $options->{VideoRam_probed} = $X->{monitors}[0]{VideoRam_probed};
     $X->{card} = Xconfig::card::configure_auto_install($raw_X, $do_pkgs, $old_X, $options) or return;
     Xconfig::screen::configure($raw_X) or return;
-    $X->{resolution} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card}, $X->{monitors}, $old_X);
+    $X->{resolutions} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card}, $X->{monitors}, $old_X);
 
     my $action = &write($raw_X, $X);
-
-    Xconfig::various::runlevel(exists $old_X->{xdm} && !$old_X->{xdm} ? 3 : 5);
 
     $action;
 }
@@ -69,15 +72,13 @@ sub configure_everything {
     $ok &&= $X->{card} = Xconfig::card::configure($in, $raw_X, $do_pkgs, $auto, $options);
     $ok &&= $X->{monitors} = Xconfig::monitor::configure($in, $raw_X, int($raw_X->get_devices), $probed_info, $auto);
     $ok &&= Xconfig::screen::configure($raw_X);
-    $ok &&= $X->{resolution} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}, $auto);
+    $ok &&= $X->{resolutions} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}, $auto);
     $ok &&= Xconfig::test::test($in, $raw_X, $X->{card}, '', 'skip_badcard') if !$auto;
 
     if (!$ok) {
 	return if $auto;
 	($ok) = configure_chooser_raw($in, $raw_X, $do_pkgs, $options, $X, 1);
     }
-    $X->{various} ||= Xconfig::various::various($in, $X->{card}, $options, $auto);
-
     may_write($in, $raw_X, $X, $ok);
 }
 
@@ -89,7 +90,7 @@ sub configure_chooser_raw {
     my $update_texts = sub {
 	$texts{card} = $X->{card} && $X->{card}{BoardName} || N("Custom");
 	$texts{monitors} = $X->{monitors} && $X->{monitors}[0]{ModelName} || N("Custom");
-	$texts{resolution} = Xconfig::resolution_and_depth::to_string($X->{resolution});
+	$texts{resolutions} = Xconfig::resolution_and_depth::to_string($X->{resolutions}[0]);
 
 	$texts{$_} =~ s/(.{20}).*/$1.../ foreach keys %texts; #- ensure not too long
     };
@@ -97,7 +98,7 @@ sub configure_chooser_raw {
 
     my $may_set; 
     my $prompt_for_resolution = sub {
-	$may_set->('resolution', Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}));
+	$may_set->('resolutions', Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}));
     };
     $may_set = sub {
 	my ($field, $val) = @_;
@@ -108,15 +109,13 @@ sub configure_chooser_raw {
 	    $update_texts->();
 
 	    if (member($field, 'card', 'monitors')) {
-		my ($default_resolution) = Xconfig::resolution_and_depth::choices($raw_X, $X->{resolution}, $X->{card}, $X->{monitors});
-		if (find { $default_resolution->{$_} ne $X->{resolution}{$_} } 'X', 'Y', 'Depth') {
+		my ($default_resolution, @other_resolutions) = Xconfig::resolution_and_depth::choices($raw_X, $X->{resolutions}[0], $X->{card}, $X->{monitors});
+		if (Xconfig::resolution_and_depth::to_string($default_resolution) ne 
+		    Xconfig::resolution_and_depth::to_string($X->{resolutions}[0])) {
 		    $prompt_for_resolution->();
 		} else {
-		    if ($default_resolution->{bios} && !$X->{resolution}{bios}) {
-			$may_set->('resolution', $default_resolution);
-		    }
 		    Xconfig::screen::configure($raw_X);
-		    $raw_X->set_resolution($X->{resolution}) if $X->{resolution};
+		    $may_set->('resolutions', Xconfig::resolution_and_depth::set_resolution($raw_X, $default_resolution, @other_resolutions));
 		}
 	    }
 	}
@@ -124,6 +123,7 @@ sub configure_chooser_raw {
 
     my $ok;
     $in->ask_from_({ interactive_help_id => 'configureX_chooser',
+		     title => N("Graphic Card & Monitor Configuration"), 
 		     if_($::isStandalone, ok => N("Quit")) }, 
 		   [
 		    { label => N("Graphic Card"), val => \$texts{card}, clicked => sub { 
@@ -132,7 +132,7 @@ sub configure_chooser_raw {
 		    { label => N("Monitor"), val => \$texts{monitors}, clicked => sub { 
 			  $may_set->('monitors', Xconfig::monitor::configure($in, $raw_X, int($raw_X->get_devices)));
 		      } },
-		    { label => N("Resolution"), val => \$texts{resolution}, disabled => sub { !$X->{card} || !$X->{monitors} },
+		    { label => N("Resolution"), val => \$texts{resolutions}, disabled => sub { !$X->{card} || !$X->{monitors} },
 		      clicked => $prompt_for_resolution },
 		        if_(Xconfig::card::check_bad_card($X->{card}) || $::isStandalone,
 		     { val => N("Test"), disabled => sub { !$X->{card} || !$X->{monitors} },
@@ -141,9 +141,14 @@ sub configure_chooser_raw {
 		      } },
 			),
 		    { val => N("Options"), clicked => sub {
-			  Xconfig::various::various($in, $X->{card}, $options);
-			  $X->{various} = 'done';
+			  Xconfig::various::various($in, $raw_X, $X->{card}, $options, 0, 'read_existing');
+			  Xconfig::card::to_raw_X($X->{card}, $raw_X);
 		      } },
+		        if_(Xconfig::plugins::list(), 
+		    { val => N("Plugins"), clicked => sub {
+			  Xconfig::plugins::choose($in, $raw_X);
+		      } },
+			),
 		   ]);
     $ok, $b_modified;
 }
@@ -154,7 +159,7 @@ sub configure_chooser {
     my $X = {
 	card => scalar eval { Xconfig::card::from_raw_X($raw_X) },
 	monitors => [ $raw_X->get_monitors ],
-	resolution => scalar eval { $raw_X->get_resolution },
+	resolutions => [ eval { $raw_X->get_resolutions } ],
     };
     my $before = $raw_X->prepare_write;
     my ($ok) = configure_chooser_raw($in, $raw_X, $do_pkgs, $options, $X);
@@ -171,20 +176,21 @@ sub configure_everything_or_configure_chooser {
 
     my $raw_X = eval { Xconfig::xfree->read };
     my $err = $@ && formatError($@);
-    $err ||= check_valid($raw_X) if $raw_X && @$raw_X; #- that's ok if config is empty
+    $err ||= check_valid($raw_X) if $raw_X; #- that's ok if config is empty
     if ($err) {
 	log::l("ERROR: bad X config file (error: $err)");
 	$options->{ignore_bad_conf} or $in->ask_okcancel('',
 			  N("Your Xorg configuration file is broken, we will ignore it.")) or return;
-	$raw_X = [];
+	undef $raw_X;
     }
 
     my $rc = 'ok';
-    if (is_empty_array_ref($raw_X)) {
+    if (!$raw_X) {
 	$raw_X = Xconfig::default::configure($in->do_pkgs, $o_keyboard, $o_mouse);
 	$rc = configure_everything($in, $raw_X, $in->do_pkgs, $auto, $options);
     } elsif (!$auto) {
-	$rc = configure_chooser($in, $raw_X, $in->do_pkgs, $options);
+	$rc = Xconfig::various::handle_May_Need_ForceBIOS($in, $raw_X);
+	$rc ||= configure_chooser($in, $raw_X, $in->do_pkgs, $options);
     }
     $rc && $raw_X, $rc;
 }
@@ -206,9 +212,9 @@ sub write {
     export_to_install_X($X) if $::isInstall;
     $raw_X->write;
     Xconfig::various::check_XF86Config_symlink();
-    symlinkf "../../usr/X11R6/bin/Xorg", "$::prefix/etc/X11/X";
-    if ($X->{resolution}{bios}) {
-	Xconfig::various::setupFB($X->{resolution}{bios});
+    symlinkf "../../usr/bin/Xorg", "$::prefix/etc/X11/X";
+    if ($X->{resolutions}[0]{bios}) {
+	Xconfig::various::setupFB($X->{resolutions}[0]{bios});
 	'need_reboot';
     } else {
 	'need_restart';
@@ -219,9 +225,9 @@ sub write {
 sub export_to_install_X {
     my ($X) = @_;
 
-    $::o->{X}{resolution_wanted} = $X->{resolution}{X};
-    $::o->{X}{default_depth} = $X->{resolution}{Depth};
-    $::o->{X}{bios_vga_mode} = $X->{resolution}{bios};
+    $::o->{X}{resolution_wanted} = $X->{resolutions}[0]{X} . 'x' . $X->{resolutions}[0]{Y};
+    $::o->{X}{default_depth} = $X->{resolutions}[0]{Depth};
+    $::o->{X}{bios_vga_mode} = $X->{resolutions}[0]{bios};
     $::o->{X}{monitors} = $X->{monitors} if $X->{monitors}[0]{manually_chosen} && $X->{monitors}[0]{vendor} ne "Plug'n Play";
     $::o->{X}{card} = $X->{card} if $X->{card}{manually_chosen};
     $::o->{X}{Xinerama} = 1 if $X->{card}{Xinerama};
@@ -239,24 +245,5 @@ sub check_valid {
 
     '';
 }
-
-#- most usefull XFree86-4.0.1 server options. Default values is the first ones.
-our @options_serverflags = (
-			'DontZap'                 => [ "Off", "On" ],
-			'DontZoom'                => [ "Off", "On" ],
-			'DisableVidModeExtension' => [ "Off", "On" ],
-			'AllowNonLocalXvidtune'   => [ "Off", "On" ],
-			'DisableModInDev'         => [ "Off", "On" ],
-			'AllowNonLocalModInDev'   => [ "Off", "On" ],
-			'AllowMouseOpenFail'      => [ "False", "True" ],
-			'VTSysReq'                => [ "Off", "On" ],
-			'BlankTime'               => [ "10", "5", "3", "15", "30" ],
-			'StandByTime'             => [ "20", "10", "6", "30", "60" ],
-			'SuspendTime'             => [ "30", "15", "9", "45", "90" ],
-			'OffTime'                 => [ "40", "20", "12", "60", "120" ],
-			'Pixmap'                  => [ "32", "24" ],
-			'PC98'                    => [ "auto-detected", "False", "True" ],
-			'NoPM'                    => [ "False", "True" ],
-);
 
 1;

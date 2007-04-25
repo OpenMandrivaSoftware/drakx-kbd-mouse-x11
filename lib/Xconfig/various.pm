@@ -18,21 +18,18 @@ sub to_string {
 sub info {
     my ($raw_X, $card) = @_;
     my $info;
-    my $xf_ver = Xconfig::card::xorg_version();
-    my $title = $card->{use_DRI_GLX} ? N("Xorg %s with 3D hardware acceleration", $xf_ver) : 
-                                       N("Xorg %s", $xf_ver);
     my $keyboard = eval { $raw_X->get_keyboard } || {};
     my @monitors = eval { $raw_X->get_monitors };
     my $device = eval { $raw_X->get_device } || {};
     my $mouse = eval { first($raw_X->get_mice) } || {};
 
+    $info .= N("3D hardware acceleration: %s\n", translate(bool2yesno($card->{use_DRI_GLX})));
     $info .= N("Keyboard layout: %s\n", $keyboard->{XkbLayout});
     $info .= N("Mouse type: %s\n", $mouse->{Protocol});
-    $info .= N("Mouse device: %s\n", $mouse->{Device}) if $::expert;
     foreach my $monitor (@monitors) {
 	$info .= N("Monitor: %s\n", $monitor->{ModelName});
-	$info .= N("Monitor HorizSync: %s\n", $monitor->{HorizSync}) if $::expert;
-	$info .= N("Monitor VertRefresh: %s\n", $monitor->{VertRefresh}) if $::expert;
+	$info .= N("Monitor HorizSync: %s\n", $monitor->{HorizSync});
+	$info .= N("Monitor VertRefresh: %s\n", $monitor->{VertRefresh});
     }
     $info .= N("Graphics card: %s\n", $device->{VendorName} . ' ' . $device->{BoardName});
     $info .= N("Graphics memory: %s kB\n", $device->{VideoRam}) if $device->{VideoRam};
@@ -41,15 +38,153 @@ sub info {
 	$info .= N("Resolution: %s\n", join('x', @$resolution{'X', 'Y'}));
     }
     $info .= N("Xorg driver: %s\n", $device->{Driver}) if $device->{Driver};
-    "$title\n\n$info";
+    $info;
+}
+
+sub default {
+    my ($card, $various) = @_;
+
+    my $isLaptop = detect_devices::isLaptop();
+
+    add2hash_($various, { 
+	isLaptop => $isLaptop,
+	xdm => 1,
+	Composite => !($card->{Driver} eq 'fglrx' || $card->{Driver} eq 'nvidia' && $card->{DriverVersion} eq '71xx'),
+	if_($card->{Driver} eq 'nvidia', RenderAccel => $card->{DriverVersion} eq '97xx', Clone => 0),
+	if_($card->{Driver} eq 'savage', HWCursor => 1),
+	if_($card->{Driver} eq 'i810' && $isLaptop, Clone => 0),
+	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
+	if_(exists $card->{DRI_GLX}, use_DRI_GLX => $card->{DRI_GLX} && !$card->{Xinerama}),
+	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
+    });
 }
 
 sub various {
-    my ($in, $card, $options, $b_auto) = @_;
+    my ($in, $raw_X, $card, $options, $b_auto, $b_read_existing) = @_;
 
     tvout($in, $card, $options) if !$b_auto;
-    choose_xdm($in, $b_auto);
+
+    my $use_DRI_GLX = member('dri', $raw_X->get_modules);
+
+    my $various = { 
+	if_($::isStandalone, xdm => runlevel() == 5),
+	if_($b_read_existing,
+	    Composite => ($raw_X->get_Section('Extensions') || {})->{Composite},
+	      if_(($card->{Options}{MonitorLayout} || [])->[0] eq '"NONE,CRT+LFP"' ||
+		  ($card->{Options}{TwinViewOrientation} || [])->[0] eq '"Clone"',
+	    Clone => 1),
+	      if_(($card->{Options}{MonitorLayout} || [])->[0] eq '"LVDS,NONE"',
+	    Clone => 0),
+	       if_($card->{Options}{BIOSHotkeys}, 
+	    BIOSHotkeys => 1),
+	      if_($card->{Options}{AccelMethod},
+	    EXA => ($card->{Options}{AccelMethod} || [])->[0] eq '"EXA"'),
+	      if_($card->{Driver} eq 'nvidia', 
+	    RenderAccel => !$card->{Options}{RenderAccel},
+	      ),
+	    HWCursor => !$card->{Options}{SWCursor},
+	    if_($card->{DRI_GLX} || $use_DRI_GLX, use_DRI_GLX => $use_DRI_GLX),
+	),
+    };
+    default($card, $various);
+
+    if (!$b_auto) {
+	choose($in, $various) or return;
+    }
+
+    config($raw_X, $card, $various) && $various;
+}
+
+sub various_auto_install {
+    my ($raw_X, $card, $old_X) = @_;
+
+    my $various = { %$old_X };
+    default($card, $various);
+    config($raw_X, $card, $various);
     1;
+}
+
+sub config {
+    my ($raw_X, $card, $various) = @_;
+
+    if ($various->{Composite}) {
+	my $raw = $raw_X->get_Section('Extensions') || $raw_X->add_Section('Extensions', {});
+	$raw->{Composite} = { 'Option' => 1 };
+	if ($card->{Driver} eq 'nvidia') {
+	    $card->{Options}{AddARGBGLXVisuals} = undef;
+	}
+    } else {
+	if (my $raw = $raw_X->get_Section('Extensions')) {
+	    delete $raw->{Composite};
+	    %$raw or $raw_X->remove_Section('Extensions');
+	}
+	if ($card->{Driver} eq 'nvidia') {
+	    delete $card->{Options}{AddARGBGLXVisuals};
+	}
+    }
+    if (exists $various->{use_DRI_GLX}) {
+	$card->{use_DRI_GLX} = $various->{use_DRI_GLX};
+    }
+
+    if (exists $various->{RenderAccel}) {
+	if ($various->{RenderAccel}) {
+	    delete $card->{Options}{RenderAccel};
+	} else {
+	    $card->{Options}{RenderAccel} = 'false';
+	}
+    }
+
+    if (exists $various->{HWCursor}) {
+	if ($various->{HWCursor}) {
+	    delete $card->{Options}{SWCursor};
+	} else {
+	    $card->{Options}{SWCursor} = undef;
+	}
+    }
+
+    if (exists $various->{BIOSHotkeys}) {
+	if ($various->{BIOSHotkeys}) {
+	    $card->{Options}{BIOSHotkeys} = undef;
+	} else {
+	    delete $card->{Options}{BIOSHotkeys};
+	}
+    }
+
+    if (exists $various->{EXA}) {
+	if ($various->{EXA}) {
+	    $card->{Options}{AccelMethod} = 'EXA';
+	} else {
+	    delete $card->{Options}{AccelMethod};
+	}
+    }
+
+    if (exists $various->{Clone}) {
+	if ($card->{Driver} eq 'nvidia') {
+	    if ($various->{Clone}) {
+		$card->{Options}{TwinView} = undef;
+		$card->{Options}{TwinViewOrientation} = 'Clone';
+	    } else {
+		delete $card->{Options}{TwinView};
+		delete $card->{Options}{TwinViewOrientation};
+	    }
+	} elsif ($card->{Driver} eq 'i810') {
+	    if ($various->{Clone}) {
+		$card->{Options}{MonitorLayout} = 'NONE,CRT+LFP';
+	    } else {
+		delete $card->{Options}{MonitorLayout};
+	    }
+	} elsif ($card->{Driver} eq 'ati') {
+	    if ($various->{Clone}) {
+		#- the default is Clone
+		delete $card->{Options}{MonitorLayout};
+	    } else {
+		#- forcing no display on CRT
+		$card->{Options}{MonitorLayout} = 'LVDS,NONE';
+	    }
+	}
+    }
+
+    Xconfig::various::runlevel($various->{xdm} ? 5 : 3);
 }
 
 sub runlevel {
@@ -63,20 +198,39 @@ sub runlevel {
     }
 }
 
-sub choose_xdm {
-    my ($in, $b_auto) = @_;
-    my $xdm = $::isStandalone ? runlevel() == 5 : 1;
+sub choose {
+    my ($in, $various) = @_;
 
-    if (!$b_auto) {
-	$xdm = $in->ask_yesorno_({ 
-				  title => N("Graphical interface at startup"),
-				  messages =>
-N("I can setup your computer to automatically start the graphical interface (Xorg) upon booting.
-Would you like Xorg to start when you reboot?"),
-				  interactive_help_id => 'configureXxdm',
-				 }, $xdm);
-    }
-    runlevel($xdm ? 5 : 3);
+    $in->ask_from_({ title => N("Xorg configuration") }, [
+	{ label => N("Graphic card options"), title => 1 },
+	  exists $various->{use_DRI_GLX} ?
+	{ text => N("3D hardware acceleration"),
+	  type => 'bool', val => \$various->{use_DRI_GLX} } : (),
+	{ text => N("Enable Translucency (Composite extension)"),
+	  type => 'bool', val => \$various->{Composite} },
+	  exists $various->{HWCursor} ?
+	{ text => N("Use hardware accelerated mouse pointer"),
+	  type => 'bool', val => \$various->{HWCursor} } : (),
+	  exists $various->{RenderAccel} ?
+	{ text => N("Enable RENDER Acceleration (this may cause bugs displaying text)"),
+	  type => 'bool', val => \$various->{RenderAccel} } : (),
+	  exists $various->{Clone} ?
+	{ text => $various->{isLaptop} ? 
+	    N("Enable duplicate display on the external monitor") :
+	    N("Enable duplicate display on the second display"),
+	  type => 'bool', val => \$various->{Clone} } : (),
+	  exists $various->{BIOSHotkeys} ?
+	{ text => N("Enable BIOS hotkey for external monitor switching"),
+	  type => 'bool', val => \$various->{BIOSHotkeys} } : (),	
+	  exists $various->{EXA} ?
+	{ text => N("Use EXA instead of XAA (better performance for Render and Composite)"),
+	  type => 'bool', val => \$various->{EXA} } : (),
+	{ label => N("Graphical interface at startup"), title => 1 },
+	{ text => N("Automatically start the graphical interface (Xorg) upon booting"),
+	  type => 'bool', val => \$various->{xdm} },
+    ]) or return;
+
+    1;
 }
 
 sub tvout {
@@ -171,8 +325,36 @@ sub setupFB {
 	$_->{vga} = $bios_vga_mode if $_->{vga}; #- replace existing vga= with
     }
 
+    bootloader::update_splash($bootloader);
     bootloader::action($bootloader, 'write', $all_hds);
     bootloader::action($bootloader, 'when_config_changed');
+}
+
+sub handle_May_Need_ForceBIOS {
+    my ($in, $raw_X) = @_;
+
+    Xconfig::resolution_and_depth::is_915resolution_configured and return;
+
+    any { $_->{Options}{May_Need_ForceBIOS} } $raw_X->get_devices or return;
+
+    my $log = cat_('/var/log/Xorg.0.log');
+    $log =~ /Option "May_Need_ForceBIOS" is not used/ or return;
+
+
+    my @builtin_modes = $log =~ /\*Built-in mode "(\d+x\d+)"/g;
+    my $resolution = $raw_X->get_resolution;
+    !member("$resolution->{X}x$resolution->{Y}", @builtin_modes) or return;
+
+    $in->ask_yesorno('', formatAlaTeX(N("The display resolution being used may not be correct. 
+
+If your desktop appears to stretch beyond the edges of the display, 
+installing %s may help fix the problem. Install it now?", '915resolution')), 1) or return; 
+
+    $in->do_pkgs->ensure_binary_is_installed('915resolution', '915resolution', 1) or return;
+
+    Xconfig::resolution_and_depth::set_915resolution($resolution);
+
+    'need_restart';
 }
 
 1;

@@ -1,0 +1,4744 @@
+# Translation file of Mandriva Linux graphic install
+# Copyright (c) 2000 Mandriva
+# Florin Grad <florin@mandriva.com>, 1999-2000
+# Dragos Marian Barbu <dragosb@softhome.net>, 2000
+# Ovidiu Constantin <ovidiu.constantin@gmx.net>, 2002, 2003
+# Harald Ersch <harald@ersch.ro>,2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX 7.1\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2003-09-11 18:11+0200\n"
+"Last-Translator: Ovidiu Constantin <ovidiu.constantin@gmx.net>\n"
+"Language-Team: Romanian Translators for Free Software <rtfs-project@lists."
+"sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB sau mai mult"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "Server X"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Alegeţi un server X"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Configurare multi-head (ieşiri multiple)"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Sistemul dvs. permite configurarea mai multor ieşiri de afişare.\n"
+"Ce doriţi să faceţi?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Alegeţi memoria pentru placa grafică"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Configurează toate capetele (ieşirile) independent"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Foloseşte extensia Xinerama"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Configurează numai placa \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Personalizat"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Configurare conexiuni"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Terminare"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Placă grafică"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Rezoluţie"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Test"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Opţiuni"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Module"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Păstrez modificările?\n"
+"Configuraţia curentă este:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Alegeţi un  monitor"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Alegeţi un  monitor"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Comun"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Vânzător"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Sondarea Plug'n'Play a eşuat. Vă rog să precizaţi un monitor"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Cei doi parametri critici sunt rata de actualizare verticală, care este "
+"rata\n"
+"la care întregul ecran e actualizat şi mai important rata de sincronizare\n"
+"orizontală, care este rata la care liniile de scan sunt afişate.\n"
+"Este FOARTE IMPORTANT să nu specificaţi un tip de monitor cu interval de\n"
+"sincronizare care depăşeşte capabilităţile monitorului vostru: puteţi\n"
+"distruge monitorul în acest fel.\n"
+"Dacă nu sunteţi sigur, alegeţi parametri conservativi."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Rata de actualizare orizontală"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Rata de actualizare verticală"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Alegeţi acţiunea"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 de culori (8 biţi)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 mii de culori (15 biţi)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 mii de culori (16 biţi)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 milioane de culori (24 biţi)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Rezoluţii"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Alt tip"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Alegeţi rezoluţia şi adâncimea de culoare"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Placă grafică: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Renunţă"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Ajutor"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Test de configuraţie"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Doriţi să testaţi configuraţia ?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Atenţie: testul plăcii grafice poate bloca sistemul dvs."
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"A apărut o eroare:\n"
+"%s\n"
+"Încercaţi să schimbaţi câţiva parametri"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "terminare în %d secunde"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Configuraţia este corectă?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Tastatura: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Tip de mouse: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Monitor: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Frecvenţa orizontală pentru monitor: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Frecvenţa verticală pentru monitor: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Placă grafică: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Memorie grafică: %s KB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Adâncime de culoare: %s:\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Rezoluţie: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Driver Xorg: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Configurare Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Placă grafică: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Interfaţa grafică la demaraj"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Pot să configurez calculatorul sa demareze automat X la demaraj.\n"
+"Doriţi sa demaraţi X cînd redemaraţi ?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Placa dvs. grafică pare a avea un conector TV-OUT.\n"
+"Acesta poate fi configurat folosind frame-buffer-ul.\n"
+"\n"
+"Pentru aceasta trebuie să conectaţi placa grafică la un TV înainte de a "
+"demara calculatorul dvs.\n"
+"Atunci alegeţi intrarea \"TVout\" în gestionarul de demarare\n"
+"\n"
+"Cartela grafică are facilitatea TV-OUT?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Ce normă foloseşte TV-ul dumneavoastră?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Ceh (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "German"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Spaniol"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Finlandez"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Francez"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Tastatura UK"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norvegian"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Polonez"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Rus"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Suedez"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Tastatura US"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Albaneză"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Armeană (vechi)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Armeană (maşină de scris)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Armeană (fonetic)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr ""
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr ""
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belgian"
+
+#: ../lib/keyboard.pm:203
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Tamil (maşină de scris)"
+
+#: ../lib/keyboard.pm:204
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Belgian"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgară (fonetic)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgară (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brazilian (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr ""
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Estonian"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Bielorus"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Elveţian (dispunere germanâ)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Elveţian (dispunere francezâ)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Uzbekă (chirilică)"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Ceh (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "German (făra taste moarte)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr ""
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Daneză"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Norvegiană)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Norvegiană)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (Norvegiană)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonian"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Grec"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Georgian (dispunere \"Rusă\")"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Georgian (dispunere \"Latină\")"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Grec"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr ""
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr ""
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Croată"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Ungar"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr ""
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr ""
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Izraeliană"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Izraeliană (fonetic)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iraniană"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Islandeză"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Italiană"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr ""
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kannada"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Tastatura UK"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr ""
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Siriană (fonetic)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latin American"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr ""
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Lituanian AZERTY (vechi)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Lituanian AZERTY (nou)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Lituanian QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Lithuanian \"fonetic\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Letonă"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr ""
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Macedoneană"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr ""
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr ""
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr ""
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Olandeză"
+
+#: ../lib/keyboard.pm:279
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Siria"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Poloneză (dispunere qwerty)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Poloneză (dispunere qwertz)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Polonez"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portugheză"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Canadiană (Quebec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Românească (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Românească (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Rusească (fonetic)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Slovenă"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovacă (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovacă (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (norvegiană)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Tastatură Thai"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Sârbă (dispunere chirilică)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Siriană"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Siriană (fonetic)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamilă (TSCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamil (maşină de scris)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Tastatură Thai"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Tastatură Thai"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Tastatură Thai"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tastatură Tadjică"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "German"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Turcă (model tradiţional \"F\")"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Turcă (model \"Q\" modern)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ucrainiană"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Siria"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Tastatură US (internaţional)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Uzbekă (chirilică)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr ""
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Iugoslavă (latină)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Tasta Alt dreapta"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Ambele taste Shift simultan"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Tastele Ctrl şi Shift simultan"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Tasta CapsLock"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Tastele Ctrl şi Alt simultan"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Tastele Ctrl şi Alt simultan"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Tastele Alt şi Shift simultan"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Tasta \"Menu\""
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Tasta \"Windows\" stânga"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Tasta \"Windows\" dreapta"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Ambele taste Control simultan"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Ambele taste Alt simultan"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Tasta Shift stânga"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Tasta Shift dreapta"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Tasta Alt stânga"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Tasta Control stânga"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Tasta Control dreapta"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Aici puteţi alege tasta sau combinaţia de taste ce va\n"
+"permite comutarea între diferitele dispuneri ale tastaturii\n"
+"(de ex. latină şi non-latină)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Avertisment"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Maus - Sun"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Maus PS/2 comun cu rotiţă"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automată"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 buton"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Maus comun cu 2 butoane"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Maus generic cu 3 butoane cu rotiţă emulată"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Rotiţă"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "serial"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Maus comun cu 3 butoane"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan cu rotiţă emulată"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Seria Logitech CC cu rotiţă emulată"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (serie, tip vechi C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Maus Logitech (serial, tip C7 vechi) cu rotiţă emulată"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse cu rotiţă emulată"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "Busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 butoane"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 butoane"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 butoane cu rotiţă emulată"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Generale"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "nici unul"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Fără maus"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Vă rog să alegeţi tipul de mouse folosit."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Myanmar"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Emulare 3 Butoane?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Port Mouse"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Pe ce port serie este conectat mouse-ul?"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Emulare butoane"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Emulare buton 2"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Emulare buton 3"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Vă rog să testaţi mausul"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Pentru a activa mausul,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "MIŞCAŢI ROTIŢA!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr ""
+"Va trebui să redemaraţi pentru ca schimbările sa fie luate în considerare"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Tastatură"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Vă rog să alegeţi dispunerea tastaturii."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Mapare de tastatură"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Tastatură"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Vreţi ca BackSpace să întoarcă Delete în consolă?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Test maus"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Vă rog să testaţi mausul:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Umask utilizator"
+
+#~ msgid "Please wait"
+#~ msgstr "Vă rog să aşteptaţi"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Se instalează gestionarul de demarare"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr ""
+#~ "Instalarea gestionarului de demaraj a eşuat. A apărut următoarea eroare :"
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Aţi decis să instalaţi gestionarul de demarare într-o partiţie.\n"
+#~ "Aceasta înseamă că aveţi instalat deja un gestionar de demarare pe "
+#~ "unitatea de disc de pe care demaraţi (ex. System Commander).\n"
+#~ "\n"
+#~ "De pe ce unitate de disc demaraţi?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Primul sector al discului (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Primul sector al partiţiei root"
+
+#~ msgid "On Floppy"
+#~ msgstr "Pe dischetă"
+
+#~ msgid "Skip"
+#~ msgstr "Sari peste"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Instalare LILO/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Unde doriţi să instalaţi Gestionarul de demaraj ?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Configurare stil demarare"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Opţiunile principale ale gestionarului de demaraj"
+
+#~ msgid "Bootloader"
+#~ msgstr "Gestionar de demarare"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Gestionarul de demarare folosit"
+
+#~ msgid "Boot device"
+#~ msgstr "Periferic de demaraj"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Timp de aşteptare înaintea demarării imaginii standard"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Activează ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Activează ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Activează ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Parola"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Parolele nu sunt identice"
+
+#~ msgid "Please try again"
+#~ msgstr "Încercaţi din nou"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr ""
+#~ "Nu puteţi monta un sistem de fişiere criptat pentru punctul de montare %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Parola (din nou)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Limitează opţiunile liniei de comandă"
+
+#~ msgid "restrict"
+#~ msgstr "limitează"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Opţiunea ``Limitează opţiunile liniei de comandă'' e inutilă fără parolă"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Curăţă /tmp la fiecare demaraj"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Precizează cantintatea de  RAM dacă e necesar (am găsit %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Introduceţi cantintatea de RAM în MB"
+
+#~ msgid "Init Message"
+#~ msgstr "Mesaj de iniţializare"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Întârziere Open Firmware"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Timp expirat demarare nucleu"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Demarare de pe CD activă?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Demarare OF activă?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Sistem de operare implicit?"
+
+#~ msgid "Image"
+#~ msgstr "Imagine"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Adaugă"
+
+#~ msgid "Video mode"
+#~ msgstr "Mod video"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "Profil nou..."
+
+#~ msgid "Label"
+#~ msgstr "Etichetă"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "NoVideo"
+#~ msgstr "Fără imagine video"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Eticheta goală nu e permisă"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Trebuie să specificaţi o imagine nucleu"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Trebuie să specificaţi o partiţie rădăcină (root)"
+
+#~ msgid "This label is already used"
+#~ msgstr "Această etichetă nu e permisă"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Ce tip de intrări doriţi să adăugaţi ?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Alt SO (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Alt SO (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Alt SO (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Acestea sunt diferitele intrările.\n"
+#~ "Puteţi să mai adăugaţi şi altele sau să schimbaţi cele existente."
+
+#~ msgid "access to X programs"
+#~ msgstr "acces la programele X"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "acces la uneltele rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "permite \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "acces la fişierele administrative"
+
+#~ msgid "access to network tools"
+#~ msgstr "acces la uneltele de reţea"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "acces la uneltele de compilare"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(deja adăugat %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Va rog înscrieţi numele utilizatorului"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Numele utilizatorului trebuie sa conţină numai caractere minuscule, "
+#~ "numere, `-' şi `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Numele de utilizator este prea lung"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Acest nume de utilizator e deja adăugat"
+
+#~ msgid "User ID"
+#~ msgstr "ID utilizator"
+
+#~ msgid "Group ID"
+#~ msgstr "ID Grup"
+
+#~ msgid "Add user"
+#~ msgstr "Adăugaţi un utilizator"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Introduceţi un utilizator\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Gata"
+
+#~ msgid "Accept user"
+#~ msgstr "Acceptare utilizator"
+
+#~ msgid "Real name"
+#~ msgstr "Nume real"
+
+#~ msgid "Login name"
+#~ msgstr "Nume login"
+
+#~ msgid "Shell"
+#~ msgstr "Interpretor"
+
+#~ msgid "Icon"
+#~ msgstr "Icon"
+
+#~ msgid "Autologin"
+#~ msgstr "Autologare"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Pot să configurez calculatorul să facă logare automată pt. un utilizator."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Vreţi să folosiţi această facilitate?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Alegeţi utilizatorul implicit:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Alegeţi managerul de ferestre:"
+
+#~ msgid "License agreement"
+#~ msgstr "Termeni de licenţiere"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "Ediţia:"
+
+#~ msgid "Accept"
+#~ msgstr "Acceptă"
+
+#~ msgid "Refuse"
+#~ msgstr "Refuză"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Vă rog să alegeţi limba folosită."
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "Myanmar"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Mandriva Linux permite folosirea mai multor limbi.\n"
+#~ "Selectaţi limbile pe care doriţi să le instalaţi. Ele vor fi disponibile\n"
+#~ "după terminarea instalării şi repornirea sistemului."
+
+#~ msgid "All languages"
+#~ msgstr "Toate limbile"
+
+#~ msgid "Country / Region"
+#~ msgstr "Ţara"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Vă rog să alegeţi ţara"
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Aici este lista tuturor ţărilor disponibile"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "Alte porturi"
+
+#~ msgid "Advanced"
+#~ msgstr "Avansat(e)"
+
+#~ msgid "None"
+#~ msgstr "Nimic"
+
+#~ msgid "No sharing"
+#~ msgstr "Fără partajare"
+
+#~ msgid "Allow all users"
+#~ msgstr "Permite tuturor utilizatorilor"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Doriţi să permiteţi utilizatorilor să partajeze directoare din directorul "
+#~ "lor acasă?\n"
+#~ "Aceasta va permite utilizatorilor sa facă un click pe \"Share\" în "
+#~ "konqueror şi nautilus.\n"
+#~ "\n"
+#~ "\"Personalizat\" permite configurarea per utilizator.\n"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "Puteţi exporta fişiere folosind sistemul NFS sau SMB. Pe care îl alegeţi?"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Lansează userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Închide"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Partajarea per-utilizator foloseşte grupul \"fileshare\".\n"
+#~ "Puteţi folosi userdrake pentru adăuga un utilizator la acest grup."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Vă rog delogaţi-vă şi folosiţi Ctrl-Alt-BackSpace"
+
+#~ msgid "Timezone"
+#~ msgstr "Zona de timp"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Care este zona dvs. de timp?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Ceas hardware fixat la GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Ceas hardware fixat la GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "Server NTP"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Sincronizare automată de timp (folosind NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "Fişier local"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#, fuzzy
+#~ msgid "Smart Card"
+#~ msgstr "Placă Ethernet"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Domeniu Windows"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "Fişiere locale:"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Domeniu Windows:"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Autentificare prin LDAP"
+
+#~ msgid "LDAP Server"
+#~ msgstr "Server LDAP"
+
+#~ msgid "simple"
+#~ msgstr "simplu"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "autentificare"
+
+#~ msgid "Domain"
+#~ msgstr "Domeniu"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "Baze de date"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "Parolă necesară"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Autentificare NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Domeniu NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Server NIS"
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Autentificare în domeniu Windows"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentificare"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Alegeţi parola pentru root"
+
+#, fuzzy
+#~ msgid "Authentication method"
+#~ msgstr "autentificare"
+
+#~ msgid "No password"
+#~ msgstr "Nici o parolă"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "Această parolă e prea simplă (ar trebui să fie de cel puţin %d caractere)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Nu pot să folosesc difuziunea fără nici un domeniu NIS"
+
+# NOTE: this message will be displayed at boot time; that is
+# only the ascii charset will be available on most machines
+# so use only 7bit for this message (and do transliteration or
+# leave it in English, as it is the best for your language)
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Bun venit la gestionarul de sisteme de operare!\n"
+#~ "\n"
+#~ "Alegeti un sistem de operare din lista de mai sus sau\n"
+#~ "asteptati pentru demararea din oficiu.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO cu meniu text"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "nu e destul spaţiu în /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Nu puteţi instala Gestionarul de demarare într-o partiţie %s\n"
+
+#, fuzzy
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Instalare gestionar de demaraj"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minute"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minut"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d secunde"
+
+#~ msgid "New"
+#~ msgstr "Nou"
+
+#~ msgid "Unmount"
+#~ msgstr "Demontare"
+
+#~ msgid "Mount"
+#~ msgstr "Montare"
+
+#~ msgid "Mount point"
+#~ msgstr "Punct de montare"
+
+#~ msgid "Error"
+#~ msgstr "Eroare"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Vă rog să introduceţi URL-ul pentru serverul WebDAV"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL-ul trebuie să înceapă cu http:// sau https://"
+
+#~ msgid "Server: "
+#~ msgstr "Server:"
+
+#~ msgid "Mount point: "
+#~ msgstr "Punct de montare: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Opţiuni: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Partiţionare"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Citiţi cu atenţie!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Vă rog faceţi mai întâi o copie a datelor dumneavoastră"
+
+#~ msgid "Exit"
+#~ msgstr "Ieşire"
+
+#~ msgid "Continue"
+#~ msgstr "Continuă"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Dacă doriţi să folosiţi aboot, asiguraţi-vă să lăsaţi un spaţiu liber\n"
+#~ "(2048 de sectoare sunt de ajuns) la începutul discului"
+
+#~ msgid "Choose action"
+#~ msgstr "Alegeţi acţiunea"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Aveţi o singură partiţie mare Microsoft  Dos/Windows).\n"
+#~ "Va sugerez să redimensionaţi mai întîi acea partiţie\n"
+#~ "faceţi clic pe ea şi apoi pe \"Redimensionează\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Vă rog faceţi clic pe o partiţie"
+
+#~ msgid "Details"
+#~ msgstr "Detalii"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Nu am găsit nici un disc fix"
+
+#~ msgid "Unknown"
+#~ msgstr "Necunoscut"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Sistem de fişiere jurnalizat"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Window$"
+
+#~ msgid "Empty"
+#~ msgstr "Gol"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Tipul de fişiere sistem: "
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Dimensiunea acestei partiţii nu poate fi modificată"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Foloseşte ``Demontare' mai întîi"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Foloseşte ``%s'' în loc"
+
+#~ msgid "Type"
+#~ msgstr "Tip"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Alegeţi o altă partiţie"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Alegeţi o partiţie"
+
+#~ msgid "Undo"
+#~ msgstr "Anulează"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Trece în mod normal"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Trece în mod expert"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Configuraţie"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Continuaţi totuşi?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Ieşire fără a înregistra"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Ieşire din program fără a scrie în tabela de partiţii ?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Doriţi să salvaţi modificările în /etc/fstab?"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Trebuie să redemaraţi pentru a înregistra modificările tabelei de partiţii"
+
+#~ msgid "Clear all"
+#~ msgstr "Şterge tot"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Auto alocare"
+
+#~ msgid "More"
+#~ msgstr "Mai multe"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Informaţii despre discurile fixe"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Toate partiţiile principale sunt alocate"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Imposibil de adăugat o alta partiţie"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Pentru a avea mai multe partiţii, ştergeţi una pentru a putea crea una de "
+#~ "tip Extended "
+
+#~ msgid "Save partition table"
+#~ msgstr "Scrie tabelul de partiţii"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Restaurează tabelul de partiţii"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Salvează tabelul de partiţii"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Reîncarcă tabelul de partiţii"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Automontare mediu detaşabil"
+
+#~ msgid "Select file"
+#~ msgstr "Selectează fişierul"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Tabelul de partiţii salvat nu are aceeaşi mărime\n"
+#~ "Să continui totuşi ?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Încerc să refac tabelul de partiţii"
+
+#~ msgid "Detailed information"
+#~ msgstr "Informaţii detaliate"
+
+#~ msgid "Resize"
+#~ msgstr "Redimensionează"
+
+#~ msgid "Format"
+#~ msgstr "Formatează"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Adaugă la RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Adaugă la LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Şterge"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Şterge din RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Şterge din LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Modifică RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Foloseşte pentru loopback"
+
+#~ msgid "Create"
+#~ msgstr "Creează"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Creează o nouă partiţie"
+
+#~ msgid "Start sector: "
+#~ msgstr "Sector de început: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Mărimea în MB: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Tip sistem de fişiere: "
+
+#~ msgid "Preference: "
+#~ msgstr "Preferinţă: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Nume volum logic "
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Nu se poate creea o nouă partiţie\n"
+#~ "(de vreme ce s-a atins numărul maxim de partiţii primare).\n"
+#~ "Întâi ştergeţi o partiţie primară şi creeaţi o partiţie extinsă."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Doriţi ştergerea fişierului loopback?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "După schimbarea tipului de partiţie %s, toate datele de pe această "
+#~ "partiţie se vor pierde"
+
+#~ msgid "Change partition type"
+#~ msgstr "Schimbă tipul partiţiei"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Ce sistem de fişiere doriţi?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Trec de la ext2 la ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Etichetă"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Unde doriţi să montaţi fişierul loopback %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Unde doriţi să montaţi perifericul %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Nu pot să desfiinţez acest punct de montare pentru că partiţia e folosită "
+#~ "pentru loopback.\n"
+#~ "Ştergeţi loopback-ul mai întâi"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Unde doriţi să montaţi %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Redimensionare"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Calculez limitele sistemului de fişiere FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Dimensiunea acestei partiţii nu poate fi modificată"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Toate datele de pe aceasta partiţie ar trebui salvate mai întîi"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "După redimensionarea partiţiei %s toate datele de pe aceasta partiţie vor "
+#~ "fi pierdute"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Alegeţi noua mărime"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Noua mărime în MB: "
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Alegeţi un RAID existent la care să adăugaţi"
+
+#~ msgid "new"
+#~ msgstr "nou"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Alegeţi un LVM existent la care să adăugaţi"
+
+#~ msgid "LVM name?"
+#~ msgstr "Nume LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Această partiţie nu poate fi folosită pentru loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Numele fişierului loopback"
+
+#~ msgid "Give a file name"
+#~ msgstr "Daţi un nume de fişier"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Fişierul este deja folosit de un alt loopback, alegeţi un altul"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Fişierul există deja. Să-l folosesc ?"
+
+#~ msgid "Mount options"
+#~ msgstr "Opţiuni pentru montare:"
+
+#~ msgid "Various"
+#~ msgstr "Diverse"
+
+#~ msgid "device"
+#~ msgstr "dispozitiv"
+
+#~ msgid "level"
+#~ msgstr "nivel"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "mărimea porţiunii "
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Atenţie: aceasta operaţie e periculoasă."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Ce tip de partiţionare?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr ""
+#~ "Va trebui să redemaraţi pentru ca schimbările sa fie luate în considerare"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Tabelul de partiţii al perifericului %s va fi scris pe disc!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "După formatarea partiţiei %s toate datele de pe aceasta partiţie vor fi "
+#~ "pierdute"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Să verific blocurile defectuoase?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Mută fişierele pe partiţia nouă"
+
+#~ msgid "Hide files"
+#~ msgstr "Ascunde fişiere"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Mut fişierele pe partiţia nouă"
+
+#~ msgid "Copying %s"
+#~ msgstr "Copiez %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Şterg %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "partiţia %s este cunoscută acum ca %s"
+
+#~ msgid "Device: "
+#~ msgstr "Periferic: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Litera perifericului DOS: %s (doar o presupunere)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Tip: "
+
+#~ msgid "Name: "
+#~ msgstr "Nume: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Start: sector %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Mărimea: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s sectori"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "De la cilindrul %d la cilindrul %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Formatat\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Neformatat\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Montat\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Fişier(e) loopback: \n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Partiţia demarată din oficiu\n"
+#~ "    (pentru demaraj MS-DOS, nu pentru lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Nivel %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Mărimea porţiunii %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Discuri-RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Numele fişierului loopback: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Sunt şanse ca această partiţie\n"
+#~ "să fie una cu drivere, probabil\n"
+#~ "ar trebui lăsată în pace.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Această partiţie specială\n"
+#~ "Bootstrap este pentru\n"
+#~ "demararea duală a sistemului.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Numai citire"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Mărime: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Geometrie: %s cylinders, %s heads, %s sectors\n"
+
+#~ msgid "Info: "
+#~ msgstr "Info: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Discuri-LVM %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Tip tabelă de partiţii: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "pe canalul %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Cheie criptare pt. sistemul de fişiere"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Selectaţi cheia de criptare pt. sistemul de fişiere"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Această cheie e prea simplă (ar trebui să fie de cel puţin %d caractere)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Cheile de criptare nu corespund"
+
+#~ msgid "Encryption key"
+#~ msgstr "Cheia de criptare"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Cheia de criptare (din nou)"
+
+#, fuzzy
+#~ msgid "Encryption algorithm"
+#~ msgstr "autentificare"
+
+#~ msgid "Change type"
+#~ msgstr "Schimbă tipul"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Nu pot face login folosind numele utilizator %s (parolă incorectă?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Se cere autentificare în domeniu"
+
+#~ msgid "Which username"
+#~ msgstr "Numele utilizatorului"
+
+#~ msgid "Another one"
+#~ msgstr "Încă una"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Vă rog să introduceţi numele utilizator, parola şi numele de domeniu "
+#~ "pentru accesa această gazdă."
+
+#~ msgid "Username"
+#~ msgstr "Nume utilizator"
+
+#~ msgid "Search servers"
+#~ msgstr "Caută servere"
+
+#~ msgid "Search new servers"
+#~ msgstr "Caută servere noi"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Pachetul %s trebuie instalat. Doriţi să îl instalez?"
+
+#, fuzzy
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Instalarea pachetului  %s"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Pachetul obligatoriu %s lipseşte"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Este necesară instalarea următoarelor pachetele: \n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Instalare pachete..."
+
+#, fuzzy
+#~ msgid "Removing packages..."
+#~ msgstr "Şterg %s..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "A apărut o eroare - nu am găsit nici un periferic bun pentru a instala "
+#~ "sisteme de fişiere noi. Verificaţi echipamentele pentru a detecta cauza "
+#~ "acestei probleme."
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Trebuie să aveţi o partiţie FAT montată în /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Formatez partiţia %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Crearea şi formatarea fişierului %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Nu ştiu cum să formatez %s în tipul %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s Formatarea %s eşuată"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Montări circulare %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Montez partiţia %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "montarea partiţiei %s în directorul %s a eşuat"
+
+#~ msgid "Checking %s"
+#~ msgstr "Verific %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "eroare la demontarea %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Activez partiţia swap %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr ""
+#~ "Nu puteţi monta un sistem de fişiere criptat pentru punctul de montare %s"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Punct de montare duplicat %s"
+
+#~ msgid "No partition available"
+#~ msgstr "nici o partiţie disponibilă"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Scanez partiţiile pentru a găsi punctele de montare"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Alegeţi punctele de montare"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Alegeţi partiţiile pe care doriţi sa le formataăi"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "Swap insuficient pentru a termina instalarea, mai adăugaţi ceva"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Trebuie să aveţi o partiţie root.\n"
+#~ "Pentru aceasta, creaţi o partiţie (sau faceţi clic pe un existentă).\n"
+#~ "Alegeţi apoi acţiunea ``Punct de montare'' şi fixaţi-o la '/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Nu aveţi nici o partiţie swap\n"
+#~ "\n"
+#~ "Să continui totuşi?"
+
+#~ msgid "Use free space"
+#~ msgstr "Foloseşte spaţiul liber"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Spaţiu pe disc insuficient pentru alocarea de noi partiţii"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Foloseşte partiţionarea existentă"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Nu există partiţii utilizabile"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Foloseşte partiţia Microsoft Windows® pentru loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Ce partiţie doriţi să folosiţi pentru a instala Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Alegeţi mărimile"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Mărimea partiţiei root în MB:"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Mărimea partiţiei swap în MB: "
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Foloseşte spaţiul liber din partiţia Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Care partiţie doriţi să o redimensionaţi?"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Calculez dimensiunea partiţiei Microsoft Windows®"
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "AVERTISMENT!\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX va redimensiona acum partiţia Windows.\n"
+#~ "\n"
+#~ "\n"
+#~ "Aveţi grijă: această operaţie este periculoasă. Dacă nu aţi făcut-o deja, "
+#~ "trebuie să părăsiţi instalarea, să rulaţi \"chkdsk c:\" de la linia de "
+#~ "comandă sub Windows (atenţie, rularea programului grafic \"scandisk\" nu "
+#~ "ajunge, asiguraţi-vă că folosiţi \"chkdsk\" de la linia de comandă!), "
+#~ "opţional rulaţi defrag, apoi reîncepeţi instalarea. Ar trebui de asemenea "
+#~ "să faceţi o copie a datelor dumneavoastră.\n"
+#~ "\n"
+#~ "\n"
+#~ "Când sunteţi sigur, apăsaţi %s."
+
+#~ msgid "Next"
+#~ msgstr "Următorul"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Cât spaţiu doriţi să păstraţi alocat pentru Microsoft Windows® pe"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Mărimea: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Redimensionez partiţia Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Redimensionarea FAT a eşuat: %s"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Şterge Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Şterge tot discul"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Aveţi mai multe discuri fixe, pe care din ele doriţi să instalaţi Linux?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ "TOATE partiţiile existente şi datele lor se vor pierde pe unitatea %s"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Partiţionare disc personalizată"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Foloseşte fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Puteţi partiţiona acum discul %s \n"
+#~ "Cînd aţi terminat, nu uitaţi să înregistraţi folosind `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Nu am spaţiu suficient pentru instalare"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "Asistentul de partiţionare DrakX a găsit următoarele soluţii:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Partiţionarea a eşuat: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Nu puteţi folosi JFS pentru partiţii mai mici de 16MB"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Nu puteţi folosi ReiserFS pentru partiţii mai mici de 32MB"
+
+#~ msgid "with /usr"
+#~ msgstr "cu /usr"
+
+#~ msgid "server"
+#~ msgstr "server"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Nu pot citi tabela de partiţii a dispozitivului %s, este prea stricată "
+#~ "pentru mine:(\n"
+#~ "Pot încerca să continui, ştergând toate partiţiile greşite (TOATE DATELE "
+#~ "se vor pierde!).\n"
+#~ "Cealată soluţie ar fi să nu permit modificarea tabelei de partiţii.\n"
+#~ "(eroarea este %s)\n"
+#~ "\n"
+#~ "Sunteţi de acord să pierdeţi toate partiţiile?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Punctele de montare trebuie sa înceapă cu un /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr ""
+#~ "Punctele de montare au trebui să conţină doar caractere alfanumerice"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Există deja o partiţie cu punctul de montare %s!\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Aţi selectat o partiţie RAID software pentru root (/).\n"
+#~ "Nici un gestionar de demaraj nu e capabil să folosească aceasta fără\n"
+#~ "o partiţie /boot. Adăugaţi deci o partiţie /boot"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "Nu puteţi folosi volumul logic LVM pentru punctul de montare %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Aţi selectat o partiţie RAID software pentru root (/).\n"
+#~ "Nici un gestionar de demaraj nu e capabil să folosească aceasta fără\n"
+#~ "o partiţie /boot. Adăugaţi deci o partiţie /boot"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr ""
+#~ "Acest director ar trebui să rămână în sistemul de fişiere al rădăcinii"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Aveţi nevoie de un sistem de fişiere serios (ext2/ext3, reiserfs, xfs sau "
+#~ "jfs) pentru acest punct de montare.\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr ""
+#~ "Nu puteţi monta un sistem de fişiere criptat pentru punctul de montare %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Spaţiu pe disc insuficient pentru auto-alocare"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Nimic de făcut"
+
+#~ msgid "Floppy"
+#~ msgstr "Unităţi de dischete"
+
+#~ msgid "Zip"
+#~ msgstr "Unităţi ZIP"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Unităţi de disc"
+
+#~ msgid "CDROM"
+#~ msgstr "Unităţi CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "Inscriptoare CD/DVD"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "Unităţi DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Unităţi de bandă"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Controllere AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Plăci video"
+
+#~ msgid "Tvcard"
+#~ msgstr "Plăci TV"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Alte dispozitive multimedia"
+
+#~ msgid "Soundcard"
+#~ msgstr "Plăci de sunet"
+
+#~ msgid "Webcam"
+#~ msgstr "Webcam-uri"
+
+#~ msgid "Processors"
+#~ msgstr "Procesoare"
+
+#, fuzzy
+#~ msgid "ISDN adapters"
+#~ msgstr "Placă ISDN"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Plăci Ethernet"
+
+#~ msgid "Modem"
+#~ msgstr "Modem-uri"
+
+#~ msgid "Memory"
+#~ msgstr "Memorie"
+
+#~ msgid "Printer"
+#~ msgstr "Imprimantă"
+
+#~ msgid "Joystick"
+#~ msgstr "Joystick-uri"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Controllere SATA"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Controllere RAID"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "Controllere (E)IDE/ATA"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Controllere Firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "Controllere PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "Controllere SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Controllere USB"
+
+#, fuzzy
+#~ msgid "USB ports"
+#~ msgstr "Imprimantă USB"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Controllere SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Punţi şi controllere de sistem"
+
+#~ msgid "Mouse"
+#~ msgstr "Maus"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Scannere"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Necunoscut/Altele"
+
+#~ msgid "cpu # "
+#~ msgstr "CPU #"
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Vă rog să aşteptaţi... Aplic configuraţia"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Nu există driver alternativ"
+
+#~ msgid "Sound configuration"
+#~ msgstr "Configurare sunet"
+
+#~ msgid "Driver:"
+#~ msgstr "Pilot:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Depanare"
+
+#~ msgid "No open source driver"
+#~ msgstr "Nu există pilot open-source"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Nu există un pilot liber pentru placa dvs. de sunet (%s), dar exista unul "
+#~ "proprietar la  \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Nu există pilot cunoscut"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Nu există un pilot cunoscut pentru placa dvs. de sunet (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Pilot necunoscut"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Eroare: Pilotul \"%s\" pentru placa dvs. de sunet nu este în listă"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Depanare sunet"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Permite alegerea oricărui pilot"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Alegere arbitrară pilot"
+
+#~ msgid "Auto-detect"
+#~ msgstr "Auto-detecţie"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Necunoscut|Generic"
+
+#~ msgid "Card model:"
+#~ msgstr "Model placă:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Tip tuner: "
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Număr buffere de captură:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "Număr buffere de captură pt. captura mmap"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Configurare PLL :"
+
+#~ msgid "Radio support:"
+#~ msgstr "Sprijin radio:"
+
+#~ msgid "enable radio support"
+#~ msgstr "activare sprijin radio"
+
+#~ msgid "Yes"
+#~ msgstr "Da"
+
+#~ msgid "No"
+#~ msgstr "Nu"
+
+#~ msgid "Choose a file"
+#~ msgstr "Selectaţi un fişier"
+
+#~ msgid "Add"
+#~ msgstr "Adaugă"
+
+#~ msgid "Modify"
+#~ msgstr "Modifică"
+
+#~ msgid "Remove"
+#~ msgstr "Şterge"
+
+#~ msgid "Finish"
+#~ msgstr "Finalizare"
+
+#~ msgid "Previous"
+#~ msgstr "Precedentul"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Alegere greşită, încercaţi din nou\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Ce alegeţi? (din oficiu %s) "
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Ce alegeţi? (0/1, din oficiu `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Buton `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Vreţi să apăsaţi acest buton?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Ce alegeţi? (din oficiu `%s'%s) "
+
+#~ msgid "Re-submit"
+#~ msgstr "Re-trimite"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Emiratele arabe unite"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua şi Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Albania"
+#~ msgstr "Albania"
+
+#~ msgid "Armenia"
+#~ msgstr "Armenia"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Antilele olandeze"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarctica"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentina"
+
+#~ msgid "American Samoa"
+#~ msgstr "Samoa americană"
+
+#~ msgid "Austria"
+#~ msgstr "Austria"
+
+#~ msgid "Australia"
+#~ msgstr "Australia"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaijan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnia şi Herţegovina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgia"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaria"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermude"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivia"
+
+#~ msgid "Brazil"
+#~ msgstr "Brazilia"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvet Island"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Belarus"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Insulele Cocos (Keeling)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Republica centr-africană"
+
+#~ msgid "Switzerland"
+#~ msgstr "Elveţia"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Coasta de fildeş"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Insulele Cook"
+
+#~ msgid "Chile"
+#~ msgstr "Chile"
+
+#~ msgid "Cameroon"
+#~ msgstr "Camerun"
+
+#~ msgid "China"
+#~ msgstr "China"
+
+#~ msgid "Colombia"
+#~ msgstr "Columbia"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Serbia şi Muntenegru"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cape Verde"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Insulele Christmas"
+
+#~ msgid "Cyprus"
+#~ msgstr "Cipru"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Republica Cehă"
+
+#~ msgid "Germany"
+#~ msgstr "Germania"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibuti"
+
+#~ msgid "Denmark"
+#~ msgstr "Danemarca"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Republica Dominicană"
+
+#~ msgid "Algeria"
+#~ msgstr "Algeria"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecuador"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonia"
+
+#~ msgid "Egypt"
+#~ msgstr "Egipt"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Sahara de vest"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritreea"
+
+#~ msgid "Spain"
+#~ msgstr "Spania"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiopia"
+
+#~ msgid "Finland"
+#~ msgstr "Finlanda"
+
+#~ msgid "Fiji"
+#~ msgstr "Fiji"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Insulele Falkland (Malvine)"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronezia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Insulele Faroe"
+
+#~ msgid "France"
+#~ msgstr "Franţa"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Marea Britanie"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Georgia"
+#~ msgstr "Georgia"
+
+#~ msgid "French Guiana"
+#~ msgstr "Guyana franceză"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltar"
+
+#~ msgid "Greenland"
+#~ msgstr "Groenlanda"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambia"
+
+#~ msgid "Guinea"
+#~ msgstr "Guineea"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Guineea ecuatorială"
+
+#~ msgid "Greece"
+#~ msgstr "Grecia"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Insulele South Georgia şi South Sandwich"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guineea-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#, fuzzy
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Insulele Heard şi McDonald"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Croaţia"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Ungaria"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonezia"
+
+#~ msgid "Ireland"
+#~ msgstr "Irlanda"
+
+#~ msgid "Israel"
+#~ msgstr "Israel"
+
+#~ msgid "India"
+#~ msgstr "India"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Teritoriul britanic din oceanul Indian"
+
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#~ msgid "Iran"
+#~ msgstr "Iran"
+
+#~ msgid "Iceland"
+#~ msgstr "Islanda"
+
+#~ msgid "Italy"
+#~ msgstr "Italia"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaica"
+
+#~ msgid "Jordan"
+#~ msgstr "Iordania"
+
+#~ msgid "Japan"
+#~ msgstr "Japonia"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenya"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kyrgyzstan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Cambogia"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Comore"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Saint Kitts şi Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Coreea de nord"
+
+#~ msgid "Korea"
+#~ msgstr "Coreea"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuweit"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Insulele Cayman"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakstan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Liban"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Saint Lucia"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberia"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lituania"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxemburg"
+
+#~ msgid "Latvia"
+#~ msgstr "Letonia"
+
+#~ msgid "Libya"
+#~ msgstr "Libia"
+
+#~ msgid "Morocco"
+#~ msgstr "Maroc"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldova"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagascar"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Insulele Marshall"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macedonia"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Myanmar"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolia"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Insulele Mariane de nord"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinica"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritania"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mauritius"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldive"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Mexic"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malaezia"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambic"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibia"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Noua Caledonie"
+
+#~ msgid "Niger"
+#~ msgstr "Niger"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Insulele Norfolk"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigeria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaragua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Olanda"
+
+#~ msgid "Norway"
+#~ msgstr "Norvegia"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "Noua Zeelandă"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Polinezia franceză"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua Noua Guinee"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipine"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Polonia"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Saint Pierre şi Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestina"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugalia"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "România :-)"
+
+#~ msgid "Russia"
+#~ msgstr "Rusia"
+
+#~ msgid "Rwanda"
+#~ msgstr "Ruanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Arabia saudită"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Insulele Solomon"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Suedia"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapore"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Saint Helena"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovenia"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Insulele Svalbard şi Jan Mayen"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovacia"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalia"
+
+#~ msgid "Suriname"
+#~ msgstr "Surinam"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome şi Principe"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syria"
+#~ msgstr "Siria"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swaziland"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Insulele Turks şi Caico"
+
+#~ msgid "Chad"
+#~ msgstr "Ciad"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Teritoriile franceze de sud"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Tailanda"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tadjikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "Timorul de est"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunisia"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turcia"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad şi Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzania"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ucraina"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Insulele minore de pe lângă SUA"
+
+#~ msgid "United States"
+#~ msgstr "Statele Unite"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Uzbekistan"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatican"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Saint Vincent şi Grenadinele"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Insulele Virgine (Brit.)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Insulele Virgine (SUA)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Viet Nam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Insulele Wallis şi Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "South Africa"
+#~ msgstr "Africa de sud"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambia"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwe"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Bine aţi venit la %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Şterge întâi volumele logice\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Felicitări, instalarea e completă.\n"
+#~ "Scoateţi media de demaraj şi apăsaţi Enter pentru redemaraj.\n"
+#~ "\n"
+#~ "\n"
+#~ "Pentru informaţii asupra corecţiilor disponibile pentru aceasta versiune\n"
+#~ "Mandriva Linux, consultaţi Erata disponibilă la \n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Informaţiile asupra configurării sistemului sunt disponibile în \n"
+#~ "capitolul referitor la post instalare din \n"
+#~ "Official Mandriva Linux User's Guide."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Configurare imprimante CUPS"
+
+#, fuzzy
+#~ msgid "Module configuration"
+#~ msgstr "Configurare manuală"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Aici puteţi configura fiecare parametru al modulului."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Am găsit interfaţele %s"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Aveţi o altă interfaţa?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Aveţi vreo interfaţă %s ?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Vezi info hardware"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Instalarea driverului pentru placa %s - %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Instalarea driverului pentru placa %s - %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Instalarea driverului pentru placa %s - %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Instalarea driverului pentru placa %s - %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Instalarea driverului pentru placa %s - %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Acum puteţi furniza opţiunile pentru modulul %s.\n"
+#~ "Reţineţi că orice adresă trebuie introdusă cu prefixul 0x ca în '0x123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Puteţi furniza acum opţiunile modulului %s.\n"
+#~ "Opţiunile sunt în formatul ``nume=valoare nume2=valoare2 ...''.\n"
+#~ "de exemplu, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Opţiuni pentru module:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Care driver %s să încerc?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "În anumite cazuri, driverul %s necesită informaţii suplimentare pentru a\n"
+#~ "funcţiona corect, dar funcţionează bine şi fără. Doriţi să specificaţi\n"
+#~ "opţiuni suplimentare sau îi permiteţi să interogheze calculatorul pentru\n"
+#~ "informaţiile necesare? Ocazional, interogarea poate bloca calculatorul,\n"
+#~ "dar n-ar trebui să producă nici o deteriorare."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Autosondare"
+
+#~ msgid "Specify options"
+#~ msgstr "Specificaţi opţiunile"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Încăcarea modulului %s a eşuat.\n"
+#~ "Doriţi să încercaţi cu alţi parametri ?"
+
+#~ msgid "mount failed: "
+#~ msgstr "montare eşuată: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Partiţiile extended nu sunt suportate pe această platformă "
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Aveţi o gaură în tabela de partiţii dar nu pot să o folosesc.\n"
+#~ "Singura soluţie e să deplasaţi partiţia principală pentru a avea gaura "
+#~ "lîngă partiţia extinsă"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "hEroare la citirea fişierului %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Restaurarea din fişierul %s a eşuat: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Backup defectuos"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Eroare la scrierea în fişierul %s"
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Nu pot adăuga partiţia la md%d _formatat_RAID"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Nu aveţi destule partiţii pentru nivelul RAID %d\n"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Permite/interzice logarea de la distanţă ca root."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Permite/interzice logarea directă ca root."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Alertări de securitate:"
+
+#~ msgid "Set the root umask."
+#~ msgstr "Configuraţi umask root."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "dacă este activat, verifică adăugarea/eliminarea fişierelor suid root."
+
+#~ msgid "Set the user umask."
+#~ msgstr "Setaţi umask utilizator."
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Permite logare de la distanţă ca root"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Permine conexiuni X Window"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig respectă regulile msec"
+
+#~ msgid "No password aging for"
+#~ msgstr "Parola nu expiră pentru"
+
+#~ msgid "Password history length"
+#~ msgstr "Lungime istoric parolă"
+
+#~ msgid "Root umask"
+#~ msgstr "Umask root"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Expirare shell"
+
+#~ msgid "User umask"
+#~ msgstr "Umask utilizator"
+
+#~ msgid "Check open ports"
+#~ msgstr "Verifică porturile deschise"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Raportează rezultatele verificării in syslog"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Bun venit Piraţilor"
+
+#~ msgid "Poor"
+#~ msgstr "Redusă"
+
+#~ msgid "High"
+#~ msgstr "Ridicată"
+
+#~ msgid "Higher"
+#~ msgstr "Foarte ridicată"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranoică"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Va trebui să folosiţi acest nivel cu grijă. Aceasta face ca sistemul să "
+#~ "fie\n"
+#~ "mai uşor de folosit, dar foarte sensibil: nu trebuie să fie folosit "
+#~ "pentru un\n"
+#~ "calculator conectat cu altele de pe Internet. Nu există nici o parolă de "
+#~ "acces."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Parolele sunt acum activate, dar utilizarea lui ca un calculator într-o "
+#~ "reţea tot nu recomandată."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Acesta este nivelul de securitate standard recomandat pentru un "
+#~ "calculator care va fi conectat ca un client la Internet."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Deja există unele restricţii şi în fiecare noapte sunt executate mai "
+#~ "multe verificări automate"
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Cu acest nivel de securitate, utilizarea acestui calculator ca server\n"
+#~ "devine posibilă. Securitatea este destul de ridicată pentru a folosi "
+#~ "acest\n"
+#~ "sistem ca server care acceptă conexiuni de la mulţi clienţi. Notă: dacă "
+#~ "maşina este numai un client simplu la Internet, folosiţi un nivel mai "
+#~ "scăzut."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Avem funcţionalităţile nivelului anterior de securitate, dar acum "
+#~ "sistemul e complet închis şi securitatea e la maximum."
+
+#~ msgid "Security"
+#~ msgstr "Securitate"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Opţiuni de bază DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Vă rog să alegeţi nivelul de securitate dorit"
+
+#~ msgid "Security level"
+#~ msgstr "Nivel de securitate"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Foloseşte libsafe pentru servere"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "O bibliotecă ce protejează contra atacurilor tip buffer overflow şi "
+#~ "format string."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Administrator de securitate (logare sau email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "Lansează sistemul de sunet ALSA (Advanced Linux Sound Architecture)"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron un orar de comandă periodică"
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd e folosit pentru a monitoriza bateria şi login-ul via syslog.\n"
+#~ "Poate de asemenea fi folosit pentru oprirea calculatorului dacă bateria "
+#~ "e\n"
+#~ "slabă."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Execută comenzi programate de comanda at la timpul specificat la\n"
+#~ "demararea lui at şi lansează comenzi batch atunci cînd media de "
+#~ "încărcare\n"
+#~ "e suficient de scăzută."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron e un program UNIX standard care execută programe-utilizator\n"
+#~ "specificate la intervale periodice. vixie cron adaugă o serie de "
+#~ "funcţionalităţi la bazicul cron UNIX, printre care o mai bună securitate "
+#~ "şi\n"
+#~ "opţiuni de configurare mai avansate."
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM adaugă suport mouse la aplicaţii text Linux ca Midnight Commander.\n"
+#~ "El permite de asemenea operaţii cu mouse-ul de copiere/lipire şi include\n"
+#~ "suportul meniurilor contextuale în consolă."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache e un server World Wide Web. E folosit pentru a servi fişiere HTML\n"
+#~ "şi CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Super-procesul Internet (numit în mod normal inetd) demarează o "
+#~ "sumedenie\n"
+#~ "de servicii, incluzînd telnet, ftp, rsh şi rlogin. Dezactivarea lui "
+#~ "telnet\n"
+#~ "dezactivează toate serviciile de care e responsabil."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Acest pachet încarcă harta de tastatură selectată ca în\n"
+#~ "/etc/sysconfig/keyboard. Aceasta poate fi selectată folosind kbdconfig.\n"
+#~ "Ar trebuie să-l lăsaţi activat pentru majoritatea calculatoarelor."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Regenerarea automata a antetelor nucleu în /boot pentru\n"
+#~ "/usr/include/linux/{autoconf, versiune}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Detecţia şi configurarea automată a echipamentelor la demaraj."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd este procesul de imprimare necesar pentru ca lpr să funcţioneze "
+#~ "corect.\n"
+#~ "E un server care arbitrează activitatea imprimantei(lor)."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) este un server de nume de domeniu (DNS) folosit la "
+#~ "rezolvarea asocierii numelor cu adresele IP."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Montează şi demontează toate punctele de montare a Fişierelor sistem de "
+#~ "Reţea\n"
+#~ "(NFS), SMB (LanManager/Windows şi NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Activează/Dezactivează toate interfeţele de reţea configurate pentru fi\n"
+#~ "iniţializate la demaraj."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS e un protocol popular pentru a împărţi fişiere de-a lungul reţelelor\n"
+#~ "TCP/IP. Acest serviciu furnizează funcţionalitatea server-ului NFS, care "
+#~ "e\n"
+#~ "configurată via fişierului /etc/exports."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS e un protocol popular pentru a împărţi fişiere de-a lungul reţelelor\n"
+#~ "TCP/IP. Acest serviciu furnizează funcţionalitatea blocării fişierelor "
+#~ "NFS."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "Suportul PCMCIA e destinat pentru a suporta cartele ethernet şi modem-"
+#~ "uri\n"
+#~ "laptop-uri. Nu va demara decît dacă e configurat deci nu e nici o "
+#~ "problemă\n"
+#~ "dacă e instalat pe calculatoare care nu au nevoie de acesta."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Portmapper-ul gestionează conexiunile RPC, care sunt folosite de "
+#~ "protocoluri\n"
+#~ "ca NFS şi NIS. Server-ul portmap trebuie demarat pe calculatoare care \n"
+#~ "funcţionează ca servere pentru protocoluri care folosesc mecanismul RPC."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix est un Agent de Transport de Mail (MTA), care e programul care\n"
+#~ "permite deplasarea mail-ului de la un calculator la altul."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Salvează şi restaurează entropia sistemului pentru o mai mare calitate\n"
+#~ "a generării de numere aleatoare."
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Serviciul de rutare permite actualizarea automată a tabelei IP de rutare\n"
+#~ "via\n"
+#~ " protocolul RIP. În timp de RIP este folosit pentru reţele mici,\n"
+#~ "alte protocoale mai complexe sunt folosite pentru reţele mai complexe."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Protocolul rstat permite utilizatorilor unei reţele să recupereze\n"
+#~ "performanţele măsurate de la orice calculator de pe reţea."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Protocolul rusers permite utilizatorilor unei reţele să identifice\n"
+#~ "cine e conectat la calculatoarele care răspund."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Protocolul rwho permite utilizatorului să recupereze lista tuturor\n"
+#~ "utilizatorului conectaţi la un calculator care foloseşte procesul rwho\n"
+#~ "(similar cu finger)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Lansează sisemul de sunet pe maşina dvs."
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog e facilitatea pe care multe procese o folosesc pentru a scrie\n"
+#~ "mesaje de log în numeroaselor fişiere de log ale sistemului. E o idee\n"
+#~ "bună să demaraţi întotdeauna syslog."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Încarcă driverele pentru dispozitivele USB."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Porneşte serverul de fonturi X (obligatoriu pentru rularea Xorg)"
+
+#~ msgid "Printing"
+#~ msgstr "Imprimare"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "File sharing"
+#~ msgstr "Partajare fişiere"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Administrare de la distanţă"
+
+#~ msgid "Database Server"
+#~ msgstr "Server de baze de date"
+
+#~ msgid "Services"
+#~ msgstr "Servicii"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "Alegeţi ce servicii doriţi să fie lansate automat la demaraj"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Servicii: %d activate pentru %d înregistrate"
+
+#~ msgid "running"
+#~ msgstr "rulează"
+
+#~ msgid "stopped"
+#~ msgstr "oprit"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Servicii şi daemoni"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "On boot"
+#~ msgstr "La demaraj"
+
+#~ msgid "Start"
+#~ msgstr "Porneşte"
+
+#~ msgid "Stop"
+#~ msgstr "Opreşte"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[Tastatură]"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=disp] [--update-sane=dir_sursă_sane] [--update-"
+#~ "usbtable] [--dynamic=disp]"
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Adăugare server"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Africa de sud"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Austria"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Africa de sud"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Macedonia"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Africa de sud"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "Rusească (fonetic)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "Iugoslavă (latină)"
+
+#~ msgid "Is this correct?"
+#~ msgstr "E corect ?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "selector fişiere"
+
+#, fuzzy
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "Salvează a_taşamentele în directorul:"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Numele „/” poate fi doar un director, nu o cheie"
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Nu e un director"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "Nu există fişierul „%s”\n"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Expandare arbore"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Restrângere arbore"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Basculare între plat şi triere în funcţie de grup"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s nu este instalat\n"
+#~ "Apăsaţi \"Înainte\" pentru a instala sau \"Renunţă\" pentru a ieşi"
+
+#~ msgid "Installation failed"
+#~ msgstr "Instalarea a eşuat"

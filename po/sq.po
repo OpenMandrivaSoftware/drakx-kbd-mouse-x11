@@ -1,0 +1,6099 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Naim Daka <naim70@freesurf.ch>, 2002, 2003.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX for MDK 9.2\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2004-09-15 13:33+0200\n"
+"Last-Translator: Naim Daka <naim70@freesurf.ch>\n"
+"Language-Team: Albanian <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB ose më shumë"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "Server Xorg"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Zgjedheni një server X (server Xorg)"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Konfigurimi i multi-ekraneve"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Sistemi juaj mund të përdore konfigurimin multi head.\n"
+"Çka dëshironi të beni?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Zgjedheni medhësinë e memorisë e kartelës tuaj grafike"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Konfigurimi i ekraneve veqmas"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Përdore çfaqjesin në më shumë ekrane (Xinerama)"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Konfiguroje vetëm kartelën \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Personalizim"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Konfigurimi i Lidhjes"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Braktise"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Kartela Grafike"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Monitori"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Vendosmëria"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Test"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Opcionet"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Prizatë"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"A dëshironi ti konservoni ndryshimet?\n"
+"Konfigurimi i tanishëm është:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Zgjedheni një monitor"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Zgjedheni një monitor"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Përgjithshëm"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Shitës"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Testimi i Plug'n Play dështoi. Ju lutemi zgjedheni një monitor korrekt"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Dy parametra janë me rëndësi frekuenca e rifreskimit vertikal, nga e cila\n"
+"mvaret se me çfarë shpejtësie rifreskohet monitori\n"
+"dhe njëherit më e rendësishmja frekuenca e sikronizimit horizontal\n"
+"nga e cila përcaktohet shpejtësia e vijimit vijave në monitor.\n"
+"\n"
+"Është shumë ME RËNDËSI që ju mos ta zgjdhnji vetëm një monitor\n"
+"me një frekuencë të rifreskimit i cili mund ti tejkalon mundësitë e\n"
+"monitorit tuaj.\n"
+"Që mund ta dëmtoj.\n"
+" Në rast të dyshimit zgjedheni një rregullim më të ulët pa rrezik."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Frekuencë horizontale freskuese"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Frekuencë vertikale freskuese"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Zgjedhe akcionin"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 ngjyra (8 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 mijë ngjyra (15 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 mijë ngjyra (16 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 milion ngjyra (24 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Vendosmërit"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Tjetër"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Zgjedhe vendosmërin dhe thellësin e numrit të ngjyrave"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Kartelë grafike: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Anulo"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Ndihmë"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Test i konfigurimit"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "A dëshironi ta testoni konfigurimin?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr ""
+"Kujdes: testimi i kësaj kartele grafike mund ta blokoj kompjuterin tuaj"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Një gabim është paraqitur:\n"
+"%s\n"
+"Ndërroni parametrat për ta përmirësuar"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Do ta braktisë për %d sekunda"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "A është ky një rregullim korrekt?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Tipi i tastierës: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Tipi i minit: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Monitor: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Frekuencë Horizontale Sinkronizuese: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Frekuencë Vertikale Freskuese: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Kartelë grafike: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Memoria grafike: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Thellësia e ngjyrave: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Vendosmëria: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Pilot Xorg: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Konfigurimi i Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Kartelë grafike: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Interfaci grafike në nisje"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"A dëshironi që intefac grafik (Xorg) të niset automatikisht\n"
+"gjatë nisjes së kompjuterit?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Kartela juaj me sa duket posedon një dalje TV-OUT.\n"
+"Mund ta konfiguroj që të punojë në përdorimin e frame-buffer.\n"
+"\n"
+"Për këtë ju duhet ta kyqni kartelën tuaj para se ta nisni kompjuterin tuaj.\n"
+"The mandej zgjedheni hyrjen \"TVout\" në menunë paraprake\n"
+"\n"
+"A e posedoni këtë fuksion?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Cilat norma përdorë televizori juaj?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Çeke (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Gjermane"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorake"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Spanjollisht"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Finlandisht"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Fragjisht"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "tastierë Angleze"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norvegjisht"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Polonishte"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Rusishtë"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Suedisht"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "tastierë e SHBA-ës"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Shqipe"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Armenishte (vjetër)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Armenishte (makinë shtypëse)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Armenishte (fonetic)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Arabe"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbeigjan (latine)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belgjik"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengali (disponibilitet \"Inscript\")"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengali (disponibilitet \"Probhat\")"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgarishte (fonetik)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgarishte (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brazilishte (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Boshjake"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Boshjake"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Beloruse"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Zvicërrane (gjermanishte)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Zvicërrane (frangjishte)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Arabe"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Çeke (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Gjermanishte (pa çelësa të vdekur)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagari"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Danishte"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (SHBA)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Norvegjishte)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Norvegjishte)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (SHBA)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (Norvegjishte)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (Suedishte)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (Suedishte)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonisht"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Greqishtë"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Gjeorgjishte (disponibilitet \"Ruse\")"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Gjeorgjishte (disponibilitet \"Latine\")"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Greqishtë"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Grekë (polytonic)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Gujarati"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmuki"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Kroatishtë"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Hungarishtë"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Irlandeze"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Izraelisht"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Izraelisht (fonetik)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iranisht"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Islandisht"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Italiane"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japonishtë me 106 kopsa"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kanada"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "tastierë Angleze"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Tastiere Koreane"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Arabe"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latino-Amerikane"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laotien"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Lituanisë AZERTY (e vjetër)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Lituanisë AZERTY (e re)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Lituanisë \"vijë e numrave\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Lituanisë \"fonetik\" Lituanisë"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Latvien"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Malajalam"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Maqedone"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Myanmar (Burmese)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Mongolishte (qirilicë)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Maltë (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Maltë (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Holandisht"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Orija"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Polonishte (qwerty)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Polonishte (qwertz)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Polonishte"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portugeze"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Kanadeze (Kebek)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Romainshte (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Romainshte (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Rusishtë (fonetik)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Sllovene"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovakishte (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovakishte (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (norvegjishte)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saami (suedisht/finish)"
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Tastiera Tajlandeze"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Serbe (qirilicë)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Siriak"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Siriak (fonetic)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamile (ISCII-layout)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamile (makinë shtypëse)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Tastiera Tajlandeze"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Tastiera Tajlandeze"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Tastiera Tajlandeze"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tastiera Tajike"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Gjermane"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Turke (model tradicionel \"F\")"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Turke (model modern \"Q\""
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukrahinës"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Orija"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Tastiera e SHBA-ës (internacional)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Uzbek (qirilicë)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vietnamisht \"kolonë numerike\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Jugoslave (latine)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Çelësi Alt djathtas"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Të Dyja Kopsat Shift njëkohshëm"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Çelësat e njëkohshëm Control dhe Shift"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Kopsa CapsLock (shkronja të mëdha shtypi)"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Çelësat e njëkohshëm Ctrl dhe Alt"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Çelësat e njëkohshëm Ctrl dhe Alt"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Çelësat e njëkohshëm Alt dhe Shift"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Çelësi \"Menu\""
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Çelësi \"Windows\" majtas"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Çelësi \"Windows\" djathtas"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Të Dyja kopsat Kontrol njëkohshëm"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Të Dyja kopsat njëkohësish Alt"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Kopsa Shift e Majtë"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Çelësi Shift Djathtas"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Kopsa Alt e Majtë"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Kopsë e Majtë Kontroluese"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Çelësi Kontrollues Djathtas"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Këtu ju mund ta zgjidhni çelësin apo kombinimin i cili\n"
+"ka mundësi të kalojë në tipe të ndryshme të tastierave\n"
+"(shembull: mes latin dhe jo latin)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Kujdes"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Këto rregullime do të aktivizohen mbasë instalimit.\n"
+"Gjatë instalimit, ju duhet ti përdorni kopsat e sakta\n"
+"Kontrolluese që të kaloni në çfaqje të tjera të tastierave."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Mini"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Mini standard PS2 me Rrotë"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Në menyrë automatike"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScrol"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 kopsë"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Mini satandard me 2 Kopsa"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Mini satandard me 3 Kopsa dhe rrotë imituese"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Rrota"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "serik"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Mini satandard me 3 Kopsa"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan me Rrotë imituese"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Sistemet e Minjëve"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Serijalet"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Serijalet me rrotë imituese"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Serik"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (serik, tip i vjetër C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Mini Logitech (serik, tip i vjetër C7) me rrotë imituese"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse me Rrotë imituese"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "min bus"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 kopsa"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 kopsa"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "3 Kopsa me Rrotë Imituese"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Universale"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "asnjë"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Asnjë min"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Ju lutemi zgjedheni tipin e minit tuaj."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "manuelë"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Imitoje kopsin e tretë?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Porta e Minit"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr ""
+"Ju lutemi zgjedheni portën serike, në të cilën është kyqur mini i juaj."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Imitues i Kopsave"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Imitues i Kopsës 2"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Imitues Kopse 3"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Ju lutemi testone minin"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Për t'aktivizuar minin,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "DUHET TA LËVIZNI RROTËN!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr ""
+"Ju duhet të lidheni jashtë tij dhe të hyni prapë për ndryshimet bëra më parë"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Tastiera"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Ju lutemi, zgjedheni tastierën tuaj."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Shtrirja e Tastierës"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Tastiera"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "A dëshironi që kopsa BackSpace ta kthejë Zhdukjen në konsolë?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Test i minit"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Ju lutemi testone minin tuaj:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Përdorues umask"
+
+#~ msgid "Please wait"
+#~ msgstr "Një moment ju lutemi"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Instalimi i Bootloader në vazhdim e sipër"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr ""
+#~ "Instalimi i programit me nisje të udhëzuar dështoi. Gabimi i radhitur "
+#~ "është:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Ndoshta ju duhet të ndërroni lexuesin me nisje të udhëzuar të Open\n"
+#~ " Firmware, për ta aktivizuar programin me nisje të udhëzuar. Nëse ju\n"
+#~ " vëreni një hyrje të programit me nisje të udhëzuar, gjatë nisjes së\n"
+#~ " sistemit tuaj, shtypni mbi Command-Option-O-F dhe rinisni sistemin tuaj\n"
+#~ " futni: setenv boot-device %s,\\\\:tbxi. Mandej shtypni: shut-down\n"
+#~ "Në nisjen tjetër të sistemit tuaj, ju do ta vëreni hyrjen e programit me "
+#~ "nisje të udhëzuar."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Ju keni vendosur të instaloni programin bootloader mbi një ndarje.\n"
+#~ "Kjo nënkupton se ju posedoni një program me nisje të udhëzuarë në diskun "
+#~ "e fort (shembull: System Commander).\n"
+#~ "\n"
+#~ "Në cilin diskë do të niseni?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Sektori i par i diskut (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Sektori i par një ndarje rrënjëzore (root)"
+
+#~ msgid "On Floppy"
+#~ msgstr "Mbi Disketë Floppy"
+
+#~ msgid "Skip"
+#~ msgstr "Hedhe"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Instalimi i LILO/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Ku dëshironi të instaloni programin bootloader?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Konfigurimi i Stilit të nisjes"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Opcionet kryesore të programit Bootloader"
+
+#~ msgid "Bootloader"
+#~ msgstr "Bootloader"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Programi Bootloader për përdorim"
+
+#~ msgid "Boot device"
+#~ msgstr "Mjet me nisje udhëzuese"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Afat para se imazhi të niset me marrëvshje"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Autorizoje ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Autorizoje ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Autorizoje ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Parulla"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Parullat nuk përputhen"
+
+#~ msgid "Please try again"
+#~ msgstr "Ju lutemi provoni edhe një herë"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr ""
+#~ "Ju nuk mund ta përdorni sistemin e skedareve të kriptuara për këtë pikë "
+#~ "montuese %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Parulla (përsëri)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Opcion mbrojtës linjën komanduese"
+
+#~ msgid "restrict"
+#~ msgstr "restrict"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Opcioni ``Restrict command line options'' është i pa mundur pa parullë"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Zbraze repertorin /tmp në çdo nisje"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr ""
+#~ "Precizoje madhësinë e memorisë nëse ajo nevojitet (%d MB të gjetura)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Paraqite madhësinë e memorisë në MB"
+
+#~ msgid "Init Message"
+#~ msgstr "Lajm i Nisjes"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Afat i Open Firmware"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Afat i nisjes udhëzuese të bërthamës"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Autorizoje nisjen nga CD?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Autorizoje Nisjen në l'OF?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Sistem i Eksploatimit me marrëveshje?"
+
+#~ msgid "Image"
+#~ msgstr "Imazh"
+
+#~ msgid "Root"
+#~ msgstr "Ndarje Rrënjëzore"
+
+#~ msgid "Append"
+#~ msgstr "Mundësi kalimi në bërthamë"
+
+#~ msgid "Video mode"
+#~ msgstr "Modë video"
+
+#~ msgid "Initrd"
+#~ msgstr "Skedare RamDisk"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "Shfletues rrjeti"
+
+#~ msgid "Label"
+#~ msgstr "Etiketa"
+
+#~ msgid "Default"
+#~ msgstr "Me marrëveshje"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoVideo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Etiketë e zbrazët nuk autorizohet"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Ju duhet të specifikoni imazhin e bërthamës"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Ju duhet të specifikoni një ndarje rrënjëzore"
+
+#~ msgid "This label is already used"
+#~ msgstr "Kjo etiketë është në përdorim e sipër"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Çfarë tipi të sistemit dëshironi të shtoni?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Sistem tjetër Eksploatues (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Sistem tjetër Eksploatues (MacOS, etj.)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Sistem tjetër Eksploatues (Windows, etj.)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Këto janë hyrjet e ndryshme në nisje udhëzuese.\n"
+#~ "Ju mund ta shtoni ndonjë të reja dhe ti ndryshoni hyrjet e më parme."
+
+#~ msgid "access to X programs"
+#~ msgstr "hyrjer në programet grafike X"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "hyrjet në veglat rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "autorizim \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "hyrje në skedaret administrative"
+
+#~ msgid "access to network tools"
+#~ msgstr "hyrjet në veglat e rrjetit"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "hyrjet në veglat kompiluese"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(në shtim e sipër %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Ju lutemi shkruani një emër për përdoruesin"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Emri i përdoruesit mund të përmbajë vetëm shkonja të vogla, numra, "
+#~ "njashtu edhe shenjat `-' dhe `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Emri i përdoruesit është shumë i gjatë"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Ky emër i përdoruesit është veçse i shtuarë"
+
+#~ msgid "User ID"
+#~ msgstr "ID i Përdoruesit"
+
+#~ msgid "Group ID"
+#~ msgstr "Grup ID"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "Opcioni %s duhet të jetë një numër!"
+
+#~ msgid "Add user"
+#~ msgstr "Shto një përdorues"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fute një përdorues\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Përfundoi"
+
+#~ msgid "Accept user"
+#~ msgstr "Pranoje përdoruesin"
+
+#~ msgid "Real name"
+#~ msgstr "Emri dhe mbiemri"
+
+#~ msgid "Login name"
+#~ msgstr "Emri lidhës"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgid "Autologin"
+#~ msgstr "Lidhje automatike"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Përderisa të niset kompjuteri juaj, ka mundësi që të lidhet automatikisht "
+#~ "në një përdorues."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "A dëshironi ta përdorni këtë veçori?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Zgjedheni një përdorues me marrëveshje:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Zgjedheni një mjedis grafik për ta nisur:"
+
+#~ msgid "License agreement"
+#~ msgstr "Licenca e pajtueshmërisë"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "Liroje:"
+
+#~ msgid "Accept"
+#~ msgstr "Pranoje"
+
+#~ msgid "Refuse"
+#~ msgstr "Rrefuzo"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Ju lutemi zgjedheni gjuhën përdoruese."
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "manuelë"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Mandriva Linux mund ti përmbahen një numër të madhë të gjuhëve.\n"
+#~ "Zgjedheni gjuhën në të cilën dëshironi ta instaloni. E cila do të\n"
+#~ "jetë në përdorim e sipër kur ta instaloni kompletisht\n"
+#~ "dhe ta rinisni sistemin tuaj nga fillimi."
+
+#~ msgid "All languages"
+#~ msgstr "Të gjitha ghuhët"
+
+#~ msgid "Country / Region"
+#~ msgstr "Shteti / Regjioni"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Ju lutemi, zgjedheni shtetin tuaj."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Ja ku është lista komplete e shteteve në disponibilitet"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "Porta të tjera"
+
+#~ msgid "Advanced"
+#~ msgstr "Vazhduar"
+
+#, fuzzy
+#~ msgid "Input method:"
+#~ msgstr "Metodë Rrjeti:"
+
+#~ msgid "None"
+#~ msgstr "Asnjëri"
+
+#~ msgid "No sharing"
+#~ msgstr "Asnjë ndarje"
+
+#~ msgid "Allow all users"
+#~ msgstr "Autorizoi të gjithë përdoruesit"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "A dëshironi që përdoruesit të kenë mundësi të shpërndajnë disa nga\n"
+#~ "repertorët e tyre? Me këtë përdoruesit do të kenë mundësi ti shpërndajnë\n"
+#~ "me klikim mbi \"Shpërdarje\" në konqueror (kde) dhe nautilus (gnome).\n"
+#~ "\n"
+#~ "\"Personalizim\" autorizon shpërndarjes për përdorues të përcaktuar.\n"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "A dëshironi ti trasportoni me NFS (protokol UNIX) apo SMB (protokol "
+#~ "Windows). Ju lutemi zgjedheni cilën dëshironi ta përdorni."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Nise userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Mbylle"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Për të autorizuar një përdorues të grupit që të shpërndaje repetorët, ju "
+#~ "duhet ti shtoni të gjithë përdoruesit po në atë grup \"fileshare\". \n"
+#~ "Kjo mund të arrihet falas programit userdrake."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Ju lutemi lidhuni dhe shtypni mbi kopsat Ctrl-Alt-BackSpace"
+
+#~ msgid "Timezone"
+#~ msgstr "Zonë orare"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Cila është zona e juaj orare?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Orë Sistemi e rregulluar në Kohën Univerzale (GMT)"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Orë Sistemi e rregulluar në Kohën Univerzale (GMT)"
+
+#~ msgid "NTP Server"
+#~ msgstr "Server NTP"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Sinkronizimi automatik i orës (via NTP)"
+
+#, fuzzy
+#~ msgid "Local file"
+#~ msgstr "Skedaret lokale"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#, fuzzy
+#~ msgid "Smart Card"
+#~ msgstr "Kartela ethernet"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Prona Windows"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Riparoi të gjitha regjistrimet"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Riparoi të gjitha regjistrimet"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "Skedaret lokale:"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Prona Windows:"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Riparoi të gjitha regjistrimet"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Riparoi të gjitha regjistrimet"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Vërtetësimi LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "Rrënja Bazë (dn) LDAP"
+
+#~ msgid "LDAP Server"
+#~ msgstr "Server LDAP"
+
+#~ msgid "simple"
+#~ msgstr "thjeshtë"
+
+#, fuzzy
+#~ msgid "TLS"
+#~ msgstr "LSB"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "vërtetësim"
+
+#~ msgid "Domain"
+#~ msgstr "Prona"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "Bazë e të dhënave"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "Parulla nevojitet"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Vërtetësimi NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Pronë NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Server NIS"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Që kjo të punoj si duhet me një kontrolues kryesore të pronës (PDC) "
+#~ "Windows 2000, ju duhet me siguri që ta sinjalizoni administratorin "
+#~ "nisës:  C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" ku "
+#~ "secili /shton dhe e rinisë serverin.\n"
+#~ "Ju njashtu keni nevojë për emrin përdorues dhe parullën e një "
+#~ "administratori të pronës për tu bashkuar në makinën me pronën Windows"
+#~ "(TM).\n"
+#~ "Nëse rrjeti është ende i aktivizuar, prona do të bashkohet mbasë etapës "
+#~ "konfiguruese të rrjetit.\n"
+#~ "Nëse kjo etapë dështon nga ndonji arrësye, e nëse vërtetësimi nuk "
+#~ "funksionon, niseni 'smbpasswd -j DOMAIN -U USER%%PASSWORD' duke e "
+#~ "përdorur në pronën tuaj Windows(tm), emrin Përdorues/Parullën, mbasë "
+#~ "nisjes së sistemit me boot.\n"
+#~ "Urdhëri 'wbinfo -t' do të testoj funksionimin e vërtetësimit."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Vërtetësimi i Pronës Windows"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Emri i Administruesit të Pronës"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Parulla e Administruesit të Pronës"
+
+#~ msgid "Authentication"
+#~ msgstr "Vërtetësimi"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Paraqite parullën root"
+
+#, fuzzy
+#~ msgid "Authentication method"
+#~ msgstr "vërtetësim"
+
+#~ msgid "No password"
+#~ msgstr "Asnjë parullë"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "Kjo parullë është shumë e shkurtër (duhet të jetë më së paku e gjatë prej "
+#~ "%d simboleve)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Nuk mund të përdoret mundësia broadcast pa asnjë pronë NIS"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO në modë teksti"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "nuk ka vend të mjaftueshëm në repertorin /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Ju nuk mund të instaloni programin bootloader mbi një ndarje %s\n"
+
+#, fuzzy
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Instalim i bootloader"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minuta"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minutë"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d sekunda"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV është një protokol i cili ju mundëson që të montohet një repertor\n"
+#~ "lokal i serverit web, dhe të qeveriset sikur një sistem i skedareve "
+#~ "lokale\n"
+#~ "(me një kusht nëse serveri web është i konfiguruar si server WebDAV).\n"
+#~ "Nëse dëshironi të shtoni pika tjera montuese zgjedheni WebDAV \"E Re\"."
+
+#~ msgid "New"
+#~ msgstr "E Re"
+
+#~ msgid "Unmount"
+#~ msgstr "Demonto"
+
+#~ msgid "Mount"
+#~ msgstr "Monto"
+
+#~ msgid "Mount point"
+#~ msgstr "Pikë montuese"
+
+#~ msgid "Error"
+#~ msgstr "Gabim"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Ju lutemi futni adresën e serverit WebDAV"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL duhet të filloj me http:// ose https://"
+
+#~ msgid "Server: "
+#~ msgstr "Server: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Pikë montuese: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Opcionet: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Shpërndarja"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Gjendje gadishmërie!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Ju lutemi regjistroni të dhënat tuaja para se të vazhdoni më tutje"
+
+#~ msgid "Exit"
+#~ msgstr "Braktise"
+
+#~ msgid "Continue"
+#~ msgstr "Vazhdo"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Nëse dëshironi ta përdorni aboot, keni kujdes gjatë rezervimit të një "
+#~ "hapësire të lirë (minimum duhet të jetë 2048 sektorë)\n"
+#~ "në fillim të diskut."
+
+#~ msgid "Choose action"
+#~ msgstr "Zgjedhe akcionin"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Disku i juaj posedon vetëm një ndarje të madhe të tipit FAT \n"
+#~ "(në shumicën e rasteve është i përdorur nga Microsoft Dos/Windows).\n"
+#~ "Ju duhet ta zvogëloni që të krijoni një ndarje tjetër\n"
+#~ "(kliko në ndarje, mandej mbi \"Ridimenzionim\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Ju lutemi klikoni mbi një ndarje"
+
+#~ msgid "Details"
+#~ msgstr "Detajet"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Asnjë disk i fort (hard drive) në këtë sistem"
+
+#~ msgid "Unknown"
+#~ msgstr "I pa njoftur"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "FS gazetaresk"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Zbrazët"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Tipet e sistemeve të skedareve:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Kjo ndarje nuk mund të ridimenzionohet"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Përdor më parë ``Demontimin''"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Përdore më parë këte ``%s''"
+
+#~ msgid "Type"
+#~ msgstr "Tipi"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Zgjedheni një ndarje tjetër"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Zgjedheni një ndarje"
+
+#~ msgid "Undo"
+#~ msgstr "Gjendja paraprake"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Kalo në modë normal"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Kalo në modë expert"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Konfigurimi"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Vazhdo pa marrë parasyshë?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Braktise pa regjistruar"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Braktise pa i regjistruar tabelatë ndarëse"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "A dëshironi ti registroni ndryshimet në /etc/fstab"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Ju duhet ta rinisni sistemin që ndryshimet të trasportohen në tabelë që "
+#~ "të marren parasysh"
+
+#~ msgid "Clear all"
+#~ msgstr "Zhduki të gjitha ndarjet"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Ndarje automatike"
+
+#~ msgid "More"
+#~ msgstr "Më shumë"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Informacion mbi diskun e fort (hard drive)"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Të gjitha ndarjet primare janë në përdorim e sipër"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Nuk mund të shtoj ndonji ndarje tjetër"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Për të përdorur ndarje tjera, ju duhet ta zhdukni njërën nga to, që ta "
+#~ "zëvendësoni me një ndarje tjetër të shtrirë"
+
+#~ msgid "Save partition table"
+#~ msgstr "Shpëtoje tabelën ndarëse"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Restauroje tabelën ndarëse"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Tabelë shpëtuese për ndarje"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Ringarkoje tabelën ndarëse"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Automontim i periferikëve lëvizës"
+
+#~ msgid "Select file"
+#~ msgstr "Zgjedhe një skedare"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Përmbajtja e tabelave ndarëse nuk posedon madhësi të njëjtë\n"
+#~ "A dëshironi të vazhdoni?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Tentim i leximit të organizimit të ndarjeve"
+
+#~ msgid "Detailed information"
+#~ msgstr "Informacione të hollësishme"
+
+#~ msgid "Resize"
+#~ msgstr "Ridimenziono"
+
+#~ msgid "Format"
+#~ msgstr "Formatim"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Shto në RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Shto në LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Zhduke"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Zhduke nga RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Zhduke nga LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Ndryshoje RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Përdore për loopback"
+
+#~ msgid "Create"
+#~ msgstr "Krijo"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Krijo një ndarje të re"
+
+#~ msgid "Start sector: "
+#~ msgstr "Sektori fillues: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Madhësia në MB:"
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Tip i sistemit të skedareve:"
+
+#~ msgid "Preference: "
+#~ msgstr "Pëlqimi:"
+
+#~ msgid "Logical volume name "
+#~ msgstr "Emri logjik i vëllimit "
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Ju nuk mund ta krijoni një ndarje të re\n"
+#~ "(prej se keni arritur në numrin maksimal të ndarjeve primare).\n"
+#~ "Në fillim zhdukni ndarjen primare dhe krijone një ndarje të shtrire."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Zhduke skedaren loopback?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "Mbas ndërrimit të tipit të kësaj ndarje %s, të gjitha të dhënat në këtë "
+#~ "ndarje do të zhduken "
+
+#~ msgid "Change partition type"
+#~ msgstr "Ndryshim i tipit të ndarjes"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Cilin sistem të skedareve e dëshironi?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Kalim nga ext2 në ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Etiketa"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Ku dëshironi ta montoni skedaren loopback %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Ku dëshironi ta montoni ndarjen %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Është e pa mundur moszgjedhja e montimit të kësaj pike, sepse përdoret "
+#~ "nga loopback. Zhdukeni loopback në fillim"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Ku dëshironi ta montoni %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Ridimenzionimi"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Llogaritja e kufijve të sistemit të skedareve FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Kjo ndarje nuk mund të ridimenzionohet"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Të gjitha të dhënat duhet të jenë të regjistruara"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Mbasi që ta ridimenziononi ndarjen %s, të gjitha të dhënat në atë ndraje "
+#~ "do të zhduken"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Zgjedheni një madhësi të re"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Madhësi e re në MB:"
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Për të siguruar intergrimin e të dhënave mbasë ndrajes(ve), sistemi\n"
+#~ "verifikues i skedareve do të niset në nisjen tjetër boot mbi Windows(TM)"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Zgjedheni një RAID ekzistues për ta shtuar në"
+
+#~ msgid "new"
+#~ msgstr "e re"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Zgjedheni një LVM ekzistues për ta shtuar në"
+
+#~ msgid "LVM name?"
+#~ msgstr "Emër LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Kjo ndarje nuk mund të përdoret për loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Emri i skedares loopback:"
+
+#~ msgid "Give a file name"
+#~ msgstr "Jepni një emër skedare"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr ""
+#~ "Skedarja është në përdorim e sipër nga një loopback tjetër, zgjedheni një "
+#~ "tjetër"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Skedarje është veqse prezente. Përdoreni atë?"
+
+#~ msgid "Mount options"
+#~ msgstr "Opcionet montuese"
+
+#~ msgid "Various"
+#~ msgstr "Ndryshimet"
+
+#~ msgid "device"
+#~ msgstr "periferik"
+
+#~ msgid "level"
+#~ msgstr "niveli"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "madhësia e blokut"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Keni kujdes: ky operacion është i rrezikshëm."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Çfarë tipi i ndarjes?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr ""
+#~ "Ju duhet ta rinisni sistemin tuaj që ndryshimet e bëra, të mund të "
+#~ "përdoren"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Tabela e ndarjeve %s tani do të shkruhet në diskë!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Mbas formatimit të ndarjes %s, të gjitha të dhënat në këtë ndarje do të "
+#~ "zhduken"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Verifikim i bloqeve të dëmtuara?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Vendosi skedaret në një ndarje të re"
+
+#~ msgid "Hide files"
+#~ msgstr "Fshehi skedaret"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Zhvendosja e skedareve në një ndarje të re"
+
+#~ msgid "Copying %s"
+#~ msgstr "Kopjimi i %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Zhdukja e %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "ndarja %s tani është e njoftur sikur %s"
+
+#~ msgid "Device: "
+#~ msgstr "Periferik: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Shkronja lexuese DOS: %s (vetëm sypozohet)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Tipi: "
+
+#~ msgid "Name: "
+#~ msgstr "Emri: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Nise: sektorin %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Madhësia: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s sektorët"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Cilindri %d në %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Formatuar\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "I pa formatuar\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Montuar\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "I përketë RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Skedare(t) loopback:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Ndraje me nisje të udhëzuar në marrëveshje\n"
+#~ "    (për nisje në MS-DOS, e jo për LILO)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Niveli %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Madhësia e blokut %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Disqet RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Emri i skedares loopback: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ekzistojnë mundësitë që kjo ndarje të\n"
+#~ "jet një ndarje piloti për sistemin.\n"
+#~ "Dhe ju nuk duhet ta ndryshoni atë.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Kjo ndarje e nisjes me udhëzim (bootstrap)\n"
+#~ "është e domosdoshme nëse ju posedoni\n"
+#~ "mës shumë se një sistem eksploatues.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Vetëm për ta lexuar"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Madhësia: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Gjeometria: %s cilindrat, %s kokat, %s sektorët\n"
+
+#~ msgid "Info: "
+#~ msgstr "Informacion: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Disqet LVM %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Tabelë e ndarjeve të tipit: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "në kanal %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Çelës kriptues i sistemit të skedareve"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Zgjedheni çelësin kriptues të sistemit të skedareve"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Ky çelës kriptues është shumë i thjeshtë (duhet të jetë më së paku prej%d "
+#~ "shifrave)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Çelësat kriptues nuk përputhen"
+
+#~ msgid "Encryption key"
+#~ msgstr "Çelës kriptues"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Çelës kriptues (vërtetim)"
+
+#, fuzzy
+#~ msgid "Encryption algorithm"
+#~ msgstr "vërtetësim"
+
+#~ msgid "Change type"
+#~ msgstr "Ndryshoje tipin"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Nuk mund të lidheni me këtë emër %s (parullë e gabura?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Nevojitet Prona Vërtetuese"
+
+#~ msgid "Which username"
+#~ msgstr "Cilin emër të përdoruesit"
+
+#~ msgid "Another one"
+#~ msgstr "Një tjetër"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Ju lutemi futni emrin e përdoruesit, parullën dhe emrin e pronës për të "
+#~ "hyrë në këtë server."
+
+#~ msgid "Username"
+#~ msgstr "Emri i përdoruesit"
+
+#~ msgid "Search servers"
+#~ msgstr "Hulumtim i serverave"
+
+#~ msgid "Search new servers"
+#~ msgstr "Hulumtim për serverave të rinj"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Pakot %s duhet të jenë instaluar. A dëshironi ti instaloni ato?"
+
+#, fuzzy
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Instalimi i pakove %s"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Pakoja e nevojshme %s mungon"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Pakot e radhitura duhet të instalohen:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Intalimi i pakove..."
+
+#, fuzzy
+#~ msgid "Removing packages..."
+#~ msgstr "Zhdukja e %s ..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Një gabim është paraqitur - asnjë periferik i vlefshëm s'është gjetuar "
+#~ "për të krijuar ndarje të reja. Verifikoni materialin tuaj për këto "
+#~ "ngatërrime"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Ju duhet të posedoni një ndarje FAT të montuar në /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Formatimi i ndarjes %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Krijimi dhe formatimi i skedares %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "I pa mundur formatimi i %s në tipin %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "formatimi i formës %s në formën %s dështoj"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Pika montuese cirkulare %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Montimi në ndarjen %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "montimi i ndarjes %s në repertorin %s dështoi"
+
+#~ msgid "Checking %s"
+#~ msgstr "Verifikimi i %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "gabim gjatë çmontimit %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Aktivizimi i ndarjes swap %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr ""
+#~ "Ju nuk mund ta përdorni sistemin e skedareve të kriptuara për këtë pikë "
+#~ "montuese %s"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Mos i azhurno shenjëzat hyrëse të kohës në këtë sistem të skedares\n"
+#~ "(p.sh. për hyrje më të shpejt në një lajmë bobinues për ta rritur "
+#~ "shpëjtësinë e serverav)."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Mundet vetëm të me qartësi (i.e.,\n"
+#~ "opcioni -a nuk do të kudhtëzoj ndonji porblem në montimin e sistemit të "
+#~ "skedares)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr ""
+#~ "Mos i interpretoni karakteret apo bloqet speciale të mjeteve në sistemin "
+#~ "e skedares."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Mos e mundëso ekzekutimin e ndonji montimi binare në\n"
+#~ "sistemin e skedares. Ky opcion mund të përdoret për server që posedojnë\n"
+#~ "sistem të skedares binar me një arkitektur tjetër që ju e posedoni."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Mos u mundëso set-user-identifier apo set-group-identifier\n"
+#~ "që të marrin efekte. (Kjo është më e sigurt, mirëpo në disa raste mund\n"
+#~ "të jetë e pa sigurt, nëse e keni të instaluar suidperl(1).)"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Montoje sistemin e skedares vetëm në lexim."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "Gjitha I/O në sistemin e skedares duhet të sinkronizohen."
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Dhuro një leje shkrimi për përdorues të zakonshëm"
+
+#, fuzzy
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Dhuro një leje shkrimi për përdorues të zakonshëm"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Pikë montuese e dyfisht %s"
+
+#~ msgid "No partition available"
+#~ msgstr "Asnjë ndarje e lirë"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Scanimi i ndarjeve për ti gjetur pikat montuese"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Zgjedhni pikat montuese"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Zgjedhni ndarjet që dëshironi ti formatoni"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Gabim gjatë verifikimit të sistemit të skedareve %s. A dëshironi ti "
+#~ "korigjoni gabimet? (kujdes ju mund ti humbni të dhënat)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "Hapësira swap nuk është e mjaftueshme për një instalim të plot, ju lutemi "
+#~ "shtone një sasi të vogël"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Ju duhet të posedoni një ndarje rrënjëzore (root).\n"
+#~ "Për këtë, krijoni një ndarje (apo klikoni mbi një që ekziston).\n"
+#~ "Dhe mandej klikoni mbi akcionin ``Pikë montuese'' dhe zgjedheni `/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Ju nuk posedoni një ndarje swap.\n"
+#~ "\n"
+#~ "Vazhdo pa marrë parasysh?"
+
+#~ msgid "Use free space"
+#~ msgstr "Përdore hapësirën e lirë"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Nuk posedon vendë të mjaftueshëm, për të bërë ndarje të reja"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Përdori ndarjet ekzistuese"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Asnjë ndarje egzistuese për ta përdorur"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Përdore ndarjen Microsoft Windows® për loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Cilën ndarje dëshironi ta përdorni për Linux4Win"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Zgjedhi madhësitë"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Madhësia e ndarjes rrënjëzore në MB: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Madhësia e ndarjes swap në MB: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Asnjë ndarje FAT për ta përdorur sikur loopback (ose nuk ka hapësirë të "
+#~ "mjaftueshme)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Përdore hapësirën e lirë në ndarjen Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Cilën ndarje dëshironi ta ridimenziononi?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Programi i ridimenzionimit për ndarjet FAT nuk mund ta qeverisë\n"
+#~ "ndarjen tuaj. Gabimi me radhë është paraqitur: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Përdorni hapësirën e ndarjes Microsoft Windows®"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Ndarja e juaj Microsoft Windows® është e pa defragmentuar. Ju lutemi "
+#~ "riniseni kompjuterin tuaj në Microsoft Windows®, the niseni programin për "
+#~ "defragmentim ``defrag'', mandej riniseni instalimin e Mandriva Linux "
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "KUJDES!\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX tani do të ridimenzionoj ndarjen tuaj Windows.\n"
+#~ "\n"
+#~ "Keni kujdes: ky operacion është i rrezikshëm. Nëse ju nuk e keni bërë, "
+#~ "atëher ju më së pari duhet të dilni nga instalimi, niseni \"chdsk c:\" "
+#~ "nga Urdhëri Ftues ndër Windows (kujDES, nisja grafike e programit "
+#~ "\"scandisk\" nuk është e nevojshme, duhet të jeni i sigurt gjatë "
+#~ "përdorimit të \"chkdsk\" Urdhërit Ftues!), me opcion niset defragmatori, "
+#~ "the mandej ri-niseni instalimin. Ju duhet njashtu ti regjistroni të "
+#~ "dhënat tuaja.\n"
+#~ "\n"
+#~ "\n"
+#~ "Kur të jeni i sigurt shtypni mbi %s."
+
+#~ msgid "Next"
+#~ msgstr "Tjetri"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Cilën madhësi dëshironi ta rezervoni për Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Madhësia: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Ridimenzionimi ndarjes Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Ridimenzionimi i ndarjes FAT dështoi: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "Asnjë ndarje FAT për ta ridimenziunuar (ose nuk ka hapësirë të "
+#~ "mjaftueshme)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Zhduke Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Shlyeje diskun të tërësi"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Ju posedoni më shumë se një disk të fort (hard drive), në cilin dëshironi "
+#~ "ta instaloni linux?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "Të gjitha shpërndarjet dhe të dhënat në disqe to do të zhduken %s"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Shpërndarje e personalizuar"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Përdore fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Ju mund ta shpërndani tani %s.\n"
+#~ "Kur të përfundoni, mos harroni ti regjistroni ndryshimet duke përdorur `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Nuk mund të gjejë vend të mjaftueshëm për ta instaluar"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "DrakX me asistentin shpërndarës ka gjetur këto zgjedhje:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Shpërndarja dështoi: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Ju nuk mund të përdorni JFS për ndarjet më të vogla se 16MB"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Ju nuk mund të përdorni ReiserFS për ndarjet më të vogla se 32MB"
+
+#~ msgid "with /usr"
+#~ msgstr "me /usr"
+
+#~ msgid "server"
+#~ msgstr "server"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Tabela e ndarjes së %s nuk mud të lexohet sepse është tejet e dëmtuar.\n"
+#~ "Dhe është e mundur që të zhduken ndarjet e dëmtuara, (TË GJITHA TË DHËNAT "
+#~ "DO TË HUMBEN!)\n"
+#~ "Zgjidhja tjetër është mos lejimi i DrakX-it ta ndryshojë tabelën e "
+#~ "ndarjeve.\n"
+#~ "(gabimi është %s)\n"
+#~ "\n"
+#~ "A pajtoheni që ti humbni të gjitha ndarjetë?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Pikat montuese duhet të fillojnë me / "
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Pikat montuese duhet të posedojnë vetëm shkronja dhe numëra"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Pika montuese %s është në përdorim e sipër\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Ju keni zgjedhur një program me ndarje RAID sikur ndarje rrënjëzore root "
+#~ "(/).\n"
+#~ "Që sistemi i juaj të funksionoj si duhet, shtone një ndarje jo RAID\n"
+#~ "të repertorit ndarës /boot"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr ""
+#~ "Ju nuk mund të përdorni një ndarje logjike LVM për një pikë montuese %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Ju keni zgjedhur një program me ndarje RAID sikur ndarje rrënjëzore root "
+#~ "(/).\n"
+#~ "Që sistemi i juaj të funksionoj si duhet, shtone një ndarje jo RAID\n"
+#~ "të repertorit ndarës /boot"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr ""
+#~ "Ky repertor duhet të qëndroj në ndarjen rrënjëzore të sistemit të "
+#~ "skedareve"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Ju keni nevoj për një sistem të vërtet skedaresh (ext2/ext3, reiserfs, "
+#~ "xfs, ose jfs) për këtë pikë montimi\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr ""
+#~ "Ju nuk mund ta përdorni sistemin e skedareve të kriptuara për këtë pikë "
+#~ "montuese %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Vend i pa mjaftueshëm për një ndarje auto-huazuese"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Mos bëjë asgjë"
+
+#~ msgid "Floppy"
+#~ msgstr "Disketë Floppy"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Disku"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "Gdhendësit CD/DVD"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Kasetë"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Kontrolluesit AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Kartelë video"
+
+#~ msgid "Tvcard"
+#~ msgstr "Kartelë TV"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Tjetër mjet MultiMedia"
+
+#~ msgid "Soundcard"
+#~ msgstr "Kartelë zëri"
+
+#~ msgid "Webcam"
+#~ msgstr "Webcam"
+
+#~ msgid "Processors"
+#~ msgstr "Procesorët"
+
+#, fuzzy
+#~ msgid "ISDN adapters"
+#~ msgstr "Kartelë ISDN"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Kartelë ethernet"
+
+#~ msgid "Modem"
+#~ msgstr "Modemi"
+
+#~ msgid "Memory"
+#~ msgstr "Memoria"
+
+#~ msgid "Printer"
+#~ msgstr "Stampues"
+
+#~ msgid "Joystick"
+#~ msgstr "Joystick"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Kontrolluesit SATA"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Kontrolluesit RAID"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "Kontrolluesit (E)IDE/ATA"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Kontrolluesit Firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "Kontrolluesit PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "Kontrolluesit SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Kontrolluesit USB"
+
+#, fuzzy
+#~ msgid "USB ports"
+#~ msgstr "Stampuesi USB"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Kontrolluesit SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Urat dhe sistemet kontrolluese"
+
+#~ msgid "Mouse"
+#~ msgstr "Mini"
+
+#, fuzzy
+#~ msgid "UPS"
+#~ msgstr "CUPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Skaneri"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "I pa njoftur/Tjerët"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Një moment ju lutemi... Përshtatja e konfigurimit"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Asnjë pilot alternativ"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "Asnjë pilot OSS apo ALSA alternativ për kartelën tuaj të zërit (%s) që "
+#~ "përdoret aktualisht \"%s\""
+
+#~ msgid "Sound configuration"
+#~ msgstr "Konfigurimi i zërit"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Këtu ju mund ti zgjidhni pilotët alternativ (OSS apo ALSA) për kartelën "
+#~ "tuaj të zërit (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Kartela e juaj aktualisht e përdorë pilotin %s\"%s\" (piloti me "
+#~ "marrëveshje është \"%s\")"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Open Sound System) është një API fillestar sonor. Dhe është multi "
+#~ "plate-formë (në shumicën e sistemeve eksploatuese UNIX(tm)) mirëpo është "
+#~ "i kufizuar me nivele të ulta.\n"
+#~ "Njashtu të gjithë pilotët OSS e kanë rishpikurë rrotën.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) është një arçitekturë e moduleve "
+#~ "që\n"
+#~ "përmban një numër të madhë kartelash ISA, USB dhe PCI.\n"
+#~ "\n"
+#~ "Ajo funrnizon njashtu edhe një API me nivel tejet më të lartë se sa OSS.\n"
+#~ "\n"
+#~ "Për ta përdorur ALSA, është e mundur të përdoret:\n"
+#~ "- kontabiliteti me API OSS të vjetër\n"
+#~ "- dhe API ALSA e re që furnizon një numër të madhë të mundësive në "
+#~ "përparim mirëpo i nevojitet biloteka ALSA.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Pilot:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Telashe gjatë ndaljes"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Piloti i vjetër \"%s\" gjindet në listën e zezë.\n"
+#~ "\n"
+#~ "Shumica e personelit ka shkaktuar probleme me kernel gjatë ndaljes së "
+#~ "kompjuterit.\n"
+#~ "\n"
+#~ "Piloti i ri \"%s\" do të jetë në përdorim vetëm mbas nisjes së ardhëshme."
+
+#~ msgid "No open source driver"
+#~ msgstr "Asnjë burim i hapur për pilotin"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Asnjë pilot i lirë për kartelën tuaj të zërit (%s), mirëpo aty gjindet "
+#~ "një pilot me pronë në \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Asnjë pilot i njoftur"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Nuk ka pilotë të njoftur për kartelën tuaj të zërit (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Pilot i pa njoftur"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Gabim: Piloti \"%s\" i kartelës tuaj të zërit, nuk gjindet në listë"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Telashe gjate ndaljes së kartelës së zërit"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Një bug klasik me tingull testues i cili nisë urdhërat vijues:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" do të ju tregoj se cili pilot përdore "
+#~ "kartelën tuaj me marrëveshje\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" do të ju tregoj se cili pilot "
+#~ "përdoret aktualisht\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" do të ju mudësoj verifikimin e modulit se a është "
+#~ "piloti \n"
+#~ "i ngarkuar apo jo\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" dhe \"/sbin/chkconfig --list alsa\" do "
+#~ "të tregoj nëse kartela e zërit dhe serviset alsa janë konfiguruar që të "
+#~ "nisen\n"
+#~ "në initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" do të ju tregoj nëse zëri mund të heshtohet apo jo\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" do të ju tregoj se cili program është duke "
+#~ "përdorur kartelën e zërit.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Më lejo të marrë gjdo pilot"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Zgjedhje e një piloti arbitrar"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Nëse me të vërtet mendon se e dini cili pilot është i saktë për kartelën "
+#~ "tuaj\n"
+#~ "ju mund ta marrni njërin nga lista e sipërme.\n"
+#~ "\n"
+#~ "Piloti aktual i kartëlës së zërit \"%s\" është \"%s\" "
+
+#~ msgid "Auto-detect"
+#~ msgstr "Auto-zbulues"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "I pa njoftur|Përgjithshëm"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "I pa njoftur|CPH05X (bt878) [shumë shitës]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "I pa njoftur|CPH06X (bt878) [shumë shitës]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Për një shumicë të madhe kartelash të reja TV, muduli bttv i bërthamës "
+#~ "GNU/Linux do ti auto-zbuloj parametrat e përsosur.\n"
+#~ "Nëse kartela juaj është zbuluar gabimisht, atëherë ju mund ta forconi "
+#~ "tuner dhe tipin e kartelës së saktë këtu. Ju mbetet vetëm ti zgjidhni "
+#~ "parametrat e nevojshëm të kartelës suaj TV(ve) "
+
+#~ msgid "Card model:"
+#~ msgstr "Model i kartelës:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Tipi tuner:"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Numri i tamponave tërheqës"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "numri i tamponave për tërheqje via mmap"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Rregullimi PLL:"
+
+#~ msgid "Radio support:"
+#~ msgstr "Përkrahja e radios:"
+
+#~ msgid "enable radio support"
+#~ msgstr "aktivizoje përkrahjen radio"
+
+#~ msgid "Yes"
+#~ msgstr "Po"
+
+#~ msgid "No"
+#~ msgstr "Jo"
+
+#~ msgid "Choose a file"
+#~ msgstr "Zgjedhe një skedare"
+
+#~ msgid "Add"
+#~ msgstr "Shto"
+
+#~ msgid "Modify"
+#~ msgstr "Ndryshoje"
+
+#~ msgid "Remove"
+#~ msgstr "Zhduke"
+
+#~ msgid "Finish"
+#~ msgstr "Përfundo"
+
+#~ msgid "Previous"
+#~ msgstr "Mbrapa"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Zgjedhje e gabuar, provoni edhe një herë\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Zgjedhja e juaj? (%s me marrëveshje)"
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Hyrjet të cilat duhet të plotësohen:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Zgjedhja juaj? (0/1, me marrëveshje të `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Kopsa `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "A dëshironi të klikoni mbi këtë kopsë?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Zgjedhja juaj? (`%s' me marrëveshje të %s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " hyni `void' për një hyrje të zbrazët"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Ka shumë gjëra për ti zgjedhur nga (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Ju lutemi zgjedheni numrim e parë të grupit 10 të cilin dëshironi,\n"
+#~ "ta ndryshoni, ose shtypni vetëm mbi Enter për të vazhduar.\n"
+#~ "Zgjedhja juaj?"
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Shënoni, se një lajmë është ndërruar:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Ri-vlerësim"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andora"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Emiratet e Bashkuara Arabe"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistani"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua dhe Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguila"
+
+#~ msgid "Albania"
+#~ msgstr "Shqipëria"
+
+#~ msgid "Armenia"
+#~ msgstr "Armenia"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Holanda e Atiles"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarktika"
+
+#~ msgid "Argentina"
+#~ msgstr "Argjentina"
+
+#~ msgid "American Samoa"
+#~ msgstr "Samoa Amerikane"
+
+#~ msgid "Austria"
+#~ msgstr "Austria"
+
+#~ msgid "Australia"
+#~ msgstr "Australia"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbejgjani"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnja dhe Herzegovina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbadi"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladeshi"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgjika"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaria"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrein"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benini"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermude"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei i Sulltanit"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivia"
+
+#~ msgid "Brazil"
+#~ msgstr "Brazili"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Ishulli Buve"
+
+#~ msgid "Botswana"
+#~ msgstr "Botsvana"
+
+#~ msgid "Belarus"
+#~ msgstr "Rusia e Bardhë"
+
+#~ msgid "Belize"
+#~ msgstr "Belizi"
+
+#~ msgid "Canada"
+#~ msgstr "Kanada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Ishujt e Kokosit (Keeling)"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Kongo (Kinshasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Republika Qendro Afrikane"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Kongo (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Zvicërra"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Bregu Ivoare"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Ishujt Kuk"
+
+#~ msgid "Chile"
+#~ msgstr "Qili"
+
+#~ msgid "Cameroon"
+#~ msgstr "Kameruni"
+
+#~ msgid "China"
+#~ msgstr "Kina"
+
+#~ msgid "Colombia"
+#~ msgstr "Kolumbia"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Kosta Rika"
+
+#~ msgid "Cuba"
+#~ msgstr "Kuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Kapi i Gjelbërt"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Ishujt e Kristëlindjes"
+
+#~ msgid "Cyprus"
+#~ msgstr "Qipro"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Republika Çeke"
+
+#~ msgid "Germany"
+#~ msgstr "Gjermania"
+
+#~ msgid "Djibouti"
+#~ msgstr "Gjibuti"
+
+#~ msgid "Denmark"
+#~ msgstr "Danimarka"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominika"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Republika Domenikane"
+
+#~ msgid "Algeria"
+#~ msgstr "Algjeria"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ekuatori"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonia"
+
+#~ msgid "Egypt"
+#~ msgstr "Egjipti"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Sahara Përendimore"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Spain"
+#~ msgstr "Spanja"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiopia"
+
+#~ msgid "Finland"
+#~ msgstr "Finlanda"
+
+#~ msgid "Fiji"
+#~ msgstr "Figji"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Ishujt e Maluines"
+
+#~ msgid "Micronesia"
+#~ msgstr "Mikronezia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Ishujt e Faroes"
+
+#~ msgid "France"
+#~ msgstr "Franca"
+
+#~ msgid "Gabon"
+#~ msgstr "Gaboni"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Mbretëria e Bashkuar (UK)"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Georgia"
+#~ msgstr "Gjeorgjia"
+
+#~ msgid "French Guiana"
+#~ msgstr "Guiana Franqeze"
+
+#~ msgid "Ghana"
+#~ msgstr "Kana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gjilbrartari"
+
+#~ msgid "Greenland"
+#~ msgstr "Grenlanda"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambia"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinea"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Godeloup"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Guinea e Ekuatorit"
+
+#~ msgid "Greece"
+#~ msgstr "Greqia"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Gjeorgjia Veriore dhe Ishujt Sandwich të Jugut"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinea-Bisau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guijana"
+
+#, fuzzy
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Hong Kongu"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Ishujt Heard dhe McDonald"
+
+#~ msgid "Honduras"
+#~ msgstr "Hundurasi"
+
+#~ msgid "Croatia"
+#~ msgstr "Kroacia"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Hungaria"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonezia"
+
+#~ msgid "Ireland"
+#~ msgstr "Irlanda"
+
+#~ msgid "Israel"
+#~ msgstr "Izraeli"
+
+#~ msgid "India"
+#~ msgstr "India"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Teritor Britanikë në Oqeanin e Indisë"
+
+#~ msgid "Iraq"
+#~ msgstr "Iraki"
+
+#~ msgid "Iran"
+#~ msgstr "Irani"
+
+#~ msgid "Iceland"
+#~ msgstr "Islanda"
+
+#~ msgid "Italy"
+#~ msgstr "Italia"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaika"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordania"
+
+#~ msgid "Japan"
+#~ msgstr "Japonia"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenia"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirgistani"
+
+#~ msgid "Cambodia"
+#~ msgstr "Kambogjia"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Komoresi"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Saint Kitts dhe Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Korea (Veriut)"
+
+#~ msgid "Korea"
+#~ msgstr "Korea"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuvajti"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Ishujt e Cejlanit"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakstani"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Libia"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Luqia e Shenjët"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Lieshtenshtajni"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberia"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesoto"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lituania"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luksemburgu"
+
+#~ msgid "Latvia"
+#~ msgstr "Latvia"
+
+#~ msgid "Libya"
+#~ msgstr "Libia"
+
+#~ msgid "Morocco"
+#~ msgstr "Maroku"
+
+#~ msgid "Monaco"
+#~ msgstr "Monako"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldova"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagaskari"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Ishujt Marshall"
+
+#~ msgid "Macedonia"
+#~ msgstr "Maqedonia"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Mjanmari"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolia"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Ishujt Mariane të Veriut"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinika"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritania"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserati"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mauritiusi"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldivia"
+
+#~ msgid "Malawi"
+#~ msgstr "Malevia"
+
+#~ msgid "Mexico"
+#~ msgstr "Meksiko"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malejzia"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mazambiku"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibia"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Kaledonia e Re"
+
+#~ msgid "Niger"
+#~ msgstr "Nigeria"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Ishulli Norfolk"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigeria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nikaragua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Holanda"
+
+#~ msgid "Norway"
+#~ msgstr "Norvegjia"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepali"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauri"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "Zelanda e Re"
+
+#~ msgid "Oman"
+#~ msgstr "Omani"
+
+#~ msgid "Panama"
+#~ msgstr "Panamaja"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Polinezia Franqeze"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papuea e Re Guiniziane"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipinet"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistani"
+
+#~ msgid "Poland"
+#~ msgstr "Polonia"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Pierre dhe Miqueloni i Shenjët"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitkairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Riko"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestineze"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugale"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguaje"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Qatar"
+#~ msgstr "Katar"
+
+#~ msgid "Reunion"
+#~ msgstr "Ishujt e bashkuar"
+
+#~ msgid "Romania"
+#~ msgstr "Rumanis"
+
+#~ msgid "Russia"
+#~ msgstr "Rusis"
+
+#~ msgid "Rwanda"
+#~ msgstr "Ruandës"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Arabis Saudite"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Ishujt Solomone"
+
+#~ msgid "Seychelles"
+#~ msgstr "Sejqelesi"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudanit"
+
+#~ msgid "Sweden"
+#~ msgstr "Suedia"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapurit"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Helena e Shenjët"
+
+#~ msgid "Slovenia"
+#~ msgstr "Sllovene"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Ishujt Svalbard dhe Jan Majen"
+
+#~ msgid "Slovakia"
+#~ msgstr "Sllovakia"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegali"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalia"
+
+#~ msgid "Suriname"
+#~ msgstr "Surinami"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome dhe Principali"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvator"
+
+#~ msgid "Syria"
+#~ msgstr "Siries"
+
+#~ msgid "Swaziland"
+#~ msgstr "Svazilandit"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turke dhe Ishujt e Kaikos"
+
+#~ msgid "Chad"
+#~ msgstr "Qadit"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Teritorit Franqez Jugor"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Tailande"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tagjikistane"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "Timorit Lindor"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistani"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunizia"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turke"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad dhe Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taivane"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzaniane"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukrainase"
+
+#~ msgid "Uganda"
+#~ msgstr "Ugande"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Ishujt Minore të Shteteve të Bashkuara"
+
+#~ msgid "United States"
+#~ msgstr "Shtetet e Bashkuara"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguaji"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Uzbekistani"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatikane"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Vincenti i Shenjë dhe Grenadina"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Ishujt Virgjër (Britanike)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Virgin Islands (SH.B.A)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnami"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Ishujt Wallis dhe Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Jemeni"
+
+#~ msgid "Mayotte"
+#~ msgstr "Majoto"
+
+#~ msgid "South Africa"
+#~ msgstr "Afrikës Jugore"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambiane"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabve"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Mirësevini në %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Zhdukni më së pari volumet logjike\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Parathënie\n"
+#~ "\n"
+#~ "Sistemi eksploatues dhe i komponimeve të tjera në disponibilitet në \n"
+#~ "shpërndarjen Mandriva Linux janë të emruar \"Produkte Software\".\n"
+#~ "Produketet Softver përmbajnë, mirëpo nuk i nënshtrohen bashkësisë \n"
+#~ "së programeve, të më parme, rregullave dhe dukumentacionit \n"
+#~ "mbi eksploatimin e sistemeve dhe komponimeve të ndryshme të \n"
+#~ "shpërndarjes Mandriva Linux.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. Licenca\n"
+#~ "\n"
+#~ "Ju lutemi lexoni me vëmendje dokumentin vijues. Ky dokument përmban \n"
+#~ "kontratën e licencës mes jush dhe \n"
+#~ "Mandriva S.A. i përmbajtur në programe.\n"
+#~ "Duke instaluar, riprodhuar apo përdoruar programet në çfarëdo \n"
+#~ "mënyre \n"
+#~ "që janë shënuar, dhe ju e njifni, i pranoni kontratat, termet \n"
+#~ "dhe kushtet e licencës.\n"
+#~ "Nëse ju nuk pajtoheni me këto terme të licencës, ju nuk jeni i detyruar "
+#~ "tiinstaloni, dufyshoni apo ti përdorni në \n"
+#~ "Produketet Softver. \n"
+#~ "Në rast të përpjekjes, të instalimit, dyfishimit apo përdorimit të "
+#~ "Produketeve Software në çfarëdo mënyre që nuk përputhen \n"
+#~ "me termet dhe kondicionet e Licencës të drejtat tuaja do të shuhen ndër "
+#~ "këtë \n"
+#~ "Licencë. Në rast se përfundohet Licenca, ju duhet ti shkatërroni të "
+#~ "gjitha kopjet e\n"
+#~ "Produkteve Software.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Kufizim i Garancës\n"
+#~ "\n"
+#~ "Produktet Software dhe dokumnetacionet e bashkangjitura janë të "
+#~ "furnizuara \"siq janë\" pa garancë, dhe \n"
+#~ "përgjegjësitë vijuese me ligj.\n"
+#~ "Mandriva S.A. nuk merrë kurrëfarë përgjegjësie në prodhimin e ndonji "
+#~ "porblemi, dëmi direkt, (duke mos marrë parasysh kufizimet e dëmeve \n"
+#~ "në humbje të biznisit, ndaljen e biznisit, humbjes finaciare dhe dënimet "
+#~ "nga gjykata, \n"
+#~ "apo çfarëdo hymbje tjetër) me shlyerjen e jashtë përdorimit apo mos "
+#~ "lejimin e përdorimit të Softverëve, dëmshpërblimet duhet \n"
+#~ "të kthehen nga vendosmëria Produkteve, edhe nëse Mandriva S.A. është i "
+#~ "informuar \n"
+#~ "për arritjen e një dëmi.\n"
+#~ "\n"
+#~ "KËSHILLË NË MBAJTJEN APO PËRDORIMIN E PROGRAMEVE TË NDALUARA NË DISA "
+#~ "SHTETE\n"
+#~ "\n"
+#~ "Në asnjë mënyrë, as Mandriva S.A. apo furnizuesit e tij nuk mund të "
+#~ "jenë \n"
+#~ "përgjegjës, për arësye të një dëmi special, direkt apo indirekt (duke mos "
+#~ "përfshirë \n"
+#~ "kifizimin e dëmit, humbjes së benificimit, ndërprerjeve punuese humbjes "
+#~ "së \n"
+#~ "informacioneve komercializuese apo humbje tjera njashtu dënimet dhe "
+#~ "damshpërblimet duhet të derdhen simbas\n"
+#~ "një vendimi gjygjësor) i cili do të bëjë një përdorim \n"
+#~ "apo transferim të Mandriva Linux të programeve të ndaluara me "
+#~ "legjitimitet, nga i cili ju bëni pjesë.\n"
+#~ "Ky njoftim i përketë njashtu edhe disa programeve të \n"
+#~ "kriptografisë të furnizuar me programe.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. Licenca GPL dhe Licenca të tjera\n"
+#~ "Programet janë me përmbajtje modulesh, programet janë krijuar nga persona "
+#~ "të ndryshëm. Pjesa më e madhe \n"
+#~ "janë të qeverisur ndër termet dhe kushtet e GNU General Public \n"
+#~ "Licencë, e quajtur \"GPL\", apo licencë e njëjtë. Pjesën më të madhe të "
+#~ "këtyre licencave mund ti përdoroni, \n"
+#~ "ti dyfishoni, ti adaptoni apo ti rishpërndani. Ju lutemi lexoni me "
+#~ "vëmendje termet \n"
+#~ "dhe kushtet e licencës, pajtimet për secilin komponent para se ta "
+#~ "përdorni njërin nga ta. Secila pyetje \n"
+#~ "për licencat e komponeneteve duhet ti adresohet autorit dhe jo tek "
+#~ "Mandriva.\n"
+#~ "Program Zhvilluesi nga Mandriva S.A. është i qeverisur nga Licencat GPL. "
+#~ "Shkrimet në Dokumentacionet \n"
+#~ "nga Mandriva S.A. janë të qeverisura nga licenca e specifikuar. Ju lutemi "
+#~ "referohuni në dokumentacion për \n"
+#~ "më shumë detaje.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Përparësit e të Drjetave Intelektuale\n"
+#~ "\n"
+#~ "Të gjitha të drejtat e komponentevetë e Produkteve Software, i takojnë "
+#~ "autorëve dhe janë \n"
+#~ "të mbrojtura nga përparësitë intelektuale, të drejtat e botimit, dhe "
+#~ "aplikimi i ligjeve në programet softver.\n"
+#~ "Mandriva S.A. rezervon të drejtat për ndryshimin dhe adaptimin e "
+#~ "Produkteve Softver, në tërësi apo në një \n"
+#~ "pjesë, d.m.th. të gjitha propozimet e mundshme.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" dhe logot e shoqëruara janë markë "
+#~ "shpërndarëse e Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Ligjet Qeveritare\n"
+#~ "\n"
+#~ "Nëse një pëlqim vendoset me këtë kontrat, duhet të deklarohet me zero \n"
+#~ "ilegalisht apo i p'aplikuar nga një gjykatë kompetente kjo vendosje, do "
+#~ "të tërhiqet nga kontrata \n"
+#~ "prezente.\n"
+#~ "Termet dhe kushtet janë të Licensuara, dhe të qeverisura nga Ligjet "
+#~ "Franceze.\n"
+#~ "Të gjitha bisedimet mbi termet e licencës mund të rregullohen jashtë "
+#~ "ligjit në mënyrë miqësore. Nëse nuk jeni dakord \n"
+#~ "rasti duhet ti parqitet gjykatës tribunale në Paris - France.\n"
+#~ "Për më shumë pyetje në lidhje me këtë dokument, ju lutemi kontaktone "
+#~ "Mandriva S.A.  \n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Kujdes: Ështe e mundur që Softweri i Lirë të mos posedoj patent, dhe "
+#~ "disa\n"
+#~ "Softwere të Lira mund të përfshihen me mbules patenti në shtetin tuaj. "
+#~ "Për shembull \n"
+#~ "dekoduesit MP3 përfshijn një licencë, për një përdorim të gjatë (shiqo\n"
+#~ "http://www.mp3licensing.com për më shumë detaje). Nëse ju nuk jeni i "
+#~ "sigurt patenta\n"
+#~ "ështe e mundur të jetë aplikuese tek ju, për këtë duhet ta verifikoni "
+#~ "ligjin lokal."
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Kujdes\n"
+#~ "\n"
+#~ "Ju lutemi lexone me vëmendje dokumentin e prezentuar. Në rats se nuk\n"
+#~ "pajtoheni me të, ju nuk do jeni i detyruar t'instaloni cd-rom(et)\n"
+#~ "me radhë. Në këtë rast, Klikoni mbi kopsën 'Refuzo' për të vazhduar\n"
+#~ "instalimin pas këto media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Disa prej komponimeve të përmbajtura në CD-met e ardhshme, nuk janë\n"
+#~ "ndër licencat e GPL apo diçka të tillë, që nuk mundëson kopjimin apo\n"
+#~ "ndryshimin e të dhënave. Secili komponent i programeve është i "
+#~ "shpërndarë\n"
+#~ "ndër termet e licencës së tij personale. A keni dëshirë që të referoheni\n"
+#~ "dhe ti nënshtroheni para se t'instaloni apo ti shpërndani. Zakonisht, "
+#~ "këto\n"
+#~ "licenca nuk autorizojnë kopjimin e (përveq regjistrimit të tyre),\n"
+#~ "shpërdarjeve, dekompilimit, shpërbërjen, inxhinierim të mbrapëm dhe\n"
+#~ "ndryshimin i programeve në të cilët përputhen. Të gjitha kundërshtimet\n"
+#~ "me termet e licencës aplikuese, shtynë kah prishja e kontratës, pa\n"
+#~ "kurrëfar kundërshtimi dhe çfarëdo të drejte tjetër, apo akcioni nga ana e "
+#~ "juaj.\n"
+#~ "Vetëm nëse kushti i licencës, ju autorizon një gjë të tillë, ju nuk mund\n"
+#~ "t'instaloni ato programe, në ndonji kompjuter tjetër (d.m.th vetëm në "
+#~ "një\n"
+#~ "kompjuter), apo ti adaptoni programet për një përdorim në rrjet. Rasti\n"
+#~ "i fundit, kontaktoni shpërndarësin (shitësin) e programit për ta pranuar\n"
+#~ "licencën. Shpërndarja e një pjese të kopive të programeve, apo të\n"
+#~ "dokumnetacionit, i cili gjindet në to, nuk lejohet.\n"
+#~ "\n"
+#~ "Të gjitha të drejtat, titujt dhe rëndësit e këtyre programeve janë\n"
+#~ "pronësia në ekskluzivitet të autorëve të tyre, dhe njashtu janë të\n"
+#~ "mbrojtur nga titujt, të drejtat intelektuale, dhe drejtë botimi aplikues\n"
+#~ "i programeve.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Urime, instalimi mori fund.\n"
+#~ "Nxerreni disketën apo CD-ROM(in) dhe shtypni mbi Enter.\n"
+#~ "\n"
+#~ "\n"
+#~ "Për të gjitha informacionet për korigjimet në disponibilitë për këtë "
+#~ "version të Mandriva Linux, duhet ta konsultoni Errata, e lirë\n"
+#~ "nga:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Informacionet mbi konfigurimin e sistemit tuaj janë të lira\n"
+#~ "në kapitullin e doracakut për përdorimin e Mandriva Linux"
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Konfigurimi i stampuesit CUPS"
+
+#~ msgid "Module configuration"
+#~ msgstr "Modul Konfigurimi"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Ju mund ta konfiguroni këtu secilin parametër të modulit."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Interfac %s i gjetur"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "A posedoni ndonjë tjetër?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "A posedoni ndonji interface %s?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Vështroi infomacionet mbi materialin"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Intalimi i pilotit për kartelën %s %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Intalimi i pilotit për kartelën %s %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Intalimi i pilotit për kartelën %s %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Intalimi i pilotit për kartelën %s %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Intalimi i pilotit për kartelën %s %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Ju mund ti furnizoni opcionet në modulin %s.\n"
+#~ "Shënoni që të gjitha adresat duhet të jenë në hyrje të parashtesës 0x "
+#~ "sikur '0x123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Ju mund ti precizoni opcionet e modulit %s.\n"
+#~ "Opcionet janë në formën ``name=value name2=value2 ...''.\n"
+#~ "Për shembull, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Opcionet e moduleve:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Cilin pilot %s duhet ta provoj?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "Në disa raste, piloti %s ka nevojë për mundësi shtuese\n"
+#~ "që të funksionon më mirë. A dëshironi ti specifikoni\n"
+#~ "opcionet shtuese për zbulimin me doracak apo në mënyrë automatike.\n"
+#~ "Ky zbulim mund ta blokoj kompjuterin tuaj,\n"
+#~ "mirëpo nuk shkakton ndonjë dëm në të."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Zbulim automatik"
+
+#~ msgid "Specify options"
+#~ msgstr "Specifikoi opcionet"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Ngarkimi i moduleve %s, dështoi\n"
+#~ "A dëshironi të provoni edhe një herë me parametra të tjerë?"
+
+#~ msgid "mount failed: "
+#~ msgstr "dështim gjatë montimit: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Ndarjet e zgjatura nuk përkrahen në këtë platëformë"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Ju posedoni një vendë të zbazët në ndarjen e tabelës, të cilën nuk mund "
+#~ "ta\n"
+#~ "përdori. E vetmja mundësi është që ta zëvendosni ndarjen primare, në një "
+#~ "mënyrë që, ajo zbraztësi të jetë e vendosur kundër ndarjeve të zgjatura."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Gabim gjatë leximit të skedares %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Rregullimi nga skedarja %s dështoi: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Regjistrim i dobët i skedares"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Gabim gjatë shkrimit në skedaren %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Diçka e keqe ka ndodhur në diskun tuaj të fortë.\n"
+#~ "Testi verifikues me integritet të skedareve ka dështuar. \n"
+#~ "D.m.th. që ju do të jeni një viktimë e humbjes së të dhënave rrethë e "
+#~ "rrotull."
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Nuk mund të shtoj një ndarje në _formatimin_ RAID md%d"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Vend i pa mjaftueshëm i RAID për nivelin %d\n"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr ""
+#~ "Nuk mund ti instaloj pakotë, që nevojiten në shpërndarjen e skanerit(ve) "
+#~ "tuaj."
+
+#, fuzzy
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "Skaneri(et) (t)juaj nuk do të jetë i lirë në rrjet."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Prano/Refuzo lajmet e gabueshme të rrejshme IPv4."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Prano/Refuzo transmetuesi echon icmp."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Prano/Refuzo echon icmp."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Mundëso/Ndalo lidhje-automatike (autologin)."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Nëse konfirgurohet me \"GJITHA\", /etc/issue dhe /etc/issue.net "
+#~ "mundësohen për ekzistencë.\n"
+#~ "\n"
+#~ "Nëse konfigurohet me JO, asnjë dalje nuk mundësohet.\n"
+#~ "\n"
+#~ "Përndryshe vetëm dalja /etc/issue është e mundëshme."
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "Mundëso/Ndalo rinisjen e konsollës së përdoruesit."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Mundëso/Ndalo lidhje root të largët."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Mundëso/Ndalo lidhje direkte root."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Mundëso/Ndalo çfaqjen e listën së përdoruesve në sistem në administruesin "
+#~ "(kdm dhe gdm)."
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Mundëso/Ndalo lidhjen në X:\n"
+#~ "\n"
+#~ "- GJITHA (të gjitha lidhjet janë të mundëshme),\n"
+#~ "\n"
+#~ "- LOKAL (vetëm lidhje lokale),\n"
+#~ "\n"
+#~ "- ASNJËRA (asnjë lidhje)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "Argumentet e specifikuara janë klient me autorizim lidhës\n"
+#~ "në server X në portën tcp 6000 ose jo."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Autorizim:\n"
+#~ "\n"
+#~ "- të gjitha shërbimet kontrolohen nga tcp_wrappers (shiqo tek hosts.deny"
+#~ "(5) faqe ndihmuese) nëse konfigurohet me \"GJITHA\",\n"
+#~ "\n"
+#~ "- vetëm ata lokal nëse konfigurohen me \"LOKAL\".\n"
+#~ "\n"
+#~ "- jo nëse konfigurohet me \"JO\".\n"
+#~ "\n"
+#~ "Për ti autorizuar shërbimet që ju nevojiten, përdoreni /etc/hosts.allow\n"
+#~ "(shiqo tek hosts.allow(5))."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Nëse NIVELI_SERVER (dhe nëse NIVELI_SIGURISË mungonë) atëherë është i\n"
+#~ "krijuar 3 në /etc/security/msec/security.conf, krijmi i symlink\n"
+#~ "/etc/security/msec/ server për tu shenjëzuar në /etc/security/msec/"
+#~ "server.\n"
+#~ "<SERVER_LEVEL>.\n"
+#~ "Serveri /etc/security/msec/përdoret nga chkconfig --shtoje për të "
+#~ "vendosur\n"
+#~ "një servisë nëse është prezent në skedare gjatë instalimit të pakove."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Aktivizoje/Blokoje tabelën-cron (crontab) dhe at për përdoruesit.\n"
+#~ "\n"
+#~ "Futi përdoruesit e mundshëm në /etc/cron.allow dhe /etc/at.allow\n"
+#~ "(shiqo doracakun (man) at(1) dhe crontab(1))."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "Aktivizoje/Blokoje raportin syslog në konsolën 12"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Aktivizoje/Blokoje emrin e zgjedhjes së mbrojtjes me tallje.  Nëse\n"
+#~ "\"%s\" është e vërtetë, raportoje tek syslog."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Siguria e Alarmeve:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Aktivizoje/Blokoje mbrojtjen nga talljet IP."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr ""
+#~ "Aktivizoje/Blokoje libsafe është shpëtues për librarinë që gjindet në "
+#~ "sistem."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Aktivizoje/Blokoje logging e IPv4 në pakot e huaja."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "Aktivizoje/Blokoje verifikim sigurisë në gjdo orë."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Aftësimi i super përdoruesit (su) vetëm nga anëtaret e grupit timon apo "
+#~ "njashtu mundëson super përdoruesit (su) nga secili përdorues."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Përdore parullën për ti vërtetuar përdoruesit."
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr "Activizoje/Blokoje kartelën ethernet me verifikim të përzier."
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Activizoje/Blokoje verifikim sigurie në gjdo ditë."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Aktivizon/Blokon sulogin(8) në nivelin e përdoruesit vetiak."
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Shtoje emrin sikur një pranim mbi mbajtësinë e parullës së ndryshuar nga "
+#~ "msec."
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "Konfiguroje parullën e moshuar në \"max\" ditë dhe momentin ndryshues në "
+#~ "\"inactive\"."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Konfiguroje gjatësinë e skedares së historisë në ripërdorimin e parullës "
+#~ "së ndaluar."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Konfiguroje parullën me një gjatësi minimale, me numra digjitale minimal "
+#~ "dhe numër të shkronjave."
+
+#~ msgid "Set the root umask."
+#~ msgstr "Konfiguroje umask të administratorit."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "nëse konfigurohet me po, verifikoni portat e hapura"
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoi :\n"
+#~ "\n"
+#~ "- parullat e zbrazta,\n"
+#~ "\n"
+#~ "- asnjë parullë në /etc/shadow\n"
+#~ "\n"
+#~ "- për përdoruesit me id 0 janë të ndryshëm me root."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoji lejimet e skedareve në përdoruesit' "
+#~ "home."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoje nëse periferiku i rrjetit është në "
+#~ "modë të përzier."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "nëse konfigurohet me po, nisi për gjdo ditë verifikimet e sigurisë."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoji mbledhjet/e zhdukura të skedareve "
+#~ "sgid."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoje parullën e zbraztë në /etc/shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoni përmbajtjen shumës e skedareve suid/"
+#~ "sgid."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoji mbledhjet/e zhdukshme nga skedaret "
+#~ "suid root."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "nëse konfigurohet me po, raportim i skedareve jo përkatëse."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoji skedaret/repertorët e shkrueshëm nga "
+#~ "secili personë."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "nëse konfigurohet me po, nisi verifikimet chkrootkit."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "nëse konfigurohet, dërgoje një raport mail në këtë adresë të e-mailit "
+#~ "përdryshe dërgoje tek administratori (root)."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, verifikoje rezultatin e raportit nga e-maili."
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr ""
+#~ "nëse konfigurohet me po, nisi disa verifikime kundër bazës së të dhënave "
+#~ "rpm."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr "nëse konfigurohet me po, verifikoje rezultatin e raportit syslog."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "nëse konfigurohet me po, verifikoji rezultatet e raporteve në tty."
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Konfiguroje madhësinë e urdhërave në skedaren histori në shell. Vlera -1 "
+#~ "d.m.th. e pas kufizuar."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Konfiguroje kohën dalëse të shell. Vlera zero d.m.th. asnjë kohë dalëse."
+
+#~ msgid "Set the user umask."
+#~ msgstr "Konfigurim i umask për përdoruesin"
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Pranoi lajmet e gabueshme të rrejshme IPv4"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Pranoje transmetuesin echon icmp"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "Pranoje echon icmp"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* ekziston"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Rinise nga konsola e përdoruesit"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Mundëson lidhje root të largët"
+
+#~ msgid "Direct root login"
+#~ msgstr "Lidhje administratori direkt"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "Paraqite listën së përdoruesve në sistem administrues (kdm dhe gdm)"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Mundësoi lidhjet me X Window"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Autorizoje lidhjen TCP në Dritaren X"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "Autorizoi të gjitha shërbimet e kontroluara nga tcp_wrappers"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Konfigurimi Chk i rregullave obey msec"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "Aktivizoje \"crontab\" dhe \"at\" për përdoruesit"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Raporti Syslog në konsolën 12"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "Emri i vendosmërisë me mbrojtje tallëse"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "Aktivizoje/Blokoje mbrojtjen nga talljet IP"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Aktovizoje libsafe shpëtuese për librarinë që gjindet në sistem"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "Aktivizoje logging e IPv4 në pakot e huaja"
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Aktivizoje/Blokoje verifikim e sigurisë në gjdo orë"
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "Aftësimi i super përdoruesit (su) vetëm nga anëtaret e grupit timon apo "
+#~ "njashtu mundëson super përdoruesit (su) nga secili përdorues"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Përdore parullën për ti vërtetuar përdoruesit"
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "Kartelat ethernet me verifikim të përzier"
+
+#~ msgid "Daily security check"
+#~ msgstr "Verifikim i sigurisë ditor"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) në nivelin e përdoruesit vetiak"
+
+#~ msgid "No password aging for"
+#~ msgstr "Asnjë parullë e vjetërsuar për"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr ""
+#~ "Çfaqe afat-zgjatjen e parullës dhe dezaktivizimin e kohëzgjatjes së të "
+#~ "gjirollogarisë"
+
+#~ msgid "Password history length"
+#~ msgstr "Gjatësia parullës së historisë"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr "Gjatësia minimale e parullës me numër digjital dhe me shkronja"
+
+#~ msgid "Root umask"
+#~ msgstr "Umask e administratorit"
+
+#~ msgid "Shell history size"
+#~ msgstr "Shell madhësia e historisë"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Kohë zgjatja e Shell"
+
+#~ msgid "User umask"
+#~ msgstr "Përdorues umask"
+
+#~ msgid "Check open ports"
+#~ msgstr "Zbuloi portat e hapura"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Verifikim i llogarive të pas siguruara"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Verifikoji lejimet e skedareve në përdoruesit' home"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "Verifikoje nëse periferiku i rrjetit është në modë të përzier"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Nisi për gjdo ditë verifikimet e sigurisë"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Verifikoji mbledhjet/e zhdukura të skedareve sgid"
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Verifikoje parullën e zbraztë në /etc/shadow"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "Verifikoni përmbajtjen shumës së skedareve suid/sgid"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "Verifikoji mbledhjet/e zhdukshme nga skedaret suid root."
+
+#~ msgid "Report unowned files"
+#~ msgstr "Raportim i skedareve jo përkatëse"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Verifikoji skedaret/repertorët e shkrueshëm nga secili personë."
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Nisi verifikimet chkrootkit"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "Nëse konfigurohet, dërgoje një raport mail në këtë adresë e-mail "
+#~ "përdryshe dërgoje tek administratori (root)."
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Verifikoje rezultatin e raportit nga e-maili"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Nisi disa verifikime kundër bazës së të dhënave rpm."
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Rezultat i raportit verifikues në syslog"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "Verifikoji rezultatet e raporteve në tty"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Mirëseardhje Për Pirat"
+
+#~ msgid "Poor"
+#~ msgstr "Varfër"
+
+#~ msgid "High"
+#~ msgstr "I lartë"
+
+#~ msgid "Higher"
+#~ msgstr "Më i lartë"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranojak"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Ky nivel i sigurisë duhet të manipulohet me kujdes. E bënë që sistemi i "
+#~ "juaj,\n"
+#~ "të përdoret me lehtë, nga mvarësit e sigurisë: nuk duhet të përdoret në\n"
+#~ "një makinë të lidhur në rrjet (network) ose internet. Asnjë parullë nuk "
+#~ "ka nevojë të futet"
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Parullat tani duhet të jenë të nevojshme, mirëpo nuk është e rekomandur "
+#~ "që ta përdorni këtë makinë në një rrjet (network)."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Ky është nivel i sigurisë standard i rekomanduar për një kompjuter që "
+#~ "përdoret me lidhje në Internet si një klient."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Posedon disa kufizime, dhe verifikime automatike që bëhen gjdo natë."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Me këtë nivel të sigurisë, përdorimi i kësaj makine sikur server, është i "
+#~ "mundur.\n"
+#~ "Siguria është e mjaftueshme për pranimin e një shume të madhe klientash.\n"
+#~ "Shënim: nëse makina juaj është e kyqur si klient në Internet ju duhet ta "
+#~ "zgjidhni një nivel sigurie më të ulët"
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Ky sistem i sigurisë është i bazuar me të mëparmin, mirëpo sistemi tani "
+#~ "është kompletisht i mbyllur nga rrjeti, siguria është në maksimum"
+
+#~ msgid "Security"
+#~ msgstr "Siguria"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Opcionet Bazë të DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Ju lutemi zgjedheni nivelin e sigurisë që ju pëlqen"
+
+#~ msgid "Security level"
+#~ msgstr "Nivel sigurie"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Përdoroje libsafe për server"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr "Një biblotekë e cila ju mbronë kundër sulmeve me tejkalim turmash."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Administrues Sigurie (login apo email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "Ngarkoje sistemin e zërit ALSA (Advanced Linux Sound Architecture)"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron ekzekuton urdhërat ditorë në mënyrë periodike."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd vështron gjendjen e baterisë të një kompjuteri celularë, dhe mbanë "
+#~ "një\n"
+#~ "gjurmë të via syslog. I cili mund të përdoret për ndaljen e kompjuterit "
+#~ "në mënyrë të rregultë duke i informuar përdoruesit e tjerë."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Runs është një servisë i cili mundëson nisjen e një pike punuese në një\n"
+#~ "kohë precize."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron është një planifikues standard UNIX i cili nis programet e "
+#~ "sepcifikuara\n"
+#~ "në një kohë periodike të përcaktuar. vixie cron shton një numër të "
+#~ "caktuar funksionesh, në bazën\n"
+#~ "UNIX, duke përfshirë një siguri më të përsosur me mundësi konfigurimi."
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM shton një përkrahje për përdorimin e minit në aplikacionet me modë\n"
+#~ "teksti si për shembull Midnight Commander. Njashtu mundëson edhe "
+#~ "përdorimin\n"
+#~ "e operacionit kopjo-dhe-ngjitë, dhe përfshin përkrahjen e menyve në "
+#~ "konsolë."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake nisë zbulues të materialit, dhe konfiguron\n"
+#~ "materialin e ri të gjetur gjatë hetimit."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache është një server web (HTTP). Përdoret për të krijuar skedare HTML "
+#~ "dhe CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Superserveri i internetit daemon (i quajtur inetd) niset në një mënyrë\n"
+#~ "të ndryshme nga serviset tjera të nevojitura në internet. Është "
+#~ "përgjegjës për nisjen\n"
+#~ "e një shumice të serviseve, duke përfshirë telnet, ftp, rsh dhe rlogin. "
+#~ "Nëse shkëputet inetd\n"
+#~ "ai do ti shkëput të gjtha serviset e rradhitura me lartë."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Nise një filter të pakos në rrjet, për serinë e bërthamës Linux 2.2,\n"
+#~ "që më në fund të vejë në vend të duhur, një murë-të-zjarrtë (firewall) "
+#~ "për ta mbrojtur makinën tuaj nga sulmet e rrjetit internet."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Kjo pako aktivizon një disponibilitet të tastierës së përcaktuar në "
+#~ "skedaren\n"
+#~ "/etc/sysconfig/keyboard. Kjo mund të zgjidhet duke përdorur kbdconfig.\n"
+#~ "Ky servise duhet të jetë i aktivizuar në shumicën e makinave."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Prodhues automatik i bërthamës në /nisje të udhëzuar (/boot) për\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Konfigurim dhe zbulim automatik i materialit në nisje të sistemit."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf i kryen disa pika në nisje, që më në fund ai posedon një\n"
+#~ "mundësi për mirëmbajen e sistemit të konfiguruar me parë."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd është server për stampues që përdoret në funksionimin e urdhërit "
+#~ "lpr.\n"
+#~ "Mundëson qeverisjen e skedareve të radhitura në vijën për stampim në "
+#~ "stampuesin e caktuar."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Linux Virtual Server, pëdoret për ndërtimin e një serveri me\n"
+#~ "përparësi-të-lartë dhe tejet-të-lartë"
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "Emri (BIND) është një Emër Prone Server (DNS) i cili pëdoret për "
+#~ "zgjedhjen e ftuesit të emruar në adresën IP."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Monton dhe çmonton mbarë Rrjetin e Sistemit të Skedareve (NFS), SMB (Lan\n"
+#~ "Manager/Windows), dhe pikat montuese NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Aktivizon/Dezaktivizon mbarë rrjetin e interfacit të konfiguruar i\n"
+#~ "cili niset në nisje të udhëzuar (boot)."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS është një protokol i popullarizuar për shpërndarjen e skedareve duke\n"
+#~ "kaluar në rrjetin TCP/IP. Ky servis mundëson funksionimin e serverit "
+#~ "NFS,\n"
+#~ "i cili konfigurohet mes rrjetit ne skedaren /etc/exports."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS është një protokol i popullarizuar për shpërndarjen e skedareve duke\n"
+#~ "kaluar rrjetin TCP/IP. Ky servis mundëson mbylljen e serverit NFS."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Lidhja automatike e një mbyllje numerike me çelës mbyllës në konsollë\n"
+#~ "dhe Xorg në nisje të udhëzuar."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Përkrahja e stampuesve winprinters OKI 4w është e pajtueshme."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "PCMCIA mundëson përdorimin e mjeteve PCCARD si për shembull ethernet dhe\n"
+#~ "modem në kompjuter celularë. Ky servis nuk do të niset pas u konfigururar "
+#~ "në mënyrë korrekte.\n"
+#~ "I cili mund të aktivizohet pa kurrëfarë rreziku edhe nëse nuk e posedoni "
+#~ "këtë mjet."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "portmapper qeverisë kyqjen RPC e cila përdoret në serveret sikur NFS\n"
+#~ "dhe NIS. Serveri portmap duhet të niset në makinat\n"
+#~ "që e luajnë rolin e një serveri për protokol me një mekanizëm RPC."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix është një agjent trasnportues i letrave (Mail Transport Agent), i "
+#~ "cili mundëson shkëmbimin e letrave elektronike mes makinave."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Regjistroni dhe riparone sistemin entropi për një prodhim më të mirë\n"
+#~ "të numrave të rastit."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Mundëson paraqitjen e mjeteve të tipit blok (për shembull shpërndarjen e\n"
+#~ "diskut të fort), për ta përdorur në aplikacionet sikur Oracle apo lexues "
+#~ "DVD"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Servisi routed mundëson azhurnimin automatik të tabelës IP route via\n"
+#~ "protokolit RIP. Duke marrë para syshë se RIP përdoret në rrjetet\n"
+#~ "e vogla, dhe prtokolet më komplekse nevojiten për rrjete më komplekse."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Protokoli rstat mudëson që përdoruesit e të njëjtit rrjet, të përfitojnë\n"
+#~ "të drejta e barabarta nga secila makinë e lidhur në atë rrjet."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Protokoli rusers mundëson që përdoruesit të njoftohen për të gjithë\n"
+#~ "përdoruesit e kyqur në të njëjtin rrjet."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Protokoli rwho mundëson që përdoruesit në distancë të furnizohen me "
+#~ "listën\n"
+#~ "e përdoruesve të kyqur në një makinë e cila vë në punë deamon rwho "
+#~ "(njëjtë sikur finger). "
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Ngarkojeni sistemin e qeverisës të zërit në makinën tuaj"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog është një servise i cili përdoret nga shumë servise tjera për të\n"
+#~ "regjistruar raportet aktive. Ëdhtë një ide tejet e mirë që të jetë i "
+#~ "aktivizuar gjithnjë."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Ngarkoi pilotët për mjetet e kyqura në usb."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Nise serverin X të Polisave (është e nevojshme që Xorg të niset)."
+
+#~ msgid "Printing"
+#~ msgstr "Stampimi"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "File sharing"
+#~ msgstr "Shpërndarja e Skedareve"
+
+#~ msgid "System"
+#~ msgstr "Sistemi"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Administrim në Largësi"
+
+#~ msgid "Database Server"
+#~ msgstr "Server i bazës së të dhënave"
+
+#~ msgid "Services"
+#~ msgstr "Serviset"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr ""
+#~ "Zgjedhni shërbimet që duhet të nisen automatikishtë në nisjen e sistemit"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Serviset: %d aktivizohen për %d e regjitruarë"
+
+#~ msgid "running"
+#~ msgstr "në punim e sipër"
+
+#~ msgid "stopped"
+#~ msgstr "i ndalur"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Serverët dhe shërbimet"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Asnjë informacion mbi\n"
+#~ "këtë servis, kemi ndjesë."
+
+#~ msgid "Info"
+#~ msgstr "Informacion"
+
+#~ msgid "Start when requested"
+#~ msgstr "Niseni kur kërkohet të niset"
+
+#~ msgid "On boot"
+#~ msgstr "Në nisje të udhëzuar (boot)"
+
+#~ msgid "Start"
+#~ msgstr "Nise"
+
+#~ msgid "Stop"
+#~ msgstr "Ndale"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Ky program është gratis; ju mund ta shpërndani dhe ta ndryshoni atë,\n"
+#~ "ndër termet e GNU General Public License ashtu siq është i publikuar\n"
+#~ "nga Free Software Foundation; apo versionin 2, të kësaj licence (me \n"
+#~ "zgjedhjen tuaj) apo një version më të vjetër.\n"
+#~ "\n"
+#~ "Ky program shpërndahet me shpresë se do të jetë i përdorshëm,\n"
+#~ "mirëpo PA KURRËFAR GARANTIE; dhe pa ndonji garanti implicite të këtij\n"
+#~ "PRODUKTI, apo me PËRSHTATJE MË NJË QËLLIM SPECIFIK. Shiqo në\n"
+#~ "GNU General Public License për më shumë detaje.\n"
+#~ "\n"
+#~ "Ju duhet të pranoni një kopie të GNU General Public License\n"
+#~ "në të njëjtën kohë me këtë program; nëse jo, na shkruani në Free "
+#~ "Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Regjistroje dhe Rregulloje aplikacionin\n"
+#~ "\n"
+#~ "--default             : shpëtoi repertorër me marrëveshje.\n"
+#~ "--debug               : çfaqi të gjitha lajmet debug.\n"
+#~ "--show-conf           : listoi skedaret apo repertorët për regjistrim.\n"
+#~ "--config-info         : shpjegoje konfigurimin e mundësive për skedare "
+#~ "(për përdoruesit jo-X).\n"
+#~ "--daemon              : përdore konfigurimin daemon. \n"
+#~ "--help                : çfaqe këtë lajm.\n"
+#~ "--version             : çfaqe numrin e versionit.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - çfaqe këtë lajmë ndihmues.\n"
+#~ "  --report          - ky program duhet të jetë një nga veglat Mandriva\n"
+#~ "  --incident        - ky program duhet të jetë një nga veglat Mandriva"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "Importimi i Polisës dhe vështrimi "
+#~ "aplikacion                                     \n"
+#~ "--windows_import : importo nga te gjitha ndarjet e lira të windows.\n"
+#~ "--xls_fonts      : çfaqi të gjitha polisat që ekzistojnë nga xls\n"
+#~ "--strong         : verifikim i plotë fuqishëm i polisës.\n"
+#~ "--install        : pranoje gjdo polisë të skedares dhe të repertorit.\n"
+#~ "--uninstall      : dezinstaloje gjdo polisë apo gjdo repertor të "
+#~ "polisës.\n"
+#~ "--replace        : zëvendësoje gjdo polisë nëse ka ekzistuar më parë\n"
+#~ "--application    : 0 asnjë aplikacion.\n"
+#~ "                 : 1 të gjitha aplikacionet e lira përkrahen.\n"
+#~ "                 : emri_i_aplikacion sikur për staroffice \n"
+#~ "                 : dhe gs për ghostscript vetëm për këtë."
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[OPTIONS]...\n"
+#~ "Konfigurim i Terminalit Server Mandriva\n"
+#~ "--enable         : i lirë MTS\n"
+#~ "--disable        : i nxënë MTS\n"
+#~ "--start          : nise MTS\n"
+#~ "--stop           : ndale MTS\n"
+#~ "--adduser        : shtoje një sistem ekzistues që përdoret në MTS "
+#~ "(nevojitet emri i përdoreusit)\n"
+#~ "--deluser        : zhduke një sistem ekzistues që përdoret nga MTS "
+#~ "(nevojitet emri i përdoreusit)\n"
+#~ "--addclient      : shtoje një makinë klienti në MTS (nevojitet adresa "
+#~ "MAC, IP, emri i imazhit nbi)\n"
+#~ "--delclient      : zhduke një makinë kliente nga MTS (nevojitet adresa "
+#~ "MAC, IP, emri i imazhit nbi)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[tastiera]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[OPTIONS]\n"
+#~ "Lidhja e Rrjetit & Internetit dhe aplikacioni vështrues\n"
+#~ "\n"
+#~ "--defaultintf interface : çfaqe këtë interfac me marrëveshje\n"
+#~ "--connect : lidhu në intenet nëse nuk është i lidhur\n"
+#~ "--disconnect : shkëputu nga inteneti nëse nuk është i shkëputur\n"
+#~ "--force : përdoret me (ç)lidhje : forcë (ç)lidhje.\n"
+#~ "--status : përgjigju me 1 nëse është i lidhur, përndryshe 0, mandej dil.\n"
+#~ "--quiet : nuk duhet të jetë interactive. Të përdoret me (ç)lidhje."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      mos pyet për konfigurimin e parë azhrunues të "
+#~ "modit Mandriva\n"
+#~ "  --no-verify-rpm        mon i verifiko pakot e nënshkruara\n"
+#~ "  --changelog-first      çfaqi lidhjet e ndryshuara para listës së "
+#~ "skadareve në dritaren e përshkrimeve\n"
+#~ "  --merge-all-rpmnew     propozoje bashkimin e të gjitha skedareve të "
+#~ "gjetura në .rpmnew/.rpmsave"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Përdorim: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Shtoje një server"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Afrikës Jugore"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Austria"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Afrikës Jugore"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Maqedonia"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Afrikës Jugore"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kongu"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "Rusishtë (fonetik)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "Jugoslave (latine)"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Është kjo korrekt?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "zgjedhësi i file"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Emri '/' mund të jetë vetëm një directory, jo një kyç"
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Nuk është një directory"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "File `%s' nuk u gjet\n"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Qeverise Drurin Gjinealogjik"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Zvogëloje Drurin Gjinealogjik"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Kalo mes radhitjes alfabetike dhe grupore"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s nuk është instaluar\n"
+#~ "Kliko mbi \"Tjetri\" për ta instaluar apo mbi \"Anulo\" për ta braktisur"
+
+#~ msgid "Installation failed"
+#~ msgstr "Instalimi dështio"

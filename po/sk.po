@@ -1,0 +1,6295 @@
+# Jan Matis <damned@hq.alert.sk>, 2000.
+# Pavol Cvengros <orpheus@hq.alert.sk>, 2000.
+# Michal Holes <Michal@Holes.sk>, 2004,2005.
+# Tibor Pittich <Tibor.Pittich@phuture.sk>, 2002,2003,2004,2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2005-09-21 14:03+0100\n"
+"Last-Translator: Tibor Pittich <Tibor.Pittich@mandriva.org>\n"
+"Language-Team:  <i18n@mandrake.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB a viac"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X server"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Zvoľte si X server"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Nastavenie viac-monitorov"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Váš systém podporuje nastavenie pre viac-monitorov.\n"
+"Čo chcete spraviť?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Zvoľte veľkosť pamäti na grafickej karte"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Nastaviť všetky zobrazovače osobitne"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Použiť Xinerama rozšírenie"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Nastaviť iba kartu \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Vlastný výber"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Konfigurácia pripojenia"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Koniec"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Grafická karta"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Rozlíšenie"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Test"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Parametre"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Moduly"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Váš konfiguračný súbor pre X.org je nekorektný, bude ignorovaný."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Zachovať zmeny?\n"
+"Aktuálna konfigurácia je:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Zvoľte si monitor pre výstup č. %d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Zvoľte si monitor"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Všeobecné"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Výrobca"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Plug'n Play zrejme zlyhalo. Vyberte si prosím ručne monitor"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Dva kritické parametre sú vertikálna frekvencia (frekvencia, ktorou je "
+"obnovovaná celá obrazovka) a horizontálna frekvencia (frekvencia, ktorou sú "
+"zobrazované jednotlivé riadky).\n"
+"Je veľmi dôležité, aby ste nenastavili frekvencie, ktoré prevyšujú "
+"schopnosti vášho monitora. Mohol by sa poškodiť.\n"
+"Ak sa neviete uistiť, zvoľte radšej najprv konzervatívnejšie nastavenie."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Horizontálna frekvencia"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Vertikálna frekvencia"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Zvoľte si akciu"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 farieb (8 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 tisíc farieb (15 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 tisíc farieb (16 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 miliónov farieb (24 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Rozlíšenia"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Iné/á"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Zvoľte si rozlíšenie a farebnú hĺbku"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Grafická karta: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "OK"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Pomoc"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Test konfigurácie"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Chcete otestovať konfiguráciu?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Varovanie: testovanie tejto karty môže zastaviť váš systém"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Vyskytla sa chyba:\n"
+"%s\n"
+"Skúste zmeniť niektoré parametre"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Opustiť do %d sekúnd"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Je toto správne nastavenie?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Nastavenie klávesnice: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Typ myši: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Monitor: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Horizontálna frekvencia monitoru: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Vertikálna frekvencia monitoru: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Grafická karta: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Grafická pamäť: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Farebná hĺbka: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Rozlíšenie: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg ovládač: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Konfigurácia Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Grafická karta: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "X pri štarte"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Môžem nastaviť váš systém tak, aby automaticky spúšťal grafické rozhranie "
+"(Xorg) po reštarte.\n"
+"Chcete mať spustené Xorg po štarte počítača?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Vaša grafická karta má zrejme konektor pre TV výstup.\n"
+"Môže byť nakonfigurovaná pre používanie frame buffera.\n"
+"\n"
+"Ak si to želáte, pripojte vašu grafickú kartu do TV prijímača pred spustením "
+"počítača.\n"
+"Potom zvoľte \"TV výstup\" položku v zavádzači.\n"
+"\n"
+"Máte túto funkciu?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Akú normu používa vaša TV?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+"_:zachovať pôvodný vzhľad\n"
+"iný"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Česká (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Nemecká"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Španielska"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Fínska"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Francúzska"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "UK klávesnica"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Nórska"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Poľská"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Ruská"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Švédska"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "US klávesnica"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Albánska"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Arménska (stará)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Arménska (písací stroj)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Arménska (fonetická)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Arabsky"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbajdžan (latin)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belgická"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengálska (\"Inscript\" rozloženie kláves)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengálska (\"Probhat\" rozloženie kláves)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulharská (fonetická)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulharská (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brazílska"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Bosnianska"
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Tibetská"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Bieloruská"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Švajčiarska (Nemecké rozloženie kláves)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Švajčiarska (Francúzske rozloženie kláves)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Cherokee syllabics"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Česká (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Nemecká (bez mŕtvych kláves)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagariská"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Dánska"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Esperanto)"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Francúzska)"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (UK)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (Nórska)"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (Poľská)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (Švédska)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estónska"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Fajerské ostrovy"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Gruzínska (\"Ruské\" rozloženie kláves)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Gruzínska (\"Latin\" rozloženie kláves)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Grécka"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Grécka (polytonická)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Gujaratiská"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmukhiská"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Chorvátska"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Maďarská"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Írska"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Inuktitutská"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Izraelská"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Izraelská (fonetická)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iránska"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Islandská"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Talianska"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japonská 106 kláves"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kanada"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Kyrgizská"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Kórejská klávesnica"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Kurdská (arabsky)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latinsko Americká"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laoská"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Litovská AZERTY (stará)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Litovská AZERTY (nová)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Litovská QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Litovská \"fonetická\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Lotišsky"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Malayalamsky"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Macedónska"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Myanmarská (Burmská)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Mongolská (cyrilika)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Maltézska (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Maltézska (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Holandský"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Oriyjská"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Poľská (qwerty rozloženie kláves)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Poľská (qwertz rozloženie kláves)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Paštúnska"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portugalská"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Kanadská (Quebec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Románska (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Románska (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Ruská (fonetická)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Slovinská"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+"_: keyboard\n"
+"Sinhala"
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovenská (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovenská (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (Nórska)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saámska (švédsky/fínsky)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Sindhi"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Srbská (cyrillic)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Sýria"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Sýrska (fonetická)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugžská"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamilská (TSCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamilská (písací stroj)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Thajská (Kedmanee) klávesnica"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Thajská (TIS-820) klávesnica"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Thajská (Pattachote) klávesnica"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+"_: keyboard\n"
+"Tifinagh (marocký vzhľad) (+latin/arabic)"
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+"_: keyboard\n"
+"Tifinagh (fonetická) (+latin/arabic)"
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tajik klávesnica"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Turkménska"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Turecká (tradičný \"F\" model)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Turecká (moderný \"Q\" model)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukrajinská"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Urdská"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "US klávesnica (medzinárodná)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Uzbecká (cyrillic)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vietnamská \"numerická\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Juhoslovanská (latin)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "pravý Alt kláves"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "obidve Shift klávesy naraz"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Ctrl a Shift klávesy naraz"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock klávesu"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Shift a CapsLock klávesy naraz"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl a Alt klávesy naraz"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt a Shift klávesy naraz"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"Menu\" kláves"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Ľavý \"Windows\" kláves"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Pravý \"Windows\" kláves"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "obidve Control klávesy naraz"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "obidve Alt klávesy naraz"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Ľavá Shift klávesa"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Pravá Shift klávesa"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Pravá Alt klávesa"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Ľavá klávesa Control"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Pravý Control kláves"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Tu si môžete vybrať klávesu alebo kombináciu kláves pomocou\n"
+"ktorých bude možné prepínať medzi rôznymi klávesovými mapami\n"
+"(napr. us a sk)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Varovanie"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Toto nastavenie bude aktivované po inštalácii.\n"
+"Počas inštalácie môžete používať pravý Control kláves\n"
+"na prepnutie sa medzi rôznymi klávesovými mapami."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun myš"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Štandardná"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Štandardná PS2 myš s kolieskom"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automaticky"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking myš"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 tlačidlo"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "štandardná myš s 2 tlačidlami"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Štandardná trojtlačidlová myš s emuláciou kolieska"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Koliesko"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "sériová"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Štandardná trojtlačidlová"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan s emuláciou kolieska"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Séria s emuláciou kolieska"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (sériová, starý typ C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (sériová, starý typ C7) s emuláciou kolieska"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking myš s emuláciou kolieska"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 tlačidlá"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 tlačidlá"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "Emulácia 3 tlačidiel s emuláciou kolieska"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Univerzálny"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Ktorákoľvek PS/2 a USB myš"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Xbox Controller S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "Žiadna"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Žiadna myš"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Prosím, zvoľte typ vašej myši."
+
+#: ../lib/mouse.pm:517
+#, c-format
+msgid "Mouse choice"
+msgstr "Výber myši"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Emulovať 3 tlačidlá?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Port myši"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Prosím zvoľte ku ktorému sériovému portu je vaša myš pripojená."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Emulácia tlačidiel"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Emulácia druhého tlačidla"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Emulácia tretieho tlačidla"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Prosím otestujte myš."
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Pre aktiváciu myši,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "POHNITE KOLIESKOM!"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Je potrebné reštartovať počítač aby sa zmeny prejavili"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Klávesnica"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Prosím, zvoľte váš typ klávesnice"
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Rozloženie klávesnice"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Klávesnica"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Chcete aby BackSpace vrátil Delete na konzole?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Test myši"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Prosím otestujte si myš:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Umask pre používateľa"
+
+#~ msgid "Please wait"
+#~ msgstr "Prosím čakajte"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Prebieha inštalácia zavádzača"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO sa chystá priradiť zariadeniu %s nové ID partície (Volume ID). "
+#~ "Zmena\n"
+#~ "ID partície je pokladaná operačnými systémami Windows NT,\n"
+#~ "2000, alebo XP za fatálnu chybu.\n"
+#~ "Toto varovanie sa nevzťahuje na operačné systémy Windows 95 a 98 alebo\n"
+#~ "na dátové disky Windows NT.\n"
+#~ "\n"
+#~ "Přiradiť nové ID partície?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "Inštalácia zavádzača zlyhala. Vyskytla sa nasledujúca chyba:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Bude potrebné aby ste zmenili root zariadenie pre váš Open Firmware\n"
+#~ " kvôli zavádzaču. Ak nevidíte výzvu zavádzača po reštarte,\n"
+#~ " stlačte kombináciu 'Command-Option-O-F' počas reštartu a napíšte:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Potom napíšte: shut-down\n"
+#~ "Pri ďalšom štarte by ste mali vidieť výzvu zavádzača."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Rozhodli ste sa inštalovať zavádzač na diskový oddiel.\n"
+#~ "Toto umožňuje mať už zavádzač na vašom disku (napr. System Commander).\n"
+#~ "\n"
+#~ "Z akého disku chcete štartovať?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Prvý sektor disku (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Prvý sektor hlavného oddielu"
+
+#~ msgid "On Floppy"
+#~ msgstr "Na diskete"
+
+#~ msgid "Skip"
+#~ msgstr "Vynechať"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Inštalácia lilo/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Kam si želáte nainštalovať zavádzač?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Konfigurácia štýlu štartovania"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Hlavné parametre zavádzača"
+
+#~ msgid "Bootloader"
+#~ msgstr "Zavádzač"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Použiť zavádzač"
+
+#~ msgid "Boot device"
+#~ msgstr "Boot zariadenie"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Pauza pred štartom predvoleného jadra"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Povoliť ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Povoliť ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Povoliť ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Heslo"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Zadané heslá nie sú rovnaké"
+
+#~ msgid "Please try again"
+#~ msgstr "Prosím skúste znovu"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "Nemôžete použiť kryptovaný súborový systém pre bod pripojenia %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Heslo (znova)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Obmedz voľby príkazového riadku"
+
+#~ msgid "restrict"
+#~ msgstr "obmedz"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Parameter ``Obmedz voľby príkazového riadku'' je bez použitia hesla "
+#~ "vypnutý"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Vyčistiť /tmp pri každom štarte"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Presná veľkosť pamäte (našiel som %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Zadajte veľkosť pamäti v Mb"
+
+#~ msgid "Init Message"
+#~ msgstr "Inicializačná správa"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Pauza pre Open Firmware"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Oneskorenie pre štart kernelu"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Povoliť štart z CD?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Povoliť štart z Open Firmware?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Predvolený OS?"
+
+#~ msgid "Image"
+#~ msgstr "Obraz"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Pridať"
+
+#~ msgid "Video mode"
+#~ msgstr "Video mód"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "Sieťový profil"
+
+#~ msgid "Label"
+#~ msgstr "Záznam"
+
+#~ msgid "Default"
+#~ msgstr "Predvoľba"
+
+#~ msgid "NoVideo"
+#~ msgstr "Bez videa"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Prázdny záznam nie je dovolený"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Musíte zadať súbor s jadrom"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Musíte nastaviť koreňový oddiel"
+
+#~ msgid "This label is already used"
+#~ msgstr "Tento záznam je už použitý"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Aký typ záznamu chcete pridať"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Iný OS (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Iný OS (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Iný OS (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Momentálne sa tu nachádzajú tieto záznamy.\n"
+#~ "Môžete pridávať ďalšie alebo meniť existujúce."
+
+#~ msgid "access to X programs"
+#~ msgstr "prístup ku X programom"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "prístup k rpm nástrojom"
+
+#~ msgid "allow \"su\""
+#~ msgstr "dovoliť \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "prístup ku konfiguračným súborom"
+
+#~ msgid "access to network tools"
+#~ msgstr "prístup k sieťovým nástrojom"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "prístup ku kompilačným nástrojom"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(už pridaný %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Prosím zadajte používateľské meno"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Používateľské meno môže obsahovať len malé písmená, číslice, `-' a `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Používateľské meno je príliš dlhé"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Takýto používateľ je už pridaný"
+
+#~ msgid "User ID"
+#~ msgstr "ID používateľa"
+
+#~ msgid "Group ID"
+#~ msgstr "ID skupiny"
+
+#~ msgid "%s must be a number"
+#~ msgstr "%s musí byť číslo"
+
+#~ msgid "%s should be above 500. Accept anyway?"
+#~ msgstr "%s by malo byť viac ako 500. Akceptovať aj tak?"
+
+#~ msgid "Add user"
+#~ msgstr "Pridať používateľa"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Pridať používateľa\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Hotovo"
+
+#~ msgid "Accept user"
+#~ msgstr "Akceptuj používateľa"
+
+#~ msgid "Real name"
+#~ msgstr "Reálne meno"
+
+#~ msgid "Login name"
+#~ msgstr "Prihlasovacie meno"
+
+#~ msgid "Shell"
+#~ msgstr "Interpreter"
+
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgid "Autologin"
+#~ msgstr "Autologin"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Môžem nastaviť váš počítač tak, aby sa po reštarte prebehlo automatické "
+#~ "prihlásenie niektorého používateľa."
+
+#~ msgid "Use this feature"
+#~ msgstr "Použiť túto vlastnosť"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Zvoľte predvoleného používateľa:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Vyberte si window manažéra:"
+
+#~ msgid "License agreement"
+#~ msgstr "Súhlas s licenciou"
+
+#~ msgid "Release Notes"
+#~ msgstr "Poznámky k aktuálnej verzii"
+
+#~ msgid "Accept"
+#~ msgstr "Akceptujem"
+
+#~ msgid "Refuse"
+#~ msgstr "Odmietam"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Prosím, zvoľte jazyk, ktorý chcete používať."
+
+#~ msgid "Language choice"
+#~ msgstr "Výber jazyka"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr "Môžete zvoliť ďalšie jazyky použiteľné po inštalácii"
+
+#~ msgid "Multi languages"
+#~ msgstr "Viac jazykov"
+
+#~ msgid "All languages"
+#~ msgstr "Všetky jazyky"
+
+#~ msgid "Country / Region"
+#~ msgstr "Krajina"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Prosím, zvoľte si vašu krajinu."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Tu je celý zoznam dostupných krajín"
+
+#~ msgid "Other Countries"
+#~ msgstr "Iné krajiny"
+
+#~ msgid "Advanced"
+#~ msgstr "Rozšírené"
+
+#~ msgid "Input method:"
+#~ msgstr "Vstupná metóda:"
+
+#~ msgid "None"
+#~ msgstr "Nič"
+
+#~ msgid "No sharing"
+#~ msgstr "Bez zdieľania"
+
+#~ msgid "Allow all users"
+#~ msgstr "Povoliť všetkým používateľom"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Želáte si povoliť používateľom zdielať niektorý z priečinkov?\n"
+#~ "Týmto povolíte používateľom zdieľanie jednoduchým kliknutím na \"Zdieľať"
+#~ "\" v Konquerore a Nautiluse.\n"
+#~ "\n"
+#~ "\"Vlastný výber\" povolí granularitu podľa používateľa.\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr ""
+#~ "NFS: je tradičný systém pre zdieľanie súborov v systémoch Unix s malou "
+#~ "podporou systémov Mac a Windows"
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: systém zdieľania súborov používaný vo Windows, Mac OS X a mnohými "
+#~ "modernými Linux systémami."
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "Môžete spraviť export pomocou NFS alebo Samba. Vyberte si čo chcete "
+#~ "použiť."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Spusť userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Zatvoriť"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Zdieľanie podľa používateľov používa skupinu \"fileshare\".\n"
+#~ "Môžete použiť userdrake na pridanie používateľa do tejto skupiny."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Prosím, odhláste sa a potom stlačte Ctrl-Alt-BackSpace"
+
+#~ msgid "You need to log out and back in again for changes to take effect"
+#~ msgstr ""
+#~ "Je potrebné sa odhlásiť a znovu prihlásiť aby sa stali zmeny aktívne"
+
+#~ msgid "Timezone"
+#~ msgstr "Časová zóna"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Aké je vaše časové pásmo?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Hardvérové hodiny nastavené na GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Hardvérové hodiny nastavené na GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP server"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Automatická synchronizácia času (pomocou NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "Lokálny súbor"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Smart Card"
+#~ msgstr "Smart Card"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows doména"
+
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Active Directory s SFU"
+
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Active Directory s Winbind"
+
+#~ msgid "Local file:"
+#~ msgstr "Lokálny súbor:"
+
+#~ msgid ""
+#~ "Use local for all authentication and information user tell in local file"
+#~ msgstr ""
+#~ "Overovanie a ukladanie informácií o používateľovi bude prebiehať v "
+#~ "lokálnom súbore"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "Niektoré alebo všetky overovania bude používať LDAP. LDAP združuje "
+#~ "niektoré informácie vo vnútri vašej organizácie."
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "Umožňuje spustenie skupiny počítačov v rovnakej doméne NIS (Network "
+#~ "Information Service) so spoločným heslom a skupinami"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows doména:"
+
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "Winbind umožňuje systému získavať informáciie a autentifikovať "
+#~ "používateľov v doméne Windows."
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Active Directory s SFU:"
+
+#~ msgid ""
+#~ "With Kerberos and Ldap for authentication in Active Directory Server "
+#~ msgstr ""
+#~ "Pomocou Kerberos a Ldap pre authentikáciu zo servera Active Directory"
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Active Directory s Winbind:"
+
+#~ msgid ""
+#~ "Winbind allows the system to authenticate users in a Windows Active "
+#~ "Directory Server."
+#~ msgstr ""
+#~ "Winbind umožňuje systému authentikovať používateľov z Windows Active "
+#~ "Directory servera."
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Autentifikácia LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP server"
+
+#~ msgid "simple"
+#~ msgstr "jednoduché"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "bezpečnostná schéma (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Autentifikácia  Active Directory"
+
+#~ msgid "Domain"
+#~ msgstr "Doména"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "LDAP users database"
+#~ msgstr "Databáza používateľov LDAP"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "Použiť anonymný BIND"
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr ""
+#~ "Používatelia z databázy LDAP, ktorí môžu prehliadať Active Directory"
+
+#~ msgid "Password for user"
+#~ msgstr "Heslo používateľa"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "NIS autentifikácia"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS doména"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS server"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Aby bolo možné pracovať ako W2K PDC, budete zrejme potrebovať ako admin "
+#~ "spustiť: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" "
+#~ "everyone /add a reštartovať server.\n"
+#~ "Budete tiež potrebovať meno/heslo doménového administrátora pre prístup k "
+#~ "počítaču s Windows(tm) doménou.\n"
+#~ "Ak nie je povolené používanie siete, DrakX sa pokúsi vstúpiť do domény až "
+#~ "po nastavení siete.\n"
+#~ "Z viacerých dôvodov je možné, že toto nastavenie nebude úspešné a "
+#~ "doménová autentikácia nebude fungovať, spustite 'smbpasswd -j DOMAIN -U "
+#~ "USER%%PASSWORD' za použitia vašej Windows(tm) domény a mena/hesla\n"
+#~ "administrátora po reštarte systému.\n"
+#~ "Príkaz 'wbinfo -t' potom otestuje či sú vaše nastavenia ohľadom "
+#~ "authentikácie správne."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Autentifikácia do Windows domény"
+
+#~ msgid "Active Directory Realm "
+#~ msgstr "Realm pre Active Directory"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Používateľské meno administrátora domény"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Heslo správcu domény"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentifikácia"
+
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Nastavenie administrátorského (root) hesla"
+
+#~ msgid "Authentication method"
+#~ msgstr "Authentikačná metóda"
+
+#~ msgid "No password"
+#~ msgstr "Bez hesla"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "Toto heslo je príliš jednoduché(musí byť minimálne %d znakov dlhé)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Nemôžem použiť broadcast bez NIS domény"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Vita vas zavadzac operacneho systemu\n"
+#~ "\n"
+#~ "Vyberte si operacny system, ktory si zelate spustit alebo\n"
+#~ "cakajte na spustenie predvoleneho.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO s textovým menu"
+
+#~ msgid "GRUB with graphical menu"
+#~ msgstr "GRUB s grafickým menu"
+
+#~ msgid "GRUB with text menu"
+#~ msgstr "GRUB s textovým menu"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "nie je dostatok miesta na /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Na oddiel %s nemôžete nainštalovať zavádzač\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "Nastavenie vášho zavádzača musí byť aktualizované pretože partícia bola "
+#~ "prečíslovaná"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "Zavádzať nemôže byť nainštalovaný korektne. Použite štart zo záchranného "
+#~ "alebo inštalačného CD a zadajte\"%s\""
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Re-inštalácia zavádzača"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d minút"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minúta"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d sekúnd"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV je protokol, ktorý umožňuje pripojiť lokálne priečinky web "
+#~ "servera\n"
+#~ "a používať ho ako lokálny súborový systém (iba za podmienky, že web "
+#~ "server\n"
+#~ "je nakonfigurovaný ako WebDAV server). Ak chcete pridať WebDAV prípojný\n"
+#~ "bod, vyberte si \"Nový\"."
+
+#~ msgid "New"
+#~ msgstr "Nový"
+
+#~ msgid "Unmount"
+#~ msgstr "Odpoj"
+
+#~ msgid "Mount"
+#~ msgstr "Pripoj"
+
+#~ msgid "Mount point"
+#~ msgstr "Bod pripojenia"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Prosím, zadajte adresu WebDAV servera"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL musí začínať http:// alebo https://"
+
+#~ msgid "Server: "
+#~ msgstr "Server:"
+
+#~ msgid "Mount point: "
+#~ msgstr "Bod pripojenia: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Možnosti: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Rozdelenie diskov"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Čítajte pozorne!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Prosím, najprv si za zazálohujte vaše údaje"
+
+#~ msgid "Exit"
+#~ msgstr "Koniec"
+
+#~ msgid "Continue"
+#~ msgstr "Pokračovať"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Ak plánujete použiť aboot, nechajte prosím na začiatku disku dosť voľného "
+#~ "miesta.\n"
+#~ "(2048 sektorov bude stačiť)"
+
+#~ msgid "Choose action"
+#~ msgstr "Zvoľte si akciu"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Máte jednu veľkú oblasť Microsoft Windows.\n"
+#~ "Skúste zmeniť jej veľkosť\n"
+#~ "(kliknite danú oblasť, potom kliknite na \"Zmeniť veľkosť\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Prosím kliknite na oddiel"
+
+#~ msgid "Details"
+#~ msgstr "Detaily"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Neboli nájdené žiadne pevné disky"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznámy"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Žurnálovací súborový systém"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Prázdny"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Typ súborového systému:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Tomuto oddielu nie je možné meniť veľkosť"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Najprv spravte `Unmount''"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Použite radšej ``%s''"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Zvoľte iný oddiel"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Zvoľte oddiel"
+
+#~ msgid "Undo"
+#~ msgstr "Späť"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Prepni do normálneho režimu"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Prepni do expert režimu"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Konfigurácia"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Pokračovať?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Koniec bez uloženia"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Ukončiť bez zápisu tabuľky rozdelenia disku?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Želáte si uložiť zmeny do /etc/fstab"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Aby sa prejavili úpravy tabuľky rozdelenia disku, musíte reštartovať"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "Mali by ste naformátovať oblasť %s.\n"
+#~ "Inak nebude zapísaný žiaden bod pripojenia %s do fstab.\n"
+#~ "Ukončiť?"
+
+#~ msgid "Clear all"
+#~ msgstr "Zmazať všetko"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Automaticky prerozdeliť"
+
+#~ msgid "More"
+#~ msgstr "Viac"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Informácie o pevnom disku"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Všetky primárne oddiely sú už použité"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Nemôžem pridať ďalšie oddiely"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Ak chcete mať viac diskových oddielov, tak zmažte jeden z nich, aby sa "
+#~ "dal vytvoriť rozšírený oddiel disku"
+
+#~ msgid "No supermount"
+#~ msgstr "Vypnutý supermount"
+
+#~ msgid "Supermount"
+#~ msgstr "Supermount"
+
+#~ msgid "Supermount except for CDROM drives"
+#~ msgstr "Supermount s výnimkou CDROM mechaník"
+
+#~ msgid "Save partition table"
+#~ msgstr "Ulož tabuľku rozdelenia disku"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Obnov tabuľku rozdelenia disku"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Zachrániť tabuľku rozdelenia disku"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Znovu načítať tabuľku rozdelenia disku"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Automatické pripojenie vymeniteľného média"
+
+#~ msgid "Select file"
+#~ msgstr "Vyber súbor"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Záložná tabuľka rozdelenia disku nemá rovnakú veľkosť\n"
+#~ "Naozaj chcete pokračovať?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Pokúšam sa zachrániť tabuľku rozdelenia disku"
+
+#~ msgid "Detailed information"
+#~ msgstr "Detailné informácie"
+
+#~ msgid "Resize"
+#~ msgstr "Zmeniť veľkosť"
+
+#~ msgid "Format"
+#~ msgstr "Formátovať"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Pridať do RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Pridať do LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Zrušiť"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Odobrať z RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Odober z LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Modifikuj RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Použiť loopback"
+
+#~ msgid "Create"
+#~ msgstr "Vytvor"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Vytvor nový oddiel"
+
+#~ msgid "Start sector: "
+#~ msgstr "Začiatočný sektor:"
+
+#~ msgid "Size in MB: "
+#~ msgstr "Veľkosť v MB: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Typ súborového systému: "
+
+#~ msgid "Preference: "
+#~ msgstr "Preferencia: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Meno logického oddielu"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Nemôžete vytvoriť nový diskový oddiel\n"
+#~ "(pokiaľ máte prekročený maximálny počet primárnych oddielov).\n"
+#~ "Najskôr zrušte primárnu oddiel a vytvorte rozšírenú oddiel."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Odstrániť loopback súbor?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "Po zmene diskovej oblasti %s budú všetky údaje na tejto oblasti "
+#~ "nenávratne stratené"
+
+#~ msgid "Change partition type"
+#~ msgstr "Zvoľte typ oddielu"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Aký typ súborového systému chcete??"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Prepínam z ext2 na ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Záznam"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Kam si želáte pripojiť loopback súbor %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Kam si želáte pripojiť zariadenie %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Nemôžem odpojiť oddiel kým je používaný nejakou spätnou slučkou.\n"
+#~ "Odstráňte najskôr spätnú slučku"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Kam si želáte pripojiť %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Mení sa veľkosť"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Počíta sa hranica FAT súborového systému"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Tomuto oddielu nie je možné meniť veľkosť"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Všetky údaje na tejto oblasti by sa mali zazálohovať"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "Po zmene veľkosti oddielu %s budú všetky údaje nenávratne stratené"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Zvoľte novú veľkosť"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Nová veľkosť v MB: "
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Pre kontrolu integrity po zmene veľkosti oblasti/oblastí bude\n"
+#~ "spustená kontrola súborového systému pri najbližšom štarte Windows(TM)"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Vyberte existujúci RAID pre pridanie"
+
+#~ msgid "new"
+#~ msgstr "nový"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Vyberte existujúci LVM pre pridanie"
+
+#~ msgid "LVM name?"
+#~ msgstr "LVM meno?"
+
+#~ msgid ""
+#~ "Physical volume %s is still in use.\n"
+#~ "Do you want to move used physical extents on this volume to other volumes?"
+#~ msgstr ""
+#~ "Fyzický zväzok %s je stále používaný.\n"
+#~ "Želáte si presunúť fyzické extenty na tomto zväzku na iný?"
+
+#~ msgid "Moving physical extents"
+#~ msgstr "Presun fyzických extentov"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Tento oddiel nemôže byť použitý pre spätnú slučku"
+
+#~ msgid "Loopback"
+#~ msgstr "Spätná slučka"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Meno súboru spätnej slučky: "
+
+#~ msgid "Give a file name"
+#~ msgstr "Zadajte meno súboru"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Súbor je už používaný ako loopback, skúste iný súbor"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Súbor existuje. Použiť?"
+
+#~ msgid "Mount options"
+#~ msgstr "Parametre pripojenia"
+
+#~ msgid "Various"
+#~ msgstr "Rozdielne"
+
+#~ msgid "device"
+#~ msgstr "zariadenie"
+
+#~ msgid "level"
+#~ msgstr "úroveň"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "veľkosť bloku v kB"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Buďte opatrní: táto operácia je nebezpečná."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Aký typ rozdelenia oddielov?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Aby sa úpravy prejavili, musíte reštartovať počítač"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Tabuľka rozdelenia disku zariadenia %s sa zapíše na disk!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "Ak naformátujete oddiel %s,všetky predošlé údaje sa na ňom stratia"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Kontrola chybných blokov?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Prenes súbory na nový oddiel"
+
+#~ msgid "Hide files"
+#~ msgstr "Skryté súbory"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Prenos súborov na nový oddiel"
+
+#~ msgid "Copying %s"
+#~ msgstr "Kopíruje sa %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Odstraňuje sa %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "oddiel %s sa teraz volá %s"
+
+#~ msgid "Partitions have been renumbered: "
+#~ msgstr "Oblasti boli prečíslované:"
+
+#~ msgid "Device: "
+#~ msgstr "Zariadenie:"
+
+#~ msgid "Volume label: "
+#~ msgstr "Názov zväzku: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Označenie v DOS: %s (asi)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Typ: "
+
+#~ msgid "Name: "
+#~ msgstr "Meno: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Začiatok: sektor %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Veľkosť: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s sektorov"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Cylinder %d po %d\n"
+
+#~ msgid "Number of logical extents: %d\n"
+#~ msgstr "Počet logických extentov: %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Naformátované\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Nenaformátované\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Pripojené\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Loopback súbor(y):\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Predvolený oddiel pre štart\n"
+#~ "    (MS-DOS boot, nie pre lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Hladina %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Veľkosť bloku %d kB\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "RAID-disky %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Meno loopback súboru: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Možnosti sú, tento oddiel je\n"
+#~ "oddiel s ovládačom. Mali by ste\n"
+#~ "ho nechať samotný.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Tento špeciálny Bootstrap\n"
+#~ "oddiel je pre\n"
+#~ "duálne štartovanie systému.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Iba pre čítanie"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Veľkosť: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Geometria: %s cylindrov, %s hlavičiek, %s sektorov\n"
+
+#~ msgid "Info: "
+#~ msgstr "Informácie:"
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-disky %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Typ tabuľky rozdelenia disku: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "na kanály %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Kryptovací kľúč súborového systému"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Zvoľte kryptovací kľúč súborového systému"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Tento kryptovací kľúč je príliš jednoduchý (musí byť minimálne %d znakov "
+#~ "dlhý)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "kryptovacie kľúče nesúhlasia"
+
+#~ msgid "Encryption key"
+#~ msgstr "Kryptovací kľúč"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Kryptovací kľúč (znovu)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Šifrovací algoritmus"
+
+#~ msgid "Change type"
+#~ msgstr "Zmeňte typ"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Nie je možné prihlásenie používateľa %s (zlé heslo?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Požadovaná doménova autentifikácia"
+
+#~ msgid "Which username"
+#~ msgstr "Ktoré používateľské meno"
+
+#~ msgid "Another one"
+#~ msgstr "Iný"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Zadajte prosím vaše prihlasovacie meno, heslo a doménu do ktorej máte "
+#~ "prístup."
+
+#~ msgid "Username"
+#~ msgstr "Používateľské meno"
+
+#~ msgid "Search servers"
+#~ msgstr "Vyhľadaj servre"
+
+#~ msgid "Search new servers"
+#~ msgstr "Vyhľadať nové servery"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Je potrebné inštalovať balík %s. Súhlasíte?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Nie je možné nainštalovať balík: %s!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Chýba povinný balík %s"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Nasledovné balíky je potrebné nainštalovať:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Inštalujú sa balíky..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Odstraňujú sa balíky..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Vyskytla sa chyba - neboli nájdené žiadne platné zariadenia, na ktorých "
+#~ "je možné vytvoriť nové súborové systémy. Skontrolujte váš hardvér pre "
+#~ "zistenie príčiny problému."
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Musíte mať FAT oddiel pripojený na /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Formátuje sa oddiel %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Vytvára sa a formátuje súbor %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Nie je možné formátovať %s na typ %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s formátovanie %s zlyhalo"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Kruhové pripojenia %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Pripájam oddiel %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "pripojenie diskovej oblasti %s k priečinku %s zlyhalo"
+
+#~ msgid "Checking %s"
+#~ msgstr "Kontroluje sa %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "chyba pri odpojení %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Povoľuje sa swap oddiel %s"
+
+#~ msgid "Use an encrypted file system"
+#~ msgstr "Použiť šifrovaný súborový systém"
+
+#~ msgid "Enable group disk quota accounting and optionally enforce limits"
+#~ msgstr "Povoliť skupinové kvóty, prípadne vnútiť limit"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Neaktualizovať čas prístupu k inódam na tomto súborovom systéme\n"
+#~ "(napr. pre rýchlejší prístup k fronte správ pre news server)."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Môže byť pripojený iba explicitne (tzn. že -a prepínač\n"
+#~ "nemá vplyv na to či bude súborový systém pripojený)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr "Neinterpretovať znakové a blokové zariadenia na súborovom systéme."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Nepovoliť spustenie akéhokoľvek programu na pripojenom\n"
+#~ "súborovom systéme. Táto voľba môže byť užitočná pre server ak sa\n"
+#~ "na jeho súborovom systéme nachádzajú programy pre inú architektúru."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Nepovoliť nastavovať suid alebo sgid. (Vyzeraá to byť bezpečné, ale\n"
+#~ "v skutočnosti to nemusí byť pravda, ak máte nainštalovaný suidperl(1))."
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Pripojiť súborový systém iba na čítanie."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "Všetky I/O operácie so súborovým systémom môžu byť synchrónne."
+
+#~ msgid "Enable user disk quota accounting, and optionally enforce limits"
+#~ msgstr "Povoliť používateľské "
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Priradiť právo zápisu pre vybraných používateľov"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Priradiť právo iba na čítanie pre vybraných používateľov"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Dvojnásobný bod pripojenia %s"
+
+#~ msgid "No partition available"
+#~ msgstr "Diskový oddiel nie je dostupný"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Prehľadávajú sa oddiely pre nájdenie bodov pripojenia"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Zvoľte body pripojenia"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Výber oddielov pre formátovanie"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Chyba pri kontrole súborového systému %s. Chcete opraviť chyby? (buďte "
+#~ "opatrní!, môžete prísť o údaje)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "Nedostatočne veľký swap pre dokončenie inštalácie, prosím zväčšiť"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Musíte mať koreňový oddiel.\n"
+#~ "Vytvorte oddiel (alebo kliknite na existujúcu).\n"
+#~ "Potom zvoľte akciu ``Bod pripojenia`` a nastavte na `/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Nevytvorili ste swap oddiel\n"
+#~ "\n"
+#~ "Napriek tomu pokračovať?"
+
+#~ msgid "Use free space"
+#~ msgstr "Použiť voľné miesto"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Nedostatok voľného miesta pre vytvorenie nového oddielu"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Použiť existujúce oddiely"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Tu nie je žiadny použiteľný oddiel"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Použiť oddiel s Microsoft Windows® pre loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Ktorý oddiel chcete použiť pre Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Zvoľte veľkosti"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Veľkosť koreňového oddielu v MB: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Veľkosť oddielu v MB: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Nie je žiaden oddiel FAT, ktorý by sa dal použiť pre loopback (alebo nie "
+#~ "je dostatok voľného miesta)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Použiť voľné miesto z Windows oddielu"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Ktorému oddielu chcete zmeniť veľkosť?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Menič veľkosti FAT nebol schopný pracovať s oddielom, \n"
+#~ "nastala chyba: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Použiť voľné miesto z Microsoft Windows® oddielu"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Váš oddiel s Microsoft Windows® je veľmi fragmentovaný, prosím spustite "
+#~ "najprv  ``defrag''"
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "POZOR!\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX teraz ide zmeniť veľkosť vášho Windows oddielu.\n"
+#~ "\n"
+#~ "\n"
+#~ "Buďte opatrný: táto operácia je nebezpečná. Ak ste tak ešte neurobili, "
+#~ "ukončite inštaláciu, spustite \"chkdsk c:\" z príkazového riadku pod "
+#~ "Windows (varovanie: spustenie grafického programu \"scandisk\" nie je "
+#~ "dostatočné, radšej použite \"chkdsk\" z príkazového riadku!), pripadne "
+#~ "program defrag a potom znovu spustite inštaláciu. Bolo by tiež vhodné "
+#~ "zazálohovať vaše údaje.\n"
+#~ "\n"
+#~ "\n"
+#~ "Ak ste sa uistili že chcete pokračovať v tom čo robíte, stlačte %s."
+
+#~ msgid "Next"
+#~ msgstr "Ďalej"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Akú veľkosť chcete ponechať pre Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Veľkosť: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Zmeniť veľkosť Microsoft Windows® oddielu"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Neúspešná zmena veľkosti FAT: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "Neexistuje oddiel FAT, ktorému by sa dala zmeniť veľkosť (alebo tam nie "
+#~ "je dostatok voľného miesta)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Odstrániť Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Vymazať celý disk"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "Máte viac ako jeden disk, na ktorý chcete inštalovať linux?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "Všetky oddiely a údaje na disku %s budú stratené"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Vlastné rozdelenie disku"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Použiť fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Teraz môžete rozdeliť váš pevný disk %s.\n"
+#~ "Keď skončíte, nezabudnite uložiť zmeny pomocou `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Nemôžem nájsť miesto pre inštaláciu"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "DrakX sprievodca rozdelením disku zistil tieto možné riešenia:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Neúspešne rozdeľovanie: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Na oddiely menšie ako 16MB nemôžete použiť JFS"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Na oddiely menšie ako 32MB nemôžete použiť ReiserFS"
+
+#~ msgid "with /usr"
+#~ msgstr "s /usr"
+
+#~ msgid "server"
+#~ msgstr "server"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Nemôžem prečítať tabuľku rozdelenia disku zariadenia %s, je príliš "
+#~ "poškodená :(\n"
+#~ "Môžem sa pokúsiť vyčistiť poškodené oddiely (VŠETKY ÚDAJE budú "
+#~ "stratené!).\n"
+#~ "Druhou možnosťou je zakázať DrakX-u modifikovať tabuľku rozdelenia.\n"
+#~ "(chyba je %s)\n"
+#~ "\n"
+#~ "Ste si vedomí straty všetkých oddielov?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Body pripojenia musia začínať /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Meno tlačiarne môže obsahovať iba alfanumerické znaky"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Oddiel s bodom pripojenia %s už existuje\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Nastavili ste softvérovú RAID oblasť ako koreňový oddiel (/).\n"
+#~ "Žiaden zavádzač systému nedokáže zaviesť systém bez /boot oddielu.\n"
+#~ "Uistite sa, že ste pridali /boot oddiel"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr ""
+#~ "Nie je možné použiť LVM logický zväzok pre bod pripojenia %s pokiaľ sa "
+#~ "rozprestiera na fyzických zväzkoch"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Máte zvolený LVM logický zväzok ako root (/).\n"
+#~ "Zavádzač nie je schopný ho použiť, ak je rozložený na viacerých fyzických "
+#~ "diskoch.\n"
+#~ "Mali by ste najprv vytvoriť samostatnú oblasť /boot"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Tento priečinok by mal zostať na koreňovom súborovom systéme"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Potrebujete skutočný súborový systém (ext2/ext3, reiserfs, xfs alebo jfs) "
+#~ "pre tento bod pripojenia\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "Nemôžete použiť kryptovaný súborový systém pre bod pripojenia %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Nedostatok miesta pre automatickú alokáciu"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Nerobiť nič"
+
+#~ msgid "Floppy"
+#~ msgstr "Disketa"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Hard Disk"
+
+#~ msgid "CDROM"
+#~ msgstr "CD-ROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD napaľovačky"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Páska"
+
+#~ msgid "AGP controllers"
+#~ msgstr "AGP radiče"
+
+#~ msgid "Videocard"
+#~ msgstr "Video karta"
+
+#~ msgid "DVB card"
+#~ msgstr "DVB karta"
+
+#~ msgid "Tvcard"
+#~ msgstr "TV karta"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Iné multimediálne zariadenie"
+
+#~ msgid "Soundcard"
+#~ msgstr "Zvuková karta"
+
+#~ msgid "Webcam"
+#~ msgstr "Wbcam"
+
+#~ msgid "Processors"
+#~ msgstr "Procesor"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "ISDN rozhranie"
+
+#~ msgid "USB sound devices"
+#~ msgstr "USB zvukové zariadenia"
+
+#~ msgid "Radio cards"
+#~ msgstr "Rádio karty"
+
+#~ msgid "ATM network cards"
+#~ msgstr "ATM sieťové karty"
+
+#~ msgid "WAN network cards"
+#~ msgstr "WAN sieťové karty"
+
+#~ msgid "Bluetooth devices"
+#~ msgstr "Bluetooth zariadenia"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Ethernetová karta"
+
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "ADSL modemy"
+
+#~ msgid "Memory"
+#~ msgstr "Pamäť"
+
+#~ msgid "Printer"
+#~ msgstr "Tlačiareň"
+
+#~ msgid "Game port controllers"
+#~ msgstr "Kontroléry pre herné ovládače"
+
+#~ msgid "Joystick"
+#~ msgstr "Joystick"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA radiče"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID radiče"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA kontrolér"
+
+#, fuzzy
+#~ msgid "USB Mass Storage Devices"
+#~ msgstr "USB zvukové zariadenia"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire kontrolér"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA kontrolér"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI kontrolér"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB kontrolér"
+
+#~ msgid "USB ports"
+#~ msgstr "USB porty"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus kontrolér"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Bridže a systémové kontroléry"
+
+#~ msgid "Tablet and touchscreen"
+#~ msgstr "Tablet a dotyková obrazovka"
+
+#~ msgid "Mouse"
+#~ msgstr "Myš"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Skener"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Neznáme/Iné"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu #"
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Prosím čakajte... Aplikuje sa konfigurácia"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Žiaden alternatívny ovládač"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "Nie je žiaden známy OSS/ALSA alternatívny ovládač pre vašu zvukovú kartu "
+#~ "(%s), ktorá v súčastnosti používa \"%s\""
+
+#~ msgid "Sound configuration"
+#~ msgstr "Konfigurácia zvuku"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Môžete si vybrať z alternatívnych ovládačov (OSS alebo ALSA) pre vašu "
+#~ "zvukovú kartu (%s)"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Vaša karta momentálne používa %s\"%s\" ovládač (štandardný ovládač pre "
+#~ "vašu kartu je \"%s\")"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Open Source Sound) bolo prvé zvukové API. Je to na systéme nezávislé "
+#~ "API (dostupné na mnohých unixových systémoch), ale je to veľmi jednoduché "
+#~ "a obmedzené API.\n"
+#~ "Navyše, všetky OSS ovládače ešte raz \"vynachádzajú koleso\".\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) je modulárna architektúra\n"
+#~ "podporujúca veľkú väčšinu ISA, USB a PCI kariet.\n"
+#~ "\n"
+#~ "Poskytuje tiež oveľa širšie API ako OSS.\n"
+#~ "\n"
+#~ "Alsu je možné použiť nasledovne::\n"
+#~ "- staré kompatibilné OSS api\n"
+#~ "- nové ALSA api, ktoré poskytuje mnohé rozšírené možnosti, ale je "
+#~ "vyžadované použitie ALSA knižníc.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Ovládač:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Hľadanie chyby"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Starý ovládač \"%s\" nie je odporúčaný.\n"
+#~ "\n"
+#~ "Boli oznámené havárie jadra pri jeho odstraňovaní.\n"
+#~ "\n"
+#~ "Nový ovládač \"%s\" bude použitý iba po nasledovnom štarte systému."
+
+#~ msgid "No open source driver"
+#~ msgstr "Žiaden známy open source ovládač"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Nie je žiaden voľne dostupný ovládač pre vašu zvukovú kartu (%s), ale je "
+#~ "k dispozícii proprietárny ovládač \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Žiaden známy ovládač"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Nie je žiaden známy ovládač pre vašu zvukovú kartu (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Neznámy ovládač"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Chyba: Ovládač \"%s\" pre vašu zvukovú kartu nie je prítomný"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Hľadanie chyby v súvislosti so zvukom"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Šikovný tester chýb v zvukovom systéme by použil nasledovné príkazy:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" vám napíše aký ovldádač vaša karta\n"
+#~ "štandardne používa\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" vám napíše aký ovládač je "
+#~ "aktuálne\n"
+#~ "použitý\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" vám umožní skontrolovať či je modul (ovládač) aktívny,\n"
+#~ "alebo nie\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" a \"/sbin/chkconfig --list alsa\" vám "
+#~ "napíše\n"
+#~ "či sú nastavené zvukové služby a alsa tak, aby sa spustili v runleveli 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" vám pomôže zistiť, či je váš zvukový výstup stíšený alebo "
+#~ "nie\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" vám napíše, ktorý program používa zvukovú\n"
+#~ "kartu.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Vyberte niektorý ovládač"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Vyberte si niektorý ovládač"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Ak si naozaj myslíte, že viete ktorý je správny ovládač pre vašu kartu,\n"
+#~ "môžte si ho vybrať z nasledovného zoznamu.\n"
+#~ "\n"
+#~ "Aktuálny ovládač pre vašu zvukovú kartu \"%s\" je \"%s\""
+
+#~ msgid "Auto-detect"
+#~ msgstr "Auto-detekcia"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Neznáme|Všeobecné"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Neznámy|CPH05X (bt878) [rôzny výrobcovia]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Neznámy||CPH06X (bt878) [rôzny výrobcovia]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "U mnohých moderných TV kariet vie bttv modul z GNU/Linux jadra "
+#~ "autodetekovať správne parametre.\n"
+#~ "Ak bola vaša karta zle detekovaná, môžete vnútiť typ tunera a karty tu. "
+#~ "Vyberte parametre vašej TV karty ak je to potrebné"
+
+#~ msgid "Card model:"
+#~ msgstr "Model karty :"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Typ tuneru :"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Počet zásobníkov pri zachytávaní obrazu :"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "počet zásobníkov pri zachytávaní obrazu do pamäte"
+
+#~ msgid "PLL setting:"
+#~ msgstr "PLL nastavenie :"
+
+#~ msgid "Radio support:"
+#~ msgstr "Podpora pre rádia:"
+
+#~ msgid "enable radio support"
+#~ msgstr "povoliť podporu pre rádia"
+
+#~ msgid "Yes"
+#~ msgstr "Áno"
+
+#~ msgid "No"
+#~ msgstr "Nie"
+
+#~ msgid "Choose a file"
+#~ msgstr "Zvoľte súbor"
+
+#~ msgid "Add"
+#~ msgstr "Pridať"
+
+#~ msgid "Modify"
+#~ msgstr "Modifikovať"
+
+#~ msgid "Remove"
+#~ msgstr "Odstrániť"
+
+#~ msgid "Finish"
+#~ msgstr "Dokončiť"
+
+#~ msgid "Previous"
+#~ msgstr "Späť"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Chybná voľba, skúste znovu\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Vaša voľba? (predvolené %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Záznamy, ktoré musíte vyplniť:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Vaša voľba? (0/1, predvolené `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Tlačítko `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Želáte si kliknúť na toto tlačidlo?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Vaša voľba? (predvolené `%s'%s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " vložte `prázdny' pre prázdnu položku"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Je mnoho dôvodov pre výber (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Zvoľte si prvé číslo z rozsahu do 10, ktoré si želáte editovať,\n"
+#~ "alebo stlačte Enter pre vykonanie.\n"
+#~ "Vaša voľba?"
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Pozor, popis bol zmenený:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Opätovne odoslať"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Spojené Arabské Emiráty"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua a Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Albania"
+#~ msgstr "Albánsko"
+
+#~ msgid "Armenia"
+#~ msgstr "Arménsko"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Holandské Antily"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antarktída"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentína"
+
+#~ msgid "American Samoa"
+#~ msgstr "Americká Samoa"
+
+#~ msgid "Austria"
+#~ msgstr "Rakúsko"
+
+#~ msgid "Australia"
+#~ msgstr "Austrália"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbajdžan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosna a Hercegovina"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladéš"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgicko"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulharsko"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermudy"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brunei Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolívia"
+
+#~ msgid "Brazil"
+#~ msgstr "Brazília"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamy"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvet Island"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Bielorusko"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Kanada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Kokosové (Keeling) ostrovy"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Konžská (Kinshasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Stredoafrická Republika"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Konžská (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Švajčiarsko"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Cote d'Ivoire"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Cookove ostrovy"
+
+#~ msgid "Chile"
+#~ msgstr "Čile"
+
+#~ msgid "Cameroon"
+#~ msgstr "Kamerun"
+
+#~ msgid "China"
+#~ msgstr "Čína"
+
+#~ msgid "Colombia"
+#~ msgstr "Klumbia"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Kostarika"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Srbsko a Čierna hora"
+
+#~ msgid "Cuba"
+#~ msgstr "Kuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cape Verde"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Vianočné ostrovy"
+
+#~ msgid "Cyprus"
+#~ msgstr "Cyprus"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Česká republika"
+
+#~ msgid "Germany"
+#~ msgstr "Nemecko"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Denmark"
+#~ msgstr "Dánsko"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Dominikánska Republika"
+
+#~ msgid "Algeria"
+#~ msgstr "Alžírsko"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ekvádor"
+
+#~ msgid "Estonia"
+#~ msgstr "Estónsko"
+
+#~ msgid "Egypt"
+#~ msgstr "Egypt"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Západná Sahara"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#~ msgid "Spain"
+#~ msgstr "Španielsko"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiópia"
+
+#~ msgid "Finland"
+#~ msgstr "Fínsko"
+
+#~ msgid "Fiji"
+#~ msgstr "Fiji"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Falklandské ostrovy (Malvinas)"
+
+#~ msgid "Micronesia"
+#~ msgstr "Mikronézia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Ostrovy Fare"
+
+#~ msgid "France"
+#~ msgstr "Francúzsko"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Veľká Británia"
+
+#~ msgid "Grenada"
+#~ msgstr "Granada"
+
+#~ msgid "Georgia"
+#~ msgstr "Georgia"
+
+#~ msgid "French Guiana"
+#~ msgstr "Francúzska Guana"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltár"
+
+#~ msgid "Greenland"
+#~ msgstr "Grónsko"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambia"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinea"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Equatorial Guinea"
+
+#~ msgid "Greece"
+#~ msgstr "Grécko"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Južná Gergia a Južné Sandwitch ostrovy"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinea-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Čína (Hong Kong)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Heard a McDonald ostrovy"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Chorvátsko"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Maďarsko"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonézia"
+
+#~ msgid "Ireland"
+#~ msgstr "Írsko"
+
+#~ msgid "Israel"
+#~ msgstr "Izrael"
+
+#~ msgid "India"
+#~ msgstr "India"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Britská oblasť Indického oceánu"
+
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#~ msgid "Iran"
+#~ msgstr "Irán"
+
+#~ msgid "Iceland"
+#~ msgstr "Island"
+
+#~ msgid "Italy"
+#~ msgstr "Taliansko"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamajka"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordánsko"
+
+#~ msgid "Japan"
+#~ msgstr "Japonsko"
+
+#~ msgid "Kenya"
+#~ msgstr "Keňa"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kyrgyzstan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Kambodža"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Comoros"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Svätý Kitts a Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Severo-Kórejská"
+
+#~ msgid "Korea"
+#~ msgstr "Kórea"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuvajt"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Kaimanské ostrovy"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazachstan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Libanon"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Svätá Lucia"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Lichtenštajnsko"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Srí Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Libéria"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Lithuania"
+#~ msgstr "Litva"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxembursko"
+
+#~ msgid "Latvia"
+#~ msgstr "Litva"
+
+#~ msgid "Libya"
+#~ msgstr "Líbia"
+
+#~ msgid "Morocco"
+#~ msgstr "Maroko"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldavsko"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagaskar"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Marshallove ostrovy"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macedónsko"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Myanmar"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolsko"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Severné ostrovy Mariana"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinique"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritania"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Maurícius"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Mexiko"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malajzia"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambik"
+
+#~ msgid "Namibia"
+#~ msgstr "Namíbia"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Nová Kaledónia"
+
+#~ msgid "Niger"
+#~ msgstr "Nigér"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Norfolské ostrovy"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigéria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nikaragua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Holandsko"
+
+#~ msgid "Norway"
+#~ msgstr "Nórsko"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepál"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "Nový Zéland"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Francúzska Polynézia"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua Nová Guinea"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipíny"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Poľsko"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Svätý Pierre a Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Puerto Rico"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestína"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugalsko"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Qatar"
+#~ msgstr "Katar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Rumunsko"
+
+#~ msgid "Russia"
+#~ msgstr "Rusko"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Saudská Arabia"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Solomon ostrovy"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Švédsko"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapur"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Svätá Helena"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovinsko"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Svalbard a Jan Mayen ostrovy"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovenská Republika"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Somalia"
+#~ msgstr "Somálsko"
+
+#~ msgid "Suriname"
+#~ msgstr "Surinam"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome a Principe"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syria"
+#~ msgstr "Sýria"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swazijsko"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turks a Caicos ostrovy"
+
+#~ msgid "Chad"
+#~ msgstr "Čad"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Južné Francźske oblasti"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Thajsko"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tajikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "Východný Timor"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunisko"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turecko"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad a Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzánijská"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukrajina"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Spojené Štáty Minor Outlying ostrovy"
+
+#~ msgid "United States"
+#~ msgstr "Spojené štáty"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Uzbekistan"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatikán"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Svätý Vincent a Grenadiny"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Panenské ostrovy (Britské)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Panenské ostrovy (U.S.)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis a Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Jemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "South Africa"
+#~ msgstr "Južná Afrika"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambia"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwe"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Vitajte v %s"
+
+#~ msgid "Moving used physical extents to other physical volumes failed"
+#~ msgstr "Presun použitých fyzických rozsahov na iný fyzický oddiel zlyhalo"
+
+#~ msgid "Physical volume %s is still in use"
+#~ msgstr "Fyzický zväzok %s je stále v používaní"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Odstráňte najprv logické zväzky\n"
+
+#, fuzzy
+#~ msgid "The bootloader can't handle /boot on multiple physical volumes"
+#~ msgstr "Zavádzač nemôže použiť /boot na viacerých fyzických oddieloch"
+
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "VAROVANIE: Toto je voľný neautorizovaný preklad originálnej licencie v "
+#~ "anglickom jazyku.\n"
+#~ "Ak súhlasíte s nižšie uvedenou licenciou, súhlasíte s jej anglickým "
+#~ "originálom, ktorý je možné\n"
+#~ "získať na inštalačnom CD.\n"
+#~ "\n"
+#~ "Úvod\n"
+#~ "\n"
+#~ "Operačný systém a rôzne iné súčasti dostupné v distribúcii Mandriva "
+#~ "Linux, budú ďalej\n"
+#~ "nazvané \"softvérové produkty\". Softvérové produkty, ktoré obvykle  "
+#~ "obsahujú, ale\n"
+#~ "nie sú obmedzené len na súbor programov, metód, pravidiel a dokumentácie, "
+#~ "vzťahujúcej sa\n"
+#~ "k operačnému systému a rôznych súčastí distribúcie Mandriva Linux.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. Licenčná zmluva\n"
+#~ "\n"
+#~ "Prosíme vás, aby ste si nasledujúci dokument pozorne prečítali. Tento "
+#~ "dokument je licenčnou zmluvou\n"
+#~ "medzi vami a Mandriva S.A., ktorý sa vzťahuje k softvérovým produktom.\n"
+#~ "Nainštalovaním, vytváraním kópií alebo používaním softvérového produktu "
+#~ "za akýmkoľvek účelom,\n"
+#~ "automaticky akceptujete a plne súhlasíte so všetkými bodmi tejto "
+#~ "licencie.\n"
+#~ "Ak nesúhlasíte s ktorýmkoľvek bodom licencie, nie je vám povolené "
+#~ "inštalovať, kopírovať alebo\n"
+#~ "používať softvérový produkt.\n"
+#~ "Akýkoľvek pokus inštalovať, vytvárať kópie alebo používať softvérový "
+#~ "produkt spôsobom, ktorý\n"
+#~ "nezodpovedá tejto licencii, je jej porušením a ruší vaše práva zaručované "
+#~ "touto licenciou.\n"
+#~ "V prípade porušenia licencie musíte bezodkladne zničiť všetky kópie "
+#~ "softvérového\n"
+#~ "produktu.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Obmedzená záruka\n"
+#~ "\n"
+#~ "Softvérové produkty a priložená dokumentácia sú poskytovaná \"tak ako je"
+#~ "\", bez akejkoľvek\n"
+#~ "záruky v medziach umožnených zákonom.\n"
+#~ "Mandriva S.A. nebude za žiadnych okolností a v medziach umožnených "
+#~ "zákonom zodpovedať\n"
+#~ "za žiadne zvláštne, náhodné, priame alebo nepriame škody (vrátane straty "
+#~ "obchodných pohľadávok,\n"
+#~ "prerušenie obchodnej činnosti, finančnej straty, zákonných poplatkov a "
+#~ "pokút vyplývajúcich\n"
+#~ "zo súdneho pojednávania alebo akýchkoľvek z toho vyplývajúcich strát) "
+#~ "vzniknuté používaním,\n"
+#~ "alebo z dôvodu používateľovej neschopnosti používať Softvérové produkty a "
+#~ "to i v prípade, že\n"
+#~ "Mandriva S.A. bol upozornený na možnosť výskytu takýchto škôd.\n"
+#~ "\n"
+#~ "OBMEDZENÁ ZODPOVEDNOSŤ SPOJENÁ S VLASTNÍCTVOM ALEBO POUŽITÍM ZAKÁZANÉHO "
+#~ "SOFTVÉRU V NIEKTORÝCH KRAJINÁCH\n"
+#~ "Mandriva S.A. alebo jeho distribútori, v medziach umožnených zákonom, nie "
+#~ "sú zodpovedný\n"
+#~ "za žiadne zvláštne, náhodné, priame alebo nepriame škody (vrátane straty "
+#~ "obchodných pohľadávok,\n"
+#~ "prerušenia obchodnej činnosti, finančnej straty, zákonných poplatkov a "
+#~ "pokút vyplývajúcich zo súdneho\n"
+#~ "pojednávania alebo akýchkoľvek z toho vyplývajúcich strát) vzťahujúce sa "
+#~ "k vlastneniu alebo\n"
+#~ "používaniu softvérových komponentov alebo vzniknuté stiahnutím "
+#~ "softvérových komponentov z niektorého\n"
+#~ "servera Mandriva Linux, ktoré sú zakázané alebo obmedzené v niektorých "
+#~ "krajinách miernymi zákonmi.\n"
+#~ "Táto obmedzená zodpovednosť sa vzťahuje ale nie je obmedzená len na "
+#~ "komponenty obsahujúce\n"
+#~ "silnú kryptografiu, ktoré sú súčasťou Softvérových produktov.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. GPL licencia a príbuzné licencie\n"
+#~ "\n"
+#~ "Softvérové produkty pozostávajú k komponentov vytvorených rôznymi ľuďmi a "
+#~ "entitami. Väčšina\n"
+#~ "týchto komponentov je poskytovaná pod podmienkami GNU General Public "
+#~ "Licence, ďalej nazývanej\n"
+#~ "len \"GPL\" alebo podobnými licenciami. Väčšina licencií umožňuje "
+#~ "používať, kopírovať,\n"
+#~ "prispôsobovať alebo ďalej distribuovať komponenty, ktoré pokrýva. "
+#~ "Prosíme, prečítajte si pozorne\n"
+#~ "podmienky licenčnej zmluvy pre každý komponent pred jeho používaním. "
+#~ "Adresátom akýchkoľvek otázok\n"
+#~ "ohľadne licencie ku komponentu by mal byť jeho autor a nie Mandriva. "
+#~ "Programy vyvinuté\n"
+#~ "Mandriva S.A. sú poskytované pod podmienkami GPL Licencie. Dokumentácia "
+#~ "napísaná\n"
+#~ "Mandriva S.A. je poskytovaná pod špecifickou licenciou. Prosíme, "
+#~ "preštudujte si dokumentáciu\n"
+#~ "pre ďalšie detaily.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Práva na duševné vlastníctvo\n"
+#~ "\n"
+#~ "Všetky práva na komponenty Softvérových produktov prináležia ich autorom "
+#~ "a sú chránené právami\n"
+#~ "na duševné vlastníctvo a zákonmi vzťahujúcimi sa k vlastníckym právam k "
+#~ "softvérovým programom.\n"
+#~ "Mandriva S.A. si vyhradzuje právo upraviť alebo prispôsobiť Softvérové "
+#~ "produkty ako celok\n"
+#~ "alebo jednotlivé časti, akýmkoľvek spôsobom a za akýmikoľvek účelmi. "
+#~ "\"Mandriva\", \"Mandriva\n"
+#~ "Linux\" a pridružené logá sú chránenými obchodnými značkami spoločnosti "
+#~ "Mandriva S.A.\n"
+#~ "\n"
+#~ "\n"
+#~ "5. Zákony vzťahujúce sa k tejto zmluve\n"
+#~ "\n"
+#~ "Ak je akákoľvek časť tejto zmluvy považovaná za nevhodnú, nelegálnu alebo "
+#~ "nepoužiteľnú\n"
+#~ "v súdnom konaní, je táto časť vypustená z tohto kontraktu. Naďalej však "
+#~ "zostávate viazaní\n"
+#~ "ostatnými aplikovateľnými sekciami tejto zmluvy.\n"
+#~ "Podmienky tejto licencie sú určené zákonmi Francúzska. Všetky spory "
+#~ "ohľadne podmienok tejto\n"
+#~ "licencie budú podľa možnosti vybavované mimosúdne. Ako posledné "
+#~ "východisko bude spor\n"
+#~ "zverený na prejednanie príslušným súdom v Paríži - Francúzsko. Ak máte "
+#~ "akékoľvek otázky k tomuto\n"
+#~ "dokumentu, prosíme, kontaktujte Mandriva S.A.\n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Varovanie: Slobodný softvér nemusí byť nevyhnutne oslobodený od patentov\n"
+#~ "a niektoré Slobodné softvérové produkty tu zahrnuté môžu podliehať "
+#~ "patentom\n"
+#~ "vo vašej krajine. Napríklad MP3 dekodéry zahrnuté v tejto distribúcii "
+#~ "môžu vyžadovať\n"
+#~ "licenciu pre ďalšie používanie (pozrite si http://www.mp3licensing.com "
+#~ "pre ďalšie\n"
+#~ "podrobnosti) Ak ste si nie istí či sa patenty môžu dotýkať aj vás, "
+#~ "poradťe s právnikom."
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Upozornenie\n"
+#~ "\n"
+#~ "Prosíme vás, aby ste si pozorne prečítali podmienky uvedené nižšie.\n"
+#~ "Ak nesúhlasíte s niektorou časťou, nie je prípustné, aby ste "
+#~ "inštalovali \n"
+#~ "softvér z ďalšieho CD média. Stlačte 'Odmietam' pre pokračovanie \n"
+#~ "inštalácie bez použitia týchto médií.\n"
+#~ "\n"
+#~ "\n"
+#~ "Niektoré komponenty nachádzajúce sa na ďalších CD médiách nie sú\n"
+#~ "uvoľnené pod GPL licenciou alebo jej podobnými dohodami. Každý takýto\n"
+#~ "komponent je uvoľnený pod podmienkami svojej osobitnej licencie. \n"
+#~ "Prosíme vás, aby ste si pozorne prečítali podmienky týchto licencií \n"
+#~ "skôr, než budete používať alebo šíriť tieto komponenty. \n"
+#~ "Takéto licencie vo všeobecnosti zakazujú prevod, duplikáciu (s výnimkou \n"
+#~ "zálohy), šírenie, reverzné inžinierstvo, disassemblovanie a "
+#~ "dekompiláciu \n"
+#~ "alebo modifikáciu komponentu. \n"
+#~ "Akékoľvek porušenie licenčnej zmluvy vám s okamžitou platnosťou odoberá \n"
+#~ "Vaše práva vymedzené takouto licenciou. Pokiaľ vám takáto špecifická \n"
+#~ "licencia neudelí takéto práva, obvykle nemôžete inštalovať programy na \n"
+#~ "viac ako jeden systém alebo ich prispôsobiť na sieťové použitie "
+#~ "viacerými\n"
+#~ "systémami. V prípade akýchkoľvek pochybností, prosíme kontaktujte "
+#~ "priamo \n"
+#~ "distribútora alebo vydavateľa komponentu. \n"
+#~ "Prevod tretím stranám alebo kopírovanie takéhoto komponentu, vrátane \n"
+#~ "dokumentácie, sú obvykle zakázané.\n"
+#~ "\n"
+#~ "\n"
+#~ "Všetky práva ku komponentom na ďalších CD médiách prináležia ich \n"
+#~ "vlastníkom a sú chránené zákonmi na ochranu duševného vlastníctva \n"
+#~ "a vlastníckych práv použiteľných na softvérové programy.\n"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Gratulujeme, inštalácia je ukončená.\n"
+#~ "Vyberte spúšťacie médium a stačte Enter pre reštart.\n"
+#~ "\n"
+#~ "\n"
+#~ "Informácie o aktuálnych opravách pre túto verziu Mandriva Linuxu,\n"
+#~ "sú dostupné na:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Informácie o konfigurovaní vášho systému sa\n"
+#~ "nachádzajú v oficiálnej Mandriva Linux používateľskej príručke.\n"
+#~ "\n"
+#~ "\n"
+#~ "Ak ste našli chybu (alebo nájdete neskôr) v preklade, kontaktujte prosím\n"
+#~ "prekladateľský tím mailom na adrese: i18n@mandrake.sk"
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Nastavenie ovládača UPS"
+
+#~ msgid "Module configuration"
+#~ msgstr "Konfigurácia modulu"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Tu môžete nakonfigurovať každý parameter modulu."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Našiel som %s rozhranie"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Máte ešte nejaké ďalšie?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Máte nejaké %s rozhranie?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Prezrieť si informácie o technických prostriedkoch"
+
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Inštaluje sa ovládač pre rozhranie USB"
+
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Inštaluje sa ovládač pre rozhranie firewire %s"
+
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Inštaluje sa ovládač pre radič pevných diskov %s"
+
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Inštaluje sa ovládač pre sieťový adaptér %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Inštaluje sa  ovládač pre %s kartu %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Teraz môžete zadať nastavenie pre modul %s.\n"
+#~ "Adresa by vždy mala začínať prefixom 0x, napríklad '0x123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Teraz môžete zadať parametre pre modul %s.\n"
+#~ "Parametre sú vo formáte ``meno=hodnota meno2=hodnota2 ...''.\n"
+#~ "Napríklad: ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Parametre modulu:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Ktorý %s ovládač mám skúsiť?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "Ovládač %s niekedy potrebuje pre správnu činnosť doplnkovú informáciu, "
+#~ "aj\n"
+#~ "keď zvyčajne pracuje správne aj bez nej. Želáte si zadať doplnkové "
+#~ "voľby,\n"
+#~ "alebo dovolíte ovládaču otestovať váš počítač a údaje si zistiť? Občas "
+#~ "sa\n"
+#~ "stane, že toto testovanie počítač zablokuje, ale nemalo by spôsobiť "
+#~ "žiadnu škodu."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Automatické zistenie"
+
+#~ msgid "Specify options"
+#~ msgstr "Zadajte voľby"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Nahrávanie modulu %s zlyhalo.\n"
+#~ "Chcete sa o to pokúsiť znova s inými parametrami?"
+
+#~ msgid "mount failed: "
+#~ msgstr "nepodarilo sa pripojiť: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Na tejto platforme nie je podporovaný rozšírený oddiel"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "V tabuľke rozdelenia disku sa nachádza záznam o voľnom priestore, ktorý "
+#~ "nedokážem využiť.\n"
+#~ "Riešenie je: presunúť primárny oddiel tak, aby sa voľné miesto nachádzalo "
+#~ "za ním a bolo použiteľné pre rozšírený oddiel."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "chyba pri čítaní zo súboru %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Obnovenie zo súboru %s zlyhalo: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Chybný zálohovací súbor"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "chyba pri zápise do súboru %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Na vašom disku sa deje niečo nedobré.\n"
+#~ "Zlyhal test integrity dát. Akýkoľvek zápis údajov\n"
+#~ "na disk môže skončiť náhodným zlyhaním alebo zničením údajov."
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Nie je možné pridať oddiel do _naformátovaného_ RAID poľa %s"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Nie je dosť oddielov pre RAID úrovne %d\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "Nie je možné vytvoriť priečinok /usr/share/sane/firmware!"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "Nie je možné vytvoriť symbolický odkaz /usr/share/sane/%s!"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr ""
+#~ "Nie je možné kopírovať súbor %s s firmware do /usr/share/sane/firmware!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr "Nie je možné nastaviť práva pre súbor s firmware %s!"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr "Nie je možné nainštalovať balíky potrebné k zdieľaniu skenera."
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "Váš skener nebude dostupný pre bežných používateľov."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Povoliť/Zakázať IPv4 chybové správy."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Povoliť/Zakázať odpovedať na icmp echo poslané na broadcast adresu."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Povoliť/Zakázať icmp echo."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Povoliť/Zakázať autologin."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Ak je nastavené na \"ALL\" je povolená existencia /etc/issue a /etc/issue."
+#~ "net.\n"
+#~ "\n"
+#~ "Ak je nastavené na NONE, žiadne issue súbory nie sú povolené.\n"
+#~ "\n"
+#~ "Inak je povolené iba /etc/issue."
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr ""
+#~ "Povoliť/Zakázať možnosť reštartovať systém používateľom prihláseným ku "
+#~ "konzole."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Povoliť/Zakázať možnosť vzdialeného prihlásenia sa root-a."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Povoliť/Zakázať priame prihlásenie root-a z konzoly."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Povoliť/Zakázať zoznam používateľov v systéme v manažéroch prihlásenia "
+#~ "(kdm a gdm)."
+
+#~ msgid ""
+#~ "Allow/forbid to export display when\n"
+#~ "passing from the root account to the other users.\n"
+#~ "\n"
+#~ "See pam_xauth(8) for more details.'"
+#~ msgstr ""
+#~ "Povoliť/zakázať exportovať obrazovku\n"
+#~ "ak je odovzdaná root-om inému používateľovi.\n"
+#~ "\n"
+#~ "Pozrite pam_xauth(8) pre bližšie podrobnosti."
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Povoliť/Zakázať X spojenia:\n"
+#~ "\n"
+#~ "- ALL (všetky pripojenia sú povolené),\n"
+#~ "\n"
+#~ "- LOCAL (iba pre lokálne pripojenia),\n"
+#~ "- NONE (žiadne pripojenia)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "Hodnota špecifikuje či je klient oprávnený pripojiť sa\n"
+#~ "k X serveru na tcp port 6000 alebo nie."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Autorizovať:\n"
+#~ "\n"
+#~ "- všetky služby kontrolované pomocou tcp_wappera (viď. hosts.deny(5)) ak "
+#~ "je nastavené na \"ALL\",\n"
+#~ "\n"
+#~ "- iba lokálne, potom \"LOCAL\"\n"
+#~ "\n"
+#~ "- žiadne, potom \"NONE\".\n"
+#~ "\n"
+#~ "Pre autorizovanie služieb je potrebné použiť /etc/hosts.allow (viď. hosts."
+#~ "allow(5))."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Ak je nastavený SERVER_LEVEL (alebo ak SECURE_LEVEL chýba)\n"
+#~ "vyšší ako 3 v /etc/security/msec/security.conf, vytvorí sa symblický\n"
+#~ "odkaz /etc/security/msec/server smerujúci na\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "/etc/security/msec/server je používaný programom chkconfig --add pri\n"
+#~ "pridávaní služby na kontrolu, či je súbor dostupný počas inštalácie "
+#~ "balíkov."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Povoliť/Zakázať použitie crontab pre používateľov.\n"
+#~ "\n"
+#~ "Používatelia, ktorí majú mať používanie cron démona povolené by mali byť "
+#~ "uvedení\n"
+#~ "v /etc/cron.allow a /etc/at.allow (viď. man at(1) a crontab(1))."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "Povoliť/Zakázať zobrazovanie syslog reportov na konzole č.12"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Povoliť/Zakázať ochranu proti spoofingu pri rozlišovaní mien.\n"
+#~ "Ak je nastavené \"%s\" tak sa udalosť zaznamená pomocou syslog-u."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Bezpečnostné varovania:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Povoliť/Zakázať ochranu proti IP spoofingu."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "Povoliť/Zakázať knižnicu libsafe ak je prítomná vo vašom systéme."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Povoliť/Zakázať logovanie neštandardných IPv4 paketov."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "Povoliť/Zakázať bezpečnostné kontroly msec každú hodinu."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Povoliť su iba pre členov skupiny wheel alebo povoliť su pre akéhokoľvek "
+#~ "používateľa."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Používať heslá pre autentikáciu používateľov."
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr ""
+#~ "Aktivovať/Deaktivovať kontrolu promiskuitného režimu ethernetovej karty."
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Aktivovať/Deaktivovať denné bezpečnostné kontroly."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Povoliť/Zakázať sulogin(8) v jednopoužívateľskom režime"
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Pridať meno ako výnimku pri posudzovaní dĺžky platnosti hesla pre msec."
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "Nastavenie platnosti hesla na \"max\"P dní a času pre zmenu na \"neaktívne"
+#~ "\"."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Nastaviť dĺžku histórie hesiel ako prevenciu pred znovupoužitím takého "
+#~ "istého hesla."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Nastaviť minimálnu dĺžku hesla, minimálny počet číslic a minimálny počet "
+#~ "veľkých písmen."
+
+#~ msgid "Set the root umask."
+#~ msgstr "Nastaviť umask pre root-a."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "ak je nastavené na áno, kontrolujú sa otvorené porty."
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "ak je nastavené na áno, budú sa kontrolovať:\n"
+#~ "\n"
+#~ "- prázdne heslá,\n"
+#~ "\n"
+#~ "- žiadne heslá v /etc/shadow\n"
+#~ "\n"
+#~ "- používatelia s id 0 iní ako root."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "ak je nastavené na áno, budú sa kontrolovať práva súborov v domovských "
+#~ "priečinkoch používateľov."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "ak je nastavené na áno, bude sa kontrolovať či sú sieťové zariadenie v "
+#~ "promiskuitnom režime."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "ak je nastavené na áno, budú sa spúšťať pravidelné denné kontroly."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr ""
+#~ "ak je nastavené na áno, bude sa kontrolovať pridanie/ubranie súborov s "
+#~ "nastaveným sgid."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr ""
+#~ "ak je nastavené na áno, budú sa kontrolovať prázdne heslá v /etc/shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr ""
+#~ "ak je nastavené na áno, budú sa kontrolovať kontroloné súčty suid/sgid "
+#~ "súborov."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "ak je nastavené na áno, bude sa kontrolovať pridanie/odobratie súborov s "
+#~ "nastaveným suid bitom."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr ""
+#~ "ak je nastavené na áno, budú sa reportovať súbory, ktoré nie sú nikým "
+#~ "vlastnené."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "ak je nastavené na áno, kontrolujú sa súbory/priečinky či sú "
+#~ "zapisovateľné pre všetkých."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "ak je nastavené, bude sa spúšťať program chkrootkit."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "ak je nastavené, pošle sa email s reportom na túto adresu, inak sa report "
+#~ "posiela na účet root."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "ak je nastavené na áno, pošle sa report o kontrole emailom."
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "Neposielať mail ak nie sú žiadne varovania"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr "ak je nastavené na áno, budú sa spúšťať kontroly rpm databázy."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr ""
+#~ "ak je nastavené na áno, budú sa výsledky kontroly zapisovať do syslog-u."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "ak je nastavené na áno, report z kontroly sa zobrazí na terminály."
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Nastavenie veľkosti histórie príkazového riadku. Hodnota -1 znamená "
+#~ "neobmedzenú históriu."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Nastavenie času, po ktorom príkazový interpreter prevedie automatické "
+#~ "odhlásenie. Hodnota nula nenastavuje žiaden čas."
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "Hodnota timeout je v sekundách"
+
+#~ msgid "Set the user umask."
+#~ msgstr "Nastaviť umask pre používateľa."
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Akceptovať IPv4 chybové správy"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Akceptovať icmp echo poslané na broadcast adresu"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "Akceptovať icmp echo"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* existuje"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Reštartovať ak je používateľ prihlásený na konzole"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Povoliť vzdialené prihlásenie root-a."
+
+#~ msgid "Direct root login"
+#~ msgstr "Priame prihlásenie root-a"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "Zoznam používateľov pre manažéry prihlásenia (kdm a gdm)"
+
+#~ msgid "Export display when passing from root to the other users"
+#~ msgstr "Exportovať obrazovku ak je odovzdaná root-om inému používateľovi"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Povoliť X Window spojenia"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Autorizovať TCP spojenia k X Window"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "Autorizovať všetky služby pomocou tcp wrappera"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig rešpektuje msec pravidlá"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "Povoliť \"crontab\" a \"at\" pre používateľov"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Správy zo syslogu na konzolu 12"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "Ochrana voči dns spoofingu"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "Poviliť ochranu proti IP spoofingu"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Povoliť používanie knižnice libsafe ak je prítomná vo vašom systéme"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "Povoliť logovanie neštandardných IPv4 paketov."
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Povoliť bezpečnostné kontroly msec každú hodinu"
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "Povoliť su iba pre členov skupiny wheel, alebo povoliť su pre akéhokoľvek "
+#~ "používateľa"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Používať heslá pre autentikáciu používateľov"
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "Kontrola promiskuitného režimu ethernet karty"
+
+#~ msgid "Daily security check"
+#~ msgstr "Denné bezpečnostné kontroly"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) v jednopoužívateľskom režime"
+
+#~ msgid "No password aging for"
+#~ msgstr "Neobmedzená platnosť hesla pre"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr "Nastaviť expiráciu hesla a čas pre zakázanie konta"
+
+#~ msgid "Password history length"
+#~ msgstr "Dĺžka histórie hesiel"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr "Minimálna dĺžka hesla, počet číslic a veľkých písmen"
+
+#~ msgid "Root umask"
+#~ msgstr "Umask pre root-a"
+
+#~ msgid "Shell history size"
+#~ msgstr "Veľkosť histórie shellu"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Automatické odhlásenie"
+
+#~ msgid "User umask"
+#~ msgstr "Umask pre používateľa"
+
+#~ msgid "Check open ports"
+#~ msgstr "Kontrolovať otvorené porty"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Kontrolovať nezabezpečené účty"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Kontrolovať práva súborov v domovských priečinkoch používateľov"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "Kontrolovať či sú sieťové zariadenie v promiskuitnom režime"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Spúšťať denné bezpečnostné kontroly"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Kontrolovať pridanie/odstránenie súborov s nastaveným sgid."
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Kontrolovať prázdne heslá v /etc/shadow"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "Kontrolovať kontroloné súčty suid/sgid súborov"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr ""
+#~ "Kontrolovať pridanie/odobratie súborov s nastaveným root suid bitom."
+
+#~ msgid "Report unowned files"
+#~ msgstr "Vyhľadať súbory, ktoré nemajú vlastníka"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Kontrolovať súbory/priečinky či sú zapisovateľné pre všetkých"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Spúšťať kontrolu chkrootkit."
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "Ak je nastavené, bude odoslaný email s výsledným sumárom na túto adresu, "
+#~ "inak sa report posiela root-ovi."
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Sumár z kontroly odoslať emailom"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Spúšťať niektoré kontroly rpm databázy"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Zapísať výsledok do syslog-u"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "Súhrn z výsledku kontroly sa zobrazí na terminály"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Žiadna"
+
+#~ msgid "Poor"
+#~ msgstr "Veľmi slabá"
+
+#~ msgid "High"
+#~ msgstr "Vysoká"
+
+#~ msgid "Higher"
+#~ msgstr "Vyššia"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranoidná"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Táto úroveň by mala byť používaná opatrne. Zjednodušuje prácu so "
+#~ "systémom,\n"
+#~ "ale nemal by byť pripojený k iným počítačom, alebo k Internetu. Nie sú\n"
+#~ "totiž používané žiadne heslá."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Je nastavené používanie hesiel, ale použitie tohoto počítača v sieti "
+#~ "nemôžem odporučiť."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Toto je štandardná úroveň bezpečnosti pre počítač, ktorý je používaný pre "
+#~ "pripojenie k Internetu ako klient."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Sú tu už niektoré obmedzenia a automatické kontroly sa vykonávajú každú "
+#~ "noc."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "S touto úrovňou bezpečnosti je možné použitie tohto systému ako servera.\n"
+#~ "Bezpečnosť je veľmi dôležitá pre používanie systému ako servera, ktorý má "
+#~ "akceptovať\n"
+#~ "spojenia z viacerých klientov. Všimnite si: ak je váš stroj iba klient v "
+#~ "Internete, môžete zvoliť nižšiu úroveň."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Podobné ako v predchádzajúcej úrovni, ale systém je úplne uzavretý a "
+#~ "bezpečnostné možnosti sú nastavené na ich maximum."
+
+#~ msgid "Security"
+#~ msgstr "Bezpečnosť"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "DrakSec základné nastavenia"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Prosím, zvoľte si zodpovedajúcu bezpečnostnú úroveň"
+
+#~ msgid "Security level"
+#~ msgstr "Úroveň bezpečnosti"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Použiť libsafe pre server"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Knižnica, ktorá bráni proti útokom typu buffer overflow a format string."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Bezpečnostný administrátor (prihlasovacie meno alebo email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr ""
+#~ "Spustenie ALSA (Advanced Linux Sound Architecture) zvukového systému"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron, periodický plánovač príkazov."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd sa používa pre monitorovanie a zápis stavu batérií pomocou syslogu.\n"
+#~ "Môžete ho tiež použiť na vypnutie počítača keď sa baterky takmer minú."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr "Spúšťa príkazy nastavené cez príkaz at v stanovenom čase."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron je štandardný UNIXový program, ktorý spúšťa príkazy naplánované\n"
+#~ "užívateľom. vixie cron pridáva viac možností konfigurácie."
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM slúži na monitorovanie súborov. Je používaný na získavanie "
+#~ "informácií\n"
+#~ "o zmenách v súboroch. Je používaný systémami GNOME a KDE"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM pridá podporu myši textovo orientovaným aplikáciám ako napríklad\n"
+#~ "Midnight Commander. Takisto umožní v textových konzolách kopírovanie\n"
+#~ "pomocou myši a podporu pop-up menu."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake vyhľadáva nový hardvér a nastavuje parametre\n"
+#~ "nového alebo zmeneného hardvéru."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache je WWW server. Je používaný na poskytovanie HTML stránok a CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Internet superserver démon (väčšinou nazývaný inetd) poskytuje mnoho\n"
+#~ "služieb súvisiacich s Internetom. Je zodpovedný za spúšťanie služieb\n"
+#~ "ako telnet, ftp, rsh, rlogin a iné. Vypnutím inetd vypnete všetky\n"
+#~ "služby, za ktoré je zodpovedný."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Spustí filtrovanie paketov pre Linux kernel verzie 2.2 na \n"
+#~ "ochranu vášho počítača pred útokmi zo siete."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Tento balík nahrá do pamäti vybranú klávesnicovú mapu z nastavenia v\n"
+#~ "/etc/sysconfig/keyboard. Nastavenie sa dá meniť napríklad pomocou\n"
+#~ "konfiguračného nástroja kbdconfig."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Automatická obnova hlavičiek jadra v /boot\n"
+#~ "pre /usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Automatická detekcia a konfigurácia hardvéru pri štarte."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf niekedy nastaví vykonanie rôznych úloh počas\n"
+#~ "zavádzania systému pre udržanie konfigurácie."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd je tlačový démon, ktorý je požadovaný pre správnu prácu nástroja lpr."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr "Linux Virtual Server sa používa na vysoko výkonné a HA riešenia."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) je doménový menný server (DNS) používaný na preklad z mena "
+#~ "počítača na IP adresu."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Pripája a odpája všetky NFS, SMB (Windows) a NCP (NetWare)\n"
+#~ "body pripojenia."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Aktivovať/Deaktivovať všetky sieťové zariadenia konfigurované pre "
+#~ "spustenie\n"
+#~ "po zavedení systému."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS je populárny protokol, určený na zdieľanie súborov v TCP/IP sieťach.\n"
+#~ "Táto služba umožňuje pomocou NFS servera exportovať priečinky nastavené\n"
+#~ "v /etc/exports"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS je známy protokol, určený na zdieľanie súborov cez TCP/IP siete.\n"
+#~ "Táto služba pridá NFS serveru funkciu lockovania súborov."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Automaticky zapne num-lock pod konzolou a Xorg počas\n"
+#~ "štartu systému."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Podpora pre OKI 4w a kompatibilné win tlačiarne."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "Podpora PCMCIA je väčšinou používaná na sprístupnenie sieťovej karty,\n"
+#~ "alebo modemu v notebookoch."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Portmaper spravuje RPC pripojenia, ktoré sú používané protokolmi ako\n"
+#~ "NFS a NIS. Portmap server musí byť spustený na počítačoch, ktoré sú \n"
+#~ "servermi pre protokoly používajúce RPC mechanizmus."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix je Mail Transport Agent, čiže program, ktorý prenáša emaily z "
+#~ "počítača na počítač."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Ukladá a obnovuje systémový zásobník náhody pre vyššiu kvalitu "
+#~ "generátora\n"
+#~ "náhodných čísel."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Priradí raw zariadenie k blokovému (ako napríklad oddiely pevného\n"
+#~ "disku) pre použitie v aplikáciách ako Oracle alebo DVD prehrávače"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Routed démon umožňuje automatickú úpravu smerovacích IP tabuliek\n"
+#~ "cez RIP protokol. RIP je častejšie používaný na malých sietiach. Pre\n"
+#~ "komplexnejšie siete je potrebný komplexný smerovací protokol."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Rstat protokol umožňuje používateľom získavať cez sieť\n"
+#~ "informácie o zaťažení akéhokoľvek počítača na sieti."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Rusers protokol umožňuje zistiť používateľom cez sieť, kto je\n"
+#~ "prihlásený na zodpovedajúcich počítačoch."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Rwho protokol zašle vzdialeným používateľom zoznam všetkých používateľov\n"
+#~ "prihlásený na systéme, na ktorom je spustený rwho démon (podobne ako "
+#~ "finger)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Spustiť zvukový systém na vašom počítači"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog je možnosť, ktorú využíva mnoho démonov na ukladanie správ\n"
+#~ "do rôznych systémových log súborov. Je dobré, keď je syslog vždy spustený."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Načítanie ovládačov pre vaše usb zariadenia."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Spúšťa X Font Server (je potrebný pre spustenie Xorg)."
+
+#~ msgid "Printing"
+#~ msgstr "Tlačenie"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "File sharing"
+#~ msgstr "Zdieľanie súborov"
+
+#~ msgid "System"
+#~ msgstr "Systém"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Vzdialená správa"
+
+#~ msgid "Database Server"
+#~ msgstr "Databázový server"
+
+#~ msgid "Services"
+#~ msgstr "Služby"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "Zvoľte si služby, ktoré budú spustené automaticky po štarte systému"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Služby: %d aktivované  %d registrované"
+
+#~ msgid "running"
+#~ msgstr "spustené"
+
+#~ msgid "stopped"
+#~ msgstr "zastavené"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Služby a démoni"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Žiadne rozširujúce informácie\n"
+#~ "o tejto službe, prepáčte."
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Start when requested"
+#~ msgstr "Spustiť ak existuje taká požiadavka"
+
+#~ msgid "On boot"
+#~ msgstr "Spustiť pri štarte"
+
+#~ msgid "Start"
+#~ msgstr "Spustiť"
+
+#~ msgid "Stop"
+#~ msgstr "Zastaviť"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Tento program je voľný softvér; môžete ho redistribuovať a/alebo "
+#~ "modifikovať\n"
+#~ "pod podmienkami GNU GPL, ktorá je publikovaná Free Software Foundation;\n"
+#~ "tak pod verziou 2, ako aj akúkoľvek neskoršiu verziu (podľa vášho "
+#~ "výberu).\n"
+#~ "\n"
+#~ "Tento program je distribuovaný vo viere, že bude užitočný ale bez "
+#~ "AKÝCHKOĽVEK ZÁRUK;\n"
+#~ "vrátane implicitnej záruky o OBCHODOVATEĽNOSTI alebo VHODNOSTI PRE "
+#~ "KONKRÉTNY\n"
+#~ "ÚČEL. Pozrite si tiež licenciu GNU General Public License pre bližšie "
+#~ "detaily.\n"
+#~ "\n"
+#~ "Kópiu GNU General Public License je možné získať spolu s týmto programom; "
+#~ "ak nie,\n"
+#~ "napíšte na adresu Free Software Foundation, Inc., 51 Francklin Street, "
+#~ "Fifth Floor,\n"
+#~ "Boston, MA 02110-1301, USA.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Aplikácia pre zálohovanie a obnovu údajov\n"
+#~ "\n"
+#~ "--default             : zálohovať štandardné priečinky.\n"
+#~ "--debug               : zobraziť všetky ladiace informácie.\n"
+#~ "--show-conf           : zoznam súborov alebo priečinkov pre zálohovanie.\n"
+#~ "--config-info         : zobrazenie nastavení z konfiguračného súboru (pre "
+#~ "používateľov bez X-ov ).\n"
+#~ "--daemon              : použiť konfiguáciu pre démona. \n"
+#~ "--help                : zobraziť túto správu.\n"
+#~ "--version             : zobraziť informácie o verzii.\n"
+
+#~ msgid ""
+#~ "[--boot] [--splash]\n"
+#~ "OPTIONS:\n"
+#~ "  --boot            - enable to configure boot loader\n"
+#~ "  --splash          - enable to configure boot theme\n"
+#~ "default mode: offer to configure autologin feature"
+#~ msgstr ""
+#~ "[--boot] [--splash]\n"
+#~ "VOĽBY:\n"
+#~ "  --boot            - povoliť konfiguráciu zavádzača\n"
+#~ "  --splash          - povoliť konfiguráciu témy pri spúšťaní\n"
+#~ "štandardný režim: ponuka na konfiguráciu vlastnosti autologin"
+
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[NASTAVENIA] [MENO_PROGRAMU]\n"
+#~ "\n"
+#~ "NASTAVENIA:\n"
+#~ "  --help            - zobraziť túto správu.\n"
+#~ "  --report          - program by mal byť jedným z Mandriva Linux "
+#~ "nástrojov\n"
+#~ "  --incident        - program by mal byť jedným z Mandriva Linux nástrojov"
+
+#~ msgid ""
+#~ "[--add]\n"
+#~ "  --add             - \"add a network interface\" wizard\n"
+#~ "  --del             - \"delete a network interface\" wizard\n"
+#~ "  --skip-wizard     - manage connections\n"
+#~ "  --internet        - configure internet\n"
+#~ "  --wizard          - like --add"
+#~ msgstr ""
+#~ "[--add]\n"
+#~ "  --add             - sprievodca pridania sieťového rozhrania\n"
+#~ "  --del             - sprievodca odstránením sieťového rozhrania\n"
+#~ "  --skip-wizard     - menežovanie pripojení\n"
+#~ "  --internet        - nastavenie prístupu k internetu\n"
+#~ "  --wizard          - pododne ako --add"
+
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "\n"
+#~ "Aplikácia pre import a monitorovanie aplikácií\n"
+#~ "\n"
+#~ "VOĽBY:\n"
+#~ "--windows_import : import zo všetkých dostupných windows partícií.\n"
+#~ "--xls_fonts      : zobraziť všetky fonty, ktoré už existujú z xls.\n"
+#~ "--strong         : striktná kontrola fontov.\n"
+#~ "--install        : akceptovať akýkoľvek font alebo akýkoľvek priečinok s "
+#~ "fontom.\n"
+#~ "--uninstall      : odinštalovať akýkoľvek font alebo akýkoľvek priečinok "
+#~ "s fontom.\n"
+#~ "--replace        : nahradiť všetky už existujúce fonty\n"
+#~ "--application    : 0 žiadna aplikácia.\n"
+#~ "                 : 1 všetky aplikácie ktoré sú podporované a dostupné.\n"
+#~ "                 : meno_aplikácie, napríklad so pre staroffice\n"
+#~ "                 : a gs pre ghostscript."
+
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[VOĽBY]...\n"
+#~ "Konfigurácia Mandriva Linux Terminal Servera\n"
+#~ "--enable         : povoliť MTS\n"
+#~ "--disable        : zakázať MTS\n"
+#~ "--start          : spustiť MTS\n"
+#~ "--stop           : zastaviť MTS\n"
+#~ "--adduser        : pridať existujúceho používateľa do MTS (potrebné "
+#~ "používateľské meno)\n"
+#~ "--deluser        : zrušiť existujúceho používateľa z MTS (potrebné "
+#~ "používateľské meno)\n"
+#~ "--addclient      : pridať klientský počítač do MTS (potrebná je MAC "
+#~ "addresa, IP adresa, nbi obraz)\n"
+#~ "--delclient      : zrušiť existujúci klientský počítač z MTS (potrebná je "
+#~ "MAC addresa, IP adresa, nbi obraz)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[klávesnica]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=súbor] [--word=slovo] [--explain=regexp] [--alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[VOĽBY]\n"
+#~ "Sieťové a Internetové pripojenie a monitorovacia aplikácia\n"
+#~ "\n"
+#~ "--defaultintf interface : zobraziť toto rozhranie ako predpolené\n"
+#~ "--connect : pripojiť k Internetu ak nie je pripojenie aktívne\n"
+#~ "--disconnect : odpojiť od Internetu ak je pripojenie aktívne\n"
+#~ "--force : použíť pre násilné pripojenie/odpojenie.\n"
+#~ "--status : vráti 1 ak je pripojenie aktívne, inak 0.\n"
+#~ "--quiet : potlačí interaktivitu, vhodné pre pripojenie/odpojenie."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[VOĽBY]...\n"
+#~ "  --no-confirmation      nepýtať sa na prvú potvrdzujúcu otázku v "
+#~ "Mandriva Update režime\n"
+#~ "  --no-verify-rpm        nekontrolovať podpisy balíkov\n"
+#~ "  --changelog-first      zobraziť changelog pred zobrazením súborov v "
+#~ "okne s popisom\n"
+#~ "  --merge-all-rpmnew     požiadať o zlúčenie všetkých nájdených .rpmnew/."
+#~ "rpmsave súborov"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_zdrojový_priečinok] [--"
+#~ "update-usbtable] [--dynamic=zariadenie]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [všetko]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake rozlíšenie"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Použitie: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Pridať server"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Južná Afrika"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Rakúsko"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Južná Afrika"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Macedónsko"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Južná Afrika"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Ruská Federácia"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Juhoslávia"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Je to správne?"
+
+#~ msgid "No file chosen"
+#~ msgstr "Nebol vybraný žiaden súbor"
+
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "Vybrali ste súbor, nie priečinok"
+
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Vybrali ste priečinok, nie súbor"
+
+#~ msgid "No such directory"
+#~ msgstr "Priečinok neexistuje"
+
+#~ msgid "No such file"
+#~ msgstr "Súbor neexistuje"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Rozbaliť stromovú štruktúru"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Zbaliť stromovú štruktúru"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Prepnutie medzi menným a skupinovým triedením"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s nie je nainštalovaný\n"
+#~ "Kliknite na \"Ďalej\" pre inštaláciu, alebo \"Zruš\" pre ukončenie"
+
+#~ msgid "Installation failed"
+#~ msgstr "Inštalácia zlyhala"

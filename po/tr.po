@@ -1,0 +1,5445 @@
+# translation of DrakX-tr.po to Turkish
+# Copyright (C) 2000,2003 Free Software Foundation, Inc.
+# Copyright (c) 2000 Mandriva
+# ############################################
+#
+# Ömer Fadıl USTA <omer_fad@hotmail.com> , 1999-2003.
+# Tuncay YENİAY <tuncayyeniay@mynet.com>,2002.
+# Nazmi Savga <nsavga@doruk.net.tr>,2001.
+# Durmuş Celep <durmusc_tr@yahoo.com>,2002.
+# Erçin EKER <erc.caldera@gmx.net>, 2003.
+#
+# #############################################
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-tr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2004-09-15 13:35+0200\n"
+"Last-Translator: Ömer Fadıl USTA <omer_fad@hotmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB veya daha fazla"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X sunucusu"
+
+#
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Bir X sunucusu seçiniz"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Çoklu-Kafa yapılandırması"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Sisteminiz Çoklu-Kafa yapılandırmasını destekliyor.\n"
+"Ne yapılmasını isterdiniz ?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Ekran kartınızın bellek miktarını seçin"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Tüm kafalar tek tek yapılandırılıyor"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Xinerama genişletmesini kullan"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Sadece \"%s\" %s kartı yapılandırılsın"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Özel"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Bağlantı Ayarları"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Çık"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Grafik Kartı"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Monitör"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Test"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Seçenekler"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Değişiklikler kaydedilsin mi?\n"
+"Şu an ki yapılandırma:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Monitörünüzü seçin"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Monitörünüzü seçin"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Tak Kullan"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Genel"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Üretici"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr ""
+"Tak ve Çalıştır yöntemiyle monitör algılanamadı. Lütfen doğru modeli seçin"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Burada ki iki önemli parametre dikey ve yatay tazeleme hızlarıdır.\n"
+"Seçiminizi yaparken monitörünüzün kapasitesinin üstünde bir seçim\n"
+"yapmamanız oldukça önemlidir, aksi takdirde monitör zarar görebilir.\n"
+"Seçerken bir ikileme düşerseniz, düşük çözünürlükte bir ayar seçin."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Yatay tazeleme hızı"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Dikey tazeleme hızı"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Eklentileri kullan"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 renk (8 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 bin renk (15 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 bin renk (16 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 milyon renk (24 bit)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Çözünürlükler"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Diğer"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Çözünürlüğü ve renk derinliğini belirtin"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Ekran kartı: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Tamam"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Yardım"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Yapılandırmanın denenmesi"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Yapılandırmanızı denemek ister misiniz?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Uyarı: Bu grafik kartı denenilirken makinanız kilitlenebilir"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Bir hata oluştu:\n"
+"%s\n"
+"Parametreleri değiştirmeyi deneyin"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "%d saniye içerisinde çıkılıyor"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Ayarlamalar doğru mu?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Klavye yerleşimi: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Fare türü: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Monitör: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Monitörün Yatay Tazelemesi: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Monitörün Dikey Tazelemesi: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Ekran kartı: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Ekran kartı belleği: %s KB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Renk derinliği: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Çözünürlük: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg sürücüsü: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Xorg yapılandırması"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Ekran kartı: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Açılışta X"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Bilgisayarınız otomatik olarak X'le açılması için ayarlanabilir.\n"
+"Açılışta X Window ile başlamak ister misiniz?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Ekran kartınızda TV-OUT (televizyon çıkışı) bağlayıcısı\n"
+"var gibi görünüyor. Frame-buffer ile çalışmaya ayarlanabilir.\n"
+"\n"
+"Bunun için bilgisayarı açmadan önce ekran kartınızı televizyonunuza "
+"bağlamanız ve açılış yükleyicisinde \"TVout\" girişini seçmeniz gerekli.\n"
+"\n"
+"Kartınızda bu özellik var mı?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "TV kartınız hangi normda ?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Çek dili (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Almanca"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak dili"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "İspanyolca"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Fince"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Fransızca"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "İngiliz (UK) klavye"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Norveççe"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Polonezce"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Rusça"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "İsveççe"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Amerikan (US) klavye"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Arnavutça"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Ermenice (eski)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Ermenice (daktilo)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Ermenice (fonetik)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Arapça"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerice (latin)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Belçika dili"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Bengalce (İnscript klavyesi)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Bengalce (Probhat klavyesi)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Bulgarca (fonetik)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Bulgaristan"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Brezilya dili (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Boşnakça"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Boşnakça"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Belarusça"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "İsveççe (Alman klavyesi)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "İsveççe (Fransız klavyesi)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Arapça"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Çekçe (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Almanca (ölü tuşlar yok)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Devanagari"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Danimarkaca"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvoryak dili (US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvoryak (Norveççe)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvoryak (Norveççe)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvoryak dili (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvoryak (Norveççe)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvoryak dili (İsveçce)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvoryak dili (İsveçce)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonya dili"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Yunanca"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Gürcüce (Rus klavyesi)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Gürcü dili (Latin klavye)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Yunanca"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Güceratça"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Krotyan"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Macarca"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "İrlandalı"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Eskimo dili"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "İbranice"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "İbranice (Fonetik)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Farsça"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "İzlandaca"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "İtalyanca"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japonca 106 tuş"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Kannada"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "İngiliz (UK) klavye"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Kore klavyesi"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Arapça"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Latin Amerika dili"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Laos dili"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Litvanya dili AZERTY (eski)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Litvanya dili AZERTY (yeni)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Litvanya dili \"üst sıra\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Litvanya dili \"Fonetik\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Latviya dili"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Malayalam"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Makedonya dili"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Myanmar (Burmaca"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Moğolca (kiril)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Maltaca (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Maltaca (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Hollanda dili"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Oriya"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Lehçe (QWERTY klavye)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Lehçe (QWERTZ klavye)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Polonezce"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Portekizce"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Fransızca (Kanada/Quebec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Romence (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Romence (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Rusça (Fonetik)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Slovence"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Slovakça (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Slovakça (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Saami (norwegian)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Thai klavye"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Sırpça (kril)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Süryanice"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Süryanice (fonetik)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Tamil (ISCII-planı)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Tamil (daktilo-planı)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Thai klavye"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Thai klavye"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Thai klavye"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Tacik klavye"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Almanca"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Türkçe (geleneksel \"F\" klavye)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Türkçe (105 tuş \"Q\" klavye)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Ukrayna dili"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Oriya"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Amerikan (US) klavye (uluslararası)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Uzbek (cyrillic)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vietnamca \"numerik satır\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Yugoslavca (latin)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "AltGr tuşu"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "İki shift tuşu birlikte"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Cntrl ve shift tuşları birlikte"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock tuşu"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Ctrl ve Alt tuşları birlikte"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl ve Alt tuşları birlikte"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt ve Shift tuşları birlikte"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"Menu\" tuşu"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Sol \"Windows\" tuşu"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Sağ \"Windows\" tuşu"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "İki Kontrol tuşu birlikte"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "İki Alt tuşu birlikte"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Sol Shift(BÜYÜKHARF) tuşu"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Sağ Shift tuşu"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Sol Alt tuşu"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Sol Kontol tuşu"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Sağ Kontrol tuşu"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Değişik klavye tuş eşlemleri arasında geçiş yapacak tuşu ya da\n"
+"tuş bileşimini burada seçebilirsiniz (örn: Türkçe ile İngilizce arasında)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Uyarı"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Fare"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standart"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Sıradan Tekerli PS2 Fare"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Otomatik"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 tuşlu"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Sıradan 2 Tuşlu Fare"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Tekerlek Emülasyonlu Genel 3 tuşlu Fare"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Tekerli"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "seri"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Sıradan 3 Tuşlu Fare"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Tekerlek emülasyonlu Logitech MouseMan"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Tekerlek emülasyonlu Logitech CC Serisi"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Fare (seri, eski C7 türü)"
+
+#: ../lib/mouse.pm:70
+#, fuzzy, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Fare (seri, eski C7 türü)"
+
+#: ../lib/mouse.pm:72
+#, fuzzy, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "bus fare"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 tuşlu"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 tuşlu"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "Tekerlek Emülasyonlu 3 tuş"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Ulusal"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "hiçbiri"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Fare yok"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Lütfen kullandığınız farenin türünü seçin."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Elle seçim"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Üçüncü tuş öykünümü?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Fare Portu"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Farenizin bağlı olduğu seri portu seçiniz."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Tuş Emülasyonu"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "2. Tuş emülasyonu"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "3. Tuş Emülasyonu"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Lütfen farenizi deneyin"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Fareyi aktif hale getirmek için"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "FARENİZİN TEKERİNİ HAREKET ETTİRİN!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Yeni ayarların etkinleşmesi için sistemi yeniden başlatmalısınız"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Klavye"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Lütfen, klavye yerleşimini seçiniz."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Klavye Düzeni"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Klavye"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Konsolda BackSpace duşunun Silme işlemi yapmasını ister misiniz?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Farenin denemesi"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Lütfen farenizi deneyin:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Kullanıcılar"
+
+#~ msgid "Please wait"
+#~ msgstr "Lütfen bekleyin"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Önyükleyici kurulumu devam ediyor"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "Önyükleyici kurulumu başarısız. Oluşan hata:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Önyükleyiciyi etkinleştirmek için Gömülü Sistem önyükleme aygıtınızı\n"
+#~ "değiştirme gereği duyabilirsiniz. Yeniden başlatma sırasında önyükleyici\n"
+#~ "komut satırını göremiyorsanız, sistemi yeniden başlatırken Command-Option-"
+#~ "O-F\n"
+#~ "seçtikten sonra:\n"
+#~ "  setenv boot-device %s,\\\\:tbxi\n"
+#~ "ve ardından:   shut-down \n"
+#~ "girerseniz, sonraki açılışta önyükleyici komut satırını görmeniz gerekir."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Sistem yükleyicinizi bir disk bölümüne yüklemeye karar verdiniz.\n"
+#~ "Bu durum sistemi boot ettiğiniz hard disk sürücüsü üzerinde bir sistem "
+#~ "yükleyicinin olduğunu gösteriyor.(örn: System Commander)\n"
+#~ "\n"
+#~ "Hangi sürücüden sistemi önyükleme(boot) gerçekleştiriyorsunuz?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Diskin ilk sektörü (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Kök bölümünün ilk sektörü"
+
+#~ msgid "On Floppy"
+#~ msgstr "Açılış Disketinden"
+
+#~ msgid "Skip"
+#~ msgstr "Atla"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "LILO/grub Kurulumu"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Önyükleyiciyi nereye kurmak istiyorsunuz?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Önyükleme Yapılandırması"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Önyükleyici ana seçenekleri"
+
+#~ msgid "Bootloader"
+#~ msgstr "Önyükleyici"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Kullanılacak önyükleyici(bootloader)"
+
+#~ msgid "Boot device"
+#~ msgstr "Önyükleme Aygıtı"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Öntanımlı görüntünün yüklenmesinden önceki gecikme"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "ACPI özelliğini etkinleştir"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "ACPI özelliğini etkinleştir"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "ACPI özelliğini etkinleştir"
+
+#~ msgid "Password"
+#~ msgstr "Parola"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Parolalar uyuşmuyor"
+
+#~ msgid "Please try again"
+#~ msgstr "Lütfen tekrar deneyin"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "%s bağlama noktası için parolalı dosya sistemi kullanamazsınız"
+
+#~ msgid "Password (again)"
+#~ msgstr "Parola (tekrar)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Komut satırı seçeneklerini kısıtla"
+
+#~ msgid "restrict"
+#~ msgstr "kısıtla"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "\"Komut satırı seçeneklerini kısıtla\" seçeneği parolasız bir işe yaramaz"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "/tmp dizinin her açılışta temizle"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Gereken bellek (%d MB bulundu)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Bellek boyutunu Mb cinsinden veriniz"
+
+#~ msgid "Init Message"
+#~ msgstr "Init İletileri"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Gömülü Sistem Gecikmesini Aç"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Çekirdek Önyükleme Zaman Aşımı"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "CD den açılış etkinleştirilsin mi?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "OF açılışı etkinleştirilsin mi?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Öntanımlı İşletim Sistemi?"
+
+#~ msgid "Image"
+#~ msgstr "Görüntü"
+
+#~ msgid "Root"
+#~ msgstr "Kök"
+
+#~ msgid "Append"
+#~ msgstr "Sonuna ekle"
+
+#~ msgid "Video mode"
+#~ msgstr "Ekran kipi"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "Yeni profil..."
+
+#~ msgid "Label"
+#~ msgstr "Etiket"
+
+#~ msgid "Default"
+#~ msgstr "Öntanımlı"
+
+#~ msgid "NoVideo"
+#~ msgstr "Görüntüsüz"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Boş etiket kabul edilemez"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Bir çekirdek görüntüsü belirtmelisiniz"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Bir kök disk bölümü belirtmelisiniz"
+
+#~ msgid "This label is already used"
+#~ msgstr "Bu etiket kullanımda"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Ne tür bir giriş eklemek istiyorsunuz?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Diğer işletim sistemi (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Diğer işletim sistemi (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Diğer işletim sistemi (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Bundan böyle burdakiler sizin açılış menünüzü teşkil edecek öğelerdir.\n"
+#~ "Burada ki seçeneklere yenilerini ekleyebilir ya da mevcut olanları "
+#~ "değiştirebilirsiniz."
+
+#~ msgid "access to X programs"
+#~ msgstr "X uygulamalarına erişim"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "rpm araçlarına erişim"
+
+#~ msgid "allow \"su\""
+#~ msgstr "\"su\"  komutuna izin ver"
+
+#~ msgid "access to administrative files"
+#~ msgstr "yönetimsel dosyalara erişim"
+
+#~ msgid "access to network tools"
+#~ msgstr "ağ araçlarına erişim"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "derleme araçlarına erişim"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(%s zaten ekli)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Lütfen bir kullanıcı adı verin"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Kullanıcı adında sadece küçük harfler, sayılar, `-' ve `_' karakterleri "
+#~ "bulunabilir"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Seçilen kullanıcı adı çok uzun"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Bu kullanıcı adı daha önce eklenmiş"
+
+#~ msgid "User ID"
+#~ msgstr "Kullanıcı ID"
+
+#~ msgid "Group ID"
+#~ msgstr "Grup ID"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "%s seçeneği bir sayı olmalıdır!"
+
+#~ msgid "Add user"
+#~ msgstr "Kullanıcı ekle"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Bir kullanıcı girin\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Bitti"
+
+#~ msgid "Accept user"
+#~ msgstr "Kullanıcıyı kabul et"
+
+#~ msgid "Real name"
+#~ msgstr "Gerçek adı"
+
+#~ msgid "Login name"
+#~ msgstr "Giriş Adı"
+
+#~ msgid "Shell"
+#~ msgstr "Kabuk"
+
+#~ msgid "Icon"
+#~ msgstr "Simge"
+
+#~ msgid "Autologin"
+#~ msgstr "Otomatik Giriş"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Bilgisayar açıldığında otomatik olarak bir kullanıcının sisteme giriş "
+#~ "yapmasını sağlayabilirim."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Bu özelliği kullanmak istiyor musunuz?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Öntanımlı kullanıcıyı seçiniz:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Çalıştırmak istediğiniz pencere yöneticisini seçiniz:"
+
+#~ msgid "License agreement"
+#~ msgstr "Lisans anlaşması"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "Sürüm: "
+
+#~ msgid "Accept"
+#~ msgstr "Kabul"
+
+#~ msgid "Refuse"
+#~ msgstr "Red"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Lütfen kullanacağınız dili seçiniz."
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "Elle seçim"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Mandriva Linux çoklu dil desteğine sahiptir.\n"
+#~ "Kurulumdan sonra kullanmak isteyebileceğiniz diğer dilleri de "
+#~ "seçebilirsiniz"
+
+#~ msgid "All languages"
+#~ msgstr "Tüm lisanlar"
+
+#~ msgid "Country / Region"
+#~ msgstr "Ülke"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Lütfen ülkenizi seçiniz."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Mevcut tüm ülkelerin listesi"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "Diğer portlar"
+
+#~ msgid "Advanced"
+#~ msgstr "Gelişmiş"
+
+#, fuzzy
+#~ msgid "Input method:"
+#~ msgstr "Ağ Yöntemi:"
+
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "No sharing"
+#~ msgstr "Paylaşımsız"
+
+#~ msgid "Allow all users"
+#~ msgstr "Tüm kullanıcılara izin ver"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Kullanıcıların, bazı dizinlerini paylaşmasına izin vermek ister misiniz?\n"
+#~ "Buna izin vermek, kullanıcıların konqueror ve nautilusta \"Paylaş\"ı "
+#~ "tıklayabilmelerine olanak sağlayacaktır.\n"
+#~ "\"İsteğe bağlı\" kullanıcı bazında izin tanımı sağlar.\n"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "NFS ya da SMB kullanarak sunabilirsiniz. Hangisini kullanmak isterseniz."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "userdrake uygulamasını çalıştır"
+
+#~ msgid "Close"
+#~ msgstr "Kapat"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Kullanıcılar paylaşım için \"fileshare\" grubunu kullanır.\n"
+#~ "Bu gruba bir kullanıcı eklemek için userdrake aracını kullanabilirsiniz."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Lütfen çıkın ve Ctrl-Alt-BackSpace tuşlarına basın"
+
+#~ msgid "Timezone"
+#~ msgstr "Zaman Dilimi"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Bulunduğunuz zaman dilimi hangisi?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Donanım saati GMT'ye göre ayarlansın"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Donanım saati GMT'ye göre ayarlansın"
+
+#~ msgid "NTP Server"
+#~ msgstr "Zaman sunucusu"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Otomatik saat ayarı (NTP kullanarak)"
+
+#~ msgid "Local file"
+#~ msgstr "Yerel dosya"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#, fuzzy
+#~ msgid "Smart Card"
+#~ msgstr "Ağ kartı"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows Etki alanı"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Tüm yedekler geri alınsın"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Tüm yedekler geri alınsın"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "Yerel Dosyalar:"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows Etki alanı:"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Tüm yedekler geri alınsın"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Tüm yedekler geri alınsın"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "LDAP Kimlik kanıtlaması"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Temel dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP Sunucusu"
+
+#~ msgid "simple"
+#~ msgstr "basit"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "kimlikleme"
+
+#~ msgid "Domain"
+#~ msgstr "Alan Adı"
+
+#~ msgid "Server"
+#~ msgstr "Sunucu"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "Veritabanı"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "Parola gerekiyor"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "NIS Kimlik Kanıtlaması"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS alanı"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS sunucusu"
+
+#, fuzzy
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Bunun W2K PDC ile çalışabilmesi için büyük olasılıkla yöneticinin "
+#~ "aşağıdaki komutu çalıştırıp sunucuyu yeniden başlatması gerekecek: C:"
+#~ "\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /add\n"
+#~ "Ayrıca bu makineyi Windows(TM) alanına katabilmek için alan "
+#~ "yöneticilerinden birinin kullanıcı adına ve parolasına da gereksiniminiz "
+#~ "olacak.\n"
+#~ "Eğer ağ desteği henüz etkinleştirilmemişse, Drakx ağ kurulumundan sonra "
+#~ "alana katılmaya çalışacak.\n"
+#~ "Bu kurulum herhangi bir nedenle gerçekleştirilemezse ve ve alan kimlik "
+#~ "kanıtlaması çalışmıyorsa, sistem başladıktan sonra Windows(TM) alanınız "
+#~ "ve yönetici adı/parolası ile 'smbpasswd -j ALAN -U KULLANICI%PAROLA' "
+#~ "komutunu verin.\n"
+#~ "'wbinfo -t' komutu kimlik kanıtlama sırlarınızın iyi olup olmadığını "
+#~ "denetler."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Windows Alan Kimlik doğrulaması"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Alan Yöneticisinin Kullanıcı Adı"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Alan Yöneticisinin Parolası"
+
+#~ msgid "Authentication"
+#~ msgstr "Kimlik kanıtlama"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Root parolası"
+
+#, fuzzy
+#~ msgid "Authentication method"
+#~ msgstr "kimlikleme"
+
+#~ msgid "No password"
+#~ msgstr "Parola yok"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "Bu parola çok basit (en az %d karakter boyunda olmalıydı)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "NIS alanı olmadan yayın kullanamazsınız"
+
+# NOTE: this message will be displayed at boot time; that is
+# only the ascii charset will be available on most machines
+# so use only 7bit for this message (and do transliteration or
+# leave it in English, as it is the best for your language)
+#
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Isletim Sistemi Secici Uygulamasina Hos Geldiniz!\n"
+#~ "\n"
+#~ "Yukarida ki listeden bir isletim sistemi seciniz\n"
+#~ "ya da ontanimli olanin acilmasi icin bekleyiniz.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "Metin tabanlı LILO"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "/boot içinde yeterli yer yok"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Açılış yükleyicisini %s bölümüne yükleyemezsiniz\n"
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Önyükleyiciyi Yeniden Kurun"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "kB"
+
+#~ msgid "KB"
+#~ msgstr "kB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d dakika"
+
+#~ msgid "1 minute"
+#~ msgstr "1 dakika"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d saniye"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV web sunucularını bir yerel dizine bağlamaya, ve içinde normal bir\n"
+#~ "dosya sisteminde dolaşır gibi dolaşmanıza izin veren bir protokoldür.\n"
+#~ "(tabiki öncelikle WebDAV sunucu olarak yapılandırıldıktan sonra).\n"
+#~ "Eğer WebDAW bağlama noktası eklemek istiyorsanız \"Yeni\" seçeneğini "
+#~ "seçiniz."
+
+#~ msgid "New"
+#~ msgstr "Yeni"
+
+#~ msgid "Unmount"
+#~ msgstr "Ayır"
+
+#~ msgid "Mount"
+#~ msgstr "Bağla"
+
+#~ msgid "Mount point"
+#~ msgstr "Bağlama noktası"
+
+#~ msgid "Error"
+#~ msgstr "Hata"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Lütfen WebDAV sunucusu URL'ini giriniz"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL http:// veya https:// ile başlamalıdır"
+
+#~ msgid "Server: "
+#~ msgstr "Sunucu: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Bağlama noktası: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Seçenekler: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Bölümlendirme"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Dikkatli Okuyun!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Önce verinizin yedeğini alınız"
+
+#~ msgid "Exit"
+#~ msgstr "Çıkış"
+
+#~ msgid "Continue"
+#~ msgstr "Devam"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Aboot'u kullanmayı planlıyorsanız, diskin başlangıcında\n"
+#~ "boş disk alanı (2048 sektör yeterli) bırakmayı ihmal etmeyin."
+
+#~ msgid "Choose action"
+#~ msgstr "Birini seçin"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Tek bir büyük Microsoft Windows disk bölümünüz var\n"
+#~ "Size Öncelikle bu disk bölümünün boyutunu düzenlemenizi\n"
+#~ "öneriyoruz. (Önce bölümün üzerine, sonra \"Yeniden\n"
+#~ "Boyutlandır\" düğmesine tıklayınız)"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Lütfen bir bölüm üzerine tıklayın"
+
+#~ msgid "Details"
+#~ msgstr "Ayrıntılar"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Hiçbir sabitdisk bulunamadı"
+
+#~ msgid "Unknown"
+#~ msgstr "Bilinmeyen"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Journalised FS"
+
+#~ msgid "Swap"
+#~ msgstr "Takas"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Boş"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Dosya sistemi türü:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Bu bölüm tekrar boyutlandırılabilir değil"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Önce ``Ayır''ı kullanın"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Yerine ``%s'' kullanın"
+
+#~ msgid "Type"
+#~ msgstr "Türü"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Bir başka disk bölümü seçiniz"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Bir disk bölümü seçiniz"
+
+#~ msgid "Undo"
+#~ msgstr "Geri al"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Normal kipe geç"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Uzman kipine geç"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Yapılandırma"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Yine de devam edilsin mi?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Kaydetmeden Çık"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Bölümlendirme tablosunu kaydetmeden mi çıkıyorsunuz?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "/etc/fstab değişikliklerini kaydetmek istiyor musunuz ?"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Bölümlendirme tablosundaki değişikliklerin geçerli olması için makinanızı "
+#~ "yeniden başlatmalısınız."
+
+#~ msgid "Clear all"
+#~ msgstr "Tümünü Temizle"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Otomatik bölümle"
+
+#~ msgid "More"
+#~ msgstr "Ayrıntı"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Sabit Disk bilgisi"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Tüm birincil disk bölümleri kullanıldı"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Başka disk bölümü eklenemez"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Daha fazla bölüm oluşturmak için, bir bölümü silip mantıksal bölüm "
+#~ "oluşturun"
+
+#~ msgid "Save partition table"
+#~ msgstr "Bölümlendirme tablosunu kaydet"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Bölümlendirme tablosunu eski durumuna getir"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Bölümlendirme tablosunu kurtar"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Bölümlendirme tablosunu yeniden yükle"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Kaldırılabilir ortam otomatik bağlanıyor"
+
+#~ msgid "Select file"
+#~ msgstr "Dosya seç"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Yedek bölümlendirme tablosu aynı değil\n"
+#~ "Yine de devam etmek istiyor musunuz?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Bölümlendirme tablosu kurtarılmaya çalışılıyor"
+
+#~ msgid "Detailed information"
+#~ msgstr "Ayrıntılı bilgi"
+
+#~ msgid "Resize"
+#~ msgstr "Yeniden Boyutlandır"
+
+#~ msgid "Format"
+#~ msgstr "Biçemle"
+
+#~ msgid "Add to RAID"
+#~ msgstr "RAID'e ekle"
+
+#~ msgid "Add to LVM"
+#~ msgstr "LVM'e ekle"
+
+#~ msgid "Delete"
+#~ msgstr "Sil"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "RAID'den kaldır"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "LVM'den kaldır"
+
+#~ msgid "Modify RAID"
+#~ msgstr "RAID'i değiştir"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Loopback için kullan"
+
+#~ msgid "Create"
+#~ msgstr "Oluştur"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Yeni bölüm oluştur"
+
+#~ msgid "Start sector: "
+#~ msgstr "Başlangıç sektörü: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "MB cinsinden boyut: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Dosya sistemi türü: "
+
+#~ msgid "Preference: "
+#~ msgstr "Tercih: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Mantıksal bölüm adı "
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Yeni bir bölüm oluşturamazsınız\n"
+#~ "(çünkü birincil bölümlerin sayı üst sınırına ulaştınız).\n"
+#~ "Önce birincil bölümlerden birini silip uzatılmış bölüm oluşturun."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Loopback dosyası kaldırılsın mı ?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "%s bölümünün türü değiştirildikten sonra, üzerindeki tüm bilgiler "
+#~ "silinecektir"
+
+#~ msgid "Change partition type"
+#~ msgstr "Bölüm türünü değiştir"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Hangi dosya sistemini istiyorsunuz?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "ext2 yi ext3 e çevir"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Etiket"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "%s loopback dosyasını nereye bağlamak istersiniz ?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "%s aygıtını nereye bağlamak istiyorsunuz?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Bu bağlama noktası loopback için kullanıldığından kaldırılamaz.\n"
+#~ "Önce loopback kaldırılmalıdır."
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "%s aygıtını nereye bağlamak istersiniz?"
+
+#~ msgid "Resizing"
+#~ msgstr "Yeniden boyutlandırılma"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "FAT dosya sistemi sınırları hesaplanıyor"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Bu bölüm tekrar boyutlandırılabilir değil"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Bu bölümdeki tüm bilgiler yedeklenmelidir"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "%s yeniden boyutlandırıldıktan sonra üzerindeki tüm bilgiler silinecektir"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Yeni boyutu belirtin"
+
+#~ msgid "New size in MB: "
+#~ msgstr "MB olarak yeni boyut: "
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Eklemek için mevcut bir RAID seçin"
+
+#~ msgid "new"
+#~ msgstr "yeni"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Eklemek için mevcut bir LVM seçin"
+
+#~ msgid "LVM name?"
+#~ msgstr "LVM ismi?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Bu disk bölümü loopback için kullanılamaz"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Loopback dosya ismi: "
+
+#~ msgid "Give a file name"
+#~ msgstr "Bir dosya ismi verin"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr ""
+#~ "Dosya başka bir loopback tarafından kullanılıyor,başka bir tane seçin"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Dosya zaten var. Kullanılsın mı?"
+
+#~ msgid "Mount options"
+#~ msgstr "Bağlama seçenekleri"
+
+#~ msgid "Various"
+#~ msgstr "Çeşitli"
+
+#~ msgid "device"
+#~ msgstr "aygıt"
+
+#~ msgid "level"
+#~ msgstr "seviye"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "parça boyutu"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Dikkatli olun: bu işlem tehlikelidir."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Ne tür bir bölümleme istiyorsunuz?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Yeni ayarların etkinleşmesi için sistemi yeniden başlatmalısınız"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "%s sürücüsünün bölümlendirme tablosu diske yazılacak!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "%s bölümü biçemlendirilirken üzerinde ki tüm bilgiler silinecektir"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Hatalı bloklar sınansın mı?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Dosyalar yeni bölüme taşınsın"
+
+#~ msgid "Hide files"
+#~ msgstr "Dosyaları gizle"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Dosyalar yeni bölüme taşınsın"
+
+#~ msgid "Copying %s"
+#~ msgstr "%s kopyalanıyor"
+
+#~ msgid "Removing %s"
+#~ msgstr "%s siliniyor"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "%s bölümü şimdi %s olarak biliniyor"
+
+#~ msgid "Device: "
+#~ msgstr "Aygıt: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "DOS sürücü harfi: %s (sadece tahmin)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Türü: "
+
+#~ msgid "Name: "
+#~ msgstr "İsim: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Başlangıç: sektör %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Boyut: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s sektör"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "%d. silindirden %d. silindire kadar\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Biçemlendirilmiş\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Biçemlendirilmemiş\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Bağlandı\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Loopback dosyası:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Öntanımlı olarak yüklenecek bölüm\n"
+#~ "    (MS-DOS açılışı için, lilo için değil)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Seviye %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Parça boyutu %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "RAID-diskleri %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Loopback dosyası ismi: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Şans işte!, bu disk bölümü\n"
+#~ "bir Aygıt bölüm. Ve büyük\n"
+#~ "ihtimalle onu bu şekilde\n"
+#~ "bırakmalısınız.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Bu, çok önyüklemeli sistemler\n"
+#~ "için özel bir önyükleme bölümüdür.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Salt-Okur"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Boyut: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Geometri: %s silindir, %s kafa, %s sektör\n"
+
+#~ msgid "Info: "
+#~ msgstr "Bilgi: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-diskleri %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Bölümlendirme tablosu türü: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "veriyolu %d ve %d kimlikli\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Dosya sistemi parolası"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Dosya sisteminizin parolasını seçiniz"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr "Bu parola çok basit (en az %d karakterlik olmalı)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Parolalar uyuşmuyor"
+
+#~ msgid "Encryption key"
+#~ msgstr "parola"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Parola (tekrar)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Şifreleme algoritması"
+
+#~ msgid "Change type"
+#~ msgstr "Türünü değiştir"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Giriş başarısız %s (hatalı şifre?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Etki alanı kimlik doğrulaması gerekli"
+
+#~ msgid "Which username"
+#~ msgstr "Hangi Kullanıcı adı"
+
+#~ msgid "Another one"
+#~ msgstr "Başka bir"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Bu makineye ulaşmak için lütfen kullanıcı adı, şifre ve etki alanı "
+#~ "giriniz."
+
+#~ msgid "Username"
+#~ msgstr "Kullanıcı Adı"
+
+#~ msgid "Search servers"
+#~ msgstr "Sunucuları ara"
+
+#~ msgid "Search new servers"
+#~ msgstr "Yeni sunucuları ara"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "%s paketinin kurulması gerekiyor. Kurulmasını ister misiniz?"
+
+#, fuzzy
+#~ msgid "Could not install the %s package!"
+#~ msgstr "%s paketi kuruluyor"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Zorunlu %s paketi eksik"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Bu paketlerinde kurulu olması gerekiyor:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Paketler kuruluyor..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Paketler kaldırılıyor..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Bir hata oluştu. Yeni dosya sisteminin oluşturulacağı geçerli bir sürücü "
+#~ "bulunamadı. Bu sorunu çözmek için donanımınızı kontrol edin"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "/boot/efi ye bağlanmış bir FAT bölümüne ihtiyacınız var"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Biçemlendirilen bölüm: %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "%s dosyası oluşturuluyor ve biçemlendiriliyor"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "%s bölümünün %s türünde nasıl biçemlendireceğimi bilmiyorum"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s biçimlemesinde %s bölüm hatası"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Döngüsel bağlama %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "%s bölümü bağlanıyor"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "%2$s dizini içerisine %1$s bölümü bağlanamadı"
+
+#~ msgid "Checking %s"
+#~ msgstr "%s kontrol ediliyor"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "%s ayrılırken hata: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Takas bölümü etkinleştiriliyor: %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr "%s bağlama noktası için parolalı dosya sistemi kullanamazsınız"
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Sadece belirgin olarak bağlanabilir (örn.,\n"
+#~ "-a seçeneği dosya sisteminin bağlanmasını sağlayamayacaktır)."
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Dosya sistemini salt okunur olarak bağla."
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Çok sayıda %s bağlama noktası"
+
+#~ msgid "No partition available"
+#~ msgstr "hiç bölüm bulunamadı"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Bağlama noktalarını bulmak için bölümler taranıyor"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Bağlama noktalarını seçin"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Biçemlendirilecek disk bölümlerini seçin"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "%s dosya sistemi sınanamadı. Hataları onarmak istiyor musunuz? (dikkat "
+#~ "edin, veri yitirebilirsiniz)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "Kurulumu tamamlamak için yeterli takas alanı yok, lütfen ekleme yapın"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Bir kök disk bölümüne ihtiyacınız var.\n"
+#~ "Bunun için mevcut bir disk bölümünü seçebileceğiniz gibi\n"
+#~ "yeni birini de oluşturabilirsiniz.\n"
+#~ "Bundan sonra da \"Bağlama Noktası\"nı '/' olarak değiştirmelisiniz."
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Bir takas disk bölümünüz yok\n"
+#~ "\n"
+#~ "Takas alanı çok önemlidir ve bilhassa 2.4 çekirdekler için belleğin\n"
+#~ "iki katına kadar bir takas alanı önerilir!\n"
+#~ "\n"
+#~ "Devam edilsin mi?"
+
+#~ msgid "Use free space"
+#~ msgstr "Boş alan kullanılsın"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Yeni bölümleri açmak için yeterli yer yok"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Mevcut disk bölümü kullanılsın"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Kullanılabilecek bir bölüm bulunamadı"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Loopback için Microsoft Windows® bölümü kullanılsın"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Linux4Win için hangi disk bölümünü kullanmak istiyorsunuz?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Boyutları seçiniz"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Kök bölümü boyutu (MB): "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Takas bölümü boyutu (MB): "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "loopback olarak kullanılacak hiç FAT bölümü yok (ya da boş alan kalmamış)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Windows'un bulunduğu bölümdeki boş alan kullanılsın"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Hangi bölümü yeniden boyutlandırmak istiyorsunuz?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "FAT boyutlandırıcısı bölümü boyutlandıramıyor, \n"
+#~ "şu hata oluştu: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Microsoft Windows® bölümünün boyutu hesaplanıyor"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Microsoft Windows® bölümünüz çok dağınık, lütfen önce \"defrag\" ile "
+#~ "diskinizdeki dosyaları bir araya getirin"
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "UYARI!\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX Windows bölümünüzü yeniden boyutlandıracak.\n"
+#~ "\n"
+#~ "\n"
+#~ "Dikkatli olun: bu tehlikeli bir iştir. Hazır olduğunuza emin değilseniz, "
+#~ "önce windows komut satırından \"chkdsk c:\" komutunu veriniz (windows "
+#~ "altındaki grafiksel scandiske güvenmeyin ve bunu komut satırından yazıp "
+#~ "yapınız), ardından disk birleştirme operasyonunu yapınız(defrag). Tüm "
+#~ "bunların ardından kuruluma yeniden başlayınız. Bunların dışında "
+#~ "verilerinizi yedeklemiş olmanız tavsiye edilir.\n"
+#~ "\n"
+#~ "\n"
+#~ "Devam etmek için hazır olduğunuzda %s tuşuna basınız."
+
+#~ msgid "Next"
+#~ msgstr "Sonraki"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Microsoft Windows® için"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Boyut: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Microsoft Windows® dosya sistemi sınırları hesaplanıyor"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "FAT yeniden boyutlandırması başarısız: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "Yeniden boyutlandırılacak hiç FAT bölümü yok (ya da boş alan kalmamış)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "MS Windows™ silinsin"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Tüm disk silinsin"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "Birden çok sabit diskiniz var, hangisine linux kurmak istiyorsunuz?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "%s diski üzerindeki TÜM bölümler ve veriler silinecektir"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Özel Disk Bölümlendirme"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Fdisk kullanılsın"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Şimdi %s'i bölümlendirebilirsiniz.\n"
+#~ "İşiniz bittiğinde `w'yi kullanarak değişiklikleri kaydetmeyi unutmayın."
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Kurulum için boş yer bulunamıyor"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "DrakX Bölümlendirme sihirbazı şu çözümleri buldu:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Bölümlendirme başarısız: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "16MB dan küçük disk bölümlerinde JFS kullanamazsınız"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "32MB dan küçük disk bölümlerinde ReiserFS kullanamazsınız"
+
+#~ msgid "with /usr"
+#~ msgstr "/usr ile"
+
+#~ msgid "server"
+#~ msgstr "sunucu"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "%s aygıtının bölümleme tablosunu okuyamadım, çok bozulmuş :(\n"
+#~ "Bozuk bölümleri silerek (BÜTÜN VERİLERİNİZ kaybolacak) devam etmeyi\n"
+#~ "deneyebilirim.\n"
+#~ "Diğer çözüm, DrakX'in bölümleme tablosunu değiştirmesine izin "
+#~ "vermemektir.\n"
+#~ "(Hata %s)\n"
+#~ "\n"
+#~ "Bütün bölümlemeleri kaybetmeyi kabul ediyor musunuz?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Bağlama noktaları / ile başlamalıdır"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Bağlantı noktaları sadece alfabetik harfler içerebilir."
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Bağlama noktası %s olan bir bölüm zaten var\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Bir yazılımsal RAID bölümünü kök dizini (/) olarak seçtiniz.\n"
+#~ "Hiçbir önyükleyici, /boot bölümü olmadan bunu çalıştıramaz.\n"
+#~ "Bu nedenle bir /boot bölümü eklediğinize emin olun."
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "Bir LVM Havuzunu %s bağlantı noktası olarak kullanmazsınız."
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Bir yazılımsal RAID bölümünü kök dizini (/) olarak seçtiniz.\n"
+#~ "Hiçbir önyükleyici, /boot bölümü olmadan bunu çalıştıramaz.\n"
+#~ "Bu nedenle bir /boot bölümü eklediğinize emin olun."
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Bu dizin kök dosya sistemi içinde kalmalı"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Bu bağlama noktası için gerçek bir dosya sistemi (ext2/ext3, reiserfs, "
+#~ "xfs veya jfs) gerekiyor.\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "%s bağlama noktası için parolalı dosya sistemi kullanamazsınız"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Otomatik bölümleme için boş alan yetersiz"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Yapacak bir şey yok"
+
+#~ msgid "Floppy"
+#~ msgstr "Disket Sürücü"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Sürücü"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD yazıcılar"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Teyp"
+
+#~ msgid "AGP controllers"
+#~ msgstr "AGP kontrolcüleri"
+
+#~ msgid "Videocard"
+#~ msgstr "Ekran Kartı"
+
+#~ msgid "Tvcard"
+#~ msgstr "Tv Kartı"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Diğer Çoklu Ortam aygıtları"
+
+#~ msgid "Soundcard"
+#~ msgstr "Ses Kartı"
+
+#~ msgid "Webcam"
+#~ msgstr "İnternet Kamerası"
+
+#~ msgid "Processors"
+#~ msgstr "İşlemciler"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "ISDN kartları"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Ağ Kartı"
+
+#~ msgid "Modem"
+#~ msgstr "Model"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "ADSL kartları"
+
+#~ msgid "Memory"
+#~ msgstr "Hafıza"
+
+#~ msgid "Printer"
+#~ msgstr "Yazıcı"
+
+#~ msgid "Joystick"
+#~ msgstr "Oyun Çubuğu"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA kontrolcüleri"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID kontrolcüleri"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA kontrolcüleri"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire kontrolcüleri"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA kontrolcüleri"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI kontrolcüleri"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB kontrolcüleri"
+
+#, fuzzy
+#~ msgid "USB ports"
+#~ msgstr "USB yazıcı"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus kontrolcüleri"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Köprüler ve sistem kontrolcüleri"
+
+#~ msgid "Mouse"
+#~ msgstr "Fare"
+
+#~ msgid "UPS"
+#~ msgstr "KGK(UPS)"
+
+#~ msgid "Scanner"
+#~ msgstr "Tarayıcı"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Bilinmeyen/Diğerleri"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Lütfen Bekleyiniz... Yapılandırmalar uygulanıyor"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Altarnatif bir sürücü yok"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "%s sürücüsünü kullanan Ses kartınız (%s) için, bilinen başka OSS/ALSA "
+#~ "sürücüsü yok"
+
+#~ msgid "Sound configuration"
+#~ msgstr "Ses yapılandırması"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Buradan ses kartınız(%s) için başka bir sürücü (OSS veya ALSA) "
+#~ "seçebilirsiniz"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ses kartınız şu anda %s\"%s\" sürücüsünü kullanıyor (ses kartınız için "
+#~ "öntanımlısı \"%s\" sürücüsüdür)"
+
+#, fuzzy
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "newOSS(Open Sound System [Serbest Ses Sistemi]) ilk ses API dir. Bir "
+#~ "İşletim sistemi seviyesinde bir API dir. (birçok unices sistemde "
+#~ "mevcuttur) Ama çok temel ve sınırlı bir API dir.\n"
+#~ "Ne dahası , OSS sürücüleri tekerleğin tekrar icadıdır.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture[Gelişmiş Linux Ses Mimarisi]) "
+#~ "modüler bir yapıya sahiptir\n"
+#~ "ve çok geniş bir yelpazesi vardır. Hemen hemen tüm ISA, USB ve PCI "
+#~ "kartlara destek verir.\n"
+#~ "\n"
+#~ "Ve OSS sisteminden kat ve kat performanslı ve güçlüdür.\n"
+#~ "\n"
+#~ "Alsayi kullanabilmek için 2 şarttan birine uymalısınız:\n"
+#~ " - eski OSS uyumluluk api\n"
+#~ "- yeni ALSA api . Çok daha gelişmiş özellikleri vardır fakat ALSA "
+#~ "kütüphanesinin yüklü olmasını ister\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Sürücü:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Sorun çözme"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Eski \"%s\" sürücüsü kara listededir.\n"
+#~ "\n"
+#~ "Çekirdek yüklenirken sürekli hatalar raporlamaktadır.\n"
+#~ "\n"
+#~ "Yeni \"%s\" sürücüsü ancak sonraki açılışta kullanılabilinir."
+
+#~ msgid "No open source driver"
+#~ msgstr "Açık kaynak sürücü yok"
+
+#, fuzzy
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "%s sürücüsünü kullanan Ses kartınız (%s) için, bilinen başka OSS/ALSA "
+#~ "sürücüsü yok"
+
+#~ msgid "No known driver"
+#~ msgstr "Bilinmeyen sürücü"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Ses kartınız (%s) için bilinen bir sürücü yok"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Bilinmeyen sürücü"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Hata: Ses kartınız için \"%s\" sürücüsü listelenmemiş"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Sürücünün yerini ben belirteceğim"
+
+#~ msgid "Auto-detect"
+#~ msgstr "Otomatik algıla"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Bilinmeyen|Genel"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Bilinmeyen|CPH05X (bt878) [çok sayıda üretici]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Bilinmeyen|CPH06X (bt878) [çok sayıda üretici]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Çoğu tv kartı için, GNU/Linux çekirdeğinde bulunan bttv modülü otomatik "
+#~ "olarak kart için gerekli değişkenleri bulur.\n"
+#~ "Eğer kartınız tanınmadıysa, doğru kart tipini ve tunerı burdan seçin. "
+#~ "Gerekiyorsa sadece kartınızın değişkenlerini seçin"
+
+#~ msgid "Card model:"
+#~ msgstr "Kart modeli:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Tuner türü :"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Yakalama tamponu sayısı:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "mmap yakalaması için yakalama tamponu sayısı"
+
+#~ msgid "PLL setting:"
+#~ msgstr "PLL Ayarı:"
+
+#~ msgid "Radio support:"
+#~ msgstr "Radyo desteği :"
+
+#~ msgid "enable radio support"
+#~ msgstr "radyo desteğini etkinleştir"
+
+#~ msgid "Yes"
+#~ msgstr "Evet"
+
+#~ msgid "No"
+#~ msgstr "Hayır"
+
+#~ msgid "Choose a file"
+#~ msgstr "Bir dosya seçin"
+
+#~ msgid "Add"
+#~ msgstr "Ekle"
+
+#~ msgid "Modify"
+#~ msgstr "Değiştir"
+
+#~ msgid "Remove"
+#~ msgstr "Kaldır"
+
+#~ msgid "Finish"
+#~ msgstr "Son"
+
+#~ msgid "Previous"
+#~ msgstr "Önceki"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Hatalı tercih, tekrar deneyin\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Seçiminiz? (%s öntanımlı) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Girdiler:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Seçiminiz? (%s öntanımlı, 0/1) "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Düğme `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Bu düğmeye tıklamak ister misiniz?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Seçiminiz? (`%s'%s öntanımlı) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " enter `void' for void entry"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Oradan seçilecek bir kaç şey var (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Lütfen düzenlemek istediğiniz ilk onluğu seçiniz,\n"
+#~ "ya da devam etmek için ENTER tuşuna basınız.\n"
+#~ "Seçiminiz? "
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Uyarı, değişen etiket:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Yeniden gönder"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andora"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Birleşik Arap Emirlikleri"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antiga ve Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Angula"
+
+#~ msgid "Albania"
+#~ msgstr "Arnavutluk"
+
+#~ msgid "Armenia"
+#~ msgstr "Ermenistan"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Hollanda Antilleri"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antartika"
+
+#~ msgid "Argentina"
+#~ msgstr "Arjantin"
+
+#~ msgid "American Samoa"
+#~ msgstr "Amerikan Samoası"
+
+#~ msgid "Austria"
+#~ msgstr "Avusturya"
+
+#~ msgid "Australia"
+#~ msgstr "Avusturalya"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaycan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosna-Hersek"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladeş"
+
+#~ msgid "Belgium"
+#~ msgstr "Belçika"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaristan"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahreyn"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Bruney Darüsselam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivya"
+
+#~ msgid "Brazil"
+#~ msgstr "Brezilya"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamalar"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bütan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvet Adası"
+
+#~ msgid "Botswana"
+#~ msgstr "Botsvana"
+
+#~ msgid "Belarus"
+#~ msgstr "Belarus"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Kanada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Cocos (Keeling) Adaları"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Congo (Kinshasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Orta Afrika Cumhuriyeti"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Congo (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "İsviçre"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Cote d'Ivoire"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Cook Adaları"
+
+#~ msgid "Chile"
+#~ msgstr "Şili"
+
+#~ msgid "Cameroon"
+#~ msgstr "Kamerun"
+
+#~ msgid "China"
+#~ msgstr "Çin"
+
+#~ msgid "Colombia"
+#~ msgstr "Kolombiya"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Kosta Rika"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Sırbistan"
+
+#~ msgid "Cuba"
+#~ msgstr "Küba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Verde Burnu"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Christmas Adası"
+
+#~ msgid "Cyprus"
+#~ msgstr "Kıbrıs"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Çek Cumhuriyeti"
+
+#~ msgid "Germany"
+#~ msgstr "Almanya"
+
+#~ msgid "Djibouti"
+#~ msgstr "Cibuti"
+
+#~ msgid "Denmark"
+#~ msgstr "Danimarka"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominik"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Dominik Cumhuriyeti"
+
+#~ msgid "Algeria"
+#~ msgstr "Cezayir"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ekvator"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonya"
+
+#~ msgid "Egypt"
+#~ msgstr "Mısır"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Batı Sahra"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritre"
+
+#~ msgid "Spain"
+#~ msgstr "İspanya"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiyopya"
+
+#~ msgid "Finland"
+#~ msgstr "Finlandiya"
+
+#~ msgid "Fiji"
+#~ msgstr "Fiji"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Falkland Adaları (Malvinas)"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronesia"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Faroe Adaları"
+
+#~ msgid "France"
+#~ msgstr "Fransa"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "United Kingdom"
+#~ msgstr "İngiltere"
+
+#~ msgid "Grenada"
+#~ msgstr "Granada"
+
+#~ msgid "Georgia"
+#~ msgstr "Gürcistan"
+
+#~ msgid "French Guiana"
+#~ msgstr "Fransız Guyanası"
+
+#~ msgid "Ghana"
+#~ msgstr "Gana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Cebelitarık"
+
+#~ msgid "Greenland"
+#~ msgstr "Grönland"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambiya"
+
+#~ msgid "Guinea"
+#~ msgstr "Gine"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadalup"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Ekvatoral Gine"
+
+#~ msgid "Greece"
+#~ msgstr "Yunanistan"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Güney Georgia ve Güney Sandwich Adasları"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guetemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Gine-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Çin (Hong Kong)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Heard and McDonald Adaları"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Hırvatistan"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Macaristan"
+
+#~ msgid "Indonesia"
+#~ msgstr "Endonezya"
+
+#~ msgid "Ireland"
+#~ msgstr "İrlanda"
+
+#~ msgid "Israel"
+#~ msgstr "İsrail"
+
+#~ msgid "India"
+#~ msgstr "Hindistan"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Hint Okyanusu İngiliz Sömürgeleri"
+
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#~ msgid "Iran"
+#~ msgstr "İran"
+
+#~ msgid "Iceland"
+#~ msgstr "İzlanda"
+
+#~ msgid "Italy"
+#~ msgstr "İtalya"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jameyka"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordan"
+
+#~ msgid "Japan"
+#~ msgstr "Japonya"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenya"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kırgızistan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Kamboçya"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Komoros"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Sen Kitts ve Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Kore (Kuzey)"
+
+#~ msgid "Korea"
+#~ msgstr "Kore"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuveyt"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Seyman Adaları"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakistan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Lebanon"
+#~ msgstr "Lübnan"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Sen Lusia"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Lihtenştayn"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberya"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesoto"
+
+#~ msgid "Lithuania"
+#~ msgstr "Litvanya"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Lüksemburg"
+
+#~ msgid "Latvia"
+#~ msgstr "Latviya"
+
+#~ msgid "Libya"
+#~ msgstr "Libya"
+
+#~ msgid "Morocco"
+#~ msgstr "Morocco"
+
+#~ msgid "Monaco"
+#~ msgstr "Monako"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldovya"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagaskar"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Marşal Adaları"
+
+#~ msgid "Macedonia"
+#~ msgstr "Makedonya"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Miyanmar"
+
+#~ msgid "Mongolia"
+#~ msgstr "Moğolistan"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Kuzey Meryem Adaları"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinik"
+
+#~ msgid "Mauritania"
+#~ msgstr "Moritanya"
+
+#~ msgid "Montserrat"
+#~ msgstr "Monserat"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Mauritius"
+#~ msgstr "Mauritius"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldiv Adaları"
+
+#~ msgid "Malawi"
+#~ msgstr "Malavi"
+
+#~ msgid "Mexico"
+#~ msgstr "Meksika"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malezya"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambik"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibya"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Yeni İskoçya"
+
+#~ msgid "Niger"
+#~ msgstr "Nijer"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Norfolk Adası"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigeria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nikaragua"
+
+#~ msgid "Netherlands"
+#~ msgstr "Hollanda"
+
+#~ msgid "Norway"
+#~ msgstr "Norveç"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Niue"
+#~ msgstr "Nie"
+
+#~ msgid "New Zealand"
+#~ msgstr "Yeni Zellanda"
+
+#~ msgid "Oman"
+#~ msgstr "Umman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Fransız Polinezyası"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papua Yeni Gine"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipinler"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Polonya"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Sen Piyer ve Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Porto Riko"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestine"
+
+#~ msgid "Portugal"
+#~ msgstr "Portekiz"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Palau"
+#~ msgstr "Palau"
+
+#~ msgid "Qatar"
+#~ msgstr "Katar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Romanya"
+
+#~ msgid "Russia"
+#~ msgstr "Rusya"
+
+#~ msgid "Rwanda"
+#~ msgstr "Ruanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Suudi Arabistan"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Solomon Adaları"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seyşel Adaları"
+
+#~ msgid "Sudan"
+#~ msgstr "Sudan"
+
+#~ msgid "Sweden"
+#~ msgstr "İsveç"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapur"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Sen Helen"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovenya"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Svalbard ve Jan Mayen Adaları"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovakya"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Leone"
+
+#~ msgid "San Marino"
+#~ msgstr "San Marino"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Somalia"
+#~ msgstr "Somali"
+
+#~ msgid "Suriname"
+#~ msgstr "Surinam"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Sao Tome"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syria"
+#~ msgstr "Syria"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swaziland"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Türkler ve Kaykos Adaları"
+
+#~ msgid "Chad"
+#~ msgstr "Çad"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Fransa'nın Güney Bölgeleri"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Tayland"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tacikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "Doğu Timor"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Türkmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunus"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Türkiye"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinidad ve Tobako"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Taiwan"
+#~ msgstr "Tayvan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzania"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukrayna"
+
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "United States Minor Outlying Islands"
+
+#~ msgid "United States"
+#~ msgstr "ABD"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Özbekistan"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatikan"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Sen Vinsınt ve Granadalar"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuella"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Virgin Adaları (İngiliz)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Virgin Adaları (U.S.)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis ve Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samoa"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "South Africa"
+#~ msgstr "Güney Afrika"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambiya"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabve"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "%s Hoş Geldiniz"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Önce mantıksal bölümleri sil\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Giriş\n"
+#~ "\n"
+#~ "İşletim sistemi, ve Mandriva Linux dağıtımında bulunan farklı parçalar\n"
+#~ "buradan itibaren \"Yazılım Ürünleri\" olarak adlandırılacaktır. Yazılım\n"
+#~ "ürünleri işletim sistemiyle ilgili program kümeleri, yötemleri, "
+#~ "kuralları\n"
+#~ "ve dokümanları, Mandriva Linux'in farklı parçalarını içermektedir, fakat\n"
+#~ "bunlarla sınırlandırılmamaktadır.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. Lisans Anlaşması\n"
+#~ "\n"
+#~ "Lütfen bu dokümanı dikkatle okuyun. Bu doküman yazılım ürünlerini "
+#~ "uygulayan\n"
+#~ "Mandriva S.A. ile sizin aranızdaki lisans anlaşmasıdır. Yazılım\n"
+#~ "ürünlerini, kurulum yaparak, çoğaltarak, ya da herhangi bir amaçla "
+#~ "kullanarak\n"
+#~ "bu Lisans'ın şartlarına uyacağınızı açık ve tam olarak kabul etmiş\n"
+#~ "bulunuyorsunuz. Eğer bu Lisans'ın şartlarını kabul etmiyorsanız, yazılım\n"
+#~ "ürünlerini kurma, çoğaltma ve kullanma hakkınız yoktur. Yazılım "
+#~ "ürünlerini\n"
+#~ "lisansın şartlarına uymayacak herhangi bir şekilde kurma, çoğaltma ya da\n"
+#~ "kullanma teşebbüsü, bu lisans altındaki haklarınızı yok edecektir. "
+#~ "Lisansın\n"
+#~ "anlaşmasının bozulması durumunda, yazılım ürünlerinin tüm kopyalarını "
+#~ "derhal\n"
+#~ "yok etmeniz gerekmektedir.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Sınırlı Garanti\n"
+#~ "\n"
+#~ "Yazılım Ürünleri ve yanlarında gelen dokümanlar \"oldukları gibi\"dirler, "
+#~ "ve\n"
+#~ "kanunların izin verdiği açılımda garantisizdirler. Mandriva S.A.,\n"
+#~ "kullanıcının yazılım ürünlerini kullanmak konusunda yetkin olmaması "
+#~ "nedeniyle\n"
+#~ "oluşan (iş kaybı, işin aksaması, maddi kayıp, hukuki cezalara "
+#~ "çarptırılma\n"
+#~ "vb. neden olacak) doğrudan ya da dolaylı (Mandriva S.A. bu tür "
+#~ "zararların\n"
+#~ "oluşabileceğini duyursa bile) hiçbir zarar nedeniyle sorumluluk taşımaz.\n"
+#~ "\n"
+#~ "\n"
+#~ "BAZI ÜLKELERDE YASAKLANMIŞ YAZILIMA SAHİP OLMAYA YA DA ONU KULLANMAYA "
+#~ "BAĞLI\n"
+#~ "SINIRLI SORUMLULUK\n"
+#~ "\n"
+#~ "Kanunların verdiği yetkilere göre, Mandriva S.A. ya da dağıtımcıları\n"
+#~ "kullanıcının, bulunduğu ülkede yasak olduğu halde, yazılım ürünlerini\n"
+#~ "kullanması, onlara sahip olması, onları Mandriva Linux sitelerinden "
+#~ "indirmesi\n"
+#~ "nedeniyle oluşan (iş kaybı, işin aksaması, maddi kayıp, hukuki cezalara \n"
+#~ "çarptırılma vb. neden olacak) doğrudan ya da dolaylı (Mandriva S.A. bu\n"
+#~ "tür zararların oluşabileceğini duyursa bile) hiçbir zarar nedeniyle\n"
+#~ "sorumluluk taşımaz. Bu sınırlı sorumluluk, yazılım ürünleri içindeki "
+#~ "güçlü\n"
+#~ "kriptografi araçlarını kapsar, fakat bunlarla sınırlı değildir.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. GPL Lisansı ve İlgili Lisanslar\n"
+#~ "\n"
+#~ "Yazılım ürünleri farklı birçok kişi tarafından oluşturulmuş parçalardan\n"
+#~ "oluşmaktadır. Bu parçaların çoğu GNU Genel Kamu Lisansı (GPL) ya da "
+#~ "benzer\n"
+#~ "lisanslara tabidirler. Bu lisansların çoğu, parçaların kullanımına,\n"
+#~ "çoğaltılmasına, değiştirilmesine ya da tekrar dağıtımının yapılmasına "
+#~ "izin\n"
+#~ "vermektedir. Lütfen kullanımdan önce her bir yazılım ürünü için, onu\n"
+#~ "ilgilendiren lisans(lar)ın tüm şartlarını okuyunuz. Bir yazılım ürünü\n"
+#~ "hakkındaki herhangi bir soru, Mandriva'a değil, o ürünün geliştiricisine\n"
+#~ "yöneltilmelidir. Mandriva tarafından geliştirilmiş yazılımlar GPL\n"
+#~ "lisansıyla korunmaktadır. Mandriva tarafından hazırlanan dokümanlar da\n"
+#~ "özel bir lisansa tabidir. Daha fazla bilgi için lütfen dokümanlara\n"
+#~ "göz atınız.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Entellektüel Özellik Hakları\n"
+#~ "\n"
+#~ "Yazılım ürünleri üzerindeki tüm haklar bu yazılımın geliştiricisine "
+#~ "aittir;\n"
+#~ " yazılıma uygulanan entellektüel özellik ve kopyalama kanunlarıyla\n"
+#~ "korunmaktadırlar. Mandriva, yazılım ürünlerinin, bütün olarak ya da\n"
+#~ "parça parça, herhangi bir amaç için değiştirilme ya da adapte edilme\n"
+#~ "haklarını saklamaktadır. \"Mandriva\", ve \"Mandriva Linux\" ve ilgili\n"
+#~ "logolar Mandriva S.A.'ya ait tescilli markalardır.\n"
+#~ "\n"
+#~ "\n"
+#~ "5. Yönetim Kanunları\n"
+#~ "\n"
+#~ "Bu lisansın herhangi bir kısmı, bir mahkeme tarafından kanunsuz ya da\n"
+#~ "uygunsuz bulunursa, o kısım bu kontrata dahil edilmemiş olacaktır.\n"
+#~ "Diğer kısımların sınırlamaları devam edecektir. Bu lisansın şartları "
+#~ "Fransa\n"
+#~ "Kanunları altındadır. Bu lisansın şartlarına her türlü itiraz\n"
+#~ "Paris Mahkemesi tarafından görüşülecektir. Bu doküman hakkında herhangi "
+#~ "bir\n"
+#~ "soru için lütfen Mandriva S.A'ya başvurun.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Uyarı\n"
+#~ "\n"
+#~ "Aşağıdaki maddeleri lütfen dikkatle okuyun. Herhangi birine\n"
+#~ "katılmıyorsanız, bir sonraki CD ortamından kurulum yapmanız mümkün\n"
+#~ "değildir. Bu ortamdan kurulum yapmadan devam edebilmek için 'Red'de\n"
+#~ "basınız.\n"
+#~ "\n"
+#~ "\n"
+#~ "Bir sonraki CD'deki bazı uygulamalar GPL Lisansı'na ya da benzer "
+#~ "anlaşmalara\n"
+#~ "tabi değildir. Her parça kendine ait bir lisansın şartları ve durumları\n"
+#~ "tarafından yönlendirilir. Lütfen ilgili lisansı dikkatle okuyup kabul "
+#~ "etmeden\n"
+#~ "bu parçaların dağıtımını yapmayınız.\n"
+#~ "Genel olarak bu tür lisanslar ilgili uygulamanın transferi, kopyalanması\n"
+#~ " (yedekleme amacı dışında nedenlerle), dağıtımı, kodlarının incelenmesi "
+#~ "ve\n"
+#~ "değiştirilmesini engeller. Herhangi bir anlaşmazlık, ilgili lisans\n"
+#~ "tarafından verilen haklarınızı yok eder. Özel bir lisans anlaşmasıyla "
+#~ "hak\n"
+#~ "sahibi olmadıysanız, ilgili parçaları birden fazla sisteme kuramaz, ağ\n"
+#~ "ortamında çalışmaya adapte edemezsiniz. Herhangi bir şüphe durumunda\n"
+#~ "doğrudan dağıtıcı, ya da uygulamanın yazarıyla iletişim kurunuz.\n"
+#~ "Üçüncü şahıslara transfer ya da dokümanlar da dahil herhangi bir "
+#~ "kopyalama\n"
+#~ "genel olarak mümkün değildir.\n"
+#~ "\n"
+#~ "\n"
+#~ "Bir sonraki CD ortamındaki parçaların tüm hakları her bir uygulamanın "
+#~ "kendi\n"
+#~ "yazarına aittir. Bu haklar bilgisayar programlarına uygulanan "
+#~ "entellektüel\n"
+#~ "özgünlük ve telif hakkı yasalarıyla korunmaktadır.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Tebrikler, kurulum tamamlandı.\n"
+#~ "Cdrom ve/veya disketi çıkartın ve Enter'a basarak bilgisayarınızı\n"
+#~ "yeniden başlatın.\n"
+#~ "\n"
+#~ "Mandriva Linux'nin bu sürümündeki güncellemeler hakkında bilgi\n"
+#~ "almak için: \n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "adresine bakabilirsiniz. Sisteminizin ayarları hakkında daha geniş\n"
+#~ "bilgiyi Mandriva Linux Kullanıcı Kılavuzunda bulabilirsiniz."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "CUPS yazdırma yapılandırması"
+
+#~ msgid "Module configuration"
+#~ msgstr "Modül yapılandırması"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Buradan modülün her parametresi ayarlanabilir."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "%s arayüzü bulundu"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Başka var mı?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Hiç %s arayüzü var mı?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Donanım bilgilerine bak"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "%s %s kartı için sürücü yüklenmesi"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "%s %s kartı için sürücü yüklenmesi"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "%s %s kartı için sürücü yüklenmesi"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "%s %s kartı için sürücü yüklenmesi"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "%s %s kartı için sürücü yüklenmesi"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "%s modülü için seçenekleri şimdi verebilirsiniz.\n"
+#~ "Gireceğiniz adresler '0x123' gibi 0x öneki ile verilmelidir."
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "İsterseniz şimdi %s modülünün parametrelerini belirtebilirsiniz.\n"
+#~ "Parametreler``isim=değer isim2=değer2...'' şeklinde olmalıdır.\n"
+#~ "Örneğin ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Modül seçenekleri:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Hangi %s sürücüsü denensin?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "Bazı durumlarda, %s sürücü düzgün çalışmak için fazladan bilgi "
+#~ "isteyebilir.\n"
+#~ "Sürücüler için fazladan bir özellik belirtmek mi istersiniz, yoksa\n"
+#~ "sürücülerin gerekli bilgiler için donanımınızı tanımasını mı istersiniz?\n"
+#~ "Bazen tanımlama makinanızı kilitleyebilir ama kilitlenmeden dolayı\n"
+#~ "makinanıza herhangi bir zarar gelmez."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Otomatik Algıla"
+
+#~ msgid "Specify options"
+#~ msgstr "Seçenekleri belirtin"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "%s modülü yüklenemedi.\n"
+#~ "Tekrar başka parametrelerle denemek ister misiniz?"
+
+#~ msgid "mount failed: "
+#~ msgstr "bağlama başarısız: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Mantıksal bölüm bu platform tarafından desteklenmiyor"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Bölümlendirme tablonuzda bir boşluk var ama kullanılamaz durumda.\n"
+#~ "Bu boşluğu, birinci bölümünüzü en yakınındaki mantıksal bölüme taşıyarak\n"
+#~ "sorunu çözebilirsiniz."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "%s dosyası okunurken hata oluştu"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "%s dosyasından kurtarılmasında hata: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Hatalı yedekleme dosyası"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "%s dosyasına yazarken hata oluştu"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Diskinizde bir şeyler kötü gidiyor.\n"
+#~ "Veri bütünlüğünün denetlenmesi başarısız oldu.\n"
+#~ "Bu durumda diskinize yazılan data kayıp olma ihtimali var."
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Biçemlendirilmiş RAID md%d 'ye disk bölümü eklenemedi"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "%d. seviye RAID için yetersiz sayıda disk bölümü\n"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr "Tarayıcı(ları)nızı paylaştırmanız için gerekli paket yüklenemedi."
+
+#, fuzzy
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Tüm uzak makineler"
+
+#, fuzzy
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Tüm uzak makineler"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Güvenlik Alarmları:"
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Kullanıcıları kimlikleme için parola kulllanın."
+
+#, fuzzy
+#~ msgid "Set the root umask."
+#~ msgstr "Root parolası"
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "Evet olarak ayarlanmış ise, eklenen/kaldırılanları suid root\n"
+#~ "dosyaları için kontrol edin."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "evet ise, kayıt denetim sonucu postayla."
+
+#, fuzzy
+#~ msgid "Set the user umask."
+#~ msgstr "Kullanıcılar"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* mevcut"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Uzaktan root olarak bağlanmaya izin ver"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "X Pencere bağlantılarına izin ver"
+
+#, fuzzy
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Hizmetlerin Yapılandırması"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Kullanıcı yetkilendirmesi için şifre kullan"
+
+#, fuzzy
+#~ msgid "No password aging for"
+#~ msgstr "Parola yok"
+
+#, fuzzy
+#~ msgid "Password history length"
+#~ msgstr "Basit bir parola seçtiniz!"
+
+#, fuzzy
+#~ msgid "Root umask"
+#~ msgstr "Root parolası"
+
+#~ msgid "Shell history size"
+#~ msgstr "Kabuk geçmişi büyüklüğü"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Kabuk zaman aşımı"
+
+#, fuzzy
+#~ msgid "User umask"
+#~ msgstr "Kullanıcılar"
+
+#~ msgid "Check open ports"
+#~ msgstr "Açık portları sına"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Kullanıcıların ev dizinlerindeki dosya haklarını denetle"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Sgid dosyalarındaki değişimi denetle"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "Ayarlanırsa, raporlar root kullanıcısı yerine verilen posta adresine "
+#~ "gönderilir"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Syslog için rapor denetimi sonucu"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Crackers'a Hoş Geldiniz"
+
+#~ msgid "Poor"
+#~ msgstr "Zayıf"
+
+#~ msgid "High"
+#~ msgstr "Yüksek"
+
+#~ msgid "Higher"
+#~ msgstr "Daha Yüksek"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranoyak"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Bu seviye RAID'i dikkatli kullanmanızı öneririz. Sisteminiz daha kolay \n"
+#~ "kullanılacak, ancak güvenliğiniz azalacaktır: Parola ile erişim mümkün\n"
+#~ "olmadığından Internet'e ya da bir ağa bağlıysanız kullanılmamalıdır."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Parolalar etkinleştirildi, yine de bir ağ üzerinde kullanmamanız tavsiye "
+#~ "edilir."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Internet'e bağlı bir makina için standart ve önerilen bir güvenlik "
+#~ "seviyesidir."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Zaten her gece çok sayıda otomatik denetim ve bazı kısıtlamalar var."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Bu güvenlik seviyesiyle sistemin bir sunucu olarak kullanımı mümkündür.\n"
+#~ "Güvenlik, birden fazla istemcinin bağlanmasına izin verecek şekilde "
+#~ "artırılmıştır. Bilgi: Bu makina ile Internet'e sadece istemci olarak "
+#~ "bağlanacaksanız daha düşük bir seviye seçmeniz önerilir."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Önceki seviyeye ek olarak sistem dışarıdan gelecek bağlantılara karşı "
+#~ "tamamen\n"
+#~ "kapalıdır. Güvenlik en yüksek seviyededir."
+
+#~ msgid "Security"
+#~ msgstr "Güvenlik"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "DrakSec Temel Seçenekler"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "İstediğiniz güvenlik düzeyini seçin"
+
+#~ msgid "Security level"
+#~ msgstr "Güvenlik seviyesi"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Sunucular için libsafe kullanılsın"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Tampon bellek taşmaları ve biçem dizgesi saldırılarına karşı savunma "
+#~ "kitaplığı."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Güvenlik Yöneticisi (giriş veya E-posta)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "ALSA (Gelişmiş Linux Ses Mimarisi) ses sistemi başlatılıyor"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron, periyodik komut zamanlayıcısı"
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd pil durumunu izlemek için ve syslog aracılığıyla bunun kaydını "
+#~ "tutmak için kullanılır.\n"
+#~ "Ayrıca pil azaldığında sistemi kapatmak için de kullanılır."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "at komutu, zamanlanan komutları çalışmaları gereken zamanlarda "
+#~ "çalıştırır.\n"
+#~ "Sistem yükü yeterince düşük olduğunda yığın komutları çalıştırır."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron, kullanıcılara özel komutları peritodik zamanlamalarla "
+#~ "çalıştırabilen\n"
+#~ "standart bir UNIX programıdır. vixie cron, standart cron'a eklenmiş "
+#~ "birçok\n"
+#~ "yeni özellik içerir."
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM, Midnight Commander gibi metin tabanlı uygulamalara fare desteği "
+#~ "ekler.\n"
+#~ "Ayrıca konsolda fareyle kesme ve yapıştırma işlemlerine izin verir.\n"
+#~ "Konsolda pop-up menü desteği sağlar."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake donanım analizini ve yapılandırma seçeneklerini başlatır\n"
+#~ "donanım yenileme/değiştirme."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache bir World Wide Web sunucusudur. HTML dosyaları ve CGI sunumu için "
+#~ "kullanılır."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Internet superserver daemon (çoğunlukla inetd olarak adlandırılır) "
+#~ "birçok \n"
+#~ "başka internet servisini gerektiğinde çalıştırır. İçinde telnet, ftp, rsh "
+#~ "ve rlogin gibi pekçok programın bulunduğu servisleri çalıştırmakla "
+#~ "yükümlüdür.\n"
+#~ "inetd'yi sistemden çıkarmak, onun çalıştırmakla yükümlü olduğu bütün "
+#~ "servisleri \n"
+#~ "kaldırmak anlamına gelir."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Bilgisayarınızı diğer ağlardan koruma amacıyla ateş duvarı kurma "
+#~ "uygulaması için\n"
+#~ "Linux kernel 2.2 serisi için hazırlanmış paket filitrelemesini başlatır."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Bu paket /etc/sysconfig/keyboard'daki seçili klavye düzenini yükler.\n"
+#~ "Hangi klavye düzeninin kullanılıcağı kbdconfig ile ayarlanabilir.\n"
+#~ "Bu, Mandriva kurulan birçok makinede etkin olarak bırakılmalıdır."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "/usr/include/linux/{autoconf,version}.h için\n"
+#~ "/boot içinde çekirdek başlığının otomatik yeniden üretimi"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Açılışta donanım algılaması ve yapılandırması."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf ile, sistem açılışı sırasında çeşitli işlemlerin uygulanışını\n"
+#~ "sistem yapılandırması bağlamında düzenlenebilir."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd, lpr'nin düzgün olarak çalışması için gerekli yazıcı daemonudur.\n"
+#~ "lpd temel olarak, yazdırma görevlerini yöneten ve onları yazıcıya "
+#~ "gönderen sunucudur."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Linux Sanal Sunucu, yüksek performans ve yüksek\n"
+#~ "erişilebilirlikli Sunucular oluşturmak için kullanılır."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) sunucu isimlerini IP adreslerine dönüştüren Alan Adı "
+#~ "Sunucusudur (DNS)."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Bütün Ağ Dosya Sistemlerini (NFS), SMB (Lan Manager/Windows), ve \n"
+#~ "NCP (NetWare) bağlama noktalarını bağlar ve ayırır."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Açılış sırasında başlamak için ayarlanmış bütün ağ arayüzlerini aktive "
+#~ "eder/kapatır."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS TCP/IP ağlarda dosya paylaşımı için kullanılan popüler bir "
+#~ "protokoldür.\n"
+#~ "Bu servis, /etc/exports dosyasında ayarları bulunan NFS sunucusunun \n"
+#~ "kullanımını sağlar."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS TCP/IP ağlarda dosya paylaşımı için kullanılan popüler bir \n"
+#~ "protokoldür. Bu servis NFS dosya kilidi kullanımını sağlar."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Başlangıçta Xwindows ve konsol altında tuş kilidini\n"
+#~ "her başlangıçta açar."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "OKI 4w ve windows uyumlu yazıcıları destekler."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "PCMCIA desteği, laptoplarda ethernet ve modem gibi aygıtların "
+#~ "desteklernmesini\n"
+#~ "sağlar. Ayarlanmadığı sürece açılışta çalışmayacaktır, çalışmasına "
+#~ "ihtiyaç duyulmayan \n"
+#~ "makinalarda kurulu olması sorun oluşturmayacaktır."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "portmapper, NFS ve NIS gibi protokoller tarafından kullanılan RPC \n"
+#~ "bağlantılarını düzenler. Portmap sunucusu RPC mekanizmasını kullanan\n"
+#~ "protokollerle servis yapan makinelerde kurulu ve çalışıyor durumda "
+#~ "olmalıdır."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix, elektronik postaları bir makinadan diğerine yollayan Elektronik "
+#~ "Posta Aktarma Uygulamasıdır."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Yüksek kalite rastgele sayı üretimi için sistem entropi havuzunun \n"
+#~ "saklanması ve yeniden eski haline getirilmesini sağlar."
+
+#, fuzzy
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Oracle gibi bazı uygulamalarla kullanmak için\n"
+#~ "blok aygıtlarını (örn: sabit disk bölümleri)\n"
+#~ "temel aygıtlarla eşlendirir"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "routed daemonu otomatik IP router tablosunun RIP protokolü tarafından\n"
+#~ "yenilenmesine izin verir. RIP genelde küşük ağlarda kullanılır, daha "
+#~ "büyük\n"
+#~ "ağlarda daha karmaşık routing protokollerine ihtiyaç vardır."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "rstat protokolü bir ağdaki kullanıcıların o ağdaki herhangi bir\n"
+#~ "makina hakkında performans ölçüleri alabilmelerini sağlar."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "rusers protokolü bir ağdaki kullanıcıların o ağda bulunan makinalarda\n"
+#~ "çalışan kullanıcıları görmenizi sağlar."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "rwho protokolü, uzak kullanıcıların, rwho daemonu çalıştıran bir "
+#~ "makinada\n"
+#~ "bulunan tüm kullanıcıları görmelerine izin verir."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Ses sistemini Makinede uygula"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog, birçok daemonun mesajlarını çeşitli sistem kayıt dosyalarında\n"
+#~ "tutmalarına izin verir. Syslog'un her zaman çalışır durumda olması\n"
+#~ "akıllıca bir davranıştır."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "USB aygıtlarınız için dürücülerini yükleyiniz."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "X Font Sunucusu'nu çalıştırır (bunun kullanımı için Xorg gerekir)."
+
+#~ msgid "Printing"
+#~ msgstr "Yazdırılıyor"
+
+#~ msgid "Internet"
+#~ msgstr "İnternet"
+
+#~ msgid "File sharing"
+#~ msgstr "Dosya paylaşımı"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Uzak Yönetim"
+
+#~ msgid "Database Server"
+#~ msgstr "Veritabanı Sunucusu"
+
+#~ msgid "Services"
+#~ msgstr "Hizmetler"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "Açılış sırasında otomatik olarak başlatılacak hizmetleri seçiniz"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Hizmetler: %d / %d etkinleştirildi"
+
+#~ msgid "running"
+#~ msgstr "çalışıyor"
+
+#~ msgid "stopped"
+#~ msgstr "durdu"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Hizmetler ve artalan süreçleri"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Bu hizmet hakkında\n"
+#~ "başka bilgi yok."
+
+#~ msgid "Info"
+#~ msgstr "Bilgi"
+
+#~ msgid "On boot"
+#~ msgstr "Önyüklemede"
+
+#~ msgid "Start"
+#~ msgstr "Başlat"
+
+#~ msgid "Stop"
+#~ msgstr "Durdur"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ " Bu program bir serbest yazılımdır. Bu yazılımı Free Software Foundation\n"
+#~ " tarafından yayınlanmış olan GNU Genel Kamu Lisansının 2. ya da daha  "
+#~ "sonra ki bir sürümünün koşulları altında kopyalayabilir, dağıtabilir ve/"
+#~ "veya\n"
+#~ " üzerinde değişiklik yapabilirsiniz.\n"
+#~ "\n"
+#~ " Bu program kullanışlı olabileceği umularak dağıtılmaktadır. Ancak,\n"
+#~ " hiçbir GARANTİSİ YOKTUR; hatta SATILABİLİRLİĞİ veya HERHANGİ BİR\n"
+#~ " AMACA UYGUNLUĞU için bile garanti verilmez. Daha ayrıntılı bilgi\n"
+#~ " edinmek için GNU Genel Kamu Lisansına bakınız.\n"
+#~ "\n"
+#~ " GNU Genel Kamu Lisansının bir kopyasını bu programla birlikte almış\n"
+#~ " olacaksınız; yoksa Free Software Foundation, Inc., 51 Franklin Street,\n"
+#~ " Fifth Floor, Boston, MA 02110-1301, USA. adresinden isteyebilirsiniz.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[SEÇENEKLER] [PROGRAM_ADI]\n"
+#~ "\n"
+#~ "SEÇENEKLER:\n"
+#~ "  --help            - bu yardım mesajını görüntüle.\n"
+#~ "  --report          - program Mandriva'nin araçlarından olmalı\n"
+#~ "  --incident        - program Mandriva'nin araçlarından olmalı"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[klavye]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=dosyam] [--word=kelimem] [--explain=regexp] [--alert]"
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdp]"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_kaynak_diz] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitör\n"
+#~ "       XFdrake çözünürlük"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Kullanımı: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Sunucu ekle"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Güney Afrika"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Avusturya"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Güney Afrika"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Makedonya"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Güney Afrika"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "Rusça (Fonetik)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "Yugoslavca (latin)"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Doğru mu?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "dosya seçici"
+
+#, fuzzy
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "Bir dizin değil, bir dosyayı belirtmek zorundasınız.\n"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "'/' ile sadece bir dizin belirtilebilir, bir anahtar değil."
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Dizin değil"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "Böyle bir dosya yok `%s'\n"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Ağacı Aç"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Ağacı Kapat"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Düz ve gruplu sırama arasında seçim"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s yüklü durumda değil\n"
+#~ "\"Sonraki\" tuşuna basarak kurulumu başlatabilirsiniz veya\n"
+#~ "\"İptal\" tuşuna basarak yüklemekten vazgeçebilirsiniz"
+
+#~ msgid "Installation failed"
+#~ msgstr "Kurulum başarısız!"

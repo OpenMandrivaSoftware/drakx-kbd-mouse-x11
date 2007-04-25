@@ -34,7 +34,8 @@ my @bios_vga_modes = (
 
 sub from_bios {
     my ($bios) = @_;
-    find { $_->{bios} == $bios } @bios_vga_modes;
+    my $bios_int = $bios =~ /^0x(.*)/ ? hex($1) : $bios;
+    find { $_->{bios} == $bios_int } @bios_vga_modes;
 }
 
 sub bios_vga_modes() { @bios_vga_modes }
@@ -82,7 +83,7 @@ sub allowed {
 	my @depths;
 	if ($card->{Driver} eq 'fglrx') {
 	    @depths = 24;
-	} elsif ($card->{BoardName} eq 'RIVA128') { 
+	} elsif ($card->{BoardName} eq 'NVIDIA RIVA 128') { 
 	    @depths = qw(8 15 24);
 	} elsif ($card->{use_DRI_GLX}) {
 	    $prefered_depth = 16;
@@ -146,6 +147,8 @@ sub choices {
     #- sort it, so we can take the first one when we want the "best"
     @resolutions = sort { $b->{X} <=> $a->{X} || $b->{Y} <=> $a->{Y} || $b->{Depth} <=> $a->{Depth} } @resolutions;
 
+    $_->{ratio} ||= resolution2ratio($_) foreach @resolutions;
+
     if ($resolution_wanted->{X} && !$resolution_wanted->{Y}) {
 	#- assuming ratio 4/3
 	$resolution_wanted->{Y} = round($resolution_wanted->{X} * 3 / 4);
@@ -203,9 +206,7 @@ sub configure {
     } else {
 	$default_resolution = choose($in, $default_resolution, @resolutions) or return;
     }
-    set_resolution($raw_X, $default_resolution);
-
-    $default_resolution;
+    set_resolution($raw_X, $default_resolution, @resolutions);
 }
 
 sub configure_auto_install {
@@ -216,18 +217,25 @@ sub configure_auto_install {
 	{ X => $X, Y => $Y, Depth => $old_X->{default_depth} };
     };
 
-    my ($default_resolution) = choices($raw_X, $resolution_wanted, $card, $monitors);
+    my ($default_resolution, @resolutions) = choices($raw_X, $resolution_wanted, $card, $monitors);
     $default_resolution or die "you selected an unusable depth";
 
-    set_resolution($raw_X, $default_resolution);
-
-    $default_resolution;
+    set_resolution($raw_X, $default_resolution, @resolutions);
 }
 
 sub set_resolution {
-    my ($raw_X, $resolution) = @_; 
-    $raw_X->set_resolution($resolution);
+    my ($raw_X, $resolution, @other) = @_; 
+
+    my $ratio = resolution2ratio($resolution, 'non-strict');
+    @other = uniq_ { $_->{X} . 'x' . $_->{Y} } @other;
+    @other = grep { $_->{X} < $resolution->{X} } @other;
+    @other = filter_on_ratio($ratio, @other);
+    my $resolutions = [ $resolution, @other ];
+
+    $raw_X->set_resolutions($resolutions);
     set_default_background($resolution);
+    set_915resolution($resolution) if is_915resolution_configured();
+    $resolutions;
 }
 sub set_default_background {
     my ($resolution) = @_;
@@ -251,6 +259,21 @@ sub set_default_background {
 
     symlinkf $l[0][0], "$dir/default.png";
 }
+sub is_915resolution_configured() {
+    my $f = "$::prefix/etc/sysconfig/915resolution";    
+    -e $f && { getVarsFromSh($f) }->{XRESO};
+}
+sub set_915resolution {
+    my ($resolution) = @_;
+
+    my $f = "$::prefix/etc/sysconfig/915resolution";    
+    setVarsInSh($f, { 
+	MODE => 'best', 
+	XRESO => $resolution->{X}, 
+	YRESO => $resolution->{Y},
+    });
+    run_program::rooted($::prefix, 'service', '915resolution', 'start');
+}
 
 sub resolution2ratio {
     my ($resolution, $b_non_strict) = @_;
@@ -258,22 +281,22 @@ sub resolution2ratio {
     $res eq '1280x1024' && $b_non_strict ? '4/3' : $Xconfig::xfree::resolution2ratio{$res};
 }
 
+sub filter_on_ratio {
+    my ($ratio, @l) = @_;
+    grep {
+	!$ratio
+	      || $_->{ratio} eq $ratio 
+	      || $ratio eq '4/3' && "$_->{X}x$_->{Y}" eq '1280x1024';
+    } @l;
+}
+
 sub choose_gtk {
     my ($in, $card, $default_resolution, @resolutions) = @_;
-
-    $_->{ratio} ||= resolution2ratio($_) foreach @resolutions;
 
     my $chosen_Depth = $default_resolution->{Depth};
     my $chosen_res = { X => $default_resolution->{X} || 1024, Y => $default_resolution->{Y} };
     my $chosen_ratio = resolution2ratio($chosen_res, 'non-strict') || '4/3';
 
-    my $filter_on_ratio = sub {
-	grep {
-	    !$chosen_ratio
-	      || $_->{ratio} eq $chosen_ratio 
-	      || $chosen_ratio eq '4/3' && "$_->{X}x$_->{Y}" eq '1280x1024';
-	} @_;
-    };
     my $filter_on_Depth = sub {
 	grep { $_->{Depth} == $chosen_Depth } @_;
     };
@@ -305,7 +328,7 @@ sub choose_gtk {
     my $proposed_resolutions = [];
     my $set_proposed_resolutions = sub {
 	my ($suggested_res) = @_;
-	@matching_ratio = $filter_on_ratio->(@resolutions);
+	@matching_ratio = filter_on_ratio($chosen_ratio, @resolutions);
 	gtkval_modify(\$proposed_resolutions, [ 
 	    (reverse uniq_ { $res2text->($_) } @matching_ratio),
 	    if_($chosen_ratio, { text => N_("Other") }),

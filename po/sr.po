@@ -1,0 +1,6102 @@
+# Cirilicni prevod drakbootdisk.po fajla.
+# Copyright (C) 1997-2003 MandrakeSERBIA.
+# Tomislav Jankovic <tomaja@net.yu>, 2000.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2004-09-15 13:33+0200\n"
+"Last-Translator: Toma Jankovic <tomaja@net.yu>\n"
+"Language-Team: Serbian <i18n@mandrake.co.yu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB или више"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X сервер"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Изаберите X сервер"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Multi-head конфигурација"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Ваш систем подржава multiple head конфигурацију.\n"
+"Шта желите да урадите?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Количина меморије на графичкој картици"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Подеси све главе независно"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Користи Xinerama екстензију"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Подеси само картицу \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Избор по жељи"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Конфигурација Интернет конекције"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Крај"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Графичка картица"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Монитор"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Резолуција"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Тест"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Опције"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Прикључци"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Сачувај промене?\n"
+"Тренутна конфигурација је:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Изаберите монитор"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Изаберите монитор"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Generic"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Произвођач"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "Plug'n Play тестирање није успело. Изаберите тачан модел монитора"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Морате да наведете хоризонтални синхронизациони опсег вашег монитора.\n"
+"Можете га или изабрати из унапред задатих вредности које одговарају\n"
+"индустријским стандардима монитора, или да наведете одређени опсег.\n"
+"\n"
+"ВЕОМА ЈЕ ВАЖНО да не наведете тип монитора који има овај опсег већи него\n"
+"што га има ваш монитор. Ако нисте сигурни, одаберите мање вредности."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Хоризонтална фреквенција"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Вертикална фреквенција"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Изаберите акцију"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 боја (8-битна палета)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 хиљаде боја (15-битна палета)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 хиљада боја (16-битна палета)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 милиона боја (24-битна палета)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Резолуција"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Друго"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Изаберите резолуцију и број боја при приказу"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Графичка картица: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "У реду"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Поништи"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Помоћ"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Тестирање конфигурације"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Да ли хоћете да тестирате конфигурацију?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Упозорење: тестирање ове графичке картице може блокирати ваш рачунар"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"појавила се грешка:\n"
+"%s\n"
+"Покушајте да промените неке од параметара"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Излазим за %d секунди"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Да ли је ово исправно подешено?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Тип тастатуре: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Тип миша: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Монитор: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Монитор - хоризонтална фреквенција: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Монитор - вертикално освежавање: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Графичка картица: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Меморија на графичкој картици: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Број боја: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Резолуција: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg драјвер: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Xorg конфигурација"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Графичка картица: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "X окружење на старту"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Ja могу подести ваш рачунар да аутоматски подиже X окружење при стартању.\n"
+"Да ли желите X окружење при рестарту ?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Ваша графичка картица изгледа да има TV-OUT конектор.\n"
+"Он се може подесити да ради коришћењем frame-buffer-а.\n"
+"\n"
+"За ово морате да повежете вашу графичку картицу са TV-ом пре стартања вашег "
+"компјутера.\n"
+"Онда изаберите \"TVout\" поставку у стартеру\n"
+"\n"
+"Да ли имате ову опцију?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Какав систем ваш TV користи?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Чешки (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Немачки"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Дворак"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Шпански"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Фински"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Француски"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "UK тастатура"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Норвешки"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Пољски"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Руски"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Шведски"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "US тастатура"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Албански"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Јерменски (стари)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Јерменски (typewriter)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Јерменски (фонетски)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Арапски"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Азербејдзан  (латиница)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Белгијски"
+
+#: ../lib/keyboard.pm:203
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Бенгалски (\"Inscript\" распоред)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Бенгалски (\"Probhat\" распоред)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Бугарски (фонетски)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Бугарски (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Бразилски (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Босански"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Босански"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Белоруски"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Швајцарски (Немачки распоред)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Швајцарски (Француски  распоред)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Арапски"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Чешки (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Немачки (без мртвих тастера)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Деванагри"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Дански"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Дворак (US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Дворак (Норвешки)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Дворак (Норвешки)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Дворак (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Дворак (Норвешки)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Дворак (Шведски)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Дворак (Шведски)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Естонски"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Грчки"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Грузијски (\"Руски\" распоред)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Грузијски (\"Латинични\" рапоред)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Грчки"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Гујарати"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Гурмуки"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Хрватски"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Мађарски"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr ""
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Инуктитут"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Јеврејски"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Јеврејски (Фонетски)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Ирански"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Исландски"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Италијански"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Јапански 106 тастера"
+
+#: ../lib/keyboard.pm:253
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Канада"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "UK тастатура"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Корејанска тастатура"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Арапски"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Латино-Амерички"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Лаоски"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Литвански AZERTY(стари)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Литвански AZERTY(нови)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Литвански \"number row\"QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Литвански \"фонетски\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Летонски"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Малајски"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Македонски"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Мијанмар (Бурма)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Монголски (ћирилица)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Малтешки (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Малтешки (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Дански"
+
+#: ../lib/keyboard.pm:279
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Сирија"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Пољски (qwerty распоред)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Пољски (qwertz распоред)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Пољски"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Португалски"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Канадски (Квебек)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Румунски (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Румунски (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Руски (Фонетски)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Словеначки"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Словачки (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Словачки (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Дворак (Норвешки)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr " Thai тастатура"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Српски (ћирилица)"
+
+#: ../lib/keyboard.pm:302
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Сирија"
+
+#: ../lib/keyboard.pm:303
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Јерменски (фонетски)"
+
+#: ../lib/keyboard.pm:304
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Токелау"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Тамилски (ISCII-распоред)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Тамилски (распоред на писаћој машини)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr " Thai тастатура"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr " Thai тастатура"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr " Thai тастатура"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Таџикистанска тастатура"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Немачки"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Турски (традиционални \"F\" модел)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Турски (модерни \"Q\" модел)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Украјински"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Сирија"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "US тастатура (интернационална)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Српски (ћирилица)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Вијетнамски  \"number row\"QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Српски (латиница)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Десни Alt тастер"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Оба Shift тастера истовремено"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Control и  Shift тастери истовремено"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock тастер"
+
+#: ../lib/keyboard.pm:342
+#, fuzzy, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Ctrl и Alt тастери истовремено"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl и Alt тастери истовремено"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt и Shift тастери истовремено"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"Мени\" тастер"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Леви \"Windows\" тастер"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Десни \"Windows\" тастер"
+
+#: ../lib/keyboard.pm:348
+#, fuzzy, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Оба Shift тастера истовремено"
+
+#: ../lib/keyboard.pm:349
+#, fuzzy, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Оба Shift тастера истовремено"
+
+#: ../lib/keyboard.pm:350
+#, fuzzy, c-format
+msgid "Left Shift key"
+msgstr "Леви \"Windows\" тастер"
+
+#: ../lib/keyboard.pm:351
+#, fuzzy, c-format
+msgid "Right Shift key"
+msgstr "Десни Alt тастер"
+
+#: ../lib/keyboard.pm:352
+#, fuzzy, c-format
+msgid "Left Alt key"
+msgstr "Десни Alt тастер"
+
+#: ../lib/keyboard.pm:353
+#, fuzzy, c-format
+msgid "Left Control key"
+msgstr "Удаљена контрола"
+
+#: ../lib/keyboard.pm:354
+#, fuzzy, c-format
+msgid "Right Control key"
+msgstr "Десни Alt тастер"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Овде можете изабрати тастер или комбинацију тастера која ће \n"
+"дозволити измену распореда тастатура\n"
+"(нпр: latin и non latin)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Упозорење"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun Миш"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Стандардни"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Генерички PS2 миш са точкићем"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Препознај по наставку"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 тастер"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Генерички 2 тастера миш"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, fuzzy, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Генерички 3 тастера миш"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Точкић"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "серијски"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Генерички 3 тастера миш"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, fuzzy, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC серија (серијски)"
+
+#: ../lib/mouse.pm:64
+#, fuzzy, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC серија (серијски)"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM серија"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech mouse (серијски, стари C7 тип)"
+
+#: ../lib/mouse.pm:70
+#, fuzzy, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech mouse (серијски, стари C7 тип)"
+
+#: ../lib/mouse.pm:72
+#, fuzzy, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "bus миш"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 тастера"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 тастера"
+
+#: ../lib/mouse.pm:80
+#, fuzzy, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "Емулација тастера"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Универзални"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "ниједан"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Нема миша"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+# #,
+# msgid "Confirmation"
+# msgstr "Потврда"
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Изаберите тип миша."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "упуство"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Да имитирам рад 3 тастера?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Порт за миша"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Изаберите на који серијски порт је ваш миш прикључен."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Емулација тастера"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Емулација 2 тастера"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Емулација 3 тастера"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Молим Вас да тестирате миша"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Да би могли да активирате миша"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "померите точкић !"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Морате рестартовати рачунар да би се измене извршиле"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Тастатура"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Који  распоред тастатуре желите ?"
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Распоред тастера"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Тастатура"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Да ли желите да BackSpace да врати Delete у конзолу?"
+
+#: ../tools/mousedrake:41
+#, fuzzy, c-format
+msgid "Mouse test"
+msgstr "Mouse Systems"
+
+#: ../tools/mousedrake:44
+#, fuzzy, c-format
+msgid "Please test your mouse:"
+msgstr "Молим Вас да тестирате миша"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Корисници"
+
+#~ msgid "Please wait"
+#~ msgstr "Само моменат..."
+
+#, fuzzy
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Инсталација стартера"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "Инсталација стартера неуспела. Грешка је:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Мораћете да промените Open Firmware boot-уређај да \n"
+#~ " би могли да користите стартер.  Уколико не видите промпт\n"
+#~ " при рестарту држите Command-Option-O-F при стартању и унесите:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Онда укуцајте: shut-down\n"
+#~ "Када следећи пут стартујете машину требали би да видите статеров промпт."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Ви сте одлучили да инсталирате стартер на партицију.\n"
+#~ "Ово указујен ато да већ имате инсталиран стартер на хард диску који "
+#~ "бутујете.\n"
+#~ "\n"
+#~ "На који драјв се бутујете?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Први сектор диска (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Први сектор root партиције"
+
+#~ msgid "On Floppy"
+#~ msgstr "На дискету"
+
+#~ msgid "Skip"
+#~ msgstr "Прескочи"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "LILO/grub инсталација"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Где бисте да инсталирате стартер?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Конфигурација стила стартања"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Главне опције стартера"
+
+#~ msgid "Bootloader"
+#~ msgstr "Стартер"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Стартер који ће се користити"
+
+#~ msgid "Boot device"
+#~ msgstr "Стартни (boot) уређај"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Пауза пре стартања default image-а"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Омогући ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Омогући ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Омогући ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Лозинка"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Неподударност лозинки"
+
+#~ msgid "Please try again"
+#~ msgstr "Пробајте поново"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "Не можете користити енкриптовани фајл систем за тачку монтирања %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Лозинка (поновите)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Ограничена командна линика - опције"
+
+#~ msgid "restrict"
+#~ msgstr "ограничено"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Опција``Ограничена командна линика - опције'' је неупотребљива без лозинке"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Очисти /tmp при сваком стартању"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Дефиниши величину RAM ако је потребно (детектовано је %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Прикажи величину RAM-а у Mb"
+
+#~ msgid "Init Message"
+#~ msgstr "Иницијална порука"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Отпочни Firmware паузу"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Пауза при стартању кернела"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Омогући стартање са CD-а?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Омогући OF стартање?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Подразумевани ОС ?"
+
+#~ msgid "Image"
+#~ msgstr "Слика"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Додатак"
+
+#~ msgid "Video mode"
+#~ msgstr "Видео мод"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "Грешка на мрежи"
+
+#~ msgid "Label"
+#~ msgstr "Ознака"
+
+#~ msgid "Default"
+#~ msgstr "Подразумевано"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoVideo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Празна ознака није дозвољена"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Морате специфицирати кернелов image"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Морате одредити root партицију"
+
+#~ msgid "This label is already used"
+#~ msgstr "Ова ознака је већ у употреби"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Коју врсту уноса додајете ?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Други ОС-ови (SunOS,BSD,...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Други ОС-ови (MacOS,BSD,...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Други ОС-ови (Windows,BSD,BeOS,...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Ово су постављне опције.\n"
+#~ "Можете додати нове или изменити старе."
+
+#~ msgid "access to X programs"
+#~ msgstr "приступ X програмима"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "приступ rpm алатима"
+
+#~ msgid "allow \"su\""
+#~ msgstr "дозволи \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "приступ административним фајловима"
+
+#~ msgid "access to network tools"
+#~ msgstr "приступ мрежним алатима"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "приступ алатима за компајлирање"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(%s већ постоји)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Одредите корисничко име"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr "Корисничко име може садржати само мала слова, бројеве, `-' и `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Корисничко име већ је предугачко"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Ово корисничко име већ постоји"
+
+#~ msgid "User ID"
+#~ msgstr "Корисников ID"
+
+#~ msgid "Group ID"
+#~ msgstr "Групни ID"
+
+#, fuzzy
+#~ msgid "%s must be a number"
+#~ msgstr "Опција %s мора бити број!"
+
+#~ msgid "Add user"
+#~ msgstr "Додај корисника"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Унеси корисника\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Урађено"
+
+#~ msgid "Accept user"
+#~ msgstr "Прихвати корисника"
+
+#~ msgid "Real name"
+#~ msgstr "Право име"
+
+#, fuzzy
+#~ msgid "Login name"
+#~ msgstr "Име домена"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "Икона"
+
+#~ msgid "Autologin"
+#~ msgstr "Ауто логовање"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr "Ја могу подести ваш рачунар да аутоматски улогује једног корисника."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Да ли желите да користите ову опцију ?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Изаберите default (основног) корисника:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Изаберите менаџер прозора који желите да користите:"
+
+#~ msgid "License agreement"
+#~ msgstr "ЛИценцирани уговор"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "Верзија: "
+
+#~ msgid "Accept"
+#~ msgstr "Прихвати"
+
+#~ msgid "Refuse"
+#~ msgstr "Одбаци"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Изаберите који језик желите да кориситите."
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "упуство"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Можете изабрати други језик који ће бити доступан после инсталације "
+
+#~ msgid "All languages"
+#~ msgstr "Сви језици"
+
+#~ msgid "Country / Region"
+#~ msgstr "Земља"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Изаберите своју земљу."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Овде је представљена цела листа доступних земаља"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "Остали портови"
+
+#~ msgid "Advanced"
+#~ msgstr "Напредно"
+
+#, fuzzy
+#~ msgid "Input method:"
+#~ msgstr "Мрежни метод:"
+
+#~ msgid "None"
+#~ msgstr "Неиједан"
+
+#~ msgid "No sharing"
+#~ msgstr "Нема заједничког дељења"
+
+#~ msgid "Allow all users"
+#~ msgstr "Дозволи све кориснике"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Да ли би желели да дозволите корисницима заједнички деле неке од својих "
+#~ "директоријума?\n"
+#~ "Да би ово могли да омогућите једноставно кликните на \"Share\" у "
+#~ "konqueror-у или nautilus-у.\n"
+#~ "\n"
+#~ "\"Custom\" дозвољава детаљнија per-user подешавања.\n"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr "Можете експортовати користећи NFS или SMB-у. Који од ова два желите"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Покрени userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Затвори"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "per-user дељење ресурса користи групу \"fileshare\". \n"
+#~ "Ви помоћу userdrake-а можете додати корисника у ову групу."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Молим ваш излогујте се и рестартујте (Ctrl-Alt-BackSpace) рачунар"
+
+#~ msgid "Timezone"
+#~ msgstr "Временска зона"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Која је ваша временска зона ?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Ваш системски (BIOS) часовник је подешен на GMT"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Ваш системски (BIOS) часовник је подешен на GMT"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP Сервер"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Аутоматска синхронизација времена (преко NTP-а)"
+
+#~ msgid "Local file"
+#~ msgstr "Локална датотека"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#, fuzzy
+#~ msgid "Smart Card"
+#~ msgstr "Мрежна картица"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows Домен"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Обнови све backup-ове"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Обнови све backup-ове"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "Локалне датотеке:"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows Домен:"
+
+#, fuzzy
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Обнови све backup-ове"
+
+#, fuzzy
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Обнови све backup-ове"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "LDAP Аутентификација"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP Сервер"
+
+#~ msgid "simple"
+#~ msgstr "једноставно"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Аутентификација"
+
+#~ msgid "Domain"
+#~ msgstr "Домен"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "Сервер,Базе података"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "Потребна је Лозинка"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "NIS Аутентификација"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS Домен"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS Сервер"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Да би ово радило са W2K PDC, вероватно ћете морати да као admin "
+#~ "покренете: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" "
+#~ "everyone /add и да рестартујете сервер.\n"
+#~ "Такоже ћете морати да имате username/password за  Domain Admin да би "
+#~ "приступили машини која има Windows(TM) домен.\n"
+#~ "Уколико мрежа још увек није омогућена, Drakx ће покушати да приступи "
+#~ "домену након подешавања мреже.\n"
+#~ "Уколико ово подешавање не успе из неког разлога и атуентификација домена "
+#~ "не ради, покрените 'smbpasswd -j DOMAIN -U USER%%PASSWORD' користећи ваш "
+#~ "Windows(tm) Домен, и Admin Username/Password, након стартања система.\n"
+#~ "Команда 'wbinfo -t' ће тестирати да ли ваша аутентификација добра."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Аутентификација Windows Домена"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Admin Корисничко име Домена"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Admin Лозинка домена"
+
+#~ msgid "Authentication"
+#~ msgstr "Аутентификација"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Унеси root лозинку"
+
+#, fuzzy
+#~ msgid "Authentication method"
+#~ msgstr "Аутентификација"
+
+#~ msgid "No password"
+#~ msgstr "Без лозинке"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "Ова лозинка је сувише једноставна (треба да има бар %d знакова)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Није могућ пренос без NIS домена"
+
+# NOTE: this message will be displayed at boot time; that is
+# only the ascii charset will be available on most machines
+# so use only 7bit for this message (and do transliteration or
+# leave it in English, as it is the best for your language)
+#
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Dobrodosli u menadzer za startanje operativnih sistema !\n"
+#~ "\n"
+#~ "Izaberite operativni sistem, ili\n"
+#~ "sacekate za startanje pretpostavljenog OS.\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO са текстуалним менијем"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "нема довољно места у /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Не можете да инсталирате стартер на партицију %s\n"
+
+#, fuzzy
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Инсталирај стартер"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d минута"
+
+#~ msgid "1 minute"
+#~ msgstr "1 минут"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d секунди"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV је протокол који вам омогућава да монтирате директоријум веб "
+#~ "сервера\n"
+#~ "локално, и да га третирате као локални фајл систем (доступни веб сервер "
+#~ "је\n"
+#~ "подешен као WebDAV сервер). Уколико желите да додате нову WebDAV тачку\n"
+#~ "монтирања, изаберите \"Нови\"."
+
+#~ msgid "New"
+#~ msgstr "Нови"
+
+#~ msgid "Unmount"
+#~ msgstr "Демонтирај"
+
+#~ msgid "Mount"
+#~ msgstr "Монтирај"
+
+#~ msgid "Mount point"
+#~ msgstr "Тачка монтирања"
+
+#~ msgid "Error"
+#~ msgstr "Грешка"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Унесите URL WebDAV сервера"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL мора почињати са http:// или https://"
+
+#~ msgid "Server: "
+#~ msgstr "Сервер:"
+
+#~ msgid "Mount point: "
+#~ msgstr "Тачка монтирања: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Опције: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Партиционисање"
+
+#~ msgid "Read carefully!"
+#~ msgstr "ПАЖЉИВО ПРОЧИТАЈ !"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Молим вас, прво направите копију ваших података"
+
+#~ msgid "Exit"
+#~ msgstr "Излаз"
+
+#~ msgid "Continue"
+#~ msgstr "Настави"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Уколико планирате да користите  aboot, оставите празан простор (2048 "
+#~ "секторана почетку \n"
+#~ "диска)"
+
+#~ msgid "Choose action"
+#~ msgstr "Изаберите акцију"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Ви имате једну велику Microsoft Windows партицију.\n"
+#~ "Предлажем да прво измените величну (resize) те партиције (кликните на "
+#~ "њу,\n"
+#~ "а потом на \"Промени величину\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Кликните на партицију"
+
+#~ msgid "Details"
+#~ msgstr "Детаљи"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Није пронађен хард диск"
+
+#~ msgid "Unknown"
+#~ msgstr "Непознато"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "Journalised FS"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Празно"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Врста фајл система:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Овој партицици није могуће променити величину"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Прво урадите ``Демонтирај''"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Уместо тога пробајте ``%s''"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Изаберите другу партицију"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Изаберите партицију"
+
+#~ msgid "Undo"
+#~ msgstr "Поништи радњу"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Пређи на нормални мод"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Пређи на експерт мод"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "LAN конфигурација"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Свеједно наставити ?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Крај без снимања промена"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Крај без снимања промена у табеле партиција?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Да ли хоћете да сачувате измене у /etc/fstab?"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr "Треба да ресетујете машину за примену измена у табели партиција"
+
+#~ msgid "Clear all"
+#~ msgstr "Очисти све"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Ауто дислоцирање"
+
+#~ msgid "More"
+#~ msgstr "Још"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Информације о хард диску"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Све примарне партиције су заузете"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Не могу додати више ни једну партицију"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Да би омогућили креирање још (extended) партиција избришите једну од "
+#~ "постојећих"
+
+#~ msgid "Save partition table"
+#~ msgstr "Сачувај табелу партиција"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Обнови табелу партиција"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Спаси табелу партиција"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Поново учитај табелу партиција"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Аутомонтирање преносивог медија"
+
+#~ msgid "Select file"
+#~ msgstr "Изаберите датотеку"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Похрањена(снимљена) табела партиција није исте величине\n"
+#~ "Желите да наставите ?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Спасавање табеле партиција"
+
+#~ msgid "Detailed information"
+#~ msgstr "Детаљне информације"
+
+#~ msgid "Resize"
+#~ msgstr "Промени величину"
+
+#~ msgid "Format"
+#~ msgstr "Форматирање"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Додај на RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Додај на LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Обриши"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Уклони са RAID-а"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Уклони са LVM-а"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Промени RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Користи за loopback"
+
+#~ msgid "Create"
+#~ msgstr "Креирај"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Креирај нову партицију"
+
+#~ msgid "Start sector: "
+#~ msgstr "Почетни сектор: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Величина у MB:"
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Врста татотечног система:"
+
+#~ msgid "Preference: "
+#~ msgstr "Карактеристике: "
+
+#, fuzzy
+#~ msgid "Logical volume name "
+#~ msgstr "Локална мера"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Ви не можете да креирате нову партицију\n"
+#~ "(пошто сте досегли максималан број примарних партиција).\n"
+#~ "Прво уклоните примарну партицију а затим креирајте extended партицију."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Уклони loopback фајл ?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "После промене типа партиције %s, сви подаци на овој партицији ће бити "
+#~ "избрисани"
+
+#~ msgid "Change partition type"
+#~ msgstr "Промена типа партиције"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Коју  датотечни систем желите ?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Мењам ext2 на ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Ознака"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Где бисте да монтирате loopback фајл %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Где бисте да монтирате %s уређај ?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Демонтирање није могуће,јер се партиција корисити за loop back.\n"
+#~ "Прво уклоните loopback"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Где бисте да монтирате %s уређај ?"
+
+#~ msgid "Resizing"
+#~ msgstr "Промена величине (resizing)"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Прорачунавам границе FAT датотечног система"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Овој партицици није могуће променити величину"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Сви подаци на овој партицији би требали бити сачувани"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "После промене величине %s партиције сви подаци ће бити избрисани"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Изаберите нову величину"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Нова величина у MB:"
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Да би осигурали интегритет након промене величине партиције(а), \n"
+#~ "провера фајл система ће бити покренута када се следећи пут улогујете у "
+#~ "Windows(TM)"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Изабери постојећи RAID за додавање"
+
+#~ msgid "new"
+#~ msgstr "нови"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Изабери постојећи LVM за додавање"
+
+#~ msgid "LVM name?"
+#~ msgstr "LVM име?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Ова партиција не може бити коришћена за loopback "
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Име Loopback датотеке: "
+
+#~ msgid "Give a file name"
+#~ msgstr "Одредите име фајла"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Фајл се већ користи од стране другог loopback-а,изаберите други"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Датотека већ постоји.Да ли да га користим ?"
+
+#~ msgid "Mount options"
+#~ msgstr "Опције монтирања"
+
+#~ msgid "Various"
+#~ msgstr "Разно"
+
+#~ msgid "device"
+#~ msgstr "уређај"
+
+#~ msgid "level"
+#~ msgstr "ниво"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "chunk величина"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "ПАЖЉИВО,ова операција је опасна."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Коју врсту партиционирања?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Морате рестартовати рачунар да би се измене извршиле"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Табела партиција за уређај %s ће бити записана на диск!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "После форматирања партиције %s,сви подаци на овој партицији ће бити "
+#~ "избрисани"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Провери лоше блокове ?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Премести фајлове на нову партицију"
+
+#~ msgid "Hide files"
+#~ msgstr "Сакриј фајлове"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Премештање фајлова на нову партицију"
+
+#~ msgid "Copying %s"
+#~ msgstr "Копирање %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Уклањање: %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "партиција %s је сада позната као %s"
+
+#~ msgid "Device: "
+#~ msgstr "Уређај: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Ознака DOS партиције: %s (само претпоставка)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Унеси: "
+
+#~ msgid "Name: "
+#~ msgstr "Име: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Почетак: сектор %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Величина: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s сектора"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Цилиндар %d до %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Форматирано\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Није форматирано\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Монтирано\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Loopback фајл(ови): \n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Boot партиција по default-у\n"
+#~ "   (за подизање MS-DOS-а, не за lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Ниво %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Chunk-уј %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "RAID-дискови %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Име Loopback датотеке: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Највероватније је, да је ова партиција\n"
+#~ "Driver партиција, па не би требали\n"
+#~ "да је дирате.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ово је специјална Bootstrap\n"
+#~ "партиција и користи се\n"
+#~ "dual-booting вашег система.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Само-читање"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Величина: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Геометрија: %s цилиндара, %s глава, %s сектора\n"
+
+#~ msgid "Info: "
+#~ msgstr "Инфо: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-дискови %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Тип табеле партиција: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "на каналу %d ID %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Кључ за енкрипцију фајл система"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Изаберите кључ за енкрипцију фајл система"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Ова лозинка(енкрипциони кључ) је сувише једноставна (треба да има бар %d "
+#~ "знакова)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Неподударност енкрипционих кључева (лозинки)"
+
+#~ msgid "Encryption key"
+#~ msgstr "Кључ за енкрипцију"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Кључ за енкрипцију (поново)"
+
+#, fuzzy
+#~ msgid "Encryption algorithm"
+#~ msgstr "Аутентификација"
+
+#~ msgid "Change type"
+#~ msgstr "Промена типа"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Не могу да улогујем корисничко име %s (неисправна лозинка?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Потребна Аутентификација Домена"
+
+#~ msgid "Which username"
+#~ msgstr "Које корисничко име"
+
+#~ msgid "Another one"
+#~ msgstr "Још један"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Унесите своје корисничко име, лозинку и домен да би могли да приступите "
+#~ "хосту."
+
+#~ msgid "Username"
+#~ msgstr "Корисничко име"
+
+#~ msgid "Search servers"
+#~ msgstr "Тражи сервере"
+
+#, fuzzy
+#~ msgid "Search new servers"
+#~ msgstr "Тражи сервере"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "Пакет %s мора бити инсталиран. Да ли желите да га инсталирате?"
+
+#, fuzzy
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Инсталирам пакет %s"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Текући пакет %s недостаје"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Следећи пакети треба да буду инсталирани:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Инсталирам пакете..."
+
+#, fuzzy
+#~ msgid "Removing packages..."
+#~ msgstr "Укањам %s ..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Догодила се грешка - није нађен исправан уређај на којем би били крерани "
+#~ "нови датотечног системи. Проверите ваш хардвер да видите шта је узрок "
+#~ "овог проблема."
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Морате имати FAT партицију монтирану у /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Форматирање партиције %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Креирање и форматирање датотеке %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "не знам како да форматирам %s у типу %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s Форматирање  %s није успело"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Кружно монтирање  %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Монтирам партицију %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "монтирање партиције %s у директоријум %s није успело"
+
+#~ msgid "Checking %s"
+#~ msgstr "Проверавам %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "Грешка при демонтирању %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Омогућавам swap партицију %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr "Не можете користити енкриптовани фајл систем за тачку монтирања %s"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Дуплирана тачка монтирања %s"
+
+#~ msgid "No partition available"
+#~ msgstr "нема доступних партиција"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Скенирање партиција за проналажење тачке монтирања"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Изаберите тачке монтирања"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Изабери партиције за форматирање"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Неуспешна првера фајл система %s. Да ли желите да поправите грешке? "
+#~ "(будите пажљиви, можете изгубити податке)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "Нема довољно swap-а да заврши инсталацију, додајте још swap-а"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Морате имати  root партицију.\n"
+#~ "За ово, креирајте партицију (или кликните на постојећу).\n"
+#~ "Затим изаберите \"Тачка монтирања\" и подесите на `/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Хм, нема swap партиције\n"
+#~ "\n"
+#~ "Свеједно наставити даље ?"
+
+#~ msgid "Use free space"
+#~ msgstr "Користи слободан простор"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Нема довољно слободног простора за алоцирање нових партиција"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Користи постојећу партицију"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Нема ни једне паритиције за рад"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Користи Microsoft Windows® партицију за loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Коју партицију желите да корисите за Linux4Win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Изаберите величину"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Величина Root партиције у MB:"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Величина Swap партиције у MB:"
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Не постоје FAT партиције којима се може променити величина (или нема "
+#~ "довољно слободног простора)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Корисити слободан простор на Windows партицији"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Којој партицији  желите да промените величину?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Програм за промену величине FAT паритција не може да управља вашом "
+#~ "партицијом, \n"
+#~ "због следеће грешке: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Прорачунавам величину Microsoft Windows® партиције"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Ваша Microsoft Windows® партиција је превише фрагментирана, прво "
+#~ "покрените ``defrag''"
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "УПОЗОРЕЊЕ!\n"
+#~ "\n"
+#~ "\n"
+#~ "Ваша Microsoft Windows® партиција треба да променити своју величину.\n"
+#~ "\n"
+#~ "\n"
+#~ "Будите пажљиви: ова операција је опасна. Уколико то до сада нисте радили, "
+#~ "прво треба да изађете из инсталације,покренете run \"chkdsk c:\" из "
+#~ "команде линије под Microsoft Windows® (пажња, покретање графичког "
+#~ "програма \"scandisk\" није довољно, па би зато требали да користите "
+#~ "\"chkdsk\" у командној линији!), можете покренути и  defrag, а затим онда "
+#~ "поново покрените инсталацију.\n"
+#~ "Такође би требали да урадите бекап својих података.\n"
+#~ "\n"
+#~ "\n"
+#~ "Ако сте сигурни, притисните %s."
+
+#~ msgid "Next"
+#~ msgstr "Следећи "
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Коју величину желите да задржите за прозоре"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Величина: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Прорачунавам границе Microsoft Windows® фајл-система"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "FAT измена величине неуспела: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "Не постоје FAT партиције којима се може променити величина  (или нема "
+#~ "довољно слободног простора)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Уклони Microsoft Windows®"
+
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Избриши и употреби цео диск"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Имате више од једног хард диска, на који од њих желите да инсталирате "
+#~ "Линукс ?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "СВЕ постојеће партиције и подаци на диску %s ће бити изгубљени"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Custom диск партиционирање"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Користи fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Сада можете партиционирати ваш %s хард диск уређај\n"
+#~ "Када завршите,не заборавите да потврдите користећи `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Не могу да пронађем слободан простор за инсталирање"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "DrakX чаробњак за партиционирање је пронашао следећа решења:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Партиционирање није успело: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Не можете користити JFS за партиције мање од 16MB"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Не можете користити ReiserFS за партиције мање од 32MB"
+
+#~ msgid "with /usr"
+#~ msgstr "са /usr"
+
+#~ msgid "server"
+#~ msgstr "сервер"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Не могу прочитати табелу партиција уређај %s , много је искварена за "
+#~ "мене :(\n"
+#~ "Покушаћу даље заобилазећи лоше партицијеМогу покушати да форматирам лоше "
+#~ "партиције (СВИ ПОДАЦИ ће бити изгубљени !).\n"
+#~ "Друго решење је да се DrakX онемогући да модуфикује табелу партиција.\n"
+#~ "(грешка је %s)\n"
+#~ "\n"
+#~ "Да ли се пристајете да изгубите све партиције?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Тачке монтирања морају да почињу са водећим /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Тачке монтирања треба да садрже само алфанумеричке карактере"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Већ постоји партиција са тачком монтирања %s\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Изабрали сте софтверску RAID партицију као root (/).\n"
+#~ "Ниједан стартер не може да ради са тим без /boot партиције.\n"
+#~ "Зато треба да додате /boot партицију"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "Не можете користити логичку LVM партицију за тачку монтирања %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Изабрали сте софтверску RAID партицију као root (/).\n"
+#~ "Ниједан стартер не може да ради са тим без /boot партиције.\n"
+#~ "Зато треба да додате /boot партицију"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Овај директоријум треба да остане у root-у  датотечног система"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Потребан вам је прави датотечни систем (ext2/ext3, reiserfs, xfs, или "
+#~ "jfs) за ову тачку монтирања\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "Не можете користити енкриптовани фајл систем за тачку монтирања %s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Нема довољно слободног простора за ауто-алоцирање"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Нема шта да се уради"
+
+#~ msgid "Floppy"
+#~ msgstr "Флопи"
+
+#~ msgid "Zip"
+#~ msgstr "Зип"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Диск"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD резачи"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Трака"
+
+#~ msgid "AGP controllers"
+#~ msgstr "AGP контролери"
+
+#~ msgid "Videocard"
+#~ msgstr "Видео картица"
+
+#~ msgid "Tvcard"
+#~ msgstr "ТВ картица"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Други мултимедијални уређаји"
+
+#~ msgid "Soundcard"
+#~ msgstr "Звучна картица"
+
+#~ msgid "Webcam"
+#~ msgstr "Веб камера"
+
+#~ msgid "Processors"
+#~ msgstr "Процесори"
+
+#, fuzzy
+#~ msgid "ISDN adapters"
+#~ msgstr "Интерна  ISDN картица"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Мрежна картица"
+
+#~ msgid "Modem"
+#~ msgstr "Модем"
+
+#~ msgid "Memory"
+#~ msgstr "Меморија"
+
+#~ msgid "Printer"
+#~ msgstr "Штампач"
+
+#~ msgid "Joystick"
+#~ msgstr "Џојстик"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA контролери"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID контролери"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA контролери"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire контролери"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA контролери"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI контролери"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB контролери"
+
+#, fuzzy
+#~ msgid "USB ports"
+#~ msgstr ", USB штампач"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus контролери"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Мостови и системски контролери"
+
+#~ msgid "Mouse"
+#~ msgstr "Миш"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Скенер"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Непознати/Остали"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Само моменат... примена конфигурације"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Нема алтернативног драјвера"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "Не постоји познати алтернативни OSS/ALSA драјвер за вашу звучну картицу (%"
+#~ "s) која тренутно користи \"%s\""
+
+#~ msgid "Sound configuration"
+#~ msgstr "Подешавање звука"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Овде можете изабрати алтернативни драјвер (или OSS или ALSA) за своју "
+#~ "звучну картицу (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ваша картица тренутно користи %s\"%s\" драјвер (default драјвер за вашу "
+#~ "картицу је \"%s\")"
+
+#, fuzzy
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Отворени Систем за Звук)је био прву звучни API. Он је независан "
+#~ "звучни API у односу на оперативни систем(доступан је на већини unices "
+#~ "система) али је прилично рудименаран и ограничен API.\n"
+#~ "Чак шта више, већина драјвера као да поново откирва точак \n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) је модуларне архитектуре који\n"
+#~ "подржава велики број ISA, USB и PCI картица.\n"
+#~ "\n"
+#~ "Он такође обезбеђује много већи API у односу на  OSS.\n"
+#~ "\n"
+#~ "Да би користили alsa, можете користи или:\n"
+#~ "- стари компатибилни OSS api\n"
+#~ "- нови ALSA api који омогућава много напредне могућности али захтева "
+#~ "коришћење ALSA библиотеке.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Драјвер:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Помоћ "
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Стари \"%s\" драјвер је на црној листи.\n"
+#~ "\n"
+#~ "Пријављено је да опструише кернел при рестартовању.\n"
+#~ "\n"
+#~ "Нови \"%s\" драјвер ће бити коришћен само при следећем стартању система."
+
+#~ msgid "No open source driver"
+#~ msgstr "Нема open source драјвера"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Не постоји бесплатан драјвер за вашу звучну картицу (%s), али постоји "
+#~ "лиценцирани драјвер на \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "Нема познатог драјвера"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Не постоји познати драјвер за вашу звучну картицу (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Непознати драјвер"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Грешка: драјвер \"%s\" за  вашу звучну картицу није приказан"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Помоћ за подешавање звука"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Класични тестер звука треба да покрене следеће команде:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" ће вам рећи који драјвер ваша звучна "
+#~ "картица користи \n"
+#~ "по default-у\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" ће вам рећи који је драјвер "
+#~ "тренутно\n"
+#~ "у употреби\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" ће вам омогућити да проверите да ли његов је драјверов "
+#~ "модул\n"
+#~ "учитан или није\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "ће\n"
+#~ "вам рећи да ли су сервер за звук и alsa подешени за покретање у\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" ће вам рећи какав је ниво јачине звука\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" ће вам рећи који програм користи ѕвучну "
+#~ "картицу.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Доозволи да изаберем било који уређај"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Бирам одговарајући драјвер"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Уколико заиста мислите да знате који је прави драјвер за вашу картицу\n"
+#~ "можете изабрати једну са горње листе.\n"
+#~ "\n"
+#~ "Тренутни драјвер за вашу \"%s\" звучну картицу је \"%s\" "
+
+#~ msgid "Auto-detect"
+#~ msgstr "Ауто-детекција"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Непознати|Generic"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Непознати|CPH05X (bt878) [многи произвођачи]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Непознати|CPH06X (bt878) [многи произвођачи]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "За већину модерних ТВ картица, bttv модул GNU/Linux кернела једноставно "
+#~ "ауто-детектује праве параметре.\n"
+#~ "Уколико је картица погрешно детектована, овде можете да подесите прави "
+#~ "тјунер и тип картице. Само селектујте параметре за вашу TV картицу ако је "
+#~ "потребно"
+
+#~ msgid "Card model:"
+#~ msgstr "Модел картице :"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Тип тјунера :"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Број capture buffer-а :"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "број capture buffer-а за mmap'ed capture"
+
+#~ msgid "PLL setting:"
+#~ msgstr "PLL опције :"
+
+#~ msgid "Radio support:"
+#~ msgstr "Подршка за радио :"
+
+#~ msgid "enable radio support"
+#~ msgstr "омогући подршку за радио"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Не"
+
+#~ msgid "Choose a file"
+#~ msgstr "Изаберите фајл"
+
+#~ msgid "Add"
+#~ msgstr "Додај"
+
+#~ msgid "Modify"
+#~ msgstr "Промени"
+
+#~ msgid "Remove"
+#~ msgstr "Уклони"
+
+#~ msgid "Finish"
+#~ msgstr "Крај"
+
+#~ msgid "Previous"
+#~ msgstr "Претходни"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Лош избор, пробајте поново\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Ваш избор ? (по default-у %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Уноси које треба да попуните:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Ваш избор? (0/1, default `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Тастер `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Да ли желите да кликнете на овај тастер? "
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Ваш избор? (default `%s'%s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " унесите `void' за void унос"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Постоји много ствари за избор из (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Изаберите први број од 10 које желите да едитујете,\n"
+#~ "или само кликните на Enter да би наставили.\n"
+#~ "Ваш избор? "
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Напомена, промењено име:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Re-submit"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Андора"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Уједињени Арапски Емирати"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Авганистан"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Антигва и Барбуда"
+
+#~ msgid "Anguilla"
+#~ msgstr "Анигла"
+
+#~ msgid "Albania"
+#~ msgstr "Албанија"
+
+#~ msgid "Armenia"
+#~ msgstr "Јерменија"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Холандски Антили"
+
+#~ msgid "Angola"
+#~ msgstr "Ангола"
+
+#~ msgid "Antarctica"
+#~ msgstr "Антартик"
+
+#~ msgid "Argentina"
+#~ msgstr "Аргентина"
+
+#~ msgid "American Samoa"
+#~ msgstr "Америчка Самоа"
+
+#~ msgid "Austria"
+#~ msgstr "Аустрија"
+
+#~ msgid "Australia"
+#~ msgstr "Аустралија"
+
+#~ msgid "Aruba"
+#~ msgstr "Аруба"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Азербејџан"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Босна и Хрецеговина"
+
+#~ msgid "Barbados"
+#~ msgstr "Барбадос"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Бангладеш"
+
+#~ msgid "Belgium"
+#~ msgstr "Белгија"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Буркина Фасо"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Бугарска"
+
+#~ msgid "Bahrain"
+#~ msgstr "Бахреин"
+
+#~ msgid "Burundi"
+#~ msgstr "Бурунди"
+
+#~ msgid "Benin"
+#~ msgstr "Бенин"
+
+#~ msgid "Bermuda"
+#~ msgstr "Бермуда"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Брунеји Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Боливија"
+
+#~ msgid "Brazil"
+#~ msgstr "Бразил"
+
+#~ msgid "Bahamas"
+#~ msgstr "Бахами"
+
+#~ msgid "Bhutan"
+#~ msgstr "Бутан"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Острва Буве"
+
+#~ msgid "Botswana"
+#~ msgstr "Боцвана"
+
+#~ msgid "Belarus"
+#~ msgstr "Беолорусија"
+
+#~ msgid "Belize"
+#~ msgstr "Белизе"
+
+#~ msgid "Canada"
+#~ msgstr "Канада"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Кокос (Келингова) Острва"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Конго (Киншаса)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Централно Афричка Република"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Конго (Бразавил)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Швајцарска"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Обала слоноваче"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Кукова Острва"
+
+#~ msgid "Chile"
+#~ msgstr "Чиле"
+
+#~ msgid "Cameroon"
+#~ msgstr "Камерун"
+
+#~ msgid "China"
+#~ msgstr "Кина"
+
+#~ msgid "Colombia"
+#~ msgstr "Колумбија"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Костарика"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Србија и Црна Гора"
+
+#~ msgid "Cuba"
+#~ msgstr "Куба"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Капе Верде"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Ускршња острава"
+
+#~ msgid "Cyprus"
+#~ msgstr "Кипар"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Чешка"
+
+#~ msgid "Germany"
+#~ msgstr "Немачка"
+
+#~ msgid "Djibouti"
+#~ msgstr "Џибути"
+
+#~ msgid "Denmark"
+#~ msgstr "Данска"
+
+#~ msgid "Dominica"
+#~ msgstr "Доминикана"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Доминиканска Република"
+
+#~ msgid "Algeria"
+#~ msgstr "Алжир"
+
+#~ msgid "Ecuador"
+#~ msgstr "Еквадор"
+
+#~ msgid "Estonia"
+#~ msgstr "Естонија"
+
+#~ msgid "Egypt"
+#~ msgstr "Египат"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Западна Сахара"
+
+#~ msgid "Eritrea"
+#~ msgstr "Еритреја"
+
+#~ msgid "Spain"
+#~ msgstr "Шпанија"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Етиопија"
+
+#~ msgid "Finland"
+#~ msgstr "Финска"
+
+#~ msgid "Fiji"
+#~ msgstr "Фиџи"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Фокландска Острва"
+
+#~ msgid "Micronesia"
+#~ msgstr "Микронезија"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Фарска Острва"
+
+#~ msgid "France"
+#~ msgstr "Француска"
+
+#~ msgid "Gabon"
+#~ msgstr "Габон"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Велика Британија"
+
+#~ msgid "Grenada"
+#~ msgstr "Гренада"
+
+#~ msgid "Georgia"
+#~ msgstr "Грузија"
+
+#~ msgid "French Guiana"
+#~ msgstr "Француска Гвајана"
+
+#~ msgid "Ghana"
+#~ msgstr "Гана"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Гилбратлар"
+
+#~ msgid "Greenland"
+#~ msgstr "Гренланд"
+
+#~ msgid "Gambia"
+#~ msgstr "Гамбија"
+
+#~ msgid "Guinea"
+#~ msgstr "Гвинеја"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Гвадалупе"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Екваторијална Гвинеја"
+
+#~ msgid "Greece"
+#~ msgstr "Грчка"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Јужна Џорџија и Јужна Сендвичка Острва"
+
+#~ msgid "Guatemala"
+#~ msgstr "Гватемала"
+
+#~ msgid "Guam"
+#~ msgstr "Гуам"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Гвинеја-Бисао"
+
+#~ msgid "Guyana"
+#~ msgstr "Гвајана"
+
+#, fuzzy
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Хонг Конг"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Хердова и McDonald Острва"
+
+#~ msgid "Honduras"
+#~ msgstr "Хондурас"
+
+#~ msgid "Croatia"
+#~ msgstr "Хрватска"
+
+#~ msgid "Haiti"
+#~ msgstr "Хаити"
+
+#~ msgid "Hungary"
+#~ msgstr "Мађарска"
+
+#~ msgid "Indonesia"
+#~ msgstr "Индонезија"
+
+#~ msgid "Ireland"
+#~ msgstr "Ирска"
+
+#~ msgid "Israel"
+#~ msgstr "Израел"
+
+#~ msgid "India"
+#~ msgstr "Индија"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Британска Индијска Океанска Територија"
+
+#~ msgid "Iraq"
+#~ msgstr "Ирак"
+
+#~ msgid "Iran"
+#~ msgstr "Иран"
+
+#~ msgid "Iceland"
+#~ msgstr "Исланд"
+
+#~ msgid "Italy"
+#~ msgstr "Италија"
+
+#~ msgid "Jamaica"
+#~ msgstr "Јамајка"
+
+#~ msgid "Jordan"
+#~ msgstr "Јордан"
+
+#~ msgid "Japan"
+#~ msgstr "Јапан"
+
+#~ msgid "Kenya"
+#~ msgstr "Кенија"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Киргистан"
+
+#~ msgid "Cambodia"
+#~ msgstr "Камбоџа"
+
+#~ msgid "Kiribati"
+#~ msgstr "Кирибати"
+
+#~ msgid "Comoros"
+#~ msgstr "Комори"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Свети Китс и Невис"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Кореја (Северна)"
+
+#~ msgid "Korea"
+#~ msgstr "Кореја"
+
+#~ msgid "Kuwait"
+#~ msgstr "Кувајт"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Кајманска Острва"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Казахстан"
+
+#~ msgid "Laos"
+#~ msgstr "Лаос"
+
+#~ msgid "Lebanon"
+#~ msgstr "Либан"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Света Луција"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Лихтенштајн"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Шри Ланка"
+
+#~ msgid "Liberia"
+#~ msgstr "Либерија"
+
+#~ msgid "Lesotho"
+#~ msgstr "Лесото"
+
+#~ msgid "Lithuania"
+#~ msgstr "Литванија"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Луксембург"
+
+#~ msgid "Latvia"
+#~ msgstr "Летонија"
+
+#~ msgid "Libya"
+#~ msgstr "Либија"
+
+#~ msgid "Morocco"
+#~ msgstr "Мароко"
+
+#~ msgid "Monaco"
+#~ msgstr "Монако"
+
+#~ msgid "Moldova"
+#~ msgstr "Молдавија"
+
+#~ msgid "Madagascar"
+#~ msgstr "Мадагаскар"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Маршалова Острва"
+
+#~ msgid "Macedonia"
+#~ msgstr "Македонија"
+
+#~ msgid "Mali"
+#~ msgstr "Мали"
+
+#~ msgid "Myanmar"
+#~ msgstr "Мианмар (Бурма)"
+
+#~ msgid "Mongolia"
+#~ msgstr "Монголија"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Северно Маријанска Острва"
+
+#~ msgid "Martinique"
+#~ msgstr "Мартиник"
+
+#~ msgid "Mauritania"
+#~ msgstr "Мауританија"
+
+#~ msgid "Montserrat"
+#~ msgstr "Монсерат"
+
+#~ msgid "Malta"
+#~ msgstr "Малта"
+
+#~ msgid "Mauritius"
+#~ msgstr "Маурицијус"
+
+#~ msgid "Maldives"
+#~ msgstr "Малдиви"
+
+#~ msgid "Malawi"
+#~ msgstr "Малави"
+
+#~ msgid "Mexico"
+#~ msgstr "Мексико"
+
+#~ msgid "Malaysia"
+#~ msgstr "Малезија"
+
+#~ msgid "Mozambique"
+#~ msgstr "Мозамбик"
+
+#~ msgid "Namibia"
+#~ msgstr "Намибија"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Нова Каледонија"
+
+#~ msgid "Niger"
+#~ msgstr "Нигер"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Норфолк Острва"
+
+#~ msgid "Nigeria"
+#~ msgstr "Нигерија"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Никарагва"
+
+#~ msgid "Netherlands"
+#~ msgstr "Холандија"
+
+#~ msgid "Norway"
+#~ msgstr "Норвешка"
+
+#~ msgid "Nepal"
+#~ msgstr "Непал"
+
+#~ msgid "Nauru"
+#~ msgstr "Науру"
+
+#~ msgid "Niue"
+#~ msgstr "Niue"
+
+#~ msgid "New Zealand"
+#~ msgstr "НОви Зеланд"
+
+#~ msgid "Oman"
+#~ msgstr "Оман"
+
+#~ msgid "Panama"
+#~ msgstr "Панама"
+
+#~ msgid "Peru"
+#~ msgstr "Перу"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Франсуска Полинезија"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Папуа Нова Гвинеја"
+
+#~ msgid "Philippines"
+#~ msgstr "Филипини"
+
+#~ msgid "Pakistan"
+#~ msgstr "Пакистан"
+
+#~ msgid "Poland"
+#~ msgstr "Пољска"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Свети Пјер и Микелон"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Порто Рико"
+
+#~ msgid "Palestine"
+#~ msgstr "Палестина"
+
+#~ msgid "Portugal"
+#~ msgstr "Португал"
+
+#~ msgid "Paraguay"
+#~ msgstr "Парагвај"
+
+#~ msgid "Palau"
+#~ msgstr "Палау"
+
+#~ msgid "Qatar"
+#~ msgstr "Катар"
+
+#~ msgid "Reunion"
+#~ msgstr "Reunion"
+
+#~ msgid "Romania"
+#~ msgstr "Румунија"
+
+#~ msgid "Russia"
+#~ msgstr "Русија"
+
+#~ msgid "Rwanda"
+#~ msgstr "Руанда"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Саудијска Арабија"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Соломонова Острва"
+
+#~ msgid "Seychelles"
+#~ msgstr "Сејшели"
+
+#~ msgid "Sudan"
+#~ msgstr "Судан"
+
+#~ msgid "Sweden"
+#~ msgstr "Шведска"
+
+#~ msgid "Singapore"
+#~ msgstr "Сингапур"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Света Јелена"
+
+#~ msgid "Slovenia"
+#~ msgstr "Словенија"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Svalbard and Jan Mayen Islands"
+
+#~ msgid "Slovakia"
+#~ msgstr "Славачка"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Сијера Леоне"
+
+#~ msgid "San Marino"
+#~ msgstr "Сан Марино"
+
+#~ msgid "Senegal"
+#~ msgstr "Сенегал"
+
+#~ msgid "Somalia"
+#~ msgstr "Сомалија"
+
+#~ msgid "Suriname"
+#~ msgstr "Суринам"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Сао Томе и Принципе"
+
+#~ msgid "El Salvador"
+#~ msgstr "Ел Салвадор"
+
+#~ msgid "Syria"
+#~ msgstr "Сирија"
+
+#~ msgid "Swaziland"
+#~ msgstr "Свазиленд"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Turks and Caicos Islands"
+
+#~ msgid "Chad"
+#~ msgstr "Чад"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Француске Јужне Територије"
+
+#~ msgid "Togo"
+#~ msgstr "Того"
+
+#~ msgid "Thailand"
+#~ msgstr "Тајланд"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Таџикистан"
+
+#~ msgid "Tokelau"
+#~ msgstr "Токелау"
+
+#~ msgid "East Timor"
+#~ msgstr "Источни Тимор"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Туркменистан"
+
+#~ msgid "Tunisia"
+#~ msgstr "Тунис"
+
+#~ msgid "Tonga"
+#~ msgstr "Тонга"
+
+#~ msgid "Turkey"
+#~ msgstr "Турска"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Тринидад и Тобаго"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Тувалу"
+
+#~ msgid "Taiwan"
+#~ msgstr "Тајван"
+
+#~ msgid "Tanzania"
+#~ msgstr "Танзанија"
+
+#~ msgid "Ukraine"
+#~ msgstr "Украјина"
+
+#~ msgid "Uganda"
+#~ msgstr "Уганда"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "United States Minor Outlying Islands"
+
+#~ msgid "United States"
+#~ msgstr "САД"
+
+#~ msgid "Uruguay"
+#~ msgstr "Уругвај"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Узбекистан"
+
+#~ msgid "Vatican"
+#~ msgstr "Ватикан"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Свети Винсент и Гренандини"
+
+#~ msgid "Venezuela"
+#~ msgstr "Венецуела"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Девичанска Острва(В.Британија)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Девичанска Острва (С.А.Д)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Вијетнам"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Вануату"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Валис и Футуна"
+
+#~ msgid "Samoa"
+#~ msgstr "Самоа"
+
+#~ msgid "Yemen"
+#~ msgstr "Јемен"
+
+#~ msgid "Mayotte"
+#~ msgstr "Мајот"
+
+#~ msgid "South Africa"
+#~ msgstr "Јужна Африка"
+
+#~ msgid "Zambia"
+#~ msgstr "Замбија"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Зимбабве"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Доброшли у  %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Уклони прво логичке волумене\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Упознавање\n"
+#~ "\n"
+#~ "Оперативни систем и друге компоненте доступне у Mandriva Linux "
+#~ "дистрибуцији \n"
+#~ "на даље ће бити зване \"Софтверски Производи\" . Софтверски производи "
+#~ "укључују, али нису и \n"
+#~ "ограничени на, скуп програма, метода, правила и документацију која је "
+#~ "везаназа оперативни \n"
+#~ "систем и друге компоненте Mandriva Linux дистрибуције.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. Лиценцни уговор\n"
+#~ "\n"
+#~ "Пажљиво прочитајте овај документ. Овај документ је лиценцни уговор "
+#~ "измеђуизмеђу вас и   \n"
+#~ "Mandriva S.A. који полаже право на Софтверске Производе.\n"
+#~ "Инсталирањем, копирањем или употребом Софтверских Производа у било ком "
+#~ "виду, ви експлицитно \n"
+#~ "прихватате и потпуно се слажете са прихватањем поставки и услова и стања "
+#~ "у овој Лиценци. \n"
+#~ "Уколико се не слажете са било којим делом Лиценце, немате право да "
+#~ "инсталирате, копирате или користите \n"
+#~ "Софтверске производе. \n"
+#~ "Било који покушај инсталације, дуплицирања или употребе Софтверских "
+#~ "Производа на начин који се не слаже са \n"
+#~ "поставкама и условима ове Лиценце ће водити губитку ваших права под "
+#~ "овом \n"
+#~ "Лиценцом. На основу губитка Лиценце, морате одмах уништитисве копије \n"
+#~ "Софтверских Производа.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Ограничена Гаранција\n"
+#~ "\n"
+#~ "Софтверски Производи и пратећа документрација су омогућене \"као такве\", "
+#~ "и без гаранције, до граница \n"
+#~ "које су дозвољене законом.\n"
+#~ "Mandriva S.A. неће, у свим условима и у границама закона, бити оговоран "
+#~ "за било које специјалне,\n"
+#~ "случајне, директне или индиректне штете (укључујући неограниченештете или "
+#~ "губитке \n"
+#~ "у пословању, прекиду пословања, финансијским губицима, законске тражње и "
+#~ "казне које су резултат судске \n"
+#~ "одлуке, или за било који други губитак) које произилазе из употребе или "
+#~ "немогућности коришћења Софтверских \n"
+#~ "Производа, чак иако је Mandriva S.A. саветовао и указивао на могућност "
+#~ "појаве такве \n"
+#~ "штете.\n"
+#~ "\n"
+#~ "Ограничена одговорности везане за поседовање или употребу забрањеног "
+#~ "софтвера у неким земљама\n"
+#~ "\n"
+#~ "До граница које су условљене законом, Mandriva S.A. или његови "
+#~ "дистрибутери неће, ни под којим условима, бити \n"
+#~ "одговорни за специјалне, намерне директне или индиректне штете(укључујући "
+#~ "неограничене \n"
+#~ "штете или губитке у пословању, прекиду пословања, финансијским губицима, "
+#~ "законске тражње \n"
+#~ "и казне које су резултат судске одлуке, или за било који други губитак) "
+#~ "које произилазе \n"
+#~ "из употребе или немогућности коришћења Софтверских Компоненти или које "
+#~ "произилазе download-ованих софтверских компоненти \n"
+#~ "било ког Mandriva Linux сајта који су забрањени или ограничени у неким "
+#~ "земљама по локалним законима.\n"
+#~ "Ова ограничена права се примењују, али нису и ограничена на,криптографске "
+#~ "компоненте \n"
+#~ "које се налазе у Софтверским Производима.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. GPL и за њу везане Лиценце\n"
+#~ "\n"
+#~ "Софтверски производи се састоје од компоненти креираних од стране "
+#~ "различтих лица или ентитета. Већина  \n"
+#~ "од ових компоненти се налазе под поставкама и условима GNU Опште Јавне \n"
+#~ "Лиценце, која се од сада зове  \"GPL\", или сличне лиценце. Већина ових "
+#~ "лиценци дозвољава употребу, \n"
+#~ "дуплицирање, адаптацију или редистрибуцију компоненти које оне "
+#~ "обухватају. Молимо Вас да пажљиво прочитте поставке \n"
+#~ "и услове лиценцног уговора за сваку компоненту пре употребе било које "
+#~ "компоненете. Било које питање \n"
+#~ "везано за лиценцу компоненти треба да буде адресирано на аутора "
+#~ "компоненте а нена Mandriva.\n"
+#~ "Програми које је развио Mandriva S.A. подлежу под GPL Лиценцу. "
+#~ "Документација писана од \n"
+#~ "стране Mandriva S.A. подлеже под посебну лиценцу. Молим да погледате "
+#~ "документацију  \n"
+#~ "за детаље.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Права на Интелектуалну својину\n"
+#~ "\n"
+#~ "Сва права на компоненте Софтверских производа припадају њиховим ауторима "
+#~ "и она \n"
+#~ "су заштићена законима о интелектуалној својини и правима који се "
+#~ "примењују на софтверске програме.\n"
+#~ "Mandriva S.A. је резервисао своја права на модификовање или адаптацију "
+#~ "СофтверскихПроизвода, како за целину тако и за \n"
+#~ "делове, за све све сврхе и све употребе.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" и придружени логотипи и ознаке Mandriva "
+#~ "S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Законска права \n"
+#~ "\n"
+#~ "Уколико се било који део овог уговора избегава, нелегално и ван  судске "
+#~ "одлуке, овај \n"
+#~ "део се искључује из овог угвора. Обавезни сте да примењујетеостале делове "
+#~ "овог\n"
+#~ "уговора.\n"
+#~ "Поставке и услови ове Лиценце су одређени Законима Француске.\n"
+#~ "Сви неспоразуми би требали бити решени ван суда. Као последње \n"
+#~ "средство, неспоразуми ће бити упућени на одговарајуће Судске установе у "
+#~ "Паризу - Француска.\n"
+#~ "За било које питање које је везано за овај документ, контактирајте  "
+#~ "Mandriva S.A.  \n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Упозорење !\n"
+#~ "\n"
+#~ "Пажљиво прочитајте доле наведене услове. Уколико се не слажете са било "
+#~ "којим \n"
+#~ "делом, онда немате одобрење за инсталирање следећег CD-а. Притисните "
+#~ "'Одбијам' \n"
+#~ "да би наставили инсталацију без употребе тих CD медија.\n"
+#~ "\n"
+#~ "\n"
+#~ "Неке компоненте садржане у следећим CD медијама нису под\n"
+#~ "GPL Лиценцом или сличним уговорима. Свака таква компонента је онда "
+#~ "условљена\n"
+#~ "условима и уговорима сопстевене линценце. \n"
+#~ "Пажљиво прочитајте и упознајте се са таквим специфичним лиценцама пре \n"
+#~ "него уотребите или редистрибуирате поменуте компоненте. \n"
+#~ "Такве лиценце ће у главном забрањивати трансфер, копирање \n"
+#~ "(осим за сврху backup-а података), редисрибуцију, нахнадну промену, \n"
+#~ "растављање, де-компајлирање или мењање компоненти. \n"
+#~ "Било који део уговора који није испоштован истовремено уклања и остала "
+#~ "ваша права\n"
+#~ "у датој лиценци. Уколико вам одређена лиценца не гарантује таква\n"
+#~ "права, обично не можете инсталирати програме на више од једаног\n"
+#~ "аиатема, или их прилагодити да се могу користити на мрежи. Уколико сте у "
+#~ "дилеми, молимо вас да директно \n"
+#~ "контактирате дистрибутера или едитора компоненте. \n"
+#~ "Пренос на треће програме или копирање таквих компоненти укључујући и\n"
+#~ "документацију је обично забрањен.\n"
+#~ "\n"
+#~ "\n"
+#~ "Сва права на компоненте на следећим CD медијама припадају њиховим \n"
+#~ "респектативним ауторима и заштићене су законима о интелектуаној својини "
+#~ "и \n"
+#~ "правима који се примењују на софтверске програме.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Честитамо, инсталација је завршена.\n"
+#~ "Извадите дискету из драјва и притисните <Enter> да се рачунар ресетује.\n"
+#~ "\n"
+#~ "\n"
+#~ "За информације о поправкама које су на располагању за ово издање\n"
+#~ "Mandriva Linux Линукса, прочитајте део 'Errata' који можете наћи на\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Информације о конфигурисању вашег система можете наћи у пост-"
+#~ "инсталационом\n"
+#~ "поглављу званичног Mandriva Linux 'Водича за кориснике'."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "CUPS-конфигурација за дељење штампача"
+
+#, fuzzy
+#~ msgid "Module configuration"
+#~ msgstr "Ручна конфигурација"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Овде можете подесити сваки параметар модула."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Пронађено %s интерфејса"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Да ли имате још један?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Имате ли још %s интерфејса?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Погледај информације о хардверу"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Инсталирам драјвер за %s картицу %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Инсталирам драјвер за %s картицу %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Инсталирам драјвер за %s картицу %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Инсталирам драјвер за %s картицу %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Инсталирам драјвер за %s картицу %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Сада можете да убаците његове опције у модул %s.\n"
+#~ "Запамтите да свака адреса треба да се уноси са префиксом 0x као нпр. "
+#~ "'0x123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Можете навести његове опције за модул %s.\n"
+#~ "Опције су у формату ``име=вредност име2=вредност2 ...''.\n"
+#~ "На пример, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Опције модула:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Који %s драјвер да пробам?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "У неким случајевима, драјвер %s захтева додатне информације\n"
+#~ "за правилан рад, мада може лепо да ради и без њих. Да ли хоћете\n"
+#~ "сами да унесете додатне податке за њега, или да их драјвер сам одреди?\n"
+#~ "Могуће је да ће проба заглавити ваш рачунар, али неће нанети никакву "
+#~ "штету."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Аутоматска проба"
+
+#~ msgid "Specify options"
+#~ msgstr "Наведите опције"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "Подизање модула %s неуспело.\n"
+#~ "Да ли желите покушате поново са другим параметрима ?"
+
+#~ msgid "mount failed: "
+#~ msgstr "монтирање није успело: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Extended партиција није подржана на овој платформи"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Имате празнину у вашој табели партиција али је не могу корисити.\n"
+#~ "Једино решење је да померите примарну партицију тако да празнина буде\n"
+#~ "до extended партиција"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Грешка код отварања датотека %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Отварање из датотеке %s није успело: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Лоше backup-ована датотека"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Грешка код уноса у датотека %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Нешто лоше се дешава са вашим хард диском. \n"
+#~ "Тест интегритета података није прошао. \n"
+#~ "То значи да све што се налази на диску ће завршити као ђубре"
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Није могуће додати партицију на _форматиран_ RAID md%d"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Нема довољно партиција за RAID ниво %d\n"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#, fuzzy
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Прихвати/Одбиј IPv4 поруке о грешкама."
+
+#, fuzzy
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Прихвати/Одбиј преносиви icmp echo."
+
+#, fuzzy
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Прихвати/Одбиј icmp echo."
+
+#, fuzzy
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи аутологовање."
+
+#, fuzzy
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Ако је \\fIarg\\fP = ALL allow /etc/issue и /etc/issue.net не постоји. "
+#~ "Ако је \\fIarg\\fP = NONE ниједана радња није\n"
+#~ "дозвољена или је само /etc/issue дозвољен."
+
+#, fuzzy
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи рестартовање од стране конзлолног корисника."
+
+#, fuzzy
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи удаљено root логовање."
+
+#, fuzzy
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи диектно root логовање."
+
+#, fuzzy
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи листу корисника на систему у менаџерима за дисплеј "
+#~ "(kdm и gdm)."
+
+#, fuzzy
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Аргументи: (arg, listen_tcp=None)\n"
+#~ "\n"
+#~ "Дозвољава/Недозвољава X конекцију. Први аргумент одређије шта је урађено\n"
+#~ "са стране клијента: ALL (све конекције су дозвољене), LOCAL (само\n"
+#~ "лпкалне конекције) и NONE (без конекције)."
+
+#, fuzzy
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Аргумент одређује да ли клијент ауторзиван за конековање на\n"
+#~ "X сервер на tcp порту 6000 или није."
+
+#, fuzzy
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Ауторизује све сервисе које контролише tcp_wrappers (see hosts.deny(5)) "
+#~ "ако је \\fIarg\\fP = ALL. Само локални\n"
+#~ "if \\fIarg\\fP = LOCAL and none if \\fIarg\\fP = NONE. За ауторизацију "
+#~ "вама потребних сервиса , користите /etc/hosts.allow\n"
+#~ "(see hosts.allow(5))."
+
+#, fuzzy
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Аргументи: ()\n"
+#~ "\n"
+#~ "Уколико је SERVER_LEVEL (или је SECURE_LEVEL одсутан) већи од 3\n"
+#~ "у /etc/security/msec/security.conf, креира симболички линк /etc/security/"
+#~ "msec/server\n"
+#~ "да упућује на /etc/security/msec/server.<SERVER_LEVEL>.  /etc/security/"
+#~ "msec/server\n"
+#~ "се користи од стране chkconfig --add да би додали сервис уколико је "
+#~ "присутан у фајлу\n"
+#~ "током инсталације пакета."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући crontab и at за кориснике. Поставите кориснике са "
+#~ "дозволама у /etc/cron.allow и /etc/at.allow\n"
+#~ "(прочитајте man at(1) и crontab(1))."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Аргументи: (arg, alert=1)\n"
+#~ "\n"
+#~ "Омогући/Онемогући заштиту за name resolution spoofing.  Ако је\n"
+#~ "\"%s\" истинит, и то пријавите у syslog."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Сигурносни аларми:"
+
+#, fuzzy
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr ""
+#~ "Аргументи: (arg, alert=1)\n"
+#~ "\n"
+#~ "Омогући/Онемогући IP spoofing заштиту."
+
+#, fuzzy
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући libsafe ако је libsafe пронађен на систему."
+
+#, fuzzy
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући пријављивање IPv4 strange пакета."
+
+#, fuzzy
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући msec проверу сигурности на сваки час."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Омогућавање su само за корисније wheel групе или за сваког корисника."
+
+#, fuzzy
+#~ msgid "Use password to authenticate users."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Користи лозинку за аутентификацију корисника."
+
+#, fuzzy
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Активирај/Деактивирај проверу промискуитета мрежних картица."
+
+#, fuzzy
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Активирај/Деактивирај дневне сигурносне провере."
+
+#, fuzzy
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Омогући/Онемогући sulogin(8) у single user нивоу."
+
+#, fuzzy
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Аргументи: (name)\n"
+#~ "\n"
+#~ "Add the name as an exception to the handling of password aging by msec."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "Аргументи: (max, inactive=-1)\n"
+#~ "\n"
+#~ "Подесите лозинку циљајући на \\fImax\\fP дана и измена паузе на  "
+#~ "\\fIinactive\\fP."
+
+#, fuzzy
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Подесите историју памћења лозинки да би спречили поновну употребу лозинке."
+
+#, fuzzy
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Аргументи: (length, ndigits=0, nupper=0)\n"
+#~ "\n"
+#~ "Подесите најмању дужину лозинке и најмањи број бројева и минималан број "
+#~ "великих слова."
+
+#, fuzzy
+#~ msgid "Set the root umask."
+#~ msgstr ""
+#~ "Аргументи: (umask)\n"
+#~ "\n"
+#~ "Подесите root umask."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "уколико је подешено на да, означите отворене портове."
+
+#, fuzzy
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "уколико је подешене на да, проверите празне лозинке, без лозинке у /etc/"
+#~ "shadow и  кориснике са 0 id различих од root."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "уколико је подешено на да, проверите овлашћења за фајлове у корисничком "
+#~ "home диреторијуму."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "уколико је подешено на да, проверите да ли су мрежни уређаји у "
+#~ "promiscuous моду."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "уколико је подешено на да, покрените дневне сигурносне провере."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr "уколико је подешено на да, означите додавање/уклањање sgid фајлова."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr "уколико је подешено на да, прверите празну лозинку у /etc/shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr "уколико је подешено на да, проверите checksum за suid/sgid фајлове."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "уколико је подешено на да, означите додавање/уклањање за suid root "
+#~ "фајлове."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "уколико је подешено на да, пријавите фајлове без власника."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "уколико је подешено на да, означите фајлове/диреторијуме уписивим за све "
+#~ "кориснике."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "уколико је подешено на да, покрените chkrootkit провере."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "уколико је подешено, пошаљите извештај на ову email адресу ули је "
+#~ "пошаљите root-у."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "уколико кажете да, пошаљите резултат провере mail-ом."
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr "уколико је подешено на да, покрените проверу rpm базе података."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr "уколико је подешено на да, пошаљите извештај о провери у syslog."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "уколико је подешено на да, извештај о провери пошаљите на tty."
+
+#, fuzzy
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Аргументи: (size)\n"
+#~ "\n"
+#~ "Подесите shell величину историје за команде. Вредност -1 значи да нема "
+#~ "линита."
+
+#, fuzzy
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Аргументи: (val)\n"
+#~ "\n"
+#~ "Подесите shell паузу. Вредност zero - нула значи да нема паузе."
+
+#, fuzzy
+#~ msgid "Set the user umask."
+#~ msgstr ""
+#~ "Аргументи: (umask)\n"
+#~ "\n"
+#~ "Подешавање корисничког umask."
+
+#, fuzzy
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Прихвати/Одбиј IPv4 поруке о грешкама."
+
+#, fuzzy
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Прихвати/Одбиј преносиви icmp echo."
+
+#, fuzzy
+#~ msgid "Allow remote root login"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи удаљено root логовање."
+
+#, fuzzy
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Дозволи/Не дозволи листу корисника на систему у менаџерима за дисплеј "
+#~ "(kdm и gdm)."
+
+#, fuzzy
+#~ msgid "Allow X Window connections"
+#~ msgstr "Winmodem конекција"
+
+#, fuzzy
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Подеси сервисе"
+
+#, fuzzy
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr ""
+#~ "Аргументи: (arg, alert=1)\n"
+#~ "\n"
+#~ "Омогући/Онемогући IP spoofing заштиту."
+
+#, fuzzy
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући libsafe ако је libsafe пронађен на систему."
+
+#, fuzzy
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући пријављивање IPv4 strange пакета."
+
+#, fuzzy
+#~ msgid "Enable msec hourly security check"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Омогући/Онемогући msec проверу сигурности на сваки час."
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Омогућавање su само за корисније wheel групе или за сваког корисника."
+
+#, fuzzy
+#~ msgid "Use password to authenticate users"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Користи лозинку за аутентификацију корисника."
+
+#, fuzzy
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ "Активирај/Деактивирај проверу промискуитета мрежних картица."
+
+#, fuzzy
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr ""
+#~ "Аргументи: (arg)\n"
+#~ "\n"
+#~ " Омогући/Онемогући sulogin(8) у single user нивоу."
+
+#, fuzzy
+#~ msgid "No password aging for"
+#~ msgstr "Без лозинке"
+
+#, fuzzy
+#~ msgid "Password history length"
+#~ msgstr "Ова лозинка је превише проста"
+
+#, fuzzy
+#~ msgid "Root umask"
+#~ msgstr "Root лозинка"
+
+#, fuzzy
+#~ msgid "Shell timeout"
+#~ msgstr "Пауза при стартању кернела"
+
+#, fuzzy
+#~ msgid "User umask"
+#~ msgstr "Корисници"
+
+#, fuzzy
+#~ msgid "Check open ports"
+#~ msgstr "Детектовано на порту %s"
+
+#, fuzzy
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr ""
+#~ "уколико је подешено на да, проверите овлашћења за фајлове у корисничком "
+#~ "home диреторијуму."
+
+#, fuzzy
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr ""
+#~ "уколико је подешено на да, проверите да ли су мрежни уређаји у "
+#~ "promiscuous моду."
+
+#, fuzzy
+#~ msgid "Run the daily security checks"
+#~ msgstr "уколико је подешено на да, покрените дневне сигурносне провере."
+
+#, fuzzy
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "уколико је подешено на да, означите додавање/уклањање sgid фајлова."
+
+#, fuzzy
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "уколико је подешено на да, прверите празну лозинку у /etc/shadow."
+
+#, fuzzy
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "уколико је подешено на да, проверите checksum за suid/sgid фајлове."
+
+#, fuzzy
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr ""
+#~ "уколико је подешено на да, означите додавање/уклањање за suid root "
+#~ "фајлове."
+
+#, fuzzy
+#~ msgid "Report unowned files"
+#~ msgstr "уколико је подешено на да, пријавите фајлове без власника."
+
+#, fuzzy
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr ""
+#~ "уколико је подешено на да, означите фајлове/диреторијуме уписивим за све "
+#~ "кориснике."
+
+#, fuzzy
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "уколико је подешено на да, покрените chkrootkit провере."
+
+#, fuzzy
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "уколико је подешено, пошаљите извештај на ову email адресу ули је "
+#~ "пошаљите root-у."
+
+#, fuzzy
+#~ msgid "Report check result by mail"
+#~ msgstr "уколико кажете да, пошаљите резултат провере mail-ом."
+
+#, fuzzy
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "уколико је подешено на да, покрените проверу rpm базе података."
+
+#, fuzzy
+#~ msgid "Report check result to syslog"
+#~ msgstr "уколико је подешено на да, пошаљите извештај о провери у syslog."
+
+#, fuzzy
+#~ msgid "Reports check result to tty"
+#~ msgstr "уколико је подешено на да, извештај о провери пошаљите на tty."
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Доброшли код Кракера"
+
+#~ msgid "Poor"
+#~ msgstr "Бедна"
+
+#~ msgid "High"
+#~ msgstr "Велика"
+
+#~ msgid "Higher"
+#~ msgstr "Вишљи"
+
+#~ msgid "Paranoid"
+#~ msgstr "Параноидна"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "На овом нивоу треба обратити пажњу. Он прави ваш систем лакшим\n"
+#~ "за употребу, али и  веома осетљивим: не сме бити кориштен на машини\n"
+#~ "која је повезана са другим машинама или на интернет. Овде не постоји\n"
+#~ "приступ са лозинком."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Лозинке су сада омогућене, али се и даље не препоручује да се користи\n"
+#~ "као мрежни рачунар."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Ово је стандардно сигурносно окружење препоручено за рачунаре који  ће "
+#~ "бити  коршћени за везу са Интернетом или као клијент."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Већ постоје нека ограничења, а више аутоматских провера се покреће сваке "
+#~ "ноћи."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Са овим сигурносним нивоом, коришћење овог система као сервера постаје "
+#~ "могуће.\n"
+#~ "Сигурност је сада довољно велика за коришћење машине за сервер који "
+#~ "прихвата\n"
+#~ "конекције бројних клијената. Напомена: уколико је ваша машина само "
+#~ "клијент на Интернету, требали би да изаберете нижи ниво."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Ово је слично претходном нивоу, али је сада систем потпуно затворен и "
+#~ "сигурносне опције су максималне."
+
+#~ msgid "Security"
+#~ msgstr "Сигурност"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "DrakSec Основне Опције"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Изаберите жељени сигурносни ниво"
+
+#~ msgid "Security level"
+#~ msgstr "Сигурносни ниво"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Користи libsafe за сервере"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr "Библиотека која штити од buffer overflow-а и format string напада."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Администрација Нивоа Сигурности (login или email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "Стартам ALSA (Advanced Linux Sound Architecture) систем за звук"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron -  подесите период.команде"
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd се користи за праћење статуса батерије и логовање преко syslog.\n"
+#~ "Користи се и за гашење машине (ради и на десктоп машинама) када је "
+#~ "батерија слаба"
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Покреће команде заказане at командом,као и  batch  команде као је "
+#~ "оптерећеност\n"
+#~ "система мала."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron је стандардни UNIX програм који покреће корисничке програме\n"
+#~ "прериодично у заказано време. vixie cron  додаје опције простом UNIX cron,"
+#~ "укључујући бољу  сигурност и бољу подесивост."
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM даје подршку за миша за тексулано-базиране апликације као што је\n"
+#~ "Midnight Commander.Исто тако даје подршку за  pop-up меније на  конзоли."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake старта испитивање харедвера, и по потреби ђе подесити \n"
+#~ "нови/измењени хардвер."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache је  WWW сервер. Он се користи да опслужује  HTML фајлове\n"
+#~ "и CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Интерент супер сервер демон (знан као netd) старта \n"
+#~ "разне интернет сервисе.Он је одговоран за покретање многих сервиса као "
+#~ "нпр. elnet, ftp, rsh, и  rlogin.Искључујући њега, искључујете и сервисе \n"
+#~ "за које је он одговоран."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Покрените филтрирање пакета за Linux кернел серије 2.2, да би подесили\n"
+#~ "firewall ради заштите ваше машине од мрежних напада."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Овај пакет активира одабрану мапу тастатуре како је подешено \n"
+#~ "у  /etc/sysconfig/keyboard.Ово се подешава користећи kbdconfig алатку.\n"
+#~ "Треба да буде укључен на већину машина."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Аутоматска регенерација кернеловог заглавља у /boot зар\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Аутоматска детекција и конфигурација хардвера при стартању система."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf ђе понекад изводити разне задатке током\n"
+#~ "стартања система ради одржавања и подешавања система."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd је print демон потребан  да би lpr радио добро.То је \n"
+#~ "у основи сервер који арбитрира  print послове штампачу(има)."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Linux-ов Виртуелни Сервер, користи се за изградњу брзог и доступног\n"
+#~ "сервера."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "Назван као (BIND) је Domain Name Server (DNS) који се користи за даје "
+#~ "host име IP адреси."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Монтирање и демонтирање свих Мрежних фајл система(NFS), SMB (Lan\n"
+#~ "Manager/Windows), и  NCP (NetWare) тачака монтирања. "
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Активирање и деактивирање свих мрежних интерфејса конфигурисаних за "
+#~ "старт \n"
+#~ "при подизању система."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS је популарни протокол за размену  фајлова преко TCP/IP мрежа.\n"
+#~ "Овај сервис омогућава функционалност NFS сервера,који се конфигурише "
+#~ "преко \n"
+#~ "/etc/exports датотеке."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS је популарни протокол за размену  фајлова преко TCP/IP мрежа.\n"
+#~ "Овај сервис омогућава функционалност NFS  file locking функције"
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Аутоматски укључује numlock тастер под конзолом\n"
+#~ "и у Xorg при стартању."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Подршка за OKI 4w и компатибилне му  win штампаче."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "PCMCIA подршка  се обично користи за  етернет и модеме у лаптоповима.\n"
+#~ "Неће се покренути уколико није конфигурисан тако даје безбедно "
+#~ "инсталиран \n"
+#~ "на систему ком није потребан."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Портмапер уравља  RPC конекцијама,које користе\n"
+#~ "протоколи као NFS и  NIS.Портмап сервер мора бити покренут на машинама\n"
+#~ "које раде као сервери за протоколе који користе RPC механизам."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix је  Mail Transport Agent,који у стварипремешта пошту са једне "
+#~ "машине на другу."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "чува и обнавља системски  entropy pool за већи квалитет генерисање\n"
+#~ "случајних бројева."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Додељује raw урећаје за блок урећаје (као што су хард диск\n"
+#~ "партиције), што мође бити корисно за апликације као што је Oracle или DVD "
+#~ "плејери"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Routed демон дозвољава аутоматско IP рутер update-овање преко\n"
+#~ "RIP протокола.Док се RIP доста корисити на малим мрежама,комплекснији \n"
+#~ " routing протоколи су потребни за комплексне мреже."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "rstat протокол дозвољава корисницима на мрежи да омогуће\n"
+#~ "мерење перформанси за било коју машину на тој  мрежи."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "rusers протокол омогућава корисницима на мрежи да открију ко је\n"
+#~ "улогован на другим машинама."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "rwho протокол дозвољава удаљеним корисницима да добију листу свих\n"
+#~ "корисника улогованих на систем са покренутим rwho демоном (слично finger-"
+#~ "у)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Покреће систем за звук на вашој машини"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog је објекат помоћу ког многи демони користе за логовање порука\n"
+#~ "у разним системским лог фајловима. Добра је идеја имати увек покренут "
+#~ "syslog."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Подиже драјвере за ваше usb уређаје."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "Покреће X Фонт сервер (потребно за покретање Xorg)."
+
+#~ msgid "Printing"
+#~ msgstr "Штампање"
+
+#~ msgid "Internet"
+#~ msgstr "Интернет"
+
+#~ msgid "File sharing"
+#~ msgstr "Заједничко дељење фајлова"
+
+#~ msgid "System"
+#~ msgstr "Систем"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Удаљена администрација"
+
+#~ msgid "Database Server"
+#~ msgstr "Сервер Базе података"
+
+#~ msgid "Services"
+#~ msgstr "Сервиси"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "Изаберите које сервиси треба аутоматски да се покрену при стартању"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Сервиси: %d активираних за %d регистрованих"
+
+#~ msgid "running"
+#~ msgstr "покренуто"
+
+#~ msgid "stopped"
+#~ msgstr "заустављено"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Сервиси и демони"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "жалим али нема додатних информација\n"
+#~ "о овом сервису."
+
+#~ msgid "Info"
+#~ msgstr "Инфо"
+
+#~ msgid "On boot"
+#~ msgstr "При стартању"
+
+#~ msgid "Start"
+#~ msgstr "Старт"
+
+#~ msgid "Stop"
+#~ msgstr "Стоп"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ " Овај програм је беспалтан; можете га редистрибуирати и/или мењати\n"
+#~ " под условима GNU General Public License како је објављено\n"
+#~ " у Free Software Фондацији; или верзији 2, или (у вашем случају)\n"
+#~ " било којој новијој верзији.\n"
+#~ "\n"
+#~ " Овај програм је дистрибуиран у нади да ће бити од користи,\n"
+#~ " сли БЕЗ ИКАКВИХ ГАРАНЦИЈА; чак и без гаранције за\n"
+#~ " КОРИСНОСТ и ПРАКТИЧНУ УПОТРЕБУ.  Погледајте\n"
+#~ " GNU Општу Јавну Лиценцу за више детаља.\n"
+#~ "\n"
+#~ " Требали би да мате копију GNU Опште Јавне  Лиценце\n"
+#~ " заједно са овим програмом; уколико је немате, пишите нам на адресу Free "
+#~ "Software\n"
+#~ " Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-"
+#~ "1301, USA.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Програм за Backup и враћање података\n"
+#~ "\n"
+#~ "--default             : снима default директоријуме.\n"
+#~ "--debug               : приказује све debug поруке.\n"
+#~ "--show-conf           : листа фајлова или директоријума за backup.\n"
+#~ "--config-info         : објашњава подешавање опција за фајлове (за не-X "
+#~ "кориснике).\n"
+#~ "--daemon              : користи daemon конфигурацију. \n"
+#~ "--help                : приказује ову поруку.\n"
+#~ "--version             : приказује верзију програма.\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "ОПЦИЈЕ:\n"
+#~ "  --help            - приказује овај текст који сада читате.\n"
+#~ "  --report          - програм треба да буде један од Mandriva алата\n"
+#~ "  --incident        - програм треба да буде један од Mandriva алата"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "Програм за контролу и импортовање "
+#~ "фонтова                                     \n"
+#~ "--windows_import : импортује са свих доступних windows партиција.\n"
+#~ "--xls_fonts      : приказује све фонтове који су већ присутни преко xls\n"
+#~ "--strong         : стрга провера фонта.\n"
+#~ "--install        : инсталира било који фонт и било који директоријум.\n"
+#~ "--uninstall      : деинсталира  било који фонт или било који директоријум "
+#~ "са фонтовима.\n"
+#~ "--replace        : замењује све фонтове који већ постоје\n"
+#~ "--application    : 0 без апликације.\n"
+#~ "                 : 1 све доступне апликације подржане.\n"
+#~ "                 : name_of_application као за на пример staroffice \n"
+#~ "                 : и  gs за ghostscript за само ову."
+
+#, fuzzy
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[OPTIONS]...\n"
+#~ "Програм за подешавање Mandriva Терминалног Сервера\n"
+#~ "--enable         : укључује MTS\n"
+#~ "--disable        : искључује MTS\n"
+#~ "--start          : покреће MTS\n"
+#~ "--stop           : зауставља MTS\n"
+#~ "--adduser        : додаје постојећег системског корисника у MTS (захтева "
+#~ "корисничко име)\n"
+#~ "--deluser        : брише постојећег системског корисника из MTS (захтева "
+#~ "корисничко име)\n"
+#~ "--addclient      : додаје клијентску машину на MTS (захтева MAC адресу, "
+#~ "IP, nbi image име)\n"
+#~ "--delclient      : брише клијентску машину из MTS (захтева MAC адресу, "
+#~ "IP, nbi image име)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[keyboard]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[OPTIONS]\n"
+#~ "Мрежна и Интернет конекција и апликације за мониторинг\n"
+#~ "\n"
+#~ "--defaultintf интерфејс : приказује  овај интерфејст по основној "
+#~ "поставци\n"
+#~ "--connect : повезује се на Интернет уколико већ није повезан\n"
+#~ "--disconnect : прекида везу са Интернетом уколико је већ повезан\n"
+#~ "--force : користи се уз две претходне опције : приморава на повезивање "
+#~ "или прекид.\n"
+#~ "--status : прикаѕује 1 уколико је повезан или 0 ако није, и затим "
+#~ "завршава.\n"
+#~ "--quiet : без интерактивности. Треба да се користи са опцијама за "
+#~ "повезивање и прекид."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      не поставља питање о потврди у Mandriva Update "
+#~ "моду\n"
+#~ "  --no-verify-rpm        не проверава сигнатуре пакета\n"
+#~ "  --changelog-first      прикаѕује запис о изменама пре листе фајлова у "
+#~ "прозору ѕа опис\n"
+#~ "  --merge-all-rpmnew     предлаже спајање свих пронађених .rpmnew/."
+#~ "rpmsave фајлова"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Употреба: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Додај сервер"
+
+#~ msgid "Global"
+#~ msgstr "Глобално"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Јужна Африка"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Аустрија"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Јужна Африка"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Македонија"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Јужна Африка"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Хонг Конг"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "Руски (Фонетски)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "Српски (латиница)"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Да ли је ово исправно ?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "избор датотеке"
+
+#, fuzzy
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "Треба да одредите датотеку, а не директоријум.\n"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Име „/“ може представљати само категорију, а не и кључ"
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Није директоријум"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "Нема такве датотеке „%s“\n"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Прошири стабло"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Скупи стабло"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Бирајте: равно или групно сортирано"
+
+#~ msgid "Installation failed"
+#~ msgstr "Инсталација није успела"

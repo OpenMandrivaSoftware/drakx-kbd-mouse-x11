@@ -1,0 +1,4288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Wachara Chinsettawong <wachara@yahoo.com>, 2001
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2001-09-10 14:24GMT+7\n"
+"Last-Translator: Wachara Chinsettawong <wachara@yahoo.com>\n"
+"Language-Team: Thai <th@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB หรือมากกว่า"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X เซิร์ฟเวอร์"
+
+#: ../lib/Xconfig/card.pm:172
+#, fuzzy, c-format
+msgid "Choose an X server"
+msgstr "เลือก X เซิร์ฟเวอร์"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Multi-head configuration"
+
+#: ../lib/Xconfig/card.pm:206
+#, fuzzy, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"เครื่องของคุณสนับสนุนการคอนฟิกแบบ multihead \n"
+"คุณต้องการทำอะไร?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "เลือกขนาดหน่วยความจำของกราฟฟิคการ์ด"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Configure all heads independently"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Use Xinerama extension"
+
+#: ../lib/Xconfig/card.pm:393
+#, fuzzy, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "คอนฟิกเฉพาะการ์ด \"%s\" (%s)"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "แบบปรับแก้ได้ (Customized) "
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "การคอนฟิก Connection"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "ออก"
+
+#: ../lib/Xconfig/main.pm:129
+#, fuzzy, c-format
+msgid "Graphic Card"
+msgstr "กราฟฟิคการ์ด"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "จอภาพ"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "ขนาดจอภาพ"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "ทดสอบ"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "อ็อปชั่น"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "ปลั๊กอิน"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr ""
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"เก็บการเปลี่ยนแปลง\n"
+"การปรับแต่งปัจจุบัณคือ:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, fuzzy, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "เลือกจอภาพ"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "เลือกจอภาพ"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr ""
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Generic"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "เวนเดอร์"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr ""
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"ขั้นตอนต่อไปนี้จะต้องใส่พารามิเตอร์ที่มีความสำคัญสองตัว ได้แก่อัตราความถี่\n"
+"ของการสแกนภาพตามแนวตั้ง (vertical refresh rate) ซึ่งเป็นความถี่ที่มีการ\n"
+"รีเฟรชจอภาพทั้งจอ และการอัตราสแกนภาพตามแนวนอน ซึ่งเป็นอัตราของการวาดของ\n"
+"เส้นกวาดสิ่งที่สำคัญมากก็คือ คุณจะต้องระบุชนิดของหน้าจอซึ่งอัตราความถี่ที่\n"
+"ไม่เกินความสามารถของจอภาพ ไม่เช่นนั้นอาจเกิดความเสียหายกับจอภาพได้\n"
+"หากไม่แน่ใจโปรดเลือกเซ็ตอัพแบบมาตรฐาน"
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "อัตราการรีเฟรชตามแนวนอน"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "อัตราการรีเฟรชตามแนวตั้ง"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "เลือกกิจกรรม"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 สี (8 บิต)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "สามหมื่นสองพันสี (15 บิต)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "หกหมื่นห้าพันสี (16 บิต)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "สิบหกล้านสี (24 บิต)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "ความละเอียด"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "อื่นๆ"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "เลือกขนาดจอภาพและความละเอียดสี"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "กราฟฟิคการ์ด: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "ตกลง"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "ความช่วยเหลือ"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "ทดสอบการคอนฟิก"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "คุณต้องการทดสอบการคอนฟิกหรือไม่"
+
+#: ../lib/Xconfig/test.pm:31
+#, fuzzy, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "ระวัง การทดสอบการ์ดแสดงผลอาจทำให้คอมพิวเตอร์หยุดการทำงาน"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+
+#: ../lib/Xconfig/test.pm:129
+#, fuzzy, c-format
+msgid "Leaving in %d seconds"
+msgstr "%d วินาที"
+
+#: ../lib/Xconfig/test.pm:129
+#, fuzzy, c-format
+msgid "Is this the correct setting?"
+msgstr "ถูกต้องหรือไม่?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "เลือกชนิดของคีย์บอร์ด: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "เลือกชนิดของเม้าส์: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "จอภาพ: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "อัตราความถี่กวาดตามแนวนอน: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "อัตราความถี่กวาดตามแนวตั้ง: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "กราฟฟิคการ์ด: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "ขนาดหน่วยความจำของกราฟฟิคการ์ด: %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "อความละเอียดสี: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "ความละเอียดของภาพ %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "ไดร์เวอร์ Xorg: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "การคอนฟิก Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "กราฟฟิคการ์ด: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "ให้เป็นกราฟฟิคเมื่อเริ่มต้น"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"โปรแกรมจะกำหนดให้คอมพิวเตอร์ของคุณใช้งานแบบกราฟฟิคเมื่อเริ่มบูต\n"
+"คุณต้องการจะให้ทำงานแบบกราฟฟิคเมื่อรีบูตหรือไม่?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:246
+#, fuzzy, c-format
+msgid "What norm is your TV using?"
+msgstr "การติดต่อแบบ ISDN ของคุณเป็นแบบใด"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr ""
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "เชคโกสโลวาเกีย (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "เยอรมัน"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "สเปน"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "ฟินแลนด์"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "ฝรั่งเศษ"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "อังกฤษ"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "นอร์เวย์"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "โปแลนด์"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "รัสเซีย"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "สวีเดน"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "อเมริกา"
+
+#: ../lib/keyboard.pm:196
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Iranian"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "อาร์เมเนียน (เก่า)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "อาร์เมเนียน (พิมพ์ดีด)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "อาร์เมเนียน (โฟเนติค)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr ""
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbaidjani (latin)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "เบลเยี่ยม"
+
+#: ../lib/keyboard.pm:203
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "อาร์เมเนียน (พิมพ์ดีด)"
+
+#: ../lib/keyboard.pm:204
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "เบลเยี่ยม"
+
+#: ../lib/keyboard.pm:205
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "อาร์เมเนียน (โฟเนติค)"
+
+#: ../lib/keyboard.pm:206
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "บัลกาเรีย"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "บราซิล"
+
+#: ../lib/keyboard.pm:208
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Estonian"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Estonian"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Belarusian"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "สวิส (เลย์เอ้าท์ตามเยอรมัน)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "สวิส (เลย์เอ้าท์ตามฝรั่งเศษ)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Azerbaidjani (cyrillic)"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "เชคโกสโลวาเกีย (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "German (no dead keys)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr ""
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "เดนมาร์ก"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:222
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:227
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (US)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Estonian"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "กรีก"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "จอร์เจีย (เลย์เอ้าท์แบบรัสเซีย)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "จอร์เจีย (เลย์เอ้าท์แบบละติน)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "กรีก"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr ""
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr ""
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Croatian"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "อังการี"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr ""
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr ""
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "อิสราเอล"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "อิลราเอล (โฟเนติค)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Iranian"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "ไอซ์แลนด์"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "อิตาลี"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Japanese 106 keys"
+
+#: ../lib/keyboard.pm:253
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "ปฎิทิน"
+
+#: ../lib/keyboard.pm:254
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "อังกฤษ"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Korean keyboard"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "อาร์เมเนียน (โฟเนติค)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "ละตินอเมริกา"
+
+#: ../lib/keyboard.pm:262
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "ตำแหน่ง"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Lithuanian AZERTY (old)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Lithuanian AZERTY (new)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "ลิธัวเนีย \"แถวตัวเลข\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "ลิธัวเนีย \"โฟเนติค\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "ตำแหน่ง"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr ""
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Macedonian"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr ""
+
+#: ../lib/keyboard.pm:273
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Azerbaidjani (cyrillic)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr ""
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr ""
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "ฮอลแลนด์"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr ""
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Polish (qwerty layout)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Polish (qwertz layout)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "โปแลนด์"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "โปรตุเกส"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "คานาดา (ควิเบค)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr ""
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr ""
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "รัสเซีย (โฟเนติค)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "สโลวาเนีย"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "สโลวาเกีย (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "สโลวาเกีย (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Dvorak (Norwegian)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr ""
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "ไทย"
+
+#: ../lib/keyboard.pm:301
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Azerbaidjani (cyrillic)"
+
+#: ../lib/keyboard.pm:302
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "พอร์ตอนุกรม"
+
+#: ../lib/keyboard.pm:303
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "อาร์เมเนียน (โฟเนติค)"
+
+#: ../lib/keyboard.pm:304
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "เบลเยี่ยม"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr ""
+
+#: ../lib/keyboard.pm:307
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "อาร์เมเนียน (พิมพ์ดีด)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "ไทย"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "ไทย"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "ไทย"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "ไทย"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "เยอรมัน"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "ตุรกี (โมเดลแบบแผน \"F\")"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "ตุรกี (โมเดลสมัยใหม่ \"Q\")"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "ยูเครน"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Korean keyboard"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "คีย์บอร์ดอเมริกัน (นานาชาติ)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Azerbaidjani (cyrillic)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Vietnamese \"numeric row\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "ยูโกสลาเวีย (เลย์เอ้าท์แบบละติน)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr ""
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr ""
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr ""
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr ""
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr ""
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr ""
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr ""
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr ""
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr ""
+
+#: ../lib/keyboard.pm:353
+#, fuzzy, c-format
+msgid "Left Control key"
+msgstr "เครื่องพิมพ์แบบรีโมท"
+
+#: ../lib/keyboard.pm:354
+#, fuzzy, c-format
+msgid "Right Control key"
+msgstr "เครื่องพิมพ์แบบรีโมท"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "คำเตือน"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Mouse"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Standard"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Generic PS2 Wheel Mouse"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "อัตโนมัติ"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, fuzzy, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 ปุ่ม"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Generic 2 Button Mouse"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, fuzzy, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "เม้าส์แบบปกติที่ใช้งานสามปุ่ม"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Wheel"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "พอร์ตอนุกรม"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "เม้าส์แบบปกติที่ใช้งานสามปุ่ม"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, fuzzy, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, fuzzy, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (พอร์ตอนุกรม, แบบเก่า C7)"
+
+#: ../lib/mouse.pm:70
+#, fuzzy, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (พอร์ตอนุกรม, แบบเก่า C7)"
+
+#: ../lib/mouse.pm:72
+#, fuzzy, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 buttons"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 buttons"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr ""
+
+#: ../lib/mouse.pm:83
+#, fuzzy, c-format
+msgid "Universal"
+msgstr "ออกจากการติดตั้ง"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr ""
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "ไม่มี"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "ไม่มีเม้าส์"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, fuzzy, c-format
+msgid "Please choose your type of mouse."
+msgstr "คุณมีเม้าส์ชนิดใด"
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "เลือกภาษาที่คุณใช้"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "ต้องการจำลองเม้าส์ปุ่มที่สามด้วยหรือไม่?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "พอร์ตของเม้าส์"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "เม้าส์ของคุณต่อเข้ากับพอร์ตอนุกรมใด"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr ""
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr ""
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr ""
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "กรุณาทดสอบเม้าส์"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "เพื่อให้เม้าส์ทำงาน"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "เลื่อนล้อของคุณ"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "คุณจะต้องทำการรีบูตระบบก่อนที่จะทำการแก้ไข"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "คีย์บอร์ด"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "คุณต้องการเลือกคีย์บอร์ดเลย์เอ้าท์แบบใด "
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "รูปแบบแป้นพิมพ์"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "แป้นพิมพ์"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr ""
+
+#: ../tools/mousedrake:41
+#, fuzzy, c-format
+msgid "Mouse test"
+msgstr "Mouse Systems"
+
+#: ../tools/mousedrake:44
+#, fuzzy, c-format
+msgid "Please test your mouse:"
+msgstr "กรุณาทดสอบเม้าส์"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "ชื่อผู้ใช้"
+
+#~ msgid "Please wait"
+#~ msgstr "โปรดรอสักครู่"
+
+#, fuzzy
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "การติดตั้ง Bootloader"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "การติดตั้ง bootloader ล้มเหลว ต่อไปนี้เป็นข้อผิดพลาดที่เกิดขึ้น"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "เซ็กเตอร์แรกของไดรว์ (MBR)"
+
+#, fuzzy
+#~ msgid "First sector of the root partition"
+#~ msgstr "เซ็กเตอร์แรกของบูตพาร์ติชั่น"
+
+#, fuzzy
+#~ msgid "On Floppy"
+#~ msgstr "บันทึกลงแผ่นฟล้อปปี้"
+
+#~ msgid "Skip"
+#~ msgstr "ข้ามไป"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "การติดตั้ง LILO/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "คุณจะติดตั้งบูตโหลดเดอร์ไว้ที่ไหน?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Boot Style Configuration"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "อ๊อปชั่นหลักของ Bootloader"
+
+#, fuzzy
+#~ msgid "Bootloader"
+#~ msgstr "Bootloader ที่จะใช้"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Bootloader ที่จะใช้"
+
+#~ msgid "Boot device"
+#~ msgstr "อุปกรณ์บูต"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "หน่วงเวลาก่อนทำการบูตอิมเมจที่ใช้"
+
+#, fuzzy
+#~ msgid "Enable ACPI"
+#~ msgstr "Enable CD Boot?"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Enable CD Boot?"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Enable CD Boot?"
+
+#~ msgid "Password"
+#~ msgstr "รหัสผ่าน"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "รหัสผ่านไม่เหมือนกัน"
+
+#~ msgid "Please try again"
+#~ msgstr "โปรดลองอีกครั้ง"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "คุณไม่สามารถใช้ LVM Logical Volume สำหรับ %s"
+
+#~ msgid "Password (again)"
+#~ msgstr "รหัสผ่าน (ใส่อีกครั้ง)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "อ็อปชั่นจำเพาะที่ใช้กับคอมมานด์ไลน์"
+
+#~ msgid "restrict"
+#~ msgstr "จำเพาะ"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr "อ็อปชั่น ``อ๊อปชั่นจำเพาะที่ใช้กับคอมมานด์ไลน์'' จะต้องใส่รหัสผ่านด้วย"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "ลบ /tmp ตอน boot ทุกครั้ง"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "กำหนดค่าหน่วยความจำ (RAM) ให้ถูกต้องถ้าต้องการ (ระบบพบ %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "ให้ป้อนข้อมูลของขนาดหน่วยความจำเป็น Mb"
+
+#~ msgid "Init Message"
+#~ msgstr "ข้อความ init"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Open Firmware Delay"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Kernel Boot Timeout"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Enable CD Boot?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Enable OF Boot?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Default OS?"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Append"
+
+#~ msgid "Video mode"
+#~ msgstr "โหมดของการแสดงผล"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#, fuzzy
+#~ msgid "Network profile"
+#~ msgstr "โปรแกรมค้นหาเครือข่าย"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoVideo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "ไม่อนุญาตให้มีหัวข้อว่าง"
+
+#, fuzzy
+#~ msgid "You must specify a root partition"
+#~ msgstr "คุณจะต้องมีพาร์ติชั่นสวอป"
+
+#~ msgid "This label is already used"
+#~ msgstr "หัวข้อนี้ถูกใช้ไปเรียบร้อยแล้ว"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "ข้อมูลประเภทใดที่คุณต้องการเพิ่ม"
+
+#~ msgid "Linux"
+#~ msgstr "ลีนุกซ์"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "ระบบปฏิบัติการอื่นๆ (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "ระบบปฏิบัติการอื่นๆ (Mac OS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "ระบบปฏิบัติการอื่นๆ (วินโดวส์...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "ต่อไปนี้เป็นข้อมูลต่างๆ\n"
+#~ "คุณสามารถเพิ่มข้อมูลหรือแก้ไขข้อมูลที่มีได้"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(เพิ่ม %s เรียบร้อยแล้ว)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "โปรดป้อนชื่อผู้ใช้"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr "ชื่อผู้ใช้จะสามารถมีได้เฉพาะตัวอักษรตัวเล็ก ตัวเลข '-' และ '_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "ชื่อผู้ใช้ยาวเกินไป"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "ชื่อผู้ใช้นี้ได้ถูกเพิ่มลงไปในระบบเรียบร้อยแล้ว"
+
+#~ msgid "User ID"
+#~ msgstr "รหัสผู้ใช้"
+
+#~ msgid "Group ID"
+#~ msgstr "รหัสกลุ่ม"
+
+#~ msgid "Add user"
+#~ msgstr "เพิ่มผู้ใช้"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ให้ใส่ผู้ใช้\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "ทำเรียบร้อยแล้ว"
+
+#~ msgid "Accept user"
+#~ msgstr "ยอมรับผู้ใช้"
+
+#~ msgid "Real name"
+#~ msgstr "ชื่อเต็ม"
+
+#, fuzzy
+#~ msgid "Login name"
+#~ msgstr "ชื่อโดเมน"
+
+#~ msgid "Shell"
+#~ msgstr "เชลล์ที่ใช้"
+
+#~ msgid "Icon"
+#~ msgstr "Icon"
+
+#~ msgid "Autologin"
+#~ msgstr "Autologin"
+
+#, fuzzy
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "ผมไม่สามารถทำให้ท่านเข้าทำงานโดยใช้ชื่อคนคนหนึ่งแบบอัตโนมัติ\n"
+#~ "ถ้าคุณไม่ต้องการใช้งานรูปแบบนี้กรุณากดปุ่มยกเลิก"
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "คุณต้องการใช้ aboot หรือไม่"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "เลือกผู้ใช้ default"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "เลือก window manager:"
+
+#~ msgid "License agreement"
+#~ msgstr "License agreement"
+
+#, fuzzy
+#~ msgid "Release Notes"
+#~ msgstr "โปรดรอสักครู่"
+
+#~ msgid "Accept"
+#~ msgstr "ยอมรับ"
+
+#~ msgid "Refuse"
+#~ msgstr "ไม่ยอมรับ"
+
+#, fuzzy
+#~ msgid "Please choose a language to use."
+#~ msgstr "กรุณาเลือกภาษาที่ต้องการใช้"
+
+#, fuzzy
+#~ msgid "Language choice"
+#~ msgstr "เลือกภาษาที่คุณใช้"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr "คุณสามารถเลือกภาษาอื่นซึ่งจะสามารถใช้ได้หลังติดตั้ง"
+
+#, fuzzy
+#~ msgid "All languages"
+#~ msgstr "เลือกภาษาที่คุณใช้"
+
+#, fuzzy
+#~ msgid "Country / Region"
+#~ msgstr "ขนาดจอภาพ"
+
+#, fuzzy
+#~ msgid "Please choose your country."
+#~ msgstr "คุณมีเม้าส์ชนิดใด"
+
+#, fuzzy
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "ต่อไปนี้คือ keyboard ที่ใช้ได้"
+
+#, fuzzy
+#~ msgid "Other Countries"
+#~ msgstr "กำลังตรวจสอบพอร์ต"
+
+#~ msgid "Advanced"
+#~ msgstr "Advanced"
+
+#~ msgid "None"
+#~ msgstr "ไม่มี"
+
+#, fuzzy
+#~ msgid "No sharing"
+#~ msgstr "ไม่มีเครื่องพิมพ์"
+
+#, fuzzy
+#~ msgid "Allow all users"
+#~ msgstr "เพิ่มผู้ใช้"
+
+#~ msgid "Close"
+#~ msgstr "ปิด"
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "กรุณาออกไปและใช้ Ctrl-Alt-BackSpace"
+
+#~ msgid "Timezone"
+#~ msgstr "โซนเวลา"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "คุณใช้ย่านเวลาใด? "
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "คุณต้องการให้เซ็ตนาฬิกาฮาร์ดแวร์เป็น GMT?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "คุณต้องการให้เซ็ตนาฬิกาฮาร์ดแวร์เป็น GMT?"
+
+#, fuzzy
+#~ msgid "NTP Server"
+#~ msgstr "เซิร์ฟเวอร์ NIS"
+
+#, fuzzy
+#~ msgid "Local file"
+#~ msgstr "เครื่องพิมพ์โลคอล (ต่อติดกับตัวเครื่อง)"
+
+#, fuzzy
+#~ msgid "NIS"
+#~ msgstr "ใช้ NIS"
+
+#, fuzzy
+#~ msgid "Windows Domain"
+#~ msgstr "โดเมน NIS"
+
+#, fuzzy
+#~ msgid "Local file:"
+#~ msgstr "เครื่องพิมพ์โลคอล (ต่อติดกับตัวเครื่อง):"
+
+#~ msgid "LDAP:"
+#~ msgstr ":"
+
+#, fuzzy
+#~ msgid "NIS:"
+#~ msgstr "ใช้ NIS:"
+
+#, fuzzy
+#~ msgid "Windows Domain:"
+#~ msgstr "โดเมน NIS:"
+
+#, fuzzy
+#~ msgid "Authentication LDAP"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#, fuzzy
+#~ msgid "LDAP Server"
+#~ msgstr "เซิร์ฟเวอร์ NIS"
+
+#~ msgid "simple"
+#~ msgstr "ง่าย"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#, fuzzy
+#~ msgid "Authentication Active Directory"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#~ msgid "Domain"
+#~ msgstr "โดเมน"
+
+#~ msgid "Server"
+#~ msgstr "เซิร์ฟเวอร์"
+
+#, fuzzy
+#~ msgid "LDAP users database"
+#~ msgstr "ชื่อเซิร์ฟเวอร์ของพรินเตอร์"
+
+#, fuzzy
+#~ msgid "Password for user"
+#~ msgstr "รหัสผ่าน"
+
+#, fuzzy
+#~ msgid "Authentication NIS"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งานของ NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "โดเมน NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "เซิร์ฟเวอร์ NIS"
+
+#, fuzzy
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#, fuzzy
+#~ msgid "Domain Admin User Name"
+#~ msgstr "ชื่อโดเมน"
+
+#~ msgid "Authentication"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "เซ็ตรหัสผ่านรูท"
+
+#, fuzzy
+#~ msgid "Authentication method"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#~ msgid "No password"
+#~ msgstr "ไม่มีรหัสผ่าน"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "รหัสลับง่ายเกินไป (ต้องมีอย่างน้อย %d ตัวอักษร)"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO แบบ text menu"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "SILO"
+#~ msgstr "SILO"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "ไม่มีที่พอใน /boot"
+
+#, fuzzy
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "คุณจะติดตั้งบูตโหลดเดอร์ไว้ที่ไหน?"
+
+#, fuzzy
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "ติดตั้งบูตโหลดเดอร์"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d นาที"
+
+#~ msgid "1 minute"
+#~ msgstr "1 นาที"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d วินาที"
+
+#~ msgid "New"
+#~ msgstr "ใหม่"
+
+#~ msgid "Unmount"
+#~ msgstr "เลิกเม้าท์์ระบบไฟล์"
+
+#~ msgid "Mount"
+#~ msgstr "เม้าท์"
+
+#~ msgid "Mount point"
+#~ msgstr "กำหนดจุดเม้าท์"
+
+#~ msgid "Error"
+#~ msgstr "ผิดพลาด"
+
+#, fuzzy
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "กรุณาทดสอบเม้าส์"
+
+#~ msgid "Server: "
+#~ msgstr "เซิร์ฟเวอร์: "
+
+#~ msgid "Mount point: "
+#~ msgstr "จุดเม้าท์: "
+
+#, fuzzy
+#~ msgid "Options: %s"
+#~ msgstr "พาร์ติชั่น %s"
+
+#, fuzzy
+#~ msgid "Partitioning"
+#~ msgstr "เครื่องพิมพ์"
+
+#~ msgid "Read carefully!"
+#~ msgstr "โปรดอ่านอย่างถี่ถ้วน!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "กรุณาทำ backup ก่อน"
+
+#~ msgid "Exit"
+#~ msgstr "เลิกทำงาน"
+
+#~ msgid "Continue"
+#~ msgstr "ทำงานต่อหรือไม่?"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "ถ้าคุณต้องการใช้ aboot ควรระวังว่าต้องมีที่ว่าง (2048 sectors) \n"
+#~ "ด้านหน้าของ disk"
+
+#~ msgid "Choose action"
+#~ msgstr "เลือกกิจกรรม"
+
+#, fuzzy
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "ถ้าคุณมี พาร์ติชั่น FAT ที่ใหญ่ พาร์ติชั่น เดียว\n"
+#~ "(ซึ่งโดยปกติ Microsoft Dos/Windows ใข้)\n"
+#~ "ผมแนะนำให้คุณปรับขนาด พาร์ติชั่น เสียก่อน\n"
+#~ "(กดที่มันแล้วกด \"ปรับขนาด\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "โปรดเลือกพาร์ติชั่น"
+
+#~ msgid "Details"
+#~ msgstr "รายละเอียด"
+
+#, fuzzy
+#~ msgid "No hard drives found"
+#~ msgstr "เครื่องพิมพ์โลคอล (ต่อติดกับตัวเครื่อง)"
+
+#~ msgid "Unknown"
+#~ msgstr "ไม่รู้จัก"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#, fuzzy
+#~ msgid "Journalised FS"
+#~ msgstr "การเม้าท์ล้มเหลว"
+
+#~ msgid "Swap"
+#~ msgstr "สวอป"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "หน้าต่าง"
+
+#~ msgid "Empty"
+#~ msgstr "ว่าง"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "ประเภทของระบบไฟล์:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "พาร์ติชั่นนี้ไม่สามารถเปลี่ยนขนาดได้"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "ใช้ ``Unmount'' ก่อน"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "ใช้ ``%s'' แทน"
+
+#~ msgid "Type"
+#~ msgstr "ประเภท"
+
+#, fuzzy
+#~ msgid "Choose another partition"
+#~ msgstr "สร้างพาร์ติชั่นใหม่"
+
+#, fuzzy
+#~ msgid "Choose a partition"
+#~ msgstr "เลือกกิจกรรม"
+
+#~ msgid "Undo"
+#~ msgstr "ยกเลิก"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "สำหรับผู้ชำนาญ > ปกติ"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "ปกติ > สำหรับผู้ชำนาญ"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "ปรับแต่งค่า"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "ทำงานต่อหรือไม่?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "ออกโดยไม่ต้องบันทึก"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "ออกโดยไม่ต้องเขียนตารางพาร์ติชั่น"
+
+#, fuzzy
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "คุณต้องการทดสอบการคอนฟิกหรือไม่"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr "คุณต้องทำการรีบูตระบบให้เครื่องรับทราบการเปลี่ยนแปลงตารางพาร์ติชั่น"
+
+#~ msgid "Clear all"
+#~ msgstr "ล้างทั้งหมด"
+
+#~ msgid "Auto allocate"
+#~ msgstr "กำหนดแบบอัตโนมัติ"
+
+#~ msgid "More"
+#~ msgstr "More"
+
+#, fuzzy
+#~ msgid "Hard drive information"
+#~ msgstr "การตรวจหาฮาร์ดไดรว์"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "พาร์ติชั่นแบบ primary ถูกใช้ทั้งหมดแล้ว"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "โปรแกรมไม่สามารถเพิ่มพาร์ติชั่นได้อีก"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "หากต้องการเพิ่มพาร์ติชั่น โปรดลบพาร์ติชั่นทิ้งหนึ่งพาร์ติชั่นเพื่อสร้าง\n"
+#~ "พาร์ติชั่นแบบ extended ได้"
+
+#, fuzzy
+#~ msgid "Save partition table"
+#~ msgstr "บันทึกตารางพาร์ติชั่น"
+
+#, fuzzy
+#~ msgid "Restore partition table"
+#~ msgstr "กู้ตารางพาร์ติชั่น"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "กู้ตารางพาร์ติชั่น"
+
+#, fuzzy
+#~ msgid "Reload partition table"
+#~ msgstr "กู้ตารางพาร์ติชั่น"
+
+#~ msgid "Select file"
+#~ msgstr "เลือกไฟล์"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "พาร์ติชั่นแบ็คอัพไม่มีขนาดเท่ากัน\n"
+#~ "ต้องการทำต่อหรือไม่?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "กำลังพยายามกู้ตารางพาร์ติชั่นคืน"
+
+#, fuzzy
+#~ msgid "Detailed information"
+#~ msgstr "แสดงข้อมูล"
+
+#~ msgid "Resize"
+#~ msgstr "เปลี่ยนขนาด"
+
+#~ msgid "Format"
+#~ msgstr "ฟอร์แมต"
+
+#~ msgid "Add to RAID"
+#~ msgstr "เพิ่มให้ RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "เพิ่มให้ LVM"
+
+#~ msgid "Delete"
+#~ msgstr "ลบ"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "ลบออกจาก RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "ลบออกจาก LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "แก้ไข RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "ใช้สำหรับ loopback"
+
+#~ msgid "Create"
+#~ msgstr "สร้าง"
+
+#~ msgid "Create a new partition"
+#~ msgstr "สร้างพาร์ติชั่นใหม่"
+
+#~ msgid "Start sector: "
+#~ msgstr "เริ่มเซ็กเตอร์: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "ขนาดเป็น MB: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "ประเภทของระบบไฟล์: "
+
+#~ msgid "Preference: "
+#~ msgstr "ข้อกำหนด: "
+
+#, fuzzy
+#~ msgid "Logical volume name "
+#~ msgstr "เครื่องพิมพ์โลคอล (ต่อติดกับตัวเครื่อง)"
+
+#, fuzzy
+#~ msgid "Remove the loopback file?"
+#~ msgstr "ฟอร์แมต loopback file %s"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr "การเปลี่ยนชนิดพาร์ติชั่น %s ข้อมูลทั้งหมดในพาร์ติชั่นนี้จะถูกลบทิ้ง"
+
+#~ msgid "Change partition type"
+#~ msgstr "เปลี่ยนประเภทพาร์ติชั่น"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "คุณต้องการเลือก filesystem ใด"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Label"
+
+#, fuzzy
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "คุณต้องการเม้าท์ loopback file %s ไว้ที่ใด?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "คุณต้องการเม้าท์อุปกรณ์ %s ไว้ที่ใด?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+
+#, fuzzy
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "คุณต้องการเม้าท์อุปกรณ์ %s ไว้ที่ใด?"
+
+#~ msgid "Resizing"
+#~ msgstr "ปรับขนาด"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "คำนวณขอบเขตของระบบไฟล์"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "พาร์ติชั่นนี้ไม่สามารถเปลี่ยนขนาดได้"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "ข้อมูลทั้งหมดในพาร์ติชั่นนี้ควรจะทำการสำรองไว้"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "หลังจากเปลี่ยนขนาดพาร์ติชั่น %s ข้อมูลทั้งหมดในพาร์ติชั่นนี้จะหายไป"
+
+#~ msgid "Choose the new size"
+#~ msgstr "เลือกขนาดใหม่"
+
+#, fuzzy
+#~ msgid "New size in MB: "
+#~ msgstr "ขนาดเป็น MB: "
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "เลือก RAID เพื่อเพิ่มเข้าไป"
+
+#~ msgid "new"
+#~ msgstr "ใหม่"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "เลือก LVM ที่มีอยู่เพื่อเพิ่มเข้าไป"
+
+#~ msgid "LVM name?"
+#~ msgstr "ชื่อ LVM"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "พาร์ติชั่นนี้ไม่สามารถใช้กับ loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "ชื่อ Loopback file: "
+
+#, fuzzy
+#~ msgid "Give a file name"
+#~ msgstr "ชื่อเต็ม"
+
+#, fuzzy
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "File already used by another loopback, choose another one"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "ไฟล์มีอยู่แล้ว ต้องการใช้?"
+
+#, fuzzy
+#~ msgid "Mount options"
+#~ msgstr "อ๊อปชั่นของโมดูล:"
+
+#~ msgid "device"
+#~ msgstr "อุปกรณ์"
+
+#~ msgid "level"
+#~ msgstr "ระดับ"
+
+#, fuzzy
+#~ msgid "chunk size in KiB"
+#~ msgstr "ขนาดของ chunk"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "ระวัง การทำงานนี้อันตราย"
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "การทำ partitioning ชนิดใด?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "คุณจะต้องทำการรีบูตระบบก่อนที่จะทำการแก้ไข"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "ตารางพาร์ติชั่นของไดรฟ์ %s จะถูกบันทึกลงไปในดิสก์"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "หลังจาก format พาร์ติชั่น %s ข้อมูลทั้งหมดในพาร์ติชั่นนี้จะถูกลบทิ้ง"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "ตรวจสอบ bad blocks"
+
+#, fuzzy
+#~ msgid "Move files to the new partition"
+#~ msgstr "ไม่มีพื้นที่เพียงพอสำหรับ พาร์ติชั่น ใหม่"
+
+#, fuzzy
+#~ msgid "Hide files"
+#~ msgstr "mkraid failed"
+
+#, fuzzy
+#~ msgid "Moving files to the new partition"
+#~ msgstr "ไม่มีพื้นที่เพียงพอสำหรับ พาร์ติชั่น ใหม่"
+
+#, fuzzy
+#~ msgid "Removing %s"
+#~ msgstr "ความละเอียดของภาพ %s\n"
+
+#~ msgid "Device: "
+#~ msgstr "อุปกรณ์: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "อักษรไดรว์แบบดอส: %s (เป็นการคาดเดา)\n"
+
+#~ msgid "Type: "
+#~ msgstr "ประเภท: "
+
+#~ msgid "Name: "
+#~ msgstr "ชื่อ: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "เริ่มต้น: เซ็กเตอร์ %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "ขนาด: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s เซ็กเตอร์"
+
+#, fuzzy
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "ไซลินเดอร์ %d เป็น ไซลินเดอร์ %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "ฟอร์แมต\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "ยังไม่ได้ฟอร์แมต\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "เม้าท์\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr "Loopback file(s): %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "พาร์ติชั่นที่กำหนดให้บูตซึ่งกำหนดไว้แล้ว\n"
+#~ "    (สำหรับบูตของ MS-DOS ไม่ใช่ lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "ระดับ %s\n"
+
+#, fuzzy
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "ขนาดของ Chunk %s\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "ดิสก์แบบ RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Loopback file name: %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "มีความเป็นไปได้ที่พาร์ติชั่นนี้\n"
+#~ "เป็นพาร์ติชั่นของไดรเวอร์ คุณควรที่จะ\n"
+#~ "ปล่อยมันทิ้งไว้แบบนี้\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "อ่านได้อย่างเดียว"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "ขนาด: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "ข้อมูลทางกายภาพ: %s ไซลินเดอร์, %s หัวอ่าน, %s เซ้กเตอร์\n"
+
+#~ msgid "Info: "
+#~ msgstr "ข้อมูล: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-disks %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "ชนิดตารางพาร์ติชั่น: %s\n"
+
+#, fuzzy
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "บนบัส %d id %d\n"
+
+#, fuzzy
+#~ msgid "Filesystem encryption key"
+#~ msgstr "ประเภทของระบบไฟล์: "
+
+#, fuzzy
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr "รหัสลับง่ายเกินไป (ต้องมีอย่างน้อย %d ตัวอักษร)"
+
+#, fuzzy
+#~ msgid "The encryption keys do not match"
+#~ msgstr "รหัสผ่านไม่เหมือนกัน"
+
+#, fuzzy
+#~ msgid "Encryption algorithm"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#, fuzzy
+#~ msgid "Change type"
+#~ msgstr "เปลี่ยนประเภทพาร์ติชั่น"
+
+#, fuzzy
+#~ msgid "Domain Authentication Required"
+#~ msgstr "การตรวจสอบสิทธิ์การใช้งาน"
+
+#, fuzzy
+#~ msgid "Which username"
+#~ msgstr "ชื่อผู้ใช้"
+
+#, fuzzy
+#~ msgid "Another one"
+#~ msgstr "เฎ?เฏ?เฎฃเฎฏเฎฎเฎ?"
+
+#~ msgid "Username"
+#~ msgstr "ชื่อผู้ใช้"
+
+#, fuzzy
+#~ msgid "Search servers"
+#~ msgstr "เซิร์ฟเวอร์ DNS"
+
+#, fuzzy
+#~ msgid "Search new servers"
+#~ msgstr "เซิร์ฟเวอร์ DNS"
+
+#, fuzzy
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr ""
+#~ "แพกเกจนี้จำเป็นต้องถูก upgrade\n"
+#~ "คุณแน่ใจว่าจะไม่เลือกมันหรือ"
+
+#, fuzzy
+#~ msgid "Could not install the %s package!"
+#~ msgstr "กำลังติดตั้งแพ็คเก็จ %s"
+
+#, fuzzy
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "แพ็คเก็จเหล่านี้กำลังจะถูกติดตั้ง"
+
+#, fuzzy
+#~ msgid "Installing packages..."
+#~ msgstr "กำลังติดตั้งแพ็คเก็จ %s"
+
+#, fuzzy
+#~ msgid "Removing packages..."
+#~ msgstr "ความละเอียดของภาพ %s\n"
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "เกิดข้อผิดพลาดขึ้น - ไม่พบอุปกรณ์ที่ถูกต้องเพื่อจะสร้างระบบไฟล์ใหม่ "
+#~ "โปรดตรวจสอบฮาร์ดแวร์ของท่านเพื่อแก้ไขปัญหานี้"
+
+#, fuzzy
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "คุณจะต้องมีพาร์ติชั่นสวอป"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "ฟอร์แมตพาร์ติชั่น %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "กำลังสร้างและ format ไฟล์ %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "ไม่ทราบว่าจะฟอร์แมต %s เป็นชนิด %s ได้อย่างไร"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "กำลังฟอร์แมต %s ของ %s ที่มีปัญหา"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Circular mounts %s\n"
+
+#, fuzzy
+#~ msgid "Mounting partition %s"
+#~ msgstr "ฟอร์แมตพาร์ติชั่น %s"
+
+#, fuzzy
+#~ msgid "Checking %s"
+#~ msgstr "ความละเอียดของภาพ %s\n"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "ผิดพลาดยกเลิกการเม้าท์ %s: %s"
+
+#, fuzzy
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "ฟอร์แมตพาร์ติชั่น %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr "คุณไม่สามารถใช้ LVM Logical Volume สำหรับ %s"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "ทำซ้ำจุดเม้าท์ %s"
+
+#~ msgid "No partition available"
+#~ msgstr "ไม่มีพาร์ติชั่นเหลือ"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Scanning partitions to find mount points"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "เลือกจุดเม้าท์"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "เลือกพาร์ติชั่นที่คุณต้องการฟอร์แมต"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "ไม่มีพื้นที่สวอปเพียงพอกับการติดตั้ง โปรดเพิ่มเนื้อที่"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "คุณต้องมี root พาร์ติชั่น\n"
+#~ "เพราะฉนั้นคุณต้องสร้าง พาร์ติชั่น (หรือกดเลือกอันที่มีอยู่)\n"
+#~ "หลังจากนั้นเลือก ``Mount Point'' และจัดให้มันเป็น `/'"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "คุณไม่มีสวอปพาร์ติชั่นเลย\n"
+#~ "\n"
+#~ "ต้องการจะทำต่อหรือไม่?"
+
+#~ msgid "Use free space"
+#~ msgstr "ใช้พื้นที่ที่ว่าง"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "ไม่มีพื้นที่เพียงพอสำหรับ พาร์ติชั่น ใหม่"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "ใช้พาร์ติชั่นที่มีอยู่"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "ไม่มีพาร์ติชั่นที่มีอยู่ที่ใช้งานได้"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "ใช้ windows partion สำหรับการ Loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "พาร์ติชั่นใหนที่ท่านต้องการใช้กับ Linux4Win"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "เลือกขนาด"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "ขนาดของพาร์ติชั่นรูท MB:"
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "ขนาดพาร์ติชั่น Swapเป็น MB: "
+
+#, fuzzy
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr "ไม่มี พาร์ติชั่น FAT เพื่อทำการเปี่ยนขนาดหรือให้ใช้เป็น loopback (พื้นที่ไม่พอ)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "ใช้พื้นที่ที่ว่างใน Windows partition"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "พาร์ติชั่นไหนที่คุณต้องการเปลี่ยนขนาด"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "ตัวเปลี่ยนขนาดไม่สามารถทำงานกับ partition ของคุณ\n"
+#~ "มีข้อผิดพลาดนี้เกิดขึ้น: %s"
+
+#, fuzzy
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "ใช้พื้นที่ที่ว่างใน Microsoft Windows® partition"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Microsoft Windows® partition ของคุณกระจัดกระจายมากเกินไป กรุณา Defrag ก่อน"
+
+#, fuzzy
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "ระวัง!\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX กำลังจะลดขนาดพาร์ติชั่นของ windows การทำงานนี้อันตลายมาก\n"
+#~ "\n"
+#~ "ถ้าคุณยังไม่เคยทำมาก่อนคุณควรออกจากการทำงานนี้และรัน Scandisk บน Windows (และ "
+#~ "defrag) แล้วค่อยเริ่มทำงานนี้ใหม่  และคุณสมควรที่จะทำการ Backup ข้อมูลสำคัญขึ้นมาก่อน\n"
+#~ "\n"
+#~ "\n"
+#~ "เมื่อคุณแน่ใจแล้ว กด %s"
+
+#~ msgid "Next"
+#~ msgstr "Next"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "คุณต้องการเก็บ Microsoft Windows® ไว้ในขนาดใหน"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "ขนาด: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "คำนวณขอบเขตของระบบไฟล์ Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "การกำหนดขนาด FAT เกิดการผิดพลาด: %s"
+
+#, fuzzy
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr "ไม่มี พาร์ติชั่น FAT เพื่อทำการเปี่ยนขนาดหรือให้ใช้เป็น loopback (พื้นที่ไม่พอ)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "ลบ Microsoft Windows®"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "ลบ disk ทั้งหมด"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "คุณมี harddisk มากกว่า  1 ตัว  คุณต้องการลง linux บน harddisk ตัวใหน"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "ข้อมูลทั้งหมดในพาร์ติชั่นทั้งหมดจะสูญหายไป %s"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "กำลังพาร์ติชั่น Custom disk"
+
+#~ msgid "Use fdisk"
+#~ msgstr "ใช้ fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "คุณสามารถพาร์ติชั่น %s เดี๋ยวนี้\n"
+#~ "เมื่อเสร็จแล้วอย่าลืมบันทึกโดยใช้ `w'"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "ผมไม่สามารถหาพื้นที่ว่างเพื่อทำการติดตั้ง"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "The DrakX Partitioning wizard เจอทางเลือกดังต่อไปนี้"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "การทำพาร์ติชั่นล้มเหลว: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "คุณไม่สามารถใช้ JFS สำหรับพาร์ติชั่นที่น้อยกว่า 16MB ได้"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "คุณไม่สามารถใช้ ReiserFS สำหรับพาร์ติชั่นที่น้อยกว่า 32MB ได้"
+
+#~ msgid "server"
+#~ msgstr "เซิร์ฟเวอร์"
+
+#, fuzzy
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "ผมไม่สามารถอ่านตารางพาร์ติชั่นได้ มันเสียหายมากเกินไป \n"
+#~ "ผมสามารถพยายามลบข้อมูลข้อมูลในพาร์ติชั่นที่เสียหาย\n"
+#~ "อีกทางเลือกคือไม่ให้ DrakX ทำการเปลี่ยนแปลงตาราง\n"
+#~ "ข้อความผิดพลาดคือ %s\n"
+#~ "\n"
+#~ "คุณแน่ใจว่าจะยอมให้พาร์ติชั่นทั้งหมดถูกลบไป\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "จุดเม้าท์จะต้องเริ่มด้วย /"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "มีพาร์ติชั่นที่เป็นจุดเม้าท์ที่ %s เรียบร้อยแล้ว\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "คุณได้เลือก Software RAID พาร์ติชั่น เป็น root (/) \n"
+#~ "bootloader ไม่สามารถทำงานโดยไม่มี /boot พาร์ติชั่น \n"
+#~ "เพราะฉนั้นจำเป็นต้องเพิ่ม /boot พาร์ติชั่น"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "คุณไม่สามารถใช้ LVM Logical Volume สำหรับ %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "คุณได้เลือก Software RAID พาร์ติชั่น เป็น root (/) \n"
+#~ "bootloader ไม่สามารถทำงานโดยไม่มี /boot พาร์ติชั่น \n"
+#~ "เพราะฉนั้นจำเป็นต้องเพิ่ม /boot พาร์ติชั่น"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "This directory should remain within the root filesystem"
+
+#, fuzzy
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr "You need a true filesystem (ext2, reiserfs) for this mount point\n"
+
+#, fuzzy
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "คุณไม่สามารถใช้ LVM Logical Volume สำหรับ %s"
+
+#, fuzzy
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "ไม่มีพื้นที่เพียงพอสำหรับการแบ่งสัดส่วนพาร์ติชั่นแบบออโต้"
+
+#~ msgid "Floppy"
+#~ msgstr "ฟล้อปปี้"
+
+#~ msgid "Zip"
+#~ msgstr "ซิปไดร์ฟ"
+
+#, fuzzy
+#~ msgid "Hard Disk"
+#~ msgstr "เดนมาร์ก"
+
+#, fuzzy
+#~ msgid "DVD-ROM"
+#~ msgstr "ซีดี-รอม"
+
+#, fuzzy
+#~ msgid "Tape"
+#~ msgstr "ประเภท"
+
+#, fuzzy
+#~ msgid "Videocard"
+#~ msgstr "โหมดของการแสดงผล"
+
+#, fuzzy
+#~ msgid "Tvcard"
+#~ msgstr "TV card"
+
+#, fuzzy
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "อื่นๆ"
+
+#~ msgid "Soundcard"
+#~ msgstr "การ์ดเสียง"
+
+#, fuzzy
+#~ msgid "ISDN adapters"
+#~ msgstr "Internal ISDN card"
+
+#, fuzzy
+#~ msgid "Ethernetcard"
+#~ msgstr "Ethernet Card"
+
+#~ msgid "Modem"
+#~ msgstr "โมเด็ม"
+
+#~ msgid "Memory"
+#~ msgstr "หน่วยความจำ"
+
+#~ msgid "Printer"
+#~ msgstr "เครื่องพิมพ์"
+
+#~ msgid "Joystick"
+#~ msgstr "Joystick"
+
+#, fuzzy
+#~ msgid "USB ports"
+#~ msgstr "ไม่มีเครื่องพิมพ์"
+
+#~ msgid "Mouse"
+#~ msgstr "Mouse"
+
+#, fuzzy
+#~ msgid "UPS"
+#~ msgstr "HFS"
+
+#, fuzzy
+#~ msgid "Scanner"
+#~ msgstr "เลือกกราฟฟิคการ์ด"
+
+#, fuzzy
+#~ msgid "Unknown/Others"
+#~ msgstr "Generic"
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "กรุณารอสักครู่ ..."
+
+#, fuzzy
+#~ msgid "Sound configuration"
+#~ msgstr "การปรับแต่ง LAN"
+
+#, fuzzy
+#~ msgid "Driver:"
+#~ msgstr "Driver"
+
+#~ msgid "Auto-detect"
+#~ msgstr "ตรวจสอบอัตโนมัติ"
+
+#, fuzzy
+#~ msgid "Unknown|Generic"
+#~ msgstr "Generic"
+
+#, fuzzy
+#~ msgid "Card model:"
+#~ msgstr "Card mem (DMA)"
+
+#, fuzzy
+#~ msgid "Tuner type:"
+#~ msgstr "เปลี่ยนประเภทพาร์ติชั่น"
+
+#, fuzzy
+#~ msgid "PLL setting:"
+#~ msgstr "ฟอร์แมต"
+
+#~ msgid "Yes"
+#~ msgstr "ใช่"
+
+#~ msgid "No"
+#~ msgstr "ไม่ต้อง"
+
+#, fuzzy
+#~ msgid "Choose a file"
+#~ msgstr "เลือกกิจกรรม"
+
+#~ msgid "Add"
+#~ msgstr "เพิ่ม"
+
+#~ msgid "Modify"
+#~ msgstr "แก้ไข"
+
+#~ msgid "Remove"
+#~ msgstr "เอาออก"
+
+#~ msgid "Finish"
+#~ msgstr "เสร็จแล้ว"
+
+#~ msgid "Previous"
+#~ msgstr "ก่อน"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "ตัวเลือกผิดพลาด โปรดทดลองอีกครั้ง\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "ตัวเลือกของคุณ? (ค่าตั้งต้น %s)"
+
+#, fuzzy
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "ตัวเลือกของคุณ? (ค่าตั้งต้น %s)"
+
+#, fuzzy
+#~ msgid "Button `%s': %s"
+#~ msgstr "พาร์ติชั่น %s"
+
+#, fuzzy
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "คุณต้องการใช้ aboot หรือไม่"
+
+#, fuzzy
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "ตัวเลือกของคุณ? (ค่าตั้งต้น %s)"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#, fuzzy
+#~ msgid "Andorra"
+#~ msgstr "ยกเลิก"
+
+#, fuzzy
+#~ msgid "Afghanistan"
+#~ msgstr "Iranian"
+
+#, fuzzy
+#~ msgid "Albania"
+#~ msgstr "Iranian"
+
+#, fuzzy
+#~ msgid "Armenia"
+#~ msgstr "อาร์เมเนียน (เก่า)"
+
+#~ msgid "Austria"
+#~ msgstr "ออสเตรีย"
+
+#~ msgid "Australia"
+#~ msgstr "ออสเตรเลีย"
+
+#, fuzzy
+#~ msgid "Aruba"
+#~ msgstr "Grub"
+
+#, fuzzy
+#~ msgid "Azerbaijan"
+#~ msgstr "Iranian"
+
+#~ msgid "Belgium"
+#~ msgstr "เบลเยียม"
+
+#, fuzzy
+#~ msgid "Bulgaria"
+#~ msgstr "อังการี"
+
+#, fuzzy
+#~ msgid "Benin"
+#~ msgstr "เบลเยี่ยม"
+
+#, fuzzy
+#~ msgid "Bermuda"
+#~ msgstr "เยอรมัน"
+
+#~ msgid "Brazil"
+#~ msgstr "บราซิล"
+
+#, fuzzy
+#~ msgid "Botswana"
+#~ msgstr "Estonian"
+
+#, fuzzy
+#~ msgid "Belarus"
+#~ msgstr "Belarusian"
+
+#, fuzzy
+#~ msgid "Belize"
+#~ msgstr "เปลี่ยนขนาด"
+
+#~ msgid "Canada"
+#~ msgstr "แคนาดา"
+
+#, fuzzy
+#~ msgid "Chile"
+#~ msgstr "เลือก file"
+
+#~ msgid "China"
+#~ msgstr "จีน"
+
+#~ msgid "Costa Rica"
+#~ msgstr "คอสตาริกา"
+
+#, fuzzy
+#~ msgid "Cape Verde"
+#~ msgstr "ยุบ tree"
+
+#~ msgid "Czech Republic"
+#~ msgstr "สาธารณรัฐเช็ค"
+
+#~ msgid "Germany"
+#~ msgstr "เยอรมนี"
+
+#, fuzzy
+#~ msgid "Djibouti"
+#~ msgstr "เลิก"
+
+#, fuzzy
+#~ msgid "Dominica"
+#~ msgstr "โดเมน NIS"
+
+#, fuzzy
+#~ msgid "Algeria"
+#~ msgstr "พอร์ตอนุกรม"
+
+#, fuzzy
+#~ msgid "Estonia"
+#~ msgstr "Estonian"
+
+#, fuzzy
+#~ msgid "Egypt"
+#~ msgstr "ว่าง"
+
+#, fuzzy
+#~ msgid "Eritrea"
+#~ msgstr "ส่วนของผู้เชี่ยวชาญ"
+
+#~ msgid "Spain"
+#~ msgstr "สเปน"
+
+#, fuzzy
+#~ msgid "Ethiopia"
+#~ msgstr "Estonian"
+
+#~ msgid "Finland"
+#~ msgstr "ฟินแลนด์"
+
+#, fuzzy
+#~ msgid "Fiji"
+#~ msgstr "ฟินแลนด์"
+
+#, fuzzy
+#~ msgid "Micronesia"
+#~ msgstr "Macedonian"
+
+#, fuzzy
+#~ msgid "Faroe Islands"
+#~ msgstr "ไอซ์แลนด์"
+
+#~ msgid "France"
+#~ msgstr "ฝรั่งเศส"
+
+#~ msgid "United Kingdom"
+#~ msgstr "อังกฤษ"
+
+#, fuzzy
+#~ msgid "Georgia"
+#~ msgstr "นอร์เวย์"
+
+#, fuzzy
+#~ msgid "French Guiana"
+#~ msgstr "ฝรั่งเศษ"
+
+#, fuzzy
+#~ msgid "Greenland"
+#~ msgstr "ไอซ์แลนด์"
+
+#, fuzzy
+#~ msgid "Guinea"
+#~ msgstr "ทั่วไป"
+
+#~ msgid "Greece"
+#~ msgstr "กรืซ"
+
+#, fuzzy
+#~ msgid "Guatemala"
+#~ msgstr "เกตเวย์"
+
+#, fuzzy
+#~ msgid "Croatia"
+#~ msgstr "Croatian"
+
+#, fuzzy
+#~ msgid "Hungary"
+#~ msgstr "อังการี"
+
+#, fuzzy
+#~ msgid "Indonesia"
+#~ msgstr "ไม่มี"
+
+#, fuzzy
+#~ msgid "Ireland"
+#~ msgstr "ไอซ์แลนด์"
+
+#~ msgid "Israel"
+#~ msgstr "อิสราเอล"
+
+#, fuzzy
+#~ msgid "India"
+#~ msgstr "Iranian"
+
+#, fuzzy
+#~ msgid "Iran"
+#~ msgstr "Iranian"
+
+#, fuzzy
+#~ msgid "Iceland"
+#~ msgstr "ไอซ์แลนด์"
+
+#~ msgid "Italy"
+#~ msgstr "อิตาลี"
+
+#, fuzzy
+#~ msgid "Jordan"
+#~ msgstr "Iranian"
+
+#~ msgid "Japan"
+#~ msgstr "ญี่ปุ่น"
+
+#, fuzzy
+#~ msgid "Kenya"
+#~ msgstr "คีย์บอร์ด"
+
+#~ msgid "Korea"
+#~ msgstr "เกาหลี"
+
+#, fuzzy
+#~ msgid "Kuwait"
+#~ msgstr "ออก"
+
+#, fuzzy
+#~ msgid "Liberia"
+#~ msgstr "พอร์ตอนุกรม"
+
+#, fuzzy
+#~ msgid "Latvia"
+#~ msgstr "ตำแหน่ง"
+
+#, fuzzy
+#~ msgid "Monaco"
+#~ msgstr "จอภาพ"
+
+#, fuzzy
+#~ msgid "Macedonia"
+#~ msgstr "Macedonian"
+
+#~ msgid "Myanmar"
+#~ msgstr "พม่า"
+
+#, fuzzy
+#~ msgid "Montserrat"
+#~ msgstr "พอร์ตของเม้าส์"
+
+#, fuzzy
+#~ msgid "Mexico"
+#~ msgstr "Mouse"
+
+#, fuzzy
+#~ msgid "New Caledonia"
+#~ msgstr "Macedonian"
+
+#, fuzzy
+#~ msgid "Niger"
+#~ msgstr "สูง"
+
+#, fuzzy
+#~ msgid "Nigeria"
+#~ msgstr "พอร์ตอนุกรม"
+
+#~ msgid "Netherlands"
+#~ msgstr "เนเธอร์แลนด์"
+
+#~ msgid "Norway"
+#~ msgstr "นอร์เวย์"
+
+#, fuzzy
+#~ msgid "Niue"
+#~ msgstr "NoVideo"
+
+#, fuzzy
+#~ msgid "Oman"
+#~ msgstr "โดเมน NIS"
+
+#~ msgid "Poland"
+#~ msgstr "โปแลนด๋"
+
+#, fuzzy
+#~ msgid "Pitcairn"
+#~ msgstr "เครื่องพิมพ์"
+
+#, fuzzy
+#~ msgid "Puerto Rico"
+#~ msgstr "Protocol"
+
+#, fuzzy
+#~ msgid "Palestine"
+#~ msgstr "บันทึกกลุ่มแพ็คเก็จที่เลือก"
+
+#~ msgid "Portugal"
+#~ msgstr "โปรตุเกส"
+
+#, fuzzy
+#~ msgid "Qatar"
+#~ msgstr "สถานะ:"
+
+#, fuzzy
+#~ msgid "Reunion"
+#~ msgstr "ขนาดจอภาพ"
+
+#, fuzzy
+#~ msgid "Romania"
+#~ msgstr "โดเมน NIS"
+
+#~ msgid "Russia"
+#~ msgstr "รัสเซีย"
+
+#, fuzzy
+#~ msgid "Seychelles"
+#~ msgstr "เชลล์ที่ใช้"
+
+#, fuzzy
+#~ msgid "Sudan"
+#~ msgstr "SunOS"
+
+#~ msgid "Sweden"
+#~ msgstr "สวีเดน"
+
+#, fuzzy
+#~ msgid "Slovenia"
+#~ msgstr "สโลวาเนีย"
+
+#, fuzzy
+#~ msgid "Slovakia"
+#~ msgstr "สโลวาเนีย"
+
+#, fuzzy
+#~ msgid "Senegal"
+#~ msgstr "enable"
+
+#, fuzzy
+#~ msgid "Somalia"
+#~ msgstr "โดเมน NIS"
+
+#, fuzzy
+#~ msgid "Suriname"
+#~ msgstr "ชื่อที่ใช้ในกรุ๊ป (sharename)"
+
+#~ msgid "Taiwan"
+#~ msgstr "ไต้หวัน"
+
+#, fuzzy
+#~ msgid "Ukraine"
+#~ msgstr "ยูเครน"
+
+#, fuzzy
+#~ msgid "Uganda"
+#~ msgstr "Update"
+
+#~ msgid "United States"
+#~ msgstr "สหรัฐอเมริกา"
+
+#, fuzzy
+#~ msgid "Vatican"
+#~ msgstr "ตำแหน่ง"
+
+#, fuzzy
+#~ msgid "Zimbabwe"
+#~ msgstr "อาจจะ"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "ยินดีต้อนรับสู่ %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "ลบ logical volume ก่อน\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+
+#, fuzzy
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "ขอแสดงความยินดี การติดตั้งเสร็จเรียบร้อย\n"
+#~ "ให้เอาสื่อที่ใช้บูตออกจากไดรว์ (แผ่นฟล้อปปี้หรือซีดี) กดปุ่ม reboot เพื่อรีบูต\n"
+#~ "\n"
+#~ "\n"
+#~ "สำหรับท่านที่ต้องการข้อมูลสำหรับการแก้ไขกับ ลีนุกซ์-แมนเดรก\n"
+#~ "โปรดอ่าน Errata ได้ที่ \n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "ข้อมูลสำหรับการคอนฟิกระบบของคุณ สามารถหาได้จากช่วง\n"
+#~ "บทหลังจากการติดตั้งของคู่มือแนะนำผู้ใช้งานลีนุกซ์-แมนเดรกฉบับเป็นทางการ"
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "การคอนฟิก Internet"
+
+#, fuzzy
+#~ msgid "Module configuration"
+#~ msgstr "การคอนฟิก"
+
+#, fuzzy
+#~ msgid "Found %s interfaces"
+#~ msgstr "ตรวจพบ %s อินเทอร์เฟส %s"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "คุณมีอันอื่นๆอีกหรือไม่?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "คุณมีอินเทอร์เฟส %s จำนวนเท่าไหร่?"
+
+#~ msgid "See hardware info"
+#~ msgstr "อ่านต่อข้อมูลของฮาร์ดแวร์"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "ติดตั้งไดรเวอร์สำหรับ %s การ์ด %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "ติดตั้งไดรเวอร์สำหรับ %s การ์ด %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "ติดตั้งไดรเวอร์สำหรับ %s การ์ด %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "ติดตั้งไดรเวอร์สำหรับ %s การ์ด %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "ติดตั้งไดรเวอร์สำหรับ %s การ์ด %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "คุณสามารถป้อนข้อมูลอ๊อปชั่นให้กับโมดูล %s ได้แล้ว\n"
+#~ "อ๊อปชั่นจะอยู่ในรูปแบบ ``name=value name2=value2 ...''\n"
+#~ "ตัวอย่างเช่น, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "อ๊อปชั่นของโมดูล:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "ต้องการให้โปรแกรมทดลองใช้ไดรเวอร์ %s ชนิดใด?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "ในบางกรณี สำหรับไดรเวอร์ %s จะจำเป็นต้องใช้ข้อมูลเพิ่มเติมเพื่อ\n"
+#~ "ให้สามารถทำงานได้ถูกต้อง แม้ว่าไดรเวอร์อาจทำงานได้โดยปกติ โดยปราศจาก\n"
+#~ "ข้อมูลดังกล่าว   คุณต้องการจะระบุอ๊อปชั่นเพิ่มเติมพิเศษหรือให้โปรแกรมทำการ\n"
+#~ "ตรวจหาข้อมูลที่จำเป็นต้องใช้? ในบางกรณีการตรวจหาอาจทำให้คอมพิวเตอร์แฮงค์\n"
+#~ "แต่จะไม่เป็นอันตรายกับคอมพิวเตอร์"
+
+#~ msgid "Autoprobe"
+#~ msgstr "ตรวจหาอัตโนมัติ"
+
+#~ msgid "Specify options"
+#~ msgstr "ระบุอ๊อปชั่น"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "การโหลดโมดูล %s ล้มเหลว\n"
+#~ "คุณต้องการให้ทดลองอีกครั้งด้วยพารามิเตอร์อื่นๆอีกหรือไม่?"
+
+#~ msgid "mount failed: "
+#~ msgstr "การเม้าท์ล้มเหลว: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Extended partition not supported on this platform"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "คุณมีช่องว่างในตารางพาร์ติชั่น  แต่โปรแกรมจะไม่ใช้งานช่องว่างนั้น\n"
+#~ "การแก้ไขปัญหาสามารถทำได้โดยย้ายไพรมารีพาร์ติชั่น เพื่อให้ช่องว่าไปต่อท้ายพาร์ติชั่นแบบ "
+#~ "extended"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "มีปัญหากับการอ่านข้อมูลในไฟล์ %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "การกู้คืนจากไฟล์ %s ล้มเหลว: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "ไฟล์แบ็คอัพมีปัญหา"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "ข้อผิดพลาดถูกบันทึกในไฟล์ %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "มีสิ่งไม่ดีเกิดขึ้นกับ disk ของคุณซึ่งเราไม่สามารถตรวจ\n"
+#~ "สอบความถูกต้องของข้อมูลได้\n"
+#~ "นั่นหมายความว่าการเขียนข้อมูลลงไปอาจกลายเป็นขยะ"
+
+#, fuzzy
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "ไม่สามารถเพิ่มพาร์ติชั่นเป็น _formatted_ RAID md%d"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "ไม่มีพาร์ติชั่นพอสำหรับ RAID ระดับ %d\n"
+
+#, fuzzy
+#~ msgid "Scannerdrake"
+#~ msgstr "เลือกกราฟฟิคการ์ด"
+
+#, fuzzy
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "เครื่องพิมพ์แบบรีโมท"
+
+#, fuzzy
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "เครื่องพิมพ์แบบรีโมท"
+
+#, fuzzy
+#~ msgid "Security Alerts:"
+#~ msgstr "เลือกระดับระบบรักษาความปลอดภัย"
+
+#, fuzzy
+#~ msgid "Set the root umask."
+#~ msgstr "ไม่มีรหัสผ่าน"
+
+#, fuzzy
+#~ msgid "Set the user umask."
+#~ msgstr "ชื่อผู้ใช้"
+
+#, fuzzy
+#~ msgid "Allow remote root login"
+#~ msgstr "เครื่องพิมพ์แบบรีโมท"
+
+#, fuzzy
+#~ msgid "Allow X Window connections"
+#~ msgstr "การติดต่อโดยใช้ Modem ธรรมดา"
+
+#, fuzzy
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "ปรับแต่งการบริการต่างๆ"
+
+#, fuzzy
+#~ msgid "No password aging for"
+#~ msgstr "ไม่มีรหัสผ่าน"
+
+#, fuzzy
+#~ msgid "Password history length"
+#~ msgstr "รหัสผ่านนี้ง่ายต่อการเดา"
+
+#, fuzzy
+#~ msgid "Root umask"
+#~ msgstr "ไม่มีรหัสผ่าน"
+
+#, fuzzy
+#~ msgid "Shell timeout"
+#~ msgstr "Kernel Boot Timeout"
+
+#, fuzzy
+#~ msgid "User umask"
+#~ msgstr "ชื่อผู้ใช้"
+
+#, fuzzy
+#~ msgid "Check open ports"
+#~ msgstr "ค้นหาเจอบน port %s"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Welcome To Crackers"
+
+#~ msgid "Poor"
+#~ msgstr "ต่ำกว่ามาตรฐาน"
+
+#~ msgid "High"
+#~ msgstr "สูง"
+
+#, fuzzy
+#~ msgid "Higher"
+#~ msgstr "สูง"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranoid"
+
+#~ msgid "Security"
+#~ msgstr "ระบบความป้องกัน"
+
+#, fuzzy
+#~ msgid "Please choose the desired security level"
+#~ msgstr "เลือกระดับระบบรักษาความปลอดภัย"
+
+#, fuzzy
+#~ msgid "Security level"
+#~ msgstr "เลือกระดับระบบรักษาความปลอดภัย"
+
+#, fuzzy
+#~ msgid "Use libsafe for servers"
+#~ msgstr "เลือกออปชั่นเพิ่มเติมสำหรับเซิร์ฟเวอร์"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron คือโปรแกรมสำหรับตั้งเวลาทำงาน"
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd คือโปรแกรมดูแลสถานะของ battery \n"
+#~ "มันสามารถจะปิดเครื่องเมื่อเวลา battery มีไฟน้อย"
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron คือโปรแกรมมาตรฐานของ Unix ที่สั่งทำงานโปรแกรมในเวลาที่กำหนด\n"
+#~ "vixie cron เพิ่มความสามารถให้กับ UNIX cron ซึ่งรวมถึงเพิ่ม\n"
+#~ "ระบบความปลอดภัยและ option การปรับแต่งอื่นๆ"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM ทำให้สามารถใช้ mouse กับโปรแกรมที่รันใน text mode\n"
+#~ "มันยังช่วยทำให้สามารถใช้ cut-and-paste และ popup-menu \n"
+#~ "ด้วย"
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr "Apache คือ World Wide Web server"
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Internet superserver daemon (inetd) จะสั่งทำงานโปรแกรมหลายๆอย่าง\n"
+#~ "เมื่อมีความต้องการเกิดขึ้น  ตัวอย่างโปรแกรมที่มันรับผิดชอบคือ telnet\n"
+#~ "ftp rsh และ rlogin  การยกเลิก inetd จะทำให้โปรแกรมทั้งหมดที่มันรับ\n"
+#~ "ผิดชอบอยู่ไม่ทำงาน"
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "แพกเกจนี้จะเรียกใช้ keyboard map ตามที่ระบุอยู่ใน \n"
+#~ "/etc/sysconfig/keyboard  ซึ่งสามรถเลือกได้โดยใช้ kbdconfig\n"
+#~ "คุณควรปล่อยให้มันทำงานในเครื่องทั่วไป"
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd คือ print daemon ที่จำเป็นต้องมีถ้าต้องการให้ lpr ทำงานถูกต้อง\n"
+#~ "ที่จริงแล้วมันคือ server ที่จัดการส่งงานพิมพ์ไปเครื่องพิมพ์"
+
+#, fuzzy
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) คือ Domain Name Server (DNS) ทำหน้าที่แปลงชื่อ\n"
+#~ "host names เป็น IP addresses."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Activates/Deactivates network interfaces ทั้งหมด ที่ถูกตั้งให้\n"
+#~ "เริ่มทำงานตอน boot"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS คือ protocol ที่ใช้กันอย่างแหร่หลายสำหรับการแชร์ไฟล์บนTCP/IP networks.\n"
+#~ "มันให้การทำงานของNFS server ที่ระบุในไฟล์ /etc/exports"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS คือ protocol ที่ใช้กันอย่างแหร่หลายสำหรับการแชร์ไฟล์บนTCP/IP networks.\n"
+#~ "มันให้การทำงานของNFS server "
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "PCMCIA สนับสนุนการทำงานของอุปกรณ์หลายๆอย่างเช่น\n"
+#~ "ethernet หรือ modem ในคอมพิวเตอร์แบบพกพา"
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Portmapper บริหารการติดต่อของ RPC ซึ่งใช้กับ\n"
+#~ "protocols เช่น NFS และ NIS Portmap server ต้องทำงานบนเครื่อง\n"
+#~ "ที่ทำหน้าที่เป็น server ของ protocal ซึ่งเรียกใช้การทำงานแบบ RPC"
+
+#, fuzzy
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix เป็นโปรแกรมทำหน้าที่ส่งจดหมายจากเครื่องหนึ่ง\n"
+#~ "ไปอีกเครื่องหนึ่ง"
+
+#, fuzzy
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "รัน X-Window เมื่อเริ่มทำงาน"
+
+#, fuzzy
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "เริ่มและหยุด X Font Server ตอน boot และ เลิก"
+
+#~ msgid "Printing"
+#~ msgstr "กำลังพิมพ์"
+
+#~ msgid "Internet"
+#~ msgstr "เฎ?เฏ?เฎฃเฎฏเฎฎเฎ?"
+
+#~ msgid "System"
+#~ msgstr "ระบบ"
+
+#, fuzzy
+#~ msgid "Remote Administration"
+#~ msgstr "อ๊อปชั่นของเครื่องพิมพ์แบบรีโมท"
+
+#, fuzzy
+#~ msgid "Database Server"
+#~ msgstr "ชื่อเซิร์ฟเวอร์ของพรินเตอร์"
+
+#~ msgid "Services"
+#~ msgstr "บริการ"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "เลือกการบริการที่ต้องการให้เริ่มตั้งแต่การเริ่มทำงานของเครื่อง"
+
+#~ msgid "running"
+#~ msgstr "กำลังทำงาน"
+
+#~ msgid "stopped"
+#~ msgstr "หยุด"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "ไม่มีข้อมูลเพิ่มเติม\n"
+#~ "สำหรับการบริการนี้ ขอโทษครับ"
+
+#~ msgid "Info"
+#~ msgstr "ข้อมูล"
+
+#~ msgid "On boot"
+#~ msgstr "ขณะ boot"
+
+#~ msgid "Start"
+#~ msgstr "เริ่ม"
+
+#~ msgid "Stop"
+#~ msgstr "หยุด"
+
+#, fuzzy
+#~ msgid "[keyboard]"
+#~ msgstr "คีย์บอร์ด"
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "เพิ่มผู้ใช้"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "อาร์เมเนียน (เก่า)"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "ออสเตรีย"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "ละตินอเมริกา"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Macedonian"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "ละตินอเมริกา"
+
+#, fuzzy
+#~ msgid "Russian Federation"
+#~ msgstr "รัสเซีย (โฟเนติค)"
+
+#, fuzzy
+#~ msgid "Yugoslavia"
+#~ msgstr "ยูโกสลาเวีย (เลย์เอ้าท์แบบละติน)"
+
+#~ msgid "Is this correct?"
+#~ msgstr "ถูกต้องหรือไม่?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "ตัวเลือกแฟ้ม"
+
+#, fuzzy
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "ไม่มีไฟล์หรือไดเรกทอรีเช่นนี้"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "ไม่พบไดเร็กทอรีส่วนตัวของคุณ"
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "ไม่ใช่โฟลเดอร์"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "ไม่มีไฟล์"
+
+#~ msgid "Expand Tree"
+#~ msgstr "ขยาย tree"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "ยุบ tree"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "เปลี่ยนไปมาระหว่างการจัดเรียงแบบ flat หรือ group"
+
+#~ msgid "Installation failed"
+#~ msgstr "การติดตั้งไม่สำเร็จ"

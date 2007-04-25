@@ -1,0 +1,6077 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Pablo Saratxaga <pablo@mandriva.com>, 2000,2002,2003,2004.
+# Lorint Hendschel <lorinthendschel@skynet.be>, 2002.
+# Lucyin Mahin <lucyin@walon.org>, 2002,2003,2005.
+# Pablo Saratxaga <pablo@walon.org>, 2003, 2004, 2005, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2006-09-05 23:14+0200\n"
+"Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
+"Language-Team: Walloon <linux-wa@walon.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 Ko"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 Ko"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 Mo"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 Mo"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 Mo"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 Mo"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 Mo"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 Mo"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 Mo ou di pus"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "Sierveu X"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "Tchoezixhoz on sierveu X"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Apontiaedje po-z aveur pus d' ene waitroûle"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Li sistinme da vosse sopoite d' eployî pus d' ene\n"
+"waitroûle e minme tins.\n"
+"Cwè voloz vs fé?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Dijhoz li memwere di vosse cåte grafike"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+"I gn a-st on mineu prôpietaire pol cåte videyo da vosse, ki pôreut sopoirter "
+"di pus di fonccionålités.\n"
+"El voloz vs eployî?"
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Apontyî totes les waitroûles sepårumint"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Eployî l' egztension «Xinerama»"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Apontyî rén kel cåte «%s»%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "A vosse môde"
+
+#: ../lib/Xconfig/main.pm:126
+#, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Apontiaedje del cåte grafike et del waitroûle"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Cwiter"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Cåte grafike"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Waitroûle"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Finté"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Saye"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Tchuzes"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Tchôke-divins"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Li fitchî d' apontiaedje di Xorg da vosse est cron, dji passe houte."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Wårder les candjmints?\n"
+"L' apontiaedje do moumint est:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Tchoezixhoz l' waitroûle l° %d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Tchoezixhoz ene waitroûle"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Djenerike"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Vindeu"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr ""
+"Li sayaedje Plug'n Play a fwait berwete. Tchoezixhoz li sôre di waitroûle "
+"s' i vs plait"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Les deus pus consecantès sacwès, c' est (1) li frekince di \n"
+"rafristaedje d' astampé (vertical refresh rate) eyet, co pus impôrtant,\n"
+"li frekince di rafristaedje di coûtchî (horizontal refresh rate).\n"
+"\n"
+"Ni tchoezixhoz MÅY ene frekince pus foite ki çki vosse waitroûle sopoite,\n"
+"sins cwè vos pôrîz distrure vosse waitroûle."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Frekince di rafristaedje di coûtchî"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Frekince di rafristaedje d' astampé"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Accions"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 coleurs (8 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 meye coleurs (15 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 meye coleurs (16 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 miyons di coleurs (24 bits)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Fintés"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Ôte"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Tchoezixhoz li finté et li parfondeu di coleur"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Cåte grafike: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "'l est bon"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Rinoncî"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Aidance"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Saye di l' apontiaedje"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Voloz vs sayî l' apontiaedje?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr ""
+"Loukîz a vos: sayî cisse cåte grafike chal pout djaler vosse copiutrece"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Åk n' a nén stî:\n"
+"%s\n"
+"Sayîz di candjî sacwants parametes"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Dji va cwiter dins %d segondes"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Est çki c' est l' apontiaedje corek?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr "Acceleråcion 3D d' éndjolreye: %s\n"
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Sôre del taprece: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Sôre di sori: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Waitroûle: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Frekince di coûtchî del waitroûle: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Frekince d' astampé del waitroûle: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Cåte grafike: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Memwere del cåte: %s Ko\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Parfondeu di coleur: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Fintés: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Mineu di Xorg: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Apontiaedje di Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, c-format
+msgid "Graphic card options"
+msgstr "Tchuzes del cåte grafike"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr "Acceleråcion 3D d' éndjolreye"
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr "Mete en alaedje li voeyaedje hoûte (egztinsion composite)"
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr "Eployî ene sori avou acceleråcion d' éndjolreye"
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+"Mete en alaedje l' acceleråcion RENDER (çoula pout fé des bugs sol håynaedje "
+"di tecse)"
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+"Mete en alaedje li duplicaedje di håynaedje so ene difoûtrinne waitroûle"
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr "Mete en alaedje li duplicaedje di håynaedje so ene deujhinme waitroûle"
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+"Mete en alaedje tape rascourti pol discandje di håynaedje so ene difoûtrinne "
+"waitroûle"
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr "Eployî EXA purade ki XAA (ça va mî po Render eyet Composite)"
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Enonder X a l' enondaedje"
+
+#: ../lib/Xconfig/various.pm:222
+#, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Enondaedje dins l' môde grafike (dizo X) do côp ki l' éndjole s' enonde."
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"I shonne ki vosse cåte grafike a ene prijhe TV-OUT.\n"
+"Ele pout esse apontieye po-z aveur li rexhowe do frame-buffer evoyeye so on "
+"posse TV.\n"
+"\n"
+"Po çoula vos dvoz raloyî vosse cåte grafike a vosse posse TV divant "
+"d' enonder li copiutrece.\n"
+"Adonpu, tchoezixhoz l' intrêye «TVout» dins l' menu d' l' enondrece\n"
+"\n"
+"Voloz vs sopoirter cisse possibilité?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Kéne nôrme fåt i eployî po vosse TV?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+"I s' pout kel finté di håynaedje eployeye ni soeye nén l' boune. \n"
+"\n"
+"Si l' sicribanne da vosse va pus lon ki les boirds del waitroûle, \n"
+"ça pout aidî d' astaler %s pol coridjî. L' astaler asteure?"
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "ôte"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Taprece tcheke (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Taprece almande"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Taprece dvorak"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Taprece espagnole"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Taprece finwesse"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Taprece francesse"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Taprece do Rweyåme Uni"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Taprece norvedjinne"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Taprece polonesse"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Taprece Rûsse"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Taprece suwedwesse"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Taprece des Estats Unis"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Taprece albanyinne"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Taprece årmenyinne (viye modêye)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Taprece årmenyinne (novele modêye)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Taprece årmenyinne (fonetike)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Taprece arabe"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Taprece azerbaydjanesse (latene)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Taprece bedje"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Taprece bengalesse (adjinçmint «Inscript»)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Taprece bengalesse (adjinçmint «Probhat»)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Taprece bulgåre (fonetike)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Taprece bulgåre (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Taprece braezilyinne (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Taprece bosnyinne"
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Taprece tibetinne"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Taprece bielorûsse"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Taprece swisse (cogne tîxhone)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Taprece swisse (cogne romande)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Taprece tcherokî"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Taprece tcheke (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Taprece almande (sins moitès tapes)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Taprece indyinne (Devanagari)"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Taprece daenwesse"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Taprece dvorak (US)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Taprece dvorak esperanto"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Taprece dvorak francesse"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Taprece dvorak (GB)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Taprece dvorak norvedjinne"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Taprece dvorak polonesse"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Taprece dvorak suwedwesse"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Taprece estonyinne"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Taprece faeroyesse"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Taprece djeyordjyinne (cogne rûsse)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Taprece djeyordjyinne (cogne latene)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Taprece greke"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Taprece greke (politonike)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Taprece indyinne (Goudjarati)"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Taprece indyinne (Gourmouxhi)"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Taprece crowåte"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Taprece hongrwesse"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Taprece irlandesse"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Taprece inuktitut"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Taprece israyelyinne"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Taprece israyelyinne (fonetike)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Taprece iranyinne"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Taprece izlandesse"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Taprece itålyinne"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Taprece djaponesse di 106 tapes"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Taprece indyinne (Kannada)"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Taprece kirguize"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Taprece corêyinne"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Taprece kurde (sicrijhaedje arabe)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Taprece di l' Amerike nonnrece"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Taprece lawocyinne"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "Taprece litwanyinne AZERTY (viye modêye)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "Taprece litwanyinne AZERTY (novele modêye)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Taprece litwanyinne QWERTY (roye des limeros)"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Taprece litwanyinne QWERTY (fonetike)"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Taprece letone"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Taprece malayalam"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr "Taprece mawori"
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Taprece macedonyinne"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Taprece birmande"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Taprece mongole (cirilike)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Taprece maltesse (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Taprece maltesse (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr "Taprece nidjeryinne"
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Taprece neyerlandesse"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Taprece indyinne (Oriya)"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Taprece polonesse (cogne QWERTY)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Taprece polonesse (cogne QWERTZ)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Taprece pashto (sicrijhaedje arabe)"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Taprece portuguesse"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Taprece canadyinne (Québec)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Taprece roumine (QWERTZ)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Taprece roumine (QWERTY)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Taprece rûsse (fonetike)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Taprece eslovenyinne"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr "Taprece sinhala"
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Taprece eslovake (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Taprece eslovake (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Taprece såmi (norvedjinne)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Taprece såmi (suwedwesse/finlandesse)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Taprece sindhi (sicrijhaedje arabe)"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Taprece siebe (cirilike)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Taprece siriake"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Taprece siriake (fonetike)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Taprece telougou"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Taprece tamoule (adjinçmint ISCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Taprece tamoule (adjinçmint «taprece mecanike»)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Taprece taylandesse (kedmanee)"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Taprece taylandesse (tis-820)"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Taprece taylandesse (pattachote)"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr "Taprece tifinar (marokinne) (+latén/arabe)"
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr "Taprece tifinar (fonetike) (+latén/arabe)"
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Taprece tadjike"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Taprece turcmene"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Taprece turke (cogne wårdiveuse «F»)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Taprece turke (cogne modiene «Q»)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Taprece oucrinnyinne"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Taprece ourdou"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Taprece des Estats Unis (moitès tapes)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr "Taprece ISO9995-3 (taprece US a 3 liveas)"
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Taprece ouzbeke (cirilike)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Taprece vietnamyinne QWERTY (roye des limeros)"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Taprece yougoslave (latene)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Li tape AltGr"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Les deus tapes di Shift e minme tins"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Control eyet Shift e minme tins"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Li tape CapsLock"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Control eyet CapsLock e minme tins"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Control eyet Alt e minme tins"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt eyet Shift e minme tins"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Li tape «Menu»"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Li tape «Windows» di hintche"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Li tape «Windows» di droete"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Les deus tapes Control e minme tins"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Les deus tapes Alt e minme tins"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Li tape Shift di hintche"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Li tape Shift di droete"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Li tape Alt di hintche"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Li tape Control di hintche"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Li tape Control di droete"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Chal vos ploz tchoezi li tape ou li combinåcion di tapes ki \n"
+"vos vôrîz eployî po candjî d' ene taprece a l' ôte\n"
+"(eg: d' ene taprece e letes latenes a ene nén latene)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Adviertixhmint"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Ces apontiaedjes vont esse metous en alaedje après l' astalåcion.\n"
+"Tins d' l' astalåcion, vos dvroz eployî li tape Control di droete\n"
+"po discandjî inte les diferinnès sôres di taprece."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sori SUN"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Tipike"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Sori tipike PS2 a rôlete"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Otomatike"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 boton"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Sori tipike a 2 botons"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Sori tipike a 3 botons avou rôlete emulêye"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Rôlete"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "séreye"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Sori tipike a 3 botons"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan avou rôlete emulêye"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Mouse Systems"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series avou rôlete emulêye"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (séreye, viye sôre C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Logitech Mouse (séreye, viye sôre C7) avou rôlete emulêye"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Kensington Thinking Mouse avou rôlete emulêye"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "sori bus"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 botons"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 botons"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "Sori a troes botons avou rôlete emulêye"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Univiersele"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Tot l' minme kéne sori PS/2 ou USB"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Xbox controleu-S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "nouk"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Nole sori"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr "Saye del sori"
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Tchoezixhoz li sôre di vosse sori."
+
+#: ../lib/mouse.pm:517
+#, c-format
+msgid "Mouse choice"
+msgstr "Tchoezixhaedje del sori"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Emuler li troejhinme boton?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Pôrt del sori"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "Tchoezixhoz li pôrt séreye ki vosse sori est raloyeye dizo."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Emulåcion des botons"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Emulåcion do 2inme boton"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Emulåcion do 3inme boton"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Sayîz on pô vosse sori"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Po mete en alaedje li sori,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "BODJÎZ L' RÔLETE!"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Vos dvoz renonder l' éndjole po les candjmints esse efectifs"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Taprece"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Tchoezixhoz li sôre di vosse taprece."
+
+#: ../tools/keyboarddrake:31
+#, c-format
+msgid "Keyboard layout"
+msgstr "Sôre di taprece"
+
+#: ../tools/keyboarddrake:39
+#, c-format
+msgid "Keyboard type"
+msgstr "Modele di taprece"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Voloz vs kel tape «BackSpace» evoye on «Delete» el conzôle?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Saye del sori"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Sayîz vosse sori s' i vs plait:"
+
+#~ msgid "native support"
+#~ msgstr "sopoirt natif"
+
+#~ msgid ""
+#~ "Some drivers provide native support for OpenGL compositing (using AIGLX "
+#~ "for example). If your system supports it, it is the preferred solution."
+#~ msgstr ""
+#~ "Des mineus k' i gn a sopoirtèt nativmint li compôzaedje OpenGL (avou "
+#~ "AIGLX metans). Si l' sistinme da vosse el sopoite, c' est l' meyeuse "
+#~ "solucion."
+
+#~ msgid "Xgl is an additional graphical server that adds 3D desktop support."
+#~ msgstr ""
+#~ "Xgl c' est on sierveu grafike di rawe ki radjoute li sopoirt pol "
+#~ "sicribanne 3D."
+
+#~ msgid "Compiz is the reference compositing window manager."
+#~ msgstr ""
+#~ "Compiz c' est l' manaedjeu d' purneas e môde compôzaedje di referince."
+
+#~ msgid "Beryl is a fork of compiz and provides bleeding-edge features."
+#~ msgstr ""
+#~ "Beryl c' est on fortchaedje di compiz eyet dene les sire dierinnès "
+#~ "fonccionålités."
+
+#~ msgid "3D Desktop effects"
+#~ msgstr "Efets scribanne 3D"
+
+#~ msgid "Your system does not support 3D desktop effects."
+#~ msgstr "Li sistinme da vosse èn sopoite nén les efets di scribanne 3D."
+
+#~ msgid "Use %s"
+#~ msgstr "Eployî %s"
+
+#~ msgid "No 3D desktop effects"
+#~ msgstr "Pont d' efets di scribanne 3D"
+
+#~ msgid "Please wait"
+#~ msgstr "Tårdjîz on pô, s' i vs plait"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Dj' astale l' enondrece"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO vout candjî l' idintifiant d' volume pol plake %s. Mins,\n"
+#~ "si vos candjîz l' idintifiant d' volume po ene plake d' enondaedje\n"
+#~ "Windows NT, 2000 ou XP, li Windows èn ritrove pus ses djonnes, eyet\n"
+#~ "fé ene aroke moirt.\n"
+#~ "C' est nén on problinme po les vîs Windows 95, 98 eyet les plakes\n"
+#~ "Windows NT avou seulmint des dnêyes.\n"
+#~ "\n"
+#~ "Candjî l' idintifiant d' volume del plake?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "Åk n' a nén stî e l' astalaedje di l' enondrece. Vochal l' aroke:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Vos alez dveur candjî vosse éndjin d' enondaedje (boot-device) dins\n"
+#~ "vosse Open Firmware, po vos poleur mete en alaedje l' enondeu.\n"
+#~ "Tchoûkîz e minme tins so les tapes Comande-Option-O-F å moumint\n"
+#~ "di l' enondaedje, et poy tapez:\n"
+#~ "    setenv boot-device %s,\\\\:tbxi\n"
+#~ "et poy tapez: shut-down\n"
+#~ "A l' enondaedje shuvant del copiutrece vos dvrîz voere li prompt di "
+#~ "l' enondeu."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Vos avoz tchoezi d' astaler l' enondrece so ene pårticion.\n"
+#~ "Çoula vout dire ki vos avoz ddja ene enondrece sol secteu d' enondaedje "
+#~ "del deure plake (eg: System Commander).\n"
+#~ "\n"
+#~ "So kéne deure plake ki l' copiutrece s' enonde?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Prumî secteu del plake (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Prumî secteu del pårticion raecene"
+
+#~ msgid "On Floppy"
+#~ msgstr "So plakete"
+
+#~ msgid "Skip"
+#~ msgstr "Passer houte"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Astalåcion di LILO/grub"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Wice ki vos voloz astaler l' enondrece?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Apontiaedje del sôre d' enondaedje"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Mwaissès tchuzes di l' enondrece"
+
+#~ msgid "Bootloader"
+#~ msgstr "Enondrece"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Enondrece a-z eployî"
+
+#~ msgid "Boot device"
+#~ msgstr "Éndjin d' enondaedje"
+
+#~ msgid "Main options"
+#~ msgstr "Mwaissès tchuzes"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Tins divant d' enonder li prémetowe imådje"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Mete en alaedje ACPI"
+
+#~ msgid "Enable APIC"
+#~ msgstr "Mete en alaedje APIC"
+
+#~ msgid "Enable Local APIC"
+#~ msgstr "Mete en alaedje APIC locå"
+
+#~ msgid "Password"
+#~ msgstr "Sicret"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Les mots di passe sont nén les minmes"
+
+#~ msgid "Please try again"
+#~ msgstr "Sayîz co ene feye"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr ""
+#~ "Vos n' poloz eployî on sistinme di fitchîs ecripté pol pont di montaedje %"
+#~ "s"
+
+#~ msgid "Password (again)"
+#~ msgstr "Sicret (co ene feye)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Rastrinde les tchuzes del roye di cmande"
+
+#~ msgid "restrict"
+#~ msgstr "rastrinde"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr ""
+#~ "Li tchuze «Rastrinde les tchuzes del roye di cmande» ni sieve a rén\n"
+#~ "sins scret"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Netyî «/tmp» a tchaeke renondaedje"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Grandeu del RAM, s' i fåt (dj' a trové %d Mo)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Dinez li grandeu del RAM e Mo"
+
+#~ msgid "Init Message"
+#~ msgstr "Messaedje d' enondaedje"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Tårdjaedje di l' Open Firmware"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Tårdjaedje po l' enondaedje do nawea"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "Permete l' enondaedje pa plake lazer?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "Permete l' enondaedje pa l' Open Firmware?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Prémetou sistinme d' operance?"
+
+#~ msgid "Image"
+#~ msgstr "Imådje"
+
+#~ msgid "Root"
+#~ msgstr "Raecene"
+
+#~ msgid "Append"
+#~ msgstr "Bouter å coron"
+
+#~ msgid "Video mode"
+#~ msgstr "Môde videyo"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "Profil rantoele"
+
+#~ msgid "Label"
+#~ msgstr "Etikete"
+
+#~ msgid "Default"
+#~ msgstr "Prémetou"
+
+#~ msgid "NoVideo"
+#~ msgstr "NoleVideyo"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Vos n' poloz aveur ene vude etikete"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Vos dvoz specifyî ene imådje di nawea"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Vos dvoz dner ene pårticion raecene"
+
+#~ msgid "This label is already used"
+#~ msgstr "Cisse etikete la est ddja eployeye"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Kéne sôre d' intrêye voloz vs radjouter?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Ôtes sistinmes d' operance (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Ôtes sistinmes d' operance (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Ôtes sistinmes d' operance (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Vochal les intrêyes.\n"
+#~ "Vos ndè poloz radjouter ou co candjî les cenes k' î sont ddja."
+
+#~ msgid "access to X programs"
+#~ msgstr "accès ås programes grafikes"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "accès ås usteyes rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "permete d' eployî «su»"
+
+#~ msgid "access to administrative files"
+#~ msgstr "accès ås fitchîs administratifs"
+
+#~ msgid "access to network tools"
+#~ msgstr "accès ås usteyes rantoele"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "accès ås usteyes di copilaedje"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(%s a stî ddja radjouté)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Dinez on no d' uzeu, s' i vs plait"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "Li no d' uzeu ni pout aveur ki des ptitès letes, des limeros, «-» ou «_»"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Li no d' uzeu est pår trop long"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Ci no d' uzeu a ddja stî radjouté"
+
+#~ msgid "User ID"
+#~ msgstr "ID uzeu"
+
+#~ msgid "Group ID"
+#~ msgstr "ID groupe"
+
+#~ msgid "%s must be a number"
+#~ msgstr "%s doet esse on limero"
+
+#~ msgid "%s should be above 500. Accept anyway?"
+#~ msgstr "%s doet esse pus grand k' 500. L' accepter tot l' minme?"
+
+#~ msgid "Add user"
+#~ msgstr "Radjouter uzeu"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Intrez èn uzeu\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "Fini"
+
+#~ msgid "Accept user"
+#~ msgstr "Accepter l' uzeu"
+
+#~ msgid "Real name"
+#~ msgstr "Vraiy no"
+
+#~ msgid "Login name"
+#~ msgstr "No d' elodjaedje"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "Imådjete"
+
+#~ msgid "Autologin"
+#~ msgstr "Elodjaedje otomatike"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Voste éndjole pout esse apontieye po s' elodjî otomaticmint avou èn uzeu "
+#~ "do côp k' ele s' enonde."
+
+#~ msgid "Use this feature"
+#~ msgstr "Eployî cisse fonccionålité chal"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Tchoezixhoz li prémetou uzeu:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Tchoezixhoz li manaedjeu di purnea a enonder:"
+
+#~ msgid "License agreement"
+#~ msgstr "Acoird sol licince"
+
+#~ msgid "Release Notes"
+#~ msgstr "Notes åd fwait di cisse modêye"
+
+#~ msgid "Accept"
+#~ msgstr "Accepter"
+
+#~ msgid "Refuse"
+#~ msgstr "Nén accepter"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Tchoezixhoz li lingaedje a eployî."
+
+#~ msgid "Language choice"
+#~ msgstr "Tchoezi l' lingaedje"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Vos poloz tchoezi des ôtes lingaedjes ki sront disponibes dispoy\n"
+#~ "l' astalåcion po les uzeus s' endè siervi."
+
+#~ msgid "Multi languages"
+#~ msgstr "Multi-lingaedjes"
+
+#~ msgid "Old compatibility (non UTF-8) encoding"
+#~ msgstr "Vî ecôdaedje di copatibilité (nén UTF-8)"
+
+#~ msgid "All languages"
+#~ msgstr "Tos les lingaedjes"
+
+#~ msgid "Country / Region"
+#~ msgstr "Payis/Redjon"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Tchoezixhoz vosse payis s' i vs plait."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Vochal li djivêye di tos les payis k' on pout tchoezi"
+
+#~ msgid "Other Countries"
+#~ msgstr "Ôtes payis"
+
+#~ msgid "Advanced"
+#~ msgstr "Sipepieus"
+
+#~ msgid "Input method:"
+#~ msgstr "Metôde d' intrêye:"
+
+#~ msgid "None"
+#~ msgstr "Nole"
+
+#~ msgid "No sharing"
+#~ msgstr "Nou pårtaedje"
+
+#~ msgid "Allow all users"
+#~ msgstr "Permete tos les uzeus"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Voloz vs permete ki les uzeus polexhe pårtaedjî leus ridants?\n"
+#~ "Si vos l' permetoz, i pôront clitchî so «Pårtaedjî» dins konqueror ou "
+#~ "nautilus.\n"
+#~ "\n"
+#~ "«A vosse môde» vos permete des apontiaedjes diferins po tchaeke uzeu.\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr ""
+#~ "NFS: li sistinme di pårtaedjaedje di fitchîs tradicionel so Unix, k' est "
+#~ "moens bén sopoirté avou MacOS eyet Windows."
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: on sistinme di pårtaedjaedje di fitchîs eployî pa Windows, MacOS X "
+#~ "eyet sacwants sistinmes Linux modienes."
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr "Vos ploz fé on pårtaedje avou NFS ou SMB. Li kék voloz vs?"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Enonder userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Clôre"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Li pårtaedje pa uzeu eploye li groupe «fileshare».\n"
+#~ "Vos ploz radjouter èn uzeu dins ç' groupe la avou userdrake."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Dislodjîz vs et adon siervoz vs di Ctrl-Alt-Backspace"
+
+#~ msgid "You need to log out and back in again for changes to take effect"
+#~ msgstr "Vos vs divoz dislodjî eyet relodjî po les candjmints esse efectifs"
+
+#~ msgid "Timezone"
+#~ msgstr "Coisse d' eureye"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Dins kéne coisse d' eureye vikez?"
+
+#~ msgid "Date, Clock & Time Zone Settings"
+#~ msgstr "Apontiaedjes del date, di l' eure eyet del coisse d' eureye"
+
+#~ msgid "What is the best time?"
+#~ msgstr "Kéne eure est l' boune?"
+
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "%s (ôrlodje di l' éndjolreye metowe en UTC)"
+
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "%s (ôrlodje di l' éndjolreye metowe e tins locå)"
+
+#~ msgid "NTP Server"
+#~ msgstr "Sierveu NTP"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Sincronijhaedje otomatike di l' eure (avou NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "Fitchî locå"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Smart Card"
+#~ msgstr "Sûteye cåte"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Dominne Windows"
+
+#~ msgid "Local file:"
+#~ msgstr "Fitchî locå:"
+
+#~ msgid ""
+#~ "Use local for all authentication and information user tell in local file"
+#~ msgstr ""
+#~ "Eployî les fitchîs locås po tos les otintifiaedjes eyet informåcions so "
+#~ "ls uzeus"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "Dit a vosse copiutrece d' eployî LDAP po sacwants otintifiaedjes. LDAP "
+#~ "rassonre sacwantès sôres d' informåcion åd triviè di voste adjinçnaedje "
+#~ "rantoele."
+
+#~ msgid "NIS:"
+#~ msgstr "NIS:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "Permete d' eployî on groupe di copiutreces å dvins d' on minme siervice "
+#~ "d' informåcion rantoele (NIS) avou on fitchî di screts et di groupes "
+#~ "d' uzeus e cmon."
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Dominne Windows:"
+
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "Winbind permete k' on sistinme prindaxhe l' informåcion so ls uzeus eyet "
+#~ "fé l' otintifiaedje åd triviè d' on sierveu d' dominne Windows."
+
+#~ msgid ""
+#~ "Winbind allows the system to authenticate users in a Windows Active "
+#~ "Directory Server."
+#~ msgstr ""
+#~ "Winbind permete ki l' sistinme fijhaxhe l' otintifiaedje des uzeus åd "
+#~ "triviè d' on sierveu Windows «Active Directory»."
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Verifiaedje LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "Raecene (dn) LDAP"
+
+#~ msgid "LDAP Server"
+#~ msgstr "Sierveu LDAP"
+
+#~ msgid "simple"
+#~ msgstr "simpe"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "coûtche di såvrité (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Otintifiaedje «Active Directory»"
+
+#~ msgid "Domain"
+#~ msgstr "Dominne"
+
+#~ msgid "Server"
+#~ msgstr "Sierveu"
+
+#~ msgid "LDAP users database"
+#~ msgstr "Båze di dnêyes des uzeus LDAP"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "Eployî bind anonime"
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "Les uzeus LDAP polèt foyter les ridants «Active Directory»"
+
+#~ msgid "Password for user"
+#~ msgstr "Sicret po l' uzeu"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Verifiaedje NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Dominne NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Sierveu NIS"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Po ki çoula rote  comifåt po on PDC W2K, vos åroz surmint mezåjhe ki "
+#~ "l' manaedjeu do sistinme enondaxhe li comande:\n"
+#~ " « C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add »\n"
+#~ "eyet renonder l' sierveu Windows.\n"
+#~ "Vos åroz eto mezåjhe do no d' uzeu et do scret d' on manaedjeu di dominne "
+#~ "por vos pleur radjouter voste éndjole a on dominne Windows?.\n"
+#~ "Si l' rantoele n' est nén co en alaedje, DrakX sayrè di s' raloyî å "
+#~ "dominne après l' etape d' apontiaedje del rantoele.\n"
+#~ "Si cist apontiaedje vénreut a fé berwete, po tot l' minme li kéne råjhon, "
+#~ "et ki l' otintifiaedje do dominne ni va nén, enondez li comande:\n"
+#~ " « smbpasswd -j DOMINNE -U UZEU%%SICRET »\n"
+#~ "avou vosse no di dominne Windows?, eyet li no d' uzeu et li scret do "
+#~ "manaedjeu do dominne, djusse après l' enondaedje do sistinme.\n"
+#~ "Li comande « wbinfo -t » va verifyî si vos screts d' otintifiaedje sont "
+#~ "coreks ou nén."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Otintifiaedje Dominne Windows"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "No di l' uzeu manaedjeu do dominne"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Sicret do manaedjeu do dominne"
+
+#~ msgid "Authentication"
+#~ msgstr "Otintifiaedje"
+
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Defini l' sicret do manaedjeu (root)"
+
+#~ msgid "Authentication method"
+#~ msgstr "Metôde d' otintifiaedje"
+
+#~ msgid "No password"
+#~ msgstr "Nou scret"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "Ci scret chal est trop simpe (i doet esse d' å moens %d letes)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Dji n' pout eployî li broadcast sins dominne NIS"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Wilicome au tchoezixheu do sistinme d' operance a enonder!\n"
+#~ "\n"
+#~ "Tchoezixhoz li sistinme d' operance el djiveye\n"
+#~ "ou taurdjiz po l' enondaedje premetou.\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO avou on menu e môde tecse"
+
+#~ msgid "GRUB with graphical menu"
+#~ msgstr "GRUB avou on menu grafike"
+
+#~ msgid "GRUB with text menu"
+#~ msgstr "GRUB avou on menu e môde tecse"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "i gn a nén del plaece assez so /boot"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Vos n' poloz nén astaler l' enondrece so ene pårticion %s\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "L' apontiaedje di voste enondrece doet esse metou a djoû, ca l' pårticion "
+#~ "a stî rlimerotêye."
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "L' enondrece èn pout nén esse astalêye comifåt. Vos dvoz renonder "
+#~ "l' éndjole e môde rapexhaedje eyet tchoezi «%s»"
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Rastaler l' enondrece"
+
+#~ msgid "B"
+#~ msgstr "o"
+
+#~ msgid "KB"
+#~ msgstr "Ko"
+
+#~ msgid "MB"
+#~ msgstr "Mo"
+
+#~ msgid "GB"
+#~ msgstr "Go"
+
+#~ msgid "TB"
+#~ msgstr "To"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d munutes"
+
+#~ msgid "1 minute"
+#~ msgstr "1 munute"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d segondes"
+
+#~ msgid "command %s missing"
+#~ msgstr "i manke li comande %s"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV est on protocole ki vs permete di monter des ridants d' on "
+#~ "sierveu\n"
+#~ "waibe come si c' esteut on ridant locå so vosse deure plake (çoula si\n"
+#~ "l' sierveu då lon est apontyî po fé do sierveu WebDAV).\n"
+#~ "Si vos vloz radjouter des ponts di montaedjes WebDAV, tchoezixhoz «Novea»."
+
+#~ msgid "New"
+#~ msgstr "Novea"
+
+#~ msgid "Unmount"
+#~ msgstr "Dismonter"
+
+#~ msgid "Mount"
+#~ msgstr "Monter"
+
+#~ msgid "Mount point"
+#~ msgstr "Pont di montaedje"
+
+#~ msgid "Error"
+#~ msgstr "Aroke"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Dinez l' hårdêye do sierveu WebDAV, s' i vs plait."
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "Li hårdêye doet cmincî avou «http://» ou «https://»"
+
+#~ msgid "Server: "
+#~ msgstr "Sierveu: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Pont di montaedje: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Tchuzes: %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "Pårtixhaedje"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Lijhoz avou atincion!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Fijhoz ene copeye di såvrité divant di tcheryî pus lon."
+
+#~ msgid "Exit"
+#~ msgstr "Moussî foû"
+
+#~ msgid "Continue"
+#~ msgstr "Continouwer"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Si vos contez eployî aboot, loukîz di leyî on pô del plaece (avou 2048 \n"
+#~ "secteus, vos froz bén) å cminçmint del plake"
+
+#~ msgid "Choose action"
+#~ msgstr "Accions"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Vos avoz ene grande pårticion Windows.\n"
+#~ "Dji vos propôze, d' aprume, di l' raptiti\n"
+#~ "(clitchîz sol pårticion, et poy so «Candjî di grandeu»)"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Clitchîz so ene pårticion s' i vs plait"
+
+#~ msgid "Details"
+#~ msgstr "Po ndè saveur di pus"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Nole deure plake di trovêye"
+
+#~ msgid "Unknown"
+#~ msgstr "Nén cnoxhou"
+
+#~ msgid "Ext2"
+#~ msgstr "ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "FS djournalijhî"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Vude"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Sôre do sistinme di fitchîs:"
+
+#~ msgid "This partition is already empty"
+#~ msgstr "Cisse pårticion ci est ddja vude"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Eployî «Dismonter» al plaece"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Eployî «%s» al plaece"
+
+#~ msgid "Type"
+#~ msgstr "Sôre"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Tchoezixhoz ene ôte pårticion"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Tchoezixhoz ene pårticion"
+
+#~ msgid "Undo"
+#~ msgstr "Disfé"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Candjî pol môde normå"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Candjî pol môde sipepieus"
+
+#~ msgid "Confirmation"
+#~ msgstr "Acertinaedje"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Voloz vs vormint continouwer?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Cwiter sins schaper"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Moussî foû sins scrire li tåvlea di pårtixhaedje?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Voloz vs wårder les candjmints di /etc/fstab ?"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Vos dvoz renonder voste éndjole po vosse tåvlea di pårtixhaedje candjî"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "Vos dvrîz abwesner l' pårticion %s.\n"
+#~ "Sins cwè, i n' årè nole intrêye pol pont d' montaedje %s ki srè scrît e "
+#~ "fitchî fstab.\n"
+#~ "Cwiter tot l' minme?"
+
+#~ msgid "Clear all"
+#~ msgstr "Tot netyî"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Grandeu otomatike"
+
+#~ msgid "More"
+#~ msgstr "Co des ôtes"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Informåcion sol deure plake"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Totes les pårticions sont ocupêyes"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Dji n' pou nén radjouter ene pårticion"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Po-z aveur pus d' pårticions, vos dvoz disfacer ene, po poleur askepyî "
+#~ "ene stindowe pårticion"
+
+#~ msgid "No supermount"
+#~ msgstr "Pont d' oto-montaedje"
+
+#~ msgid "Supermount"
+#~ msgstr "Oto-montaedje avou supermount"
+
+#~ msgid "Supermount except for CDROM drives"
+#~ msgstr "Oto-montaedje avou supermount, såf po les lijheus d' CDROM"
+
+#~ msgid "Save partition table"
+#~ msgstr "Schaper li tåvlea di pårtixhaedje"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Rimete li tåvlea di pårtixhaedje come divant"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Rapexhî li tåvlea di pårtixhaedje"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Ritcherdjî li tåvlea di pårtixhaedje"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Montaedje otomatike des sopoirts bodjåves"
+
+#~ msgid "Select file"
+#~ msgstr "Tchoezi fitchî"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Li copeye di såvrité del tåvlea di pårtixhaedje n' a nén li minme "
+#~ "grandeu.\n"
+#~ "Doe dju continouwer tot l' minme?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Dji saye di rapexhî li tåvlea di pårtixhaedje"
+
+#~ msgid "Detailed information"
+#~ msgstr "Sipepieuse informåcion"
+
+#~ msgid "Resize"
+#~ msgstr "Candjî di grandeu"
+
+#~ msgid "Format"
+#~ msgstr "Abwesner"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Radjouter å RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Radjouter å LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Disfacer"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Bodjî foû do RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Bodjî foû do LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Candjî l' RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Eployî po loopback"
+
+#~ msgid "Create"
+#~ msgstr "Askepyî"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Fé ene novele pårticion"
+
+#~ msgid "Start sector: "
+#~ msgstr "Secteu di cminçmint: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Grandeu e Mo:"
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Sôre do sistinme di fitchîs: "
+
+#~ msgid "Preference: "
+#~ msgstr "Preferince: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "No do volume lodjike "
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Vos n' poloz nén fé di novele pårticion\n"
+#~ "(ca vos avoz arivé å macsimom di pårticions primaires possibe).\n"
+#~ "I vs fåt d' aprume oister ene pårticion primaire eyet ndè fé ene "
+#~ "sitindowe."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Bodjî li fitchî loopback?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr ""
+#~ "Totes les dnêyes sol pårticion %s vont esse pierdowes dispoy candjî si "
+#~ "sôre."
+
+#~ msgid "Change partition type"
+#~ msgstr "Candjî li sôre del pårticion"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Ké sistinme di fitchîs voloz vs?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Discandjî di ext2 a ext3"
+
+#~ msgid "Which volume label?"
+#~ msgstr "Kéne etikete pol volume?"
+
+#~ msgid "Label:"
+#~ msgstr "Etikete:"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Wice voloz vs monter l' fitchî di loopback %s?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Wice voloz vs monter l' éndjin %s?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Dji n' såreu dismete li pont di montaedje, ca cisse pårticion est "
+#~ "eployeye pol loopback.\n"
+#~ "Vos dvoz oister li loopback po cmincî."
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "Wice voloz vs monter %s?"
+
+#~ msgid "Resizing"
+#~ msgstr "Dji candje li grandeu"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Dji carcule les limites do sistinme di fitchîs FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Cisse pårticion ni pout nén candjî si grandeu"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Totes les dnêyes so cisse pårticion chal dvèt esse schapêyes"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Totes les dnêyes sol pårticion %s vont esse pierdowes dispoy "
+#~ "raptitixhaedje"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Tchoezixhoz li novele grandeu"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Novele grandeu e Mo: "
+
+#~ msgid "Minimum size: %s MB"
+#~ msgstr "Grandeu minimom: %s Mo"
+
+#~ msgid "Maximum size: %s MB"
+#~ msgstr "Grandeu macsimom: %s Mo"
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Po-z acertiner ki vos dnêyes sont bén etires après l' candjmint \n"
+#~ "d' grandeu del pårticion, on verifiaedje do sistinme di fitchî serè-st \n"
+#~ "enondé li côp ki vént ki Windows™ serè-st enondé"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Tchoezi on RAID ki egzistêye dedja po î radjouter"
+
+#~ msgid "new"
+#~ msgstr "novea"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Tchoezi on LVM ki egzistêye dedja po î radjouter"
+
+#~ msgid "LVM name?"
+#~ msgstr "No do LVM?"
+
+#~ msgid ""
+#~ "Physical volume %s is still in use.\n"
+#~ "Do you want to move used physical extents on this volume to other volumes?"
+#~ msgstr ""
+#~ "Li volume fizike %s est co eployî.\n"
+#~ "Voloz vs bodjî des bokets fizikes eployîs di ç' volume ci viè ds ôtès "
+#~ "volumes?"
+
+#~ msgid "Moving physical extents"
+#~ msgstr "Bodjant des bokets fizikes"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Cisse pårticion ni pout nén esse eployeye pol loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "No do fitchî loopback: "
+
+#~ msgid "Give a file name"
+#~ msgstr "Dinez on no d' fitchî"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "Ci fitchî chal est ddja eployî d' èn ôte loopback. Purdoz è èn ôte"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Li fitchî egzistêye dedja. Voloz vs l' eployî?"
+
+#~ msgid "Mount options"
+#~ msgstr "Tchuzes pol montaedje"
+
+#~ msgid "Various"
+#~ msgstr "Totès sôres"
+
+#~ msgid "device"
+#~ msgstr "éndjin"
+
+#~ msgid "level"
+#~ msgstr "livea"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "grandeu des bokets e Kio"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Prindoz asteme: cisse operåcion chal est dandjureuse."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Kéne sôre di pårtixhaedje?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr ""
+#~ "Vos dvoz renonder voste éndjole po les candjmints esse metous en alaedje"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Li tåvlea di pårtixhaedje del plake %s va esse sicrîte sol plake!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Totes les dnêyes sol pårticion %s vont esse pierdowes dispoy abwesnaedje"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Verifyî s' i gn a des bloks di måvas?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Bodjî les fitchîs viè l' novele pårticion"
+
+#~ msgid "Hide files"
+#~ msgstr "Catchî les fitchîs"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Dji bodje les fitchîs viè l' novele pårticion"
+
+#~ msgid "Copying %s"
+#~ msgstr "Copiant %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Dji oistêye %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "li pårticion %s est asteure kinoxhowe come %s"
+
+#~ msgid "Partitions have been renumbered: "
+#~ msgstr "Les pårticions ont stî rlimerotêyes: "
+
+#~ msgid "Device: "
+#~ msgstr "Éndjin: "
+
+#~ msgid "Volume label: "
+#~ msgstr "Etikete do volume: "
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Lete del plake DOS: %s (dji saye d' adviner)\n"
+
+#~ msgid "Type: "
+#~ msgstr "Sôre: "
+
+#~ msgid "Name: "
+#~ msgstr "No: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Enondaedje: secteu %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Grandeu: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s secteus"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Do cilinde %d å cilinde %d\n"
+
+#~ msgid "Number of logical extents: %d\n"
+#~ msgstr "Nombe di stindaedjes lodjikes: %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Abwesnêye\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Nén abwesnêye\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Montêye\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "Fitchî(s) loopback:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Pårticion prémetowe po-z enonder l' éndjole\n"
+#~ "    (po l' enondaedje di MS-DOS, nén po LILO)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Livea %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Grandeu des bokets %d Kio\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "Plakes-RAID %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "No do fitchî loopback: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "I gn a des tchances po ki cisse\n"
+#~ "pårticion chal soeye ene pårticion\n"
+#~ "k' i gn a des mineus dvins. Vos\n"
+#~ "dvrîz motoit l' leyî.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Cisse sipeciåle pårticion\n"
+#~ "d' enondaedje chal c' est po\n"
+#~ "vos poleur tchoezi l' sistinme\n"
+#~ "d' operance a-z enonder cwand\n"
+#~ "vos enondez li copiutrece.\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Seulmint-lére"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Grandeu: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Djeyometreye: %s cilindes, %s tiesses, %s secteus\n"
+
+#~ msgid "Info: "
+#~ msgstr "Informåcion: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "Plakes-LVM %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Sôre di tåvlea di pårtixhaedje: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "sol canå %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Clé d' ecriptaedje do sistinme di fitchîs"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Tchoezixhoz vosse clé d' ecriptaedje pol sistinme di fitchîs"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Cisse clé d' ecriptaedje est trop simpe (ele doet esse d' å moens %d "
+#~ "letes)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Les clés d' ecriptaedje ni sont nén les minmes"
+
+#~ msgid "Encryption key"
+#~ msgstr "Clé d' ecriptaedje"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Clé d' ecriptaedje (co ene feye)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Algorisse d' ecriptaedje"
+
+#~ msgid "Change type"
+#~ msgstr "Candjî l' sôre"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "Dji n' a savou vs elodjî dizo l' no %s (måva scret motoit?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "L' acertinaedje des dominnes est obligatwere"
+
+#~ msgid "Which username"
+#~ msgstr "Ké no d' uzeu"
+
+#~ msgid "Another one"
+#~ msgstr "Èn ôte"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Dinez vosse no d' uzeu, sicret eyet no d' dominne po-z aveur å lodjeu."
+
+#~ msgid "Username"
+#~ msgstr "No d' uzeu"
+
+#~ msgid "Search servers"
+#~ msgstr "Dji cwir les sierveus"
+
+#~ msgid "Search new servers"
+#~ msgstr "Cweri des noveas sierveus"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "I gn a mezåjhe d' astaler li pacaedje «%s». El voloz astaler?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Li pacaedje %s èn pout nén esse astalé!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "I manke li pacaedje obligatwere %s"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Les pacaedjes ki shuvèt dvèt esse astalés:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Astalant les pacaedjes..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Dji oistêye les pacaedjes..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Ene sacwè n' a nén stî: dji n' a trové nou valåbe éndjin po fé des noveas "
+#~ "sistinmes di fitchîs. Loukîz vos éndjolreyes po saveur çou ki n' va nén"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Vos dvoz aveur ene pårticion FAT montêye so /boot/efi"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Abwesnant li pårticion %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Dji fwai et abwesner li fitchî %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Dji n' sai cmint abwesner %s e sôre %s"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s l' abwesnaedje di %s a fwait berwete"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Betchfessîs montaedjes %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Montant li pårticion %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "li montaedje del pårticion %s el ridant %s a fwait berwete"
+
+#~ msgid "Checking %s"
+#~ msgstr "Verifiant %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "aroke tot montant %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Metant en alaedje li pårticion di swap %s"
+
+#~ msgid "Use an encrypted file system"
+#~ msgstr "Eployî on sistinme di fitchîs ecripté"
+
+#~ msgid "Enable group disk quota accounting and optionally enforce limits"
+#~ msgstr ""
+#~ "Mete en alaedje les cwotas so les plakes po les groupes, eyet motoit "
+#~ "foirci a n' nén passer les limites"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "En nén mete a djoû li tins d' dierin lijhaedje des i-nuks so\n"
+#~ "ç' sistinme di fitchîs chal (eg: po-z aler pus roed dins on spoule\n"
+#~ "d' on sierveu usenet, metans)."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Èn pout esse monté ki specificmint (dj' ô bén, li tchuze « -a  »\n"
+#~ "n' a nol efet et n' fwait nén monter li sistinme di fitchîs)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr ""
+#~ "Èn nén eterpreter les éndjins speciås di sôre blok ou caractere sol "
+#~ "sistinme di fitchîs."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Èn nén permete d' enonder les programes a pårti do sistinme\n"
+#~ "di fitchîs k' a stî monté. Cisse tchuze chal pout esse ahessåve\n"
+#~ "po on sierveu d' fitchîs k' a des sistinmes di fitchîs avou des\n"
+#~ "programes po d' ôtes sistinmes d' operance."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Èn nén permete les bits SUID (defini l' idintifiant d' uzeu) eyet\n"
+#~ "SGI (defini l' idintifiant do groupe) di prinde efet. (çoula shonne esse\n"
+#~ "pus seur, mins pol vraiy vos estoz co moens e såvrité s' i gn a\n"
+#~ "suidperl(1) d' astalé)."
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Monter l' sistinme di fitchîs e môde seulmint-lére."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr ""
+#~ "Totes les scrijhaedjes et lijhaedjes sol sistinme di fitchîs dvèt esse "
+#~ "sincrones."
+
+#~ msgid "Allow every user to mount and umount the file system."
+#~ msgstr "Permete li montaedje do sistinme di fitchîs pa tos les uzeus."
+
+#~ msgid "Allow an ordinary user to mount the file system."
+#~ msgstr "Permete li montaedje do sistinme di fitchîs pa on simpe uzeu."
+
+#~ msgid "Enable user disk quota accounting, and optionally enforce limits"
+#~ msgstr ""
+#~ "Mete en alaedje les cwotas so les plakes po ls uzeus, eyet motoit foirci "
+#~ "a n' nén passer les limites"
+
+#~ msgid "Support \"user.\" extended attributes"
+#~ msgstr "Sopoirter les stindous atributs d' uzeu («user.»)"
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Diner accès e scrijhaedje po les uzeus normås"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Diner accès e scrijhaedje po les uzeus normås"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Vos avoz deus côps li pont d' montaedje %s"
+
+#~ msgid "No partition available"
+#~ msgstr "nole pårticion di disponibe"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Dji louke ezès pårticions po trover les ponts di montaedje"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Tchoezixhoz les ponts di montaedje"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Tchoezixhoz les pårticions a abwesner"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Dji n' a savou verifyî li sistinme di fitchîs %s. Voloz vs sayî di "
+#~ "coridjî les arokes? (atincion ki çoula pout vs fé piede des dnêyes)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "Li swap n' est nén grande assez po l' astalaedje: vos e dvoz radjouter."
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Vos dvoz aveur ene pårticion raecene.\n"
+#~ "Po çoula, fijhoz ene pårticion (ou clitchîz so ene ki egzistêye dedja).\n"
+#~ "Et poy tchoezixhoz «Pont di montaedje» et metoz lu come «/»"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Vos n' avoz nole pårticion di swap\n"
+#~ "\n"
+#~ "Voloz vs vormint continouwer?"
+
+#~ msgid "Use free space"
+#~ msgstr "Eployî l' plaece libe"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Nén del plaece libe assez po fé des noveles pårticions"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Eployî les pårticions k' i gn a"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "I gn a nén des pårticions po-z eployî"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Eployî li pårticion Microsoft Windows® pol loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Kéne pårticion voloz vs eployî po-z î mete Linux4win?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Tchoezixhoz les grandeus"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Grandeu del pårticion raecene e Mo: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Grandeu del pårticion di swap e Mo: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "I gn a pont di pårticions FAT po-z eployî pol loopback (oudonbén i "
+#~ "n' resse nén del plaece assez)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Eployî l' plaece libe sol pårticion Windows"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Kéne pårticion voloz vs candjî si grandeu?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Li candjmint di grandeu di vosse pårticion FAT n' a nén stî, \n"
+#~ "a cåze di l' aroke shuvante: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Carculant l' grandeu del pårticion Microsoft Windows®"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Vosse pårticion Microsoft Windows® est trop fragmintêye, i fåreut eployî "
+#~ "«defrag»"
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "ASTEME!\n"
+#~ "\n"
+#~ "Asteure, DrakX va candjî li grandeu di vosse pårticion Windows.\n"
+#~ "\n"
+#~ "\n"
+#~ "Loukîz a vos: çoula est dandjureu. Si vos n' l' avoz nén co fwait,\n"
+#~ "enondez (so Windows) «chkdsk c:» a pårti del roye di cmande (atincion\n"
+#~ "kel programe grafike «scandisk» c' est nén assez, i vs fåt eployî\n"
+#~ "«chkdsk» sol roye di cmande!), motoit eto enonder «defrag»,\n"
+#~ "et s' fijhoz ene copeye di såvrité di vos dnêyes dvant di renonder \n"
+#~ "l' astalaedje.\n"
+#~ "\n"
+#~ "\n"
+#~ "Cwand vos seroz seur di vos, clitchîz so «%s»."
+
+#~ msgid "Next"
+#~ msgstr "Shuvant"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Kéne grandeu voloz vs wårder po Microsoft Windows® sol "
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Grandeu: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr ""
+#~ "Dji carcule les limites do sistinme di fitchîs di Microsoft Windows®"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Li candjmint di grandeu pol pårticion FAT a fwait berwete: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "I gn a pont di pårticions FAT po candjî leu grandeu  (oudonbén i n' resse "
+#~ "nén del plaece assez)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Bodjî Windows™ foû"
+
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Disfacer ey eployî l' plake etire"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "Vos avoz pus d' ene deure plake, sol kéne voloz vs astaler Linux?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ "TOTES les pårticions et totes les dnêyes å dvins vont esse pierdowes sol "
+#~ "deure plake %s"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Pårtixhaedje da vosse del deure plake"
+
+#~ msgid "Use fdisk"
+#~ msgstr "Eployî fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Asteure vos poloz pårti vosse deure plake %s\n"
+#~ "Cwand vos åroz fini, ni rovyîz nén di schaper avou «w»"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Dji n' a savou trover del plaece po l' astalåcion"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "Li Macrea di Pårtixhaedje di DrakX a trové les solucions shuvantes:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Li pårtixhaedje n' a nén stî: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Vos n' poloz eployî JFS po des pårticions di moens di 32Mo"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "Vos n' poloz eployî ReiserFS po des pårticions di moens di 32Mo"
+
+#~ msgid "with /usr"
+#~ msgstr "avou /usr"
+
+#~ msgid "server"
+#~ msgstr "sierveu"
+
+#~ msgid "BIOS software RAID detected on disks %s. Activate it?"
+#~ msgstr ""
+#~ "RAID e cotuzreye do BIOS detecté so les plakes %s. El mete en alaedje?"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Dji n' parvén nén a lére li tåvlea di pårtixhaedje di l' éndjin %s,\n"
+#~ "ele est trop crombe por mi :(\n"
+#~ "Dji m' va sayî di disfacer les mwaijhès pårticions (mins TOTES LES "
+#~ "DNÊYES\n"
+#~ "vont esse pierdowes!).\n"
+#~ "L' ôte solucion c' est di nén leyî DrakX candjî li tåvlea di "
+#~ "pårtixhaedje.\n"
+#~ "(l' aroke esta «%s»)\n"
+#~ "\n"
+#~ "Estoz vs d' acoird di piede totes les pårticions?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Les ponts di montaedje dvèt comincî avou on '/'"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Les ponts di montaedje dvèt aveur seulmint des letes et des chifes"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "I gn a ddja ene pårticion avou li pont di montaedje %s\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Vos avoz tchoezi ene pårticion RAID e cotuzreye pol pårticion raecene "
+#~ "(/).\n"
+#~ "Nole enondrece pout manaedjî çoula sins ene pårticion /boot.\n"
+#~ "Adon pinsez a radjouter ene pårticion /boot"
+
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr ""
+#~ "Vos n' poloz nén eployî l' volume lodjike LVM pol pont di montaedje %s, "
+#~ "la k' i s' sipåde so pus d' on volume fizike"
+
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Vos avoz tchoezi li sopoirt lodjike LVM (fwait di l' acmaxhaedje di\n"
+#~ "sacwantès pårticions) pol pårticion raecene (/).\n"
+#~ "L' enondrece èn pout nén manaedjî çoula cwand l' volume lodjike si spåde\n"
+#~ "so pus d' on volume fizike.\n"
+#~ "Vos dvrî fé ene pårticion /boot d' aprume"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Ci ridant chal doet esse å dvins do mwaisse sistinme di fitchîs"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "I vos fåt on vraiy sistinme di fitchîs (ext2/ext3, reiserfs, xfs, ou jfs) "
+#~ "po ci pont di montaedje chal\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr ""
+#~ "Vos n' poloz eployî on sistinme di fitchîs ecripté pol pont di montaedje %"
+#~ "s"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Nén del plaece libe assez po l' atribouwaedje otomatike"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Rén a fé"
+
+#~ msgid "Floppy"
+#~ msgstr "Plakete"
+
+#~ msgid "Zip"
+#~ msgstr "Plakete ZIP"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Deure plake"
+
+#~ msgid "CDROM"
+#~ msgstr "Plake lazer"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "Broûleu di CD/DVD"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Binde"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Controleus AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Cåte videyo"
+
+#~ msgid "DVB card"
+#~ msgstr "Cåte DVB"
+
+#~ msgid "Tvcard"
+#~ msgstr "Cåte tévé"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Ôtes éndjins multimedia"
+
+#~ msgid "Soundcard"
+#~ msgstr "Cåte son"
+
+#~ msgid "Webcam"
+#~ msgstr "Camera"
+
+#~ msgid "Processors"
+#~ msgstr "Processeus"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "Cåtes RDIS"
+
+#~ msgid "USB sound devices"
+#~ msgstr "Éndjins son USB"
+
+#~ msgid "Radio cards"
+#~ msgstr "Cåtes radio"
+
+#~ msgid "ATM network cards"
+#~ msgstr "Cåtes rantoele ATM"
+
+#~ msgid "WAN network cards"
+#~ msgstr "Cåtes rantoele WAN"
+
+#~ msgid "Bluetooth devices"
+#~ msgstr "Éndjins sins fyis Bluetooth"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Cåte rantoele"
+
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "Cåtes ADSL"
+
+#~ msgid "Memory"
+#~ msgstr "Memwere"
+
+#~ msgid "Printer"
+#~ msgstr "Sicrirece"
+
+#~ msgid "Game port controllers"
+#~ msgstr "Pôrts di controleus d' djeus"
+
+#~ msgid "Joystick"
+#~ msgstr "Djîsse di djeu"
+
+#~ msgid "SATA controllers"
+#~ msgstr "Controleus SATA"
+
+#~ msgid "RAID controllers"
+#~ msgstr "Controleus RAID"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "Controleus (E)IDE/ATA"
+
+#~ msgid "USB Mass Storage Devices"
+#~ msgstr "Éndjins USB di wårdaedje di masse (plakes)"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Controleus Firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "Controleus PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "Controleus SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Controleus USB"
+
+#~ msgid "USB ports"
+#~ msgstr "Pôrts USB"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Controleus SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Ponteas eyet controleus sistinme"
+
+#~ msgid "Tablet and touchscreen"
+#~ msgstr "Tabletes eyet waitroûles a toutchî"
+
+#~ msgid "Mouse"
+#~ msgstr "Sori"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Sicanrece"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Nén cnoxhou|Ôtes"
+
+#~ msgid "cpu # "
+#~ msgstr "processeu l° "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "Tårdjîz s' i vs plait, dji mete en alaedje l' apontiaedje"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Nou mineu alternatif"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "I gn a nou mineu OSS/ALSA alternatif di cnoxhou po vosse cåte son (%s) ki "
+#~ "pol moumint eploye «%s»"
+
+#~ msgid "Sound configuration"
+#~ msgstr "Apontiaedje do son"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Chal vos ploz tchoezi on mineu alternatif (OSS oudonbén ALSA) po vosse "
+#~ "cåte son (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Vosse cåte eploye pol moumint li mineu %s«%s» (li prémetou mineu po vosse "
+#~ "cåte est «%s»)"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Open Sound System) a stî li prumire API pol sopoirt do son. C' est "
+#~ "ene API indepindinte do SO (ele egzistêye pol plupårt des sistinmes unix) "
+#~ "mins c' est ossu ene API foirt båzike eyet limitêye.\n"
+#~ "Et al copete do martchî, tchaeke mineu OSS redvinte li rowe.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) est ene årtchitecteure a modules "
+#~ "ki sopoite ene lådje fortchete di cåtes ISA, USB eyet PCI.\n"
+#~ "\n"
+#~ "I fornixh ossu ene API di pus hôt livea ki OSS.\n"
+#~ "\n"
+#~ "Po-z eployî alsa, on pout eployî ossu bén:\n"
+#~ "- li viye API di copatibilité avou OSS\n"
+#~ "- li nouve API d' ALSA ki fornixh sacwantes fonccionålités stindêyes mins "
+#~ "a mezåjhe del livreye ALSA.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Mineu:"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Li vî mineu «%s» a stî metou dins ene boere djivêye.\n"
+#~ "\n"
+#~ "I gn a-st avou sacwants rapoirts dijhant k' i fjheut des problinmes\n"
+#~ "avou l' nawea (des «oops») å moumint del distcherdjî.\n"
+#~ "\n"
+#~ "Li novea mineu «%s» srè eployî seulmint a pårti do renondaedje ki vént."
+
+#~ msgid "No open source driver"
+#~ msgstr "Nou mineu libe di cnoxhou"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "I gn a nou mineu libe po vosse cåte son (%s), mins i gn a-st on mineu "
+#~ "prôpietaire so «%s»."
+
+#~ msgid "No known driver"
+#~ msgstr "Nou mineu di cnoxhou"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "I gn a nou mineu di cnoxhou po vosse cåte son (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Mineu nén cnoxhou"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "Aroke: Li mineu «%s» po vosse cåte son n' est nén el djivêye"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Li saye classike po vey s' i gn a des problinmes avou l' son, c' est "
+#~ "d' enonder les cmandes ki shuvèt:\n"
+#~ "\n"
+#~ "\n"
+#~ "- « lspcidrake -v | fgrep AUDIO » ki vs dirè li ké prémetou mineu ki "
+#~ "vosse cåte son eploye\n"
+#~ "\n"
+#~ "- « grep sound-slot /etc/modprobe.conf » ki vs dirè li mineu k' ele "
+#~ "eploye pol moumint\n"
+#~ "\n"
+#~ "- « /sbin/lsmod » ki vs permete di verifyî si l' module do mineu del cåte "
+#~ "son est tcherdjî ou nén\n"
+#~ "\n"
+#~ "- « /sbin/chkconfig --list sound » eyet « /sbin/chkconfig --list alsa » "
+#~ "ki vs diront si les siervices do son et do sistinme di son ALSA sont-st "
+#~ "apontyîs po-z esse enondés dins l' livea d' enondaedje 3\n"
+#~ "\n"
+#~ "- « aumix -q » ki vs dirè si l' volume do son est dismetou ou nén\n"
+#~ "\n"
+#~ "- « /sbin/fuser -v /dev/dsp » ki vs dirè li ké programe k' eploye li cåte "
+#~ "son.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Leyîz mu tchoezi tot l' minme ké mineu"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Tchoezixhant tot l' minme ké mineu"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Si vos pinsez vormint ki vos savoz ké mineu est l' bon po vosse cåte,\n"
+#~ "vos l' poloz tchoezi del djivêye chal pa dzeur.\n"
+#~ "\n"
+#~ "Li mineu do moumint po vosse cåte son «%s» est «%s» "
+
+#~ msgid "Auto-detect"
+#~ msgstr "Deteccion otomatike"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Nén cnoxhou|Djenerike"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "Nén cnoxhou|CPH05X (bt878) [bråmint di vindeus]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Nén cnoxhou|CPH06X (bt878) [bråmint di vindeus]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Po bråmint di cåtes TV modienes, li module bttv do nawea GNU/Linux fwait "
+#~ "l' deteccion otomatike des parametes k' i fåt.\n"
+#~ "Si l' cåte da vosse n' est nén detectêye comifåt, vos ploz foirci les "
+#~ "bonès sôres di cåte et di des parametes k' i fåt.\n"
+#~ "Si l' cåte da vosse n' est nén detectêye comifåt, vos ploz foirci chal "
+#~ "les bonès sôres di cåte et di _tuner_. Vos n' avoz k' a tchoezi, s' i "
+#~ "fåt, les parametes po vosse cåte TV"
+
+#~ msgid "Card model:"
+#~ msgstr "Modele del cåte:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Sôre di _tuner_:"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Nombe di tampons po les waitroûlêyes:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "nombe di tampons po les copeyes di waitroûlêyes avou mmap()"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Apontiaedje PLL:"
+
+#~ msgid "Radio support:"
+#~ msgstr "Sopoirt pol radio:"
+
+#~ msgid "enable radio support"
+#~ msgstr "mete en alaedje li sopoirt pol radio"
+
+#~ msgid "Yes"
+#~ msgstr "Oyi"
+
+#~ msgid "No"
+#~ msgstr "Neni"
+
+#~ msgid "Choose a file"
+#~ msgstr "Tchoezixhoz on fitchî"
+
+#~ msgid "Add"
+#~ msgstr "Radjouter"
+
+#~ msgid "Modify"
+#~ msgstr "Candjî"
+
+#~ msgid "Remove"
+#~ msgstr "Oister"
+
+#~ msgid "Finish"
+#~ msgstr "Fini"
+
+#~ msgid "Previous"
+#~ msgstr "Di dvant"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Måva tchuze, sayîz co ene feye\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Vosse tchuze? (prémetowe %s)"
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Intrêyes ki vos dvroz rimpli:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Vosse tchuze? (0/1, prémetowe %s)"
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Boton «%s»: %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Voloz vs clitchî so ç' boton chal?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Vosse tchuze? (prémetowe «%s»%s)"
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " tapez «void» po ene intrêye vude"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> I gn a sacwantès afwaires a tchoezi (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Tchoezixhoz li prumî limero del fortchete di 10 ki vos vloz aspougnî,\n"
+#~ "oudonbén vos ploz djusse taper so Enter po continouwer.\n"
+#~ "Vosse tchuze? "
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Prindoz asteme k' ene etikete a candjî:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Evoyî cor on côp"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Andore"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Emirats Arabes Unis"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afganistan"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua et Barbuda"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguila"
+
+#~ msgid "Albania"
+#~ msgstr "Albaneye"
+
+#~ msgid "Armenia"
+#~ msgstr "Årmeneye"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Antiyes neyerlandesses"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antartike"
+
+#~ msgid "Argentina"
+#~ msgstr "Årdjintene"
+
+#~ msgid "American Samoa"
+#~ msgstr "Samowa amerikinne"
+
+#~ msgid "Austria"
+#~ msgstr "Otriche"
+
+#~ msgid "Australia"
+#~ msgstr "Ostraleye"
+
+#~ msgid "Aruba"
+#~ msgstr "Arouba"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaydjan"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosneye"
+
+#~ msgid "Barbados"
+#~ msgstr "Bårbades"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Belgium"
+#~ msgstr "Beldjike"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Bourkina Fasso"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgåreye"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bareyn"
+
+#~ msgid "Burundi"
+#~ msgstr "Bouroundi"
+
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermude"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Bruney Darussalam"
+
+#~ msgid "Bolivia"
+#~ msgstr "Boliveye"
+
+#~ msgid "Brazil"
+#~ msgstr "Braezi"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bhutan"
+#~ msgstr "Boutan"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Iye Bouvet"
+
+#~ msgid "Botswana"
+#~ msgstr "Boswana"
+
+#~ msgid "Belarus"
+#~ msgstr "Belaruss"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Iyes Cocos (Keeling)"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Congo (Kinshasa)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Cintrafrike"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Congo (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Swisse"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Coisse d' Ivwere"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Iyes Cook"
+
+#~ msgid "Chile"
+#~ msgstr "Tchili"
+
+#~ msgid "Cameroon"
+#~ msgstr "Camrone"
+
+#~ msgid "China"
+#~ msgstr "Chine"
+
+#~ msgid "Colombia"
+#~ msgstr "Colombeye"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Serbeye et Montenegro"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cap Vert"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Iye Christmas"
+
+#~ msgid "Cyprus"
+#~ msgstr "Chipe"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Tchekeye"
+
+#~ msgid "Germany"
+#~ msgstr "Almagne"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Denmark"
+#~ msgstr "Daenmåtche"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominike"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Republike Dominikinne"
+
+#~ msgid "Algeria"
+#~ msgstr "Aldjereye"
+
+#~ msgid "Ecuador"
+#~ msgstr "Ecwåteur"
+
+#~ msgid "Estonia"
+#~ msgstr "Estoneye"
+
+#~ msgid "Egypt"
+#~ msgstr "Edjipe"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Sara Coûtchantrece"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrêye"
+
+#~ msgid "Spain"
+#~ msgstr "Espagne"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Etiopeye"
+
+#~ msgid "Finland"
+#~ msgstr "Finlande"
+
+#~ msgid "Fiji"
+#~ msgstr "Fidji"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Iyes Malouwines"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronezeye"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Iyes Faeroyé"
+
+#~ msgid "France"
+#~ msgstr "France"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Rweyåme Uni"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenåde"
+
+#~ msgid "Georgia"
+#~ msgstr "Djeyordjeye"
+
+#~ msgid "French Guiana"
+#~ msgstr "Guyane francesse"
+
+#~ msgid "Ghana"
+#~ msgstr "Gana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Djibraltår"
+
+#~ msgid "Greenland"
+#~ msgstr "Groenlande"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambeye"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinêye"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Gwadeloupe"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Guinêye Ecwåtoriåle"
+
+#~ msgid "Greece"
+#~ msgstr "Grece"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Iyes Sandwich do sud"
+
+#~ msgid "Guatemala"
+#~ msgstr "Gwatemala"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinêye-Bissaw"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyana"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Chine (Hong Kong)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Iyes Heard et McDonald"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Croatia"
+#~ msgstr "Crowåceye"
+
+#~ msgid "Haiti"
+#~ msgstr "Hayiti"
+
+#~ msgid "Hungary"
+#~ msgstr "Hongreye"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonezeye"
+
+#~ msgid "Ireland"
+#~ msgstr "Irlande"
+
+#~ msgid "Israel"
+#~ msgstr "Israyel"
+
+#~ msgid "India"
+#~ msgstr "Inde"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Teritwere britanike di l' Oceyan Indyin"
+
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#~ msgid "Iran"
+#~ msgstr "Iran"
+
+#~ msgid "Iceland"
+#~ msgstr "Izlande"
+
+#~ msgid "Italy"
+#~ msgstr "Itåleye"
+
+#~ msgid "Jamaica"
+#~ msgstr "Djamayike"
+
+#~ msgid "Jordan"
+#~ msgstr "Djordaneye"
+
+#~ msgid "Japan"
+#~ msgstr "Djapon"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenia"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirgiztan"
+
+#~ msgid "Cambodia"
+#~ msgstr "Cambodje"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Comoros"
+#~ msgstr "Comores"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Sint Kitts eyet Nevis"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Corêye (bijhe)"
+
+#~ msgid "Korea"
+#~ msgstr "Corêye (nonne)"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuweyt"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Iyes Cayman"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazaxhtan"
+
+#~ msgid "Laos"
+#~ msgstr "Lawosse"
+
+#~ msgid "Lebanon"
+#~ msgstr "Liban"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Sinte Luceye"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Lîchtensteyn"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Liberia"
+#~ msgstr "Liberia"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lessoto"
+
+#~ msgid "Lithuania"
+#~ msgstr "Litwaneye"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Lussimbork"
+
+#~ msgid "Latvia"
+#~ msgstr "Letoneye"
+
+#~ msgid "Libya"
+#~ msgstr "Libeye"
+
+#~ msgid "Morocco"
+#~ msgstr "Marok"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldova"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagascar"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Iyes Marshall"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macedoneye"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Myanmar"
+#~ msgstr "Birmaneye"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongoleye"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Iyes Marianes bijhreces"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinike"
+
+#~ msgid "Mauritania"
+#~ msgstr "Moritanreye"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Malta"
+#~ msgstr "Male"
+
+#~ msgid "Mauritius"
+#~ msgstr "Iye Môrice"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Mexico"
+#~ msgstr "Mecsike"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malaizeye"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambike"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibeye"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Nouve Caledonreye"
+
+#~ msgid "Niger"
+#~ msgstr "Nidjer"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Iye Norfolk"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nidjeria"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaragwa"
+
+#~ msgid "Netherlands"
+#~ msgstr "Bas Payis"
+
+#~ msgid "Norway"
+#~ msgstr "Norvedje"
+
+#~ msgid "Nepal"
+#~ msgstr "Nepal"
+
+#~ msgid "Nauru"
+#~ msgstr "Nawouro"
+
+#~ msgid "Niue"
+#~ msgstr "Niuwé"
+
+#~ msgid "New Zealand"
+#~ msgstr "Nouve Zelande"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Peru"
+#~ msgstr "Perou"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Polinezeye francesse"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papouwazeye Nouve Guinêye"
+
+#~ msgid "Philippines"
+#~ msgstr "Filipenes"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Poland"
+#~ msgstr "Pologne"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Sint Pierre et Miquelon"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Pitcairn"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Porto Rico"
+
+#~ msgid "Palestine"
+#~ msgstr "Palestene"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugal"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paragway"
+
+#~ msgid "Palau"
+#~ msgstr "Palawou"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Reyunion"
+
+#~ msgid "Romania"
+#~ msgstr "Roumaneye"
+
+#~ msgid "Russia"
+#~ msgstr "Rûsseye"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Arabeye Sawoudite"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Iyes Solomon"
+
+#~ msgid "Seychelles"
+#~ msgstr "Secheles"
+
+#~ msgid "Sudan"
+#~ msgstr "Soudan"
+
+#~ msgid "Sweden"
+#~ msgstr "Suwede"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapour"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Sinte Helene"
+
+#~ msgid "Slovenia"
+#~ msgstr "Esloveneye"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Iyes Svalbard eyet Jan Mayen"
+
+#~ msgid "Slovakia"
+#~ msgstr "Eslovakeye"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Siera Leyone"
+
+#~ msgid "San Marino"
+#~ msgstr "Sint Marin"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegål"
+
+#~ msgid "Somalia"
+#~ msgstr "Somaleye"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "São Tomé et Prince"
+
+#~ msgid "El Salvador"
+#~ msgstr "El Salvador"
+
+#~ msgid "Syria"
+#~ msgstr "Sireye"
+
+#~ msgid "Swaziland"
+#~ msgstr "Suwazilande"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Iyes Turks eyet Caicos"
+
+#~ msgid "Chad"
+#~ msgstr "Tchad"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Teritweres francès do sud"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Thailand"
+#~ msgstr "Taylande"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tadjikistan"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokelau"
+
+#~ msgid "East Timor"
+#~ msgstr "Timor Ess"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turcmenistan"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunizeye"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Turkey"
+#~ msgstr "Turkeye"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinité et Tobago"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Touvalou"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzaneye"
+
+#~ msgid "Ukraine"
+#~ msgstr "Oucrinne"
+
+#~ msgid "Uganda"
+#~ msgstr "Ouganda"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Iyes mineures des Estats Unis"
+
+#~ msgid "United States"
+#~ msgstr "Estats Unis"
+
+#~ msgid "Uruguay"
+#~ msgstr "Ourougway"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Ouzbekistan"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatican"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Sint Vincint eyet les Grenadines"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezwela"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Iyes Viedjes (Britanikes)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Iyes Viedjes (USA)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis et Futuna"
+
+#~ msgid "Samoa"
+#~ msgstr "Samowa"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayote"
+
+#~ msgid "South Africa"
+#~ msgstr "Nonne Afrike"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambeye"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwè"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Wilicome a %s"
+
+#~ msgid "Moving used physical extents to other physical volumes failed"
+#~ msgstr ""
+#~ "Li bodjaedje des bokets fizikes viè èn ôte volume fizike a fwait berwete"
+
+#~ msgid "Physical volume %s is still in use"
+#~ msgstr "Li volume fizike %s est co eployî"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Oister les volumes lodjikes d' aprume\n"
+
+#~ msgid "The bootloader can't handle /boot on multiple physical volumes"
+#~ msgstr ""
+#~ "L' enondrece èn pout nén manaedjî on ridant /boot so des volumes fizikes "
+#~ "diferins."
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Adviertixhmint: Les programes libes ni sont nén tofer libes di patintes,\n"
+#~ "eyet ça s' pout k' on programe libe forni soeye covrou pa des patintes\n"
+#~ "dins vosse payis. Par egzimpe, les discôdeus MP3 fornis ont mezåjhe "
+#~ "d' ene\n"
+#~ "licince po-z esse eployîs (loukîz http://www.mp3licensing.com po pus di\n"
+#~ "racsegnes). Si vos n' estoz nén seur si ene patinte s' aplike ou nén por\n"
+#~ "vos, acertinez vs tot rwaitant vos lwès locåles."
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Felicitåcions, l' astalåcion a stî fwaite.\n"
+#~ "Bodjîz li sopoirt d' enondaedje et tapez so Return po renonder "
+#~ "l' éndjole.\n"
+#~ "\n"
+#~ "Po des informåcions so les coridjaedjes k' i gn a po cisse modêye di "
+#~ "Mandriva Linux,\n"
+#~ "loukîz al pådje des Errata sol waibe:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "vos trovroz di l' informåcion so l' apontiaedje do sistinme el tchaptrê\n"
+#~ "sol post-astalåcion do Guide di l' Uzeu Mandriva Linux Oficir."
+
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Ci mineu chal n' a pont d' parametes po-z apontyî!"
+
+#~ msgid "Module configuration"
+#~ msgstr "Apontiaedje do module"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "Vos ploz apontyî tchaeconk des parametes do module chal."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "Dj' a trové des eterfaces %s"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Avoz vs ene ôte?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Avoz vs des eterfaces %s?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Veyoz les informåcions so l' éndjolreye"
+
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Astalant mineu pol controleu USB"
+
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Astalant mineu pol controleu firewire %s"
+
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Astalant mineu pol controleu d' deurès plakes %s"
+
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Astalant mineu pol controleu d' cåtes rantoele %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Astalant mineu po %s cåte %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Vos ploz asteure diner les tchuzes pol module %s.\n"
+#~ "Notez ki tote adresse doet esse dinêye e hecsa avou l' betchete 0x, eg: "
+#~ "«0x123»"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Asteure, vos poloz dner les tchuzes pol module %s.\n"
+#~ "Les tchuzes si scrijhèt: « no=valixhance no2=valixhance2... »\n"
+#~ "Metans: « io=0x300 irq=7... »"
+
+#~ msgid "Module options:"
+#~ msgstr "Tchuzes do module:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Kéne %s mineuse doe dju sayî?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "A feyes, li mineuse %s a dandjî d' ene miete di pus d' informåcions po-z\n"
+#~ "aler comifåt, ca bén k' ele va bén sins, normålmint. Voloz vs diner des\n"
+#~ "informåcions asteure ou leyî li mineuse cachî leye-minme dins voste "
+#~ "éndjole\n"
+#~ "après les informåcions k' ele a dandjî? Pa côps, çoula pout fé aroker li\n"
+#~ "copiutrece. Mins ça n' såreut fé nou må."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Saye otomatike"
+
+#~ msgid "Specify options"
+#~ msgstr "Dijhoz les tchuzes"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "I gn a åk ki n' a nén stî tot tcherdjant li module %s.\n"
+#~ "Voloz vs sayî co on côp avou des ôtes parametes?"
+
+#~ msgid "mount failed: "
+#~ msgstr "li montaedje a fwait berwete: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Sitindowe pårticion nén sopoirtêye so cisse platfôme chal"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Vos avoz on trô dvins vosse tåvlea di pårtixhaedje, mins dji n' pout nén "
+#~ "l' eployî.\n"
+#~ "Li seule solucion c' est di bodjî vos mwaissès pårticions po-z aveur li "
+#~ "trô a costé des pårticions stindowes"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Åk n' a nén stî come dji sayive di lére li fitchî %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Åk n' a nén stî come dji sayive di rifé a pårti do fitchî %s: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Måva fitchî di copeye di såvrité"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Åk n' a nén stî come dji sayive di scrire el fitchî %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Ene sacwè di mwais arive a vosse deure plake. \n"
+#~ "Åk n' a nén stî tot sayant di verifyî l' etegrité des dnêyes. \n"
+#~ "Çoula vout dire ki tot çki vos alez scrire el plake va fini come \n"
+#~ "des crombès sacwès a l' astcheyance."
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Dji n' pout radjouter ene pårticion a on RAID _abwesné_ %s"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "I gn a nén des pårticions assez pol livea RAID %d\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "Dji n' a nén savou fé l' ridant /usr/share/sane/firmware !"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "Dji n' a nén savou fé l' loyén /usr/share/sane/%s !"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr ""
+#~ "Dji n' a savou copyî l' fitchî di firmware «%s» viè /usr/share/sane/"
+#~ "firmware!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr ""
+#~ "Dji n' a nén savou defini les permissions do fitchî d' firmware %s !"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr ""
+#~ "Dji n' a savou astaler les pacaedjes k' i gn a mezåjhe po pårtaedjî vos "
+#~ "scanrece(s)."
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "Vos scanrece(s) ni sront nén disponibes po les uzeus nén-root."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Accepter/rifuzer les crons messaedjes d' aroke IPv4."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Accepter ou rfuzer les pakets broadcast icmp echo."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "Accepter ou rfuzer les icmp echo."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Permete/nén permete l' elodjaedje otomatike."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Si metou come «ALL» (tos), /etc/issue eyet /etc/issue.net sont "
+#~ "permetous.\n"
+#~ "\n"
+#~ "Si metou come «NONE» (nouk), nou messaedje di bénvnowe n' est permetou.\n"
+#~ "\n"
+#~ "Ôtrumint, seulmint /etc/issue est permetou."
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "Permete/Èn nén permete li renondaedje pa l' uzeu sol conzôle."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Permete ou nén les elodjaedjes då lon po root."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Permete ou nén l' elodjaedje locå po root."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Håyner ou nén li djivêye des uzeus do sistinme ezès manaedjeus di "
+#~ "håynaedje (kdm eyet gdm)."
+
+#~ msgid ""
+#~ "Allow/forbid to export display when\n"
+#~ "passing from the root account to the other users.\n"
+#~ "\n"
+#~ "See pam_xauth(8) for more details.'"
+#~ msgstr ""
+#~ "Permte ou rfuzer d' espoirter l' håynaedje cwand on passe di root viè ls "
+#~ "ôtes uzeus.\n"
+#~ "Loukîz a pam_xauth(8) po pus di racsegnes."
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Permete/nén permete les raloyaedjes X11:\n"
+#~ "\n"
+#~ "- ALL (tos les raloyaedjes sont permetous),\n"
+#~ "\n"
+#~ "- LOCAL (rén k' les raloyaedjes di l' éndjole locåle),\n"
+#~ "\n"
+#~ "- NONE (nou raloyaedje)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "L' årgumint definixh si les cliyints sont otorijhîs ou nén\n"
+#~ "a s' raloyî å sierveu X åd triviè del rantoele sol pôrt 6000."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Otorijhî:\n"
+#~ "\n"
+#~ "- tos les siervices controlés pa tcp_wrappers (voeyoz li pådje di man "
+#~ "hosts.deny(5)) si l' valixhance est metowe a «ALL» (tos),\n"
+#~ "\n"
+#~ "- rén k' les siervices locås si l' valixhance est metowe a «LOCAL»,\n"
+#~ "\n"
+#~ "- nou siervice si l' valixhance est metowe a «NONE» (nouk).\n"
+#~ "\n"
+#~ "Po-z otorijhî les siervices ki vos nd avoz mezåjhe, eployîz /etc/hosts."
+#~ "allow (voeyoz li pådje di man hosts.allow(5))."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Si l' valixhance di SERVER_LEVEL (ou di SECURE_LEVEL si nén defini)\n"
+#~ "est pus grand ki 3 dins /etc/security/msec/security.conf,\n"
+#~ "li loyén simbolike di /etc/security/msec/server viè\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL> srè fwait.\n"
+#~ "\n"
+#~ "Li fitchî /etc/security/msec/server est eployî pa «chkconfig --add» po\n"
+#~ "decider s' i fåt radjouter on siervice ou nén tins d' l' astalaedje\n"
+#~ "des pacaedjes rpm."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Mete/dismete li «crontab» eyet «at» po ls uzeus.\n"
+#~ "\n"
+#~ "Metoz les uzeus kel polèt eployî dins les fitchîs /etc/cron.allow\n"
+#~ "eyet /etc/at.allow (loukîz les pådjes di man  at(1) eyet  crontab(1))."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr ""
+#~ "Håyner ou nén les messaedjes do djournå sistinme (syslog) sol conzôle 12"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Abranles di såvrité:"
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr ""
+#~ "Mete/dismete l' eployaedje di libsafe si libsafe si trove sol sistinme."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr ""
+#~ "Mete/dismete li shuvaedje dins les djournås des pakets IPv4 bizåres."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "Mete/dismete li verifiaedje di såvrité di msec tchaeke eure."
+
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "Permete l' eployaedje di «su» rén ki po les mimbes do groupe «wheel». Si "
+#~ "metou a neni, permete l' eployaedje di «su» po tos les uzeus."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Eployî des screts po-z otintifyî les uzeus"
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Mete/dismete li verifiaedje di såvrité di msec tchaeke djoû."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Permete/rifuzer sulogin(8) e livea on seu uzeu."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Defini l' longueur di l' istwere des screts po-z espaitchî di reployî on "
+#~ "scret k' a ddja stî eployî."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Defini li longueur minimom des screts, li nombe minimom di chifes eyet "
+#~ "l' nombe minimom di grandès letes."
+
+#~ msgid "Set the root umask."
+#~ msgstr "Defini l' umask (prémetowès permissions) po root"
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "s' il est metou, cweri après des pôrts di drovous."
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "s' il est metou, i verifeye après:\n"
+#~ "\n"
+#~ "- des vudes sicrets,\n"
+#~ "\n"
+#~ "- des intrêyes sins scret dins /etc/shadow\n"
+#~ "\n"
+#~ "- des uzeus ôtes ki «root» k' ont èn id ewal a 0."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "s' il est metou, i verifeye les permissions des fitchîs dins les ridants "
+#~ "måjhon des uzeus."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr ""
+#~ "s' il est metou, enonder les verifiaedjes di såvrité pa msec di tchaeke "
+#~ "djoû."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr ""
+#~ "si metou, verifeye les radjoutaedjes/oistaedjes di fitchîs sgid root."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr "s' il est metou, i verifeye les vudes sicrets e fitchî /etc/shadow."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr "s' il est metou, i verifeye li checksum des fitchîs suid/sgid."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "si metou, verifeye les radjoutaedjes/oistaedjes di fitchîs suid root."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "s' il est metou, rapoirter les fitchîs ki sont-st ôrfulins."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "s' il est metou, i cwirt après des fitchîs/ridants ki tot l' minme kî "
+#~ "pout scrire"
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "s' il est metou, enonde les verifiaedjes chkrootkit."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "s' il est metou, emiler li rapoirt a ciste adresse ci, ôtmint l' evoyî a "
+#~ "root."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr ""
+#~ "s' il est metou, li rapoirt des rzultats des verifiaedjes est emilé."
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "Èn nén evoyî d' emile s' i gn a rén a signaler"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr ""
+#~ "s' il est metou, il enondrè sacwants verifiaedjes sol båze di dnêyes des "
+#~ "pacaedjes rpm."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr ""
+#~ "s' il est metou, li rapoirt do verifiaedje est evoyî sol djournå do "
+#~ "sistinme (syslog)."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr ""
+#~ "s' il est metou, les rapoirts do verifiaedje sont-st evoyîs sol conzôle "
+#~ "(tty)."
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Defini li grandeu po l' istwere des cmandes do shell. Ene valixhance di -"
+#~ "1 vout dire sins limite."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Defini li tårdjaedje pol shell. Ene valixhance di zero po n' nén aveur di "
+#~ "tårdjaedje"
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "L' unité pol tårdjaedje c' est li segonde"
+
+#~ msgid "Set the user umask."
+#~ msgstr "Defini l' umask (prémetowès permissions) po l' uzeu"
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Accepter des crons messaedjes d' aroke IPv4"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Accepter les pakets broadcast icmp echo."
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "Accepter l' icmp echo."
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* egzistêye"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Renondaedje pa l' uzeu sol conzôle"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Permete des elodjaedjes då lon po root"
+
+#~ msgid "Direct root login"
+#~ msgstr "Elodjaedje direk di root"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr ""
+#~ "Håyner li djivêye des uzeus ezès manaedjeus di håynaedje (kdm eyet gdm)"
+
+#~ msgid "Export display when passing from root to the other users"
+#~ msgstr "Espoirter l' håynaedje cwand on passe di root viè ls ôtes uzeus"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Permete les raloyaedjes X Window"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Peremete les raloyaedjes TCP å sistinme grafike X Window"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "Otorijhî tos les siervices controlés pa tcp_wrappers"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig schoûte åzès rîles di msec"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "Permete ki les uzeus eployexhe «crontab» eyet «at»"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Evoyî les messaedjes do djournå sistinme (syslog) sol conzôle 12"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Mete en alaedje libsafe, si libsafe est astalé sol sistinme"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr ""
+#~ "Mete en alaedje li rashiaedje ezès djournås des pakets IPv4 bizåres."
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Mete en alaedje les verifiaedjes di såvrité pa msec tchaeke eure"
+
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr "Peremete li cmande «su» seulmint po les mimbes do groupe «wheel»"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Eployî des screts po-z otintifyî les uzeus"
+
+#~ msgid "Daily security check"
+#~ msgstr "Verifiaedjes di såvrité tchaeke djoû"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) e livea on seu uzeu"
+
+#~ msgid "Password history length"
+#~ msgstr "Longueur di l' istwere do scret"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr ""
+#~ "Minimoms pol longueur, nombe di chifes et di grandes letes pol sicret"
+
+#~ msgid "Root umask"
+#~ msgstr "umask (prémetowès permissions) po root"
+
+#~ msgid "Shell history size"
+#~ msgstr "Grandeu di l' istwere del roye di cmande"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Tårdjaedje do shell"
+
+#~ msgid "User umask"
+#~ msgstr "umask (prémetowès permissions) po l' uzeu"
+
+#~ msgid "Check open ports"
+#~ msgstr "Cweri après les pôrts di drovous"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Cweri après des contes sins waire di såvrité"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Verifyî les permissions des fitchîs ezès ridants måjhon des uzeus"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Enonder les verifiaedjes di såvrité pa msec di tchaeke djoû"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Verifyî les radjoutaedjes/oistaedjes di fitchîs suid root."
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Verifyî s' i gn a des vudes sicrets e /etc/shadow"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "Verifyî les checksum des fitchîs suid/sgid"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "Verifyî les radjoutaedjes/oistaedjes di fitchîs suid root."
+
+#~ msgid "Report unowned files"
+#~ msgstr "Rapoirter les fitchîs ôrfulins"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Cweri après les fitchîs/ridants sicrijhåve pa tertos"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Enonder les verifiaedjes chkrootkit"
+
+#~ msgid "Do not send empty mail reports"
+#~ msgstr "N' evoyîz nén des vudes emiles di rapoirt"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "S'  il est metou, evoyî li rapoirt pa emile a ciste adresse la, ôtmint "
+#~ "l' evoyî a root"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Emiler l' rapoirt des verifiaedjes"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Enonder sacwants verifiaedjes del båze di dnêyes di rpm"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr ""
+#~ "Rapoirter les rzultats des verifiaedjes a syslog (djournås do sistinme)"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr ""
+#~ "Rapoirter les rzultats des verifiaedjes sol tty (direk sol waitroûle)"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Ouxh å lådje po les hacneus"
+
+#~ msgid "Poor"
+#~ msgstr "Pôve"
+
+#~ msgid "High"
+#~ msgstr "Hôte"
+
+#~ msgid "Higher"
+#~ msgstr "Co pus hôte"
+
+#~ msgid "Paranoid"
+#~ msgstr "Paranoyide"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Ci livea chal doet esse eployî avou sogne. Avou lu vosse sistinme srè "
+#~ "pus\n"
+#~ "åjhey a eployî, mins avou moens di såvrité: i n' fåt nén l' eployî po "
+#~ "ene\n"
+#~ "éndjole raloyeye a ene rantoele. I gn a pont di scret po-z intrer."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Avou ci livea chal i gn a des mots di passe, mins c' est tolminme on "
+#~ "livea\n"
+#~ "di såvrité trop bas ki po l' eployî avou ene copiutrece raloyeye a ene "
+#~ "rantoele."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Çouchal c' est l' livea di såvrité standård po ene copiutrece ki va esse "
+#~ "eployeye po si raloyî al rantoele daegnrece come cliyint."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "I gn a ddja des rastrindaedjes, et d' ôtes verifiaedjes otomatikes del "
+#~ "såvrité sont-st fwaits par nute."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Avou ci livea chal, vos poloz eployî li sistinme come on sierveu.\n"
+#~ "Li såvrité est hôte assez ki po-z eployî li sistinme come on sierveu ki "
+#~ "acceptrè des raloyaedjes di bråmint des cliyints. Note: si voste éndjole "
+#~ "est seulmint on cliyint sol daegntoele vos dvrîz tchoezi on livea pus bas."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Les minmes sacwès ki pol livea di dvant, mins asteure li sistinme est "
+#~ "seré totafwait.\n"
+#~ "Li såvrité est å pus grand."
+
+#~ msgid "Security"
+#~ msgstr "Såvrité"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Tchuzes di båze di DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Tchoezixhoz l' livea di såvrité ki vos vloz"
+
+#~ msgid "Security level"
+#~ msgstr "Livea di såvrité"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Eployî libsafe po les sierveus"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Ene livreye po disfinde l' éndjole siconte les atake di disboirdaedje di "
+#~ "pile (buffer overflow) eyet les atakes so les formataedjes des tchinnes."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Manaedjeu pol såvrité (no d' elodjaedje ou emile)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "Enonder li sistinme di son ALSA (Advanced Linux Sound Architecture)"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr ""
+#~ "Anacron manaedje des comandes a enonder periodicmint.\n"
+#~ "I ravize a «cron» mins po des sistinmes ki n' sont nén en alaedje\n"
+#~ "24e/24e. Anacron si tchedje di s' mete a djoû et d' enonder les "
+#~ "tårdjowès\n"
+#~ "comandes cwand l' éndjole est enondêye."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd sieve a shure l' estat del batreye et a scrire les racsegnmints avou "
+#~ "syslog.\n"
+#~ "I pout eto siervi a clôre l' éndjole cwand c' est ki les batreyes divnèt "
+#~ "flåwes."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Enonde les cmandes metowes avou li cmande at å moumint defini avou li "
+#~ "cmande at.\n"
+#~ "Sieve eto a enonder des cmandes batch cwand c' est ki l' éndjole n' a "
+#~ "nén\n"
+#~ "trop d' ovraedje so les bresses."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron est on programe sitandård po Unix.  Il enonde des programes "
+#~ "tchoezis\n"
+#~ "pa l' uzeu a des moumints metous pa l' uzeu.  Li cron da Vixie radjoute "
+#~ "sacwants\n"
+#~ "siervice å programe cron tradicionel di Unix, par egzimpe ene meyeuse "
+#~ "såvrité\n"
+#~ "eyet des pus ritchès tchuzes po l' apontiaedje."
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM est on demon di corwaitaedje di fitchîs. Il est eployî po-z aveur des "
+#~ "rapoirts cwand des fitchîs candjèt.\n"
+#~ "Il est eployî pa GNOME eyet KDE"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "Avou GPM vos avoz li sopoirt del sori po les programes Linux e mode "
+#~ "tecse,\n"
+#~ "come li «comandeu di meynute» (Midnight Commander, mc). Et vos avoz eto\n"
+#~ "li sopoirt po côper et d' plaker sol conzôle, et sopoirt po des "
+#~ "aspitants\n"
+#~ "menus sol conzôle."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake fwait ene deteccion di l' éndjolreye, et pout ossu apontyî\n"
+#~ "les noveas/candjîs éndjins."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache est on sierveu HTTP. Il est eployî po siervi des pådjes waibe et "
+#~ "des CGI."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Li demon Internet (inetd) est on «super-sierveu» k' enonde ene drigleye\n"
+#~ "d' ôtes siervices k' ont a vey avou Internet cwand c' est k' i gn a "
+#~ "mezåjhe.\n"
+#~ "Metans: telnet, ftp, rsh eyet rlogin.  Si vos n' purdoz nén inetd, nouk "
+#~ "di ces\n"
+#~ "siervices la ni såreut esse enondé."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Enonde ene passete po les pakets rantoele, pol séreye di naweas Linux "
+#~ "2.2,\n"
+#~ "vos end avoz mezåjhe po mete so pîs on côpe feu po mete voste éndjole\n"
+#~ "a hipe des atakes des hacneus."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Ci pacaedje chal tchedje li taprece tchoezeye e /etc/sysconfig/keyboard.\n"
+#~ "Çoula pout esse apontyî avou l' usteye kbdconfig.\n"
+#~ "Vos l' dvoz leyî en alaedje pol plupårt des éndjoles."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Fé otomaticmint des noveles tiestires do nawea dins /boot\n"
+#~ "a pårti di /usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr ""
+#~ "Deteccion et apontiaedje otomatikes di l' éndjolreye a l' enondaedje."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Pa côps linuxconf va fé totès sôres di bouyes å moumint di\n"
+#~ "l' enondaedje po wårder l' apontiaedje do sistinme."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd est li demon d' imprimaedje k' i gn en a mezåjhe po lpr poleur rexhe "
+#~ "comifåt.\n"
+#~ "C' est on sierveu ki manaedje les bouyes po les scrireces."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Li forveyou sierveu Linux, eployî po fé on sierveu di hôte performance\n"
+#~ "et di hôte disponibilité (high-availability)."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) est on sierveu di nos d' dominne (DNS) eployî po-z aveur les "
+#~ "adresses IP limerikes a pårti des nos des lodjoes."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Monte et dismonte les ponts di montaedje po Network File System (NFS), \n"
+#~ "SMB (Lan Manager/Windows) et NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Enonde ou arestêye totes les eterfaces di rantoele apontieyes po\n"
+#~ "s' mete en alaedje cwand c' est ki l' éndjole s' enonde."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS est on protocole populaire po pårtaedjî des fitchîs so les rantoeles "
+#~ "TCP/IP.\n"
+#~ "Ci siervice chal c' est po-z aveur on sierveu NFS, ki est apontyî\n"
+#~ "viè l' fitchî /etc/exports."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS est on protocole populaire po pårtaedjî des fitchîs so les rantoeles "
+#~ "TCP/IP.\n"
+#~ "Ci siervice chal c' est po-z aveur li fonccionålité di blocaedje\n"
+#~ "di fitchîs pa NFS."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Mete otomaticmint en alaedje li coine des tapes limerikes del taprece\n"
+#~ "a l' enondaedje; ossu bén so X11 k' e conzôle."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Sopoirt po les scrireces OKI 4w et copatibes."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "Li sopoirt PCMCIA c' est po sopoirter des sacwès come des cåtes rantoele\n"
+#~ "ou des modems, avou les poirtåvès copiutreces. I n' srè nén enondé a "
+#~ "moens\n"
+#~ "di esse apontyî, adon c' est nén måva del leyî astalé minme so les "
+#~ "éndjoles\n"
+#~ "wice k' on n' s' e siervèt nén."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "Li mapeu d' pôrts manaedje les raloyaedjes RPC, ki sont-st eployîs pa\n"
+#~ "des protocoles come NFS ou NIS. Li sierveu portmap doet esse en alaedje\n"
+#~ "so les éndjoles ki dvèt esse des sierveus po des protocoles ki s' e "
+#~ "siervèt do RPC."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix est ene usteye ki fwait voyaedjî les emiles d' ene éndjole a "
+#~ "l' ôte."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Schaper et rprinde l' éntropeye do sistinme, po-z aveur ene askepiance\n"
+#~ "di nombes a l' astcheyance di meyeuse cwålité."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Assinaedje di peur éndjins (raw devices) po les éndjins di sôre blok "
+#~ "(come\n"
+#~ "les pårticions des deurès plakes), po des programas come Oracle\n"
+#~ "ou des lijheus d' plakes lazer DVD s' endè siervi"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Li demon routed c' est po-z aveur li tåvlea di routaedje IP esse metou a "
+#~ "djoû\n"
+#~ "otomaticmint viè l' protocole RIP. Li protocole RIP est bråmint eployî "
+#~ "avou\n"
+#~ "les ptitès rantoeles, mins des pus complesses rantoeles ont mezåjhe di "
+#~ "pus complesses protocoles."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Li protocole rstat c' est po les uzeus k' i gn a sor ene rantoele poleur\n"
+#~ "vey des informåcions sol performance d' ene éndjole del rantoele."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Li protocole rusers c' est po les uzeus k' i gn a sor ene rantoele "
+#~ "poleur\n"
+#~ "idintifyî kî est raloyî so des ôtès éndjoles."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Li protocole rwho c' est po des lodjoes å lon poleur vey ene djivêye\n"
+#~ "di tos les uzeus ki sont raloyîs so l' éndjole, si l' demon rwho est\n"
+#~ "astalé eyet en alaedje (çoula ravize a finger)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Enonder li sistinme di son so voste éndjole"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog est ene usteye ki schoûte les diferins demons ki lyi evoyèt\n"
+#~ "des messaedjes po mete dvins les fitchîs djournå do sistinme.\n"
+#~ "C' est ene bone idêye di l' aveur todi en alaedje."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Tcherdjî les mineus po vos éndjins USB."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr ""
+#~ "Enonder li sierveu d' fontes å moumint di l' enondaedje\n"
+#~ "(çoula est obligatwere si vos vloz eployî Xorg)."
+
+#~ msgid "Printing"
+#~ msgstr "Imprimaedje"
+
+#~ msgid "Internet"
+#~ msgstr "Rantoele"
+
+#~ msgid "File sharing"
+#~ msgstr "Pårtaedje di fitchîs"
+
+#~ msgid "System"
+#~ msgstr "Sistinme"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Manaedjaedje då lon"
+
+#~ msgid "Database Server"
+#~ msgstr "Sierveu di båze di dnêyes"
+
+#~ msgid "Services"
+#~ msgstr "Siervices"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr ""
+#~ "Tchoezixhoz kés siervices dvèt esse enondés a l' enondaedje do sistinme"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Siervices: %d en alaedje po %d eredjistrés"
+
+#~ msgid "running"
+#~ msgstr "en alaedje"
+
+#~ msgid "stopped"
+#~ msgstr "djoké"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Siervices et demons"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Mande escuzes, mins dj' a pont d' ôtès\n"
+#~ "informåcions so ci siervice chal."
+
+#~ msgid "Info"
+#~ msgstr "Informåcion"
+
+#~ msgid "Start when requested"
+#~ msgstr "Enonder al dimande"
+
+#~ msgid "On boot"
+#~ msgstr "A l' enondaedje"
+
+#~ msgid "Start"
+#~ msgstr "Enonder"
+
+#~ msgid "Stop"
+#~ msgstr "Arester"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Çouchal, c' est on libe programe; vos l' poloz bén spåde et vos l' poloz\n"
+#~ "bén candjî tot shuvant li Licince Publike Djeneråle (GPL) di GNU "
+#~ "eplaideye\n"
+#~ "pal Free Software Foundation; ça pout esse li 2e modêye del licince ou\n"
+#~ "(si vos inmez mî) ene pus nouve.\n"
+#~ "\n"
+#~ "Li programe est spårdou avou l' espwer k' i serè ahessåve,\n"
+#~ "mins SINS NOLE WAERANTEYE; dji n' waeranti nén minme ki vos VINDRÎZ\n"
+#~ "bén li programe ou ki vos vs È SIEVRÎZ BÉN PO ENE SÔRE OU L' ÔTE.\n"
+#~ "Waitîz li Licince Publike Djeneråle (GPL) di GNU po vey les pondants\n"
+#~ "eyet les djondants.\n"
+#~ "\n"
+#~ "Avou ci programe ci, vos dvrîz aveur rçuvou ene copeye del Licince "
+#~ "Publike\n"
+#~ "Djeneråle (GPL) di GNU; si vos n' l' avoz nén avou, sicrijhoz al\n"
+#~ "    Free Software Foundation, Inc.,\n"
+#~ "    51 Franklin Street, Fifth Floor,\n"
+#~ "    Boston, MA 02110-1301, USA.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Programe po fé des copeyes di såvrité eyet les rapexhî\n"
+#~ "\n"
+#~ "--default             : fé des copeyes des prémetous ridants.\n"
+#~ "--debug               : mostere tos les messaedjes di disbugaedje.\n"
+#~ "--show-conf           : djivêye des fitchîs ou ridants a copyî.\n"
+#~ "--config-info         : esplikêyes so les tchuzes po l' apontiaedje "
+#~ "(uzeus nén-X11).\n"
+#~ "--daemon              : eploye l' apontiaedje di demon.\n"
+#~ "--help                : mostere ci messaedje chal.\n"
+#~ "--version             : mostere li limero d' modêye.\n"
+
+#~ msgid ""
+#~ "[--boot] [--splash]\n"
+#~ "OPTIONS:\n"
+#~ "  --boot            - enable to configure boot loader\n"
+#~ "  --splash          - enable to configure boot theme\n"
+#~ "default mode: offer to configure autologin feature"
+#~ msgstr ""
+#~ "[--boot] [--splash]\n"
+#~ "TCHUZES:\n"
+#~ "  --boot            - po-z apontyî l' enondrece di l' éndjole\n"
+#~ "  --splash          - po-z apontyî li waitroûle d' enondaedje di "
+#~ "l' éndjole\n"
+#~ "prémetou môde: apontiaedje di l' elodjaedje otomatike"
+
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[TCHUZES] [NO_DO_PROGRAME]\n"
+#~ "\n"
+#~ "TCHUZES:\n"
+#~ "  --help            - mostere ci messaedje d' aidance chal.\n"
+#~ "  --report          - li programe doet esse ene des usteyes di Mandriva "
+#~ "Linux\n"
+#~ "  --incident        - li programe doet esse ene des usteyes di Mandriva "
+#~ "Linux"
+
+#~ msgid ""
+#~ "[--add]\n"
+#~ "  --add             - \"add a network interface\" wizard\n"
+#~ "  --del             - \"delete a network interface\" wizard\n"
+#~ "  --skip-wizard     - manage connections\n"
+#~ "  --internet        - configure internet\n"
+#~ "  --wizard          - like --add"
+#~ msgstr ""
+#~ "[--add]\n"
+#~ "  --add             - macrea po radjouter ene eterface rantoele\n"
+#~ "  --del             - macrea po disfacer ene eterface rantoele\n"
+#~ "  --skip-wizard     - manaedjaedje des raloyaedjes\n"
+#~ "  --internet        - apontiaedje do raloyaedje al daegntoele\n"
+#~ "  --wizard          - come «--add»"
+
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "\n"
+#~ "Programe d' abagaedje eyet corwaitaedje des fontes\n"
+#~ "\n"
+#~ "TCHUZES:\n"
+#~ "--windows_import : abaguer les fontes k' i gn a so les pårticions "
+#~ "Windows.\n"
+#~ "--xls_fonts      : mostere avou xls totes les fontes dedja astalêyes\n"
+#~ "--install <tchimin>   : astaler ene fonte ou ridant d' fontes.\n"
+#~ "--uninstall <tchimin> : dizastaler ene fonte ou on ridant d' fontes.\n"
+#~ "--replace        : replaece totes les fontes k' egzistêyrént ddja.\n"
+#~ "--application <paramete> : apontiaedjes sipeciås po des programes k' i gn "
+#~ "a\n"
+#~ "                 : «0» nou programe.\n"
+#~ "                 : «1» po tos les programes sopoirtés k' i gn a.\n"
+#~ "                 : «so» po for StarOffice\n"
+#~ "                 : «gs» po ghostscript."
+
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[TCHUZES]...\n"
+#~ "Apontieu do Sierveu d' Terminås di Mandriva Linux (MTS)\n"
+#~ "--enable         : mete en alaedje MTS\n"
+#~ "--disable        : dismete MTS\n"
+#~ "--start          : enonder MTS\n"
+#~ "--stop           : arester MTS\n"
+#~ "--adduser        : radjouter èn uzeu k' i gn a do sistinme å MTS (i fåt "
+#~ "on no d' uzeu)\n"
+#~ "--deluser        : disfacer èn uzeu k' i gn a do sistinme foû do MTS (i "
+#~ "fåt on no d' uzeu)\n"
+#~ "--addclient      : radjouter ene éndjole cliyint å MTS (i fåt ene adresse "
+#~ "MAC, IP, no d' imådje nbi)\n"
+#~ "--delclient      : disfacer ene éndjole cliyint foû do MTS (i fåt ene "
+#~ "adresse MAC, IP, no d' imådje nbi)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[taprece]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr "[--file=fitchî] [--word=mot] [--explain=regexp] [--alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[TCHUZES]\n"
+#~ "Programe di raloyaedje et di corwaitaedje do raloyaedje rantoele\n"
+#~ "\n"
+#~ "--defaultintf <eterface> : mostere ciste eterface come li prémetowe \n"
+#~ "--connect : si raloye al daegntoele si c' est nén co ddja fwait\n"
+#~ "--disconnect : si disraloye del daegntoele si ddja raloyî\n"
+#~ "--force : eployî avou --(dis)connect po foircî l' (dis)raloyaedje.\n"
+#~ "--status : ritoûne li valixhance «1» si raloyî, «0» ôtrumint, et poy "
+#~ "finixhe.\n"
+#~ "--quiet : môde nén eteractif. Po-z eployî avou --(dis)connect."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[TCHUZES]...\n"
+#~ "  --no-confirmation      èn nén dmander d' aveurixhaedje e môde Mandriva "
+#~ "Update\n"
+#~ "  --no-verify-rpm        èn nén verifyî les sinateures des pacaedjes rpm\n"
+#~ "  --changelog-first      håyner li djournå des candjmints divant "
+#~ "l' djivêye des fitchîs e purnea\n"
+#~ "  --merge-all-rpmnew     propôze di fonde tos les fitchîs .rpmnew/."
+#~ "rpmsave di trovés"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "[--manual] [--device=éndjin] [--update-sane=ridant_sourd_sane] [--update-"
+#~ "usbtable] [--dynamic=éndjin]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] <waitroûle>\n"
+#~ "       XFdrake <finté>"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Po s' e siervi: %s  [--auto] [--beginner] [--expert] [-h|--help] [--"
+#~ "noauto] [--testing] [-v|--version] "
+
+#~ msgid "All servers"
+#~ msgstr "Tos les sierveus"
+
+#~ msgid "Global"
+#~ msgstr "Globå"
+
+#~ msgid "Africa"
+#~ msgstr "Afrike"
+
+#~ msgid "Asia"
+#~ msgstr "Azeye"
+
+#~ msgid "Europe"
+#~ msgstr "Urope"
+
+#~ msgid "North America"
+#~ msgstr "Amerike bijhrece"
+
+#~ msgid "Oceania"
+#~ msgstr "Oceyaneye"
+
+#~ msgid "South America"
+#~ msgstr "Amerike nonnrece"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Federåcion di Rûsseye"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Yougoslaveye"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Totafwait va-t i comifåt?"
+
+#~ msgid "No file chosen"
+#~ msgstr "Nou fitchî di tchoezi"
+
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "Vos avoz tchoezi on fitchî, nén on ridant"
+
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Vos avoz tchoezi on ridant, nén on fitchî"
+
+#~ msgid "No such directory"
+#~ msgstr "Ci ridant la n' egzistêye nén"
+
+#~ msgid "No such file"
+#~ msgstr "Ci fitchî la n' egzistêye nén"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Ragrandi l' coxhlaedje"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Raptiti l' coxhlaedje"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Passer di nou relijhaedje a on relijhaedje pa hopeas"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s n' est nén astalé\n"
+#~ "Clitchîz so «Shuvant» po l' astaler oudonbén so «Rinoncî» po cwiter"
+
+#~ msgid "Installation failed"
+#~ msgstr "L' astalaedje a fwait berwete"

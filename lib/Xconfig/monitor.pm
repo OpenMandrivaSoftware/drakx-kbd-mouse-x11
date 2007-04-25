@@ -85,8 +85,7 @@ sub choose {
     my ($in, $monitor, $head_nb, $card_Driver, $b_auto) = @_;
 
     my $ok = is_valid($monitor);
-    if ($b_auto) {
-	log::l("Xconfig::monitor: auto failed") if !$ok;
+    if ($b_auto && $ok) {
 	return $ok;
     }
 
@@ -181,9 +180,34 @@ sub probe {
     probe_DDC() || probe_DMI() || probe_using_X($o_card_Driver);
 }
 
+#- some EDID are much too strict:
+#- the HorizSync range is too small to allow smaller resolutions
+sub adjust_HorizSync_from_edid {
+    my ($monitor) = @_;
+    
+    my ($hmin, $hmax) = $monitor->{HorizSync} =~ /(\d+)-(\d+)/ or return;
+    if ($hmin > 45) {
+	log::l("replacing HorizSync $hmin-$hmax with 31.5-$hmax (allow 800x600)");
+	$monitor->{HorizSync} = "31.5-$hmax";
+    }
+}
+#- the VertRefresh range is too weird
+sub adjust_VertRefresh_from_edid {
+    my ($monitor) = @_;
+    
+    my ($vmin, $vmax) = $monitor->{VertRefresh} =~ /(\d+)-(\d+)/ or return;
+    if ($vmin > 60) {
+	log::l("replacing VertRefresh $vmin-$vmax with 60-$vmax");
+	$monitor->{VertRefresh} = "60-$vmax";
+    }
+}
+
 sub probe_DDC() {
     my ($edid, $vbe) = any::monitor_full_edid() or return;
     my $monitor = eval($edid);
+
+    adjust_HorizSync_from_edid($monitor);
+    adjust_VertRefresh_from_edid($monitor);
 
     if ($vbe =~ /Memory: (\d+)k/) {
 	$monitor->{VideoRam_probed} = $1;
@@ -200,7 +224,10 @@ sub probe_DDC() {
 	      { val => $_->{ModeLine}, pre_comment => $_->{ModeLine_comment} . "\n" };
 	}
 
-	if (@$detailed_timings == 1) {
+	if (@$detailed_timings == 1 && $_->{horizontal_active} >= 1024) {
+	    #- we don't use detailed_timing when it is 640x480 or 800x600,
+	    #- since 14" CRTs often give this even when they handle 1024x768 correctly (and desktop is no good in poor resolutions)
+
 	    #- should we care about {has_preferred_timing} ?
 	    $monitor->{preferred_resolution} = { X => $_->{horizontal_active}, Y => $_->{vertical_active} };
 	}
@@ -210,6 +237,7 @@ sub probe_DDC() {
 	$monitor->{VendorName} = "Plug'n Play";
 	$monitor->{ModelName} = $monitor->{monitor_name};
 	$monitor->{ModelName} =~ s/"/''/g;
+	$monitor->{ModelName} =~ s/[\0-\x20]/ /g;
     }
     configure_automatic($monitor) or return;
     $monitor;
@@ -241,7 +269,7 @@ sub generic_flat_panel {
     {
 	VendorName => 'Generic',
 	ModelName => "Flat Panel $resolution",
-	HorizSync => '31.5-100', VertRefresh => '60',
+	HorizSync => '31.5-' . ($X > 1920 ? '100' : '90'), VertRefresh => '60',
 	preferred_resolution => { X => $X, Y => $Y },
     };
 }

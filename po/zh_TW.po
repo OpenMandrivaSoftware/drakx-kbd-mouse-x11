@@ -1,0 +1,5502 @@
+# translation of zh_TW.po to 正體中文
+# translation of zh_TW.po to Chinese Traditional
+# translation of DrakX-zh_TW.po to Chinese Traditional
+# drakbootdisk messages in Traditional Chinese
+# Copyright (C) 2000, 2003, 2004 Free Software Foundation, Inc.
+# Platin <platin@cle.linux.org.tw> , 2000
+# Kenduest Lee <kenduest@i18n.linux.org.tw> , 2002
+# Danny Zeng <danny@zeng.com.cn>, 2000.
+# Joe Man <trmetal@yahoo.com.hk>, 2001.
+# Chong Sein Yeo <csyeo@hal-pc.org>, 2003.
+# Hilbert <freehil@yahoo.com>, 2003, 2004.
+# Hilbert <h@mandrake.org>, 2004.
+# hilbert <h@mandrake.org>, 2004.
+# Shiva Huang <blueshiva@giga.net.tw>, 2005.
+# Shiva Huang <shivahuang@gmail.com>, 2005-2006.
+# You-Cheng Hsieh <yochenhsieh@xuite.net>, 2005-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2006-09-23 12:29+0800\n"
+"Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
+"Language-Team: Traditional Chinese <zh@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 kB"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 MB"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2 MB"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4 MB"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 MB"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 MB"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 MB 或者更多"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X 伺服器"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "選取一個 X 伺服器"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "多顯示器輸出端設定"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"您的系統支援多顯示器輸出端設定組態。\n"
+"您打算怎麼做呢？"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "選擇顯示卡上的記憶體大小"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+"您的顯示卡有專利的驅動程式可以使用，也許能支援其他功能。您想要使用它嗎？"
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "獨立設定所有顯示器輸出端"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "使用 Xinerama 全景延伸顯示"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "僅設定 \"%s\"%s 顯示卡"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "自訂"
+
+#: ../lib/Xconfig/main.pm:126
+#, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "顯示卡與螢幕組態設定"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "離開"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "顯示卡"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "螢幕"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "解析度"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "測試"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "選項"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "外掛程式"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "您的 Xorg 設定檔已損毀，我們將忽略它。"
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"保留目前的變更？\n"
+"目前的組態是：\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "選取一個螢幕給顯示輸出端 #%d"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "選取一個螢幕"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "隨插即用"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "一般"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "廠商"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr "隨插即用顯示器偵測失敗，請選擇正確的螢幕"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"這兩個重要的參數是您螢幕的垂直更新頻率，以及最重要\n"
+"的水平更新頻率，前者是您整個螢幕影像更新的頻率，\n"
+"後者是電子槍掃描的速率。\n"
+"\n"
+"特別重要的是，不要設定一個超過您正在用的螢幕\n"
+"同步範圍的螢幕：您可能傷害您的螢幕。\n"
+"若您不確定的話，請選擇保守一點的設定值。"
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "水平更新頻率"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "垂直更新頻率"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "選擇動作"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 色 (8 位元)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "3 萬 2 千色 (15 位元)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "6 萬 5 千色 (16 位元)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "1 千 6 百萬色 (24 位元)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "解析度"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "其他"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "選取解析度以及顏色深度"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "顯示卡：%s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "確定"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "取消"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "輔助說明"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "設定值測試"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "您想要測試設定值嗎？"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "警告：測試這張顯示卡時可能會使您的系統停止回應"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"發生了一個錯誤：\n"
+"%s\n"
+"請試著改變某些參數"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "%d 秒後離開"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "這是正確的設定值嗎？"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr "3D 硬體加速：%s\n"
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "鍵盤形式： %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "滑鼠種類： %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "螢幕： %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "螢幕水平更新頻率： %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "螢幕垂直更新頻率： %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "顯示卡： %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "顯示卡記憶體： %s kB\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "色深： %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "解析度： %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Xorg 驅動程式： %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Xorg 設定"
+
+#: ../lib/Xconfig/various.pm:198
+#, c-format
+msgid "Graphic card options"
+msgstr "顯示卡選項"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr "3D 硬體加速"
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr "啟用半透明特效 (Composite extension)"
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr "使用硬體加速滑鼠游標"
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr "啟用 RENDER 加速 (這可能會在顯示文字時導致臭蟲)"
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr "在外接螢幕上啟用同步顯示"
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr "在第二顯示器上啟用同步顯示"
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr "啟用 BIOS 熱鍵來切換外部顯示器"
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr "使用 EXA 取代 XAA (對 Render 與 Composite 有較好的效能)"
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "開機時啟動圖形介面"
+
+#: ../lib/Xconfig/various.pm:222
+#, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr "開機時自動啟動圖形介面 (Xorg)"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"您的顯示卡似乎有支援 TV-OUT 連接裝置。\n"
+"所以這張顯示卡能用 frame-buffer 工作。\n"
+"\n"
+"若是要使用的話，您需要在重新開機之前連接您的顯示卡與電視。\n"
+"然後選擇 \"TVout\" 這個開機選單項目\n"
+"\n"
+"您要使用這項功能嗎？"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "您的電視用什麼標準？"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+"使用的螢幕解析度似乎並不正確。\n"
+"\n"
+"如果您的桌面延伸超出了螢幕邊界，安裝 %s 可能可以協助解決這個問題。現在\n"
+"要安裝嗎？"
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "其他"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "捷克 (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "德語"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Dvorak 配置"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "西班牙"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "芬蘭"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "法語"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "英式鍵盤"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "挪威"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "波蘭"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "俄羅斯"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "瑞典"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "美式鍵盤"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "阿爾巴尼亞"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "亞美尼亞 (舊式)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "亞美尼亞 (打字機)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "亞美尼亞 (音標)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "阿拉伯"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Azerbaidjani (拉丁)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "比利時"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "孟加拉 (Inscript 式配置)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "孟加拉 (Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "保加利亞 (音標)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "保加利亞 (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "巴西 (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "波士尼亞"
+
+#: ../lib/keyboard.pm:209
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "不丹宗卡語/藏語"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "白俄羅斯"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "瑞士 (德式配置)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "瑞士 (法式配置)"
+
+#: ../lib/keyboard.pm:214
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "卻洛奇族語"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "捷克 (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "德語 (無 dead keys)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "梵文"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "丹麥語"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Dvorak (美式)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (世界語)"
+
+#: ../lib/keyboard.pm:223
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (法式)"
+
+#: ../lib/keyboard.pm:224
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Dvorak (英式)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (挪威)"
+
+#: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Dvorak (波蘭)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Dvorak (瑞典)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "愛沙尼亞"
+
+#: ../lib/keyboard.pm:231
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "法羅語"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "喬治亞 (\"俄式\" 配置)"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "喬治亞 (\"拉丁式\" 配置)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "希臘"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "希臘 (多音調)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "古吉拉特語"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "古爾穆希語"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "克羅埃西亞"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "匈牙利"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "愛爾蘭"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "伊努克梯圖語"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "以色列"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "以色列 (音標)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "伊朗"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "冰島"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "義大利"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "日本 106 鍵"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "坎納達語"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "吉爾吉斯語"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "韓式鍵盤"
+
+#: ../lib/keyboard.pm:259
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "庫德語 (arabic script)"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "拉丁美洲"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "寮國"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "立陶宛 (舊 AZERTY 式)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "立陶宛 (新 AZERTY 式)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "立陶宛 \"數字列與 QWERTY 式\""
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "立陶宛 \"音標列與 QWERTY 式\""
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "拉托維亞"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "馬拉雅拉姆語"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr "毛利語"
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "馬其頓語"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "緬甸語 (Burmese)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "蒙古語 (cyrillic)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "馬爾他語 (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "馬爾他語 (US)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr "尼日"
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "荷蘭"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "奧里雅語"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "波蘭 (qwerty 式配置)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "波蘭 (qwertz 式配置)"
+
+#: ../lib/keyboard.pm:283
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "帕施圖語"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "葡萄牙"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "加拿大 (魁北克)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "羅馬尼亞 (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "羅馬尼亞 (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "俄羅斯 (音標)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "斯洛伐尼亞"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr "僧伽羅語"
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "斯洛伐克 (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "斯洛伐克 (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "薩米語 (挪威)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "薩米語 (瑞典/芬蘭)"
+
+#: ../lib/keyboard.pm:299
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "信德語"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "塞爾維亞 (cyrillic)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "敘利亞"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "敘利亞 (音標)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "泰盧固語"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "坦米爾 (ISCII-佈置)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "坦米爾 (打字機配置)"
+
+#: ../lib/keyboard.pm:308
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "泰語鍵盤 (Kedmanee)"
+
+#: ../lib/keyboard.pm:309
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "泰語鍵盤 (TIS-820)"
+
+#: ../lib/keyboard.pm:311
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "泰語鍵盤 (Pattachote)"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr "提非納語 (摩洛哥配置) (+拉丁/阿拉伯)"
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr "提非納語 (音標) (+拉丁/阿拉伯)"
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "塔吉克語"
+
+#: ../lib/keyboard.pm:318
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "土庫曼語"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "土耳其 (傳統式 \"F\" 型)"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "土耳其 (現代式 \"Q\" 型)"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "烏克蘭"
+
+#: ../lib/keyboard.pm:324
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "烏都語鍵盤"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "美式鍵盤 (國際型)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "烏茲別克 (cyrillic)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "越南 \"數字列\" QWERTY 式"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "南斯拉夫 (拉丁)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "右方 Alt 按鍵"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "同時兩邊 Shift 按鍵"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Control 與 Shift 鍵同時"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "CapsLock 按鍵"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Shift 與 CapsLock 鍵同時"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Ctrl 與 Alt 鍵同時"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Alt 與 Shift 鍵同時"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "\"選單\" 按鍵"
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "左邊 \"Windows\" 按鍵"
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "右邊 \"Windows\" 按鍵"
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "同時兩邊 Control 按鍵"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "同時兩邊 Alt 按鍵"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "左邊 Shift 按鍵"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "右邊 Shift 按鍵"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "左邊 Alt 按鍵"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "左邊 Control 按鍵"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "右邊 Control 按鍵"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"請選擇按鍵或組合鍵, 以便於快速的切換不同的鍵盤配置\n"
+"(eg: 拉丁與非拉丁)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "警告"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"這個設定會在安裝完成後啟動。在安裝過程時，您將需要使用右邊 Control\n"
+"鍵在各種不同的鍵盤配置之間切換。"
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - 滑鼠"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "標準"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "一般 PS/2 滾輪滑鼠"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "自動"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "單鍵式"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "一般的兩鍵式滑鼠"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "一般的三鍵式滑鼠有滾輪模擬"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "滾輪"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "序列"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "一般的三鍵式滑鼠"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "Microsoft IntelliMouse"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "有滾輪模擬的 Logitech MouseMan"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "滑鼠系統"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC 系列"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "有滾輪模擬的 Logitech CC Series"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (序列式，舊 C7 型)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "有滾輪模擬的 Logitech Mouse (serial, old C7 type)"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "有滾輪模擬的 Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "兩個按鍵"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "三個按鍵"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "有滾輪模擬的三個按鍵"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "通用"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "任何 PS/2 與 USB 滑鼠"
+
+#: ../lib/mouse.pm:86
+#, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Xbox 控制器 S"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "無"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "無滑鼠"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr "測試滑鼠"
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "請選擇您的滑鼠類型。"
+
+#: ../lib/mouse.pm:517
+#, c-format
+msgid "Mouse choice"
+msgstr "選擇滑鼠"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "模擬第三鍵？"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "滑鼠連接埠"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr "請選取您滑鼠連接的序列埠。"
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "按鍵模擬"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "模擬第二鍵"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "模擬第三鍵"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "請測試滑鼠"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "為了驅動您的滑鼠，"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "請滾動您的滾輪！"
+
+#: ../tools/XFdrake:59
+#, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "您需要重新開機以便讓異動的設定生效"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "鍵盤"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "請選取鍵盤排列的格式是那一種。"
+
+#: ../tools/keyboarddrake:31
+#, c-format
+msgid "Keyboard layout"
+msgstr "鍵盤配置"
+
+#: ../tools/keyboarddrake:39
+#, c-format
+msgid "Keyboard type"
+msgstr "鍵盤類別"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "您希望 BackSpace 後退鍵能夠在 console 下回應 Delete 按鍵的功能嗎？"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "滑鼠測試"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "請測試您的滑鼠："
+
+#~ msgid "Xgl is an additional graphical server that adds 3D desktop support."
+#~ msgstr "Xgl 是一個加入 3D 桌面支援的額外圖形伺服器。"
+
+#~ msgid "3D Desktop effects"
+#~ msgstr "3D 桌面效果"
+
+#~ msgid "Your system does not support 3D desktop effects."
+#~ msgstr "您的系統不支援 3D 桌面效果。"
+
+#~ msgid "Use %s"
+#~ msgstr "使用 %s"
+
+#~ msgid "No 3D desktop effects"
+#~ msgstr "不使用 3D 桌面效果"
+
+#~ msgid "Please wait"
+#~ msgstr "請稍候"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "開機載入程式安裝中"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO 想要分配新的磁區標籤給分割區 %s。但是，改變 Windows NT、2000，\n"
+#~ "或 XP 開機磁區的磁區標籤會造成致命的 Windows 錯誤。\n"
+#~ "這個警告並不適用於 Windows 95、98，或 NT 的資料磁區。\n"
+#~ "\n"
+#~ "要分配一個新的磁區標籤？"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr "開機程式安裝失敗，發生如下之錯誤："
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "您也許需要改變您的 Open Firmware 上面的開機裝置設定，\n"
+#~ "以便於開啟開機啟動程式的功能。如果您開機時並沒有看到\n"
+#~ "開機程式的任何訊息，請於重新開機時按住 Command-Option-O-F，\n"
+#~ "然後輸入：setenv boot-device %s,\\\\:tbxi\n"
+#~ "然後再輸入：shut-down\n"
+#~ "然後您下一次開機時應該就可以看到開機啟動程式的訊息了。"
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "您決定要將開機載入程式安裝於分割區上面。\n"
+#~ "這表示您已經有一個開機載入程式在您開機的硬碟上\n"
+#~ "(例如：System Commander)。\n"
+#~ "\n"
+#~ "您目前是用那顆硬碟開機呢？"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "硬碟的第一個扇區 (MBR)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "根分割區的第一扇區"
+
+#~ msgid "On Floppy"
+#~ msgstr "在軟碟機"
+
+#~ msgid "Skip"
+#~ msgstr "略過"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "LILO/GRUB 安裝"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "您要將開機載入程式安裝在那裡？"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "開機樣式組態設定"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "開機載入程式主要選項"
+
+#~ msgid "Bootloader"
+#~ msgstr "開機載入器"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "要用的開機載入程式"
+
+#~ msgid "Boot device"
+#~ msgstr "開機裝置"
+
+#~ msgid "Main options"
+#~ msgstr "主要選項"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "以預設的核心影像開機之前等待的時間"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "啟用 ACPI"
+
+#~ msgid "Enable APIC"
+#~ msgstr "啟用 APIC"
+
+#~ msgid "Enable Local APIC"
+#~ msgstr "啟用本地 APIC"
+
+#~ msgid "Password"
+#~ msgstr "密碼"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "密碼不符合"
+
+#~ msgid "Please try again"
+#~ msgstr "請再試一次"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr "您不能使用加密過的檔案系統來作為 %s 的掛載點"
+
+#~ msgid "Password (again)"
+#~ msgstr "密碼 (再一次)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "限制命令列選項"
+
+#~ msgid "restrict"
+#~ msgstr "限制"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr "選項 ``限制命令列選項'' 在沒有設定密碼的情況下會無法使用"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "每次開機時清理 /tmp"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "若有需要的話，請輸入正確的記憶體大小 (找到 %d MB)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "輸入記憶體大小 (以 MB 為單位)"
+
+#~ msgid "Init Message"
+#~ msgstr "啟動訊息"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Open Firmware 延遲"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "核心啟動時間逾時"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "允許光碟開機？"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "允許 Open Firmware 開機？"
+
+#~ msgid "Default OS?"
+#~ msgstr "預設的作業系統？"
+
+#~ msgid "Image"
+#~ msgstr "核心影像"
+
+#~ msgid "Root"
+#~ msgstr "根目錄"
+
+#~ msgid "Append"
+#~ msgstr "附加參數"
+
+#~ msgid "Xen append"
+#~ msgstr "Xen 附加參數"
+
+#~ msgid "Video mode"
+#~ msgstr "顯示模式"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "網路 profile"
+
+#~ msgid "Label"
+#~ msgstr "標籤"
+
+#~ msgid "Default"
+#~ msgstr "預設"
+
+#~ msgid "NoVideo"
+#~ msgstr "沒有 Video 參數"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "不允許空白標籤"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "您需要指定一個核心影像"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "您需要指定一個 root 分割區"
+
+#~ msgid "This label is already used"
+#~ msgstr "這個標籤已經被用過了"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "您要新增哪一類的項目？"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "其他作業系統 (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "其他作業系統 (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "其他作業系統 (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "目前有這些選項在您的開機選單中。\n"
+#~ "您可以建立更多的選項或修改既有的選項。"
+
+#~ msgid "access to X programs"
+#~ msgstr "存取 X 程式"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "存取 RPM 套件工具程式"
+
+#~ msgid "allow \"su\""
+#~ msgstr "允許 \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "存取系統管理者權限的檔案"
+
+#~ msgid "access to network tools"
+#~ msgstr "存取網路工具"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "存取編譯工具"
+
+#~ msgid "(already added %s)"
+#~ msgstr "( %s 已經加入)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "請輸入使用者名稱"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr "使用者名稱只能含有小寫英文字母、數字、`-' 與 `_'"
+
+#~ msgid "The user name is too long"
+#~ msgstr "這個使用者名稱太長了"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "這個使用者已經加入過了"
+
+#~ msgid "User ID"
+#~ msgstr "使用者 ID"
+
+#~ msgid "Group ID"
+#~ msgstr "群組 ID"
+
+#~ msgid "%s must be a number"
+#~ msgstr "%s 必須是數字"
+
+#~ msgid "%s should be above 500. Accept anyway?"
+#~ msgstr "%s 必須大於 500。還是要接受嗎？"
+
+#~ msgid "Add user"
+#~ msgstr "新增使用者"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "輸入一位使用者\n"
+#~ "%s"
+
+#~ msgid "Done"
+#~ msgstr "完成"
+
+#~ msgid "Accept user"
+#~ msgstr "接受使用者"
+
+#~ msgid "Real name"
+#~ msgstr "真實名稱"
+
+#~ msgid "Login name"
+#~ msgstr "登入名稱"
+
+#~ msgid "Shell"
+#~ msgstr "Shell"
+
+#~ msgid "Icon"
+#~ msgstr "圖示"
+
+#~ msgid "Autologin"
+#~ msgstr "自動登入"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr "我能夠設定您的電腦自動以某個使用者身份登入系統。"
+
+#~ msgid "Use this feature"
+#~ msgstr "使用此功能"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "選取預設的使用者："
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "選取您想使用的視窗管理程式："
+
+#~ msgid "License agreement"
+#~ msgstr "版權協議"
+
+#~ msgid "Release Notes"
+#~ msgstr "發行紀錄"
+
+#~ msgid "Accept"
+#~ msgstr "接受"
+
+#~ msgid "Refuse"
+#~ msgstr "拒絕"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "請選擇要使用那個語言。"
+
+#~ msgid "Language choice"
+#~ msgstr "語言選擇"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Mandriva Linux 能支援多種語言，請選擇您想安裝的語言。\n"
+#~ "它們將可供您完成安裝並重新啟動系統之後使用。"
+
+#~ msgid "Multi languages"
+#~ msgstr "多語系"
+
+#~ msgid "Old compatibility (non UTF-8) encoding"
+#~ msgstr "舊式相容 (非 UTF-8) 編碼"
+
+#~ msgid "All languages"
+#~ msgstr "所有語言"
+
+#~ msgid "Country / Region"
+#~ msgstr "國家/地區"
+
+#~ msgid "Please choose your country."
+#~ msgstr "請選擇您的國家。"
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "以下是全部可用的所有的國家清單"
+
+#~ msgid "Other Countries"
+#~ msgstr "其他國家"
+
+#~ msgid "Advanced"
+#~ msgstr "進階"
+
+#~ msgid "Input method:"
+#~ msgstr "輸入法："
+
+#~ msgid "None"
+#~ msgstr "無"
+
+#~ msgid "No sharing"
+#~ msgstr "不分享"
+
+#~ msgid "Allow all users"
+#~ msgstr "允許所有使用者"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "您要允許使用者能夠分享他們自己的目錄嗎？\n"
+#~ "若是要開放將允許使用者能在 konqueror 或者是 nautilus 內\n"
+#~ "點選 \"分享\"\n"
+#~ "\n"
+#~ "\"自訂\" 允許每一個使用者自行設定。\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr "NFS：傳統的 Unix 檔案分享系統，但 Mac 與 Windows 的支援較不足。"
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB：一個 Windows、Mac OS X 與許多先進的 Linux 系統用的檔案分享系統。"
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr "您能夠用 NFS 或者是 SMB 匯出。請選擇您想要用那一個。"
+
+#~ msgid "Launch userdrake"
+#~ msgstr "啟動 userdrake"
+
+#~ msgid "Close"
+#~ msgstr "關閉"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "每個使用者的分享都是使用 \"fileshare\" 群組。\n"
+#~ "您可以執行 userdrake 在該群組內加入使用者。"
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "請登出, 然後用 Ctrl-Alt-BackSpace 重新啟動 X"
+
+#~ msgid "You need to log out and back in again for changes to take effect"
+#~ msgstr "您必須登出之後重新登入才能讓變動生效"
+
+#~ msgid "Timezone"
+#~ msgstr "時區"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "您的時區為何？"
+
+#~ msgid "Date, Clock & Time Zone Settings"
+#~ msgstr "日期、時間與時區設定"
+
+#~ msgid "What is the best time?"
+#~ msgstr "最佳的時間是哪一個？"
+
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "%s (硬體時鐘設定為 UTC 時間)"
+
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "%s (硬體時鐘設定為本地時間)"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP 伺服器"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "自動時間同步 (使用 NTP 服務)"
+
+#~ msgid "Local file"
+#~ msgstr "本地端檔案"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "NIS"
+
+#~ msgid "Smart Card"
+#~ msgstr "智慧卡"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Windows 網域"
+
+#~ msgid "Local file:"
+#~ msgstr "本地端檔案："
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP："
+
+#~ msgid "NIS:"
+#~ msgstr "NIS："
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "讓您在同一個網路資訊服務網域內的一群電腦中使用共通的密碼與群阻擋案。"
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Windows 網域："
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "支援 SFU 的 Active Directory："
+
+#~ msgid ""
+#~ "With Kerberos and Ldap for authentication in Active Directory Server "
+#~ msgstr "使用 Kerberos 與 LDAP 來在 Active Directory 伺服器上進行認證"
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "支援 Winbind 的 Active Directory："
+
+#~ msgid ""
+#~ "Winbind allows the system to authenticate users in a Windows Active "
+#~ "Directory Server."
+#~ msgstr ""
+#~ "Winbind 允許這個系統在 Windows Active Directory 伺服器上認證使用者。"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "LDAP 認證"
+
+#~ msgid "LDAP Server"
+#~ msgstr "LDAP 伺服器"
+
+#~ msgid "simple"
+#~ msgstr "簡單"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "安全性配置 (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Active Directory 認證"
+
+#~ msgid "Domain"
+#~ msgstr "網域"
+
+#~ msgid "Server"
+#~ msgstr "伺服器"
+
+#~ msgid "LDAP users database"
+#~ msgstr "LDAP 使用者資料庫"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "使用匿名 BIND"
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "LDAP 使用者將被被允許瀏覽 Active Directory"
+
+#~ msgid "Password for user"
+#~ msgstr "使用者密碼"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "NIS 認證"
+
+#~ msgid "NIS Domain"
+#~ msgstr "NIS 網域"
+
+#~ msgid "NIS Server"
+#~ msgstr "NIS 伺服器"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "要能夠在 W2K PDC 下正常使用，您或許需要使用管理者權限在 Windows 主機那邊執"
+#~ "行：C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add然後重新啟動伺服器。\n"
+#~ "您另外還需要網域管理者帳號密碼以便於能夠加入機器到 Windows(TM) 網域內。\n"
+#~ "如果網路沒有被啟用，DrakX 程式會於網路設定步驟後企圖加入網域若是這樣設定失"
+#~ "敗且網域認證莫名其妙不能作用的話，執行'smbpasswd -j DOMAIN -U USER%%"
+#~ "PASSWORD' 指令，其中的 DOMAIN 為你的 Windows(tm) 網域名稱，USER 與 "
+#~ "PASSWORD 為管理者的帳號與密碼。\n"
+#~ "最後使用 'wbinfo -t' 測試確認認證功能是否可以正常工作。"
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Windows 網域認證"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "網域管理者名稱"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "網域管理者密碼"
+
+#~ msgid "Authentication"
+#~ msgstr "認證方式"
+
+#~ msgid "Set administrator (root) password"
+#~ msgstr "設定管理者 (root) 密碼"
+
+#~ msgid "Authentication method"
+#~ msgstr "認證方式"
+
+#~ msgid "No password"
+#~ msgstr "沒有密碼"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr "這個密碼太短了 (至少要有 %d 個字元才行)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "沒有 NIS 網域無法使用廣播 (broadcast)"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "歡迎使用作業系統選擇程式！\n"
+#~ "\n"
+#~ "請由上面的清單中選擇一個作業系統或者\n"
+#~ "稍待由預設的作業系統開機。\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO 文字介面選單"
+
+#~ msgid "GRUB with graphical menu"
+#~ msgstr "GRUB 圖形介面選單"
+
+#~ msgid "GRUB with text menu"
+#~ msgstr "GRUB 文字介面選單"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaboot"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "/boot 沒有足夠的空間"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "您無法把開機載入程式安裝在 %s 分割區上\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr "因為您的分割區被重新編號過，所以開機載入程式的設定必須更新"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr "開機載入程式無法正確安裝。您必須以 rescue 開機並選擇 \"%s\""
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "重新安裝開機載入程式"
+
+#~ msgid "B"
+#~ msgstr "B"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d 分鐘"
+
+#~ msgid "1 minute"
+#~ msgstr "1 分鐘"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d 秒"
+
+#~ msgid "command %s missing"
+#~ msgstr "指令 %s 遺失"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV 是一個讓您從本地端掛載網路伺服器的目錄的通訊協定，並像本地端檔案\n"
+#~ "系統一樣處理它 (需要該網路伺服器設定為 WebDAV 伺服器)。如果您想要增加\n"
+#~ " WebDAV 掛載點，請選擇 \"新增\"。"
+
+#~ msgid "New"
+#~ msgstr "新增"
+
+#~ msgid "Unmount"
+#~ msgstr "卸載"
+
+#~ msgid "Mount"
+#~ msgstr "掛載"
+
+#~ msgid "Mount point"
+#~ msgstr "掛載點"
+
+#~ msgid "Error"
+#~ msgstr "錯誤"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "請輸入 WevDAV 主機 URL"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL 格式必須為 http:// 或是 https://"
+
+#~ msgid "Server: "
+#~ msgstr "伺服器："
+
+#~ msgid "Mount point: "
+#~ msgstr "掛載點："
+
+#~ msgid "Options: %s"
+#~ msgstr "選項： %s"
+
+#~ msgid "Partitioning"
+#~ msgstr "分割磁區"
+
+#~ msgid "Read carefully!"
+#~ msgstr "仔細閱讀！"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "請您先備份您的資料"
+
+#~ msgid "Exit"
+#~ msgstr "離開"
+
+#~ msgid "Continue"
+#~ msgstr "繼續"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "如果您打算使用 aboot 程式的話，請注意您至少需要在磁碟最前端保留一塊可用的"
+#~ "空間 (2048 扇區就足夠了)"
+
+#~ msgid "Choose action"
+#~ msgstr "選擇動作"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "您有一個很大的 Microsoft Windows 分割區。\n"
+#~ "建議您先重新改變這個分割區的大小\n"
+#~ "(點選它，然後按 \"重新改變大小\")"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "請點選一個分割區"
+
+#~ msgid "Details"
+#~ msgstr "詳細資訊"
+
+#~ msgid "No hard drives found"
+#~ msgstr "找不到硬碟裝置"
+
+#~ msgid "Unknown"
+#~ msgstr "未知的"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "日誌式檔案系統 (JFS)"
+
+#~ msgid "Swap"
+#~ msgstr "Swap"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "空白"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "檔案系統格式："
+
+#~ msgid "This partition is already empty"
+#~ msgstr "這個分割區已經是空白的了"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "要先 ``Unmount''"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "用 ``%s'' 代替"
+
+#~ msgid "Type"
+#~ msgstr "格式"
+
+#~ msgid "Choose another partition"
+#~ msgstr "選擇另一個分割區"
+
+#~ msgid "Choose a partition"
+#~ msgstr "選擇一個分割區"
+
+#~ msgid "Undo"
+#~ msgstr "復原"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "切換到一般模式"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "切換到專家模式"
+
+#~ msgid "Confirmation"
+#~ msgstr "確認"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "無論如何都要繼續嗎？"
+
+#~ msgid "Quit without saving"
+#~ msgstr "不儲存就離開"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "放棄寫入硬碟分割表就離開？"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "您想要儲存對 /etc/fstab 檔案的修改嗎？"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr "您必須重新開機以使更動過的硬碟分割表生效"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "您應該格式化分割區 %s。\n"
+#~ "否則掛載點 %s 的資訊將不會寫入 fstab 中。\n"
+#~ "仍然要離開嗎？"
+
+#~ msgid "Clear all"
+#~ msgstr "全部清除"
+
+#~ msgid "Auto allocate"
+#~ msgstr "自動分配"
+
+#~ msgid "More"
+#~ msgstr "更多"
+
+#~ msgid "Hard drive information"
+#~ msgstr "硬碟資訊"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "主分割區數目已經全被用了"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "我無法再新增任何分割區了"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr "需要有更多的分割區的話，請刪除一個主分割區以建立延伸分割區"
+
+#~ msgid "No supermount"
+#~ msgstr "不使用 supermount"
+
+#~ msgid "Supermount"
+#~ msgstr "Supermount"
+
+#~ msgid "Supermount except for CDROM drives"
+#~ msgstr "在光碟機以外的裝置使用 supermount"
+
+#~ msgid "Save partition table"
+#~ msgstr "寫入硬碟分割表"
+
+#~ msgid "Restore partition table"
+#~ msgstr "回存硬碟分割表"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "搶救硬碟分割表"
+
+#~ msgid "Reload partition table"
+#~ msgstr "重新載入硬碟分割表"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "自動掛載可移除式裝置"
+
+#~ msgid "Select file"
+#~ msgstr "選擇檔案"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "備份的硬碟分割表有不一樣的大小\n"
+#~ "要繼續嗎？"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "正在試圖救回硬碟分割表"
+
+#~ msgid "Detailed information"
+#~ msgstr "詳細資訊"
+
+#~ msgid "Resize"
+#~ msgstr "重新變更大小"
+
+#~ msgid "Format"
+#~ msgstr "格式化"
+
+#~ msgid "Add to RAID"
+#~ msgstr "加入到磁碟陣列"
+
+#~ msgid "Add to LVM"
+#~ msgstr "加入到 LVM"
+
+#~ msgid "Delete"
+#~ msgstr "刪除"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "由磁碟陣列中移除"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "由 LVM 中移除"
+
+#~ msgid "Modify RAID"
+#~ msgstr "變更磁碟陣列"
+
+#~ msgid "Use for loopback"
+#~ msgstr "作為 loopback"
+
+#~ msgid "Create"
+#~ msgstr "建立"
+
+#~ msgid "Create a new partition"
+#~ msgstr "建立新的分割區"
+
+#~ msgid "Start sector: "
+#~ msgstr "開始的磁區："
+
+#~ msgid "Size in MB: "
+#~ msgstr "大小 (MB)："
+
+#~ msgid "Filesystem type: "
+#~ msgstr "檔案系統格式："
+
+#~ msgid "Preference: "
+#~ msgstr "偏好設定："
+
+#~ msgid "Logical volume name "
+#~ msgstr "邏輯磁區名稱"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "您無法建立新的分割區\n"
+#~ "(因為您已經達到主分割區的最大值)。\n"
+#~ "您需要先移除一個主分割區然後建立一個延伸分割區。"
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "移除 loopback 檔案？"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr "改變分割區 %s 的格式以後，所有在這個分割區上的資料都會遺失"
+
+#~ msgid "Change partition type"
+#~ msgstr "改變分割區格式"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "您要用那一種檔案系統？"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "由 ext2 正在切換到 ext3"
+
+#~ msgid "Which volume label?"
+#~ msgstr "哪一個磁區標籤？"
+
+#~ msgid "Label:"
+#~ msgstr "標籤："
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "您要把 loopback 檔案 %s 掛載在那裡？"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "您要把這個裝置 %s 掛載在那裡？"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "因為這個分割區被用作 loop back 使用，所以無法解除\n"
+#~ "這個掛載點。請先取消 loopback 的設定"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "您要將 %s 掛載在那裡？"
+
+#~ msgid "Resizing"
+#~ msgstr "正在重設大小"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "正在計算 FAT 分割區的邊界"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "這個分割區無法重新調整大小"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "所有在這個分割區上的資料都應該先經過備份"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr "在改變分割區 %s 的大小以後，所有在這個分割區上的資料都會遺失"
+
+#~ msgid "Choose the new size"
+#~ msgstr "選取新的大小"
+
+#~ msgid "New size in MB: "
+#~ msgstr "新大小 (MB)："
+
+#~ msgid "Minimum size: %s MB"
+#~ msgstr "最小容量：%s MB"
+
+#~ msgid "Maximum size: %s MB"
+#~ msgstr "最大容量：%s MB"
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "為確保重新調整分割區大小後的資料正確性，當您下次從 Windows(TM)\n"
+#~ "開機時便會執行檔案系統檢查。"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "選取一存在的磁碟陣列加入到"
+
+#~ msgid "new"
+#~ msgstr "新增"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "選取一個已經存在的 LVM 以加入"
+
+#~ msgid "LVM name?"
+#~ msgstr "LVM 名稱？"
+
+#~ msgid ""
+#~ "Physical volume %s is still in use.\n"
+#~ "Do you want to move used physical extents on this volume to other volumes?"
+#~ msgstr ""
+#~ "實體磁區 %s 仍然在使用中。\n"
+#~ "您要把位於這個磁區的實體延伸移到另一個磁區嗎？"
+
+#~ msgid "Moving physical extents"
+#~ msgstr "移動實體延伸"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "這個分割區不能用來作為 loopback"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Loopback 檔案名稱："
+
+#~ msgid "Give a file name"
+#~ msgstr "輸入一個檔案名稱"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr "檔案已被用來作為其他的 loopback，請選擇其他檔案"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "檔案已經存在了。要使用它嗎？"
+
+#~ msgid "Mount options"
+#~ msgstr "掛載參數"
+
+#~ msgid "Various"
+#~ msgstr "各種的"
+
+#~ msgid "device"
+#~ msgstr "裝置"
+
+#~ msgid "level"
+#~ msgstr "階層"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "組塊大小以 KiB 計量"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "請小心：這個動作很危險。"
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "以那種形式分割？"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "您需要重新開機以便於讓異動的設定生效"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "正在準備將要寫入磁碟 %s 的硬碟分割表！"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "在對分割區 %s 進行格式化的動作以後，所有在這個分割區上的資料都會遺失"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "檢查壞掉的區塊？"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "將檔案搬移到新的分割區"
+
+#~ msgid "Hide files"
+#~ msgstr "隱藏檔案"
+
+#~ msgid ""
+#~ "Directory %s already contains data\n"
+#~ "(%s)\n"
+#~ "\n"
+#~ "You can either choose to move the files into the partition that will be "
+#~ "mounted there or leave them where they are (which results in hiding them "
+#~ "by the contents of the mounted partition)"
+#~ msgstr ""
+#~ "目錄 %s 裡面已經含有資料了\n"
+#~ "(%s)\n"
+#~ "\n"
+#~ "您可以選擇把檔案移入要掛載到此的磁區中，或者把它們留在原地 (這會讓它們隱藏"
+#~ "起來，而目錄中顯示出來的會是掛載上的磁區內容)"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "正在將檔案搬移到新的分割區"
+
+#~ msgid "Copying %s"
+#~ msgstr "正在複製 %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "正在移除 %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "分割區 %s 現在被命名為 %s 了"
+
+#~ msgid "Partitions have been renumbered: "
+#~ msgstr "分割區已經重新編號："
+
+#~ msgid "Device: "
+#~ msgstr "裝置："
+
+#~ msgid "Volume label: "
+#~ msgstr "磁區標籤："
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "DOS 磁碟代號：%s (猜測值)\n"
+
+#~ msgid "Type: "
+#~ msgstr "格式："
+
+#~ msgid "Name: "
+#~ msgstr "名稱："
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "始於：第 %s 扇區\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "大小：%s"
+
+#~ msgid ", %s sectors"
+#~ msgstr "，%s 扇區"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "%d 磁柱到第 %d 磁柱\n"
+
+#~ msgid "Number of logical extents: %d\n"
+#~ msgstr "邏輯延伸的數目：%d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "已格式化\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "未格式化\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "已掛載\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "磁碟陣列 %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "loopback 檔案：\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "預設開機的分割區\n"
+#~ "    (給 MS-DOS 開機程式用的，跟 lilo 無關)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "階層 %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "組塊大小 %d KiB\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "磁碟陣列-磁碟 %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Loopback 檔案名稱： %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "可能是這樣的，這個分割區\n"
+#~ "是透過驅動程式產生出來的\n"
+#~ "您應該不要去異動這個分割區資料。\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "這個特殊分割區是用來作為\n"
+#~ "雙重開機使用的。\n"
+
+#~ msgid "Read-only"
+#~ msgstr "唯讀"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "大小：%s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "幾何：%s 磁柱，%s 讀寫頭，%s 扇區\n"
+
+#~ msgid "Info: "
+#~ msgstr "資訊："
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-磁碟 %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "硬碟分割表形式：%s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "位在通道 %d id %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "檔案系統加密金鑰"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "選擇您檔案系統所使用的加密金鑰"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr "這個加密金鑰太簡單了 (至少要有 %d 個字元才行)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "輸入的加密金鑰不符合"
+
+#~ msgid "Encryption key"
+#~ msgstr "加密金鑰"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "再次輸入加密金鑰"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "加密演算法"
+
+#~ msgid "Change type"
+#~ msgstr "改變分割區格式"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr "無法使用 %s 使用者名稱登入系統 (密碼錯誤?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "需要 Domain 認證"
+
+#~ msgid "Which username"
+#~ msgstr "那個使用者名稱"
+
+#~ msgid "Another one"
+#~ msgstr "另外一個"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "請輸入你的使用者名稱，密碼以及網域名稱，以便於能夠連線存取這個主機。"
+
+#~ msgid "Username"
+#~ msgstr "使用者名稱"
+
+#~ msgid "Search servers"
+#~ msgstr "搜尋伺服器"
+
+#~ msgid "Search new servers"
+#~ msgstr "搜尋新的伺服器"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr "需要安裝 %s 這個套件，您要安裝它嗎？"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "無法安裝 %s 套件！"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "遺失了必要的 %s 套件"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "需要安裝下列套件：\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "正在安裝套件..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "正在移除套件..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "發生了一個錯誤 - 找不到任何有效的裝置可以用來建立新的檔案系統，請檢查您的"
+#~ "硬體以找出問題的原因所在"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "您必須有一個掛載於 /boot/efi 的 FAT 分割區"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "正在格式化分割區 %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "建立並格式化檔案 %s"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "不知道要如何將 %s 格式化為 %s 格式"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "以 %s 格式化 %s 失敗"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "循環掛載 %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "正在掛載分割區 %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "正在將 %s 分割區掛載於 %s 目錄時失敗"
+
+#~ msgid "Checking %s"
+#~ msgstr "檢查 %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "卸下 %s 的掛載時發生錯誤：%s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "正在啟用 swap 分割區 %s"
+
+#~ msgid "Use an encrypted file system"
+#~ msgstr "使用加密的檔案系統"
+
+#~ msgid "Enable group disk quota accounting and optionally enforce limits"
+#~ msgstr "啟用群組磁碟配額計算與選擇性的執行限制"
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "只能手動掛載 (亦即 mount 時使用 -a 參數將不會\n"
+#~ "自動掛載這個檔案系統)。"
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "不允許 set-user-identifier 或 set-group-identifier 作用。\n"
+#~ "(這樣似乎是安全的，但當您有安裝 suidperl(1) 時則不然。)"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "以唯讀方式掛載檔案系統。"
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "所有對於此檔案系統的存取 (I/O) 動作必須同步。"
+
+#~ msgid "Allow every user to mount and umount the file system."
+#~ msgstr "允許所有的使用者掛載與卸載這個檔案系統。"
+
+#~ msgid "Allow an ordinary user to mount the file system."
+#~ msgstr "允許一般使用者掛載這個檔案系統。"
+
+#~ msgid "Enable user disk quota accounting, and optionally enforce limits"
+#~ msgstr "啟用使用者磁碟配額計算與選擇性的執行限制"
+
+#~ msgid "Support \"user.\" extended attributes"
+#~ msgstr "支援 \"user.\" 延伸屬性"
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "授予寫入權限給一般使用者"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "授予唯讀權限給一般使用者"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "重複的掛載點 %s"
+
+#~ msgid "No partition available"
+#~ msgstr "沒有可用的分割區"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "正在掃描分割區以尋找掛載點"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "選取掛載點"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "選擇要格式化的分割區"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr "無法檢查檔案系統 %s。您要修復該錯誤嗎？ (請注意，您可能會遺失資料)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr "沒有足夠的置換空間 (swap) 可以用來完成安裝，請增加一些"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "您必須指定一個分割區來放根目錄。\n"
+#~ "請建立一個分割區 (或點選一個已經存在的)，\n"
+#~ "接著選動作 \"掛載點\" 且把它設成 \"/\""
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "您沒有設定置換分割區 (swap)。\n"
+#~ "\n"
+#~ "不管如何都要繼續？"
+
+#~ msgid "Use free space"
+#~ msgstr "使用未用到的空間"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "沒有足夠的空間可以建立新的分割區了"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "使用已經存在的分割區"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "沒有已經存在的分割區可供使用"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "使用 Microsoft Windows® 分割區作為 loopback"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "您希望要用那個分割區給 Linux4Win 來使用呢？"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "選取大小"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "根分割區的大小 (MB)："
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "置換分割區 (swap) 的大小 (MB)："
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "沒有可用的 FAT 分割區能當成 loopback 使用 (或者是沒有足夠的剩餘空間)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "使用 Windows 分割區所剩餘的可用空間"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "您要重新調整那個分割區的大小？"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "FAT 容量調整程式無法處理您的分割區，\n"
+#~ "發生了以下的錯誤： %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "正在計算 Microsoft Windows® 分割區大小"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "您的 Microsoft Windows® 分割區太支離破碎。請先用 Microsoft Windows® 重新開"
+#~ "機，執行 ``defrag'' 工具程式，然後重新開始安裝 Mandriva Linux 。"
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "警告！\n"
+#~ "\n"
+#~ "\n"
+#~ "DrakX 現在將要重新調整您 Windows 分割區的大小。\n"
+#~ "\n"
+#~ "\n"
+#~ "請注意：這個動作是很危險的。如果您不曾做過，您必須先離開安裝程式，在 "
+#~ "Windows 命令提示字元下執行 \"chkdsk c:\" (請注意，執行圖形介面的程式"
+#~ "\"scandisk\" 並不夠，請確定是在命令提示下使用 \"chkdsk\"！)，您還可以額外"
+#~ "執行 defrag，然後重新開始安裝。您也應該備份您的資料。\n"
+#~ "\n"
+#~ "\n"
+#~ "當您確定之後，請按下%s。"
+
+#~ msgid "Next"
+#~ msgstr "下一步"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "您要保留多少空間給 Microsoft Windows® 使用"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "大小：%s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "正在重新調整 Microsoft Windows® 分割區大小"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "FAT 重新調整大小失敗： %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr "沒有 FAT 分割區能夠調整大小 (或者是沒足夠空間剩下)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "移除 Microsoft Windows®"
+
+#~ msgid "Erase and use entire disk"
+#~ msgstr "清除並使用整個磁碟"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr "您有多個硬碟，您打算用那一個來安裝 linux？"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr "所有在 %s 磁碟上的已經存在的分割區跟他們的資料都將會遺失"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "自訂磁碟分割"
+
+#~ msgid "Use fdisk"
+#~ msgstr "使用 fdisk"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "您現在可以對 %s 分割區進行劃分動作.\n"
+#~ "當您完成時, 別忘了使用 'w' 儲存"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "找不到任何可用的安裝空間"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "DrakX 分割精靈找到了下列方案："
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "硬碟分割失敗：%s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "小於 16MB 的分割區不能使用 JFS 格式"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr "小於 32MB 的分割區不能使用 ReiserFS 格式"
+
+#~ msgid "with /usr"
+#~ msgstr "將 /usr 分別掛載"
+
+#~ msgid "server"
+#~ msgstr "伺服器"
+
+#~ msgid "BIOS software RAID detected on disks %s. Activate it?"
+#~ msgstr "在磁碟機 %s 偵測到 BIOS 軟體 RAID。要啟用嗎？"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "我無法讀取 %s 裝置的磁碟分割表，它已經嚴重毀損：(我\n"
+#~ "可以試著繼續，並清除壞掉的分割區 (將失去所有資料！)。\n"
+#~ "另一種方法是不允許 DrakX 更改磁碟分割表。\n"
+#~ "(錯誤是 %s)\n"
+#~ "\n"
+#~ "您同意要清除所有的分割區嗎？\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "掛載點必需以 / 開頭"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "掛載點應該只有包含英文字母與數字與底線這類字元"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "已經有分割區分配到掛載點 %s 了\n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "您選擇了將一塊軟體磁碟陣列的分割區作為根目錄 (/) 的掛載點。\n"
+#~ "但開機載入程式無法處理這種 /boot 目錄不位於實體分割區的情況。\n"
+#~ "請確定會新增一個掛載於實體分割區的 /boot 目錄"
+
+#~ msgid ""
+#~ "You can not use the LVM Logical Volume for mount point %s since it spans "
+#~ "physical volumes"
+#~ msgstr "您不能使用 LVM 邏輯磁區來作為 %s 的掛載點，因為它跨越了實體磁區"
+
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "您選擇了一塊 LVM 邏輯磁區作為根目錄 (/) 。\n"
+#~ "但開機載入程式無法在這個磁區跨越了實體磁區的情況下運作。\n"
+#~ "您應該先建立一個 /boot 分割區"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "這個目錄應該放在根檔案系統 (/) 才對"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "您需要一個真正的檔案系統 (ext2/ext3、reiserfs、xfs 或是 jfs) 來放這個掛載"
+#~ "點\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr "您不能使用加密過的檔案系統來作為 %s 的掛載點"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "沒有足夠的空間來進行自動配置"
+
+#~ msgid "Nothing to do"
+#~ msgstr "沒有做任何動作"
+
+#~ msgid "Floppy"
+#~ msgstr "軟碟機"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "硬碟"
+
+#~ msgid "CDROM"
+#~ msgstr "光碟機"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD 燒錄器"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "磁帶"
+
+#~ msgid "AGP controllers"
+#~ msgstr "AGP 控制器"
+
+#~ msgid "Videocard"
+#~ msgstr "顯示卡"
+
+#~ msgid "DVB card"
+#~ msgstr "數位電視卡"
+
+#~ msgid "Tvcard"
+#~ msgstr "電視卡"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "其他多媒體裝置"
+
+#~ msgid "Soundcard"
+#~ msgstr "音效卡"
+
+#~ msgid "Webcam"
+#~ msgstr "網路攝影機"
+
+#~ msgid "Processors"
+#~ msgstr "處理器"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "ISDN 介面卡"
+
+#~ msgid "USB sound devices"
+#~ msgstr "USB 音效裝置"
+
+#~ msgid "Radio cards"
+#~ msgstr "廣播卡"
+
+#~ msgid "ATM network cards"
+#~ msgstr "ATM 網路卡"
+
+#~ msgid "WAN network cards"
+#~ msgstr "WAN 網路卡"
+
+#~ msgid "Bluetooth devices"
+#~ msgstr "藍芽裝置"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "乙太網路介面卡"
+
+#~ msgid "Modem"
+#~ msgstr "數據機"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "ADSL 介面卡"
+
+#~ msgid "Memory"
+#~ msgstr "記憶體"
+
+#~ msgid "Printer"
+#~ msgstr "印表機"
+
+#~ msgid "Game port controllers"
+#~ msgstr "搖桿埠控制器"
+
+#~ msgid "Joystick"
+#~ msgstr "搖桿"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA 控制器"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID 控制器"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "(E)IDE/ATA 控制器"
+
+#~ msgid "USB Mass Storage Devices"
+#~ msgstr "USB 大量儲存裝置"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Firewire 控制器"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "PCMCIA 控制器"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "SCSI 控制器"
+
+#~ msgid "USB controllers"
+#~ msgstr "USB 控制器"
+
+#~ msgid "USB ports"
+#~ msgstr "USB 埠"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "SMBus 控制器"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "橋樑與系統控制器"
+
+#~ msgid "Tablet and touchscreen"
+#~ msgstr "Tablet 與觸控螢幕"
+
+#~ msgid "Mouse"
+#~ msgstr "滑鼠"
+
+#~ msgid "UPS"
+#~ msgstr "UPS 不斷電系統"
+
+#~ msgid "Scanner"
+#~ msgstr "掃描器"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "未知/其他"
+
+#~ msgid "cpu # "
+#~ msgstr "CPU 編號"
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr "請稍待... 正在套用該設定"
+
+#~ msgid "No alternative driver"
+#~ msgstr "沒有其他可供選擇的驅動程式"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "您的音效卡 (%s) 正在使用 \"%s\" 驅動程式，目前沒有其他可供選擇的 OSS/ALSA "
+#~ "驅動程式支援它"
+
+#~ msgid "Sound configuration"
+#~ msgstr "音效設定"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr "您可以選擇使用其他的 (OSS 或者 ALSA) 的驅動程式給您的音效卡 (%s)"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "您的音效卡現在正在使用 %s\"%s\" 驅動程式 (您的音效卡預設的驅動程式為 \"%s"
+#~ "\")"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Open Sound System) 是最早的音效 API。它是一套不依賴於作業系統的音效 "
+#~ "API (可用於大多數的 UNIX(tm) 系統)，但它的功能非常基本且有限。\n"
+#~ "甚至，OSS 的驅動程式還重新開發已有的功能。\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) 是一個模組化的架構並且\n"
+#~ "支援相當多的 ISA、USB 與 PCI 音效卡。\n"
+#~ "\n"
+#~ "它同時也提供了一個較 OSS 高階的 API。\n"
+#~ "\n"
+#~ "若使用 ALSA，您可以選擇要使用：\n"
+#~ "- 相容於 OSS 的舊 API\n"
+#~ "- 提供許多強化的功能但需要使用 ALSA 函式庫的新 ALSA API。\n"
+
+#~ msgid "Driver:"
+#~ msgstr "驅動程式："
+
+#~ msgid "Trouble shooting"
+#~ msgstr "疑難排解"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "舊的 \"%s\" 驅動程式已被列入黑名單。\n"
+#~ "\n"
+#~ "它曾被回報會導致核心在解除模組時產生 Oops 錯誤。\n"
+#~ "\n"
+#~ "於下一次開機時將只會使用新的 \"%s\" 驅動程式。"
+
+#~ msgid "No open source driver"
+#~ msgstr "無開放原始碼的驅動程式可用"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr "您的音效卡 (%s) 沒有自由的驅動程式，但是有私有的驅動程式於 \"%s\"."
+
+#~ msgid "No known driver"
+#~ msgstr "無已知的驅動程式"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "您使用的音效卡尚未有已知的驅動程式 (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "未知的驅動程式"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr "錯誤：您的音效卡驅動程式 \"%s\" 不在列表中"
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "音效問題排除"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "傳統的音效除錯與測試是執行以下指令：\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" 會告訴您您的音效卡預設使用何種驅動程"
+#~ "式。\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" 將告訴您正在使用何種驅動程式。\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" 讓您可以檢查音效模組 (驅動程式) 是否已經載入。\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" 與 \"/sbin/chkconfig --list alsa\" 將\n"
+#~ "告訴您音效與 ALSA 服務是否被設定為在 initlevel 3 執行。\n"
+#~ "\n"
+#~ "- \"aumix -q\" 會告訴您音量是否設為靜音\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" 將指出哪個程式在使用音效卡。\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "讓我選擇任何驅動程式"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "正在選擇任意的驅動程式"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "如果您真的認為您知道您音效卡應該使用那個驅動程式\n"
+#~ "您可以在上面的列表中自己選取。\n"
+#~ "\n"
+#~ "目前您的音效卡 \"%s\" 使用的驅動程式是 \"%s\"。"
+
+#~ msgid "Auto-detect"
+#~ msgstr "自動偵測"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "未知|一般"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "未知|CPH05X (bt878) [許多廠商]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "未知|CPH06X (bt878) [許多廠商]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "對於目前大部分的電視卡，GNU/Linux 核心的 bttv 模組都能夠正確的偵測正確的參"
+#~ "數。\n"
+#~ "若是無法正確偵測您的電視卡的話，您可以在這邊直接指定正確的電視頻道與電視卡"
+#~ "型號。若需要的話請直接選擇您的電視卡卡參數。"
+
+#~ msgid "Card model:"
+#~ msgstr "介面卡型號："
+
+#~ msgid "Tuner type:"
+#~ msgstr "調頻類型："
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "擷取緩衝的數量："
+
+#~ msgid "PLL setting:"
+#~ msgstr "PLL 設定："
+
+#~ msgid "Radio support:"
+#~ msgstr "音效支援："
+
+#~ msgid "enable radio support"
+#~ msgstr "啟用音效支援"
+
+#~ msgid "Yes"
+#~ msgstr "是的"
+
+#~ msgid "No"
+#~ msgstr "否"
+
+#~ msgid "Choose a file"
+#~ msgstr "選擇一個檔案"
+
+#~ msgid "Add"
+#~ msgstr "新增"
+
+#~ msgid "Modify"
+#~ msgstr "修改"
+
+#~ msgid "Remove"
+#~ msgstr "移除"
+
+#~ msgid "Finish"
+#~ msgstr "完成"
+
+#~ msgid "Previous"
+#~ msgstr "上一步"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "壞選擇，再試一遍\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "您的選擇為？(預設為 %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "您需要輸入的欄位：\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "您的選擇為？(0/1，預設為 `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "按鈕 `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "您要按這個按鈕嗎？"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "您的選擇為？(預設為 `%s'%s) "
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " 輸入 `void' 表示空的項目"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> (%s) 上有很多的事物可供選擇。\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "請選取前 10 個項目中您要編輯的第一個數字，或者直接按下 Enter 繼續。\n"
+#~ "您選擇是？"
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> 請注意，一個標籤已經變更了：\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "重新送出"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "安道爾"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "阿拉伯聯合大公國"
+
+#~ msgid "Afghanistan"
+#~ msgstr "阿富汗"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "安提瓜及巴布達"
+
+#~ msgid "Anguilla"
+#~ msgstr "安圭拉島"
+
+#~ msgid "Albania"
+#~ msgstr "阿爾巴尼亞"
+
+#~ msgid "Armenia"
+#~ msgstr "亞美尼亞"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "荷屬安地列斯群島"
+
+#~ msgid "Angola"
+#~ msgstr "安哥拉"
+
+#~ msgid "Antarctica"
+#~ msgstr "南極洲"
+
+#~ msgid "Argentina"
+#~ msgstr "阿根廷"
+
+#~ msgid "American Samoa"
+#~ msgstr "美屬薩摩亞"
+
+#~ msgid "Austria"
+#~ msgstr "奧地利"
+
+#~ msgid "Australia"
+#~ msgstr "澳洲"
+
+#~ msgid "Aruba"
+#~ msgstr "阿魯巴島"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "亞塞拜然"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "波士尼亞與赫塞哥維納"
+
+#~ msgid "Barbados"
+#~ msgstr "巴貝多"
+
+#~ msgid "Bangladesh"
+#~ msgstr "孟加拉"
+
+#~ msgid "Belgium"
+#~ msgstr "比利時"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "布吉納法索"
+
+#~ msgid "Bulgaria"
+#~ msgstr "保加利亞"
+
+#~ msgid "Bahrain"
+#~ msgstr "巴林"
+
+#~ msgid "Burundi"
+#~ msgstr "蒲隆地"
+
+#~ msgid "Benin"
+#~ msgstr "貝南"
+
+#~ msgid "Bermuda"
+#~ msgstr "百慕達"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "汶萊"
+
+#~ msgid "Bolivia"
+#~ msgstr "玻利維亞"
+
+#~ msgid "Brazil"
+#~ msgstr "巴西"
+
+#~ msgid "Bahamas"
+#~ msgstr "巴哈馬"
+
+#~ msgid "Bhutan"
+#~ msgstr "不丹"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "波維特島"
+
+#~ msgid "Botswana"
+#~ msgstr "波札那"
+
+#~ msgid "Belarus"
+#~ msgstr "白俄羅斯"
+
+#~ msgid "Belize"
+#~ msgstr "貝里斯"
+
+#~ msgid "Canada"
+#~ msgstr "加拿大"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "可可斯群島"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "剛果 (金夏沙)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "中非共和國"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "剛果 (布拉柴維爾)"
+
+#~ msgid "Switzerland"
+#~ msgstr "瑞士"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "象牙海岸"
+
+#~ msgid "Cook Islands"
+#~ msgstr "庫克群島"
+
+#~ msgid "Chile"
+#~ msgstr "智利"
+
+#~ msgid "Cameroon"
+#~ msgstr "喀麥隆"
+
+#~ msgid "China"
+#~ msgstr "中國"
+
+#~ msgid "Colombia"
+#~ msgstr "哥倫比亞"
+
+#~ msgid "Costa Rica"
+#~ msgstr "哥斯大黎加"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "塞爾維亞與蒙特內哥羅"
+
+#~ msgid "Cuba"
+#~ msgstr "古巴"
+
+#~ msgid "Cape Verde"
+#~ msgstr "維德角島"
+
+#~ msgid "Christmas Island"
+#~ msgstr "聖誕島"
+
+#~ msgid "Cyprus"
+#~ msgstr "賽普勒斯"
+
+#~ msgid "Czech Republic"
+#~ msgstr "捷克共和國"
+
+#~ msgid "Germany"
+#~ msgstr "德國"
+
+#~ msgid "Djibouti"
+#~ msgstr "吉布地"
+
+#~ msgid "Denmark"
+#~ msgstr "丹麥"
+
+#~ msgid "Dominica"
+#~ msgstr "多米尼克聯邦"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "多明尼加共和國"
+
+#~ msgid "Algeria"
+#~ msgstr "阿爾及利亞"
+
+#~ msgid "Ecuador"
+#~ msgstr "厄瓜多"
+
+#~ msgid "Estonia"
+#~ msgstr "愛沙尼亞"
+
+#~ msgid "Egypt"
+#~ msgstr "埃及"
+
+#~ msgid "Western Sahara"
+#~ msgstr "西撒哈拉"
+
+#~ msgid "Eritrea"
+#~ msgstr "厄利垂亞"
+
+#~ msgid "Spain"
+#~ msgstr "西班牙"
+
+#~ msgid "Ethiopia"
+#~ msgstr "依索比亞"
+
+#~ msgid "Finland"
+#~ msgstr "芬蘭"
+
+#~ msgid "Fiji"
+#~ msgstr "斐濟群島"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "福克蘭群島"
+
+#~ msgid "Micronesia"
+#~ msgstr "密克羅尼西亞"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "法羅群島"
+
+#~ msgid "France"
+#~ msgstr "法國"
+
+#~ msgid "Gabon"
+#~ msgstr "加彭"
+
+#~ msgid "United Kingdom"
+#~ msgstr "英國"
+
+#~ msgid "Grenada"
+#~ msgstr "格瑞那達"
+
+#~ msgid "Georgia"
+#~ msgstr "喬治亞"
+
+#~ msgid "French Guiana"
+#~ msgstr "法屬幾內亞"
+
+#~ msgid "Ghana"
+#~ msgstr "迦納"
+
+#~ msgid "Gibraltar"
+#~ msgstr "直布羅陀"
+
+#~ msgid "Greenland"
+#~ msgstr "格陵蘭島"
+
+#~ msgid "Gambia"
+#~ msgstr "甘比亞"
+
+#~ msgid "Guinea"
+#~ msgstr "幾內亞"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "瓜德魯普島"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "赤道幾內亞"
+
+#~ msgid "Greece"
+#~ msgstr "希臘"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "南喬治亞與南三明治群島"
+
+#~ msgid "Guatemala"
+#~ msgstr "瓜地馬拉"
+
+#~ msgid "Guam"
+#~ msgstr "關島"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "幾內亞比索"
+
+#~ msgid "Guyana"
+#~ msgstr "蓋亞那"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "香港特區 (中國)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "赫德及麥當勞群島"
+
+#~ msgid "Honduras"
+#~ msgstr "宏都拉斯"
+
+#~ msgid "Croatia"
+#~ msgstr "克羅地亞"
+
+#~ msgid "Haiti"
+#~ msgstr "海地"
+
+#~ msgid "Hungary"
+#~ msgstr "匈牙利"
+
+#~ msgid "Indonesia"
+#~ msgstr "印度尼西亞"
+
+#~ msgid "Ireland"
+#~ msgstr "愛爾蘭"
+
+#~ msgid "Israel"
+#~ msgstr "以色列"
+
+#~ msgid "India"
+#~ msgstr "印度"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "大不列顛印度洋領土"
+
+#~ msgid "Iraq"
+#~ msgstr "伊拉克"
+
+#~ msgid "Iran"
+#~ msgstr "伊朗"
+
+#~ msgid "Iceland"
+#~ msgstr "冰島"
+
+#~ msgid "Italy"
+#~ msgstr "義大利"
+
+#~ msgid "Jamaica"
+#~ msgstr "牙買加"
+
+#~ msgid "Jordan"
+#~ msgstr "約旦"
+
+#~ msgid "Japan"
+#~ msgstr "日本"
+
+#~ msgid "Kenya"
+#~ msgstr "肯亞"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "吉爾吉斯"
+
+#~ msgid "Cambodia"
+#~ msgstr "柬埔寨"
+
+#~ msgid "Kiribati"
+#~ msgstr "吉里巴斯"
+
+#~ msgid "Comoros"
+#~ msgstr "葛摩"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "聖克里斯多福"
+
+#~ msgid "Korea (North)"
+#~ msgstr "北韓"
+
+#~ msgid "Korea"
+#~ msgstr "韓國"
+
+#~ msgid "Kuwait"
+#~ msgstr "科威特"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "開曼群島"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "哈薩克"
+
+#~ msgid "Laos"
+#~ msgstr "寮國"
+
+#~ msgid "Lebanon"
+#~ msgstr "黎巴嫩"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "聖露西亞"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "列支敦斯登"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "斯里蘭卡"
+
+#~ msgid "Liberia"
+#~ msgstr "利比利亞"
+
+#~ msgid "Lesotho"
+#~ msgstr "賴索托"
+
+#~ msgid "Lithuania"
+#~ msgstr "立陶宛"
+
+#~ msgid "Luxembourg"
+#~ msgstr "盧森堡"
+
+#~ msgid "Latvia"
+#~ msgstr "拉脫維亞"
+
+#~ msgid "Libya"
+#~ msgstr "利比亞"
+
+#~ msgid "Morocco"
+#~ msgstr "摩洛哥"
+
+#~ msgid "Monaco"
+#~ msgstr "摩納哥"
+
+#~ msgid "Moldova"
+#~ msgstr "摩爾多瓦"
+
+#~ msgid "Madagascar"
+#~ msgstr "馬達加斯加"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "馬紹爾群島"
+
+#~ msgid "Macedonia"
+#~ msgstr "馬其頓"
+
+#~ msgid "Mali"
+#~ msgstr "馬里"
+
+#~ msgid "Myanmar"
+#~ msgstr "緬甸"
+
+#~ msgid "Mongolia"
+#~ msgstr "蒙古"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "北馬里亞納群島"
+
+#~ msgid "Martinique"
+#~ msgstr "馬丁尼克"
+
+#~ msgid "Mauritania"
+#~ msgstr "茅利塔尼亞"
+
+#~ msgid "Montserrat"
+#~ msgstr "蒙瑟拉特島"
+
+#~ msgid "Malta"
+#~ msgstr "馬爾他"
+
+#~ msgid "Mauritius"
+#~ msgstr "模里西斯"
+
+#~ msgid "Maldives"
+#~ msgstr "馬爾地夫"
+
+#~ msgid "Malawi"
+#~ msgstr "馬拉威"
+
+#~ msgid "Mexico"
+#~ msgstr "墨西哥"
+
+#~ msgid "Malaysia"
+#~ msgstr "馬來西亞"
+
+#~ msgid "Mozambique"
+#~ msgstr "莫三比克"
+
+#~ msgid "Namibia"
+#~ msgstr "納米比亞"
+
+#~ msgid "New Caledonia"
+#~ msgstr "新喀里多尼亞群島"
+
+#~ msgid "Niger"
+#~ msgstr "尼日"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "諾福克群島"
+
+#~ msgid "Nigeria"
+#~ msgstr "奈及利亞"
+
+#~ msgid "Nicaragua"
+#~ msgstr "尼加拉瓜"
+
+#~ msgid "Netherlands"
+#~ msgstr "荷蘭"
+
+#~ msgid "Norway"
+#~ msgstr "挪威"
+
+#~ msgid "Nepal"
+#~ msgstr "尼泊爾"
+
+#~ msgid "Nauru"
+#~ msgstr "諾魯"
+
+#~ msgid "Niue"
+#~ msgstr "紐威島"
+
+#~ msgid "New Zealand"
+#~ msgstr "紐西蘭"
+
+#~ msgid "Oman"
+#~ msgstr "阿曼"
+
+#~ msgid "Panama"
+#~ msgstr "巴拿馬"
+
+#~ msgid "Peru"
+#~ msgstr "秘魯"
+
+#~ msgid "French Polynesia"
+#~ msgstr "法屬玻里尼西亞"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "巴布亞紐幾內亞"
+
+#~ msgid "Philippines"
+#~ msgstr "菲律賓"
+
+#~ msgid "Pakistan"
+#~ msgstr "巴基斯坦"
+
+#~ msgid "Poland"
+#~ msgstr "波蘭"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "聖匹及密啟倫群島"
+
+#~ msgid "Pitcairn"
+#~ msgstr "皮特康"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "波多黎各"
+
+#~ msgid "Palestine"
+#~ msgstr "巴勒斯坦"
+
+#~ msgid "Portugal"
+#~ msgstr "葡萄牙"
+
+#~ msgid "Paraguay"
+#~ msgstr "巴拉圭"
+
+#~ msgid "Palau"
+#~ msgstr "帛琉群島"
+
+#~ msgid "Qatar"
+#~ msgstr "卡達"
+
+#~ msgid "Reunion"
+#~ msgstr "留尼旺"
+
+#~ msgid "Romania"
+#~ msgstr "羅馬尼亞"
+
+#~ msgid "Russia"
+#~ msgstr "蘇俄"
+
+#~ msgid "Rwanda"
+#~ msgstr "盧旺達"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "沙烏地阿拉伯"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "所羅門群島"
+
+#~ msgid "Seychelles"
+#~ msgstr "塞席爾"
+
+#~ msgid "Sudan"
+#~ msgstr "蘇丹"
+
+#~ msgid "Sweden"
+#~ msgstr "瑞典"
+
+#~ msgid "Singapore"
+#~ msgstr "新加坡"
+
+#~ msgid "Saint Helena"
+#~ msgstr "聖赫勒拿島"
+
+#~ msgid "Slovenia"
+#~ msgstr "斯洛維尼亞"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "斯瓦巴及尖棉島"
+
+#~ msgid "Slovakia"
+#~ msgstr "斯洛伐克"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "獅子山"
+
+#~ msgid "San Marino"
+#~ msgstr "聖馬利諾"
+
+#~ msgid "Senegal"
+#~ msgstr "塞內加爾"
+
+#~ msgid "Somalia"
+#~ msgstr "索馬利亞"
+
+#~ msgid "Suriname"
+#~ msgstr "蘇里南"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "聖多美普林西比"
+
+#~ msgid "El Salvador"
+#~ msgstr "薩爾瓦多"
+
+#~ msgid "Syria"
+#~ msgstr "敘利亞"
+
+#~ msgid "Swaziland"
+#~ msgstr "史瓦濟蘭"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "土克斯及開科斯群島"
+
+#~ msgid "Chad"
+#~ msgstr "查德"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "法屬南半球領地"
+
+#~ msgid "Togo"
+#~ msgstr "多哥"
+
+#~ msgid "Thailand"
+#~ msgstr "泰國"
+
+#~ msgid "Tajikistan"
+#~ msgstr "塔吉克"
+
+#~ msgid "Tokelau"
+#~ msgstr "托克勞群島"
+
+#~ msgid "East Timor"
+#~ msgstr "東帝汶"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "土庫曼"
+
+#~ msgid "Tunisia"
+#~ msgstr "突尼西亞"
+
+#~ msgid "Tonga"
+#~ msgstr "東加"
+
+#~ msgid "Turkey"
+#~ msgstr "土耳其"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "千里達及托巴哥"
+
+#~ msgid "Tuvalu"
+#~ msgstr "吐瓦魯"
+
+#~ msgid "Taiwan"
+#~ msgstr "台灣"
+
+#~ msgid "Tanzania"
+#~ msgstr "坦尚尼亞"
+
+#~ msgid "Ukraine"
+#~ msgstr "烏克蘭"
+
+#~ msgid "Uganda"
+#~ msgstr "烏干達"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "美屬邊疆群島"
+
+#~ msgid "United States"
+#~ msgstr "美國"
+
+#~ msgid "Uruguay"
+#~ msgstr "烏拉圭"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "烏茲別克"
+
+#~ msgid "Vatican"
+#~ msgstr "梵諦岡"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "聖文森及格瑞那丁"
+
+#~ msgid "Venezuela"
+#~ msgstr "委內瑞拉"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "英屬維京群島"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "美屬維京群島"
+
+#~ msgid "Vietnam"
+#~ msgstr "越南"
+
+#~ msgid "Vanuatu"
+#~ msgstr "萬那杜"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "瓦里斯與富都拿群島"
+
+#~ msgid "Samoa"
+#~ msgstr "薩摩亞群島"
+
+#~ msgid "Yemen"
+#~ msgstr "葉門"
+
+#~ msgid "Mayotte"
+#~ msgstr "美亞特"
+
+#~ msgid "South Africa"
+#~ msgstr "南非"
+
+#~ msgid "Zambia"
+#~ msgstr "尚比亞"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "辛巴威"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "歡迎使用 %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "先移除邏輯 volume\n"
+
+#~ msgid "The bootloader can't handle /boot on multiple physical volumes"
+#~ msgstr "開機載入器無法處理位於多個實體磁區的 /boot"
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "恭喜您！系統已經完成安裝。\n"
+#~ "請取出開機媒介並按下 return 以重新開機。\n"
+#~ "\n"
+#~ "\n"
+#~ "要獲得這個 Mandriva Linux 釋出版本可用的修正相關資訊，\n"
+#~ "請諮詢可用的勘誤表：\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "關於如何設定您系統的資訊可以在官方 Mandriva Linux 使用者指南\n"
+#~ "(Official Mandriva Linux User's Guide) 的安裝後章節 (post install "
+#~ "chapter )\n"
+#~ "裡面找到。"
+
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "這個驅動程式沒有設定參數！"
+
+#~ msgid "Module configuration"
+#~ msgstr "模組組態設定"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr "您可以在這邊輸入該模組的每一個參數。"
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "找到 %s 介面"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "您還有其他的嗎？"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "你是否有任何 %s 介面？"
+
+#~ msgid "See hardware info"
+#~ msgstr "觀看硬體資訊"
+
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "正在安裝 USB 控制器的驅動程式"
+
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "正在安裝 Firewire 控制器的驅動程式 %s"
+
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "正在安裝硬碟控制器的驅動程式 %s"
+
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "正在安裝網路卡控制器的驅動程式 %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "正在安裝 %s 卡的驅動程式 %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "您現在可以為模組 %s 提供選項。\n"
+#~ "請注意，您輸入的記憶體位置以 0x 開頭，例如 '0x123'"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "您現在可以為模組 %s 提供選項。\n"
+#~ "選項的格式為 ``name=value name2=value2 ...''\n"
+#~ "例如 ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "模組選項："
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "我應該試那個 %s 驅動程式呢？"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "某些時候, %s 驅動程式需要有附加的資訊以便適當工作,\n"
+#~ "雖然它正常來說可以沒有他們而好好的工作. 您想要指定附加的選項給它嗎\n"
+#~ "或是允許驅動程式偵測您的機器需要取得驅動程式需要的資訊?有時候偵測會讓電腦"
+#~ "當機, 不過應該不至於造成任何傷害才對."
+
+#~ msgid "Autoprobe"
+#~ msgstr "自動偵測"
+
+#~ msgid "Specify options"
+#~ msgstr "指定選項"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "載入 %s 模組失敗.\n"
+#~ "您要用其他參數再試一次嗎?"
+
+#~ msgid "mount failed: "
+#~ msgstr "掛載失敗："
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "這個平台並不支援延伸分割區"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "您的硬碟分割表中有一個空洞，我無法使用。\n"
+#~ "唯一的解決方法是將您的主分割區的位置搬移，讓這些空洞與延伸分割區相鄰。"
+
+#~ msgid "Error reading file %s"
+#~ msgstr "讀取檔案 %s 時發生錯誤"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "試圖從檔案 %s 恢復時發生錯誤：%s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "壞掉的備份檔案"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "寫入檔案 %s 時發生錯誤"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "您的磁碟發生了一個嚴重的錯誤。\n"
+#~ "資料完整性檢測失敗。\n"
+#~ "這表示寫入任何東西到磁碟將會導致錯亂的、損壞的資料。"
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "無法在 _已格式_ 化的磁碟陣列 %s 中加入分割區"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "分割區數目不足以用來設定成為階層 %d 的磁碟陣列\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "無法建立目錄 /usr/share/sane/firmware！"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "無法建立連結 /usr/share/sane/%s！"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr "無法複製韌體檔 %s 到 /usr/share/sane/firmware！"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr "無法設定韌體檔 %s 的權限！"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr "無法安裝分享掃描器所需的套件。"
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "您的掃描器將只供擁有管理者權限的使用者使用。"
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "接收/拒絕偽造的 IPv4 錯誤訊息。"
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "接收/拒絕廣播的 icmp 回應。"
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "接收/拒絕 icmp 回應。"
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "允許/禁止自動登入。"
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "允許/禁止 console 使用者重新開機。"
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "允許/禁止遠端 root 登入。"
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "允許/禁止 root 直接登入。"
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr "允許/禁止把系統上的使用者列在顯示管理員 (kdm 與 gdm) 上。"
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "這個參數指定了客戶端是否受到授權可以由網路上透過 TCP 埠 6000\n"
+#~ "連到這個 X 伺服器上。"
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr "啟用/停用系統日誌回報到 console 12 上"
+
+#~ msgid "Security Alerts:"
+#~ msgstr "安全警示："
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr "若在系統上找到 libsafe 則啟用/停用 libsafe。"
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "啟用/停用記錄奇怪的 IPv4 封包。"
+
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "啟用 su 只能讓 wheel 群組成員使用。如果設定為 no，則允許任何使用者使用 "
+#~ "su。"
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "使用密碼來驗證使用者。"
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "啟用/停用每日安全性檢查。"
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr "設定密碼記錄長度來防止重複使用密碼。"
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr "設定密碼的最小長度、最少的數字數及大寫字母數。"
+
+#~ msgid "Set the root umask."
+#~ msgstr "設定 root umask。"
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr "如果設定為 yes，檢查使用者家目錄下的檔案權限。"
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr "如果設定為 yes，執行每日安全性檢查。"
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr "如果設定為 yes，檢查 /etc/shadow 內的空白密碼。"
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "如果設定為 yes，回報不屬於任何人的檔案。"
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr "如果設定為 yes，檢查可以被任何人寫入的檔案/目錄。"
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "如果設定為 yes，執行 chkrootkit 檢查。"
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr "如果有設定就傳送郵件報告給這個電子郵件地址，否則就傳送給 root。"
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr "如果設定為 yes，以郵件回報檢查結果。"
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "如果沒有任何警示就不要傳送郵件"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr "如果設定為 yes，對 RPM 資料庫進行一些檢查。"
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr "如果設定為 yes，回報檢查結果到系統日誌。"
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr "如果設定為 yes，回報檢查結果到 tty。"
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr "設定 shell 命令歷史記錄的大小。-1 代表沒有限制。"
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr "設定 shell 逾時時間。0 代表永不逾時。"
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "逾時時間單位為秒"
+
+#~ msgid "Set the user umask."
+#~ msgstr "設定使用者 umask。"
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "接受偽造的 IPv4 錯誤訊息"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "接收廣播的 icmp 回應"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "接收 icmp 回應"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* 已經存在"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "console 使用者重開機"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "允許遠端 root 登入"
+
+#~ msgid "Direct root login"
+#~ msgstr "直接 root 登入"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "在顯示管理員 (kdm 與 gdm) 上列出使用者"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "允許 X Window 連線"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "授權 TCP 連線到 X Window"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr "授權所有由 tcp_wrappers 控制的服務"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig 遵從 msec 規則"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "為使用者啟用 \"crontab\" 與 \"at\""
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "系統日誌回報到 console 12"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "若在系統上找到 libsafe 則啟用 libsafe"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "啟用記錄奇怪的 IPv4 封包。"
+
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr "啟用 su 只能讓 wheel 群組成員使用"
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "使用密碼來認證使用者"
+
+#~ msgid "Daily security check"
+#~ msgstr "每日安全檢查"
+
+#~ msgid "No password aging for"
+#~ msgstr "不設定密碼期限給"
+
+#~ msgid "Password history length"
+#~ msgstr "密碼紀錄長度"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr "密碼的最小長度、最少的數字數、及大寫字母數"
+
+#~ msgid "Root umask"
+#~ msgstr "Root umask"
+
+#~ msgid "Shell history size"
+#~ msgstr "Shell 歷史記錄長度"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Shell 啟動逾時"
+
+#~ msgid "User umask"
+#~ msgstr "使用者 umask"
+
+#~ msgid "Check open ports"
+#~ msgstr "檢查開放的連線埠"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "檢查不安全的帳號"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "檢查使用者家目錄下的檔案權限"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "執行每日安全檢查"
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "檢查 /etc/shadow 內的空白密碼"
+
+#~ msgid "Report unowned files"
+#~ msgstr "回報不屬於任何人的檔案"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "檢查可以被任何人寫入的檔案/目錄"
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "執行 chkrootkit 檢查"
+
+#~ msgid "Do not send empty mail reports"
+#~ msgstr "不要傳送空白的郵件報告"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr "如果有設定就傳送郵件報告給這個電子郵件地址，否則就傳送給 root。"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "以郵件回報檢查結果"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "對 RPM 資料庫進行一些檢查"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "回報檢查結果到系統日誌"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "回報檢查結果到 tty"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "劣"
+
+#~ msgid "Poor"
+#~ msgstr "差"
+
+#~ msgid "High"
+#~ msgstr "高"
+
+#~ msgid "Higher"
+#~ msgstr "較高"
+
+#~ msgid "Paranoid"
+#~ msgstr "嚴密"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "把安全層級設定在這個等級時必須要非常謹慎，它會讓您的系統容易使用卻極易受"
+#~ "到\n"
+#~ "破壞。這個設定不應該被用在有連線其他機器或網際網路的主機上，因為它沒有密"
+#~ "碼\n"
+#~ "保護。"
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr "已啟動密碼認證功能，但仍然不建議將此系統運作於網路上網路環境。"
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr "標準的系統安全性設定，建議用在作為網際網路客戶端的主機上使用。"
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr "包含了相關存取限制，以及每日定期系統稽核檢查動作。"
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "在這個安全層級之下，這個系統可以作為一個伺服器來使用。\n"
+#~ "它的安全性已經高到足以作為一個可以接受許多客戶端連線的伺服器。\n"
+#~ "請注意：如果您的機器只是用來作為一個網際網路的客戶端，您應該選擇一個較低的"
+#~ "安全層級。"
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "與上一個模式相同, 不過整個系統幾乎都是封閉的。系統整個安全設定機制都是在最"
+#~ "嚴密的狀態。"
+
+#~ msgid "Security"
+#~ msgstr "安全性"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "DrakSec 基本參數選項"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "請選擇您希望的安全層級"
+
+#~ msgid "Security level"
+#~ msgstr "安全層級"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "啟用「libsafe」防護功能"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr "能夠偵測防禦緩衝區溢位與格式化字串這類攻擊的程式庫套件。"
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "安全性管理者 (login 或是 email)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr "啟動 ALSA (Advanced Linux Sound Architecture) 音效系統"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "提供週期性的命令排程程式"
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd 被用來監督電池狀態, 以及呼叫 syslog 紀錄相關狀態.\n"
+#~ "它也被用來自動呼叫關機程式進行關機動作, 當電池電源不夠時."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr "atd 服務程式, 能夠讓您在在命令列指定某個時間執行某個程式。"
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron 是個標準 unix 系統程式, 能夠提供使用者定期執行特定程式。\n"
+#~ "vixie 版本的 cron 增加了許多功能, \n"
+#~ "在安全性與設定方面能夠更彈性好用。"
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM 是一個檔案監控系統程式。它是用來在檔案變動時提供回報。\n"
+#~ "GNOME 及 KDE 都有用到它"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM 能夠讓系統在文字模式下驅動顯示出滑鼠游標, 能夠在 Midnight Commander\n"
+#~ "這類程式中所使用。另外還能夠支援在文字模式下螢幕文字的剪貼複製功能。"
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake 程式會進行硬體偵測動作, 以便於設定新加入或者是有變更過\n"
+#~ "的週邊裝置。"
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache 是一個提供 Web 服務的程式, 提供架設 Web Server 讓使用者瀏覽。"
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "internet superserver daemon (一般稱呼為 inetd), 它代為像是 telnet、ftp,\n"
+#~ "rsh、rlogin 等等這類服務的監聽, 然後有連線請求時, 在實際呼叫提供服務的\n"
+#~ "程式進行後續交談溝通的動作。關閉這個項目, 仰賴於這個服務代為監聽啟動的\n"
+#~ "項目將會無法使用"
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "啟動 Linux Kernel 2.2 系列的防火牆機制, 用來保護您的機器不會遭受\n"
+#~ "外來的網路攻擊。"
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "這個服務項目將會載入\n"
+#~ "/etc/sysconfig/keyboard\n"
+#~ "檔案的鍵盤對應設定組態。\n"
+#~ "您可以事後使用 kdbconfig 程式來設定。\n"
+#~ "一般來說, 目前大部分機器並不需要這個項目。"
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "自動重新產生 kernel header 於 /boot 給\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "系統開機時能夠自動偵測週邊裝置的狀態並且設定。"
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr "Linuxconf 程式會在開機時偵測一些項目, 調整維護系統一些組態設定。"
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd 服務程式是 lpr 程式運作上不可缺的程式。若是要架設列印服務伺服器\n"
+#~ "的話, lpd 是很常見的選擇。"
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr "Linux Virtual Server, 用來架設一個高效能與高效率的 LVS 伺服器。"
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) 適用來提供 Domain Name Server (DNS) 服務的程式, \n"
+#~ "用來解析主機名稱與 IP 對應的關係。"
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "掛載與卸下所有網路檔案系統, 比方像是 網路檔案系統(NFS), SMB, \n"
+#~ "NCP (NetWare) 這類。"
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr "在系統開機時, 選擇啟動網路功能, 或者是關閉不啟動該服務。"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS 是一個常用的網路通訊協定, 能夠提供跨網路分享其他主機的檔案系統。\n"
+#~ "這個服務項目會依照系統的 /etc/exports 檔案設定來啟動 NFS 分享功能。"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS 是一個常用的網路通訊協定, 能夠提供跨網路分享其他主機的檔案系統。\n"
+#~ "這個服務提供 NFS 檔案分享時的鎖定機制。"
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "自動開關 numlock key 鎖在開機時於 console\n"
+#~ "與 Xorg."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "支援 OKI 4w 以及 WindowsPrinter 印表機。"
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "PCMCIA 支援, 一般是用來讓筆記型電腦的網路卡、Modem 驅動所設計。\n"
+#~ "一般來說, 要額外設定好 PCMCIA 後才會真正啟動 PCMCIA 服務, 因此\n"
+#~ "就算是系統不需要這個功能, 預先啟動他也不會有任何影響。"
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "portmapper 程式管理了 RPC 連線, 一般用於 NFS 與 NIS 通訊協定內。\n"
+#~ "若是您系統要使用到 RPC 相關服務, 您就必須啟動它。"
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr "Postfix 是一個郵件傳送代理程式, 用來投遞信件提供 SMTP 服務。"
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr "儲存與回存高品質系統亂數產生器"
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "給 block 這類區塊裝置指派 raw 裝置 (就像是硬碟的分割區), \n"
+#~ "給 oracle 或 DVD 播放器這類程式使用。"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "routed 服務程式允許透過 RIP 通訊協定來更新路由表的資訊。\n"
+#~ "一般來說, RIP 是給小型網路用途使用。"
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "rstat 通訊協定, 能夠讓位於網路上的使用者接收到網路上任何一台\n"
+#~ "主機的運作效能資訊。"
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "rusers 通訊協定, 能夠讓位於網路上的使用者得知那些使用者登入在那些\n"
+#~ "機器上"
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "rwho 通訊協定, 能夠讓遠端的使用者獲得該機器上所有登入在主機上的\n"
+#~ "使用找 (類似於 finger)。"
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "在您的系統上啟動音效服務系統"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "syslog 服務程式能夠讓系統許多服務程式用紀錄檔案來回應系統\n"
+#~ "所發生一些事情。建議您一定要啟動 syslog 服務程式"
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "載入 usb 裝置所需要的驅動程式"
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr "啟動 X Font Server (這是為了 Xorg 執行一定要的)."
+
+#~ msgid "Printing"
+#~ msgstr "列印"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "File sharing"
+#~ msgstr "檔案分享"
+
+#~ msgid "System"
+#~ msgstr "系統"
+
+#~ msgid "Remote Administration"
+#~ msgstr "遠端管理"
+
+#~ msgid "Database Server"
+#~ msgstr "資料庫軟體"
+
+#~ msgid "Services"
+#~ msgstr "服務"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr "選擇希望在下一次開機時啟動的服務程式項目"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "服務：%2$d 個註冊的服務中已經啟動了 %1$d 個"
+
+#~ msgid "running"
+#~ msgstr "執行中"
+
+#~ msgid "stopped"
+#~ msgstr "未啟動"
+
+#~ msgid "Services and daemons"
+#~ msgstr "服務程式"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "抱歉 ! 這個服務項目並沒有\n"
+#~ "額外的相關資訊。"
+
+#~ msgid "Info"
+#~ msgstr "資訊"
+
+#~ msgid "Start when requested"
+#~ msgstr "要求時啟動"
+
+#~ msgid "On boot"
+#~ msgstr "開機自動載入"
+
+#~ msgid "Start"
+#~ msgstr "啟動"
+
+#~ msgid "Stop"
+#~ msgstr "停止"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "本程式是自由軟體，您可以遵照自由軟體基金會 (Free Software Foundation) 出版"
+#~ "的\n"
+#~ "GNU 通用公共許可證條款 (GNU General Public License) 第二版來修改和重新發"
+#~ "佈\n"
+#~ "這一程式，或者自由選擇使用任何更新的版本。\n"
+#~ "\n"
+#~ "發佈這一程式的目的是希望它有用，但沒有任何擔保。甚至沒有適合特定目的而隱含"
+#~ "的擔保。\n"
+#~ "更詳細的情況請參閱 GNU 通用公共許可證。\n"
+#~ "\n"
+#~ "您應該已經和程式一起收到一份 GNU 通用公共許可證的副本。如果還沒有，寫信"
+#~ "給：\n"
+#~ " Free Software Foundation,\n"
+#~ " 51 Franklin Street, Fifth Floor,\n"
+#~ " Boston, MA 02110-1301, USA.\n"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[鍵盤]"
+
+#~ msgid "All servers"
+#~ msgstr "全部伺服器"
+
+#~ msgid "Global"
+#~ msgstr "全球"
+
+#~ msgid "Africa"
+#~ msgstr "非洲"
+
+#~ msgid "Asia"
+#~ msgstr "亞洲"
+
+#~ msgid "Europe"
+#~ msgstr "歐洲"
+
+#~ msgid "North America"
+#~ msgstr "北美洲"
+
+#~ msgid "Oceania"
+#~ msgstr "大洋洲"
+
+#~ msgid "South America"
+#~ msgstr "南美洲"
+
+#~ msgid "Hong Kong"
+#~ msgstr "香港"
+
+#~ msgid "Russian Federation"
+#~ msgstr "俄羅斯聯邦"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "南斯拉夫"
+
+#~ msgid "Is this correct?"
+#~ msgstr "這樣子正確嗎？"
+
+#~ msgid "No file chosen"
+#~ msgstr "未選擇檔案"
+
+#~ msgid "You have chosen a file, not a directory"
+#~ msgstr "您選擇了檔案而非目錄"
+
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "您選擇了目錄而非檔案"
+
+#~ msgid "No such directory"
+#~ msgstr "無此目錄"
+
+#~ msgid "No such file"
+#~ msgstr "無此檔案"
+
+#~ msgid "Expand Tree"
+#~ msgstr "展開樹狀結構"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "縮疊樹狀結構"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "切換是否依照群組來加以排序"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s 沒有安裝\n"
+#~ "要安裝點選 \"Next 下一步\" 或 \"Cancel 取消\" 離開"
+
+#~ msgid "Installation failed"
+#~ msgstr "安裝失敗"

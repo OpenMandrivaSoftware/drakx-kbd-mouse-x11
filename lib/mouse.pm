@@ -15,7 +15,7 @@ use modules;
 use any;
 use log;
 
-my @mouses_fields = qw(nbuttons MOUSETYPE XMOUSETYPE name EMULATEWHEEL);
+my @mouses_fields = qw(nbuttons MOUSETYPE Protocol name EmulateWheel);
 
 my %mice = 
  arch() =~ /^sparc/ ? 
@@ -32,9 +32,7 @@ my %mice =
      [ 5, 'ps/2', 'MouseManPlusPS/2', N_("Logitech MouseMan+") ],
      [ 5, 'imps2', 'IMPS/2', N_("Generic PS2 Wheel Mouse") ],
      [ 5, 'ps/2', 'GlidePointPS/2', N_("GlidePoint") ],
-     if_(c::kernel_version() !~ /^\Q2.6/,
-       [ 5, 'imps2', 'auto', N_("Automatic") ]
-	 ),
+     [ 5, 'imps2', 'auto', N_("Automatic") ],
      '',
      [ 5, 'ps/2', 'ThinkingMousePS/2', N_("Kensington Thinking Mouse") ],
      [ 5, 'netmouse', 'NetMousePS/2', N_("Genius NetMouse") ],
@@ -43,12 +41,12 @@ my %mice =
    ] ],
      
  'USB' =>
- [ [ 'usbmouse' ],
-   [ [ 1, 'ps/2', 'IMPS/2', N_("1 button") ],
-     [ 2, 'ps/2', 'IMPS/2', N_("Generic 2 Button Mouse") ],
-     [ 3, 'ps/2', 'IMPS/2', N_("Generic") ],
-     [ 3, 'ps/2', 'IMPS/2', N_("Generic 3 Button Mouse with Wheel emulation"), 'wheel' ],
-     [ 5, 'ps/2', 'IMPS/2', N_("Wheel") ],
+ [ [ 'input/mice' ],
+   [ [ 1, 'ps/2', 'ExplorerPS/2', N_("1 button") ],
+     [ 2, 'ps/2', 'ExplorerPS/2', N_("Generic 2 Button Mouse") ],
+     [ 3, 'ps/2', 'ExplorerPS/2', N_("Generic") ],
+     [ 3, 'ps/2', 'ExplorerPS/2', N_("Generic 3 Button Mouse with Wheel emulation"), 'wheel' ],
+     [ 5, 'ps/2', 'ExplorerPS/2', N_("Wheel") ],
      [ 7, 'ps/2', 'ExplorerPS/2', N_("Microsoft Explorer") ],
    ] ],
 
@@ -82,19 +80,37 @@ my %mice =
      [ 3, 'Busmouse', 'BusMouse', N_("3 buttons with Wheel emulation"), 'wheel' ],
    ] ],
 
-    if_(c::kernel_version() =~ /^\Q2.6/,
  N_("Universal") =>
  [ [ 'input/mice' ],
    [ [ 7, 'ps/2', 'ExplorerPS/2', N_("Any PS/2 & USB mice") ],
      if_(detect_devices::is_xbox(), [ 5, 'ps/2', 'IMPS/2', N_("Microsoft Xbox Controller S") ]),
    ] ],
-    ),
 
  N_("none") =>
  [ [ 'none' ],
    [ [ 0, 'none', 'Microsoft', N_("No mouse") ],
    ] ],
 );
+
+#- Logitech MX700
+#-
+#- I: Bus=0003 Vendor=046d Product=c506 Version=1600
+#- N: Name="Logitech USB Receiver"
+#- P: Phys=usb-0000:00:11.3-2/input0
+#- S: Sysfs=/class/input/input5
+#- H: Handlers=mouse2 ts2 event3 
+#- B: EV=7
+#- B: KEY=ffff0000 0 0 0 0 0 0 0 0
+#- B: REL=103
+#- 
+#- T:  Bus=05 Lev=01 Prnt=01 Port=01 Cnt=02 Dev#=  4 Spd=1.5 MxCh= 0
+#- D:  Ver= 1.10 Cls=00(>ifc ) Sub=00 Prot=00 MxPS= 8 #Cfgs=  1
+#- P:  Vendor=046d ProdID=c506 Rev=16.00
+#- S:  Manufacturer=Logitech
+#- S:  Product=USB Receiver
+#- C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr= 50mA
+#- I:  If#= 0 Alt= 0 #EPs= 1 Cls=03(HID  ) Sub=01 Prot=02 Driver=usbhid
+#- E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=10ms
 
 
 sub xmouse2xId { 
@@ -154,7 +170,7 @@ sub raw2mouse {
     $raw or return;
 
     my %l; @l{@mouses_fields} = @$raw;
-    +{ %l, type => $type };
+    +{ %l, type => $type, if_($l{nbuttons} < 3, Emulate3Buttons => 1) };
 }
 
 sub fullnames() { 
@@ -175,16 +191,15 @@ sub fullnames() {
 sub fullname2mouse {
     my ($fname, %opts) = @_;
     my ($type, @l) = split '\|', $fname;
-    my $name = pop @l;
-  search:
-    $opts{device} ||= $mice{$type}[0][0];
+    my $name = pop @l; #- ensure we get rid of "[Other]"
+
+    if (my @devices = @{$mice{$type}[0]}) {
+	member($opts{device}, @devices) or delete $opts{device};
+	$opts{device} ||= $devices[0];
+    }
     foreach (@{$mice{$type}[1]}) {
 	my $l = raw2mouse($type, $_);
 	$name eq $l->{name} and return { %$l, %opts };
-    }
-    if ($name eq '1 Button' || $name eq '1 button') {
-	$name = "Generic 2 Button Mouse";
-	goto search;
     }
     die "$fname not found ($type, $name)";
 }
@@ -196,24 +211,17 @@ sub serial_port2text {
 
 sub read() {
     my %mouse = getVarsFromSh "$::prefix/etc/sysconfig/mouse";
-    eval { add2hash_(\%mouse, fullname2mouse($mouse{FULLNAME})) };
-    $mouse{nbuttons} ||= $mouse{XEMU3} eq "yes" ? 2 : $mouse{WHEEL} eq "yes" ? 5 : 3;
-    \%mouse;
+    eval { fullname2mouse($mouse{FULLNAME}, device => $mouse{device}) } || \%mouse;
 }
 
 sub write {
     my ($do_pkgs, $mouse) = @_;
-    local $mouse->{FULLNAME} = qq("$mouse->{type}|$mouse->{name}"); #-"
-    local $mouse->{XEMU3} = bool2yesno($mouse->{nbuttons} < 3);
-    local $mouse->{WHEEL} = bool2yesno($mouse->{nbuttons} > 3);
-    setVarsInSh("$::prefix/etc/sysconfig/mouse", $mouse, qw(MOUSETYPE XMOUSETYPE FULLNAME XEMU3 WHEEL device));
-    any::devfssymlinkf($mouse, 'mouse');
 
-    #- we should be using input/mice directly instead of usbmouse, but legacy...
-    symlinkf 'input/mice', "$::prefix/dev/usbmouse" if $mouse->{device} eq "usbmouse";
-
-    any::devfssymlinkf($mouse->{auxmouse}, 'mouse1') if $mouse->{auxmouse};
-
+    setVarsInSh("$::prefix/etc/sysconfig/mouse", {
+	device => $mouse->{device},
+	MOUSETYPE => $mouse->{MOUSETYPE},
+	FULLNAME => qq($mouse->{type}|$mouse->{name}),
+    });
 
     various_xfree_conf($do_pkgs, $mouse);
 
@@ -230,10 +238,7 @@ sub write {
     }
 }
 
-sub probe_wacom_devices {
-    my ($modules_conf) = @_;
-
-    $modules_conf->get_probeall("usb-interface") or return;
+sub probe_usb_wacom_devices() {
     my (@l) = detect_devices::usbWacom() or return;
 
     log::l("found usb wacom $_->{driver} $_->{description} ($_->{type})") foreach @l;
@@ -257,12 +262,12 @@ sub detect_serial() {
 	if ($t->{CLASS} eq 'MOUSE') {
 	    $t->{MFG} ||= $t->{MANUFACTURER};
 
-	    $mouse = fullname2mouse("serial|Microsoft IntelliMouse") if $t->{MFG} eq 'MSH' && $t->{MODEL} eq '0001';
-	    $mouse = fullname2mouse("serial|Logitech MouseMan") if $t->{MFG} eq 'LGI' && $t->{MODEL} =~ /^80/;
-	    $mouse = fullname2mouse("serial|Genius NetMouse") if $t->{MFG} eq 'KYE' && $t->{MODEL} eq '0003';
+	    my $name = 'Generic 2 Button Mouse';
+	    $name = 'Microsoft IntelliMouse' if $t->{MFG} eq 'MSH' && $t->{MODEL} eq '0001';
+	    $name = 'Logitech MouseMan' if $t->{MFG} eq 'LGI' && $t->{MODEL} =~ /^80/;
+	    $name = 'Genius NetMouse' if $t->{MFG} eq 'KYE' && $t->{MODEL} eq '0003';
 
-	    $mouse ||= fullname2mouse("serial|Generic 2 Button Mouse"); #- generic by default.
-	    $mouse->{device} = "ttyS$_";
+	    $mouse ||= fullname2mouse("serial|$name", device => "ttyS$_");
 	    last;
 	} elsif ($t->{CLASS} eq "PEN" || $t->{MANUFACTURER} eq "WAC") {
 	    push @wacom, "ttyS$_";
@@ -271,120 +276,116 @@ sub detect_serial() {
     $mouse, @wacom;
 }
 
+sub detect_evdev_mice {
+    my (@mice) = @_;
+
+    my $imwheel;
+    foreach (@mice) {
+	my @l = $_->{usb} && $_->{usb}{driver} =~ /^Mouse:(.*)/ ? split('\|', $1) : ();
+	foreach my $opt (@l) {
+	    if ($opt eq 'evdev') {
+		$_->{want_evdev} = 1;
+	    } elsif ($opt =~ /imwheel:(.*)/) {
+		$imwheel = $1;
+	    }
+	}
+	if ($_->{HWHEEL}) {
+	    $_->{want_evdev} = 1;
+	} elsif ($_->{SIDE}) {
+	    $imwheel ||= 'generic';
+	}
+    }
+	
+    my @evdev_mice = map {
+	#- we always use HWheelRelativeAxisButtons for evdev, it tells mice with no horizontal wheel to skip those buttons
+	#- that way we ensure 6 & 7 is always horizontal wheel
+	#- (cf patch skip-HWheelRelativeAxisButtons-even-if-unused in x11-driver-input-evdev)
+	{ vendor => "0x$_->{vendor}", product => "0x$_->{id}", HWheelRelativeAxisButtons => "7 6" };
+    } grep { $_->{want_evdev} } @mice;
+
+    log::l("configuring mice with imwheel for thumb buttons (imwheel=$imwheel)") if $imwheel;
+    log::l("configuring mice for evdev (" . join(' ', map { "$_->{vendor}:$_->{product}" } @evdev_mice) . ")") if @evdev_mice;
+
+    { imwheel => $imwheel, if_(@evdev_mice, evdev_mice => \@evdev_mice) };
+}
+
 sub detect {
     my ($modules_conf) = @_;
 
     # let more USB tablets and touchscreens magically work at install time
     # through /dev/input/mice multiplexing:
-    modules::probe_category('input/tablet');
-    modules::probe_category('input/touchscreen');
+    detect_devices::probe_category('input/tablet');
+    detect_devices::probe_category('input/touchscreen');
 
-    if (arch() =~ /^sparc/) {
-	return fullname2mouse("sunmouse|Sun - Mouse");
-    }
-    if (arch() eq "ppc") {
-        return fullname2mouse(detect_devices::hasMousePS2("usbmouse") ? 
-			      "USB|1 button" :
-			      # No need to search for an ADB mouse.  If I did, the PPC kernel would
-			      # find one whether or not I had one installed!  So..  default to it.
-			      "busmouse|1 button");
-    }
+    my @wacom = probe_usb_wacom_devices();
 
-    my @wacom = probe_wacom_devices($modules_conf);
+    $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
+    if (my @mice = grep { $_->{driver} =~ /^mouse/ } detect_devices::getInputDevices_and_usb()) {
+	my @synaptics = map {
+	    { ALPS => $_->{ALPS} };
+	} grep { $_->{Synaptics} || $_->{ALPS} } @mice;
 
-    if (c::kernel_version() =~ /^\Q2.6/) {
-	$modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
-        if (cat_('/proc/bus/input/devices') =~ /^H: Handlers=mouse/m) {
-            if (detect_devices::is_xbox()) {
-                return fullname2mouse('Universal|Microsoft Xbox Controller S');
-            }
-            my $univ_mouse = fullname2mouse('Universal|Any PS/2 & USB mice', wacom => \@wacom);
-            if (my ($synaptics_touchpad) = detect_devices::getSynapticsTouchpads()) {
-                $univ_mouse->{auxmouse} = {
-                                           name => N_("Synaptics Touchpad"),
-                                           device => 'input/mice',
-                                           XMOUSETYPE => 'auto-dev',
-                                           ALPS => $synaptics_touchpad->{description} =~ /ALPS/,
-                                          };
-            }
-	    return $univ_mouse;
-	}
+	my $evdev_opts = detect_evdev_mice(@mice);
+
+	my $fullname = detect_devices::is_xbox() ? 
+	  'Universal|Microsoft Xbox Controller S' :
+	    arch() eq "ppc" ? 
+	  'USB|1 button' :
+	  'Universal|Any PS/2 & USB mice';
+
+	fullname2mouse($fullname, wacom => \@wacom, 
+		       synaptics => $synaptics[0], 
+		       if_($evdev_opts, %$evdev_opts));
+    } elsif (arch() eq 'ppc') {
+	# No need to search for an ADB mouse.  If I did, the PPC kernel would
+	# find one whether or not I had one installed!  So..  default to it.
+	fullname2mouse("busmouse|1 button");
+    } elsif (arch() =~ /^sparc/) {
+	fullname2mouse("sunmouse|Sun - Mouse");
     } else {
-	my $ps2_mouse = detect_devices::hasMousePS2("psaux") && fullname2mouse("PS/2|Automatic", unsafe => 0);
-
-	#- workaround for some special case were mouse is openable 1/2.
-	if (!$ps2_mouse) {
-	    $ps2_mouse = detect_devices::hasMousePS2("psaux") && fullname2mouse("PS/2|Automatic", unsafe => 0);
-	    $ps2_mouse and detect_devices::hasMousePS2("psaux"); #- fake another open in order for XFree to see the mouse.
-	}
-
-	if ($modules_conf->get_probeall("usb-interface")) {
-	    sleep 2;
-	    if (my (@l) = detect_devices::usbMice()) {
-		log::l(join('', "found usb mouse $_->{driver} $_->{description} (", if_($_->{type}, $_->{type}), ")")) foreach @l;
-		if (eval { modules::load(qw(hid mousedev usbmouse)); detect_devices::tryOpen("usbmouse") }) {
-		    return fullname2mouse($l[0]{driver} =~ /Mouse:(.*)/ ? $1 : "USB|Wheel",
-					  if_($ps2_mouse, auxmouse => $ps2_mouse), #- for laptop, we kept the PS/2 as secondary (symbolic).
-					  wacom => \@wacom);
-		    
-		}
-		eval { modules::unload(qw(usbmouse mousedev hid)) };
-	    }
+	#- probe serial device to make sure a wacom has been detected.
+	eval { modules::load("serial") };
+	my ($serial_mouse, @serial_wacom) = detect_serial(); 
+	push @wacom, @serial_wacom;
+	if ($serial_mouse) {
+	    { wacom => \@wacom, %$serial_mouse };
+	} elsif (@wacom) {
+	    #- in case only a wacom has been found, assume an inexistant mouse (necessary).
+	    fullname2mouse('none|No mouse', wacom => \@wacom);
 	} else {
-	    log::l("no usb interface found for mice");
+	    fullname2mouse('Universal|Any PS/2 & USB mice', unsafe => 1);
 	}
-	if ($ps2_mouse) {
-	    return { wacom => \@wacom, %$ps2_mouse };
-	}
-    }
-
-    #- probe serial device to make sure a wacom has been detected.
-    eval { modules::load("serial") };
-    my ($serial_mouse, @serial_wacom) = detect_serial(); push @wacom, @serial_wacom;
-    if ($serial_mouse) {
-	{ wacom => \@wacom, %$serial_mouse };
-    } elsif (@wacom) {
-	#- in case only a wacom has been found, assume an inexistant mouse (necessary).
-	fullname2mouse('none|No mouse', wacom => \@wacom);
-    } elsif (c::kernel_version() =~ /^\Q2.6/) {
-	fullname2mouse('Universal|Any PS/2 & USB mice', unsafe => 1);
-    } else {
-	fullname2mouse("PS/2|Automatic", unsafe => 1);
     }
 }
 
 sub load_modules {
     my ($mouse) = @_;
     my @l;
-    for ($mouse->{type}) {
-	/serial/ and @l = qw(serial);
-	/USB/    and @l = qw(hid mousedev usbmouse);
-    }
-    foreach (@{$mouse->{wacom}}) {
-	/ttyS/   and push @l, qw(serial);
-	/event/  and push @l, qw(wacom evdev);
-    }
-    if ($mouse->{auxmouse} && $mouse->{auxmouse}{name} eq N_("Synaptics Touchpad")) {
-	push @l, qw(evdev);
-    }
+    push @l, qw(hid mousedev usbmouse) if $mouse->{type} =~ /USB/;
+    push @l, qw(serial) if $mouse->{type} =~ /serial/ || any { /ttyS/ } @{$mouse->{wacom}};
+    push @l, qw(wacom evdev) if any { /event/ } @{$mouse->{wacom}};
+    push @l, qw(evdev) if $mouse->{synaptics} || $mouse->{evdev_mice};
+
     eval { modules::load(@l) };
 }
 
 sub set_xfree_conf {
     my ($mouse, $xfree_conf, $b_keep_auxmouse_unchanged) = @_;
 
-    my ($synaptics, $mouse_) = partition { $_->{name} eq N_("Synaptics Touchpad") } ($mouse, if_($mouse->{auxmouse}, $mouse->{auxmouse}));
     my @mice = map {
 	{
-	    Protocol => $_->{XMOUSETYPE},
+	    Protocol => $_->{Protocol},
 	    Device => "/dev/mouse",
-	    if_($_->{nbuttons} > 3, ZAxisMapping => [ $_->{nbuttons} > 5 ? '6 7' : '4 5' ]),
-	    if_($_->{nbuttons} < 3, Emulate3Buttons => undef, Emulate3Timeout => 50),
-	    if_($_->{EMULATEWHEEL}, Emulate3Buttons => undef, Emulate3Timeout => 50, EmulateWheel => undef, EmulateWheelButton => 2),
+	    if_($_->{Emulate3Buttons} || $_->{EmulateWheel}, Emulate3Buttons => undef, Emulate3Timeout => 50),
+	    if_($_->{EmulateWheel}, EmulateWheel => undef, EmulateWheelButton => 2),
 	};
-    } @$mouse_;
+    } $mouse;
 
-    if (!$mouse->{auxmouse} && $b_keep_auxmouse_unchanged) {
+    devices::symlink_now_and_register($mouse, 'mouse');
+
+    if ($mouse->{evdev_mice}) {
+	push @mice, @{$mouse->{evdev_mice}};
+    } elsif (!$mouse->{synaptics} && $b_keep_auxmouse_unchanged) {
 	my (undef, @l) = $xfree_conf->get_mice;
 	push @mice, @l;
     }
@@ -395,34 +396,17 @@ sub set_xfree_conf {
 	$xfree_conf->set_wacoms(map { { Device => "/dev/$_", USB => m|input/event| } } @wacoms);
     }
 
-    $synaptics and $xfree_conf->set_synaptics(map { {
-        Device => "/dev/$_->{device}",
-        Protocol => $_->{XMOUSETYPE},
+    $xfree_conf->set_synaptics({
         Primary => 0,
-        ALPS => $_->{ALPS},
-    } } @$synaptics);
+        ALPS => $mouse->{synaptics}{ALPS},
+    }) if $mouse->{synaptics};
 }
 
 sub various_xfree_conf {
     my ($do_pkgs, $mouse) = @_;
 
-    {
-	my $f = "$::prefix/etc/X11/xinit.d/mouse_buttons";
-	if ($mouse->{nbuttons} <= 5) {
-	    unlink($f);
-	} else {
-	    output_with_perm($f, 0755, "xmodmap -e 'pointer = 1 2 3 6 7 4 5'\n");
-	}
-    }
-    {
-	my $f = "$::prefix/etc/X11/xinit.d/auxmouse_buttons";
-	if (!$mouse->{auxmouse} || $mouse->{auxmouse}{nbuttons} <= 5) {
-	    unlink($f);
-	} else {
-	    $do_pkgs->install('xinput');
-	    output_with_perm($f, 0755, "xinput set-button-map Mouse2 1 2 3 6 7 4 5\n");
-	}
-    }
+    #- we don't need this anymore. Remove it for upgrades
+    unlink("$::prefix/etc/X11/xinit.d/mouse_buttons");
     {
 	my $f = "$::prefix/etc/X11/xinit.d/xpad";
 	if ($mouse->{name} !~ /^Microsoft Xbox Controller/) {
@@ -432,8 +416,20 @@ sub various_xfree_conf {
 	}
     }
     
-    if (member(N_("Synaptics Touchpad"), $mouse->{name}, $mouse->{auxmouse} && $mouse->{auxmouse}{name})) {
-	$do_pkgs->install("synaptics");
+    my @pkgs = (
+	if_($mouse->{synaptics}, 'synaptics'),
+	if_($mouse->{evdev_mice}, 'x11-driver-input-evdev'),
+	if_($mouse->{imwheel}, 'imwheel'),
+	if_(@{$mouse->{wacom}}, 'linuxwacom'),
+    );
+    $do_pkgs->install(@pkgs) if @pkgs;
+
+    if ($mouse->{imwheel}) {
+	my $rc = "/etc/X11/imwheel/imwheelrc.$mouse->{imwheel}";
+	eval { setVarsInSh("$::prefix/etc/X11/imwheel/startup.conf", { 
+	    IMWHEEL_START => 1, 
+	    IMWHEEL_PARAMS => join(' ', '-k', if_(-e "$::prefix$rc", '--rc', $rc)),
+	}) };
     }
 }
 
@@ -443,16 +439,15 @@ sub various_xfree_conf {
 #- $mouse input
 #-  $mouse->{nbuttons} : number of buttons : integer
 #-  $mouse->{device} : device of the mouse : string : ex 'psaux'
-#-  $mouse->{XMOUSETYPE} : type of the mouse for gpm : string : ex 'PS/2'
+#-  $mouse->{Protocol} : type of the mouse for X : string (eg 'PS/2')
 #-  $mouse->{type} : type (generic ?) of the mouse : string : ex 'PS/2'
 #-  $mouse->{name} : name of the mouse : string : ex 'Standard'
 #-  $mouse->{MOUSETYPE} : type of the mouse : string : ex "ps/2"
-#-  $mouse->{XEMU3} : emulate 3rd button : string : 'yes' or 'no'
 sub write_conf {
     my ($do_pkgs, $modules_conf, $mouse, $b_keep_auxmouse_unchanged) = @_;
 
     &write($do_pkgs, $mouse);
-    $modules_conf->write if $mouse->{device} eq "usbmouse" && !$::testing;
+    $modules_conf->write if $mouse->{device} eq "input/mice" && !$::testing;
 
     eval {
 	require Xconfig::xfree;
@@ -465,10 +460,10 @@ sub write_conf {
 sub change_mouse_live {
     my ($mouse, $old) = @_;
 
-    my $xId = xmouse2xId($mouse->{XMOUSETYPE});
-    $old->{device} ne $mouse->{device} || $xId != xmouse2xId($old->{XMOUSETYPE}) or return;
+    my $xId = xmouse2xId($mouse->{Protocol});
+    $old->{device} ne $mouse->{device} || $xId != xmouse2xId($old->{Protocol}) or return;
 
-    log::l("telling X server to use another mouse ($mouse->{XMOUSETYPE}, $xId)");
+    log::l("telling X server to use another mouse ($mouse->{Protocol}, $xId)");
     eval { modules::load('serial') } if $mouse->{device} =~ /ttyS/;
 
     if (!$::testing) {
@@ -476,7 +471,7 @@ sub change_mouse_live {
 	symlinkf($mouse->{device}, "/dev/mouse");
 	eval {
 	    require xf86misc::main;
-	    xf86misc::main::setMouseLive($ENV{DISPLAY}, $xId, $mouse->{nbuttons} < 3);
+	    xf86misc::main::setMouseLive($ENV{DISPLAY}, $xId, $mouse->{Emulate3Buttons});
 	};
     }
     1;
@@ -486,13 +481,13 @@ sub test_mouse_install {
     my ($mouse, $x_protocol_changed) = @_;
     require ugtk2;
     ugtk2->import(qw(:wrappers :create));
-    my $w = ugtk2->new('', disallow_big_help => 1);
+    my $w = ugtk2->new(N("Testing the mouse"), disallow_big_help => 1);
     my $darea = Gtk2::DrawingArea->new;
     $darea->set_events([ 'button_press_mask', 'button_release_mask' ]);  #$darea must be unrealized.
     gtkadd($w->{window},
   	   gtkpack(my $vbox_grab = Gtk2::VBox->new(0, 0),
 		   $darea,
-		   gtkset_sensitive(create_okcancel($w, undef, undef, 'edge'), 1)
+		   gtkset_sensitive(create_okcancel($w, undef, '', 'edge'), 1)
 		  ),
 	  );
     test_mouse($mouse, $darea, $x_protocol_changed);
@@ -513,6 +508,48 @@ sub test_mouse_standalone {
     test_mouse($mouse, $darea);
 }
 
+sub select {
+    my ($in, $mouse) = @_;
+
+    my $prev = my $fullname = $mouse->{type} . '|' . $mouse->{name};
+
+    $in->ask_from_({ messages => N("Please choose your type of mouse."),
+		     title => N("Mouse choice"),
+		     interactive_help_id => 'selectMouse',
+		     if_($mouse->{unsafe}, cancel => ''),
+		 },
+		   [ { list => [ fullnames() ], separator => '|', val => \$fullname, 
+		       format => sub { join('|', map { translate($_) } split('\|', $_[0])) } } ]) or return;
+
+    if ($fullname ne $prev) {
+	my $mouse_ = fullname2mouse($fullname, device => $mouse->{device});
+	%$mouse = %$mouse_;
+    }
+
+    if ($mouse->{nbuttons} < 3 && $::isStandalone) {
+	$mouse->{Emulate3Buttons} = $in->ask_yesorno('', N("Emulate third button?"), 1);
+    }
+
+    if ($mouse->{type} eq 'serial') {
+	$in->ask_from_({ title => N("Mouse Port"),
+			 messages => N("Please choose which serial port your mouse is connected to."),
+			 interactive_help_id => 'selectSerialPort',
+		     }, [ { list => [ serial_ports() ], format => \&serial_port2text, val => \$mouse->{device} } ]) or return &select;
+    }
+
+    if (arch() =~ /ppc/ && $mouse->{nbuttons} == 1) {
+	#- set a sane default F11/F12
+	$mouse->{button2_key} = 87;
+	$mouse->{button3_key} = 88;
+	$in->ask_from('', N("Buttons emulation"),
+		[
+		{ label => N("Button 2 Emulation"), val => \$mouse->{button2_key}, list => [ ppc_one_button_keys() ], format => \&ppc_one_button_key2text },
+		{ label => N("Button 3 Emulation"), val => \$mouse->{button3_key}, list => [ ppc_one_button_keys() ], format => \&ppc_one_button_key2text },
+		]) or return;
+    }
+    1;
+}
+
 sub test_mouse {
     my ($mouse, $darea, $b_x_protocol_changed) = @_;
 
@@ -530,7 +567,7 @@ sub test_mouse {
 		       down => 'arrow_down');
     my %images = map { $_ => ugtk2::gtkcreate_pixbuf("$image_files{$_}.png") } keys %image_files;
     my $width = $images{mouse}->get_width;
-    my $height = round_up(min($images{mouse}->get_height, $::windowheight - 150), 6);
+    my $height = round_up($images{mouse}->get_height, 6);
 
     my $draw_text = sub {
   	my ($t, $y) = @_;
@@ -559,7 +596,7 @@ sub test_mouse {
 	$draw_by_name->('mouse');
 	if ($::isInstall || 1) {
 	    $draw_text->(N("Please test the mouse"), 200);
-	    if ($b_x_protocol_changed && $mouse->{nbuttons} > 3 && $mouse->{device} eq 'psaux' && member($mouse->{XMOUSETYPE}, 'IMPS/2', 'ExplorerPS/2')) {
+	    if ($b_x_protocol_changed && $mouse->{nbuttons} > 3 && $mouse->{device} eq 'psaux' && member($mouse->{Protocol}, 'IMPS/2', 'ExplorerPS/2')) {
 		$draw_text->(N("To activate the mouse,"), 240);
 		$draw_text->(N("MOVE YOUR WHEEL!"), 260);
 	    }
@@ -622,7 +659,7 @@ C<mouse> is a perl module used by mousedrake to detect and configure the mouse.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2000-2002 Mandriva <tvignaud@mandrakesoft.com>
+Copyright (C) 2000-2006 Mandriva <tvignaud@mandriva.com>
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

@@ -1,0 +1,6325 @@
+# translation of DrakX-tg.po to Tajik
+# translation of DrakX-tg.po to Тоҷикӣ
+# Copyright (C) 2001,2002,2003,2004, 2005 Free Software Foundation, Inc.
+# 2004, infoDev, a World Bank organization
+# 2004, Khujand Computer Technologies, Inc.
+# 2004, KCT1, NGO
+# 2005, Youth Opportunities, NGO
+# Abrorova Hiromon, 2004
+# Roger Kovacs <rkovacs@khujand.org>, 2003.
+# Dilshod Marupov <dma165@hotmail.com>, 2003, 2004.
+# Murod Marupov <abdullovich@khujand.org>, 2004.
+# Bahromhon Bobojonov <bahrambabajanov@hotmail.com>, 2004.
+# Victor Ibragimov <youth_opportunities@tajikngo.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DrakX-tg\n"
+"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"PO-Revision-Date: 2005-09-17 16:03+0500\n"
+"Last-Translator: Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
+"Language-Team: Tajik\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10\n"
+
+#: ../lib/Xconfig/card.pm:14
+#, c-format
+msgid "256 kB"
+msgstr "256 кБ"
+
+#: ../lib/Xconfig/card.pm:15
+#, c-format
+msgid "512 kB"
+msgstr "512 кБ"
+
+#: ../lib/Xconfig/card.pm:16
+#, c-format
+msgid "1 MB"
+msgstr "1 МБ"
+
+#: ../lib/Xconfig/card.pm:17
+#, c-format
+msgid "2 MB"
+msgstr "2МБ"
+
+#: ../lib/Xconfig/card.pm:18
+#, c-format
+msgid "4 MB"
+msgstr "4МБ"
+
+#: ../lib/Xconfig/card.pm:19
+#, c-format
+msgid "8 MB"
+msgstr "8 МБ"
+
+#: ../lib/Xconfig/card.pm:20
+#, c-format
+msgid "16 MB"
+msgstr "16 МБ"
+
+#: ../lib/Xconfig/card.pm:21
+#, c-format
+msgid "32 MB"
+msgstr "32 МБ"
+
+#: ../lib/Xconfig/card.pm:22
+#, c-format
+msgid "64 MB or more"
+msgstr "64 МБ ё зиёдтар"
+
+#: ../lib/Xconfig/card.pm:171
+#, c-format
+msgid "X server"
+msgstr "X Хидматрасон"
+
+#: ../lib/Xconfig/card.pm:172
+#, c-format
+msgid "Choose an X server"
+msgstr "X хидматрасонро интихоб кунед"
+
+#: ../lib/Xconfig/card.pm:205
+#, c-format
+msgid "Multi-head configuration"
+msgstr "Шакли бисёр-сарлавҳа дор"
+
+#: ../lib/Xconfig/card.pm:206
+#, c-format
+msgid ""
+"Your system supports multiple head configuration.\n"
+"What do you want to do?"
+msgstr ""
+"Системаи шумо батанзимдарории бисёр саракҳоро пуштибонӣ мекунад.\n"
+"Чӣ кор кардан мехоҳед?"
+
+#: ../lib/Xconfig/card.pm:277
+#, c-format
+msgid "Select the memory size of your graphics card"
+msgstr "Ҳаҷми ҳофизаи карти графикии худро интихоб кунед"
+
+#: ../lib/Xconfig/card.pm:325
+#, c-format
+msgid ""
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
+"Do you wish to use it?"
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:387
+#, c-format
+msgid "Configure all heads independently"
+msgstr "Танзимдарории мустақили ҳама сарлавҳаҳо"
+
+#: ../lib/Xconfig/card.pm:388
+#, c-format
+msgid "Use Xinerama extension"
+msgstr "Истифодаи пасванди Xinerama"
+
+#: ../lib/Xconfig/card.pm:393
+#, c-format
+msgid "Configure only card \"%s\"%s"
+msgstr "Танзимдарории танҳо карти \"%s\"%s"
+
+#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/monitor.pm:115
+#, c-format
+msgid "Custom"
+msgstr "Интихобӣ"
+
+#: ../lib/Xconfig/main.pm:126
+#, fuzzy, c-format
+msgid "Graphic Card & Monitor Configuration"
+msgstr "Батанзимдарории Пайвастшавӣ"
+
+#: ../lib/Xconfig/main.pm:127
+#, c-format
+msgid "Quit"
+msgstr "Баромадан"
+
+#: ../lib/Xconfig/main.pm:129
+#, c-format
+msgid "Graphic Card"
+msgstr "Карти Графикӣ"
+
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#, c-format
+msgid "Monitor"
+msgstr "Монитор"
+
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#, c-format
+msgid "Resolution"
+msgstr "Ҳалнокӣ"
+
+#: ../lib/Xconfig/main.pm:138
+#, c-format
+msgid "Test"
+msgstr "Озмун"
+
+#: ../lib/Xconfig/main.pm:143
+#, c-format
+msgid "Options"
+msgstr "Хосиятҳо"
+
+#: ../lib/Xconfig/main.pm:148
+#, c-format
+msgid "Plugins"
+msgstr "Мутассалкунандаҳо"
+
+#: ../lib/Xconfig/main.pm:183
+#, c-format
+msgid "Your Xorg configuration file is broken, we will ignore it."
+msgstr "Файли батанзимдарории Xorg шикаста аст, мо онро рад мекунем."
+
+#: ../lib/Xconfig/main.pm:202
+#, c-format
+msgid ""
+"Keep the changes?\n"
+"The current configuration is:\n"
+"\n"
+"%s"
+msgstr ""
+"Тағиротҳоро нигоҳ дорем?\n"
+"Танзимдарории ҳозира чунин аст:\n"
+"\n"
+"%s"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor for head #%d"
+msgstr "Дидабонро барои сараки #%d интихоб кунед"
+
+#: ../lib/Xconfig/monitor.pm:110
+#, c-format
+msgid "Choose a monitor"
+msgstr "Мониторро интихоб кунед"
+
+#: ../lib/Xconfig/monitor.pm:116
+#, c-format
+msgid "Plug'n Play"
+msgstr "Plug'n Play"
+
+#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#, c-format
+msgid "Generic"
+msgstr "Одатӣ"
+
+#: ../lib/Xconfig/monitor.pm:118
+#, c-format
+msgid "Vendor"
+msgstr "Баранда"
+
+#: ../lib/Xconfig/monitor.pm:128
+#, c-format
+msgid "Plug'n Play probing failed. Please select the correct monitor"
+msgstr ""
+"Санҷиши Plug'n Play ба нокамӣ дучор шуд. Дидабони дурустро интихоб намоед"
+
+#: ../lib/Xconfig/monitor.pm:136
+#, c-format
+msgid ""
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
+"at which the whole screen is refreshed, and most importantly the horizontal\n"
+"sync rate, which is the rate at which scanlines are displayed.\n"
+"\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
+" If in doubt, choose a conservative setting."
+msgstr ""
+"Ду параметрҳои асосӣ ин суръати навсозии амудӣ, ки суръатест,\n"
+"дар кадоме тамоми экран нав карда мешавад, ва муҳимтаринаш суръати "
+"ҳамгомкунии \n"
+"уфуқист, ки суръатест дар кадоме хатҳои нуқтаснҷӣ намоиш дода мешаванд\n"
+"\n"
+"ХЕЛЕ МУҲИМ аст, ки шумо навъи монитори худро бо ҳудуди ҳамгомкуние, ки берун "
+"аз қобилиятҳои монитори шумо аст муайян накунед: шумо ба монитори худ зарар "
+"расонида метавонед.\n"
+" Агар дар шубҳа бошед, гузориши кӯҳнаро интихоб кунед."
+
+#: ../lib/Xconfig/monitor.pm:143
+#, c-format
+msgid "Horizontal refresh rate"
+msgstr "Суръати навсозии уфуқӣ"
+
+#: ../lib/Xconfig/monitor.pm:144
+#, c-format
+msgid "Vertical refresh rate"
+msgstr "Суръати навсозии амудӣ"
+
+#: ../lib/Xconfig/plugins.pm:219
+#, fuzzy, c-format
+msgid "Choose plugins"
+msgstr "Фаъолиятро интихоб кунед"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:10
+#, c-format
+msgid "256 colors (8 bits)"
+msgstr "256 ранг (8 бит)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:11
+#, c-format
+msgid "32 thousand colors (15 bits)"
+msgstr "32 ҳазор ранг (15 бит)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:12
+#, c-format
+msgid "65 thousand colors (16 bits)"
+msgstr "65 ҳазор ранг (16 бит)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:13
+#, c-format
+msgid "16 million colors (24 bits)"
+msgstr "16 миллион ранг (24 бит)"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:127
+#, c-format
+msgid "Resolutions"
+msgstr "Ҳалнокиҳо"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#, c-format
+msgid "Other"
+msgstr "Дигар"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:382
+#, c-format
+msgid "Choose the resolution and the color depth"
+msgstr "Ҳалнокӣ ва чуқурии рангро интихоб кунед"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:383
+#, c-format
+msgid "Graphics card: %s"
+msgstr "Карти графикӣ: %s"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Ok"
+msgstr "Ok"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Cancel"
+msgstr "Бекор кардан"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:397
+#, c-format
+msgid "Help"
+msgstr "Ёрӣ"
+
+#: ../lib/Xconfig/test.pm:30
+#, c-format
+msgid "Test of the configuration"
+msgstr "Санҷиши танзимдарорӣ"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Do you want to test the configuration?"
+msgstr "Шумо шаклро санҷидан мехоҳед?"
+
+#: ../lib/Xconfig/test.pm:31
+#, c-format
+msgid "Warning: testing this graphic card may freeze your computer"
+msgstr "Огоҳӣ: санҷиши ин карто графикӣ компютери шуморо фалач карда метавонад"
+
+#: ../lib/Xconfig/test.pm:69
+#, c-format
+msgid ""
+"An error occurred:\n"
+"%s\n"
+"Try to change some parameters"
+msgstr ""
+"Хатогие рух дод:\n"
+"%s\n"
+"Баъзе параметрҳоро иваз кунед"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Leaving in %d seconds"
+msgstr "Баромад дар %d сония"
+
+#: ../lib/Xconfig/test.pm:129
+#, c-format
+msgid "Is this the correct setting?"
+msgstr "Ин гузориши дуруст аст?"
+
+#: ../lib/Xconfig/various.pm:26
+#, c-format
+msgid "3D hardware acceleration: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
+msgid "Keyboard layout: %s\n"
+msgstr "Ороиши забонак: %s\n"
+
+#: ../lib/Xconfig/various.pm:28
+#, c-format
+msgid "Mouse type: %s\n"
+msgstr "Навъи муш: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
+#, c-format
+msgid "Monitor: %s\n"
+msgstr "Монитор: %s\n"
+
+#: ../lib/Xconfig/various.pm:31
+#, c-format
+msgid "Monitor HorizSync: %s\n"
+msgstr "Ҳамгомкунии Уфуқии Монитор: %s\n"
+
+#: ../lib/Xconfig/various.pm:32
+#, c-format
+msgid "Monitor VertRefresh: %s\n"
+msgstr "Навсозии Амудии Монитор: %s\n"
+
+#: ../lib/Xconfig/various.pm:34
+#, c-format
+msgid "Graphics card: %s\n"
+msgstr "Карти графикӣ: %s\n"
+
+#: ../lib/Xconfig/various.pm:35
+#, c-format
+msgid "Graphics memory: %s kB\n"
+msgstr "Ҳофизаи графикӣ: %s кБ\n"
+
+#: ../lib/Xconfig/various.pm:37
+#, c-format
+msgid "Color depth: %s\n"
+msgstr "Чуқурии ранг: %s\n"
+
+#: ../lib/Xconfig/various.pm:38
+#, c-format
+msgid "Resolution: %s\n"
+msgstr "Ҳалнокӣ: %s\n"
+
+#: ../lib/Xconfig/various.pm:40
+#, c-format
+msgid "Xorg driver: %s\n"
+msgstr "Гардони Xorg: %s\n"
+
+#: ../lib/Xconfig/various.pm:197
+#, c-format
+msgid "Xorg configuration"
+msgstr "Шоакли Xorg"
+
+#: ../lib/Xconfig/various.pm:198
+#, fuzzy, c-format
+msgid "Graphic card options"
+msgstr "Карти графикӣ: %s"
+
+#: ../lib/Xconfig/various.pm:200
+#, c-format
+msgid "3D hardware acceleration"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:202
+#, c-format
+msgid "Enable Translucency (Composite extension)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:205
+#, c-format
+msgid "Use hardware accelerated mouse pointer"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:208
+#, c-format
+msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:212
+#, c-format
+msgid "Enable duplicate display on the external monitor"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:213
+#, c-format
+msgid "Enable duplicate display on the second display"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:216
+#, c-format
+msgid "Enable BIOS hotkey for external monitor switching"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:219
+#, c-format
+msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:221
+#, c-format
+msgid "Graphical interface at startup"
+msgstr "Интерфейси графикӣ ҳангоми оғозёбӣ"
+
+#: ../lib/Xconfig/various.pm:222
+#, fuzzy, c-format
+msgid "Automatically start the graphical interface (Xorg) upon booting"
+msgstr ""
+"Ман метавонам компютери шуморо чунин гузорам, ки ҳангоми худборшавӣ, "
+"интерфейси графикӣ (Xorg) ба таври автоматикӣ сар шавад оғоз шавад.\n"
+"Шумо мехоҳед ҳангоми бозхудборшавӣ бо Xorg оғоз кунед?"
+
+#: ../lib/Xconfig/various.pm:234
+#, c-format
+msgid ""
+"Your graphic card seems to have a TV-OUT connector.\n"
+"It can be configured to work using frame-buffer.\n"
+"\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
+"Then choose the \"TVout\" entry in the bootloader\n"
+"\n"
+"Do you have this feature?"
+msgstr ""
+"Эҳтимолан корти тасвирии шумо пайвастгори TV-OUT-ро дорост.\n"
+"Он барои кор бо истифодаи миёнгири кортҳо ба танзим дароварда шуда "
+"метавонад.\n"
+"\n"
+"Барои ин шумо бояд корти тасвирии худро ба оинаи нилгунпеш аз худборкунии "
+"компютер пайваст кунед.\n"
+"Баъд пункти \"TVout\"-ро дар боркунандаи ибтидоӣ интихоб намоед\n"
+"\n"
+"Оё шумо ин хусусиятро доред?"
+
+#: ../lib/Xconfig/various.pm:246
+#, c-format
+msgid "What norm is your TV using?"
+msgstr "Кадом намудро телевизори шумо истифода мебарад?"
+
+#: ../lib/Xconfig/various.pm:341
+#, c-format
+msgid ""
+"The display resolution being used may not be correct. \n"
+"\n"
+"If your desktop appears to stretch beyond the edges of the display, \n"
+"installing %s may help fix the problem. Install it now?"
+msgstr ""
+
+#: ../lib/Xconfig/xfree.pm:679
+#, c-format
+msgid ""
+"_:weird aspect ratio\n"
+"other"
+msgstr "дигар"
+
+#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTZ)"
+msgstr "Чехӣ (QWERTZ)"
+
+#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Олмонӣ"
+
+#: ../lib/keyboard.pm:185
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak"
+msgstr "Дворака"
+
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Испанӣ"
+
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Финӣ"
+
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Форонсавӣ"
+
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#, c-format
+msgid "UK keyboard"
+msgstr "Забонаки UK"
+
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Норвегӣ"
+
+#: ../lib/keyboard.pm:191
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish"
+msgstr "Полянӣ"
+
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Русӣ"
+
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Шведӣ"
+
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#, c-format
+msgid "US keyboard"
+msgstr "Забонаки америкоӣ"
+
+#: ../lib/keyboard.pm:196
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Albanian"
+msgstr "Албанӣ"
+
+#: ../lib/keyboard.pm:197
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (old)"
+msgstr "Арманӣ (кӯҳна)"
+
+#: ../lib/keyboard.pm:198
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (typewriter)"
+msgstr "Арманӣ (чопи мошинӣ)"
+
+#: ../lib/keyboard.pm:199
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Armenian (phonetic)"
+msgstr "Арманӣ (фонетикӣ)"
+
+#: ../lib/keyboard.pm:200
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Arabic"
+msgstr "Арабӣ"
+
+#: ../lib/keyboard.pm:201
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Azerbaidjani (latin)"
+msgstr "Озарбойҷонӣ (лотинӣ)"
+
+#: ../lib/keyboard.pm:202
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belgian"
+msgstr "Белгиягӣ"
+
+#: ../lib/keyboard.pm:203
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Inscript-layout)"
+msgstr "Бенгалӣ (Inscript)"
+
+#: ../lib/keyboard.pm:204
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bengali (Probhat)"
+msgstr "Бенгалӣ (Probhat)"
+
+#: ../lib/keyboard.pm:205
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (phonetic)"
+msgstr "Булғорӣ (фонетикӣ)"
+
+#: ../lib/keyboard.pm:206
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bulgarian (BDS)"
+msgstr "Булғорӣ (BDS)"
+
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Brazilian (ABNT-2)"
+msgstr "Бразилягӣ (ABNT-2)"
+
+#: ../lib/keyboard.pm:208
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Bosnian"
+msgstr "Босниягӣ"
+
+#: ../lib/keyboard.pm:209
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dzongkha/Tibetan"
+msgstr "Босниягӣ"
+
+#: ../lib/keyboard.pm:210
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Belarusian"
+msgstr "Беларусӣ"
+
+#: ../lib/keyboard.pm:211
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (German layout)"
+msgstr "Швейсарӣ (ороиши олмонӣ)"
+
+#: ../lib/keyboard.pm:212
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swiss (French layout)"
+msgstr "Швейсарӣ (тарҳбандии фаронсавӣ)"
+
+#: ../lib/keyboard.pm:214
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Cherokee syllabics"
+msgstr "Арабӣ"
+
+#: ../lib/keyboard.pm:216
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Czech (QWERTY)"
+msgstr "Чехӣ (QWERTY)"
+
+#: ../lib/keyboard.pm:218
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German (no dead keys)"
+msgstr "Олмонӣ (бе калидҳои мурда)"
+
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Devanagari"
+msgstr "Девангари"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Danish"
+msgstr "Даниягӣ"
+
+#: ../lib/keyboard.pm:221
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr "Дворака (ШМА)"
+
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr "Dvorak (Эсперанто-Ҷаҳонӣ)"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (French)"
+msgstr "Dvorak (норвеягӣ)"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (UK)"
+msgstr "Дворака (ШМА)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Norwegian)"
+msgstr "Dvorak (норвеягӣ)"
+
+#: ../lib/keyboard.pm:226
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Polish)"
+msgstr "Дворака (Шведӣ)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Swedish)"
+msgstr "Дворака (Шведӣ)"
+
+#: ../lib/keyboard.pm:228
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Estonian"
+msgstr "Эстонӣ"
+
+#: ../lib/keyboard.pm:231
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Faroese"
+msgstr "Юнонӣ"
+
+#: ../lib/keyboard.pm:234
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Russian\" layout)"
+msgstr "Гурҷӣ (ҷобаҷогузории \"Русӣ\")"
+
+#: ../lib/keyboard.pm:235
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Georgian (\"Latin\" layout)"
+msgstr "Гурҷӣ (\"Лотинӣ\" ороиш)"
+
+#: ../lib/keyboard.pm:236
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek"
+msgstr "Юнонӣ"
+
+#: ../lib/keyboard.pm:237
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Greek (polytonic)"
+msgstr "Юнонӣ (polytonic)"
+
+#: ../lib/keyboard.pm:238
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gujarati"
+msgstr "Гуҷаратӣ"
+
+#: ../lib/keyboard.pm:239
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Gurmukhi"
+msgstr "Гурмуки"
+
+#: ../lib/keyboard.pm:240
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Croatian"
+msgstr "Хорватиягӣ"
+
+#: ../lib/keyboard.pm:241
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Hungarian"
+msgstr "Маҷорӣ"
+
+#: ../lib/keyboard.pm:242
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Irish"
+msgstr "Ирландӣ"
+
+#: ../lib/keyboard.pm:243
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Inuktitut"
+msgstr "Инуктитут"
+
+#: ../lib/keyboard.pm:244
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli"
+msgstr "Исроилӣ"
+
+#: ../lib/keyboard.pm:245
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Israeli (phonetic)"
+msgstr "Исроилӣ (фонетикӣ)"
+
+#: ../lib/keyboard.pm:246
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Iranian"
+msgstr "Эронӣ"
+
+#: ../lib/keyboard.pm:247
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Icelandic"
+msgstr "Исландӣ"
+
+#: ../lib/keyboard.pm:248
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Italian"
+msgstr "Италиёӣ"
+
+#: ../lib/keyboard.pm:252
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Japanese 106 keys"
+msgstr "Ҷопонӣ 106 калидҳо"
+
+#: ../lib/keyboard.pm:253
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kannada"
+msgstr "Каннада"
+
+#: ../lib/keyboard.pm:254
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Kyrgyz"
+msgstr "Забонаки қирғизӣ"
+
+#: ../lib/keyboard.pm:257
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Korean"
+msgstr "Забонаки куриёгӣ"
+
+#: ../lib/keyboard.pm:259
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Kurdish (arabic script)"
+msgstr "Арабӣ"
+
+#: ../lib/keyboard.pm:260
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latin American"
+msgstr "Амрикои Лотинӣ"
+
+#: ../lib/keyboard.pm:262
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Laotian"
+msgstr "Лаосӣ"
+
+#: ../lib/keyboard.pm:263
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (old)"
+msgstr "AZERTY литвиягӣ(кӯҳна)"
+
+#: ../lib/keyboard.pm:265
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian AZERTY (new)"
+msgstr "AZERTY-и литвонӣ (нав)"
+
+#: ../lib/keyboard.pm:266
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"number row\" QWERTY"
+msgstr "Литовӣ \"сатри шуморавӣ\" QWERTY"
+
+#: ../lib/keyboard.pm:267
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Lithuanian \"phonetic\" QWERTY"
+msgstr "Литвонӣ \"фонетикӣ\" QWERTY"
+
+#: ../lib/keyboard.pm:268
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Latvian"
+msgstr "Латвиягӣ"
+
+#: ../lib/keyboard.pm:269
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Malayalam"
+msgstr "Малайӣ"
+
+#: ../lib/keyboard.pm:270
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maori"
+msgstr ""
+
+#: ../lib/keyboard.pm:271
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Macedonian"
+msgstr "Македонӣ"
+
+#: ../lib/keyboard.pm:272
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Myanmar (Burmese)"
+msgstr "Мянмагӣ (Бирма)"
+
+#: ../lib/keyboard.pm:273
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Mongolian (cyrillic)"
+msgstr "Муғулӣ (кириллӣ)"
+
+#: ../lib/keyboard.pm:274
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (UK)"
+msgstr "Мальтиягӣ (UK)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Maltese (US)"
+msgstr "Малтиягӣ (ИМА)"
+
+#: ../lib/keyboard.pm:276
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Nigerian"
+msgstr ""
+
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dutch"
+msgstr "Ҳолландӣ"
+
+#: ../lib/keyboard.pm:279
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Oriya"
+msgstr "Ория"
+
+#: ../lib/keyboard.pm:280
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwerty layout)"
+msgstr "Полякӣ (ороиши qwerty)"
+
+#: ../lib/keyboard.pm:281
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Polish (qwertz layout)"
+msgstr "Полякӣ (ороиши qwertz)"
+
+#: ../lib/keyboard.pm:283
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Pashto"
+msgstr "Полянӣ"
+
+#: ../lib/keyboard.pm:284
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Portuguese"
+msgstr "Португалиягӣ"
+
+#: ../lib/keyboard.pm:285
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Canadian (Quebec)"
+msgstr "Канадиягӣ (Квибек)"
+
+#: ../lib/keyboard.pm:286
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwertz)"
+msgstr "Руминӣ (qwertz)"
+
+#: ../lib/keyboard.pm:287
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (qwerty)"
+msgstr "Руминӣ (qwerty)"
+
+#: ../lib/keyboard.pm:289
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian (phonetic)"
+msgstr "Русӣ (Фонетикӣ)"
+
+#: ../lib/keyboard.pm:291
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovenian"
+msgstr "Словениягӣ"
+
+#: ../lib/keyboard.pm:293
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Sinhala"
+msgstr ""
+
+#: ../lib/keyboard.pm:294
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTZ)"
+msgstr "Словакиягӣ (QWERTZ)"
+
+#: ../lib/keyboard.pm:295
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Slovakian (QWERTY)"
+msgstr "Словакиягӣ (QWERTY)"
+
+#: ../lib/keyboard.pm:296
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (norwegian)"
+msgstr "Сиамӣ (норвегӣ)"
+
+#: ../lib/keyboard.pm:297
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Saami (swedish/finnish)"
+msgstr "Saami (шведӣ/финӣ)"
+
+#: ../lib/keyboard.pm:299
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Sindhi"
+msgstr "Забонаки Тайӣ"
+
+#: ../lib/keyboard.pm:301
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Serbian (cyrillic)"
+msgstr "Сербӣ (кирилӣ)"
+
+#: ../lib/keyboard.pm:302
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac"
+msgstr "Суриягӣ"
+
+#: ../lib/keyboard.pm:303
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Syriac (phonetic)"
+msgstr "Суриягӣ (фонетикӣ)"
+
+#: ../lib/keyboard.pm:304
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Telugu"
+msgstr "Telugu"
+
+#: ../lib/keyboard.pm:306
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (ISCII-layout)"
+msgstr "Тамилӣ (ҷобаҷогузории ISCII)"
+
+#: ../lib/keyboard.pm:307
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tamil (Typewriter-layout)"
+msgstr "Тамилӣ (ҷобаҷогузории мошинаи чопкунӣ)"
+
+#: ../lib/keyboard.pm:308
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Kedmanee)"
+msgstr "Забонаки Тайӣ"
+
+#: ../lib/keyboard.pm:309
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+msgstr "Забонаки Тайӣ"
+
+#: ../lib/keyboard.pm:311
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Thai (Pattachote)"
+msgstr "Забонаки Тайӣ"
+
+#: ../lib/keyboard.pm:313
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
+msgstr ""
+
+#: ../lib/keyboard.pm:316
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tajik"
+msgstr "Забонаки тоҷикӣ"
+
+#: ../lib/keyboard.pm:318
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkmen"
+msgstr "Олмонӣ"
+
+#: ../lib/keyboard.pm:319
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (traditional \"F\" model)"
+msgstr "Туркӣ (модели анъанавии \"F\")"
+
+#: ../lib/keyboard.pm:320
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (modern \"Q\" model)"
+msgstr "Туркӣ (модели муосири \"Q\")"
+
+#: ../lib/keyboard.pm:322
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Ukrainian"
+msgstr "Украинӣ"
+
+#: ../lib/keyboard.pm:324
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Urdu keyboard"
+msgstr "Ория"
+
+#: ../lib/keyboard.pm:326
+#, c-format
+msgid "US keyboard (international)"
+msgstr "Забонаки амрикоӣ (байналхалқӣ)"
+
+#: ../lib/keyboard.pm:327
+#, c-format
+msgid "ISO9995-3 (US keyboard with 3 levels per key)"
+msgstr ""
+
+#: ../lib/keyboard.pm:328
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Uzbek (cyrillic)"
+msgstr "Ӯзбекӣ (кириллӣ)"
+
+#: ../lib/keyboard.pm:330
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Vietnamese \"numeric row\" QWERTY"
+msgstr "Ветнамӣ \"қатори рақамдор\" QWERTY"
+
+#: ../lib/keyboard.pm:331
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Yugoslavian (latin)"
+msgstr "Югославӣ (лотинӣ)"
+
+#: ../lib/keyboard.pm:338
+#, c-format
+msgid "Right Alt key"
+msgstr "Калиди рости Alt"
+
+#: ../lib/keyboard.pm:339
+#, c-format
+msgid "Both Shift keys simultaneously"
+msgstr "Дар як вақт ҳар дуи забонакҳои Shift"
+
+#: ../lib/keyboard.pm:340
+#, c-format
+msgid "Control and Shift keys simultaneously"
+msgstr "Калиди Control ва Shift дар як вақт"
+
+#: ../lib/keyboard.pm:341
+#, c-format
+msgid "CapsLock key"
+msgstr "Калиди CapsLock"
+
+#: ../lib/keyboard.pm:342
+#, c-format
+msgid "Shift and CapsLock keys simultaneously"
+msgstr "Калиди Shift ва CapsLock дар як вақт"
+
+#: ../lib/keyboard.pm:343
+#, c-format
+msgid "Ctrl and Alt keys simultaneously"
+msgstr "Калиди Ctrl ва Alt дар як вақт"
+
+#: ../lib/keyboard.pm:344
+#, c-format
+msgid "Alt and Shift keys simultaneously"
+msgstr "Калидҳои Alt ва Shift ҳамзамон"
+
+#: ../lib/keyboard.pm:345
+#, c-format
+msgid "\"Menu\" key"
+msgstr "Забонаки \"Menu\""
+
+#: ../lib/keyboard.pm:346
+#, c-format
+msgid "Left \"Windows\" key"
+msgstr "Тугмачаи чап \"Windows\""
+
+#: ../lib/keyboard.pm:347
+#, c-format
+msgid "Right \"Windows\" key"
+msgstr "Калиди рости \"Windows\""
+
+#: ../lib/keyboard.pm:348
+#, c-format
+msgid "Both Control keys simultaneously"
+msgstr "Дар як вақт ҳар дуи забонаки Control"
+
+#: ../lib/keyboard.pm:349
+#, c-format
+msgid "Both Alt keys simultaneously"
+msgstr "Ҳар дуи дагмаи Alt дар як вақт"
+
+#: ../lib/keyboard.pm:350
+#, c-format
+msgid "Left Shift key"
+msgstr "Калиди чапи Shift"
+
+#: ../lib/keyboard.pm:351
+#, c-format
+msgid "Right Shift key"
+msgstr "Калиди рости Shift"
+
+#: ../lib/keyboard.pm:352
+#, c-format
+msgid "Left Alt key"
+msgstr "Калиди чапи Alt"
+
+#: ../lib/keyboard.pm:353
+#, c-format
+msgid "Left Control key"
+msgstr "Калиди чапи Control"
+
+#: ../lib/keyboard.pm:354
+#, c-format
+msgid "Right Control key"
+msgstr "Дагмаи рости Control"
+
+#: ../lib/keyboard.pm:390
+#, c-format
+msgid ""
+"Here you can choose the key or key combination that will \n"
+"allow switching between the different keyboard layouts\n"
+"(eg: latin and non latin)"
+msgstr ""
+"Дар ин ҷо шумо метавонед калид ё ин ки маҷмӯи калидҳоро, ки имконияти\n"
+"гузаштанро байни ороишҳои гуногуни забонакро медиҳад, интихоб намоед\n"
+"(масалан: лотинӣ ё ин ки ғайри лотинӣ)"
+
+#: ../lib/keyboard.pm:394
+#, c-format
+msgid "Warning"
+msgstr "Огоҳӣ"
+
+#: ../lib/keyboard.pm:395
+#, c-format
+msgid ""
+"This setting will be activated after the installation.\n"
+"During installation, you will need to use the Right Control\n"
+"key to switch between the different keyboard layouts."
+msgstr ""
+"Барпосозии мазкур баъд аз коргузорӣ фаъол хоҳад буд.\n"
+"Дар ҷараёни коргузорӣ забонаки Control-и Ростро\n"
+"барои амалӣ намудани алоқа байни ороишҳои гуногуги забонак истифода баред."
+
+#: ../lib/mouse.pm:25
+#, c-format
+msgid "Sun - Mouse"
+msgstr "Sun - Муш"
+
+#: ../lib/mouse.pm:31
+#, c-format
+msgid "Standard"
+msgstr "Намунавӣ"
+
+#: ../lib/mouse.pm:32
+#, c-format
+msgid "Logitech MouseMan+"
+msgstr "Logitech MouseMan+"
+
+#: ../lib/mouse.pm:33
+#, c-format
+msgid "Generic PS2 Wheel Mouse"
+msgstr "Муши Умумии PS2 бо Ғилдирак"
+
+#: ../lib/mouse.pm:34
+#, c-format
+msgid "GlidePoint"
+msgstr "GlidePoint"
+
+#: ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Худкор"
+
+#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#, c-format
+msgid "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse"
+
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#, c-format
+msgid "Genius NetMouse"
+msgstr "Genius NetMouse"
+
+#: ../lib/mouse.pm:39
+#, c-format
+msgid "Genius NetScroll"
+msgstr "Genius NetScroll"
+
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#, c-format
+msgid "Microsoft Explorer"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#, c-format
+msgid "1 button"
+msgstr "1 тугма"
+
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#, c-format
+msgid "Generic 2 Button Mouse"
+msgstr "Муши Стандартӣ бо 2 Тугма"
+
+#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#, c-format
+msgid "Generic 3 Button Mouse with Wheel emulation"
+msgstr "Муши седагмавии умумӣ бо намунаи ғилдиракча"
+
+#: ../lib/mouse.pm:49
+#, c-format
+msgid "Wheel"
+msgstr "Ғилдирак"
+
+#: ../lib/mouse.pm:53
+#, c-format
+msgid "serial"
+msgstr "пайдарпай"
+
+#: ../lib/mouse.pm:56
+#, c-format
+msgid "Generic 3 Button Mouse"
+msgstr "Муши нусхавӣ бо 3 дагма"
+
+#: ../lib/mouse.pm:58
+#, c-format
+msgid "Microsoft IntelliMouse"
+msgstr "IntelliМуши Microsoft"
+
+#: ../lib/mouse.pm:59
+#, c-format
+msgid "Logitech MouseMan"
+msgstr "Logitech MouseMan"
+
+#: ../lib/mouse.pm:60
+#, c-format
+msgid "Logitech MouseMan with Wheel emulation"
+msgstr "Logitech MouseMan бо намунасозии Чарха"
+
+#: ../lib/mouse.pm:61
+#, c-format
+msgid "Mouse Systems"
+msgstr "Системаҳои Муш"
+
+#: ../lib/mouse.pm:63
+#, c-format
+msgid "Logitech CC Series"
+msgstr "Logitech CC Series"
+
+#: ../lib/mouse.pm:64
+#, c-format
+msgid "Logitech CC Series with Wheel emulation"
+msgstr "Logitech CC Series бо намунаи ғилдиракча"
+
+#: ../lib/mouse.pm:65
+#, c-format
+msgid "Logitech MouseMan+/FirstMouse+"
+msgstr "Logitech MouseMan+/FirstMouse+"
+
+#: ../lib/mouse.pm:67
+#, c-format
+msgid "MM Series"
+msgstr "MM Series"
+
+#: ../lib/mouse.pm:68
+#, c-format
+msgid "MM HitTablet"
+msgstr "MM HitTablet"
+
+#: ../lib/mouse.pm:69
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type)"
+msgstr "Logitech Mouse (навбатии намуди кӯҳнаи C7)"
+
+#: ../lib/mouse.pm:70
+#, c-format
+msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
+msgstr "Муши Logitech (беруна, навъи кӯҳнаи C7) бо намунаи ғилдирак"
+
+#: ../lib/mouse.pm:72
+#, c-format
+msgid "Kensington Thinking Mouse with Wheel emulation"
+msgstr "Муши Kensington Thinking бо намунаи чарх"
+
+#: ../lib/mouse.pm:75
+#, c-format
+msgid "busmouse"
+msgstr "busmouse"
+
+#: ../lib/mouse.pm:78
+#, c-format
+msgid "2 buttons"
+msgstr "2 тугма"
+
+#: ../lib/mouse.pm:79
+#, c-format
+msgid "3 buttons"
+msgstr "3 дагма"
+
+#: ../lib/mouse.pm:80
+#, c-format
+msgid "3 buttons with Wheel emulation"
+msgstr "Се дагма бо намунаи ғилдиракча"
+
+#: ../lib/mouse.pm:83
+#, c-format
+msgid "Universal"
+msgstr "Universal"
+
+#: ../lib/mouse.pm:85
+#, c-format
+msgid "Any PS/2 & USB mice"
+msgstr "Ягон PS/2 & USB муш"
+
+#: ../lib/mouse.pm:86
+#, fuzzy, c-format
+msgid "Microsoft Xbox Controller S"
+msgstr "Microsoft Explorer"
+
+#: ../lib/mouse.pm:89
+#, c-format
+msgid "none"
+msgstr "мавҷуд нест"
+
+#: ../lib/mouse.pm:91
+#, c-format
+msgid "No mouse"
+msgstr "Муш нест"
+
+#: ../lib/mouse.pm:484
+#, c-format
+msgid "Testing the mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:516
+#, c-format
+msgid "Please choose your type of mouse."
+msgstr "Лутфан намуди мушатонро интихоб кунед."
+
+#: ../lib/mouse.pm:517
+#, fuzzy, c-format
+msgid "Mouse choice"
+msgstr "Интихоби дастӣ"
+
+#: ../lib/mouse.pm:530
+#, c-format
+msgid "Emulate third button?"
+msgstr "Дагмаи сеюмро намунасозӣ кардан?"
+
+#: ../lib/mouse.pm:534
+#, c-format
+msgid "Mouse Port"
+msgstr "Даргоҳи муш"
+
+#: ../lib/mouse.pm:535
+#, c-format
+msgid "Please choose which serial port your mouse is connected to."
+msgstr ""
+"Лутфан дар кадом бандари беруна муши шумо пайваст буданашро интихоб кунед."
+
+#: ../lib/mouse.pm:544
+#, c-format
+msgid "Buttons emulation"
+msgstr "Намунаи дагмаҳо"
+
+#: ../lib/mouse.pm:546
+#, c-format
+msgid "Button 2 Emulation"
+msgstr "Намунаи дагмаи 2"
+
+#: ../lib/mouse.pm:547
+#, c-format
+msgid "Button 3 Emulation"
+msgstr "Намунаи тугмачаи сеюм"
+
+#: ../lib/mouse.pm:598
+#, c-format
+msgid "Please test the mouse"
+msgstr "Лутфан кори мушро санҷед"
+
+#: ../lib/mouse.pm:600
+#, c-format
+msgid "To activate the mouse,"
+msgstr "Барои фаъол намудани муш,"
+
+#: ../lib/mouse.pm:601
+#, c-format
+msgid "MOVE YOUR WHEEL!"
+msgstr "ҒИЛДИРАКИ ХУДРО ДАВР ЗАНОНЕД!"
+
+#: ../tools/XFdrake:59
+#, fuzzy, c-format
+msgid "You need to reboot for changes to take effect"
+msgstr "Шумо бояд бароед ва аз нав дароед барои он ки тағиротҳо натиҷа бахшанд"
+
+#: ../tools/keyboarddrake:29
+#, c-format
+msgid "Keyboard"
+msgstr "Забонак"
+
+#: ../tools/keyboarddrake:30
+#, c-format
+msgid "Please, choose your keyboard layout."
+msgstr "Лутфан, ороиши забонаки худро интихоб намоед."
+
+#: ../tools/keyboarddrake:31
+#, fuzzy, c-format
+msgid "Keyboard layout"
+msgstr "Тарҳбандии забонак"
+
+#: ../tools/keyboarddrake:39
+#, fuzzy, c-format
+msgid "Keyboard type"
+msgstr "Забонак"
+
+#: ../tools/keyboarddrake:51
+#, c-format
+msgid "Do you want the BackSpace to return Delete in console?"
+msgstr "Мехоҳед, ки калиди BackSpace ба нозиргоҳ Delete-ро баргардонад?"
+
+#: ../tools/mousedrake:41
+#, c-format
+msgid "Mouse test"
+msgstr "Тафтиши муш"
+
+#: ../tools/mousedrake:44
+#, c-format
+msgid "Please test your mouse:"
+msgstr "Марҳамат карда муши худро санҷед:"
+
+#, fuzzy
+#~ msgid "Use %s"
+#~ msgstr "Корванди umask"
+
+#~ msgid "Please wait"
+#~ msgstr "Лутфан интизор шавед"
+
+#~ msgid "Bootloader installation in progress"
+#~ msgstr "Коргузории боркунандаи ибтидоӣ ба пешрафт"
+
+#~ msgid ""
+#~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
+#~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
+#~ "error.\n"
+#~ "This caution does not apply to Windows 95 or 98, or to NT data disks.\n"
+#~ "\n"
+#~ "Assign a new Volume ID?"
+#~ msgstr ""
+#~ "LILO мехоҳад Шиносаи нави Баландии Овозро барои гардонандаи %s таъин "
+#~ "созад.\n"
+#~ "Лекин ивазкунии Шиносаи Баландии Овози Windows NT, 2000, ё XP диски "
+#~ "боркунии Windows хатогии ҷиддӣ мебошад.\n"
+#~ "Ин ҳолат бо Windows 95 ё 98, ё дар NT додаҳои диск ба амал намеояд.\n"
+#~ "\n"
+#~ "Шиносаи нави Баландии Овозро таъин созам?"
+
+#~ msgid "Installation of bootloader failed. The following error occurred:"
+#~ msgstr ""
+#~ "Коргузории корандози худборшав бемувафаққият ба анҷом расид. Хатогии "
+#~ "зерин рӯй дод:"
+
+#~ msgid ""
+#~ "You may need to change your Open Firmware boot-device to\n"
+#~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
+#~ " reboot, hold down Command-Option-O-F at reboot and enter:\n"
+#~ " setenv boot-device %s,\\\\:tbxi\n"
+#~ " Then type: shut-down\n"
+#~ "At your next boot you should see the bootloader prompt."
+#~ msgstr ""
+#~ "Шояд ба шумо лозим аст, ки дастгоҳи худборшавии Open Firmware-и худро "
+#~ "барои дар\n"
+#~ " гиронидани корандози худборшав тағир диҳед.Агар шумо ҳангоми аз нав\n"
+#~ " худборшавии эъломи корандози худборшавро набинед, онгоҳ Command-Option-O-"
+#~ "F\n"
+#~ " ҳангоми аз нав худборшавӣ нигоҳ доред ва setenv boot-device %s,\\\\:tbxi-"
+#~ "ро дохил\n"
+#~ " намоед\n"
+#~ " Сониян: shut-down-ро нависед\n"
+#~ " Ҳангоми худборшавии оянда шумо бояд эъломи корандози худборшавро бинед."
+
+#~ msgid ""
+#~ "You decided to install the bootloader on a partition.\n"
+#~ "This implies you already have a bootloader on the hard drive you boot "
+#~ "(eg: System Commander).\n"
+#~ "\n"
+#~ "On which drive are you booting?"
+#~ msgstr ""
+#~ "Шумо ба қарор омадед, ки корандози худборшавро дар ин қисм коргузорӣ "
+#~ "менамоед.\n"
+#~ "Тахмин карда мешавад, ки дар диски сахте ки шумо дар он худборшавиро ба "
+#~ "амал меоред аллакай корандози худборшав мавҷуд аст (масалан, System "
+#~ "Commander).\n"
+#~ "\n"
+#~ "Аз кадом диск шумо худборшавиро амалӣ менамоед?"
+
+#~ msgid "First sector of drive (MBR)"
+#~ msgstr "Соҳаи аввали гардон (МБР)"
+
+#~ msgid "First sector of the root partition"
+#~ msgstr "Соҳаи аввали бахши root"
+
+#~ msgid "On Floppy"
+#~ msgstr "Дискет"
+
+#~ msgid "Skip"
+#~ msgstr "Гузарондан"
+
+#~ msgid "LILO/grub Installation"
+#~ msgstr "Коргузориши LILO/ҷустуҷӯ"
+
+#~ msgid "Where do you want to install the bootloader?"
+#~ msgstr "Шумо корандози худборшавро дар куҷо кор гузоштан мехоҳед?"
+
+#~ msgid "Boot Style Configuration"
+#~ msgstr "Танзимдарории Навъи Худборшавӣ"
+
+#~ msgid "Bootloader main options"
+#~ msgstr "Хосиятҳои асосии корандози худборшав"
+
+#~ msgid "Bootloader"
+#~ msgstr "Корандози худборшав"
+
+#~ msgid "Bootloader to use"
+#~ msgstr "Корандози худборшав барои истифода"
+
+#~ msgid "Boot device"
+#~ msgstr "Дастгоҳи худборшав"
+
+#~ msgid "Delay before booting default image"
+#~ msgstr "Пеш аз худборшавӣ андармони симои пешфарз"
+
+#~ msgid "Enable ACPI"
+#~ msgstr "Даргиронидани ACPI"
+
+#, fuzzy
+#~ msgid "Enable APIC"
+#~ msgstr "Даргиронидани ACPI"
+
+#, fuzzy
+#~ msgid "Enable Local APIC"
+#~ msgstr "Даргиронидани ACPI"
+
+#~ msgid "Password"
+#~ msgstr "Гузарвожа"
+
+#~ msgid "The passwords do not match"
+#~ msgstr "Гузарвожаҳо мувофиқ нестанд"
+
+#~ msgid "Please try again"
+#~ msgstr "Лутфан, аз нав кӯшиш кунед"
+
+#, fuzzy
+#~ msgid "You can not use a password with %s"
+#~ msgstr ""
+#~ "Шумо файл системи рамздоштаро барои нуқтаи васли %s истифода бурда "
+#~ "наметавонед"
+
+#~ msgid "Password (again)"
+#~ msgstr "Гузарвожа (боз)"
+
+#~ msgid "Restrict command line options"
+#~ msgstr "Маҳдуди хосиятҳои сатри фармон"
+
+#~ msgid "restrict"
+#~ msgstr "маҳдуд"
+
+#~ msgid ""
+#~ "Option ``Restrict command line options'' is of no use without a password"
+#~ msgstr "Хосият ‘’Маҳдуди хосиятҳои сатри фармон‘’ бе гузарвожа суд надорад"
+
+#~ msgid "Clean /tmp at each boot"
+#~ msgstr "Дар ҳар худборшавӣ /tmp-ро тоза кунед"
+
+#~ msgid "Precise RAM size if needed (found %d MB)"
+#~ msgstr "Агар зарур бошад ҳаҷми RAM-ро муайян кунед (%d МБ ёфт шуд)"
+
+#~ msgid "Give the ram size in MB"
+#~ msgstr "Ҳаҷми ram-ро бо МБ диҳед"
+
+#~ msgid "Init Message"
+#~ msgstr "Пайғоми Init"
+
+#~ msgid "Open Firmware Delay"
+#~ msgstr "Кушодани Андармони Миёнафзор"
+
+#~ msgid "Kernel Boot Timeout"
+#~ msgstr "Танаффуси Худборшави Асосӣ"
+
+#~ msgid "Enable CD Boot?"
+#~ msgstr "CD Худборшавро дар гиронем?"
+
+#~ msgid "Enable OF Boot?"
+#~ msgstr "OF Худборшавро дар гиронем?"
+
+#~ msgid "Default OS?"
+#~ msgstr "Пешфарзи OS?"
+
+#~ msgid "Image"
+#~ msgstr "Симо"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Append"
+#~ msgstr "Пайваст"
+
+#~ msgid "Video mode"
+#~ msgstr "Усули видео"
+
+#~ msgid "Initrd"
+#~ msgstr "Initrd"
+
+#~ msgid "Network profile"
+#~ msgstr "Тахассуси шабака"
+
+#~ msgid "Label"
+#~ msgstr "Нишона"
+
+#~ msgid "Default"
+#~ msgstr "Пешфарз"
+
+#~ msgid "NoVideo"
+#~ msgstr "БеВидео"
+
+#~ msgid "Empty label not allowed"
+#~ msgstr "Нишони холӣ иҷозат нест"
+
+#~ msgid "You must specify a kernel image"
+#~ msgstr "Шумо бояд симои асосро нишон диҳед"
+
+#~ msgid "You must specify a root partition"
+#~ msgstr "Шумо бояд қисми решагиро муайян кунед"
+
+#~ msgid "This label is already used"
+#~ msgstr "Ин нишона аллакай истифода шудааст"
+
+#~ msgid "Which type of entry do you want to add?"
+#~ msgstr "Кадом навъи элементро илова кардан мехоҳед?"
+
+#~ msgid "Linux"
+#~ msgstr "Linux"
+
+#~ msgid "Other OS (SunOS...)"
+#~ msgstr "Дигар СО (SunOS...)"
+
+#~ msgid "Other OS (MacOS...)"
+#~ msgstr "Дигар СО (MacOS...)"
+
+#~ msgid "Other OS (Windows...)"
+#~ msgstr "Дигар СО (Windows...)"
+
+#~ msgid ""
+#~ "Here are the entries on your boot menu so far.\n"
+#~ "You can create additional entries or change the existing ones."
+#~ msgstr ""
+#~ "Дар ҳамин лаҳза дар менюи худборшав элементҳои зерин ҳастанд.\n"
+#~ "Шумо метавонед элементҳои иловагӣ офаред ё вуҷуд бударо иваз кунед."
+
+#~ msgid "access to X programs"
+#~ msgstr "дастёбӣ ба X-барномаҳо"
+
+#~ msgid "access to rpm tools"
+#~ msgstr "роҳ ба воситаҳои rpm"
+
+#~ msgid "allow \"su\""
+#~ msgstr "иҷозат додани \"su\""
+
+#~ msgid "access to administrative files"
+#~ msgstr "роҳ ба файлҳои маъмурият"
+
+#~ msgid "access to network tools"
+#~ msgstr "роҳ ба асбобҳои шабака"
+
+#~ msgid "access to compilation tools"
+#~ msgstr "роҳ ба асбобҳои талфифа"
+
+#~ msgid "(already added %s)"
+#~ msgstr "(аллакай илова шуд %s)"
+
+#~ msgid "Please give a user name"
+#~ msgstr "Илтимос ноим корвандро диҳед"
+
+#~ msgid ""
+#~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
+#~ msgstr ""
+#~ "“Номи корванд бояд фақат аз ҳарфҳои хурд, рақамҳо, `-' ва `_' иборат "
+#~ "бошад”"
+
+#~ msgid "The user name is too long"
+#~ msgstr "Ин номи корванд хеле дароз"
+
+#~ msgid "This user name has already been added"
+#~ msgstr "Ин номи корванд аллакай илова шудааст"
+
+#~ msgid "User ID"
+#~ msgstr "Корванди ID"
+
+#~ msgid "Group ID"
+#~ msgstr "Гурӯҳи ID"
+
+#~ msgid "%s must be a number"
+#~ msgstr "%s бояд рақам бошад"
+
+#~ msgid "Add user"
+#~ msgstr "Иловаи корванд"
+
+#~ msgid ""
+#~ "Enter a user\n"
+#~ "%s"
+#~ msgstr ""
+#~ "“Дохил кардани корванд\n"
+#~ "”“%s”"
+
+#~ msgid "Done"
+#~ msgstr "Шуд"
+
+#~ msgid "Accept user"
+#~ msgstr "Қабули корванд"
+
+#~ msgid "Real name"
+#~ msgstr "Номи ҳақиқӣ"
+
+#~ msgid "Login name"
+#~ msgstr "Номи дохилӣ"
+
+#~ msgid "Shell"
+#~ msgstr "Ҷилд"
+
+#~ msgid "Icon"
+#~ msgstr "Тасвир"
+
+#~ msgid "Autologin"
+#~ msgstr "Худдохилшавӣ"
+
+#~ msgid "I can set up your computer to automatically log on one user."
+#~ msgstr ""
+#~ "Ман метавонам компютери шуморо чунин гузорам, ки автоматиткӣ як корванд "
+#~ "дохил шавад."
+
+#, fuzzy
+#~ msgid "Use this feature"
+#~ msgstr "Шумо ин хислатро истифрда бурдан мехоҳед?"
+
+#~ msgid "Choose the default user:"
+#~ msgstr "Корванди пешфарзро интихоб кунед:"
+
+#~ msgid "Choose the window manager to run:"
+#~ msgstr "Барои корандохтан менеҷери оинаро интихоб кунед:"
+
+#~ msgid "License agreement"
+#~ msgstr "Шартномаи литсензионӣ"
+
+#~ msgid "Release Notes"
+#~ msgstr "Навиштаҷотҳои Барориш"
+
+#~ msgid "Accept"
+#~ msgstr "Қабул намудан"
+
+#~ msgid "Refuse"
+#~ msgstr "Рад кардан"
+
+#~ msgid "Please choose a language to use."
+#~ msgstr "Илтимос, барои истифода забонро интихоб кунед."
+
+#~ msgid "Language choice"
+#~ msgstr "Интихоби забон"
+
+#~ msgid ""
+#~ "Mandriva Linux can support multiple languages. Select\n"
+#~ "the languages you would like to install. They will be available\n"
+#~ "when your installation is complete and you restart your system."
+#~ msgstr ""
+#~ "Mandriva Linux якчанд забонҳоро дастгирӣ менамояд. Забонҳоеро интихоб "
+#~ "намоед, ки\n"
+#~ "шумо онҳоро коргузорӣ кардан мехоҳед. Вақте ки коргузорӣ ба итмом мерасад "
+#~ "онҳо\n"
+#~ "дастрас мегарданд ва системи худро бозоғозӣ намоед."
+
+#~ msgid "All languages"
+#~ msgstr "Ҳамаи забонҳо"
+
+#~ msgid "Country / Region"
+#~ msgstr "Мамлакат/ Минтақа"
+
+#~ msgid "Please choose your country."
+#~ msgstr "Лутфан мамлакати худро интихоб кунед."
+
+#~ msgid "Here is the full list of available countries"
+#~ msgstr "Дар ин ҷо рӯйхати пурраи давлатҳои мавҷуда дода шудааст"
+
+#~ msgid "Other Countries"
+#~ msgstr "Дигар Давлатҳо"
+
+#~ msgid "Advanced"
+#~ msgstr "Беҳбудшуда"
+
+#~ msgid "Input method:"
+#~ msgstr "Усули воридкунӣ:"
+
+#~ msgid "None"
+#~ msgstr "Ҳеҷ"
+
+#~ msgid "No sharing"
+#~ msgstr "Дастёбии муштарак нест"
+
+#~ msgid "Allow all users"
+#~ msgstr "Ба ҳамаи корвандон иҷозат додан"
+
+#~ msgid ""
+#~ "Would you like to allow users to share some of their directories?\n"
+#~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
+#~ "and nautilus.\n"
+#~ "\n"
+#~ "\"Custom\" permit a per-user granularity.\n"
+#~ msgstr ""
+#~ "Оё шумо хоҳиши розигӣ доданро ба корвандон оиди якҷоя истифода намудани "
+#~ "феҳристҳои онҳоро доред? Ин ба корвандон имкон медиҳад, ки танҳо ба "
+#~ "\"Тақсим кардан\" дар konqueror ва nautilus ангушт зананд.\n"
+#~ "\"Интихобӣ\" ба корвандони алоҳида дастрасшавиро иҷозат медиҳад.\n"
+
+#~ msgid ""
+#~ "NFS: the traditional Unix file sharing system, with less support on Mac "
+#~ "and Windows."
+#~ msgstr ""
+#~ "NFS: Системаи Unix барои бо ҳам дидани маълумот, бе истифода бурадани Mac "
+#~ "ва Windows."
+
+#~ msgid ""
+#~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
+#~ "Linux systems."
+#~ msgstr ""
+#~ "SMB: Система барои бо ҳам дидани маълумот бо воситаи Windows, Mac OS ва "
+#~ "Linux истифода бурда мешавад."
+
+#~ msgid ""
+#~ "You can export using NFS or SMB. Please select which you would like to "
+#~ "use."
+#~ msgstr ""
+#~ "Шумо ба воситаи NFS ё SMB содир карда метавонед. Марҳамат карда, якеро, "
+#~ "ки истифода бурдан мехоҳед, интихоб намоед."
+
+#~ msgid "Launch userdrake"
+#~ msgstr "Сардиҳии userdrake"
+
+#~ msgid "Close"
+#~ msgstr "Пӯшед"
+
+#~ msgid ""
+#~ "The per-user sharing uses the group \"fileshare\". \n"
+#~ "You can use userdrake to add a user to this group."
+#~ msgstr ""
+#~ "Дастрасии умумии ҳар як корванд гурӯҳи\"fileshare\"-ро истифода "
+#~ "мебарад. \n"
+#~ "Шумо метавонед userdrake-ро барои илова намудани корвандон ба ин гурӯҳ "
+#~ "истифодабаред."
+
+#~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
+#~ msgstr "Илтимос берун шавед ва Ctrl-Alt-BackSpace-ро истифода баред"
+
+#~ msgid "Timezone"
+#~ msgstr "Минтақаи соатӣ"
+
+#~ msgid "Which is your timezone?"
+#~ msgstr "Вақти соати шумо чӣ гуна аст?"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to UTC)"
+#~ msgstr "Соати сахтафзорӣ ба GMT муқаррар гардидааст"
+
+#, fuzzy
+#~ msgid "%s (hardware clock set to local time)"
+#~ msgstr "Соати сахтафзорӣ ба GMT муқаррар гардидааст"
+
+#~ msgid "NTP Server"
+#~ msgstr "NTP Хидматрасон"
+
+#~ msgid "Automatic time synchronization (using NTP)"
+#~ msgstr "Худҳамзамонсозии вақт (бо истифодаи NTP)"
+
+#~ msgid "Local file"
+#~ msgstr "Файли маҳаллӣ"
+
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgid "NIS"
+#~ msgstr "Давлатҳои Нави Мустақил"
+
+#~ msgid "Smart Card"
+#~ msgstr "Корти Ҳушманд"
+
+#~ msgid "Windows Domain"
+#~ msgstr "Фазои Windows"
+
+#~ msgid "Active Directory with SFU"
+#~ msgstr "Феҳристи Фаъол бо SFU"
+
+#~ msgid "Active Directory with Winbind"
+#~ msgstr "Феҳристи Фаъол бо Winbind"
+
+#~ msgid "Local file:"
+#~ msgstr "Файли маҳаллӣ:"
+
+#~ msgid ""
+#~ "Use local for all authentication and information user tell in local file"
+#~ msgstr ""
+#~ "Ахборот ва аслшиносии маҳаллии корвандро аз файли маҳаллӣ истифода баред"
+
+#~ msgid "LDAP:"
+#~ msgstr "LDAP:"
+
+#~ msgid ""
+#~ "Tells your computer to use LDAP for some or all authentication. LDAP "
+#~ "consolidates certain types of information within your organization."
+#~ msgstr ""
+#~ "Ба компютери шумо хабар медиҳем, ки он бояд LDAP-ро барои ҳамаи ё якеи аз "
+#~ "аслшиносиҳо истифода барад. LDAP якеи аз навъҳои ахборотро дар дохили "
+#~ "ширкати шумо муттаҳид мегардонад."
+
+#~ msgid "NIS:"
+#~ msgstr "Давлатҳои Нави Мустақил:"
+
+#~ msgid ""
+#~ "Allows you to run a group of computers in the same Network Information "
+#~ "Service domain with a common password and group file."
+#~ msgstr ""
+#~ "Ба гурӯҳи компютерҳо иҷозати кор кардан дар як домени Network Information "
+#~ "Service бо файлҳои умумии гузарвожаҳо ва гурӯҳҳо, медиҳад."
+
+#~ msgid "Windows Domain:"
+#~ msgstr "Фазои Windows:"
+
+#~ msgid ""
+#~ "Winbind allows the system to retrieve information and authenticate users "
+#~ "in a Windows domain."
+#~ msgstr ""
+#~ "Winbind ба система имконияти бозёбии ахборот ва аслшиносии корвандон дар "
+#~ "домени Windows медиҳад."
+
+#~ msgid "Active Directory with SFU:"
+#~ msgstr "Феҳристи Фаъол бо SFU:"
+
+#~ msgid "Active Directory with Winbind:"
+#~ msgstr "Феҳристи Фаъол бо Winbind:"
+
+#~ msgid "Authentication LDAP"
+#~ msgstr "Аслшиносии LDAP"
+
+#~ msgid "LDAP Base dn"
+#~ msgstr "LDAP Base dn"
+
+#~ msgid "LDAP Server"
+#~ msgstr "Хидматрасони LDAP"
+
+#~ msgid "simple"
+#~ msgstr "содда"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "security layout (SASL/Kerberos)"
+#~ msgstr "ҷобаҷогузории бехатар (SASL/Kerberos)"
+
+#~ msgid "Authentication Active Directory"
+#~ msgstr "Аслшиносии Феҳристи Фаъол"
+
+#~ msgid "Domain"
+#~ msgstr "Домен"
+
+#~ msgid "Server"
+#~ msgstr "Хидматрасон"
+
+#~ msgid "LDAP users database"
+#~ msgstr "манбаъи додаҳои корвандии LDAP"
+
+#~ msgid "Use Anonymous BIND "
+#~ msgstr "BIND-и Номаълумро Истифода Баред "
+
+#~ msgid "LDAP user allowed to browse the Active Directory"
+#~ msgstr "LDAP user allowed to browse the Active Directory"
+
+#~ msgid "Password for user"
+#~ msgstr "Гузарвожа барои корванд"
+
+#~ msgid "Authentication NIS"
+#~ msgstr "Аслшиносии NIS"
+
+#~ msgid "NIS Domain"
+#~ msgstr "Фазои NIS"
+
+#~ msgid "NIS Server"
+#~ msgstr "Хидматрасони NIS"
+
+#~ msgid ""
+#~ "For this to work for a W2K PDC, you will probably need to have the admin "
+#~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
+#~ "add and reboot the server.\n"
+#~ "You will also need the username/password of a Domain Admin to join the "
+#~ "machine to the Windows(TM) domain.\n"
+#~ "If networking is not yet enabled, Drakx will attempt to join the domain "
+#~ "after the network setup step.\n"
+#~ "Should this setup fail for some reason and domain authentication is not "
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
+#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "The command 'wbinfo -t' will test whether your authentication secrets are "
+#~ "good."
+#~ msgstr ""
+#~ "Барои он ки ин дар W2K PDC кор кунад, эҳтимолан ба шумо иҷроиши зери "
+#~ "идоравӣ: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" "
+#~ "everyone /add ва бозроҳандозии хидматрасон лозим аст.\n"
+#~ "Инчунин ба шумо ба номи корванд/гузарвожа Идоракунандаи Фазо Windows(TM) "
+#~ "пайваст кунед.\n"
+#~ "Агар шабака то ба ҳол даргиронида нашуда бошад, Drakx пайвастшавиро ба "
+#~ "фазо баъди марҳилаи барпосозии шабака кӯшиш мекунад.\n"
+#~ "Агар бо ягон сабаб ин барпошавӣ ба нокомӣ дучор гардад ва аслшиносии "
+#~ "фазои корванд, 'smbpasswd -j ФАЗОИ КОРВАНД%%ГУЗАРВОЖАҲО'-ро бо истифодаи "
+#~ "Windows(tm) Фазои худ ва Номи Идоракунанди/Гузарвожаи худ баъди сардиҳии "
+#~ "система, корандозӣ кунед..\n"
+#~ "Фармони 'wbinfo -t' то кадом дараҷа махфӣ будани аслшиносии шуморо снҷиш "
+#~ "мекунадgood."
+
+#~ msgid "Authentication Windows Domain"
+#~ msgstr "Муаяйн намудани ҳақиқати Соҳибии Windows"
+
+#~ msgid "Domain Admin User Name"
+#~ msgstr "Номи Корванд - Идоракунандаи Соҳибӣ"
+
+#~ msgid "Domain Admin Password"
+#~ msgstr "Гузарвожаи Мудири Соҳиб"
+
+#~ msgid "Authentication"
+#~ msgstr "Аслшиносӣ"
+
+#, fuzzy
+#~ msgid "Set administrator (root) password"
+#~ msgstr "Барпои гузарвожаи решагӣ"
+
+#~ msgid "Authentication method"
+#~ msgstr "Усули аслшиносӣ"
+
+#~ msgid "No password"
+#~ msgstr "Гузарвожа нест"
+
+#~ msgid "This password is too short (it must be at least %d characters long)"
+#~ msgstr ""
+#~ "Ин гузарвожа бениҳоят кӯтоҳ мебошад (он бояд ақаллан дарозиаш %d бошад)"
+
+#~ msgid "Can not use broadcast with no NIS domain"
+#~ msgstr "Бе азозили NIS радиошунавоиро ба роҳ монда намешавад"
+
+#~ msgid ""
+#~ "Welcome to the operating system chooser!\n"
+#~ "\n"
+#~ "Choose an operating system from the list above or\n"
+#~ "wait for default boot.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Marhamat ba intihobrari sisteman omil!\n"
+#~ "\n"
+#~ "Az ru'yhati bolo sistemai omilro intihob kuned yo\n"
+#~ "hudborshavy bo nobayoniro intizor shaved.\n"
+#~ "\n"
+
+#~ msgid "LILO with text menu"
+#~ msgstr "LILO бо менюи матн"
+
+#~ msgid "Yaboot"
+#~ msgstr "Yaхудборшав"
+
+#~ msgid "not enough room in /boot"
+#~ msgstr "дар /boot ҷои кофӣ нест"
+
+#~ msgid "You can not install the bootloader on a %s partition\n"
+#~ msgstr "Шумо корандози худборшавро дар бахши %s корандохта наметавонед\n"
+
+#~ msgid ""
+#~ "Your bootloader configuration must be updated because partition has been "
+#~ "renumbered"
+#~ msgstr ""
+#~ "Танзимкунии боркунандаи ибтидоии шумо бояд нав карда шавад, зеро қисмҳо "
+#~ "аз нав рақам гузошта шудаанд"
+
+#~ msgid ""
+#~ "The bootloader can not be installed correctly. You have to boot rescue "
+#~ "and choose \"%s\""
+#~ msgstr ""
+#~ "Боркунандаи ибтидоӣ дуруст коргузори карда намешавад. Шумо бояд rescue-ро "
+#~ "бор кунед ва \"%s\"-ро интихоб намоед"
+
+#~ msgid "Re-install Boot Loader"
+#~ msgstr "Корандози Худборшавро аз нав Коргузорӣ намудан"
+
+#, fuzzy
+#~ msgid "B"
+#~ msgstr "KB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "TB"
+#~ msgstr "TB"
+
+#~ msgid "%d minutes"
+#~ msgstr "%d дақиқа"
+
+#~ msgid "1 minute"
+#~ msgstr "1 дақиқа"
+
+#~ msgid "%d seconds"
+#~ msgstr "%d сония"
+
+#~ msgid ""
+#~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
+#~ "locally, and treat it like a local filesystem (provided the web server "
+#~ "is\n"
+#~ "configured as a WebDAV server). If you would like to add WebDAV mount\n"
+#~ "points, select \"New\"."
+#~ msgstr ""
+#~ "WebDAV қарордоди наве мебошад имконияти ба таврӣ маҳаллӣ дастурамали "
+#~ "корванди\n"
+#~ "web-ро васл намуданро пешкаш менамояд ва онро ҳамчун системи файлии "
+#~ "маҳаллӣ\n"
+#~ "ёдрас менамояд(бо шарте ки корванди web ҳамчун корванди WebDAV ба танзим\n"
+#~ "дароварда шудааст). Агар шумо хоҳиши илова намудани нуқтаҳои васлшавии\n"
+#~ "WebDAV -ро дошта бошед, онгоҳ \"Нав\"-ро интихоб намоед."
+
+#~ msgid "New"
+#~ msgstr "Нав"
+
+#~ msgid "Unmount"
+#~ msgstr "Ҷудо кунӣ"
+
+#~ msgid "Mount"
+#~ msgstr "Васл кунӣ"
+
+#~ msgid "Mount point"
+#~ msgstr "Нуқтаи васл"
+
+#~ msgid "Error"
+#~ msgstr "Хатогӣ"
+
+#~ msgid "Please enter the WebDAV server URL"
+#~ msgstr "Лутфан, URL-и хидматрасони WebDAV-ро дохил намоед"
+
+#~ msgid "The URL must begin with http:// or https://"
+#~ msgstr "URL бояд бо http:// or https:// оғоз ёбад"
+
+#~ msgid "Server: "
+#~ msgstr "Хидматгор: "
+
+#~ msgid "Mount point: "
+#~ msgstr "Нуқтаи васлкунӣ: "
+
+#~ msgid "Options: %s"
+#~ msgstr "Хосиятҳо: %s "
+
+#~ msgid "Partitioning"
+#~ msgstr "Ҷузъбандӣ"
+
+#~ msgid "Read carefully!"
+#~ msgstr "Оҳиста хонед!"
+
+#~ msgid "Please make a backup of your data first"
+#~ msgstr "Илтимос аввал кӯмакрасонӣ додаҳои худро созед"
+
+#~ msgid "Exit"
+#~ msgstr "Хуруҷ"
+
+#~ msgid "Continue"
+#~ msgstr "Давом додан"
+
+#~ msgid ""
+#~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
+#~ "is enough)\n"
+#~ "at the beginning of the disk"
+#~ msgstr ""
+#~ "Агар шумо aboot-ро истифода бурдан хоҳед, албатта ҷои холӣ (2048 сектор "
+#~ "кофӣ аст)\n"
+#~ "дар аввали диск монед"
+
+#~ msgid "Choose action"
+#~ msgstr "Фаъолиятро интихоб кунед"
+
+#~ msgid ""
+#~ "You have one big Microsoft Windows partition.\n"
+#~ "I suggest you first resize that partition\n"
+#~ "(click on it, then click on \"Resize\")"
+#~ msgstr ""
+#~ "Шумо як бахши калони Microsoft Windows доред.\n"
+#~ "Ман ба шумо авввал он бахшро бозандоза намуданро пешниҳод мекунам\n"
+#~ "(дар он ангушт занед, ва баъд дар \"Бозандоза\") ангушт занед"
+
+#~ msgid "Please click on a partition"
+#~ msgstr "Лутфан дар бахш ангушт занед"
+
+#~ msgid "Details"
+#~ msgstr "Тафсилот"
+
+#~ msgid "No hard drives found"
+#~ msgstr "Ягон сахтгардон ёфт нашуд"
+
+#~ msgid "Unknown"
+#~ msgstr "Номаълум"
+
+#~ msgid "Ext2"
+#~ msgstr "Ext2"
+
+#~ msgid "Journalised FS"
+#~ msgstr "FS-и рӯзноманигорикунонида"
+
+#~ msgid "Swap"
+#~ msgstr "Мубодила"
+
+#~ msgid "SunOS"
+#~ msgstr "SunOS"
+
+#~ msgid "HFS"
+#~ msgstr "HFS"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "Empty"
+#~ msgstr "Холӣ"
+
+#~ msgid "Filesystem types:"
+#~ msgstr "Навъҳои файлсистем:"
+
+#, fuzzy
+#~ msgid "This partition is already empty"
+#~ msgstr "Ин бахш бозандозагирифта нашаванда аст"
+
+#~ msgid "Use ``Unmount'' first"
+#~ msgstr "Аввал ``Ҷудо кардан''-ро истифода баред"
+
+#~ msgid "Use ``%s'' instead"
+#~ msgstr "Ба ҷояш ``%s''-ро истифода баред "
+
+#~ msgid "Type"
+#~ msgstr "Навъ"
+
+#~ msgid "Choose another partition"
+#~ msgstr "Дигар бахшро интихоб кунед"
+
+#~ msgid "Choose a partition"
+#~ msgstr "Бахшро интихоб кунед"
+
+#~ msgid "Undo"
+#~ msgstr "Баргардонидан"
+
+#~ msgid "Toggle to normal mode"
+#~ msgstr "Зомин ба усули мӯътадил"
+
+#~ msgid "Toggle to expert mode"
+#~ msgstr "Зомин ба усули мутахассис"
+
+#, fuzzy
+#~ msgid "Confirmation"
+#~ msgstr "Батанзимдарорӣ"
+
+#~ msgid "Continue anyway?"
+#~ msgstr "Ба ҳар ҳол давом диҳем?"
+
+#~ msgid "Quit without saving"
+#~ msgstr "Нигоҳ надошта баромадан"
+
+#~ msgid "Quit without writing the partition table?"
+#~ msgstr "Ҷадвали бахшро нанавишта бароем?"
+
+#~ msgid "Do you want to save /etc/fstab modifications"
+#~ msgstr "Шумо /etc/fstab таъғирёбиҳоро нигоҳ доштан"
+
+#~ msgid ""
+#~ "You need to reboot for the partition table modifications to take place"
+#~ msgstr ""
+#~ "Шумо бояд аз сари нав худборшавиро ба роҳ монед, то ки тағир додани "
+#~ "қисмҳо амалӣгардад"
+
+#~ msgid ""
+#~ "You should format partition %s.\n"
+#~ "Otherwise no entry for mount point %s will be written in fstab.\n"
+#~ "Quit anyway?"
+#~ msgstr ""
+#~ "Шумо бояд бахши %s-ро шаклбандӣ намоед.\n"
+#~ "Дар дигар ҳолат дар fstab ягон навиштаҷот барои нуқтаи насбшавии %s "
+#~ "навишта намешавад.\n"
+#~ "Ба ҳар ҳол бароям?"
+
+#~ msgid "Clear all"
+#~ msgstr "Тоза кардани ҳамааш"
+
+#~ msgid "Auto allocate"
+#~ msgstr "Худ ғунҷонӣ"
+
+#~ msgid "More"
+#~ msgstr "Зиёдтар"
+
+#~ msgid "Hard drive information"
+#~ msgstr "Маълумоти сахтгардон"
+
+#~ msgid "All primary partitions are used"
+#~ msgstr "Ҳамаи бахшҳои аввала истифода шудааст"
+
+#~ msgid "I can not add any more partitions"
+#~ msgstr "Ман дигар бахшҳоро илова карда наметавонам"
+
+#~ msgid ""
+#~ "To have more partitions, please delete one to be able to create an "
+#~ "extended partition"
+#~ msgstr ""
+#~ "Барои доштани бахшҳои зиёдтар, барои офаридани бахши васеъшуда яктояшро "
+#~ "нобуд кунед"
+
+#~ msgid "Save partition table"
+#~ msgstr "Нигоҳ доштани ҷадвали бахш"
+
+#~ msgid "Restore partition table"
+#~ msgstr "Барқарори ҷадвали бахш"
+
+#~ msgid "Rescue partition table"
+#~ msgstr "Наҷоти ҷадвали бахш"
+
+#~ msgid "Reload partition table"
+#~ msgstr "Бозкорандохтани ҷадвали бахш"
+
+#~ msgid "Removable media automounting"
+#~ msgstr "Худваслкунии хориҷшавандаи муҳит"
+
+#~ msgid "Select file"
+#~ msgstr "Интихоби файл"
+
+#~ msgid ""
+#~ "The backup partition table has not the same size\n"
+#~ "Still continue?"
+#~ msgstr ""
+#~ "Ҷадвали бахши ёвар ҳаҷми якхела надорад\n"
+#~ "Ҳоло ҳам давом диҳем?"
+
+#~ msgid "Trying to rescue partition table"
+#~ msgstr "Кӯшиши наҷоти ҷадвали бахш"
+
+#~ msgid "Detailed information"
+#~ msgstr "Маълумоти муфассал"
+
+#~ msgid "Resize"
+#~ msgstr "Бозандозагирӣ"
+
+#~ msgid "Format"
+#~ msgstr "Андозакунӣ"
+
+#~ msgid "Add to RAID"
+#~ msgstr "Илова ба RAID"
+
+#~ msgid "Add to LVM"
+#~ msgstr "Илова ба LVM"
+
+#~ msgid "Delete"
+#~ msgstr "Нобуд кардан"
+
+#~ msgid "Remove from RAID"
+#~ msgstr "Хориҷ аз RAID"
+
+#~ msgid "Remove from LVM"
+#~ msgstr "Хориҷ аз LVM"
+
+#~ msgid "Modify RAID"
+#~ msgstr "Ивази RAID"
+
+#~ msgid "Use for loopback"
+#~ msgstr "Истифода барои loopback "
+
+#~ msgid "Create"
+#~ msgstr "Офаридан"
+
+#~ msgid "Create a new partition"
+#~ msgstr "Офаридани бахши нав"
+
+#~ msgid "Start sector: "
+#~ msgstr "Сектори оғоз: "
+
+#~ msgid "Size in MB: "
+#~ msgstr "Ҳаҷм дар МБ: "
+
+#~ msgid "Filesystem type: "
+#~ msgstr "Навъи файлсистемҳо: "
+
+#~ msgid "Preference: "
+#~ msgstr "Имтиёз: "
+
+#~ msgid "Logical volume name "
+#~ msgstr "Номи қисми мантиқӣ"
+
+#~ msgid ""
+#~ "You can not create a new partition\n"
+#~ "(since you reached the maximal number of primary partitions).\n"
+#~ "First remove a primary partition and create an extended partition."
+#~ msgstr ""
+#~ "Шумо метавонед қисми навро тартиб диҳед\n"
+#~ "(шумо миқдори зиёдтарини қисмҳои авваларо ба даст даровардаед).\n"
+#~ "Сараввал қисми авваларо хориҷ намоед ва қисми васеъшударо тартиб диҳед."
+
+#~ msgid "Remove the loopback file?"
+#~ msgstr "Файли loopback-ро хориҷ кунем?"
+
+#~ msgid ""
+#~ "After changing type of partition %s, all data on this partition will be "
+#~ "lost"
+#~ msgstr "Баъд аз ивази навъи бахши %s ҳама додаҳо дар он бахш гум хоҳад шуд"
+
+#~ msgid "Change partition type"
+#~ msgstr "Ивази навъи бахш"
+
+#~ msgid "Which filesystem do you want?"
+#~ msgstr "Кадом файлсистемро шумо мехоҳед?"
+
+#~ msgid "Switching from ext2 to ext3"
+#~ msgstr "Гузариш аз ext2 ба ext3"
+
+#, fuzzy
+#~ msgid "Label:"
+#~ msgstr "Нишона"
+
+#~ msgid "Where do you want to mount the loopback file %s?"
+#~ msgstr "Файли loopback %s-ро дар куҷо васл кардан мехоҳед?"
+
+#~ msgid "Where do you want to mount device %s?"
+#~ msgstr "Шумо дар куҷо дастгоҳи %s-ро васл кардан мехоҳед?"
+
+#~ msgid ""
+#~ "Can not unset mount point as this partition is used for loop back.\n"
+#~ "Remove the loopback first"
+#~ msgstr ""
+#~ "Нуқтаи васлшавиро гирифта намешавад, чунки ин қисм барои loop back "
+#~ "истифода\n"
+#~ "мегардад. Сараввал loopback-ро хориҷ намоед"
+
+#~ msgid "Where do you want to mount %s?"
+#~ msgstr "%s-ро дар куҷо васл кардан мехоҳед?"
+
+#~ msgid "Resizing"
+#~ msgstr "Бозандозагириӣ"
+
+#~ msgid "Computing FAT filesystem bounds"
+#~ msgstr "Ҳисоби ҳудуди файлсистеми FAT"
+
+#~ msgid "This partition is not resizeable"
+#~ msgstr "Ин бахш бозандозагирифта нашаванда аст"
+
+#~ msgid "All data on this partition should be backed-up"
+#~ msgstr "Ҳама додаҳо дар ин бахш бояд пуштибонӣ шуда бошад"
+
+#~ msgid "After resizing partition %s, all data on this partition will be lost"
+#~ msgstr ""
+#~ "Баъди бозандозагирии бахши %s, ҳамаи додаҳо дар ин бахш гум хоҳад шуд"
+
+#~ msgid "Choose the new size"
+#~ msgstr "Ҳаҷми навро интихоб кунед"
+
+#~ msgid "New size in MB: "
+#~ msgstr "Ҳаҷми нав дар МБ: "
+
+#~ msgid ""
+#~ "To ensure data integrity after resizing the partition(s), \n"
+#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
+#~ msgstr ""
+#~ "Барои кафолат додани яклухтии додаҳо баъд аз тағироти андозаи қисм(ҳо), \n"
+#~ "санҷиши системи файлӣ ҳангоми худборшавии навбатӣ дар Windows(TM) "
+#~ "корандозӣ хоҳад гардид"
+
+#~ msgid "Choose an existing RAID to add to"
+#~ msgstr "Барои илова RAID-и вуҷуддоштаро интихоб кунед"
+
+#~ msgid "new"
+#~ msgstr "нав"
+
+#~ msgid "Choose an existing LVM to add to"
+#~ msgstr "Барои илова LVM-и вуҷуддоштаро интихоб кунед"
+
+#~ msgid "LVM name?"
+#~ msgstr "Номи LVM?"
+
+#~ msgid "This partition can not be used for loopback"
+#~ msgstr "Ин бахш барои loopback истифода шуда наметавонад"
+
+#~ msgid "Loopback"
+#~ msgstr "Loopback"
+
+#~ msgid "Loopback file name: "
+#~ msgstr "Номи файли loopback"
+
+#~ msgid "Give a file name"
+#~ msgstr "Номи файлро диҳед"
+
+#~ msgid "File is already used by another loopback, choose another one"
+#~ msgstr ""
+#~ "Файл аллакай бо дигар loopback истифода шудааст, дигарашро интихоб кунед"
+
+#~ msgid "File already exists. Use it?"
+#~ msgstr "Файл аллакай вуҷуд дорад. Истифода барем?"
+
+#~ msgid "Mount options"
+#~ msgstr "Хосиятҳои васл"
+
+#~ msgid "Various"
+#~ msgstr "Ҳаргуна"
+
+#~ msgid "device"
+#~ msgstr "дастгоҳ"
+
+#~ msgid "level"
+#~ msgstr "савия"
+
+#~ msgid "chunk size in KiB"
+#~ msgstr "ҳаҷми пора бо KiB"
+
+#~ msgid "Be careful: this operation is dangerous."
+#~ msgstr "Оҳиста: ин омил хатарнок аст."
+
+#~ msgid "What type of partitioning?"
+#~ msgstr "Кадом навъи ҷузъбандӣ?"
+
+#~ msgid "You'll need to reboot before the modification can take place"
+#~ msgstr "Пеш аз ҷой гирифтани таъғирёбиҳо шумо бояд боз худбор шавед"
+
+#~ msgid "Partition table of drive %s is going to be written to disk!"
+#~ msgstr "Ҷадвали бахши гардони %s дар диск навишта мешавад!"
+
+#~ msgid ""
+#~ "After formatting partition %s, all data on this partition will be lost"
+#~ msgstr "Баъди шаклбандии бахши  %s, ҳама додаҳо дар ин қисм гум хоҳад шуд"
+
+#~ msgid "Check bad blocks?"
+#~ msgstr "Блокҳои бадро тафтиш кунам?"
+
+#~ msgid "Move files to the new partition"
+#~ msgstr "Ғеҷонидани файлҳо ба бахши нав"
+
+#~ msgid "Hide files"
+#~ msgstr "Руст кардани файлҳо"
+
+#~ msgid "Moving files to the new partition"
+#~ msgstr "Ғеҷонидани файлҳо ба бахши нав"
+
+#~ msgid "Copying %s"
+#~ msgstr "Нусхабардории %s"
+
+#~ msgid "Removing %s"
+#~ msgstr "Хориҷи %s"
+
+#~ msgid "partition %s is now known as %s"
+#~ msgstr "қисми %s ҳоло ҳамчун %s маълум аст"
+
+#~ msgid "Device: "
+#~ msgstr "Дастгоҳ: "
+
+#~ msgid "Volume label: "
+#~ msgstr "Баландии овоз"
+
+#~ msgid "DOS drive letter: %s (just a guess)\n"
+#~ msgstr "Ҳарфи гардони DOS: %s ()\n"
+
+#~ msgid "Type: "
+#~ msgstr "Навъ: "
+
+#~ msgid "Name: "
+#~ msgstr "Ном: "
+
+#~ msgid "Start: sector %s\n"
+#~ msgstr "Оғоз: сектор %s\n"
+
+#~ msgid "Size: %s"
+#~ msgstr "Ҳаҷм: %s"
+
+#~ msgid ", %s sectors"
+#~ msgstr ", %s сектор"
+
+#~ msgid "Cylinder %d to %d\n"
+#~ msgstr "Силиндри %d то %d\n"
+
+#~ msgid "Formatted\n"
+#~ msgstr "Шаклбаста\n"
+
+#~ msgid "Not formatted\n"
+#~ msgstr "Шаклбастанашуда\n"
+
+#~ msgid "Mounted\n"
+#~ msgstr "Васл шуда\n"
+
+#~ msgid "RAID %s\n"
+#~ msgstr "RAID %s\n"
+
+#~ msgid ""
+#~ "Loopback file(s):\n"
+#~ "   %s\n"
+#~ msgstr ""
+#~ "файл(ҳо)и loopback:\n"
+#~ "   %s\n"
+
+#~ msgid ""
+#~ "Partition booted by default\n"
+#~ "    (for MS-DOS boot, not for lilo)\n"
+#~ msgstr ""
+#~ "Бахш ба таври пешфарз худбор шуд\n"
+#~ "    (барои MS-DOS худборшавӣ, на барои lilo)\n"
+
+#~ msgid "Level %s\n"
+#~ msgstr "Савияи %s\n"
+
+#~ msgid "Chunk size %d KiB\n"
+#~ msgstr "Ҳаҷми пора %d KiB\n"
+
+#~ msgid "RAID-disks %s\n"
+#~ msgstr "RAID-дискҳои %s\n"
+
+#~ msgid "Loopback file name: %s"
+#~ msgstr "Номи файли loopback: %s"
+
+#~ msgid ""
+#~ "\n"
+#~ "Chances are, this partition is\n"
+#~ "a Driver partition. You should\n"
+#~ "probably leave it alone.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Имкониятҳо, ин бахш\n"
+#~ "бахши Гардон аст, шумо бояд\n"
+#~ "инро ба ҳоли худ гузоред.\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "This special Bootstrap\n"
+#~ "partition is for\n"
+#~ "dual-booting your system.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Ин бахши махсусуи худроҳандоз\n"
+#~ "барои худборшавии дучанди\n"
+#~ "системи шумо\n"
+
+#~ msgid "Read-only"
+#~ msgstr "Танҳо барои хониш"
+
+#~ msgid "Size: %s\n"
+#~ msgstr "Ҳаҷм: %s\n"
+
+#~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
+#~ msgstr "Ҳандаса: %s силиндр, %s сар, %s сектор\n"
+
+#~ msgid "Info: "
+#~ msgstr "Маълумот: "
+
+#~ msgid "LVM-disks %s\n"
+#~ msgstr "LVM-дискҳо %s\n"
+
+#~ msgid "Partition table type: %s\n"
+#~ msgstr "Навъи ҷадвали бахшҳо: %s\n"
+
+#~ msgid "on channel %d id %d\n"
+#~ msgstr "дар канали %d шиносномаи %d\n"
+
+#~ msgid "Filesystem encryption key"
+#~ msgstr "Калиди рамздоштаи Файлсистем"
+
+#~ msgid "Choose your filesystem encryption key"
+#~ msgstr "Калиди ба рамздарории системи файлии худро интихоб намоед"
+
+#~ msgid ""
+#~ "This encryption key is too simple (must be at least %d characters long)"
+#~ msgstr ""
+#~ "Ин калиди ба рамз дароварда шуда бениҳоят содда аст (бояд ақаллан бо "
+#~ "аломатҳои%d дароз бошад)"
+
+#~ msgid "The encryption keys do not match"
+#~ msgstr "Калидҳои рамздошта мувофиқ нестанд"
+
+#~ msgid "Encryption key"
+#~ msgstr "Калиди Encryption"
+
+#~ msgid "Encryption key (again)"
+#~ msgstr "Калиди Encryption (боз)"
+
+#~ msgid "Encryption algorithm"
+#~ msgstr "Алгоритми Рамзикунонӣ"
+
+#~ msgid "Change type"
+#~ msgstr "Ивази навъ"
+
+#~ msgid "Can not login using username %s (bad password?)"
+#~ msgstr ""
+#~ "Воридшавӣ бо истифодаи номи корванди %s ғайри имкон аст (гузарвожаи "
+#~ "нодуруст?)"
+
+#~ msgid "Domain Authentication Required"
+#~ msgstr "Ҳақиқӣ будани соҳибият талаб карда мешавад"
+
+#~ msgid "Which username"
+#~ msgstr "Кадом номи корванд"
+
+#~ msgid "Another one"
+#~ msgstr "Дигараш"
+
+#~ msgid ""
+#~ "Please enter your username, password and domain name to access this host."
+#~ msgstr ""
+#~ "Марҳамат карда номи корванди худ, гузарвожа ва номи фазоро барои дастёби "
+#~ "кардан бо ин соҳиб, ворид намоед."
+
+#~ msgid "Username"
+#~ msgstr "Номи корванд"
+
+#~ msgid "Search servers"
+#~ msgstr "Ҷустуҷӯи хидматгорҳо"
+
+#~ msgid "Search new servers"
+#~ msgstr "Хидматрасонҳои навро ҷустуҷӯ кунед"
+
+#~ msgid "The package %s needs to be installed. Do you want to install it?"
+#~ msgstr ""
+#~ "Қуттии %s-ро бояд кор гузорӣ намуд. Оё шумо хоҳиши онро коргузорӣ намудан "
+#~ "доред?"
+
+#~ msgid "Could not install the %s package!"
+#~ msgstr "Коргузории бастаи %s ғайри имкон аст!"
+
+#~ msgid "Mandatory package %s is missing"
+#~ msgstr "Бастаи барномаҳои %s-и ҳатмӣ мавҷуд нестанд"
+
+#~ msgid "The following packages need to be installed:\n"
+#~ msgstr "Қуттиҳои зерин бояд коргузорӣ гардад:\n"
+
+#~ msgid "Installing packages..."
+#~ msgstr "Қуттиҳо коргузорӣ мешавад..."
+
+#~ msgid "Removing packages..."
+#~ msgstr "Бастаи барномаҳо хориҷ мешаванд..."
+
+#~ msgid ""
+#~ "An error occurred - no valid devices were found on which to create new "
+#~ "filesystems. Please check your hardware for the cause of this problem"
+#~ msgstr ""
+#~ "Хатогӣ рух дод - ягон дастгоҳи аслие, барои офаридани файлсистеми нав ёфт "
+#~ "нашуд. Барои фаҳмидани ин муаммо сахтафзорро санҷида бинед"
+
+#~ msgid "You must have a FAT partition mounted in /boot/efi"
+#~ msgstr "Шояд шумо қисми FAT-ро дошта бошед, ки дар /boot/efi васл шудааст"
+
+#~ msgid "Formatting partition %s"
+#~ msgstr "Шаклбандии бахши %s"
+
+#~ msgid "Creating and formatting file %s"
+#~ msgstr "Файли %s офарида мешавад ва шаклбандӣ мегардад"
+
+#~ msgid "I do not know how to format %s in type %s"
+#~ msgstr "Ман намедонам чӣ хел %s-ро бо навъи %s шакл бандам"
+
+#~ msgid "%s formatting of %s failed"
+#~ msgstr "%s шаклбандии %s нагузашт"
+
+#~ msgid "Circular mounts %s\n"
+#~ msgstr "Насбҳои пайвасткунвнда %s\n"
+
+#~ msgid "Mounting partition %s"
+#~ msgstr "Васлкунии бахши %s"
+
+#~ msgid "mounting partition %s in directory %s failed"
+#~ msgstr "насбкунии бахши %s дар феҳристи %s бо нокомӣ анҷомид"
+
+#~ msgid "Checking %s"
+#~ msgstr "Тафтиши %s"
+
+#~ msgid "error unmounting %s: %s"
+#~ msgstr "ҷудокунии хатои %s: %s"
+
+#~ msgid "Enabling swap partition %s"
+#~ msgstr "Даргиронидани бахши swap %s"
+
+#, fuzzy
+#~ msgid "Use an encrypted file system"
+#~ msgstr ""
+#~ "Шумо файл системи рамздоштаро барои нуқтаи васли %s истифода бурда "
+#~ "наметавонед"
+
+#~ msgid ""
+#~ "Do not update inode access times on this file system\n"
+#~ "(e.g, for faster access on the news spool to speed up news servers)."
+#~ msgstr ""
+#~ "Дар ин системи файлӣ вақти дастрасшавиро ба inode нав накунед\n"
+#~ "(яъне, барои ба даст даровардани роҳи тезтар ба дастгоҳи чархиши ахборот "
+#~ "бо мақсади тезонидани кори хидматрасонҳои ахборот)."
+
+#~ msgid ""
+#~ "Can only be mounted explicitly (i.e.,\n"
+#~ "the -a option will not cause the file system to be mounted)."
+#~ msgstr ""
+#~ "Танҳо бо роҳи саҳеҳ метавон насб намуд (яъне, интихоби а ба насби "
+#~ "системи\n"
+#~ "файлӣ намеорад)."
+
+#~ msgid ""
+#~ "Do not interpret character or block special devices on the file system."
+#~ msgstr ""
+#~ "Дар системи файлӣ дастгоҳҳои блокии рамзнок ё ин ки махсусро маънидод "
+#~ "накардан."
+
+#~ msgid ""
+#~ "Do not allow execution of any binaries on the mounted\n"
+#~ "file system. This option might be useful for a server that has file "
+#~ "systems\n"
+#~ "containing binaries for architectures other than its own."
+#~ msgstr ""
+#~ "Иҷроиши дуиҳои дилхоҳро дар системи файлии васл шуда манъ намоед. Ин\n"
+#~ "интихоб шояд барои корванди системҳои файлӣ дошта муфид бошад, ки он\n"
+#~ "дуиҳои барои меъмории аз худаш фарқкунандаро дошта бошад."
+
+#~ msgid ""
+#~ "Do not allow set-user-identifier or set-group-identifier\n"
+#~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
+#~ "you\n"
+#~ "have suidperl(1) installed.)"
+#~ msgstr ""
+#~ "Ба битҳои set-user-identifier ё set-group-identifier иҷозат надиҳед, то "
+#~ "ки онҳо амалӣ\n"
+#~ "гарданд. (Аз афташ ин хатарнок нест, лекин дар амалия он бештар хатарнок "
+#~ "мегардад,\n"
+#~ "агар шумо suidperl (1)-ро ба танзим дароварда бошед.)"
+
+#~ msgid "Mount the file system read-only."
+#~ msgstr "Системаи файлиро бо усули танҳо-барои-хониш насб кунед."
+
+#~ msgid "All I/O to the file system should be done synchronously."
+#~ msgstr "Ҳамаи I/O барои системаи файлӣ боянд ҳамзамон иҷро гарданд."
+
+#~ msgid "Give write access to ordinary users"
+#~ msgstr "Ба корванди оддӣ иҷозати навиштан диҳед"
+
+#~ msgid "Give read-only access to ordinary users"
+#~ msgstr "Ба корванди оддӣ иҷозати навиштан диҳед"
+
+#~ msgid "Duplicate mount point %s"
+#~ msgstr "Дунусха кардани нуқтаи насбшавӣ %s"
+
+#~ msgid "No partition available"
+#~ msgstr "Ягон бахшбандӣ дастрас нест"
+
+#~ msgid "Scanning partitions to find mount points"
+#~ msgstr "Барои ёфтани нуқтаҳои насб қисмҳо пуйиш мегардад"
+
+#~ msgid "Choose the mount points"
+#~ msgstr "Нуқтаи насбкуниро интихоб намоед"
+
+#~ msgid "Choose the partitions you want to format"
+#~ msgstr "Бахшҳоеро, ки шаклбандӣ кардан мехоҳед, интихоб намоед"
+
+#~ msgid ""
+#~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
+#~ "you can lose data)"
+#~ msgstr ""
+#~ "Тафтиши системи файлии %s бемуваффақият анҷом ёфт. Шумо хоҳиши ислоҳ "
+#~ "намудани хатогиҳоро доред? (эҳтиёт шавед, чунки шумо метавонед додаҳоро "
+#~ "аз даст диҳед)"
+
+#~ msgid "Not enough swap space to fulfill installation, please add some"
+#~ msgstr ""
+#~ "swap-фазо барои ба итмом расонидани коргузорӣ кофӣ нест, лутфан илова "
+#~ "намоед"
+
+#~ msgid ""
+#~ "You must have a root partition.\n"
+#~ "For this, create a partition (or click on an existing one).\n"
+#~ "Then choose action ``Mount point'' and set it to `/'"
+#~ msgstr ""
+#~ "Шояд шумо қисми решагиро дошта бошед.\n"
+#~ "Барои ин қисмеро офаред (ё ба мавҷудбуда ангушт занед).\n"
+#~ "Сониян, амалиёти ``Нуқтаи васлшавӣ ва барпо сохтани онро дар `/'-ро "
+#~ "интихоб намоед"
+
+#~ msgid ""
+#~ "You do not have a swap partition.\n"
+#~ "\n"
+#~ "Continue anyway?"
+#~ msgstr ""
+#~ "Шумо бахши мубодила надоред.\n"
+#~ "\n"
+#~ "Ба ҳар ҳол давом диҳем?"
+
+#~ msgid "Use free space"
+#~ msgstr "Ҷои озодро истифод бурдан"
+
+#~ msgid "Not enough free space to allocate new partitions"
+#~ msgstr "Барои ҷойгир намудани қисмҳои нав ҷои изофа кофӣ нест"
+
+#~ msgid "Use existing partitions"
+#~ msgstr "Бахшбандиҳои ҳозир бударо истифода баред"
+
+#~ msgid "There is no existing partition to use"
+#~ msgstr "Барои истифодабарӣ ягон қисми мавҷудбуда нест"
+
+#~ msgid "Use the Microsoft Windows® partition for loopback"
+#~ msgstr "Қисми Microsoft Windows®-ро барои loopback истифода бурдан"
+
+#~ msgid "Which partition do you want to use for Linux4Win?"
+#~ msgstr "Кадом қисмро шумо барои Linux4Win истифода бурдан мехоҳед?"
+
+#~ msgid "Choose the sizes"
+#~ msgstr "Андозаҳоро интихоб намоед"
+
+#~ msgid "Root partition size in MB: "
+#~ msgstr "Андозаи қисми решагӣ дар MB: "
+
+#~ msgid "Swap partition size in MB: "
+#~ msgstr "Андозаи қисми swap дар MB: "
+
+#~ msgid ""
+#~ "There is no FAT partition to use as loopback (or not enough space left)"
+#~ msgstr ""
+#~ "Қисми FAT барои истифодаи loopback мавҷуд нест (ё ин ки ҷой кофӣ нест)"
+
+#~ msgid "Use the free space on the Microsoft Windows® partition"
+#~ msgstr "Фазои холиро дар бахши Windows истифода баред"
+
+#~ msgid "Which partition do you want to resize?"
+#~ msgstr "Андозаи кадоме аз қисмҳоро шумо тағир додан мехоҳед?"
+
+#~ msgid ""
+#~ "The FAT resizer is unable to handle your partition, \n"
+#~ "the following error occurred: %s"
+#~ msgstr ""
+#~ "Барномаи тағирдиҳии андозаи FAT ин қисмро кор карда бароварда "
+#~ "метавонад, \n"
+#~ "хатогии зерин ба амал омад: %s"
+
+#~ msgid "Computing the size of the Microsoft Windows® partition"
+#~ msgstr "Андозаи бахшбандии Microsoft Windows® ҳисоб шуда истодааст"
+
+#~ msgid ""
+#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
+#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
+#~ "restart the Mandriva Linux installation."
+#~ msgstr ""
+#~ "Қисми Microsoft Windows®-и шумо бениҳоят тика гардидааст. Лутфан, "
+#~ "компютери худро дар зери Microsoft Windows® аз сари нав оғоз намоед, "
+#~ "``defrag''-ро ба кор андозед ва сониян такроран коргузории Mandriva Linux-"
+#~ "ро мавриди истифодабарӣ қарор диҳед."
+
+#~ msgid ""
+#~ "WARNING!\n"
+#~ "\n"
+#~ "\n"
+#~ "Your Microsoft Windows® partition will be now resized.\n"
+#~ "\n"
+#~ "\n"
+#~ "Be careful: this operation is dangerous. If you have not already done so, "
+#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
+#~ "Prompt under Microsoft Windows® (beware, running graphical program "
+#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
+#~ "Prompt!), optionally run defrag, then restart the installation. You "
+#~ "should also backup your data.\n"
+#~ "\n"
+#~ "\n"
+#~ "When sure, press %s."
+#~ msgstr ""
+#~ "ОГОҲӢ!\n"
+#~ "\n"
+#~ "\n"
+#~ "Ҳоло DrakX андозаи қисми Windows-и шуморо тағир медиҳад.\n"
+#~ "\n"
+#~ "\n"
+#~ "Эҳтиёт бошед, ки ин амалиёт хатарнок аст. Агар шумо инро иҷро карда "
+#~ "набошед, онгоҳ ба шумо лозим аст. то ки коргузориро тарк намоед, \"chkdsk "
+#~ "c:\"-ро дар сатри фармони дар зери Windows буда корандозӣ кунед (дар "
+#~ "назар доред, ки корандозии барномаи графикии \"scandisk\"\n"
+#~ "кофӣ нест, лекин ҳатман \"chkdsk\"-ро дар Эъломи Фармонӣ истифода баред!) "
+#~ "Интихобан defrag-ро корандозӣ намоед, сониян коргузориро боз оғоз намоед. "
+#~ "Инчунин шумо бояд додаҳои худро нигоҳ доред.\n"
+#~ "\n"
+#~ "\n"
+#~ "Вақте ки боварӣ ҳосил кардед ба %s ангушт занед."
+
+#~ msgid "Next"
+#~ msgstr "Навбатӣ"
+
+#, fuzzy
+#~ msgid ""
+#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
+#~ msgstr "Шумо кадом ҳаҷмро барои Microsoft Windows® доштан мехоҳед"
+
+#, fuzzy
+#~ msgid "Size"
+#~ msgstr "Ҳаҷм: %s"
+
+#~ msgid "Resizing Microsoft Windows® partition"
+#~ msgstr "Андозаи қисми Microsoft Windows® тағир меёбад"
+
+#~ msgid "FAT resizing failed: %s"
+#~ msgstr "Тағир додани андозаи FAT бемуваффақият анҷом ёфт: %s"
+
+#~ msgid "There is no FAT partition to resize (or not enough space left)"
+#~ msgstr ""
+#~ "Барои тағири андозаи бахши FAT мавҷуд нест (ё ки ҷои кофӣ намондааст)"
+
+#~ msgid "Remove Microsoft Windows®"
+#~ msgstr "Microsoft Windows®-ро хориҷ намоед"
+
+#, fuzzy
+#~ msgid "Erase and use entire disk"
+#~ msgstr "Тамоми дискро тоза намоед"
+
+#~ msgid ""
+#~ "You have more than one hard drive, which one do you install linux on?"
+#~ msgstr ""
+#~ "Шумо зиёда аз як диски сахт доред. Дар кадоме аз онҳо шумо коргузории "
+#~ "Linux-ро ба амал оварданӣ ҳастед?"
+
+#~ msgid "ALL existing partitions and their data will be lost on drive %s"
+#~ msgstr ""
+#~ "ҲАМАИ қисмҳои мавҷуд буда ва додаҳои онҳо дар гардони %s гум мешаванд"
+
+#~ msgid "Custom disk partitioning"
+#~ msgstr "Ҷузъбандии дастии диск"
+
+#~ msgid "Use fdisk"
+#~ msgstr "fdisk-ро истифода намудан"
+
+#~ msgid ""
+#~ "You can now partition %s.\n"
+#~ "When you are done, do not forget to save using `w'"
+#~ msgstr ""
+#~ "Акнун шумо метавонед %s-ро бахшбандӣ намоед.\n"
+#~ "Баъд аз итмоми он ба воситаи истифодаи `w' нигоҳ доштанро фаромӯш накунед"
+
+#~ msgid "I can not find any room for installing"
+#~ msgstr "Ягон ҷой барои коргузорӣ пайдо карда натавониста истодаам"
+
+#~ msgid "The DrakX Partitioning wizard found the following solutions:"
+#~ msgstr "Устози ҷузъбандии DrakX ба қарорҳои зерин омад:"
+
+#~ msgid "Partitioning failed: %s"
+#~ msgstr "Ҷузъбандӣ бемувафаққият анҷом ёфт: %s"
+
+#~ msgid "You can not use JFS for partitions smaller than 16MB"
+#~ msgstr "Шумо JFS-ро барои базшҳои аз 16МБ хурд истифода бурда наметавонед"
+
+#~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
+#~ msgstr ""
+#~ "Шумо ReiserFS-ро барои бахшҳои аз 32МБ хурд истифода бурда наметавонед"
+
+#~ msgid "with /usr"
+#~ msgstr "бо /usr"
+
+#~ msgid "server"
+#~ msgstr "хидматрасон"
+
+#~ msgid ""
+#~ "I can not read the partition table of device %s, it's too corrupted for "
+#~ "me :(\n"
+#~ "I can try to go on, erasing over bad partitions (ALL DATA will be "
+#~ "lost!).\n"
+#~ "The other solution is to not allow DrakX to modify the partition table.\n"
+#~ "(the error is %s)\n"
+#~ "\n"
+#~ "Do you agree to lose all the partitions?\n"
+#~ msgstr ""
+#~ "Ман ҷадвалбандии бахшҳоро дар дастгоҳи %s хонда натавониста истодаам, он "
+#~ "барои ман хеле хароб гаштааст :(\n"
+#~ "Ман кӯшиш мекунам, ки давом диҳам, ба воситаи пок кардани бахшҳои бад "
+#~ "(ҲАМАИ ДОДАҲО гум мешаванд!).\n"
+#~ "Ҳалли дигари ин ба DrakX иҷозат надодани тағирдиҳии ҷадвалбандии бахшҳо "
+#~ "мебошад.\n"
+#~ "(хатогӣ ин %s)\n"
+#~ "\n"
+#~ "Шумо розиед, ки ҳама бахшҳоро аз даст диҳед?\n"
+
+#~ msgid "Mount points must begin with a leading /"
+#~ msgstr "Нуқтаи васлшавӣ бояд сар шавад бо /"
+
+#~ msgid "Mount points should contain only alphanumerical characters"
+#~ msgstr "Нуқтаҳои васлшавӣ бояд танҳо рамзҳои ҳарфу рақамро дошта бошад"
+
+#~ msgid "There is already a partition with mount point %s\n"
+#~ msgstr "Аллакай бахш бо нуқтаи васли %s ҳаст \n"
+
+#~ msgid ""
+#~ "You've selected a software RAID partition as root (/).\n"
+#~ "No bootloader is able to handle this without a /boot partition.\n"
+#~ "Please be sure to add a /boot partition"
+#~ msgstr ""
+#~ "Шумо бахши нармафзори RAID-ро ҳамчун root (/) интихоб кардед.\n"
+#~ "Ягон корандози boot инро бе бахши /boot даста карда наметевонад.\n"
+#~ "Барои иловаи бахши /boot эҳтиёт бошед"
+
+#, fuzzy
+#~ msgid ""
+#~ "You've selected the LVM Logical Volume as root (/).\n"
+#~ "The bootloader is not able to handle this when the volume spans physical "
+#~ "volumes.\n"
+#~ "You should create a /boot partition first"
+#~ msgstr ""
+#~ "Шумо бахши нармафзори RAID-ро ҳамчун root (/) интихоб кардед.\n"
+#~ "Ягон корандози boot инро бе бахши /boot даста карда наметевонад.\n"
+#~ "Барои иловаи бахши /boot эҳтиёт бошед"
+
+#~ msgid "This directory should remain within the root filesystem"
+#~ msgstr "Ин феҳрист бояд дар дохили файлсистеми root бошад"
+
+#~ msgid ""
+#~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
+#~ "mount point\n"
+#~ msgstr ""
+#~ "Ба Шумо файлсистеми ҳақиқии (ext2/ext3, reiserfs, xfs, or jfs) барои ин "
+#~ "нуқтаи васл лозим аст\n"
+
+#~ msgid "You can not use an encrypted file system for mount point %s"
+#~ msgstr ""
+#~ "Шумо файл системи рамздоштаро барои нуқтаи васли %s истифода бурда "
+#~ "наметавонед"
+
+#~ msgid "Not enough free space for auto-allocating"
+#~ msgstr "Барои худ-ғунҷонӣ ҷои холии кофӣ нест"
+
+#~ msgid "Nothing to do"
+#~ msgstr "Ҳеҷ чиз барои иҷроиш"
+
+#~ msgid "Floppy"
+#~ msgstr "Дискет"
+
+#~ msgid "Zip"
+#~ msgstr "Zip"
+
+#~ msgid "Hard Disk"
+#~ msgstr "Диск"
+
+#~ msgid "CDROM"
+#~ msgstr "CDROM"
+
+#~ msgid "CD/DVD burners"
+#~ msgstr "CD/DVD-и менавиштагӣ"
+
+#~ msgid "DVD-ROM"
+#~ msgstr "DVD-ROM"
+
+#~ msgid "Tape"
+#~ msgstr "Лента"
+
+#~ msgid "AGP controllers"
+#~ msgstr "Назоратчиёни AGP"
+
+#~ msgid "Videocard"
+#~ msgstr "Видеокарт"
+
+#~ msgid "DVB card"
+#~ msgstr "Корти DVB"
+
+#~ msgid "Tvcard"
+#~ msgstr "Тв корт"
+
+#~ msgid "Other MultiMedia devices"
+#~ msgstr "Дигар дастгоҳҳои Бисёрмуҳита"
+
+#~ msgid "Soundcard"
+#~ msgstr "Харитаи овоздор"
+
+#~ msgid "Webcam"
+#~ msgstr "Наворгири вебӣ"
+
+#~ msgid "Processors"
+#~ msgstr "Пардозанда"
+
+#~ msgid "ISDN adapters"
+#~ msgstr "созгорҳои ISDN"
+
+#~ msgid "Radio cards"
+#~ msgstr "Корти радио"
+
+#~ msgid "ATM network cards"
+#~ msgstr "Кортҳои шабакаи ATM"
+
+#~ msgid "WAN network cards"
+#~ msgstr "Кортҳои шабакаи WAN"
+
+#~ msgid "Ethernetcard"
+#~ msgstr "Харитаи ethernet"
+
+#~ msgid "Modem"
+#~ msgstr "Модем"
+
+#~ msgid "ADSL adapters"
+#~ msgstr "Созгорҳои ADSL"
+
+#~ msgid "Memory"
+#~ msgstr "Ҳофиза"
+
+#~ msgid "Printer"
+#~ msgstr "Чопгар"
+
+#~ msgid "Joystick"
+#~ msgstr "Сукуни ҳидоят"
+
+#~ msgid "SATA controllers"
+#~ msgstr "SATA танзимкунандаҳо"
+
+#~ msgid "RAID controllers"
+#~ msgstr "RAID танзимкунандаҳо"
+
+#~ msgid "(E)IDE/ATA controllers"
+#~ msgstr "нозирони (E)IDE/ATA"
+
+#~ msgid "Firewire controllers"
+#~ msgstr "Назоратчиёни Firewire"
+
+#~ msgid "PCMCIA controllers"
+#~ msgstr "нозирони PCMCIA"
+
+#~ msgid "SCSI controllers"
+#~ msgstr "нозирони SCSI"
+
+#~ msgid "USB controllers"
+#~ msgstr "Назоратчиёни USB"
+
+#~ msgid "USB ports"
+#~ msgstr "USB даргоҳҳо"
+
+#~ msgid "SMBus controllers"
+#~ msgstr "Нозирони SMBus"
+
+#~ msgid "Bridges and system controllers"
+#~ msgstr "Пулҳо ва нозирони системавӣ"
+
+#~ msgid "Mouse"
+#~ msgstr "Муш"
+
+#~ msgid "UPS"
+#~ msgstr "UPS"
+
+#~ msgid "Scanner"
+#~ msgstr "Пуйишгар"
+
+#~ msgid "Unknown/Others"
+#~ msgstr "Номаълум/Дигарон"
+
+#~ msgid "cpu # "
+#~ msgstr "cpu # "
+
+#~ msgid "Please Wait... Applying the configuration"
+#~ msgstr ""
+#~ "Марҳамат карда Интизор шавед... Батанзимдарорӣ истифода шуда истодааст"
+
+#~ msgid "No alternative driver"
+#~ msgstr "Гардонандаи интихобӣ нест"
+
+#~ msgid ""
+#~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
+#~ "which currently uses \"%s\""
+#~ msgstr ""
+#~ "Барои корти овоздори шумо (%s) ронандаи алтернативии OSS/ALSA мавҷуд "
+#~ "нест, ки ҳоло \"%s\"-ро мавриди истифода қарор додааст"
+
+#~ msgid "Sound configuration"
+#~ msgstr "Танзимдарории Садо"
+
+#~ msgid ""
+#~ "Here you can select an alternative driver (either OSS or ALSA) for your "
+#~ "sound card (%s)."
+#~ msgstr ""
+#~ "Дар ин ҷо шумо метавонед ронандаи алтернативиро интихоб намоед (ё OSS ё "
+#~ "ин ки ALSA) барои корти овоздори худ (%s)."
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Your card currently use the %s\"%s\" driver (default driver for your card "
+#~ "is \"%s\")"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Ҳоло корти шумо гардони %s\"%s\"-ро истифода мебарад (гардони пешфарзӣ "
+#~ "барои корти шумо \"%s\" мебошад)"
+
+#~ msgid ""
+#~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
+#~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
+#~ "and limited API.\n"
+#~ "What's more, OSS drivers all reinvent the wheel.\n"
+#~ "\n"
+#~ "ALSA (Advanced Linux Sound Architecture) is a modularized architecture "
+#~ "which\n"
+#~ "supports quite a large range of ISA, USB and PCI cards.\n"
+#~ "\n"
+#~ "It also provides a much higher API than OSS.\n"
+#~ "\n"
+#~ "To use alsa, one can either use:\n"
+#~ "- the old compatibility OSS api\n"
+#~ "- the new ALSA api that provides many enhanced features but requires "
+#~ "using the ALSA library.\n"
+#~ msgstr ""
+#~ "OSS (Системаи Кушодаи Овоз) якумин API-и овозӣ буд. Он API-и овозие, ки "
+#~ "аз СО мустақил мебошад (дар бисёр системаҳои UNIX(tm) дастрас аст), лекин "
+#~ "он хеле содда ва маҳдуди API-и мебошад.\n"
+#~ "Боз бештар гардонандаҳои OSS чархаро азнав мекушоянд.\n"
+#~ "\n"
+#~ "ALSA (Сохтори Пешрафтаи Овозии Linux) ин сохтори модулест, ки маҳдудаи "
+#~ "васеъи кортҳои\n"
+#~ "ISA, USB ва PCI-ро пуштибонӣ мекунад.\n"
+#~ "\n"
+#~ "Инчунин он API-и баландтар назар ба OSS пешкаш мекунад.\n"
+#~ "\n"
+#~ "Барои истифодаи alsa инҳоро истифода бурдан мумкин аст:\n"
+#~ "- api-и кӯҳна бо ҳамсозии OSS \n"
+#~ "- api ALSA-и нав, ки хусусиятҳои пешрафтаро пешкаш мекунад, лекин "
+#~ "истифодаи китобхонаи ALSA-ро талаб мекунад.\n"
+
+#~ msgid "Driver:"
+#~ msgstr "Гардонанда:"
+
+#~ msgid "Trouble shooting"
+#~ msgstr "Ҷустуҷӯ ва барҳам додани камбудӣ"
+
+#~ msgid ""
+#~ "The old \"%s\" driver is blacklisted.\n"
+#~ "\n"
+#~ "It has been reported to oops the kernel on unloading.\n"
+#~ "\n"
+#~ "The new \"%s\" driver will only be used on next bootstrap."
+#~ msgstr ""
+#~ "Ронандаи кӯҳнаи \"%s\" ба рӯйхати сиёҳ дохил шуд.\n"
+#~ "\n"
+#~ "Дар хусуси он ҳисобот тартиб дода шудааст, ки асосро ҳангоми ба кор "
+#~ "наандохтанпешакӣ огоҳ менамояд.\n"
+#~ "\n"
+#~ "Ронандаи нави \"%s\" танҳо ҳангоми кор андохтани навбатӣ истифода хоҳад "
+#~ "шуд."
+
+#~ msgid "No open source driver"
+#~ msgstr "Ронанда бо сарчашмаи аввалаи кушода мавҷуд нест"
+
+#~ msgid ""
+#~ "There's no free driver for your sound card (%s), but there's a "
+#~ "proprietary driver at \"%s\"."
+#~ msgstr ""
+#~ "Барои корти овозии (%s)-и шумо гардонандаи озод мавҷуд нест, лекин "
+#~ "гардонандаи шахсӣ дар \"%s\" ҳаст."
+
+#~ msgid "No known driver"
+#~ msgstr "Ронандаи номаълум"
+
+#~ msgid "There's no known driver for your sound card (%s)"
+#~ msgstr "Барои корти овоздори шумо ронандаи маълум мавҷуд нест (%s)"
+
+#~ msgid "Unknown driver"
+#~ msgstr "Гардонандаи номаълум"
+
+#~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
+#~ msgstr ""
+#~ "Хатогӣ: сахтафзори \"%s\" барои харитаи овозии шумо дар рӯйхат нест "
+
+#~ msgid "Sound trouble shooting"
+#~ msgstr "Ҳалли муаммои ба овоз тааллуқ дошта"
+
+#~ msgid ""
+#~ "The classic bug sound tester is to run the following commands:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" will tell you which driver your card "
+#~ "uses\n"
+#~ "by default\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" will tell you what driver it\n"
+#~ "currently uses\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" will enable you to check if its module (driver) is\n"
+#~ "loaded or not\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" and \"/sbin/chkconfig --list alsa\" "
+#~ "will\n"
+#~ "tell you if sound and alsa services're configured to be run on\n"
+#~ "initlevel 3\n"
+#~ "\n"
+#~ "- \"aumix -q\" will tell you if the sound volume is muted or not\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" will tell which program uses the sound "
+#~ "card.\n"
+#~ msgstr ""
+#~ "Санҷиши классикии хатогиҳои овоз ба воситаи сар додани фармонои зерин "
+#~ "иҷромешавад:\n"
+#~ "\n"
+#~ "\n"
+#~ "- \"lspcidrake -v | fgrep AUDIO\" ба шумо хабар медиҳад, ки кадом ронанда "
+#~ "харитаишуморо аз рӯи пешфарз истифода мебарад\n"
+#~ "\n"
+#~ "- \"grep sound-slot /etc/modprobe.conf\" ба шумо хабар медиҳад, ки кадом "
+#~ "ронанда\n"
+#~ "ҳоло истифода мегардад\n"
+#~ "\n"
+#~ "- \"/sbin/lsmod\" ба шумо имкон медиҳад санҷед, ки оё модул (ронанда) ба "
+#~ "кор андохташудааст\n"
+#~ "\n"
+#~ "- \"/sbin/chkconfig --list sound\" и \"/sbin/chkconfig --list alsa\"\n"
+#~ "ба шумо хабар медиҳад хидматрасонҳои sound мавҷуд буданд ва alsa барои "
+#~ "оғоз\n"
+#~ "намудан дар initlevel 3 ба танзим дароварда шудааст ё ин ки не\n"
+#~ "\n"
+#~ "- \"aumix -q\" ба шумо хабар медиҳад, ки баландии садо ба роҳ монда "
+#~ "шудааст ё не\n"
+#~ "\n"
+#~ "- \"/sbin/fuser -v /dev/dsp\" ба шумо хабар медиҳад, ки кадом барнома "
+#~ "харитаиовоздорро мавриди истифода қарор додааст.\n"
+
+#~ msgid "Let me pick any driver"
+#~ msgstr "Дигар ронандаро интихоб намудан"
+
+#~ msgid "Choosing an arbitrary driver"
+#~ msgstr "Интихоби ронандаи ихтиёрӣ"
+
+#~ msgid ""
+#~ "If you really think that you know which driver is the right one for your "
+#~ "card\n"
+#~ "you can pick one in the above list.\n"
+#~ "\n"
+#~ "The current driver for your \"%s\" sound card is \"%s\" "
+#~ msgstr ""
+#~ "Агар шумо дар ҳақиқат фикр намоед, ки кадом ронанда барои корти шумо "
+#~ "дуруст аст шумо метавонед онро аз рӯйхати дар боло буда интихоб намоед.\n"
+#~ "\n"
+#~ "Ронандаи ҷорӣ барои корти \"%s\" овоздори шумо \"%s\" мебошад"
+
+#~ msgid "Auto-detect"
+#~ msgstr "Автомуаяйнамоӣ"
+
+#~ msgid "Unknown|Generic"
+#~ msgstr "Номаълум|Одатӣ"
+
+#~ msgid "Unknown|CPH05X (bt878) [many vendors]"
+#~ msgstr "|CPH05X (bt878) номаълум[аксарияти истеҳсолкунандагон]"
+
+#~ msgid "Unknown|CPH06X (bt878) [many vendors]"
+#~ msgstr "Номаълум|CPH06X (bt878) [аксарияти истеҳсолкунандагон]"
+
+#~ msgid ""
+#~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
+#~ "auto-detect the rights parameters.\n"
+#~ "If your card is misdetected, you can force the right tuner and card types "
+#~ "here. Just select your tv card parameters if needed."
+#~ msgstr ""
+#~ "Барои аксарияти харитаҳои муосири ТВ модули bttv-и асоси GNU/Linux ба "
+#~ "тавриавтоматӣ параметрҳои дурустро муаяйн менамояд.\n"
+#~ "Агар харитаи шумо муаяйн нашуда бошад, онгоҳ шумо метавонед ба таври "
+#~ "маҷбурӣистифодаи намудҳои дурусти тюнер ва харитаро ба роҳ мемонед.Агар "
+#~ "зарурият бошад, онгоҳ ба таври оддӣ параметрҳои харитаи ТВ-и худро "
+#~ "интихобнамоед."
+
+#~ msgid "Card model:"
+#~ msgstr "Модели корт:"
+
+#~ msgid "Tuner type:"
+#~ msgstr "Навъи мизонгар:"
+
+#~ msgid "Number of capture buffers:"
+#~ msgstr "Шумораи миёнбурҳои забткунӣ:"
+
+#~ msgid "number of capture buffers for mmap'ed capture"
+#~ msgstr "миқдори миёнгирҳои тасарруф барои забти mmap'шуда"
+
+#~ msgid "PLL setting:"
+#~ msgstr "Танзимдарории PLL:"
+
+#~ msgid "Radio support:"
+#~ msgstr "Дастгирии радио:"
+
+#~ msgid "enable radio support"
+#~ msgstr "даргиронидани пуштибонии радио"
+
+#~ msgid "Yes"
+#~ msgstr "Ҳа"
+
+#~ msgid "No"
+#~ msgstr "Не"
+
+#~ msgid "Choose a file"
+#~ msgstr "Файлеро интихоб намоед"
+
+#~ msgid "Add"
+#~ msgstr "Илова"
+
+#~ msgid "Modify"
+#~ msgstr "Иваз"
+
+#~ msgid "Remove"
+#~ msgstr "Хориҷ"
+
+#~ msgid "Finish"
+#~ msgstr "Итмом"
+
+#~ msgid "Previous"
+#~ msgstr "Гузашта"
+
+#~ msgid "Bad choice, try again\n"
+#~ msgstr "Интихоби бад, бори дигар кӯшиш кунед\n"
+
+#~ msgid "Your choice? (default %s) "
+#~ msgstr "Чиро интихоб менамоед? (пешфарз %s) "
+
+#~ msgid ""
+#~ "Entries you'll have to fill:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Элементҳое ки онро шумо бояд пур намоед:\n"
+#~ "%s"
+
+#~ msgid "Your choice? (0/1, default `%s') "
+#~ msgstr "Интихоби шумо? (0/1, бо нобаёнӣ `%s') "
+
+#~ msgid "Button `%s': %s"
+#~ msgstr "Дагма: `%s': %s"
+
+#~ msgid "Do you want to click on this button?"
+#~ msgstr "Шумо ба ин дагма ангушт задан мехоҳед?"
+
+#~ msgid "Your choice? (default `%s'%s) "
+#~ msgstr "Интихоби шумо? (бо нобаёнӣ `%s'%s)"
+
+#~ msgid " enter `void' for void entry"
+#~ msgstr " `void'-ро барои тоза намудани элемент дохил намоед"
+
+#~ msgid "=> There are many things to choose from (%s).\n"
+#~ msgstr "=> Барои интихоб бисёр чиз мавҷуд аст (%s).\n"
+
+#~ msgid ""
+#~ "Please choose the first number of the 10-range you wish to edit,\n"
+#~ "or just hit Enter to proceed.\n"
+#~ "Your choice? "
+#~ msgstr ""
+#~ "Лутфан адади якумро аз диапазони 10-рақама интихоб намоед, ки онро шумо\n"
+#~ "хоҳиши тағир доданро доред ё ин ки танҳо ба Enter барои давом додан "
+#~ "ангушт\n"
+#~ "занед. Интихоби шумо?"
+
+#~ msgid ""
+#~ "=> Notice, a label changed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "=> Дар хотир доред, ки нишона тағир ёфтааст:\n"
+#~ "%s"
+
+#~ msgid "Re-submit"
+#~ msgstr "Аз нав пешниҳод намудан"
+
+#~ msgid "default:LTR"
+#~ msgstr "default:LTR"
+
+#~ msgid "Andorra"
+#~ msgstr "Андорра"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Аморатҳои Муттаҳидаи Араб"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Афғонистон"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Антигуа ва Борбудо"
+
+#~ msgid "Anguilla"
+#~ msgstr "Ангутило"
+
+#~ msgid "Albania"
+#~ msgstr "Олбанӣ"
+
+#~ msgid "Armenia"
+#~ msgstr "Арманистон"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Онтили Ҳуланд"
+
+#~ msgid "Angola"
+#~ msgstr "Ангуло"
+
+#~ msgid "Antarctica"
+#~ msgstr "Антарктика"
+
+#~ msgid "Argentina"
+#~ msgstr "Оржонтин"
+
+#~ msgid "American Samoa"
+#~ msgstr "Самуи Амрико"
+
+#~ msgid "Austria"
+#~ msgstr "Утришш"
+
+#~ msgid "Australia"
+#~ msgstr "Остролиё"
+
+#~ msgid "Aruba"
+#~ msgstr "Аруба"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Озарбойҷон"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Бусни Ҳерзогавин"
+
+#~ msgid "Barbados"
+#~ msgstr "Борбодус"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Банглодеш"
+
+#~ msgid "Belgium"
+#~ msgstr "Белжик"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Буркино Фосу"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Булғористон"
+
+#~ msgid "Bahrain"
+#~ msgstr "Баҳрайн"
+
+#~ msgid "Burundi"
+#~ msgstr "Бурунти"
+
+#~ msgid "Benin"
+#~ msgstr "Бенин"
+
+#~ msgid "Bermuda"
+#~ msgstr "Бермудо"
+
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Шоҳигарии Бруней"
+
+#~ msgid "Bolivia"
+#~ msgstr "Буливи"
+
+#~ msgid "Brazil"
+#~ msgstr "Бразил"
+
+#~ msgid "Bahamas"
+#~ msgstr "Боҳомос"
+
+#~ msgid "Bhutan"
+#~ msgstr "Бутон"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Ҷазираи Буве"
+
+#~ msgid "Botswana"
+#~ msgstr "Бутсвона"
+
+#~ msgid "Belarus"
+#~ msgstr "Билорусиё"
+
+#~ msgid "Belize"
+#~ msgstr "Белиз"
+
+#~ msgid "Canada"
+#~ msgstr "Канада"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Ҷазоири Кокос"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Конго (Киншаса)"
+
+#~ msgid "Central African Republic"
+#~ msgstr "Ҷумҳурии Марказии Африқо"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Конго (Brazzaville)"
+
+#~ msgid "Switzerland"
+#~ msgstr "Суис"
+
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Соҳили Оҷ"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Ҷазоири Кук"
+
+#~ msgid "Chile"
+#~ msgstr "Чилӣ"
+
+#~ msgid "Cameroon"
+#~ msgstr "Камирун"
+
+#~ msgid "China"
+#~ msgstr "Хитой"
+
+#~ msgid "Colombia"
+#~ msgstr "Колумбиё"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Косто Рико"
+
+#~ msgid "Serbia & Montenegro"
+#~ msgstr "Serbia & Montenegro"
+
+#~ msgid "Cuba"
+#~ msgstr "Кубо"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Димоғи Верде"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Ҷазираи Милод"
+
+#~ msgid "Cyprus"
+#~ msgstr "Қабрес"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Ҷумҳурии Чех"
+
+#~ msgid "Germany"
+#~ msgstr "Олмон"
+
+#~ msgid "Djibouti"
+#~ msgstr "Ҷибути"
+
+#~ msgid "Denmark"
+#~ msgstr "Донморк"
+
+#~ msgid "Dominica"
+#~ msgstr "Доминика"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "Думникин"
+
+#~ msgid "Algeria"
+#~ msgstr "Алҷазоир"
+
+#~ msgid "Ecuador"
+#~ msgstr "Иквадор"
+
+#~ msgid "Estonia"
+#~ msgstr "Эстон"
+
+#~ msgid "Egypt"
+#~ msgstr "Миср"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Саҳрои Кабири Ғарибӣ"
+
+#~ msgid "Eritrea"
+#~ msgstr "Эритрея"
+
+#~ msgid "Spain"
+#~ msgstr "Успаниё"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Ҳабашистон"
+
+#~ msgid "Finland"
+#~ msgstr "Финлонд"
+
+#~ msgid "Fiji"
+#~ msgstr "Фиҷи"
+
+#~ msgid "Falkland Islands (Malvinas)"
+#~ msgstr "Ҷазоири Фолкланд"
+
+#~ msgid "Micronesia"
+#~ msgstr "Микронезиё"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Ҷазоири Фару"
+
+#~ msgid "France"
+#~ msgstr "Фаронса"
+
+#~ msgid "Gabon"
+#~ msgstr "Габон"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Подшоҳии Муттаҳида"
+
+#~ msgid "Grenada"
+#~ msgstr "Гронодо"
+
+#~ msgid "Georgia"
+#~ msgstr "Гурҷистон"
+
+#~ msgid "French Guiana"
+#~ msgstr "Гинеи Фаронса"
+
+#~ msgid "Ghana"
+#~ msgstr "Ғано"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Ҷабалуттариқ"
+
+#~ msgid "Greenland"
+#~ msgstr "Гринлонд"
+
+#~ msgid "Gambia"
+#~ msgstr "Гомбиё"
+
+#~ msgid "Guinea"
+#~ msgstr "Гине"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Гвадлуп"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Гинеи Экваторӣ"
+
+#~ msgid "Greece"
+#~ msgstr "Юнон"
+
+#~ msgid "South Georgia and the South Sandwich Islands"
+#~ msgstr "Ҷорҷияи Ҷанубӣ ва ҷазираҳои ҷанубии Сандвич"
+
+#~ msgid "Guatemala"
+#~ msgstr "Гватемоло"
+
+#~ msgid "Guam"
+#~ msgstr "Гуам"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Гинеи Биссои"
+
+#~ msgid "Guyana"
+#~ msgstr "Гуён"
+
+#~ msgid "Hong Kong SAR (China)"
+#~ msgstr "Хитоӣ (Гон Конг)"
+
+#~ msgid "Heard and McDonald Islands"
+#~ msgstr "Ҷазираҳои Ҳерд ва МакДоналд"
+
+#~ msgid "Honduras"
+#~ msgstr "Ҳиндурос"
+
+#~ msgid "Croatia"
+#~ msgstr "Хорватия"
+
+#~ msgid "Haiti"
+#~ msgstr "Ҳаити"
+
+#~ msgid "Hungary"
+#~ msgstr "Маҷористон"
+
+#~ msgid "Indonesia"
+#~ msgstr "Индонезия"
+
+#~ msgid "Ireland"
+#~ msgstr "Ирлонд"
+
+#~ msgid "Israel"
+#~ msgstr "Исроил"
+
+#~ msgid "India"
+#~ msgstr "Ҳиндустон"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Қаламрмви Уқъёнуси Ҳиндӣ - Британиявӣ"
+
+#~ msgid "Iraq"
+#~ msgstr "Ироқ"
+
+#~ msgid "Iran"
+#~ msgstr "Эрон"
+
+#~ msgid "Iceland"
+#~ msgstr "Ислонд"
+
+#~ msgid "Italy"
+#~ msgstr "Итолиё"
+
+#~ msgid "Jamaica"
+#~ msgstr "Ҷомойко"
+
+#~ msgid "Jordan"
+#~ msgstr "Урдон"
+
+#~ msgid "Japan"
+#~ msgstr "Ҷопон"
+
+#~ msgid "Kenya"
+#~ msgstr "Куниё"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Қирғизистон"
+
+#~ msgid "Cambodia"
+#~ msgstr "Камбуҷа"
+
+#~ msgid "Kiribati"
+#~ msgstr "Карибот"
+
+#~ msgid "Comoros"
+#~ msgstr "Коморос"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Синт Киттс ва Невис"
+
+#~ msgid "Korea (North)"
+#~ msgstr "Куриё (Шимол)"
+
+#~ msgid "Korea"
+#~ msgstr "Корея"
+
+#~ msgid "Kuwait"
+#~ msgstr "Қувайт"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Ҷахоири Кайман"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Қазоқистон"
+
+#~ msgid "Laos"
+#~ msgstr "Лаос"
+
+#~ msgid "Lebanon"
+#~ msgstr "Лубнон"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Синт Лусиё"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Лихтанштоин"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Сри Лонко"
+
+#~ msgid "Liberia"
+#~ msgstr "Либериё"
+
+#~ msgid "Lesotho"
+#~ msgstr "Лисуту"
+
+#~ msgid "Lithuania"
+#~ msgstr "Литвониё"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Лукзамбург"
+
+#~ msgid "Latvia"
+#~ msgstr "Латвонӣ"
+
+#~ msgid "Libya"
+#~ msgstr "Ливия"
+
+#~ msgid "Morocco"
+#~ msgstr "Марокеш"
+
+#~ msgid "Monaco"
+#~ msgstr "Монако"
+
+#~ msgid "Moldova"
+#~ msgstr "Молдавӣ"
+
+#~ msgid "Madagascar"
+#~ msgstr "Мадогоскор"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Ҷазоири Маршал"
+
+#~ msgid "Macedonia"
+#~ msgstr "Мақдуниё"
+
+#~ msgid "Mali"
+#~ msgstr "Молӣ"
+
+#~ msgid "Myanmar"
+#~ msgstr "Миёнмор"
+
+#~ msgid "Mongolia"
+#~ msgstr "Муғулистон"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Ҷазоири Мариони Шимолӣ"
+
+#~ msgid "Martinique"
+#~ msgstr "Мартиник"
+
+#~ msgid "Mauritania"
+#~ msgstr "Мавритонӣ"
+
+#~ msgid "Montserrat"
+#~ msgstr "Мунтесирот"
+
+#~ msgid "Malta"
+#~ msgstr "Молет"
+
+#~ msgid "Mauritius"
+#~ msgstr "Маврикий"
+
+#~ msgid "Maldives"
+#~ msgstr "Молдивз"
+
+#~ msgid "Malawi"
+#~ msgstr "Моловӣ"
+
+#~ msgid "Mexico"
+#~ msgstr "Мекзик"
+
+#~ msgid "Malaysia"
+#~ msgstr "Молезӣ"
+
+#~ msgid "Mozambique"
+#~ msgstr "Музомбик"
+
+#~ msgid "Namibia"
+#~ msgstr "Намибиё"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Калиднрияи Нав"
+
+#~ msgid "Niger"
+#~ msgstr "Ниҷер"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Ҷазираи Нурфолк"
+
+#~ msgid "Nigeria"
+#~ msgstr "Ниҷириё"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Никорогуе"
+
+#~ msgid "Netherlands"
+#~ msgstr "Ҳуланд"
+
+#~ msgid "Norway"
+#~ msgstr "Норвеж"
+
+#~ msgid "Nepal"
+#~ msgstr "Нипол"
+
+#~ msgid "Nauru"
+#~ msgstr "Науру"
+
+#~ msgid "Niue"
+#~ msgstr "Нйу"
+
+#~ msgid "New Zealand"
+#~ msgstr "Зилонди Нав"
+
+#~ msgid "Oman"
+#~ msgstr "Оман"
+
+#~ msgid "Panama"
+#~ msgstr "Пономо"
+
+#~ msgid "Peru"
+#~ msgstr "Перу"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Пулинезияи Фаронса"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Папуа Гинеи Нав"
+
+#~ msgid "Philippines"
+#~ msgstr "Филипин"
+
+#~ msgid "Pakistan"
+#~ msgstr "Покистон"
+
+#~ msgid "Poland"
+#~ msgstr "Лаҳистон"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "Синт Пир Миколеюн"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Питкорин"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Пурту Рику"
+
+#~ msgid "Palestine"
+#~ msgstr "Фаластин"
+
+#~ msgid "Portugal"
+#~ msgstr "Пуртуқол"
+
+#~ msgid "Paraguay"
+#~ msgstr "Порогвие"
+
+#~ msgid "Palau"
+#~ msgstr "Палау"
+
+#~ msgid "Qatar"
+#~ msgstr "Қатар"
+
+#~ msgid "Reunion"
+#~ msgstr "Реюнион"
+
+#~ msgid "Romania"
+#~ msgstr "Руминия"
+
+#~ msgid "Russia"
+#~ msgstr "Русия"
+
+#~ msgid "Rwanda"
+#~ msgstr "Руондо"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Арабистони Саудӣ"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Ҷазоири Сулймон"
+
+#~ msgid "Seychelles"
+#~ msgstr "Ҷазираҳои Сейшелҳо"
+
+#~ msgid "Sudan"
+#~ msgstr "Судан"
+
+#~ msgid "Sweden"
+#~ msgstr "Суид"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapore"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Синт Ҳилин"
+
+#~ msgid "Slovenia"
+#~ msgstr "Услувонӣ"
+
+#~ msgid "Svalbard and Jan Mayen Islands"
+#~ msgstr "Сволборд ва Ҷазоири Ян Майен"
+
+#~ msgid "Slovakia"
+#~ msgstr "Услувок"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Сиро Леун"
+
+#~ msgid "San Marino"
+#~ msgstr "Сан Морину"
+
+#~ msgid "Senegal"
+#~ msgstr "Синегол"
+
+#~ msgid "Somalia"
+#~ msgstr "Сомали"
+
+#~ msgid "Suriname"
+#~ msgstr "Суринам"
+
+#~ msgid "Sao Tome and Principe"
+#~ msgstr "Синт Том Принсип"
+
+#~ msgid "El Salvador"
+#~ msgstr "Ал Салвадур"
+
+#~ msgid "Syria"
+#~ msgstr "Сурия"
+
+#~ msgid "Swaziland"
+#~ msgstr "Свозиланд"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Ҷазоири Турк ва Койкус"
+
+#~ msgid "Chad"
+#~ msgstr "Чод"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Қаламрави Ҷанубии Фаронса"
+
+#~ msgid "Togo"
+#~ msgstr "Тугуиз"
+
+#~ msgid "Thailand"
+#~ msgstr "Тойлонд"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Тоҷикистон"
+
+#~ msgid "Tokelau"
+#~ msgstr "Токелау"
+
+#~ msgid "East Timor"
+#~ msgstr "Тимури Шарқ"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Туркманистон"
+
+#~ msgid "Tunisia"
+#~ msgstr "Тунис"
+
+#~ msgid "Tonga"
+#~ msgstr "Тунқо"
+
+#~ msgid "Turkey"
+#~ msgstr "Туркиё"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Туриндод ва Тубогу"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Тувалу"
+
+#~ msgid "Taiwan"
+#~ msgstr "Тойвон"
+
+#~ msgid "Tanzania"
+#~ msgstr "Танзания"
+
+#~ msgid "Ukraine"
+#~ msgstr "Украина"
+
+#~ msgid "Uganda"
+#~ msgstr "Уганда"
+
+#~ msgid "United States Minor Outlying Islands"
+#~ msgstr "Ҷазоири Хурди Дури Иолоти Муттаҳида"
+
+#~ msgid "United States"
+#~ msgstr "Иолоти Муттаҳида"
+
+#~ msgid "Uruguay"
+#~ msgstr "Уругвие"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Ӯзбекистон"
+
+#~ msgid "Vatican"
+#~ msgstr "Ватикан"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Синт Винсент"
+
+#~ msgid "Venezuela"
+#~ msgstr "Винизуэло"
+
+#~ msgid "Virgin Islands (British)"
+#~ msgstr "Ҷазоири Вирҷин (Британиҳо)"
+
+#~ msgid "Virgin Islands (U.S.)"
+#~ msgstr "Ҷазоири Вирҷин (И.М.)"
+
+#~ msgid "Vietnam"
+#~ msgstr "Ветнам"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Вануату"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Уолис ва Футун"
+
+#~ msgid "Samoa"
+#~ msgstr "Самоа"
+
+#~ msgid "Yemen"
+#~ msgstr "Яман"
+
+#~ msgid "Mayotte"
+#~ msgstr "Майоти"
+
+#~ msgid "South Africa"
+#~ msgstr "Африқои Ҷанубӣ"
+
+#~ msgid "Zambia"
+#~ msgstr "Зомбиё"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Зимбобве"
+
+#~ msgid "Welcome to %s"
+#~ msgstr "Марҳамат ба %s"
+
+#~ msgid "Remove the logical volumes first\n"
+#~ msgstr "Сараввал бобҳои мантиқиро дур намоед\n"
+
+#~ msgid ""
+#~ "Introduction\n"
+#~ "\n"
+#~ "The operating system and the different components available in the "
+#~ "Mandriva Linux distribution \n"
+#~ "shall be called the \"Software Products\" hereafter. The Software "
+#~ "Products include, but are not \n"
+#~ "restricted to, the set of programs, methods, rules and documentation "
+#~ "related to the operating \n"
+#~ "system and the different components of the Mandriva Linux distribution.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. License Agreement\n"
+#~ "\n"
+#~ "Please read this document carefully. This document is a license agreement "
+#~ "between you and  \n"
+#~ "Mandriva S.A. which applies to the Software Products.\n"
+#~ "By installing, duplicating or using the Software Products in any manner, "
+#~ "you explicitly \n"
+#~ "accept and fully agree to conform to the terms and conditions of this "
+#~ "License. \n"
+#~ "If you disagree with any portion of the License, you are not allowed to "
+#~ "install, duplicate or use \n"
+#~ "the Software Products. \n"
+#~ "Any attempt to install, duplicate or use the Software Products in a "
+#~ "manner which does not comply \n"
+#~ "with the terms and conditions of this License is void and will terminate "
+#~ "your rights under this \n"
+#~ "License. Upon termination of the License,  you must immediately destroy "
+#~ "all copies of the \n"
+#~ "Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Limited Warranty\n"
+#~ "\n"
+#~ "The Software Products and attached documentation are provided \"as is\", "
+#~ "with no warranty, to the \n"
+#~ "extent permitted by law.\n"
+#~ "Mandriva S.A. will, in no circumstances and to the extent permitted by "
+#~ "law, be liable for any special,\n"
+#~ "incidental, direct or indirect damages whatsoever (including without "
+#~ "limitation damages for loss of \n"
+#~ "business, interruption of business, financial loss, legal fees and "
+#~ "penalties resulting from a court \n"
+#~ "judgment, or any other consequential loss) arising out of  the use or "
+#~ "inability to use the Software \n"
+#~ "Products, even if Mandriva S.A. has been advised of the possibility or "
+#~ "occurrence of such \n"
+#~ "damages.\n"
+#~ "\n"
+#~ "LIMITED LIABILITY LINKED TO POSSESSING OR USING PROHIBITED SOFTWARE IN "
+#~ "SOME COUNTRIES\n"
+#~ "\n"
+#~ "To the extent permitted by law, Mandriva S.A. or its distributors will, "
+#~ "in no circumstances, be \n"
+#~ "liable for any special, incidental, direct or indirect damages whatsoever "
+#~ "(including without \n"
+#~ "limitation damages for loss of business, interruption of business, "
+#~ "financial loss, legal fees \n"
+#~ "and penalties resulting from a court judgment, or any other consequential "
+#~ "loss) arising out \n"
+#~ "of the possession and use of software components or arising out of  "
+#~ "downloading software components \n"
+#~ "from one of Mandriva Linux sites  which are prohibited or restricted in "
+#~ "some countries by local laws.\n"
+#~ "This limited liability applies to, but is not restricted to, the strong "
+#~ "cryptography components \n"
+#~ "included in the Software Products.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. The GPL License and Related Licenses\n"
+#~ "\n"
+#~ "The Software Products consist of components created by different persons "
+#~ "or entities.  Most \n"
+#~ "of these components are governed under the terms and conditions of the "
+#~ "GNU General Public \n"
+#~ "Licence, hereafter called \"GPL\", or of similar licenses. Most of these "
+#~ "licenses allow you to use, \n"
+#~ "duplicate, adapt or redistribute the components which they cover. Please "
+#~ "read carefully the terms \n"
+#~ "and conditions of the license agreement for each component before using "
+#~ "any component. Any question \n"
+#~ "on a component license should be addressed to the component author and "
+#~ "not to Mandriva.\n"
+#~ "The programs developed by Mandriva S.A. are governed by the GPL License. "
+#~ "Documentation written \n"
+#~ "by Mandriva S.A. is governed by a specific license. Please refer to the "
+#~ "documentation for \n"
+#~ "further details.\n"
+#~ "\n"
+#~ "\n"
+#~ "4. Intellectual Property Rights\n"
+#~ "\n"
+#~ "All rights to the components of the Software Products belong to their "
+#~ "respective authors and are \n"
+#~ "protected by intellectual property and copyright laws applicable to "
+#~ "software programs.\n"
+#~ "Mandriva S.A. reserves its rights to modify or adapt the Software "
+#~ "Products, as a whole or in \n"
+#~ "parts, by all means and for all purposes.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" and associated logos are trademarks of "
+#~ "Mandriva S.A.  \n"
+#~ "\n"
+#~ "\n"
+#~ "5. Governing Laws \n"
+#~ "\n"
+#~ "If any portion of this agreement is held void, illegal or inapplicable by "
+#~ "a court judgment, this \n"
+#~ "portion is excluded from this contract. You remain bound by the other "
+#~ "applicable sections of the \n"
+#~ "agreement.\n"
+#~ "The terms and conditions of this License are governed by the Laws of "
+#~ "France.\n"
+#~ "All disputes on the terms of this license will preferably be settled out "
+#~ "of court. As a last \n"
+#~ "resort, the dispute will be referred to the appropriate Courts of Law of "
+#~ "Paris - France.\n"
+#~ "For any question on this document, please contact Mandriva S.A.  \n"
+#~ msgstr ""
+#~ "Муқаддима\n"
+#~ "Системи операсионӣ ва қисмҳои гуногуне ки дар тақсимоти Mandriva Linux \n"
+#~ "дастрас мебошад баъдан \"Маҳсулотҳои Нармафзор\" номида мешавад.\n"
+#~ "Маҳсулотҳои Нармафзор иборат аст аз маҷмӯи барномаҳо, усулҳо, қоидаҳо\n"
+#~ "ва ҳуҷҷатҳое ки бо системи операсионӣ ва қисмҳои гуногуни тақсимоти\n"
+#~ "Mandriva Linux алоқаманд аст.\n"
+#~ "\n"
+#~ "\n"
+#~ "1. Шартномаи Лисензионӣ\n"
+#~ "\n"
+#~ "Лутфан ин ҳучҷатро бо диққат хонед. Ҳуҷҷати мазкур ин шартномаи "
+#~ "лисензионӣ байни шумо ва \n"
+#~ "Mandriva S.A., ки он ба Маҳсулотҳои Нармафзор тааллуқ дорад.\n"
+#~ "Маҳсулотҳои Барномавиро муқаррар намуда, чоп намуда ва истифода намудан "
+#~ "бо мақсадҳои дигар шумо комилан бо шарту қоидаҳои шартномаи мазкур розӣ "
+#~ "мебошед. Агар шумо бо яке аз қисмҳои Шартномаи мазкур розӣ набошед, онгоҳ "
+#~ "ба шумо иҷозат дода намешавад,то ки шумо Маҳсулотҳои Барномавиро "
+#~ "муқаррар, паҳн ва истифода намоедҲар як кӯшиши истифодабарӣ, паҳнкунӣ ва "
+#~ "истифодаи Маҳсулотҳои Барномавӣбо мақсаде ки ба шартҳои Шартномаи мазкур "
+#~ "мувофиқат намекунад шуморо аз ҳар ҳуқуқи аз тарафи шартнома додашуда озод "
+#~ "менамоядБаъд аз ба охир расидани мӯҳлати шартнома шумо бояд бозудӣ ҳамаи "
+#~ "нусхаҳои Маҳсулотҳои Барномавиро нобуд намоед.\n"
+#~ "\n"
+#~ "\n"
+#~ "2. Ӯҳдадориҳои кафолатноки маҳдуд\n"
+#~ "\n"
+#~ "Маҳсулотҳои Барномавӣ ва ҳуҷҷати пешниҳодшуда бечунучаро\"мебошад\"бе ҳеҷ "
+#~ "кафолат дар доираи қонун.\n"
+#~ "Mandriva S.A. дар ягон ҳолате аз тарафи қонун пешбинӣ шуда маъсулятро "
+#~ "барои камбудии муаяйне, тасодуфӣ, бевосита ва бавосита (аз он ҷумла "
+#~ "камбудии беҳудуд аз муфлисшавии бизнес, танаффус дар фаъолияти тиҷоратӣ, "
+#~ "муфлисшавии молиявӣ, хароҷотҳои судӣ ва ҷаримаҳое ки натиҷаи мубоҳисаи "
+#~ "судӣ мебошад ё дигар камбудиҳои бавосита), ки натиҷаи истифодаи "
+#~ "Маҳсулотҳои Барномавӣ, ҳатто агар ба Mandriva S.A. маълум бошад дар "
+#~ "хусуси имконият ё ин ки ҳолати чунин камбудӣ\n"
+#~ "\n"
+#~ "ӮҲДАДОРИИ МАҲДУДНОКЕ БО НИГОҲДОРӢ ВА ИСТИФОДАИ ТАЪМИНОТИ БАРНОМАВӢ ДАР ЯК "
+#~ "ЧАНД МАМЛАКАТҲО ВОБАСТА АСТ Мувофиқи доираҳои қонунӣ Mandriva S.A. ва "
+#~ "паҳнкунандагони он бе ҳеҷ шарту асос маъсулиятро В пределах, дозволенных "
+#~ "законом, или ее распространители\n"
+#~ "ни при каких условиях не несут ответственности за любой, какой бы то ни "
+#~ "было\n"
+#~ "определенный, случайный, прямой или косвенный ущерб (включая "
+#~ "неограниченный\n"
+#~ "ущерб от крушения бизнеса, перерывов в коммерческой деятельности, "
+#~ "финансовых\n"
+#~ "убытков, судебных издержек и штрафов, являющихся результатом судебных\n"
+#~ "разбирательств, или любых других косвенных потерь), являющихся "
+#~ "результатом\n"
+#~ "владения и использования компонентов программного обеспечения,\n"
+#~ "или являющихся результатом скачивания компонентов программного "
+#~ "обеспечения\n"
+#~ "с одного из сайтов Mandriva Linux, запрещенных или ограниченных в "
+#~ "некоторых\n"
+#~ "странах местными законами.\n"
+#~ "Ограниченная ответственность применяется, но не ограничивается,\n"
+#~ "к компонентам сильной криптографии, включаемых в Программные Продукты.\n"
+#~ "\n"
+#~ "\n"
+#~ "3. Лицензия GPL и связанные лицензии\n"
+#~ "\n"
+#~ "Программные Продукты состоят из компонентов, созданных различными людьми\n"
+#~ "или организациями. Большинство этих компонентов находятся под действием\n"
+#~ "условий и положений GNU General Public Licence, далее называемой \"GPL"
+#~ "\",\n"
+#~ "или похожих лицензий. Большинство этих лицензий позволяют вам "
+#~ "использовать,\n"
+#~ "тиражировать, адаптировать или распространять далее компоненты, на "
+#~ "которые\n"
+#~ "они распространяются. Пожалуйста, внимательно читайте условия и "
+#~ "положения\n"
+#~ "лицензионного соглашения для каждого из компонент перед использованием\n"
+#~ "любого компонента. Любые вопросы по лицензии компонента должны быть\n"
+#~ "адресованы автору компонента, а не Mandriva.\n"
+#~ "Программы, разработанные Mandriva S.A., находятся под действием лицензии\n"
+#~ "GPL. Документация, написанная Mandriva S.A., находится под действием\n"
+#~ "особой лицензии. Пожалуйста, обратитесь к документации за дополнительной\n"
+#~ "информацией.\n"
+#~ "\n"
+#~ "4. Права на интеллектуальную собственность\n"
+#~ "\n"
+#~ "Все права на компоненты Программных Продуктов принадлежат их "
+#~ "соответствующим\n"
+#~ "авторам и защищены законами об интеллектуальной собственности и "
+#~ "авторском\n"
+#~ "праве, применительно к программному обеспечению.\n"
+#~ "Mandriva S.A. сохраняет за собой право изменять или адаптировать\n"
+#~ "Программные Продукты, как целиком, так и по частям, любым способом и для\n"
+#~ "любых целей.\n"
+#~ "\"Mandriva\", \"Mandriva Linux\" и соответствующие логотипы являются "
+#~ "торговыми марками Mandriva S.A.\n"
+#~ "\n"
+#~ "\n"
+#~ "5. Основные законы\n"
+#~ "\n"
+#~ "Если какая-либо часть этого соглашения является недействительной,\n"
+#~ "противозаконной или противоречащей действующему законодательству, эта\n"
+#~ "часть исключается из этого контракта. Вы остаетесь ограниченными\n"
+#~ "другими пригодными разделами соглашения.\n"
+#~ "Условия и положения данной Лицензии находятся под действием французского\n"
+#~ "законодательства.\n"
+#~ "Все разногласия по поводу условий и положений этой лицензии, скорее "
+#~ "всего, будут оспариваться в суде. В последнюю очередь оспаривание вопроса "
+#~ "будет передано в соответствующий Законодательный Суд Парижа - Франция. По "
+#~ "любым вопросам, касающимся этого документа, пожалуйста, свяжитесь\n"
+#~ "с Mandriva S.A.\n"
+
+#~ msgid ""
+#~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
+#~ "Software included may be covered by patents in your country. For example, "
+#~ "the\n"
+#~ "MP3 decoders included may require a licence for further usage (see\n"
+#~ "http://www.mp3licensing.com for more details). If you are unsure if a "
+#~ "patent\n"
+#~ "may be applicable to you, check your local laws."
+#~ msgstr ""
+#~ "Огоҳӣ: Нармафзори бепул аз патент зарурияти озод шуданро надорад, вале як "
+#~ "миқдори\n"
+#~ "Нармафзори бепул шояд дар мамлакати шумо патент дошта бошад.\n"
+#~ "Масалан, размкушоҳои ба ҳайати MP3 дохилшаванда метавонад лисензияро "
+#~ "барои\n"
+#~ "истифодаи оянда талаб намояд (барои гирифтани маълумоти муфассал ба\n"
+#~ "http://www.mp3licensing.com назар намоед).\n"
+#~ "Агар шумо дар бораи ҳуқуқӣ будани патент барои худ боварӣ надошта бошед, "
+#~ "онгоҳ\n"
+#~ "онро бо қонунҳо маҳаллии худ муқоиса намоед."
+
+#~ msgid ""
+#~ "\n"
+#~ "Warning\n"
+#~ "\n"
+#~ "Please read carefully the terms below. If you disagree with any\n"
+#~ "portion, you are not allowed to install the next CD media. Press "
+#~ "'Refuse' \n"
+#~ "to continue the installation without using these media.\n"
+#~ "\n"
+#~ "\n"
+#~ "Some components contained in the next CD media are not governed\n"
+#~ "by the GPL License or similar agreements. Each such component is then\n"
+#~ "governed by the terms and conditions of its own specific license. \n"
+#~ "Please read carefully and comply with such specific licenses before \n"
+#~ "you use or redistribute the said components. \n"
+#~ "Such licenses will in general prevent the transfer,  duplication \n"
+#~ "(except for backup purposes), redistribution, reverse engineering, \n"
+#~ "de-assembly, de-compilation or modification of the component. \n"
+#~ "Any breach of agreement will immediately terminate your rights under \n"
+#~ "the specific license. Unless the specific license terms grant you such\n"
+#~ "rights, you usually cannot install the programs on more than one\n"
+#~ "system, or adapt it to be used on a network. In doubt, please contact \n"
+#~ "directly the distributor or editor of the component. \n"
+#~ "Transfer to third parties or copying of such components including the \n"
+#~ "documentation is usually forbidden.\n"
+#~ "\n"
+#~ "\n"
+#~ "All rights to the components of the next CD media belong to their \n"
+#~ "respective authors and are protected by intellectual property and \n"
+#~ "copyright laws applicable to software programs.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Огоҳӣ\n"
+#~ "\n"
+#~ "Лутфан бо диққат шартҳои дар поён овардашударо хонед. Агар шумо бо яке "
+#~ "аз\n"
+#~ "қисмҳои он розӣ набошед, онгоҳ ба шумо иҷозат дода намешавад, то ки шумо "
+#~ "расонаи\n"
+#~ "навбатии CD-ро кор гузоред. Ба 'Рад кардан' ангушт занед, то ки "
+#~ "коргузории онро бе\n"
+#~ "расонаи мазкур давом диҳед.\n"
+#~ "\n"
+#~ "\n"
+#~ "Якчанд қисматҳои дар CD-и навбатӣ мавҷуд буда бо Лисензияи GPL ё ин ки "
+#~ "бо\n"
+#~ "созишномаҳои монанд маҳдуд намешавад. Ҳар яки қисмати мазкур бо шартҳои\n"
+#~ "созишномаи лисензионии худ маҳдуд аст. Лутфан бо диққат қоидаҳои "
+#~ "созишномаҳои\n"
+#~ "лисензионии махсусро пеш аз истифода ва паҳни навбатии қисматҳои\n"
+#~ "гуфташуда хонед ва риоя намоед. \n"
+#~ "Чунин созишномаҳои лисензионӣ асосан супоридан, нусхабардорӣ (ба ғайр аз\n"
+#~ "офаридани нусхаҳои эҳтиётӣ), паҳни навбатӣ, коркарди баръакс ва тағироти\n"
+#~ "қисматро пешгирӣ хоҳад кард.\n"
+#~ "Риоя накардани созишнома боиси ба таври фаврӣ бекор кардани ҳуқуқи шумо "
+#~ "ба\n"
+#~ "лисензияи мазкур мегардад. То он даме ки созишномаи муаяйни лисензионӣ ба "
+#~ "шумо\n"
+#~ "ин ҳуқуқҳоро намедиҳад, шумо наметавонед, ки барномаҳоро зиёда барои\n"
+#~ "як систем кор гузоред ё ин ки онҳоро барои истифодаи шабакавӣ равона "
+#~ "намоед.\n"
+#~ "Агар шубҳа намоед, онгоҳ бевосита бо паҳнкунанда ё таҳриргари ин қисмат "
+#~ "дар\n"
+#~ "тамос бошед \n"
+#~ "Супоридани қисматҳои мазкур ба ашхоси сеюм ё нусхабардории онҳо, инчунин\n"
+#~ "ҳуҷҷатҳо одатан манъ карда мешавад.\n"
+#~ "\n"
+#~ "\n"
+#~ "Ҳамаи ҳуқуқҳо ба қисматҳои расонаи навбатии CD ба муаллифони бевоситаи "
+#~ "онҳо\n"
+#~ "мансубанд ва бо қонунҳои моликияти фикрӣ нисбати таъминоти барномавӣ "
+#~ "ҳимоя\n"
+#~ "мегарданд.\n"
+
+#~ msgid ""
+#~ "Congratulations, installation is complete.\n"
+#~ "Remove the boot media and press Enter to reboot.\n"
+#~ "\n"
+#~ "\n"
+#~ "For information on fixes which are available for this release of Mandriva "
+#~ "Linux,\n"
+#~ "consult the Errata available from:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Information on configuring your system is available in the post\n"
+#~ "install chapter of the Official Mandriva Linux User's Guide."
+#~ msgstr ""
+#~ "Табрикоти моро қабул намоед, коргузорӣ ба итмом расид.\n"
+#~ "Расонаи худборшавиро дур намоед ва барои бозхудборшавӣ ба Enter ангушт "
+#~ "занед.\n"
+#~ "\n"
+#~ "\n"
+#~ "Барои гирифтани маълумот оиди собитии барои ин нусхаи Mandriva Linux "
+#~ "дастрас\n"
+#~ "буда ба Рӯйхати хатогиҳо муроҷиат намоед, ки мавҷуд аст дар:\n"
+#~ "\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "\n"
+#~ "Маълумот оиди танзимдарории системи шумо дар порчаи post install-и\n"
+#~ "Дастуамали Расмиии Корванди Mandriva Linux мавҷуд аст."
+
+#, fuzzy
+#~ msgid "This driver has no configuration parameter!"
+#~ msgstr "Танзими гардонандаи UPS"
+
+#~ msgid "Module configuration"
+#~ msgstr "Танзимдарории Модул"
+
+#~ msgid "You can configure each parameter of the module here."
+#~ msgstr ""
+#~ "Дар ин ҷо шумо метавонед ҳар як параметри модулро ба танзим дароред."
+
+#~ msgid "Found %s interfaces"
+#~ msgstr "%s интерфейсҳо ёфт шудаанд"
+
+#~ msgid "Do you have another one?"
+#~ msgstr "Шумо боз дигар доред?"
+
+#~ msgid "Do you have any %s interfaces?"
+#~ msgstr "Шумо ягон %s интеҳо доред?"
+
+#~ msgid "See hardware info"
+#~ msgstr "Маълумоти сахтафзорро бинед"
+
+#, fuzzy
+#~ msgid "Installing driver for USB controller"
+#~ msgstr "Коргузориши гардон барои %s карти %s"
+
+#, fuzzy
+#~ msgid "Installing driver for firewire controller %s"
+#~ msgstr "Коргузориши гардон барои %s карти %s"
+
+#, fuzzy
+#~ msgid "Installing driver for hard drive controller %s"
+#~ msgstr "Коргузориши гардон барои %s карти %s"
+
+#, fuzzy
+#~ msgid "Installing driver for ethernet controller %s"
+#~ msgstr "Коргузориши гардон барои %s карти %s"
+
+#~ msgid "Installing driver for %s card %s"
+#~ msgstr "Коргузориши гардон барои %s карти %s"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Note that any address should be entered with the prefix 0x like '0x123'"
+#~ msgstr ""
+#~ "Акнун шумо метавонед интихобҳоро ба модул пешкаш намоед %s.\n"
+#~ "Дар хотир дошта бошед, ки суроғаҳои дилхоҳ бояд бо префикси 0x, масалан., "
+#~ "'0z123' дохил карда шавад"
+
+#~ msgid ""
+#~ "You may now provide options to module %s.\n"
+#~ "Options are in format ``name=value name2=value2 ...''.\n"
+#~ "For instance, ``io=0x300 irq=7''"
+#~ msgstr ""
+#~ "Акнун шумо метавонед хосиятҳоро ба модули %s таъмин кунед.\n"
+#~ "Хосиятҳо дар андозаи ``ном=қиммат ном2=қиммат2 ....''.\n"
+#~ "Масалан, ``io=0x300 irq=7''"
+
+#~ msgid "Module options:"
+#~ msgstr "Хосиятҳои модул:"
+
+#~ msgid "Which %s driver should I try?"
+#~ msgstr "Кадом %s гардонро ман санҷида бинам?"
+
+#~ msgid ""
+#~ "In some cases, the %s driver needs to have extra information to work\n"
+#~ "properly, although it normally works fine without them. Would you like to "
+#~ "specify\n"
+#~ "extra options for it or allow the driver to probe your machine for the\n"
+#~ "information it needs? Occasionally, probing will hang a computer, but it "
+#~ "should\n"
+#~ "not cause any damage."
+#~ msgstr ""
+#~ "Дар баъзе ҳолатҳо барои кори дуруст %s гардон бояд маълумоти иловагӣ\n"
+#~ "дошта бошад, гарчанде ӯ бе он ҳам нағз кор мекунад. Шумо мехоҳед барои ӯ "
+#~ "хосиятҳои\n"
+#~ "иловагиро муайян кунед ё ба гардонанда иҷозат медиҳед, ки ба мошинаатон\n"
+#~ "маълумоти заруриро санҷида бинад? Баъзан, санҷиш компютерро муаллақ "
+#~ "мекунад,\n"
+#~ "вале ин ягон зарар нахоҳад расонд."
+
+#~ msgid "Autoprobe"
+#~ msgstr "Худсанҷиш"
+
+#~ msgid "Specify options"
+#~ msgstr "Муайян кардани хосиятҳо"
+
+#~ msgid ""
+#~ "Loading module %s failed.\n"
+#~ "Do you want to try again with other parameters?"
+#~ msgstr ""
+#~ "“Кор андохтани модули %s нагузашт.\n"
+#~ "”“Шумо мехоҳед боз бо дигар параметрҳо кӯшиш кунед?”"
+
+#~ msgid "mount failed: "
+#~ msgstr "васлкунӣ нагузашт: "
+
+#~ msgid "Extended partition not supported on this platform"
+#~ msgstr "Дар ин барномаи амалиёт қисми Extended дастгирӣ намеёбад"
+
+#~ msgid ""
+#~ "You have a hole in your partition table but I can not use it.\n"
+#~ "The only solution is to move your primary partitions to have the hole "
+#~ "next to the extended partitions."
+#~ msgstr ""
+#~ "Дар таблитсаи қисмҳои шумо сӯрохӣ ҳаст, ки онро ман истифода бурда "
+#~ "наметавонам.\n"
+#~ "Ҳалли ягона - қисмҳоро ҳамин тавр ҷобаҷо намуд, ки, сӯрохӣ баъд аз "
+#~ "қисмҳои васеъшуда якбора ҷойгир гардад."
+
+#~ msgid "Error reading file %s"
+#~ msgstr "Хатогӣ ҳангоми хониши файл %s"
+
+#~ msgid "Restoring from file %s failed: %s"
+#~ msgstr "Барқароркунӣ аз файли %s бо нокомӣ анҷомид: %s"
+
+#~ msgid "Bad backup file"
+#~ msgstr "Файли эҳтиётии бад"
+
+#~ msgid "Error writing to file %s"
+#~ msgstr "Хатогии қайд дар файл %s"
+
+#~ msgid ""
+#~ "Something bad is happening on your drive. \n"
+#~ "A test to check the integrity of data has failed. \n"
+#~ "It means writing anything on the disk will end up with random, corrupted "
+#~ "data."
+#~ msgstr ""
+#~ "Чизи нохуше дар гардони шумо рӯй дод. \n"
+#~ "Санҷиш оиди яклухт будани додаҳо бемуваффақият анҷом ёфт. \n"
+#~ "Ин маънои онро дорад, ки навиштани чизе дар диски шумо бо додаҳои "
+#~ "тасодуфӣ ва бад ба охир мерасад."
+
+#~ msgid "Can not add a partition to _formatted_ RAID %s"
+#~ msgstr "Қисмро илова карда наметавонад to _formatted_ RAID %s"
+
+#~ msgid "Not enough partitions for RAID level %d\n"
+#~ msgstr "Барои RAID сатҳи %d бахшҳо нокифояанд\n"
+
+#~ msgid "Could not create directory /usr/share/sane/firmware!"
+#~ msgstr "Офаридани феҳристи /usr/share/sane/firmware нашуда истодааст!"
+
+#~ msgid "Could not create link /usr/share/sane/%s!"
+#~ msgstr "Пайвастагии /usr/share/sane/%s-ро сохта наметавонам!"
+
+#~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
+#~ msgstr ""
+#~ "Нусхабардории файли firmware %s ба /usr/share/sane/firmware нашуда "
+#~ "истодааст!"
+
+#~ msgid "Could not set permissions of firmware file %s!"
+#~ msgstr ""
+#~ "Рухсатҳоро барои firmware файли %s барпо карда натавониста истодаам!"
+
+#~ msgid "Scannerdrake"
+#~ msgstr "Scannerdrake"
+
+#~ msgid "Could not install the packages needed to share your scanner(s)."
+#~ msgstr ""
+#~ "Коргзори бастаи барномаҳо барои истифодаи муштаракан сканер(ҳо)и шумо "
+#~ "нашуда истодааст."
+
+#~ msgid "Your scanner(s) will not be available for non-root users."
+#~ msgstr "Сканер(ҳо) барои корвандони ғайрирешавӣ дастрас намегардад."
+
+#~ msgid "Accept/Refuse bogus IPv4 error messages."
+#~ msgstr "Қабул/Рад намудан пайғомҳои хатогии bogus IPv4-ро."
+
+#~ msgid "Accept/Refuse broadcasted icmp echo."
+#~ msgstr "Қабул намудан/Рад намудан icmp echo-серваъдаро."
+
+#~ msgid "Accept/Refuse icmp echo."
+#~ msgstr "icmp echo-ро қабул/рад намудан."
+
+#~ msgid "Allow/Forbid autologin."
+#~ msgstr "Иҷозат додан/Манъ кардан худдохилшавиро."
+
+#~ msgid ""
+#~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
+#~ "\n"
+#~ "If set to NONE, no issues are allowed.\n"
+#~ "\n"
+#~ "Else only /etc/issue is allowed."
+#~ msgstr ""
+#~ "Агар дар \"ALL\" муқаррар шуда бошад , онгоҳ ба файлҳои /etc/issue и /etc/"
+#~ "issue.net иҷозати мавҷуд будан дода шудааст.\n"
+#~ "\n"
+#~ "Агар дар NONE муқаррар нашуда бошад, онгоҳ ба ягон issue иҷозат дода "
+#~ "намешавад.\n"
+#~ "\n"
+#~ "Вагарна танҳо ба /etc/issue. иҷозат дода шудааст."
+
+#~ msgid "Allow/Forbid reboot by the console user."
+#~ msgstr "Бозборкуниро барои корвандони нозиргоҳ иҷозат медиҳад/манъ мекунад."
+
+#~ msgid "Allow/Forbid remote root login."
+#~ msgstr "Вориди дурдасти решавиро иҷозат медиҳад/манъ мекунад."
+
+#~ msgid "Allow/Forbid direct root login."
+#~ msgstr "Вориди рости решавиро иҷозат медиҳад/манъ мекунад."
+
+#~ msgid ""
+#~ "Allow/Forbid the list of users on the system on display managers (kdm and "
+#~ "gdm)."
+#~ msgstr ""
+#~ "Дар мудири экран (kdm ва gdm) намоиши рӯйхати корвандони системавиро "
+#~ "иҷозат медиҳад/манъ мекунад."
+
+#~ msgid ""
+#~ "Allow/forbid to export display when\n"
+#~ "passing from the root account to the other users.\n"
+#~ "\n"
+#~ "See pam_xauth(8) for more details.'"
+#~ msgstr ""
+#~ "Ба/forbid имконияти содироти намоишгарро ҳангоми\n"
+#~ "гузариш аз ҳисоби реша ба дигар корванд, медиҳад.\n"
+#~ "\n"
+#~ "Барои гирифтани маълумоти бештар ба pam_xauth(8) нигаред.'"
+
+#~ msgid ""
+#~ "Allow/Forbid X connections:\n"
+#~ "\n"
+#~ "- ALL (all connections are allowed),\n"
+#~ "\n"
+#~ "- LOCAL (only connection from local machine),\n"
+#~ "\n"
+#~ "- NONE (no connection)."
+#~ msgstr ""
+#~ "Иҷозат медиҳад/Манъ мекунад алоқаҳои X-ро:\n"
+#~ "\n"
+#~ "- ALL (ба ҳамаи алоқаҳо иҷозат дода шудааст),\n"
+#~ "\n"
+#~ "- LOCAL (танҳо алоқаҳо аз мошини маҳаллӣ),\n"
+#~ "\n"
+#~ "- NONE (алоқа нест)."
+
+#~ msgid ""
+#~ "The argument specifies if clients are authorized to connect\n"
+#~ "to the X server from the network on the tcp port 6000 or not."
+#~ msgstr ""
+#~ "Нишонванд муайян мекунад, ки оё ба мизоҷон иҷозат барои\n"
+#~ "пайвастшавӣ бо X-хидматрасони шабака дар tcp даргоҳи 6000 дода мешавад ё "
+#~ "не."
+
+#~ msgid ""
+#~ "Authorize:\n"
+#~ "\n"
+#~ "- all services controlled by tcp_wrappers (see hosts.deny(5) man page) if "
+#~ "set to \"ALL\",\n"
+#~ "\n"
+#~ "- only local ones if set to \"LOCAL\"\n"
+#~ "\n"
+#~ "- none if set to \"NONE\".\n"
+#~ "\n"
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
+#~ "(5))."
+#~ msgstr ""
+#~ "Иҷозат додан:\n"
+#~ "\n"
+#~ "- ҳамаи хидматрасонҳо назорат мегардад аз тарафи tcp_wrappers (нигаред "
+#~ "ба. hosts.deny(5) man page), агар муқаррар бошад дар \"ALL\",\n"
+#~ "\n"
+#~ "- танҳо шабакаҳои маҳаллӣ муқаррар гардидааст дар \"LOCAL\"\n"
+#~ "\n"
+#~ "- ягон-то, агар муқаррар шуда бошад дар \"NONE\".\n"
+#~ "\n"
+#~ "Барои иҷозати хидматрасонҳои ба шумо лозима /etc/hosts.allow (нигаред ба "
+#~ "hosts.allow (5))-ро истифода баред."
+
+#~ msgid ""
+#~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
+#~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
+#~ "symlink /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "The /etc/security/msec/server is used by chkconfig --add to decide to\n"
+#~ "add a service if it is present in the file during the installation of\n"
+#~ "packages."
+#~ msgstr ""
+#~ "Агар SERVER_LEVEL (ё SECURE_LEVEL агар мавҷуд набошад)\n"
+#~ "калонтар аз 3 мебошад дар /etc/security/msec/security.conf, меофарад\n"
+#~ "ишораи рамзиро /etc/security/msec/server to point to\n"
+#~ "/etc/security/msec/server.<SERVER_LEVEL>.\n"
+#~ "\n"
+#~ "/etc/security/msec/server истифода мегардад аз тарафи chkconfig --add "
+#~ "барои ҳалли\n"
+#~ "илова намудани хидматрасон, ки оё он дар файл ҳангоми коргузории қуттиҳо\n"
+#~ "мавҷуд аст."
+
+#~ msgid ""
+#~ "Enable/Disable crontab and at for users.\n"
+#~ "\n"
+#~ "Put allowed users in /etc/cron.allow and /etc/at.allow (see man at(1)\n"
+#~ "and crontab(1))."
+#~ msgstr ""
+#~ "Дохил/Хомӯш намудан crontab ва at-ро барои корвандон.\n"
+#~ " Корвандони иҷозат гирифтагиҳоро ба /etc/cron.allow и /etc/at.allow дохил "
+#~ "менамояд\n"
+#~ "(ба man at(1)ва crontab(1) нигоҳ кунед)."
+
+#~ msgid "Enable/Disable syslog reports to console 12"
+#~ msgstr ""
+#~ "Барои баровардани ахбороти syslog дар нозиргоҳи 12 иҷозат додан/манъ "
+#~ "кардан"
+
+#~ msgid ""
+#~ "Enable/Disable name resolution spoofing protection.  If\n"
+#~ "\"%s\" is true, also reports to syslog."
+#~ msgstr ""
+#~ "Дар гиронидан/Хомӯш намудан ҳимояро аз spoofing-и дарёфти номҳо. Агар\n"
+#~ "\"%s\" ба true баробар бошад, онгоҳ ҳамчунин ба syslog хабар медиҳад."
+
+#~ msgid "Security Alerts:"
+#~ msgstr "Огоҳӣ оиди Бехатарӣ:"
+
+#~ msgid "Enable/Disable IP spoofing protection."
+#~ msgstr "Ҳимояро ба IP spoofingба  Роҳ монед/Намонед."
+
+#~ msgid "Enable/Disable libsafe if libsafe is found on the system."
+#~ msgstr ""
+#~ "Агар libsafe дар система пайдо гардад, libsafe-ро дармегиронад/хомӯш "
+#~ "мекунад."
+
+#~ msgid "Enable/Disable the logging of IPv4 strange packets."
+#~ msgstr "Дар гиронидан/хомӯш намудани сабти қуттиҳои ғайриоддии IPv4."
+
+#~ msgid "Enable/Disable msec hourly security check."
+#~ msgstr "Баъд ҳар як соат тафтиши бехатарии msec-ро дохил/хориҷ намоед."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable su only from members of the wheel group. If set to no, allows su "
+#~ "from any user."
+#~ msgstr ""
+#~ "su-ро танҳо барои аъзоёни гурӯҳи wheel дар мегиронад ё ба su барои "
+#~ "корванди дилхоҳ иҷозат медиҳад."
+
+#~ msgid "Use password to authenticate users."
+#~ msgstr "Барои аслшиносии корвандон гузарвожаро истифода баред."
+
+#~ msgid "Activate/Disable ethernet cards promiscuity check."
+#~ msgstr ""
+#~ "Тафтиши promiscuity кортҳои ethernet-ро фаъол месозад/хомӯш мекунад."
+
+#~ msgid "Activate/Disable daily security check."
+#~ msgstr "Фаъол /Ғайри фаъол намудани санҷиши ҳаррӯзаи бехатарӣ."
+
+#~ msgid "Enable/Disable sulogin(8) in single user level."
+#~ msgstr "Дар мегиронад/хомӯш менамояд sulogin(8)-ро дар дараҷаи як корванд."
+
+#~ msgid ""
+#~ "Add the name as an exception to the handling of password aging by msec."
+#~ msgstr ""
+#~ "Номро ҳамчун истисно аз идоракунии синни гузарвожаҳо ба воситаи msec "
+#~ "илова мекунад."
+
+#~ msgid ""
+#~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
+#~ msgstr ""
+#~ "Синну соли гузарвожаро ба \"max\"рӯз ва дермонӣ барои тағир додани "
+#~ "\"inactive\"муқаррар намоед."
+
+#~ msgid "Set the password history length to prevent password reuse."
+#~ msgstr ""
+#~ "Дарозии таърихи гузарвожаро барои пешгирии истифодаи дубораи гузарвожа, "
+#~ "барпо месозад."
+
+#~ msgid ""
+#~ "Set the password minimum length and minimum number of digit and minimum "
+#~ "number of capitalized letters."
+#~ msgstr ""
+#~ "Дарозии хурдтарини гузарвожа, шумораи камтарини рақамҳо ва шумораи "
+#~ "камтарини ҳарфҳои калоншударо барпо месозад."
+
+#~ msgid "Set the root umask."
+#~ msgstr "root umask гузоред."
+
+#~ msgid "if set to yes, check open ports."
+#~ msgstr "агар yes барпо шуда бошад, даргоҳҳои кушода тафтиш мешаванд"
+
+#~ msgid ""
+#~ "if set to yes, check for:\n"
+#~ "\n"
+#~ "- empty passwords,\n"
+#~ "\n"
+#~ "- no password in /etc/shadow\n"
+#~ "\n"
+#~ "- for users with the 0 id other than root."
+#~ msgstr ""
+#~ "агар ҳа интихоб шуда бошад, онгоҳ тафтиш менамояд:\n"
+#~ "\n"
+#~ "- гузарвожаҳои холиро,\n"
+#~ "\n"
+#~ "- ба набудани гузарвожа дар /etc/shadow\n"
+#~ "\n"
+#~ "- ба мавҷуд будани ғайри-root-и корвандон бо UID 0."
+
+#~ msgid "if set to yes, check permissions of files in the users' home."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, иҷозатномаи файлҳои дар феҳристҳои хонагӣ "
+#~ "мавҷуд будро месанҷад."
+
+#~ msgid "if set to yes, check if the network devices are in promiscuous mode."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, санҷед оё дастгоҳҳои шабакавӣ дар "
+#~ "усулиpromiscuous кор мекунад."
+
+#~ msgid "if set to yes, run the daily security checks."
+#~ msgstr ""
+#~ "агар yes барпо шуда бошад, тафтишоти бехатарии ҳаррӯза коргузорӣ мешавад."
+
+#~ msgid "if set to yes, check additions/removals of sgid files."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, онгоҳ иловаҳо/хориҷшавии файлҳои sgid-ро "
+#~ "месанҷад."
+
+#~ msgid "if set to yes, check empty password in /etc/shadow."
+#~ msgstr ""
+#~ "агар yes барпо шуда бошад, гузарвожаҳои холӣ дар /etc/shadow тафтиш "
+#~ "мешаванд."
+
+#~ msgid "if set to yes, verify checksum of the suid/sgid files."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, онгоҳ суммаи назорати файлҳои suid/sgid-ро "
+#~ "месанҷад."
+
+#~ msgid "if set to yes, check additions/removals of suid root files."
+#~ msgstr ""
+#~ "агар yes муқаррар шавад, онгоҳ иловаҳо/хориҷшавии файлҳои suid root-ро "
+#~ "тафтишнамоед."
+
+#~ msgid "if set to yes, report unowned files."
+#~ msgstr "агар yes барпо шуда бошад, аз файлҳои номаълум маърӯза медиҳад."
+
+#~ msgid "if set to yes, check files/directories writable by everybody."
+#~ msgstr ""
+#~ "агар yes барпо шуда бошад, имконияти навишташавии файлҳо/феҳристҳоро аз "
+#~ "тарафи касе месанҷед."
+
+#~ msgid "if set to yes, run chkrootkit checks."
+#~ msgstr "агар yes барпо шуда бошад, тафтишҳои chkrootkit коргузорӣ мешавад."
+
+#~ msgid ""
+#~ "if set, send the mail report to this email address else send it to root."
+#~ msgstr ""
+#~ "агар муқаррар шуда бошад, мактубро бо ҳисобот ба ин суроға мефиристонад, "
+#~ "вагарна онро ба реша мефиристонад."
+
+#~ msgid "if set to yes, report check result by mail."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, онгоҳ дар хусуси натиҷаҳои тафтиш бо почта "
+#~ "хабардиҳед."
+
+#~ msgid "Do not send mails if there's nothing to warn about"
+#~ msgstr "Агар ягон огоҳӣ набошад, пайёмҳоро нафиристед"
+
+#~ msgid "if set to yes, run some checks against the rpm database."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад,онгоҳ якчанд санҷишҳои манбаи маълумоти rpm-"
+#~ "ро корандозӣ менамояд."
+
+#~ msgid "if set to yes, report check result to syslog."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, онгоҳ дар бораи натиҷаи санҷиш дарsyslog "
+#~ "хабар диҳед."
+
+#~ msgid "if set to yes, reports check result to tty."
+#~ msgstr ""
+#~ "агар yes муқаррар шуда бошад, онгоҳ оиди натиҷаи санҷиш ба tty ахборот "
+#~ "медиҳад."
+
+#~ msgid "Set shell commands history size. A value of -1 means unlimited."
+#~ msgstr ""
+#~ "Андозаи таърихи пардозандаи фармонҳоро барпо месозад. Қиммати -1 маънои "
+#~ "беҳудудро дорад."
+
+#~ msgid "Set the shell timeout. A value of zero means no timeout."
+#~ msgstr ""
+#~ "Вақти танаффус барои shell муқаррар шудааст. Қиматии сифрӣ маънои мавҷуд "
+#~ "набудани вақти танаффусро дорост."
+
+#~ msgid "Timeout unit is second"
+#~ msgstr "Воҳиди итмоми вақт ин сония аст"
+
+#~ msgid "Set the user umask."
+#~ msgstr "Корванди umask-ро гузоред."
+
+#~ msgid "Accept bogus IPv4 error messages"
+#~ msgstr "Ахборотро оиди хатогиҳои IPv4 қабул кардан"
+
+#~ msgid "Accept broadcasted icmp echo"
+#~ msgstr "Радиошунавонии icmp echo-ро қабул кардан"
+
+#~ msgid "Accept icmp echo"
+#~ msgstr "icmp echo-ро қабул кардан"
+
+#~ msgid "/etc/issue* exist"
+#~ msgstr "/etc/issue* мавҷуд аст"
+
+#~ msgid "Reboot by the console user"
+#~ msgstr "Аз ҷониби корванди нозиргоҳ бозхудроҳандозӣ ба роҳ монда шудааст"
+
+#~ msgid "Allow remote root login"
+#~ msgstr "Вориди дурдасти решавиро иҷозат медиҳад"
+
+#~ msgid "Direct root login"
+#~ msgstr "Дохилшавии бевосита дар зери root"
+
+#~ msgid "List users on display managers (kdm and gdm)"
+#~ msgstr "Рӯйхати корвандон дар мудирҳои экран (kdm ва gdm)"
+
+#~ msgid "Export display when passing from root to the other users"
+#~ msgstr " Содироти намоишгар ҳангоми гузариш аз ҳисоби реша ба дигар корванд"
+
+#~ msgid "Allow X Window connections"
+#~ msgstr "Пайвастшавии X Window-ро иҷозат медиҳад"
+
+#~ msgid "Authorize TCP connections to X Window"
+#~ msgstr "Ба TCP пайвастшавии X Window иҷозат додан"
+
+#~ msgid "Authorize all services controlled by tcp_wrappers"
+#~ msgstr ""
+#~ "Ба ҳамаи хидматрасонҳо иҷозат диҳед, ки аз ҷониби tcp_wrappers назорат "
+#~ "шаванд"
+
+#~ msgid "Chkconfig obey msec rules"
+#~ msgstr "Chkconfig ба қоидаҳои msec итоат мекунад"
+
+#~ msgid "Enable \"crontab\" and \"at\" for users"
+#~ msgstr "\"crontab\" ва \"at\"-ро барои корвандон дар гиронидан"
+
+#~ msgid "Syslog reports to console 12"
+#~ msgstr "Syslog ба нозиргоҳи 12 маърӯза мекунад"
+
+#~ msgid "Name resolution spoofing protection"
+#~ msgstr "Муҳофизат аз spoofing ҳалли ном"
+
+#~ msgid "Enable IP spoofing protection"
+#~ msgstr "Муҳофизат аз IP spoofing даргиронед"
+
+#~ msgid "Enable libsafe if libsafe is found on the system"
+#~ msgstr "Агар libsafe дар система пайдо гардад онро даргиронед"
+
+#~ msgid "Enable the logging of IPv4 strange packets"
+#~ msgstr "Номнависии қуттиҳои ғайриоддии IPv4-ро дар гиронидан"
+
+#~ msgid "Enable msec hourly security check"
+#~ msgstr "Ҳар соат санҷиши бехатарии msec-ро дар гиронидан."
+
+#, fuzzy
+#~ msgid "Enable su only from the wheel group members"
+#~ msgstr ""
+#~ "su-ро танҳо барои аъзоёни гурӯҳи wheel ё ин ки барои корванди дилхоҳ "
+#~ "иҷозат диҳед."
+
+#~ msgid "Use password to authenticate users"
+#~ msgstr "Барои муаяйн намудани ҳақиқии корвандон аз гузарвожа истифода баред"
+
+#~ msgid "Ethernet cards promiscuity check"
+#~ msgstr "Санҷиши promiscuity кортҳои ethernet"
+
+#~ msgid "Daily security check"
+#~ msgstr "Тафтиши ҳаррӯзаи бехатарӣ"
+
+#~ msgid "Sulogin(8) in single user level"
+#~ msgstr "Sulogin(8) дар сатҳи истифодаи ягона"
+
+#~ msgid "No password aging for"
+#~ msgstr "Синну соли гузарвожа нест барои"
+
+#~ msgid "Set password expiration and account inactivation delays"
+#~ msgstr ""
+#~ "Мӯҳлати истифодаи гузарвожаҳо ва давомнокии қайдҳои ғайрифаъолро "
+#~ "муқаррарнамудан"
+
+#~ msgid "Password history length"
+#~ msgstr "Дарозии таърихи гузарвожа"
+
+#~ msgid "Password minimum length and number of digits and upcase letters"
+#~ msgstr ""
+#~ "Дарозии кӯтоҳтарини гузарвожа ва миқдори рақаму ҳарф дар қайдгоҳи болоӣ"
+
+#~ msgid "Root umask"
+#~ msgstr "Root umask"
+
+#~ msgid "Shell history size"
+#~ msgstr "Андозаи таърихи Shell"
+
+#~ msgid "Shell timeout"
+#~ msgstr "Танаффуси ҷилд"
+
+#~ msgid "User umask"
+#~ msgstr "Корванди umask"
+
+#~ msgid "Check open ports"
+#~ msgstr "Санҷиши даргоҳи кушод"
+
+#~ msgid "Check for unsecured accounts"
+#~ msgstr "Санҷиши қайдҳои бехатар"
+
+#~ msgid "Check permissions of files in the users' home"
+#~ msgstr "Санҷиши рухсатҳои файлҳо дар феҳристҳои хонаи корвандон"
+
+#~ msgid "Check if the network devices are in promiscuous mode"
+#~ msgstr "Дар усули promiscuous кор кардани дастгоҳҳои шабакавиро месанҷад"
+
+#~ msgid "Run the daily security checks"
+#~ msgstr "Санҷиши ҳаррӯзаи бехатариро корандозӣ кардан"
+
+#~ msgid "Check additions/removals of sgid files"
+#~ msgstr "Тафтиши иловаҳо/барҳам додани файлҳои sgid."
+
+#~ msgid "Check empty password in /etc/shadow"
+#~ msgstr "Гузарвожаҳои холиро дар /etc/shadow санҷед"
+
+#~ msgid "Verify checksum of the suid/sgid files"
+#~ msgstr "Суммаи санҷишии файлҳои suid/sgid-ро месанҷад"
+
+#~ msgid "Check additions/removals of suid root files"
+#~ msgstr "Тафтиши иловакуниҳо/хориҷкунии файлҳои suid root"
+
+#~ msgid "Report unowned files"
+#~ msgstr "Дар хусуси файлҳои бесоҳиб маълумот додан"
+
+#~ msgid "Check files/directories writable by everybody"
+#~ msgstr "Санҷиши файлҳо/феҳрист барои қайд намудан аз ҷониби ҳар як кас."
+
+#~ msgid "Run chkrootkit checks"
+#~ msgstr "Санҷишро дар chkrootkit корандозӣ кардан"
+
+#~ msgid ""
+#~ "If set, send the mail report to this email address else send it to root"
+#~ msgstr ""
+#~ "Агар муқаррар гардад, онгоҳ ҳисоботи мактубиро ба ин суроғаи "
+#~ "электронӣмефиристонад, вагарна онро ба root равона месозад"
+
+#~ msgid "Report check result by mail"
+#~ msgstr "Оиди натиҷаҳои санҷиш ба воситаи пост маърӯза кардан"
+
+#~ msgid "Run some checks against the rpm database"
+#~ msgstr "Якчанд санҷишҳои манбаи додаҳои rpm-ро корандозӣ кардан"
+
+#~ msgid "Report check result to syslog"
+#~ msgstr "Натиҷаҳои тафтишро ба syslog бароред"
+
+#~ msgid "Reports check result to tty"
+#~ msgstr "Натиҷаҳои санҷишро дар tty баровардан"
+
+#~ msgid "Welcome To Crackers"
+#~ msgstr "Марҳамат ба Crackers"
+
+#~ msgid "Poor"
+#~ msgstr "Паст"
+
+#~ msgid "High"
+#~ msgstr "Баланд"
+
+#~ msgid "Higher"
+#~ msgstr "Баландтар"
+
+#~ msgid "Paranoid"
+#~ msgstr "Девонаавзоъӣ"
+
+#~ msgid ""
+#~ "This level is to be used with care. It makes your system more easy to "
+#~ "use,\n"
+#~ "but very sensitive. It must not be used for a machine connected to "
+#~ "others\n"
+#~ "or to the Internet. There is no password access."
+#~ msgstr ""
+#~ "Ин сатҳро бояд боэҳтиёт истифода бурд. Он системи шуморо барои истифода "
+#~ "бурдан\n"
+#~ "осонтар мегардонад, лекин хеле эҳсоснок. Онро бояд барои мошине истифода "
+#~ "бурд, киба дигар мошинаҳо ё ин ки интернет пайваст бошад. Бе истифодаи "
+#~ "гузарвожашумо ба он роҳ доред."
+
+#~ msgid ""
+#~ "Passwords are now enabled, but use as a networked computer is still not "
+#~ "recommended."
+#~ msgstr ""
+#~ "Гузарвожаҳо ҳоло дар гиронида шудааст, аммо ба сифати компютери шабакавӣ "
+#~ "истифода намудан монандӣ пештара тавсия намешавад."
+
+#~ msgid ""
+#~ "This is the standard security recommended for a computer that will be "
+#~ "used to connect to the Internet as a client."
+#~ msgstr ""
+#~ "Ин сатҳи низоммеъёри бехатарӣ, ки ба мошинаҳое, ки ҳамчун мизоҷ барои "
+#~ "пайвастшавӣ ба Интернет истифода мешаванд, тавсия карда метавонад."
+
+#~ msgid ""
+#~ "There are already some restrictions, and more automatic checks are run "
+#~ "every night."
+#~ msgstr ""
+#~ "Аллакай якчанд маҳдудият мавҷуд аст ва ҳар шаб санҷишҳои иловагии "
+#~ "автоматикӣ корандозӣ мегардад."
+
+#~ msgid ""
+#~ "With this security level, the use of this system as a server becomes "
+#~ "possible.\n"
+#~ "The security is now high enough to use the system as a server which can "
+#~ "accept\n"
+#~ "connections from many clients. Note: if your machine is only a client on "
+#~ "the Internet, you should choose a lower level."
+#~ msgstr ""
+#~ "Дар ин сатҳи бехатарӣ истифодаи систем ҳамчун хидматрасон имконпазир\n"
+#~ "мешавад.\n"
+#~ "Акнун бехатарӣ хеле баланд аст барои истифодаи систем ҳамчун хидматрасон, "
+#~ "ки\n"
+#~ "пайвастшавиро аз мизоҷони бисёр қабул менамояд.\n"
+#~ "Дар хотир дошта бошед: агар мошини шумо танҳо мизоҷи интернет бошад, шумо "
+#~ "бояд\n"
+#~ "сатҳи нисбатан пастарро интихоб намоед."
+
+#~ msgid ""
+#~ "This is similar to the previous level, but the system is entirely closed "
+#~ "and security features are at their maximum."
+#~ msgstr ""
+#~ "Ин сатҳ ба пешина монанд аст, лекин систем ба таври пурра маҳкам аст ва "
+#~ "хислатҳои бехатарӣ дар бузургии калонтарин мавҷуд мебошад."
+
+#~ msgid "Security"
+#~ msgstr "Амният"
+
+#~ msgid "DrakSec Basic Options"
+#~ msgstr "Хосиятҳои Асосии DrakSec"
+
+#~ msgid "Please choose the desired security level"
+#~ msgstr "Марҳамат карда сатҳи дилхоҳи бехатариро интихоб кунед"
+
+#~ msgid "Security level"
+#~ msgstr "Сатҳи бехатарӣ"
+
+#~ msgid "Use libsafe for servers"
+#~ msgstr "Барои хидматрасонҳо libsafe-ро истифода намудан"
+
+#~ msgid ""
+#~ "A library which defends against buffer overflow and format string attacks."
+#~ msgstr ""
+#~ "Китобхонае ки аз ҳуҷуми аз ҳад зиёди миёнгир ва шаклбандии сатр ҳимоя "
+#~ "менамояд."
+
+#~ msgid "Security Administrator (login or email)"
+#~ msgstr "Идоракунандаи Бехатарӣ (номи дохилӣ ё суроғаи электронӣ)"
+
+#~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
+#~ msgstr ""
+#~ "Системи овоздори ALSA-ро оғоз намоед (Меъмории баланди овозии Linux)"
+
+#~ msgid "Anacron is a periodic command scheduler."
+#~ msgstr "Anacron - нақшакаши фармонии даврӣ."
+
+#~ msgid ""
+#~ "apmd is used for monitoring battery status and logging it via syslog.\n"
+#~ "It can also be used for shutting down the machine when the battery is low."
+#~ msgstr ""
+#~ "apmd барои назорати ҳолати батарея ва қайди он ба воситаи syslog истифода "
+#~ "мегардад\n"
+#~ "Инчунин онро барои хомӯш намудани мошина дар ҳолати дараҷаи баланди "
+#~ "батареяҳоистифода бурдан мумкин аст."
+
+#~ msgid ""
+#~ "Runs commands scheduled by the at command at the time specified when\n"
+#~ "at was run, and runs batch commands when the load average is low enough."
+#~ msgstr ""
+#~ "Корандозӣ менамояд: фармонҳое ки ба ҷадвали ҳангоми оғозкунӣ дар at "
+#~ "нишондода\n"
+#~ "шуда дохил менамояд ва қуттиҳои фармонҳоро корандозӣ менамояд, вақте ки "
+#~ "кор андохтани миёна бениҳоят паст аст."
+
+#~ msgid ""
+#~ "cron is a standard UNIX program that runs user-specified programs\n"
+#~ "at periodic scheduled times. vixie cron adds a number of features to the "
+#~ "basic\n"
+#~ "UNIX cron, including better security and more powerful configuration "
+#~ "options."
+#~ msgstr ""
+#~ "cron - барномаи низоммеъёри UNIX аст, ки бо ҷадвалбандии вақт барномаҳои "
+#~ "аз тарафи корванд таъиншударо ба кор\n"
+#~ "меандозад. vixie cron ба cron-и асосии UNIX миқдори муайяни хусусиятҳоро "
+#~ "илова мекунад, ки ба он инчунин\n"
+#~ "бехатарии беҳтаршуда ва параметрҳои батанзимдарории бештар иқтидорнок "
+#~ "дохил мешаванд."
+
+#~ msgid ""
+#~ "FAM is a file monitoring daemon. It is used to get reports when files "
+#~ "change.\n"
+#~ "It is used by GNOME and KDE"
+#~ msgstr ""
+#~ "FAM ин азозили дидабонии файлҳо мебошад. Он барои гирифтани маърӯзаҳо "
+#~ "оиди ивази файлҳо истифода бурда мешавад.\n"
+#~ "Он аз тарафи GNOME ва KDE истифода мегардад"
+
+#~ msgid ""
+#~ "GPM adds mouse support to text-based Linux applications such the\n"
+#~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
+#~ "operations,\n"
+#~ "and includes support for pop-up menus on the console."
+#~ msgstr ""
+#~ "GPM дастгирии мушро ба матне ки дар замимаҳои  Linux ба монандӣ Midnight\n"
+#~ "Commander асос ёфтааст, илова менамояд.Он инчунин имкон медиҳад ба "
+#~ "воситаи муш амалиёти буридан ва мондан-ро истифода\n"
+#~ "намудан ва дар нозиргоҳ дастгирии ошкорро дар бар гирифтан."
+
+#~ msgid ""
+#~ "HardDrake runs a hardware probe, and optionally configures\n"
+#~ "new/changed hardware."
+#~ msgstr ""
+#~ "HardDrake санҷиши сахтафзорро корандозӣ менамояд ва интихобан сахтафзори "
+#~ "нав/\n"
+#~ "тағирёфташударо ба танзим медарорад."
+
+#~ msgid ""
+#~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
+#~ msgstr ""
+#~ "Apache хидматрасони Web-и умумиҷаҳонӣ мебошад. Он барои хизмат расонидани "
+#~ "файлҳои HTML ва CGI истифода мегардад."
+
+#~ msgid ""
+#~ "The internet superserver daemon (commonly called inetd) starts a\n"
+#~ "variety of other internet services as needed. It is responsible for "
+#~ "starting\n"
+#~ "many services, including telnet, ftp, rsh, and rlogin. Disabling inetd "
+#~ "disables\n"
+#~ "all of the services it is responsible for."
+#~ msgstr ""
+#~ "Азозили internet superserver (баъзан бо номи inetd) мувофиқи зарурият "
+#~ "якчанд\n"
+#~ "хидматрасонҳои интернетро оғоз менамояд. Он ба оғозшавии "
+#~ "бисёрхизматрасонҳо, ба монандӣ telnet, ftp, rsh ва rlogin ҷавобгар аст. "
+#~ "Қатъи inetd\n"
+#~ "инчунин ҳамаи хизматрасонҳое ки ба он ҷавобгар аст, хомӯш мегардонад."
+
+#~ msgid ""
+#~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
+#~ "up a firewall to protect your machine from network attacks."
+#~ msgstr ""
+#~ "Сардиҳии полоиши бастаҳо барои ҳастаҳои Linux серияи 2.2, барои\n"
+#~ "барпосозии фейрвол оиди муҳофизати мошинаи шумо аз ҳамлаҳои шабакавӣ."
+
+#~ msgid ""
+#~ "This package loads the selected keyboard map as set in\n"
+#~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
+#~ "utility.\n"
+#~ "You should leave this enabled for most machines."
+#~ msgstr ""
+#~ "Ин қуттӣ ҷойгиршавии интихобшудаи забонакро дар /etc/sysconfig/keyboard "
+#~ "муқаррар\n"
+#~ "шударо ба кор андохта метавонад.  Онро метавон ба воситаи муфидии "
+#~ "kbdconfig\n"
+#~ "интихоб намуд. Шумо бояд онро дар ҳолати фаъол буданаш барои акасарияти "
+#~ "мошинҳо гузоред."
+
+#~ msgid ""
+#~ "Automatic regeneration of kernel header in /boot for\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+#~ msgstr ""
+#~ "Навсозии автоматии сарлавҳаи асос дар /boot барои\n"
+#~ "/usr/include/linux/{autoconf,version}.h"
+
+#~ msgid "Automatic detection and configuration of hardware at boot."
+#~ msgstr "Дарки автоматӣ ва ба танзимдарории таҷҳизот ҳангоми худборшавӣ."
+
+#~ msgid ""
+#~ "Linuxconf will sometimes arrange to perform various tasks\n"
+#~ "at boot-time to maintain the system configuration."
+#~ msgstr ""
+#~ "Linuxconf баъзе вақт иҷроиши супоришҳои гуногунро\n"
+#~ "дар вақти боркунӣ ташкил медиҳад, ки барои пуштибонии батанзимдарории "
+#~ "система амалӣ мегардад."
+
+#~ msgid ""
+#~ "lpd is the print daemon required for lpr to work properly. It is\n"
+#~ "basically a server that arbitrates print jobs to printer(s)."
+#~ msgstr ""
+#~ "lpd ин азозили чопкунӣ аст, ки барои дуруст кор кардани lpr зарур аст. Ин "
+#~ "асосан\n"
+#~ "хидматрасоне, ки ба чопгар(он) супоришҳои чопиро тақсим мекунад."
+
+#~ msgid ""
+#~ "Linux Virtual Server, used to build a high-performance and highly\n"
+#~ "available server."
+#~ msgstr ""
+#~ "Хидматрасони Маҷозии Linux барои офаридани хидматрасонҳои дорои "
+#~ "самаранокии\n"
+#~ "баланд ва дастрас истифода мешавад."
+
+#~ msgid ""
+#~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
+#~ "names to IP addresses."
+#~ msgstr ""
+#~ "named (BIND) номҳои соҳибии корванде ки барои тағир додани номҳои соҳибӣ "
+#~ "дар IP-суроғаҳо истифода мешавад."
+
+#~ msgid ""
+#~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
+#~ "Manager/Windows), and NCP (NetWare) mount points."
+#~ msgstr ""
+#~ "Васл кардан ва накардани ҳамаи нуқтаҳои васлшавии системҳои файлии (NFS), "
+#~ "SMB\n"
+#~ "(LanManager/Windows) ва NCP (NetWare)."
+
+#~ msgid ""
+#~ "Activates/Deactivates all network interfaces configured to start\n"
+#~ "at boot time."
+#~ msgstr ""
+#~ "Фаъол менамояд/Ғайри фаъол менамояд ҳамаи интерфейсҳои шабакавиро барои\n"
+#~ "оғоз намудан ҳангоми худборшавӣ."
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
+#~ "This service provides NFS server functionality, which is configured via "
+#~ "the\n"
+#~ "/etc/exports file."
+#~ msgstr ""
+#~ "NFS ин қарордоди паҳнгардида барои дастёбии муштарак ба файлҳо ба воситаи "
+#~ "шабакаҳои TCP/IP.\n"
+#~ "Ин хидматрасон имконияти вазифоии NFS-ро таъмин мекунад, ки ба воситаи "
+#~ "файли\n"
+#~ "/etc/exports ба танзим дароварда мешавад"
+
+#~ msgid ""
+#~ "NFS is a popular protocol for file sharing across TCP/IP\n"
+#~ "networks. This service provides NFS file locking functionality."
+#~ msgstr ""
+#~ "NFS ин қарордоди паҳнгардида барои дастёбии муштарак ба\n"
+#~ "файлҳо ба воситаи шабакаҳои TCP/IP.Ин хидматрасон имконияти вазифоии "
+#~ "бастани файлҳои NFS-ро таъмин мекунад."
+
+#~ msgid ""
+#~ "Automatically switch on numlock key locker under console\n"
+#~ "and Xorg at boot."
+#~ msgstr ""
+#~ "Дохилшавии автоматӣ ҳангоми оғоз намудани тугмачаи numlock дар\n"
+#~ "дар console ва Xorg."
+
+#~ msgid "Support the OKI 4w and compatible winprinters."
+#~ msgstr "Дастгирии win-чопгарҳои OKI 4w ва мувофиқ."
+
+#~ msgid ""
+#~ "PCMCIA support is usually to support things like ethernet and\n"
+#~ "modems in laptops.  It will not get started unless configured so it is "
+#~ "safe to have\n"
+#~ "it installed on machines that do not need it."
+#~ msgstr ""
+#~ "Пуштибони PCMCIA ин пуштибонии муқаррарии дастгоҳҳои ба монанди\n"
+#~ "ethernet ва модемҳо дар компютерҳои дастӣ мебошад. Он то он даме оғоз "
+#~ "намеёбад, ки танзим нагардад, бинобар ин коргузории он дар мошинаҳое, ки\n"
+#~ "ба он эҳтиёҷ надоранд, бехатар аст."
+
+#~ msgid ""
+#~ "The portmapper manages RPC connections, which are used by\n"
+#~ "protocols such as NFS and NIS. The portmap server must be running on "
+#~ "machines\n"
+#~ "which act as servers for protocols which make use of the RPC mechanism."
+#~ msgstr ""
+#~ "portmapper пайвастшавии RPC-ро идора менамояд, ки аз ҷониби қарордодҳои "
+#~ "ба\n"
+#~ "монадӣ NFS ва NIS истифода мегардад. Хидматрасони portmap бояд ба мошинҳо "
+#~ "корандозӣ гардад, ки ҳамчун хидматрасонҳо кор мекунад. Онҳо механизми RPC-"
+#~ "ро мавриди истифода қарор медиҳад."
+
+#~ msgid ""
+#~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
+#~ "from one machine to another."
+#~ msgstr ""
+#~ "Postfix ин Вакили бурдарасонии почта, ки барномаи фиристодани почта аз як "
+#~ "мошин ба мошини дигар аст."
+
+#~ msgid ""
+#~ "Saves and restores system entropy pool for higher quality random\n"
+#~ "number generation."
+#~ msgstr ""
+#~ "Барои баланд бардоштани сифати эҷоди рақамҳои тасодуфӣ манбаи энтропии\n"
+#~ "системро нигоҳ ва барқарор менамояд."
+
+#~ msgid ""
+#~ "Assign raw devices to block devices (such as hard drive\n"
+#~ "partitions), for the use of applications such as Oracle or DVD players"
+#~ msgstr ""
+#~ "Raw-дастгоҳҳоро ба block дастгоҳҳо таъин мекунад (ба монанди\n"
+#~ "қисмати диски сахт), барои истифодаи замимаҳо ба монанди Oracle ё DVD "
+#~ "бозигарҳо"
+
+#~ msgid ""
+#~ "The routed daemon allows for automatic IP router table updated via\n"
+#~ "the RIP protocol. While RIP is widely used on small networks, more "
+#~ "complex\n"
+#~ "routing protocols are needed for complex networks."
+#~ msgstr ""
+#~ "Азозили routed ба навсозии автоматии таблисаи IP router ба воситаи "
+#~ "қарордоди\n"
+#~ "RIP иҷозат медиҳад. Дар он сурате ки RIP ба таври васеъ дар шабакаҳои "
+#~ "хурд истифода\n"
+#~ "мегардад қарордодҳои мураккабтари роҳӣ барои шабакаҳои мураккаб лозим аст."
+
+#~ msgid ""
+#~ "The rstat protocol allows users on a network to retrieve\n"
+#~ "performance metrics for any machine on that network."
+#~ msgstr ""
+#~ "Қарордоди rstat ба корвандони шабака имкон медиҳад, то ки\n"
+#~ "онҳо додаҳоро оиди маҳсулнокии мошини дилхоҳ дар ин шабака дастрас "
+#~ "намоянд."
+
+#~ msgid ""
+#~ "The rusers protocol allows users on a network to identify who is\n"
+#~ "logged in on other responding machines."
+#~ msgstr ""
+#~ "Қарордоди rusers ба корвандони шабака имконияти муаяйн намудани онро "
+#~ "медиҳад, ки\n"
+#~ "кӣ дар дигар мошинҳои ҷавобдиҳанда кор мекунад."
+
+#~ msgid ""
+#~ "The rwho protocol lets remote users get a list of all of the users\n"
+#~ "logged into a machine running the rwho daemon (similar to finger)."
+#~ msgstr ""
+#~ "Қарордоди rwho-ро ба корвандони дурдастимконияти гирифтани\n"
+#~ "рӯйхати ҳамаи корвандони номнависшударо, ки дар мошинаҳои бо азозили rwho "
+#~ "корандозишуда кор мекунад, медиҳад (ба finger шабоҳат дорад)."
+
+#~ msgid "Launch the sound system on your machine"
+#~ msgstr "Дар мошини шумо системи овоздорро оғоз менамояд"
+
+#~ msgid ""
+#~ "Syslog is the facility by which many daemons use to log messages\n"
+#~ "to various system log files.  It is a good idea to always run syslog."
+#~ msgstr ""
+#~ "Syslog - ин функсияе, ки аз ҷониби бисёр азозил барои қайди ахбороти "
+#~ "мухталиф дар\n"
+#~ "файлҳои системии номнависӣ истифода мешавад. Фикри хуб аст, агар syslog-"
+#~ "ро ҳамеша корандозӣ намоем."
+
+#~ msgid "Load the drivers for your usb devices."
+#~ msgstr "Гардонандаҳоро барои usb дастгоҳҳои шумо бор мекунад."
+
+#~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
+#~ msgstr ""
+#~ "Хидматрасони ҳуруфҳои X-ро оғоз намоед (ин барои ба кор андохтани Xorg "
+#~ "ҳатмӣ аст)."
+
+#~ msgid "Printing"
+#~ msgstr "Чопкунӣ"
+
+#~ msgid "Internet"
+#~ msgstr "Интернет"
+
+#~ msgid "File sharing"
+#~ msgstr "Тақсим кардани файл"
+
+#~ msgid "System"
+#~ msgstr "Систем"
+
+#~ msgid "Remote Administration"
+#~ msgstr "Идоракунии Дурдаст"
+
+#~ msgid "Database Server"
+#~ msgstr "манъаи серверо"
+
+#~ msgid "Services"
+#~ msgstr "Хидматрасонҳо"
+
+#~ msgid "Choose which services should be automatically started at boot time"
+#~ msgstr ""
+#~ "Интихоб намоед, ки кадом хидматрасонҳо бояд ба таври автоматӣ ҳангоми "
+#~ "худборшавӣ оғоз карда шавад"
+
+#~ msgid "Services: %d activated for %d registered"
+#~ msgstr "Хидматрасонҳо: %d фаъол сохта шуда аст барои %d сабт карда нашуд"
+
+#~ msgid "running"
+#~ msgstr "корандозӣ карда шуда истодааст"
+
+#~ msgid "stopped"
+#~ msgstr "қатъ гардидааст"
+
+#~ msgid "Services and daemons"
+#~ msgstr "Хадамот ва азозилҳо"
+
+#~ msgid ""
+#~ "No additional information\n"
+#~ "about this service, sorry."
+#~ msgstr ""
+#~ "Бубахшед, маълумоти иловагӣ\n"
+#~ "оиди ин хидматрасон нест."
+
+#~ msgid "Info"
+#~ msgstr "Маълумот"
+
+#~ msgid "Start when requested"
+#~ msgstr "Оғоз ҳангоми дархост"
+
+#~ msgid "On boot"
+#~ msgstr "Ҳангоми худборшавӣ"
+
+#~ msgid "Start"
+#~ msgstr "Оғоз"
+
+#~ msgid "Stop"
+#~ msgstr "Ист"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify\n"
+#~ "it under the terms of the GNU General Public License as published by\n"
+#~ "the Free Software Foundation; either version 2, or (at your option)\n"
+#~ "any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Ин барнома нармафзори озод мебошад, ки онро шумо метавонед дар оянда\n"
+#~ "паҳн намоед ва/ё онро ҳангоми риоя намудани GNU General Public License "
+#~ "тағир\n"
+#~ "диҳед. Лисензияи мазкур аз ҷониби Free Software Foundation-и нусхаи дуюм "
+#~ "(мувофиқи интихоби шумо) ё ин ки нусхаи охирин нашр гардидааст.\n"
+#~ "\n"
+#~ "Ин барнома бо мақсади муфид буданаш паҳн мегардад, аммо БЕ ҲЕҶ КАФОЛАТ,\n"
+#~ "ҳатто кафолати пешбинӣ шудаи КОРШОЯМӢ ё МУВОФИҚ БУДАН БА\n"
+#~ "МАҚСАДИ МАХСУС. Барои гирифтани маълумоти муфассал GNU General\n"
+#~ "Public License-ро аз назар гузаронед.\n"
+#~ "\n"
+#~ "Шумо бояд нусхаи GNU General Public License-ро бо ҳамроҳии ин барнома "
+#~ "гиред,\n"
+#~ "агар розӣ набошед, онгоҳ ба Free Software Foundation, Inc.,\n"
+#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA мактуб "
+#~ "нависед.\n"
+
+#~ msgid ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Backup and Restore application\n"
+#~ "\n"
+#~ "--default             : save default directories.\n"
+#~ "--debug               : show all debug messages.\n"
+#~ "--show-conf           : list of files or directories to backup.\n"
+#~ "--config-info         : explain configuration file options (for non-X "
+#~ "users).\n"
+#~ "--daemon              : use daemon configuration. \n"
+#~ "--help                : show this message.\n"
+#~ "--version             : show version number.\n"
+#~ msgstr ""
+#~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
+#~ "Замима барои нигоҳ доштан ва барқарор намудан\n"
+#~ "\n"
+#~ "--default             : феҳристҳои пешфарзиро нигоҳ доштан.\n"
+#~ "--debug               : пайғомҳои созкунро нишон додан.\n"
+#~ "--show-conf           : рӯйхати файлҳо ва феҳристҳо барои нигоҳ доштан.\n"
+#~ "--config-info         : интихобҳои файли танзимдарориро фаҳмонидан (на "
+#~ "барои корвандҳои Х).\n"
+#~ "--daemon              : танзимдарории азозилро истифода намудан. \n"
+#~ "--help                : ин пайғомро нишон додан.\n"
+#~ "--version             : рақами нусхаро нишон додан.\n"
+
+#~ msgid ""
+#~ "[--boot] [--splash]\n"
+#~ "OPTIONS:\n"
+#~ "  --boot            - enable to configure boot loader\n"
+#~ "  --splash          - enable to configure boot theme\n"
+#~ "default mode: offer to configure autologin feature"
+#~ msgstr ""
+#~ "[--boot] [--splash]\n"
+#~ "ИНТИХОБҲО:\n"
+#~ "  --boot            - даргиронидани танзимкунии боркунанадаи ибтидоӣ\n"
+#~ "  --splash          - даргиронидани танзимкунии мавзӯъи боркунӣ\n"
+#~ "бо усули нобаёнӣ: пешкаши танзимкунии имкониятҳои худворидшавӣ"
+
+#~ msgid ""
+#~ "[OPTIONS] [PROGRAM_NAME]\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "  --help            - print this help message.\n"
+#~ "  --report          - program should be one of Mandriva Linux tools\n"
+#~ "  --incident        - program should be one of Mandriva Linux tools"
+#~ msgstr ""
+#~ "[ИНТИХОБ] [НОМИ_БАРНОМА]\n"
+#~ "\n"
+#~ "ИНТИХОБ:\n"
+#~ "  --help            - ин пайғоми ёридиҳандаро чоп намоед.\n"
+#~ "  --report          - барнома бояд аз қуттии Mandriva Linux tools бошад\n"
+#~ "  --incident        - барнома бояд аз қуттии Mandriva Linux tools бошад"
+
+#~ msgid ""
+#~ "[--add]\n"
+#~ "  --add             - \"add a network interface\" wizard\n"
+#~ "  --del             - \"delete a network interface\" wizard\n"
+#~ "  --skip-wizard     - manage connections\n"
+#~ "  --internet        - configure internet\n"
+#~ "  --wizard          - like --add"
+#~ msgstr ""
+#~ "[--add]\n"
+#~ "  --add             - устоди \"иловакунии интерфейси шабакавӣ\"\n"
+#~ "  --del             - устоди \"нобудкунии интерфейси шабакавӣ\" wizard\n"
+#~ "  --skip-wizard     - идораи пайвастшавиҳо\n"
+#~ "  --internet        - танзими интернет\n"
+#~ "  --wizard          - ба монанди --add"
+
+#~ msgid ""
+#~ "\n"
+#~ "Font Importation and monitoring application\n"
+#~ "\n"
+#~ "OPTIONS:\n"
+#~ "--windows_import : import from all available windows partitions.\n"
+#~ "--xls_fonts      : show all fonts that already exist from xls\n"
+#~ "--install        : accept any font file and any directory.\n"
+#~ "--uninstall      : uninstall any font or any directory of font.\n"
+#~ "--replace        : replace all font if already exist\n"
+#~ "--application    : 0 none application.\n"
+#~ "                 : 1 all application available supported.\n"
+#~ "                 : name_of_application like  so for staroffice \n"
+#~ "                 : and gs for ghostscript for only this one."
+#~ msgstr ""
+#~ "\n"
+#~ "Замимаҳо барои Воридот ва дидабонии ҳуруфҳо\n"
+#~ "\n"
+#~ "ИНТИХОБҲО:\n"
+#~ "--windows_import : воридот аз ҳамаи бахшҳои дастраси windows.\n"
+#~ "--xls_fonts      : нишон додани ҳамаи замимаҳои аллакай мавҷудбуда аз "
+#~ "xls\n"
+#~ "--strong         : пурқудратсозии озмоиши ҳуруф.\n"
+#~ "--install        : қабулкунии ҳамаи файлҳои ҳуруф ё ҳамаи феҳристҳо.\n"
+#~ "--uninstall      : хориҷ кардани ҳамаи ҳуруф ё ҳамаи феҳристҳои ҳуруф.\n"
+#~ "--replace        : иваз кардани ҳамаи ҳуруф, агар мавҷуд бошанд\n"
+#~ "--application    : 0 замима нест.\n"
+#~ "                 : 1 ҳамаи замимаҳои дастрасро пуштибони мекунад.\n"
+#~ "                 : ном_замима ба монанди so барои staroffice \n"
+#~ "                 : ва gs барои ghostscript танҳо барои ин замима."
+
+#~ msgid ""
+#~ "[OPTIONS]...\n"
+#~ "Mandriva Linux Terminal Server Configurator\n"
+#~ "--enable         : enable MTS\n"
+#~ "--disable        : disable MTS\n"
+#~ "--start          : start MTS\n"
+#~ "--stop           : stop MTS\n"
+#~ "--adduser        : add an existing system user to MTS (requires "
+#~ "username)\n"
+#~ "--deluser        : delete an existing system user from MTS (requires "
+#~ "username)\n"
+#~ "--addclient      : add a client machine to MTS (requires MAC address, IP, "
+#~ "nbi image name)\n"
+#~ "--delclient      : delete a client machine from MTS (requires MAC "
+#~ "address, IP, nbi image name)"
+#~ msgstr ""
+#~ "[ИНТИХОБҲО]...\n"
+#~ "Танзимгари Хидматрасони поёнаҳои Mandriva\n"
+#~ "--enable         : дохил намудан MTS\n"
+#~ "--disable        : хомӯш кардан MTS\n"
+#~ "--start          : оғоз намудан MTS\n"
+#~ "--stop           : қатъ кардан MTS\n"
+#~ "--adduser        : корванди мавҷудбудаи системро илова намудан ба MTS"
+#~ "(номи корванд талаб карда мешавад)\n"
+#~ "--deluser        : корванди мавҷудбудаи системро хориҷ намудан аз MTS"
+#~ "(номи корванд талаб карда мешавад)\n"
+#~ "--addclient      : мошинаи мизоҷиро илова намудан ба MTS (талаб карда "
+#~ "мешавад MAC-суроға, IP, номи симои nbi)\n"
+#~ "--delclient      : мошинаи мизоҷиро хориҷ намудан аз MTS (талаб карда "
+#~ "мешавад MAC-суроға, IP, номи симои nbi)"
+
+#~ msgid "[keyboard]"
+#~ msgstr "[тапишгоҳ]"
+
+#~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
+#~ msgstr ""
+#~ "[--file=файли ман] [--word=калимаи_ман] [--explain=ифодаи_доимӣ] [--alert]"
+
+#~ msgid ""
+#~ "[OPTIONS]\n"
+#~ "Network & Internet connection and monitoring application\n"
+#~ "\n"
+#~ "--defaultintf interface : show this interface by default\n"
+#~ "--connect : connect to internet if not already connected\n"
+#~ "--disconnect : disconnect to internet if already connected\n"
+#~ "--force : used with (dis)connect : force (dis)connection.\n"
+#~ "--status : returns 1 if connected 0 otherwise, then exit.\n"
+#~ "--quiet : do not be interactive. To be used with (dis)connect."
+#~ msgstr ""
+#~ "[ИНТИХОБҲО]\n"
+#~ "Замима барои пайвастшавӣ ва дидабони Шабака ва Интернет\n"
+#~ "\n"
+#~ "--defaultintf interface : нишон додани ин интерфейс бо нобаёнӣ\n"
+#~ "--connect : агар то ҳол пайваст набошад, ба Интернет пайваст кардан\n"
+#~ "--disconnect : ҷудо кардан аз интернет, агар аллакай пайваст шуда бошад\n"
+#~ "--force : истифода бо ҷудошавӣ/пайвастшавӣ: зӯран ҷудошавӣ/пайвастшавӣ.\n"
+#~ "--status : 1-ро бармегардонад агар пайваст бошад, агар набошад 0-ро.\n"
+#~ "--quiet : муҳовироӣ набудан. Бо ҷудошавӣ/пайвастшавӣ истифода мешавад."
+
+#~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+#~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
+
+#~ msgid ""
+#~ "[OPTION]...\n"
+#~ "  --no-confirmation      do not ask first confirmation question in "
+#~ "Mandriva Update mode\n"
+#~ "  --no-verify-rpm        do not verify packages signatures\n"
+#~ "  --changelog-first      display changelog before filelist in the "
+#~ "description window\n"
+#~ "  --merge-all-rpmnew     propose to merge all .rpmnew/.rpmsave files found"
+#~ msgstr ""
+#~ "[ИНТИХОБ]...\n"
+#~ "  --no-confirmation      тасдиқоти якум дар усули Mandriva Update-ро "
+#~ "напурсед\n"
+#~ "  --no-verify-rpm        имзоҳои бастаҳоро наозмоед\n"
+#~ "  --changelog-first      феҳристи тағиротҳоро пеш аз рӯйхати файлҳо дар "
+#~ "тирезаи тавсифдиҳӣ намоиш диҳед\n"
+#~ "  --merge-all-rpmnew     якшавии ҳамаи файлҳои пайдошудаи .rpmnew/."
+#~ "rpmsave-ро пешкаш кунед"
+
+#~ msgid ""
+#~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=dev]"
+#~ msgstr ""
+#~ "--manual] [--device=дастгоҳ] [--update-sane=sane_source_dir] [--update-"
+#~ "usbtable] [--dynamic=дастгоҳ]"
+
+#~ msgid ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] monitor\n"
+#~ "       XFdrake resolution"
+#~ msgstr ""
+#~ " [everything]\n"
+#~ "       XFdrake [--noauto] монитор\n"
+#~ "       иҷозат ба XFdrake"
+
+#~ msgid ""
+#~ "\n"
+#~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+#~ msgstr ""
+#~ "\n"
+#~ "Истифода: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
+#~ "testing] [-v|--version] "
+
+#, fuzzy
+#~ msgid "All servers"
+#~ msgstr "Хидматрасонро илова кунед"
+
+#, fuzzy
+#~ msgid "Africa"
+#~ msgstr "Африқои Ҷанубӣ"
+
+#, fuzzy
+#~ msgid "Asia"
+#~ msgstr "Утришш"
+
+#, fuzzy
+#~ msgid "North America"
+#~ msgstr "Африқои Ҷанубӣ"
+
+#, fuzzy
+#~ msgid "Oceania"
+#~ msgstr "Мақдуниё"
+
+#, fuzzy
+#~ msgid "South America"
+#~ msgstr "Африқои Ҷанубӣ"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Ҳонг Конг"
+
+#~ msgid "Russian Federation"
+#~ msgstr "Русияи Федеративӣ"
+
+#~ msgid "Yugoslavia"
+#~ msgstr "Югословӣ"
+
+#~ msgid "Is this correct?"
+#~ msgstr "Оё ин дуруст аст?"
+
+#, fuzzy
+#~ msgid "No file chosen"
+#~ msgstr "Тасвир нест"
+
+#, fuzzy
+#~ msgid "You have chosen a directory, not a file"
+#~ msgstr "Раҳнамои аввала вуҷуд надорад."
+
+#, fuzzy
+#~ msgid "No such directory"
+#~ msgstr "Феҳристи маҳаллӣ"
+
+#, fuzzy
+#~ msgid "No such file"
+#~ msgstr "Файли маҳаллӣ"
+
+#~ msgid "Expand Tree"
+#~ msgstr "Дарахтро кушодан"
+
+#~ msgid "Collapse Tree"
+#~ msgstr "Печонидани Дарахт"
+
+#~ msgid "Toggle between flat and group sorted"
+#~ msgstr "Гузариш байни рӯйхатҳои оддӣ ва ба гурӯҳҳо ҷудошуда"
+
+#~ msgid ""
+#~ "%s is not installed\n"
+#~ "Click \"Next\" to install or \"Cancel\" to quit"
+#~ msgstr ""
+#~ "%s коргузорӣ нашудааст\n"
+#~ "Барои коргузорӣ ба \"Оянда\" ангушт занед ё ба \"Бекор кардан\" барои "
+#~ "баромадан"
+
+#~ msgid "Installation failed"
+#~ msgstr "Коргузорӣ бо нокомӣ анҷомид"

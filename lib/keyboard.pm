@@ -25,32 +25,36 @@ our %lang2keyboard =
 (
   'af'  => 'us_intl',
   'am'  => 'us:90',
-  'ar'  => 'ar:90',
+  'ar'  => 'ara:90',
   'as'  => 'ben:90 ben2:80 us_intl:5',
   'az'  => 'az:90 tr_q:10 us_intl:5',
 'az_IR' => 'ir:90',
   'be'  => 'by:90 ru:50 ru_yawerty:40',
-# 'ber' => 'tifinagh:80 tifinagh_p:70',
-  'ber' => 'tifinagh_p:90',
+  'ber' => 'tifinagh:80 tifinagh_p:70',
   'bg'  => 'bg_phonetic:60 bg:50',
   'bn'  => 'ben:90 ben2:80 dev:20 us_intl:5',
-  'bo'	=> 'dz',
+  'bo'	=> 'bt',
   'br'  => 'fr:90',
   'bs'  => 'bs:90',
   'ca'  => 'es:90 fr:15',
+  'ca@valencian'  => 'es',
   'chr' => 'chr:80 us:60 us_intl:60',
   'cs'  => 'cz_qwerty:70 cz:50',
-  'cy'  => 'uk:90',
+  'cy'  => 'gb:90',
   'da'  => 'dk:90',
   'de'  => 'de_nodeadkeys:70 de:50 be:50 ch_de:50',
-  'dz'	=> 'dz',
+  'dz'	=> 'bt',
   'el'  => 'gr:90',
-  'en'  => 'us:89 us_intl:50 qc:50 uk:50',
-'en_IE' => 'ie:80 uk:70 dvorak_gb:10',
-'en_US' => 'us:90 us_intl:50 dvorak:10',
-'en_GB' => 'uk:89 us:60 us_intl:50 dvorak_gb:10',
+  'en'  => 'us:89 us3:80 us_intl:50 qc:50 gb:50 dvorak:10',
+'en_AU' => 'us:80 us3:70 us_intl:50 gb:40 dvorak:10 dvorak_gb:5',
+'en_CA' => 'us:80 us3:70 us_intl:50 qc:50 gb:40 dvorak:10',
+'en_GB' => 'gb:89 us:60 us_intl:50 dvorak_gb:10',
+'en_IE' => 'ie:80 gb:70 dvorak_gb:10',
+'en_NG' => 'ng:80 us:60',
+'en_NZ' => 'us:80 us3:70 us_intl:50 gb:40 dvorak:10 dvorak_gb:5',
+'en_US' => 'us:90 us3:80 us_intl:50 dvorak:10',
   'eo'  => 'us_intl:89 dvorak_eo:30 dvorak:10',
-  'es'  => 'es:85 la:80 us_intl:50',
+  'es'  => 'es:85 lat:80 us_intl:50',
   'et'  => 'ee:90',
   'eu'  => 'es:90 fr:15',
   'fa'  => 'ir:90',
@@ -58,12 +62,13 @@ our %lang2keyboard =
   'fo'  => 'fo:80 is:70 dk:60',
   'fr'  => 'fr:89 qc:85 be:85 ch_fr:70 dvorak_fr:20',
   'fur' => 'it:90',
-  'ga'  => 'ie:80 uk:70 dvorak_gb:10',
-  'gd'  => 'uk:80 ie:70 dvorak_gb:10',
+  'ga'  => 'ie:80 gb:70 dvorak_gb:10',
+  'gd'  => 'gb:80 ie:70 dvorak_gb:10',
   'gl'  => 'es:90',
-  'gn'  => 'la:85 es:80 us_intl:50',
+  'gn'  => 'lat:85 es:80 us_intl:50',
   'gu'  => 'guj:90',
-  'gv'  => 'uk:80 ie:70',
+  'gv'  => 'gb:80 ie:70',
+  'ha'  => 'ng',
   'he'  => 'il:90 il_phonetic:10',
   'hi'  => 'dev:90',
   'hr'  => 'hr:90 si:50',
@@ -71,28 +76,29 @@ our %lang2keyboard =
   'hy'  => 'am:90 am_old:10 am_phonetic:5',
   'ia'  => 'us:90 us_intl:20',
   'id'  => 'us:90 us_intl:20',
+  'ig'  => 'ng',
   'is'  => 'is:90',
   'it'  => 'it:90 ch_fr:50 ch_de:50',
-  'iu'  => 'iu:90',
-  'ja'  => 'jp:90 us:50 us_intl:20',
+  'iu'  => 'iku:90',
+  'ja'  => 'jp:90',
   'ka'  => 'ge_la:90 ge_ru:50',
   'kl'  => 'dk:80 us_intl:30',
   'kn'  => 'kan:90',
   'ko'  => 'kr:90 us:60',
   'ku'  => 'tr_q:90 tr_f:30',
-'ku_IQ' => 'ku:90',
-  'kw'  => 'uk:80 ie:70',
-  'ky'  => 'ky:90 ru_yawerty:40',
+'ku_IQ' => 'kur:90',
+  'kw'  => 'gb:80 ie:70',
+  'ky'  => 'kg:90 ru_yawerty:40',
   'lb'  => 'ch_fr:89 be:85 us_intl:70 fr:60 dvorak_fr:20',
   'li'  => 'us_intl:80 be:70 nl:10 us:5',
   'lo'  => 'lao:90',
   'lt'  => 'lt:80 lt_new:70 lt_b:60 lt_p:50',
   'ltg' => 'lv:90 lt:40 lt_new:30 lt_b:20 lt_p:10 ee:5',
   'lv'  => 'lv:90 lt:40 lt_new:30 lt_b:20 lt_p:10 ee:5',
-  'mi'  => 'mao:90 uk:30 us_intl:20',
+  'mi'  => 'mao:90 gb:30 us_intl:20',
   'mk'  => 'mk:90',
   'ml'  => 'mal:90',
-  'mn'  => 'mng:90 ru:20 ru_yawerty:5',
+  'mn'  => 'mn:90 ru:20 ru_yawerty:5',
   'mr'  => 'dev:90',
   'ms'  => 'us:90 us_intl:20',
   'mt'  => 'mt:90 mt_us:35 us_intl:10',
@@ -108,20 +114,21 @@ our %lang2keyboard =
   'pa'  => 'gur:90',
   'ph'  => 'us:90 us_intl:20',
   'pl'  => 'pl:90 pl2:60 dvorak_pl:10',
-  'pp'  => 'br:80 la:20 pt:10 us_intl:30',
-  'ps'  => 'ps:80 sd:60',
-'pt_BR' => 'br:90 la:20 pt:10 us_intl:30',
+  'pp'  => 'br:80 lat:20 pt:10 us_intl:30',
+  'ps'  => 'pus:80 snd:60',
+'pt_BR' => 'br:90 lat:20 pt:10 us_intl:30',
   'pt'  => 'pt:90',
   'ro'  => 'ro2:80 ro:40 us_intl:10',
   'ru'  => 'ru:85 ru_yawerty:80 ua:50',
   'sc'  => 'it:90',
-  'sd'  => 'sd:80 ar:20',
-  'se'  => 'sapmi:70 sapmi_sefi:50',
+  'sd'  => 'snd:80 ara:20',
+  'se'  => 'smi:70 smi_sefi:50',
   'sh'  => 'yu:80',
+  'si'  => 'sin',
   'sk'  => 'sk_qwerty:80 sk:70',
   'sl'  => 'si:90 hr:50',
   'sq'  => 'al:90',
-  'sr'  => 'sr:80',
+  'sr'  => 'srp:80',
   'ss'  => 'us_intl',
   'st'  => 'us_intl',
   'sv'  => 'se:90 fi:30 dvorak_se:10',
@@ -129,12 +136,12 @@ our %lang2keyboard =
   'te'  => 'tel:90',
   'tg'  => 'tj:90 ru_yawerty:40',
   'th'  => 'th:80 th_pat:50 th_tis:60',
-  'tk'  => 'tk:80 tr_q:50 tr_f:40',
+  'tk'  => 'tm:80 tr_q:50 tr_f:40',
   'tl'  => 'us:90 us_intl:20',
   'tr'  => 'tr_q:90 tr_f:30',
   'tt'  => 'ru:50 ru_yawerty:40',
   'uk'  => 'ua:90 ru:50 ru_yawerty:40',
-  'ur'  => 'ur:80 sd:60 ar:20',
+  'ur'  => 'urd:80 snd:60 ara:20',
   'uz'  => 'uz:80 ru_yawerty:40',
   'uz\@Cyrl'  => 'uz:80 ru_yawerty:40',
   'uz\@Latn'  => 'us:80 uz:80',
@@ -143,6 +150,7 @@ our %lang2keyboard =
   'wa'  => 'be:90 fr:5',
   'xh'  => 'us_intl',
   'yi'  => 'il_phonetic:90 il:10 us_intl:10',
+  'yo'  => 'ng',
 'zh_CN' => 'us:90',
 'zh_TW' => 'us:90',
   'zu'  => 'us_intl',
@@ -155,37 +163,41 @@ our %lang2keyboard =
 # with different layouts printed on the keys.
 my @usb2keyboard =
 (
-  qw(SKIP ar_SKIP be ca_SKIP qc cz dk fi fr de gr il hu us_intl it jp),
+  qw(SKIP ara_SKIP be ca_SKIP qc cz dk fi fr de gr il hu us_intl it jp),
 #- 0x10
-  qw(kr la nl no ir pl pt ru sk es se ch_de ch_de ch_de tw_SKIP tr_q),
+  qw(kr lat nl no ir pl pt ru sk es se ch_fr ch_de ch_de tw_SKIP tr_q),
 #- 0x20
-  qw(uk us_SKIP yu tr_f),
+  qw(gb us_SKIP yu tr_f),
 #- higher codes not attribued as of 2002-02
 );
 
 #- key = extension for Xmodmap file, [0] = description of the keyboard,
 #- [1] = name for loadkeys, [2] = name for XKB, [3] = "1" if it is
 #- a multigroup layout (eg: one with latin/non-latin letters)
+#-
+#- note: there seems to be a limit of 4 stackable xkb layouts
 my %keyboards = (
 arch() =~ /^sparc/ ? (
+#- do we still support those? all but "se" and "us" have dissapeared from
+#- symbols/sun/ directory in Xorg package.
  "cz" => [ N_("_: keyboard\nCzech (QWERTZ)"), "sunt5-cz-us",	 "cz",    0 ],
  "de" => [ N_("_: keyboard\nGerman"),         "sunt5-de-latin1", "de",    0 ],
  "dvorak" => [ N_("_: keyboard\nDvorak"),     "sundvorak",       "dvorak",0 ],
  "es" => [ N_("_: keyboard\nSpanish"),        "sunt5-es",        "es",    0 ],
  "fi" => [ N_("_: keyboard\nFinnish"),        "sunt5-fi-latin1", "fi",    0 ],
  "fr" => [ N_("_: keyboard\nFrench"),         "sunt5-fr-latin1", "fr",    0 ],
+ "gb" => [ N_("UK keyboard"),                 "sunt5-uk",        "gb",    0 ],
  "no" => [ N_("_: keyboard\nNorwegian"),      "sunt4-no-latin1", "no",    0 ],
  "pl" => [ N_("_: keyboard\nPolish"),         "sun-pl-altgraph", "pl",    0 ],
  "ru" => [ N_("_: keyboard\nRussian"),        "sunt5-ru",        "ru",    1 ],
  "se" => [ N_("_: keyboard\nSwedish"),        "sunt5-fi-latin1", "se",    0 ],
- "uk" => [ N_("UK keyboard"),    "sunt5-uk",        "gb",    0 ],
- "us" => [ N_("US keyboard"),    "sunkeymap",       "us",    0 ],
+ "us" => [ N_("US keyboard"),                 "sunkeymap",       "us",    0 ],
 ) : (
  "al" => [ N_("_: keyboard\nAlbanian"),       "al",              "al",    0 ],
  "am_old" => [ N_("_: keyboard\nArmenian (old)"), "am_old",	 "am(old)", 1 ],
  "am" => [ N_("_: keyboard\nArmenian (typewriter)"), "am-armscii8", "am",   1 ],
  "am_phonetic" => [ N_("_: keyboard\nArmenian (phonetic)"), "am_phonetic", "am(phonetic)",1 ],
- "ar" => [ N_("_: keyboard\nArabic"),          "us",             "ara(digits)",   1 ],
+ "ara" => [ N_("_: keyboard\nArabic"),         "us",             "ara(digits)",   1 ],
  "az" => [ N_("_: keyboard\nAzerbaidjani (latin)"), "az",        "az",    0 ],
  "be" => [ N_("_: keyboard\nBelgian"),        "be2-latin1",      "be",    0 ],
  "ben" => [ N_("_: keyboard\nBengali (Inscript-layout)"), "us",  "in(ben)",   1 ],
@@ -193,7 +205,8 @@ arch() =~ /^sparc/ ? (
 "bg_phonetic" => [ N_("_: keyboard\nBulgarian (phonetic)"), "bg", "bg(phonetic)", 1 ],
  "bg" => [ N_("_: keyboard\nBulgarian (BDS)"), "bg_bds",         "bg",    1 ],
  "br" => [ N_("_: keyboard\nBrazilian (ABNT-2)"), "br-abnt2",    "br",    0 ],
- "bs" => [ N_("_: keyboard\nBosnian"),	 "croat",           "ba",    0 ],
+ "bs" => [ N_("_: keyboard\nBosnian"),        "croat",           "ba",    0 ],
+ "bt" => [ N_("_: keyboard\nDzongkha/Tibetan"), "us",            "bt",    1 ],
  "by" => [ N_("_: keyboard\nBelarusian"),     "by-cp1251",       "by",    1 ],
  "ch_de" => [ N_("_: keyboard\nSwiss (German layout)"), "sg-latin1", "ch(de)", 0 ],
  "ch_fr" => [ N_("_: keyboard\nSwiss (French layout)"), "fr_CH-latin1", "ch(fr)", 0 ],
@@ -212,12 +225,12 @@ arch() =~ /^sparc/ ? (
  "dvorak_no" => [ N_("_: keyboard\nDvorak (Norwegian)"), "no-dvorak", "no(dvorak)", 0 ],
  "dvorak_pl" => [ N_("_: keyboard\nDvorak (Polish)"),    "pl-dvorak", "pl(dvorak)", 0 ],
  "dvorak_se" => [ N_("_: keyboard\nDvorak (Swedish)"), "se-dvorak", "se(dvorak)", 0 ],
- "dz" => [ N_("_: keyboard\nDzongkha/Tibetan"), "us",            "bt",    1 ],
  "ee" => [ N_("_: keyboard\nEstonian"),       "ee-latin9",       "ee",    0 ],
  "es" => [ N_("_: keyboard\nSpanish"),        "es-latin1",       "es",    0 ],
  "fi" => [ N_("_: keyboard\nFinnish"),        "fi-latin1",       "fi",    0 ],
  "fo" => [ N_("_: keyboard\nFaroese"),        "is-latin1",       "fo",    0 ],
  "fr" => [ N_("_: keyboard\nFrench"),         "fr-latin1",       "fr",    0 ],
+ "gb" => [ N_("UK keyboard"),                 "uk-latin1",       "gb",    0 ],
  "ge_ru" => [N_("_: keyboard\nGeorgian (\"Russian\" layout)"), "ge_ru-georgian_academy", "ge(ru)",1],
  "ge_la" => [N_("_: keyboard\nGeorgian (\"Latin\" layout)"), "ge_la-georgian_academy", "ge(la)",1],
  "gr" => [ N_("_: keyboard\nGreek"),          "gr-8859_7",       "gr(extended)",  1 ],
@@ -227,26 +240,26 @@ arch() =~ /^sparc/ ? (
  "hr" => [ N_("_: keyboard\nCroatian"),       "croat",           "hr",    0 ],
  "hu" => [ N_("_: keyboard\nHungarian"),      "hu-latin2",       "hu",    0 ],
  "ie" => [ N_("_: keyboard\nIrish"),          "uk-latin1",       "ie",    0 ],
+ "iku" => [ N_("_: keyboard\nInuktitut"),     "us",              "ca(ike)", 1 ],
  "il" => [ N_("_: keyboard\nIsraeli"),        "il-8859_8",       "il",    1 ],
  "il_phonetic" => [ N_("_: keyboard\nIsraeli (phonetic)"), "hebrew", "il(phonetic)", 1 ],
  "ir" => [ N_("_: keyboard\nIranian"),        "ir-isiri_3342",   "ir",    1 ],
  "is" => [ N_("_: keyboard\nIcelandic"),      "is-latin1",       "is",    0 ],
  "it" => [ N_("_: keyboard\nItalian"),        "it-latin1",       "it",    0 ],
- "iu" => [ N_("_: keyboard\nInuktitut"),      "us",              "ca(ike)", 1 ],
 # Japanese keyboard is dual latin/kana; but telling it here shows a
 # message to choose the switching key that is misleading, as input methods
 # are not automatically enabled when typing in kana
- "jp" => [ N_("_: keyboard\nJapanese 106 keys"), "jp106",        "us,jp",    0 ],
- "kan" => [ N_("_: keyboard\nKannada"),        "us",              "in(kan)",  1 ],
+ "jp" => [ N_("_: keyboard\nJapanese 106 keys"), "jp106",        "jp",    0 ],
+ "kan" => [ N_("_: keyboard\nKannada"),        "us",             "in(kan)",  1 ],
+ "kg" => [ N_("_: keyboard\nKyrgyz"),          "ky",             "kg(direct)", 1 ],
 # There is no XKB korean file yet; but using xmodmap one disables
 # some functionality; "us" used for XKB until this is fixed
  "kr" => [ N_("_: keyboard\nKorean"),          "us",             "us",    1 ],
 # TODO: console map
- "ku" => [ N_("_: keyboard\nKurdish (arabic script)"), "us",     "ku",    1 ],
- "ky" => [ N_("_: keyboard\nKyrgyz"),          "ky",             "ky",    1 ],
- "la" => [ N_("_: keyboard\nLatin American"), "la-latin1",       "latam",    0 ],
+ "kur" => [ N_("_: keyboard\nKurdish (arabic script)"), "us",    "kur",   1 ],
+ "lat" => [ N_("_: keyboard\nLatin American"), "la-latin1",      "latam", 0 ],
 # TODO: console map
- "lao" => [ N_("_: keyboard\nLaotian"),	 "us",	            "la",    1 ],
+ "lao" => [ N_("_: keyboard\nLaotian"),         "us",            "la",    1 ],
  "lt" => [ N_("_: keyboard\nLithuanian AZERTY (old)"), "lt-latin7", "lt(lt_a)", 0 ],
 #- TODO: write a console kbd map for lt_new
  "lt_new" => [ N_("_: keyboard\nLithuanian AZERTY (new)"), "lt-latin7", "lt(std)", 0 ],
@@ -254,37 +267,38 @@ arch() =~ /^sparc/ ? (
  "lt_p" => [ N_("_: keyboard\nLithuanian \"phonetic\" QWERTY"), "ltp-latin7", "lt(phonetic)", 0 ],
  "lv" => [ N_("_: keyboard\nLatvian"),	 "lv-latin7",       "lv",    0 ],
  "mal" => [ N_("_: keyboard\nMalayalam"),     "us",              "in(mal)", 1 ],
-#"mao" => [ N_("_: keyboard\nMaori"),	      "us",              "mao",   0 ],
+ "mao" => [ N_("_: keyboard\nMaori"),	      "us",              "mao",   0 ],
  "mk" => [ N_("_: keyboard\nMacedonian"),     "mk",              "mkd",   1 ],
  "mm" => [ N_("_: keyboard\nMyanmar (Burmese)"), "us",           "mm",    1 ],
- "mng" => [ N_("_: keyboard\nMongolian (cyrillic)"), "us",       "mn",    1 ],
+ "mn" => [ N_("_: keyboard\nMongolian (cyrillic)"), "us",        "mn",    1 ],
  "mt" => [ N_("_: keyboard\nMaltese (UK)"),   "mt",              "mt",    0 ],
  "mt_us" => [ N_("_: keyboard\nMaltese (US)"), "mt_us",          "mt(us)", 0 ],
+ "ng" => [ N_("_: keyboard\nNigerian"),       "us",              "ng",    0 ],
  "nl" => [ N_("_: keyboard\nDutch"),          "nl-latin1",       "nl",    0 ],
  "no" => [ N_("_: keyboard\nNorwegian"),      "no-latin1",       "no",    0 ],
  "ori" => [ N_("_: keyboard\nOriya"),         "us",              "in(ori)", 1 ],
  "pl" => [ N_("_: keyboard\nPolish (qwerty layout)"), "pl",      "pl",    0 ],
  "pl2" => [ N_("_: keyboard\nPolish (qwertz layout)"), "pl-latin2", "pl(qwertz)", 0 ],
 # TODO: console map
- "ps" => [ N_("_: keyboard\nPashto"),         "us",              "ps",    1 ],
+ "pus" => [ N_("_: keyboard\nPashto"),        "us",              "pus",   1 ],
  "pt" => [ N_("_: keyboard\nPortuguese"),     "pt-latin1",       "pt",    0 ],
  "qc" => [ N_("_: keyboard\nCanadian (Quebec)"), "qc-latin1",    "ca",    0 ],
  "ro2" => [ N_("_: keyboard\nRomanian (qwertz)"), "ro2",         "ro",    0 ],
  "ro" => [ N_("_: keyboard\nRomanian (qwerty)"), "ro",           "ro(us)", 0 ],
  "ru" => [ N_("_: keyboard\nRussian"),        "ru4",             "ru(winkeys)", 1 ],
  "ru_yawerty" => [ N_("_: keyboard\nRussian (phonetic)"), "ru-yawerty", "ru(phonetic)", 1 ],
- "sapmi" => [ N_("_: keyboard\nSaami (norwegian)"), "no-latin1",  "no(smi)", 0 ],
- "sapmi_sefi" => [ N_("_: keyboard\nSaami (swedish/finnish)"), "se-latin1", "se(smi)", 0 ],
-# TODO: console map
- "sd" => [ N_("_: keyboard\nSindhi"),         "us",              "sd(digits)", 1 ],
  "se" => [ N_("_: keyboard\nSwedish"),        "se-latin1",       "se",    0 ],
  "si" => [ N_("_: keyboard\nSlovenian"),      "slovene",         "si",    0 ],
 # TODO: console map
  "sin" => [ N_("_: keyboard\nSinhala"),       "us",              "lk",    1 ],
  "sk" => [ N_("_: keyboard\nSlovakian (QWERTZ)"), "sk-qwertz",   "sk",    0 ],
  "sk_qwerty" => [ N_("_: keyboard\nSlovakian (QWERTY)"), "sk-qwerty", "sk(qwerty)", 0 ],
+ "smi" => [ N_("_: keyboard\nSaami (norwegian)"), "no-latin1",   "no(smi)", 0 ],
+ "smi_sefi" => [ N_("_: keyboard\nSaami (swedish/finnish)"), "se-latin1", "se(smi)", 0 ],
 # TODO: console map
- "sr" => [ N_("_: keyboard\nSerbian (cyrillic)"), "sr",          "srp(basic),srp(latin)",    1 ],
+ "snd" => [ N_("_: keyboard\nSindhi"),        "us",              "snd(digits)", 1 ],
+# TODO: console map
+ "srp" => [ N_("_: keyboard\nSerbian (cyrillic)"), "sr",         "srp(basic),srp(latin)", 1 ],
  "syr" => [ N_("_: keyboard\nSyriac"),         "us",             "sy(syc)", 1 ],
  "syr_p" => [ N_("_: keyboard\nSyriac (phonetic)"), "us",        "sy(syc_phonetic)",  1 ],
  "tel" => [ N_("_: keyboard\nTelugu"),         "us",             "in(tel)", 1 ],
@@ -299,18 +313,18 @@ arch() =~ /^sparc/ ? (
  "tifinagh" => [ N_("_: keyboard\nTifinagh (moroccan layout) (+latin/arabic)"), "fr-tifinagh", "fr,tifinagh(basic),ara(azerty)", 1 ],
  "tifinagh_p" => [ N_("_: keyboard\nTifinagh (phonetic) (+latin/arabic)"), "fr-tifinaghp", "fr,tifinagh(phonetic),ara(azerty)", 1 ],
 # TODO: console map
- "tj" => [ N_("_: keyboard\nTajik"),         "ru4",             "tj",    1 ],
+ "tj" => [ N_("_: keyboard\nTajik"),          "ru4",             "tj",    1 ],
 # TODO: console map
- "tk" => [ N_("_: keyboard\nTurkmen"),        "us",              "tk",    0 ],
+ "tm" => [ N_("_: keyboard\nTurkmen"),        "us",              "tm",    0 ],
  "tr_f" => [ N_("_: keyboard\nTurkish (traditional \"F\" model)"), "trf", "tr(f)", 0 ],
  "tr_q" => [ N_("_: keyboard\nTurkish (modern \"Q\" model)"), "tr_q-latin5", "tr", 0 ],
 #-"tw => [ N_("_: keyboard\nChineses bopomofo"), "tw",           "tw",    1 ],
  "ua" => [ N_("_: keyboard\nUkrainian"),      "ua",              "ua",    1 ],
- "uk" => [ N_("UK keyboard"),          "uk-latin1",              "gb",    0 ],
 # TODO: console map
- "ur" => [ N_("_: keyboard\nUrdu keyboard"),  "us",              "ur",    1 ],
+ "urd" => [ N_("_: keyboard\nUrdu keyboard"), "us",              "urd",   1 ],
  "us" => [ N_("US keyboard"),    "us",              "us", 0 ],
  "us_intl" => [ N_("US keyboard (international)"), "us-intl", "us(alt-intl)", 0 ],
+ "us3" => [ N_("ISO9995-3 (US keyboard with 3 levels per key)"), "us", "latin+level3(ralt_switch)", 0 ],
  "uz" => [ N_("_: keyboard\nUzbek (cyrillic)"), "uz",            "uz",    1 ],
 # old XKB layout
  "vn" => [ N_("_: keyboard\nVietnamese \"numeric row\" QWERTY"), "vn-tcvn", "vn", 0 ], 
@@ -391,7 +405,7 @@ key to switch between the different keyboard layouts.")));
 
 sub loadkeys_files {
     my ($err) = @_;
-    my $archkbd = arch() =~ /^sparc/ ? "sun" : arch() =~ /i.86/ ? "i386" : arch() =~ /ppc/ ? "mac" : arch();
+    my $archkbd = arch() =~ /^sparc/ ? "sun" : arch() =~ /i.86|x86_64/ ? "i386" : arch() =~ /ppc/ ? "mac" : arch();
     my $p = "/usr/lib/kbd/keymaps/$archkbd";
     my $post = ".kmap.gz";
     my %trans = ("cz-latin2" => "cz-lat2");
@@ -495,7 +509,7 @@ sub builtin_loadkeys {
 sub parse_xkb_rules() {
     my $cat;
     my %l;
-    my $lst_file = "$::prefix/usr/X11R6/lib/X11/xkb/rules/xorg.lst";
+    my $lst_file = "$::prefix/usr/share/X11/xkb/rules/xorg.lst";
     foreach (cat_($lst_file)) {
 	next if m!^\s*//! || m!^\s*$!;
 	chomp;
@@ -547,7 +561,7 @@ sub setxkbmap {
 sub setup_install {
     my ($keyboard) = @_;
 
-    return if arch() =~ /^sparc/;
+    return if arch() =~ /^sparc/ || $::local_install;
 
     #- Xpmac does not map keys quite right
     if (arch() =~ /ppc/ && !$::testing && $ENV{DISPLAY}) {
@@ -569,7 +583,7 @@ sub setup_install {
 	log::l("ERROR: can not load keymap");
     }
 
-    if (-x "/usr/X11R6/bin/setxkbmap") {
+    if (-x "/usr/bin/setxkbmap") {
 	setxkbmap($keyboard);
     } else {
 	my $f = xmodmap_file($keyboard);
@@ -603,8 +617,7 @@ sub configure_xorg {
     my ($keyboard) = @_;
 
     require Xconfig::default;
-    my $xfree_conf = Xconfig::xfree->read;
-    if (!is_empty_array_ref($xfree_conf)) {
+    if (my $xfree_conf = Xconfig::xfree->read) {
 	Xconfig::default::config_keyboard($xfree_conf, $keyboard);
 	$xfree_conf->write;
     }
