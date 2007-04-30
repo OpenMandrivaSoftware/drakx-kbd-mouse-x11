@@ -307,7 +307,9 @@ sub install_server {
 
     if ($card->{Driver2}) {       
 	require Xconfig::proprietary;
-	push @packages, Xconfig::proprietary::pkgs_for_Driver2($card, $do_pkgs);
+	if (!Xconfig::proprietary::may_use_Driver2($card)) {
+	    push @packages, Xconfig::proprietary::pkgs_for_Driver2($card, $do_pkgs);
+	}
     }
 
     $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
