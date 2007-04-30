@@ -1,3 +1,5 @@
+Version 0.16 - 30 April 2007, by Pascal "Pixel" Rigaux
+
 - ask "Do you wish to use proprietary driver" before installing the needed packages
 - don't use 1280x1024 prefered resolution
   (using prefered resolution only when adding explicit gtf modelines)
