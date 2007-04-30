@@ -242,8 +242,8 @@ sub configure_auto_install {
 	};
     }
 
-    install_server($card, $options, $do_pkgs) or return;
-    $card = choose_Driver2_or_not($card, undef);
+    install_server($card, $options, $do_pkgs, undef) or return;
+    $card = configure_Driver2($card, undef);
 
     Xconfig::various::various_auto_install($raw_X, $card, $old_X);
     set_glx_restrictions($card);
@@ -274,9 +274,9 @@ sub configure {
 
     my $card = multi_head_choose($in, $auto, @cards) or return;
 
-    install_server($card, $options, $do_pkgs) or goto card_config__not_listed;
+    install_server($card, $options, $do_pkgs, $in) or goto card_config__not_listed;
 
-    $card = choose_Driver2_or_not($card, $in);
+    $card = configure_Driver2($card, $in);
 
     Xconfig::various::various($in, $raw_X, $card, $options, $auto);
     set_glx_restrictions($card);
@@ -296,7 +296,7 @@ sub configure {
 }
 
 sub install_server {
-    my ($card, $options, $do_pkgs) = @_;
+    my ($card, $options, $do_pkgs, $o_in) = @_;
 
     my @packages;
     my @must_have = "x11-driver-video-$card->{Driver}";
@@ -307,7 +307,13 @@ sub install_server {
 
     if ($card->{Driver2}) {       
 	require Xconfig::proprietary;
-	push @packages, Xconfig::proprietary::pkgs_for_Driver2($card, $do_pkgs);
+	my @pkgs = Xconfig::proprietary::pkgs_for_Driver2($card, $do_pkgs);
+	if (@pkgs && (!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
+Do you wish to use it?")), 1))) {
+	    push @packages, @pkgs;
+	} else {
+	    delete $card->{Driver2};
+	}
     }
 
     $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
@@ -321,18 +327,17 @@ sub install_server {
     1;
 }
 
-sub choose_Driver2_or_not {
+sub configure_Driver2 {
     my ($card, $o_in) = @_;
 
-    my $card2;
     if ($card->{Driver2}) {
         require Xconfig::proprietary;
-        $card2 = Xconfig::proprietary::may_use_Driver2($card);
-    }
-
-    if ($card2) {
-	!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
-Do you wish to use it?")), 1) and $card = $card2;
+        if (my $card2 = Xconfig::proprietary::may_use_Driver2($card) &&  0) {
+	    $card = $card2;
+	} else {
+	    $o_in && $o_in->ask_warn('', formatAlaTeX(N("The proprietary driver was not properly installed, defaulting to free software driver.")));
+	    log::l("defaulting to free software driver");
+	}	
     }
 
     libgl_config_and_more($card);

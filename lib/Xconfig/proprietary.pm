@@ -44,7 +44,7 @@ sub pkgs_for_Driver2 {
 
     my $pkg = pkg_name_for_Driver2($card);
 
-    $pkg && $do_pkgs->is_available($pkg) or return;
+    $pkg && $do_pkgs->is_available($pkg) or log::l("proprietary package $pkg not available"), return;
 
     my $module_pkgs = $do_pkgs->check_kernel_module_packages($pkg) or
       log::l("$pkg available, but no kernel module package (for installed kernels, and no dkms)"), return;
@@ -65,7 +65,7 @@ sub may_use_Driver2 {
 		 "$modules_dir/drivers/$drv.so",
 		 "$modules_dir/drivers/$drv.o");
 	my $has = find { -e "$::prefix$_" } @l;
-	$has or log::l("proprietary $drv driver missing, defaulting to free software driver (we searched for: @l)");
+	$has or log::l("proprietary $drv driver missing (we searched for: @l)");
 	$has;
     };
 
@@ -80,7 +80,7 @@ sub may_use_Driver2 {
 	$check_drv->('nvidia_drv', "nvidia$card2->{DriverVersion}") or return;
 
 	my $libglx_path = Xconfig::card::modules_dir() . "/extensions/nvidia$card2->{DriverVersion}";
-	-e "$::prefix$libglx_path/libglx.so" or log::l("special NVIDIA libglx missing, defaulting to free software driver"), return;
+	-e "$::prefix$libglx_path/libglx.so" or log::l("special NVIDIA libglx missing"), return;
 
 	log::explanations("Using specific NVIDIA driver and GLX extensions");
 	$card2->{DRI_GLX_SPECIAL} = $libglx_path;
@@ -89,7 +89,7 @@ sub may_use_Driver2 {
     } elsif ($card2->{Driver} eq 'fglrx') {
 	$check_drv->('fglrx_drv') or return;
 	-e "$::prefix$modules_dir/dri/fglrx_dri.so" || -e "$::prefix/usr/$lib/dri/fglrx_dri.so" or
-	  log::l("proprietary fglrx_dri.so missing, defaulting to free software driver"), return;
+	  log::l("proprietary fglrx_dri.so missing"), return;
 
 	log::explanations("Using specific ATI fglrx and DRI drivers");
 	$card2->{DRI_GLX} = 1;
