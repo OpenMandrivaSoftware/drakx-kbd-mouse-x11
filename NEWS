@@ -1,5 +1,6 @@
 - don't use 1280x1024 prefered resolution
   (using prefered resolution only when adding explicit gtf modelines)
+- handle new intel driver
 - workaround buggy fglrx driver: make dm restart xserver (#29550)
 
 Version 0.15 - 3 April 2007, by Pascal "Pixel" Rigaux

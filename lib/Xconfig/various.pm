@@ -341,7 +341,7 @@ sub handle_May_Need_ForceBIOS {
     $log =~ /Option "May_Need_ForceBIOS" is not used/ or return;
 
 
-    my @builtin_modes = $log =~ /\*Built-in mode "(\d+x\d+)"/g;
+    my @builtin_modes = $log =~ /\*Built-in mode "(\d+x\d+)"/g or return;
     my $resolution = $raw_X->get_resolution;
     !member("$resolution->{X}x$resolution->{Y}", @builtin_modes) or return;
 
