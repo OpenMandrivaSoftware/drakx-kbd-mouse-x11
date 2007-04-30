@@ -64,10 +64,10 @@ sub to_raw_X {
 	if (arch() =~ /ppc/ && ($_->{Driver} eq 'r128' || $_->{Driver} eq 'radeon')) {
 	    $_->{UseFBDev} = 1;
 	}
-	if ($_->{Driver} eq 'i810') {
+	if ($_->{Driver} eq 'intel') {
 	    $_->{Options}{May_Need_ForceBIOS} = '1';
 	}
-        if (member($_->{Driver}, qw(i810 ati))) {
+        if (member($_->{Driver}, qw(intel ati))) {
 	    $_->{Options}{XaaNoOffscreenPixmaps} = '1';
         }
     }
@@ -440,7 +440,7 @@ sub add_to_card__using_Cards {
 sub check_bad_card {
     my ($card) = @_;
     my $bad_card = $card->{BAD_FB_RESTORE};
-    $bad_card ||= $card->{Driver} eq 'i810' || $card->{Driver} eq 'fbdev';
+    $bad_card ||= $card->{Driver} eq 'intel' || $card->{Driver} eq 'fbdev';
     $bad_card ||= member($card->{Driver}, 'nvidia', 'vmware') if !$::isStandalone; #- avoid testing during install at any price.
 
     log::explanations("the graphics card does not like X in framebuffer") if $bad_card;

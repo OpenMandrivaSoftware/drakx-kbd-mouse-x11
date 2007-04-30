@@ -52,7 +52,7 @@ sub default {
 	Composite => !($card->{Driver} eq 'fglrx' || $card->{Driver} eq 'nvidia' && $card->{DriverVersion} eq '71xx'),
 	if_($card->{Driver} eq 'nvidia', RenderAccel => $card->{DriverVersion} eq '97xx', Clone => 0),
 	if_($card->{Driver} eq 'savage', HWCursor => 1),
-	if_($card->{Driver} eq 'i810' && $isLaptop, Clone => 0),
+	if_($card->{Driver} eq 'intel' && $isLaptop, Clone => 0),
 	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
 	if_(exists $card->{DRI_GLX}, use_DRI_GLX => $card->{DRI_GLX} && !$card->{Xinerama}),
 	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
@@ -167,7 +167,7 @@ sub config {
 		delete $card->{Options}{TwinView};
 		delete $card->{Options}{TwinViewOrientation};
 	    }
-	} elsif ($card->{Driver} eq 'i810') {
+	} elsif ($card->{Driver} eq 'intel') {
 	    if ($various->{Clone}) {
 		$card->{Options}{MonitorLayout} = 'NONE,CRT+LFP';
 	    } else {
