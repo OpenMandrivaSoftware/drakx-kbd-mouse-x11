@@ -28,7 +28,7 @@ my %VideoRams = (
 );
 
 my @xfree4_Drivers = ((arch() =~ /^sparc/ ? qw(sunbw2 suncg14 suncg3 suncg6 sunffb sunleo suntcx) :
-		    qw(amd apm ark ast chips cirrus cyrix glide i128 i740 i810 imstt
+		    qw(amd apm ark ast chips cirrus cyrix glide i128 i740 imstt intel
                        mga nsc neomagic newport nv rendition openchrome vesa via
                        s3 s3virge savage siliconmotion sis sisusb tdfx tga trident tseng vmware)), 
 		    qw(ati glint vga fbdev));
