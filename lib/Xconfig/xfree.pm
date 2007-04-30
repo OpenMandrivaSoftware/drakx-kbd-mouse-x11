@@ -41,6 +41,10 @@ sub read_and_prepare_write {
 	@$l = grep { $_->{val} } @$l;
     }
 
+    foreach ($raw_X->get_Sections('Device')) {
+	$_->{Driver} && $_->{Driver}{val} eq 'i810' and $_->{Driver}{val} = 'intel';
+    }
+
     $raw_X, $before;
 }
 sub read {
