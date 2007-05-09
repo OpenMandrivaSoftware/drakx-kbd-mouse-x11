@@ -1,3 +1,5 @@
+- fix using proprietary driver (remove debug code) (thanks to Michael Altizer)
+
 Version 0.16 - 30 April 2007, by Pascal "Pixel" Rigaux
 
 - ask "Do you wish to use proprietary driver" before installing the needed packages
