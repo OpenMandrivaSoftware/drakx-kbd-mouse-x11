@@ -757,8 +757,8 @@ Section "Files"
 EndSection
 
 Section "ServerFlags"
-    #DontZap # disable <Crtl><Alt><BS> (server abort)
-    #DontZoom # disable <Crtl><Alt><KP_+>/<KP_-> (resolution switching)
+    #DontZap # disable <Ctrl><Alt><BS> (server abort)
+    #DontZoom # disable <Ctrl><Alt><KP_+>/<KP_-> (resolution switching)
     AllowMouseOpenFail # allows the server to start up even if the mouse does not work
 END
 
