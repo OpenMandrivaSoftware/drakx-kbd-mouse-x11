@@ -56,11 +56,6 @@ sub to_raw_X {
     my @cards = ($card, @{$card->{cards} || []});
 
     foreach (@cards) {
-	#- Specific ATI fglrx driver default options
-	if ($_->{Driver} eq 'fglrx') {
-	    # $default_ATI_fglrx_config need to be move in proprietary ?
-	    $_->{raw_LINES} ||= default_ATI_fglrx_config();
-	}
 	if (arch() =~ /ppc/ && ($_->{Driver} eq 'r128' || $_->{Driver} eq 'radeon')) {
 	    $_->{UseFBDev} = 1;
 	}
@@ -97,8 +92,6 @@ sub to_raw_X {
 
     $raw_X->remove_load_module('v4l') if $card->{use_DRI_GLX} && $card->{Driver} eq 'r128';
 }
-
-sub default_ATI_fglrx_config() { our $default_ATI_fglrx_config }
 
 sub probe() {
 #-for Pixel tests
@@ -499,66 +492,6 @@ sub readCardsDB {
     }
     \%cards;
 }
-
-our $default_ATI_fglrx_config = <<'END';
-# === disable PnP Monitor  ===
-#Option                              "NoDDC"
-# === disable/enable XAA/DRI ===
-Option "no_accel"                   "no"
-Option "no_dri"                     "no"
-# === FireGL DDX driver module specific settings ===
-# === Screen Management ===
-Option "DesktopSetup"               "0x00000000" 
-Option "MonitorLayout"              "AUTO, AUTO"
-Option "IgnoreEDID"                 "off"
-Option "HSync2"                     "unspecified" 
-Option "VRefresh2"                  "unspecified" 
-Option "ScreenOverlap"              "0" 
-# === TV-out Management ===
-Option "NoTV"                       "yes"     
-Option "TVStandard"                 "NTSC-M"     
-Option "TVHSizeAdj"                 "0"     
-Option "TVVSizeAdj"                 "0"     
-Option "TVHPosAdj"                  "0"     
-Option "TVVPosAdj"                  "0"     
-Option "TVHStartAdj"                "0"     
-Option "TVColorAdj"                 "0"     
-Option "GammaCorrectionI"           "0x00000000"
-Option "GammaCorrectionII"          "0x00000000"
-# === OpenGL specific profiles/settings ===
-Option "Capabilities"               "0x00000000"
-# === Video Overlay for the Xv extension ===
-Option "VideoOverlay"               "on"
-# === OpenGL Overlay ===
-# Note: When OpenGL Overlay is enabled, Video Overlay
-#       will be disabled automatically
-Option "OpenGLOverlay"              "off"
-Option "CenterMode"                 "off"
-# === QBS Support ===
-Option "Stereo"                     "off"
-Option "StereoSyncEnable"           "1"
-# === Misc Options ===
-Option "UseFastTLS"                 "0"
-Option "BlockSignalsOnLock"         "on"
-Option "UseInternalAGPGART"         "no"
-Option "ForceGenericCPU"            "no"
-# === FSAA ===
-Option "FSAAScale"                  "1"
-Option "FSAADisableGamma"           "no"
-Option "FSAACustomizeMSPos"         "no"
-Option "FSAAMSPosX0"                "0.000000"
-Option "FSAAMSPosY0"                "0.000000"
-Option "FSAAMSPosX1"                "0.000000"
-Option "FSAAMSPosY1"                "0.000000"
-Option "FSAAMSPosX2"                "0.000000"
-Option "FSAAMSPosY2"                "0.000000"
-Option "FSAAMSPosX3"                "0.000000"
-Option "FSAAMSPosY3"                "0.000000"
-Option "FSAAMSPosX4"                "0.000000"
-Option "FSAAMSPosY4"                "0.000000"
-Option "FSAAMSPosX5"                "0.000000"
-Option "FSAAMSPosY5"                "0.000000"
-END
 
 1;
 
