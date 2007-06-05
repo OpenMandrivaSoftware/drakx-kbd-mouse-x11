@@ -1,3 +1,4 @@
+- [bugfix] fix test message not translated (#30261)
 - remove all fglrx options, hopefully default is good enough
   (and at least MonitorLayout option is depreacated as reported on cooker)
 

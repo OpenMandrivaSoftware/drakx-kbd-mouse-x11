@@ -90,6 +90,7 @@ sub test {
     printf $F q(
         use lib qw(%s);
         BEGIN { $::no_ugtk_init = 1 }
+        BEGIN { unshift @::textdomains, 'drakx-kbd-mouse-x11' }
         require lang;
         require ugtk2; #- help perl_checker
         ugtk2->import(qw(:wrappers :helpers)); #- help perl_checker
