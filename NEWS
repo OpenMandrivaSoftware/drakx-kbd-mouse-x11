@@ -1,3 +1,5 @@
+Version 0.18 - 14 June 2007, by Pascal "Pixel" Rigaux
+
 - handle resolution switch via xrandr without restarting X (#30896)
 - add 1366x768, 1360x768 and 1360x765 resolutions
 - add big standard resolutions (4/3, 16/10, 16/9)
