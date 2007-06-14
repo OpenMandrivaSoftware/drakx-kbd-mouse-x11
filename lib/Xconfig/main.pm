@@ -209,12 +209,15 @@ The current configuration is:
 sub write {
     my ($raw_X, $X) = @_;
     export_to_install_X($X) if $::isInstall;
+    my $only_resolution = $raw_X->is_only_resolution_modified;
     $raw_X->write;
     Xconfig::various::check_XF86Config_symlink();
     symlinkf "../../usr/bin/Xorg", "$::prefix/etc/X11/X";
     if ($X->{resolutions}[0]{bios}) {
 	Xconfig::various::setupFB($X->{resolutions}[0]{bios});
 	'need_reboot';
+    } elsif (my $resolution = $only_resolution && eval { $raw_X->get_resolution }) {
+	'need_xrandr' . sprintf(' --size %dx%d', @$resolution{'X', 'Y'});
     } else {
 	'need_restart';
     }

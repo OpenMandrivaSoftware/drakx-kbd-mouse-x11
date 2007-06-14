@@ -56,7 +56,16 @@ $configure_this ||= $::auto ? 'auto_install' : 'everything';
 	}
     };
     if (!$::auto) {
-	if ($rc eq 'need_restart') {
+	if ($rc =~ /need_xrandr(.*)/) {
+	    my $opts = $1;
+	    my $before = `xrandr`;
+	    run_program::run('xrandr', split(' ', $opts));
+	    my $after = `xrandr`;
+	    if ($before eq $after) {
+		log::l("xrandr $opts failed, defaulting to ask_for_X_restart");
+		any::ask_for_X_restart($in);
+	    }
+	} elsif ($rc eq 'need_restart') {
 	    any::ask_for_X_restart($in);
 	} elsif ($rc eq 'need_reboot') {
 	    $in->ask_warn('', N("You need to reboot for changes to take effect"));

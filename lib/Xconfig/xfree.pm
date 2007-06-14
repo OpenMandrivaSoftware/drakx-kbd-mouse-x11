@@ -73,6 +73,10 @@ sub is_modified {
     my ($raw_X) = @_;
     $raw_X->{before} ne $raw_X->prepare_write;
 }
+sub is_only_resolution_modified {
+    my ($raw_X) = @_;
+    ($raw_X->{after_set_resolutions} || $raw_X->{before}) eq $raw_X->prepare_write;
+}
 sub empty_config {
     my ($class) = @_;
     $class->new(Xconfig::parse::read_XF86Config_from_string(our $default_header));
@@ -198,6 +202,7 @@ sub set_resolutions {
     my ($raw_X, $resolutions, $o_Screen) = @_;
     
     my $Depth = $resolutions->[0]{Depth} eq '32' ? 24 : $resolutions->[0]{Depth};
+    my $only_resolution = $raw_X->is_only_resolution_modified;
     
     foreach my $Screen ($o_Screen ? $o_Screen : $raw_X->get_Sections('Screen')) {
 	$Screen ||= $raw_X->get_default_screen or internal_error('no screen');
@@ -209,12 +214,15 @@ sub set_resolutions {
 	my @Modes = map { sprintf($Mode_name eq 'Modes' ? '"%dx%d"' : '%d %d', @$_{'X', 'Y'}) } @l;
 	
 	delete $Screen->{DefaultDepth};
+	$only_resolution &&= $Screen->{DefaultColorDepth} && $Screen->{DefaultColorDepth}{val} eq $Depth;
 	$Screen->{DefaultColorDepth} = { val => $Depth };
 	$Screen->{Display} = [ map {
 	    { l => { Depth => { val => $_ }, $Mode_name => { val => join(' ', @Modes) } } };
 	} 8, 15, 16, 24 ];
     }
     add_gtf_ModeLines($raw_X, $resolutions);
+
+    $raw_X->{after_set_resolutions} = $only_resolution ? $raw_X->prepare_write : '';
 }
 
 
