@@ -21,11 +21,11 @@ sub _conf_files() {
 ################################################################################
 # I/O ##########################################################################
 ################################################################################
-sub read_and_prepare_write {
+sub read {
     my ($class) = @_;
     my $file = find { -f $_ } _conf_files();
     my $raw_X = $class->new(Xconfig::parse::read_XF86Config($file)) or return;
-    my $before = $raw_X->prepare_write;
+    $raw_X->{before} = $raw_X->prepare_write;
 
     if (my ($keyboard) = $raw_X->get_InputDevices('keyboard')) {
 	$keyboard->{Driver}{val} = 'kbd';
@@ -45,11 +45,7 @@ sub read_and_prepare_write {
 	$_->{Driver} && $_->{Driver}{val} eq 'i810' and $_->{Driver}{val} = 'intel';
     }
 
-    $raw_X, $before;
-}
-sub read {
-    my ($class) = @_;
-    first(read_and_prepare_write($class));
+    $raw_X;
 }
 sub write {
     my ($raw_X, $o_file) = @_;
@@ -72,6 +68,10 @@ sub prepare_write {
     my ($raw_X) = @_;
     set_Revision($raw_X);
     join('', Xconfig::parse::prepare_write_XF86Config($raw_X->{raw}));
+}
+sub is_modified {
+    my ($raw_X) = @_;
+    $raw_X->{before} ne $raw_X->prepare_write;
 }
 sub empty_config {
     my ($class) = @_;

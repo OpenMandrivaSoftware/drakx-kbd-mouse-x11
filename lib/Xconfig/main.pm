@@ -17,9 +17,9 @@ use common;
 sub configure_monitor {
     my ($in) = @_;
 
-    my ($raw_X, $before) = Xconfig::xfree->read_and_prepare_write;
+    my $raw_X = Xconfig::xfree->read;
     Xconfig::monitor::configure($in, $raw_X, int($raw_X->get_devices)) or return;
-    if ($raw_X->prepare_write ne $before) {
+    if ($raw_X->is_modified) {
 	$raw_X->write;
 	'need_restart';
     } else {
@@ -30,7 +30,7 @@ sub configure_monitor {
 sub configure_resolution {
     my ($in) = @_;
 
-    my ($raw_X, $before) = Xconfig::xfree->read_and_prepare_write;
+    my $raw_X = Xconfig::xfree->read;
     my $X = { 
 	card => Xconfig::card::from_raw_X($raw_X),
 	monitors => [ $raw_X->get_monitors ],
@@ -40,7 +40,7 @@ sub configure_resolution {
     }
 
     $X->{resolutions} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}) or return;
-    if ($raw_X->prepare_write ne $before) {
+    if ($raw_X->is_modified) {
 	&write($raw_X, $X);
     } else {
 	'';
@@ -161,10 +161,9 @@ sub configure_chooser {
 	monitors => [ $raw_X->get_monitors ],
 	resolutions => [ eval { $raw_X->get_resolutions } ],
     };
-    my $before = $raw_X->prepare_write;
     my ($ok) = configure_chooser_raw($in, $raw_X, $do_pkgs, $options, $X);
 
-    if ($raw_X->prepare_write ne $before) {
+    if ($raw_X->is_modified) {
 	may_write($in, $raw_X, $X, $ok);
     } else {
 	'';
