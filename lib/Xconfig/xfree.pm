@@ -197,6 +197,8 @@ sub get_resolutions {
 sub set_resolutions {
     my ($raw_X, $resolutions, $o_Screen) = @_;
     
+    my $Depth = $resolutions->[0]{Depth} eq '32' ? 24 : $resolutions->[0]{Depth};
+    
     foreach my $Screen ($o_Screen ? $o_Screen : $raw_X->get_Sections('Screen')) {
 	$Screen ||= $raw_X->get_default_screen or internal_error('no screen');
 
@@ -207,7 +209,7 @@ sub set_resolutions {
 	my @Modes = map { sprintf($Mode_name eq 'Modes' ? '"%dx%d"' : '%d %d', @$_{'X', 'Y'}) } @l;
 	
 	delete $Screen->{DefaultDepth};
-	$Screen->{DefaultColorDepth} = { val => $resolutions->[0]{Depth} eq '32' ? 24 : $resolutions->[0]{Depth} };
+	$Screen->{DefaultColorDepth} = { val => $Depth };
 	$Screen->{Display} = [ map {
 	    { l => { Depth => { val => $_ }, $Mode_name => { val => join(' ', @Modes) } } };
 	} 8, 15, 16, 24 ];
