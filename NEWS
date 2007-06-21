@@ -1,3 +1,6 @@
+- fix displaying "3D hardware acceleration: no" for nvidia proprietary driver
+  (#31326)
+
 Version 0.18 - 14 June 2007, by Pascal "Pixel" Rigaux
 
 - handle resolution switch via xrandr without restarting X (#30896)

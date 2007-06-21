@@ -23,7 +23,7 @@ sub info {
     my $device = eval { $raw_X->get_device } || {};
     my $mouse = eval { first($raw_X->get_mice) } || {};
 
-    $info .= N("3D hardware acceleration: %s\n", translate(bool2yesno($card->{use_DRI_GLX})));
+    $info .= N("3D hardware acceleration: %s\n", translate(bool2yesno($card->{use_DRI_GLX} || $card->{DRI_GLX_SPECIAL})));
     $info .= N("Keyboard layout: %s\n", $keyboard->{XkbLayout});
     $info .= N("Mouse type: %s\n", $mouse->{Protocol});
     foreach my $monitor (@monitors) {
