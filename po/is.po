@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"POT-Creation-Date: 2007-07-02 17:45+0800\n"
 "PO-Revision-Date: 2007-02-22 17:33+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
 "Language-Team: Icelandic <kde-isl@molar.is>\n"
@@ -20,67 +20,67 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../lib/Xconfig/card.pm:14
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 kB"
 
-#: ../lib/Xconfig/card.pm:15
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 kB"
 
-#: ../lib/Xconfig/card.pm:16
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MB"
 
-#: ../lib/Xconfig/card.pm:17
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MB"
 
-#: ../lib/Xconfig/card.pm:18
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MB"
 
-#: ../lib/Xconfig/card.pm:19
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MB"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB eða meira"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "X miðlari"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Veldu X miðlara"
 
-#: ../lib/Xconfig/card.pm:205
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Fjölskjáa-uppsetning"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -89,12 +89,12 @@ msgstr ""
 "Kerfið styður við marga skjái samtímis.\n"
 "Hvað viltu gera?"
 
-#: ../lib/Xconfig/card.pm:277
+#: ../lib/Xconfig/card.pm:279
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Veldu minnisstærð skjákortsins"
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:304
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -105,17 +105,24 @@ msgstr ""
 "sem gæti stutt við auka viðbætur.\n"
 "Vilt þú nota hann?"
 
-#: ../lib/Xconfig/card.pm:387
+#: ../lib/Xconfig/card.pm:331
+#, c-format
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:398
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Stilla öll úttök sjálfstætt"
 
-#: ../lib/Xconfig/card.pm:388
+#: ../lib/Xconfig/card.pm:399
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Nota Xinerama viðbætur"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:404
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Stilla aðeins kort \"%s\"%s"
@@ -146,7 +153,7 @@ msgstr "Skjákort"
 msgid "Monitor"
 msgstr "Skjár"
 
-#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
 msgid "Resolution"
 msgstr "Upplausn"
@@ -166,12 +173,12 @@ msgstr "Valkostir"
 msgid "Plugins"
 msgstr "Íforrit"
 
-#: ../lib/Xconfig/main.pm:183
+#: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr "Xorg uppsetningarskráin þín er röng, hún verður hunsuð."
 
-#: ../lib/Xconfig/main.pm:202
+#: ../lib/Xconfig/main.pm:201
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -273,37 +280,37 @@ msgstr "65 þúsund litir (16 bitar)"
 msgid "16 million colors (24 bits)"
 msgstr "16 miljón litir (24 bitar)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:127
+#: ../lib/Xconfig/resolution_and_depth.pm:128
 #, c-format
 msgid "Resolutions"
 msgstr "Upplausnir"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#: ../lib/Xconfig/resolution_and_depth.pm:334 ../lib/mouse.pm:184
 #, c-format
 msgid "Other"
 msgstr "Annað"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:382
+#: ../lib/Xconfig/resolution_and_depth.pm:383
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Veldu upplausn og fjölda lita"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:383
+#: ../lib/Xconfig/resolution_and_depth.pm:384
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Skjákort: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Ok"
 msgstr "Í lagi"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Cancel"
 msgstr "Hætta við"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Help"
 msgstr "Hjálp"
@@ -334,12 +341,12 @@ msgstr ""
 "%s\n"
 "Reyndu að breyta einhverjum stillingum"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Leaving in %d seconds"
 msgstr "Hætti eftir %d sekúndur"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Is this the correct setting?"
 msgstr "Er þetta rétt stilling?"
@@ -399,67 +406,67 @@ msgstr "Upplausn: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg rekill: %s\n"
 
-#: ../lib/Xconfig/various.pm:197
+#: ../lib/Xconfig/various.pm:204
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg uppsetning"
 
-#: ../lib/Xconfig/various.pm:198
+#: ../lib/Xconfig/various.pm:205
 #, c-format
 msgid "Graphic card options"
 msgstr "Valkostir skjákorts"
 
-#: ../lib/Xconfig/various.pm:200
+#: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
 msgstr "Þríviddarhraðall"
 
-#: ../lib/Xconfig/various.pm:202
+#: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Virkja gagnsæi (Composite viðbætur)"
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Nota grafískan hraðal fyrir músarbendil"
 
-#: ../lib/Xconfig/various.pm:208
+#: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr "Virkja RENDER hraðal (þetta getur valdið villum við textaskrift)"
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Virkja afrit af aðalskjá á tengdan skjá"
 
-#: ../lib/Xconfig/various.pm:213
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Virkja afrit af aðalskjá á aukaskjátengi"
 
-#: ../lib/Xconfig/various.pm:216
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Leyfa BIOS að sjá um að skipta um skjá"
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr "Nota EXA í stað XAA (meiri afköst við teiknun og Composite)"
 
-#: ../lib/Xconfig/various.pm:221
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Myndrænt viðmót í ræsingu"
 
-#: ../lib/Xconfig/various.pm:222
+#: ../lib/Xconfig/various.pm:229
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Ræsa grafískt viðmót (Xorg) þegar tölvan er ræst"
 
-#: ../lib/Xconfig/various.pm:234
+#: ../lib/Xconfig/various.pm:241
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -480,12 +487,12 @@ msgstr ""
 "\n"
 "Viltu nota þennan möguleika?"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Hvaða staðal notar sjónvarpið þitt?"
 
-#: ../lib/Xconfig/various.pm:341
+#: ../lib/Xconfig/various.pm:348
 #, c-format
 msgid ""
 "The display resolution being used may not be correct. \n"
@@ -498,7 +505,7 @@ msgstr ""
 "Ef skjáborðið virðist teygt út fyrir jaðra skjásins, þá er kanski hægt að \n"
 "laga það með því að setja upp %s. Setja það inn núna? "
 
-#: ../lib/Xconfig/xfree.pm:679
+#: ../lib/Xconfig/xfree.pm:770
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -1672,43 +1679,42 @@ msgstr "Til að virkja músina,"
 msgid "MOVE YOUR WHEEL!"
 msgstr "Hreyfðu hjólið!"
 
-#: ../tools/XFdrake:59
+#: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "Þú þarft að endurræsa áður en breytingar taka gildi"
 
-#: ../tools/keyboarddrake:29
+#: ../tools/keyboarddrake:32
 #, c-format
 msgid "Keyboard"
 msgstr "Lyklaborð"
 
-#: ../tools/keyboarddrake:30
+#: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "Vinsamlega veldu lyklaborðsútlit."
 
-#: ../tools/keyboarddrake:31
+#: ../tools/keyboarddrake:34
 #, c-format
 msgid "Keyboard layout"
 msgstr "Lyklaborðsuppsetning"
 
-#: ../tools/keyboarddrake:39
+#: ../tools/keyboarddrake:42
 #, c-format
 msgid "Keyboard type"
 msgstr "Lyklaborðstegund"
 
-#: ../tools/keyboarddrake:51
+#: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Viltu að Backspace lykilinn skili Delete í skjáham?"
 
-#: ../tools/mousedrake:41
+#: ../tools/mousedrake:44
 #, c-format
 msgid "Mouse test"
 msgstr "Músaprófun"
 
-#: ../tools/mousedrake:44
+#: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Vinsamlega prófaðu músina:"
-

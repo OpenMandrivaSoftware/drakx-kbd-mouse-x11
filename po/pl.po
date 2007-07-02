@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-pl\n"
-"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"POT-Creation-Date: 2007-07-02 17:45+0800\n"
 "PO-Revision-Date: 2007-02-15 15:30+0100\n"
 "Last-Translator: Tomasz Bednarski - Mandriva Poland <tomasz."
 "bednarski@mandriva.pl>\n"
@@ -23,67 +23,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../lib/Xconfig/card.pm:14
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 kB"
 
-#: ../lib/Xconfig/card.pm:15
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 kB"
 
-#: ../lib/Xconfig/card.pm:16
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MB"
 
-#: ../lib/Xconfig/card.pm:17
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MB"
 
-#: ../lib/Xconfig/card.pm:18
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MB"
 
-#: ../lib/Xconfig/card.pm:19
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MB"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB lub więcej"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "X serwer"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Wybierz serwer X"
 
-#: ../lib/Xconfig/card.pm:205
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Konfiguracja wielomonitorowa"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -92,12 +92,12 @@ msgstr ""
 "Twój system obsługuje wiele monitorów.\n"
 "Co chcesz zrobić?"
 
-#: ../lib/Xconfig/card.pm:277
+#: ../lib/Xconfig/card.pm:279
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Określ rozmiar pamięci karty graficznej"
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:304
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -108,17 +108,24 @@ msgstr ""
 "obsługuje więcej funkcji.\n"
 "Czy chcesz go użyć?"
 
-#: ../lib/Xconfig/card.pm:387
+#: ../lib/Xconfig/card.pm:331
+#, c-format
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:398
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Konfiguruj wszystkie monitory niezależnie"
 
-#: ../lib/Xconfig/card.pm:388
+#: ../lib/Xconfig/card.pm:399
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Użyj rozszerzenia Xinerama"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:404
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Konfiguruj tylko kartę \"%s\"%s"
@@ -149,7 +156,7 @@ msgstr "Karta graficzna"
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
 msgid "Resolution"
 msgstr "Rozdzielczość"
@@ -169,12 +176,12 @@ msgstr "Opcje"
 msgid "Plugins"
 msgstr "Wtyczki"
 
-#: ../lib/Xconfig/main.pm:183
+#: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr "Plik konfiguracyjny Xorg jest uszkodzony i zostanie zignorowany."
 
-#: ../lib/Xconfig/main.pm:202
+#: ../lib/Xconfig/main.pm:201
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -278,37 +285,37 @@ msgstr "65 tys. kolorów (16 bitów)"
 msgid "16 million colors (24 bits)"
 msgstr "16 mln. kolorów (24 bity)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:127
+#: ../lib/Xconfig/resolution_and_depth.pm:128
 #, c-format
 msgid "Resolutions"
 msgstr "Rozdzielczości"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#: ../lib/Xconfig/resolution_and_depth.pm:334 ../lib/mouse.pm:184
 #, c-format
 msgid "Other"
 msgstr "Inne"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:382
+#: ../lib/Xconfig/resolution_and_depth.pm:383
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Określ rozdzielczość oraz głębię kolorów"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:383
+#: ../lib/Xconfig/resolution_and_depth.pm:384
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Karta graficzna: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Cancel"
 msgstr "Anuluj"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Help"
 msgstr "Pomoc"
@@ -339,12 +346,12 @@ msgstr ""
 "%s\n"
 "Spróbuj zmienić niektóre parametry"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Leaving in %d seconds"
 msgstr "Opuszczanie w ciągu %d sekund(y)"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Is this the correct setting?"
 msgstr "Czy to ustawienie jest prawidłowe ?"
@@ -404,69 +411,69 @@ msgstr "Rozdzielczość: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Sterownik Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:197
+#: ../lib/Xconfig/various.pm:204
 #, c-format
 msgid "Xorg configuration"
 msgstr "Konfiguracja Xorg"
 
-#: ../lib/Xconfig/various.pm:198
+#: ../lib/Xconfig/various.pm:205
 #, c-format
 msgid "Graphic card options"
 msgstr "Opcje karty graficznej"
 
-#: ../lib/Xconfig/various.pm:200
+#: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
 msgstr "Sprzętowa akceleracja 3D"
 
-#: ../lib/Xconfig/various.pm:202
+#: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Aktywuj przeźroczystość (rozszerzenie zespolone)"
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Użyj sprzętowej akceleracji wskaźnika myszy"
 
-#: ../lib/Xconfig/various.pm:208
+#: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Aktywuj akcelerację renderingu (może spowodować wyświetlanie informacji o "
 "błędzie)"
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Aktywuj wyświetlanie na zewnętrzny monitorze"
 
-#: ../lib/Xconfig/various.pm:213
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Aktywuj wyświetlanie na drugim monitorze"
 
-#: ../lib/Xconfig/various.pm:216
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Aktywuj przełączanie monitorów skrótem klawiszowym w BIOS"
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr "Użyj EXA zamiast XAA (lepsza wydajność renderowania i zespalania)"
 
-#: ../lib/Xconfig/various.pm:221
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interfejs graficzny przy uruchamianiu"
 
-#: ../lib/Xconfig/various.pm:222
+#: ../lib/Xconfig/various.pm:229
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Automatycznie  uruchom interfejs graficzny przy starcie sytemu (Xorg)"
 
-#: ../lib/Xconfig/various.pm:234
+#: ../lib/Xconfig/various.pm:241
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -487,12 +494,12 @@ msgstr ""
 "\n"
 "Czy chcesz posiadać tą funkcję?"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "W jakim systemie pracuje Twój telewizor?"
 
-#: ../lib/Xconfig/various.pm:341
+#: ../lib/Xconfig/various.pm:348
 #, c-format
 msgid ""
 "The display resolution being used may not be correct. \n"
@@ -505,7 +512,7 @@ msgstr ""
 "Jeżeli obraz jest rozciągnięty poza krawędzie ekranu,\n"
 "spróbuj zainstalować %s, co być może rozwiąże problem. Zainstalować teraz?"
 
-#: ../lib/Xconfig/xfree.pm:679
+#: ../lib/Xconfig/xfree.pm:770
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -1681,42 +1688,42 @@ msgstr "By uaktywnić mysz,"
 msgid "MOVE YOUR WHEEL!"
 msgstr "RUSZ KÓŁKIEM!"
 
-#: ../tools/XFdrake:59
+#: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "Należy ponownie uruchomić komputer, aby zmiany odniosły efekt"
 
-#: ../tools/keyboarddrake:29
+#: ../tools/keyboarddrake:32
 #, c-format
 msgid "Keyboard"
 msgstr "Klawiatura"
 
-#: ../tools/keyboarddrake:30
+#: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "Wybierz układ klawiatury."
 
-#: ../tools/keyboarddrake:31
+#: ../tools/keyboarddrake:34
 #, c-format
 msgid "Keyboard layout"
 msgstr "Układ klawiatury"
 
-#: ../tools/keyboarddrake:39
+#: ../tools/keyboarddrake:42
 #, c-format
 msgid "Keyboard type"
 msgstr "Rodzaj klawiatury"
 
-#: ../tools/keyboarddrake:51
+#: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Czy chcesz używać BackSpace zamiast Delete dla konsoli?"
 
-#: ../tools/mousedrake:41
+#: ../tools/mousedrake:44
 #, c-format
 msgid "Mouse test"
 msgstr "Test myszy"
 
-#: ../tools/mousedrake:44
+#: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Przetestuj swoją mysz:"

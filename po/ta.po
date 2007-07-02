@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX 1.0\n"
-"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"POT-Creation-Date: 2007-07-02 17:45+0800\n"
 "PO-Revision-Date: 2002-09-06 00:35+0800\n"
 "Last-Translator: prabu anand <prabu_anand2000@yahoo.com>\n"
 "Language-Team: Tamil <tamilinix@yahoogroups.com>\n"
@@ -17,67 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 0.9.6\n"
 
-#: ../lib/Xconfig/card.pm:14
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 kB கிலோபைட்"
 
-#: ../lib/Xconfig/card.pm:15
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 kB கிலோபைட்"
 
-#: ../lib/Xconfig/card.pm:16
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MB மெகாபைட்"
 
-#: ../lib/Xconfig/card.pm:17
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MB மெகாபைட்"
 
-#: ../lib/Xconfig/card.pm:18
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MB மெகாபைட்"
 
-#: ../lib/Xconfig/card.pm:19
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MB மெகாபைட்"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MB மெகாபைட்"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MB மெகாபைட்"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB மெகாபைட் அல்லது அதற்கு அதிகமாக"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "X-பரிமாறி"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "X-பரிமாறியைத் தேர்வு செய்"
 
-#: ../lib/Xconfig/card.pm:205
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "பல்திரையக வடிவமைப்பு"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -86,12 +86,12 @@ msgstr ""
 "உங்கள் கணினி அமைப்பு பல்திரையக வடிவமைப்பில் வேலைச் செய்யும்\n"
 "நீங்கள் என்ன செய்ய விரும்புகிறீர்கள்?"
 
-#: ../lib/Xconfig/card.pm:277
+#: ../lib/Xconfig/card.pm:279
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "உங்கள் காட்சியமைப்பு அட்ைடயின் நினைவகத்தின் அளவைத் தேர்ந்ெதடுங்கள்"
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:304
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -99,17 +99,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:387
+#: ../lib/Xconfig/card.pm:331
+#, c-format
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:398
 #, c-format
 msgid "Configure all heads independently"
 msgstr "அனைத்து திரைகளையும் தனித்தனியாக வடிவமைக்கவும்"
 
-#: ../lib/Xconfig/card.pm:388
+#: ../lib/Xconfig/card.pm:399
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "சினிராமா நீட்டிப்புகளை பயன்படுத்தவும்"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:404
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "\"%s\"%s என்ற அட்ைடயை மட்டும்  வடிவமைக்கவும்"
@@ -140,7 +147,7 @@ msgstr "காட்சியமைப்பு அட்ைட"
 msgid "Monitor"
 msgstr "திரையகம்"
 
-#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
 msgid "Resolution"
 msgstr "பரிமாணங்கள்"
@@ -160,12 +167,12 @@ msgstr "விருப்பத்ேதர்வுகள்"
 msgid "Plugins"
 msgstr "செருகல்கள்"
 
-#: ../lib/Xconfig/main.pm:183
+#: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr ""
 
-#: ../lib/Xconfig/main.pm:202
+#: ../lib/Xconfig/main.pm:201
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -267,37 +274,37 @@ msgstr "65000 வண்ணங்கள் (16 பிட்டுகள்)"
 msgid "16 million colors (24 bits)"
 msgstr "16 மில்லியன் வண்ணங்கள் (24 பிட்டுகள்)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:127
+#: ../lib/Xconfig/resolution_and_depth.pm:128
 #, c-format
 msgid "Resolutions"
 msgstr "பரிமாணங்கள்"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#: ../lib/Xconfig/resolution_and_depth.pm:334 ../lib/mouse.pm:184
 #, c-format
 msgid "Other"
 msgstr "மற்றவை"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:382
+#: ../lib/Xconfig/resolution_and_depth.pm:383
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "உங்களுக்கு விருப்பமான பரிமாணங்களையும், ஆழங்களையும் தேர்ந்ெதடுங்கள்"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:383
+#: ../lib/Xconfig/resolution_and_depth.pm:384
 #, c-format
 msgid "Graphics card: %s"
 msgstr "காட்சியமைப்பு அட்ைட: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Ok"
 msgstr "சரி"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Cancel"
 msgstr "தவிர்"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Help"
 msgstr "உதவி"
@@ -328,12 +335,12 @@ msgstr ""
 "%s\n"
 "சில அளபுருக்களை மாற்றி பாருங்கள்"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Leaving in %d seconds"
 msgstr "%d விநாடிகளில் ெவளிேயறுகிறது"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Is this the correct setting?"
 msgstr "இந்த அைமப்பு சரியா?"
@@ -393,69 +400,69 @@ msgstr "பரிமாணம்: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "X பரிமாறியின் இயக்கு நிரல் %s\n"
 
-#: ../lib/Xconfig/various.pm:197
+#: ../lib/Xconfig/various.pm:204
 #, c-format
 msgid "Xorg configuration"
 msgstr "X வடிவமைப்பு"
 
-#: ../lib/Xconfig/various.pm:198
+#: ../lib/Xconfig/various.pm:205
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "காட்சியமைப்பு அட்ைட: %s"
 
-#: ../lib/Xconfig/various.pm:200
+#: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:202
+#: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:208
+#: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:213
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:216
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:221
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "துவங்கும் போது வரைவியல்வழியில் துவங்குக"
 
-#: ../lib/Xconfig/various.pm:222
+#: ../lib/Xconfig/various.pm:229
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "என்னால் உங்கள் கணினியை துவங்கும் போது வரைவியல்வழியில் துவக்க முடியும்.\n"
 "ஒவ்வொரு முறை கணினி துவங்கும்போதும் X துவங்கட்டுமா?"
 
-#: ../lib/Xconfig/various.pm:234
+#: ../lib/Xconfig/various.pm:241
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -476,12 +483,12 @@ msgstr ""
 "\n"
 "நீங்கள் இதனை பயன் படுத்தப் போகிறீர்களா?"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "உங்கள் டிவி எந்த செந்தர வரையேட்டின் கீழ் வருகிறது?"
 
-#: ../lib/Xconfig/various.pm:341
+#: ../lib/Xconfig/various.pm:348
 #, c-format
 msgid ""
 "The display resolution being used may not be correct. \n"
@@ -490,7 +497,7 @@ msgid ""
 "installing %s may help fix the problem. Install it now?"
 msgstr ""
 
-#: ../lib/Xconfig/xfree.pm:679
+#: ../lib/Xconfig/xfree.pm:770
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -1662,42 +1669,42 @@ msgstr "உங்கள் எலியை செயல்பட வைக்க
 msgid "MOVE YOUR WHEEL!"
 msgstr "உங்கள் சக்கரத்ைத உருட்டுங்கள்"
 
-#: ../tools/XFdrake:59
+#: ../tools/XFdrake:71
 #, fuzzy, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "நீங்கள் செய்த மாற்றங்கள் வேலை செய்ய மறு தொடக்கம் தேவை"
 
-#: ../tools/keyboarddrake:29
+#: ../tools/keyboarddrake:32
 #, c-format
 msgid "Keyboard"
 msgstr "விசைப்பலகை"
 
-#: ../tools/keyboarddrake:30
+#: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "தயவுசெய்து உங்கள் விசைப்பலகை இட அமைவைத் தேர்வு செய்க"
 
-#: ../tools/keyboarddrake:31
+#: ../tools/keyboarddrake:34
 #, fuzzy, c-format
 msgid "Keyboard layout"
 msgstr "விசைப்பலகை உருவரை"
 
-#: ../tools/keyboarddrake:39
+#: ../tools/keyboarddrake:42
 #, fuzzy, c-format
 msgid "Keyboard type"
 msgstr "விசைப்பலகை"
 
-#: ../tools/keyboarddrake:51
+#: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr ""
 
-#: ../tools/mousedrake:41
+#: ../tools/mousedrake:44
 #, fuzzy, c-format
 msgid "Mouse test"
 msgstr "எலி இயக்கங்கள்"
 
-#: ../tools/mousedrake:44
+#: ../tools/mousedrake:47
 #, fuzzy, c-format
 msgid "Please test your mouse:"
 msgstr "தயவுசெய்து, உங்கள் எலியை சோதனை செய்யுங்கள்"

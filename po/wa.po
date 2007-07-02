@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
-"POT-Creation-Date: 2007-01-18 18:41+0100\n"
+"POT-Creation-Date: 2007-07-02 17:45+0800\n"
 "PO-Revision-Date: 2006-09-05 23:14+0200\n"
 "Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -18,67 +18,67 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: KBabel 1.9.1\n"
 
-#: ../lib/Xconfig/card.pm:14
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 Ko"
 
-#: ../lib/Xconfig/card.pm:15
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 Ko"
 
-#: ../lib/Xconfig/card.pm:16
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 Mo"
 
-#: ../lib/Xconfig/card.pm:17
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 Mo"
 
-#: ../lib/Xconfig/card.pm:18
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 Mo"
 
-#: ../lib/Xconfig/card.pm:19
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 Mo"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 Mo"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 Mo"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 Mo ou di pus"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "Sierveu X"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Tchoezixhoz on sierveu X"
 
-#: ../lib/Xconfig/card.pm:205
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Apontiaedje po-z aveur pus d' ene waitroûle"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -88,12 +88,12 @@ msgstr ""
 "waitroûle e minme tins.\n"
 "Cwè voloz vs fé?"
 
-#: ../lib/Xconfig/card.pm:277
+#: ../lib/Xconfig/card.pm:279
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Dijhoz li memwere di vosse cåte grafike"
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:304
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -104,17 +104,24 @@ msgstr ""
 "di pus di fonccionålités.\n"
 "El voloz vs eployî?"
 
-#: ../lib/Xconfig/card.pm:387
+#: ../lib/Xconfig/card.pm:331
+#, c-format
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+
+#: ../lib/Xconfig/card.pm:398
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Apontyî totes les waitroûles sepårumint"
 
-#: ../lib/Xconfig/card.pm:388
+#: ../lib/Xconfig/card.pm:399
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Eployî l' egztension «Xinerama»"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:404
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Apontyî rén kel cåte «%s»%s"
@@ -145,7 +152,7 @@ msgstr "Cåte grafike"
 msgid "Monitor"
 msgstr "Waitroûle"
 
-#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
 msgid "Resolution"
 msgstr "Finté"
@@ -165,12 +172,12 @@ msgstr "Tchuzes"
 msgid "Plugins"
 msgstr "Tchôke-divins"
 
-#: ../lib/Xconfig/main.pm:183
+#: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr "Li fitchî d' apontiaedje di Xorg da vosse est cron, dji passe houte."
 
-#: ../lib/Xconfig/main.pm:202
+#: ../lib/Xconfig/main.pm:201
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -271,37 +278,37 @@ msgstr "65 meye coleurs (16 bits)"
 msgid "16 million colors (24 bits)"
 msgstr "16 miyons di coleurs (24 bits)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:127
+#: ../lib/Xconfig/resolution_and_depth.pm:128
 #, c-format
 msgid "Resolutions"
 msgstr "Fintés"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:333 ../lib/mouse.pm:184
+#: ../lib/Xconfig/resolution_and_depth.pm:334 ../lib/mouse.pm:184
 #, c-format
 msgid "Other"
 msgstr "Ôte"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:382
+#: ../lib/Xconfig/resolution_and_depth.pm:383
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Tchoezixhoz li finté et li parfondeu di coleur"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:383
+#: ../lib/Xconfig/resolution_and_depth.pm:384
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Cåte grafike: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Ok"
 msgstr "'l est bon"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Cancel"
 msgstr "Rinoncî"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Help"
 msgstr "Aidance"
@@ -333,12 +340,12 @@ msgstr ""
 "%s\n"
 "Sayîz di candjî sacwants parametes"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Leaving in %d seconds"
 msgstr "Dji va cwiter dins %d segondes"
 
-#: ../lib/Xconfig/test.pm:129
+#: ../lib/Xconfig/test.pm:130
 #, c-format
 msgid "Is this the correct setting?"
 msgstr "Est çki c' est l' apontiaedje corek?"
@@ -398,73 +405,73 @@ msgstr "Fintés: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Mineu di Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:197
+#: ../lib/Xconfig/various.pm:204
 #, c-format
 msgid "Xorg configuration"
 msgstr "Apontiaedje di Xorg"
 
-#: ../lib/Xconfig/various.pm:198
+#: ../lib/Xconfig/various.pm:205
 #, c-format
 msgid "Graphic card options"
 msgstr "Tchuzes del cåte grafike"
 
-#: ../lib/Xconfig/various.pm:200
+#: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
 msgstr "Acceleråcion 3D d' éndjolreye"
 
-#: ../lib/Xconfig/various.pm:202
+#: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Mete en alaedje li voeyaedje hoûte (egztinsion composite)"
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Eployî ene sori avou acceleråcion d' éndjolreye"
 
-#: ../lib/Xconfig/various.pm:208
+#: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Mete en alaedje l' acceleråcion RENDER (çoula pout fé des bugs sol håynaedje "
 "di tecse)"
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 "Mete en alaedje li duplicaedje di håynaedje so ene difoûtrinne waitroûle"
 
-#: ../lib/Xconfig/various.pm:213
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Mete en alaedje li duplicaedje di håynaedje so ene deujhinme waitroûle"
 
-#: ../lib/Xconfig/various.pm:216
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 "Mete en alaedje tape rascourti pol discandje di håynaedje so ene difoûtrinne "
 "waitroûle"
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr "Eployî EXA purade ki XAA (ça va mî po Render eyet Composite)"
 
-#: ../lib/Xconfig/various.pm:221
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Enonder X a l' enondaedje"
 
-#: ../lib/Xconfig/various.pm:222
+#: ../lib/Xconfig/various.pm:229
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "Enondaedje dins l' môde grafike (dizo X) do côp ki l' éndjole s' enonde."
 
-#: ../lib/Xconfig/various.pm:234
+#: ../lib/Xconfig/various.pm:241
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -486,12 +493,12 @@ msgstr ""
 "\n"
 "Voloz vs sopoirter cisse possibilité?"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Kéne nôrme fåt i eployî po vosse TV?"
 
-#: ../lib/Xconfig/various.pm:341
+#: ../lib/Xconfig/various.pm:348
 #, c-format
 msgid ""
 "The display resolution being used may not be correct. \n"
@@ -504,7 +511,7 @@ msgstr ""
 "Si l' sicribanne da vosse va pus lon ki les boirds del waitroûle, \n"
 "ça pout aidî d' astaler %s pol coridjî. L' astaler asteure?"
 
-#: ../lib/Xconfig/xfree.pm:679
+#: ../lib/Xconfig/xfree.pm:770
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -1679,42 +1686,42 @@ msgstr "Po mete en alaedje li sori,"
 msgid "MOVE YOUR WHEEL!"
 msgstr "BODJÎZ L' RÔLETE!"
 
-#: ../tools/XFdrake:59
+#: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "Vos dvoz renonder l' éndjole po les candjmints esse efectifs"
 
-#: ../tools/keyboarddrake:29
+#: ../tools/keyboarddrake:32
 #, c-format
 msgid "Keyboard"
 msgstr "Taprece"
 
-#: ../tools/keyboarddrake:30
+#: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "Tchoezixhoz li sôre di vosse taprece."
 
-#: ../tools/keyboarddrake:31
+#: ../tools/keyboarddrake:34
 #, c-format
 msgid "Keyboard layout"
 msgstr "Sôre di taprece"
 
-#: ../tools/keyboarddrake:39
+#: ../tools/keyboarddrake:42
 #, c-format
 msgid "Keyboard type"
 msgstr "Modele di taprece"
 
-#: ../tools/keyboarddrake:51
+#: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Voloz vs kel tape «BackSpace» evoye on «Delete» el conzôle?"
 
-#: ../tools/mousedrake:41
+#: ../tools/mousedrake:44
 #, c-format
 msgid "Mouse test"
 msgstr "Saye del sori"
 
-#: ../tools/mousedrake:44
+#: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Sayîz vosse sori s' i vs plait:"
