@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-fr\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-01-21 20:08+0100\n"
+"PO-Revision-Date: 2007-07-08 14:27+0200\n"
 "Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
 "Language-Team: Français <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -175,6 +175,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"Le pilote propriétaire n'a pu être installé correctement, utilisation du "
+"pilote libre par défaut."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
