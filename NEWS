@@ -1,4 +1,7 @@
-- wacom configuration: add "pad" InputDevice section
+- wacom configuration: 
+  o enhance configuration by using /dev/input/by-id/xxx
+    (need drakxtools-backend >= 10.4.144)
+  o add "pad" InputDevice section
 - fix displaying "3D hardware acceleration: no" for nvidia proprietary driver
   (#31326)
 

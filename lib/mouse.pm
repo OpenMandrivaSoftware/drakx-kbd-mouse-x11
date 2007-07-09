@@ -239,15 +239,20 @@ sub write {
 }
 
 sub probe_usb_wacom_devices() {
-    my (@l) = detect_devices::usbWacom() or return;
+    detect_devices::hasWacom() or return;
 
-    log::l("found usb wacom $_->{driver} $_->{description} ($_->{type})") foreach @l;
-    my @wacom = eval { 
-	modules::load("wacom", "evdev");
-	grep { detect_devices::tryOpen($_) } map_index { "input/event$::i" } @l;
-    };
-    @wacom or eval { modules::unload("evdev", "wacom") };
-    @wacom;
+    eval { modules::load("wacom", "evdev") };
+     
+    map {
+	my $ID_SERIAL = chomp_(run_program::get_stdout('/lib/udev/usb_id', $_->{sysfs_path}));
+	my $sysfs_device = "input/by-id/usb-$ID_SERIAL-event-mouse"; #- from /etc/udev/rules.d/60-persistent-input.rules
+	if ($::isInstall || -e "/dev/$sysfs_device") {
+	    $sysfs_device;
+	} else {
+	    log::l("$sysfs_device missing");
+	    ();
+	}
+    } detect_devices::usbWacom();
 }
 
 sub detect_serial() {
@@ -393,7 +398,7 @@ sub set_xfree_conf {
     $xfree_conf->set_mice(@mice);
 
     if (my @wacoms = @{$mouse->{wacom} || []}) {
-	$xfree_conf->set_wacoms(map { { Device => "/dev/$_", USB => m|input/event| } } @wacoms);
+	$xfree_conf->set_wacoms(map { { Device => "/dev/$_", USB => to_bool(m|input/by-path/event|) } } @wacoms);
     }
 
     $xfree_conf->set_synaptics({
