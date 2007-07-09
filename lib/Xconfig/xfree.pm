@@ -275,21 +275,20 @@ sub set_wacoms {
     $raw_X->remove_InputDevices('wacom');
     
     my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];
-    @$layout = grep { $_->{val} !~ /^"(Stylus|Eraser|Cursor)/ } @$layout;
+    @$layout = grep { $_->{val} !~ /^"(Stylus|Eraser|Cursor|Pad)/ } @$layout;
     
     @wacoms or return;
     
-    my %Modes = (Stylus => 'Absolute', Eraser => 'Absolute', Cursor => 'Relative');
-    
+    my @Modes = ('Stylus', 'Eraser', 'Cursor', 'Pad');
+   
     each_index {
 	my $wacom = $_;
-	foreach (keys %Modes) {
+	foreach (@Modes) {
 	    my $identifier = $_ . ($::i + 1);
 	    my $h = { Identifier => { val => $identifier }, 
 		      Driver => { val => 'wacom' },
 		      Type => { val => lc $_, Option => 1 },
 		      Device => { val => $wacom->{Device}, Option => 1 },
-		      Mode => { val => $Modes{$_}, Option => 1 },
 		      if_($wacom->{USB}, USB => { Option => 1 })
 		    };
 	    $raw_X->add_Section('InputDevice', $h);

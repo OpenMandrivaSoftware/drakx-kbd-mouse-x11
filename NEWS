@@ -1,3 +1,4 @@
+- wacom configuration: add "pad" InputDevice section
 - fix displaying "3D hardware acceleration: no" for nvidia proprietary driver
   (#31326)
 
