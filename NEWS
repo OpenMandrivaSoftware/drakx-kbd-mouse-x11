@@ -1,3 +1,5 @@
+Version 0.19 - 9 July 2007, by Pascal "Pixel" Rigaux
+
 - wacom configuration: 
   o enhance configuration by using /dev/input/by-id/xxx
     (need drakxtools-backend >= 10.4.144)
