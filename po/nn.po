@@ -1,5 +1,5 @@
+# Translation of drakx-kbd-mouse-x11 to Norwegian Nynorsk
 # translation of drakx-kbd-mouse-x11.po to Norwegian Nynorsk
-# Translation of nn to Norwegian Nynorsk
 # Copyright (C) 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
 #
 # Karl Ove Hufthammer <karl@huftis.org>, 2004, 2005, 2006, 2007.
@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-03-04 16:58+0100\n"
+"PO-Revision-Date: 2007-07-12 17:59+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Den ikkje-frie drivaren vart ikkje skikkeleg installert. Brukar derfor den frie drivaren."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -1712,3 +1712,4 @@ msgstr "Musetest"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Test musa:"
+
