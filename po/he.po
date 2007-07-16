@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: he\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-04-01 00:19+0300\n"
+"PO-Revision-Date: 2007-07-17 01:24+0300\n"
 "Last-Translator: Dotan Kamber <kamberd@yahoo.com>\n"
 "Language-Team: Hebrew\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "התקן ההנע הקניני לא הותקן כיאות, משתמש בהתקן ההנע החופשי."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -1717,3 +1717,4 @@ msgstr "בדיקת העכבר"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "נא לבדוק את העכבר:"
+
