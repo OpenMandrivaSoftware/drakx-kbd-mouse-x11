@@ -1,3 +1,5 @@
+- do not configure using xfs anymore (#32051)
+
 Version 0.19 - 9 July 2007, by Pascal "Pixel" Rigaux
 
 - wacom configuration: 

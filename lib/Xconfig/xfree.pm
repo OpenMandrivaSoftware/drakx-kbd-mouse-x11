@@ -804,8 +804,6 @@ our $default_header = <<'END';
 # **********************************************************************
 
 Section "Files"
-    # font server independent of the X server to render fonts.
-    FontPath "unix/:-1"
     # minimal fonts to allow X to run without xfs
     FontPath "/usr/share/fonts/misc:unscaled"
 EndSection
