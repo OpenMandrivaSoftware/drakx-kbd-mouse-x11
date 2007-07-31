@@ -35,9 +35,6 @@ sub configure_resolution {
 	card => Xconfig::card::from_raw_X($raw_X),
 	monitors => [ $raw_X->get_monitors ],
     };
-    if (my $rc = Xconfig::various::handle_May_Need_ForceBIOS($in, $raw_X)) {
-	return $rc;
-    }
 
     $X->{resolutions} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}) or return;
     if ($raw_X->is_modified) {
@@ -188,8 +185,7 @@ sub configure_everything_or_configure_chooser {
 	$raw_X = Xconfig::default::configure($in->do_pkgs, $o_keyboard, $o_mouse);
 	$rc = configure_everything($in, $raw_X, $in->do_pkgs, $auto, $options);
     } elsif (!$auto) {
-	$rc = Xconfig::various::handle_May_Need_ForceBIOS($in, $raw_X);
-	$rc ||= configure_chooser($in, $raw_X, $in->do_pkgs, $options);
+	$rc = configure_chooser($in, $raw_X, $in->do_pkgs, $options);
     }
     $rc && $raw_X, $rc;
 }

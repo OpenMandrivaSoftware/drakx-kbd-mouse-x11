@@ -330,31 +330,4 @@ sub setupFB {
     bootloader::action($bootloader, 'when_config_changed');
 }
 
-sub handle_May_Need_ForceBIOS {
-    my ($in, $raw_X) = @_;
-
-    Xconfig::resolution_and_depth::is_915resolution_configured and return;
-
-    any { $_->{Options}{May_Need_ForceBIOS} } $raw_X->get_devices or return;
-
-    my $log = cat_('/var/log/Xorg.0.log');
-    $log =~ /Option "May_Need_ForceBIOS" is not used/ or return;
-
-
-    my @builtin_modes = $log =~ /\*Built-in mode "(\d+x\d+)"/g or return;
-    my $resolution = $raw_X->get_resolution;
-    !member("$resolution->{X}x$resolution->{Y}", @builtin_modes) or return;
-
-    $in->ask_yesorno('', formatAlaTeX(N("The display resolution being used may not be correct. 
-
-If your desktop appears to stretch beyond the edges of the display, 
-installing %s may help fix the problem. Install it now?", '915resolution')), 1) or return; 
-
-    $in->do_pkgs->ensure_binary_is_installed('915resolution', '915resolution', 1) or return;
-
-    Xconfig::resolution_and_depth::set_915resolution($resolution);
-
-    'need_restart';
-}
-
 1;

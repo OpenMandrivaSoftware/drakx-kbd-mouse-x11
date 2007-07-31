@@ -1,3 +1,5 @@
+- drop support for installing/configuring 915resolution 
+  (no more needed since x11-driver-video-intel 2.0)
 - do not configure using xfs anymore (#32051)
 
 Version 0.19 - 9 July 2007, by Pascal "Pixel" Rigaux

@@ -59,9 +59,6 @@ sub to_raw_X {
 	if (arch() =~ /ppc/ && ($_->{Driver} eq 'r128' || $_->{Driver} eq 'radeon')) {
 	    $_->{UseFBDev} = 1;
 	}
-	if ($_->{Driver} eq 'intel') {
-	    $_->{Options}{May_Need_ForceBIOS} = '1';
-	}
         if (member($_->{Driver}, qw(intel ati))) {
 	    $_->{Options}{XaaNoOffscreenPixmaps} = '1';
         }
