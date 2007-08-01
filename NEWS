@@ -1,3 +1,6 @@
+- internal: add many options as having to be used only once, easing their use
+  and fixing setting them 
+  (eg #31942 where one can't click "Options" after setting EXA)
 - drop support for installing/configuring 915resolution 
   (no more needed since x11-driver-video-intel 2.0)
 - do not configure using xfs anymore (#32051)
