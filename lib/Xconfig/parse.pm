@@ -164,7 +164,7 @@ sub _from_rraw {
 	    _from_rraw($e);
 	    push @{$current->{l}{$e->{name}}}, $e;
 	} else {
-	    if (member(lc $e->{name}, @want_string)) {
+	    if (member(lc $e->{name}, @want_string) || $e->{Option} && $e->{val}) {
 		$e->{val} =~ s/^"(.*)"$/$1/ or warn "$e->{name} $e->{val} has no quote\n";
 	    }
 
