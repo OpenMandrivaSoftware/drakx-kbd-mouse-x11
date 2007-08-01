@@ -582,7 +582,7 @@ sub raw_export_section {
 
 sub raw_import_section {
     my ($section, $h, $o_fields) = @_;
-    foreach ($o_fields ? grep { exists $h->{$_} } @$o_fields : keys %$h) {
+    foreach ($o_fields ? grep { exists $h->{$_} } @$o_fields : sort keys %$h) {
 	my @l = map { ref($_) eq 'HASH' ? $_ : { val => $_ } } deref_array($h->{$_});
 	$section->{$_} = (ref($h->{$_}) eq 'ARRAY' ? \@l : $l[0]);
     }
