@@ -3,6 +3,7 @@
 # Copyright (C) 2003 Mandriva.
 #
 # Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2006, 2007.
+# Behzod Saidov <behzodsaidov@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-uz\n"
@@ -1409,7 +1410,7 @@ msgid ""
 msgstr ""
 "Бу мослама ўрнатишдан кейин ишга тушади.\n"
 "Ўрнатиш вақтида турли тугмалар тартибини танлаш учун\n"
-"ўнг \"Ctrl\" турмасини ишлатинг."
+"ўнг \"Ctrl\" тугмасини ишлатинг."
 
 #: ../lib/mouse.pm:25
 #, c-format
