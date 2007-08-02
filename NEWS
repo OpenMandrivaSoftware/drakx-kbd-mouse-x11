@@ -1,3 +1,5 @@
+- fix detection of touchpad on some kernels (#31584)
+  (need drakxtools-backend >= 10.4.145)
 - internal: add many options as having to be used only once, easing their use
   and fixing setting them 
   (eg #31942 where one can't click "Options" after setting EXA)

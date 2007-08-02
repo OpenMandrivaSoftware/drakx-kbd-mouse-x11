@@ -325,7 +325,7 @@ sub detect {
     my @wacom = probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
-    if (my @mice = grep { $_->{driver} =~ /^mouse/ } detect_devices::getInputDevices_and_usb()) {
+    if (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
 	my @synaptics = map {
 	    { ALPS => $_->{ALPS} };
 	} grep { $_->{Synaptics} || $_->{ALPS} } @mice;
