@@ -803,11 +803,6 @@ our $default_header = <<'END';
 # this file.
 # **********************************************************************
 
-Section "Files"
-    # minimal fonts to allow X to run without xfs
-    FontPath "/usr/share/fonts/misc:unscaled"
-EndSection
-
 Section "ServerFlags"
     #DontZap # disable <Ctrl><Alt><BS> (server abort)
     #DontZoom # disable <Ctrl><Alt><KP_+>/<KP_-> (resolution switching)

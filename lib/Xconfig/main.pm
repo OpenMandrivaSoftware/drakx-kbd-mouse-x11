@@ -237,9 +237,7 @@ sub check_valid {
     my %sections = map { 
 	my @l = $raw_X->get_Sections($_) or return "missing section $_";
 	$_ => \@l;
-    } qw(Files InputDevice Monitor Device Screen ServerLayout);
-
-    $sections{Files}[0]{FontPath} or return "missing FontPath";
+    } qw(InputDevice Monitor Device Screen ServerLayout);
 
     '';
 }
