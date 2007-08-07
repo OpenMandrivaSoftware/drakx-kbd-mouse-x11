@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-et\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-01-28 18:27+0200\n"
+"PO-Revision-Date: 2007-08-07 16:24+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -106,6 +106,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"Kommertsdraiver ei ole korrektselt paigaldatud, kasutatakse vaba "
+"tarkvara draiverit."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
