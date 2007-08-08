@@ -1,5 +1,6 @@
 - handle nvidia-current instead of nvidia97xx (thanks to Anssi)
 - handle x11-driver-video-$nvidia instead of $nvidia
+- adapt to kbd instead of console-tools: s/kmap/map/
 
 Version 0.20 - 3 August 2007, by Pascal "Pixel" Rigaux
 
