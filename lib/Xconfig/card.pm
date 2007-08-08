@@ -73,7 +73,7 @@ sub to_raw_X {
     $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia', '/extensions/nvidia_legacy', '/extensions';
 
     # remove ModulePath that we added
-    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx';
+    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx', 'nvidia-current';
     $raw_X->remove_ModulePath(modules_dir());
     # then may re-add some
     if ($card->{DRI_GLX_SPECIAL}) {
@@ -297,7 +297,7 @@ sub install_server {
 
     if ($card->{Driver2}) {       
 	require Xconfig::proprietary;
-	my @pkgs = Xconfig::proprietary::pkgs_for_Driver2($card, $do_pkgs);
+	my @pkgs = Xconfig::proprietary::pkgs_for_Driver2($card->{Driver2}, $do_pkgs);
 	if (@pkgs && (!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
 Do you wish to use it?")), 1))) {
 	    push @packages, @pkgs;
