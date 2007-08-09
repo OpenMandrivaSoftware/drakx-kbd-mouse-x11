@@ -354,7 +354,7 @@ sub libgl_config_and_more {
     -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
     common::symlinkf_update_alternatives('gl_conf', $wanted);
     if ($need_run_ldconfig && $::isStandalone) {
-	    log::explanations("ldconfig will be run because the GL library was " . ($wanted ? 'enabled' : 'disabled'));
+	    log::explanations("ldconfig will be run because the GL library was $wanted");
 	    system("/sbin/ldconfig");
     }
 
