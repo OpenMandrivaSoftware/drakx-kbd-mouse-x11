@@ -1,3 +1,7 @@
+- when removing/replacing an InputDevice section, ensure we remove the
+  corresponding entry in ServerLayout. ie do not rely on InputDevice sections
+  to use XFdrake-compatible Identifiers (as suggested by fcrozat)
+
 Version 0.21 - 8 August 2007, by Pascal "Pixel" Rigaux
 
 - handle nvidia-current instead of nvidia97xx (thanks to Anssi)

@@ -159,10 +159,7 @@ sub _is_mouse {
 }
 sub _new_mouse_sections {
     my ($raw_X, @Drivers) = @_;
-    $raw_X->remove_Section('InputDevice', \&_is_mouse);
-    
-    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];
-    @$layout = grep { $_->{val} !~ /^"Mouse/ } @$layout;
+    $raw_X->remove_InputDevices_when(\&_is_mouse);
     
     @Drivers or return;
     
@@ -170,7 +167,8 @@ sub _new_mouse_sections {
 	my $h = { Identifier => { val => 'Mouse' . ($::i + 1) }, Driver => { val => $_ } };
 	$raw_X->add_Section('InputDevice', $h);
     } @Drivers;
-    
+
+    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];    
     push @$layout, { val => qq("Mouse1" "CorePointer") };
     push @$layout, { val => qq("Mouse$_" "SendCoreEvents") } foreach 2 .. @Drivers;
     
@@ -274,13 +272,11 @@ sub set_wacoms {
     my ($raw_X, @wacoms) = @_;
     $raw_X->remove_InputDevices('wacom');
     
-    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];
-    @$layout = grep { $_->{val} !~ /^"(Stylus|Eraser|Cursor|Pad)/ } @$layout;
-    
     @wacoms or return;
     
     my @Modes = ('Stylus', 'Eraser', 'Cursor', 'Pad');
    
+    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];    
     each_index {
 	my $wacom = $_;
 	foreach (@Modes) {
@@ -305,11 +301,9 @@ sub set_synaptics {
     my ($raw_X, @synaptics) = @_;
     $raw_X->remove_InputDevices('synaptics');
 
-    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];
-    @$layout = grep { $_->{val} !~ /^"SynapticsMouse/ } @$layout;
-
     @synaptics or return;
 
+    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];    
     each_index {
 	my $synaptics_mouse = $_;
         my $identifier = "SynapticsMouse" . ($::i + 1);
@@ -553,7 +547,15 @@ sub get_InputDevices {
 }
 sub remove_InputDevices {    
     my ($raw_X, $Driver) = @_;
-    $raw_X->remove_Section('InputDevice', sub { val($_[0]{Driver}) eq $Driver });
+    $raw_X->remove_InputDevices_when(sub { val($_[0]{Driver}) eq $Driver });
+}
+sub remove_InputDevices_when {    
+    my ($raw_X, $when) = @_;
+    my @removed = $raw_X->remove_Section('InputDevice', $when);
+
+    my $Identifier_regexp = join('|', map { val($_->{l}{Identifier}) } @removed);
+    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];
+    @$layout = grep { $_->{val} !~ /^"$Identifier_regexp"/ } @$layout;
 }
 
 sub get_ServerLayout {
@@ -607,8 +609,9 @@ sub add_Section {
 sub remove_Section {
     my ($raw_X, $Section, $o_when) = @_;
     my $raw = $raw_X->{raw};
-    @$raw = grep { $_->{name} ne $Section || $o_when && !$o_when->($_->{l}) } @$raw;
-    $raw_X;
+    my ($keep, $remove) = partition { $_->{name} ne $Section || $o_when && !$o_when->($_->{l}) } @$raw;
+    @$raw = @$keep;
+    @$remove;
 }
 sub get_Sections {
     my ($raw_X, $Section, $o_when) = @_;
