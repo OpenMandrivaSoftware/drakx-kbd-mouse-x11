@@ -350,14 +350,14 @@ sub libgl_config_and_more {
                  $card->{Driver} eq 'nvidia' ? "/etc/nvidia$card->{DriverVersion}/ld.so.conf" :
 		   '/etc/ld.so.conf.d/GL/' . (arch() =~ /64/ ? 'lib64' : 'lib') . 'mesagl1.conf';
     my $link = "$::prefix/etc/alternatives/gl_conf";
-    if (readlink($link) ne $wanted) {
-	-e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
-	common::symlinkf_update_alternatives('gl_conf', $wanted);
-	if ($::isStandalone) {
+    my $need_run_ldconfig = readlink($link) ne $wanted;
+    -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
+    common::symlinkf_update_alternatives('gl_conf', $wanted);
+    if ($need_run_ldconfig && $::isStandalone) {
 	    log::explanations("ldconfig will be run because the GL library was " . ($wanted ? 'enabled' : 'disabled'));
 	    system("/sbin/ldconfig");
-	}
     }
+
     if ($card->{Driver} eq 'fglrx') {
 	log::l("workaround buggy fglrx driver: make dm restart xserver (#29550)");
         eval { common::update_gnomekderc_no_create("$::prefix/etc/kde/kdm/kdmrc", 'X-:0-Core' => (
