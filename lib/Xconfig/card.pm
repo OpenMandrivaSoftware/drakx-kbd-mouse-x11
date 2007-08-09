@@ -325,7 +325,7 @@ sub configure_Driver2 {
         if (my $card2 = Xconfig::proprietary::may_use_Driver2($card)) {
 	    $card = $card2;
 	} else {
-	    $o_in && $o_in->ask_warn('', formatAlaTeX(N("The proprietary driver was not properly installed, defaulting to free software driver.")));
+	    $o_in and $o_in->ask_warn('', formatAlaTeX(N("The proprietary driver was not properly installed, defaulting to free software driver.")));
 	    log::l("defaulting to free software driver");
 	}	
     }
