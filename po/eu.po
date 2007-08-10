@@ -1,22 +1,20 @@
-# translation of eu.po to EUSKARA
-# translation of DrakX-eu.po to EUSKARA
-# translation of DrakX-eu.po to basque
+# translation of drakx-kbd-mouse-x11.po to Euskara
 # EUSKARA: Mandriva Linux translation.
-# Copyright (C) 2002,2003, 2004, 2005 Free Software Foundation, Inc.
-# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2001-2002,2003,2004, 2005.
-# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
+# Copyright (C) 2002,2003, 2004, 2005, 2007 Free Software Foundation, Inc.
 #
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2001-2002,2003,2004, 2005, 2007.
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX-eu\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2005-12-31 14:02+0100\n"
+"PO-Revision-Date: 2007-08-10 21:04+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
-"Language-Team: EUSKARA <itzulpena@euskalgnu.org>\n"
+"Language-Team: Euskara <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -71,7 +69,7 @@ msgstr "X zerbitzaria"
 #: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
-msgstr "Aukeratu X zerbitzaria"
+msgstr "Aukeratu X zerbitzari bat"
 
 #: ../lib/Xconfig/card.pm:207
 #, c-format
@@ -90,7 +88,7 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:279
 #, c-format
 msgid "Select the memory size of your graphics card"
-msgstr "Hautatu txartel grafikoaren memoria-tamaina"
+msgstr "Hautatu zure txartel grafikoaren memoria kopurua"
 
 #: ../lib/Xconfig/card.pm:304
 #, c-format
@@ -99,13 +97,15 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"Zure bideo txartelarentzat gidari propietario bat dago ezaugarri gehiago onar ditzakeena.\n"
+"Hura erabili nahi duzu?"
 
 #: ../lib/Xconfig/card.pm:331
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Gidari propietarioa ez da era egokian instalatu, software askeko gidari lehenetsia erabiltzen."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -129,9 +129,9 @@ msgid "Custom"
 msgstr "Pertsonalizatua"
 
 #: ../lib/Xconfig/main.pm:126
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Konexioaren konfigurazioa"
+msgstr "Txartel grafiko eta monitorearen konfiguraketa"
 
 #: ../lib/Xconfig/main.pm:127
 #, c-format
@@ -171,8 +171,7 @@ msgstr "Pluginak"
 #: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
-"Zure Xorg konfigurazio fitxategia hondatuta dago, baztertu egingo dugu."
+msgstr "Zure Xorg konfigurazio fitxategia hondatuta dago, baztertu egingo dugu."
 
 #: ../lib/Xconfig/main.pm:201
 #, c-format
@@ -252,9 +251,9 @@ msgid "Vertical refresh rate"
 msgstr "Freskatze-maiztasun bertikala"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Aukeratu ekintza"
+msgstr "Aukeratu pluginak"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -350,7 +349,7 @@ msgstr "Ezarpen hau zuzena da?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "3D hardware azelerazioa: %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -408,49 +407,49 @@ msgid "Xorg configuration"
 msgstr "Xorg konfigurazioa"
 
 #: ../lib/Xconfig/various.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Txartel grafikoa: %s"
+msgstr "Txartel grafikoaren aukerak"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "3D hardware azelerazioa"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Gaitu zeharrargitasuna (konposaketa luzapena)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Erabili hardwar bitartez azeleratutako sagu erakuslea"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "Gaitu RENDER azelerazioa (honek testuak erakusterakoan akatsak sortu ditzake)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Gaitu bistaratze bikoiztua kanpoko monitorean"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Gaitu bistaratze bikoiztua bigarren pantailan"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Gaitu BIOS laster-teklak kanpoko monitorearekin trukatzeko"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "Erabili EXA XAA ordez (Render eta konposaketarako performatzia hobea)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -458,12 +457,9 @@ msgid "Graphical interface at startup"
 msgstr "Interfaze grafikoa abioan"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Abioan interfaze grafikoa (Xorg) automatikoki kargatzeko konfigura dezaket "
-"zure ordenagailua.\n"
-"Berrabiaraztean Xorg kargatzea nahi duzu?"
+msgstr "Automatikoki abiatu interfaze grafikoa (Xorg) abiatzerakoan"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -499,6 +495,10 @@ msgid ""
 "If your desktop appears to stretch beyond the edges of the display, \n"
 "installing %s may help fix the problem. Install it now?"
 msgstr ""
+"Erabiltzen ari den bereizmena oker egon daiteke.\n"
+"\n"
+"Zure idaztegia pantailaren ertzetatik haratago luzatzen bada, \n"
+"%s instalatzeak arazoa konpondu dezake. Orain instalatu nahi duzu?"
 
 #: ../lib/Xconfig/xfree.pm:770
 #, c-format
@@ -1005,7 +1005,7 @@ msgstr "malayalama"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "Maoriera"
 
 #: ../lib/keyboard.pm:271
 #, c-format
@@ -1047,7 +1047,7 @@ msgstr "maltarra (AEB)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "Nigeriarra"
 
 #: ../lib/keyboard.pm:277
 #, c-format
@@ -1295,7 +1295,7 @@ msgstr "Estatu Batuetako teklatua (nazioartekoa)"
 #: ../lib/keyboard.pm:327
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (AEB teklatua teklako 3 mailarekin)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1618,7 +1618,7 @@ msgstr "Sagurik gabe"
 #: ../lib/mouse.pm:484
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "Sagua probatzen"
 
 #: ../lib/mouse.pm:516
 #, c-format
@@ -1691,14 +1691,14 @@ msgid "Please, choose your keyboard layout."
 msgstr "Aukeratu zure teklatu-diseinua."
 
 #: ../tools/keyboarddrake:34
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
-msgstr "Teklatu-diseinua: %s\n"
+msgstr "Teklatu diseinua"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Teklatua"
+msgstr "Teklatu mota"
 
 #: ../tools/keyboarddrake:54
 #, c-format
@@ -1714,3 +1714,4 @@ msgstr "Sagu-probatzea"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Probatu sagua:"
+
