@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-08-10 21:04+0200\n"
+"PO-Revision-Date: 2007-08-10 22:58+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Euskara <eu@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -419,7 +419,7 @@ msgstr "3D hardware azelerazioa"
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr "Gaitu zeharrargitasuna (konposaketa luzapena)"
+msgstr "Gaitu zeharrargitasuna (Composite luzapena)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
@@ -449,7 +449,7 @@ msgstr "Gaitu BIOS laster-teklak kanpoko monitorearekin trukatzeko"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Erabili EXA XAA ordez (Render eta konposaketarako performatzia hobea)"
+msgstr "Erabili EXA XAA ordez (Render eta Compositerentzat performatzia hobea)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
