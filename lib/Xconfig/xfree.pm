@@ -812,6 +812,19 @@ Section "ServerFlags"
     AllowMouseOpenFail # allows the server to start up even if the mouse does not work
 END
 
+if (-x '/usr/bin/xfs') {
+    warn "Configuring X11\n";
+    $default_header .= <<'END';
+Section "Files"
+    # font server independent of the X server to render fonts.
+    FontPath "unix/:-1"
+    # minimal fonts to allow X to run without xfs
+    FontPath "/usr/share/fonts/misc:unscaled"
+EndSection
+END
+}
+
+
 require detect_devices;
 $default_header .= <<'END_XBOX' if detect_devices::is_xbox();
     Option "PciProbe1" "false"

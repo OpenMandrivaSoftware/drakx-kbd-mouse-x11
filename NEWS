@@ -1,3 +1,4 @@
+- do configure XFS if installed
 - when removing/replacing an InputDevice section, ensure we remove the
   corresponding entry in ServerLayout. ie do not rely on InputDevice sections
   to use XFdrake-compatible Identifiers (as suggested by fcrozat)
