@@ -1,3 +1,160 @@
+2007-08-14 13:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: use -rBASE for svn export in order to please blino by
+	  making sure local changes do not got exported
+
+2007-08-14 09:26  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm: add avivo in the Xorg drivers list
+
+2007-08-10 21:01  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+
+	* po/eu.po: update translation for basque (euskara)
+
+2007-08-10 19:07  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+
+	* po/eu.po: update translation for basque (euskara)
+
+2007-08-09 19:23  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/card.pm: fix typo (thanks to Anssi Hannula)
+
+2007-08-09 08:57  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - when removing/replacing an
+	  InputDevice section, ensure we remove the
+	  corresponding entry in ServerLayout. ie do not rely on
+	  InputDevice sections
+	  to use XFdrake-compatible Identifiers (as suggested by fcrozat)
+
+2007-08-09 08:27  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/card.pm: perl_checker compliance
+
+2007-08-09 08:25  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/card.pm: as suggested by Anssi, do run
+	  update-alternatives even if current alternatives
+	  is the wanted one to ensure the alternative is switched to manual
+
+2007-08-08 19:43  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.21
+
+2007-08-08 19:42  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/keyboard.pm: - adapt to kbd instead of console-tools:
+	  s/kmap/map/
+
+2007-08-08 19:42  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: - handle
+	  nvidia-current instead of nvidia97xx (thanks to Anssi)
+	  - handle x11-driver-video-$nvidia instead of $nvidia
+	  
+	  nb: pkg_name_for_Driver2() has been dropped, and
+	  pkgs_for_Driver2() arguments
+	  have changed. this allows simplifying install::steps, but causes
+	  incompatibility
+
+2007-08-07 13:26  Marek Laane <bald at starman.ee>
+
+	* po/et.po: Updated Estonian translation.
+
+2007-08-07 08:23  ybando
+
+	* po/ja.po: Japanese translation updated.
+
+2007-08-03 17:08  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.20
+
+2007-08-03 17:08  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/main.pm, lib/Xconfig/xfree.pm: since we don't
+	  configure X to use xfs, we don't need to specify a safety
+	  fontpath (was useful when xfs was failing)
+
+2007-08-02 14:52  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/mouse.pm: - fix detection of touchpad on some kernels
+	  (#31584)
+	  (need drakxtools-backend >= 10.4.145)
+	  
+	  issue was:
+	  
+	  H: Handlers=event2 ts0 mouse0
+	  
+	  in /proc/bus/input/devices instead of the more usual
+	  
+	  H: Handlers=mouse0 event2 ts0
+
+2007-08-01 21:08  kmashrab
+
+	* po/uz.po, po/uz@Latn.po: Typo fix.
+
+2007-08-01 14:49  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/parse.pm, lib/Xconfig/various.pm: - internal:
+	  add many options as having to be used only once, easing their use
+	  and fixing setting them
+	  (eg #31942 where one can't click "Options" after setting EXA)
+
+2007-08-01 14:45  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/parse.pm: get rid of quotes around options, since
+	  they really always want a string (or nothing)
+	  nb: may break around things though
+
+2007-08-01 09:20  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/xfree.pm: ensure "Option" lines ordering is fixed so
+	  that XFdrake doesn't ask to save
+	  config even when no options was changed
+
+2007-07-31 09:34  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/main.pm,
+	  lib/Xconfig/various.pm: - drop support for installing/configuring
+	  915resolution
+	  (no more needed since x11-driver-video-intel 2.0)
+
+2007-07-30 12:34  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: do not configure using xfs anymore
+	  (#32051)
+
+2007-07-23 06:23  mmodem
+
+	* po/pt.po: update
+
+2007-07-16 22:39  kamberd
+
+	* po/he.po: update translation for Hebrew
+
+2007-07-12 16:45  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2007-07-09 17:19  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.19
+
+2007-07-09 17:18  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/mouse.pm: - wacom configuration:
+	  o enhance configuration by using /dev/input/by-id/xxx
+	  (need drakxtools-backend >= 10.4.144)
+
+2007-07-09 17:11  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - wacom configuration: add "pad"
+	  InputDevice section
+
+2007-07-08 12:28  berthy
+
+	* po/fr.po: Update fr translation
+
 2007-03-01 16:02  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* NEWS: add changelog entries for 0.1, 0.2, 0.3 & 0.5
