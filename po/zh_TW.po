@@ -12,14 +12,14 @@
 # Hilbert <h@mandrake.org>, 2004.
 # hilbert <h@mandrake.org>, 2004.
 # Shiva Huang <blueshiva@giga.net.tw>, 2005.
-# Shiva Huang <shivahuang@gmail.com>, 2005-2006.
+# Shiva Huang <shivahuang@gmail.com>, 2005-2007.
 # You-Cheng Hsieh <yochenhsieh@xuite.net>, 2005-2006.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2006-09-23 12:29+0800\n"
+"PO-Revision-Date: 2007-08-22 02:00+0800\n"
 "Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -118,6 +118,7 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"這個專利的驅動程式沒有妥善的安裝，預設使用自由的驅動程式。"
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -261,9 +262,9 @@ msgid "Vertical refresh rate"
 msgstr "垂直更新頻率"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "選擇動作"
+msgstr "選取 plugin"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
