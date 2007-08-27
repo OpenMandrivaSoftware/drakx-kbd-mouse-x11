@@ -36,8 +36,8 @@ sub install_matrox_hal {
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;
 
-    my ($pkg, $base_name) = $Driver2 eq 'fglrx' ? ('ati', 'ati') :
-      $Driver2 =~ /^nvidia/ ? ("x11-driver-video-$Driver2", $Driver2) : () or return;
+    my ($pkg, $base_name) = ($Driver2 eq 'fglrx' || $Driver2 =~ /^nvidia/) ?
+                            ("x11-driver-video-$Driver2", $Driver2) : () or return;
 
     $do_pkgs->is_available($pkg) or log::l("proprietary package $pkg not available"), return;
 

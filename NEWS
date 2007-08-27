@@ -4,6 +4,7 @@
   to use XFdrake-compatible Identifiers (as suggested by fcrozat)
 - add avivo in the Xorg drivers list
 - handle libglx.so provided by standard.conf alternative
+- handle x11-driver-video-fglrx instead of ati
 
 Version 0.21 - 8 August 2007, by Pascal "Pixel" Rigaux
 
