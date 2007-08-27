@@ -75,10 +75,6 @@ sub to_raw_X {
     # remove ModulePath that we added
     $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx', 'nvidia-current';
     $raw_X->remove_ModulePath(modules_dir());
-    # then may re-add some
-    if ($card->{DRI_GLX_SPECIAL}) {
-	$raw_X->add_ModulePath($card->{DRI_GLX_SPECIAL});
-    }
     #- if we have some special ModulePath, ensure the last one is the standard ModulePath
     $raw_X->add_ModulePath(modules_dir()) if $raw_X->get_ModulePaths;
 
@@ -348,7 +344,7 @@ sub libgl_config_and_more {
 
     my $wanted = $card->{Driver} eq 'fglrx' ? "/etc/ld.so.conf.d/GL/ati.conf" :
                  $card->{Driver} eq 'nvidia' ? "/etc/nvidia$card->{DriverVersion}/ld.so.conf" :
-		   '/etc/ld.so.conf.d/GL/' . (arch() =~ /64/ ? 'lib64' : 'lib') . 'mesagl1.conf';
+		   '/etc/ld.so.conf.d/GL/standard.conf';
     my $link = "$::prefix/etc/alternatives/gl_conf";
     my $need_run_ldconfig = readlink($link) ne $wanted;
     -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");

@@ -3,6 +3,7 @@
   corresponding entry in ServerLayout. ie do not rely on InputDevice sections
   to use XFdrake-compatible Identifiers (as suggested by fcrozat)
 - add avivo in the Xorg drivers list
+- handle libglx.so provided by standard.conf alternative
 
 Version 0.21 - 8 August 2007, by Pascal "Pixel" Rigaux
 
