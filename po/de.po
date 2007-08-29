@@ -15,13 +15,14 @@
 # Nicolas Bauer <webmaster@mandrakeusers.de>, 2005, 2006.
 # Frank Koester <frank@dueppel13.de>, 2005.Frank Koester <frank@dueppel13.de>, 2006.
 # Nicolas Bauer <rastafarii@mandrivauer.de>, 2006, 2007.
+# Nicolas Bauer <rastafarii@mandrivauser.de>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-02-07 20:32+0100\n"
-"Last-Translator: Nicolas Bauer <rastafarii@mandrivauer.de>\n"
+"PO-Revision-Date: 2007-08-29 19:20+0200\n"
+"Last-Translator: Nicolas Bauer <rastafarii@mandrivauser.de>\n"
 "Language-Team: deutsch\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -119,7 +120,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Der Propitäre Treiber wurde nicht installiert, standartmäßig wird der freie Treiber verwendet."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -463,8 +464,7 @@ msgstr "Aktiviere Bootmeldungen für den externen Monitor"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Verwende EXA anstelle von XAA (bessere Performance für Render und Composite)"
+msgstr "Verwende EXA anstelle von XAA (bessere Performance für Render und Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -1733,3 +1733,4 @@ msgstr "Maus Test"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Bitte testen Sie Ihre Maus:"
+
