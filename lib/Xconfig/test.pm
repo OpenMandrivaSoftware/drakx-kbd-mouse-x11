@@ -43,10 +43,6 @@ sub test {
 	symlinkf "$::prefix/tmp/.X11-unix", "/tmp/.X11-unix" if $::prefix;
     }
 
-    #- ensure xfs is running
-    fuzzy_pidofs(qr/\bxfs\b/) or do { run_program::rooted($::prefix, "/etc/rc.d/init.d/xfs", $_) foreach 'stop', 'start' };
-    fuzzy_pidofs(qr/\bxfs\b/) or die "xfs is not running";
-
     my $f = $::testing ? $tmpconfig : "/etc/X11/XF86Config.test";
     $raw_X->write("$::prefix/$f");
 

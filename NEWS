@@ -1,3 +1,5 @@
+- do not start xfs for the test (#33219)
+
 Version 0.22 - 27 August 2007, by Pascal "Pixel" Rigaux
 
 - do configure XFS if installed
