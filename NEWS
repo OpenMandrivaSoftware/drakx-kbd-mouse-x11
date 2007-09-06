@@ -1,4 +1,7 @@
 - fix default_headers when XFS is installed
+- keep the order from MonitorsDB file 
+  (allows "Flat Panel 800x600" to be before "Flat Panel 1024x768")
+  (needs a nicely sorted MonitorsDB though)
 
 Version 0.23 - 6 September 2007, by Pascal "Pixel" Rigaux
 

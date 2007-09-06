@@ -89,7 +89,12 @@ sub choose {
 	return $ok;
     }
 
-    my %h_monitors = map { ("$_->{VendorName}|$_->{ModelName}" => $_) } monitors_db();
+    my (@l_monitors, %h_monitors);
+    foreach (monitors_db()) {
+	my $s = "$_->{VendorName}|$_->{ModelName}";
+	push @l_monitors, $s;
+	$h_monitors{$s} = $_;
+    }
 
   ask_monitor:
     my $merged_name = do {
@@ -111,7 +116,7 @@ sub choose {
 		     interactive_help_id => 'configureX_monitor' 
 		   },
 		  [ { val => \$merged_name, separator => '|', 
-		      list => ['Custom', "Plug'n Play", sort keys %h_monitors],
+		      list => ['Custom', "Plug'n Play", @l_monitors],
 		      format => sub { $_[0] eq 'Custom' ? N("Custom") : 
 				      $_[0] eq "Plug'n Play" ? N("Plug'n Play") . ($monitor->{VendorName} eq "Plug'n Play" ? " ($monitor->{ModelName})" : '') :
 				      $_[0] =~ /^Generic\|(.*)/ ? N("Generic") . "|$1" :  
