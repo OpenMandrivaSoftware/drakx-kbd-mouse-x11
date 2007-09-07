@@ -1,3 +1,5 @@
+- minimal support for allowing to choose evdev on all mice
+
 Version 0.24 - 7 September 2007, by Pascal "Pixel" Rigaux
 
 - do not configure XFS, it's useless

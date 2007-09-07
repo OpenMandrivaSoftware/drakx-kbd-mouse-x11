@@ -83,6 +83,7 @@ my %mice =
  N_("Universal") =>
  [ [ 'input/mice' ],
    [ [ 7, 'ps/2', 'ExplorerPS/2', N_("Any PS/2 & USB mice") ],
+     [ 7, 'ps/2', 'ExplorerPS/2', N_("Force evdev") ], #- evdev is magically handled in mouse::select()
      if_(detect_devices::is_xbox(), [ 5, 'ps/2', 'IMPS/2', N_("Microsoft Xbox Controller S") ]),
    ] ],
 
@@ -281,6 +282,17 @@ sub detect_serial() {
     $mouse, @wacom;
 }
 
+sub mice2evdev {
+    my (@mice) = @_;
+
+    [ map {
+	#- we always use HWheelRelativeAxisButtons for evdev, it tells mice with no horizontal wheel to skip those buttons
+	#- that way we ensure 6 & 7 is always horizontal wheel
+	#- (cf patch skip-HWheelRelativeAxisButtons-even-if-unused in x11-driver-input-evdev)
+	{ vendor => "0x$_->{vendor}", product => "0x$_->{id}", HWheelRelativeAxisButtons => "7 6" };
+    } @mice ]
+}
+
 sub detect_evdev_mice {
     my (@mice) = @_;
 
@@ -300,18 +312,15 @@ sub detect_evdev_mice {
 	    $imwheel ||= 'generic';
 	}
     }
-	
-    my @evdev_mice = map {
-	#- we always use HWheelRelativeAxisButtons for evdev, it tells mice with no horizontal wheel to skip those buttons
-	#- that way we ensure 6 & 7 is always horizontal wheel
-	#- (cf patch skip-HWheelRelativeAxisButtons-even-if-unused in x11-driver-input-evdev)
-	{ vendor => "0x$_->{vendor}", product => "0x$_->{id}", HWheelRelativeAxisButtons => "7 6" };
-    } grep { $_->{want_evdev} } @mice;
+
+    my @evdev_mice = grep { $_->{want_evdev} } @mice;
 
     log::l("configuring mice with imwheel for thumb buttons (imwheel=$imwheel)") if $imwheel;
     log::l("configuring mice for evdev (" . join(' ', map { "$_->{vendor}:$_->{product}" } @evdev_mice) . ")") if @evdev_mice;
 
-    { imwheel => $imwheel, if_(@evdev_mice, evdev_mice => \@evdev_mice) };
+    { imwheel => $imwheel, 
+      evdev_mice_all => mice2evdev(@mice),
+      if_(@evdev_mice, evdev_mice => mice2evdev(@evdev_mice)) };
 }
 
 sub detect {
@@ -528,6 +537,9 @@ sub select {
 
     if ($fullname ne $prev) {
 	my $mouse_ = fullname2mouse($fullname, device => $mouse->{device});
+	if ($fullname =~ /evdev/) {
+	    $mouse_->{evdev_mice} = $mouse_->{evdev_mice_all} = $mouse->{evdev_mice_all};
+	}
 	%$mouse = %$mouse_;
     }
 
