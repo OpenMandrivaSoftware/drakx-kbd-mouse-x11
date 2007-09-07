@@ -825,18 +825,6 @@ $default_header .= <<'END';
 EndSection
 END
 
-if (-x '/usr/bin/xfs') {
-    log::l("configuring X font server (XFS)");
-    $default_header .= <<'END';
-Section "Files"
-    # font server independent of the X server to render fonts.
-    FontPath "unix/:-1"
-    # minimal fonts to allow X to run without xfs
-    FontPath "/usr/share/fonts/misc:unscaled"
-EndSection
-END
-}
-
 our $default_ModeLine = arch() =~ /ppc/ ? <<'END_PPC' : <<'END';
     # Apple iMac modes
     ModeLine "1024x768"   78.525 1024 1049 1145 1312   768  769  772  800 +hsync +vsync

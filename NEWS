@@ -1,4 +1,5 @@
-- fix default_headers when XFS is installed
+- do not configure XFS, it's useless
+- fix default_headers (ie allow XFdrake to create xorg.conf from scratch again)
 - keep the order from MonitorsDB file 
   (allows "Flat Panel 800x600" to be before "Flat Panel 1024x768")
   (needs a nicely sorted MonitorsDB though)
