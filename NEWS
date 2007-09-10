@@ -1,3 +1,5 @@
+Version 0.25 - 10 September 2007, by Pascal "Pixel" Rigaux
+
 - in the list of available Xorg drivers, add "Driver" from Cards+
   (will ease the maintainance of the list of drivers in Xconfig/card.pm)
 - minimal support for allowing to choose evdev on all mice
