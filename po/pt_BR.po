@@ -119,6 +119,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"O driver proprietário não foi devidamente instalado, usando o driver free software "
+"por padrão."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -2086,7 +2088,6 @@ msgstr "Favor testar seu mouse: "
 #~ msgid "Please try again"
 #~ msgstr "Por favor, tente novamente"
 
-#, fuzzy
 #~ msgid "You can not use a password with %s"
 #~ msgstr ""
 #~ "Você não pode usar um sistema de arquivos criptografados como ponto de "
