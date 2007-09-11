@@ -5,9 +5,9 @@
 # Tamas Szanto <tszanto@mol.hu>, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: drakx-kbd-mouse-x11-hu\n"
+"Project-Id-Version: hu\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-02-26 15:53+0100\n"
+"PO-Revision-Date: 2007-09-11 22:53+0200\n"
 "Last-Translator: Arpad Biro <biro_arpad@yahoo.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -107,6 +107,9 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"A kötött licencelésű (zárt) meghajtóprogram nem lett megfelelően "
+"telepítve, ezért az alapértelmezés szerinti szabad szoftveres "
+"meghajtóprogram lesz használva."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -454,8 +457,7 @@ msgstr "Külső monitorra kapcsoló BIOS-os billentyűkombináció engedélyezé
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"EXA használata XAA helyett (növeli a Render és a Composite teljesítményét)"
+msgstr "EXA használata XAA helyett (növeli a Render és a Composite teljesítményét)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -465,8 +467,7 @@ msgstr "Indítás grafikus módban"
 #: ../lib/Xconfig/various.pm:229
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
+msgstr "Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -1721,3 +1722,4 @@ msgstr "Egértesztelés"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Tesztelje le az egeret:"
+
