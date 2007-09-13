@@ -1,26 +1,25 @@
-# translation of DrakX.po to Italian
-# translation of DrakX-it.po to Italiano
-# translation of DrakX-it.po to Italian
+# translation of it.po to Italian
 # Copyright (C) 2000, 2001 Mandriva S.A.
+#
 # Paolo Lorenzin <pasusu@tin.it>, 2000.
 # Simone Riccio <s.riccio@aeb-informatica.it>, 2002.
 # Roberto Rosselli Del Turco <rosselli@ling.unipi.it>, 2001, 2002,2003.
 # Marco De Vitis <mdv@spin.it>, 2003.
 # Andrea Celli <a.celli@caltanet.it>, 2003, 2004, 2005, 2006.
 # Giuseppe Levi <giuseppe.levi@email.it>, 2005.
-#
+# Andrea Celli <andrea.celli@libero.it>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX-it\n"
+"Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2006-09-16 14:41+0100\n"
-"Last-Translator: Giuseppe Briotti <g.briotti@mclink.it>\n"
-"Language-Team: Italian <kde-i18n-it@kde.org>\n"
+"PO-Revision-Date: 2007-09-13 23:09+0200\n"
+"Last-Translator: Andrea Celli <andrea.celli@libero.it>\n"
+"Language-Team: Italian <timl@freelists.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -103,7 +102,7 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Esiste un driver proprietario disponibile per la vostrascheda video che ha "
+"Esiste un driver proprietario disponibile per questa scheda video che ha "
 "ulteriori caratteristiche.\n"
 "Vuoi utilizzarlo?"
 
@@ -113,6 +112,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"Il driver proprietario non ha potuto essere installato correttamente, "
+"in mancanza verrà usato il driver libero."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -221,8 +222,7 @@ msgstr "Marca"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr ""
-"Il rilevamento Plug'n Play non è riuscito. Indica il modello del monitor."
+msgstr "Il rilevamento Plug'n Play non è riuscito. Indica il modello del monitor."
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -259,9 +259,9 @@ msgid "Vertical refresh rate"
 msgstr "Frequenza di refresh verticale"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Scegli un'azione"
+msgstr "Scegli i plugin"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -1138,7 +1138,7 @@ msgstr "Russa (fonetica)"
 msgid ""
 "_: keyboard\n"
 "Slovenian"
-msgstr "Slovenian"
+msgstr "Slovena"
 
 #: ../lib/keyboard.pm:293
 #, c-format
@@ -1152,7 +1152,7 @@ msgstr "Sinhala"
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
-msgstr "Slovakian (QWERTZ)"
+msgstr "Slovacca (QWERTZ)"
 
 #: ../lib/keyboard.pm:295
 #, c-format
@@ -1309,7 +1309,7 @@ msgstr "Tastiera US (internazionale)"
 #: ../lib/keyboard.pm:327
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (tastiera USA con 3 livelli per tasto)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1330,7 +1330,7 @@ msgstr "Vietnamita \"riga numerica\" QWERTY"
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
-msgstr "Jugoslava (latino)"
+msgstr "Jugoslava (latina)"
 
 #: ../lib/keyboard.pm:338
 #, c-format
@@ -1728,3 +1728,4 @@ msgstr "Prova del mouse"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Per favore prova il mouse:"
+
