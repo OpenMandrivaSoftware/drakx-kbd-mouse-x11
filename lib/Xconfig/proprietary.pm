@@ -36,7 +36,7 @@ sub install_matrox_hal {
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;
 
-    my ($pkg, $base_name) = ($Driver2 eq 'fglrx' || $Driver2 =~ /^nvidia/) ?
+    my ($pkg, $base_name) = ($Driver2 =~ /^fglrx/ || $Driver2 =~ /^nvidia/) ?
                             ("x11-driver-video-$Driver2", $Driver2) : () or return;
 
     $do_pkgs->is_available($pkg) or log::l("proprietary package $pkg not available"), return;
@@ -68,6 +68,8 @@ sub may_use_Driver2 {
 	%$card,
 	$card->{Driver2} =~ /^nvidia(.*)/ ?
 	  (Driver => 'nvidia', DriverVersion => $1) :
+	  $card->{Driver2} =~ /^fglrx(.*)/ ?
+	  (Driver => 'fglrx', DriverVersion => $1) :
 	  (Driver => $card->{Driver2}),
     };
 
@@ -82,8 +84,9 @@ sub may_use_Driver2 {
 	$card2->{Options}{IgnoreEDID} = 1 if $card2->{DriverVersion} ne '-current';
 	$card2;
     } elsif ($card2->{Driver} eq 'fglrx') {
-	$check_drv->('fglrx_drv') or return;
-	-e "$::prefix$modules_dir/dri/fglrx_dri.so" || -e "$::prefix/usr/$lib/dri/fglrx_dri.so" or
+	$check_drv->('fglrx_drv', "fglrx$card2->{DriverVersion}") or return;
+	$card2->{DriverVersion} eq '-hd2000' || -e "$::prefix$modules_dir/dri/fglrx_dri.so"
+       	  || -e "$::prefix/usr/$lib/dri/fglrx_dri.so" or
 	  log::l("proprietary fglrx_dri.so missing"), return;
 
 	log::explanations("Using specific ATI fglrx and DRI drivers");

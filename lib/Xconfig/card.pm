@@ -343,7 +343,7 @@ sub libgl_config_and_more {
     #- ensure old deprecated conf files are not there anymore
     unlink("/etc/ld.so.conf.d/$_.conf") foreach 'nvidia', 'nvidia_legacy', 'ati';
 
-    my $wanted = $card->{Driver} eq 'fglrx' ? "/etc/ld.so.conf.d/GL/ati.conf" :
+    my $wanted = $card->{Driver} eq 'fglrx' ? "/etc/ld.so.conf.d/GL/ati$card->{DriverVersion}.conf" :
                  $card->{Driver} eq 'nvidia' ? "/etc/nvidia$card->{DriverVersion}/ld.so.conf" :
 		   '/etc/ld.so.conf.d/GL/standard.conf';
     my $link = "$::prefix/etc/alternatives/gl_conf";
