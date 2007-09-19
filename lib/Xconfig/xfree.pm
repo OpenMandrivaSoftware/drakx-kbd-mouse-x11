@@ -136,8 +136,8 @@ sub _new_keyboard_section {
 # mouse ########################################################################
 ################################################################################
 #- example mouse: { Protocol => 'IMPS/2', Device => '/dev/psaux', Emulate3Buttons => undef, Emulate3Timeout => 50, ZAxisMapping => [ '4 5', '6 7' ] }
-#- example evdev: { vendor => '0x045e', product => '0x008c' }
-my @mouse_fields = qw(Protocol Device ZAxisMapping Emulate3Buttons Emulate3Timeout vendor product); #-);
+#- example evdev: { bustype => '0x0003', vendor => '0x045e', product => '0x008c' }
+my @mouse_fields = qw(Protocol Device ZAxisMapping Emulate3Buttons Emulate3Timeout bustype vendor product); #-);
 sub get_mice {
     my ($raw_X) = @_;
     my @raw_mice = $raw_X->get_Sections('InputDevice', \&_is_mouse);

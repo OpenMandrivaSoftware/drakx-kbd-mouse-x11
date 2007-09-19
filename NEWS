@@ -1,3 +1,8 @@
+- for evdev configured mice, specify bustype
+  (useful for "Macintosh mouse button emulation" which has same vendor/product
+   as "AT Translated Set 2 keyboard")
+  (need drakxtools-backend 10.4.203)
+
 Version 0.26 - 17 September 2007, by Pascal "Pixel" Rigaux
 
 - handle fglrx-hd2000 driver (Anssi)
