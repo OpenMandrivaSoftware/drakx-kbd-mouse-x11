@@ -1,3 +1,5 @@
+- when using evdev for mice, ensure it doesn't match a keyboard
+  (eg: in case of a mouse+keyboard combo) (#32905)
 - fix regression in 0.24: remove bogus duplicates in monitors tree (#33778)
 
 Version 0.27 - 19 September 2007, by Pascal "Pixel" Rigaux

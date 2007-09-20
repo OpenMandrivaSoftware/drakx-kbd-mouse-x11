@@ -289,7 +289,8 @@ sub mice2evdev {
 	#- we always use HWheelRelativeAxisButtons for evdev, it tells mice with no horizontal wheel to skip those buttons
 	#- that way we ensure 6 & 7 is always horizontal wheel
 	#- (cf patch skip-HWheelRelativeAxisButtons-even-if-unused in x11-driver-input-evdev)
-	{ bustype => "0x$_->{bustype}", vendor => "0x$_->{vendor}", product => "0x$_->{id}", HWheelRelativeAxisButtons => "7 6" };
+	{ bustype => "0x$_->{bustype}", vendor => "0x$_->{vendor}", product => "0x$_->{id}", 
+	  relBits => "+0+1+2", HWheelRelativeAxisButtons => "7 6" };
     } @mice ]
 }
 
