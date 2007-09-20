@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva DrakX.cy\n"
 "POT-Creation-Date: 2007-07-02 17:45+0800\n"
-"PO-Revision-Date: 2007-02-10 10:08-0000\n"
+"PO-Revision-Date: 2007-09-19 22:46+0100\n"
 "Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
 "Language-Team: Cymraeg <post@meddal.com>\n"
 "MIME-Version: 1.0\n"
@@ -93,20 +93,16 @@ msgstr "Dewiswch faint cof eich cerdyn graffeg"
 #: ../lib/Xconfig/card.pm:304
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Mae gyrrwr perchnogol ar gael ar gyfer eich cerdyn fideo sy'n cynnal "
-"nodweddion pellach.\n"
+"Mae gyrrwr perchnogol ar gael ar gyfer eich cerdyn fideo sy'n cynnal nodweddion pellach.\n"
 "Hoffech chi ei ddefnyddio?"
 
 #: ../lib/Xconfig/card.pm:331
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Nid oedd y gyrrwr perchnogol wedi ei osod yn gywir, wedi ei ragosod i yrrwr meddalwedd rhydd."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -123,7 +119,8 @@ msgstr "Defnyddiwch estyniad Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Ffurfweddu cerdyn \"%s\" %s yn unig"
 
-#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/main.pm:91
+#: ../lib/Xconfig/main.pm:92
 #: ../lib/Xconfig/monitor.pm:115
 #, c-format
 msgid "Custom"
@@ -144,12 +141,14 @@ msgstr "Gadael"
 msgid "Graphic Card"
 msgstr "Cerdyn Graffeg"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/monitor.pm:109
 #, c-format
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
+#: ../lib/Xconfig/main.pm:135
+#: ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
 msgid "Resolution"
 msgstr "Cydraniad"
@@ -202,7 +201,8 @@ msgstr "Dewiswch fonitor"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:117
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Generig"
@@ -220,15 +220,12 @@ msgstr "Methodd ymholiad Plug'n Play. Dewiswch y dangosydd cywir"
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Y ddau baramedr pwysig yw'r raddfa adnewyddu fertigol, sef y raddfa mae'r\n"
@@ -236,8 +233,7 @@ msgstr ""
 "llorweddol, sef y raddfa mae'r llinellau sganio'n cael eu dangos.\n"
 "\n"
 "Mae'n BWYSIG IAWN nad ydych yn enwi monitor gyda graddfa cydamseru\n"
-"sydd tu hwnt i allu eich monitor: mae modd difrodi eich monitor drwy wneud "
-"hynny.\n"
+"sydd tu hwnt i allu eich monitor: mae modd difrodi eich monitor drwy wneud hynny.\n"
 "Os oes gennych amheuaeth, dewiswch raddfa is."
 
 #: ../lib/Xconfig/monitor.pm:143
@@ -280,7 +276,8 @@ msgstr "16 miliwn o liwiau (24 did)"
 msgid "Resolutions"
 msgstr "Cyfraniadau"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:334 ../lib/mouse.pm:184
+#: ../lib/Xconfig/resolution_and_depth.pm:334
+#: ../lib/mouse.pm:184
 #, c-format
 msgid "Other"
 msgstr "Arall"
@@ -449,8 +446,7 @@ msgstr "Galluogi bysell boeth BIOS ar gyfer cyfnewid monitor allanol."
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Defnyddio EXA yn lle XAA (gwell perfformiad ar gyfer Render a Composite)"
+msgstr "Defnyddio EXA yn lle XAA (gwell perfformiad ar gyfer Render a Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -468,8 +464,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -477,8 +472,7 @@ msgstr ""
 "Mae'n edrych fel bod gan eich cerdyn graffig gyswllt TV-OUT.\n"
 "Mae modd ei ffurfweddu i weithio drwy fyffer ffrâm.\n"
 "\n"
-"Rhaid cysylltu eich cerdyn graffig â'ch teledu cyn cychwyn eich "
-"cyfrifiadur.\n"
+"Rhaid cysylltu eich cerdyn graffig â'ch teledu cyn cychwyn eich cyfrifiadur.\n"
 "Dewiswch  \"TV-OUT\" yn y cychwynnwr\n"
 "\n"
 "Ydy'r nodwedd hon gennych?"
@@ -508,14 +502,16 @@ msgid ""
 "other"
 msgstr "arall"
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:183
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Tsiec (QWERTY)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:184
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -529,33 +525,38 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Sbaenaidd"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Ffinnaidd"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Ffrengig"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid "UK keyboard"
 msgstr "Bysellfwrdd DG"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -569,21 +570,24 @@ msgid ""
 "Polish"
 msgstr "Pwylaidd"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Rwsiaidd"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Swedaidd"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid "US keyboard"
 msgstr "Bysellfwrdd UDA"
@@ -1471,12 +1475,14 @@ msgstr "GlidePoint"
 msgid "Automatic"
 msgstr "Awtomatig"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1486,22 +1492,26 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
 msgstr "1 botwm"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Llygoden 2 Fotwm Generig"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Llygoden 3 Botwm Generig gydag efelychiad Olwyn"
@@ -1725,3 +1735,4 @@ msgstr "Prawf llygoden"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Profwch y llygoden:"
+
