@@ -1,3 +1,5 @@
+- fix regression in 0.24: remove bogus duplicates in monitors tree (#33778)
+
 Version 0.27 - 19 September 2007, by Pascal "Pixel" Rigaux
 
 - for evdev configured mice, specify bustype

@@ -116,7 +116,7 @@ sub choose {
 		     interactive_help_id => 'configureX_monitor' 
 		   },
 		  [ { val => \$merged_name, separator => '|', 
-		      list => ['Custom', "Plug'n Play", @l_monitors],
+		      list => ['Custom', "Plug'n Play", uniq(@l_monitors)],
 		      format => sub { $_[0] eq 'Custom' ? N("Custom") : 
 				      $_[0] eq "Plug'n Play" ? N("Plug'n Play") . ($monitor->{VendorName} eq "Plug'n Play" ? " ($monitor->{ModelName})" : '') :
 				      $_[0] =~ /^Generic\|(.*)/ ? N("Generic") . "|$1" :  
