@@ -1,3 +1,6 @@
+- unload drivers loaded by monitor-probe-using-X
+  (fix fglrx usage when harddrake probes using X and loads radeon driver)
+
 Version 0.28 - 20 September 2007, by Pascal "Pixel" Rigaux
 
 - when using evdev for mice, ensure it doesn't match a keyboard

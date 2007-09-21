@@ -257,8 +257,12 @@ sub probe_using_X {
 	$cards[0]{Driver};
     } or return;
 
-    my $resolution = run_program::rooted_get_stdout($::prefix, 'monitor-probe-using-X', $card_Driver) or return;
-    generic_flat_panel(chomp_($resolution));
+    require modules;
+    my @old_modules = modules::loaded_modules();
+    my $resolution = run_program::rooted_get_stdout($::prefix, 'monitor-probe-using-X', $card_Driver);
+    modules::unload(difference2([ modules::loaded_modules() ], \@old_modules));
+
+    $resolution && generic_flat_panel(chomp_($resolution));
 }
 
 sub probe_DMI() {
