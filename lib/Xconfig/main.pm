@@ -126,7 +126,7 @@ sub configure_chooser_raw {
 		    { label => N("Graphic Card"), val => \$texts{card}, clicked => sub { 
 			  $may_set->('card', Xconfig::card::configure($in, $raw_X, $do_pkgs, 0, $options));
 		      } },
-		    { label => N("Monitor"), val => \$texts{monitors}, clicked => sub { 
+		    { label => N("_: This is a display device\nMonitor"), val => \$texts{monitors}, clicked => sub { 
 			  $may_set->('monitors', Xconfig::monitor::configure($in, $raw_X, int($raw_X->get_devices)));
 		      } },
 		    { label => N("Resolution"), val => \$texts{resolutions}, disabled => sub { !$X->{card} || !$X->{monitors} },

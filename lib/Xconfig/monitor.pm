@@ -111,7 +111,7 @@ sub choose {
 	}
     };
 
-    $in->ask_from_({ title => N("Monitor"),
+    $in->ask_from_({ title => N("_: This is a display device\nMonitor"),
 		     messages => $head_nb ? N("Choose a monitor for head #%d", $head_nb) : N("Choose a monitor"), 
 		     interactive_help_id => 'configureX_monitor' 
 		   },

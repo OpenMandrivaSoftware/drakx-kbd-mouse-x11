@@ -142,7 +142,9 @@ msgstr "Grafička kartica"
 
 #: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
 #, c-format
-msgid "Monitor"
+msgid ""
+"_: This is a display device\n"
+"Monitor"
 msgstr "Zaslon"
 
 #: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
