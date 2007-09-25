@@ -127,7 +127,7 @@ sub choose {
 	local $::noauto = 0; #- hey, you asked for plug'n play, so i do probe!
 	delete @$monitor{'VendorName', 'ModelName', 'EISA_ID', 'HorizSync', 'VertRefresh'};
 	if ($head_nb <= 1) {
-	    if (my $probed_info = 0 && probe($card_Driver)) {
+	    if (my $probed_info = probe($card_Driver)) {
 		put_in_hash($monitor, $probed_info);
 	    } else {
 		log::l("Plug'n Play probing failed, but Xorg may do better");
