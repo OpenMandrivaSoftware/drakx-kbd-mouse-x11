@@ -7,14 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cs\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-09-18 10:26+0200\n"
+"PO-Revision-Date: 2007-09-25 22:30+0200\n"
 "Last-Translator: Michal Bukovjan <bukm@centrum.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
@@ -107,8 +106,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
-"Proprietární ovladač nebyl řádně nainstalován, použije se otevřený ovladač."
+msgstr "Proprietární ovladač nebyl řádně nainstalován, použije se otevřený ovladač."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -1609,7 +1607,7 @@ msgstr "Libovolná PS/2 & USB myš"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Vynutit evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1725,3 +1723,4 @@ msgstr "Test myši"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Vyzkoušejte prosím, zda funguje myš:"
+
