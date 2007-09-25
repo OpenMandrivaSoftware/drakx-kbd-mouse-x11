@@ -34,8 +34,8 @@ sub info {
     $info .= N("Graphics card: %s\n", $device->{VendorName} . ' ' . $device->{BoardName});
     $info .= N("Graphics memory: %s kB\n", $device->{VideoRam}) if $device->{VideoRam};
     if (my $resolution = eval { $raw_X->get_resolution }) {
-	$info .= N("Color depth: %s\n", translate($Xconfig::resolution_and_depth::depth2text{$resolution->{Depth}}));
-	$info .= N("Resolution: %s\n", join('x', @$resolution{'X', 'Y'}));
+	$info .= N("Color depth: %s\n", translate($Xconfig::resolution_and_depth::depth2text{$resolution->{Depth}})) if $resolution->{Depth};
+	$info .= N("Resolution: %s\n", Xconfig::resolution_and_depth::to_string($resolution));
     }
     $info .= N("Xorg driver: %s\n", $device->{Driver}) if $device->{Driver};
     $info;
