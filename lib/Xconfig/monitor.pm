@@ -125,13 +125,13 @@ sub choose {
 
     if ($merged_name eq "Plug'n Play") {
 	local $::noauto = 0; #- hey, you asked for plug'n play, so i do probe!
-	delete @$monitor{'VendorName', 'ModelName', 'EISA_ID'};
+	delete @$monitor{'VendorName', 'ModelName', 'EISA_ID', 'HorizSync', 'VertRefresh'};
 	if ($head_nb <= 1) {
-	    if (my $probed_info = probe($card_Driver)) {
+	    if (my $probed_info = 0 && probe($card_Driver)) {
 		put_in_hash($monitor, $probed_info);
 	    } else {
-		$in->ask_warn('', N("Plug'n Play probing failed. Please select the correct monitor"));
-		goto ask_monitor;
+		log::l("Plug'n Play probing failed, but Xorg may do better");
+		$monitor->{VendorName} = "Plug'n Play";
 	    }
 	} else {
 	    $monitor->{VendorName} = "Plug'n Play";
