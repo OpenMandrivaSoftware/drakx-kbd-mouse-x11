@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-08-10 22:58+0200\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Euskara <eu@li.org>\n"
@@ -97,7 +97,8 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Zure bideo txartelarentzat gidari propietario bat dago ezaugarri gehiago onar ditzakeena.\n"
+"Zure bideo txartelarentzat gidari propietario bat dago ezaugarri gehiago "
+"onar ditzakeena.\n"
 "Hura erabili nahi duzu?"
 
 #: ../lib/Xconfig/card.pm:331
@@ -105,7 +106,9 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr "Gidari propietarioa ez da era egokian instalatu, software askeko gidari lehenetsia erabiltzen."
+msgstr ""
+"Gidari propietarioa ez da era egokian instalatu, software askeko gidari "
+"lehenetsia erabiltzen."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -173,7 +176,8 @@ msgstr "Pluginak"
 #: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "Zure Xorg konfigurazio fitxategia hondatuta dago, baztertu egingo dugu."
+msgstr ""
+"Zure Xorg konfigurazio fitxategia hondatuta dago, baztertu egingo dugu."
 
 #: ../lib/Xconfig/main.pm:201
 #, c-format
@@ -431,7 +435,8 @@ msgstr "Erabili hardwar bitartez azeleratutako sagu erakuslea"
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Gaitu RENDER azelerazioa (honek testuak erakusterakoan akatsak sortu ditzake)"
+msgstr ""
+"Gaitu RENDER azelerazioa (honek testuak erakusterakoan akatsak sortu ditzake)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
@@ -1604,6 +1609,11 @@ msgstr "Edozein PS/2 eta USB sagu"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox S Kontrolatzailea"
 
@@ -1716,4 +1726,3 @@ msgstr "Sagu-probatzea"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Probatu sagua:"
-

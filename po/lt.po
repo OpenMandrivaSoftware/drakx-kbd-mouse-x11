@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX VERSION\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2000-12-23 13:50+0200\n"
 "Last-Translator: Mykolas Norvai­as <Myka@centras.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -1574,6 +1574,11 @@ msgid "Any PS/2 & USB mice"
 msgstr ""
 
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
 #, fuzzy, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft IntelliMouse"

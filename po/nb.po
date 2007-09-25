@@ -16,7 +16,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-09-14 15:18+0200\n"
 "Last-Translator: Per Øyvind Karlsen <peroyvind@mandriva.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-no@lister.ping.uio.no>\n"
@@ -115,7 +115,9 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr "Den proprietære drivaren ble ikke ordentlig installert. Bruker derfor den frie driveren."
+msgstr ""
+"Den proprietære drivaren ble ikke ordentlig installert. Bruker derfor den "
+"frie driveren."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -1618,6 +1620,11 @@ msgstr "Alle PS/2 & USB mus"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox-kontroller S"
 
@@ -1730,4 +1737,3 @@ msgstr "Musetest"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Test musa di:"
-

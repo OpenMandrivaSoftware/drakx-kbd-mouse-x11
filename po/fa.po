@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-fa\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2005-02-26 06:31+0100\n"
 "Last-Translator: Abbas Izad <abbasizad@hotmail.com>\n"
 "Language-Team: Persian\n"
@@ -1597,6 +1597,11 @@ msgid "Any PS/2 & USB mice"
 msgstr "هر موشی PS/2 & USB"
 
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
 #, fuzzy, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Explorer"

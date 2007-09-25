@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-08-29 19:20+0200\n"
 "Last-Translator: Nicolas Bauer <rastafarii@mandrivauser.de>\n"
 "Language-Team: deutsch\n"
@@ -120,7 +120,9 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr "Der Propitäre Treiber wurde nicht installiert, standartmäßig wird der freie Treiber verwendet."
+msgstr ""
+"Der Propitäre Treiber wurde nicht installiert, standartmäßig wird der freie "
+"Treiber verwendet."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -466,7 +468,8 @@ msgstr "Aktiviere Bootmeldungen für den externen Monitor"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Verwende EXA anstelle von XAA (bessere Performance für Render und Composite)"
+msgstr ""
+"Verwende EXA anstelle von XAA (bessere Performance für Render und Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -1623,6 +1626,11 @@ msgstr "Einige PS/2 & USB Mäuse"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
@@ -1735,4 +1743,3 @@ msgstr "Maus Test"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Bitte testen Sie Ihre Maus:"
-

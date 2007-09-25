@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX HEAD\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2005-03-19 23:18+0600\n"
 "Last-Translator: Samia <mailsamia2001@yahoo.com>\n"
 "Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
@@ -1612,8 +1612,13 @@ msgstr "সর্বজনীন"
 msgid "Any PS/2 & USB mice"
 msgstr "যে কোন PS/2 এবং ইউএসবি মাউস"
 
-# sam
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+# sam
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "মাইক্রোসফ্ট Xbox Controller S"

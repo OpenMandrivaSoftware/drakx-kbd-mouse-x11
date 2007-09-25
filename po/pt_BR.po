@@ -18,7 +18,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-05-21 11:02-0300\n"
 "Last-Translator: Felipe Arruda <felipemiguel@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
@@ -119,8 +119,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"O driver proprietário não foi devidamente instalado, usando o driver free software "
-"por padrão."
+"O driver proprietário não foi devidamente instalado, usando o driver free "
+"software por padrão."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -1847,6 +1847,11 @@ msgid "Any PS/2 & USB mice"
 msgstr "Qualquer mouse PS/2 ou USB"
 
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Controlador S para Microsoft Xbox"

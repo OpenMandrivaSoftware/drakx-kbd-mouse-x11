@@ -13,9 +13,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-09-06 09:24+0200\n"
-"Last-Translator: Tomasz Bednarski - Mandriva Poland <tomasz.bednarski@mandriva.pl>\n"
+"Last-Translator: Tomasz Bednarski - Mandriva Poland <tomasz."
+"bednarski@mandriva.pl>\n"
 "Language-Team: pl <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -112,7 +113,9 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr "Sterownik własnościowy nie został prawidłowo zainstalowany. Przywracanie sterownika otwartego."
+msgstr ""
+"Sterownik własnościowy nie został prawidłowo zainstalowany. Przywracanie "
+"sterownika otwartego."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -1616,6 +1619,11 @@ msgstr "Dowolna mysz PS/2 i USB"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Kontroler S Microsoft Xbox"
 
@@ -1728,4 +1736,3 @@ msgstr "Test myszy"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Przetestuj swoją mysz:"
-

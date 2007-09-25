@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-hi\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2004-04-04 21:54+0530\n"
 "Last-Translator: धनञ्जय शर्मा (Dhananjaya Sharma) <dysxhi@yahoo.co.in>\n"
 "Language-Team: हिन्दी (Hindi) <dysxhi@yahoo.co.in>\n"
@@ -1597,6 +1597,11 @@ msgid "Any PS/2 & USB mice"
 msgstr "कोई भी पीएस/२ व यूएसबी माउस"
 
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
 #, fuzzy, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "माइक्रोसॉफ़्ट एक्सप्लोरर"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-09-11 22:53+0200\n"
 "Last-Translator: Arpad Biro <biro_arpad@yahoo.com>\n"
 "Language-Team: \n"
@@ -107,9 +107,9 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"A kötött licencelésű (zárt) meghajtóprogram nem lett megfelelően "
-"telepítve, ezért az alapértelmezés szerinti szabad szoftveres "
-"meghajtóprogram lesz használva."
+"A kötött licencelésű (zárt) meghajtóprogram nem lett megfelelően telepítve, "
+"ezért az alapértelmezés szerinti szabad szoftveres meghajtóprogram lesz "
+"használva."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -459,7 +459,8 @@ msgstr "Külső monitorra kapcsoló BIOS-os billentyűkombináció engedélyezé
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "EXA használata XAA helyett (növeli a Render és a Composite teljesítményét)"
+msgstr ""
+"EXA használata XAA helyett (növeli a Render és a Composite teljesítményét)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -469,7 +470,8 @@ msgstr "Indítás grafikus módban"
 #: ../lib/Xconfig/various.pm:229
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr "Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
+msgstr ""
+"Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -1612,6 +1614,11 @@ msgstr "Bármilyen PS/2- vagy USB-egér"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
@@ -1724,4 +1731,3 @@ msgstr "Egértesztelés"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Tesztelje le az egeret:"
-

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libDrakX\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-01-18 17:50+0200\n"
 "Last-Translator: Pavel Maryanov <acid_jack@ukr.net>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -1612,6 +1612,11 @@ msgid "Any PS/2 & USB mice"
 msgstr "Любая PS/2 & USB мышь"
 
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Контроллер S"

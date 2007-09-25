@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-07-17 01:24+0300\n"
 "Last-Translator: Dotan Kamber <kamberd@yahoo.com>\n"
 "Language-Team: Hebrew\n"
@@ -1607,6 +1607,11 @@ msgstr "כל עכבר PS/2 ו-USB"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
@@ -1719,4 +1724,3 @@ msgstr "בדיקת העכבר"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "נא לבדוק את העכבר:"
-

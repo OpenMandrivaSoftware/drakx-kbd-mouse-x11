@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-sv\n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-03-18 12:24+0100\n"
 "Last-Translator: Kenneth Krekula <kenneth.krekula@kiruna.se>\n"
 "Language-Team:  <sv@li.org>\n"
@@ -1616,6 +1616,11 @@ msgid "Any PS/2 & USB mice"
 msgstr "Valfri PS/2- eller USB-mus"
 
 #: ../lib/mouse.pm:86
+#, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsofts XBOX kontrollenheter"

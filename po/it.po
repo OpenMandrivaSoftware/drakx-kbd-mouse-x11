@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-09-13 23:09+0200\n"
 "Last-Translator: Andrea Celli <andrea.celli@libero.it>\n"
 "Language-Team: Italian <timl@freelists.org>\n"
@@ -112,8 +112,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"Il driver proprietario non ha potuto essere installato correttamente, "
-"in mancanza verrà usato il driver libero."
+"Il driver proprietario non ha potuto essere installato correttamente, in "
+"mancanza verrà usato il driver libero."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -224,7 +224,8 @@ msgstr "Marca"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr "Il rilevamento Plug'n Play non è riuscito. Indica il modello del monitor."
+msgstr ""
+"Il rilevamento Plug'n Play non è riuscito. Indica il modello del monitor."
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -1618,6 +1619,11 @@ msgstr "Qualsiasi mouse PS/2 o USB"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Controller S per Microsoft Xbox"
 
@@ -1730,4 +1736,3 @@ msgstr "Prova del mouse"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Per favore prova il mouse:"
-

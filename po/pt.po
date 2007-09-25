@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-07-23 07:24+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
@@ -233,7 +233,8 @@ msgstr "Marca"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr "Verificação 'Plug'n Play' falhada. Por favor escolha o monitor correcto"
+msgstr ""
+"Verificação 'Plug'n Play' falhada. Por favor escolha o monitor correcto"
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -470,7 +471,8 @@ msgstr "Activar atalhos da BIOS para mudanças de saída externa"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Usar EXA em vez de XAA (melhor performance para Composição e Refrescamento)"
+msgstr ""
+"Usar EXA em vez de XAA (melhor performance para Composição e Refrescamento)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -1623,6 +1625,11 @@ msgstr "Qualquer rato PS/2 & USB"
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Controlador Microsoft Xbox S"
 
@@ -1735,4 +1742,3 @@ msgstr "Teste do Rato"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Por favor teste o seu rato:"
-
