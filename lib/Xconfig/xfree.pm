@@ -188,7 +188,7 @@ sub get_resolutions {
     my $Screen = $o_Screen || $raw_X->get_default_screen or return {};
     
     my $depth = val($Screen->{DefaultColorDepth} || $Screen->{DefaultDepth});
-    my $Display = find { !$depth || val($_->{l}{Depth}) eq $depth } @{$Screen->{Display} || []} or return {};
+    my $Display = find { !$depth || val($_->{l}{Depth}) eq $depth } @{$Screen->{Display} || []} or return { automatic => 1 };
     my $s = val($Display->{l}{Virtual} || $Display->{l}{Modes});
     my @l;
     while ($s =~ /(\d+)(x|\s+)(\d+)/g) {
@@ -204,21 +204,26 @@ sub set_resolutions {
     
     foreach my $Screen ($o_Screen ? $o_Screen : $raw_X->get_Sections('Screen')) {
 	$Screen ||= $raw_X->get_default_screen or internal_error('no screen');
-
-	#- if the existing config is using Virtual, keep Virtual, otherwise default to Modes
-	my $Mode_name = (any { $_->{l}{Virtual} } @{$Screen->{Display} || []}) ? 'Virtual' : 'Modes';
-	
-	my @l = $Mode_name eq 'Modes' ? @$resolutions : first(@$resolutions);
-	my @Modes = map { sprintf($Mode_name eq 'Modes' ? '"%dx%d"' : '%d %d', @$_{'X', 'Y'}) } @l;
 	
 	delete $Screen->{DefaultDepth};
 	$only_resolution &&= $Screen->{DefaultColorDepth} && $Screen->{DefaultColorDepth}{val} eq $Depth;
-	$Screen->{DefaultColorDepth} = { val => $Depth };
-	$Screen->{Display} = [ map {
-	    { l => { Depth => { val => $_ }, $Mode_name => { val => join(' ', @Modes) } } };
-	} 8, 15, 16, 24 ];
+	if ($resolutions->[0]{X}) {
+	    #- if the existing config is using Virtual, keep Virtual, otherwise default to Modes
+	    my $Mode_name = (any { $_->{l}{Virtual} } @{$Screen->{Display} || []}) ? 'Virtual' : 'Modes';
+
+	    my @l = $Mode_name eq 'Modes' ? @$resolutions : first(@$resolutions);
+	    my @Modes = map { sprintf($Mode_name eq 'Modes' ? '"%dx%d"' : '%d %d', @$_{'X', 'Y'}) } @l;
+
+	    $Screen->{DefaultColorDepth} = { val => $Depth };
+	    $Screen->{Display} = [ map {
+		{ l => { Depth => { val => $_ }, $Mode_name => { val => join(' ', @Modes) } } };
+	    } 8, 15, 16, 24 ];
+	} else {
+	    delete $Screen->{DefaultColorDepth};
+	    delete $Screen->{Display};
+	}
     }
-    add_gtf_ModeLines($raw_X, $resolutions);
+    add_gtf_ModeLines($raw_X, $resolutions) if $resolutions->[0]{X};
 
     $raw_X->{after_set_resolutions} = $only_resolution ? $raw_X->prepare_write : '';
 }

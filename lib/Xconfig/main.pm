@@ -224,7 +224,7 @@ sub export_to_install_X {
     my ($X) = @_;
 
     my $resolution = $X->{resolutions}[0];
-    $::o->{X}{resolution_wanted} = $resolution->{X} . 'x' . $resolution->{Y} if $resolution->{X};
+    $::o->{X}{resolution_wanted} = $resolution->{automatic} ? 'automatic' : $resolution->{X} . 'x' . $resolution->{Y};
     $::o->{X}{default_depth} = $resolution->{Depth} if $resolution->{Depth};
     $::o->{X}{bios_vga_mode} = $resolution->{bios} if $resolution->{bios};
     $::o->{X}{monitors} = $X->{monitors} if $X->{monitors}[0]{manually_chosen} && $X->{monitors}[0]{vendor} ne "Plug'n Play";

@@ -69,7 +69,8 @@ sub to_string {
     my ($resolution) = @_;
     $resolution or return '';
 
-    $resolution->{X} ? sprintf("%sx%s %dbpp", @$resolution{'X', 'Y', 'Depth'}) : 'frame-buffer';
+    $resolution->{automatic} ? N("Automatic") :
+      $resolution->{X} ? sprintf("%sx%s %dbpp", @$resolution{'X', 'Y', 'Depth'}) : 'frame-buffer';
 }
 
 sub allowed {
@@ -128,7 +129,7 @@ sub choose {
     $in->ask_from(N("Resolutions"), "",
 		  [ {
 		     val => \$resolution, type => 'list', sort => 0,
-		     list => [ sort { $a->{X} <=> $b->{X} } @resolutions ],
+		     list => [ (sort { $a->{X} <=> $b->{X} } @resolutions), { automatic => 1 } ],
 		     format => \&to_string,
 		    } ]) or return;
     $resolution;
@@ -212,29 +213,35 @@ sub configure {
 sub configure_auto_install {
     my ($raw_X, $card, $monitors, $old_X) = @_;
 
-    my $resolution_wanted = do {
-	my ($X, $Y) = split('x', $old_X->{resolution_wanted});
-	{ X => $X, Y => $Y, Depth => $old_X->{default_depth} };
-    };
+    my ($default_resolution, @resolutions);
+    if ($old_X->{resolution_wanted} eq 'automatic' || 1) {
+	$default_resolution = { automatic => 1 };
+    } else {
+	my $resolution_wanted = do {
+	    my ($X, $Y) = split('x', $old_X->{resolution_wanted});
+	    { X => $X, Y => $Y, Depth => $old_X->{default_depth} };
+	};
 
-    my ($default_resolution, @resolutions) = choices($raw_X, $resolution_wanted, $card, $monitors);
-    $default_resolution or die "you selected an unusable depth";
-
+	($default_resolution, @resolutions) = choices($raw_X, $resolution_wanted, $card, $monitors);
+	$default_resolution or die "you selected an unusable depth";
+    }
     set_resolution($raw_X, $default_resolution, @resolutions);
 }
 
 sub set_resolution {
     my ($raw_X, $resolution, @other) = @_; 
 
-    my $ratio = resolution2ratio($resolution, 'non-strict');
-    @other = uniq_ { $_->{X} . 'x' . $_->{Y} } @other;
-    @other = grep { $_->{X} < $resolution->{X} } @other;
-    @other = filter_on_ratio($ratio, @other);
-    my $resolutions = [ $resolution, @other ];
+    if (!$resolution->{automatic}) {
+	my $ratio = resolution2ratio($resolution, 'non-strict');
+	@other = uniq_ { $_->{X} . 'x' . $_->{Y} } @other;
+	@other = grep { $_->{X} < $resolution->{X} } @other;
+	@other = filter_on_ratio($ratio, @other);
 
+	set_default_background($resolution);
+	set_915resolution($resolution) if is_915resolution_configured();
+    }
+    my $resolutions = [ $resolution, @other ];
     $raw_X->set_resolutions($resolutions);
-    set_default_background($resolution);
-    set_915resolution($resolution) if is_915resolution_configured();
     $resolutions;
 }
 sub set_default_background {
@@ -331,6 +338,7 @@ sub choose_gtk {
 	@matching_ratio = filter_on_ratio($chosen_ratio, @resolutions);
 	gtkval_modify(\$proposed_resolutions, [ 
 	    (reverse uniq_ { $res2text->($_) } @matching_ratio),
+	    { automatic => 1, text => N_("Automatic") },
 	    if_($chosen_ratio, { text => N_("Other") }),
 	]);
 	if (!$filter_on_res->(@matching_ratio)) {
@@ -356,9 +364,11 @@ sub choose_gtk {
 			   format => sub { $_[0]{text} ? translate($_[0]{text}) : &$res2text },
 			   list_ref => \$proposed_resolutions,
 			   changed => sub {
-			       if ($chosen_res->{text}) {
+			       if ($chosen_res->{text} eq 'Other') {
 				   undef $chosen_ratio;
 				   $set_proposed_resolutions->($previous_res);
+			       } elsif ($chosen_res->{text} eq 'Automatic') {
+				   # TODO: disable depth choice
 			       } else {
 				   my @matching_res = $filter_on_res->(@matching_ratio);
 				   if (!$filter_on_Depth->(@matching_res)) {
@@ -375,7 +385,8 @@ sub choose_gtk {
     my $pixmap_mo = gtknew('Image', 
 			   file_ref => \$chosen_res,
 			   format => sub {
-			       $monitor_images_x_res{$_[0]{X}} or internal_error("no image for resolution $chosen_res->{X}");
+			       my $X = $_[0]{X} || '1024';
+			       $monitor_images_x_res{$X} or internal_error("no image for resolution $X");
 			   });
 
     my $help_sub = $in->interactive_help_sub_display_id('configureX_resolution');
@@ -401,9 +412,13 @@ sub choose_gtk {
 
     $W->main or return;
 
-    find { $_->{X} == $chosen_res->{X} && 
-	   $_->{Y} == $chosen_res->{Y} && 
-	   $_->{Depth} == $chosen_Depth } @resolutions;
+    if ($chosen_res->{automatic}) {
+	$chosen_res;
+    } else {
+	find { $_->{X} == $chosen_res->{X} && 
+	       $_->{Y} == $chosen_res->{Y} && 
+	       $_->{Depth} == $chosen_Depth } @resolutions;
+    }
 }
 
 1;
