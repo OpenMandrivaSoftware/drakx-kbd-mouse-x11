@@ -150,6 +150,10 @@ sub choices {
 
     $_->{ratio} ||= resolution2ratio($_) foreach @resolutions;
 
+    if ($resolution_wanted->{automatic} || !$resolution_wanted->{X} && !$monitors->[0]{HorizSync}) {
+	return { automatic => 1 }, @resolutions;
+    }
+
     if ($resolution_wanted->{X} && !$resolution_wanted->{Y}) {
 	#- assuming ratio 4/3
 	$resolution_wanted->{Y} = round($resolution_wanted->{X} * 3 / 4);
@@ -197,7 +201,7 @@ sub configure {
 
     if ($b_auto) {
 	#- use $default_resolution
-	if ($card->{Driver} eq 'fglrx') {
+	if ($card->{Driver} eq 'fglrx' && !$default_resolution->{automatic}) {
 	    $default_resolution = first(find { $default_resolution->{Y} eq $_->{Y} && $_->{Depth} == 24 }
 					$default_resolution, @resolutions);
 	    $default_resolution ||= first(find { $_->{Depth} == 24 } $default_resolution, @resolutions);
@@ -310,8 +314,11 @@ sub choose_gtk {
     my $filter_on_res = sub {
 	grep { $_->{X} == $chosen_res->{X} && $_->{Y} == $chosen_res->{Y} } @_;
     };
-    #- $chosen_res must be one of @resolutions, so that it has a correct {ratio} field
-    $chosen_res = first($filter_on_res->(@resolutions)) || $resolutions[0];
+    my $automatic_resolution = { automatic => 1, text => N_("Automatic") };
+    $chosen_res = 
+      $default_resolution->{automatic} ? $automatic_resolution : 
+      #- $chosen_res must be one of @resolutions, so that it has a correct {ratio} field
+      first($filter_on_res->(@resolutions)) || $resolutions[0];
 
     require ugtk2;
     mygtk2->import;
@@ -338,15 +345,17 @@ sub choose_gtk {
 	@matching_ratio = filter_on_ratio($chosen_ratio, @resolutions);
 	gtkval_modify(\$proposed_resolutions, [ 
 	    (reverse uniq_ { $res2text->($_) } @matching_ratio),
-	    { automatic => 1, text => N_("Automatic") },
+	    $automatic_resolution,
 	    if_($chosen_ratio, { text => N_("Other") }),
 	]);
-	if (!$filter_on_res->(@matching_ratio)) {
+	if ($suggested_res->{automatic}) {
+	    gtkval_modify(\$chosen_res, $automatic_resolution);
+	} elsif (!$filter_on_res->(@matching_ratio)) {
 	    my $res = $suggested_res || find { $_->{X} == $chosen_res->{X} } @matching_ratio;
 	    gtkval_modify(\$chosen_res, $res || $matching_ratio[0]);
 	}
     };
-    $set_proposed_resolutions->();
+    $set_proposed_resolutions->($chosen_res);
 
     my $depth_combo = gtknew('ComboBox', width => 220, 
 			     text_ref => \$chosen_Depth,
@@ -354,34 +363,34 @@ sub choose_gtk {
 			     list => [ uniq(reverse map { $_->{Depth} } @resolutions) ],
 			     changed => sub {
 				 my @matching_Depth = $filter_on_Depth->(@matching_ratio);
-				 if (!$filter_on_res->(@matching_Depth)) {
+				 if (!$filter_on_res->(@matching_Depth) && !$chosen_res->{automatic}) {
 				     gtkval_modify(\$chosen_res, $matching_Depth[0]);
 				 }
 			     });
+    my $pix_colors = gtknew('Image', 
+			    file_ref => \$chosen_Depth,
+			    format => sub {
+				$_[0] >= 24 ? "colors.png" : $_[0] >= 15 ? "colors16.png" : "colors8.png";
+			    });
     my $previous_res = $chosen_res;
     my $res_combo = gtknew('ComboBox', 
 			   text_ref => \$chosen_res,
 			   format => sub { $_[0]{text} ? translate($_[0]{text}) : &$res2text },
 			   list_ref => \$proposed_resolutions,
 			   changed => sub {
+			       $pix_colors->set_sensitive(!$chosen_res->{automatic});
+			       $depth_combo->set_sensitive(!$chosen_res->{automatic});
 			       if ($chosen_res->{text} eq 'Other') {
 				   undef $chosen_ratio;
 				   $set_proposed_resolutions->($previous_res);
-			       } elsif ($chosen_res->{text} eq 'Automatic') {
-				   # TODO: disable depth choice
-			       } else {
+			       } elsif (!$chosen_res->{automatic}) {
 				   my @matching_res = $filter_on_res->(@matching_ratio);
 				   if (!$filter_on_Depth->(@matching_res)) {
 				       gtkval_modify(\$chosen_Depth, $matching_res[0]{Depth});
 				   }
-				   $previous_res = $chosen_res;
 			       }
+			       $previous_res = $chosen_res;
 			   });
-    my $pix_colors = gtknew('Image', 
-			    file_ref => \$chosen_Depth,
-			    format => sub {
-				$_[0] >= 24 ? "colors.png" : $_[0] >= 15 ? "colors16.png" : "colors8.png";
-			    });
     my $pixmap_mo = gtknew('Image', 
 			   file_ref => \$chosen_res,
 			   format => sub {
