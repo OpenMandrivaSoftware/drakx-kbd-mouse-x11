@@ -1849,7 +1849,7 @@ msgstr "Qualquer mouse PS/2 ou USB"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Forçar evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1874,7 +1874,7 @@ msgstr "Testando o mouse"
 #: ../lib/mouse.pm:516
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Por favor, escolha o modelo do seu mouse."
+msgstr "Por favor, escolha o tipo do seu mouse."
 
 #: ../lib/mouse.pm:517
 #, c-format
@@ -1929,7 +1929,7 @@ msgstr "MOVA SUA RODA!"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "Você precisa reiniciar a máquina para que as mudanças entrem em vigor "
+msgstr "Você precisa reiniciar a máquina para que as mudanças sejam efetivadas"
 
 #: ../tools/keyboarddrake:32
 #, c-format
@@ -1964,7 +1964,7 @@ msgstr "Teste de mouse"
 #: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
-msgstr "Favor testar seu mouse: "
+msgstr "Favor testar seu mouse:"
 
 #~ msgid "Xgl is an additional graphical server that adds 3D desktop support."
 #~ msgstr ""
