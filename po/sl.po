@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-09-25 22:33+0200\n"
+"PO-Revision-Date: 2007-09-25 22:37+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenščina <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
@@ -1615,7 +1615,7 @@ msgstr "Katerakoli miška PS/2 ali USB"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr "Vsili splošni vmesnik za vhod (evdev)"
+msgstr "Vsili splošni vmesnik za vhodne naprave (evdev)"
 
 #: ../lib/mouse.pm:87
 #, c-format
