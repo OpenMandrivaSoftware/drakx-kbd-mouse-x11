@@ -223,9 +223,10 @@ sub write {
 sub export_to_install_X {
     my ($X) = @_;
 
-    $::o->{X}{resolution_wanted} = $X->{resolutions}[0]{X} . 'x' . $X->{resolutions}[0]{Y};
-    $::o->{X}{default_depth} = $X->{resolutions}[0]{Depth};
-    $::o->{X}{bios_vga_mode} = $X->{resolutions}[0]{bios};
+    my $resolution = $X->{resolutions}[0];
+    $::o->{X}{resolution_wanted} = $resolution->{X} . 'x' . $resolution->{Y} if $resolution->{X};
+    $::o->{X}{default_depth} = $resolution->{Depth} if $resolution->{Depth};
+    $::o->{X}{bios_vga_mode} = $resolution->{bios} if $resolution->{bios};
     $::o->{X}{monitors} = $X->{monitors} if $X->{monitors}[0]{manually_chosen} && $X->{monitors}[0]{vendor} ne "Plug'n Play";
     $::o->{X}{card} = $X->{card} if $X->{card}{manually_chosen};
     $::o->{X}{Xinerama} = 1 if $X->{card}{Xinerama};
@@ -234,7 +235,7 @@ sub export_to_install_X {
 sub check_valid {
     my ($raw_X) = @_;
 
-    my %sections = map { 
+    my %_sections = map { 
 	my @l = $raw_X->get_Sections($_) or return "missing section $_";
 	$_ => \@l;
     } qw(InputDevice Monitor Device Screen ServerLayout);
