@@ -1,3 +1,274 @@
+2007-09-25 19:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/fr.po: update
+
+2007-09-25 19:54  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
+	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
+	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: sync with code
+
+2007-09-25 19:51  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* lib/Xconfig/main.pm, lib/Xconfig/monitor.pm, po/af.po, po/am.po,
+	  po/ar.po, po/az.po, po/be.po, po/bg.po, po/bn.po, po/br.po,
+	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
+	  po/drakx-kbd-mouse-x11.pot, po/el.po, po/eo.po, po/es.po,
+	  po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po,
+	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
+	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ky.po,
+	  po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
+	  po/mt.po, po/nb.po, po/nl.po, po/nn.po, po/pa_IN.po, po/pl.po,
+	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po,
+	  po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po,
+	  po/tg.po, po/th.po, po/tl.po, po/tr.po, po/uk.po, po/uz.po,
+	  po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: add
+	  context for "Monitor" (#33773)
+
+2007-09-25 14:51  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.30
+
+2007-09-25 14:44  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/resolution_and_depth.pm: - select "Automatic"
+	  resolution if it was previously chosen
+	  - gray Depth widgets when "Automatic" is selected
+
+2007-09-25 14:15  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/monitor.pm: oops, revert debug code
+
+2007-09-25 14:12  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: - when user asks for "Plug'n Play",
+	  silently default to Xorg auto-detection
+	  when we fail to auto-detect
+
+2007-09-25 14:01  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/main.pm, lib/Xconfig/resolution_and_depth.pm,
+	  lib/Xconfig/xfree.pm: - add support for "Automatic" resolution
+	  (aka "let xorg do everything")
+
+2007-09-25 13:58  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/various.pm: cleanup (and prepare for next commits)
+
+2007-09-25 13:30  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/main.pm: - cleanup
+	  - don't export_to_install_X unset things
+	  (will help for next commits)
+
+2007-09-21 12:42  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile.config, NEWS: 0.29
+
+2007-09-21 11:28  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: unload drivers loaded by
+	  monitor-probe-using-X (fix fglrx usage when harddrake probes
+	  using X and loads radeon driver)
+
+2007-09-20 18:42  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.28
+
+2007-09-20 18:40  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/mouse.pm: - when using evdev for mice, ensure it
+	  doesn't match a keyboard
+	  (eg: in case of a mouse+keyboard combo) (#32905)
+
+2007-09-20 07:03  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: - fix regression in 0.24: remove
+	  bogus duplicates in monitors tree (#33778)
+
+2007-09-20 04:47  Funda Wang <fundawang at linux.net.cn>
+
+	* po/cy.po: Updated cy translation
+
+2007-09-19 17:40  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.27
+
+2007-09-19 13:43  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm, lib/mouse.pm: - for evdev configured
+	  mice, specify bustype
+	  (useful for "Macintosh mouse button emulation" which has same
+	  vendor/product
+	  as "AT Translated Set 2 keyboard")
+	  (need drakxtools-backend 10.4.203)
+
+2007-09-18 08:27  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+
+	* po/cs.po: Updated Czech translation.
+
+2007-09-17 13:58  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.26
+
+2007-09-15 19:55  Reinout van Schouwen <reinout at cs.vu.nl>
+
+	* po/nl.po: * 2007-09-15 Reinout van Schouwen <reinouts@gnome.org>
+	  
+	  - nl.po : Updated Dutch translation
+
+2007-09-15 17:04  anssi
+
+	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: Handle the
+	  new fglrx-hd2000 alternative driver.
+
+2007-09-14 13:18  Per Øyvind Karlsen <peroyvind at mandriva.org>
+
+	* po/nb.po: completed translation
+
+2007-09-13 21:09  acelli
+
+	* po/it.po: update translation for Italian
+
+2007-09-11 20:57  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: update
+
+2007-09-11 20:49  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+
+	* po/pt_BR.po: updated pt_BR translation
+
+2007-09-10 07:31  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.25
+
+2007-09-10 07:31  Pixel <pixel at mandriva.com>
+
+	* NEWS: - in the list of available Xorg drivers, add "Driver" from
+	  Cards+
+	  (will ease the maintainance of the list of drivers in
+	  Xconfig/card.pm)
+	  
+	  (see previous commit in card.pm)
+
+2007-09-10 07:29  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/card.pm: - in the list of available Xorg drivers, add
+	  "Driver" from Cards+
+	  (will ease the maintainance of the list of drivers in
+	  Xconfig/card.pm)
+
+2007-09-09 10:50  jure
+
+	* po/sl.po: Updated Slovenian translation
+
+2007-09-07 12:31  Tomasz Bednarski <tbednarski at mandrivalinux.pl>
+
+	* po/pl.po: update
+
+2007-09-07 10:40  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/mouse.pm: - minimal support for allowing to choose
+	  evdev on all mice
+
+2007-09-07 09:53  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.24
+
+2007-09-07 09:52  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: revert titi commit which added XFS
+	  configuration again.
+	  
+	  AFAIK, there is no reason to need XFS.
+	  as for
+	  http://archives.mandrivalinux.com/cooker/2007-07/msg04653.php,
+	  it's
+	  simply the result of a badly configured X fontpath. We just have
+	  to ensure
+	  upgrades go smoothly. (nb: XFdrake do not *remove* existing XFS
+	  configuration
+	  from xorg.conf, it simply to not put one when starting from
+	  scratch)
+
+2007-09-06 07:21  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: - keep the order from MonitorsDB
+	  file
+	  (allows "Flat Panel 800x600" to be before "Flat Panel 1024x768")
+	  (needs a nicely sorted MonitorsDB though)
+
+2007-09-06 07:20  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - fix default_headers when XFS is
+	  installed
+	  
+	  (ie fixtitypo)
+	  (and do we really want to configure for XFS even if it is not
+	  enabled?)
+
+2007-09-06 06:37  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.23
+
+2007-09-06 06:37  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/test.pm: - do not start xfs for the test
+	  (#33219)
+
+2007-08-29 17:20  nbauer
+
+	* po/de.po: Update German translation (Nicolas Bauer)
+
+2007-08-27 14:32  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.22
+
+2007-08-27 13:36  anssi
+
+	* NEWS, lib/Xconfig/proprietary.pm: handle the renamed proprietary
+	  ati driver (ati => x11-driver-video-fglrx)
+
+2007-08-27 13:31  anssi
+
+	* NEWS, lib/Xconfig/card.pm: - use standard.conf as default gl_conf
+	  alternative
+	  - do not add additional libglx ModulePaths for nvidia anymore
+
+2007-08-27 11:54  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/various.pm: (setupFB) don't die if no bootloader is
+	  configured
+	  (mostly for auto_installs in drakx-in-chroot with broken pci
+	  detection)
+
+2007-08-21 18:02  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: updated po file
+
+2007-08-21 12:55  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: do configure XFS if installed
+
+2007-08-21 12:45  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* ChangeLog: Generated by cvs2cl the 21_Aug
+
+2007-08-14 13:25  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* Makefile: use -rBASE for svn export in order to please blino by
+	  making sure local changes do not got exported
+
 2007-08-14 13:25  Thierry Vignaud <tvignaud at mandriva.com>
 
 	* Makefile: use -rBASE for svn export in order to please blino by
