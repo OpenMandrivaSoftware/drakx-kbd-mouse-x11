@@ -1,3 +1,5 @@
+Version 0.30 - 25 September 2007, by Pascal "Pixel" Rigaux
+
 - add support for "Automatic" resolution (aka "let xorg do everything")
 - when user asks for "Plug'n Play", silently default to Xorg auto-detection
   when we fail to auto-detect
