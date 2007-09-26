@@ -80,7 +80,7 @@ sub may_use_Driver2 {
 	-e "$::prefix$libglx_path/libglx.so" or log::l("special NVIDIA libglx missing"), return;
 
 	log::explanations("Using specific NVIDIA driver and GLX extensions");
-	$card2->{DRI_GLX_SPECIAL} = $libglx_path;
+	$card2->{DRI_GLX_SPECIAL} = 1;
 	$card2->{Options}{IgnoreEDID} = 1 if $card2->{DriverVersion} ne '-current';
 	$card2;
     } elsif ($card2->{Driver} eq 'fglrx') {

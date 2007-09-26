@@ -40,7 +40,7 @@ sub from_raw_X {
 
     my $card = {
 	use_DRI_GLX  => eval { any { /dri/ } $raw_X->get_modules },
-	DRI_GLX_SPECIAL => first($raw_X->get_ModulePaths),
+	DRI_GLX_SPECIAL => $device->{Driver} eq 'nvidia' && eval { any { $_ eq 'glx' } $raw_X->get_modules },
 	%$device,
 	if_($device->{Driver} eq 'nvidia',
 	    DriverVersion => 
