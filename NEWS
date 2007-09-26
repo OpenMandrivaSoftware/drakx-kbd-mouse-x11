@@ -1,3 +1,5 @@
+Version 0.32 - 26 September 2007, by Pascal "Pixel" Rigaux
+
 - monitor-probe-using-X can now return EDIDs. if Xorg find an EDID (whereas
   monitor-get-edid-using-vbe failed), defaults to "Plug'n Play" monitor (ie
   let Xorg do things automatically) instead of good_default_monitor.
