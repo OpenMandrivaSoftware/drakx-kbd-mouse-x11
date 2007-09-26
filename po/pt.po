@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-07-23 07:24+0100\n"
+"PO-Revision-Date: 2007-09-26 11:41+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -88,7 +88,7 @@ msgstr "Escolha um servidor X"
 #: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
-msgstr "Configuração Multi-cabeça"
+msgstr "Configuração multi-cabeça"
 
 #: ../lib/Xconfig/card.pm:208
 #, c-format
@@ -96,7 +96,7 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"O seu sistema suporta configuração de cabeças múltiplas.\n"
+"O seu sistema suporta a configuração de cabeças múltiplas.\n"
 "O que deseja fazer?"
 
 #: ../lib/Xconfig/card.pm:279
@@ -111,8 +111,8 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Existe um controlador proprietário disponível para a sua placa gráfica que "
-"pode suportar funcionalidades adicionais.\n"
+"Existe um controlador proprietário disponível para a sua placa gráfica "
+"que pode suportar funcionalidades adicionais.\n"
 "Deseja-o usar?"
 
 #: ../lib/Xconfig/card.pm:331
@@ -122,7 +122,7 @@ msgid ""
 "software driver."
 msgstr ""
 "O controlador proprietário não foi devidamente instalado, a usar por "
-"predefinição o controlador livre."
+"predefinição o controlador de código livre."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -190,7 +190,7 @@ msgstr "'Plugins'"
 #: ../lib/Xconfig/main.pm:182
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "O seu ficheiro de configuração Xorg está danificado, irá ser ignorado."
+msgstr "O seu ficheiro de configuração Xorg está danificado, será ignorado."
 
 #: ../lib/Xconfig/main.pm:201
 #, c-format
@@ -233,8 +233,7 @@ msgstr "Marca"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr ""
-"Verificação 'Plug'n Play' falhada. Por favor escolha o monitor correcto"
+msgstr "Verificação 'Plug'n Play' falhada. Por favor seleccione o monitor correcto"
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -471,8 +470,7 @@ msgstr "Activar atalhos da BIOS para mudanças de saída externa"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Usar EXA em vez de XAA (melhor performance para Composição e Refrescamento)"
+msgstr "Usar EXA em vez de XAA (melhor performance para Composição e Refrescamento)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -1611,7 +1609,7 @@ msgstr "3 botões"
 #: ../lib/mouse.pm:80
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "3 botões com emulação de Roda"
+msgstr "3 botões com emulação da Roda"
 
 #: ../lib/mouse.pm:83
 #, c-format
@@ -1626,7 +1624,7 @@ msgstr "Qualquer rato PS/2 & USB"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Forçar evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1666,12 +1664,12 @@ msgstr "Emular o terceiro botão?"
 #: ../lib/mouse.pm:534
 #, c-format
 msgid "Mouse Port"
-msgstr "Porta do Rato"
+msgstr "Porto do Rato"
 
 #: ../lib/mouse.pm:535
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Por favor escolha a que porta série o rato está ligado."
+msgstr "Por favor escolha a que porto série o seu rato está ligado."
 
 #: ../lib/mouse.pm:544
 #, c-format
@@ -1706,7 +1704,7 @@ msgstr "MOVA A SUA RODA!"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "Precisa reiniciar para que as alterações tenham efeito"
+msgstr "Precisa reiniciar para que as alterações surtam efeito"
 
 #: ../tools/keyboarddrake:32
 #, c-format
@@ -1742,3 +1740,4 @@ msgstr "Teste do Rato"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Por favor teste o seu rato:"
+
