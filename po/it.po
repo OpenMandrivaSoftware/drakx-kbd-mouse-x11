@@ -5,15 +5,14 @@
 # Simone Riccio <s.riccio@aeb-informatica.it>, 2002.
 # Roberto Rosselli Del Turco <rosselli@ling.unipi.it>, 2001, 2002,2003.
 # Marco De Vitis <mdv@spin.it>, 2003.
-# Andrea Celli <a.celli@caltanet.it>, 2003, 2004, 2005, 2006.
 # Giuseppe Levi <giuseppe.levi@email.it>, 2005.
-# Andrea Celli <andrea.celli@libero.it>, 2007.
+# Andrea Celli <andrea.celli@libero.it>, 2003, 2004, 2005, 2006, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-09-13 23:09+0200\n"
+"PO-Revision-Date: 2007-09-26 19:51+0200\n"
 "Last-Translator: Andrea Celli <andrea.celli@libero.it>\n"
 "Language-Team: Italian <timl@freelists.org>\n"
 "MIME-Version: 1.0\n"
@@ -224,8 +223,7 @@ msgstr "Marca"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr ""
-"Il rilevamento Plug'n Play non è riuscito. Indica il modello del monitor."
+msgstr "Il rilevamento Plug'n Play non è riuscito. Indica il modello del monitor."
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -1620,7 +1618,7 @@ msgstr "Qualsiasi mouse PS/2 o USB"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Forza evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1736,3 +1734,4 @@ msgstr "Prova del mouse"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Per favore prova il mouse:"
+
