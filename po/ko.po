@@ -151,7 +151,7 @@ msgstr "그래픽 카드"
 msgid ""
 "_: This is a display device\n"
 "Monitor"
-msgstr ""
+msgstr "모니터"
 
 #: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
