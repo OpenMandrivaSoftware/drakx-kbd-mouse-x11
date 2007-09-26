@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-et\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-08-07 16:24+0200\n"
+"PO-Revision-Date: 2007-09-25 23:21+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1603,7 +1603,7 @@ msgstr "Suvaline PS/2 ja USB hiir"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Evdev jõuga"
 
 #: ../lib/mouse.pm:87
 #, c-format
