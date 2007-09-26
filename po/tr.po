@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-07-02 17:45+0800\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
 "PO-Revision-Date: 2007-09-26 16:26+0300\n"
 "Last-Translator: Taha Özket <taha.ozket@obss.net>\n"
 "Language-Team: Turkce <tr@li.org>\n"
@@ -153,8 +153,10 @@ msgstr "Grafik Kartı"
 
 #: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
 #, c-format
-msgid "Monitor"
-msgstr "Monitör"
+msgid ""
+"_: This is a display device\n"
+"Monitor"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
@@ -222,7 +224,8 @@ msgstr "Üretici"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr "Tak ve Çalıştır yöntemiyle monitör algılanamadı. Lütfen doğru modeli seçin"
+msgstr ""
+"Tak ve Çalıştır yöntemiyle monitör algılanamadı. Lütfen doğru modeli seçin"
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -1598,6 +1601,11 @@ msgstr ""
 
 #: ../lib/mouse.pm:86
 #, c-format
+msgid "Force evdev"
+msgstr ""
+
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
@@ -1711,3 +1719,5 @@ msgstr "Farenin denemesi"
 msgid "Please test your mouse:"
 msgstr "Lütfen farenizi deneyin:"
 
+#~ msgid "Monitor"
+#~ msgstr "Monitör"
