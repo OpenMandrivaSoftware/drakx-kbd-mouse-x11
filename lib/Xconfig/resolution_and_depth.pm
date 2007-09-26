@@ -218,7 +218,7 @@ sub configure_auto_install {
     my ($raw_X, $card, $monitors, $old_X) = @_;
 
     my ($default_resolution, @resolutions);
-    if ($old_X->{resolution_wanted} eq 'automatic' || 1) {
+    if ($old_X->{resolution_wanted} eq 'automatic') {
 	$default_resolution = { automatic => 1 };
     } else {
 	my $resolution_wanted = do {
