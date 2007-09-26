@@ -2,6 +2,7 @@
   monitor-get-edid-using-vbe failed), defaults to "Plug'n Play" monitor (ie
   let Xorg do things automatically) instead of good_default_monitor.
   (requires monitor-edid 1.12)
+- fix typo in 0.30: do not use "Automatic" resolution by default in --auto
 
 Version 0.31 - 25 September 2007, by Thierry Vignaud
 
