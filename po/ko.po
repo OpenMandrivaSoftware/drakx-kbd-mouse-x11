@@ -1,19 +1,22 @@
+# translation of ko(metanav).po to ahb hong-bae
 # Korean translation of drakbootdisk.
-# Copyright (C) 2001 Free Software Foundation, Inc.
-# Jaegeum Choe <baedaron@hananet.net>, 2001.
+# Copyright (C) 2001, 2007 Free Software Foundation, Inc.
 #
 # changes asked by HP people -- pablo 2003-01-23
 #
+# Jaegeum Choe <baedaron@hananet.net>, 2001.
+# meta <hbahn@metq.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX\n"
+"Project-Id-Version: ko(metanav)\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2002-09-09 09:08+0900\n"
-"Last-Translator: Jaegeum Cze <baedaron@hanafos.com>\n"
-"Language-Team: Korean <beadaron@hanafos.com>\n"
+"PO-Revision-Date: 2007-06-19 12:23+0900\n"
+"Last-Translator: meta <hbahn@metq.com>\n"
+"Language-Team: ahb hong-bae <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -76,13 +79,13 @@ msgid "Multi-head configuration"
 msgstr "다중 헤드 설정"
 
 #: ../lib/Xconfig/card.pm:208
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"님의 시스템은 다중 헤드 설정을 지원합니다.\n"
-"어떻게 하시겠습니까?"
+"현재 사용하는 시스템은 다중 헤드 설정을 지원합니다.\n"
+"어떻게 하겠습니까?"
 
 #: ../lib/Xconfig/card.pm:279
 #, c-format
@@ -96,6 +99,9 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"추가 기능을 지원하는 그래픽카드에는 저작권이 있는 드라이버를 사용할 수 있습니"
+"다.\n"
+"사용합니까?"
 
 #: ../lib/Xconfig/card.pm:331
 #, c-format
@@ -126,9 +132,9 @@ msgid "Custom"
 msgstr "사용자 정의"
 
 #: ../lib/Xconfig/main.pm:126
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "연결 설정"
+msgstr "그래픽 카드와 모니터 설정"
 
 #: ../lib/Xconfig/main.pm:127
 #, c-format
@@ -145,7 +151,7 @@ msgstr "그래픽 카드"
 msgid ""
 "_: This is a display device\n"
 "Monitor"
-msgstr "모니터"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
@@ -160,7 +166,7 @@ msgstr "테스트"
 #: ../lib/Xconfig/main.pm:143
 #, c-format
 msgid "Options"
-msgstr "옵션들"
+msgstr "선택사항"
 
 #: ../lib/Xconfig/main.pm:148
 #, c-format
@@ -171,6 +177,8 @@ msgstr "플러그인"
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr ""
+"Xorg 설정파일이 손상되었으므로, \n"
+"이 부분은 무시합니다."
 
 #: ../lib/Xconfig/main.pm:201
 #, c-format
@@ -186,14 +194,14 @@ msgstr ""
 "%s"
 
 #: ../lib/Xconfig/monitor.pm:110
-#, fuzzy, c-format
+#, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "모니터를 선택하세요"
+msgstr "설정할 모니터를 선택하시오. #%d"
 
 #: ../lib/Xconfig/monitor.pm:110
 #, c-format
 msgid "Choose a monitor"
-msgstr "모니터를 선택하세요"
+msgstr "모니터 선택"
 
 #: ../lib/Xconfig/monitor.pm:116
 #, c-format
@@ -214,6 +222,8 @@ msgstr "상표"
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
 msgstr ""
+"플러그 앤 플레이 탐색에 실패했습니다.\n"
+"정확한 모니터를 선택하십시오."
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -229,14 +239,13 @@ msgid ""
 "monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"수직 그리고 더욱 중요한 수평 주파수라는 두 개의 중요한 인자가 있습니다. 수직 "
-"주파수는 \n"
-"전체화면이 갱신되는 주기이며, 수평 주파수는 스캔라인들이 갱신되는 주기입니"
-"다.\n"
-"\n"
-"매우 중요: 님의 실제 모니터의 능력치를 넘어서는 모델을 선택하지 마세요: \n"
-"님의 모니터가 훼손될 수 있습니다.\n"
-"잘 모르겠다면, 안전하게 낮은 설정값을 선택하세요"
+"모니터에는 두 개의 중요한 인자.\n"
+" 수직 주사율. 그리고 더욱 중요한 수평 주파수라는 인자가 있습니다.\n"
+" 수직 주사율은 전체 화면에 뿌려지는 비율입니다.\n"
+" 수평 주파수는 스캔선이 표시되는 비율입니다.\n"
+" 이것은 싱크 범위와 함께 모니터 형식을 가리지 않고 매우 중요합니다.\n"
+"이것은 모니터의 능력과는 상관없이 모니터에 피해를 줄 수 있습니다. \n"
+"이에 대해 잘 모르신다면, 모니터 세팅은 건드리지 않는 것이 좋습니다. "
 
 #: ../lib/Xconfig/monitor.pm:143
 #, c-format
@@ -249,9 +258,9 @@ msgid "Vertical refresh rate"
 msgstr "수직 주파수"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "행동을 선택하세요"
+msgstr "플러그인을 선택하시오."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -316,12 +325,12 @@ msgstr "설정 테스트"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Do you want to test the configuration?"
-msgstr "이 설정을 테스트해 보시겠습니까?"
+msgstr "이 설정을 시험해 보시겠습니까?"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
+msgstr "주의: 그래픽 카드를 테스트 하는중에 컴퓨터가 멈출 수도 있습니다."
 
 #: ../lib/Xconfig/test.pm:69
 #, c-format
@@ -330,11 +339,14 @@ msgid ""
 "%s\n"
 "Try to change some parameters"
 msgstr ""
+"오류 발견:\n"
+"%s\n"
+"파라메터 값을 수정해 주십시오."
 
 #: ../lib/Xconfig/test.pm:130
-#, fuzzy, c-format
+#, c-format
 msgid "Leaving in %d seconds"
-msgstr "%d 초"
+msgstr "%d 초 지남"
 
 #: ../lib/Xconfig/test.pm:130
 #, fuzzy, c-format
@@ -344,7 +356,7 @@ msgstr "이것이 맞습니까?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "3D 하드웨어 가속 : %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -409,54 +421,54 @@ msgstr "그래픽 카드: %s"
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "3D 하드웨어 가속"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "투명도 사용(Composite extension)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "하드웨어 가속된 마우스 포인터 사용"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "렌더 가속 사용(이것은 문자 표현시 버그가 발생할 수 있습니다."
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "외부 모니터 상에 중복 화면 사용"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "두번째 화면 위에 중복화면 사용"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "외부 모니터에 스위칭 하기 위한 BIOS hotkey 사용"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "XAA 대신 EXA사용(랜더와 합성에서 더 나은 성능을 나타냄)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Graphical interface at startup"
-msgstr "시작시 바로 X 실행"
+msgstr "시작시 바로 X-Window 실행"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
-"부팅시에 자동으로 X윈도우가 시작되도록 할수 있습니다.\n"
-"다시 부팅했을때 자동으로 X윈도가 시작되길 원하세요?"
+"부팅시에 자동으로 X-윈도우가 시작되도록 할수 있습니다.\n"
+"재부팅시 자동으로 X-윈도우를 시작할까요?"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -470,11 +482,18 @@ msgid ""
 "\n"
 "Do you have this feature?"
 msgstr ""
+"현재 시스템에 연결된 그래픽카드에 TV-OUT 연결단자가 있습니다.\n"
+"프레임버퍼를 사용하기 위해 설정할 수 있습니다.\n"
+"\n"
+"컴퓨터를 켜기 전에 TV에 그래픽카드 연결단자를 꽂으십시요.\n"
+"그러고 나면 bootloader에서 \"TVout\"목록을 선택하십시요.\n"
+"\n"
+"이 기능이 있습니까?"
 
 #: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
-msgstr "TV 카드가 어떤 놈을 사용합니까?"
+msgstr "TV 카드가 어떤 표준(norm)을 사용합니까?"
 
 #: ../lib/Xconfig/various.pm:348
 #, c-format
@@ -484,13 +503,17 @@ msgid ""
 "If your desktop appears to stretch beyond the edges of the display, \n"
 "installing %s may help fix the problem. Install it now?"
 msgstr ""
+"화면 해상도는 정확하지 않을 수 있습니다.\n"
+"\n"
+"만일 화면 모서리를 넘어서 화면이 나타날 경우 %s를 설치하여 \n"
+"문제를 해결할 수 있습니다. 지금 설치합니까?"
 
 #: ../lib/Xconfig/xfree.pm:770
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
 "other"
-msgstr ""
+msgstr "기타"
 
 #: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
 #, c-format
@@ -605,14 +628,14 @@ msgstr "미국 (음성학)"
 msgid ""
 "_: keyboard\n"
 "Arabic"
-msgstr ""
+msgstr "Arabic(아라비아)"
 
 #: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
-msgstr "Azerbaidjani (라틴)"
+msgstr "아제르바이잔 (라틴)"
 
 #: ../lib/keyboard.pm:202
 #, c-format
@@ -622,18 +645,18 @@ msgid ""
 msgstr "벨기에"
 
 #: ../lib/keyboard.pm:203
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
-msgstr "미국 (타자기)"
+msgstr "벵갈"
 
 #: ../lib/keyboard.pm:204
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
-msgstr "허용"
+msgstr "벵갈"
 
 #: ../lib/keyboard.pm:205
 #, c-format
@@ -657,18 +680,18 @@ msgid ""
 msgstr "브라질 (ABNT-2)"
 
 #: ../lib/keyboard.pm:208
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
-msgstr "에스토니아"
+msgstr "보스니아"
 
 #: ../lib/keyboard.pm:209
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr "에스토니아"
+msgstr "종카/티벳"
 
 #: ../lib/keyboard.pm:210
 #, c-format
@@ -692,11 +715,11 @@ msgid ""
 msgstr "스위스 (불어)"
 
 #: ../lib/keyboard.pm:214
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
-msgstr "세르비아 (시릴)"
+msgstr "체로키"
 
 #: ../lib/keyboard.pm:216
 #, c-format
@@ -717,7 +740,7 @@ msgstr "독일 (dead 키 없음)"
 msgid ""
 "_: keyboard\n"
 "Devanagari"
-msgstr ""
+msgstr "데봐나가리(범어)"
 
 #: ../lib/keyboard.pm:220
 #, c-format
@@ -734,25 +757,25 @@ msgid ""
 msgstr "드보락(US)"
 
 #: ../lib/keyboard.pm:222
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
-msgstr "드보락(노르웨이)"
+msgstr "드보락(에스페란토)"
 
 #: ../lib/keyboard.pm:223
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
-msgstr "드보락(노르웨이)"
+msgstr "드보락(프랑스)"
 
 #: ../lib/keyboard.pm:224
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
-msgstr "드보락(US)"
+msgstr "드보락(UK)"
 
 #: ../lib/keyboard.pm:225
 #, c-format
@@ -762,11 +785,11 @@ msgid ""
 msgstr "드보락(노르웨이)"
 
 #: ../lib/keyboard.pm:226
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
-msgstr "드보락(스웨덴)"
+msgstr "드보락(폴란드)"
 
 #: ../lib/keyboard.pm:227
 #, c-format
@@ -783,11 +806,11 @@ msgid ""
 msgstr "에스토니아"
 
 #: ../lib/keyboard.pm:231
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
-msgstr "그리스"
+msgstr "파로스"
 
 #: ../lib/keyboard.pm:234
 #, c-format
@@ -815,21 +838,21 @@ msgstr "그리스"
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
-msgstr ""
+msgstr "그리스(Polytonic)"
 
 #: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
-msgstr ""
+msgstr "구자라티(아프리카)"
 
 #: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
-msgstr ""
+msgstr "Gurmukhi"
 
 #: ../lib/keyboard.pm:240
 #, c-format
@@ -850,14 +873,14 @@ msgstr "헝가리"
 msgid ""
 "_: keyboard\n"
 "Irish"
-msgstr ""
+msgstr "아일랜드"
 
 #: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
-msgstr ""
+msgstr "Inuktitut"
 
 #: ../lib/keyboard.pm:244
 #, c-format
@@ -909,11 +932,11 @@ msgid ""
 msgstr "캐나다"
 
 #: ../lib/keyboard.pm:254
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr "영국"
+msgstr "키르기즈"
 
 #: ../lib/keyboard.pm:257
 #, c-format
@@ -923,11 +946,11 @@ msgid ""
 msgstr "한글 키보드"
 
 #: ../lib/keyboard.pm:259
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
-msgstr "미국 (음성학)"
+msgstr "쿠르드(아랍)"
 
 #: ../lib/keyboard.pm:260
 #, c-format
@@ -937,25 +960,25 @@ msgid ""
 msgstr "라틴 아메리카"
 
 #: ../lib/keyboard.pm:262
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
-msgstr "라트바아"
+msgstr "라오스"
 
 #: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian AZERTY (old)"
-msgstr "리투아니아 AZERTY (구형)"
+msgstr "리투아니아 아제르티 (구형)"
 
 #: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian AZERTY (new)"
-msgstr "리투아니아 AZERTY (신형)"
+msgstr "리투아니아 아제르티 (신형)"
 
 #: ../lib/keyboard.pm:266
 #, c-format
@@ -983,14 +1006,14 @@ msgstr "라트바아"
 msgid ""
 "_: keyboard\n"
 "Malayalam"
-msgstr ""
+msgstr "말라얄람(드라비다)"
 
 #: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "마오리"
 
 #: ../lib/keyboard.pm:271
 #, c-format
@@ -1004,35 +1027,35 @@ msgstr "마케도니아"
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr ""
+msgstr "미얀마(버마)"
 
 #: ../lib/keyboard.pm:273
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
-msgstr "세르비아 (시릴)"
+msgstr "몽골(시릴)"
 
 #: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
-msgstr ""
+msgstr "몰타(영국)"
 
 #: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
-msgstr ""
+msgstr "몰타(미국)"
 
 #: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "나이지리아"
 
 #: ../lib/keyboard.pm:277
 #, c-format
@@ -1042,11 +1065,11 @@ msgid ""
 msgstr "네델란드"
 
 #: ../lib/keyboard.pm:279
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
-msgstr "수리남"
+msgstr "오리야(인도)"
 
 #: ../lib/keyboard.pm:280
 #, c-format
@@ -1063,18 +1086,18 @@ msgid ""
 msgstr "폴란드 (QwertZ)"
 
 #: ../lib/keyboard.pm:283
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
-msgstr "폴란드"
+msgstr "파슈토(아프간)"
 
 #: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
-msgstr "포루투칼"
+msgstr "포루투갈"
 
 #: ../lib/keyboard.pm:285
 #, c-format
@@ -1116,7 +1139,7 @@ msgstr "슬로베니아"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "신할라(스리랑카)"
 
 #: ../lib/keyboard.pm:294
 #, c-format
@@ -1133,25 +1156,25 @@ msgid ""
 msgstr "슬로바키아 (QWERTY)"
 
 #: ../lib/keyboard.pm:296
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
-msgstr "드보락(노르웨이)"
+msgstr "사미(노르웨이)"
 
 #: ../lib/keyboard.pm:297
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
-msgstr ""
+msgstr "사미(스웨덴/핀란드)"
 
 #: ../lib/keyboard.pm:299
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
-msgstr "태국"
+msgstr "신드"
 
 #: ../lib/keyboard.pm:301
 #, c-format
@@ -1161,88 +1184,88 @@ msgid ""
 msgstr "세르비아 (시릴)"
 
 #: ../lib/keyboard.pm:302
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "수리남"
+msgstr "시리아"
 
 #: ../lib/keyboard.pm:303
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
-msgstr "미국 (음성학)"
+msgstr "시리아 (음성학)"
 
 #: ../lib/keyboard.pm:304
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
-msgstr "벨기에"
+msgstr "텔루그(인도)"
 
 #: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
-msgstr ""
+msgstr "타밀(아스키)"
 
 #: ../lib/keyboard.pm:307
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
-msgstr "미국 (타자기)"
+msgstr "타밀 (타자기)"
 
 #: ../lib/keyboard.pm:308
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
-msgstr "태국"
+msgstr "타이"
 
 #: ../lib/keyboard.pm:309
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
-msgstr "태국"
+msgstr "타이(TIS-820)"
 
 #: ../lib/keyboard.pm:311
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
-msgstr "태국"
+msgstr "타이(Pattachote)"
 
 #: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
+msgstr "티피나그 (모로코) (라틴/아라비아 더해짐)"
 
 #: ../lib/keyboard.pm:314
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr ""
+msgstr "티피나그 (음성학) (라틴/아라비아 더해짐)"
 
 #: ../lib/keyboard.pm:316
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
-msgstr "타지크 키보드"
+msgstr "타지크"
 
 #: ../lib/keyboard.pm:318
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
-msgstr "독일"
+msgstr "투르크멘"
 
 #: ../lib/keyboard.pm:319
 #, c-format
@@ -1266,11 +1289,11 @@ msgid ""
 msgstr "우크라이나"
 
 #: ../lib/keyboard.pm:324
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
-msgstr "수리남"
+msgstr "우르두(파키스탄)"
 
 #: ../lib/keyboard.pm:326
 #, c-format
@@ -1280,14 +1303,14 @@ msgstr "US 키보드 (국제)"
 #: ../lib/keyboard.pm:327
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (US keyboard with 3 levels per key)"
 
 #: ../lib/keyboard.pm:328
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
-msgstr "세르비아 (시릴)"
+msgstr "우즈벡 (시릴)"
 
 #: ../lib/keyboard.pm:330
 #, c-format
@@ -1306,87 +1329,87 @@ msgstr "유고슬라비아 (라틴)"
 #: ../lib/keyboard.pm:338
 #, c-format
 msgid "Right Alt key"
-msgstr ""
+msgstr "오른쪽 Alt 키"
 
 #: ../lib/keyboard.pm:339
 #, c-format
 msgid "Both Shift keys simultaneously"
-msgstr ""
+msgstr "양쪽 쉬프트키를 같이"
 
 #: ../lib/keyboard.pm:340
 #, c-format
 msgid "Control and Shift keys simultaneously"
-msgstr ""
+msgstr "컨트롤키와 쉬프트키를 같이"
 
 #: ../lib/keyboard.pm:341
 #, c-format
 msgid "CapsLock key"
-msgstr ""
+msgstr "CapsLock key"
 
 #: ../lib/keyboard.pm:342
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
-msgstr ""
+msgstr "쉬프트키와 캡스락키를 같이"
 
 #: ../lib/keyboard.pm:343
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
-msgstr ""
+msgstr "컨트롤키와 알트키를 같이"
 
 #: ../lib/keyboard.pm:344
 #, c-format
 msgid "Alt and Shift keys simultaneously"
-msgstr ""
+msgstr "알트키와 쉬프트키를 같이"
 
 #: ../lib/keyboard.pm:345
 #, c-format
 msgid "\"Menu\" key"
-msgstr ""
+msgstr "\"메뉴\"키"
 
 #: ../lib/keyboard.pm:346
 #, c-format
 msgid "Left \"Windows\" key"
-msgstr ""
+msgstr "왼쪽 \"윈도우\"키"
 
 #: ../lib/keyboard.pm:347
 #, c-format
 msgid "Right \"Windows\" key"
-msgstr ""
+msgstr "오른쪽 \"윈도우\"키"
 
 #: ../lib/keyboard.pm:348
 #, c-format
 msgid "Both Control keys simultaneously"
-msgstr ""
+msgstr "양쪽 컨트롤키를 같이"
 
 #: ../lib/keyboard.pm:349
 #, c-format
 msgid "Both Alt keys simultaneously"
-msgstr ""
+msgstr "양쪽 알트키를 같이"
 
 #: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Shift key"
-msgstr ""
+msgstr "왼쪽 쉬프트 키"
 
 #: ../lib/keyboard.pm:351
 #, c-format
 msgid "Right Shift key"
-msgstr ""
+msgstr "오른쪽 쉬프트 키"
 
 #: ../lib/keyboard.pm:352
 #, c-format
 msgid "Left Alt key"
-msgstr ""
+msgstr "왼쪽 알트 키"
 
 #: ../lib/keyboard.pm:353
-#, fuzzy, c-format
+#, c-format
 msgid "Left Control key"
-msgstr "원격 제어"
+msgstr "왼쪽 컨트롤 키"
 
 #: ../lib/keyboard.pm:354
-#, fuzzy, c-format
+#, c-format
 msgid "Right Control key"
-msgstr "원격 제어"
+msgstr "오른쪽 컨트롤 키"
 
 #: ../lib/keyboard.pm:390
 #, c-format
@@ -1395,6 +1418,8 @@ msgid ""
 "allow switching between the different keyboard layouts\n"
 "(eg: latin and non latin)"
 msgstr ""
+"서로 다른 키보드 방식으로 전환하는 \n"
+"키 또는 키조합을 선택하시오."
 
 #: ../lib/keyboard.pm:394
 #, c-format
@@ -1408,6 +1433,9 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
+"이 설정은 설치 후 활성화 됩니다.\n"
+"설치 도중에 다른 키보드 방식과 전환하려면 \n"
+"오른쪽 CTRL 키를 사용하십시오."
 
 #: ../lib/mouse.pm:25
 #, c-format
@@ -1565,9 +1593,9 @@ msgid "3 buttons"
 msgstr "3 버튼"
 
 #: ../lib/mouse.pm:80
-#, fuzzy, c-format
+#, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "버튼 에뮬레이션"
+msgstr "3버튼 휠 에뮬레이션"
 
 #: ../lib/mouse.pm:83
 #, c-format
@@ -1577,7 +1605,7 @@ msgstr "세계 공용"
 #: ../lib/mouse.pm:85
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr ""
+msgstr "일반적인 PS/2 나 USB 마우스"
 
 #: ../lib/mouse.pm:86
 #, c-format
@@ -1585,9 +1613,9 @@ msgid "Force evdev"
 msgstr ""
 
 #: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "마이크로소프트 익스플로러"
+msgstr "마이크로소프트 xbox 컨트롤 S"
 
 #: ../lib/mouse.pm:89
 #, c-format
@@ -1602,7 +1630,7 @@ msgstr "마우스 없음"
 #: ../lib/mouse.pm:484
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "마우스 테스트"
 
 #: ../lib/mouse.pm:516
 #, c-format
@@ -1610,9 +1638,9 @@ msgid "Please choose your type of mouse."
 msgstr "마우스 종류를 선택하세요."
 
 #: ../lib/mouse.pm:517
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse choice"
-msgstr "미얀마"
+msgstr "마우스 선택"
 
 #: ../lib/mouse.pm:530
 #, c-format
@@ -1627,7 +1655,7 @@ msgstr "마우스 포트"
 #: ../lib/mouse.pm:535
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "어떤 시리얼 포트에 마우스가 연결되어 있나요?"
+msgstr "마우스에 연결된 시리얼 포트는 어떤 것입니까?"
 
 #: ../lib/mouse.pm:544
 #, c-format
@@ -1657,12 +1685,12 @@ msgstr "마우스를 활성화하려면"
 #: ../lib/mouse.pm:601
 #, c-format
 msgid "MOVE YOUR WHEEL!"
-msgstr "마우스휠을 움직여 보세요."
+msgstr "마우스 휠을 움직이십시오."
 
 #: ../tools/XFdrake:71
-#, fuzzy, c-format
+#, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "변경된것을 적용하기 위해선 리부팅이 필요합니다."
+msgstr "변경된 것을 적옹하려면 시스템을 재시작하십시오."
 
 #: ../tools/keyboarddrake:32
 #, c-format
@@ -1672,7 +1700,7 @@ msgstr "키보드"
 #: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
-msgstr "키보드 레이아웃 선택"
+msgstr "키보드 레이아웃을 선택하시오"
 
 #: ../tools/keyboarddrake:34
 #, fuzzy, c-format
@@ -1680,21 +1708,24 @@ msgid "Keyboard layout"
 msgstr "키보드 형태: %s\n"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "키보드"
+msgstr "키보드 종류"
 
 #: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
-msgstr "콘솔에서 백스페이스 키가 지우기를 하도록 하시겠습니까?"
+msgstr "단말기 상에서 백스페이스 키가 왼쪽지우기를 하도록 할까요?"
 
 #: ../tools/mousedrake:44
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse test"
-msgstr "마우스 시스템"
+msgstr "마우스 테스트"
 
 #: ../tools/mousedrake:47
 #, fuzzy, c-format
 msgid "Please test your mouse:"
 msgstr "마우스를 테스트하세요."
+
+#~ msgid "Monitor"
+#~ msgstr "모니터"
