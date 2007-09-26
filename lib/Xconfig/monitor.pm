@@ -273,6 +273,7 @@ sub probe_using_X {
     if (my $res = $resolution->[0]{preferred_resolution}) {
 	generic_flat_panel_($res->{X}, $res->{Y});
     } else {
+	log::l("at least one EDID was found in Xorg.log, so let Xorg autodetect the monitor");
 	{ VendorName => "Plug'n Play" };
     }
 }
