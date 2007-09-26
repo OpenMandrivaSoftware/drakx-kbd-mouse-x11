@@ -177,7 +177,7 @@ sub configure_automatic {
 
 sub is_valid {
     my ($monitor) = @_;
-    $monitor->{HorizSync} && $monitor->{VertRefresh};
+    $monitor->{HorizSync} && $monitor->{VertRefresh} || $monitor->{VendorName} eq "Plug'n Play";
 }
 
 sub probe {
@@ -211,12 +211,18 @@ sub probe_DDC() {
     my ($edid, $vbe) = any::monitor_full_edid() or return;
     my $monitor = eval($edid);
 
-    adjust_HorizSync_from_edid($monitor);
-    adjust_VertRefresh_from_edid($monitor);
-
     if ($vbe =~ /Memory: (\d+)k/) {
 	$monitor->{VideoRam_probed} = $1;
     }
+    use_EDID($monitor);
+}
+
+sub use_EDID {
+    my ($monitor) = @_;
+
+    adjust_HorizSync_from_edid($monitor);
+    adjust_VertRefresh_from_edid($monitor);
+
     $monitor->{ModeLine} = Xconfig::xfree::default_ModeLine();
     my $detailed_timings = $monitor->{detailed_timings} || [];
     foreach (grep { !$_->{bad_ratio} } @$detailed_timings) {
@@ -259,10 +265,16 @@ sub probe_using_X {
 
     require modules;
     my @old_modules = modules::loaded_modules();
-    my $resolution = run_program::rooted_get_stdout($::prefix, 'monitor-probe-using-X', $card_Driver);
+    my $resolution = run_program::rooted_get_stdout($::prefix, 'monitor-probe-using-X', '--perl', $card_Driver);
     modules::unload(difference2([ modules::loaded_modules() ], \@old_modules));
 
-    $resolution && generic_flat_panel(chomp_($resolution));
+    $resolution = eval($resolution) or return;
+
+    if (my $res = $resolution->[0]{preferred_resolution}) {
+	generic_flat_panel_($res->{X}, $res->{Y});
+    } else {
+	{ VendorName => "Plug'n Play" };
+    }
 }
 
 sub probe_DMI() {
@@ -273,9 +285,13 @@ sub probe_DMI() {
 sub generic_flat_panel {
     my ($resolution) = @_;
     my ($X, $Y) = $resolution =~ /(\d+)x(\d+)/ or log::l("bad resolution $resolution"), return;
+    generic_flat_panel_($X, $Y);
+}
+sub generic_flat_panel_ {
+    my ($X, $Y) = @_;
     {
 	VendorName => 'Generic',
-	ModelName => "Flat Panel $resolution",
+	ModelName => "Flat Panel ${X}x${Y}",
 	HorizSync => '31.5-' . ($X > 1920 ? '100' : '90'), VertRefresh => '60',
 	preferred_resolution => { X => $X, Y => $Y },
     };
