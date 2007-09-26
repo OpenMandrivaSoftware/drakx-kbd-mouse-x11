@@ -156,7 +156,7 @@ msgstr "Grafik Kartı"
 msgid ""
 "_: This is a display device\n"
 "Monitor"
-msgstr ""
+msgstr "Monitör"
 
 #: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
 #, c-format
