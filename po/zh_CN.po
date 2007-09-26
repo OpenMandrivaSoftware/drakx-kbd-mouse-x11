@@ -1600,7 +1600,7 @@ msgstr "任何 PS/2 或 USB 鼠标"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "强制 evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
