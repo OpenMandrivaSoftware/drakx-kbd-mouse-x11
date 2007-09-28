@@ -85,6 +85,7 @@ sub all_mice() {
    [ [ 7, 'ps/2', 'ExplorerPS/2', N_("Any PS/2 & USB mice") ],
      [ 7, 'ps/2', 'ExplorerPS/2', N_("Force evdev") ], #- evdev is magically handled in mouse::select()
      if_(detect_devices::is_xbox(), [ 5, 'ps/2', 'IMPS/2', N_("Microsoft Xbox Controller S") ]),
+     if_(detect_devices::is_virtualbox(), [ 7, 'ps/2', 'vboxmouse', N_("VirtualBox mouse") ]),
    ] ],
 
  N_("none") =>
@@ -337,7 +338,9 @@ sub detect {
     my @wacom = probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
-    if (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
+    if (detect_devices::is_virtualbox()) {
+	fullname2mouse("Universal|VirtualBox mouse");
+    } elsif (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
 	my @synaptics = map {
 	    { ALPS => $_->{ALPS} };
 	} grep { $_->{Synaptics} || $_->{ALPS} } @mice;
@@ -391,7 +394,7 @@ sub set_xfree_conf {
 
     my @mice = map {
 	{
-	    Protocol => $_->{Protocol},
+	    ($_->{Protocol} eq 'vboxmouse' ? "Driver" : "Protocol") => $_->{Protocol},
 	    Device => "/dev/mouse",
 	    if_($_->{Emulate3Buttons} || $_->{EmulateWheel}, Emulate3Buttons => undef, Emulate3Timeout => 50),
 	    if_($_->{EmulateWheel}, EmulateWheel => undef, EmulateWheelButton => 2),
@@ -436,6 +439,7 @@ sub various_xfree_conf {
     my @pkgs = (
 	if_($mouse->{synaptics}, 'synaptics'),
 	if_($mouse->{evdev_mice}, 'x11-driver-input-evdev'),
+	if_($mouse->{Protocol} eq 'vboxmouse', 'x11-driver-input-vboxmouse'),
 	if_($mouse->{imwheel}, 'imwheel'),
 	if_(@{$mouse->{wacom}}, 'linuxwacom'),
     );

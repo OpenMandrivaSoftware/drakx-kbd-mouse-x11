@@ -1,5 +1,6 @@
 - we don't set ModulesPath to DRI_GLX_SPECIAL value, so we must read it
   differently so that Xconfig::various::info() is correct (#31326)
+- add support for x11-driver-input-vboxmouse when inside a VirtualBox guest
 
 Version 0.32 - 26 September 2007, by Pascal "Pixel" Rigaux
 

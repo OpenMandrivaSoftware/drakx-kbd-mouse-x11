@@ -145,7 +145,7 @@ sub get_mice {
 }
 sub set_mice {
     my ($raw_X, @mice) = @_;
-    my @raw_mice = _new_mouse_sections($raw_X, map { $_->{Protocol} ? 'mouse' : 'evdev' } @mice);
+    my @raw_mice = _new_mouse_sections($raw_X, map { delete $_->{Driver} || ($_->{Protocol} ? 'mouse' : 'evdev') } @mice);
     mapn { 
 	my ($raw_mouse, $mouse) = @_;
 	raw_import_section($raw_mouse, $mouse);
@@ -155,7 +155,7 @@ sub set_mice {
 sub _is_mouse {
     my ($entry) = @_;
     my $Driver = val($entry->{Driver});
-    $Driver eq 'mouse' || $Driver eq 'evdev' && !val($entry->{XkbLayout});
+    member($Driver, 'mouse', 'vboxmouse') || $Driver eq 'evdev' && !val($entry->{XkbLayout});
 }
 sub _new_mouse_sections {
     my ($raw_X, @Drivers) = @_;
