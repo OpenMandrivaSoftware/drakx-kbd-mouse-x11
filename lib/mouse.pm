@@ -17,7 +17,7 @@ use log;
 
 my @mouses_fields = qw(nbuttons MOUSETYPE Protocol name EmulateWheel);
 
-my %mice = 
+sub all_mice() {
  arch() =~ /^sparc/ ? 
 (
  'sunmouse' =>
@@ -92,6 +92,7 @@ my %mice =
    [ [ 0, 'none', 'Microsoft', N_("No mouse") ],
    ] ],
 );
+}
 
 #- Logitech MX700
 #-
@@ -186,13 +187,14 @@ sub fullnames() {
 		'';
 	    }
 	} @{$::b->[1]};
-    } %mice;
+    } all_mice();
 }
 
 sub fullname2mouse {
     my ($fname, %opts) = @_;
     my ($type, @l) = split '\|', $fname;
     my $name = pop @l; #- ensure we get rid of "[Other]"
+    my %mice = all_mice();
 
     if (my @devices = @{$mice{$type}[0]}) {
 	member($opts{device}, @devices) or delete $opts{device};
