@@ -188,7 +188,8 @@ sub get_resolutions {
     my $Screen = $o_Screen || $raw_X->get_default_screen or return {};
     
     my $depth = val($Screen->{DefaultColorDepth} || $Screen->{DefaultDepth});
-    my $Display = find { !$depth || val($_->{l}{Depth}) eq $depth } @{$Screen->{Display} || []} or return { automatic => 1 };
+    my $Displays = $Screen->{Display} or return {};
+    my $Display = find { !$depth || val($_->{l}{Depth}) eq $depth } @$Displays or return { automatic => 1 };
     my $s = val($Display->{l}{Virtual} || $Display->{l}{Modes});
     my @l;
     while ($s =~ /(\d+)(x|\s+)(\d+)/g) {
