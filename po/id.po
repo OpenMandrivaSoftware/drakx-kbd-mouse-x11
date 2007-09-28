@@ -5,7 +5,7 @@
 # Mohammad DAMT <mdamt@cdl2000.com>, 1999-2001
 # Andy <chandy@indo.net.id>, 1999
 # Kelana <nk@telkom.net>, 1999
-# Willy Sudiarto Raharjo <willysr@gmail.com>, 2004 - 2005.
+# Willy Sudiarto Raharjo <willysr@gmail.com>, 2004 - 2007.
 # Erwien Samantha <erwiensamantha@gmail.com>, 2005.
 # Bayu Artanto <bayuart@yahoo.com>, 2005.
 # Ahmad Ramadhana <ahmad_ramadhana@yahoo.com.sg>, 2005.
@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX 0.1\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-01-21 10:58+0700\n"
+"PO-Revision-Date: 2007-09-28 08:13+0700\n"
 "Last-Translator: Willy Sudiarto Raharjo <willysr@gmail.com>\n"
 "Language-Team: Indonesia <mdk-id@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -115,11 +115,12 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"Driver proprietary tidak diinstall dengan baik, kembali ke driver bebas."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
 msgid "Configure all heads independently"
-msgstr "Konfigurasikan semua head secara terpisah"
+msgstr "Konfigurasi semua head secara terpisah"
 
 #: ../lib/Xconfig/card.pm:399
 #, c-format
@@ -129,7 +130,7 @@ msgstr "Gunakan ekstensi Xinerama"
 #: ../lib/Xconfig/card.pm:404
 #, c-format
 msgid "Configure only card \"%s\"%s"
-msgstr "Konfigurasikan hanya kartu \"%s\"%s"
+msgstr "Konfigurasi hanya kartu \"%s\"%s"
 
 #: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
 #: ../lib/Xconfig/monitor.pm:115
@@ -489,7 +490,7 @@ msgstr ""
 "Kartu grafis Anda tidak memiliki konektor TV-OUT.\n"
 "Ia dapat dikonfigurasikan agar bekerja menggunakan frame-buffer.\n"
 "\n"
-"Untuk ini Anda harus menyambung kartu grafis ke TV sebelum memboot "
+"Untuk ini Anda harus menyambung kartu grafis ke TV sebelum boot "
 "komputer.\n"
 "Lalu pilih entri \"TVout\" pada bootloader\n"
 "\n"
@@ -498,7 +499,7 @@ msgstr ""
 #: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
-msgstr "Norm apa yg digunakan TV Anda?"
+msgstr "Norm apa yang digunakan TV Anda?"
 
 #: ../lib/Xconfig/various.pm:348
 #, c-format
@@ -862,8 +863,7 @@ msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr ""
-"D_: keyboard\n"
-"vorak (Norwegia)"
+"Dvorak (Norwegia)"
 
 #: ../lib/keyboard.pm:226
 #, c-format
@@ -1593,52 +1593,52 @@ msgstr "Tombol Alt dan Shift bersamaan"
 #: ../lib/keyboard.pm:345
 #, c-format
 msgid "\"Menu\" key"
-msgstr "Kunci \"Menu\""
+msgstr "Tombol \"Menu\""
 
 #: ../lib/keyboard.pm:346
 #, c-format
 msgid "Left \"Windows\" key"
-msgstr "Kunci \"Windows\" kiri"
+msgstr "Tombol \"Windows\" kiri"
 
 #: ../lib/keyboard.pm:347
 #, c-format
 msgid "Right \"Windows\" key"
-msgstr "Kunci \"Windows\" kanan"
+msgstr "Tombol \"Windows\" kanan"
 
 #: ../lib/keyboard.pm:348
 #, c-format
 msgid "Both Control keys simultaneously"
-msgstr "Kedua kunci Control bersamaan"
+msgstr "Kedua Tombol Control bersamaan"
 
 #: ../lib/keyboard.pm:349
 #, c-format
 msgid "Both Alt keys simultaneously"
-msgstr "Kedua kunci Alt bersamaan"
+msgstr "Kedua Tombol Alt bersamaan"
 
 #: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Shift key"
-msgstr "Kunci Shift kiri"
+msgstr "Tombol Shift kiri"
 
 #: ../lib/keyboard.pm:351
 #, c-format
 msgid "Right Shift key"
-msgstr "Kunci Shift kanan"
+msgstr "Tombol Shift kanan"
 
 #: ../lib/keyboard.pm:352
 #, c-format
 msgid "Left Alt key"
-msgstr "kunci Alt Kiri"
+msgstr "Tombol Alt Kiri"
 
 #: ../lib/keyboard.pm:353
 #, c-format
 msgid "Left Control key"
-msgstr "Kunci Control kiri"
+msgstr "Tombol Control kiri"
 
 #: ../lib/keyboard.pm:354
 #, c-format
 msgid "Right Control key"
-msgstr "Kunci Control kanan"
+msgstr "Tombol Control kanan"
 
 #: ../lib/keyboard.pm:390
 #, c-format
@@ -1647,7 +1647,7 @@ msgid ""
 "allow switching between the different keyboard layouts\n"
 "(eg: latin and non latin)"
 msgstr ""
-"Di sini Anda dapat memilih kunci atau kombinasinya untuk \n"
+"Di sini Anda dapat memilih tombol atau kombinasinya untuk \n"
 "berganti antar layout keyboard (mis: latin dan non latin)"
 
 #: ../lib/keyboard.pm:394
@@ -1839,7 +1839,7 @@ msgstr "Sembarang mouse PS/2 & USB"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Paksa evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
