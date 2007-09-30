@@ -2,23 +2,24 @@
 #
 # Copyright (C) 2002,2003, 2004, 2005 Free Software Foundation, Inc.
 # Copyright (C) 2002 Mandriva
+#
+#
 # Matias Griese <mahagr@utu.fi>, 2001.
 # Taisto Kuikka <69319@batman.jypoly.fi>, 2003,2004.
 # Esa Linna <denzo@mbnet.fi>, 2004.
 # Thomas Backlund <tmb@mandrake.org>, 2002, 2003, 2004, 2005.
-#
-#
+# Anssi Hannula <anssi@mandriva.org>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX-fi - LE2005 Release\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2005-04-03 20:59+0300\n"
-"Last-Translator: Thomas Backlund <tmb@mandrake.org>\n"
+"PO-Revision-Date: 2007-09-30 03:43+0300\n"
+"Last-Translator: Anssi Hannula <anssi@mandriva.org>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -101,13 +102,15 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"Näytönohjaimellesi on saatavilla suljettu ajuri joka saattaa tukea enemmän toimintoja.\n"
+"Haluatko ottaa sen käyttöön?"
 
 #: ../lib/Xconfig/card.pm:331
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Suljettu ajuri ei ollut oikein asennettu, käytetään vapaata ajuria."
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -131,9 +134,9 @@ msgid "Custom"
 msgstr "Mukautettu"
 
 #: ../lib/Xconfig/main.pm:126
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Yhteyden asetus"
+msgstr "Näytönohjaimen ja näytön asettaminen"
 
 #: ../lib/Xconfig/main.pm:127
 #, c-format
@@ -218,8 +221,7 @@ msgstr "Valmistaja"
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr ""
-"Kytke ja Käytä -tunnistus epäonnistui. Ole hyvä ja valitse oikea näyttö"
+msgstr "Kytke ja Käytä -tunnistus epäonnistui. Ole hyvä ja valitse oikea näyttö"
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -255,9 +257,9 @@ msgid "Vertical refresh rate"
 msgstr "Pystyvirkistystaajuus"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Valitse toiminto"
+msgstr "Valitse liitännäiset"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -353,7 +355,7 @@ msgstr "Onko tämä oikea asetus?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "3D-laitteistokiihdytys: %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -411,49 +413,49 @@ msgid "Xorg configuration"
 msgstr "Xorg asetukset"
 
 #: ../lib/Xconfig/various.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Näytönohjain: %s"
+msgstr "Näytönohjaimen lisävalinnat"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "3D-laitteistokiihdytys"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Käytä läpikuultavuutta (Composite-laajennus)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Käytä laitteistopohjaista hiiren osoitinta"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "Käytä RENDER-kiihdytystä (saattaa aiheuttaa virheitä tekstin näyttämisessä)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Kahdenna kuva erilliseen näyttöön"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Kahdenna kuva toiseen näyttöön"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Käytä BIOS-pikanäppäintä erillisen näytön valintaan"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "Käytä EXA:a XAA:n sijasta (parempi Render- ja Composite-suorituskyky)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -461,12 +463,9 @@ msgid "Graphical interface at startup"
 msgstr "Graafinen tila käynnistyksessä"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Tietokoneesi voidaan asettaa käynnistymään automaattisesti graafiseen tilaan "
-"(Xorg).\n"
-"Haluatko Xorg:n käynnistyvän automaattisesti?"
+msgstr "Käynnistä graafinen käyttöliittymä (Xorg) järjestelmän käynnistyessä"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -502,6 +501,11 @@ msgid ""
 "If your desktop appears to stretch beyond the edges of the display, \n"
 "installing %s may help fix the problem. Install it now?"
 msgstr ""
+"Käytettävä näytön tarkkuus ei välttämättä ole oikea.\n"
+"\n"
+"Jos työpöytäsi näyttää jatkuvan näyttösi reunojen ulkopuolelle,\n"
+"%s -ohjelman asentaminen saattaa ratkaista ongelman.\n"
+"Asennetaanko nyt?"
 
 #: ../lib/Xconfig/xfree.pm:770
 #, c-format
@@ -1008,7 +1012,7 @@ msgstr "Malayalamilainen"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "Maori"
 
 #: ../lib/keyboard.pm:271
 #, c-format
@@ -1050,7 +1054,7 @@ msgstr "Maltalainen (US)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "Nigerialainen"
 
 #: ../lib/keyboard.pm:277
 #, c-format
@@ -1134,7 +1138,7 @@ msgstr "Slovenialainen"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "Sinhala"
 
 #: ../lib/keyboard.pm:294
 #, c-format
@@ -1239,14 +1243,14 @@ msgstr "Thai (Pattachote)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
+msgstr "Tifinagh (marokkolainen asettelu)"
 
 #: ../lib/keyboard.pm:314
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr ""
+msgstr "Tifinagh (foneettinen) (+latinalainen/arabialainen)"
 
 #: ../lib/keyboard.pm:316
 #, c-format
@@ -1298,7 +1302,7 @@ msgstr "US-näppäimistö (kansainvälinen)"
 #: ../lib/keyboard.pm:327
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (US-näppäimistö 3 näppäintasolla)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1606,7 +1610,7 @@ msgstr "Mikä tahansa PS/2- ja USB-hiiri"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Pakota evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1626,7 +1630,7 @@ msgstr "Ei hiirtä"
 #: ../lib/mouse.pm:484
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "Hiiren kokeileminen"
 
 #: ../lib/mouse.pm:516
 #, c-format
@@ -1699,14 +1703,14 @@ msgid "Please, choose your keyboard layout."
 msgstr "Valitse näppäimistösi asettelu."
 
 #: ../tools/keyboarddrake:34
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
-msgstr "Näppäimistön asettelu: %s\n"
+msgstr "Näppäimistön asettelu"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Näppäimistö"
+msgstr "Näppäimistön tyyppi"
 
 #: ../tools/keyboarddrake:54
 #, c-format
@@ -1722,3 +1726,4 @@ msgstr "Hiiritesti"
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Ole hyvä ja testaa hiiresi:"
+
