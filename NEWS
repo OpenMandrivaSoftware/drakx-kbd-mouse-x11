@@ -1,3 +1,7 @@
+Version 0.34 - 28 September 2007, by Thierry Vignaud Blin
+
+- updated translation
+
 Version 0.33 - 28 September 2007, by Olivier "blino" Blin
 
 - we don't set ModulesPath to DRI_GLX_SPECIAL value, so we must read it
