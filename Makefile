@@ -54,6 +54,10 @@ dis:
 
 .PHONY: ChangeLog
 
+log: ChangeLog
+
+changelog: ChangeLog
+
 ChangeLog: ../common/username.xml
 	svn2cl --accum --authors ../../soft/common/username.xml
 	rm -f ChangeLog.bak
