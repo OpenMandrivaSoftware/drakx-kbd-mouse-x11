@@ -195,9 +195,9 @@ sub choices {
 }
 
 sub configure {
-    my ($in, $raw_X, $card, $monitors, $b_auto) = @_;
+    my ($in, $raw_X, $card, $monitors, $b_auto, $o_resolution) = @_;
 
-    my ($default_resolution, @resolutions) = choices($raw_X, $raw_X->get_resolution, $card, $monitors);
+    my ($default_resolution, @resolutions) = choices($raw_X, $o_resolution || $raw_X->get_resolution, $card, $monitors);
 
     if ($b_auto) {
 	#- use $default_resolution

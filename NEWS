@@ -1,3 +1,6 @@
+- better fix for typo in 0.32: don't wrongly default to "automatic" resolution
+  when creating xorg.conf (in non --auto)
+
 Version 0.35 - 3 October 2007, by Thierry Vignaud
 
 - updated translation
