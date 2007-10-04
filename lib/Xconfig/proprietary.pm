@@ -39,7 +39,8 @@ sub pkgs_for_Driver2 {
     my ($pkg, $base_name) = ($Driver2 =~ /^fglrx/ || $Driver2 =~ /^nvidia/) ?
                             ("x11-driver-video-$Driver2", $Driver2) : () or return;
 
-    $do_pkgs->is_available($pkg) or log::l("proprietary package $pkg not available"), return;
+    $do_pkgs->is_installed($pkg) || $do_pkgs->is_available($pkg) or
+      log::l("proprietary package $pkg not available"), return;
 
     my $module_pkgs = $do_pkgs->check_kernel_module_packages($base_name) or
       log::l("$pkg available, but no kernel module package (for installed kernels, and no dkms)"), return;

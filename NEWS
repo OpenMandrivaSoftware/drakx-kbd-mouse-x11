@@ -1,3 +1,6 @@
+- when checking dkms module packages, check that modules are either
+  available in urpmi media, or already installed (fix detection in live)
+
 Version 0.36 - 4 October 2007, by Pascal "Pixel" Rigaux
 
 - better fix for typo in 0.32: don't wrongly default to "automatic" resolution
