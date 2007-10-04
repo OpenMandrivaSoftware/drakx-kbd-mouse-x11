@@ -1,7 +1,7 @@
 Version 0.36 - 4 October 2007, by Pascal "Pixel" Rigaux
 
 - better fix for typo in 0.32: don't wrongly default to "automatic" resolution
-  when creating xorg.conf (in non --auto)
+  when creating xorg.conf (in non --auto) (#34453)
 
 Version 0.35 - 3 October 2007, by Thierry Vignaud
 
