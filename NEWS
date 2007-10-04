@@ -1,3 +1,5 @@
+Version 0.37 - 4 October 2007, by Pascal "Pixel" Rigaux
+
 - if we probe a monitor EISA_ID but we don't have corresponding
   HorizSync/VertRefresh, we must not the monitor info
 - when checking dkms module packages, check that modules are either
