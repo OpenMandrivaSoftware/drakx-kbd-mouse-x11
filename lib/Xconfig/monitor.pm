@@ -163,7 +163,7 @@ sub configure_automatic {
 	if (my $mon = find { lc($_->{EISA_ID}) eq $monitor->{EISA_ID} } monitors_db()) {
 	    add2hash($monitor, $mon);
 	    log::l("EISA_ID corresponds to: $monitor->{ModelName}");
-	} elsif (!is_valid($monitor)) {
+	} elsif (!$monitor->{HorizSync} || !$monitor->{VertRefresh}) {
 	    log::l("unknown EISA_ID and partial DDC probe, so unknown monitor");
 	    delete @$monitor{'VendorName', 'ModelName', 'EISA_ID'};	    
 	}
