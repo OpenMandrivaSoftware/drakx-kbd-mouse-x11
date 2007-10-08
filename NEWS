@@ -1,3 +1,6 @@
+- display message This setting will be activated after the installation." 
+  only during installation
+
 Version 0.37 - 4 October 2007, by Pascal "Pixel" Rigaux
 
 - if we probe a monitor EISA_ID but we don't have corresponding

@@ -391,10 +391,12 @@ sub group_toggle_choose {
 allow switching between the different keyboard layouts
 (eg: latin and non latin)"), sub { translate($grp_toggles->{$_[0]}) }, [ sort keys %$grp_toggles ], $GRP_TOGGLE) or return;
 
-        $GRP_TOGGLE ne 'rctrl_toggle' and $in->ask_warn(N("Warning"), formatAlaTeX(
+        if ($::isInstall && $GRP_TOGGLE ne 'rctrl_toggle') {
+	    $in->ask_warn(N("Warning"), formatAlaTeX(
 N("This setting will be activated after the installation.
 During installation, you will need to use the Right Control
 key to switch between the different keyboard layouts.")));
+	}
         log::l("GRP_TOGGLE: $GRP_TOGGLE");
         $keyboard->{GRP_TOGGLE} = $GRP_TOGGLE;
     } else {
