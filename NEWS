@@ -1,5 +1,6 @@
 - display message This setting will be activated after the installation." 
   only during installation
+- handle fglrx_dri.so handled by alternatives (Anssi)
 
 Version 0.37 - 4 October 2007, by Pascal "Pixel" Rigaux
 

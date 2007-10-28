@@ -86,8 +86,9 @@ sub may_use_Driver2 {
 	$card2;
     } elsif ($card2->{Driver} eq 'fglrx') {
 	$check_drv->('fglrx_drv', "fglrx$card2->{DriverVersion}") or return;
-	$card2->{DriverVersion} eq '-hd2000' || -e "$::prefix$modules_dir/dri/fglrx_dri.so"
-       	  || -e "$::prefix/usr/$lib/dri/fglrx_dri.so" or
+	-e "$::prefix/usr/$lib/fglrx$card2->{DriverVersion}/dri/fglrx_dri.so" ||
+	  -e "$::prefix$modules_dir/dri/fglrx_dri.so" ||
+	  -e "$::prefix/usr/$lib/dri/fglrx_dri.so" or
 	  log::l("proprietary fglrx_dri.so missing"), return;
 
 	log::explanations("Using specific ATI fglrx and DRI drivers");
