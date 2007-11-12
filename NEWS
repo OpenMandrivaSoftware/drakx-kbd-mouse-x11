@@ -1,3 +1,6 @@
+- fix device /dev/input/by-id/usb-$ID_SERIAL-event-mouse for wacoms
+  when the ID_SERIAL contains special chars
+
 Version 0.38 - 1 November 2007, by Anssi Hannula
 
 - display message "This setting will be activated after the installation." 
