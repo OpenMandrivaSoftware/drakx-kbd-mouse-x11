@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-fr\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-09-25 21:55+0200\n"
+"PO-Revision-Date: 2007-11-17 18:49+0100\n"
 "Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
 "Language-Team: Français <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -1105,7 +1105,7 @@ msgstr "Myanmar (Burmese)"
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
-msgstr "Mongolien (cyrillique)"
+msgstr "Mongole (cyrillique)"
 
 #: ../lib/keyboard.pm:274
 #, c-format
