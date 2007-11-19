@@ -242,22 +242,26 @@ sub write {
     }
 }
 
+sub input_entry_to_device_by_id {
+    my ($input) = @_;
+
+    my $ID_SERIAL = chomp_(run_program::get_stdout('/lib/udev/usb_id', $input->{sysfs_path}));
+    $ID_SERIAL =~ s/[^\w#+\-.:=@_]/_/g; #- udev do a further cleanup, eg: "Wacom_Co.,Ltd._MTE-450" => "Wacom_Co._Ltd._MTE-450". cf ALLOWED_CHARS udev.h
+    my $sysfs_device = "input/by-id/usb-$ID_SERIAL-event-mouse"; #- from /etc/udev/rules.d/60-persistent-input.rules
+    if ($::isInstall || -e "/dev/$sysfs_device") {
+	$sysfs_device;
+    } else {
+	log::l("$sysfs_device missing");
+	();
+    }
+}
+
 sub probe_usb_wacom_devices() {
     detect_devices::hasWacom() or return;
 
     eval { modules::load("wacom", "evdev") };
      
-    map {
-	my $ID_SERIAL = chomp_(run_program::get_stdout('/lib/udev/usb_id', $_->{sysfs_path}));
-	$ID_SERIAL =~ s/[^\w#+\-.:=@_]/_/g; #- udev do a further cleanup, eg: "Wacom_Co.,Ltd._MTE-450" => "Wacom_Co._Ltd._MTE-450". cf ALLOWED_CHARS udev.h
-	my $sysfs_device = "input/by-id/usb-$ID_SERIAL-event-mouse"; #- from /etc/udev/rules.d/60-persistent-input.rules
-	if ($::isInstall || -e "/dev/$sysfs_device") {
-	    $sysfs_device;
-	} else {
-	    log::l("$sysfs_device missing");
-	    ();
-	}
-    } detect_devices::usbWacom();
+    map { input_entry_to_device_by_id($_) } detect_devices::usbWacom();
 }
 
 sub detect_serial() {
@@ -293,9 +297,8 @@ sub mice2evdev {
 	#- we always use HWheelRelativeAxisButtons for evdev, it tells mice with no horizontal wheel to skip those buttons
 	#- that way we ensure 6 & 7 is always horizontal wheel
 	#- (cf patch skip-HWheelRelativeAxisButtons-even-if-unused in x11-driver-input-evdev)
-	{ bustype => "0x$_->{bustype}", vendor => "0x$_->{vendor}", product => "0x$_->{id}", 
-	  relBits => "+0+1+2", HWheelRelativeAxisButtons => "7 6" };
-    } @mice ]
+	{ device => "/dev/$_", HWheelRelativeAxisButtons => "7 6" };
+    } map { input_entry_to_device_by_id($_) } @mice ];
 }
 
 sub detect_evdev_mice {
