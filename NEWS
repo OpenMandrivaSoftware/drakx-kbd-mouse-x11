@@ -1,3 +1,6 @@
+- keyboarddrake:
+  o use kr(kr104) for the korean keyboard, and don't prompt for a toggle key
+    since korean use input method instead
 - use /dev/input/by-id/xxx device instead of vendor+product for evdev mice
   (vendor+product support is dropped in x11-driver-input-evdev-1.2.0)
 - fix device /dev/input/by-id/usb-$ID_SERIAL-event-mouse for wacoms

@@ -252,9 +252,7 @@ arch() =~ /^sparc/ ? (
  "jp" => [ N_("_: keyboard\nJapanese 106 keys"), "jp106",        "jp",    0 ],
  "kan" => [ N_("_: keyboard\nKannada"),        "us",             "in(kan)",  1 ],
  "kg" => [ N_("_: keyboard\nKyrgyz"),          "ky",             "kg(direct)", 1 ],
-# There is no XKB korean file yet; but using xmodmap one disables
-# some functionality; "us" used for XKB until this is fixed
- "kr" => [ N_("_: keyboard\nKorean"),          "us",             "us",    1 ],
+ "kr" => [ N_("_: keyboard\nKorean"),          "us",             "kr(kr104)", 0 ],
 # TODO: console map
  "kur" => [ N_("_: keyboard\nKurdish (arabic script)"), "us",    "kur",   1 ],
  "lat" => [ N_("_: keyboard\nLatin American"), "la-latin1",      "latam", 0 ],
