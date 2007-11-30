@@ -1,3 +1,5 @@
+Version 0.39 - 30 November 2007, by Anssi Hannula
+
 - keyboarddrake:
   o use kr(kr104) for the korean keyboard, and don't prompt for a toggle key
     since korean use input method instead
