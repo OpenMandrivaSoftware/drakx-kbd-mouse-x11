@@ -61,6 +61,7 @@ sub write {
 	#- keep it for old programs still using this name
 	symlink basename($file), "$::prefix/etc/X11/XF86Config";
     }
+    no_ModeLine_on_fglrx($raw_X); #- HACK
     set_Revision($raw_X);
     Xconfig::parse::write_XF86Config($raw_X->{raw}, $file);
 }
@@ -431,6 +432,14 @@ sub add_gtf_ModeLines {
     1;
 }
 
+#- HACK for fglrx (#30934)
+sub no_ModeLine_on_fglrx {
+    my ($raw_X) = @_;
+
+    if (get_Driver($raw_X) eq 'fglrx') {
+	delete $_->{ModeLine} foreach $raw_X->get_Sections('Monitor');
+    }
+}
 
 ################################################################################
 # screens ######################################################################

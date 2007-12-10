@@ -1,3 +1,6 @@
+- XFdrake:
+  o never write a ModeLine when using fglrx driver (#30934)
+
 Version 0.39 - 30 November 2007, by Anssi Hannula
 
 - keyboarddrake:
