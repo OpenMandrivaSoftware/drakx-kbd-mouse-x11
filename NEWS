@@ -1,3 +1,5 @@
+Version 0.41 - 14 December 2007, by Olivier "blino" Blin
+
 - mousedrake:
   o use SendCoreEvents instead of AlwaysCore for Synaptics touchpads (#36140)
 
