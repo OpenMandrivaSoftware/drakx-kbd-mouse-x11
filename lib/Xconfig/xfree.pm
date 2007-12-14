@@ -346,7 +346,7 @@ sub set_synaptics {
             $h->{$k} = { val => $v, Option => 1 };
         }
         $raw_X->add_Section('InputDevice', $h);
-        push @$layout, { val => qq("$identifier" "AlwaysCore") };
+        push @$layout, { val => qq("$identifier" "SendCoreEvents") };
     } @synaptics;
 }
 

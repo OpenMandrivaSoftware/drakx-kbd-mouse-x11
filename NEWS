@@ -1,3 +1,6 @@
+- mousedrake:
+  o use SendCoreEvents instead of AlwaysCore for Synaptics touchpads (#36140)
+
 Version 0.40 - 10 December 2007, by Pascal "Pixel" Rigaux
 
 - XFdrake:
