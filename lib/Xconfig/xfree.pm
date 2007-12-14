@@ -313,7 +313,6 @@ sub set_synaptics {
     each_index {
 	my $synaptics_mouse = $_;
         my $identifier = "SynapticsMouse" . ($::i + 1);
-        my $pointer_type = $synaptics_mouse->{Primary} ? "CorePointer" : "AlwaysCore";
         my $h = {
             Identifier => { val => $identifier },
             Driver => { val => "synaptics" },
@@ -347,7 +346,7 @@ sub set_synaptics {
             $h->{$k} = { val => $v, Option => 1 };
         }
         $raw_X->add_Section('InputDevice', $h);
-        push @$layout, { val => qq("$identifier" "$pointer_type") };
+        push @$layout, { val => qq("$identifier" "AlwaysCore") };
     } @synaptics;
 }
 

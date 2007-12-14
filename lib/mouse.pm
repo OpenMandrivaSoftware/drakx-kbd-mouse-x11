@@ -420,10 +420,7 @@ sub set_xfree_conf {
 	$xfree_conf->set_wacoms(map { { Device => "/dev/$_", USB => to_bool(m|input/by-path/event|) } } @wacoms);
     }
 
-    $xfree_conf->set_synaptics({
-        Primary => 0,
-        ALPS => $mouse->{synaptics}{ALPS},
-    }) if $mouse->{synaptics};
+    $xfree_conf->set_synaptics({ ALPS => $mouse->{synaptics}{ALPS} }) if $mouse->{synaptics};
 }
 
 sub various_xfree_conf {
