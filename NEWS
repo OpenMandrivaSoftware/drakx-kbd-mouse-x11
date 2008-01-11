@@ -1,3 +1,7 @@
+- XFdrake:
+  o sort monitors in text mode so that "Generic|..." monitors do not appear 
+    in the middle of "Vendor|..." monitors
+
 Version 0.41 - 14 December 2007, by Olivier "blino" Blin
 
 - mousedrake:
