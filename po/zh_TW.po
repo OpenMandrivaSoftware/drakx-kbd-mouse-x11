@@ -12,14 +12,14 @@
 # Hilbert <h@mandrake.org>, 2004.
 # hilbert <h@mandrake.org>, 2004.
 # Shiva Huang <blueshiva@giga.net.tw>, 2005.
-# Shiva Huang <shivahuang@gmail.com>, 2005-2007.
+# Shiva Huang <shivahuang@gmail.com>, 2005-2008.
 # You-Cheng Hsieh <yochenhsieh@xuite.net>, 2005-2006.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2007-08-22 02:00+0800\n"
+"PO-Revision-Date: 2008-01-22 02:21+0800\n"
 "Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1306,7 +1306,7 @@ msgstr "美式鍵盤 (國際型)"
 #: ../lib/keyboard.pm:327
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (每個按鍵有三階的美式鍵盤)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1612,7 +1612,7 @@ msgstr "任何 PS/2 與 USB 滑鼠"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "強制使用 evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
