@@ -1,3 +1,5 @@
+Version 0.42 - 22 January 2008
+
 - XFdrake:
   o sort monitors in text mode so that "Generic|..." monitors do not appear 
     in the middle of "Vendor|..." monitors
