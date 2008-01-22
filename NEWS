@@ -2,6 +2,9 @@
   o sort monitors in text mode so that "Generic|..." monitors do not appear 
     in the middle of "Vendor|..." monitors
 - use SendCoreEvents instead of AlwaysCore for wacoms
+- mousedrake:
+  o use udev in $PATH instead of /lib/udev/usb_id
+    (need latest udev pkg)
 
 Version 0.41 - 14 December 2007, by Olivier "blino" Blin
 
