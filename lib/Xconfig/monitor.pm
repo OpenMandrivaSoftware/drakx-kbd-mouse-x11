@@ -164,8 +164,14 @@ sub configure_automatic {
 	    add2hash($monitor, $mon);
 	    log::l("EISA_ID corresponds to: $monitor->{ModelName}");
 	} elsif (!$monitor->{HorizSync} || !$monitor->{VertRefresh}) {
-	    log::l("unknown EISA_ID and partial DDC probe, so unknown monitor");
-	    delete @$monitor{'VendorName', 'ModelName', 'EISA_ID'};	    
+	    if ($monitor->{preferred_resolution} 
+		  && Xconfig::xfree::resolution2ratio($monitor->{preferred_resolution}) eq '16/10') {
+		log::l("no HorizSync nor VertRefresh, using preferred resolution (hopefully this is a flat panel)");
+		add2hash($monitor, generic_flat_panel($monitor->{preferred_resolution}));
+	    } else {
+		log::l("unknown EISA_ID and partial DDC probe, so unknown monitor");
+		delete @$monitor{'VendorName', 'ModelName', 'EISA_ID'};	    
+	    }
 	}
     } elsif ($monitor->{VendorName}) {
 	if (my $mon = find { $_->{VendorName} eq $monitor->{VendorName} && $_->{ModelName} eq $monitor->{ModelName} } monitors_db()) {
@@ -271,7 +277,7 @@ sub probe_using_X {
     $resolution = eval($resolution) or return;
 
     if (my $res = $resolution->[0]{preferred_resolution}) {
-	generic_flat_panel_($res->{X}, $res->{Y});
+	generic_flat_panel($res);
     } else {
 	log::l("at least one EDID was found in Xorg.log, so let Xorg autodetect the monitor");
 	{ VendorName => "Plug'n Play" };
@@ -280,10 +286,14 @@ sub probe_using_X {
 
 sub probe_DMI() {
     my $res = detect_devices::probe_unique_name('Resolution');
-    $res && generic_flat_panel($res);
+    $res && generic_flat_panel_txt($res);
 }
 
 sub generic_flat_panel {
+    my ($resolution) = @_;
+    generic_flat_panel_($resolution->{X}, $resolution->{Y});
+}
+sub generic_flat_panel_txt {
     my ($resolution) = @_;
     my ($X, $Y) = $resolution =~ /(\d+)x(\d+)/ or log::l("bad resolution $resolution"), return;
     generic_flat_panel_($X, $Y);

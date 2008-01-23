@@ -1,3 +1,7 @@
+- XFdrake:
+  o if the EDID gives a valid EISA_ID, a valid 16/10 preferred resolution, but
+    no HorizSync/VertRefresh, use a generic flat panel HorizSync/VertRefresh
+
 Version 0.42 - 22 January 2008
 
 - XFdrake:
