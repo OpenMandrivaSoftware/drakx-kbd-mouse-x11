@@ -401,6 +401,12 @@ sub xorg_builtin_resolution {
       $res ne '1400x1050' && $res ne '1152x864' && $Xconfig::xfree::resolution2ratio{$res} eq '4/3';
 }
 
+sub resolution2ratio {
+    my ($resolution, $b_non_strict) = @_;
+    my $res = $resolution->{X} . 'x' . $resolution->{Y};
+    $res eq '1280x1024' && $b_non_strict ? '4/3' : $Xconfig::xfree::resolution2ratio{$res};
+}
+
 sub add_gtf_ModeLines {
     my ($raw_X, $resolutions) = @_;
 

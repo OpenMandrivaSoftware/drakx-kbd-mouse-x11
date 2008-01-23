@@ -148,7 +148,7 @@ sub choices {
     #- sort it, so we can take the first one when we want the "best"
     @resolutions = sort { $b->{X} <=> $a->{X} || $b->{Y} <=> $a->{Y} || $b->{Depth} <=> $a->{Depth} } @resolutions;
 
-    $_->{ratio} ||= resolution2ratio($_) foreach @resolutions;
+    $_->{ratio} ||= Xconfig::xfree::resolution2ratio($_) foreach @resolutions;
 
     if ($resolution_wanted->{automatic} || !$resolution_wanted->{X} && !$monitors->[0]{HorizSync}) {
 	return { automatic => 1 }, @resolutions;
@@ -236,7 +236,7 @@ sub set_resolution {
     my ($raw_X, $resolution, @other) = @_; 
 
     if (!$resolution->{automatic}) {
-	my $ratio = resolution2ratio($resolution, 'non-strict');
+	my $ratio = Xconfig::xfree::resolution2ratio($resolution, 'non-strict');
 	@other = uniq_ { $_->{X} . 'x' . $_->{Y} } @other;
 	@other = grep { $_->{X} < $resolution->{X} } @other;
 	@other = filter_on_ratio($ratio, @other);
@@ -286,12 +286,6 @@ sub set_915resolution {
     run_program::rooted($::prefix, 'service', '915resolution', 'start');
 }
 
-sub resolution2ratio {
-    my ($resolution, $b_non_strict) = @_;
-    my $res = $resolution->{X} . 'x' . $resolution->{Y};
-    $res eq '1280x1024' && $b_non_strict ? '4/3' : $Xconfig::xfree::resolution2ratio{$res};
-}
-
 sub filter_on_ratio {
     my ($ratio, @l) = @_;
     grep {
@@ -306,7 +300,7 @@ sub choose_gtk {
 
     my $chosen_Depth = $default_resolution->{Depth};
     my $chosen_res = { X => $default_resolution->{X} || 1024, Y => $default_resolution->{Y} };
-    my $chosen_ratio = resolution2ratio($chosen_res, 'non-strict') || '4/3';
+    my $chosen_ratio = Xconfig::xfree::resolution2ratio($chosen_res, 'non-strict') || '4/3';
 
     my $filter_on_Depth = sub {
 	grep { $_->{Depth} == $chosen_Depth } @_;
