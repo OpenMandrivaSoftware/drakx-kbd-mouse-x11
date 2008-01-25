@@ -1,3 +1,5 @@
+Version 0.44 - 25 January 2008
+
 - library for installer:
   o do not force "us" keyboard on everybody that choose "English (American)" 
     (#36575)
