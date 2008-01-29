@@ -584,7 +584,7 @@ sub setup_install {
     }
 
     if (-x "/usr/bin/setxkbmap") {
-	setxkbmap($keyboard);
+	setxkbmap($keyboard) or log::l("setxkbmap failed");
     } else {
 	my $f = xmodmap_file($keyboard);
 	#- timeout is needed for drakx-in-chroot to kill xmodmap when it gets crazy with:
