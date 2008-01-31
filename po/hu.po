@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hu\n"
-"POT-Creation-Date: 2007-09-25 21:53+0200\n"
+"POT-Creation-Date: 2008-01-31 11:40+0100\n"
 "PO-Revision-Date: 2007-09-25 22:52+0200\n"
 "Last-Translator: Arpad Biro <biro_arpad@yahoo.com>\n"
 "Language-Team: Hungarian\n"
@@ -61,22 +61,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB vagy több"
 
-#: ../lib/Xconfig/card.pm:175
+#: ../lib/Xconfig/card.pm:169
 #, c-format
 msgid "X server"
 msgstr "X-kiszolgáló"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:170
 #, c-format
 msgid "Choose an X server"
 msgstr "Válasszon egy X-kiszolgálót"
 
-#: ../lib/Xconfig/card.pm:207
+#: ../lib/Xconfig/card.pm:201
 #, c-format
 msgid "Multi-head configuration"
 msgstr "A többképernyős mód beállítása"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:202
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -85,12 +85,12 @@ msgstr ""
 "A grafikus kártya lehetővé teszi több képernyő használatát.\n"
 "Mit szeretne tenni?"
 
-#: ../lib/Xconfig/card.pm:279
+#: ../lib/Xconfig/card.pm:273
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Válassza ki a grafikus kártyán található memória mennyiségét"
 
-#: ../lib/Xconfig/card.pm:304
+#: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -101,7 +101,7 @@ msgstr ""
 "esetleg további funkciókat támogathat.\n"
 "Szeretné azt használni?"
 
-#: ../lib/Xconfig/card.pm:331
+#: ../lib/Xconfig/card.pm:325
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -111,75 +111,75 @@ msgstr ""
 "ezért az alapértelmezés szerinti szabad szoftveres meghajtóprogram lesz "
 "használva."
 
-#: ../lib/Xconfig/card.pm:398
+#: ../lib/Xconfig/card.pm:392
 #, c-format
 msgid "Configure all heads independently"
 msgstr "A képernyők egymástól független beállítása"
 
-#: ../lib/Xconfig/card.pm:399
+#: ../lib/Xconfig/card.pm:393
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "A Xinerama kiterjesztés használata"
 
-#: ../lib/Xconfig/card.pm:404
+#: ../lib/Xconfig/card.pm:398
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Csak a(z) \"%s\"%s kártya beállítása"
 
-#: ../lib/Xconfig/main.pm:91 ../lib/Xconfig/main.pm:92
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
 msgstr "Egyéni"
 
-#: ../lib/Xconfig/main.pm:126
+#: ../lib/Xconfig/main.pm:123
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
 msgstr "A grafikus kártya és a monitor beállítása"
 
-#: ../lib/Xconfig/main.pm:127
+#: ../lib/Xconfig/main.pm:124
 #, c-format
 msgid "Quit"
 msgstr "Kilépés"
 
-#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/main.pm:126
 #, c-format
 msgid "Graphic Card"
 msgstr "Grafikus kártya"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/monitor.pm:109
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:135 ../lib/Xconfig/resolution_and_depth.pm:312
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
 msgstr "Felbontás"
 
-#: ../lib/Xconfig/main.pm:138
+#: ../lib/Xconfig/main.pm:135
 #, c-format
 msgid "Test"
 msgstr "Teszt"
 
-#: ../lib/Xconfig/main.pm:143
+#: ../lib/Xconfig/main.pm:140
 #, c-format
 msgid "Options"
 msgstr "Beállítások"
 
-#: ../lib/Xconfig/main.pm:148
+#: ../lib/Xconfig/main.pm:145
 #, c-format
 msgid "Plugins"
 msgstr "Bővítőmodulok"
 
-#: ../lib/Xconfig/main.pm:182
+#: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr "Az Xorg beállítási fájlja hibás, ezért figyelmen kívül lesz hagyva."
 
-#: ../lib/Xconfig/main.pm:201
+#: ../lib/Xconfig/main.pm:197
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -192,37 +192,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:110
+#: ../lib/Xconfig/monitor.pm:115
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Válasszon monitort ehhez a képernyőhöz: #%d"
 
-#: ../lib/Xconfig/monitor.pm:110
+#: ../lib/Xconfig/monitor.pm:115
 #, c-format
 msgid "Choose a monitor"
 msgstr "A monitor kiválasztása"
 
-#: ../lib/Xconfig/monitor.pm:116
+#: ../lib/Xconfig/monitor.pm:121
 #, c-format
 msgid "Plug'n Play"
 msgstr "Plug and Play"
 
-#: ../lib/Xconfig/monitor.pm:117 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Általános"
 
-#: ../lib/Xconfig/monitor.pm:118
+#: ../lib/Xconfig/monitor.pm:123
 #, c-format
 msgid "Vendor"
 msgstr "Gyártó"
 
-#: ../lib/Xconfig/monitor.pm:128
-#, c-format
-msgid "Plug'n Play probing failed. Please select the correct monitor"
-msgstr "A Plug'n Play-azonosítás sikertelen. Válasszon ki egy monitort."
-
-#: ../lib/Xconfig/monitor.pm:136
+#: ../lib/Xconfig/monitor.pm:141
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -245,12 +240,12 @@ msgstr ""
 "Ha nem ismeri a monitor jellemzőit, válasszon egy biztonságosan\n"
 "alacsony értéket!"
 
-#: ../lib/Xconfig/monitor.pm:143
+#: ../lib/Xconfig/monitor.pm:148
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Vízszintes frissítés"
 
-#: ../lib/Xconfig/monitor.pm:144
+#: ../lib/Xconfig/monitor.pm:149
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Függőleges frissítés"
@@ -280,37 +275,43 @@ msgstr "65 ezer szín (16 bites)"
 msgid "16 million colors (24 bits)"
 msgstr "16 millió szín (24 bites)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:128
+#: ../lib/Xconfig/resolution_and_depth.pm:72
+#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#, c-format
+msgid "Automatic"
+msgstr "Automatikus"
+
+#: ../lib/Xconfig/resolution_and_depth.pm:129
 #, c-format
 msgid "Resolutions"
 msgstr "Felbontások"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:334 ../lib/mouse.pm:184
+#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
 #, c-format
 msgid "Other"
 msgstr "Egyéb"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:383
+#: ../lib/Xconfig/resolution_and_depth.pm:397
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Válassza ki a felbontást és a színmélységet"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:384
+#: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Grafikus kártya: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:398
+#: ../lib/Xconfig/resolution_and_depth.pm:412
 #, c-format
 msgid "Ok"
 msgstr "OK"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:398
+#: ../lib/Xconfig/resolution_and_depth.pm:412
 #, c-format
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:398
+#: ../lib/Xconfig/resolution_and_depth.pm:412
 #, c-format
 msgid "Help"
 msgstr "Segítség"
@@ -332,7 +333,7 @@ msgstr ""
 "Figyelmeztetés: a grafikus kártya tesztelése esetleg a gép lefagyásához is "
 "vezethet."
 
-#: ../lib/Xconfig/test.pm:69
+#: ../lib/Xconfig/test.pm:65
 #, c-format
 msgid ""
 "An error occurred:\n"
@@ -343,12 +344,12 @@ msgstr ""
 "%s\n"
 "Módosítson néhány paramétert."
 
-#: ../lib/Xconfig/test.pm:130
+#: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Leaving in %d seconds"
 msgstr "Kilépés %d másodperc múlva"
 
-#: ../lib/Xconfig/test.pm:130
+#: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Is this the correct setting?"
 msgstr "Elfogadja a beállítást?"
@@ -459,7 +460,8 @@ msgstr "Külső monitorra kapcsoló BIOS-os billentyűkombináció engedélyezé
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "EXA használata XAA helyett (növeli a Render és a Composite teljesítményét)"
+msgstr ""
+"EXA használata XAA helyett (növeli a Render és a Composite teljesítményét)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -469,7 +471,8 @@ msgstr "Indítás grafikus módban"
 #: ../lib/Xconfig/various.pm:229
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr "Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
+msgstr ""
+"Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -497,20 +500,7 @@ msgstr ""
 msgid "What norm is your TV using?"
 msgstr "Milyen normát használ a televízió?"
 
-#: ../lib/Xconfig/various.pm:348
-#, c-format
-msgid ""
-"The display resolution being used may not be correct. \n"
-"\n"
-"If your desktop appears to stretch beyond the edges of the display, \n"
-"installing %s may help fix the problem. Install it now?"
-msgstr ""
-"Lehetséges, hogy a használt képernyőfelbontás nem megfelelő.\n"
-"\n"
-"Ha az asztal túlnyúlik a képernyő szélein, akkor a(z) %s\n"
-"telepítése segíthet megoldani a problémát. Szeretné most telepíteni?"
-
-#: ../lib/Xconfig/xfree.pm:770
+#: ../lib/Xconfig/xfree.pm:791
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -564,7 +554,7 @@ msgstr "francia"
 msgid "UK keyboard"
 msgstr "angol (UK) billentyűzet"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -578,21 +568,21 @@ msgid ""
 "Polish"
 msgstr "lengyel"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "orosz"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:290
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "svéd"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard"
 msgstr "USA-billentyűzet"
@@ -940,480 +930,480 @@ msgid ""
 "Kyrgyz"
 msgstr "kirgiz"
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "koreai"
 
-#: ../lib/keyboard.pm:259
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "kurd (arab írásmód)"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "latin-amerikai"
 
-#: ../lib/keyboard.pm:262
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "laoszi"
 
-#: ../lib/keyboard.pm:263
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian AZERTY (old)"
 msgstr "litván AZERTY (régi)"
 
-#: ../lib/keyboard.pm:265
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian AZERTY (new)"
 msgstr "litván AZERTY (új)"
 
-#: ../lib/keyboard.pm:266
+#: ../lib/keyboard.pm:264
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian \"number row\" QWERTY"
 msgstr "litván \"számsor\" QWERTY"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian \"phonetic\" QWERTY"
 msgstr "litván \"fonetikus\" QWERTY"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "lett"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "malayalam"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr "maori"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "macedón"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "myanmar (burmai)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "mongol (cirill)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "máltai (UK)"
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "máltai (US)"
 
-#: ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr "nigériai"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "holland"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "oriya"
 
-#: ../lib/keyboard.pm:280
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "lengyel (qwerty)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:279
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "lengyel (qwertz)"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "pashto"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "portugál"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "kanadai (Quebec)"
 
-#: ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "román (qwertz)"
 
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "román (qwerty)"
 
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "orosz (fonetikus)"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "szlovén"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr "sinhala"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "szlovák (QWERTZ)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "szlovák (QWERTY)"
 
-#: ../lib/keyboard.pm:296
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "saami (norvég)"
 
-#: ../lib/keyboard.pm:297
+#: ../lib/keyboard.pm:295
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr "saami (svéd/finn)"
 
-#: ../lib/keyboard.pm:299
+#: ../lib/keyboard.pm:297
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
 msgstr "sindhi"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:299
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "szerb (cirill)"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "szír"
 
-#: ../lib/keyboard.pm:303
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "szír (fonetikus)"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:302
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "telugu"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:304
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "tamil (ISCII kiosztás)"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "tamil (írógép-kiosztás)"
 
-#: ../lib/keyboard.pm:308
+#: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "thaiföldi (Kedmanee)"
 
-#: ../lib/keyboard.pm:309
+#: ../lib/keyboard.pm:307
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "thaiföldi (TIS-820)"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:309
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "thaiföldi (Pattachote)"
 
-#: ../lib/keyboard.pm:313
+#: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr "tifinagh (marokkói kiosztás) (+latin/arab)"
 
-#: ../lib/keyboard.pm:314
+#: ../lib/keyboard.pm:312
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr "tifinagh (fonetikus) (+latin/arab)"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:314
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "tádzsik"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:316
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "türkmén"
 
-#: ../lib/keyboard.pm:319
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
 msgstr "török (hagyományos \"F\" modell)"
 
-#: ../lib/keyboard.pm:320
+#: ../lib/keyboard.pm:318
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
 msgstr "török (modern \"Q\" modell)"
 
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:320
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "ukrán"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:322
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "urdu billentyűzet"
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard (international)"
 msgstr "USA-billentyűzet (nemzetközi)"
 
-#: ../lib/keyboard.pm:327
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr "ISO9995-3 (USA-billentyűzet billentyűnként 3 szinttel)"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:326
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "üzbég (cirill)"
 
-#: ../lib/keyboard.pm:330
+#: ../lib/keyboard.pm:328
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "vietnámi \"számsor\" QWERTY"
 
-#: ../lib/keyboard.pm:331
+#: ../lib/keyboard.pm:329
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "jugoszláv (latin)"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:336
 #, c-format
 msgid "Right Alt key"
 msgstr "Jobb Alt gomb"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "A két Shift gomb egyszerre"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Ctrl és Shift gombok egyszerre"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "CapsLock key"
 msgstr "CapsLock gomb"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Shift és CapsLock gombok egyszerre"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Ctrl és Alt gombok egyszerre"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Alt és Shift gombok egyszerre"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "\"Menu\" key"
 msgstr "\"Menu\" gomb"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "Bal \"Windows\" gomb"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "Jobb \"Windows\" gomb"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "A két Ctrl gomb egyszerre"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "A két Alt gomb egyszerre"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:348
 #, c-format
 msgid "Left Shift key"
 msgstr "Bal Shift gomb"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:349
 #, c-format
 msgid "Right Shift key"
 msgstr "Jobb Shift gomb"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Alt key"
 msgstr "Bal Alt gomb"
 
-#: ../lib/keyboard.pm:353
+#: ../lib/keyboard.pm:351
 #, c-format
 msgid "Left Control key"
 msgstr "Bal Ctrl gomb"
 
-#: ../lib/keyboard.pm:354
+#: ../lib/keyboard.pm:352
 #, c-format
 msgid "Right Control key"
 msgstr "Jobb Ctrl gomb"
 
-#: ../lib/keyboard.pm:390
+#: ../lib/keyboard.pm:388
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1424,12 +1414,12 @@ msgstr ""
 "a különböző billentyűzetkiosztások (például: latin illetve nem-latin)\n"
 "közt lehet majd váltani."
 
-#: ../lib/keyboard.pm:394
+#: ../lib/keyboard.pm:393
 #, c-format
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: ../lib/keyboard.pm:395
+#: ../lib/keyboard.pm:394
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1464,11 +1454,6 @@ msgstr "Általános PS/2-es görgős egér"
 #, c-format
 msgid "GlidePoint"
 msgstr "GlidePoint"
-
-#: ../lib/mouse.pm:35
-#, c-format
-msgid "Automatic"
-msgstr "Automatikus"
 
 #: ../lib/mouse.pm:37 ../lib/mouse.pm:71
 #, c-format
@@ -1620,72 +1605,77 @@ msgstr "Az evdev használata"
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
-#: ../lib/mouse.pm:89
+#: ../lib/mouse.pm:88
+#, c-format
+msgid "VirtualBox mouse"
+msgstr ""
+
+#: ../lib/mouse.pm:91
 #, c-format
 msgid "none"
 msgstr "egyik sem"
 
-#: ../lib/mouse.pm:91
+#: ../lib/mouse.pm:93
 #, c-format
 msgid "No mouse"
 msgstr "nincs egér"
 
-#: ../lib/mouse.pm:484
+#: ../lib/mouse.pm:506
 #, c-format
 msgid "Testing the mouse"
 msgstr "Az egér tesztelése"
 
-#: ../lib/mouse.pm:516
+#: ../lib/mouse.pm:538
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Válassza ki az egér típusát."
 
-#: ../lib/mouse.pm:517
+#: ../lib/mouse.pm:539
 #, c-format
 msgid "Mouse choice"
 msgstr "Egérválasztás"
 
-#: ../lib/mouse.pm:530
+#: ../lib/mouse.pm:555
 #, c-format
 msgid "Emulate third button?"
 msgstr "Emulálva legyen a harmadik gomb?"
 
-#: ../lib/mouse.pm:534
+#: ../lib/mouse.pm:559
 #, c-format
 msgid "Mouse Port"
 msgstr "Egér-port"
 
-#: ../lib/mouse.pm:535
+#: ../lib/mouse.pm:560
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Válassza ki, hogy melyik soros porthoz csatlakozik az egere."
 
-#: ../lib/mouse.pm:544
+#: ../lib/mouse.pm:569
 #, c-format
 msgid "Buttons emulation"
 msgstr "Gombemuláció"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:571
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "2. gomb emulálása"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:572
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "3. gomb emulálása"
 
-#: ../lib/mouse.pm:598
+#: ../lib/mouse.pm:623
 #, c-format
 msgid "Please test the mouse"
 msgstr "Tesztelje az egeret"
 
-#: ../lib/mouse.pm:600
+#: ../lib/mouse.pm:625
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Az egér aktiválásához "
 
-#: ../lib/mouse.pm:601
+#: ../lib/mouse.pm:626
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "MOZGASSA AZ EGÉRGÖRGŐT!"
@@ -1730,3 +1720,16 @@ msgstr "Egértesztelés"
 msgid "Please test your mouse:"
 msgstr "Tesztelje le az egeret:"
 
+#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
+#~ msgstr "A Plug'n Play-azonosítás sikertelen. Válasszon ki egy monitort."
+
+#~ msgid ""
+#~ "The display resolution being used may not be correct. \n"
+#~ "\n"
+#~ "If your desktop appears to stretch beyond the edges of the display, \n"
+#~ "installing %s may help fix the problem. Install it now?"
+#~ msgstr ""
+#~ "Lehetséges, hogy a használt képernyőfelbontás nem megfelelő.\n"
+#~ "\n"
+#~ "Ha az asztal túlnyúlik a képernyő szélein, akkor a(z) %s\n"
+#~ "telepítése segíthet megoldani a problémát. Szeretné most telepíteni?"
