@@ -1,5 +1,5 @@
-# translation of he.po to Hebrew
-# Copyright (C) 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# translation of drakx-kbd-mouse-x11.po to Hebrew
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # This file is distributed under the GNU GPL license.
 # Ram Matityahu  <linuxfun@email.com>, 2003.
 # nadav mavor <nadav@mavor.com>, 2003.
@@ -12,15 +12,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: he\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-26 00:45+0200\n"
-"Last-Translator: Dotan Kamber <kamberd@yahoo.com>\n"
-"Language-Team: Hebrew\n"
+"PO-Revision-Date: 2008-02-01 21:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -361,7 +362,7 @@ msgstr "האצה תלת-מימדית בחומרה: %s\n"
 #: ../lib/Xconfig/various.pm:27
 #, c-format
 msgid "Keyboard layout: %s\n"
-msgstr "פריסת מקלדת: %s\n"
+msgstr "פרישת מקלדת: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
@@ -1061,14 +1062,14 @@ msgstr "אוריה"
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
-msgstr "פולנית (פריסת qwerty)"
+msgstr "פולנית (פרישת qwerty)"
 
 #: ../lib/keyboard.pm:279
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
-msgstr "פולנית (פריסת qwetrz)"
+msgstr "פולנית (פרישת qwetrz)"
 
 #: ../lib/keyboard.pm:281
 #, c-format
@@ -1418,9 +1419,9 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
-"לידיעתך, הגדרת המקשים להחלפת פריסת מקלדת\n"
+"לידיעתך, הגדרת המקשים להחלפת פרישת מקלדת\n"
 "תופעל רק לאחר ההתקנה. במהלך ההתקנה עצמה,\n"
-"מקש Control הימני משמש להחלפת פריסת מקלדת."
+"מקש Control הימני משמש להחלפת פרישת מקלדת."
 
 #: ../lib/mouse.pm:25
 #, c-format
@@ -1595,12 +1596,12 @@ msgstr "הכרח evdev"
 #: ../lib/mouse.pm:87
 #, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Microsoft Xbox Controller S"
+msgstr "שלט מדגם S ל-Xbox של מיקרוסופט"
 
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "עכבר של וירטואלבוקס"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1685,12 +1686,12 @@ msgstr "מקלדת"
 #: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
-msgstr "עליך לבחור את פריסת המקלדת:"
+msgstr "עליך לבחור את פרישת המקלדת:"
 
 #: ../tools/keyboarddrake:34
 #, c-format
 msgid "Keyboard layout"
-msgstr "פריסת מקלדת"
+msgstr "פרישת מקלדת"
 
 #: ../tools/keyboarddrake:42
 #, c-format
@@ -1712,16 +1713,3 @@ msgstr "בדיקת העכבר"
 msgid "Please test your mouse:"
 msgstr "נא לבדוק את העכבר:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "זיהוי הכנס-הפעל נכשלה. עליך לבחור את המסך באופן ידני"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "ייתכן כי הפרדת המסך שבשימוש אינה נכונה.\n"
-#~ "\n"
-#~ "אם שולחן העבודה שלך נראה כמתוח מחוץ לגבולות המסך,\n"
-#~ "התקנת %s יכולה לסייע בפתרון הבעיה. להתקין זאת כעת?"
