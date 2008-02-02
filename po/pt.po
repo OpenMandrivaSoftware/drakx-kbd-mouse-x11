@@ -15,13 +15,13 @@
 # José Melo <mmodem00@gmail.com>, 2005.
 # José Melo <mmodme00@gmail.com>, 2005.
 # Jose JORGE <jjorge@free.fr>, 2005.
-# Zé <mmodem00@gmail.com>, 2006, 2007.
+# Zé <mmodem00@gmail.com>, 2006, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-26 12:47+0100\n"
+"PO-Revision-Date: 2008-02-02 22:17+0000\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Português <pt@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -449,8 +449,7 @@ msgstr "Usar apontador de rato com aceleração de material"
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Activar Aceleração RENDER (pode provocar alguns erros ao mostrar texto)"
+msgstr "Activar Aceleração RENDER (pode provocar alguns erros ao mostrar texto)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
@@ -470,8 +469,7 @@ msgstr "Activar atalho da BIOS para troca externa de ecrã"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Usar EXA em vez de XAA (melhor desempenho para Composição e Renderização)"
+msgstr "Usar EXA em vez de XAA (melhor desempenho para Composição e Renderização)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -1617,7 +1615,7 @@ msgstr "Controlador Microsoft Xbox S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Rato VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1729,17 +1727,3 @@ msgstr "Teste do Rato"
 msgid "Please test your mouse:"
 msgstr "Por favor teste o seu rato:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr ""
-#~ "Verificação 'Plug'n Play' falhada. Por favor seleccione o monitor correcto"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "A resolução de ecrã a ser usada pode não estar correcta.\n"
-#~ "\n"
-#~ "Se o seu ecrã parece esticar nas extremidades do monitor, a instalação\n"
-#~ "de %s pode ajudar a resolver o problema. Instalar agora?"
