@@ -1,14 +1,14 @@
 # translation of drakx-kbd-mouse-x11.po to Euskara
 # EUSKARA: Mandriva Linux translation.
-# Copyright (C) 2002,2003, 2004, 2005, 2007 Free Software Foundation, Inc.
+# Copyright (C) 2002,2003, 2004, 2005, 2007, 2008 Free Software Foundation, Inc.
 #
-# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2001-2002,2003,2004, 2005, 2007.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2001-2002,2003,2004, 2005, 2007, 2008.
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-08-10 22:58+0200\n"
+"PO-Revision-Date: 2008-02-02 23:13+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Euskara <eu@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -176,8 +176,7 @@ msgstr "Pluginak"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
-"Zure Xorg konfigurazio fitxategia hondatuta dago, baztertu egingo dugu."
+msgstr "Zure Xorg konfigurazio fitxategia hondatuta dago, baztertu egingo dugu."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -436,8 +435,7 @@ msgstr "Erabili hardwar bitartez azeleratutako sagu erakuslea"
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Gaitu RENDER azelerazioa (honek testuak erakusterakoan akatsak sortu ditzake)"
+msgstr "Gaitu RENDER azelerazioa (honek testuak erakusterakoan akatsak sortu ditzake)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
@@ -1593,7 +1591,7 @@ msgstr "Edozein PS/2 eta USB sagu"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "evdev behartu"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1603,7 +1601,7 @@ msgstr "Microsoft Xbox S Kontrolatzailea"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox sagua"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1715,16 +1713,3 @@ msgstr "Sagu-probatzea"
 msgid "Please test your mouse:"
 msgstr "Probatu sagua:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Plug'n Play probak huts egin du. Hautatu monitore egoki bat"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Erabiltzen ari den bereizmena oker egon daiteke.\n"
-#~ "\n"
-#~ "Zure idaztegia pantailaren ertzetatik haratago luzatzen bada, \n"
-#~ "%s instalatzeak arazoa konpondu dezake. Orain instalatu nahi duzu?"
