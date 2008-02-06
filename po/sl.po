@@ -1,86 +1,85 @@
-# translation of sl.po to Slovenščina
+# translation of sl.po to Slovenian
 # translation of libDrakX-sl.po to
-# Copyright (C) 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Copyright (C) 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 #
 # Matjaž Kaše <matjaz.kase@g-kabel.si>, 2004.
 # Aljoša Ločičnik <aljosa.locicnik@mandrakeprinas.org>, 2005.
 # Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2002,2004,2005.
-# Jure Repinc <jlp@holodeck1.com>, 2005, 2006, 2007.
+# Jure Repinc <jlp@holodeck1.com>, 2005, 2006, 2007, 2008.
 # Matjaž Kaše <matjaz.kase@telemach.net>, 2006.
 # Matej Štrovs <matej.strovs@gmail.com>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-25 22:37+0200\n"
+"PO-Revision-Date: 2008-02-06 05:05+0100\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
-"Language-Team: Slovenščina <lugos-slo@lugos.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3);\n"
+"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
-msgstr "256 kB"
+msgstr "256 KiB"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
-msgstr "512 kB"
+msgstr "512 KiB"
 
 #: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
-msgstr "1 MB"
+msgstr "1 MiB"
 
 #: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
-msgstr "2 MB"
+msgstr "2 MiB"
 
 #: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
-msgstr "4 MB"
+msgstr "4 MiB"
 
 #: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
-msgstr "8 MB"
+msgstr "8 MiB"
 
 #: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
-msgstr "16 MB"
+msgstr "16 MiB"
 
 #: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
-msgstr "32 MB"
+msgstr "32 MiB"
 
 #: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
-msgstr "64 MB ali več"
+msgstr "64 MiB ali več"
 
 #: ../lib/Xconfig/card.pm:169
 #, c-format
 msgid "X server"
-msgstr "Strežnik X"
+msgstr "Grafični strežnik"
 
 #: ../lib/Xconfig/card.pm:170
 #, c-format
 msgid "Choose an X server"
-msgstr "Izberite strežnik X"
+msgstr "Izberite grafični strežnik"
 
 #: ../lib/Xconfig/card.pm:201
 #, c-format
 msgid "Multi-head configuration"
-msgstr "Nastavitev več grafičnih kartic"
+msgstr "Nastavitev več zaslonov"
 
 #: ../lib/Xconfig/card.pm:202
 #, c-format
@@ -88,13 +87,13 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"Vaš sistem podpira nastavitev z več karticami.\n"
+"Vaš sistem podpira nastavitev z več zasloni.\n"
 "Kaj želite storiti?"
 
 #: ../lib/Xconfig/card.pm:273
 #, c-format
 msgid "Select the memory size of your graphics card"
-msgstr "Izberite velikost pomnilnika grafične kartice"
+msgstr "Izberite velikost pomnilnika na grafični kartici"
 
 #: ../lib/Xconfig/card.pm:298
 #, c-format
@@ -103,9 +102,9 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Na voljo je ustrezen gonilnik za vašo grafično kartico, ki mogoče vsebuje "
-"dodatnih  funkcij.\n"
-"Ga želite uporabiti?"
+"Na voljo je poseben gonilnik za vašo grafično kartico, ki mogoče vsebuje "
+"dodatne  funkcije, a ni odprto-koden.\n"
+"Ali ga želite uporabiti?"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
@@ -119,7 +118,7 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:392
 #, c-format
 msgid "Configure all heads independently"
-msgstr "Nastavi vsako grafično kartico posebej"
+msgstr "Nastavi vsak zaslon posebej"
 
 #: ../lib/Xconfig/card.pm:393
 #, c-format
@@ -140,12 +139,12 @@ msgstr "Po želji"
 #: ../lib/Xconfig/main.pm:123
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Nastavitve grafične kartice in monitorja"
+msgstr "Nastavitev grafične kartice in zaslona"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
 msgid "Quit"
-msgstr "Izhod"
+msgstr "Končaj"
 
 #: ../lib/Xconfig/main.pm:126
 #, c-format
@@ -182,7 +181,7 @@ msgstr "Vstavki"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "Vaše nastavitve za Xorg so napačne, zato ne bodo upoštevane."
+msgstr "Nastavitve za grafični strežnik so napačne, zato ne bodo upoštevane."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -192,7 +191,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Ohrani spremembe?\n"
+"Ali naj ohranim spremembe?\n"
 "Trenutna nastavitev:\n"
 "\n"
 "%s"
@@ -200,7 +199,7 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:115
 #, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Izberite zaslon za izhod (head) #%d"
+msgstr "Izberite zaslon za izhod #%d"
 
 #: ../lib/Xconfig/monitor.pm:115
 #, c-format
@@ -236,9 +235,9 @@ msgid ""
 "monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Kritična parametra sta: navpično osveževanje(hitrost, s katero se osvežuje "
+"Kritična parametra sta: navpično osveževanje (hitrost, s katero se osvežuje "
 "celoten zaslon) in najbolj pomembno, vodoravno osveževanje (hitrost, s "
-"katero se osvežujejo vrstice).\n"
+"katero se izrisujejo vrstice).\n"
 "\n"
 "ZELO POMEMBNO je, da ne izberete zaslona z osvežitvami, ki presegajo "
 "zmožnosti vašega zaslona, ker s tem lahko poškodujete zaslon!\n"
@@ -328,7 +327,7 @@ msgstr "Preizkus nastavitev"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Do you want to test the configuration?"
-msgstr "Želite preizkusiti nastavitev?"
+msgstr "Ali želite preizkusiti nastavitve?"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
@@ -351,12 +350,12 @@ msgstr ""
 #: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Leaving in %d seconds"
-msgstr "Še %d sekund"
+msgstr "Izhod po %d s"
 
 #: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Is this the correct setting?"
-msgstr "Je to prava nastavitev?"
+msgstr "Ali je to prava nastavitev?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
@@ -381,12 +380,12 @@ msgstr "Zaslon: %s\n"
 #: ../lib/Xconfig/various.pm:31
 #, c-format
 msgid "Monitor HorizSync: %s\n"
-msgstr "Vodoravna frekvenca zaslona: %s\n"
+msgstr "Vodoravno osveževanje zaslona: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
-msgstr "Navpična frekvenca zaslona: %s\n"
+msgstr "Navpično osveževanje zaslona: %s\n"
 
 #: ../lib/Xconfig/various.pm:34
 #, c-format
@@ -396,7 +395,7 @@ msgstr "Grafična kartica: %s\n"
 #: ../lib/Xconfig/various.pm:35
 #, c-format
 msgid "Graphics memory: %s kB\n"
-msgstr "Grafični pomnilnik: %s kB\n"
+msgstr "Grafični pomnilnik: %s KiB\n"
 
 #: ../lib/Xconfig/various.pm:37
 #, c-format
@@ -411,22 +410,22 @@ msgstr "Ločljivost: %s\n"
 #: ../lib/Xconfig/various.pm:40
 #, c-format
 msgid "Xorg driver: %s\n"
-msgstr "Gonilnik Xorg: %s\n"
+msgstr "Gonilnik: %s\n"
 
 #: ../lib/Xconfig/various.pm:204
 #, c-format
 msgid "Xorg configuration"
-msgstr "Nastavitve Xorg"
+msgstr "Nastavitev grafičnega strežnika"
 
 #: ../lib/Xconfig/various.pm:205
 #, c-format
 msgid "Graphic card options"
-msgstr "Nastavitve grafične kartice"
+msgstr "Nastavitev grafične kartice"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr "3D strojno pospeševanje"
+msgstr "Strojno 3D pospeševanje"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
@@ -442,29 +441,28 @@ msgstr "Uporabi strojno pospeševanje za miškin kazalec"
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
-"Omogoči pospeševanje RENDER(to lahko povzroči napake pri prikazovanju "
+"Omogoči pospeševanje RENDER (to lahko povzroči napake pri prikazovanju "
 "besedila)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr "Na zunanjem zaslonu omogoči dvojni prikaz"
+msgstr "Na zunanjem zaslonu omogoči podvojen prikaz"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr "Na drugem zaslonu omogoči dvojni prikaz"
+msgstr "Na drugem zaslonu omogoči podvojen prikaz"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr "Omogoči BIOS tipko za preklop na zunanji naslov "
+msgstr "Omogoči tipko za preklop zunanjega zaslona"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Namesto XAA uporabi EXA (boljše zmogljivosti za 'Render' in 'Composite')"
+msgstr "Namesto XAA uporabi EXA (boljše zmogljivosti za Render in Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -489,25 +487,25 @@ msgid ""
 "Do you have this feature?"
 msgstr ""
 "Izgleda, da ima vaša grafična kartica TV izhod.\n"
-"Lahko mu določite uporabo medpomnilnika.\n"
+"Deluje lahko s pomočjo medpomnilnika sličic.\n"
 "\n"
 "Da bi to dosegli, morate grafično kartico povezati s TV sprejemnikom, preden "
-"zaženete računalnik,\n"
-"nato pa izbrati vnos »TVout« v zagonskem nalagalniku.\n"
+"zaženete računalnik.\n"
+"Nato pa izberete vnos »TVout« v zagonskem nalagalniku.\n"
 "\n"
-"Ima vaša kartica TV izhod?"
+"Ali ima vaša kartica TV izhod?"
 
 #: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "What norm is your TV using?"
-msgstr "Kateri standard uporablja vaš TV sprejemnik?"
+msgstr "Kateri standard uporablja vaš TV?"
 
 #: ../lib/Xconfig/xfree.pm:791
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
 "other"
-msgstr "ostalo"
+msgstr "drugo"
 
 #: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
 #, c-format
@@ -650,7 +648,7 @@ msgstr "bengalska (razpored inscript)"
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
-msgstr "bengalska (razpored Probhat)"
+msgstr "bengalska (Probhat)"
 
 #: ../lib/keyboard.pm:205
 #, c-format
@@ -678,7 +676,7 @@ msgstr "brazilska (ABNT-2)"
 msgid ""
 "_: keyboard\n"
 "Bosnian"
-msgstr "bošnjaška"
+msgstr "bosanska"
 
 #: ../lib/keyboard.pm:209
 #, c-format
@@ -762,7 +760,7 @@ msgstr "Dvorak (Esperanto)"
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
-msgstr "Dvorak (norveška)"
+msgstr "Dvorak (francoska)"
 
 #: ../lib/keyboard.pm:224
 #, c-format
@@ -1021,7 +1019,7 @@ msgstr "makedonska"
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr "mjanmarška (Burmanska)"
+msgstr "mjanmarška (burmanska)"
 
 #: ../lib/keyboard.pm:271
 #, c-format
@@ -1105,7 +1103,7 @@ msgstr "kanadska (Quebec)"
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
-msgstr "romunska (QWWERTZ)"
+msgstr "romunska (QWERTZ)"
 
 #: ../lib/keyboard.pm:285
 #, c-format
@@ -1480,7 +1478,7 @@ msgstr "Microsoft Explorer"
 #: ../lib/mouse.pm:45 ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
-msgstr "1 tipka"
+msgstr "1 gumb"
 
 #: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
@@ -1490,7 +1488,7 @@ msgstr "Generična miška z dvema tipkama"
 #: ../lib/mouse.pm:48 ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Generična miška s tremi tipkami in emulacijo kolesca"
+msgstr "Generična miška s tremi tipkami in posnemanjem kolesca"
 
 #: ../lib/mouse.pm:49
 #, c-format
@@ -1520,7 +1518,7 @@ msgstr "Logitech MouseMan"
 #: ../lib/mouse.pm:60
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr "Logitech MouseMan s kolescem"
+msgstr "Logitech MouseMan s posnemanjem kolesca"
 
 #: ../lib/mouse.pm:61
 #, c-format
@@ -1535,7 +1533,7 @@ msgstr "Logitech CC Series"
 #: ../lib/mouse.pm:64
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr "Logitech CC Series s kolescem"
+msgstr "Logitech CC Series s posnemanjem kolesca"
 
 #: ../lib/mouse.pm:65
 #, c-format
@@ -1560,12 +1558,12 @@ msgstr "Logitech Mouse (serijska, stari C7 tip)"
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Logitech Mouse (serijska, stari C7 tip) z emulacijo kolesca"
+msgstr "Logitech Mouse (serijska, stari C7 tip) s posnemanjem kolesca"
 
 #: ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Kensington Thinking Mouse z emulacijo kolesca"
+msgstr "Kensington Thinking Mouse s posnemanjem kolesca"
 
 #: ../lib/mouse.pm:75
 #, c-format
@@ -1575,17 +1573,17 @@ msgstr "busmouse"
 #: ../lib/mouse.pm:78
 #, c-format
 msgid "2 buttons"
-msgstr "2 tipki"
+msgstr "2 gumba"
 
 #: ../lib/mouse.pm:79
 #, c-format
 msgid "3 buttons"
-msgstr "3 tipke"
+msgstr "3 gumbi"
 
 #: ../lib/mouse.pm:80
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "3 tipke s kolescem"
+msgstr "3 gumbi s posnemanjem kolesca"
 
 #: ../lib/mouse.pm:83
 #, c-format
@@ -1605,17 +1603,17 @@ msgstr "Vsili splošni vmesnik za vhodne naprave (evdev)"
 #: ../lib/mouse.pm:87
 #, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Microsoft Xbox Kontroler"
+msgstr "Microsoft Xbox Kontroler S"
 
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Miška VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
 msgid "none"
-msgstr "nič"
+msgstr "brez"
 
 #: ../lib/mouse.pm:93
 #, c-format
@@ -1625,12 +1623,12 @@ msgstr "Brez miške"
 #: ../lib/mouse.pm:506
 #, c-format
 msgid "Testing the mouse"
-msgstr "Testiranje miške"
+msgstr "Preizkus miške"
 
 #: ../lib/mouse.pm:538
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Prosim izberite tip vaše miške"
+msgstr "Prosim izberite vrsto vaše miške"
 
 #: ../lib/mouse.pm:539
 #, c-format
@@ -1640,7 +1638,7 @@ msgstr "Izbira miške"
 #: ../lib/mouse.pm:555
 #, c-format
 msgid "Emulate third button?"
-msgstr "Želite emulacijo tretje tipke?"
+msgstr "Ali želite posnemanje tretjega gumba?"
 
 #: ../lib/mouse.pm:559
 #, c-format
@@ -1655,17 +1653,17 @@ msgstr "Prosim izberite serijska vrata, na katera je priključena miška"
 #: ../lib/mouse.pm:569
 #, c-format
 msgid "Buttons emulation"
-msgstr "Emulacija tipk"
+msgstr "Posnemanje gumbov"
 
 #: ../lib/mouse.pm:571
 #, c-format
 msgid "Button 2 Emulation"
-msgstr "Emulacija druge tipke"
+msgstr "Posnemanje drugega gumba"
 
 #: ../lib/mouse.pm:572
 #, c-format
 msgid "Button 3 Emulation"
-msgstr "Emulacija tretje tipke"
+msgstr "Posnemanje tretjega gumba"
 
 #: ../lib/mouse.pm:623
 #, c-format
@@ -1710,29 +1708,15 @@ msgstr "Vrsta tipkovnice"
 #: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
-msgstr "Želite, da ima preslednica v konzoli funkcijo »izbriši«?"
+msgstr "Ali želite, da ima Vračalka v konzoli funkcijo »izbriši«?"
 
 #: ../tools/mousedrake:44
 #, c-format
 msgid "Mouse test"
-msgstr "Preizkušanje miške"
+msgstr "Preizkus miške"
 
 #: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
 msgstr "Preizkusite miško:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr ""
-#~ "Poizkus nastavitve Plug'n Play ni uspel. Prosim, izberite pravi zaslon:"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Izbrana resolucija zaslona mogoče ni prava. \n"
-#~ "\n"
-#~ "če se namizje razteza preko robov  vašega zaslona, utegne namestitev%s "
-#~ "odpraviti to težavo. Namestim zdaj?"
