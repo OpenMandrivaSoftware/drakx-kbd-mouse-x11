@@ -1842,7 +1842,7 @@ msgstr "Controlador S para Microsoft Xbox"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Mouse VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
