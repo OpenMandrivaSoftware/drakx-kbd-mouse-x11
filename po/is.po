@@ -1,17 +1,17 @@
 # Icelandic translation of drakx-kbd-mouse-x11.po
 # Translation file for Mandriva Linux graphic install, DrakX
-# Copyright (C) 1999,2003, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Copyright (C) 1999,2003, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # Copyright (C) 1999 Mandriva
 #
 #
 # Jóhann Þorvarðarson <johann.torvardarson@lais.is>, 1999-2000.
 # Þórarinn (Tony) R. Einarsson <thori@mindspring.com>, 1999-2000.
-# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003, 2005, 2006, 2007.
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003, 2005, 2006, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-02-22 17:33+0000\n"
+"PO-Revision-Date: 2008-02-17 23:47+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
 "Language-Team: Icelandic <kde-isl@molar.is>\n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Ekki tókst að setja inn sérsniðinn rekil, sný til baka að opnum rekli. "
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
@@ -1592,7 +1592,7 @@ msgstr "Einhverjar PS/2 & USB mýs"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Þvinga edev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1602,12 +1602,12 @@ msgstr "Microsoft Xbox Stjórnborð S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Mús sýndarkerfis"
 
 #: ../lib/mouse.pm:91
 #, c-format
 msgid "none"
-msgstr "ekkert"
+msgstr "engin"
 
 #: ../lib/mouse.pm:93
 #, c-format
@@ -1714,17 +1714,3 @@ msgstr "Músaprófun"
 msgid "Please test your mouse:"
 msgstr "Vinsamlega prófaðu músina:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Plug'n Play könnun mistókst, vinsamlega veldu réttan skjá"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Upplausnin sem er uppsett er kannski ekki rétt. \n"
-#~ "\n"
-#~ "Ef skjáborðið virðist teygt út fyrir jaðra skjásins, þá er kanski hægt "
-#~ "að \n"
-#~ "laga það með því að setja upp %s. Setja það inn núna? "
