@@ -11,12 +11,13 @@
 # Mandriva Poland <biuro@mandriva.pl>, 2006.
 # Tomasz Bednarski Mandriva Poland <tomasz.bednarski@mandriva.pl>, 2006.
 # Tomasz Bednarski - Amazis.net <tomasz.bednarski@amazis.pl>, 2007.
+# Tomasz Bednarski - Amazis.net <tomasz.bednarski@mandriva.pl>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-26 15:01+0200\n"
-"Last-Translator: Tomasz Bednarski - Amazis.net <tomasz.bednarski@amazis.pl>\n"
+"PO-Revision-Date: 2008-02-18 15:35+0100\n"
+"Last-Translator: Tomasz Bednarski - Amazis.net <tomasz.bednarski@mandriva.pl>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1611,7 +1612,7 @@ msgstr "Kontroler S Microsoft Xbox"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Mysz w VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1723,18 +1724,3 @@ msgstr "Test myszy"
 msgid "Please test your mouse:"
 msgstr "Przetestuj swoją mysz:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr ""
-#~ "Wykrywanie sprzętu Plug'n Play zakończone niepowodzeniem. Wybierz monitor "
-#~ "z listy"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Wykorzystywana rozdzielczość może nie być odpowiednia. \n"
-#~ "\n"
-#~ "Jeżeli obraz jest rozciągnięty poza krawędzie ekranu,\n"
-#~ "spróbuj zainstalować %s, co być może rozwiąże problem. Zainstalować teraz?"
