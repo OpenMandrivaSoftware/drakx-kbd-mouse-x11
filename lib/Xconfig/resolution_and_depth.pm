@@ -254,21 +254,34 @@ sub set_default_background {
     my $ratio = $resolution->{X} / $resolution->{Y};
     my $dir = "$::prefix/usr/share/mdk/backgrounds";
     my %theme = getVarsFromSh("$::prefix/etc/sysconfig/bootsplash");
-    my @l = 
-      sort {
-	  $a->[1] <=> $b->[1] || $b->[2] <=> $a->[2] || $a->[3] <=> $b->[3];
-      } map {
-	  if (my ($X, $Y) = /^\Q$theme{THEME}\E-(\d+)x(\d+).png$/) {
-	      [
-		  $_, 
-		  int(abs($ratio - $X / $Y) * 100), #- we want the nearest ratio (precision .01)
-		  $X >= $resolution->{X}, #- then we don't want a resolution smaller
-		  abs($X - $resolution->{X}), #- the nearest resolution
-	      ];
-	  } else { () }
-      } all($dir);
 
-    symlinkf $l[0][0], "$dir/default.png";
+    my @l = map {
+	if (my ($X, $Y, undef, $hour) = /^\Q$theme{THEME}\E-(\d+)x(\d+)(-(.*))?.png$/) {
+	    { file => $_, X => $X, Y => $Y, hour => $hour };
+	} else { () }
+    } all($dir);
+
+    my ($best, $_other) = 
+      sort {
+	  $a->[2] <=> $b->[2] || $b->[3] <=> $a->[3] || $a->[4] <=> $b->[4];
+      } map {
+	  [
+	      $_->{X}, $_->{Y},
+	      int(abs($ratio - $_->{X} / $_->{Y}) * 100), #- we want the nearest ratio (precision .01)
+	      $_->{X} >= $resolution->{X}, #- then we don't want a resolution smaller
+	      abs($_->{X} - $resolution->{X}), #- the nearest resolution
+	  ];
+      } @l;
+
+    my @wanted = grep { $best->[0] == $_->{X} && $best->[1] == $_->{Y} } @l;
+
+    foreach (@wanted) {
+	if ($_->{hour}) {
+	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.png";    
+	} else {
+	    symlinkf $_->{file}, "$dir/default.png";
+	}
+    }
 }
 sub is_915resolution_configured() {
     my $f = "$::prefix/etc/sysconfig/915resolution";    
