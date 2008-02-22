@@ -1,13 +1,13 @@
 # Translation of DrakX.po to Estonian.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # Riho Kurg <rx@linux.ee>, 1999-2003.
-# Marek Laane <bald@starman.ee>, 2002-2007.
+# Marek Laane <bald@starman.ee>, 2002-2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-et\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-25 23:21+0200\n"
+"PO-Revision-Date: 2008-02-22 19:58+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1596,7 +1596,7 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBoxi hiir"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1696,7 +1696,7 @@ msgstr "Klaviatuuritüüp"
 #: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
-msgstr "Kas soovite konsoolil kasutada BackSpace-i kui Delete?"
+msgstr "Kas soovite konsoolis kasutada BackSpace-i kui Delete?"
 
 #: ../tools/mousedrake:44
 #, c-format
