@@ -4,16 +4,16 @@
 # translation of da1.po to Danish
 # translation of da.po to Danish
 # translation of DrakX-da.po to Danish
-# Copyright (C) 2000,2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Copyright (C) 2000,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # Troels Liebe Bentsen <tlb@iname.com> 2000.
-# Keld Simonsen <keld@dkuug.dk>, 2000-2003, 2004, 2005, 2007.
+# Keld Simonsen <keld@dkuug.dk>, 2000-2003, 2004, 2005, 2007, 2008.
 # Keld Simonsen <keld@rap.dk>, 2005, 2006.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-10-30 22:41+0100\n"
+"PO-Revision-Date: 2008-02-26 16:30+0100\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: dansk <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -336,8 +336,7 @@ msgstr "Ønsker du at afprøve konfigurationen?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Advarsel: afprøvning af dette grafikkort kan få din maskine til at fryse"
+msgstr "Advarsel: afprøvning af dette grafikkort kan få din maskine til at fryse"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -1611,7 +1610,7 @@ msgstr "Microsoft Xbox-Controller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox mus"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1723,18 +1722,3 @@ msgstr "Test af musen"
 msgid "Please test your mouse:"
 msgstr "Afprøv din mus:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr ""
-#~ "Undersøgning for Plug'n Play mislykkedes. Vælg venligst den rigtige skærm"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Den brugte skærmopløsningen er muligvis ikke rigtig. \n"
-#~ "\n"
-#~ "Hvis dit skrivebord ser ud til at strække sig forbi kanterne på skærmen, "
-#~ "så kan installation af %s muligvis hjælpe med at ordne problemet. Skal "
-#~ "det installeres nu?"
