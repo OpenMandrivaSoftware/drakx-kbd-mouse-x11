@@ -1,7 +1,6 @@
-# translation of drakx-kbd-mouse-x11-sv.po to
-# libDrakX-sv - Swedish Translation
+# translation of drakx-kbd-mouse-x11-sv.po to Swedish
 #
-# Copyright (C) 2000,2002,2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Copyright (C) 2000,2002,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 # Copyright (c) 2000 Mandriva
 #
 # Kenneth Krekula, 2005.
@@ -10,15 +9,15 @@
 # Mattias Newzella <newzella@linux.nu>, 2001, 2002,2003.
 # Magnus Björklöf <bjorklof@nic.fi>, 2003.
 # Lars Westergren <lars.westergren@home.se>, 2003, 2004, 2005.
-# Thomas Backlund <tmb@mandriva.org>, 2004, 2005, 2006.
+# Thomas Backlund <tmb@mandriva.org>, 2004, 2005, 2006, 2008.
 # Kenneth Krekula <kenneth.krekula@kiruna.se>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-sv\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-03-18 12:24+0100\n"
-"Last-Translator: Kenneth Krekula <kenneth.krekula@kiruna.se>\n"
-"Language-Team:  <sv@li.org>\n"
+"PO-Revision-Date: 2008-02-27 17:15+0200\n"
+"Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
+"Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +114,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Den proprietära drivrutinen installerades inte korrekt, växlar till fria drivrutinen."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
@@ -441,8 +440,7 @@ msgstr "Använd Hårdvaruaccelerad muspekare"
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Aktivera RENDER Acceleration (detta kan skapa buggar vid visande av text)"
+msgstr "Aktivera RENDER Acceleration (detta kan skapa buggar vid visande av text)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
@@ -462,8 +460,7 @@ msgstr "Aktivera BIOS Snabbtangent för växlande till extern skärm"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Använd EXA istället för XAA (bättre prestanda för Render och Composite)"
+msgstr "Använd EXA istället för XAA (bättre prestanda för Render och Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -1601,7 +1598,7 @@ msgstr "Valfri PS/2- eller USB-mus"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Tvinga evdev"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1611,7 +1608,7 @@ msgstr "Microsofts XBOX kontrollenheter"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox mus"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1723,16 +1720,3 @@ msgstr "Mustest"
 msgid "Please test your mouse:"
 msgstr "Testa musen:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Plug'n Play-identifiering misslyckades. Välj korrekt bildskärm"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Den använda skärmupplösningen kanske inte är korrekt.\n"
-#~ "\n"
-#~ "Om ditt skrivbord verkar sträckas ut över kanterna på skärmen,\n"
-#~ "kan det hjälpa att installera %s för att fixa problemet. Installera nu?"
