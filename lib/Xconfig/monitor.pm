@@ -155,6 +155,17 @@ that is beyond the capabilities of your monitor: you may damage your monitor.
     1;
 }
 
+sub _configure_automatic_LCD {
+    my ($monitor) = @_;
+
+    $monitor->{preferred_resolution} 
+      && Xconfig::xfree::resolution2ratio($monitor->{preferred_resolution}) eq '16/10' or return;
+
+    log::l("no HorizSync nor VertRefresh, using preferred resolution (hopefully this is a flat panel)");
+    add2hash($monitor, generic_flat_panel($monitor->{preferred_resolution}));
+    1;
+}
+
 sub configure_automatic {
     my ($monitor) = @_;
 
@@ -164,20 +175,17 @@ sub configure_automatic {
 	    add2hash($monitor, $mon);
 	    log::l("EISA_ID corresponds to: $monitor->{ModelName}");
 	} elsif (!$monitor->{HorizSync} || !$monitor->{VertRefresh}) {
-	    if ($monitor->{preferred_resolution} 
-		  && Xconfig::xfree::resolution2ratio($monitor->{preferred_resolution}) eq '16/10') {
-		log::l("no HorizSync nor VertRefresh, using preferred resolution (hopefully this is a flat panel)");
-		add2hash($monitor, generic_flat_panel($monitor->{preferred_resolution}));
-	    } else {
-		log::l("unknown EISA_ID and partial DDC probe, so unknown monitor");
-		delete @$monitor{'VendorName', 'ModelName', 'EISA_ID'};	    
-	    }
+	    log::l("unknown EISA_ID and partial DDC probe, so unknown monitor");
+	    delete @$monitor{'VendorName', 'ModelName', 'EISA_ID'};	    
 	}
     } elsif ($monitor->{VendorName}) {
 	if (my $mon = find { $_->{VendorName} eq $monitor->{VendorName} && $_->{ModelName} eq $monitor->{ModelName} } monitors_db()) {
 	    put_in_hash($monitor, $mon);
 	}
     }
+
+    _configure_automatic_LCD($monitor);
+
     is_valid($monitor);
 }
 
@@ -231,6 +239,7 @@ sub use_EDID {
 
     $monitor->{ModeLine} = Xconfig::xfree::default_ModeLine();
     my $detailed_timings = $monitor->{detailed_timings} || [];
+    my @different_timings = uniq_ { $_->{horizontal_active} . 'x' . $_->{vertical_active} } @$detailed_timings;
     foreach (grep { !$_->{bad_ratio} } @$detailed_timings) {
 	if (Xconfig::xfree::xorg_builtin_resolution($_->{horizontal_active}, $_->{vertical_active})) {
 	    #- we don't want the 4/3 modelines otherwise they conflict with the Xorg builtin vesamodes
@@ -239,7 +248,7 @@ sub use_EDID {
 	      { val => $_->{ModeLine}, pre_comment => $_->{ModeLine_comment} . "\n" };
 	}
 
-	if (@$detailed_timings == 1 && $_->{horizontal_active} >= 1024) {
+	if (@different_timings == 1 && $_->{horizontal_active} >= 1024) {
 	    #- we don't use detailed_timing when it is 640x480 or 800x600,
 	    #- since 14" CRTs often give this even when they handle 1024x768 correctly (and desktop is no good in poor resolutions)
 
