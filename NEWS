@@ -1,3 +1,7 @@
+- XFdrake:
+  o when setting background for the resolution, handle "hour"-based
+    backgrounds (also add Mandriva.xml symlink)
+  
 Version 0.47 - 27 February 2008
 
 - XFdrake:

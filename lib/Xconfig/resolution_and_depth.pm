@@ -275,6 +275,10 @@ sub set_default_background {
 
     my @wanted = grep { $best->[0] == $_->{X} && $best->[1] == $_->{Y} } @l;
 
+    if (-e "$dir/$theme{THEME}.xml") {
+	symlinkf "$theme{THEME}.xml", "$dir/Mandriva.xml";
+    }
+    
     foreach (@wanted) {
 	if ($_->{hour}) {
 	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.png";    
