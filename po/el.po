@@ -6,15 +6,17 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX-el\n"
-"POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2004-09-15 13:28+0200\n"
-"Last-Translator:  Νίκος Νύκταρης (Nick Niktaris) <niktarin@yahoo.com>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"Project-Id-Version: drakx-kbd-mouse-x11_2008-01-09\n"
+"POT-Creation-Date: 2007-09-25 21:53+0200\n"
+"PO-Revision-Date: 2008-02-21 19:10+0200\n"
+"Last-Translator: nikos papadopoulos <231036448@freemail.gr>\n"
+"Language-Team: el <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.0.1\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -69,7 +71,7 @@ msgstr "εξυπηρετητής X"
 #: ../lib/Xconfig/card.pm:170
 #, c-format
 msgid "Choose an X server"
-msgstr "Επιλέξτε τον εξυπηρετητή Χ"
+msgstr "Επέλεξε τον εξυπηρετητή Χ"
 
 #: ../lib/Xconfig/card.pm:201
 #, c-format
@@ -77,38 +79,37 @@ msgid "Multi-head configuration"
 msgstr "Ρύθμιση πολλών κεφαλών"
 
 #: ../lib/Xconfig/card.pm:202
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"\n"
-" Τι?"
+"Το σύστημά σου υποστηρίζει ρύθμιση πολλαπλών κεφαλών.\n"
+"Τι θα ήθελες να κάνεις;"
 
 #: ../lib/Xconfig/card.pm:273
 #, c-format
 msgid "Select the memory size of your graphics card"
-msgstr "Επιλέξτε το μέγεθος μνήμης της κάρτας γραφικών"
+msgstr "Επιλέξτε το μέγεθος της μνήμης της κάρτας γραφικών"
 
 #: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"Υπάρχει διαθέσιμος ένας ιδιόκτητος οδηγός για την κάρτα γραφικών, που ίσως να υποστηρίζει επιπλέον χαρακτηριστικά.\n"
+"Θέλεις να χρησιμοποιηθεί;"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Ο ιδιόκτητος οδηγός δεν εγκαταστάθηκε σωστά. Γίνεται προεπιλεγμένη χρήση του ελεύθερου οδηγού λογισμικού."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
 msgid "Configure all heads independently"
-msgstr "Ρύθμιση όλων των κεφαλών ανεξάρτητα"
+msgstr "Ανεξάρτητη ρύθμιση όλων των κεφαλών"
 
 #: ../lib/Xconfig/card.pm:393
 #, c-format
@@ -120,16 +121,17 @@ msgstr "Χρήση επέκτασης Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Ρύθμιση μόνο της κάρτας \"%s\" %s"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88
+#: ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
 msgstr "Προσαρμοσμένο"
 
 #: ../lib/Xconfig/main.pm:123
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Ρυθμίσεις σύνδεσης"
+msgstr "Ρυθμίσεις Κάρτας Γραφικών και Οθόνης"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -141,14 +143,16 @@ msgstr "Έξοδος"
 msgid "Graphic Card"
 msgstr "Κάρτα Γραφικών"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/monitor.pm:114
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Οθόνη"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
 msgstr "Ανάλυση"
@@ -166,12 +170,12 @@ msgstr "Επιλογές"
 #: ../lib/Xconfig/main.pm:145
 #, c-format
 msgid "Plugins"
-msgstr "Πρόσθετα"
+msgstr "Ενθέματα (plugins)"
 
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
+msgstr "Το αρχείο ρυθμίσεων του Xorg είναι ελαττωματικό. Θα το αγνοήσουμε."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -181,15 +185,15 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Διατήρηση υπαρχόντων ρυθμίσεων;\n"
+"Διατήρηση των αλλαγών;\n"
 "Οι τρέχουσες ρυθμίσεις είναι:\n"
 "\n"
 "%s"
 
 #: ../lib/Xconfig/monitor.pm:115
-#, fuzzy, c-format
+#, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Επιλέξτε οθόνη"
+msgstr "Επιλέξτε μία οθόνη για την κεφαλή #%d"
 
 #: ../lib/Xconfig/monitor.pm:115
 #, c-format
@@ -201,10 +205,11 @@ msgstr "Επιλέξτε οθόνη"
 msgid "Plug'n Play"
 msgstr "Άμεσης τοποθέτησης και λειτουργίας"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:122
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
-msgstr "Γενική"
+msgstr "Γενικού τύπου"
 
 #: ../lib/Xconfig/monitor.pm:123
 #, c-format
@@ -214,25 +219,21 @@ msgstr "Κατασκευαστής"
 #: ../lib/Xconfig/monitor.pm:141
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Οι δύο κρίσιμες παράμετροι είναι η συχνότητα κατακόρυφης ανανέωσης είναι η\n"
-"συχνότητα με την οποία ανανεώνεται ολόκληρη η οθόνη, καθώς και η συχνότητα\n"
-"οριζόντιας ανανέωσης, η οποία είναι η συχνότητα με την οποία ανανεώνονται\n"
-"οι οριζόντιες γραμμές.\n"
+"Οι δύο κρίσιμες παράμετροι είναι η «συχνότητα κατακόρυφης ανανέωσης» \n"
+"(που είναι η συχνότητα με την οποία ανανεώνεται ολόκληρη η οθόνη), \n"
+"καθώς και η πιο σημαντική «συχνότητα οριζόντιας ανανέωσης» \n"
+"(η οποία είναι η συχνότητα με την οποία ανανεώνονται οι οριζόντιες γραμμές).\n"
 "\n"
 "Είναι ΠΟΛΥ ΣΗΜΑΝΤΙΚΟ να μην επιλέξετε τύπο οθόνης του οποίου οι συχνότητες\n"
-"ανανέωσης είναι εκτός των ορίων της οθόνης σας: υπάρχει κίνδυνος "
-"καταστροφής\n"
+"ανανέωσης είναι εκτός των ορίων της οθόνης σας: υπάρχει κίνδυνος καταστροφής\n"
 "της οθόνης σας. Αν δεν είστε σίγουροι, κάντε μια συντηρητική επιλογή."
 
 #: ../lib/Xconfig/monitor.pm:148
@@ -246,9 +247,9 @@ msgid "Vertical refresh rate"
 msgstr "Συχνότητα κατακόρυφης ανανέωσης"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Επιλέξτε πράξη"
+msgstr "Επέλεξε ενθέματα (plugins)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -271,7 +272,8 @@ msgid "16 million colors (24 bits)"
 msgstr "16 εκατομμύρια χρώματα (24 bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Αυτόματο"
@@ -281,7 +283,8 @@ msgstr "Αυτόματο"
 msgid "Resolutions"
 msgstr "Αναλύσεις"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:343
+#: ../lib/mouse.pm:187
 #, c-format
 msgid "Other"
 msgstr "Άλλο"
@@ -324,9 +327,7 @@ msgstr "Θέλετε να δοκιμάσετε τις ρυθμίσεις;"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Προσοχή: Η δοκιμή σε αυτή την κάρτα γραφικών μπορεί να παγώσει τον "
-"υπολογιστή σας"
+msgstr "Προσοχή: Η δοκιμή σε αυτή την κάρτα γραφικών μπορεί να παγώσει τον υπολογιστή σας"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -352,7 +353,7 @@ msgstr "Είναι σωστή η ρύθμιση;"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "3D επιτάχυνση συσκευής: %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -410,49 +411,51 @@ msgid "Xorg configuration"
 msgstr "Ρυθμίσεις Xorg"
 
 #: ../lib/Xconfig/various.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Κάρτα γραφικών: %s"
+msgstr "Επιλογές κάρτας γραφικών"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "3D επιτάχυνση συσκευής"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Ενεργοποίηση της Translucency (επέκταση Composite)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Χρήση δείκτη ποντικιού «επιτάχυνσης συσκευής»"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "Ενεργοποίηση της Επιτάχυνσης RENDER (αυτή η επιλογή ίσως να προκαλέσει την εμφάνιση κειμένων δυσλειτουργιών)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Ενεργοποίηση της πανομοιότυπης προβολής στην εξωτερική οθόνη"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Ενεργοποίηση πανομοιότυπης προβολής στην δεύτερη οθόνη"
 
+# 'ή:
+# εξωτερική εναλλαγή των οθονών
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Ενεργοποίηση των BIOS συντομεύσεων πληκτρολογίου, για την εναλλαγή των εξωτερικών οθονών"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "Χρήση της EXA αντί της XAA (καλύτερη απόδοση για Render και Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -460,32 +463,28 @@ msgid "Graphical interface at startup"
 msgstr "Γραφικό περιβάλλον στην εκκίνηση"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Μπορώ να ρυθμίσω το σύστημά σας έτσι ώστε να ξεκινάει αυτόματα σε\n"
-"γραφικό περιβάλλον (Xorg).\n"
-"Επιθυμείτε την αυτόματη εκκίνηση γραφικού περιβάλλοντος;"
+msgstr "Αυτόματη εκκίνηση του γραφικού περιβάλλοντος εργασίας (Xorg), κατά την εκκίνηση του συστήματος"
 
 #: ../lib/Xconfig/various.pm:241
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
 msgstr ""
+"Φαίνεται, πως η κάρτα γραφικών έχει σύνδεση για έξοδο σε τηλεόραση (TV-OUT).\n"
+"Μπορεί να ρυθμιστεί, ώστε να λειτουργεί με τη χρήση «μικροαποθήκευσης των καρέ» (frame-buffer).\n"
 "\n"
+"Για να γίνει αυτό, θα πρέπει να συνδέσεις την τηλεόραση στη κάρτα γραφικών, πριν την εκκίνηση του υπολογιστή.\n"
+"Μετά επέλεξε Έξοδος Τηλεόρασης (\"TVout\") στον επιλογέα εκκίνησης\n"
 "\n"
-"\n"
-"\n"
-"\n"
-"\n"
-" Ολοκληρώθηκε?"
+"Υπάρχει αυτό το χαρακτηριστικό;"
 
 #: ../lib/Xconfig/various.pm:253
 #, c-format
@@ -498,324 +497,424 @@ msgid ""
 "_:weird aspect ratio\n"
 "other"
 msgstr ""
+"_:παράξενη αναλογία πλευρών\n"
+"άλλο"
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:183
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
-msgstr "Τσέχικο (QWERTZ)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Τσέχικο (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:184
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German"
-msgstr "Γερμανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γερμανικό"
 
 #: ../lib/keyboard.pm:185
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak"
-msgstr "Dvorak"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
-msgstr "Ισπανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ισπανικό"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
-msgstr "Φινλανδικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Φινλανδικό"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
-msgstr "Γαλλικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γαλλικό"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid "UK keyboard"
-msgstr "Μεγάλη Βρετανία (UK)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Μεγάλης Βρετανίας"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Norwegian"
-msgstr "Νορβηγικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Νορβηγικό"
 
 #: ../lib/keyboard.pm:191
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish"
-msgstr "Πολωνικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Πολωνικό"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
-msgstr "Ρωσικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ρωσικό"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
-msgstr "Σουηδικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Σουηδικό"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard"
-msgstr "Η.Π.Α. (US)"
+msgstr "Η.Π.Α. πληκτρολόγιο"
 
 #: ../lib/keyboard.pm:196
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
-msgstr "Αλβανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Αλβανικό"
 
 #: ../lib/keyboard.pm:197
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (old)"
-msgstr "Αρμενικό (παλιό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Αρμενικό (παλιό)"
 
 #: ../lib/keyboard.pm:198
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
-msgstr "Αρμενικό (γραφομηχανή)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Αρμενικό (γραφομηχανής)"
 
 #: ../lib/keyboard.pm:199
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
-msgstr "Αρμενικό (φωνητικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Αρμενικό (φωνητικό)"
 
 #: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
-msgstr "Αραβικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Αραβικό"
 
 #: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
-msgstr "Αζερμπαϊτζάν (Λατινικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Αζερμπαϊτζάν (Λατινικό)"
 
 #: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
-msgstr "Βελγικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βελγικό"
 
 #: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
-msgstr "Βεγγαλικό (Inscript διάταξη)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βεγγαλικό (Inscript διάταξη)"
 
 #: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
-msgstr "Βεγγαλικό (Probhat διάταξη)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βεγγαλικό (Probhat διάταξη)"
 
 #: ../lib/keyboard.pm:205
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
-msgstr "Βουλγαρικό (φωνητικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βουλγαρικό (φωνητικό)"
 
 #: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
-msgstr "Βουλγαρικό (BDS)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βουλγαρικό (BDS)"
 
 #: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
-msgstr "Βραζιλιάνικο (ABNT-2)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βραζιλιάνικο (ABNT-2)"
 
 #: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
-msgstr "Βοσνίας"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βοσνίας"
 
 #: ../lib/keyboard.pm:209
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr "Βοσνίας"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dzongkha/Θιβετιανό"
 
 #: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
-msgstr "Λευκορωσίας"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λευκορωσίας"
 
 #: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
-msgstr "Ελβετικό (Γερμανική διάταξη)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ελβετικό (Γερμανική διάταξη)"
 
 #: ../lib/keyboard.pm:212
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
-msgstr "Ελβετικό (Γαλλική διάταξη)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ελβετικό (Γαλλική διάταξη)"
 
 #: ../lib/keyboard.pm:214
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
-msgstr "Αραβικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Τσεροκικό συλλαβικό"
 
 #: ../lib/keyboard.pm:216
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
-msgstr "Τσέχικο (QWERTY)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Τσέχικο (QWERTY)"
 
 #: ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
-msgstr "Γερμανικό (χωρίς νεκρά πλήκτρα)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γερμανικό (χωρίς νεκρά πλήκτρα)"
 
 #: ../lib/keyboard.pm:219
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
-msgstr "Δεβαναγαρικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Δεβαναγαρικό"
 
 #: ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
-msgstr "Δανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Δανικό"
 
 #: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
-msgstr "Dvorak (ΗΠΑ)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (ΗΠΑ)"
 
 #: ../lib/keyboard.pm:222
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
-msgstr "Dvorak (Νορβηγικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (Εσπεράντο)"
 
 #: ../lib/keyboard.pm:223
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
-msgstr "Dvorak (Νορβηγικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (Γαλλικό)"
 
 #: ../lib/keyboard.pm:224
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
-msgstr "Dvorak (ΗΠΑ)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (Ηνωμένου Βασιλείου)"
 
 #: ../lib/keyboard.pm:225
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
-msgstr "Dvorak (Νορβηγικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (Νορβηγικό)"
 
 #: ../lib/keyboard.pm:226
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
-msgstr "Dvorak (Σουηδικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (Πολωνικό)"
 
 #: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
-msgstr "Dvorak (Σουηδικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Dvorak (Σουηδικό)"
 
 #: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
-msgstr "Εσθονικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Εσθονικό"
 
 #: ../lib/keyboard.pm:231
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
-msgstr "Ελληνικό"
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
-msgstr "Γεωργία (\"Ρώσικη\" διάταξη)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γεωργιανό (\"Ρώσικη\" διάταξη)"
 
 #: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
-msgstr "Γεωργία (\"Λατινική\" διάταξη)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γεωργιανό (\"Λατινική\" διάταξη)"
 
 #: ../lib/keyboard.pm:236
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
-msgstr "Ελληνικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ελληνικό"
 
 #: ../lib/keyboard.pm:237
 #, c-format
@@ -823,34 +922,44 @@ msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Ελληνικό (πολυτονικό)"
 
 #: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
-msgstr "Γκουτζαρατικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γκουτζαρατικό"
 
 #: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
-msgstr "Γκουρμούκι"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γκουρμούκι"
 
 #: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
-msgstr "Κροατικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Κροατικό"
 
 #: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
-msgstr "Ουγγρικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ουγγρικό"
 
 #: ../lib/keyboard.pm:242
 #, c-format
@@ -858,139 +967,173 @@ msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Ιρλανδικό"
 
 #: ../lib/keyboard.pm:243
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
-msgstr ""
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
-msgstr "Ισραήλ"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ισραήλ"
 
 #: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
-msgstr "Ισραήλ (φωνητικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ισραήλ (φωνητικό)"
 
 #: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
-msgstr "Ιρανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ιρανικό"
 
 #: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
-msgstr "Ισλανδικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ισλανδικό"
 
 #: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
-msgstr "Ιταλικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ιταλικό"
 
 #: ../lib/keyboard.pm:252
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
-msgstr "Ιαπωνικό 106 πλήκτρων"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ιαπωνικό 106 πλήκτρων"
 
 #: ../lib/keyboard.pm:253
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
-msgstr "Καναδάς"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Κανναδικό"
 
 #: ../lib/keyboard.pm:254
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr "Μεγάλη Βρετανία (UK)"
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
-msgstr "Κορεάτικο Πληκτρολόγιο"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Κορεάτικο"
 
 #: ../lib/keyboard.pm:257
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
-msgstr "Αραβικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Κουρδικό (αραβικό σενάριο)"
 
 #: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
-msgstr "Λατινικής Αμερικής"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λατινικής Αμερικής"
 
 #: ../lib/keyboard.pm:260
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
-msgstr ""
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian AZERTY (old)"
-msgstr "Λιθουανικό AZERTY (παλιό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λιθουανικό AZERTY (παλιό)"
 
 #: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian AZERTY (new)"
-msgstr "Λιθουανικό AZERTY (νέο)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λιθουανικό AZERTY (νέο)"
 
 #: ../lib/keyboard.pm:264
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian \"number row\" QWERTY"
-msgstr "Λιθουανικό \"number row\" QWERTY"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λιθουανικό \"αριθμητικής σειράς\" QWERTY"
 
 #: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian \"phonetic\" QWERTY"
-msgstr "Λιθουανικό \"φωνητικό\" QWERTY"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λιθουανικό \"φωνητικό\" QWERTY"
 
 #: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
-msgstr "Λετονικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Λετονικό"
 
 #: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
-msgstr "Μαλαγιαλαμικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Μαλαγιαλαμικό"
 
 #: ../lib/keyboard.pm:268
 #, c-format
@@ -998,27 +1141,35 @@ msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Μαορικό"
 
 #: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
-msgstr "Μακεδονικό Π.Γ Δ."
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Π.Γ.Δ.της Μακεδονίας"
 
 #: ../lib/keyboard.pm:270
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr "Μιανμάρ"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Μιανμάρ (Burmese)"
 
 #: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
-msgstr "Μογγολικό (Κυριλλική)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Μογγολικό (κυριλλικό)"
 
 #: ../lib/keyboard.pm:272
 #, c-format
@@ -1026,6 +1177,8 @@ msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Μαλτέζικο (Ηνωμένου Βασιλείου )"
 
 #: ../lib/keyboard.pm:273
 #, c-format
@@ -1033,6 +1186,8 @@ msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Μαλτέζικο (Η.Π.Α.)"
 
 #: ../lib/keyboard.pm:274
 #, c-format
@@ -1040,111 +1195,139 @@ msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Νιγηριανό"
 
 #: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
-msgstr "Ολλανδικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ολλανδικό"
 
 #: ../lib/keyboard.pm:277
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
-msgstr "Συρία"
+msgstr "Oriya"
 
 #: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
-msgstr "Πολωνικό (διάταξη qwerty)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Πολωνικό (διάταξη qwerty)"
 
 #: ../lib/keyboard.pm:279
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
-msgstr "Πολωνικό (διάταξη qwertz)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Πολωνικό (διάταξη qwertz)"
 
 #: ../lib/keyboard.pm:281
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
-msgstr "Πολωνικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Παστού"
 
 #: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
-msgstr "Πορτογαλικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Πορτογαλικό"
 
 #: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
-msgstr "Καναδικό (Κεμπέκ)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Καναδικό (Κεμπέκ)"
 
 #: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
-msgstr "Ρουμανικό (qwertz)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ρουμανικό (qwertz)"
 
 #: ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
-msgstr "Ρουμανικό (qwerty)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ρουμανικό (qwerty)"
 
 #: ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
-msgstr "Ρωσικό (φωνητικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ρωσικό (φωνητικό)"
 
 #: ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
-msgstr "Σλοβενίας"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Σλοβενίας"
 
 #: ../lib/keyboard.pm:291
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "Sinhala"
 
 #: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
-msgstr "Σλοβακίας (QWERTZ)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Σλοβακίας (QWERTZ)"
 
 #: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
-msgstr "Σλοβακίας (QWERTY)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Σλοβακίας (QWERTY)"
 
 #: ../lib/keyboard.pm:294
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
-msgstr "Dvorak (Νορβηγικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Σααμικό (νορβηγικό)"
 
 #: ../lib/keyboard.pm:295
 #, c-format
@@ -1152,76 +1335,94 @@ msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Σααμικό (σουηδικό/φιλανδικό)"
 
 #: ../lib/keyboard.pm:297
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
-msgstr "Ταϊλανδέζικο"
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../lib/keyboard.pm:299
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
-msgstr "Σέρβικο (κυριλλικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Σέρβικο (κυριλλικό)"
 
 #: ../lib/keyboard.pm:300
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "Συρία"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Συριακό"
 
 #: ../lib/keyboard.pm:301
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
-msgstr "Αρμενικό (φωνητικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Συριακό (φωνητικό)"
 
 #: ../lib/keyboard.pm:302
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
-msgstr "Τοκελάου"
+msgstr "Telugu"
 
 #: ../lib/keyboard.pm:304
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
-msgstr "Ταμιλικό (διάταξη ISCII)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ταμιλικό (διάταξη ISCII)"
 
 #: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
-msgstr "Ταμιλικό (διάταξη γραφομηχανή)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ταμιλικό (διάταξη γραφομηχανής)"
 
 #: ../lib/keyboard.pm:306
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
-msgstr "Ταϊλανδέζικο"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ταϊλανδέζικο (Kedmanee)"
 
 #: ../lib/keyboard.pm:307
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
-msgstr "Ταϊλανδέζικο"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ταϊλανδέζικο (TIS-820)"
 
 #: ../lib/keyboard.pm:309
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
-msgstr "Ταϊλανδέζικο"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ταϊλανδέζικο (Pattachote)"
 
 #: ../lib/keyboard.pm:311
 #, c-format
@@ -1229,6 +1430,8 @@ msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Tifinagh (μαροκινή διάταξη) (+λατινικό/αραβικό)"
 
 #: ../lib/keyboard.pm:312
 #, c-format
@@ -1236,6 +1439,8 @@ msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Tifinagh (φωνητικό) (+λατινικό/αραβικό)"
 
 #: ../lib/keyboard.pm:314
 #, c-format
@@ -1243,72 +1448,88 @@ msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr ""
+"_: πληκτρολόγιο\n"
+"Τατζικικό"
 
 #: ../lib/keyboard.pm:316
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
-msgstr "Γερμανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Τουρκμενικό"
 
 #: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
-msgstr "Τουρκικό (παραδοσιακό \"F\" μοντέλο)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Τουρκικό (παραδοσιακό μοντέλο \"F\")"
 
 #: ../lib/keyboard.pm:318
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
-msgstr "Τουρκικό (μοντέρνο \"Q\" μοντέλο)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Τουρκικό (μοντέρνο μοντέλο \"Q\")"
 
 #: ../lib/keyboard.pm:320
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
-msgstr "Ουκρανικό"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ουκρανικό"
 
 #: ../lib/keyboard.pm:322
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
-msgstr "Συρία"
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard (international)"
-msgstr "US διεθνές"
+msgstr "Η.Π.Α. πληκτρολόγιο (διεθνές)"
 
 #: ../lib/keyboard.pm:325
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (πληκτρολόγιο Η.Π.Α. με 3 επίπεδα για κάθε πλήκτρο)"
 
 #: ../lib/keyboard.pm:326
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
-msgstr "Σέρβικο (κυριλλικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Ουζμπέκικο (κυριλλικό)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
-msgstr "Βιετνάμ \"numeric row\" QWERTY"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Βιετναμέζικο \"αριθμητικής σειράς\" QWERTY"
 
 #: ../lib/keyboard.pm:329
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
-msgstr "Γιουγκοσλαβικό (λατινικό)"
+msgstr ""
+"_: πληκτρολόγιο\n"
+"Γιουγκοσλαβικό (λατινικό)"
 
 #: ../lib/keyboard.pm:336
 #, c-format
@@ -1318,7 +1539,7 @@ msgstr "Δεξιό πλήκτρο Alt"
 #: ../lib/keyboard.pm:337
 #, c-format
 msgid "Both Shift keys simultaneously"
-msgstr "Ταυτόχρονα τα δύο πλήκτρα Shift"
+msgstr "Ταυτόχρονα και τα δύο πλήκτρα Shift"
 
 #: ../lib/keyboard.pm:338
 #, c-format
@@ -1331,9 +1552,9 @@ msgid "CapsLock key"
 msgstr "Πλήκτρο Capslock"
 
 #: ../lib/keyboard.pm:340
-#, fuzzy, c-format
+#, c-format
 msgid "Shift and CapsLock keys simultaneously"
-msgstr "Ταυτόχρονα τα πλήκτρα Ctrl και Alt"
+msgstr "Ταυτόχρονα τα πλήκτρα Shift και CapsLock"
 
 #: ../lib/keyboard.pm:341
 #, c-format
@@ -1361,39 +1582,39 @@ msgid "Right \"Windows\" key"
 msgstr "Δεξιό πλήκτρο \"Windows\""
 
 #: ../lib/keyboard.pm:346
-#, fuzzy, c-format
+#, c-format
 msgid "Both Control keys simultaneously"
-msgstr "Ταυτόχρονα τα δύο πλήκτρα Shift"
+msgstr "Ταυτόχρονα και τα δύο πλήκτρα Control"
 
 #: ../lib/keyboard.pm:347
-#, fuzzy, c-format
+#, c-format
 msgid "Both Alt keys simultaneously"
-msgstr "Ταυτόχρονα τα δύο πλήκτρα Shift"
+msgstr "Ταυτόχρονα και τα δύο πλήκτρα Alt"
 
 #: ../lib/keyboard.pm:348
-#, fuzzy, c-format
+#, c-format
 msgid "Left Shift key"
-msgstr "Αριστερό πλήκτρο \"Windows\""
+msgstr "Αριστερό πλήκτρο Shift"
 
 #: ../lib/keyboard.pm:349
-#, fuzzy, c-format
+#, c-format
 msgid "Right Shift key"
-msgstr "Δεξιό πλήκτρο Alt"
+msgstr "Δεξιό πλήκτρο Shift"
 
 #: ../lib/keyboard.pm:350
-#, fuzzy, c-format
+#, c-format
 msgid "Left Alt key"
-msgstr "Δεξιό πλήκτρο Alt"
+msgstr "Αριστερό πλήκτρο Alt"
 
 #: ../lib/keyboard.pm:351
-#, fuzzy, c-format
+#, c-format
 msgid "Left Control key"
-msgstr "Απομακρυσμένος Έλεγχος"
+msgstr "Αριστερό πλήκτρο Control"
 
 #: ../lib/keyboard.pm:352
-#, fuzzy, c-format
+#, c-format
 msgid "Right Control key"
-msgstr "Δεξιό πλήκτρο Alt"
+msgstr "Δεξί πλήκτρο Control"
 
 #: ../lib/keyboard.pm:388
 #, c-format
@@ -1403,7 +1624,7 @@ msgid ""
 "(eg: latin and non latin)"
 msgstr ""
 "Εδώ μπορείτε να επιλέξετε το πλήκτρο ή τον συνδυασμό\n"
-"πλήκτρων εναλλαγής των διατάξεων πληκτρολογίων\n"
+"πλήκτρων εναλλαγής των διατάξεων πληκτρολογίου\n"
 "(π.χ. Αγγλική ή Ελληνική)"
 
 #: ../lib/keyboard.pm:393
@@ -1418,6 +1639,9 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
+"Αυτή η ρύθμιση θα ενεργοποιηθεί μετά την εγκατάσταση.\n"
+"Κατά τη διάρκεια της εγκατάστασης, θα πρέπει να χρησιμοποιείς το Δεξί Πλήκτρο Control,\n"
+"για να αλλάζεις τη διάταξη του πληκτρολογίου."
 
 #: ../lib/mouse.pm:25
 #, c-format
@@ -1444,12 +1668,14 @@ msgstr "Γενικού τύπου ποντίκι PS2 με ροδάκι"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1459,25 +1685,29 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
 msgstr "1 πλήκτρου"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Γενικού τύπου με 2 πλήκτρα"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
-#, fuzzy, c-format
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
+#, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Γενικού τύπου με 3 πλήκτρα"
+msgstr "Γενικού τύπου, 3 πλήκτρων ποντίκι, με προσομοίωση Τροχού"
 
 #: ../lib/mouse.pm:49
 #, c-format
@@ -1505,9 +1735,9 @@ msgid "Logitech MouseMan"
 msgstr "Logitech MouseMan"
 
 #: ../lib/mouse.pm:60
-#, fuzzy, c-format
+#, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr "Logitech MouseMan"
+msgstr "Logitech MouseMan με προσομοίωση Τροχού"
 
 #: ../lib/mouse.pm:61
 #, c-format
@@ -1520,9 +1750,9 @@ msgid "Logitech CC Series"
 msgstr "Logitech CC Series"
 
 #: ../lib/mouse.pm:64
-#, fuzzy, c-format
+#, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr "Logitech CC Series"
+msgstr "Logitech CC Series με προσομοίωση Τροχού"
 
 #: ../lib/mouse.pm:65
 #, c-format
@@ -1542,17 +1772,17 @@ msgstr "MM HitTablet"
 #: ../lib/mouse.pm:69
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
-msgstr "Logitech Mouse (σειριακό, παλιός C7 τύπος)"
+msgstr "Logitech Mouse (σειριακό, παλαιού τύπου C7)"
 
 #: ../lib/mouse.pm:70
-#, fuzzy, c-format
+#, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Logitech Mouse (σειριακό, παλιός C7 τύπος)"
+msgstr "Logitech Mouse (σειριακό, παλαιού τύπου C7) με προσομοίωση Τροχού"
 
 #: ../lib/mouse.pm:72
-#, fuzzy, c-format
+#, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Kensington Thinking Mouse"
+msgstr "Kensington Thinking Mouse με προσομοίωση Τροχού"
 
 #: ../lib/mouse.pm:75
 #, c-format
@@ -1570,9 +1800,9 @@ msgid "3 buttons"
 msgstr "Τριών πλήκτρων"
 
 #: ../lib/mouse.pm:80
-#, fuzzy, c-format
+#, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "Προσομοίωση Κουμπιών"
+msgstr "3 πλήκτρων με προσομοίωση Τροχού"
 
 #: ../lib/mouse.pm:83
 #, c-format
@@ -1582,22 +1812,22 @@ msgstr "Γενικό"
 #: ../lib/mouse.pm:85
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr ""
+msgstr "Οποιαδήποτε PS/2 & USB ποντίκια"
 
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Εξαναγκασμός evdev"
 
 #: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Microsoft Explorer"
+msgstr "Ελεγκτής Microsoft Xbox S"
 
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Ποντίκι VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1612,17 +1842,17 @@ msgstr "Χωρίς ποντίκι"
 #: ../lib/mouse.pm:506
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "Έλεγχος του ποντικιού"
 
 #: ../lib/mouse.pm:538
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Παρακαλώ επιλέξτε τύπο ποντικιού."
+msgstr "Παρακαλώ επιλέξτε το τύπο του ποντικιού."
 
 #: ../lib/mouse.pm:539
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse choice"
-msgstr "χειροκίνητα"
+msgstr "Επιλογή ποντικιού"
 
 #: ../lib/mouse.pm:555
 #, c-format
@@ -1637,23 +1867,22 @@ msgstr "Θύρα ποντικιού"
 #: ../lib/mouse.pm:560
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr ""
-"Παρακαλώ επιλέξτε σειριακή θύρα στην οποία είναι συνδεδεμένο το ποντίκι σας."
+msgstr "Παρακαλώ επιλέξτε σειριακή θύρα στην οποία είναι συνδεδεμένο το ποντίκι σας."
 
 #: ../lib/mouse.pm:569
 #, c-format
 msgid "Buttons emulation"
-msgstr "Προσομοίωση Κουμπιών"
+msgstr "Προσομοίωση πλήκτρων"
 
 #: ../lib/mouse.pm:571
 #, c-format
 msgid "Button 2 Emulation"
-msgstr "Προσομοίωση 2 Κουμπιών"
+msgstr "Προσομοίωση 2 Πλήκτρων"
 
 #: ../lib/mouse.pm:572
 #, c-format
 msgid "Button 3 Emulation"
-msgstr "Προσομοίωση 3 Κουμπιών"
+msgstr "Προσομοίωση 3 Πλήκτρων"
 
 #: ../lib/mouse.pm:623
 #, c-format
@@ -1671,7 +1900,7 @@ msgid "MOVE YOUR WHEEL!"
 msgstr "ΚΙΝΗΣΤΕ ΤΟ ΡΟΔΑΚΙ!"
 
 #: ../tools/XFdrake:71
-#, fuzzy, c-format
+#, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "Απαιτείται επανεκκίνηση για να εφαρμοστούν οι αλλαγές"
 
@@ -1686,14 +1915,14 @@ msgid "Please, choose your keyboard layout."
 msgstr "Παρακαλώ επιλέξτε την διάταξη του πληκτρολογίου."
 
 #: ../tools/keyboarddrake:34
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
-msgstr "Διάταξη πληκτρολογίου: %s\n"
+msgstr "Διάταξη πληκτρολογίου"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Πληκτρολόγιο"
+msgstr "Τύπος πληκτρολογίου"
 
 #: ../tools/keyboarddrake:54
 #, c-format
@@ -1701,11 +1930,12 @@ msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Θέλετε το BackSpace να επιστρέφει Delete στην κονσόλα;"
 
 #: ../tools/mousedrake:44
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse test"
-msgstr "Mouse Systems"
+msgstr "Έλεγχος ποντικιού"
 
 #: ../tools/mousedrake:47
-#, fuzzy, c-format
+#, c-format
 msgid "Please test your mouse:"
-msgstr "Παρακαλώ δοκιμάστε το ποντίκι"
+msgstr "Παρακαλώ δοκιμάστε το ποντίκι:"
+
