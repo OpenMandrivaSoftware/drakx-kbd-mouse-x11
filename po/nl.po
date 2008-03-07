@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-25 22:44+0200\n"
+"PO-Revision-Date: 2008-03-07 01:47+0100\n"
 "Last-Translator: Reinout van Schouwen <reinouts@gnome.org>\n"
-"Language-Team:  Dutch <vertaling@vrijschrift.org>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -98,22 +98,16 @@ msgstr "Selecteer de geheugengrootte van uw grafische kaart"
 #: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Voor deze grafische kaart is een fabrikantseigen stuurprogramma beschikbaar "
-"die extra functionaliteit ondersteunt.\n"
+"Voor deze grafische kaart is een fabrikantseigen stuurprogramma beschikbaar die extra functionaliteit ondersteunt.\n"
 "Wilt u deze gebruiken?"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"Het fabrikantseigen stuurprogramma is niet correct geïnstalleerd. Het "
-"standaard vrije software-stuurprogramma zal worden gebruikt."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Het fabrikantseigen stuurprogramma is niet correct geïnstalleerd. Het standaard vrije software-stuurprogramma zal worden gebruikt."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
@@ -130,7 +124,8 @@ msgstr "Xinerama-uitbreiding gebruiken"
 msgid "Configure only card \"%s\"%s"
 msgstr "Alleen kaart \"%s\"%s configureren"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88
+#: ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
@@ -151,14 +146,16 @@ msgstr "Afsluiten"
 msgid "Graphic Card"
 msgstr "Grafische kaart"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/monitor.pm:114
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Beeldscherm"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
 msgstr "Resolutie"
@@ -211,7 +208,8 @@ msgstr "Selecteer een monitor"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:122
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Algemeen"
@@ -224,25 +222,19 @@ msgstr "Fabrikant"
 #: ../lib/Xconfig/monitor.pm:141
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "De twee cruciale parameters zijn de verticale verversingfrequentie d.w.z.\n"
-"de snelheid waarmee het volledige scherm wordt ververst en nog "
-"belangrijker \n"
-"de horizontale verversingfrequentie, dit is de snelheid waarmee de "
-"beeldlijnen worden geschreven\n"
+"de snelheid waarmee het volledige scherm wordt ververst en nog belangrijker \n"
+"de horizontale verversingfrequentie, dit is de snelheid waarmee de beeldlijnen worden geschreven\n"
 "\n"
-"Het is UITERMATE BELANGRIJK dat u geen instellingen opgeeft die het maximale "
-"frequentiebereik\n"
+"Het is UITERMATE BELANGRIJK dat u geen instellingen opgeeft die het maximale frequentiebereik\n"
 "van uw monitor overschrijdt: u kan uw monitor beschadigen.\n"
 "Bij twijfel maak een voorzichtige keuze."
 
@@ -282,7 +274,8 @@ msgid "16 million colors (24 bits)"
 msgstr "16 miljoen kleuren (24 bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Automatisch"
@@ -292,7 +285,8 @@ msgstr "Automatisch"
 msgid "Resolutions"
 msgstr "Resoluties"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:343
+#: ../lib/mouse.pm:187
 #, c-format
 msgid "Other"
 msgstr "Overig"
@@ -335,9 +329,7 @@ msgstr "Wenst u de instellingen te testen?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Waarschuwing: het testen van deze grafische kaart zou uw computer kunnen "
-"laten vastlopen"
+msgstr "Waarschuwing: het testen van deze grafische kaart zou uw computer kunnen laten vastlopen"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -443,8 +435,7 @@ msgstr "Hardwarematig versnelde muiscursor gebruiken"
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"RENDER-acceleratie inschakelen (dit kan tot fouten leiden in tekstweergave)"
+msgstr "RENDER-acceleratie inschakelen (dit kan tot fouten leiden in tekstweergave)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
@@ -464,8 +455,7 @@ msgstr "Externe monitor-omschakeling via BIOS-sneltoets inschakelen"
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"EXA in plaats van XAA gebruiken (betere prestaties voor Render en Composite)"
+msgstr "EXA in plaats van XAA gebruiken (betere prestaties voor Render en Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -483,8 +473,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -492,8 +481,7 @@ msgstr ""
 "Uw grafische kaart lijkt een TV-OUT-contact te hebben.\n"
 "Deze kan worden geconfigureerd om met een 'frame-buffer' te werken.\n"
 "\n"
-"Hiervoor dient u uw grafische kaart met uw TV te verbinden voordat u uw "
-"computer start.\n"
+"Hiervoor dient u uw grafische kaart met uw TV te verbinden voordat u uw computer start.\n"
 "Vervolgens kiest u het \"TVout\"-item in de opstartlader\n"
 "\n"
 "Heeft u deze mogelijkheid?"
@@ -512,14 +500,16 @@ msgstr ""
 "_:ongebruikelijke beeldverhouding\n"
 "overige"
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:183
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Tsjechisch (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:184
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -533,33 +523,38 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Spaans"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Fins"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Frans"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid "UK keyboard"
 msgstr "UK toetsenbord"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -573,21 +568,24 @@ msgid ""
 "Polish"
 msgstr "Pools"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Russisch"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Zweeds"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard"
 msgstr "VS toetsenbord"
@@ -1460,12 +1458,14 @@ msgstr "Algemene PS/2 wielmuis"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1475,22 +1475,26 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
 msgstr "1 knop"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Algemene 2-knopsmuis"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Algemene drieknopsmuis met wiel-emulatie"
@@ -1613,7 +1617,7 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox-muis"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1688,9 +1692,7 @@ msgstr "BEWEEG UW WIELTJE!"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr ""
-"U dient de computer opnieuw op te starten voordat de veranderingen effect "
-"hebben"
+msgstr "U dient de computer opnieuw op te starten voordat de veranderingen effect hebben"
 
 #: ../tools/keyboarddrake:32
 #, c-format
@@ -1730,7 +1732,6 @@ msgstr "Test uw muis alstublieft:"
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr ""
 #~ "Plug'n'Play-bespeuring mislukt. Kiest u alstublieft de juiste monitor."
-
 #~ msgid ""
 #~ "The display resolution being used may not be correct. \n"
 #~ "\n"
@@ -1742,30 +1743,22 @@ msgstr "Test uw muis alstublieft:"
 #~ "Als uw bureaublad groter lijkt dan uw monitor, dan helpt het wellicht "
 #~ "om \n"
 #~ "%s te installeren. Wilt u dit?"
-
 #~ msgid "Xgl is an additional graphical server that adds 3D desktop support."
 #~ msgstr ""
 #~ "Xgl is een aanvullende grafische server die 3D bureaublad ondersteuning "
 #~ "toevoegt."
-
 #~ msgid "3D Desktop effects"
 #~ msgstr "3D bureaublad-effecten"
-
 #~ msgid "Your system does not support 3D desktop effects."
 #~ msgstr "Uw systeem ondersteunt geen 3D bureaublad-effecten."
-
 #~ msgid "Use %s"
 #~ msgstr "%s gebruiken"
-
 #~ msgid "No 3D desktop effects"
 #~ msgstr "Geen 3D bureaublad-effecten"
-
 #~ msgid "Please wait"
 #~ msgstr "Even geduld"
-
 #~ msgid "Bootloader installation in progress"
 #~ msgstr "Installatie opstartlader is bezig"
-
 #~ msgid ""
 #~ "LILO wants to assign a new Volume ID to drive %s.  However, changing\n"
 #~ "the Volume ID of a Windows NT, 2000, or XP boot disk is a fatal Windows "
@@ -1781,12 +1774,10 @@ msgstr "Test uw muis alstublieft:"
 #~ "dataschijven.\n"
 #~ "\n"
 #~ "Nieuw volumen-ID toekennen?"
-
 #~ msgid "Installation of bootloader failed. The following error occurred:"
 #~ msgstr ""
 #~ "De installatie van de opstartlader is mislukt. De volgende fout is "
 #~ "opgetreden:"
-
 #~ msgid ""
 #~ "You may need to change your Open Firmware boot-device to\n"
 #~ " enable the bootloader.  If you do not see the bootloader prompt at\n"
@@ -1803,7 +1794,6 @@ msgstr "Test uw muis alstublieft:"
 #~ " Vervolgens voert u in: shut-down\n"
 #~ "Bij de volgende keer opstarten zou u dan de opstartlader-prompt \n"
 #~ "moeten zien."
-
 #~ msgid ""
 #~ "You decided to install the bootloader on a partition.\n"
 #~ "This implies you already have a bootloader on the hard drive you boot "
@@ -1816,61 +1806,42 @@ msgstr "Test uw muis alstublieft:"
 #~ "(Bijv. System Commander)\n"
 #~ "\n"
 #~ "Van welke schijf start U op ?"
-
 #~ msgid "First sector of drive (MBR)"
 #~ msgstr "Eerste sector van schijf (MBR)"
-
 #~ msgid "First sector of the root partition"
 #~ msgstr "Eerste sector van root-partitie"
-
 #~ msgid "On Floppy"
 #~ msgstr "Op diskette"
-
 #~ msgid "Skip"
 #~ msgstr "Overslaan"
-
 #~ msgid "LILO/grub Installation"
 #~ msgstr "LILO/grub-installatie"
-
 #~ msgid "Where do you want to install the bootloader?"
 #~ msgstr "Waar wenst u de opstartlader te installeren?"
-
 #~ msgid "Boot Style Configuration"
 #~ msgstr "Configuratie van opstartstijl"
-
 #~ msgid "Bootloader main options"
 #~ msgstr "Opstartlader algemene opties"
-
 #~ msgid "Bootloader"
 #~ msgstr "Opstartlader"
-
 #~ msgid "Bootloader to use"
 #~ msgstr "Welke opstartlader te gebruiken"
-
 #~ msgid "Boot device"
 #~ msgstr "Opstartapparaat"
-
 #~ msgid "Main options"
 #~ msgstr "Hoofdopties"
-
 #~ msgid "Delay before booting default image"
 #~ msgstr "Wachttijd voor het opstarten van standaard image"
-
 #~ msgid "Enable ACPI"
 #~ msgstr "ACPI inschakelen"
-
 #~ msgid "Enable APIC"
 #~ msgstr "APIC inschakelen"
-
 #~ msgid "Enable Local APIC"
 #~ msgstr "Lokale APIC inschakelen"
-
 #~ msgid "Password"
 #~ msgstr "Wachtwoord"
-
 #~ msgid "The passwords do not match"
 #~ msgstr "De wachtwoorden komen niet overeen"
-
 #~ msgid "Please try again"
 #~ msgstr "Probeert u het opnieuw"
 
@@ -1878,221 +1849,153 @@ msgstr "Test uw muis alstublieft:"
 #~ msgid "You can not use a password with %s"
 #~ msgstr ""
 #~ "U kunt geen versleuteld bestandssysteem voor koppelpunt %s gebruiken"
-
 #~ msgid "Password (again)"
 #~ msgstr "Wachtwoord (nogmaals)"
-
 #~ msgid "Restrict command line options"
 #~ msgstr "Opdrachtregel-opties beperken"
-
 #~ msgid "restrict"
 #~ msgstr "beperken"
-
 #~ msgid ""
 #~ "Option ``Restrict command line options'' is of no use without a password"
 #~ msgstr ""
 #~ "De optie ``Opdrachtregel-opties beperken'' heeft geen nut zonder "
 #~ "wachtwoord"
-
 #~ msgid "Clean /tmp at each boot"
 #~ msgstr "Elke keer bij opstarten /tmp legen"
-
 #~ msgid "Precise RAM size if needed (found %d MB)"
 #~ msgstr "Juiste RAM-grootte (indien nodig) (%d MB gevonden)"
-
 #~ msgid "Give the ram size in MB"
 #~ msgstr "Geef de RAM-grootte in MB"
-
 #~ msgid "Init Message"
 #~ msgstr "Initialisatie-bericht"
-
 #~ msgid "Open Firmware Delay"
 #~ msgstr "Open Firmware-vertraging"
-
 #~ msgid "Kernel Boot Timeout"
 #~ msgstr "Kernel opstart-wachttijd"
-
 #~ msgid "Enable CD Boot?"
 #~ msgstr "CD-opstart inschakelen?"
-
 #~ msgid "Enable OF Boot?"
 #~ msgstr "OF-opstart inschakelen?"
-
 #~ msgid "Default OS?"
 #~ msgstr "Standaard besturingssysteem?"
-
 #~ msgid "Image"
 #~ msgstr "Beeldbestand"
-
 #~ msgid "Root"
 #~ msgstr "Root"
-
 #~ msgid "Append"
 #~ msgstr "Toevoegen"
-
 #~ msgid "Xen append"
 #~ msgstr "Xen toevoegen"
-
 #~ msgid "Video mode"
 #~ msgstr "Video-modus"
-
 #~ msgid "Initrd"
 #~ msgstr "Initrd"
-
 #~ msgid "Network profile"
 #~ msgstr "Netwerkprofiel"
-
 #~ msgid "Label"
 #~ msgstr "Naam"
-
 #~ msgid "Default"
 #~ msgstr "Standaard"
-
 #~ msgid "NoVideo"
 #~ msgstr "Geen video"
-
 #~ msgid "Empty label not allowed"
 #~ msgstr "Lege naam is niet toegelaten"
-
 #~ msgid "You must specify a kernel image"
 #~ msgstr "U dient een kernel-bestand aan te geven"
-
 #~ msgid "You must specify a root partition"
 #~ msgstr "U dient een root-partitie aan te geven"
-
 #~ msgid "This label is already used"
 #~ msgstr "Dit label is al in gebruik"
-
 #~ msgid "Which type of entry do you want to add?"
 #~ msgstr "Welk type waarde wil u toevoegen?"
-
 #~ msgid "Linux"
 #~ msgstr "Linux"
-
 #~ msgid "Other OS (SunOS...)"
 #~ msgstr "Ander OS (SunOS...)"
-
 #~ msgid "Other OS (MacOS...)"
 #~ msgstr "Ander OS (MacOS...)"
-
 #~ msgid "Other OS (Windows...)"
 #~ msgstr "Ander OS (Windows...)"
-
 #~ msgid ""
 #~ "Here are the entries on your boot menu so far.\n"
 #~ "You can create additional entries or change the existing ones."
 #~ msgstr ""
 #~ "Hier zijn de waardes voor uw opstartmenu tot dusver.\n"
 #~ "U kunt er enkele toevoegen of de bestaande wijzigen."
-
 #~ msgid "access to X programs"
 #~ msgstr "toegang tot X-programma's"
-
 #~ msgid "access to rpm tools"
 #~ msgstr "toegang tot rpm-programmatuur"
-
 #~ msgid "allow \"su\""
 #~ msgstr "\"su\" toestaan"
-
 #~ msgid "access to administrative files"
 #~ msgstr "toegang tot administratieve bestanden"
-
 #~ msgid "access to network tools"
 #~ msgstr "toegang tot netwerkprogrammatuur"
-
 #~ msgid "access to compilation tools"
 #~ msgstr "toegang tot compileerprogrammatuur"
-
 #~ msgid "(already added %s)"
 #~ msgstr "(%s reeds toegevoegd)"
-
 #~ msgid "Please give a user name"
 #~ msgstr "Geef een gebruikersnaam"
-
 #~ msgid ""
 #~ "The user name must contain only lower cased letters, numbers, `-' and `_'"
 #~ msgstr ""
 #~ "De gebruikersnaam mag slechts kleine letters, cijfers, `-' en`_' bevatten"
-
 #~ msgid "The user name is too long"
 #~ msgstr "Deze gebruikersnaam is te lang"
-
 #~ msgid "This user name has already been added"
 #~ msgstr "Deze gebruikersnaam is al toegevoegd"
-
 #~ msgid "User ID"
 #~ msgstr "Gebruikers-ID"
-
 #~ msgid "Group ID"
 #~ msgstr "Groep-ID"
-
 #~ msgid "%s must be a number"
 #~ msgstr "%s moet een getal zijn"
-
 #~ msgid "%s should be above 500. Accept anyway?"
 #~ msgstr "%s behoort groter dan 500 te zijn. Toch doorgaan?"
-
 #~ msgid "Add user"
 #~ msgstr "Gebruiker toevoegen"
-
 #~ msgid ""
 #~ "Enter a user\n"
 #~ "%s"
 #~ msgstr ""
 #~ "Voer gebruiker in\n"
 #~ "%s"
-
 #~ msgid "Done"
 #~ msgstr "Klaar"
-
 #~ msgid "Accept user"
 #~ msgstr "Gebruiker OK"
-
 #~ msgid "Real name"
 #~ msgstr "Echte naam"
-
 #~ msgid "Login name"
 #~ msgstr "Aanmeldnaam"
-
 #~ msgid "Shell"
 #~ msgstr "Shell"
-
 #~ msgid "Icon"
 #~ msgstr "Pictogram"
-
 #~ msgid "Autologin"
 #~ msgstr "Auto-aanmelden"
-
 #~ msgid "I can set up your computer to automatically log on one user."
 #~ msgstr "Automatische aanmelding van één gebruiker is instelbaar."
-
 #~ msgid "Use this feature"
 #~ msgstr "Deze mogelijkheid gebruiken"
-
 #~ msgid "Choose the default user:"
 #~ msgstr "Kies de standaard gebruiker:"
-
 #~ msgid "Choose the window manager to run:"
 #~ msgstr "Kies de te gebruiken werkomgeving:"
-
 #~ msgid "License agreement"
 #~ msgstr "Licentie-overeenkomst"
-
 #~ msgid "Release Notes"
 #~ msgstr "Uitgave-opmerkingen"
-
 #~ msgid "Accept"
 #~ msgstr "Accepteren"
-
 #~ msgid "Refuse"
 #~ msgstr "Weigeren"
-
 #~ msgid "Please choose a language to use."
 #~ msgstr "Kies de taal die u wenst te gebruiken."
-
 #~ msgid "Language choice"
 #~ msgstr "Taalkeuze"
-
 #~ msgid ""
 #~ "Mandriva Linux can support multiple languages. Select\n"
 #~ "the languages you would like to install. They will be available\n"
@@ -2101,43 +2004,30 @@ msgstr "Test uw muis alstublieft:"
 #~ "Mandriva Linux kan meerdere talen aan. Selecteer de talen\n"
 #~ "die u wenst te installeren. Ze zullen beschikbaar zijn wanneer\n"
 #~ "de installatie afgerond is en u uw computer opnieuw start."
-
 #~ msgid "Multi languages"
 #~ msgstr "Meerdere talen"
-
 #~ msgid "Old compatibility (non UTF-8) encoding"
 #~ msgstr "Oude compatibiliteit (niet-UTF-8)-codering"
-
 #~ msgid "All languages"
 #~ msgstr "Alle talen"
-
 #~ msgid "Country / Region"
 #~ msgstr "Land"
-
 #~ msgid "Please choose your country."
 #~ msgstr "Kies uw land alstublieft."
-
 #~ msgid "Here is the full list of available countries"
 #~ msgstr "Dit is de volledige lijst van beschikbare landen"
-
 #~ msgid "Other Countries"
 #~ msgstr "Overige landen"
-
 #~ msgid "Advanced"
 #~ msgstr "Geavanceerd"
-
 #~ msgid "Input method:"
 #~ msgstr "Invoermethode:"
-
 #~ msgid "None"
 #~ msgstr "Geen"
-
 #~ msgid "No sharing"
 #~ msgstr "Niet delen"
-
 #~ msgid "Allow all users"
 #~ msgstr "Alle gebruikers toestaan"
-
 #~ msgid ""
 #~ "Would you like to allow users to share some of their directories?\n"
 #~ "Allowing this will permit users to simply click on \"Share\" in konqueror "
@@ -2150,34 +2040,28 @@ msgstr "Test uw muis alstublieft:"
 #~ "eenvoudig met een klik op \"Delen\" hun mappen delen.\n"
 #~ "\n"
 #~ "\"Aangepast\": per-gebruiker instellingen toestaan.\n"
-
 #~ msgid ""
 #~ "NFS: the traditional Unix file sharing system, with less support on Mac "
 #~ "and Windows."
 #~ msgstr ""
 #~ "NFS: het traditionele Unix bestandsdelingssysteem, met minder "
 #~ "ondersteuning op Mac en Windows."
-
 #~ msgid ""
 #~ "SMB: a file sharing system used by Windows, Mac OS X and many modern "
 #~ "Linux systems."
 #~ msgstr ""
 #~ "SMB: een bestandsdelingssysteem dat Windows, Mac OS X en vele moderne "
 #~ "Linux systemen gebruiken."
-
 #~ msgid ""
 #~ "You can export using NFS or SMB. Please select which you would like to "
 #~ "use."
 #~ msgstr ""
 #~ "U kunt bestandssystemen delen met behulp van NFS of SMB. Welke daarvan "
 #~ "wilt u gebruiken?"
-
 #~ msgid "Launch userdrake"
 #~ msgstr "Userdrake opstarten"
-
 #~ msgid "Close"
 #~ msgstr "Sluiten"
-
 #~ msgid ""
 #~ "The per-user sharing uses the group \"fileshare\". \n"
 #~ "You can use userdrake to add a user to this group."
@@ -2185,168 +2069,121 @@ msgstr "Test uw muis alstublieft:"
 #~ "De 'per gebruiker delen'-functie gebruikt de groep\n"
 #~ "\"fileshare\". U kunt met userdrake een gebruiker\n"
 #~ "aan deze groep toevoegen."
-
 #~ msgid "Please log out and then use Ctrl-Alt-BackSpace"
 #~ msgstr "Gelieve uit te loggen en daarna op Ctrl-Alt-Backspace te drukken"
-
 #~ msgid "You need to log out and back in again for changes to take effect"
 #~ msgstr ""
 #~ "U dient zich af te melden en weer aan te melden voordat de veranderingen "
 #~ "effect hebben"
-
 #~ msgid "Timezone"
 #~ msgstr "Tijdzone"
-
 #~ msgid "Which is your timezone?"
 #~ msgstr "Wat is uw tijdzone?"
-
 #~ msgid "Date, Clock & Time Zone Settings"
 #~ msgstr "Datum-, klok- & tijdzone-instellingen"
-
 #~ msgid "What is the best time?"
 #~ msgstr "Welke tijdzone komt het best overeen?"
-
 #~ msgid "%s (hardware clock set to UTC)"
 #~ msgstr "%s (apparaatklok ingesteld op UTC)"
-
 #~ msgid "%s (hardware clock set to local time)"
 #~ msgstr "%s (apparaatklok ingesteld op lokale tijd)"
-
 #~ msgid "NTP Server"
 #~ msgstr "NTP-server"
-
 #~ msgid "Automatic time synchronization (using NTP)"
 #~ msgstr "Automatische tijdssynchronisatie (met gebruik van NTP)"
-
 #~ msgid "Local file"
 #~ msgstr "Bestand op deze computer"
-
 #~ msgid "LDAP"
 #~ msgstr "LDAP"
-
 #~ msgid "NIS"
 #~ msgstr "NIS"
-
 #~ msgid "Smart Card"
 #~ msgstr "Smartcard"
-
 #~ msgid "Windows Domain"
 #~ msgstr "Windows-domein"
-
 #~ msgid "Active Directory with SFU"
 #~ msgstr "Active Directory met SFU"
-
 #~ msgid "Active Directory with Winbind"
 #~ msgstr "Active Directory met Winbind"
-
 #~ msgid "Local file:"
 #~ msgstr "Bestand op deze computer:"
-
 #~ msgid ""
 #~ "Use local for all authentication and information user tell in local file"
 #~ msgstr ""
 #~ "Gebruik local voor alle aanmeldingscontrole en gebruikersinformatie in "
 #~ "een bestand op deze computer."
-
 #~ msgid "LDAP:"
 #~ msgstr "LDAP:"
-
 #~ msgid ""
 #~ "Tells your computer to use LDAP for some or all authentication. LDAP "
 #~ "consolidates certain types of information within your organization."
 #~ msgstr ""
 #~ "Laat uw computer LDAP gebruiken voor sommige of alle aanmeldingscontrole. "
 #~ "LDAP consolideert bepaalde soorten informatie binnen uw organizatie."
-
 #~ msgid "NIS:"
 #~ msgstr "NIS:"
-
 #~ msgid ""
 #~ "Allows you to run a group of computers in the same Network Information "
 #~ "Service domain with a common password and group file."
 #~ msgstr ""
 #~ "Stelt u in staat om een groep computers in hetzelfde Network Information "
 #~ "Service-domein te gebruiken met een hetzelfde wachtwoord en group-bestand."
-
 #~ msgid "Windows Domain:"
 #~ msgstr "Windows-domein:"
-
 #~ msgid ""
 #~ "Winbind allows the system to retrieve information and authenticate users "
 #~ "in a Windows domain."
 #~ msgstr ""
 #~ "Winbind laat een systeem informatie ophalen en stelt het in staat "
 #~ "aanmeldingscontrole uit te voeren op gebruikers in een Windows-domein."
-
 #~ msgid "Active Directory with SFU:"
 #~ msgstr "Active Directory met SFU:"
-
 #~ msgid ""
 #~ "With Kerberos and Ldap for authentication in Active Directory Server "
 #~ msgstr ""
 #~ "Met Kerberos en Ldap voor aanmeldingscontrole in Active Directory Server "
-
 #~ msgid "Active Directory with Winbind:"
 #~ msgstr "Active Directory met Winbind:"
-
 #~ msgid ""
 #~ "Winbind allows the system to authenticate users in a Windows Active "
 #~ "Directory Server."
 #~ msgstr ""
 #~ "Winbind stelt het systeem in staat om gebruikers aan te melden in een "
 #~ "Windows Active Directory Server."
-
 #~ msgid "Authentication LDAP"
 #~ msgstr "LDAP-aanmeldingscontrole"
-
 #~ msgid "LDAP Base dn"
 #~ msgstr "LDAP Base dn"
-
 #~ msgid "LDAP Server"
 #~ msgstr "LDAP-server"
-
 #~ msgid "simple"
 #~ msgstr "eenvoudig"
-
 #~ msgid "TLS"
 #~ msgstr "TLS"
-
 #~ msgid "SSL"
 #~ msgstr "SSL"
-
 #~ msgid "security layout (SASL/Kerberos)"
 #~ msgstr "beveiligingsinrichting (SASL/Kerberos)"
-
 #~ msgid "Authentication Active Directory"
 #~ msgstr "Active Directory-aanmeldingscontrole"
-
 #~ msgid "Domain"
 #~ msgstr "Domein"
-
 #~ msgid "Server"
 #~ msgstr "Server"
-
 #~ msgid "LDAP users database"
 #~ msgstr "LDAP gebruikersdatabase"
-
 #~ msgid "Use Anonymous BIND "
 #~ msgstr "Anonieme BIND gebruiken"
-
 #~ msgid "LDAP user allowed to browse the Active Directory"
 #~ msgstr "LDAP-gebruiker toegestaan om Active Directory door te bladeren"
-
 #~ msgid "Password for user"
 #~ msgstr "Wachtwoord voor gebruiker"
-
 #~ msgid "Authentication NIS"
 #~ msgstr "NIS-aanmeldingscontrole"
-
 #~ msgid "NIS Domain"
 #~ msgstr "NIS-domein"
-
 #~ msgid "NIS Server"
 #~ msgstr "NIS-server"
-
 #~ msgid ""
 #~ "For this to work for a W2K PDC, you will probably need to have the admin "
 #~ "run: C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" everyone /"
@@ -2375,37 +2212,26 @@ msgstr "Test uw muis alstublieft:"
 #~ "(TM)-domein en beheerdersgebruikersnaam en -wachtwoord invult.\n"
 #~ "De opdracht 'wbinfo -t' gaat na of uw aanmeldingscontrole-geheimen "
 #~ "kloppen."
-
 #~ msgid "Authentication Windows Domain"
 #~ msgstr "Aanmeldingscontrole Windows-domein"
-
 #~ msgid "Active Directory Realm "
 #~ msgstr "Active Directory-realm"
-
 #~ msgid "Domain Admin User Name"
 #~ msgstr "Gebruikersnaam van domeinbeheerder"
-
 #~ msgid "Domain Admin Password"
 #~ msgstr "Wachtwoord domeinbeheerder"
-
 #~ msgid "Authentication"
 #~ msgstr "Aanmeldingscontrole"
-
 #~ msgid "Set administrator (root) password"
 #~ msgstr "Beheerderswachtwoord (root) instellen"
-
 #~ msgid "Authentication method"
 #~ msgstr "Aanmeldingscontrole-methode"
-
 #~ msgid "No password"
 #~ msgstr "Geen wachtwoord"
-
 #~ msgid "This password is too short (it must be at least %d characters long)"
 #~ msgstr "Dit wachtwoord is te makkelijk (moet tenminste %d tekens lang zijn)"
-
 #~ msgid "Can not use broadcast with no NIS domain"
 #~ msgstr "Kan niet uitzenden zonder NIS-domein"
-
 #~ msgid ""
 #~ "Welcome to the operating system chooser!\n"
 #~ "\n"
@@ -2418,69 +2244,50 @@ msgstr "Test uw muis alstublieft:"
 #~ "Kies een besturingssysteem uit de bovenstaande lijst\n"
 #~ "of wacht even op de standaard-opstartprocedure.\n"
 #~ "\n"
-
 #~ msgid "LILO with text menu"
 #~ msgstr "LILO met tekst-menu"
-
 #~ msgid "GRUB with graphical menu"
 #~ msgstr "GRUB met grafisch menu"
-
 #~ msgid "GRUB with text menu"
 #~ msgstr "GRUB met tekstmenu"
-
 #~ msgid "Yaboot"
 #~ msgstr "Yaboot"
-
 #~ msgid "not enough room in /boot"
 #~ msgstr "niet genoeg ruimte in /boot"
-
 #~ msgid "You can not install the bootloader on a %s partition\n"
 #~ msgstr "U kunt de opstartlader niet installeren op een %s-partitie\n"
-
 #~ msgid ""
 #~ "Your bootloader configuration must be updated because partition has been "
 #~ "renumbered"
 #~ msgstr ""
 #~ "De configuratie van uw opstartlader moet bijgewerkt worden omdat de "
 #~ "partitie is omgenummerd"
-
 #~ msgid ""
 #~ "The bootloader can not be installed correctly. You have to boot rescue "
 #~ "and choose \"%s\""
 #~ msgstr ""
 #~ "Kan de opstartlader niet correct installeren. U dient in rescue-modus op "
 #~ "te starten en \"%s\" te kiezen"
-
 #~ msgid "Re-install Boot Loader"
 #~ msgstr "Opstartlader herinstalleren"
-
 #~ msgid "B"
 #~ msgstr "B"
-
 #~ msgid "KB"
 #~ msgstr "KB"
-
 #~ msgid "MB"
 #~ msgstr "MB"
-
 #~ msgid "GB"
 #~ msgstr "GB"
-
 #~ msgid "TB"
 #~ msgstr "TB"
-
 #~ msgid "%d minutes"
 #~ msgstr "%d minuten"
-
 #~ msgid "1 minute"
 #~ msgstr "1 minuut"
-
 #~ msgid "%d seconds"
 #~ msgstr "%d seconden"
-
 #~ msgid "command %s missing"
 #~ msgstr "opdracht %s is niet aanwezig"
-
 #~ msgid ""
 #~ "WebDAV is a protocol that allows you to mount a web server's directory\n"
 #~ "locally, and treat it like a local filesystem (provided the web server "
@@ -2493,52 +2300,36 @@ msgstr "Test uw muis alstublieft:"
 #~ "systeem is (vooropgesteld dat de web server geconfigureerd is als een\n"
 #~ "WebDAV-server). Indien u WebDAV-koppelpunten wenst toe te voegen,"
 #~ "selecteer dan \"Nieuw\"."
-
 #~ msgid "New"
 #~ msgstr "Nieuw"
-
 #~ msgid "Unmount"
 #~ msgstr "Ontkoppelen"
-
 #~ msgid "Mount"
 #~ msgstr "Koppelen"
-
 #~ msgid "Mount point"
 #~ msgstr "Koppelpunt"
-
 #~ msgid "Error"
 #~ msgstr "Fout"
-
 #~ msgid "Please enter the WebDAV server URL"
 #~ msgstr "Geef de URL van de WebDAV-server in"
-
 #~ msgid "The URL must begin with http:// or https://"
 #~ msgstr "De URL moet beginnen met http:// of https://"
-
 #~ msgid "Server: "
 #~ msgstr "Server:"
-
 #~ msgid "Mount point: "
 #~ msgstr "Koppelpunt: "
-
 #~ msgid "Options: %s"
 #~ msgstr "Opties: %s"
-
 #~ msgid "Partitioning"
 #~ msgstr "Partitionering"
-
 #~ msgid "Read carefully!"
 #~ msgstr "Lees aandachtig!"
-
 #~ msgid "Please make a backup of your data first"
 #~ msgstr "Maak eerst een veiligheidskopie van uw gegevens"
-
 #~ msgid "Exit"
 #~ msgstr "Afsluiten"
-
 #~ msgid "Continue"
 #~ msgstr "Doorgaan"
-
 #~ msgid ""
 #~ "If you plan to use aboot, be careful to leave a free space (2048 sectors "
 #~ "is enough)\n"
@@ -2547,10 +2338,8 @@ msgstr "Test uw muis alstublieft:"
 #~ "Als u aboot wenst te gebruiken, wees dan voorzichtig en laat vrije ruimte "
 #~ "over (2048 sectoren is genoeg)\n"
 #~ "aan het begin van de schijf"
-
 #~ msgid "Choose action"
 #~ msgstr "Kies een actie"
-
 #~ msgid ""
 #~ "You have one big Microsoft Windows partition.\n"
 #~ "I suggest you first resize that partition\n"
@@ -2559,90 +2348,62 @@ msgstr "Test uw muis alstublieft:"
 #~ "U heeft één grote Microsoft Windows-partitie.\n"
 #~ "Het is aanbevolen dat u eerst de grootte van die partitie aanpast\n"
 #~ "(klik erop, en klik daarna op \"Grootte aanpassen\")"
-
 #~ msgid "Please click on a partition"
 #~ msgstr "Klik op een partitie"
-
 #~ msgid "Details"
 #~ msgstr "Details"
-
 #~ msgid "No hard drives found"
 #~ msgstr "Geen harde schijven gevonden"
-
 #~ msgid "Unknown"
 #~ msgstr "Onbekend"
-
 #~ msgid "Ext2"
 #~ msgstr "Ext2"
-
 #~ msgid "Journalised FS"
 #~ msgstr "Gejournaliseerd bestandssysteem"
-
 #~ msgid "Swap"
 #~ msgstr "Virtueel"
-
 #~ msgid "SunOS"
 #~ msgstr "SunOS"
-
 #~ msgid "HFS"
 #~ msgstr "HFS"
-
 #~ msgid "Windows"
 #~ msgstr "Windows"
-
 #~ msgid "Empty"
 #~ msgstr "Leeg"
-
 #~ msgid "Filesystem types:"
 #~ msgstr "Bestandssysteemtypes:"
-
 #~ msgid "This partition is already empty"
 #~ msgstr "Deze partitie is al leeg"
-
 #~ msgid "Use ``Unmount'' first"
 #~ msgstr "Gebruik eerst ``Ontkoppelen''"
-
 #~ msgid "Use ``%s'' instead"
 #~ msgstr "``%s'' in plaats gebruiken"
-
 #~ msgid "Type"
 #~ msgstr "Type"
-
 #~ msgid "Choose another partition"
 #~ msgstr "Kies een andere partitie"
-
 #~ msgid "Choose a partition"
 #~ msgstr "Kies een partitie"
-
 #~ msgid "Undo"
 #~ msgstr "Ongedaan maken"
-
 #~ msgid "Toggle to normal mode"
 #~ msgstr "Naar normale modus"
-
 #~ msgid "Toggle to expert mode"
 #~ msgstr "Naar expert-modus"
-
 #~ msgid "Confirmation"
 #~ msgstr "Bevestiging"
-
 #~ msgid "Continue anyway?"
 #~ msgstr "Toch doorgaan?"
-
 #~ msgid "Quit without saving"
 #~ msgstr "Afsluiten zonder opslaan"
-
 #~ msgid "Quit without writing the partition table?"
 #~ msgstr "Afsluiten zonder de partitietabel weg te schrijven?"
-
 #~ msgid "Do you want to save /etc/fstab modifications"
 #~ msgstr "Wilt u de /etc/fstab aanpassingen bewaren"
-
 #~ msgid ""
 #~ "You need to reboot for the partition table modifications to take place"
 #~ msgstr ""
 #~ "U dient te herstarten om de wijzigingen in de partitietabel te activeren."
-
 #~ msgid ""
 #~ "You should format partition %s.\n"
 #~ "Otherwise no entry for mount point %s will be written in fstab.\n"
@@ -2651,25 +2412,18 @@ msgstr "Test uw muis alstublieft:"
 #~ "U dient partitie %s te formatteren.\n"
 #~ "Anders kan er geen regel voor koppelpunt %s in fstab worden gezet.\n"
 #~ "Toch afsluiten?"
-
 #~ msgid "Clear all"
 #~ msgstr "Alles wissen"
-
 #~ msgid "Auto allocate"
 #~ msgstr "Automatisch toewijzen"
-
 #~ msgid "More"
 #~ msgstr "Meer"
-
 #~ msgid "Hard drive information"
 #~ msgstr "Informatie over harde schijf"
-
 #~ msgid "All primary partitions are used"
 #~ msgstr "Alle primaire partities zijn al toegewezen"
-
 #~ msgid "I can not add any more partitions"
 #~ msgstr "U kunt geen partitie meer toevoegen"
-
 #~ msgid ""
 #~ "To have more partitions, please delete one to be able to create an "
 #~ "extended partition"
@@ -2677,95 +2431,66 @@ msgstr "Test uw muis alstublieft:"
 #~ "Om meer partities te kunnen maken, zal u er een moeten verwijderen. Dan "
 #~ "kan\n"
 #~ "er een uitgebreide (extended) partitie worden bijgemaakt"
-
 #~ msgid "No supermount"
 #~ msgstr "Geen supermount"
-
 #~ msgid "Supermount"
 #~ msgstr "Supermount"
-
 #~ msgid "Supermount except for CDROM drives"
 #~ msgstr "Supermount behalve voor CD-ROM-spelers"
-
 #~ msgid "Save partition table"
 #~ msgstr "Partitietabel schrijven"
-
 #~ msgid "Restore partition table"
 #~ msgstr "Partitietabel terughalen"
-
 #~ msgid "Rescue partition table"
 #~ msgstr "Partitietabel redden"
-
 #~ msgid "Reload partition table"
 #~ msgstr "Partitietabel opnieuw laden"
-
 #~ msgid "Removable media automounting"
 #~ msgstr "Automatische koppeling van verwisselbare media"
-
 #~ msgid "Select file"
 #~ msgstr "Selecteer bestand"
-
 #~ msgid ""
 #~ "The backup partition table has not the same size\n"
 #~ "Still continue?"
 #~ msgstr ""
 #~ "De backup partitietabel heeft niet dezelfde grootte\n"
 #~ "Toch verdergaan?"
-
 #~ msgid "Trying to rescue partition table"
 #~ msgstr "Proberen om partitietabel te redden"
-
 #~ msgid "Detailed information"
 #~ msgstr "Gedetailleerde informatie"
-
 #~ msgid "Resize"
 #~ msgstr "Grootte aanpassen"
-
 #~ msgid "Format"
 #~ msgstr "Formatteren"
-
 #~ msgid "Add to RAID"
 #~ msgstr "Toevoegen aan RAID"
-
 #~ msgid "Add to LVM"
 #~ msgstr "Toevoegen aan LVM"
-
 #~ msgid "Delete"
 #~ msgstr "Verwijderen"
-
 #~ msgid "Remove from RAID"
 #~ msgstr "Verwijderen uit RAID"
-
 #~ msgid "Remove from LVM"
 #~ msgstr "Verwijderen uit LVM"
-
 #~ msgid "Modify RAID"
 #~ msgstr "RAID aanpassen"
-
 #~ msgid "Use for loopback"
 #~ msgstr "Voor Loopback gebruiken"
-
 #~ msgid "Create"
 #~ msgstr "Aanmaken"
-
 #~ msgid "Create a new partition"
 #~ msgstr "Nieuwe partitie creëren"
-
 #~ msgid "Start sector: "
 #~ msgstr "Start-sector: "
-
 #~ msgid "Size in MB: "
 #~ msgstr "Grootte in MB: "
-
 #~ msgid "Filesystem type: "
 #~ msgstr "Bestandssysteem-type: "
-
 #~ msgid "Preference: "
 #~ msgstr "Voorkeur: "
-
 #~ msgid "Logical volume name "
 #~ msgstr "Logische volumenaam "
-
 #~ msgid ""
 #~ "You can not create a new partition\n"
 #~ "(since you reached the maximal number of primary partitions).\n"
@@ -2774,79 +2499,58 @@ msgstr "Test uw muis alstublieft:"
 #~ "U kunt geen nieuwe partitie aanmaken, omdat u\n"
 #~ "het maximale aantal primaire partities bereikt hebt.\n"
 #~ "Verwijder eerst een primaire partitie en creëer een uitgebreide partitie."
-
 #~ msgid "Remove the loopback file?"
 #~ msgstr "Het loopback-bestand verwijderen?"
-
 #~ msgid ""
 #~ "After changing type of partition %s, all data on this partition will be "
 #~ "lost"
 #~ msgstr ""
 #~ "Na het veranderen van het type van partitie %s, zullen alle gegevens op "
 #~ "deze partitie verloren gaan"
-
 #~ msgid "Change partition type"
 #~ msgstr "Partitietype veranderen"
-
 #~ msgid "Which filesystem do you want?"
 #~ msgstr "Welk bestandssysteem wilt u?"
-
 #~ msgid "Switching from ext2 to ext3"
 #~ msgstr "Omschakelen van ext2 naar ext3"
-
 #~ msgid "Which volume label?"
 #~ msgstr "Welk volumen-label?"
-
 #~ msgid "Label:"
 #~ msgstr "Label:"
-
 #~ msgid "Where do you want to mount the loopback file %s?"
 #~ msgstr "Waar wenst u het loopback-bestand %s aan te koppelen?"
-
 #~ msgid "Where do you want to mount device %s?"
 #~ msgstr "Waar wilt u apparaat %s koppelen?"
-
 #~ msgid ""
 #~ "Can not unset mount point as this partition is used for loop back.\n"
 #~ "Remove the loopback first"
 #~ msgstr ""
 #~ "Kan een koppelpunt niet verzetten omdat deze partitie gebruikt wordt als\n"
 #~ "loopback. Verwijder de loopback eerst."
-
 #~ msgid "Where do you want to mount %s?"
 #~ msgstr "Waar wilt u %s koppelen?"
-
 #~ msgid "Resizing"
 #~ msgstr "Grootte aanpassen"
-
 #~ msgid "Computing FAT filesystem bounds"
 #~ msgstr "Bezig met berekenen van FAT bestandssysteemgrenzen"
-
 #~ msgid "This partition is not resizeable"
 #~ msgstr "Deze partitie is niet in grootte aanpasbaar"
-
 #~ msgid "All data on this partition should be backed-up"
 #~ msgstr ""
 #~ "Er zou een reservekopie gemaakt moeten worden van alle gegevens op deze "
 #~ "partitie."
-
 #~ msgid "After resizing partition %s, all data on this partition will be lost"
 #~ msgstr ""
 #~ "Na het veranderen van de grootte van partitie %s, zullen alle gegevens op "
 #~ "deze partitie verloren gaan"
-
 #~ msgid "Choose the new size"
 #~ msgstr "Kies de nieuwe grootte"
-
 #~ msgid "New size in MB: "
 #~ msgstr "Nieuwe grootte in MB: "
-
 #~ msgid "Minimum size: %s MB"
 #~ msgstr "Minimale grootte: %s MB"
-
 #~ msgid "Maximum size: %s MB"
 #~ msgstr "Maximale grootte: %s MB"
-
 #~ msgid ""
 #~ "To ensure data integrity after resizing the partition(s), \n"
 #~ "filesystem checks will be run on your next boot into Microsoft Windows®"
@@ -2854,19 +2558,14 @@ msgstr "Test uw muis alstublieft:"
 #~ "Om de data-integriteit na het aanpassen van de partitiegrootte(s)\n"
 #~ "te garanderen, zal het bestandssysteem worden gecontroleerd\n"
 #~ "de volgende keer dat u Windows(TM) opstart"
-
 #~ msgid "Choose an existing RAID to add to"
 #~ msgstr "Kies een bestaande RAID om aan toe te voegen"
-
 #~ msgid "new"
 #~ msgstr "nieuw"
-
 #~ msgid "Choose an existing LVM to add to"
 #~ msgstr "Kies een bestaande LVM om aan toe te voegen"
-
 #~ msgid "LVM name?"
 #~ msgstr "Naam van de LVM?"
-
 #~ msgid ""
 #~ "Physical volume %s is still in use.\n"
 #~ "Do you want to move used physical extents on this volume to other volumes?"
@@ -2874,70 +2573,49 @@ msgstr "Test uw muis alstublieft:"
 #~ "Fysiek volumen %s is nog altijd in gebruik.\n"
 #~ "Wilt u de gebruikte fysieke extents van dit volumen naar andere volumina "
 #~ "verplaatsen?"
-
 #~ msgid "Moving physical extents"
 #~ msgstr "Verplaatsen van fysieke extents"
-
 #~ msgid "This partition can not be used for loopback"
 #~ msgstr "Deze partitie kan niet gebruikt worden voor loopback"
-
 #~ msgid "Loopback"
 #~ msgstr "Loopback"
-
 #~ msgid "Loopback file name: "
 #~ msgstr "Loopback-bestandsnaam: "
-
 #~ msgid "Give a file name"
 #~ msgstr "Voer een bestandsnaam in"
-
 #~ msgid "File is already used by another loopback, choose another one"
 #~ msgstr "Loopback-bestand is al in gebruik, gelieve een ander te kiezen"
-
 #~ msgid "File already exists. Use it?"
 #~ msgstr "Het bestand bestaat al. Wenst u het te gebruiken?"
-
 #~ msgid "Mount options"
 #~ msgstr "Koppel-opties:"
-
 #~ msgid "Various"
 #~ msgstr "Diversen"
-
 #~ msgid "device"
 #~ msgstr "apparaat"
-
 #~ msgid "level"
 #~ msgstr "niveau"
-
 #~ msgid "chunk size in KiB"
 #~ msgstr "chunk-grootte in KiB"
-
 #~ msgid "Be careful: this operation is dangerous."
 #~ msgstr "Voorzichtig: deze operatie is gevaarlijk."
-
 #~ msgid "What type of partitioning?"
 #~ msgstr "Welk type partitionering?"
-
 #~ msgid "You'll need to reboot before the modification can take place"
 #~ msgstr "U zult moeten herstarten voordat de aanpassing van kracht wordt"
-
 #~ msgid "Partition table of drive %s is going to be written to disk!"
 #~ msgstr "Partitietabel van schijf %s wordt weggeschreven!"
-
 #~ msgid ""
 #~ "After formatting partition %s, all data on this partition will be lost"
 #~ msgstr ""
 #~ "Na het formatteren van partitie %s, zullen alle gegevens op deze partitie "
 #~ "verloren zijn"
-
 #~ msgid "Check bad blocks?"
 #~ msgstr "Slechte blocks checken?"
-
 #~ msgid "Move files to the new partition"
 #~ msgstr "Bestanden naar de nieuwe partitie verplaatsen"
-
 #~ msgid "Hide files"
 #~ msgstr "Bestanden verbergen"
-
 #~ msgid ""
 #~ "Directory %s already contains data\n"
 #~ "(%s)\n"
@@ -2952,90 +2630,64 @@ msgstr "Test uw muis alstublieft:"
 #~ "De keuze is om de data te verplaatsen naar de partitie die hier wordt "
 #~ "gekoppeld, of om de bestanden hier te laten staan. Zolang de partitie is "
 #~ "gekoppeld zijn de bestanden niet beschikbaar."
-
 #~ msgid "Moving files to the new partition"
 #~ msgstr "Bezig met verplaatsen van bestanden naar de nieuwe partitie"
-
 #~ msgid "Copying %s"
 #~ msgstr "Bezig met kopiëren van %s"
-
 #~ msgid "Removing %s"
 #~ msgstr "Bezig met verwijderen van %s"
-
 #~ msgid "partition %s is now known as %s"
 #~ msgstr "partitie %s heet vanaf nu %s"
-
 #~ msgid "Partitions have been renumbered: "
 #~ msgstr "Partities zijn hernummerd: "
-
 #~ msgid "Device: "
 #~ msgstr "Apparaat: "
-
 #~ msgid "Volume label: "
 #~ msgstr "Volumenaam"
-
 #~ msgid "DOS drive letter: %s (just a guess)\n"
 #~ msgstr "DOS schijfletter: %s (slechts een gok)\n"
-
 #~ msgid "Type: "
 #~ msgstr "Type: "
-
 #~ msgid "Name: "
 #~ msgstr "Naam: "
-
 #~ msgid "Start: sector %s\n"
 #~ msgstr "Start: sector %s\n"
-
 #~ msgid "Size: %s"
 #~ msgstr "Grootte: %s"
-
 #~ msgid ", %s sectors"
 #~ msgstr ", %s sectoren"
-
 #~ msgid "Cylinder %d to %d\n"
 #~ msgstr "Cylinder %d tot %d\n"
-
 #~ msgid "Number of logical extents: %d\n"
 #~ msgstr "Aantal logische extents: %d\n"
-
 #~ msgid "Formatted\n"
 #~ msgstr "Geformatteerd\n"
-
 #~ msgid "Not formatted\n"
 #~ msgstr "Niet geformatteerd\n"
-
 #~ msgid "Mounted\n"
 #~ msgstr "Gekoppeld\n"
-
 #~ msgid "RAID %s\n"
 #~ msgstr "RAID %s\n"
-
 #~ msgid ""
 #~ "Loopback file(s):\n"
 #~ "   %s\n"
 #~ msgstr ""
 #~ "Loopback-bestand(en):\n"
 #~ "   %s\n"
-
 #~ msgid ""
 #~ "Partition booted by default\n"
 #~ "    (for MS-DOS boot, not for lilo)\n"
 #~ msgstr ""
 #~ "Standaard te starten partitie\n"
 #~ "    (om MS-DOS te booten, niet voor lilo)\n"
-
 #~ msgid "Level %s\n"
 #~ msgstr "Niveau %s\n"
-
 #~ msgid "Chunk size %d KiB\n"
 #~ msgstr "Chunk-grootte %d KiB\n"
-
 #~ msgid "RAID-disks %s\n"
 #~ msgstr "RAID-schijven %s\n"
-
 #~ msgid "Loopback file name: %s"
 #~ msgstr "Loopback bestandsnaam: %s"
-
 #~ msgid ""
 #~ "\n"
 #~ "Chances are, this partition is\n"
@@ -3047,7 +2699,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "partitie een stuurprogramma-partitie is.\n"
 #~ "U kunt hem waarschijnlijk beter met\n"
 #~ "rust laten.\n"
-
 #~ msgid ""
 #~ "\n"
 #~ "This special Bootstrap\n"
@@ -3058,100 +2709,70 @@ msgstr "Test uw muis alstublieft:"
 #~ "Deze speciale Bootstrap\n"
 #~ "partitie is voor het\n"
 #~ "multi-opstarten van uw systeem.\n"
-
 #~ msgid "Read-only"
 #~ msgstr "Alleen-lezen"
-
 #~ msgid "Size: %s\n"
 #~ msgstr "Grootte: %s\n"
-
 #~ msgid "Geometry: %s cylinders, %s heads, %s sectors\n"
 #~ msgstr "Indeling: %s cylinders, %s koppen, %s sectoren\n"
-
 #~ msgid "Info: "
 #~ msgstr "Info: "
-
 #~ msgid "LVM-disks %s\n"
 #~ msgstr "LVM-schijven %s\n"
-
 #~ msgid "Partition table type: %s\n"
 #~ msgstr "Partitietabel-type: %s\n"
-
 #~ msgid "on channel %d id %d\n"
 #~ msgstr "op kanaal %d id %d\n"
-
 #~ msgid "Filesystem encryption key"
 #~ msgstr "Sleutel voor bestandssysteem-versleuteling"
-
 #~ msgid "Choose your filesystem encryption key"
 #~ msgstr "Kies uw sleutel voor bestandssysteem-versleuteling"
-
 #~ msgid ""
 #~ "This encryption key is too simple (must be at least %d characters long)"
 #~ msgstr ""
 #~ "Deze versleutelings-sleutel is te makkelijk (moet tenminste %d tekens "
 #~ "lang zijn)"
-
 #~ msgid "The encryption keys do not match"
 #~ msgstr "De versleuteling-sleutels kloppen niet met elkaar"
-
 #~ msgid "Encryption key"
 #~ msgstr "Vercijferingssleutel"
-
 #~ msgid "Encryption key (again)"
 #~ msgstr "versleutelings sleutel (nogmaals)"
-
 #~ msgid "Encryption algorithm"
 #~ msgstr "Versleutelingsalgoritme"
-
 #~ msgid "Change type"
 #~ msgstr "Type veranderen"
-
 #~ msgid "Can not login using username %s (bad password?)"
 #~ msgstr "Kan niet aanmelden met gebruikersnaam %s (verkeerd wachtwoord?)"
-
 #~ msgid "Domain Authentication Required"
 #~ msgstr "Domein-aanmeldingscontrole vereist"
-
 #~ msgid "Which username"
 #~ msgstr "Welke gebruikersnaam"
-
 #~ msgid "Another one"
 #~ msgstr "Een andere"
-
 #~ msgid ""
 #~ "Please enter your username, password and domain name to access this host."
 #~ msgstr ""
 #~ "Voer uw gebruikersnaam, wachtwoord en domeinnaam in om toegang te krijgen "
 #~ "tot deze host."
-
 #~ msgid "Username"
 #~ msgstr "Gebruikersnaam"
-
 #~ msgid "Search servers"
 #~ msgstr "Servers zoeken"
-
 #~ msgid "Search new servers"
 #~ msgstr "Nieuwe servers zoeken"
-
 #~ msgid "The package %s needs to be installed. Do you want to install it?"
 #~ msgstr "Pakket %s dient geïnstalleerd te worden. Wilt u het installeren?"
-
 #~ msgid "Could not install the %s package!"
 #~ msgstr "Kan het pakket %s niet installeren!"
-
 #~ msgid "Mandatory package %s is missing"
 #~ msgstr "Verplicht pakket %s ontbreekt"
-
 #~ msgid "The following packages need to be installed:\n"
 #~ msgstr "De volgende pakketten dienen geïnstalleerd te worden:\n"
-
 #~ msgid "Installing packages..."
 #~ msgstr "Bezig met installeren van pakketten..."
-
 #~ msgid "Removing packages..."
 #~ msgstr "Verwijderen van pakketten..."
-
 #~ msgid ""
 #~ "An error occurred - no valid devices were found on which to create new "
 #~ "filesystems. Please check your hardware for the cause of this problem"
@@ -3159,48 +2780,34 @@ msgstr "Test uw muis alstublieft:"
 #~ "Er is een fout opgetreden - er zijn geen geldige apparaten gevonden "
 #~ "waarop nieuwe bestandssystemen kunnen worden aangemaakt. Kijk uw "
 #~ "apparatuur na om de oorzaak van dit probleem te vinden."
-
 #~ msgid "You must have a FAT partition mounted in /boot/efi"
 #~ msgstr ""
 #~ "U moet een partitie met FAT-bestandssysteem gekoppeld hebben aan /boot/efi"
-
 #~ msgid "Formatting partition %s"
 #~ msgstr "Bezig met formatteren van partitie %s"
-
 #~ msgid "Creating and formatting file %s"
 #~ msgstr "Bezig met aanmaken en formatteren van bestand %s"
-
 #~ msgid "I do not know how to format %s in type %s"
 #~ msgstr "Methode voor formatteren van %s in type %s onbekend"
-
 #~ msgid "%s formatting of %s failed"
 #~ msgstr "%s formatteren van %s mislukt"
-
 #~ msgid "Circular mounts %s\n"
 #~ msgstr "Circulaire koppelpunten: %s\n"
-
 #~ msgid "Mounting partition %s"
 #~ msgstr "Bezig met koppelen van partitie %s"
-
 #~ msgid "mounting partition %s in directory %s failed"
 #~ msgstr "het koppelen van partitie %s in map %s is mislukt"
-
 #~ msgid "Checking %s"
 #~ msgstr "Bezig met controleren van %s"
-
 #~ msgid "error unmounting %s: %s"
 #~ msgstr "fout bij ontkoppelen %s: %s"
-
 #~ msgid "Enabling swap partition %s"
 #~ msgstr "Bezig met inschakelen van virtueel geheugen-partitie %s"
-
 #~ msgid "Use an encrypted file system"
 #~ msgstr "Gebruik een versleuteld bestandssysteem"
-
 #~ msgid "Enable group disk quota accounting and optionally enforce limits"
 #~ msgstr ""
 #~ "Zet harde schijf groepsquota aan en bekrachtig optioneel de limieten"
-
 #~ msgid ""
 #~ "Do not update inode access times on this file system\n"
 #~ "(e.g, for faster access on the news spool to speed up news servers)."
@@ -3208,20 +2815,17 @@ msgstr "Test uw muis alstublieft:"
 #~ "inode-toegangstijden op dit bestandssysteem niet verversen\n"
 #~ "(bijv. voor snellere toegang op de newsspool om newsservers te "
 #~ "versnellen)."
-
 #~ msgid ""
 #~ "Can only be mounted explicitly (i.e.,\n"
 #~ "the -a option will not cause the file system to be mounted)."
 #~ msgstr ""
 #~ "Kan alleen expliciet gekoppeld worden (bijvoorbeeld\n"
 #~ "de optie -a zorgt er niet voor dat het bestandssysteem gekoppeld wordt)."
-
 #~ msgid ""
 #~ "Do not interpret character or block special devices on the file system."
 #~ msgstr ""
 #~ "Speciale character- of block-apparaten op het bestandssysteem niet "
 #~ "interpreteren."
-
 #~ msgid ""
 #~ "Do not allow execution of any binaries on the mounted\n"
 #~ "file system. This option might be useful for a server that has file "
@@ -3232,7 +2836,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "bestandssysteem niet toestaan. Deze optie kan nuttig zijn voor een "
 #~ "server\n"
 #~ "die binaire bestanden bevat voor andere architecturen dan zijn eigen."
-
 #~ msgid ""
 #~ "Do not allow set-user-identifier or set-group-identifier\n"
 #~ "bits to take effect. (This seems safe, but is in fact rather unsafe if "
@@ -3243,58 +2846,42 @@ msgstr "Test uw muis alstublieft:"
 #~ "om effect te hebben. (Dit lijkt veilig, maar is in feite nogal onveilig "
 #~ "als\n"
 #~ "u suidperl(1) geïnstalleerd heeft.)"
-
 #~ msgid "Mount the file system read-only."
 #~ msgstr "Het bestandssysteem alleen voor lezen koppelen"
-
 #~ msgid "All I/O to the file system should be done synchronously."
 #~ msgstr "Alle I/O naar het bestandssysteem zou synchroon moeten gebeuren."
-
 #~ msgid "Allow every user to mount and umount the file system."
 #~ msgstr ""
 #~ "Alle gebruikers toestaan om het bestandsysteem aan- en af te koppelen."
-
 #~ msgid "Allow an ordinary user to mount the file system."
 #~ msgstr "Gewone gebruikers toestaan om het bestandsysteem aan te koppelen."
-
 #~ msgid "Enable user disk quota accounting, and optionally enforce limits"
 #~ msgstr ""
 #~ "Zet harde schijf gebruikersquota aan en bekrachtig optioneel de limieten"
-
 #~ msgid "Support \"user.\" extended attributes"
 #~ msgstr "\"user.\"-uitgebreide attributen ondersteunen"
-
 #~ msgid "Give write access to ordinary users"
 #~ msgstr "Schrijftoegang geven aan gewone gebruikers"
-
 #~ msgid "Give read-only access to ordinary users"
 #~ msgstr "Allen-lezen-toegang geven aan gewone gebruikers"
-
 #~ msgid "Duplicate mount point %s"
 #~ msgstr "Dubbel koppelpunt %s"
-
 #~ msgid "No partition available"
 #~ msgstr "Geen beschikbare partities"
-
 #~ msgid "Scanning partitions to find mount points"
 #~ msgstr "Bezig met scannen van partities om koppelpunten te vinden"
-
 #~ msgid "Choose the mount points"
 #~ msgstr "Selecteer de koppelpunten"
-
 #~ msgid "Choose the partitions you want to format"
 #~ msgstr "Kies de partities die u wenst te formatteren"
-
 #~ msgid ""
 #~ "Failed to check filesystem %s. Do you want to repair the errors? (beware, "
 #~ "you can lose data)"
 #~ msgstr ""
 #~ "Het controleren van bestandssysteem %s is mislukt. Wilt u de fouten "
 #~ "repareren? (Let op, gegevensverlies is mogelijk)"
-
 #~ msgid "Not enough swap space to fulfill installation, please add some"
 #~ msgstr "Niet genoeg swap voor de installatie, voeg er wat toe"
-
 #~ msgid ""
 #~ "You must have a root partition.\n"
 #~ "For this, create a partition (or click on an existing one).\n"
@@ -3304,7 +2891,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Hiervoor dient u een partitie aan te maken (of op een bestaande partitie "
 #~ "teklikken). Daarna kiest u de actie ``Koppelpunt'' en stelt u dit i nop "
 #~ "`/'"
-
 #~ msgid ""
 #~ "You do not have a swap partition.\n"
 #~ "\n"
@@ -3313,56 +2899,41 @@ msgstr "Test uw muis alstublieft:"
 #~ "U heeft geen swap-partitie!\n"
 #~ "\n"
 #~ "Toch verdergaan?"
-
 #~ msgid "Use free space"
 #~ msgstr "Vrije ruimte benutten"
-
 #~ msgid "Not enough free space to allocate new partitions"
 #~ msgstr "Niet genoeg vrije ruimte om nieuwe partities te maken"
-
 #~ msgid "Use existing partitions"
 #~ msgstr "Gebruik een bestaande partitie"
-
 #~ msgid "There is no existing partition to use"
 #~ msgstr "Er is geen bestaande partitie om te gebruiken"
-
 #~ msgid "Use the Microsoft Windows® partition for loopback"
 #~ msgstr "Gebruik de Microsoft Windows® partitie voor loopback "
-
 #~ msgid "Which partition do you want to use for Linux4Win?"
 #~ msgstr "Welke partitie wenst u te gebruiken voor Linux4Win?"
-
 #~ msgid "Choose the sizes"
 #~ msgstr "Kies de grootte"
-
 #~ msgid "Root partition size in MB: "
 #~ msgstr "Root-partitie-grootte in MB:"
-
 #~ msgid "Swap partition size in MB: "
 #~ msgstr "Swap-partitie-grootte in MB: "
-
 #~ msgid ""
 #~ "There is no FAT partition to use as loopback (or not enough space left)"
 #~ msgstr ""
 #~ "Er is geen FAT-partitie om als loopback te gebruiken (of er is te weinig "
 #~ "ruimte over)"
-
 #~ msgid "Use the free space on the Microsoft Windows® partition"
 #~ msgstr "Gebruik de vrije ruimte op de Windows partitie"
-
 #~ msgid "Which partition do you want to resize?"
 #~ msgstr "Van welke partitie wilt u de grootte veranderen?"
-
 #~ msgid ""
 #~ "The FAT resizer is unable to handle your partition, \n"
 #~ "the following error occurred: %s"
 #~ msgstr ""
 #~ "De FAT grootte-aanpasser was niet instaat met uw partitie om te gaan, \n"
 #~ "de volgende fout is opgetreden: %s"
-
 #~ msgid "Computing the size of the Microsoft Windows® partition"
 #~ msgstr "Bezig met berekenen grootte van Microsoft Windows®-partitie"
-
 #~ msgid ""
 #~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
 #~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
@@ -3371,7 +2942,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Uw Microsoft Windows®-partitie is te gefragmenteerd. Start uw computer "
 #~ "opnieuw op onder Microsoft Windows®, gebruik het ``defrag''-"
 #~ "hulpprogramma, en herstart vervolgens de installatie van Mandriva Linux."
-
 #~ msgid ""
 #~ "WARNING!\n"
 #~ "\n"
@@ -3405,7 +2975,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "\n"
 #~ "Wanneer u zeker van uw zaak bent, klik dan %s."
-
 #~ msgid "Next"
 #~ msgstr "Volgende"
 
@@ -3417,73 +2986,54 @@ msgstr "Test uw muis alstublieft:"
 #, fuzzy
 #~ msgid "Size"
 #~ msgstr "Grootte: %s"
-
 #~ msgid "Resizing Microsoft Windows® partition"
 #~ msgstr "Bezig met grootte aanpassen van Microsoft Windows®-partitie"
-
 #~ msgid "FAT resizing failed: %s"
 #~ msgstr "FAT grootte-aanpassing mislukt: %s"
-
 #~ msgid "There is no FAT partition to resize (or not enough space left)"
 #~ msgstr ""
 #~ "Er is geen FAT partitie om de grootte van aan te passen (of er is te "
 #~ "weinig ruimte over)"
-
 #~ msgid "Remove Microsoft Windows®"
 #~ msgstr "Microsoft Windows® verwijderen"
-
 #~ msgid "Erase and use entire disk"
 #~ msgstr "Volledige harde schijf wissen en gebruiken"
-
 #~ msgid ""
 #~ "You have more than one hard drive, which one do you install linux on?"
 #~ msgstr ""
 #~ "U heeft meer dan één harde schijf, op welke wilt u Linux installeren?"
-
 #~ msgid "ALL existing partitions and their data will be lost on drive %s"
 #~ msgstr ""
 #~ "ALLE bestaande partities en de gegevens die ze bevatten, zullen verloren "
 #~ "gaan op schijf %s"
-
 #~ msgid "Custom disk partitioning"
 #~ msgstr "Aangepaste schijfpartitionering"
-
 #~ msgid "Use fdisk"
 #~ msgstr "fdisk gebruiken"
-
 #~ msgid ""
 #~ "You can now partition %s.\n"
 #~ "When you are done, do not forget to save using `w'"
 #~ msgstr ""
 #~ "U kunt nu uw schijf %s partitioneren.\n"
 #~ "Vergeet niet op te slaan met `w' wanneer u klaar bent."
-
 #~ msgid "I can not find any room for installing"
 #~ msgstr "Er is geen ruimte meer voor installatie"
-
 #~ msgid "The DrakX Partitioning wizard found the following solutions:"
 #~ msgstr "De partitionerings-wizard heeft de volgende oplossingen gevonden:"
-
 #~ msgid "Partitioning failed: %s"
 #~ msgstr "Partitionering mislukt: %s"
-
 #~ msgid "You can not use JFS for partitions smaller than 16MB"
 #~ msgstr "U kunt JFS niet gebruiken op een partitie kleiner dan 16MB"
-
 #~ msgid "You can not use ReiserFS for partitions smaller than 32MB"
 #~ msgstr "U kunt ReiserFS niet gebruiken op een partitie kleiner dan 32MB"
-
 #~ msgid "with /usr"
 #~ msgstr "met /usr"
-
 #~ msgid "server"
 #~ msgstr "server"
-
 #~ msgid "BIOS software RAID detected on disks %s. Activate it?"
 #~ msgstr ""
 #~ "Moet de BIOS software RAID - die is aangetroffen op de schijven %s - "
 #~ "worden geactiveerd?"
-
 #~ msgid ""
 #~ "I can not read the partition table of device %s, it's too corrupted for "
 #~ "me :(\n"
@@ -3503,16 +3053,12 @@ msgstr "Test uw muis alstublieft:"
 #~ "(de fout is %s)\n"
 #~ "\n"
 #~ "Gaat u ermee akkoord dat alle partities verloren gaan?\n"
-
 #~ msgid "Mount points must begin with a leading /"
 #~ msgstr "Koppelpunten moeten beginnen met een /"
-
 #~ msgid "Mount points should contain only alphanumerical characters"
 #~ msgstr "Koppelpuntnamen kunnen slechts alfanumerieke tekens bevatten"
-
 #~ msgid "There is already a partition with mount point %s\n"
 #~ msgstr "Er is al een partitie met als koppelpunt %s\n"
-
 #~ msgid ""
 #~ "You've selected a software RAID partition as root (/).\n"
 #~ "No bootloader is able to handle this without a /boot partition.\n"
@@ -3521,14 +3067,12 @@ msgstr "Test uw muis alstublieft:"
 #~ "U heeft een software RAID partitie als root (/) geselecteerd.\n"
 #~ "Geen enkele opstartlader kan dit aan zonder een /boot partitie.\n"
 #~ "Vergeet dus niet om ook een /boot-partitie toe te voegen."
-
 #~ msgid ""
 #~ "You can not use the LVM Logical Volume for mount point %s since it spans "
 #~ "physical volumes"
 #~ msgstr ""
 #~ "U kunt het LVM logisch volumen voor koppelpunt %s niet gebruiken "
 #~ "aangezien het fysieke volumes omvat"
-
 #~ msgid ""
 #~ "You've selected the LVM Logical Volume as root (/).\n"
 #~ "The bootloader is not able to handle this when the volume spans physical "
@@ -3539,185 +3083,129 @@ msgstr "Test uw muis alstublieft:"
 #~ "De opstartlader is niet in staat hiermee om te gaan als het volume "
 #~ "fysieke volumina omvat.\n"
 #~ "U dient eerst een /boot partitie te creëren"
-
 #~ msgid "This directory should remain within the root filesystem"
 #~ msgstr "Deze map zou binnen het root-bestandssysteem moeten blijven"
-
 #~ msgid ""
 #~ "You need a true filesystem (ext2/ext3, reiserfs, xfs, or jfs) for this "
 #~ "mount point\n"
 #~ msgstr ""
 #~ "U heeft een echt bestandssysteem (ext2/ext3, reiserfs, xfs of jfs) voor "
 #~ "dit koppelpunt nodig\n"
-
 #~ msgid "You can not use an encrypted file system for mount point %s"
 #~ msgstr ""
 #~ "U kunt geen versleuteld bestandssysteem voor koppelpunt %s gebruiken"
-
 #~ msgid "Not enough free space for auto-allocating"
 #~ msgstr "Niet voldoende vrije ruimte voor automatische toewijzing"
-
 #~ msgid "Nothing to do"
 #~ msgstr "Niets meer te doen"
-
 #~ msgid "Floppy"
 #~ msgstr "Diskette"
-
 #~ msgid "Zip"
 #~ msgstr "Zip"
-
 #~ msgid "Hard Disk"
 #~ msgstr "Schijf"
-
 #~ msgid "CDROM"
 #~ msgstr "Cd-rom"
-
 #~ msgid "CD/DVD burners"
 #~ msgstr "Cd/dvd-branders"
-
 #~ msgid "DVD-ROM"
 #~ msgstr "Dvd-rom"
-
 #~ msgid "Tape"
 #~ msgstr "Band"
-
 #~ msgid "AGP controllers"
 #~ msgstr "AGP-controllers"
-
 #~ msgid "Videocard"
 #~ msgstr "Videokaart"
-
 #~ msgid "DVB card"
 #~ msgstr "DVB-kaart"
-
 #~ msgid "Tvcard"
 #~ msgstr "TV-kaart"
-
 #~ msgid "Other MultiMedia devices"
 #~ msgstr "Andere multimedia-apparaten"
-
 #~ msgid "Soundcard"
 #~ msgstr "Geluidskaart"
-
 #~ msgid "Webcam"
 #~ msgstr "Webcam"
-
 #~ msgid "Processors"
 #~ msgstr "Processoren"
-
 #~ msgid "ISDN adapters"
 #~ msgstr "ISDN-adapters"
-
 #~ msgid "USB sound devices"
 #~ msgstr "USB geluidsapparaten"
-
 #~ msgid "Radio cards"
 #~ msgstr "Radio kaarten"
-
 #~ msgid "ATM network cards"
 #~ msgstr "ATM netwerkkaarten"
-
 #~ msgid "WAN network cards"
 #~ msgstr "WAN netwerkkaarten"
-
 #~ msgid "Bluetooth devices"
 #~ msgstr "Bluetooth apparaten"
-
 #~ msgid "Ethernetcard"
 #~ msgstr "Ethernetkaart"
-
 #~ msgid "Modem"
 #~ msgstr "Modem"
-
 #~ msgid "ADSL adapters"
 #~ msgstr "ADSL-adapters"
-
 #~ msgid "Memory"
 #~ msgstr "Geheugen"
-
 #~ msgid "Printer"
 #~ msgstr "Printer"
-
 #~ msgid "Game port controllers"
 #~ msgstr "Gamepoort controllers"
-
 #~ msgid "Joystick"
 #~ msgstr "Joystick"
-
 #~ msgid "SATA controllers"
 #~ msgstr "SATA-controllers"
-
 #~ msgid "RAID controllers"
 #~ msgstr "RAID-controllers"
-
 #~ msgid "(E)IDE/ATA controllers"
 #~ msgstr "(E)IDE/ATA-controllers"
-
 #~ msgid "USB Mass Storage Devices"
 #~ msgstr "USB massaopslag-apparaten"
-
 #~ msgid "Firewire controllers"
 #~ msgstr "Firewire-controllers"
-
 #~ msgid "PCMCIA controllers"
 #~ msgstr "PCMCIA-controllers"
-
 #~ msgid "SCSI controllers"
 #~ msgstr "SCSI-controllers"
-
 #~ msgid "USB controllers"
 #~ msgstr "USB-controllers"
-
 #~ msgid "USB ports"
 #~ msgstr "USB-poorten"
-
 #~ msgid "SMBus controllers"
 #~ msgstr "SMBus-controllers"
-
 #~ msgid "Bridges and system controllers"
 #~ msgstr "Bridges en systeemcontrollers"
-
 #~ msgid "Tablet and touchscreen"
 #~ msgstr "Tablet en touchscreen"
-
 #~ msgid "Mouse"
 #~ msgstr "Muis"
-
 #~ msgid "UPS"
 #~ msgstr "UPS"
-
 #~ msgid "Scanner"
 #~ msgstr "Scanner"
-
 #~ msgid "Unknown/Others"
 #~ msgstr "Onbekend/Overige"
-
 #~ msgid "cpu # "
 #~ msgstr "CVE # "
-
 #~ msgid "Please Wait... Applying the configuration"
 #~ msgstr "Even geduld... bezig met toepassen van de configuratie"
-
 #~ msgid "No alternative driver"
 #~ msgstr "Geen alternatief stuurprogramma"
-
 #~ msgid ""
 #~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
 #~ "which currently uses \"%s\""
 #~ msgstr ""
 #~ "Er is geen alternatief OSS/ALSA-stuurprogramma bekend voor uw geluidskaart"
 #~ "(%s) welke momenteel \"%s\" gebruikt"
-
 #~ msgid "Sound configuration"
 #~ msgstr "Geluidsconfiguratie"
-
 #~ msgid ""
 #~ "Here you can select an alternative driver (either OSS or ALSA) for your "
 #~ "sound card (%s)."
 #~ msgstr ""
 #~ "Hier kunt u een alternatief stuurprogramma selecteren (OSS of ALSA) voor "
 #~ "uw geluidskaart (%s)."
-
 #~ msgid ""
 #~ "\n"
 #~ "\n"
@@ -3728,7 +3216,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "Uw kaart gebruikt momenteel het %s\"%s\"-stuurprogramma (standaard "
 #~ "stuurprogramma voor uw kaart is \"%s\")"
-
 #~ msgid ""
 #~ "OSS (Open Sound System) was the first sound API. It's an OS independent "
 #~ "sound API (it's available on most UNIX(tm) systems) but it's a very basic "
@@ -3762,13 +3249,10 @@ msgstr "Test uw muis alstublieft:"
 #~ "- gebruik maken van de compatibiliteits-API voor het oude OSS\n"
 #~ "- gebruik maken van de nieuwe ALSA-API welke veel verbeterde  "
 #~ "functionaliteit kent maar vereist dat u de ALSA-bibliotheek gebruikt.\n"
-
 #~ msgid "Driver:"
 #~ msgstr "Stuurprogramma:"
-
 #~ msgid "Trouble shooting"
 #~ msgstr "Probleemaanpak"
-
 #~ msgid ""
 #~ "The old \"%s\" driver is blacklisted.\n"
 #~ "\n"
@@ -3783,34 +3267,26 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "Het nieuwe \"%s\"-stuurprogramma zal slechts gebruikt worden\n"
 #~ "bij de volgende \"bootstrap\"."
-
 #~ msgid "No open source driver"
 #~ msgstr "Geen stuurprogramma met vrije broncode"
-
 #~ msgid ""
 #~ "There's no free driver for your sound card (%s), but there's a "
 #~ "proprietary driver at \"%s\"."
 #~ msgstr ""
 #~ "Er is geen vrij stuurprogramma beschikbaar voor uw geluidskaart (%s), "
 #~ "maar er is een fabrikantsgebonden stuurprogramma op \"%s\"."
-
 #~ msgid "No known driver"
 #~ msgstr "Geen stuurprogramma bekend"
-
 #~ msgid "There's no known driver for your sound card (%s)"
 #~ msgstr "Er is geen stuurprogramma bekend voor uw geluidskaart (%s)"
-
 #~ msgid "Unknown driver"
 #~ msgstr "Onbekend stuurprogramma"
-
 #~ msgid "Error: The \"%s\" driver for your sound card is unlisted"
 #~ msgstr ""
 #~ "Er is een fout opgetreden: Het stuurprogramma \"%s\" voor uw geluidskaart "
 #~ "staat niet in de lijst"
-
 #~ msgid "Sound trouble shooting"
 #~ msgstr "Geluidsproblemen aanpakken"
-
 #~ msgid ""
 #~ "The classic bug sound tester is to run the following commands:\n"
 #~ "\n"
@@ -3859,13 +3335,10 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "- \"/sbin/fuser -v /dev/dsp\" vertelt u welk programma de geluidskaart "
 #~ "gebruikt.\n"
-
 #~ msgid "Let me pick any driver"
 #~ msgstr "Laat de computer een stuurprogramma uitzoeken"
-
 #~ msgid "Choosing an arbitrary driver"
 #~ msgstr "Kiezen van willekeurig stuurprogramma"
-
 #~ msgid ""
 #~ "If you really think that you know which driver is the right one for your "
 #~ "card\n"
@@ -3878,19 +3351,14 @@ msgstr "Test uw muis alstublieft:"
 #~ "dan kunt u er één kiezen uit bovenstaande lijst.\n"
 #~ "\n"
 #~ "Het huidige stuurprogramma voor uw \"%s\" geluidskaart is \"%s\" "
-
 #~ msgid "Auto-detect"
 #~ msgstr "Automatisch bespeuren"
-
 #~ msgid "Unknown|Generic"
 #~ msgstr "Onbekend|Algemeen"
-
 #~ msgid "Unknown|CPH05X (bt878) [many vendors]"
 #~ msgstr "Onbekend|CPH05X (bt878) [vele uitvoeringen]"
-
 #~ msgid "Unknown|CPH06X (bt878) [many vendors]"
 #~ msgstr "Onbekend|CPH06X (bt878) [vele uitvoeringen]"
-
 #~ msgid ""
 #~ "For most modern TV cards, the bttv module of the GNU/Linux kernel just "
 #~ "auto-detect the rights parameters.\n"
@@ -3901,83 +3369,58 @@ msgstr "Test uw muis alstublieft:"
 #~ "door de bttv module van de GNU/Linux kernel gevonden.\n"
 #~ "Indien uw kaart niet goed is herkend, kunt u de juiste tuner, kaart-type "
 #~ "en instellingenhier handmatig aangeven."
-
 #~ msgid "Card model:"
 #~ msgstr "Kaartmodel:"
-
 #~ msgid "Tuner type:"
 #~ msgstr "Tuner type :"
-
 #~ msgid "Number of capture buffers:"
 #~ msgstr "Aantal opnamebuffers:"
-
 #~ msgid "number of capture buffers for mmap'ed capture"
 #~ msgstr "aantal opnamebuffers voor mmap-opname:"
-
 #~ msgid "PLL setting:"
 #~ msgstr "PLL instelling:"
-
 #~ msgid "Radio support:"
 #~ msgstr "Radio ondersteuning:"
-
 #~ msgid "enable radio support"
 #~ msgstr "activeer radio ondersteuning"
-
 #~ msgid "Yes"
 #~ msgstr "Ja"
-
 #~ msgid "No"
 #~ msgstr "Nee"
-
 #~ msgid "Choose a file"
 #~ msgstr "Kies een bestand"
-
 #~ msgid "Add"
 #~ msgstr "Toevoegen"
-
 #~ msgid "Modify"
 #~ msgstr "Aanpassen"
-
 #~ msgid "Remove"
 #~ msgstr "Verwijderen"
-
 #~ msgid "Finish"
 #~ msgstr "Klaar"
-
 #~ msgid "Previous"
 #~ msgstr "Vorige"
-
 #~ msgid "Bad choice, try again\n"
 #~ msgstr "Ongeldige keuze, probeer nog eens\n"
-
 #~ msgid "Your choice? (default %s) "
 #~ msgstr "Uw keuze? (standaard %s)"
-
 #~ msgid ""
 #~ "Entries you'll have to fill:\n"
 #~ "%s"
 #~ msgstr ""
 #~ "Waarden die u dient in te vullen:\n"
 #~ "%s"
-
 #~ msgid "Your choice? (0/1, default `%s') "
 #~ msgstr "Uw keuze? (0/1, standaard '%s')"
-
 #~ msgid "Button `%s': %s"
 #~ msgstr "Knop '%s':%s"
-
 #~ msgid "Do you want to click on this button?"
 #~ msgstr "Wilt u op deze knop klikken?"
-
 #~ msgid "Your choice? (default `%s'%s) "
 #~ msgstr "Uw keuze? (standaard '%s'%s)"
-
 #~ msgid " enter `void' for void entry"
 #~ msgstr " voer `void' in voor een lege keuze"
-
 #~ msgid "=> There are many things to choose from (%s).\n"
 #~ msgstr "=> Er zijn vele keuzes mogelijk (%s).\n"
-
 #~ msgid ""
 #~ "Please choose the first number of the 10-range you wish to edit,\n"
 #~ "or just hit Enter to proceed.\n"
@@ -3986,752 +3429,505 @@ msgstr "Test uw muis alstublieft:"
 #~ "Gelieve het eerste nummer van het 10-bereik dat u wilt bewerken,\n"
 #~ "te kiezen, of geef eenvoudigweg Enter om verder te gaan.\n"
 #~ "Uw keuze?"
-
 #~ msgid ""
 #~ "=> Notice, a label changed:\n"
 #~ "%s"
 #~ msgstr ""
 #~ "=> Let op, een label is veranderd:\n"
 #~ "%s"
-
 #~ msgid "Re-submit"
 #~ msgstr "Opnieuw invoeren"
-
 #~ msgid "default:LTR"
 #~ msgstr "default:LTR"
-
 #~ msgid "Andorra"
 #~ msgstr "Andorra"
-
 #~ msgid "United Arab Emirates"
 #~ msgstr "Verenigde Arabische Emiraten"
-
 #~ msgid "Afghanistan"
 #~ msgstr "Afghanistan"
-
 #~ msgid "Antigua and Barbuda"
 #~ msgstr "Antigua en Barbuda"
-
 #~ msgid "Anguilla"
 #~ msgstr "Anguilla"
-
 #~ msgid "Albania"
 #~ msgstr "Albanië"
-
 #~ msgid "Armenia"
 #~ msgstr "Armenië"
-
 #~ msgid "Netherlands Antilles"
 #~ msgstr "Nederlandse Antillen"
-
 #~ msgid "Angola"
 #~ msgstr "Angola"
-
 #~ msgid "Antarctica"
 #~ msgstr "Antarctica"
-
 #~ msgid "Argentina"
 #~ msgstr "Argentinië"
-
 #~ msgid "American Samoa"
 #~ msgstr "Amerikaans Samoa"
-
 #~ msgid "Austria"
 #~ msgstr "Oostenrijk"
-
 #~ msgid "Australia"
 #~ msgstr "Australië"
-
 #~ msgid "Aruba"
 #~ msgstr "Aruba"
-
 #~ msgid "Azerbaijan"
 #~ msgstr "Azerbeidjan"
-
 #~ msgid "Bosnia and Herzegovina"
 #~ msgstr "Bosnië-Herzegovina"
-
 #~ msgid "Barbados"
 #~ msgstr "Barbados"
-
 #~ msgid "Bangladesh"
 #~ msgstr "Bangladesh"
-
 #~ msgid "Belgium"
 #~ msgstr "België"
-
 #~ msgid "Burkina Faso"
 #~ msgstr "Burkina Faso"
-
 #~ msgid "Bulgaria"
 #~ msgstr "Bulgarije"
-
 #~ msgid "Bahrain"
 #~ msgstr "Bahrein"
-
 #~ msgid "Burundi"
 #~ msgstr "Burundi"
-
 #~ msgid "Benin"
 #~ msgstr "Benin"
-
 #~ msgid "Bermuda"
 #~ msgstr "Bermuda"
-
 #~ msgid "Brunei Darussalam"
 #~ msgstr "Brunei Darussalam"
-
 #~ msgid "Bolivia"
 #~ msgstr "Bolivië"
-
 #~ msgid "Brazil"
 #~ msgstr "Brazilië"
-
 #~ msgid "Bahamas"
 #~ msgstr "Bahama's"
-
 #~ msgid "Bhutan"
 #~ msgstr "Bhutan"
-
 #~ msgid "Bouvet Island"
 #~ msgstr "Bouvet-Eiland"
-
 #~ msgid "Botswana"
 #~ msgstr "Botswana"
-
 #~ msgid "Belarus"
 #~ msgstr "Wit-Rusland"
-
 #~ msgid "Belize"
 #~ msgstr "Belize"
-
 #~ msgid "Canada"
 #~ msgstr "Canada"
-
 #~ msgid "Cocos (Keeling) Islands"
 #~ msgstr "Kokos (Keeling) Eiland"
-
 #~ msgid "Congo (Kinshasa)"
 #~ msgstr "Congo (Kinshasa)"
-
 #~ msgid "Central African Republic"
 #~ msgstr "Centraal-Afrikaanse Republiek"
-
 #~ msgid "Congo (Brazzaville)"
 #~ msgstr "Congo (Brazzaville)"
-
 #~ msgid "Switzerland"
 #~ msgstr "Zwitserland"
-
 #~ msgid "Cote d'Ivoire"
 #~ msgstr "Ivoorkust"
-
 #~ msgid "Cook Islands"
 #~ msgstr "Cookeilanden"
-
 #~ msgid "Chile"
 #~ msgstr "Chili"
-
 #~ msgid "Cameroon"
 #~ msgstr "Kameroen"
-
 #~ msgid "China"
 #~ msgstr "China"
-
 #~ msgid "Colombia"
 #~ msgstr "Colombia"
-
 #~ msgid "Costa Rica"
 #~ msgstr "Costa Rica"
-
 #~ msgid "Serbia & Montenegro"
 #~ msgstr "Servië & Montenegro"
-
 #~ msgid "Cuba"
 #~ msgstr "Cuba"
-
 #~ msgid "Cape Verde"
 #~ msgstr "Kaapverdische Eilanden"
-
 #~ msgid "Christmas Island"
 #~ msgstr "Kerstmis-eiland"
-
 #~ msgid "Cyprus"
 #~ msgstr "Cyprus"
-
 #~ msgid "Czech Republic"
 #~ msgstr "Tsjechische Republiek"
-
 #~ msgid "Germany"
 #~ msgstr "Duitsland"
-
 #~ msgid "Djibouti"
 #~ msgstr "Djibouti"
-
 #~ msgid "Denmark"
 #~ msgstr "Denemarken"
-
 #~ msgid "Dominica"
 #~ msgstr "Dominica"
-
 #~ msgid "Dominican Republic"
 #~ msgstr "Dominicaanse Republiek"
-
 #~ msgid "Algeria"
 #~ msgstr "Algerije"
-
 #~ msgid "Ecuador"
 #~ msgstr "Ecuador"
-
 #~ msgid "Estonia"
 #~ msgstr "Estland"
-
 #~ msgid "Egypt"
 #~ msgstr "Egypte"
-
 #~ msgid "Western Sahara"
 #~ msgstr "Westelijke Sahara"
-
 #~ msgid "Eritrea"
 #~ msgstr "Eritrea"
-
 #~ msgid "Spain"
 #~ msgstr "Spanje"
-
 #~ msgid "Ethiopia"
 #~ msgstr "Ethiopië"
-
 #~ msgid "Finland"
 #~ msgstr "Finland"
-
 #~ msgid "Fiji"
 #~ msgstr "Fiji"
-
 #~ msgid "Falkland Islands (Malvinas)"
 #~ msgstr "Falkland eilanden pond"
-
 #~ msgid "Micronesia"
 #~ msgstr "Micronesië"
-
 #~ msgid "Faroe Islands"
 #~ msgstr "Faroër Eilanden"
-
 #~ msgid "France"
 #~ msgstr "Frankrijk"
-
 #~ msgid "Gabon"
 #~ msgstr "Gabon"
-
 #~ msgid "United Kingdom"
 #~ msgstr "Verenigd Koninkrijk"
-
 #~ msgid "Grenada"
 #~ msgstr "Grenada"
-
 #~ msgid "Georgia"
 #~ msgstr "Georgië"
-
 #~ msgid "French Guiana"
 #~ msgstr "Frans Guyana"
-
 #~ msgid "Ghana"
 #~ msgstr "Ghana"
-
 #~ msgid "Gibraltar"
 #~ msgstr "Gibraltar"
-
 #~ msgid "Greenland"
 #~ msgstr "Groenland"
-
 #~ msgid "Gambia"
 #~ msgstr "Gambia"
-
 #~ msgid "Guinea"
 #~ msgstr "Guinee"
-
 #~ msgid "Guadeloupe"
 #~ msgstr "Guadeloupe"
-
 #~ msgid "Equatorial Guinea"
 #~ msgstr "Equatoriaal Guinee"
-
 #~ msgid "Greece"
 #~ msgstr "Griekenland"
-
 #~ msgid "South Georgia and the South Sandwich Islands"
 #~ msgstr "Zuid-Georgia en de zuidelijke Sandwich-eilanden"
-
 #~ msgid "Guatemala"
 #~ msgstr "Guatemala"
-
 #~ msgid "Guam"
 #~ msgstr "Guam"
-
 #~ msgid "Guinea-Bissau"
 #~ msgstr "Guinee-Bissau"
-
 #~ msgid "Guyana"
 #~ msgstr "Guyana"
-
 #~ msgid "Hong Kong SAR (China)"
 #~ msgstr "Hong Kong SAR (China)"
-
 #~ msgid "Heard and McDonald Islands"
 #~ msgstr "Heard en McDonald-eilanden"
-
 #~ msgid "Honduras"
 #~ msgstr "Honduras"
-
 #~ msgid "Croatia"
 #~ msgstr "Kroatië"
-
 #~ msgid "Haiti"
 #~ msgstr "Haïti"
-
 #~ msgid "Hungary"
 #~ msgstr "Hongarije"
-
 #~ msgid "Indonesia"
 #~ msgstr "Indonesië"
-
 #~ msgid "Ireland"
 #~ msgstr "Ierland"
-
 #~ msgid "Israel"
 #~ msgstr "Israël"
-
 #~ msgid "India"
 #~ msgstr "India"
-
 #~ msgid "British Indian Ocean Territory"
 #~ msgstr "Brits Indische Oceaan Territorium"
-
 #~ msgid "Iraq"
 #~ msgstr "Irak"
-
 #~ msgid "Iran"
 #~ msgstr "Iran"
-
 #~ msgid "Iceland"
 #~ msgstr "IJsland"
-
 #~ msgid "Italy"
 #~ msgstr "Italië"
-
 #~ msgid "Jamaica"
 #~ msgstr "Jamaica"
-
 #~ msgid "Jordan"
 #~ msgstr "Jordanië"
-
 #~ msgid "Japan"
 #~ msgstr "Japan"
-
 #~ msgid "Kenya"
 #~ msgstr "Kenia"
-
 #~ msgid "Kyrgyzstan"
 #~ msgstr "Kirgizië"
-
 #~ msgid "Cambodia"
 #~ msgstr "Cambodja"
-
 #~ msgid "Kiribati"
 #~ msgstr "Kiribati"
-
 #~ msgid "Comoros"
 #~ msgstr "Komoren"
-
 #~ msgid "Saint Kitts and Nevis"
 #~ msgstr "Saint Kitts en Nevis"
-
 #~ msgid "Korea (North)"
 #~ msgstr "Noord-Korea"
-
 #~ msgid "Korea"
 #~ msgstr "Korea"
-
 #~ msgid "Kuwait"
 #~ msgstr "Koeweit"
-
 #~ msgid "Cayman Islands"
 #~ msgstr "Kaaimaneilanden"
-
 #~ msgid "Kazakhstan"
 #~ msgstr "Kazachstan"
-
 #~ msgid "Laos"
 #~ msgstr "Laos"
-
 #~ msgid "Lebanon"
 #~ msgstr "Libanon"
-
 #~ msgid "Saint Lucia"
 #~ msgstr "Santa Lucia"
-
 #~ msgid "Liechtenstein"
 #~ msgstr "Liechtenstein"
-
 #~ msgid "Sri Lanka"
 #~ msgstr "Sri Lanka"
-
 #~ msgid "Liberia"
 #~ msgstr "Liberia"
-
 #~ msgid "Lesotho"
 #~ msgstr "Lesotho"
-
 #~ msgid "Lithuania"
 #~ msgstr "Litouwen"
-
 #~ msgid "Luxembourg"
 #~ msgstr "Luxemburg"
-
 #~ msgid "Latvia"
 #~ msgstr "Letland"
-
 #~ msgid "Libya"
 #~ msgstr "Libië"
-
 #~ msgid "Morocco"
 #~ msgstr "Marokko"
-
 #~ msgid "Monaco"
 #~ msgstr "Monaco"
-
 #~ msgid "Moldova"
 #~ msgstr "Moldavië"
-
 #~ msgid "Madagascar"
 #~ msgstr "Madagaskar"
-
 #~ msgid "Marshall Islands"
 #~ msgstr "Marshall Eilanden"
-
 #~ msgid "Macedonia"
 #~ msgstr "Macedonië"
-
 #~ msgid "Mali"
 #~ msgstr "Mali"
-
 #~ msgid "Myanmar"
 #~ msgstr "Myanmar"
-
 #~ msgid "Mongolia"
 #~ msgstr "Mongolië"
-
 #~ msgid "Northern Mariana Islands"
 #~ msgstr "Noordelijke Mariana Eilanden"
-
 #~ msgid "Martinique"
 #~ msgstr "Martinique"
-
 #~ msgid "Mauritania"
 #~ msgstr "Mauritanië"
-
 #~ msgid "Montserrat"
 #~ msgstr "Montserrat"
-
 #~ msgid "Malta"
 #~ msgstr "Malta"
-
 #~ msgid "Mauritius"
 #~ msgstr "Mauritius"
-
 #~ msgid "Maldives"
 #~ msgstr "Malediven"
-
 #~ msgid "Malawi"
 #~ msgstr "Malawi"
-
 #~ msgid "Mexico"
 #~ msgstr "Mexico"
-
 #~ msgid "Malaysia"
 #~ msgstr "Maleisië"
-
 #~ msgid "Mozambique"
 #~ msgstr "Mozambique"
-
 #~ msgid "Namibia"
 #~ msgstr "Namibië"
-
 #~ msgid "New Caledonia"
 #~ msgstr "Nieuw Caledonië"
-
 #~ msgid "Niger"
 #~ msgstr "Niger"
-
 #~ msgid "Norfolk Island"
 #~ msgstr "Norfolk Eiland"
-
 #~ msgid "Nigeria"
 #~ msgstr "Nigeria"
-
 #~ msgid "Nicaragua"
 #~ msgstr "Nicaragua"
-
 #~ msgid "Netherlands"
 #~ msgstr "Nederland"
-
 #~ msgid "Norway"
 #~ msgstr "Noorwegen"
-
 #~ msgid "Nepal"
 #~ msgstr "Nepal"
-
 #~ msgid "Nauru"
 #~ msgstr "Nauru"
-
 #~ msgid "Niue"
 #~ msgstr "Niue"
-
 #~ msgid "New Zealand"
 #~ msgstr "Nieuw Zeeland"
-
 #~ msgid "Oman"
 #~ msgstr "Oman"
-
 #~ msgid "Panama"
 #~ msgstr "Panama"
-
 #~ msgid "Peru"
 #~ msgstr "Peru"
-
 #~ msgid "French Polynesia"
 #~ msgstr "Frans Polynesië"
-
 #~ msgid "Papua New Guinea"
 #~ msgstr "Papoea Nieuw Guinea"
-
 #~ msgid "Philippines"
 #~ msgstr "Filippijnen"
-
 #~ msgid "Pakistan"
 #~ msgstr "Pakistan"
-
 #~ msgid "Poland"
 #~ msgstr "Polen"
-
 #~ msgid "Saint Pierre and Miquelon"
 #~ msgstr "St. Pierre en Miquelon"
-
 #~ msgid "Pitcairn"
 #~ msgstr "Pitcairn"
-
 #~ msgid "Puerto Rico"
 #~ msgstr "Puerto Rico"
-
 #~ msgid "Palestine"
 #~ msgstr "Palestina"
-
 #~ msgid "Portugal"
 #~ msgstr "Portugal"
-
 #~ msgid "Paraguay"
 #~ msgstr "Paraguay"
-
 #~ msgid "Palau"
 #~ msgstr "Palau"
-
 #~ msgid "Qatar"
 #~ msgstr "Qatar"
-
 #~ msgid "Reunion"
 #~ msgstr "Réunion"
-
 #~ msgid "Romania"
 #~ msgstr "Roemenië"
-
 #~ msgid "Russia"
 #~ msgstr "Rusland"
-
 #~ msgid "Rwanda"
 #~ msgstr "Rwanda"
-
 #~ msgid "Saudi Arabia"
 #~ msgstr "Saoedi-Arabië"
-
 #~ msgid "Solomon Islands"
 #~ msgstr "Salomonseilanden"
-
 #~ msgid "Seychelles"
 #~ msgstr "Seychellen"
-
 #~ msgid "Sudan"
 #~ msgstr "Soedan"
-
 #~ msgid "Sweden"
 #~ msgstr "Zweden"
-
 #~ msgid "Singapore"
 #~ msgstr "Singapore"
-
 #~ msgid "Saint Helena"
 #~ msgstr "St. Helena"
-
 #~ msgid "Slovenia"
 #~ msgstr "Slovenië"
-
 #~ msgid "Svalbard and Jan Mayen Islands"
 #~ msgstr "Svalbard en Jan Mayen Eilanden"
-
 #~ msgid "Slovakia"
 #~ msgstr "Slowakije"
-
 #~ msgid "Sierra Leone"
 #~ msgstr "Sierra Leone"
-
 #~ msgid "San Marino"
 #~ msgstr "San Marino"
-
 #~ msgid "Senegal"
 #~ msgstr "Senegal"
-
 #~ msgid "Somalia"
 #~ msgstr "Somalië"
-
 #~ msgid "Suriname"
 #~ msgstr "Suriname"
-
 #~ msgid "Sao Tome and Principe"
 #~ msgstr "Sao Tome en Principe"
-
 #~ msgid "El Salvador"
 #~ msgstr "El Salvador"
-
 #~ msgid "Syria"
 #~ msgstr "Syrië"
-
 #~ msgid "Swaziland"
 #~ msgstr "Swaziland"
-
 #~ msgid "Turks and Caicos Islands"
 #~ msgstr "Turks en Caicos Eilanden"
-
 #~ msgid "Chad"
 #~ msgstr "Tsjaad"
-
 #~ msgid "French Southern Territories"
 #~ msgstr "Franse Zuidelijke Territoriën"
-
 #~ msgid "Togo"
 #~ msgstr "Togo"
-
 #~ msgid "Thailand"
 #~ msgstr "Thailand"
-
 #~ msgid "Tajikistan"
 #~ msgstr "Tadjzikistan"
-
 #~ msgid "Tokelau"
 #~ msgstr "Tokelau"
-
 #~ msgid "East Timor"
 #~ msgstr "Oost-Timor"
-
 #~ msgid "Turkmenistan"
 #~ msgstr "Turkmenistan"
-
 #~ msgid "Tunisia"
 #~ msgstr "Tunesië"
-
 #~ msgid "Tonga"
 #~ msgstr "Tonga"
-
 #~ msgid "Turkey"
 #~ msgstr "Turkije"
-
 #~ msgid "Trinidad and Tobago"
 #~ msgstr "Trinidad en Tobago"
-
 #~ msgid "Tuvalu"
 #~ msgstr "Tuvalu"
-
 #~ msgid "Taiwan"
 #~ msgstr "Taiwan"
-
 #~ msgid "Tanzania"
 #~ msgstr "Tanzania"
-
 #~ msgid "Ukraine"
 #~ msgstr "Oekraïene"
-
 #~ msgid "Uganda"
 #~ msgstr "Oeganda"
-
 #~ msgid "United States Minor Outlying Islands"
 #~ msgstr "Amerikaanse Kleine Eilanden"
-
 #~ msgid "United States"
 #~ msgstr "Verenigde Staten"
-
 #~ msgid "Uruguay"
 #~ msgstr "Uruguay"
-
 #~ msgid "Uzbekistan"
 #~ msgstr "Oezbekistan"
-
 #~ msgid "Vatican"
 #~ msgstr "Vaticaan"
-
 #~ msgid "Saint Vincent and the Grenadines"
 #~ msgstr "Sint Vincent en de Grenadinen"
-
 #~ msgid "Venezuela"
 #~ msgstr "Venezuela"
-
 #~ msgid "Virgin Islands (British)"
 #~ msgstr "Britse Maagdeneilanden"
-
 #~ msgid "Virgin Islands (U.S.)"
 #~ msgstr "Amerikaanse Maagdeneilanden"
-
 #~ msgid "Vietnam"
 #~ msgstr "Vietnam"
-
 #~ msgid "Vanuatu"
 #~ msgstr "Vanuatu"
-
 #~ msgid "Wallis and Futuna"
 #~ msgstr "Wallis en Futuna"
-
 #~ msgid "Samoa"
 #~ msgstr "Samoa"
-
 #~ msgid "Yemen"
 #~ msgstr "Jemen"
-
 #~ msgid "Mayotte"
 #~ msgstr "Mayotte"
-
 #~ msgid "South Africa"
 #~ msgstr "Zuid-Afrika"
-
 #~ msgid "Zambia"
 #~ msgstr "Zambia"
-
 #~ msgid "Zimbabwe"
 #~ msgstr "Zimbabwe"
-
 #~ msgid "Welcome to %s"
 #~ msgstr "Welkom bij %s"
-
 #~ msgid "Moving used physical extents to other physical volumes failed"
 #~ msgstr ""
 #~ "Het verplaatsen van de gebruikte fysieke extents naar andere fysieke "
 #~ "volumes is mislukt"
-
 #~ msgid "Physical volume %s is still in use"
 #~ msgstr "Fysiek volume %s is nog altijd in gebruik"
-
 #~ msgid "Remove the logical volumes first\n"
 #~ msgstr "Verwijder eerst de logische volumina\n"
-
 #~ msgid "The bootloader can't handle /boot on multiple physical volumes"
 #~ msgstr ""
 #~ "De opstartlader kan niet omgaan met /boot op meerdere fysieke volumina"
-
 #~ msgid ""
 #~ "Introduction\n"
 #~ "\n"
@@ -4981,7 +4177,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "laten maken van dit document zult U dus een originele versie van dit "
 #~ "document op moeten halen\n"
 #~ "en deze laten vertalen door een beëdigd vertaler.\n"
-
 #~ msgid ""
 #~ "Warning: Free Software may not necessarily be patent free, and some Free\n"
 #~ "Software included may be covered by patents in your country. For example, "
@@ -4999,7 +4194,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "kunnen vereisen voordat ze gebruikt mogen worden (zie \n"
 #~ "http://www.mp3licensing.com voor verdere details). Indien u onzeker bent\n"
 #~ "of een patent op u toepasbaar is, raadpleeg dan uw lokale wetgeving."
-
 #~ msgid ""
 #~ "\n"
 #~ "Warning\n"
@@ -5065,7 +4259,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "aan hun respectievelijke auteurs en zijn beschermd door wetten met \n"
 #~ "betrekking tot intellectueel eigendom en copyright van software- \n"
 #~ "programma's. \n"
-
 #~ msgid ""
 #~ "Congratulations, installation is complete.\n"
 #~ "Remove the boot media and press Enter to reboot.\n"
@@ -5096,51 +4289,37 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "Informatie over het configureren van uw systeem is beschikbaar in het\n"
 #~ "\"post install\"-hoofdstuk van de Official Mandriva Linux User's Guide."
-
 #~ msgid "This driver has no configuration parameter!"
 #~ msgstr "Dit stuurprogramma heeft geen configuratieparameter!"
-
 #~ msgid "Module configuration"
 #~ msgstr "Moduleconfiguratie"
-
 #~ msgid "You can configure each parameter of the module here."
 #~ msgstr "U kunt elke vlag van de module hier configureren"
-
 #~ msgid "Found %s interfaces"
 #~ msgstr "%s interfaces gevonden"
-
 #~ msgid "Do you have another one?"
 #~ msgstr "Heeft u er nog één?"
-
 #~ msgid "Do you have any %s interfaces?"
 #~ msgstr "Heeft u een %s interface?"
-
 #~ msgid "See hardware info"
 #~ msgstr "Hardware-info bekijken"
-
 #~ msgid "Installing driver for USB controller"
 #~ msgstr "Installeren van stuurprogramma voor USB-besturingsapparaat"
-
 #~ msgid "Installing driver for firewire controller %s"
 #~ msgstr "Installeren van stuurprogramma voor Firewire-besturingsapparaat %s"
-
 #~ msgid "Installing driver for hard drive controller %s"
 #~ msgstr ""
 #~ "Installeren van stuurprogramma voor harde schijf-besturingsapparaat %s"
-
 #~ msgid "Installing driver for ethernet controller %s"
 #~ msgstr "Installeren van stuurprogramma voor ethernetapparaat %s"
-
 #~ msgid "Installing driver for %s card %s"
 #~ msgstr "Bezig met installeren van stuurprogramma voor %s kaart %s"
-
 #~ msgid ""
 #~ "You may now provide options to module %s.\n"
 #~ "Note that any address should be entered with the prefix 0x like '0x123'"
 #~ msgstr ""
 #~ "U kunt nu de opties doorgeven aan module %s.\n"
 #~ "Merk op dat een adres moet worden ingegeven met de prefix 0x zoals '0x123'"
-
 #~ msgid ""
 #~ "You may now provide options to module %s.\n"
 #~ "Options are in format ``name=value name2=value2 ...''.\n"
@@ -5149,13 +4328,10 @@ msgstr "Test uw muis alstublieft:"
 #~ "U mag nu de opties voor module %s ingeven.\n"
 #~ "Opties staan in het formaat ``naam=waarde naam2=waarde2 ...''.\n"
 #~ "Bijvoorbeeld, ``io=0x300 irq=7''"
-
 #~ msgid "Module options:"
 #~ msgstr "Module-opties:"
-
 #~ msgid "Which %s driver should I try?"
 #~ msgstr "Welk %s-stuurprogramma te proberen?"
-
 #~ msgid ""
 #~ "In some cases, the %s driver needs to have extra information to work\n"
 #~ "properly, although it normally works fine without them. Would you like to "
@@ -5171,26 +4347,20 @@ msgstr "Test uw muis alstublieft:"
 #~ "informatie\n"
 #~ "zelf zoeken? Soms zal de automatische detectie de computer laten hangen,\n"
 #~ "maar het zou geen schade mogen veroorzaken."
-
 #~ msgid "Autoprobe"
 #~ msgstr "Automatisch bespeuren"
-
 #~ msgid "Specify options"
 #~ msgstr "Opties specificeren"
-
 #~ msgid ""
 #~ "Loading module %s failed.\n"
 #~ "Do you want to try again with other parameters?"
 #~ msgstr ""
 #~ "Het laden van module %s is niet gelukt.\n"
 #~ "Wenst u opnieuw te proberen met andere parameters?"
-
 #~ msgid "mount failed: "
 #~ msgstr "koppelen mislukt: "
-
 #~ msgid "Extended partition not supported on this platform"
 #~ msgstr "Extended partitie niet ondersteund op dit platform"
-
 #~ msgid ""
 #~ "You have a hole in your partition table but I can not use it.\n"
 #~ "The only solution is to move your primary partitions to have the hole "
@@ -5199,19 +4369,14 @@ msgstr "Test uw muis alstublieft:"
 #~ "Er zit een gat in uw partitietabel, maar ik kan het niet gebruiken.\n"
 #~ "De enige oplossing is om uw primaire partitie te verplaatsen zodat het "
 #~ "gat naast de extended partitie komt te liggen"
-
 #~ msgid "Error reading file %s"
 #~ msgstr "Fout bij het lezen van bestand %s"
-
 #~ msgid "Restoring from file %s failed: %s"
 #~ msgstr "Het herstellen van bestand %s is niet gelukt: %s"
-
 #~ msgid "Bad backup file"
 #~ msgstr "Slechte reservekopie"
-
 #~ msgid "Error writing to file %s"
 #~ msgstr "Fout bij het schrijven naar bestand %s"
-
 #~ msgid ""
 #~ "Something bad is happening on your drive. \n"
 #~ "A test to check the integrity of data has failed. \n"
@@ -5222,48 +4387,34 @@ msgstr "Test uw muis alstublieft:"
 #~ "Een test om de integriteit van de gegevens de testen is mislukt.Dat "
 #~ "betekent dat schrijven naar de schijf uiteindelijk\n"
 #~ "tot willekeurige, beschadigde gegevens leidt."
-
 #~ msgid "Can not add a partition to _formatted_ RAID %s"
 #~ msgstr "Kan geen partitie toevoegen aan een _geformatteerde_ RAID %s"
-
 #~ msgid "Not enough partitions for RAID level %d\n"
 #~ msgstr "Niet genoeg partities voor RAID-niveau %d\n"
-
 #~ msgid "Could not create directory /usr/share/sane/firmware!"
 #~ msgstr "Kan map /usr/share/sane/firmware niet aanmaken!"
-
 #~ msgid "Could not create link /usr/share/sane/%s!"
 #~ msgstr "Kan verwijzing /usr/share/sane/%s niet aanmaken!"
-
 #~ msgid "Could not copy firmware file %s to /usr/share/sane/firmware!"
 #~ msgstr "Kan firmwarebestand %s niet kopiëren naar /usr/share/sane/firmware!"
-
 #~ msgid "Could not set permissions of firmware file %s!"
 #~ msgstr "Kan de rechten van firmwarebestand %s niet instellen!"
-
 #~ msgid "Scannerdrake"
 #~ msgstr "Scannerdrake"
-
 #~ msgid "Could not install the packages needed to share your scanner(s)."
 #~ msgstr "Kan de benodigde pakketten om scanner(s) te delen niet installeren."
-
 #~ msgid "Your scanner(s) will not be available for non-root users."
 #~ msgstr ""
 #~ "Uw scanner(s) zullen niet beschikbaar zijn voor gebruikers die geen root "
 #~ "zijn."
-
 #~ msgid "Accept/Refuse bogus IPv4 error messages."
 #~ msgstr "IPv4-onzinfoutmeldingen accepteren/weigeren."
-
 #~ msgid "Accept/Refuse broadcasted icmp echo."
 #~ msgstr "Uitgezonden icmp-echo accepteren/weigeren."
-
 #~ msgid "Accept/Refuse icmp echo."
 #~ msgstr "icmp-echo accepteren/weigeren."
-
 #~ msgid "Allow/Forbid autologin."
 #~ msgstr "Automatisch aanmelden toestaan/verbieden."
-
 #~ msgid ""
 #~ "If set to \"ALL\", /etc/issue and /etc/issue.net are allowed to exist.\n"
 #~ "\n"
@@ -5275,23 +4426,18 @@ msgstr "Test uw muis alstublieft:"
 #~ "toestaan. Als ingesteld op \"NONE\" dan zijn geen 'issues' toegestaan.\n"
 #~ "\n"
 #~ "Anders is alleen /etc/issue toegestaan."
-
 #~ msgid "Allow/Forbid reboot by the console user."
 #~ msgstr "Herstarten door de console-gebruiker toestaan/verbieden"
-
 #~ msgid "Allow/Forbid remote root login."
 #~ msgstr "Op afstand aanmelden van root toestaan/verbieden."
-
 #~ msgid "Allow/Forbid direct root login."
 #~ msgstr "Directe aanmelding van root toestaan/verbieden."
-
 #~ msgid ""
 #~ "Allow/Forbid the list of users on the system on display managers (kdm and "
 #~ "gdm)."
 #~ msgstr ""
 #~ "De systeemgebruikerslijst toestaan/verbieden op displaybeheer (kdm en "
 #~ "gdm)."
-
 #~ msgid ""
 #~ "Allow/forbid to export display when\n"
 #~ "passing from the root account to the other users.\n"
@@ -5303,7 +4449,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "naar andere gebruikers.\n"
 #~ "\n"
 #~ "Zie de man-pagina van pam_xauth(8) voor meer details.'"
-
 #~ msgid ""
 #~ "Allow/Forbid X connections:\n"
 #~ "\n"
@@ -5320,14 +4465,12 @@ msgstr "Test uw muis alstublieft:"
 #~ "- LOCAL (alleen lokale verbinding toestaan),\n"
 #~ "\n"
 #~ "- NONE (geen.verbinding)."
-
 #~ msgid ""
 #~ "The argument specifies if clients are authorized to connect\n"
 #~ "to the X server from the network on the tcp port 6000 or not."
 #~ msgstr ""
 #~ "Het argument geeft aan of het clients is toegestaan te verbinden\n"
 #~ "vanaf het netwerk met de X-server op de tcp-poort 6000 of niet."
-
 #~ msgid ""
 #~ "Authorize:\n"
 #~ "\n"
@@ -5352,7 +4495,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "Om de diensten die u nodig heeft goed te keuren, gebruikt u\n"
 #~ "/etc/hosts.allow (zie de man-pagina van hosts.allow(5))."
-
 #~ msgid ""
 #~ "If SERVER_LEVEL (or SECURE_LEVEL if absent)\n"
 #~ "is greater than 3 in /etc/security/msec/security.conf, creates the\n"
@@ -5372,7 +4514,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "of een dienst wordt toegevoegd als het aanwezig is in het bestand "
 #~ "gedurende\n"
 #~ "de installatie van pakketten."
-
 #~ msgid ""
 #~ "Enable/Disable crontab and at for users.\n"
 #~ "\n"
@@ -5383,83 +4524,64 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "Zet toegestane gebruikers in /etc/cron.allow en /etc/at.allow\n"
 #~ "(zie man at(1) en crontab(1))."
-
 #~ msgid "Enable/Disable syslog reports to console 12"
 #~ msgstr "Systeemlogboekrapportage naar console 12 in-/uitschakelen"
-
 #~ msgid ""
 #~ "Enable/Disable name resolution spoofing protection.  If\n"
 #~ "\"%s\" is true, also reports to syslog."
 #~ msgstr ""
 #~ "Bescherming tegen naamopzoek-misleiding in-/uitschakelenAls \"%s\" waar "
 #~ "is, ook naar syslogboek rapporteren."
-
 #~ msgid "Security Alerts:"
 #~ msgstr "Beveiligingswaarschuwingen:"
-
 #~ msgid "Enable/Disable IP spoofing protection."
 #~ msgstr "Bescherming tegen nep-IP's in-/uitschakelen."
-
 #~ msgid "Enable/Disable libsafe if libsafe is found on the system."
 #~ msgstr "libsafe in-/uitschakelen als libsafe op het systeem is gevonden."
-
 #~ msgid "Enable/Disable the logging of IPv4 strange packets."
 #~ msgstr "In logboek bijhouden van vreemde IPv4-pakketten."
-
 #~ msgid "Enable/Disable msec hourly security check."
 #~ msgstr "Om het uur-msec beveilingscontrole in-/uitschakelen."
-
 #~ msgid ""
 #~ "Enable su only from members of the wheel group. If set to no, allows su "
 #~ "from any user."
 #~ msgstr ""
 #~ "su slechts inschakelen voor leden van de wheel-groep. Als dit op nee "
 #~ "staat, dan is su toegestaan voor elke gebruiker."
-
 #~ msgid "Use password to authenticate users."
 #~ msgstr "Wachtwoord gebruiken voor aanmeldcontrole van gebruikers."
-
 #~ msgid "Activate/Disable ethernet cards promiscuity check."
 #~ msgstr "Controle op ethernetkaart-afluistermodus in-/uitschakelen."
-
 #~ msgid "Activate/Disable daily security check."
 #~ msgstr "Dagelijkse beveiligingscontrole (de-)activeren."
-
 #~ msgid "Enable/Disable sulogin(8) in single user level."
 #~ msgstr "sulogin(8) in-/uitschakelen op \"single user\"-niveau."
-
 #~ msgid ""
 #~ "Add the name as an exception to the handling of password aging by msec."
 #~ msgstr ""
 #~ "Naam toevoegen als uitzondering op afhandeling wachtwoordveroudering van "
 #~ "msec."
-
 #~ msgid ""
 #~ "Set password aging to \"max\" days and delay to change to \"inactive\"."
 #~ msgstr ""
 #~ "Wachtwoordveroudering instellen op \"max\" dagen en tijd tot wijziging "
 #~ "op\n"
 #~ "\"inactive\"."
-
 #~ msgid "Set the password history length to prevent password reuse."
 #~ msgstr ""
 #~ "De lengte van de wachtwoordgeschiedenis instellen om wachtwoord-"
 #~ "hergebruik\n"
 #~ "te voorkomen."
-
 #~ msgid ""
 #~ "Set the password minimum length and minimum number of digit and minimum "
 #~ "number of capitalized letters."
 #~ msgstr ""
 #~ "Instellen van minimumlengte van het wachtwoord en minimum aantal cijfers "
 #~ "en hoofdletters."
-
 #~ msgid "Set the root umask."
 #~ msgstr "Het root-umask instellen."
-
 #~ msgid "if set to yes, check open ports."
 #~ msgstr "als ingesteld op ja, nagaan van open poorten. "
-
 #~ msgid ""
 #~ "if set to yes, check for:\n"
 #~ "\n"
@@ -5476,256 +4598,179 @@ msgstr "Test uw muis alstublieft:"
 #~ "- geen wachtwoord in /etc/shadow\n"
 #~ "\n"
 #~ "- gebruikers met id 0 bezijden root."
-
 #~ msgid "if set to yes, check permissions of files in the users' home."
 #~ msgstr ""
 #~ "als ingesteld op ja, permissies controleren van bestanden in persoonlijke "
 #~ "map van gebruiker."
-
 #~ msgid "if set to yes, check if the network devices are in promiscuous mode."
 #~ msgstr ""
 #~ "als ingesteld op ja, nagaan of netwerkapparaten in afluistermodus staan."
-
 #~ msgid "if set to yes, run the daily security checks."
 #~ msgstr "als ingesteld op ja, dagelijkse beveiligingscontroles uitvoeren."
-
 #~ msgid "if set to yes, check additions/removals of sgid files."
 #~ msgstr ""
 #~ "als ingesteld op ja, nagaan van toegevoegde/verwijderde sgid-bestanden"
-
 #~ msgid "if set to yes, check empty password in /etc/shadow."
 #~ msgstr "als ingesteld op ja, controleren op leeg wachtwoord in /etc/shadow."
-
 #~ msgid "if set to yes, verify checksum of the suid/sgid files."
 #~ msgstr ""
 #~ "als ingesteld op ja, controlesom verifiëren van suid/guid-bestanden."
-
 #~ msgid "if set to yes, check additions/removals of suid root files."
 #~ msgstr ""
 #~ "als ingesteld op ja, toevoegingen/verdwijningen controleren van suid root-"
 #~ "bestanden."
-
 #~ msgid "if set to yes, report unowned files."
 #~ msgstr "als ingesteld op ja, bestanden zonder eigenaar rapporteren."
-
 #~ msgid "if set to yes, check files/directories writable by everybody."
 #~ msgstr ""
 #~ "als ingesteld op ja, controleren op voor iedereen schrijfbare bestanden/"
 #~ "mappen"
-
 #~ msgid "if set to yes, run chkrootkit checks."
 #~ msgstr "als ingesteld op ja, chkrootkit-controles uitvoeren."
-
 #~ msgid ""
 #~ "if set, send the mail report to this email address else send it to root."
 #~ msgstr ""
 #~ "als ingesteld, de e-mailrapportage naar dit adres sturen, anders naar "
 #~ "root."
-
 #~ msgid "if set to yes, report check result by mail."
 #~ msgstr "als op ja ingesteld, controleresultaat rapporteren over e-mail."
-
 #~ msgid "Do not send mails if there's nothing to warn about"
 #~ msgstr "Geen e-mail versturen als er niets te waarschuwen valt"
-
 #~ msgid "if set to yes, run some checks against the rpm database."
 #~ msgstr "als ingesteld op ja, enkele controles op de rpm-database uitvoeren."
-
 #~ msgid "if set to yes, report check result to syslog."
 #~ msgstr "als ingesteld op ja, controleresultaat rapporteren naar syslogboek."
-
 #~ msgid "if set to yes, reports check result to tty."
 #~ msgstr "als ingesteld op ja, dan gaan de rapportages naar tty."
-
 #~ msgid "Set shell commands history size. A value of -1 means unlimited."
 #~ msgstr ""
 #~ "Grootte van opdrachtgeheugen van shell instellen. Een waarde van -1\n"
 #~ "betekent ongelimiteerd."
-
 #~ msgid "Set the shell timeout. A value of zero means no timeout."
 #~ msgstr ""
 #~ "De shell-wachttijd instellen. Een waarde van nul betekent geen wachttijd."
-
 #~ msgid "Timeout unit is second"
 #~ msgstr "Timeout-eenheid is seconde"
-
 #~ msgid "Set the user umask."
 #~ msgstr "Het gebruikers-umask instellen."
-
 #~ msgid "Accept bogus IPv4 error messages"
 #~ msgstr "IPv4-onzinfoutmeldingen accepteren"
-
 #~ msgid "Accept broadcasted icmp echo"
 #~ msgstr "Uitgezonden icmp-echo accepteren"
-
 #~ msgid "Accept icmp echo"
 #~ msgstr "icmp-echo accepteren"
-
 #~ msgid "/etc/issue* exist"
 #~ msgstr "/etc/issue* bestaat"
-
 #~ msgid "Reboot by the console user"
 #~ msgstr "Herstarten door de console-gebruiker"
-
 #~ msgid "Allow remote root login"
 #~ msgstr "Op afstand aanmelden van root toestaan"
-
 #~ msgid "Direct root login"
 #~ msgstr "Direct aanmelden als root"
-
 #~ msgid "List users on display managers (kdm and gdm)"
 #~ msgstr "Gebruikers opsommen op displaybeheer (kdm en gdm)."
-
 #~ msgid "Export display when passing from root to the other users"
 #~ msgstr ""
 #~ "Display exporteren wanneer van root overgegaan wordt naar andere "
 #~ "gebruikers"
-
 #~ msgid "Allow X Window connections"
 #~ msgstr "X Window-verbindingen toestaan"
-
 #~ msgid "Authorize TCP connections to X Window"
 #~ msgstr "TCP-verbindingen naar X goedkeuren"
-
 #~ msgid "Authorize all services controlled by tcp_wrappers"
 #~ msgstr "Alle diensten onder controle van tcp_wrappers goedkeuren"
-
 #~ msgid "Chkconfig obey msec rules"
 #~ msgstr "Chkconfig gehoorzaamt aan msec-regels"
-
 #~ msgid "Enable \"crontab\" and \"at\" for users"
 #~ msgstr "\"crontab\" en \"at\" voor gebruikers inschakelen"
-
 #~ msgid "Syslog reports to console 12"
 #~ msgstr "Systeemlogboekrapportage naar console 12"
-
 #~ msgid "Name resolution spoofing protection"
 #~ msgstr "Bescherming tegen nep-name resolution"
-
 #~ msgid "Enable IP spoofing protection"
 #~ msgstr "Bescherming tegen nep-IP's"
-
 #~ msgid "Enable libsafe if libsafe is found on the system"
 #~ msgstr "libsafe inschakelen als libsafe op het systeem is gevonden."
-
 #~ msgid "Enable the logging of IPv4 strange packets"
 #~ msgstr "In logboek bijhouden van vreemde IPv4-pakketten"
-
 #~ msgid "Enable msec hourly security check"
 #~ msgstr "Om het uur-msec beveilingscontrole in-/uitschakelen"
-
 #~ msgid "Enable su only from the wheel group members"
 #~ msgstr "su slechts inschakelen voor leden van de wheel-groep."
-
 #~ msgid "Use password to authenticate users"
 #~ msgstr "Wachtwoord gebruiken voor aanmeld controle van gebruikers"
-
 #~ msgid "Ethernet cards promiscuity check"
 #~ msgstr "Controle op ethernetkaart-afluistermodus"
-
 #~ msgid "Daily security check"
 #~ msgstr "Dagelijkse beveiligingscontrole"
-
 #~ msgid "Sulogin(8) in single user level"
 #~ msgstr "sulogin(8) in-/uitschakelen op \"single user\"-niveau."
-
 #~ msgid "No password aging for"
 #~ msgstr "Geen wachtwoordverloop voor"
-
 #~ msgid "Set password expiration and account inactivation delays"
 #~ msgstr "Wachtwoordverloop en account-deactivatieperiodes"
-
 #~ msgid "Password history length"
 #~ msgstr "Lengte van wachtwoordgeschiedenis"
-
 #~ msgid "Password minimum length and number of digits and upcase letters"
 #~ msgstr "Minimumlengte van wachtwoord en aantal cijfers en hoofdletters"
-
 #~ msgid "Root umask"
 #~ msgstr "Root-umask"
-
 #~ msgid "Shell history size"
 #~ msgstr "Grootte van shell-geschiedenis"
-
 #~ msgid "Shell timeout"
 #~ msgstr "Shell-wachttijd"
-
 #~ msgid "User umask"
 #~ msgstr "Gebruiker-umask"
-
 #~ msgid "Check open ports"
 #~ msgstr "Open poorten controleren"
-
 #~ msgid "Check for unsecured accounts"
 #~ msgstr "Controleren op onbeveiligde accounts"
-
 #~ msgid "Check permissions of files in the users' home"
 #~ msgstr ""
 #~ "Rechten controleren van bestanden in persoonlijke map van gebruiker."
-
 #~ msgid "Check if the network devices are in promiscuous mode"
 #~ msgstr "Nagaan of netwerkapparaten in afluistermodus staan"
-
 #~ msgid "Run the daily security checks"
 #~ msgstr "Dagelijkse beveiligingscontroles uitvoeren."
-
 #~ msgid "Check additions/removals of sgid files"
 #~ msgstr "Nagaan van toegevoegde/verwijderde sgid-bestanden"
-
 #~ msgid "Check empty password in /etc/shadow"
 #~ msgstr "Controleren op leeg wachtwoord in /etc/shadow"
-
 #~ msgid "Verify checksum of the suid/sgid files"
 #~ msgstr "Controlesom verifiëren van suid/guid-bestanden."
-
 #~ msgid "Check additions/removals of suid root files"
 #~ msgstr "Toevoegingen/verdwijningen controleren van suid root-bestanden."
-
 #~ msgid "Report unowned files"
 #~ msgstr "Bestanden zonder eigenaar rapporteren"
-
 #~ msgid "Check files/directories writable by everybody"
 #~ msgstr "Controleren op voor iedereen schrijfbare bestanden/mappen"
-
 #~ msgid "Run chkrootkit checks"
 #~ msgstr "chkrootkit-controles uitvoeren"
-
 #~ msgid "Do not send empty mail reports"
 #~ msgstr "Geen lege e-mailrapporten sturen"
-
 #~ msgid ""
 #~ "If set, send the mail report to this email address else send it to root"
 #~ msgstr ""
 #~ "Als ingesteld, de e-mailrapportage naar dit e-mailadres sturen, anders "
 #~ "naar root."
-
 #~ msgid "Report check result by mail"
 #~ msgstr "Controleresultaat rapporteren over e-mail."
-
 #~ msgid "Run some checks against the rpm database"
 #~ msgstr "Enkele controles op de rpm-database uitvoeren."
-
 #~ msgid "Report check result to syslog"
 #~ msgstr "Controleresultaat rapporteren naar syslogboek"
-
 #~ msgid "Reports check result to tty"
 #~ msgstr "Controlerapportages naar tty sturen"
-
 #~ msgid "Welcome To Crackers"
 #~ msgstr "Krakers zijn welkom"
-
 #~ msgid "Poor"
 #~ msgstr "Matig"
-
 #~ msgid "High"
 #~ msgstr "Hoog"
-
 #~ msgid "Higher"
 #~ msgstr "Hoger"
-
 #~ msgid "Paranoid"
 #~ msgstr "Paranoïde"
-
 #~ msgid ""
 #~ "This level is to be used with care. It makes your system more easy to "
 #~ "use,\n"
@@ -5739,27 +4784,23 @@ msgstr "Test uw muis alstublieft:"
 #~ "indien de\n"
 #~ "machine met andere computers of het internet verbonden is. Er worden\n"
 #~ "geen wachtwoorden gebruikt."
-
 #~ msgid ""
 #~ "Passwords are now enabled, but use as a networked computer is still not "
 #~ "recommended."
 #~ msgstr ""
 #~ "Wachtwoorden zijn nu ingeschakeld, maar het gebruik als netwerk computer "
 #~ "is nog steeds niet aanbevolen."
-
 #~ msgid ""
 #~ "This is the standard security recommended for a computer that will be "
 #~ "used to connect to the Internet as a client."
 #~ msgstr ""
 #~ "Dit is de standaardbeveiliging, aangeraden voor een computer die als "
 #~ "cliënt met het Internet verbonden zal worden."
-
 #~ msgid ""
 #~ "There are already some restrictions, and more automatic checks are run "
 #~ "every night."
 #~ msgstr ""
 #~ "Er zijn al enkele restricties en meer automatische nachtelijke controles."
-
 #~ msgid ""
 #~ "With this security level, the use of this system as a server becomes "
 #~ "possible.\n"
@@ -5775,7 +4816,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "verbindingen van vele clients accepteert. Merk op: als uw computer alleen "
 #~ "een\n"
 #~ "client op het Internet is, dan kunt u beter een lager niveau kiezen."
-
 #~ msgid ""
 #~ "This is similar to the previous level, but the system is entirely closed "
 #~ "and security features are at their maximum."
@@ -5783,37 +4823,27 @@ msgstr "Test uw muis alstublieft:"
 #~ "Gebaseerd op het lagere niveau, maar nu is het systeem volledig "
 #~ "afgesloten.\n"
 #~ "Beveiligingsfuncties staan op hun maximumwaarde."
-
 #~ msgid "Security"
 #~ msgstr "Beveiliging"
-
 #~ msgid "DrakSec Basic Options"
 #~ msgstr "DrakSec basisopties"
-
 #~ msgid "Please choose the desired security level"
 #~ msgstr "Kies het gewenste veiligheidsniveau"
-
 #~ msgid "Security level"
 #~ msgstr "Veiligheidsniveau"
-
 #~ msgid "Use libsafe for servers"
 #~ msgstr "Gebruik libsafe voor servers"
-
 #~ msgid ""
 #~ "A library which defends against buffer overflow and format string attacks."
 #~ msgstr ""
 #~ "Een bibliotheek welke bescherming biedt tegen \"buffer-overflow\"- en "
 #~ "\"format string\"-aanvallen."
-
 #~ msgid "Security Administrator (login or email)"
 #~ msgstr "Beveiligings-beheerder (gebruikersnaam of e-mail)"
-
 #~ msgid "Launch the ALSA (Advanced Linux Sound Architecture) sound system"
 #~ msgstr "Start het ALSA (Advanced Linux Sound Architecture) geluidssysteem"
-
 #~ msgid "Anacron is a periodic command scheduler."
 #~ msgstr "Anacron, een periodieke opdracht-planner."
-
 #~ msgid ""
 #~ "apmd is used for monitoring battery status and logging it via syslog.\n"
 #~ "It can also be used for shutting down the machine when the battery is low."
@@ -5822,7 +4852,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "te bij te houden via het systeemlogboek.\n"
 #~ "Het kan ook gebruikt worden om de machine uit te schakelen als het\n"
 #~ "spanningsniveau van de batterij laag is."
-
 #~ msgid ""
 #~ "Runs commands scheduled by the at command at the time specified when\n"
 #~ "at was run, and runs batch commands when the load average is low enough."
@@ -5832,7 +4861,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "werd opgegeven toen at werd aangeroepen, en draait batch-"
 #~ "opdrachtenwanneer\n"
 #~ "de computer slechts licht belast wordt."
-
 #~ msgid ""
 #~ "cron is a standard UNIX program that runs user-specified programs\n"
 #~ "at periodic scheduled times. vixie cron adds a number of features to the "
@@ -5845,7 +4873,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "op periodiek geplande tijden. vixie cron voegt een aantal extra's toe aan "
 #~ "de basis UNIX-cron,\n"
 #~ "waaronder betere veiligheid en krachtiger in te stellen opties."
-
 #~ msgid ""
 #~ "FAM is a file monitoring daemon. It is used to get reports when files "
 #~ "change.\n"
@@ -5854,7 +4881,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "FAM is een voorziening die bestanden observeert. Het is bruikbaar om\n"
 #~ "meldingen te krijgen wanneer bestanden veranderen.\n"
 #~ "Het wordt door GNOME en KDE gebruikt"
-
 #~ msgid ""
 #~ "GPM adds mouse support to text-based Linux applications such the\n"
 #~ "Midnight Commander. It also allows mouse-based console cut-and-paste "
@@ -5866,20 +4892,17 @@ msgstr "Test uw muis alstublieft:"
 #~ "Midnight Commander. Het laat ook mouse-based console knippen-en-plakken "
 #~ "toe,\n"
 #~ "en biedt ook ondersteuning voor pop-up menu's op de console."
-
 #~ msgid ""
 #~ "HardDrake runs a hardware probe, and optionally configures\n"
 #~ "new/changed hardware."
 #~ msgstr ""
 #~ "HardDrake draait als een hardware-sonde, en eventueel \n"
 #~ "configureert het nieuwe of veranderde hardware."
-
 #~ msgid ""
 #~ "Apache is a World Wide Web server. It is used to serve HTML files and CGI."
 #~ msgstr ""
 #~ "Apache is een World Wide Web-server. Het wordt gebruikt om HTML-bestanden "
 #~ "en CGI aan te bieden."
-
 #~ msgid ""
 #~ "The internet superserver daemon (commonly called inetd) starts a\n"
 #~ "variety of other internet services as needed. It is responsible for "
@@ -5893,7 +4916,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "vele diensten, waaronder telnet, ftp, rsh en rlogin. Als u inetd "
 #~ "uitschakelt,\n"
 #~ "schakelt u alle diensten uit waar de daemon verantwoordelijk voor is."
-
 #~ msgid ""
 #~ "Launch packet filtering for Linux kernel 2.2 series, to set\n"
 #~ "up a firewall to protect your machine from network attacks."
@@ -5901,7 +4923,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Pakket-filtering inschakelen voor Linux kernel 2.2-serie, om \n"
 #~ "een firewall op te zetten die uw machine beschermt tegen \n"
 #~ "aanvallen vanuit het netwerk."
-
 #~ msgid ""
 #~ "This package loads the selected keyboard map as set in\n"
 #~ "/etc/sysconfig/keyboard.  This can be selected using the kbdconfig "
@@ -5912,17 +4933,14 @@ msgstr "Test uw muis alstublieft:"
 #~ "/etc/sysconfig/keyboard. Dit kan geselecteerd worden via de kbdconfig "
 #~ "utility.\n"
 #~ "U kunt dit het best aan laten voor de meeste machines."
-
 #~ msgid ""
 #~ "Automatic regeneration of kernel header in /boot for\n"
 #~ "/usr/include/linux/{autoconf,version}.h"
 #~ msgstr ""
 #~ "Automatisch opnieuw aanmaken van kernel header in \n"
 #~ "/boot voor /usr/include/linux/{autoconf,version}.h"
-
 #~ msgid "Automatic detection and configuration of hardware at boot."
 #~ msgstr "Automatisch vinden en instellen van hardware bij het opstarten"
-
 #~ msgid ""
 #~ "Linuxconf will sometimes arrange to perform various tasks\n"
 #~ "at boot-time to maintain the system configuration."
@@ -5930,7 +4948,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Linuxconf zal op sommige momenten regelen dat diverse \n"
 #~ "taken worden uitgevoerd bij het opstarten, om de systeem-\n"
 #~ "configuratie te behouden."
-
 #~ msgid ""
 #~ "lpd is the print daemon required for lpr to work properly. It is\n"
 #~ "basically a server that arbitrates print jobs to printer(s)."
@@ -5938,35 +4955,30 @@ msgstr "Test uw muis alstublieft:"
 #~ "lpd is de afdrukvoorziening, die nodig is om de lpr-opdracht goed te "
 #~ "laten\n"
 #~ "werken. Het is een server die afdruktaken naar printers stuurt en regelt."
-
 #~ msgid ""
 #~ "Linux Virtual Server, used to build a high-performance and highly\n"
 #~ "available server."
 #~ msgstr ""
 #~ "Linux Virtual Server, gebruikt om een hoge-prestatie en hoge-\n"
 #~ "beschikbaarheid server te bouwen."
-
 #~ msgid ""
 #~ "named (BIND) is a Domain Name Server (DNS) that is used to resolve host "
 #~ "names to IP addresses."
 #~ msgstr ""
 #~ "named (BIND) is een Domain Name Server (DNS) die wordt gebruikt om "
 #~ "computernamen naar IP-adressen om te zetten."
-
 #~ msgid ""
 #~ "Mounts and unmounts all Network File System (NFS), SMB (Lan\n"
 #~ "Manager/Windows), and NCP (NetWare) mount points."
 #~ msgstr ""
 #~ "(Ont)koppelt alle Network File System (NFS), SMB (Lan Manager/Windows)\n"
 #~ "en NCP (NetWare) koppelpunten."
-
 #~ msgid ""
 #~ "Activates/Deactivates all network interfaces configured to start\n"
 #~ "at boot time."
 #~ msgstr ""
 #~ "Activeert/Deactiveert alle netwerk-interfaces die geconfigureerd zijn\n"
 #~ "om bij het opstarten ingeschakeld te worden."
-
 #~ msgid ""
 #~ "NFS is a popular protocol for file sharing across TCP/IP networks.\n"
 #~ "This service provides NFS server functionality, which is configured via "
@@ -5977,24 +4989,20 @@ msgstr "Test uw muis alstublieft:"
 #~ "Deze dienst geeft u NFS-serverfunctionaliteit, die dan wordt geregeld via "
 #~ "het\n"
 #~ "bestand /etc/exports."
-
 #~ msgid ""
 #~ "NFS is a popular protocol for file sharing across TCP/IP\n"
 #~ "networks. This service provides NFS file locking functionality."
 #~ msgstr ""
 #~ "NFS is een populair protocol voor bestandsdeling over TCP/IP-netwerken.\n"
 #~ "Deze dienst geeft u NFS-bestands'locking'-functionaliteit."
-
 #~ msgid ""
 #~ "Automatically switch on numlock key locker under console\n"
 #~ "and Xorg at boot."
 #~ msgstr ""
 #~ "Automatisch aanzetten van de numlock-toets onder \n"
 #~ "terminalvensters en Xorg bij het opstarten."
-
 #~ msgid "Support the OKI 4w and compatible winprinters."
 #~ msgstr "Ondersteun de OKI 4w en compatibele winprinters"
-
 #~ msgid ""
 #~ "PCMCIA support is usually to support things like ethernet and\n"
 #~ "modems in laptops.  It will not get started unless configured so it is "
@@ -6007,7 +5015,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "het is\n"
 #~ "veilig om het geïnstalleerd te hebben op machines die het niet nodig "
 #~ "hebben."
-
 #~ msgid ""
 #~ "The portmapper manages RPC connections, which are used by\n"
 #~ "protocols such as NFS and NIS. The portmap server must be running on "
@@ -6019,21 +5026,18 @@ msgstr "Test uw muis alstublieft:"
 #~ "zoals NFS en NIS. De portmap-server moet draaien op machines die "
 #~ "fungeren\n"
 #~ "als servers voor protocols die het RPC-mechanisme gebruiken."
-
 #~ msgid ""
 #~ "Postfix is a Mail Transport Agent, which is the program that moves mail "
 #~ "from one machine to another."
 #~ msgstr ""
 #~ "Postfix is een Mail Transport Agent, een programma dat post verplaatst "
 #~ "van de ene machine naar de andere."
-
 #~ msgid ""
 #~ "Saves and restores system entropy pool for higher quality random\n"
 #~ "number generation."
 #~ msgstr ""
 #~ "Bewaart en herstelt de systeem-entropie pool voor betere generatie\n"
 #~ "van willekeurige cijfers."
-
 #~ msgid ""
 #~ "Assign raw devices to block devices (such as hard drive\n"
 #~ "partitions), for the use of applications such as Oracle or DVD players"
@@ -6041,7 +5045,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Blok-georiënteerde apparaten (zoals partities op een harde schijf)\n"
 #~ "direct aanspreken voor het gebruik van toepassingen als Oracle of DVD-"
 #~ "spelers"
-
 #~ msgid ""
 #~ "The routed daemon allows for automatic IP router table updated via\n"
 #~ "the RIP protocol. While RIP is widely used on small networks, more "
@@ -6053,14 +5056,12 @@ msgstr "Test uw muis alstublieft:"
 #~ "protocol. RIP is vooral gebruikt op kleine netwerken, complexere "
 #~ "routing-\n"
 #~ "protocols zijn nodig voor complexere netwerken."
-
 #~ msgid ""
 #~ "The rstat protocol allows users on a network to retrieve\n"
 #~ "performance metrics for any machine on that network."
 #~ msgstr ""
 #~ "Het rstat-protocol laat gebruikers op een netwerk de prestatie-cijfers\n"
 #~ "voor elke machine op dat netwerk op te vragen."
-
 #~ msgid ""
 #~ "The rusers protocol allows users on a network to identify who is\n"
 #~ "logged in on other responding machines."
@@ -6068,7 +5069,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Het rusers-protocol laat gebruikers op een netwerk toe om de kijken wie "
 #~ "er\n"
 #~ "ingelogd is op de andere machines op dat netwerk."
-
 #~ msgid ""
 #~ "The rwho protocol lets remote users get a list of all of the users\n"
 #~ "logged into a machine running the rwho daemon (similar to finger)."
@@ -6076,10 +5076,8 @@ msgstr "Test uw muis alstublieft:"
 #~ "Het rwho-protocol laat gebruikers op afstand een lijst opvragen van alle\n"
 #~ "gebruikers die op een machine ingelogd zijn die de rwho daemon draait.\n"
 #~ "(vergelijkbaar met finger)."
-
 #~ msgid "Launch the sound system on your machine"
 #~ msgstr "Schakel het geluidssysteem van uw machine in"
-
 #~ msgid ""
 #~ "Syslog is the facility by which many daemons use to log messages\n"
 #~ "to various system log files.  It is a good idea to always run syslog."
@@ -6088,75 +5086,54 @@ msgstr "Test uw muis alstublieft:"
 #~ "naar\n"
 #~ "verscheidene systeem-logbestanden. Het is een goed idee syslog altijd te "
 #~ "draaien."
-
 #~ msgid "Load the drivers for your usb devices."
 #~ msgstr "Laad de stuurprogramma's voor uw USB-apparaten"
-
 #~ msgid "Starts the X Font Server (this is mandatory for Xorg to run)."
 #~ msgstr ""
 #~ "Start de X Font Server (deze is noodzakelijk voor het draaien\n"
 #~ "van Xorg)."
-
 #~ msgid "Printing"
 #~ msgstr "Afdrukken"
-
 #~ msgid "Internet"
 #~ msgstr "Internet"
-
 #~ msgid "File sharing"
 #~ msgstr "Bestanden delen"
-
 #~ msgid "System"
 #~ msgstr "Systeem"
-
 #~ msgid "Remote Administration"
 #~ msgstr "Beheer op afstand"
-
 #~ msgid "Database Server"
 #~ msgstr "Database-server"
-
 #~ msgid "Services"
 #~ msgstr "Diensten"
-
 #~ msgid "Choose which services should be automatically started at boot time"
 #~ msgstr ""
 #~ "Selecteer welke diensten automatisch gestart moeten worden bij het "
 #~ "opstarten"
-
 #~ msgid "Services: %d activated for %d registered"
 #~ msgstr "Diensten: %d geactiveerd van %d geregistreerd"
-
 #~ msgid "running"
 #~ msgstr "actief"
-
 #~ msgid "stopped"
 #~ msgstr "gestopt"
-
 #~ msgid "Services and daemons"
 #~ msgstr "Diensten en voorzieningen"
-
 #~ msgid ""
 #~ "No additional information\n"
 #~ "about this service, sorry."
 #~ msgstr ""
 #~ "Geen extra informatie over\n"
 #~ "deze dienst beschikbaar, sorry."
-
 #~ msgid "Info"
 #~ msgstr "Info"
-
 #~ msgid "Start when requested"
 #~ msgstr "Starten op aanvraag"
-
 #~ msgid "On boot"
 #~ msgstr "Bij opstarten"
-
 #~ msgid "Start"
 #~ msgstr "Start"
-
 #~ msgid "Stop"
 #~ msgstr "Stop"
-
 #~ msgid ""
 #~ "This program is free software; you can redistribute it and/or modify\n"
 #~ "it under the terms of the GNU General Public License as published by\n"
@@ -6188,7 +5165,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "Public License bij dit programma; indien dit niet het geval is,\n"
 #~ "schrijf dan een brief naar de Free Software Foundation, Inc.,\n"
 #~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.\n"
-
 #~ msgid ""
 #~ "[--config-info] [--daemon] [--debug] [--default] [--show-conf]\n"
 #~ "Backup and Restore application\n"
@@ -6214,7 +5190,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "--daemon              : daemon-configuratie gebruiken. \n"
 #~ "--help                : deze melding tonen.\n"
 #~ "--version             : versienummer tonen.\n"
-
 #~ msgid ""
 #~ "[--boot] [--splash]\n"
 #~ "OPTIONS:\n"
@@ -6227,7 +5202,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "  --boot            - de opstartlader configureren\n"
 #~ "  --splash          - het opstartthema configureren\n"
 #~ "standaardmodus: configureren van de automatische aameldingsfunctie"
-
 #~ msgid ""
 #~ "[OPTIONS] [PROGRAM_NAME]\n"
 #~ "\n"
@@ -6242,7 +5216,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "  --help            - deze hulptekst tonen.\n"
 #~ "  --report          - moet een Mandriva Linux-hulpprogramma zijn\n"
 #~ "  --incident        - moet een Mandriva Linux-hulpprogramma zijn"
-
 #~ msgid ""
 #~ "[--add]\n"
 #~ "  --add             - \"add a network interface\" wizard\n"
@@ -6257,7 +5230,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "  --skip-wizard     - verbindingen beheren\n"
 #~ "  --internet        - internet configureren\n"
 #~ "  --wizard          - als --add"
-
 #~ msgid ""
 #~ "\n"
 #~ "Font Importation and monitoring application\n"
@@ -6286,7 +5258,6 @@ msgstr "Test uw muis alstublieft:"
 #~ "                 : 1 alle beschikbare toepassingen ondersteund.\n"
 #~ "                 : naam_van_toepassing zoals so voor staroffice \n"
 #~ "                 : en gs voor ghostscript voor slechts deze."
-
 #~ msgid ""
 #~ "[OPTIONS]...\n"
 #~ "Mandriva Linux Terminal Server Configurator\n"
@@ -6317,14 +5288,11 @@ msgstr "Test uw muis alstublieft:"
 #~ "imagenaam vereist)\n"
 #~ "--delclient      : client-computer verwijderen uit MTS (MAC-adres, IP, "
 #~ "nbi imagenaam vereist)"
-
 #~ msgid "[keyboard]"
 #~ msgstr "[toetsenbord]"
-
 #~ msgid "[--file=myfile] [--word=myword] [--explain=regexp] [--alert]"
 #~ msgstr ""
 #~ "[--file=mijnbestand] [--word=mijnwoord] [--explain=regexp] [--alert]"
-
 #~ msgid ""
 #~ "[OPTIONS]\n"
 #~ "Network & Internet connection and monitoring application\n"
@@ -6345,10 +5313,8 @@ msgstr "Test uw muis alstublieft:"
 #~ "--force : met (dis)connect: verbinden/verbreken forceren.\n"
 #~ "--status : geeft 1 als verbonden, anders 0 en sluit af\n"
 #~ "--quiet : niet interactief. Te gebruiken met (dis)connect."
-
 #~ msgid " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
 #~ msgstr " [--skiptest] [--cups] [--lprng] [--lpd] [--pdq]"
-
 #~ msgid ""
 #~ "[OPTION]...\n"
 #~ "  --no-confirmation      do not ask first confirmation question in "
@@ -6366,14 +5332,12 @@ msgstr "Test uw muis alstublieft:"
 #~ "weergeven in omschrijvingsvenster\n"
 #~ "  --merge-all-rpmnew     voorstellen om alle gevonden .rpmnew/.rpmsave "
 #~ "bestanden samen te voegen"
-
 #~ msgid ""
 #~ "[--manual] [--device=dev] [--update-sane=sane_source_dir] [--update-"
 #~ "usbtable] [--dynamic=dev]"
 #~ msgstr ""
 #~ "[--manual] [--device=app] [--update-sane=sane_bron_map] [--update-"
 #~ "usbtable] [--dynamic=app]"
-
 #~ msgid ""
 #~ " [everything]\n"
 #~ "       XFdrake [--noauto] monitor\n"
@@ -6382,7 +5346,6 @@ msgstr "Test uw muis alstublieft:"
 #~ " [alles]\n"
 #~ "       XFdrake [--noauto] monitor\n"
 #~ "       XFdrake resolutie"
-
 #~ msgid ""
 #~ "\n"
 #~ "Usage: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
@@ -6391,73 +5354,52 @@ msgstr "Test uw muis alstublieft:"
 #~ "\n"
 #~ "Gebruik: %s  [--auto] [--beginner] [--expert] [-h|--help] [--noauto] [--"
 #~ "testing] [-v|--version] "
-
 #~ msgid "All servers"
 #~ msgstr "Alle servers"
-
 #~ msgid "Global"
 #~ msgstr "Wereldwijd"
-
 #~ msgid "Africa"
 #~ msgstr "Afrika"
-
 #~ msgid "Asia"
 #~ msgstr "Azië"
-
 #~ msgid "Europe"
 #~ msgstr "Europa"
-
 #~ msgid "North America"
 #~ msgstr "Noord Amerika"
-
 #~ msgid "Oceania"
 #~ msgstr "Oceanië"
-
 #~ msgid "South America"
 #~ msgstr "Zuid-Amerika"
-
 #~ msgid "Hong Kong"
 #~ msgstr "Hong Kong"
-
 #~ msgid "Russian Federation"
 #~ msgstr "Rusland"
-
 #~ msgid "Yugoslavia"
 #~ msgstr "Joegoslavië"
-
 #~ msgid "Is this correct?"
 #~ msgstr "Is dit correct?"
-
 #~ msgid "No file chosen"
 #~ msgstr "Geen bestand gekozen"
-
 #~ msgid "You have chosen a file, not a directory"
 #~ msgstr "U heeft een bestand gekozen in plaats van een map"
-
 #~ msgid "You have chosen a directory, not a file"
 #~ msgstr "U heeft een map gekozen in plaats van een bestand"
-
 #~ msgid "No such directory"
 #~ msgstr "Map bestaat niet"
-
 #~ msgid "No such file"
 #~ msgstr "Bestand bestaat niet"
-
 #~ msgid "Expand Tree"
 #~ msgstr "Boom uitklappen"
-
 #~ msgid "Collapse Tree"
 #~ msgstr "Boom inklappen"
-
 #~ msgid "Toggle between flat and group sorted"
 #~ msgstr "Schakelen tussen gewoon en per-groep-gesorteerd"
-
 #~ msgid ""
 #~ "%s is not installed\n"
 #~ "Click \"Next\" to install or \"Cancel\" to quit"
 #~ msgstr ""
 #~ "%s is niet geïnstalleerd\n"
 #~ "Klik op \"Volgende\" om te installeren of \"Annuleren\" om af te sluiten"
-
 #~ msgid "Installation failed"
 #~ msgstr "Installatie mislukt"
+
