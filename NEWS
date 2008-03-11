@@ -1,3 +1,5 @@
+Version 0.50 - 11 March 2008
+
 - XFdrake:
   o if the EDID gives a valid 16/10 preferred resolution (even if duplicated),
     but no HorizSync/VertRefresh, use a generic flat panel
