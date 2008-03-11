@@ -1,3 +1,10 @@
+- keyboarddrake:
+  o default romanian keyboard is qwerty (cf #38450)
+  o "ro" really is "ro(std_cedilla)" 
+    (to be more standard on unpatched xkeyboard-config)
+  o "ro(us)" is wrong and not qwerty, use "ro(winkeys)" which is the only
+    qwertz from symbols/ro
+
 Version 0.50 - 11 March 2008
 
 - XFdrake:
