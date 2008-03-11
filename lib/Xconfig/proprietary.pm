@@ -33,6 +33,19 @@ sub install_matrox_hal {
     rm_rf("$tmpdir/$dir_in_tar");
 }
 
+sub handle_DRIVER2_NO_SSE {
+    my ($card) = @_;
+
+    $card->{DRIVER2_NO_SSE} or return;
+
+    require detect_devices;
+    if (!detect_devices::has_cpu_flag('sse')) {
+	log::l("$card->{Driver2} need a processor featuring SSE, switching back to $card->{DRIVER2_NO_SSE}");
+	$card->{Driver2} = $card->{DRIVER2_NO_SSE};
+    }
+}
+
+
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;
 
