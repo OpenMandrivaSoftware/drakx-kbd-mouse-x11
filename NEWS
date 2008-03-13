@@ -1,3 +1,5 @@
+- XFdrake:
+  o use 24bpp on savage (#38750)
 - keyboarddrake:
   o default romanian keyboard is qwerty (cf #38450)
   o "ro" really is "ro(std_cedilla)" 
