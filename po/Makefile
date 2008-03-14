@@ -34,7 +34,10 @@ clean:
 $(POTFILE): $(PL_FILES)
 	perl_checker -q --generate-pot $@ $(PL_FILES)
 
-merge: $(POTFILE)
+
+update_n_merge: $(PGOAL).pot merge
+
+merge:
 	@for n in $(POFILES); do \
 		echo "Merging $$n"; \
 		msgmerge -C "$$n" "$$n" $(PGOAL).pot > "$$n"t; \
