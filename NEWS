@@ -1,5 +1,8 @@
+Version 0.51 - 19 March 2008
+
 - XFdrake:
   o use 24bpp on savage (#38750)
+  o do use EDID HorizSync/VertRefresh on 16/10 (regression introduced in 0.50)
 - keyboarddrake:
   o default romanian keyboard is qwerty (cf #38450)
   o "ro" really is "ro(std_cedilla)" 

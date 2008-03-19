@@ -158,6 +158,8 @@ that is beyond the capabilities of your monitor: you may damage your monitor.
 sub _configure_automatic_LCD {
     my ($monitor) = @_;
 
+    $monitor->{HorizSync} && $monitor->{VertRefresh} and return;
+
     $monitor->{preferred_resolution} 
       && Xconfig::xfree::resolution2ratio($monitor->{preferred_resolution}) eq '16/10' or return;
 
