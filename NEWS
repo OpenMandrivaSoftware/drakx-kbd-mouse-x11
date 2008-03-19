@@ -1,3 +1,7 @@
+- XFdrake library:
+  o ensure set_default_background() doesn't fail (#39065)
+    (ie default to 1024x768 if 0x0 is given)
+
 Version 0.51 - 19 March 2008
 
 - XFdrake:

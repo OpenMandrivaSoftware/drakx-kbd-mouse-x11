@@ -250,6 +250,11 @@ sub set_resolution {
 }
 sub set_default_background {
     my ($resolution) = @_;
+    
+    $resolution->{X} && $resolution->{Y} or do {
+	$resolution = { X => 1024, Y => 768 };
+	log::l("defaulting background resolution to $resolution->{X}x$resolution->{Y}");
+    };
 
     my $ratio = $resolution->{X} / $resolution->{Y};
     my $dir = "$::prefix/usr/share/mdk/backgrounds";
