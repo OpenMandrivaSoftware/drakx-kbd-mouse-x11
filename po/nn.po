@@ -438,12 +438,12 @@ msgstr "Bruk RENDER-akselerering (kan føra til feil ved vising av tekst)"
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr "Slå på skjermbildekopi på ekstern skjerm"
+msgstr "Slå på skjermbiletkopi på ekstern skjerm"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr "Slå på skjermbildekopi på skjerm 2"
+msgstr "Slå på skjermbiletkopi på skjerm 2"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
@@ -632,14 +632,14 @@ msgstr "Belgisk"
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
-msgstr "Bengali (Inscript oppsett)"
+msgstr "Bengali (Inscript-oppsett)"
 
 #: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
-msgstr "Bengali (Probhat oppsett)"
+msgstr "Bengali (Probhat-oppsett)"
 
 #: ../lib/keyboard.pm:205
 #, c-format
@@ -800,14 +800,14 @@ msgstr "Færøysk"
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
-msgstr "Georgisk («russisk» oppsett)"
+msgstr "Georgisk (russisk oppsett)"
 
 #: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
-msgstr "Georgisk («latinsk» oppsett)"
+msgstr "Georgisk (latinsk oppsett)"
 
 #: ../lib/keyboard.pm:236
 #, c-format
@@ -905,7 +905,7 @@ msgstr "Italiensk"
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
-msgstr "Japansk – 106-tastars"
+msgstr "Japansk – 106-tastar"
 
 #: ../lib/keyboard.pm:253
 #, c-format
@@ -926,7 +926,7 @@ msgstr "Kirgisisk"
 msgid ""
 "_: keyboard\n"
 "Korean"
-msgstr "Koreansk tastatur"
+msgstr "Koreansk"
 
 #: ../lib/keyboard.pm:257
 #, c-format
@@ -1473,7 +1473,7 @@ msgstr "1 knapp"
 #: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
-msgstr "Genrell 2-knappsmus"
+msgstr "Generell 2-knappsmus"
 
 #: ../lib/mouse.pm:48 ../lib/mouse.pm:57
 #, c-format
