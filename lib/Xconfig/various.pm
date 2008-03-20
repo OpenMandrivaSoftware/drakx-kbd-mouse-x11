@@ -50,7 +50,8 @@ sub default {
 	isLaptop => $isLaptop,
 	xdm => 1,
 	Composite => !($card->{Driver} eq 'fglrx' || $card->{Driver} eq 'nvidia' && $card->{DriverVersion} eq '71xx'),
-	if_($card->{Driver} eq 'nvidia', RenderAccel => $card->{DriverVersion} eq '97xx', Clone => 0),
+	if_($card->{Driver} eq 'nvidia', RenderAccel => $card->{DriverVersion} eq '97xx', 
+	                                 Clone => 0, ForceModeDVI => 0),
 	if_($card->{Driver} eq 'savage', HWCursor => 1),
 	if_($card->{Driver} eq 'intel' && $isLaptop, Clone => 0),
 	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
@@ -79,6 +80,8 @@ sub various {
 	    BIOSHotkeys => 1),
 	      if_($card->{Options}{AccelMethod},
 	    EXA => $card->{Options}{AccelMethod} eq 'EXA'),
+	      if_($card->{Options}{ModeValidation},
+	    ForceModeDVI => 1),
 	      if_($card->{Driver} eq 'nvidia', 
 	    RenderAccel => !$card->{Options}{RenderAccel},
 	      ),
@@ -158,6 +161,18 @@ sub config {
 	}
     }
 
+    if (exists $various->{ForceModeDVI}) {
+	if ($card->{Driver} eq 'nvidia') {
+	    if ($various->{ForceModeDVI}) {
+		$card->{Options}{ExactModeTimingsDVI} = undef;
+		$card->{Options}{ModeValidation} = 'NoWidthAlignmentCheck, NoDFPNativeResolutionCheck';
+	    } else {
+		delete $card->{Options}{ExactModeTimingsDVI};
+		delete $card->{Options}{ModeValidation};
+	    }
+	}
+    }
+
     if (exists $various->{Clone}) {
 	if ($card->{Driver} eq 'nvidia') {
 	    if ($various->{Clone}) {
@@ -219,6 +234,9 @@ sub choose {
 	    N("Enable duplicate display on the external monitor") :
 	    N("Enable duplicate display on the second display"),
 	  type => 'bool', val => \$various->{Clone} } : (),
+	  exists $various->{ForceModeDVI} ?
+	{ text => N("Force display mode of DVI"),
+	  type => 'bool', val => \$various->{ForceModeDVI} } : (),
 	  exists $various->{BIOSHotkeys} ?
 	{ text => N("Enable BIOS hotkey for external monitor switching"),
 	  type => 'bool', val => \$various->{BIOSHotkeys} } : (),	
