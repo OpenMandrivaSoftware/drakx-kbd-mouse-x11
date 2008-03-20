@@ -1,3 +1,5 @@
+Version 0.52 - 20 March 2008
+
 - XFdrake:
   o add option "Force display mode of DVI" on driver "nvidia" (#30066)   
 - XFdrake library:
