@@ -56,7 +56,7 @@ sub default {
 	if_($card->{Driver} eq 'intel' && $isLaptop, Clone => 0),
 	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
 	if_(exists $card->{DRI_GLX}, use_DRI_GLX => $card->{DRI_GLX} && !$card->{Xinerama}),
-	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
+	if_(member($card->{Driver}, qw(i128 ati intel sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
     });
 }
 
