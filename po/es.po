@@ -3,16 +3,15 @@
 # spanish translation of DrakX
 # Copyright (C) 2000, 2001,2002 Mandriva S.A.
 #
-# Fabian Mandelbaum <fabman@mandriva.com>, 2000, 2001, 2002,2003, 2004, 2006.
+# Fabián Mandelbaum <fmandelbaum@gmail.com>, 2000-2003, 2006-2008.
 # Pablo Saratxaga <pablo@mandriva.com>, 2004, 2006.
 # Jaime Crespo <505201@unizar.es>, 2004, 2005.
 # José Manuel Pérez <jmprodu@hotmail.com>, 2005.
-# Fabián Mandelbaum <fmandelbaum@gmail.com>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-10-02 13:14-0300\n"
+"PO-Revision-Date: 2008-03-25 11:55-0300\n"
 "Last-Translator: Fabián Mandelbaum <fmandelbaum@gmail.com>\n"
 "Language-Team: Español <es@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1609,7 +1608,7 @@ msgstr "Controlador S de Microsoft Xbox"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Ratón de VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
