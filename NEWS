@@ -1,3 +1,8 @@
+- keyboarddrake library:
+  o in drakx-finish-install, keyboard is asked after asking country, so have a
+    good default based on country too (was done for pt_BR but not fr_XX)
+    (#39221)
+
 Version 0.53 - 21 March 2008
 
 - XFdrake:
