@@ -1,3 +1,6 @@
+- XFdrake:
+  o disable "DynamicTwinView" when not using TwinView (#39171)
+
 Version 0.54 - 25 March 2008
 
 - keyboarddrake library:

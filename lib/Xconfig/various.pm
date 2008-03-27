@@ -178,9 +178,13 @@ sub config {
 	    if ($various->{Clone}) {
 		$card->{Options}{TwinView} = undef;
 		$card->{Options}{TwinViewOrientation} = 'Clone';
+		delete $card->{Options}{DynamicTwinView};
 	    } else {
 		delete $card->{Options}{TwinView};
 		delete $card->{Options}{TwinViewOrientation};
+		#- below disables runtime setting of TwinView via nvidia-settings
+		#- it helps on Compiz (#39171)
+		$card->{Options}{DynamicTwinView} = 'false';
 	    }
 	} elsif ($card->{Driver} eq 'intel') {
 	    if ($various->{Clone}) {
