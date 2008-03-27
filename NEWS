@@ -1,3 +1,5 @@
+Version 0.55 - 27 March 2008
+
 - XFdrake:
   o disable "DynamicTwinView" when not using TwinView (#39171)
 
