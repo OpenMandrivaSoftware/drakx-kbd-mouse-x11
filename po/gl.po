@@ -1,22 +1,21 @@
-# translation of libDrakX-gl.po to Galician
+# translation of drakx-kbd-mouse-x11 to Galician
 #
-# Latest versions of po files are at http://www.mandrivalinux.com/l10n/gl.php3
 # Jesús Bravo Álvarez (mdk) <jba@pobox.com>, 2001.
-# Leandro Regueiro <leandro.regueiro@gmail.com>, 2004, 2005, 2006.
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2004, 2005, 2006, 2008.
+#
+# Proxecto Trasno http://trasno.net
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libDrakX-gl\n"
+"Project-Id-Version: drakx-kbd-mouse-x11-gl\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2006-09-10 14:02+0100\n"
-"Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
-"Language-Team: Galician <<gpul-traduccion@ceu.fi.udc.es>>\n"
+"PO-Revision-Date: 2008-03-29 13:17+0100\n"
+"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.9.1\n"
-"X-Poedit-Language: Gallegan\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -93,20 +92,16 @@ msgstr "Seleccione a cantidade de memoria da súa tarxeta gráfica"
 #: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Hai un driver propietario dispoñible para a súa tarxeta gráfica que pode "
-"soportar funcionalidades adicionais.\n"
+"Hai un driver propietario dispoñible para a súa tarxeta gráfica que pode soportar funcionalidades adicionais.\n"
 "Desexa usalo?"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "O driver propietario non foi instalado correctamente, usando o driver libre por defecto."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
@@ -123,7 +118,8 @@ msgstr "Usar a extensión Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Configurar só a tarxeta \"%s\"%s"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88
+#: ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
@@ -144,14 +140,16 @@ msgstr "Saír"
 msgid "Graphic Card"
 msgstr "Tarxeta Gráfica"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/monitor.pm:114
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
 msgstr "Resolución"
@@ -204,7 +202,8 @@ msgstr "Escolla un monitor"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:122
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Xenérico"
@@ -217,15 +216,12 @@ msgstr "Vendedor"
 #: ../lib/Xconfig/monitor.pm:141
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Os dous parámetros críticos son a taxa de actualización vertical, que\n"
@@ -249,9 +245,9 @@ msgid "Vertical refresh rate"
 msgstr "Frecuencia de actualización vertical"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Escolla unha acción"
+msgstr "Elixa os plugins"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -274,7 +270,8 @@ msgid "16 million colors (24 bits)"
 msgstr "16 millóns de cores (24 bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Automático"
@@ -284,7 +281,8 @@ msgstr "Automático"
 msgid "Resolutions"
 msgstr "Resolucións"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:343
+#: ../lib/mouse.pm:187
 #, c-format
 msgid "Other"
 msgstr "Outros"
@@ -426,9 +424,9 @@ msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
 #: ../lib/Xconfig/various.pm:212
-#, fuzzy, c-format
+#, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr "Aceleración 3D por hardware"
+msgstr "Usar punteiro de rato acelerado por hardware"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
@@ -438,12 +436,12 @@ msgstr ""
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Permitir duplicar a visualización no monitor externo"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Permitir duplicar a visualización na segunda pantalla"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
@@ -471,8 +469,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -480,8 +477,7 @@ msgstr ""
 "Semella ser que a súa tarxeta gráfica ten un conector TV-OUT.\n"
 "Pode configurarse para traballar usando frame-buffer.\n"
 "\n"
-"Para isto ten que conectar a súa tarxeta gráfica á súa TV antes de arrincar "
-"o ordenador.\n"
+"Para isto ten que conectar a súa tarxeta gráfica á súa TV antes de arrincar o ordenador.\n"
 "Despois escolla a entrada \"TVout\" no cargador de arrinque\n"
 "\n"
 "Ten esta funcionalidade?"
@@ -498,14 +494,16 @@ msgid ""
 "other"
 msgstr "outro"
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:183
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Checo (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:184
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -519,33 +517,38 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Español"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Finlandés"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Francés"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid "UK keyboard"
 msgstr "Teclado británico"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -559,21 +562,24 @@ msgid ""
 "Polish"
 msgstr "Polaco"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Ruso"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Sueco"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard"
 msgstr "Teclado estadounidense"
@@ -1286,7 +1292,7 @@ msgstr "Teclado estadounidense (internacional)"
 #: ../lib/keyboard.pm:325
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (teclado estadounidense con 3 niveis por tecla)"
 
 #: ../lib/keyboard.pm:326
 #, c-format
@@ -1446,12 +1452,14 @@ msgstr "Rato de Roda PS2 Xenérico"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1461,22 +1469,26 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
 msgstr "1 botón"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Rato de 2 Botóns Xenérico"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Rato de 3 Botóns Xenérico con Emulación da Roda"
@@ -1589,17 +1601,17 @@ msgstr "Calquera rato PS/2 & USB"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Forzar evdev"
 
 #: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Microsoft Explorer"
+msgstr "Microsoft Xbox Controller S"
 
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Rato de VirtualBox"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1713,7 +1725,6 @@ msgstr "Probe o seu rato:"
 
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr "Fallou a proba de Plug'n Play. Seleccione o monitor correcto"
-
 #~ msgid ""
 #~ "The display resolution being used may not be correct. \n"
 #~ "\n"
@@ -1727,3 +1738,4 @@ msgstr "Probe o seu rato:"
 #~ "pantalla, \n"
 #~ "se instala %s podería axudar a solucionar o problema. Desexa instalalo "
 #~ "agora?"
+
