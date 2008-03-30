@@ -1,7 +1,7 @@
 # translation of drakx-kbd-mouse-x11 to Hungarian
 # Copyright (C) 2000-2001,2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
 #
-# Arpad Biro <biro_arpad@yahoo.com>, 2000, 2003, 2004, 2005, 2006, 2007.
+# Arpad Biro <biro.arpad gmail>, 2000, 2003, 2004, 2005, 2006, 2007.
 # Tamas Szanto <tszanto@mol.hu>, 2001.
 msgid ""
 msgstr ""
