@@ -1,8 +1,7 @@
-- workaround pb with nvidia driver: make dm restart xserver (#38297)
-
-Version 0.56 - 2 April 2008
+Version 0.57 - 2 April 2008
 
 - XFdrake:
+  o workaround pb with nvidia driver: make dm restart xserver (#38297)
   o do not disable RenderAccel on nvidia-current
     (regression introduced in 0.21)
 
