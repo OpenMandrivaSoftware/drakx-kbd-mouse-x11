@@ -356,8 +356,8 @@ sub libgl_config_and_more {
 	    system("/sbin/ldconfig");
     }
 
-    if ($card->{Driver} eq 'fglrx') {
-	log::l("workaround buggy fglrx driver: make dm restart xserver (#29550)");
+    if (member($card->{Driver}, 'fglrx', 'nvidia')) {
+	log::l("workaround buggy fglrx/nvidia driver: make dm restart xserver (#29550, #38297)");
         eval { common::update_gnomekderc_no_create("$::prefix/etc/kde/kdm/kdmrc", 'X-:0-Core' => (
             TerminateServer => "true",
         )) };

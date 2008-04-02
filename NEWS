@@ -1,3 +1,5 @@
+- workaround pb with nvidia driver: make dm restart xserver (#38297)
+
 Version 0.56 - 2 April 2008
 
 - XFdrake:
