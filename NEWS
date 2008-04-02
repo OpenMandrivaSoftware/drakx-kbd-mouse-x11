@@ -1,3 +1,5 @@
+Version 0.56 - 2 April 2008
+
 - XFdrake:
   o do not disable RenderAccel on nvidia-current
     (regression introduced in 0.21)
