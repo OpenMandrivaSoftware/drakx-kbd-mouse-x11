@@ -134,7 +134,7 @@ msgstr "Sjølvvald"
 #: ../lib/Xconfig/main.pm:123
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Skjerm- og skjermkortoppsett"
+msgstr "Skjem- og skjermkortoppsett"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
