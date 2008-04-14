@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-gl\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2008-03-29 13:17+0100\n"
+"PO-Revision-Date: 2008-04-13 22:14+0100\n"
 "Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -451,7 +451,7 @@ msgstr ""
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "Usar EXA en troques de XAA (mellor rendemento para Render e Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
