@@ -316,7 +316,8 @@ sub detect_evdev_mice {
 	}
 	if ($_->{HWHEEL}) {
 	    $_->{want_evdev} = 1;
-	} elsif ($_->{SIDE}) {
+	}
+	if ($_->{SIDE}) {
 	    $imwheel ||= 'generic';
 	}
     }

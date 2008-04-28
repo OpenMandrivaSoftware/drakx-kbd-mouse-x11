@@ -1,3 +1,7 @@
+- mousedrake:
+  o evdev and imwheel handle orthogonal things, so do use imwheel even if we
+  need evdev (#40088)
+
 Version 0.57 - 2 April 2008
 
 - XFdrake:
