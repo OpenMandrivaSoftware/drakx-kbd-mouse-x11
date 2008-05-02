@@ -1,12 +1,12 @@
-# DrakX Bahasa Melayu (Malay) (ms).
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2003
+# drakx-kbd-mouse-x11 Bahasa Melayu (Malay) (ms).
+# Copyright (C) 2003, 2008 Free Software Foundation, Inc.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2003, 2008
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2006-02-19 14:09+0800\n"
+"PO-Revision-Date: 2008-05-03 00:10+0800\n"
 "Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
 "Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -88,16 +88,13 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
 msgstr ""
 
 #: ../lib/Xconfig/card.pm:392
@@ -115,7 +112,8 @@ msgstr "Guna sambungan Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Tetapkan hanya kad \"%s\"%s"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88
+#: ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
@@ -136,14 +134,16 @@ msgstr "Keluar"
 msgid "Graphic Card"
 msgstr "Kad Grafik"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/monitor.pm:114
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
 msgstr "Resolusi"
@@ -192,7 +192,8 @@ msgstr "Pilih monitor"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:122
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Generik"
@@ -205,15 +206,12 @@ msgstr "Pengeluar"
 #: ../lib/Xconfig/monitor.pm:141
 #, fuzzy, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "menegak dan mengufuk\n"
@@ -232,7 +230,7 @@ msgstr "Kadar kesegaran menegak"
 #: ../lib/Xconfig/plugins.pm:219
 #, fuzzy, c-format
 msgid "Choose plugins"
-msgstr "Pilih secara manual"
+msgstr "Urus plugin"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -255,7 +253,8 @@ msgid "16 million colors (24 bits)"
 msgstr ""
 
 #: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Automatik"
@@ -265,7 +264,8 @@ msgstr "Automatik"
 msgid "Resolutions"
 msgstr ""
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:343
+#: ../lib/mouse.pm:187
 #, c-format
 msgid "Other"
 msgstr "Lain-lain"
@@ -332,9 +332,9 @@ msgid "Is this the correct setting?"
 msgstr "Adakah tetapan ini betul?"
 
 #: ../lib/Xconfig/various.pm:26
-#, c-format
+#, fuzzy, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "Satu lagi permainan kenderaan cahaya 3D"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -394,12 +394,12 @@ msgstr "Tetapan Xorg"
 #: ../lib/Xconfig/various.pm:205
 #, fuzzy, c-format
 msgid "Graphic card options"
-msgstr "Kad grafik: %s"
+msgstr "Pilihan Dua-Arah"
 
 #: ../lib/Xconfig/various.pm:207
-#, c-format
+#, fuzzy, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "Satu lagi permainan kenderaan cahaya 3D"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
@@ -452,8 +452,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -471,14 +470,16 @@ msgid ""
 "other"
 msgstr ""
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:183
+#: ../lib/keyboard.pm:215
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
-msgstr "keyboard|Czechoslovakia (qwertz)"
+msgstr "Papan Kekunci Pada-Skrin"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:184
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -492,64 +493,72 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Sepanyol"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:230
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:232
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "French"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:233
 #, fuzzy, c-format
 msgid "UK keyboard"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:276
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Norwegian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:191
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Polish"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:286
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:288
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:323
 #, fuzzy, c-format
 msgid "US keyboard"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:196
 #, c-format
@@ -563,21 +572,21 @@ msgstr "Albania"
 msgid ""
 "_: keyboard\n"
 "Armenian (old)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:198
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
-msgstr "keyboard|Tamil (Typewriter)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:199
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:200
 #, c-format
@@ -591,14 +600,14 @@ msgstr "Arab"
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
-msgstr "keyboard|Amerika Latin"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:202
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:203
 #, fuzzy, c-format
@@ -612,49 +621,49 @@ msgstr "Tetapkan susunatur papan kekunci"
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
-msgstr "keyboard|Bengali (Probhat)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:205
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:206
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:207
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:208
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:209
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:210
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:211
 #, fuzzy, c-format
@@ -675,14 +684,14 @@ msgstr "Swiss (susunatur Perancis)"
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:216
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
-msgstr "keyboard|Arab (qwerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:218
 #, fuzzy, c-format
@@ -696,63 +705,63 @@ msgstr "Jerman tidak"
 msgid ""
 "_: keyboard\n"
 "Devanagari"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:220
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:221
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
-msgstr "US/East-Indiana"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:222
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:223
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
-msgstr "keyboard|French Canadian"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:224
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Sokongan Bahasa Inggeris (UK)"
 
 #: ../lib/keyboard.pm:225
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:226
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:227
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:228
 #, c-format
@@ -766,7 +775,7 @@ msgstr "Estonia"
 msgid ""
 "_: keyboard\n"
 "Faroese"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:234
 #, fuzzy, c-format
@@ -794,21 +803,21 @@ msgstr "Greek"
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:238
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:239
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:240
 #, c-format
@@ -822,42 +831,42 @@ msgstr "Croatia"
 msgid ""
 "_: keyboard\n"
 "Hungarian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:242
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:243
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:244
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:245
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:246
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:247
 #, c-format
@@ -885,21 +894,21 @@ msgstr "Kunci kekunci Lekat"
 msgid ""
 "_: keyboard\n"
 "Kannada"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:254
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:255
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:257
 #, fuzzy, c-format
@@ -913,14 +922,14 @@ msgstr "keyboard|Arab (azerty/digit)"
 msgid ""
 "_: keyboard\n"
 "Latin American"
-msgstr "keyboard|Amerika Latin"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:260
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:261
 #, fuzzy, c-format
@@ -955,7 +964,7 @@ msgstr "keyboard|Arab (qwerty/digit)"
 msgid ""
 "_: keyboard\n"
 "Latvian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:267
 #, c-format
@@ -965,11 +974,11 @@ msgid ""
 msgstr "Malayalam"
 
 #: ../lib/keyboard.pm:268
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:269
 #, c-format
@@ -990,28 +999,28 @@ msgstr "Myanmar (Burma)"
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Cyrillic, ISO-8859-5"
 
 #: ../lib/keyboard.pm:272
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Sokongan Bahasa Inggeris (UK)"
 
 #: ../lib/keyboard.pm:273
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
-msgstr "US/East-Indiana"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:274
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:275
 #, c-format
@@ -1025,7 +1034,7 @@ msgstr "Belanda"
 msgid ""
 "_: keyboard\n"
 "Oriya"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:278
 #, fuzzy, c-format
@@ -1046,7 +1055,7 @@ msgstr "Tetapkan susunatur papan kekunci"
 msgid ""
 "_: keyboard\n"
 "Pashto"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:282
 #, c-format
@@ -1060,63 +1069,63 @@ msgstr "Portugis"
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:284
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
-msgstr "keyboard|Czechoslovakia (qwertz)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:285
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
-msgstr "keyboard|Arab (qwerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:287
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:289
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:291
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:292
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
-msgstr "keyboard|Czechoslovakia (qwertz)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:293
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
-msgstr "keyboard|Arab (qwerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:294
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:295
 #, fuzzy, c-format
@@ -1130,28 +1139,28 @@ msgstr "Fail data Finland"
 msgid ""
 "_: keyboard\n"
 "Sindhi"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:299
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Cyrillic, ISO-8859-5"
 
 #: ../lib/keyboard.pm:300
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:301
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:302
 #, c-format
@@ -1179,7 +1188,7 @@ msgstr "Tetapkan susunatur papan kekunci"
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:307
 #, fuzzy, c-format
@@ -1193,7 +1202,7 @@ msgstr "<h1>Papan kekunci</h1>"
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:311
 #, c-format
@@ -1214,14 +1223,14 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Tajik"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:316
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:317
 #, fuzzy, c-format
@@ -1242,19 +1251,19 @@ msgstr "Model pagi paparan pepohon"
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:322
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
-msgstr "Pilihan Papan Kekunci"
+msgstr "Pintasan Papan Kekunci"
 
 #: ../lib/keyboard.pm:324
 #, fuzzy, c-format
 msgid "US keyboard (international)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:325
 #, c-format
@@ -1266,7 +1275,7 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
-msgstr "keyboard|Arab (azerty)"
+msgstr "Cyrillic, ISO-8859-5"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1280,12 +1289,12 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
-msgstr "keyboard|Amerika Latin"
+msgstr "Papan Kekunci Pada-Skrin"
 
 #: ../lib/keyboard.pm:336
 #, fuzzy, c-format
 msgid "Right Alt key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:337
 #, fuzzy, c-format
@@ -1300,7 +1309,7 @@ msgstr "dan Shif"
 #: ../lib/keyboard.pm:339
 #, fuzzy, c-format
 msgid "CapsLock key"
-msgstr "_Kekunci Enkripsi"
+msgstr "Kekunci Pintasan"
 
 #: ../lib/keyboard.pm:340
 #, fuzzy, c-format
@@ -1320,17 +1329,17 @@ msgstr "Alt dan Shif"
 #: ../lib/keyboard.pm:343
 #, fuzzy, c-format
 msgid "\"Menu\" key"
-msgstr "_Kekunci Enkripsi"
+msgstr "Kekunci Pintasan"
 
 #: ../lib/keyboard.pm:344
 #, fuzzy, c-format
 msgid "Left \"Windows\" key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:345
 #, fuzzy, c-format
 msgid "Right \"Windows\" key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:346
 #, fuzzy, c-format
@@ -1345,27 +1354,27 @@ msgstr "Kedua-dua kekunci Alt menukarkan kumpulan"
 #: ../lib/keyboard.pm:348
 #, fuzzy, c-format
 msgid "Left Shift key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:349
 #, fuzzy, c-format
 msgid "Right Shift key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:350
 #, fuzzy, c-format
 msgid "Left Alt key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:351
 #, fuzzy, c-format
 msgid "Left Control key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:352
 #, fuzzy, c-format
 msgid "Right Control key"
-msgstr "Fail Sijil _Kekunci:"
+msgstr "Gugusan Kunci OpenPGP"
 
 #: ../lib/keyboard.pm:388
 #, fuzzy, c-format
@@ -1391,7 +1400,7 @@ msgstr ""
 #: ../lib/mouse.pm:25
 #, fuzzy, c-format
 msgid "Sun - Mouse"
-msgstr "Konfigurasi Tetikus"
+msgstr "Seting tetikus"
 
 #: ../lib/mouse.pm:31
 #, c-format
@@ -1413,12 +1422,14 @@ msgstr "Bola tetikus skrol dengan:"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1428,22 +1439,26 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, fuzzy, c-format
 msgid "1 button"
-msgstr "Butang %d:"
+msgstr "Gaya Butang"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, fuzzy, c-format
 msgid "Generic 2 Button Mouse"
-msgstr "Tetikus 2 Butang (bersiri)"
+msgstr "Tetikus diatas ikan"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
 #, fuzzy, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Generik"
@@ -1461,7 +1476,7 @@ msgstr "bersiri"
 #: ../lib/mouse.pm:56
 #, fuzzy, c-format
 msgid "Generic 3 Button Mouse"
-msgstr "Tetikus 2 Butang (bersiri)"
+msgstr "Tetikus diatas ikan"
 
 #: ../lib/mouse.pm:58
 #, c-format
@@ -1531,12 +1546,12 @@ msgstr ""
 #: ../lib/mouse.pm:78
 #, fuzzy, c-format
 msgid "2 buttons"
-msgstr "Butang:"
+msgstr "Butang Mdk"
 
 #: ../lib/mouse.pm:79
 #, fuzzy, c-format
 msgid "3 buttons"
-msgstr "Butang:"
+msgstr "Butang Mdk"
 
 #: ../lib/mouse.pm:80
 #, fuzzy, c-format
@@ -1554,19 +1569,19 @@ msgid "Any PS/2 & USB mice"
 msgstr ""
 
 #: ../lib/mouse.pm:86
-#, c-format
+#, fuzzy, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Paksa teks LTR"
 
 #: ../lib/mouse.pm:87
 #, fuzzy, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Jenis Pengawal Kuasa"
+msgstr "Boot Microsoft Windows"
 
 #: ../lib/mouse.pm:88
-#, c-format
+#, fuzzy, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Seting tetikus"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1576,12 +1591,12 @@ msgstr "tiada"
 #: ../lib/mouse.pm:93
 #, fuzzy, c-format
 msgid "No mouse"
-msgstr "(tiada tetikus dikonfigurasikan)"
+msgstr "Seting tetikus"
 
 #: ../lib/mouse.pm:506
-#, c-format
+#, fuzzy, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "Seting tetikus"
 
 #: ../lib/mouse.pm:538
 #, fuzzy, c-format
@@ -1591,7 +1606,7 @@ msgstr "Sila pilih jenis logmasuk anda:"
 #: ../lib/mouse.pm:539
 #, fuzzy, c-format
 msgid "Mouse choice"
-msgstr "Pilihan Tidak Sah"
+msgstr "Seting tetikus"
 
 #: ../lib/mouse.pm:555
 #, fuzzy, c-format
@@ -1601,7 +1616,7 @@ msgstr "Emulasikan klik 3 butang"
 #: ../lib/mouse.pm:559
 #, fuzzy, c-format
 msgid "Mouse Port"
-msgstr "Port tempatan:"
+msgstr "Seting tetikus"
 
 #: ../lib/mouse.pm:560
 #, fuzzy, c-format
@@ -1611,32 +1626,32 @@ msgstr "bersiri."
 #: ../lib/mouse.pm:569
 #, fuzzy, c-format
 msgid "Buttons emulation"
-msgstr "_Emulasi 3 Butang"
+msgstr "Butang Mdk"
 
 #: ../lib/mouse.pm:571
 #, fuzzy, c-format
 msgid "Button 2 Emulation"
-msgstr "tombol pertolongan"
+msgstr "Gaya Butang"
 
 #: ../lib/mouse.pm:572
 #, fuzzy, c-format
 msgid "Button 3 Emulation"
-msgstr "tombol pertolongan"
+msgstr "Gaya Butang"
 
 #: ../lib/mouse.pm:623
 #, fuzzy, c-format
 msgid "Please test the mouse"
-msgstr "Sila pilih tetikus."
+msgstr "Tetikus diatas ikan"
 
 #: ../lib/mouse.pm:625
 #, fuzzy, c-format
 msgid "To activate the mouse,"
-msgstr "Saya mempunyai nombor langganan untuk diaktifkan"
+msgstr "Tetikus diatas ikan"
 
 #: ../lib/mouse.pm:626
 #, fuzzy, c-format
 msgid "MOVE YOUR WHEEL!"
-msgstr "Tetikus Beroda (PS/2)"
+msgstr "Pasukan Mandriva Anda."
 
 #: ../tools/XFdrake:71
 #, fuzzy, c-format
@@ -1656,24 +1671,25 @@ msgstr "Sila pilih jenis logmasuk anda:"
 #: ../tools/keyboarddrake:34
 #, fuzzy, c-format
 msgid "Keyboard layout"
-msgstr "Susunatur papan kekunci: %s\n"
+msgstr "Kunci susunatur"
 
 #: ../tools/keyboarddrake:42
 #, fuzzy, c-format
 msgid "Keyboard type"
-msgstr "Papan Kekunci"
+msgstr "Jenis per&nomboran:"
 
 #: ../tools/keyboarddrake:54
-#, fuzzy, c-format
+#, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
-msgstr "Padam dalam?"
+msgstr "Adakah anda mahu BackSpace memulangkan Delete dalam konsol?"
 
 #: ../tools/mousedrake:44
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse test"
-msgstr "Ujian Checksum"
+msgstr "Ujian tetikus"
 
 #: ../tools/mousedrake:47
-#, fuzzy, c-format
+#, c-format
 msgid "Please test your mouse:"
-msgstr "Tetapkan keutamaan tetikus"
+msgstr "Sila uji tetikus anda:"
+
