@@ -116,8 +116,7 @@ sub config {
 	    $card->{Options}{AddARGBGLXVisuals} = undef;
 	}
     } else {
-	my $raw = $raw_X->get_Section('Extensions') || $raw_X->add_Section('Extensions', {});
-	$raw->{Composite} = { 'Option' => 1, val => 'Disable' };
+	$raw_X->set_extension('Composite', 'Disable');
 
 	if ($card->{Driver} eq 'nvidia') {
 	    delete $card->{Options}{AddARGBGLXVisuals};

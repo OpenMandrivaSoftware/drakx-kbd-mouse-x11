@@ -540,6 +540,11 @@ sub get_extension {
     my $raw = $raw_X->get_Section('Extensions');
     $raw && $raw->{Composite} && $raw->{Composite}[0]{val};
 }
+sub set_extension {
+    my ($raw_X, $extension, $val) = @_;
+    my $raw = $raw_X->get_Section('Extensions') || $raw_X->add_Section('Extensions', {});
+    $raw->{Composite} = { 'Option' => 1, val => $val };
+}
 
 ################################################################################
 # ModulePath ###################################################################
