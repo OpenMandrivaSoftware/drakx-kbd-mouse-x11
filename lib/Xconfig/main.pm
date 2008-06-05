@@ -208,7 +208,6 @@ sub write {
     my $only_resolution = $raw_X->is_only_resolution_modified;
     $raw_X->write;
     Xconfig::various::check_XF86Config_symlink();
-    symlinkf "../../usr/bin/Xorg", "$::prefix/etc/X11/X";
     if ($X->{resolutions}[0]{bios}) {
 	Xconfig::various::setupFB($X->{resolutions}[0]{bios});
 	'need_reboot';
