@@ -70,7 +70,7 @@ sub various {
     my $various = { 
 	if_($::isStandalone, xdm => runlevel() == 5),
 	if_($b_read_existing,
-	    Composite => ($raw_X->get_Section('Extensions') || {})->{Composite},
+	    Composite => $raw_X->get_extension('Composite') ne 'Disable',
 	      if_($card->{Options}{MonitorLayout} eq 'NONE,CRT+LFP' ||
 		  $card->{Options}{TwinViewOrientation} eq 'Clone',
 	    Clone => 1),
@@ -111,13 +111,13 @@ sub config {
     my ($raw_X, $card, $various) = @_;
 
     if ($various->{Composite}) {
-	my $raw = $raw_X->get_Section('Extensions') || $raw_X->add_Section('Extensions', {});
-	$raw->{Composite} = { 'Option' => 1 };
+	$raw_X->remove_extension('Composite');
 	if ($card->{Driver} eq 'nvidia') {
 	    $card->{Options}{AddARGBGLXVisuals} = undef;
 	}
     } else {
-	$raw_X->remove_extension('Composite');
+	my $raw = $raw_X->get_Section('Extensions') || $raw_X->add_Section('Extensions', {});
+	$raw->{Composite} = { 'Option' => 1, val => 'Disable' };
 
 	if ($card->{Driver} eq 'nvidia') {
 	    delete $card->{Options}{AddARGBGLXVisuals};

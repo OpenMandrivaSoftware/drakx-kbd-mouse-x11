@@ -535,6 +535,11 @@ sub remove_extension {
     delete $raw->{$extension};
     %$raw or $raw_X->remove_Section('Extensions');
 }
+sub get_extension {
+    my ($raw_X, $extension) = @_;
+    my $raw = $raw_X->get_Section('Extensions');
+    $raw && $raw->{Composite} && $raw->{Composite}[0]{val};
+}
 
 ################################################################################
 # ModulePath ###################################################################
