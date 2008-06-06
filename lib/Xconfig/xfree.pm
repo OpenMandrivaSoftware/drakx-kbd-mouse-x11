@@ -14,8 +14,8 @@ sub new {
     @$raw && bless { raw => $raw }, $class;
 }
 
-sub _conf_files() {
-    map { "$::prefix/etc/X11/$_" } 'xorg.conf', 'XF86Config-4', 'XF86Config';
+sub _conf_file() {
+    "$::prefix/etc/X11/xorg.conf";
 }
 
 ################################################################################
@@ -23,8 +23,7 @@ sub _conf_files() {
 ################################################################################
 sub read {
     my ($class) = @_;
-    my $file = find { -f $_ } _conf_files();
-    my $raw_X = $class->new(Xconfig::parse::read_XF86Config($file)) or return;
+    my $raw_X = $class->new(Xconfig::parse::read_XF86Config(_conf_file())) or return;
     $raw_X->{before} = $raw_X->prepare_write;
 
     if (my ($keyboard) = $raw_X->get_InputDevices('keyboard')) {
@@ -49,17 +48,9 @@ sub read {
 }
 sub write {
     my ($raw_X, $o_file) = @_;
-    my $file = $o_file || first(_conf_files());
+    my $file = $o_file || _conf_file();
     if (!$o_file) {
-	foreach (_conf_files()) {
-	    if (-l $_) {
-		unlink $_;
-	    } else {
-		renamef($_, "$_.old"); #- there will not be any XF86Config nor XF86Config-4 anymore, we want this!
-	    }
-	}
-	#- keep it for old programs still using this name
-	symlink basename($file), "$::prefix/etc/X11/XF86Config";
+	renamef($file, "$file.old");
     }
     no_ModeLine_on_fglrx($raw_X); #- HACK
     set_Revision($raw_X);
@@ -538,12 +529,12 @@ sub remove_extension {
 sub get_extension {
     my ($raw_X, $extension) = @_;
     my $raw = $raw_X->get_Section('Extensions');
-    $raw && $raw->{Composite} && $raw->{Composite}[0]{val};
+    $raw && $raw->{$extension} && $raw->{Composite}[0]{val};
 }
 sub set_extension {
     my ($raw_X, $extension, $val) = @_;
     my $raw = $raw_X->get_Section('Extensions') || $raw_X->add_Section('Extensions', {});
-    $raw->{Composite} = { 'Option' => 1, val => $val };
+    $raw->{$extension} = { 'Option' => 1, val => $val };
 }
 
 ################################################################################
