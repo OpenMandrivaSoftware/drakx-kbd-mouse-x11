@@ -1,5 +1,9 @@
+Version 0.58 - 9 June 2008
+
 - XFdrake:
   o Composite is now the default in xserver 1.4 (#35043)
+  o do not create symlink /etc/X11/X to ../../usr/bin/Xorg (#41363)
+  o drop support for /etc/X11/XF86Config (replaced by xorg.conf for some time now)
 - mousedrake:
   o evdev and imwheel handle orthogonal things, so do use imwheel even if we
   need evdev (#40088)
