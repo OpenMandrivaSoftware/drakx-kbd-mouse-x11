@@ -79,8 +79,8 @@ sub check_XFree {
     my ($in) = @_;
 
     #- set the standard configuration
-    foreach ('XF86Config', 'XF86Config-4') {
-	my $f = "/etc/X11/$_";
+    {
+	my $f = "/etc/X11/xorg.conf";
 	symlinkf("$_.standard", $f) if -l $f && -e "$f.standard";
     }
 

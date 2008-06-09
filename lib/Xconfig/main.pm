@@ -207,7 +207,7 @@ sub write {
     export_to_install_X($X) if $::isInstall;
     my $only_resolution = $raw_X->is_only_resolution_modified;
     $raw_X->write;
-    Xconfig::various::check_XF86Config_symlink();
+    Xconfig::various::check_xorg_conf_symlink();
     if ($X->{resolutions}[0]{bios}) {
 	Xconfig::various::setupFB($X->{resolutions}[0]{bios});
 	'need_reboot';

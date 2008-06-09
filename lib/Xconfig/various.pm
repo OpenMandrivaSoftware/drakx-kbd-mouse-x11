@@ -296,9 +296,9 @@ sub configure_FB_TVOUT {
     my $Screen = $raw_X->get_default_screen;
     $Screen->{Display} = [ map { { l => { Depth => { val => $_ } } } } 8, 16 ];
 
-    $raw_X->write("$::prefix/etc/X11/XF86Config.tvout");
+    $raw_X->write("$::prefix/etc/X11/xorg.conf.tvout");
 
-    check_XF86Config_symlink();
+    check_xorg_conf_symlink();
 
     {
 	require bootloader;
@@ -314,11 +314,11 @@ sub configure_FB_TVOUT {
     }
 }
 
-sub check_XF86Config_symlink() {
-    my $f = "$::prefix/etc/X11/XF86Config";
+sub check_xorg_conf_symlink() {
+    my $f = "$::prefix/etc/X11/xorg.conf";
     if (!-l $f && -e "$f.tvout") {
 	rename $f, "$f.standard";
-	symlink "XF86Config.standard", $f;
+	symlink "xorg.conf.standard", $f;
     }
 }
 

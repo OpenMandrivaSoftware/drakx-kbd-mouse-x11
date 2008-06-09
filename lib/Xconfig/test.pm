@@ -43,7 +43,7 @@ sub test {
 	symlinkf "$::prefix/tmp/.X11-unix", "/tmp/.X11-unix" if $::prefix;
     }
 
-    my $f = $::testing ? $tmpconfig : "/etc/X11/XF86Config.test";
+    my $f = $::testing ? $tmpconfig : "/etc/X11/xorg.conf.test";
     $raw_X->write("$::prefix/$f");
 
     my $f_err = common::secured_file($::prefix . ($ENV{TMPDIR} || "$ENV{HOME}/tmp") . '/.drakx.Xoutput');
