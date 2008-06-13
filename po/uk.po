@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-uk\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2005-03-01 01:29+0200\n"
+"PO-Revision-Date: 2005-06-13 14:29+0200\n"
 "Last-Translator: Taras Boychuk <btr1@ukrpost.net>\n"
-"Language-Team: ukrainian <uk@li.org>\n"
+"Language-Team: ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -99,14 +99,14 @@ msgid ""
 "There is a proprietary driver available for your video card which may "
 "support additional features.\n"
 "Do you wish to use it?"
-msgstr ""
+msgstr "Існує пропрієтарний драйвер для Вашої графічної плати, який можливо має додаткові можливості.\nЧи Ви хочете ним користуватись?"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
+msgstr "Пропрієтарний драйвер не встановився коректно, скористаємось вільним драйвером."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
@@ -130,9 +130,9 @@ msgid "Custom"
 msgstr "Спеціальний"
 
 #: ../lib/Xconfig/main.pm:123
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Конфігурація з'єднання"
+msgstr "Конфігурація графічної плати та монітору"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -250,9 +250,9 @@ msgid "Vertical refresh rate"
 msgstr "Частота вертикальної розгортки"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Виберіть дію"
+msgstr "Виберіть плагіни"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -356,7 +356,7 @@ msgstr "Це правильні установки?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "апаратне 3D-прискорення: %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -414,49 +414,49 @@ msgid "Xorg configuration"
 msgstr "Налаштування Xorg"
 
 #: ../lib/Xconfig/various.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Відеоплата: %s"
+msgstr "Опції графічної плати"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "апаратне 3D-прискорення"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Включити прозорість (розширення Composite)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Використовати апаратне прискорення для курсора"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "Включити прискорення рендерінґу (може привести до помилок при відображенні тексту)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Дублювати дисплей на зовнішній монітор"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Дублювати дисплей на другий дисплей"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Дозволити перемикання зовнішнього монітору через BIOS hotkey"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "Користуватись EXA замість XAA (краща продуктивність при рендерінґу та прозорості)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -464,12 +464,9 @@ msgid "Graphical interface at startup"
 msgstr "Графічний інтерфейс при завантаженні"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Я можу налаштувати Вашу систему, щоб графічний інтерфейс (Xorg) стартував "
-"автоматично\n"
-"після завантаження системи. Чи Ви хочете, щоб Xorg стартував автоматично?"
+msgstr "Автоматично запускати графічний інтерфейс (Xorg) при завантаженні"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -1627,9 +1624,9 @@ msgid "Please choose your type of mouse."
 msgstr "Будь ласка, вкажіть тип Вашої миші."
 
 #: ../lib/mouse.pm:539
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse choice"
-msgstr "Вибір вручну"
+msgstr "Вибір миші"
 
 #: ../lib/mouse.pm:555
 #, c-format
@@ -1692,14 +1689,14 @@ msgid "Please, choose your keyboard layout."
 msgstr "Будь ласка, виберіть мапу клавіатури."
 
 #: ../tools/keyboarddrake:34
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
 msgstr "Розкладка клавіатури"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Клавіатура"
+msgstr "Тип клавіатури"
 
 #: ../tools/keyboarddrake:54
 #, c-format
@@ -2468,15 +2465,6 @@ msgstr "Випробуйте мишу, будь ласка:"
 #~ msgid "Choose action"
 #~ msgstr "Виберіть дію"
 
-#~ msgid ""
-#~ "You have one big Microsoft Windows partition.\n"
-#~ "I suggest you first resize that partition\n"
-#~ "(click on it, then click on \"Resize\")"
-#~ msgstr ""
-#~ "Ви маєте один великий розділ Microsoft Windows.\n"
-#~ "Я пропоную Вам спочатку змінити розмір цього розділу\n"
-#~ "(клацніть на ньому, потім клацніть на \"Змінити розмір\")"
-
 #~ msgid "Please click on a partition"
 #~ msgstr "Клацніть, будь ласка, на розділі"
 
@@ -2744,14 +2732,6 @@ msgstr "Випробуйте мишу, будь ласка:"
 
 #~ msgid "New size in MB: "
 #~ msgstr "Новий розмір в Мб: "
-
-#~ msgid ""
-#~ "To ensure data integrity after resizing the partition(s), \n"
-#~ "filesystem checks will be run on your next boot into Microsoft Windows®"
-#~ msgstr ""
-#~ "Для забезпечення цілісності даних після зміни розміру \n"
-#~ "розділу(ів), при наступному завантаженні Windows(TM)\n"
-#~ "буде здійснено перевірку файлової системи"
 
 #~ msgid "Choose an existing RAID to add to"
 #~ msgstr "Виберіть існуючий RAID, до якого додати"
@@ -3179,9 +3159,6 @@ msgstr "Випробуйте мишу, будь ласка:"
 #~ msgid "There is no existing partition to use"
 #~ msgstr "Немає існуючих розділів для використання"
 
-#~ msgid "Use the Microsoft Windows® partition for loopback"
-#~ msgstr ""
-#~ "Використовувати розділ Microsoft Windows® для зворотнього монтування"
 
 #~ msgid "Which partition do you want to use for Linux4Win?"
 #~ msgstr "Який розділ Ви хочете використовувати для Linux4Win?"
@@ -3201,9 +3178,6 @@ msgstr "Випробуйте мишу, будь ласка:"
 #~ "Немає розділу FAT для використання як пристрою зворотнього монтування "
 #~ "(або не вистачає вільного місця)"
 
-#~ msgid "Use the free space on the Microsoft Windows® partition"
-#~ msgstr "Використовувати вільний простір на розділі Windows"
-
 #~ msgid "Which partition do you want to resize?"
 #~ msgstr "Розмір якого розділу Ви хочете змінити?"
 
@@ -3214,66 +3188,12 @@ msgstr "Випробуйте мишу, будь ласка:"
 #~ "Програма зміни розміру розділу FAT не може працювати з Вашим\n"
 #~ "розділом, при роботі сталася така помилка: %s"
 
-#~ msgid "Computing the size of the Microsoft Windows® partition"
-#~ msgstr "Розраховується розмір розділу Віндовс"
-
-#~ msgid ""
-#~ "Your Microsoft Windows® partition is too fragmented. Please reboot your "
-#~ "computer under Microsoft Windows®, run the ``defrag'' utility, then "
-#~ "restart the Mandriva Linux installation."
-#~ msgstr ""
-#~ "Розділ з Microsoft Windows® на Вашому комп'ютері занадто фраґментований. "
-#~ "Будь ласка, перезавантажте свій комп'ютер під Microsoft Windows®, "
-#~ "запустіть програму 'defrag', тоді перезапустіть встановлення Мандріва "
-#~ "лінакса."
-
-#~ msgid ""
-#~ "WARNING!\n"
-#~ "\n"
-#~ "\n"
-#~ "Your Microsoft Windows® partition will be now resized.\n"
-#~ "\n"
-#~ "\n"
-#~ "Be careful: this operation is dangerous. If you have not already done so, "
-#~ "you first need to exit the installation, run \"chkdsk c:\" from a Command "
-#~ "Prompt under Microsoft Windows® (beware, running graphical program "
-#~ "\"scandisk\" is not enough, be sure to use \"chkdsk\" in a Command "
-#~ "Prompt!), optionally run defrag, then restart the installation. You "
-#~ "should also backup your data.\n"
-#~ "\n"
-#~ "\n"
-#~ "When sure, press %s."
-#~ msgstr ""
-#~ "ПОПЕРЕДЖЕННЯ!\n"
-#~ "\n"
-#~ "\n"
-#~ "Зараз DrakX змінить розмір розділу Windows.\n"
-#~ "\n"
-#~ "\n"
-#~ "Будьте уважні: ця операція небезпечна. Якщо Ви ще не зробили, Вам "
-#~ "потрібно зараз припинити встановлення, виконати \"chkdsk c:\" з "
-#~ "командного рядка у Windows (майте на увазі, запуску графічної програми "
-#~ "\"scandisk\" недостатньо, необхідно виконати \"chkdsk\" саме з командного "
-#~ "рядка!), виконати defrag (необов'язково), тоді перезапустити "
-#~ "встановлення. Потрібно також зробити резервну копію Ваших даних.\n"
-#~ "\n"
-#~ "\n"
-#~ "Якщо Ви впевнені - тисніть %s."
-
 #~ msgid "Next"
 #~ msgstr "Далі"
 
 #, fuzzy
-#~ msgid ""
-#~ "Which size do you want to keep for Microsoft Windows® on partition %s?"
-#~ msgstr "Який розмір Ви хочете залишити для Microsoft Windows®?"
-
-#, fuzzy
 #~ msgid "Size"
 #~ msgstr "Розмір: %s"
-
-#~ msgid "Resizing Microsoft Windows® partition"
-#~ msgstr "Зміна розміру розділу Microsoft Windows®"
 
 #~ msgid "FAT resizing failed: %s"
 #~ msgstr "Зміна розміру FAT не відбулася: %s"
@@ -3281,9 +3201,6 @@ msgstr "Випробуйте мишу, будь ласка:"
 #~ msgid "There is no FAT partition to resize (or not enough space left)"
 #~ msgstr ""
 #~ "Немає розділу FAT для зміни розміру (або не залишилося вільного місця)"
-
-#~ msgid "Remove Microsoft Windows®"
-#~ msgstr "Стерти Microsoft Windows®"
 
 #, fuzzy
 #~ msgid "Erase and use entire disk"
