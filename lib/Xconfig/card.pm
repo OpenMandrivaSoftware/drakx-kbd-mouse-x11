@@ -36,7 +36,7 @@ my @xfree4_Drivers = ((arch() =~ /^sparc/ ? qw(sunbw2 suncg14 suncg3 suncg6 sunf
 sub from_raw_X {
     my ($raw_X) = @_;
 
-    my $device = $raw_X->get_device or die "no card configured";
+    my ($device, @cards) = $raw_X->get_devices or die "no card configured";
 
     my $card = {
 	use_DRI_GLX  => eval { any { /dri/ } $raw_X->get_modules },
@@ -45,6 +45,7 @@ sub from_raw_X {
 	if_($device->{Driver} eq 'nvidia',
 	    DriverVersion => 
 	      readlink("$::prefix/etc/alternatives/gl_conf") =~ m!nvidia(.*)/! ? $1 : '97xx'),
+	if_(@cards, cards => \@cards),
     };
     add_to_card__using_Cards($card, $card->{BoardName});
     $card;
