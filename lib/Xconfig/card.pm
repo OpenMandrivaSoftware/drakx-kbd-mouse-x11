@@ -60,9 +60,6 @@ sub to_raw_X {
 	if (arch() =~ /ppc/ && ($_->{Driver} eq 'r128' || $_->{Driver} eq 'radeon')) {
 	    $_->{UseFBDev} = 1;
 	}
-        if (member($_->{Driver}, qw(intel ati))) {
-	    $_->{Options}{XaaNoOffscreenPixmaps} = '1';
-        }
     }
 
     $raw_X->set_devices(@cards);
