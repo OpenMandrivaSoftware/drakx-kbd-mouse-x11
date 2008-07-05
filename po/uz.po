@@ -59,7 +59,7 @@ msgstr "32 Mb"
 #: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
-msgstr "64 Mb yoki ko'proq"
+msgstr "64 Mb yoki koʻproq"
 
 #: ../lib/Xconfig/card.pm:169
 #, c-format
@@ -95,8 +95,8 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Video kartangiz uchun erkin bo'lmagan drayver mavjud. Uning yordamida video "
-"kartaning qo'shimcha imkoniyatlaridan foydalansa bo'ladi.\n"
+"Video kartangiz uchun erkin boʻlmagan drayver mavjud. Uning yordamida video "
+"kartaning qoʻshimcha imkoniyatlaridan foydalansa boʻladi.\n"
 "Undan foydalanishni istaysizmi?"
 
 #: ../lib/Xconfig/card.pm:325
@@ -152,7 +152,7 @@ msgstr "Monitor"
 #: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
-msgstr "O'lcham"
+msgstr "Oʻlcham"
 
 #: ../lib/Xconfig/main.pm:135
 #, c-format
@@ -182,7 +182,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"O'zgarishlarni saqlaymi?\n"
+"Oʻzgarishlarni saqlaymi?\n"
 "Joriy moslama quyidagicha:\n"
 "\n"
 "%s"
@@ -271,7 +271,7 @@ msgstr "Avtomatik"
 #: ../lib/Xconfig/resolution_and_depth.pm:129
 #, c-format
 msgid "Resolutions"
-msgstr "O'lchamlar"
+msgstr "Oʻlchamlar"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
 #, c-format
@@ -281,7 +281,7 @@ msgstr "Boshqa"
 #: ../lib/Xconfig/resolution_and_depth.pm:397
 #, c-format
 msgid "Choose the resolution and the color depth"
-msgstr "O'lcham va rang chuqurligini tanlash"
+msgstr "Oʻlcham va rang chuqurligini tanlash"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:398
 #, c-format
@@ -306,19 +306,19 @@ msgstr "Yordam"
 #: ../lib/Xconfig/test.pm:30
 #, c-format
 msgid "Test of the configuration"
-msgstr "Moslamalarni sinab ko'rish"
+msgstr "Moslamalarni sinab koʻrish"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Do you want to test the configuration?"
-msgstr "Moslamalarni sinab ko'rishni istaysizmi?"
+msgstr "Moslamalarni sinab koʻrishni istaysizmi?"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
 msgstr ""
-"Diqqat: bu grafik kartani sinab ko'rish kompyuterni qotib qolishiga olib "
-"kelishi mumkin"
+"Diqqat: bu grafik kartani sinab koʻrish kompyuterni qotib qolishiga olib kelishi "
+"mumkin"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -327,9 +327,9 @@ msgid ""
 "%s\n"
 "Try to change some parameters"
 msgstr ""
-"Xato ro'y berdi:\n"
+"Xato roʻy berdi:\n"
 "%s\n"
-"Ba'zi bir parametrlarni o'zgartirib sinab ko'ring"
+"Baʼzi bir parametrlarni oʻzgartirib sinab koʻring"
 
 #: ../lib/Xconfig/test.pm:126
 #, c-format
@@ -339,7 +339,7 @@ msgstr "%d soniyadan keyin yopiladi"
 #: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Is this the correct setting?"
-msgstr "Bu to'g'rimi?"
+msgstr "Bu toʻgʻrimi?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
@@ -389,7 +389,7 @@ msgstr "Rang chuqurligi: %s\n"
 #: ../lib/Xconfig/various.pm:38
 #, c-format
 msgid "Resolution: %s\n"
-msgstr "O'lchami: %s\n"
+msgstr "Oʻlchami: %s\n"
 
 #: ../lib/Xconfig/various.pm:40
 #, c-format
@@ -424,8 +424,7 @@ msgstr ""
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Render imkoniyatidan foydalanish (matnni ko'rsatishda xato bo'lishi mumkin)"
+msgstr "Render imkoniyatidan foydalanish (matnni koʻrsatishda xato boʻlishi mumkin)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
@@ -445,7 +444,7 @@ msgstr ""
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "XAA o'rniga EXA'dan foydalanish (Render va Composite uchun yaxshi)"
+msgstr "XAA oʻrniga EXA'dan foydalanish (Render va Composite uchun yaxshi)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -522,7 +521,7 @@ msgstr "Fincha"
 msgid ""
 "_: keyboard\n"
 "French"
-msgstr "Frantsuzcha"
+msgstr "Fransuzcha"
 
 #: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
 #, c-format
@@ -560,7 +559,7 @@ msgstr "Shvedcha"
 #: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard"
-msgstr "AQSh"
+msgstr "AQSH"
 
 #: ../lib/keyboard.pm:196
 #, c-format
@@ -672,14 +671,14 @@ msgstr "Beloruscha"
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
-msgstr "Shveytsariya (Olmoncha)"
+msgstr "Shveysariya (Olmoncha)"
 
 #: ../lib/keyboard.pm:212
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
-msgstr "Shveytsariya (Frantsuzcha)"
+msgstr "Shveysariya (Fransuzcha)"
 
 #: ../lib/keyboard.pm:214
 #, c-format
@@ -700,7 +699,7 @@ msgstr "Chexcha (qwerty)"
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
-msgstr "Olmoncha (o'lik tugmalarsiz)"
+msgstr "Olmoncha (oʻlik tugmalarsiz)"
 
 #: ../lib/keyboard.pm:219
 #, c-format
@@ -721,7 +720,7 @@ msgstr "Daniya"
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
-msgstr "Dvorak (AQSh)"
+msgstr "Dvorak (AQSH)"
 
 #: ../lib/keyboard.pm:222
 #, c-format
@@ -735,7 +734,7 @@ msgstr "Dvorak (Esperanto)"
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
-msgstr "Dvorak (Frantsuzcha)"
+msgstr "Dvorak (Fransuzcha)"
 
 #: ../lib/keyboard.pm:224
 #, c-format
@@ -903,7 +902,7 @@ msgstr "Kannada"
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr "Qirg'izcha"
+msgstr "Qirgʻizcha"
 
 #: ../lib/keyboard.pm:255
 #, c-format
@@ -1001,7 +1000,7 @@ msgstr "Myanmar (Birma)"
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
-msgstr "Mug'ulcha (kiril)"
+msgstr "Mugʻulcha (kiril)"
 
 #: ../lib/keyboard.pm:272
 #, c-format
@@ -1015,7 +1014,7 @@ msgstr "Malta (Buyuk Britaniya)"
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
-msgstr "Malta (AQSh)"
+msgstr "Malta (AQSH)"
 
 #: ../lib/keyboard.pm:274
 #, c-format
@@ -1239,7 +1238,7 @@ msgstr "Turkmancha"
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
-msgstr "Turkcha (an'anaviy \"F\" modeli)"
+msgstr "Turkcha (anʼanaviy \"F\" modeli)"
 
 #: ../lib/keyboard.pm:318
 #, c-format
@@ -1265,7 +1264,7 @@ msgstr "Urdu"
 #: ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard (international)"
-msgstr "AQSh (xalqaro)"
+msgstr "AQSH (xalqaro)"
 
 #: ../lib/keyboard.pm:325
 #, c-format
@@ -1277,7 +1276,7 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
-msgstr "O'zbekcha (kiril)"
+msgstr "Oʻzbekcha (kiril)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1296,7 +1295,7 @@ msgstr "Yugoslavcha (lotin)"
 #: ../lib/keyboard.pm:336
 #, c-format
 msgid "Right Alt key"
-msgstr "O'ng Alt tugmasi"
+msgstr "Oʻng Alt tugmasi"
 
 #: ../lib/keyboard.pm:337
 #, c-format
@@ -1341,7 +1340,7 @@ msgstr "Chap \"Windows\" tugmasi"
 #: ../lib/keyboard.pm:345
 #, c-format
 msgid "Right \"Windows\" key"
-msgstr "O'ng \"Windows\" tugmasi"
+msgstr "Oʻng \"Windows\" tugmasi"
 
 #: ../lib/keyboard.pm:346
 #, c-format
@@ -1361,7 +1360,7 @@ msgstr "Chap Shift tugmasi"
 #: ../lib/keyboard.pm:349
 #, c-format
 msgid "Right Shift key"
-msgstr "O'ng Shift tugmasi"
+msgstr "Oʻng Shift tugmasi"
 
 #: ../lib/keyboard.pm:350
 #, c-format
@@ -1376,7 +1375,7 @@ msgstr "Chap Ctrl tugmasi"
 #: ../lib/keyboard.pm:352
 #, c-format
 msgid "Right Control key"
-msgstr "O'ng Ctrl tugmasi"
+msgstr "Oʻng Ctrl tugmasi"
 
 #: ../lib/keyboard.pm:388
 #, c-format
@@ -1401,9 +1400,9 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
-"Bu moslama o'rnatishdan keyin ishga tushadi.\n"
-"O'rnatish vaqtida turli tugmalar tartibini tanlash uchun\n"
-"o'ng \"Ctrl\" tugmasini ishlating."
+"Bu moslama oʻrnatishdan keyin ishga tushadi.\n"
+"Oʻrnatish vaqtida turli tugmalar tartibini tanlash uchun\n"
+"oʻng \"Ctrl\" tugmasini ishlating."
 
 #: ../lib/mouse.pm:25
 #, c-format
@@ -1423,7 +1422,7 @@ msgstr "Logitech MouseMan+"
 #: ../lib/mouse.pm:33
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "G'ildirakli andoza PS2 sichqoncha"
+msgstr "Gʻildirakli andoza PS2 sichqoncha"
 
 #: ../lib/mouse.pm:34
 #, c-format
@@ -1468,7 +1467,7 @@ msgstr ""
 #: ../lib/mouse.pm:49
 #, c-format
 msgid "Wheel"
-msgstr "G'ildirakli"
+msgstr "Gʻildirakli"
 
 #: ../lib/mouse.pm:53
 #, c-format
@@ -1588,12 +1587,12 @@ msgstr ""
 #: ../lib/mouse.pm:91
 #, c-format
 msgid "none"
-msgstr "yo'q"
+msgstr "yoʻq"
 
 #: ../lib/mouse.pm:93
 #, c-format
 msgid "No mouse"
-msgstr "Sichqoncha yo'q"
+msgstr "Sichqoncha yoʻq"
 
 #: ../lib/mouse.pm:506
 #, c-format
@@ -1643,7 +1642,7 @@ msgstr ""
 #: ../lib/mouse.pm:623
 #, c-format
 msgid "Please test the mouse"
-msgstr "Iltimos sichqonchani sinab ko'ring"
+msgstr "Iltimos sichqonchani sinab koʻring"
 
 #: ../lib/mouse.pm:625
 #, c-format
@@ -1653,13 +1652,12 @@ msgstr "Sichqonchani ishga tushirish uchun,"
 #: ../lib/mouse.pm:626
 #, c-format
 msgid "MOVE YOUR WHEEL!"
-msgstr "G'ILDIRAKNI AYLANTIRING!"
+msgstr "GʻILDIRAKNI AYLANTIRING!"
 
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr ""
-"O'zgarishlar to'liq qo'llanilishi uchun tizimga boshqadan kirishingiz kerak"
+msgstr "Oʻzgarishlar toʻliq qoʻllanilishi uchun tizimga boshqadan kirishingiz kerak"
 
 #: ../tools/keyboarddrake:32
 #, c-format
@@ -1694,9 +1692,9 @@ msgstr "Sichqonchani sinash"
 #: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
-msgstr "Iltimos sichqonchani sinab ko'ring:"
+msgstr "Iltimos sichqonchani sinab koʻring:"
 
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr ""
-#~ "Plug'n Play aniqlash muvaffaqiyatsiz tugadi. Iltimos to'g'ri keladigan "
+#~ "Plug'n Play aniqlash muvaffaqiyatsiz tugadi. Iltimos toʻgʻri keladigan "
 #~ "monitorni tanlang"
