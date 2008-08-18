@@ -1,3 +1,5 @@
+Version 0.59 - 18 August 2008
+
 - XFdrake:
   o use 24dpp by default, even on DRI (needed for kde4)
   o ensure we don't drop non-main "Device" (when modifying "Options", #41410)
