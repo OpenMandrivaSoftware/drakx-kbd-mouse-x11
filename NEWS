@@ -1,3 +1,6 @@
+- XFdrake:
+  o allow xorg.conf to have no "Monitor" section (#42793)
+
 Version 0.59 - 18 August 2008
 
 - XFdrake:
