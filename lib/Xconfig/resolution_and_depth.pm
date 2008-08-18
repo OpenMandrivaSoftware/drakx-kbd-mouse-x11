@@ -87,7 +87,7 @@ sub allowed {
 	} elsif ($card->{BoardName} eq 'NVIDIA RIVA 128') { 
 	    @depths = qw(8 15 24);
 	} elsif ($card->{use_DRI_GLX}) {
-	    $prefered_depth = 16;
+	    $prefered_depth = 24;
 	    @depths = (16, 24);
 	} else {
 	    @depths = our @depths_available;

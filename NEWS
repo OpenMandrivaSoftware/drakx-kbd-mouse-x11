@@ -1,4 +1,5 @@
 - XFdrake:
+  o use 24dpp by default, even on DRI (needed for kde4)
   o ensure we don't drop non-main "Device" (when modifying "Options", #41410)
   o use nvidia-current default settings for nvidia173 as well
   o no need to force XaaNoOffscreenPixmaps, it is the default now in
