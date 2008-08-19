@@ -529,7 +529,7 @@ sub remove_extension {
 sub get_extension {
     my ($raw_X, $extension) = @_;
     my $raw = $raw_X->get_Section('Extensions');
-    $raw && $raw->{$extension} && $raw->{$extension}[0]{val};
+    $raw && $raw->{$extension} && $raw->{$extension}{val};
 }
 sub set_extension {
     my ($raw_X, $extension, $val) = @_;

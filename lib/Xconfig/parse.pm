@@ -146,6 +146,7 @@ my %kind_names = (
     Device   => [ qw(Identifier VendorName BoardName Chipset Driver VideoRam Screen BusID DPMS power_saver AccelMethod MonitorLayout TwinViewOrientation BIOSHotkeys RenderAccel SWCursor XaaNoOffscreenPixmaps) ],
     Display  => [ qw(Depth Modes Virtual) ], # Subsection in Device
     Screen   => [ qw(Identifier Driver Device Monitor DefaultDepth DefaultColorDepth) ],
+    Extensions  => [ qw(Composite) ],
     InputDevice => [ qw(Identifier Driver Protocol Device Type Mode XkbModel XkbLayout XkbDisable Emulate3Buttons Emulate3Timeout EmulateWheel EmulateWheelButton) ],
     WacomCursor => [ qw(Port) ], #-\
     WacomStylus => [ qw(Port) ], #--> Port must be first
