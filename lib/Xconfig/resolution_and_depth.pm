@@ -289,7 +289,6 @@ sub set_default_background {
 	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.jpg";    
 	} else {
 	    symlinkf $_->{file}, "$dir/default.jpg";
-	    symlinkf $_->{file}, "$dir/default.png";
 	}
     }
 }
