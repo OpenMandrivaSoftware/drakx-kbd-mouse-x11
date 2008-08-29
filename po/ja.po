@@ -3,13 +3,13 @@
 # Copyright (C) 2000,2003, 2004, 2006 Free Software Foundation, Inc.
 # YAMAGATA Hiroo <hiyori13@alum.mit.edu>, 2000.
 # UTUMI Hirosi <utuhiro78@yahoo.co.jp>, 2003, 2004, 2006.
-# Yukiko Bando <ybando@k6.dion.ne.jp>, 2004, 2005, 2006, 2007.
-#
+# Yukiko Bando <ybando@k6.dion.ne.jp>, 2004, 2005, 2006, 2007, 2008.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: libDrakX-ja\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-26 23:00+0900\n"
+"PO-Revision-Date: 2008-08-29 21:57+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -1603,7 +1603,7 @@ msgstr "Microsoft Xbox コントローラ S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox マウス"
 
 #: ../lib/mouse.pm:91
 #, c-format
