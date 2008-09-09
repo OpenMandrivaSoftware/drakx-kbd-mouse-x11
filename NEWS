@@ -1,3 +1,5 @@
+Version 0.60 - 9 September 2008
+
 - XFdrake:
   o allow xorg.conf to have no "Monitor" section (#42793)
   o [bugfix] fix clicking on "Options" when Composite is disabled 
