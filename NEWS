@@ -1,3 +1,5 @@
+- keyboarddrake:
+  o fix lithuanian keyboard choices (cf #41031)
 - XFdrake:
   o do set a background image when using resolution "Automatic" (#43644)
 
