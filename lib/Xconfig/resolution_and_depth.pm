@@ -241,9 +241,9 @@ sub set_resolution {
 	@other = grep { $_->{X} < $resolution->{X} } @other;
 	@other = filter_on_ratio($ratio, @other);
 
-	set_default_background($resolution);
 	set_915resolution($resolution) if is_915resolution_configured();
     }
+    set_default_background($resolution);
     my $resolutions = [ $resolution, @other ];
     $raw_X->set_resolutions($resolutions);
     $resolutions;
