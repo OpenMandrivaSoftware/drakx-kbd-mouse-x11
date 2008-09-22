@@ -1,3 +1,574 @@
+2008-09-11 15:44  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.61
+
+2008-09-11 15:34  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/keyboard.pm: - keyboarddrake:
+	  o fix lithuanian keyboard choices (cf #41031)
+
+2008-09-11 10:41  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
+	  o do set a background image when using resolution "Automatic"
+	  (#43644)
+	  
+	  (thanks to derek at jennings dot homelinux dot net)
+
+2008-09-09 15:00  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: .60
+
+2008-09-09 15:00  Pixel <pixel at mandriva.com>
+
+	* NEWS: add bug number
+
+2008-08-29 13:01  Yukiko Bando <ybando at k6.dion.ne.jp>
+
+	* po/ja.po: Japanese translation updated.
+
+2008-08-26 13:27  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/resolution_and_depth.pm: don't create symlink
+	  /usr/share/mdk/backgrounds/default.png to jpg files
+	  (it's not needed anymore)
+
+2008-08-19 15:45  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/parse.pm, lib/Xconfig/xfree.pm: - XFdrake:
+	  o [bugfix] fix clicking on "Options" when Composite is disabled
+	  (regression introduced in 0.58)
+
+2008-08-18 12:24  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/main.pm: - XFdrake:
+	  o allow xorg.conf to have no "Monitor" section (#42793)
+	  
+	  (XFdrake will no break too much without it :)
+
+2008-08-18 11:12  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.59
+
+2008-08-18 11:11  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
+	  o use 24dpp by default, even on DRI (needed for kde4)
+	  
+	  as requested by qa (damien)
+
+2008-07-31 10:17  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: uk translation update
+
+2008-07-05 23:09  kmashrab
+
+	* po/uz.po: Converted from Uzbek Cyrillic using a proper script.
+
+2008-07-04 08:43  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm: o no need to force
+	  XaaNoOffscreenPixmaps, it is the default now in
+	  x11-server
+
+2008-06-19 00:36  anssi
+
+	* NEWS, lib/Xconfig/proprietary.pm, lib/Xconfig/various.pm: -
+	  XFdrake:
+	  o use nvidia-current default settings for nvidia173 as well
+
+2008-06-13 12:06  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+
+	* po/uk.po: translation update
+
+2008-06-13 07:21  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm: - XFdrake:
+	  o ensure we don't drop non-main "Device" (when modifying
+	  "Options", #41410)
+
+2008-06-09 14:46  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.58
+
+2008-06-09 14:46  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/main.pm, lib/Xconfig/test.pm, lib/Xconfig/various.pm,
+	  tools/XFdrake: o drop support for /etc/X11/XF86Config (replaced
+	  by xorg.conf for some time now)
+
+2008-06-06 07:34  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/xfree.pm: fix last typo
+
+2008-06-06 06:50  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/xfree.pm: fix typo (thanks to pcpa)
+
+2008-06-05 17:32  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: create
+	  set_extension() and use it
+
+2008-06-05 17:30  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: - XFdrake:
+	  o Composite is now the default in xserver 1.4 (#35043)
+
+2008-06-05 17:10  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: create
+	  remove_extension() and use it
+
+2008-06-05 17:03  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/main.pm: it's not XFdrake's task to handle /etc/X11/X
+	  symlink to ../../usr/bin/Xorg (thanks to pcpa)
+
+2008-06-05 17:02  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/xfree.pm: add Section "Extensions" before other
+	  sections (pcpa)
+
+2008-05-04 14:18  nikos
+
+	* po/el.po: greek (el) language update by Dimitris
+
+2008-05-02 16:12  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+
+	* po/ms.po: Updated Malay translation
+
+2008-04-28 08:06  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/mouse.pm: - mousedrake:
+	  o evdev and imwheel handle orthogonal things, so do use imwheel
+	  even if we
+	  need evdev (#40088)
+	  
+	  nb: the tests on logitech mice were ok because of the ubstable
+	  entry
+
+2008-04-14 16:23  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/ro.po: update (Pîrîu Cristian Ionuţ)
+
+2008-04-14 10:43  unho
+
+	* po/gl.po: update translation for galician
+
+2008-04-08 19:43  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2008-04-03 16:20  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Fixed nn translation.
+
+2008-04-02 14:23  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.57
+
+2008-04-02 14:22  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm: - workaround pb with nvidia driver:
+	  make dm restart xserver (#38297)
+
+2008-04-02 14:01  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.56
+
+2008-04-02 13:59  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/various.pm: - XFdrake:
+	  o do not disable RenderAccel on nvidia-current
+	  (regression introduced in 0.21)
+	  
+	  (Anssi gave the proper patch, and i failed miserably, let me dig
+	  the sand with
+	  my head and a pile of brown paper bags...)
+
+2008-03-30 20:05  Arpad Biro <biro_arpad at yahoo.com>
+
+	* po/hu.po: update
+
+2008-03-29 12:50  shiyu
+
+	* po/zh_CN.po: update translation for Chinese Simplified
+
+2008-03-29 12:18  unho
+
+	* po/gl.po: update translation for galician
+
+2008-03-27 10:53  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.55
+
+2008-03-27 10:53  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/various.pm: - XFdrake:
+	  o disable "DynamicTwinView" when not using TwinView (#39171)
+	  
+	  it disables runtime setting of TwinView via nvidia-settings
+	  it helps on Compiz (#39171)
+
+2008-03-25 19:21  Fabian Mandelbaum <fabman at mandriva.com>
+
+	* po/es.po: Updated ES translation
+
+2008-03-25 14:52  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.54
+
+2008-03-25 14:51  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/keyboard.pm: - keyboarddrake library:
+	  o in drakx-finish-install, keyboard is asked after asking
+	  country, so have a
+	  good default based on country too (was done for pt_BR but not
+	  fr_XX)
+	  (#39221)
+
+2008-03-21 13:57  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.53
+
+2008-03-21 13:56  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/various.pm: - XFdrake:
+	  o allow to set "EXA" on "intel" driver (#39162)
+
+2008-03-20 16:33  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.52
+
+2008-03-20 16:32  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/various.pm: - XFdrake:
+	  o add option "Force display mode of DVI" on driver "nvidia"
+	  (#30066)
+
+2008-03-20 13:50  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2008-03-19 13:37  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake library:
+	  o ensure set_default_background() doesn't fail (#39065)
+	  (ie default to 1024x768 if 0x0 is given)
+
+2008-03-19 10:43  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS, lib/Xconfig/monitor.pm: 0.51
+
+2008-03-14 10:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/Makefile: (update_n_merge) split it out of (merge) ; now
+	  (merge) only update po w/o updating main pot file
+
+2008-03-14 10:40  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/de.po: update (Nicolas Bauer)
+
+2008-03-13 14:25  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
+	  o use 24bpp on savage (#38750)
+
+2008-03-11 16:25  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/keyboard.pm: - keyboarddrake:
+	  o default romanian keyboard is qwerty (cf #38450)
+	  o "ro" really is "ro(std_cedilla)"
+	  (to be more standard on unpatched xkeyboard-config)
+	  o "ro(us)" is wrong and not qwerty, use "ro(winkeys)" which is
+	  the only
+	  qwertz from symbols/ro
+
+2008-03-11 13:50  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.50
+
+2008-03-11 13:50  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: - XFdrake
+	  o handle DRIVER2_NO_SSE (from Cards+), needed by nvidia-current
+	  requiring SSE
+
+2008-03-07 00:48  Reinout van Schouwen <reinout at gmail.com>
+
+	* po/nl.po: 2008-03-07 Reinout van Schouwen <reinout@gmail.com>
+	  
+	  - nl.po: Updated Dutch translation
+
+2008-03-01 20:09  nikos
+
+	* po/el.po: update translation for greek language (el)
+
+2008-02-29 16:25  thomas
+
+	* po/fi.po: Update Finnish translation
+
+2008-02-28 17:20  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
+	  o if the EDID gives a valid 16/10 preferred resolution (even if
+	  duplicated),
+	  but no HorizSync/VertRefresh, use a generic flat panel
+	  HorizSync/VertRefresh (needed for edid.lcd.dell-inspiron-6400,
+	  #37971)
+
+2008-02-28 16:58  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS, lib/Xconfig/resolution_and_depth.pm: -
+	  0.49:
+	  - XFdrake: background images are now jpeg files
+
+2008-02-28 11:06  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.48
+
+2008-02-28 11:06  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
+	  o when setting background for the resolution, handle "hour"-based
+	  backgrounds (also add Mandriva.xml symlink)
+
+2008-02-27 15:15  thomas
+
+	* po/sv.po: update Swedish translation
+
+2008-02-27 14:20  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.47
+
+2008-02-27 14:14  Pixel <pixel at mandriva.com>
+
+	* po: ignore *.mo
+
+2008-02-26 15:39  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/da.po: updates
+
+2008-02-23 21:58  Andrea Celli <andrea.celli at libero.it>
+
+	* po/it.po: update translation for Italian
+
+2008-02-22 18:03  Marek Laane <bald at starman.ee>
+
+	* po/et.po: Updated Estonian translation.
+
+2008-02-21 17:07  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
+	  o when setting background for the resolution, handle "hour"-based
+	  backgrounds
+
+2008-02-20 17:10  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/cy.po: update (Rhoslyn Prys)
+
+2008-02-18 22:38  Christophe Berthelé <cpjc at free.fr>
+
+	* po/fr.po: Update fr translation on behalf of fr team
+
+2008-02-18 14:56  Tomasz Bednarski <tbednarski at mandrivalinux.pl>
+
+	* po/pl.po: update translation for Polish
+
+2008-02-18 14:41  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.46
+
+2008-02-18 14:41  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - XFdrake:
+	  o add 1024x600 (used on Samsung Q1Ultra) (#37889)
+
+2008-02-18 00:56  Pjetur G. Hjaltason <pjetur at pjetur.net>
+
+	* po/is.po: 2008.1 update
+
+2008-02-17 22:30  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+
+	* po/cs.po: Update Czech translation.
+
+2008-02-16 13:48  Christophe Berthelé <cpjc at free.fr>
+
+	* po/hu.po: Update hu translation on behalf of hu team
+
+2008-02-16 11:37  Christophe Berthelé <cpjc at free.fr>
+
+	* po/eo.po: Update eo translation on behalf of eo team
+
+2008-02-14 17:18  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+
+	* po/pt_BR.po: updated translation
+
+2008-02-13 14:11  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: Update zh_TW translation
+
+2008-02-06 04:06  Jure Repinc
+
+	* po/sl.po: Updated Slovenian translation
+
+2008-02-05 08:20  Pixel <pixel at mandriva.com>
+
+	* NEWS: add bug number
+
+2008-02-05 08:17  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.45
+
+2008-02-02 22:17  Zé <ze at mandriva.org>
+
+	* po/pt.po: update
+
+2008-02-02 22:13  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+
+	* po/eu.po: Osatuta.
+
+2008-02-02 18:47  Karl Ove Hufthammer <karl at huftis.org>
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2008-02-01 19:25  Dotan Kamber <kamberd at yahoo.com>
+
+	* po/he.po: update translation for Hebrew
+
+2008-02-01 13:50  Pavel Maryanov <acid_jack at ukr.net>
+
+	* po/ru.po: updated translation
+
+2008-01-31 10:41  Thierry Vignaud <tvignaud at mandriva.com>
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
+	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
+	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/uz.po, po/uz@cyrillic.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: sync with code
+
+2008-01-29 10:15  Pixel <pixel at mandriva.com>
+
+	* lib/keyboard.pm: log failing setxkbmap
+
+2008-01-28 15:17  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - XFdrake:
+	  o add 800x480 (used on belinea s.book)
+
+2008-01-25 10:32  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.44
+
+2008-01-25 10:32  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/keyboard.pm: - library for installer:
+	  o do not force "us" keyboard on everybody that choose "English
+	  (American)"
+	  (#36575)
+
+2008-01-23 11:27  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.43
+
+2008-01-23 11:19  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
+	  o if the EDID gives a valid EISA_ID, a valid 16/10 preferred
+	  resolution, but
+	  no HorizSync/VertRefresh, use a generic flat panel
+	  HorizSync/VertRefresh
+	  
+	  reproduced on a Elonex PLC - MSI Notebook PR600, EISA_ID CMO1526
+
+2008-01-23 11:16  Pixel <pixel at mandriva.com>
+
+	* lib/Xconfig/resolution_and_depth.pm, lib/Xconfig/xfree.pm: move
+	  resolution2ratio() to Xconfig::xfree (for next commit)
+
+2008-01-22 16:56  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.42
+
+2008-01-22 16:55  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/mouse.pm: - mousedrake:
+	  o use udev in $PATH instead of /lib/udev/usb_id
+	  (need latest udev pkg)
+
+2008-01-22 16:55  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - use SendCoreEvents instead of
+	  AlwaysCore for wacoms
+	  (needed with new xorg server)
+
+2008-01-21 18:21  Shiva Huang <blueshiva at giga.net.tw>
+
+	* po/zh_TW.po: Update zh_TW translation
+
+2008-01-19 17:50  Pavel Maryanov <acid_jack at ukr.net>
+
+	* po/ru.po: updated translation
+
+2008-01-11 13:02  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
+	  o sort monitors in text mode so that "Generic|..." monitors do
+	  not appear
+	  in the middle of "Vendor|..." monitors
+
+2007-12-16 04:50  Keld Jørn Simonsen <keld at dkuug.dk>
+
+	* po/nb.po: updates
+
+2007-12-14 16:42  Olivier Blin <oblin at mandriva.com>
+
+	* Makefile.config, NEWS: 0.41
+
+2007-12-14 16:41  Olivier Blin <oblin at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: use SendCoreEvents instead of
+	  AlwaysCore for Synaptics touchpads (#36140)
+
+2007-12-14 16:35  Olivier Blin <oblin at mandriva.com>
+
+	* lib/Xconfig/xfree.pm, lib/mouse.pm: drop unused Primary option in
+	  set_synaptics
+
+2007-12-10 08:14  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.40
+
+2007-12-10 08:13  Pixel <pixel at mandriva.com>
+
+	* NEWS, lib/Xconfig/xfree.pm: - XFdrake:
+	  o never write a ModeLine when using fglrx driver (#30934)
+
+2007-12-09 22:26  kmashrab
+
+	* po/uz.po, po/uz@Latn.po, po/uz@cyrillic.po: Renamed Uzbek
+	  translations to follow the libc standard. Aproved by Pixel. For
+	  details, see bug #35090.
+
+2007-12-03 13:10  Pixel <pixel at mandriva.com>
+
+	* lib/xf86misc/Makefile.PL: simplify: -L/usr/X11R6/$lib is not
+	  needed anymore
+
+2007-11-30 15:30  Pixel <pixel at mandriva.com>
+
+	* Makefile.config, NEWS: 0.39
+
 2007-11-01 18:41  anssi
 
 	* Makefile.config, NEWS: 0.38
