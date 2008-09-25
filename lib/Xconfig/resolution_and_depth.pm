@@ -214,7 +214,7 @@ sub configure {
     } else {
 	$resolution = choose($in, $default_resolution, @resolutions) or return;
     }
-    set_resolution($raw_X, $resolution, @resolutions);
+    set_resolution_($raw_X, $monitors, $default_resolution, $resolution, @resolutions);
 }
 
 sub configure_auto_install {
@@ -232,12 +232,17 @@ sub configure_auto_install {
 	($default_resolution, @resolutions) = choices($raw_X, $resolution_wanted, $card, $monitors);
 	$default_resolution or die "you selected an unusable depth";
     }
-    set_resolution($raw_X, $default_resolution, @resolutions);
+    set_resolution($raw_X, $monitors, $default_resolution, @resolutions);
 }
 
 sub set_resolution {
-    my ($raw_X, $resolution, @other) = @_; 
+    my ($raw_X, $monitors, $resolution, @other) = @_; 
+    set_resolution_($raw_X, $monitors, $resolution, $resolution, @other);
+}
+sub set_resolution_ {
+    my ($raw_X, $monitors, $default_resolution, $resolution, @other) = @_; 
 
+    my $PreferredMode;
     if (!$resolution->{automatic}) {
 	my $ratio = Xconfig::xfree::resolution2ratio($resolution, 'non-strict');
 	@other = uniq_ { XxY($_) } @other;
@@ -245,7 +250,21 @@ sub set_resolution {
 	@other = filter_on_ratio($ratio, @other);
 
 	set_915resolution($resolution) if is_915resolution_configured();
+
+	if (XxY($default_resolution) ne XxY($resolution)) {
+	    log::l("setting PreferredMode since wanted resolution (" . XxY($resolution) . ") differs from the default one (" . XxY($default_resolution) . ")");
+	    $PreferredMode = XxY($resolution);
+	}
     }
+    if ($monitors->[0]{PreferredMode} ne $PreferredMode) {
+	if ($PreferredMode) {
+	    $monitors->[0]{PreferredMode} = $PreferredMode;
+	} else {
+	    delete $monitors->[0]{PreferredMode};
+	}
+	$raw_X->set_monitors(@$monitors);
+    }
+
     set_default_background($resolution);
     my $resolutions = [ $resolution, @other ];
     $raw_X->set_resolutions($resolutions);

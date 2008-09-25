@@ -112,7 +112,7 @@ sub configure_chooser_raw {
 		    $prompt_for_resolution->();
 		} else {
 		    Xconfig::screen::configure($raw_X);
-		    $may_set->('resolutions', Xconfig::resolution_and_depth::set_resolution($raw_X, $default_resolution, @other_resolutions));
+		    $may_set->('resolutions', Xconfig::resolution_and_depth::set_resolution($raw_X, $X->{monitors}, $default_resolution, @other_resolutions));
 		}
 	    }
 	}

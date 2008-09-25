@@ -345,7 +345,7 @@ sub set_synaptics {
 ################################################################################
 # monitor ######################################################################
 ################################################################################
-my @monitor_fields = qw(VendorName ModelName HorizSync VertRefresh);
+my @monitor_fields = qw(VendorName ModelName HorizSync VertRefresh PreferredMode);
 sub get_monitors {
     my ($raw_X) = @_;
     my @raw_monitors = $raw_X->get_Sections('Monitor');
@@ -361,6 +361,7 @@ sub set_monitors {
     mapn { 
 	my ($raw_monitor, $monitor) = @_;
 	raw_import_section($raw_monitor, $monitor, \@monitor_fields);
+	$raw_monitor->{PreferredMode}{Option} = 1 if $raw_monitor->{PreferredMode};
 	$raw_monitor->{ModeLine} = $monitor->{ModeLine} if $monitor->{ModeLine};
     } \@raw_monitors, \@monitors;
 }

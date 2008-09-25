@@ -142,7 +142,7 @@ my %kind_names = (
     Pointer  => [ qw(Protocol Device Emulate3Buttons Emulate3Timeout EmulateWheel EmulateWheelButton) ],
     Mouse    => [ qw(DeviceName Protocol Device AlwaysCore Emulate3Buttons Emulate3Timeout EmulateWheel EmulateWheelButton) ], # Subsection in XInput
     Keyboard => [ qw(Protocol Driver XkbModel XkbLayout XkbDisable) ],
-    Monitor  => [ qw(Identifier VendorName ModelName HorizSync VertRefresh) ],
+    Monitor  => [ qw(Identifier VendorName ModelName HorizSync VertRefresh PreferredMode) ],
     Device   => [ qw(Identifier VendorName BoardName Chipset Driver VideoRam Screen BusID DPMS power_saver AccelMethod MonitorLayout TwinViewOrientation BIOSHotkeys RenderAccel SWCursor XaaNoOffscreenPixmaps) ],
     Display  => [ qw(Depth Modes Virtual) ], # Subsection in Device
     Screen   => [ qw(Identifier Driver Device Monitor DefaultDepth DefaultColorDepth) ],
@@ -153,7 +153,7 @@ my %kind_names = (
     WacomEraser => [ qw(Port) ], #-/
     ServerLayout => [ qw(Identifier) ],
 );
-my @want_string = qw(Identifier DeviceName VendorName ModelName BoardName Driver Device Chipset Monitor Protocol XkbModel XkbLayout XkbOptions XkbCompat Load ModulePath BusID);
+my @want_string = qw(Identifier DeviceName VendorName ModelName BoardName Driver Device Chipset Monitor Protocol XkbModel XkbLayout XkbOptions XkbCompat Load ModulePath BusID PreferredMode);
 
 %kind_names = map_each { lc $::a => [ map { lc } @$::b ] } %kind_names;
 @want_string = map { lc } @want_string;
