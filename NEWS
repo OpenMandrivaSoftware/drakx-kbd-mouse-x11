@@ -1,3 +1,5 @@
+Version 0.62 - 25 September 2008
+
 - XFdrake:
   o set "PreferredMode" in Monitor section if the user changes the resolution
    (we still do not use PreferredMode for the default resolution)
