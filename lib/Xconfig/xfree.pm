@@ -384,6 +384,12 @@ sub default_ModeLine() {
     ModeLine_from_string(qq(Section "Monitor"\n) . (our $default_ModeLine) . qq(EndSection\n));
 }
 
+sub XxY {
+    my ($resolution) = @_;
+    $resolution && $resolution->{X} && $resolution->{Y} && 
+      $resolution->{X} . 'x' . $resolution->{Y};
+}
+
 sub xorg_builtin_resolution {
     my ($X, $Y) = @_;
     my $res = $X . 'x' . $Y;
@@ -394,7 +400,7 @@ sub xorg_builtin_resolution {
 
 sub resolution2ratio {
     my ($resolution, $b_non_strict) = @_;
-    my $res = $resolution->{X} . 'x' . $resolution->{Y};
+    my $res = XxY($resolution);
     $res eq '1280x1024' && $b_non_strict ? '4/3' : $Xconfig::xfree::resolution2ratio{$res};
 }
 
