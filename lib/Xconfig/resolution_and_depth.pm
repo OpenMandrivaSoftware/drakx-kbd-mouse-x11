@@ -65,6 +65,8 @@ sub size2default_resolution {
     $monitorSize2resolution{round($size)} || ($size < 13 ? "640x480" : "1600x1200");
 }
 
+sub XxY { &Xconfig::xfree::XxY }
+
 sub to_string {
     my ($resolution) = @_;
     $resolution or return '';
@@ -237,7 +239,7 @@ sub set_resolution {
 
     if (!$resolution->{automatic}) {
 	my $ratio = Xconfig::xfree::resolution2ratio($resolution, 'non-strict');
-	@other = uniq_ { $_->{X} . 'x' . $_->{Y} } @other;
+	@other = uniq_ { XxY($_) } @other;
 	@other = grep { $_->{X} < $resolution->{X} } @other;
 	@other = filter_on_ratio($ratio, @other);
 
