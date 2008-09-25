@@ -201,19 +201,20 @@ sub configure {
 
     my ($default_resolution, @resolutions) = choices($raw_X, $o_resolution || $raw_X->get_resolution, $card, $monitors);
 
+    my $resolution;
     if ($b_auto) {
 	#- use $default_resolution
 	if ($card->{Driver} eq 'fglrx' && !$default_resolution->{automatic}) {
-	    $default_resolution = first(find { $default_resolution->{Y} eq $_->{Y} && $_->{Depth} == 24 }
+	    $resolution = first(find { $default_resolution->{Y} eq $_->{Y} && $_->{Depth} == 24 }
 					$default_resolution, @resolutions);
-	    $default_resolution ||= first(find { $_->{Depth} == 24 } $default_resolution, @resolutions);
+	    $resolution ||= first(find { $_->{Depth} == 24 } $resolution, @resolutions);
 	}
     } elsif ($in->isa('interactive::gtk')) {
-	$default_resolution = choose_gtk($in, $card, $default_resolution, @resolutions) or return;
+	$resolution = choose_gtk($in, $card, $default_resolution, @resolutions) or return;
     } else {
-	$default_resolution = choose($in, $default_resolution, @resolutions) or return;
+	$resolution = choose($in, $default_resolution, @resolutions) or return;
     }
-    set_resolution($raw_X, $default_resolution, @resolutions);
+    set_resolution($raw_X, $resolution, @resolutions);
 }
 
 sub configure_auto_install {
