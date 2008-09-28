@@ -1618,7 +1618,7 @@ msgstr "Test musa"
 #: ../lib/mouse.pm:538
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Vel mustype."
+msgstr "Vel mustype"
 
 #: ../lib/mouse.pm:539
 #, c-format
