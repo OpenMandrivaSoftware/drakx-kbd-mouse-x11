@@ -1,3 +1,5 @@
+Version 0.64 - 1 October 2008
+
 - XFdrake:
   o explicitly Load or Disable module "dri"
     (to be independent of Xorg's default choice)
