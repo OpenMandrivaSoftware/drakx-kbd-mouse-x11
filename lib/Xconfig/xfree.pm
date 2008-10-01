@@ -493,6 +493,12 @@ sub get_modules {
     my $Module = raw_export_section($raw_Module, ['Load']);
     @{$Module->{Load} || []};
 }
+sub get_disabled_modules {
+    my ($raw_X) = @_;
+    my $raw_Module = $raw_X->get_Section('Module') or return;
+    my $Module = raw_export_section($raw_Module, ['Disable']);
+    @{$Module->{Disable} || []};
+}
 sub add_load_module {
     my ($raw_X, $module) = @_;
     my $raw_Module = $raw_X->get_Section('Module') || $raw_X->add_Section('Module', {});
@@ -509,18 +515,39 @@ sub add_load_module {
 				   comment_on_line => $comment && " # $comment",
 				 } if !member($module, $raw_X->get_modules);
 }
+sub add_disable_module {
+    my ($raw_X, $module) = @_;
+    my $raw_Module = $raw_X->get_Section('Module') || $raw_X->add_Section('Module', {});
+
+    push @{$raw_Module->{Disable}}, { val => $module } if !member($module, $raw_X->get_disabled_modules);
+}
 sub remove_load_module {
     my ($raw_X, $module) = @_;
     my $raw_Module = $raw_X->get_Section('Module') or return;
     if (my @l = grep { $_->{val} ne $module } @{$raw_Module->{Load}}) {
 	$raw_Module->{Load} = \@l;
     } else {
-	$raw_X->remove_Section('Module');
+	delete $raw_Module->{Load};
+    }
+}
+sub remove_disable_module {
+    my ($raw_X, $module) = @_;
+    my $raw_Module = $raw_X->get_Section('Module') or return;
+    if (my @l = grep { $_->{val} ne $module } @{$raw_Module->{Disable}}) {
+	$raw_Module->{Disable} = \@l;
+    } else {
+	delete $raw_Module->{Disable};
     }
 }
 sub set_load_module {
     my ($raw_X, $module, $bool) = @_;
-    $bool ? add_load_module($raw_X, $module) : remove_load_module($raw_X, $module);
+    if ($bool) { 
+	remove_disable_module($raw_X, $module);
+	add_load_module($raw_X, $module);
+    } else {
+	remove_load_module($raw_X, $module);
+	add_disable_module($raw_X, $module);
+    }
 }
 
 
