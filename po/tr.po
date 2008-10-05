@@ -12,18 +12,20 @@
 # Durmuş Celep <durmusc_tr@yahoo.com>,2002.
 # Erçin EKER <erc.caldera@gmx.net>, 2003.
 # Taha Özket <taha.ozket@obss.net>, 2007.
+# Atilla ÖNTAŞ <atilla_ontas@mandriva.org>, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: tr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-09-26 16:26+0300\n"
-"Last-Translator: Taha Özket <taha.ozket@obss.net>\n"
-"Language-Team: Turkce <tr@li.org>\n"
+"PO-Revision-Date: 2008-10-05 21:45+0300\n"
+"Last-Translator: Atilla ÖNTAŞ <atilla_ontas@mandriva.org>\n"
+"Language-Team: Turkish <kde-i18n-doc@lists.kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -107,6 +109,8 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"Ekran kartınız için ek özellikler detekleyebilen tescilli bir sürücü mevcut."
+"\n Bunu kullanmak ister misiniz?"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
@@ -114,16 +118,18 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"Tescilli sürücü düzgün şekilde kurulamadı, özgür yazılım sürücüsüne "
+"dönülüyor."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
 msgid "Configure all heads independently"
-msgstr "Tüm kafalar tek tek yapılandırılıyor"
+msgstr "Tüm kafaları ayrı ayrı yapılandır"
 
 #: ../lib/Xconfig/card.pm:393
 #, c-format
 msgid "Use Xinerama extension"
-msgstr "Xinerama genişletmesini kullan"
+msgstr "Xinerama eklentisini kullan"
 
 #: ../lib/Xconfig/card.pm:398
 #, c-format
@@ -134,12 +140,12 @@ msgstr "Sadece \"%s\" %s kartı yapılandırılsın"
 #: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
-msgstr "Özel"
+msgstr "Kişisel"
 
 #: ../lib/Xconfig/main.pm:123
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Grafik kart, monitör ayarları"
+msgstr "Ekran Karı & Monitör Yapılandırması"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -149,7 +155,7 @@ msgstr "Çık"
 #: ../lib/Xconfig/main.pm:126
 #, c-format
 msgid "Graphic Card"
-msgstr "Grafik Kartı"
+msgstr "Ekran Kartı"
 
 #: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
 #, c-format
@@ -166,7 +172,7 @@ msgstr "Çözünürlük"
 #: ../lib/Xconfig/main.pm:135
 #, c-format
 msgid "Test"
-msgstr "Test"
+msgstr "Dene"
 
 #: ../lib/Xconfig/main.pm:140
 #, c-format
@@ -181,7 +187,7 @@ msgstr "Eklentiler"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
+msgstr "Xorg yapılandırmanız bozuk, bunu yok sayacağız."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -197,9 +203,9 @@ msgstr ""
 "%s"
 
 #: ../lib/Xconfig/monitor.pm:115
-#, fuzzy, c-format
+#, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Monitörünüzü seçin"
+msgstr "Kafa #%d için monitörünüzü seçin"
 
 #: ../lib/Xconfig/monitor.pm:115
 #, c-format
@@ -209,7 +215,7 @@ msgstr "Monitörünüzü seçin"
 #: ../lib/Xconfig/monitor.pm:121
 #, c-format
 msgid "Plug'n Play"
-msgstr "Tak Kullan"
+msgstr "Tak ve Kullan"
 
 #: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
 #, c-format
@@ -251,9 +257,9 @@ msgid "Vertical refresh rate"
 msgstr "Dikey tazeleme hızı"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Eklentileri kullan"
+msgstr "Eklentileri seçin"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -329,7 +335,7 @@ msgstr "Yapılandırmanızı denemek ister misiniz?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr "Uyarı: Bu grafik kartı denenilirken makinanız kilitlenebilir"
+msgstr "Uyarı: Bu ekran kartı denenirken makineniz kilitlenebilir"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -355,7 +361,7 @@ msgstr "Ayarlamalar doğru mu?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "3B donanım hızlandırma: %s\n "
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -413,61 +419,60 @@ msgid "Xorg configuration"
 msgstr "Xorg yapılandırması"
 
 #: ../lib/Xconfig/various.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Ekran kartı: %s"
+msgstr "Ekran kartı seçenekleri"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "3B donanım hızlandırma"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Yarı Geçirgenliği Etkinleştir (Kurgulama eklentisi)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Donanım hızlandırmalı fare imleci kullan"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
+"Sunum Hızlandırmayı etkinleştir. (metin gösterilirken hatalara yol açabilir)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Bir dış monitörde ikincil görüntülemeyi etkinleştir"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "İkinci ekranda ikincil görüntülemeyi etkinleştir."
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Dış monitöre geçişte BIOS kısayol tuşu etkinleştir"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "XAA yerine EXA kullan (Sunum ve Kurguda daha çok verimlilik)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Graphical interface at startup"
-msgstr "Açılışta X"
+msgstr "Başlangıçta grafiksel ara birim"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Bilgisayarınız otomatik olarak X'le açılması için ayarlanabilir.\n"
-"Açılışta X Window ile başlamak ister misiniz?"
+msgstr "Başlangıçta otomatik olarak grafiksel ara birimi (Xorg) başlat"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -499,14 +504,14 @@ msgstr "TV kartınız hangi normda ?"
 msgid ""
 "_:weird aspect ratio\n"
 "other"
-msgstr ""
+msgstr "diğer"
 
 #: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
-msgstr "Çek dili (QWERTZ)"
+msgstr "Çekçe (QWERTZ)"
 
 #: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
 #, c-format
@@ -560,7 +565,7 @@ msgstr "Norveççe"
 msgid ""
 "_: keyboard\n"
 "Polish"
-msgstr "Polonezce"
+msgstr "Lehçe"
 
 #: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
 #, c-format
@@ -628,7 +633,7 @@ msgstr "Azerice (latin)"
 msgid ""
 "_: keyboard\n"
 "Belgian"
-msgstr "Belçika dili"
+msgstr "Felemenkçe (Belçika)"
 
 #: ../lib/keyboard.pm:203
 #, c-format
@@ -656,7 +661,7 @@ msgstr "Bulgarca (fonetik)"
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
-msgstr "Bulgaristan"
+msgstr "Bulgarca (BDS)"
 
 #: ../lib/keyboard.pm:207
 #, c-format
@@ -673,11 +678,11 @@ msgid ""
 msgstr "Boşnakça"
 
 #: ../lib/keyboard.pm:209
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr "Boşnakça"
+msgstr "Dzongka/Tibetçe"
 
 #: ../lib/keyboard.pm:210
 #, c-format
@@ -701,11 +706,11 @@ msgid ""
 msgstr "İsveççe (Fransız klavyesi)"
 
 #: ../lib/keyboard.pm:214
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
-msgstr "Arapça"
+msgstr "Çeroke silabikleri"
 
 #: ../lib/keyboard.pm:216
 #, c-format
@@ -743,25 +748,25 @@ msgid ""
 msgstr "Dvoryak dili (US)"
 
 #: ../lib/keyboard.pm:222
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
-msgstr "Dvoryak (Norveççe)"
+msgstr "Dvoryak (Esperanto)"
 
 #: ../lib/keyboard.pm:223
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
-msgstr "Dvoryak (Norveççe)"
+msgstr "Dvoryak (Fransızca)"
 
 #: ../lib/keyboard.pm:224
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
-msgstr "Dvoryak dili (US)"
+msgstr "Dvoryak dili (UK)"
 
 #: ../lib/keyboard.pm:225
 #, c-format
@@ -771,11 +776,11 @@ msgid ""
 msgstr "Dvoryak (Norveççe)"
 
 #: ../lib/keyboard.pm:226
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
-msgstr "Dvoryak dili (İsveçce)"
+msgstr "Dvoryak dili (Lehçe)"
 
 #: ../lib/keyboard.pm:227
 #, c-format
@@ -789,28 +794,28 @@ msgstr "Dvoryak dili (İsveçce)"
 msgid ""
 "_: keyboard\n"
 "Estonian"
-msgstr "Estonya dili"
+msgstr "Estonca"
 
 #: ../lib/keyboard.pm:231
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
-msgstr "Yunanca"
+msgstr "Faorece"
 
 #: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
-msgstr "Gürcüce (Rus klavyesi)"
+msgstr "Gürcüce (\"Rus\" klavyesi)"
 
 #: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
-msgstr "Gürcü dili (Latin klavye)"
+msgstr "Gürcü dili (\"Latin\" klavye)"
 
 #: ../lib/keyboard.pm:236
 #, c-format
@@ -824,7 +829,7 @@ msgstr "Yunanca"
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
-msgstr ""
+msgstr "Yunanca (politonik)"
 
 #: ../lib/keyboard.pm:238
 #, c-format
@@ -845,7 +850,7 @@ msgstr "Gurmukhi"
 msgid ""
 "_: keyboard\n"
 "Croatian"
-msgstr "Krotyan"
+msgstr "Hırvatça"
 
 #: ../lib/keyboard.pm:241
 #, c-format
@@ -859,7 +864,7 @@ msgstr "Macarca"
 msgid ""
 "_: keyboard\n"
 "Irish"
-msgstr "İrlandalı"
+msgstr "İrlandaca"
 
 #: ../lib/keyboard.pm:243
 #, c-format
@@ -915,14 +920,14 @@ msgstr "Japonca 106 tuş"
 msgid ""
 "_: keyboard\n"
 "Kannada"
-msgstr "Kannada"
+msgstr "Kanada"
 
 #: ../lib/keyboard.pm:254
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr "İngiliz (UK) klavye"
+msgstr "Kırgız Türkçesi"
 
 #: ../lib/keyboard.pm:255
 #, c-format
@@ -932,11 +937,11 @@ msgid ""
 msgstr "Kore klavyesi"
 
 #: ../lib/keyboard.pm:257
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
-msgstr "Arapça"
+msgstr "Kürtçe (Arapça)"
 
 #: ../lib/keyboard.pm:258
 #, c-format
@@ -999,7 +1004,7 @@ msgstr "Malayalam"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "Maori"
 
 #: ../lib/keyboard.pm:269
 #, c-format
@@ -1013,7 +1018,7 @@ msgstr "Makedonya dili"
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr "Myanmar (Burmaca"
+msgstr "Myanmar (Burmaca)"
 
 #: ../lib/keyboard.pm:271
 #, c-format
@@ -1041,14 +1046,14 @@ msgstr "Maltaca (US)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "Nijerya"
 
 #: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
-msgstr "Hollanda dili"
+msgstr "Felemenkçe (Hollanda)"
 
 #: ../lib/keyboard.pm:277
 #, c-format
@@ -1072,11 +1077,11 @@ msgid ""
 msgstr "Lehçe (QWERTZ klavye)"
 
 #: ../lib/keyboard.pm:281
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
-msgstr "Polonezce"
+msgstr "Peştuca"
 
 #: ../lib/keyboard.pm:282
 #, c-format
@@ -1125,7 +1130,7 @@ msgstr "Slovence"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "Sinala"
 
 #: ../lib/keyboard.pm:292
 #, c-format
@@ -1153,14 +1158,14 @@ msgstr "Saami (norwegian)"
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
-msgstr ""
+msgstr "Saami (swedish/finnish)"
 
 #: ../lib/keyboard.pm:297
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
-msgstr "Thai klavye"
+msgstr "Sind klavye"
 
 #: ../lib/keyboard.pm:299
 #, c-format
@@ -1205,39 +1210,39 @@ msgid ""
 msgstr "Tamil (daktilo-planı)"
 
 #: ../lib/keyboard.pm:306
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
-msgstr "Thai klavye"
+msgstr "Thai klavye (Kedmanee)"
 
 #: ../lib/keyboard.pm:307
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
-msgstr "Thai klavye"
+msgstr "Thai klavye (TIS-820)"
 
 #: ../lib/keyboard.pm:309
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
-msgstr "Thai klavye"
+msgstr "Thai klavye (Pattachote)"
 
 #: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
+msgstr "Tifinak (fas düzeni) (+latin/arapça)"
 
 #: ../lib/keyboard.pm:312
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr ""
+msgstr "Tifinak (fonetik) (+latin/arapça)"
 
 #: ../lib/keyboard.pm:314
 #, c-format
@@ -1247,11 +1252,11 @@ msgid ""
 msgstr "Tacik klavye"
 
 #: ../lib/keyboard.pm:316
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
-msgstr "Almanca"
+msgstr "Türkmen Türkçesi"
 
 #: ../lib/keyboard.pm:317
 #, c-format
@@ -1275,11 +1280,11 @@ msgid ""
 msgstr "Ukrayna dili"
 
 #: ../lib/keyboard.pm:322
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
-msgstr "Oriya"
+msgstr "Urduca klavye"
 
 #: ../lib/keyboard.pm:324
 #, c-format
@@ -1289,14 +1294,14 @@ msgstr "Amerikan (US) klavye (uluslararası)"
 #: ../lib/keyboard.pm:325
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3  (Tuş başına 3 seviyeli US klavye)"
 
 #: ../lib/keyboard.pm:326
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
-msgstr "Uzbek (cyrillic)"
+msgstr "Özbek Türkçesi (kril)"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1333,9 +1338,9 @@ msgid "CapsLock key"
 msgstr "CapsLock tuşu"
 
 #: ../lib/keyboard.pm:340
-#, fuzzy, c-format
+#, c-format
 msgid "Shift and CapsLock keys simultaneously"
-msgstr "Ctrl ve Alt tuşları birlikte"
+msgstr "CapsLock ve Shift tuşları birlikte"
 
 #: ../lib/keyboard.pm:341
 #, c-format
@@ -1350,7 +1355,7 @@ msgstr "Alt ve Shift tuşları birlikte"
 #: ../lib/keyboard.pm:343
 #, c-format
 msgid "\"Menu\" key"
-msgstr "\"Menu\" tuşu"
+msgstr "\"Menü\" tuşu"
 
 #: ../lib/keyboard.pm:344
 #, c-format
@@ -1375,7 +1380,7 @@ msgstr "İki Alt tuşu birlikte"
 #: ../lib/keyboard.pm:348
 #, c-format
 msgid "Left Shift key"
-msgstr "Sol Shift(BÜYÜKHARF) tuşu"
+msgstr "Sol Shift tuşu"
 
 #: ../lib/keyboard.pm:349
 #, c-format
@@ -1405,7 +1410,7 @@ msgid ""
 "(eg: latin and non latin)"
 msgstr ""
 "Değişik klavye tuş eşlemleri arasında geçiş yapacak tuşu ya da\n"
-"tuş bileşimini burada seçebilirsiniz (örn: Türkçe ile İngilizce arasında)"
+"tuş bileşimini burada seçebilirsiniz.\n (örn: Türkçe ile İngilizce arasında)"
 
 #: ../lib/keyboard.pm:393
 #, c-format
@@ -1419,6 +1424,9 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
+"Bu ayar kurulumdan sonra etkinleştirilecektir.\n Kurulum sırasında, çeşitli "
+"klavye düzenleri arasında geçiş\n yapabilmek için Sağ Kontrol tuşunu "
+"kullanabilirsiniz."
 
 #: ../lib/mouse.pm:25
 #, c-format
@@ -1478,7 +1486,7 @@ msgstr "Sıradan 2 Tuşlu Fare"
 #: ../lib/mouse.pm:48 ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Tekerlek Emülasyonlu Genel 3 tuşlu Fare"
+msgstr "Tekerlek Öykünmeli Genel 3 tuşlu Fare"
 
 #: ../lib/mouse.pm:49
 #, c-format
@@ -1508,7 +1516,7 @@ msgstr "Logitech MouseMan"
 #: ../lib/mouse.pm:60
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr "Tekerlek emülasyonlu Logitech MouseMan"
+msgstr "Tekerlek öykünmeli Logitech MouseMan"
 
 #: ../lib/mouse.pm:61
 #, c-format
@@ -1523,7 +1531,7 @@ msgstr "Logitech CC Series"
 #: ../lib/mouse.pm:64
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr "Tekerlek emülasyonlu Logitech CC Serisi"
+msgstr "Tekerlek öykünmeli Logitech CC Serisi"
 
 #: ../lib/mouse.pm:65
 #, c-format
@@ -1546,14 +1554,14 @@ msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "Logitech Fare (seri, eski C7 türü)"
 
 #: ../lib/mouse.pm:70
-#, fuzzy, c-format
+#, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Logitech Fare (seri, eski C7 türü)"
+msgstr "Tekerlek öykünmeli Logitech Fare (seri, eski C7 türü)"
 
 #: ../lib/mouse.pm:72
-#, fuzzy, c-format
+#, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Kensington Thinking Mouse"
+msgstr "Tekerlek öykünmeli Kensington Thinking Fare"
 
 #: ../lib/mouse.pm:75
 #, c-format
@@ -1573,22 +1581,22 @@ msgstr "3 tuşlu"
 #: ../lib/mouse.pm:80
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "Tekerlek Emülasyonlu 3 tuş"
+msgstr "Tekerlek Öykünmeli 3 tuş"
 
 #: ../lib/mouse.pm:83
 #, c-format
 msgid "Universal"
-msgstr "Ulusal"
+msgstr "Evrensel"
 
 #: ../lib/mouse.pm:85
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr ""
+msgstr "Herhangi PS/2 & USB fare"
 
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "evdev zorla"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1598,7 +1606,7 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Virtualbox faresi"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1613,7 +1621,7 @@ msgstr "Fare yok"
 #: ../lib/mouse.pm:506
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "Fare deneniyor"
 
 #: ../lib/mouse.pm:538
 #, c-format
@@ -1621,9 +1629,9 @@ msgid "Please choose your type of mouse."
 msgstr "Lütfen kullandığınız farenin türünü seçin."
 
 #: ../lib/mouse.pm:539
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse choice"
-msgstr "Elle seçim"
+msgstr "Fare seçimi"
 
 #: ../lib/mouse.pm:555
 #, c-format
@@ -1643,17 +1651,17 @@ msgstr "Farenizin bağlı olduğu seri portu seçiniz."
 #: ../lib/mouse.pm:569
 #, c-format
 msgid "Buttons emulation"
-msgstr "Tuş Emülasyonu"
+msgstr "Tuş öykünmesi"
 
 #: ../lib/mouse.pm:571
 #, c-format
 msgid "Button 2 Emulation"
-msgstr "2. Tuş emülasyonu"
+msgstr "2. Tuş Öykünmesi"
 
 #: ../lib/mouse.pm:572
 #, c-format
 msgid "Button 3 Emulation"
-msgstr "3. Tuş Emülasyonu"
+msgstr "3. Tuş Öykünmesi"
 
 #: ../lib/mouse.pm:623
 #, c-format
@@ -1663,7 +1671,7 @@ msgstr "Lütfen farenizi deneyin"
 #: ../lib/mouse.pm:625
 #, c-format
 msgid "To activate the mouse,"
-msgstr "Fareyi aktif hale getirmek için"
+msgstr "Fareyi etkinleştirmek için,"
 
 #: ../lib/mouse.pm:626
 #, c-format
@@ -1671,7 +1679,7 @@ msgid "MOVE YOUR WHEEL!"
 msgstr "FARENİZİN TEKERİNİ HAREKET ETTİRİN!"
 
 #: ../tools/XFdrake:71
-#, fuzzy, c-format
+#, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "Yeni ayarların etkinleşmesi için sistemi yeniden başlatmalısınız"
 
@@ -1683,27 +1691,27 @@ msgstr "Klavye"
 #: ../tools/keyboarddrake:33
 #, c-format
 msgid "Please, choose your keyboard layout."
-msgstr "Lütfen, klavye yerleşimini seçiniz."
+msgstr "Lütfen, klavye düzenini seçiniz."
 
 #: ../tools/keyboarddrake:34
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
 msgstr "Klavye Düzeni"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Klavye"
+msgstr "Klavye türü"
 
 #: ../tools/keyboarddrake:54
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
-msgstr "Konsolda BackSpace duşunun Silme işlemi yapmasını ister misiniz?"
+msgstr "Konsolda BackSpace tuşunun Silme işlemi yapmasını ister misiniz?"
 
 #: ../tools/mousedrake:44
 #, c-format
 msgid "Mouse test"
-msgstr "Farenin denemesi"
+msgstr "Fare denemesi"
 
 #: ../tools/mousedrake:47
 #, c-format
@@ -1716,3 +1724,4 @@ msgstr "Lütfen farenizi deneyin:"
 
 #~ msgid "Monitor"
 #~ msgstr "Monitör"
+
