@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2008-05-28 18:27+0300\n"
+"PO-Revision-Date: 2008-10-05 21:27+0300\n"
 "Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
 "Language-Team: ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
@@ -23,12 +23,12 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
-msgstr "256 кб"
+msgstr "256 кБ"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
-msgstr "512 кб"
+msgstr "512 кБ"
 
 #: ../lib/Xconfig/card.pm:21
 #, c-format
@@ -397,7 +397,7 @@ msgstr "Графічна плата: %s\n"
 #: ../lib/Xconfig/various.pm:35
 #, c-format
 msgid "Graphics memory: %s kB\n"
-msgstr "Відео пам'ять: %s кб\n"
+msgstr "Відео пам'ять: %s кБ\n"
 
 #: ../lib/Xconfig/various.pm:37
 #, c-format
@@ -1054,7 +1054,7 @@ msgstr "Нігерійська"
 msgid ""
 "_: keyboard\n"
 "Dutch"
-msgstr "Голандська"
+msgstr "Голландська"
 
 #: ../lib/keyboard.pm:277
 #, c-format
@@ -1236,7 +1236,7 @@ msgstr "Тайська (Патачот)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr "Тіфінаг (мароканська розкладка) (+латина/арабська)"
+msgstr "Тіфінаг (марокканська розкладка) (+латина/арабська)"
 
 #: ../lib/keyboard.pm:312
 #, c-format
@@ -1647,7 +1647,7 @@ msgstr "Порт миші"
 #: ../lib/mouse.pm:560
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Виберіть, до якого послідовного порта під'єднано мишу?"
+msgstr "Виберіть, до якого послідовного порту під'єднано мишу?"
 
 #: ../lib/mouse.pm:569
 #, c-format
