@@ -361,7 +361,7 @@ msgstr "Ayarlamalar doğru mu?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr "3B donanım hızlandırma: %s\n "
+msgstr "3B donanım hızlandırma: %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
