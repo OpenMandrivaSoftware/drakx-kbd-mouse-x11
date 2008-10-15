@@ -431,7 +431,7 @@ msgstr "Configuração do Xorg"
 #: ../lib/Xconfig/various.pm:205
 #, c-format
 msgid "Graphic card options"
-msgstr "Opçõos da placa de vídeo"
+msgstr "Opções da placa de vídeo"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
