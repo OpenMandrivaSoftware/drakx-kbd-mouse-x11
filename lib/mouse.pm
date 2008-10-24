@@ -400,13 +400,11 @@ sub set_xfree_conf {
     my @mice = map {
 	{
 	    ($_->{Protocol} eq 'vboxmouse' ? "Driver" : "Protocol") => $_->{Protocol},
-	    Device => "/dev/mouse",
+	    Device => devices::make($_->{device}),
 	    if_($_->{Emulate3Buttons} || $_->{EmulateWheel}, Emulate3Buttons => undef, Emulate3Timeout => 50),
 	    if_($_->{EmulateWheel}, EmulateWheel => undef, EmulateWheelButton => 2),
 	};
     } $mouse;
-
-    devices::symlink_now_and_register($mouse, 'mouse');
 
     if ($mouse->{evdev_mice}) {
 	push @mice, @{$mouse->{evdev_mice}};
@@ -519,16 +517,6 @@ sub test_mouse_install {
     my $r = $w->main;
     Gtk2::Gdk->pointer_ungrab(0);
     $r;
-}
-
-sub test_mouse_standalone {
-    my ($mouse, $hbox) = @_;
-    require ugtk2;
-    ugtk2->import(qw(:wrappers));
-    my $darea = Gtk2::DrawingArea->new;
-    $darea->set_events([ 'button_press_mask', 'button_release_mask' ]);  #$darea must be unrealized.
-    gtkpack($hbox, gtkpack(gtkset_border_width(Gtk2::VBox->new(0, 10), 10), $darea));
-    test_mouse($mouse, $darea);
 }
 
 sub select {

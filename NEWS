@@ -1,3 +1,9 @@
+- mousedrake, XFdrake:
+  o do not use /dev/mouse symlink (in xorg.conf)
+- mousedrake
+  o do not propose to test the chosen mice
+    (it doesn't handle evdev/synaptics and so is quite obsolete nowadays)
+
 Version 0.64 - 1 October 2008
 
 - XFdrake:

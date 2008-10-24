@@ -35,22 +35,6 @@ if (!$mouse || !$::auto) {
 
 mouse::write_conf($in->do_pkgs, $modules_conf, $mouse, 1);
 
-if ($in->isa('interactive::gtk') && mouse::change_mouse_live($mouse, \%old)) {
-
-    require ugtk2;
-    ugtk2->import(qw(:wrappers :create));
-    require mygtk2;
-    mygtk2->import(qw(gtknew));
-    my $w = ugtk2->new(N("Mouse test"));
-    gtkadd($w->{window},
-           gtknew('VBox', spacing => 5, children_loose => [
-                   gtknew('Label', text => N("Please test your mouse:")),
-                   my $test_hbox = gtknew('HBox', spacing => 5),
-		   $w->create_okcancel]));
-    mouse::test_mouse_standalone($mouse, $test_hbox);
-    $w->main or goto begin;
-}
-
 system('service', 'gpm', 'restart') if -e '/var/lock/subsys/gpm';
 
 $in->exit(0);
