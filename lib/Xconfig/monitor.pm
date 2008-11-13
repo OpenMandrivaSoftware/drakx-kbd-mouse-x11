@@ -208,8 +208,8 @@ sub adjust_HorizSync_from_edid {
     
     my ($hmin, $hmax) = $monitor->{HorizSync} =~ /(\d+)-(\d+)/ or return;
     if ($hmin > 45) {
-	log::l("replacing HorizSync $hmin-$hmax with 31.5-$hmax (allow 800x600)");
-	$monitor->{HorizSync} = "31.5-$hmax";
+	log::l("replacing HorizSync $hmin-$hmax with 29.5-$hmax (allow 800x600)");
+	$monitor->{HorizSync} = "29.5-$hmax";
     }
 }
 #- the VertRefresh range is too weird
@@ -314,7 +314,7 @@ sub generic_flat_panel_ {
     {
 	VendorName => 'Generic',
 	ModelName => "Flat Panel ${X}x${Y}",
-	HorizSync => '31.5-' . ($X > 1920 ? '100' : '90'), VertRefresh => '60',
+	HorizSync => '29.5-' . ($X > 1920 ? '100' : '90'), VertRefresh => '60',
 	preferred_resolution => { X => $X, Y => $Y },
     };
 }
