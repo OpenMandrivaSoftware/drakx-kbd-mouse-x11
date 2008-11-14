@@ -214,7 +214,7 @@ sub configure {
     } else {
 	$resolution = choose($in, $default_resolution, @resolutions) or return;
     }
-    set_resolution_($raw_X, $monitors, $default_resolution, $resolution, @resolutions);
+    set_resolution_($raw_X, $card, $monitors, $default_resolution, $resolution, @resolutions);
 }
 
 sub configure_auto_install {
@@ -232,15 +232,15 @@ sub configure_auto_install {
 	($default_resolution, @resolutions) = choices($raw_X, $resolution_wanted, $card, $monitors);
 	$default_resolution or die "you selected an unusable depth";
     }
-    set_resolution($raw_X, $monitors, $default_resolution, @resolutions);
+    set_resolution($raw_X, $card, $monitors, $default_resolution, @resolutions);
 }
 
 sub set_resolution {
-    my ($raw_X, $monitors, $resolution, @other) = @_; 
-    set_resolution_($raw_X, $monitors, $resolution, $resolution, @other);
+    my ($raw_X, $card, $monitors, $resolution, @other) = @_; 
+    set_resolution_($raw_X, $card, $monitors, $resolution, $resolution, @other);
 }
 sub set_resolution_ {
-    my ($raw_X, $monitors, $default_resolution, $resolution, @other) = @_; 
+    my ($raw_X, $card, $monitors, $default_resolution, $resolution, @other) = @_; 
 
     my $PreferredMode;
     if (!$resolution->{automatic}) {
@@ -263,6 +263,10 @@ sub set_resolution_ {
 	    delete $monitors->[0]{PreferredMode};
 	}
 	$raw_X->set_monitors(@$monitors);
+    }
+    if ($card->{Driver} eq 'geode') {
+	$card->{Options}{PanelGeometry} = XxY($resolution);
+	Xconfig::card::to_raw_X($card, $raw_X);	
     }
 
     set_default_background($resolution);
