@@ -41,7 +41,7 @@ sub configure {
     }
     my $head_nb = 1;
     foreach my $monitor (@$monitors) {
-	choose($in, $monitor, @$monitors > 1 ? $head_nb++ : 0, $b_auto) or return;
+	choose($in, $raw_X, $monitor, @$monitors > 1 ? $head_nb++ : 0, $b_auto) or return;
     }
     $raw_X->set_monitors(@$monitors);
     $monitors;
@@ -66,8 +66,10 @@ sub configure_auto_install {
 	configure_automatic($monitor);
     } $monitors, $old_X->{monitors} if $old_X->{monitors};
 
+    my $card_Driver;
     if (!is_valid($monitors->[0])) {
-	put_in_hash($monitors->[0], probe($raw_X->get_Driver));
+	$card_Driver ||= first(Xconfig::card::probe())->{Driver};
+	put_in_hash($monitors->[0], probe($card_Driver));
     }
 
     foreach my $monitor (@$monitors) {
@@ -82,7 +84,7 @@ sub configure_auto_install {
 }
 
 sub choose {
-    my ($in, $monitor, $head_nb, $b_auto) = @_;
+    my ($in, $raw_X, $monitor, $head_nb, $b_auto) = @_;
 
     my $ok = is_valid($monitor);
     if ($b_auto && $ok) {
