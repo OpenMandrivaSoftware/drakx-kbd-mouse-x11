@@ -67,7 +67,7 @@ sub configure_auto_install {
     } $monitors, $old_X->{monitors} if $old_X->{monitors};
 
     if (!is_valid($monitors->[0])) {
-	put_in_hash($monitors->[0], probe($old_X->{card}{Driver}));
+	put_in_hash($monitors->[0], probe($raw_X->get_Driver));
     }
 
     foreach my $monitor (@$monitors) {
