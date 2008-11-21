@@ -97,20 +97,19 @@ sub choose {
 	push @l_monitors, $s;
 	$h_monitors{$s} = $_;
     }
+    $h_monitors{"Plug'n Play"} = {};
 
   ask_monitor:
+    my $merge_name = sub {
+	my ($monitor) = @_;
+	$monitor->{ModelName} ? $monitor->{VendorName} . '|' . $monitor->{ModelName} : $monitor->{VendorName};
+    };
     my $merged_name = do {
-	if ($monitor->{VendorName} eq "Plug'n Play") {
-	    $monitor->{VendorName};
-	} else {
-	    my $merged_name = $monitor->{VendorName} . '|' . $monitor->{ModelName};
-
-	    if (!exists $h_monitors{$merged_name}) {
-		$merged_name = is_valid($monitor) ? 'Custom' : good_default_monitor();
-	    } else {
-		$merged_name;
-	    }
+	my $merged_name = $merge_name->($monitor);
+	if (!exists $h_monitors{$merged_name}) {
+	    $merged_name = is_valid($monitor) ? 'Custom' : good_default_monitor();
 	}
+	$merged_name;
     };
 
     $in->ask_from_({ title => N("_: This is a display device\nMonitor"),
