@@ -224,7 +224,7 @@ sub configure_auto_install {
     if ($old_X->{resolution_wanted} eq 'automatic') {
 	$default_resolution = { automatic => 1 };
     } else {
-	my $resolution_wanted = do {
+	my $resolution_wanted = $old_X->{resolution_wanted} && do {
 	    my ($X, $Y) = split('x', $old_X->{resolution_wanted});
 	    { X => $X, Y => $Y, Depth => $old_X->{default_depth} };
 	};
