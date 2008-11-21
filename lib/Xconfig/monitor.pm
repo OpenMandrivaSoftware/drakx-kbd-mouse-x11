@@ -41,7 +41,7 @@ sub configure {
     }
     my $head_nb = 1;
     foreach my $monitor (@$monitors) {
-	choose($in, $monitor, @$monitors > 1 ? $head_nb++ : 0, $raw_X->get_Driver, $b_auto) or return;
+	choose($in, $monitor, @$monitors > 1 ? $head_nb++ : 0, $b_auto) or return;
     }
     $raw_X->set_monitors(@$monitors);
     $monitors;
@@ -82,7 +82,7 @@ sub configure_auto_install {
 }
 
 sub choose {
-    my ($in, $monitor, $head_nb, $card_Driver, $b_auto) = @_;
+    my ($in, $monitor, $head_nb, $b_auto) = @_;
 
     my $ok = is_valid($monitor);
     if ($b_auto && $ok) {
@@ -127,7 +127,7 @@ sub choose {
 	local $::noauto = 0; #- hey, you asked for plug'n play, so i do probe!
 	delete @$monitor{'VendorName', 'ModelName', 'EISA_ID', 'HorizSync', 'VertRefresh'};
 	if ($head_nb <= 1) {
-	    if (my $probed_info = probe($card_Driver)) {
+	    if (my $probed_info = probe($raw_X->get_Driver)) {
 		put_in_hash($monitor, $probed_info);
 	    } else {
 		log::l("Plug'n Play probing failed, but Xorg may do better");
