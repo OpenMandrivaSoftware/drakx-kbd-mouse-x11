@@ -5,7 +5,7 @@
 # Copyright (c) 2000 Mandriva
 # Niels Gras <niels.gras@wanadoo.nl>, 2000.
 # Jeroen ten Berge <j.ten.berge@twinbit.nl>, 2002.
-# Reinout van Schouwen <reinouts@gnome.org>, 2002-2007
+# Reinout van Schouwen <reinouts@gnome.org>, 2002-2008
 # Peter Bosch <peter.bosch@hccnet.nl>, 2002.
 # Rob Teng <mandrake.tips@free.fr>, 2005.
 # Arno Fleming, 2006.
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2008-03-07 01:47+0100\n"
+"PO-Revision-Date: 2008-11-26 23:34+0100\n"
 "Last-Translator: Reinout van Schouwen <reinouts@gnome.org>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -693,7 +693,7 @@ msgstr "Dzongkha/Tibetaans"
 msgid ""
 "_: keyboard\n"
 "Belarusian"
-msgstr "Belarusiaans"
+msgstr "Wit-Russisch"
 
 #: ../lib/keyboard.pm:211
 #, c-format
