@@ -620,6 +620,22 @@ sub configure_xorg {
 	Xconfig::default::config_keyboard($xfree_conf, $keyboard);
 	$xfree_conf->write;
     }
+    my $hal_dir = "$::prefix/etc/hal/fdi/policy";
+    if (-d $hal_dir) {
+	my $xkb = keyboard::keyboard2full_xkb($keyboard);
+	mkdir "$hal_dir/10osvendor";
+	output("$hal_dir/10osvendor/10-keymap.fdi", sprintf(<<'EOF', $xkb->{XkbLayout}, $xkb->{XkbOptions}));
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<deviceinfo version="0.2">
+  <device>
+    <match key="info.capabilities" contains="input.keys">
+      <merge key="input.xkb.layout" type="string">%s</merge>
+      <merge key="input.xkb.options" type="string">%s</merge>
+    </match>
+  </device>
+</deviceinfo>
+EOF
+    }
 }
 
 sub configure_and_set_standalone {

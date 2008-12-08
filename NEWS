@@ -1,3 +1,6 @@
+- keyboarddrake:
+  o configure hal so Xorg can get xkb info
+    (nb: for now, you must "service haldaemon restart" to be taken into account)
 - XFdrake:
   o generic flat planel must allow "800x480 @ 60.00 Hz (GTF) hsync: 29.82 kHz"
     so "HorizSync 31.5-90" is too strict, generating "HorizSync 29.5-90"
@@ -14,7 +17,6 @@
 - mousedrake
   o do not propose to test the chosen mice
     (it doesn't handle evdev/synaptics and so is quite obsolete nowadays)
-  o 
 
 Version 0.64 - 1 October 2008
 
