@@ -4,7 +4,6 @@
   o have Option "PanelGeometry" "XXxYY" on geode driver
   o do not display the weird ratios 128/75, 85/48 (for 1024x600 and 1360x768)
   o do not load "Type1" module by default (disabled in xserver-1.5.x)
-
 - mousedrake, XFdrake:
   o do not use /dev/mouse symlink (in xorg.conf)
 - mousedrake
