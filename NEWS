@@ -4,11 +4,15 @@
   o have Option "PanelGeometry" "XXxYY" on geode driver
   o do not display the weird ratios 128/75, 85/48 (for 1024x600 and 1360x768)
   o do not load "Type1" module by default (disabled in xserver-1.5.x)
+  o special hack for gdium: the "default monitor" is "Plug'n Play" instead of
+    good_default_monitor() (it will work since the resolution is passed to the
+    kernel on gdium)
 - mousedrake, XFdrake:
   o do not use /dev/mouse symlink (in xorg.conf)
 - mousedrake
   o do not propose to test the chosen mice
     (it doesn't handle evdev/synaptics and so is quite obsolete nowadays)
+  o 
 
 Version 0.64 - 1 October 2008
 

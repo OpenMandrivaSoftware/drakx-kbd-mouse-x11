@@ -17,6 +17,18 @@ sub good_default_monitor() {
       (detect_devices::isLaptop() ? 'Generic|Flat Panel 1024x768' : 'Generic|1024x768 @ 60 Hz');
 }
 
+sub default_monitor {
+    my ($card_Driver) = @_;
+    if ($card_Driver eq 'siliconmotion' && arch() =~ /mips/) {
+	# HACK: since there is no way to get the EDID on gdium, the resolution is passed to the kernel
+	# so we can rely on it
+	{ VendorName => "Plug'n Play" };
+    } else {
+	good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
+	{ VendorName => $1, ModelName => $2 };
+    } 
+}
+
 my @VertRefresh_ranges = ("50-70", "50-90", "50-100", "40-150");
 
 my @HorizSync_ranges = (
@@ -74,8 +86,7 @@ sub configure_auto_install {
 
     foreach my $monitor (@$monitors) {
 	if (!is_valid($monitor)) {
-	    good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
-	    put_in_hash($monitor, { VendorName => $1, ModelName => $2 });
+	    put_in_hash($monitor, default_monitor($card_Driver));
 	    configure_automatic($monitor) or internal_error("good_default_monitor (" . good_default_monitor()  . ") is unknown in MonitorsDB");
 	}
     }
@@ -107,7 +118,8 @@ sub choose {
     my $merged_name = do {
 	my $merged_name = $merge_name->($monitor);
 	if (!exists $h_monitors{$merged_name}) {
-	    $merged_name = is_valid($monitor) ? 'Custom' : good_default_monitor();
+	    $merged_name = is_valid($monitor) ? 'Custom' : 
+	                                        $merge_name->(default_monitor($raw_X->get_Driver));
 	}
 	$merged_name;
     };
