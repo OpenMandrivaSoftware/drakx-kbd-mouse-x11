@@ -71,8 +71,9 @@ sub to_string {
     my ($resolution) = @_;
     $resolution or return '';
 
-    $resolution->{automatic} ? N("Automatic") :
-      $resolution->{X} ? sprintf("%sx%s %dbpp", @$resolution{'X', 'Y', 'Depth'}) : 'frame-buffer';
+    $resolution->{automatic}
+      ? N("Automatic") . ($resolution->{Depth} ? sprintf(" (%dbpp)", $resolution->{Depth}) : '')
+      : $resolution->{X} ? sprintf("%sx%s %dbpp", @$resolution{'X', 'Y', 'Depth'}) : 'frame-buffer';
 }
 
 sub allowed {
@@ -127,11 +128,13 @@ sub filter_using_HorizSync_VertRefresh {
 sub choose {
     my ($in, $default_resolution, @resolutions) = @_;
 
+    my @Depths = uniq(reverse map { $_->{Depth} } @resolutions);
     my $resolution = $default_resolution || {};
     $in->ask_from(N("Resolutions"), "",
 		  [ {
 		     val => \$resolution, type => 'list', sort => 0,
-		     list => [ (sort { $a->{X} <=> $b->{X} } @resolutions), { automatic => 1 } ],
+		     list => [ (sort { $a->{X} <=> $b->{X} } @resolutions), 
+			       (map { { automatic => 1, Depth => $_ } } @Depths) ],
 		     format => \&to_string,
 		    } ]) or return;
     $resolution;
@@ -153,7 +156,7 @@ sub choices {
     $_->{ratio} ||= Xconfig::xfree::resolution2ratio($_) foreach @resolutions;
 
     if ($resolution_wanted->{automatic} || !$resolution_wanted->{X} && !$monitors->[0]{HorizSync}) {
-	return { automatic => 1 }, @resolutions;
+	return { automatic => 1, Depth => $resolution_wanted->{Depth} }, @resolutions;
     }
 
     if ($resolution_wanted->{X} && !$resolution_wanted->{Y}) {
@@ -420,8 +423,6 @@ sub choose_gtk {
 			   format => sub { $_[0]{text} ? translate($_[0]{text}) : &$res2text },
 			   list_ref => \$proposed_resolutions,
 			   changed => sub {
-			       $pix_colors->set_sensitive(!$chosen_res->{automatic});
-			       $depth_combo->set_sensitive(!$chosen_res->{automatic});
 			       if ($chosen_res->{text} eq 'Other') {
 				   undef $chosen_ratio;
 				   $set_proposed_resolutions->($previous_res);
@@ -464,6 +465,7 @@ sub choose_gtk {
     $W->main or return;
 
     if ($chosen_res->{automatic}) {
+	$chosen_res->{Depth} = $chosen_Depth;
 	$chosen_res;
     } else {
 	find { $_->{X} == $chosen_res->{X} && 

@@ -7,6 +7,8 @@
   o special hack for gdium: the "default monitor" is "Plug'n Play" instead of
     good_default_monitor() (it will work since the resolution is passed to the
     kernel on gdium)
+  o there is no reason "automatic" resolution should imply "automatic" color
+    depth
 - mousedrake, XFdrake:
   o do not use /dev/mouse symlink (in xorg.conf)
 - mousedrake
