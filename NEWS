@@ -1,3 +1,5 @@
+Version 0.65 - 8 December 2008
+
 - keyboarddrake:
   o configure hal so Xorg can get xkb info
     (nb: for now, you must "service haldaemon restart" to be taken into account)
