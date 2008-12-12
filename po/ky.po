@@ -1,14 +1,15 @@
-# translation of DrakX-ky.po to Kyrgyz
+# translation of drakx-kbd-mouse-x11 to kirghiz
 # Copyright (C) 2004,2003, 2005 Free Software Foundation, Inc.
 # Timur Jamakeev <ztimur@mail.ru>, 2003,2004.
 # Nurlan Borubaev <nurlan@tamga.info>, 2005.
+# Ilyas Bakirov <just_ilyas@yahoo.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-ky\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2005-04-20 20:27+0500\n"
-"Last-Translator: Nurlan Borubaev <nurlan@tamga.info>\n"
+"PO-Revision-Date: 2008-12-12 17:10+0600\n"
+"Last-Translator: Ilyas Bakirov <just_ilyas@yahoo.com>\n"
 "Language-Team: Kyrgyz\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,17 +93,16 @@ msgstr "Сиздин графикалык картаңыздын эсинин к
 #: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"Сиздин видео картаңыз үчүн мүмкүн кошумча функционалдарды камтыган проприетардык драйверлер табылды.\n"
+"Аларды колдонууну каалайсызбы?"
 
 #: ../lib/Xconfig/card.pm:325
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Проприетардык драйвери орнотулган жок, алдын ала бекер драйвер колдонулуп жатат."
 
 #: ../lib/Xconfig/card.pm:392
 #, c-format
@@ -119,16 +119,17 @@ msgstr "Xinerama кеңейтүүсүн колдонуу"
 msgid "Configure only card \"%s\"%s"
 msgstr "\"%s\"%s картасын гана конфигурациялоо"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88
+#: ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:120
 #, c-format
 msgid "Custom"
 msgstr "Тандама"
 
 #: ../lib/Xconfig/main.pm:123
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Туташууну конфигурациялоо"
+msgstr "Графикалык карта жана монитор ырастоолору"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -140,14 +141,16 @@ msgstr "Чыгуу"
 msgid "Graphic Card"
 msgstr "Графикалык карта"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/monitor.pm:114
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Монитор"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/resolution_and_depth.pm:320
 #, c-format
 msgid "Resolution"
 msgstr "Майдалыгы"
@@ -170,8 +173,7 @@ msgstr "Плагиндер"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
-"Сиздин Xorg конфигурациялоо файлыңыз жабыркаган, биз аны эсепке албайбыз."
+msgstr "Сиздин Xorg конфигурациялоо файлыңыз жабыркаган, биз аны эсепке албайбыз."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -201,7 +203,8 @@ msgstr "Монитор тандаңыз"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:122
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Кадимки"
@@ -214,15 +217,12 @@ msgstr "Өндүрүүчү"
 #: ../lib/Xconfig/monitor.pm:141
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Эки параметр критикалык болуп эсептелет: биринчиси - бүтүндөй экрандын\n"
@@ -245,9 +245,9 @@ msgid "Vertical refresh rate"
 msgstr "Вертикалдык жаңылоо жыштыгы"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Аракет тандоо"
+msgstr "Модулдарды тандаңыз"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -270,7 +270,8 @@ msgid "16 million colors (24 bits)"
 msgstr "16 миллион түс (24 бит)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:311
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Автоматтык"
@@ -280,7 +281,8 @@ msgstr "Автоматтык"
 msgid "Resolutions"
 msgstr "Майдалыгы"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:343
+#: ../lib/mouse.pm:187
 #, c-format
 msgid "Other"
 msgstr "Башка"
@@ -349,7 +351,7 @@ msgstr "Бул параметрлер туурабы?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "3D жабдыктык тездөө: %s\n"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -407,49 +409,49 @@ msgid "Xorg configuration"
 msgstr "Xorg конфигурациясы"
 
 #: ../lib/Xconfig/various.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Видеокарта: %s"
+msgstr "Видео картанын опциялары"
 
 #: ../lib/Xconfig/various.pm:207
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "3D жабдыктык тездөө"
 
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Тунуктукту иштетүү (Composite кеңейтилиши)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Чычкан курсору үчүн жабдыктык тездедүүнү колдонуу"
 
 #: ../lib/Xconfig/various.pm:215
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "RENDER тездетүүнү иштетүү (текст көрсөтүүдө каталарды алып келиши мүмкүн)"
 
 #: ../lib/Xconfig/various.pm:219
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Экран дубликатын тышкы монитордо иштетүү"
 
 #: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Экран дубликатын экинчи монитордо иштетүү"
 
 #: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Тышкы мониторго өтүү үчүн BIOS ыссык клавишасын иштетүү"
 
 #: ../lib/Xconfig/various.pm:226
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "XAA ордуна EXA колдонуу (Render жана Composite үчүн жакшы ылдамдык)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -457,12 +459,9 @@ msgid "Graphical interface at startup"
 msgstr "Система жүктөлүүдөгү графикалык интерфейс"
 
 #: ../lib/Xconfig/various.pm:229
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Мен компьютериңиз жүктөлүп жатканда графикалык интерфейстин (Xorg) болушун "
-"автоматтык түрдө орното алам.\n"
-"Сиз кайра жүктөөдө Xorg ишин баштоосун каалайсызбы?"
+msgstr "Жүктөөдө графикалык интерфейсти (Xorg) автоматтык түрдө баштоо"
 
 #: ../lib/Xconfig/various.pm:241
 #, c-format
@@ -470,8 +469,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -479,8 +477,7 @@ msgstr ""
 "Сиздин видеокартада TV-OUT коннектору бар көрүнөт.\n"
 "Ал кадрлар буферин колдонуп иштөөгө конфигурацияланса болот.\n"
 "\n"
-"Ал үчүн, компьютериңизди жүктөө алдында, видеокартаңызды телевизорго "
-"туташтырыңыз.\n"
+"Ал үчүн, компьютериңизди жүктөө алдында, видеокартаңызды телевизорго туташтырыңыз.\n"
 "Жүктөө учурунда \"TVout\" пунктун тандаңыз.\n"
 "\n"
 "Сизде ушундай мүмкүнчүлүк барбы?"
@@ -497,14 +494,16 @@ msgid ""
 "other"
 msgstr "башка"
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:183
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Чехтик (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:184
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -518,33 +517,38 @@ msgid ""
 "Dvorak"
 msgstr "Дворактык"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Испандык"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Финдик"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Француздук"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid "UK keyboard"
 msgstr "UK ариптергичи"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -558,21 +562,24 @@ msgid ""
 "Polish"
 msgstr "Поляктык"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Орустук"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Шведдик"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard"
 msgstr "US ариптергичи"
@@ -995,7 +1002,7 @@ msgstr "Малайдык"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "Маори"
 
 #: ../lib/keyboard.pm:269
 #, c-format
@@ -1037,7 +1044,7 @@ msgstr "Мальтиялык (США)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "Нигерийдик"
 
 #: ../lib/keyboard.pm:275
 #, c-format
@@ -1121,7 +1128,7 @@ msgstr "Словендик"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "Sinhala"
 
 #: ../lib/keyboard.pm:292
 #, c-format
@@ -1226,14 +1233,14 @@ msgstr "Thai (Pattachote)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
+msgstr "Tifinagh (moroccan layout) (+latin/arabic)"
 
 #: ../lib/keyboard.pm:312
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr ""
+msgstr "Tifinagh (phonetic) (+latin/arabic)"
 
 #: ../lib/keyboard.pm:314
 #, c-format
@@ -1285,7 +1292,7 @@ msgstr "US ариптергичи (эларалык)"
 #: ../lib/keyboard.pm:325
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (клавишанын 3 денгээли менен US-алиптергичи)"
 
 #: ../lib/keyboard.pm:326
 #, c-format
@@ -1400,6 +1407,9 @@ msgid ""
 "allow switching between the different keyboard layouts\n"
 "(eg: latin and non latin)"
 msgstr ""
+"бир нече алиптергич жайгалыштарга өтүү үчүн клавишаны\n"
+"же бир нече клавишалардын комбинацияларын тандап алуу\n"
+"мүмкүн (мисалы: англисче,орусча жана кыргызча)"
 
 #: ../lib/keyboard.pm:393
 #, c-format
@@ -1413,21 +1423,24 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
+"Азыркы ырастоолор системанын орнотулушунан кийин иштейт.\n"
+"Орнотуу мезгилинде бир нече алиптергич жайгалыштары арасында\n"
+"өтүү үчүн «Оң Control» клавишасын колдонуңуз."
 
 #: ../lib/mouse.pm:25
 #, c-format
 msgid "Sun - Mouse"
-msgstr ""
+msgstr "Sun чычканы"
 
 #: ../lib/mouse.pm:31
 #, c-format
 msgid "Standard"
-msgstr ""
+msgstr "Стандарттык"
 
 #: ../lib/mouse.pm:32
 #, c-format
 msgid "Logitech MouseMan+"
-msgstr ""
+msgstr "Logitech MouseMan+"
 
 #: ../lib/mouse.pm:33
 #, c-format
@@ -1437,14 +1450,16 @@ msgstr "Кадимки дөңгөлөктүү PS2 чычканы"
 #: ../lib/mouse.pm:34
 #, c-format
 msgid "GlidePoint"
-msgstr ""
+msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1454,22 +1469,26 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
 msgstr "1 баскыч"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Кадимки 2 баскычтуу чычкан"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Кадимки 3 баскычтуу чычкан; дөңгөлөктү эмуляциялоо менен"
@@ -1542,8 +1561,7 @@ msgstr "Logitech Mouse (удаалаш, эски C7 тибиндеги)"
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr ""
-"Logitech Mouse (удаалаш, эски C7 тибиндеги); дөңгөлөктү эмуляциялоо менен"
+msgstr "Logitech Mouse (удаалаш, эски C7 тибиндеги); дөңгөлөктү эмуляциялоо менен"
 
 #: ../lib/mouse.pm:72
 #, c-format
@@ -1583,7 +1601,7 @@ msgstr "Бардык PS/2 & USB чычканы"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "evdev зордуктап баштоо"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1593,7 +1611,7 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox чычканы"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1608,7 +1626,7 @@ msgstr "Чычкан түзүлүшү жок"
 #: ../lib/mouse.pm:506
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "Чычканды текшерүү"
 
 #: ../lib/mouse.pm:538
 #, c-format
@@ -1633,7 +1651,7 @@ msgstr "Чычкан порту"
 #: ../lib/mouse.pm:560
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr ""
+msgstr "Чычкандын туташкан портту көрсөтүңүз."
 
 #: ../lib/mouse.pm:569
 #, c-format
@@ -1666,7 +1684,7 @@ msgid "MOVE YOUR WHEEL!"
 msgstr "ДӨҢГӨЛӨКТҮ КЫЙМЫЛГА КЕЛТИРИҢИЗ!"
 
 #: ../tools/XFdrake:71
-#, fuzzy, c-format
+#, c-format
 msgid "You need to reboot for changes to take effect"
 msgstr "Өзгөртүүлөр ишке кирши үчүн системаны кайра жүктөөңүз керек"
 
@@ -1681,14 +1699,14 @@ msgid "Please, choose your keyboard layout."
 msgstr "Алиптактаңыздын жайгашуу тартибин тандаңыз."
 
 #: ../tools/keyboarddrake:34
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
-msgstr "Алипкарта: %s\n"
+msgstr "Алиптергич жайгалышы"
 
 #: ../tools/keyboarddrake:42
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Алиптергич"
+msgstr "Алиптергич тиби"
 
 #: ../tools/keyboarddrake:54
 #, c-format
@@ -1708,3 +1726,4 @@ msgstr "Чычканыңызды текшериңиз:"
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr ""
 #~ "Plug'n Play изилдөөсүнүн ийгиликсиздиги. Тийиштүү туура монитор тандаңыз"
+
