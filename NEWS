@@ -1,6 +1,8 @@
 - keyboarddrake:
   o do not configure hal directly, but write in /etc/sysconfig/keyboard Xkb
     information so hal can get them
+  o new option "--migrate" which adds Xkb information in
+    /etc/sysconfig/keyboard
   o correctly handle default XkbModel
     (so that we do not force pc105 when we should not)
 

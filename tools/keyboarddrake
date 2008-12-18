@@ -20,6 +20,9 @@ my $keyboard = keyboard::read_or_default();
 if (my ($kb) = grep { !/^-/ } @ARGV) {
     keyboard::KEYBOARD2text($kb) or die "bad keyboard $kb\n";
     $keyboard->{KEYBOARD} = $kb;
+} elsif (grep { $_ eq '--migrate' } @ARGV) {
+    keyboard::write($keyboard);
+    exit 0;
 } else {
     $ugtk2::wm_icon = "/usr/share/mcc/themes/default/keyboard-mdk.png";
     $in = 'interactive'->vnew('su');
