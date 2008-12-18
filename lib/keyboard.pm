@@ -523,6 +523,16 @@ sub parse_xkb_rules() {
     \%l;
 }
 
+sub default_XkbModel {
+    my ($keyboard) = @_;
+
+    my $Layout = keyboard2xkb($keyboard);
+
+    (arch() =~ /sparc/ ? 'sun' :
+       $Layout eq 'jp' ? 'jp106' : 
+       $Layout eq 'br' ? 'abnt2' : 'pc105');
+}
+
 sub keyboard2full_xkb {
     my ($keyboard) = @_;
 
@@ -531,10 +541,7 @@ sub keyboard2full_xkb {
 	$Layout = join(',', 'us', $Layout);
     }
 
-    my $Model = $keyboard->{XkbModel} ||
-      (arch() =~ /sparc/ ? 'sun' :
-	$Layout eq 'jp' ? 'jp106' : 
-	$Layout eq 'br' ? 'abnt2' : 'pc105');
+    my $Model = $keyboard->{XkbModel} || default_XkbModel($keyboard);
 
     my $Options = join(',', 
 	if_($keyboard->{GRP_TOGGLE}, "grp:$keyboard->{GRP_TOGGLE}", 'grp_led:scroll'),

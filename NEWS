@@ -1,3 +1,7 @@
+- keyboarddrake:
+  o correctly handle default XkbModel
+    (so that we do not force pc105 when we should not)
+
 Version 0.65 - 8 December 2008
 
 - keyboarddrake:
