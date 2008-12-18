@@ -26,11 +26,9 @@ if (my ($kb) = grep { !/^-/ } @ARGV) {
 
     my ($xkb_models, $model2text) = keyboard::xkb_models();
     s/ /|/ foreach values %$model2text;
-    my $default_XkbModel;
-    if (!$keyboard->{XkbModel}) {
-	$default_XkbModel = 1;
-	$keyboard->{XkbModel} = keyboard::default_XkbModel($keyboard);
-    }
+    my $default_XkbModel = keyboard::default_XkbModel($keyboard);
+    $keyboard->{XkbModel} ||= $default_XkbModel;
+    my $is_default_XkbModel = $keyboard->{XkbModel} eq $default_XkbModel;
 
   choose:
     $in->ask_from(N("Keyboard"),
@@ -43,7 +41,7 @@ if (my ($kb) = grep { !/^-/ } @ARGV) {
 		      list => [ keyboard::KEYBOARDs() ],
 		      type => 'list',
 		      changed => sub {
-			  if ($default_XkbModel) {
+			  if ($is_default_XkbModel) {
 			      $keyboard->{XkbModel} = keyboard::default_XkbModel($keyboard);
 			  }
 		      },
@@ -54,7 +52,7 @@ if (my ($kb) = grep { !/^-/ } @ARGV) {
 		    { val => \$keyboard->{XkbModel},
 		      format => sub { $model2text->{$_[0]} },
 		      separator => '|',
-		      changed => sub { $default_XkbModel = 0 },
+		      changed => sub { $is_default_XkbModel = 0 },
 		      list => $xkb_models },
 		]) or goto end;
 
