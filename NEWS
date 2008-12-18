@@ -1,3 +1,5 @@
+Version 0.66 - 18 December 2008
+
 - keyboarddrake:
   o do not configure hal directly, but write in /etc/sysconfig/keyboard Xkb
     information so hal can get them
