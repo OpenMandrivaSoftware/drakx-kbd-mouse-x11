@@ -1,6 +1,8 @@
 - keyboarddrake:
   o correctly handle default XkbModel
     (so that we do not force pc105 when we should not)
+  o do not configure hal directly, but write in /etc/sysconfig/keyboard Xkb
+    information so hal can get them
 
 Version 0.65 - 8 December 2008
 
