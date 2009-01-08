@@ -1,3 +1,6 @@
+- mousedrake:
+  o synaptics driver in now in package x11-driver-input-synaptics (#45531)
+
 Version 0.66 - 18 December 2008
 
 - keyboarddrake:

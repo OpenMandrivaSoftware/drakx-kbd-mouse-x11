@@ -437,7 +437,7 @@ sub various_xfree_conf {
     }
     
     my @pkgs = (
-	if_($mouse->{synaptics}, 'synaptics'),
+	if_($mouse->{synaptics}, 'x11-driver-input-synaptics'),
 	if_($mouse->{evdev_mice}, 'x11-driver-input-evdev'),
 	if_($mouse->{Protocol} eq 'vboxmouse', 'x11-driver-input-vboxmouse'),
 	if_($mouse->{imwheel}, 'imwheel'),
