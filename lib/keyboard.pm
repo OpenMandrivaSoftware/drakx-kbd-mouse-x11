@@ -604,7 +604,7 @@ sub write {
     log::l("keyboard::write $keyboard->{KEYBOARD}");
 
     $keyboard = { %$keyboard };
-    add2hash($keyboard, keyboard2full_xkb($keyboard));
+    put_in_hash($keyboard, keyboard2full_xkb($keyboard));
     delete $keyboard->{unsafe};
     $keyboard->{KEYTABLE} = keyboard2kmap($keyboard);
 
