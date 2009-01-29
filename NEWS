@@ -1,3 +1,7 @@
+- XFdrake:
+  o use option -noAutoAddDevices when testing X
+    (useful during installation, #47237)
+
 Version 0.68 - 28 January 2008
 
 - keyboarddrake:
