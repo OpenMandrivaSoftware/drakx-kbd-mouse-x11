@@ -19,7 +19,6 @@ my $in = 'interactive'->vnew('su');
 
 my $modules_conf = modules::any_conf->read;
 
-begin:
 my $mouse = mouse::read();
 my %old = %$mouse;
 
