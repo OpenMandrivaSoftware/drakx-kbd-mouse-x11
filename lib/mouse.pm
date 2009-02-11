@@ -437,14 +437,14 @@ sub various_xfree_conf {
     }
   
     my $inputdrvpath = '/usr/lib/xorg/modules/input';
-    my @pkgs = [
+    my $pkgs = [
 	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
 	if_($mouse->{evdev_mice}, ['x11-driver-input-evdev', "$inputdrvpath/evdev_drv.so"]),
 	if_($mouse->{Protocol} eq 'vboxmouse', ['x11-driver-input-vboxmouse', "$inputdrvpath/vboxmouse_drv.so"]),
 	if_($mouse->{imwheel}, ['imwheel', "/usr/bin/imwheel"]),
 	if_(@{$mouse->{wacom}}, ['linuxwacom', "$inputdrvpath/wacom_drv.so"]),
     ];
-    $do_pkgs->ensure_files_are_installed(@pkgs, 1) if @pkgs;
+    $do_pkgs->ensure_files_are_installed($pkgs, 1);
 
     if ($mouse->{imwheel}) {
 	my $rc = "/etc/X11/imwheel/imwheelrc.$mouse->{imwheel}";
