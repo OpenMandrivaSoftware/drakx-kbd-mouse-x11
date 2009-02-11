@@ -1,3 +1,7 @@
+- mousedrake:
+  o test if the file is there before trying to install the packages, that saves 
+    a rpm -q in harddrake service after adding/removing/changing a mouse
+
 Version 0.69 - 29 January 2008
 
 - XFdrake:
