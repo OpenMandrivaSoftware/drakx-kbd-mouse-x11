@@ -1,5 +1,4 @@
-# translation of nb.po to dansk
-# translation of nb.po to Norwegian Bokmål
+# translation of nb.po to
 # KTranslator Generated File
 # Translation file of Mandriva Linux graphic install
 # Copyright (C) 1999 Mandriva
@@ -18,13 +17,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2007-12-16 05:49+0100\n"
-"Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
-"Language-Team: dansk <dansk@dansk-gruppen.dk>\n"
+"PO-Revision-Date: 2009-03-05 22:42+0100\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:19
@@ -1725,19 +1724,5 @@ msgstr "Musetest"
 #: ../tools/mousedrake:47
 #, c-format
 msgid "Please test your mouse:"
-msgstr "Test musa di:"
+msgstr "Vær vennlig å teste musa di:"
 
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Plug'n Play-søking mislykket. Velg riktig skjerm"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Skjermoppløsningen brukt er muligens ikke riktig. \n"
-#~ "\n"
-#~ "Hvis ditt skrivebord ser ut til å strekke seg forbi kantene på skjermen, "
-#~ "så kan installasjon av %s muligens hjelpe til med å fikse problemet. "
-#~ "Installer det nå?"
