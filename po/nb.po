@@ -25,6 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Language: nb_NO\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -112,12 +113,12 @@ msgstr ""
 "Ønsker du å bruke den?"
 
 #: ../lib/Xconfig/card.pm:325
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"Den proprietære drivaren ble ikke ordentlig installert. Bruker derfor den "
+"Den proprietære driveren ble ikke ordentlig installert. Bruker derfor den "
 "frie driveren."
 
 #: ../lib/Xconfig/card.pm:392
@@ -245,8 +246,8 @@ msgstr ""
 "som som oppfrisker hele skjermen, og mest viktig den horisontale \n"
 "sync-raten, som er raten som scanlinjer blir vist.\n"
 "\n"
-"Det et VELDIG VIKTIG at du ikke spesifiserer en monitor-type med et sync-"
-"område\n"
+"Det et VELDIG VIKTIG at du ikke spesifiserer en monitor-type med et "
+"sync-område\n"
 "som er utenfor det monitoren din er i stand til å klare: Du kan skade "
 "skjermen din.\n"
 " Hvis du er usikker, velg en konservativ innstilling."
@@ -1722,7 +1723,6 @@ msgid "Mouse test"
 msgstr "Musetest"
 
 #: ../tools/mousedrake:47
-#, c-format
+#, fuzzy, c-format
 msgid "Please test your mouse:"
-msgstr "Vær vennlig å teste musa di:"
-
+msgstr "Vær vennlig å teste musen di:"
