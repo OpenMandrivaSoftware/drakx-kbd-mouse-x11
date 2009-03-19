@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "POT-Creation-Date: 2008-01-31 11:40+0100\n"
-"PO-Revision-Date: 2009-03-05 22:42+0100\n"
+"PO-Revision-Date: 2009-03-19 19:57+0100\n"
 "Last-Translator: \n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr ""
 "Ønsker du å bruke den?"
 
 #: ../lib/Xconfig/card.pm:325
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
@@ -1615,7 +1615,7 @@ msgstr "Microsoft Xbox-kontroller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox-mus"
 
 #: ../lib/mouse.pm:91
 #, c-format
@@ -1723,6 +1723,7 @@ msgid "Mouse test"
 msgstr "Musetest"
 
 #: ../tools/mousedrake:47
-#, fuzzy, c-format
+#, c-format
 msgid "Please test your mouse:"
 msgstr "Vær vennlig å teste musen di:"
+
