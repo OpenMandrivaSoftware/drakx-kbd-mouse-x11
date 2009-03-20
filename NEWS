@@ -1,4 +1,5 @@
 - mousedrake:
+  o configure input driver as 'vmmouse' if running in vmware (#29106)
   o test if the file is there before trying to install the packages, that saves 
     a rpm -q in harddrake service after adding/removing/changing a mouse
 

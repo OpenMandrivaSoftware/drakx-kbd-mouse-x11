@@ -86,6 +86,7 @@ sub all_mice() {
      [ 7, 'ps/2', 'ExplorerPS/2', N_("Force evdev") ], #- evdev is magically handled in mouse::select()
      if_(detect_devices::is_xbox(), [ 5, 'ps/2', 'IMPS/2', N_("Microsoft Xbox Controller S") ]),
      if_(detect_devices::is_virtualbox(), [ 7, 'ps/2', 'vboxmouse', N_("VirtualBox mouse") ]),
+     if_(detect_devices::is_vmware(), [ 7, 'ps/2', 'vmmouse', N_("VMware mouse") ]),
    ] ],
 
  N_("none") =>
@@ -345,6 +346,8 @@ sub detect {
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
     if (detect_devices::is_virtualbox()) {
 	fullname2mouse("Universal|VirtualBox mouse");
+    } elsif (detect_devices::is_vmware()) {
+	fullname2mouse("Universal|VMware mouse");
     } elsif (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
 	my @synaptics = map {
 	    { ALPS => $_->{ALPS} };
