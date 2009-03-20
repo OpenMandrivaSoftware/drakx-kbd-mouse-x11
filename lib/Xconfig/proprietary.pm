@@ -90,7 +90,7 @@ sub may_use_Driver2 {
     if ($card2->{Driver} eq 'nvidia') {
 	$check_drv->('nvidia_drv', "nvidia$card2->{DriverVersion}") or return;
 
-	my $libglx_path = Xconfig::card::modules_dir() . "/extensions/nvidia$card2->{DriverVersion}";
+	my $libglx_path = "/usr/$lib/nvidia$card2->{DriverVersion}/xorg";
 	-e "$::prefix$libglx_path/libglx.so" or log::l("special NVIDIA libglx missing"), return;
 
 	log::explanations("Using specific NVIDIA driver and GLX extensions");
