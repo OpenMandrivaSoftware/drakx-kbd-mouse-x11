@@ -5,19 +5,19 @@
 - XFdrake:
   o adapt for recent changes in proprietary driver alternatives
 
-Version 0.69 - 29 January 2008
+Version 0.69 - 29 January 2009
 
 - XFdrake:
   o use option -noAutoAddDevices when testing X
     (useful during installation, #47237)
 
-Version 0.68 - 28 January 2008
+Version 0.68 - 28 January 2009
 
 - keyboarddrake:
   o bug fix: overwrite previous /etc/sysconfig/keyboard Xkb information when
     changing keyboard
 
-Version 0.67 - 8 January 2008
+Version 0.67 - 8 January 2009
 
 - mousedrake:
   o synaptics driver in now in package x11-driver-input-synaptics (#45531)
