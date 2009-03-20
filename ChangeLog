@@ -1,3 +1,282 @@
+2009-03-20 18:55  
+
+	* NEWS, lib/Xconfig/proprietary.pm: - XFdrake:
+	  o adapt for recent changes in proprietary driver alternatives
+
+2009-03-20 14:38  
+
+	* lib/mouse.pm: (various_xfree_conf) install
+	  'x11-driver-input-vmmouse' if needed
+
+2009-03-20 14:34  
+
+	* NEWS, lib/mouse.pm: (detect) configure input driver as 'vmmouse'
+	  if running in vmware (#29106)
+	  (needs drakxtools >= 12.17)
+
+2009-03-19 18:57  
+
+	* po/nb.po: update for Norwegian Bokmål translation
+
+2009-03-18 13:10  
+
+	* po/nb.po: update for Norwegian Bokmål translation
+
+2009-03-13 14:15  
+
+	* po/nb.po: update for Norwegian Bokmål translation
+
+2009-03-12 22:16  
+
+	* po/ro.po: Minor revision of Romanian translation
+
+2009-02-11 17:57  
+
+	* lib/mouse.pm: small fix noticed by pixel's eagle eye
+
+2009-02-11 14:54  
+
+	* NEWS, lib/mouse.pm: mousedrake: test if the file is there before
+	  trying to install the packages
+
+2009-02-08 14:45  
+
+	* po/el.po: update translation for greek language
+
+2009-02-04 11:18  
+
+	* tools/mousedrake: begin label is now unused (since mouse test has
+	  been removed)
+
+2009-01-29 17:58  
+
+	* Makefile.config, NEWS: 0.69
+
+2009-01-29 17:57  
+
+	* NEWS, lib/Xconfig/test.pm: - XFdrake:
+	  o use option -noAutoAddDevices when testing X
+	  (useful during installation, #47237)
+	  
+	  nb: this works if x11-server has patch
+	  Add-noAutoAddDevices-command-line-option.patch
+
+2009-01-28 15:24  
+
+	* Makefile.config, NEWS: 0.68
+
+2009-01-28 15:24  
+
+	* NEWS, lib/keyboard.pm: - keyboarddrake:
+	  o bug fix: overwrite previous /etc/sysconfig/keyboard Xkb
+	  information when
+	  changing keyboard
+
+2009-01-08 11:26  
+
+	* Makefile.config, NEWS: 0.67
+
+2009-01-08 11:25  
+
+	* NEWS, lib/mouse.pm: - mousedrake:
+	  o synaptics driver in now in package x11-driver-input-synaptics
+	  (#45531)
+
+2009-01-07 09:53  
+
+	* po/pl.po: update translation for Polish
+
+2008-12-18 14:47  
+
+	* Makefile.config, NEWS: 0.66
+
+2008-12-18 14:47  
+
+	* NEWS, tools/keyboarddrake: o new option "--migrate" which adds
+	  Xkb information in
+	  /etc/sysconfig/keyboard
+
+2008-12-18 14:43  
+
+	* tools/keyboarddrake: enhance "correctly handle default XkbModel"
+	  commit
+
+2008-12-18 14:41  
+
+	* NEWS, lib/keyboard.pm: - keyboarddrake:
+	  o do not configure hal directly, but write in
+	  /etc/sysconfig/keyboard Xkb
+	  information so hal can get them
+
+2008-12-18 14:29  
+
+	* NEWS: - keyboarddrake:
+	  o do not configure hal directly, but write in
+	  /etc/sysconfig/keyboard Xkb
+	  information so hal can get them
+	  
+	  (nb: this goes with commit 250540)
+
+2008-12-18 14:27  
+
+	* NEWS, lib/keyboard.pm, tools/keyboarddrake: - keyboarddrake:
+	  o correctly handle default XkbModel
+	  (so that we do not force pc105 when we should not)
+	  
+	  (nb: this is not very important nowadays because XkbModel is
+	  deprecated with
+	  evdev, but hell, it's easy to fix :)
+
+2008-12-12 11:12  
+
+	* po/ky.po: update translation for kirghiz language
+
+2008-12-08 12:04  
+
+	* Makefile.config, NEWS: 0.65
+
+2008-12-08 12:03  
+
+	* NEWS, lib/keyboard.pm: - keyboarddrake:
+	  o configure hal so Xorg can get xkb info
+	  (nb: for now, you must "service haldaemon restart" to be taken
+	  into account)
+
+2008-12-08 09:59  
+
+	* NEWS, lib/Xconfig/resolution_and_depth.pm, lib/Xconfig/xfree.pm:
+	  - XFdrake
+	  o there is no reason "automatic" resolution should imply
+	  "automatic" color
+	  depth
+
+2008-12-08 09:57  
+
+	* NEWS, lib/Xconfig/monitor.pm: - XFdrake
+	  o special hack for gdium: the "default monitor" is "Plug'n Play"
+	  instead of
+	  good_default_monitor() (it will work since the resolution is
+	  passed to the
+	  kernel on gdium)
+
+2008-12-08 09:52  
+
+	* NEWS: fix formatting
+
+2008-12-02 11:27  
+
+	* NEWS, lib/Xconfig/default.pm: (configure) do not load "Type1"
+	  module by default (disabled in xserver-1.5.x)
+
+2008-11-26 22:34  
+
+	* po/nl.po: Fix translation of 'Belarussian' (thanks to Kristof
+	  Bal)
+
+2008-11-21 17:08  
+
+	* lib/Xconfig/monitor.pm: move things (prepare next commit)
+
+2008-11-21 17:05  
+
+	* lib/Xconfig/monitor.pm: fix 2 previous commits:
+	  - $raw_X->get_Driver can't be used in auto_installs since monitor
+	  is
+	  configured first
+	  - $raw_X is now needed in choose()
+
+2008-11-21 16:32  
+
+	* lib/Xconfig/monitor.pm: simplify
+
+2008-11-21 16:31  
+
+	* lib/Xconfig/monitor.pm: fix passing xorg "Driver" for monitor
+	  probe (for auto_installs)
+
+2008-11-21 16:19  
+
+	* lib/Xconfig/resolution_and_depth.pm: if {resolution_wanted} is
+	  not set in auto_install, don't have
+	  { 'X' => undef, 'Depth' => undef, 'Y' => undef } as the
+	  $resolution_wanted
+
+2008-11-14 10:09  
+
+	* NEWS, lib/Xconfig/xfree.pm: - XFdrake
+	  o do not display the weird ratios 128/75, 85/48 (for 1024x600 and
+	  1360x768)
+
+2008-11-14 07:44  
+
+	* NEWS, lib/Xconfig/main.pm, lib/Xconfig/resolution_and_depth.pm: -
+	  XFdrake:
+	  o have Option "PanelGeometry" "XXxYY" on geode driver
+
+2008-11-13 16:19  
+
+	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
+	  o generic flat planel must allow "800x480 @ 60.00 Hz (GTF) hsync:
+	  29.82 kHz"
+	  so "HorizSync 31.5-90" is too strict, generating "HorizSync
+	  29.5-90"
+	  
+	  (especially useful when the resolution is given by dmitable)
+
+2008-11-11 13:47  
+
+	* po/ru.po: updated Russian translation
+
+2008-10-24 12:38  
+
+	* NEWS, lib/mouse.pm, tools/mousedrake: - mousedrake:
+	  o do not use /dev/mouse symlink (in xorg.conf)
+	  o do not propose to test the chosen mice
+	  (it doesn't handle evdev/synaptics and so is quite obsolete
+	  nowadays)
+
+2008-10-15 13:17  
+
+	* po/pt_BR.po: Fixing a typo
+
+2008-10-07 18:47  
+
+	* po/tr.po: update translation for turkish language
+
+2008-10-05 18:46  
+
+	* po/tr.po: update translation for turkish language
+
+2008-10-05 06:47  
+
+	* po/uk.po: small typos in ukrainian translation
+
+2008-10-01 13:57  
+
+	* Makefile.config, NEWS: 0.64
+
+2008-10-01 13:57  
+
+	* NEWS, lib/Xconfig/parse.pm, lib/Xconfig/xfree.pm: - XFdrake:
+	  o explicitly Load or Disable module "dri"
+	  (to be independent of Xorg's default choice)
+
+2008-09-29 23:35  
+
+	* Makefile.config: 0.63
+
+2008-09-29 23:34  
+
+	* NEWS: 0.63
+
+2008-09-29 23:33  
+
+	* ChangeLog: Generated by cvs2cl the 30_Sep
+
+2008-09-28 06:35  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
 2008-09-28 06:35  Karl Ove Hufthammer <karl at huftis.org>
 
 	* po/nn.po: Updated Norwegian Nynorsk translation.
