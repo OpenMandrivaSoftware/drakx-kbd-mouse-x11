@@ -218,6 +218,24 @@ sub configure_auto_install {
 	}
     }
 
+    my ($boot_xdriver) = cat_("/proc/cmdline") =~ /.*\bxdriver=(\S+)/;
+
+    $options->{freedriver} = 1 if $boot_xdriver eq 'free';
+
+    if (!$card->{Driver} && $boot_xdriver && !member($boot_xdriver, 'auto', 'free')) {
+	log::explanations("using driver $boot_xdriver from kernel command line");
+	$card = {
+	    Driver => $boot_xdriver,
+	    description => "Set by boot parameter",
+	    VendorName => "Custom",
+	    BoardName => "Set by boot parameter",
+	};
+	if ($force_driver =~ /^(nvidia.|fglrx)/) {
+	    $card->{Driver} = "vesa";
+	    $card->{Driver2} = $boot_xdriver;
+	}
+    }
+
     if (!$card->{Driver}) {
 	my @cards = probe();
 	my ($choice) = multi_head_choices($old_X->{Xinerama}, @cards);
