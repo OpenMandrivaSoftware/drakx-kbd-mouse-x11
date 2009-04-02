@@ -2,6 +2,7 @@
   o add support for xdriver=DRIVER kernel boot option that affects
     non-interactive device autodetection, e.g. One boot
     (special value xdriver=free disables proprietary drivers)
+  o add nouveau driver into the driver list
 
 Version 0.70 - 20 March 2009
 
