@@ -1,3 +1,5 @@
+Version 0.71 - 2 April 2009
+
 - XFdrake:
   o add support for xdriver=DRIVER kernel boot option that affects
     non-interactive device autodetection, e.g. One boot
