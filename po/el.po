@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11_2008-01-09\n"
 "POT-Creation-Date: 2007-09-25 21:53+0200\n"
-"PO-Revision-Date: 2009-02-08 15:44+0100\n"
+"PO-Revision-Date: 2009-04-06 19:14+0200\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
-"Language-Team: Greek <i18ngr@lists.hellug.gr  >\n"
+"Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -427,7 +427,7 @@ msgstr "3D επιτάχυνση συσκευής"
 #: ../lib/Xconfig/various.pm:209
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr "Ενεργοποίηση της Translucency (επέκταση Composite)"
+msgstr "Ενεργοποίηση της διαφάνειας (επέκταση Composite)"
 
 #: ../lib/Xconfig/various.pm:212
 #, c-format
