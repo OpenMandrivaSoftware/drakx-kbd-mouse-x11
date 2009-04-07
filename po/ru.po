@@ -1,6 +1,6 @@
 # Translation of drakx-kbd-mouse-x11 messages to Russian
 # Copyright (C) 1999-2006 Mandriva
-# Pavel Maryanov <acid_jack@ukr.net>, 2002, 2003, 2005, 2006, 2007, 2008.
+# Pavel Maryanov <acid_jack@ukr.net>, 2002-2009.
 # Alice Lafox <alice@lafox.com.ua>, 2003.
 # Alice Lafox <alice@lafox.net>, 2004, 2005.
 # Alexander Kuzmenkov <rc@mezon.ru>, 2007.
@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-11-11 15:46+0200\n"
+"PO-Revision-Date: 2009-04-07 15:10+0200\n"
 "Last-Translator: Pavel Maryanov <acid_jack@ukr.net>\n"
 "Language-Team: Russian <gnu@mx.ru>\n"
 "MIME-Version: 1.0\n"
@@ -93,19 +93,15 @@ msgstr "Укажите объём памяти вашей видеокарты"
 #: ../lib/Xconfig/card.pm:315
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Для вашей видеокарты доступны проприетарные драйверы, которые могут "
-"обеспечить дополнительные функциональные возможности.\n"
+"Для вашей видеокарты доступны проприетарные драйверы, которые могут обеспечить дополнительные функциональные возможности.\n"
 "Хотите использовать их?"
 
 #: ../lib/Xconfig/card.pm:342
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
 msgstr "Проприетарный драйвер не был установлен, используется свободный."
 
 #: ../lib/Xconfig/card.pm:409
@@ -123,7 +119,8 @@ msgstr "Использовать расширение Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Настроить только карту \"%s\"%s"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88
+#: ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:133
 #, c-format
 msgid "Custom"
@@ -144,14 +141,16 @@ msgstr "Выход"
 msgid "Graphic Card"
 msgstr "Видеокарта"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:127
+#: ../lib/Xconfig/main.pm:129
+#: ../lib/Xconfig/monitor.pm:127
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Монитор"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:385
+#: ../lib/Xconfig/main.pm:132
+#: ../lib/Xconfig/resolution_and_depth.pm:385
 #, c-format
 msgid "Resolution"
 msgstr "Разрешение"
@@ -204,7 +203,8 @@ msgstr "Выберите монитор"
 msgid "Plug'n Play"
 msgstr "Plug'n'Play"
 
-#: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:135
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Обычный"
@@ -217,15 +217,12 @@ msgstr "Производитель"
 #: ../lib/Xconfig/monitor.pm:154
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Критическими являются два параметра: частота обновления по вертикали,\n"
@@ -273,7 +270,8 @@ msgid "16 million colors (24 bits)"
 msgstr "16 миллионов цветов (24 бита)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:376
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Автоматический"
@@ -283,7 +281,8 @@ msgstr "Автоматический"
 msgid "Resolutions"
 msgstr "Разрешения"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:408 ../lib/mouse.pm:188
+#: ../lib/Xconfig/resolution_and_depth.pm:408
+#: ../lib/mouse.pm:188
 #, c-format
 msgid "Other"
 msgstr "Другие"
@@ -326,8 +325,7 @@ msgstr "Хотите протестировать настройки?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Предупреждение: тестирование этой видеокарты может подвесить ваш компьютер"
+msgstr "Предупреждение: тестирование этой видеокарты может подвесить ваш компьютер"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -433,9 +431,7 @@ msgstr "Использовать для курсора мыши аппаратн
 #: ../lib/Xconfig/various.pm:231
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Включить ускорение RENDER (это может привести к проблемам с отображением "
-"текста)"
+msgstr "Включить ускорение RENDER (это может привести к проблемам с отображением текста)"
 
 #: ../lib/Xconfig/various.pm:235
 #, c-format
@@ -450,7 +446,7 @@ msgstr "Включить дублирование экрана на втором
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Принудительно включить вывод на DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -460,9 +456,7 @@ msgstr "Включить горячие клавиши BIOS для перекл�
 #: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Использовать EXA вместо XAA (улучшенная производительность для Render и "
-"Composite)"
+msgstr "Использовать EXA вместо XAA (улучшенная производительность для Render и Composite)"
 
 #: ../lib/Xconfig/various.pm:247
 #, c-format
@@ -472,8 +466,7 @@ msgstr "Графический интерфейс при загрузке"
 #: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Автоматический запускать графический интерфейс (Xorg) во время загрузки"
+msgstr "Автоматический запускать графический интерфейс (Xorg) во время загрузки"
 
 #: ../lib/Xconfig/various.pm:260
 #, c-format
@@ -481,8 +474,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -490,8 +482,7 @@ msgstr ""
 "Похоже, что у вашей видеокарты имеется разъём TV-OUT.\n"
 "Он может быть настроен для работы с использованием видеобуфера.\n"
 "\n"
-"Для этого сначала подключите видеокарту к телевизору перед загрузкой "
-"компьютера.\n"
+"Для этого сначала подключите видеокарту к телевизору перед загрузкой компьютера.\n"
 "А затем выберите пункт \"TVout\" в начальном загрузчике.\n"
 "\n"
 "Есть у вас этот разъем?"
@@ -508,14 +499,16 @@ msgid ""
 "other"
 msgstr "другое"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:186
+#: ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Чешская (QWERTZ)"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -529,33 +522,38 @@ msgid ""
 "Dvorak"
 msgstr "Дворака"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Испанская"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Финская"
 
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191
+#: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Французская"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "UK клавиатура"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -569,21 +567,24 @@ msgid ""
 "Polish"
 msgstr "Польская"
 
-#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:195
+#: ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Русская"
 
-#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196
+#: ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Шведская"
 
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:197
+#: ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "US клавиатура "
@@ -960,11 +961,11 @@ msgid ""
 msgstr "Лаосская"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Иранская"
+msgstr "Литовская"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1435,12 +1436,14 @@ msgstr "Стандартная мышь PS2 с колесиком"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1450,22 +1453,26 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:45
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "1 button"
 msgstr "1 кнопка"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Стандартная мышь с 2-я кнопками"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Стандартная трёхкнопочная мышь с эмуляцией ролика"
@@ -1591,9 +1598,9 @@ msgid "VirtualBox mouse"
 msgstr "Мышь VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Мышь отсутствует"
+msgstr "Мышь VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1699,33 +1706,26 @@ msgstr "Хотите, чтобы клавиша BackSpace в консоли во
 #~ "_: keyboard\n"
 #~ "Lithuanian AZERTY (old)"
 #~ msgstr "Литовская AZERTY (старая)"
-
 #~ msgid ""
 #~ "_: keyboard\n"
 #~ "Lithuanian AZERTY (new)"
 #~ msgstr "Литовская AZERTY (новая)"
-
 #~ msgid ""
 #~ "_: keyboard\n"
 #~ "Lithuanian \"number row\" QWERTY"
 #~ msgstr "Литовская \"числовой ряд\" QWERTY"
-
 #~ msgid ""
 #~ "_: keyboard\n"
 #~ "Lithuanian \"phonetic\" QWERTY"
 #~ msgstr "Литовская \"фонетическая\" QWERTY"
-
 #~ msgid "Mouse test"
 #~ msgstr "Тест мыши"
-
 #~ msgid "Please test your mouse:"
 #~ msgstr "Протестируйте свою мышь:"
-
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr ""
 #~ "Исследование Plug'n'Play завершилось неудачей. Пожалуйста, выберите "
 #~ "соответствующий монитор"
-
 #~ msgid ""
 #~ "The display resolution being used may not be correct. \n"
 #~ "\n"
@@ -1736,3 +1736,4 @@ msgstr "Хотите, чтобы клавиша BackSpace в консоли во
 #~ "\n"
 #~ "Если рабочий стол вылезает за пределы экрана, \n"
 #~ "установка %s может устранить эту проблему. Установить его сейчас?"
+
