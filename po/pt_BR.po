@@ -468,7 +468,7 @@ msgstr "Habilitar display duplicado no segundo display"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Forçar modo de display DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -1102,13 +1102,13 @@ msgstr ""
 "Laociano"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
 msgstr ""
 "_: teclado\n"
-"Iraniano"
+"Lituano"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1823,9 +1823,9 @@ msgid "VirtualBox mouse"
 msgstr "Mouse VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Vários"
+msgstr "Mouse VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
