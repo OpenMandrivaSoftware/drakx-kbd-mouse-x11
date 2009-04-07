@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-fr\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-18 23:38+0100\n"
+"PO-Revision-Date: 2009-04-07 12:44+0200\n"
 "Last-Translator: Christophe Berthelé <cpjc@free.fr>\n"
 "Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -1031,11 +1031,11 @@ msgid ""
 msgstr "Laotien"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iranien"
+msgstr "Lituanien"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1662,9 +1662,9 @@ msgid "VirtualBox mouse"
 msgstr "Souris VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Pas de souris"
+msgstr "Souris VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
