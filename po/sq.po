@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX for MDK 9.2\n"
-"POT-Creation-Date: 2008-01-31 11:40+0100\n"
+"POT-Creation-Date: 2009-04-07 12:42+0200\n"
 "PO-Revision-Date: 2004-09-15 13:33+0200\n"
 "Last-Translator: Naim Daka <naim70@freesurf.ch>\n"
 "Language-Team: Albanian <LL@li.org>\n"
@@ -59,22 +59,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB ose më shumë"
 
-#: ../lib/Xconfig/card.pm:169
+#: ../lib/Xconfig/card.pm:167
 #, c-format
 msgid "X server"
 msgstr "Server Xorg"
 
-#: ../lib/Xconfig/card.pm:170
+#: ../lib/Xconfig/card.pm:168
 #, c-format
 msgid "Choose an X server"
 msgstr "Zgjedheni një server X (server Xorg)"
 
-#: ../lib/Xconfig/card.pm:201
+#: ../lib/Xconfig/card.pm:199
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Konfigurimi i multi-ekraneve"
 
-#: ../lib/Xconfig/card.pm:202
+#: ../lib/Xconfig/card.pm:200
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -83,12 +83,12 @@ msgstr ""
 "Sistemi juaj mund të përdore konfigurimin multi head.\n"
 "Çka dëshironi të beni?"
 
-#: ../lib/Xconfig/card.pm:273
+#: ../lib/Xconfig/card.pm:289
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Zgjedheni medhësinë e memorisë e kartelës tuaj grafike"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:315
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -96,30 +96,30 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:342
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:392
+#: ../lib/Xconfig/card.pm:409
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Konfigurimi i ekraneve veqmas"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:410
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Përdore çfaqjesin në më shumë ekrane (Xinerama)"
 
-#: ../lib/Xconfig/card.pm:398
+#: ../lib/Xconfig/card.pm:415
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Konfiguroje vetëm kartelën \"%s\"%s"
 
 #: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:120
+#: ../lib/Xconfig/monitor.pm:133
 #, c-format
 msgid "Custom"
 msgstr "Personalizim"
@@ -139,14 +139,14 @@ msgstr "Braktise"
 msgid "Graphic Card"
 msgstr "Kartela Grafike"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:127
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitori"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:385
 #, c-format
 msgid "Resolution"
 msgstr "Vendosmëria"
@@ -184,32 +184,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/monitor.pm:128
 #, fuzzy, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Zgjedheni një monitor"
 
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Choose a monitor"
 msgstr "Zgjedheni një monitor"
 
-#: ../lib/Xconfig/monitor.pm:121
+#: ../lib/Xconfig/monitor.pm:134
 #, c-format
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Përgjithshëm"
 
-#: ../lib/Xconfig/monitor.pm:123
+#: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Vendor"
 msgstr "Shitës"
 
-#: ../lib/Xconfig/monitor.pm:141
+#: ../lib/Xconfig/monitor.pm:154
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -234,12 +234,12 @@ msgstr ""
 "Që mund ta dëmtoj.\n"
 " Në rast të dyshimit zgjedheni një rregullim më të ulët pa rrezik."
 
-#: ../lib/Xconfig/monitor.pm:148
+#: ../lib/Xconfig/monitor.pm:161
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Frekuencë horizontale freskuese"
 
-#: ../lib/Xconfig/monitor.pm:149
+#: ../lib/Xconfig/monitor.pm:162
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Frekuencë vertikale freskuese"
@@ -269,43 +269,43 @@ msgstr "65 mijë ngjyra (16 bits)"
 msgid "16 million colors (24 bits)"
 msgstr "16 milion ngjyra (24 bits)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:75
+#: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Në menyrë automatike"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:129
+#: ../lib/Xconfig/resolution_and_depth.pm:135
 #, c-format
 msgid "Resolutions"
 msgstr "Vendosmërit"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:408 ../lib/mouse.pm:188
 #, c-format
 msgid "Other"
 msgstr "Tjetër"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:460
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Zgjedhe vendosmërin dhe thellësin e numrit të ngjyrave"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:398
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Kartelë grafike: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Cancel"
 msgstr "Anulo"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Help"
 msgstr "Ndihmë"
@@ -402,69 +402,74 @@ msgstr "Vendosmëria: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Pilot Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:204
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Xorg configuration"
 msgstr "Konfigurimi i Xorg"
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:221
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "Kartelë grafike: %s"
 
-#: ../lib/Xconfig/various.pm:207
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "3D hardware acceleration"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:209
+#: ../lib/Xconfig/various.pm:225
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:215
+#: ../lib/Xconfig/various.pm:231
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:235
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:220
+#: ../lib/Xconfig/various.pm:236
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:223
+#: ../lib/Xconfig/various.pm:239
+#, c-format
+msgid "Force display mode of DVI"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:242
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:226
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:228
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interfaci grafike në nisje"
 
-#: ../lib/Xconfig/various.pm:229
+#: ../lib/Xconfig/various.pm:248
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "A dëshironi që intefac grafik (Xorg) të niset automatikisht\n"
 "gjatë nisjes së kompjuterit?"
 
-#: ../lib/Xconfig/various.pm:241
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -484,915 +489,894 @@ msgstr ""
 "\n"
 "A e posedoni këtë fuksion?"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Cilat norma përdorë televizori juaj?"
 
-#: ../lib/Xconfig/xfree.pm:791
+#: ../lib/Xconfig/xfree.pm:833
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
 "other"
 msgstr ""
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Çeke (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German"
 msgstr "Gjermane"
 
-#: ../lib/keyboard.pm:185
+#: ../lib/keyboard.pm:188
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak"
 msgstr "Dvorake"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Spanjollisht"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Finlandisht"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Fragjisht"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "tastierë Angleze"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Norwegian"
 msgstr "Norvegjisht"
 
-#: ../lib/keyboard.pm:191
+#: ../lib/keyboard.pm:194
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish"
 msgstr "Polonishte"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Rusishtë"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Suedisht"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "tastierë e SHBA-ës"
 
-#: ../lib/keyboard.pm:196
+#: ../lib/keyboard.pm:199
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
 msgstr "Shqipe"
 
-#: ../lib/keyboard.pm:197
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (old)"
 msgstr "Armenishte (vjetër)"
 
-#: ../lib/keyboard.pm:198
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
 msgstr "Armenishte (makinë shtypëse)"
 
-#: ../lib/keyboard.pm:199
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
 msgstr "Armenishte (fonetic)"
 
-#: ../lib/keyboard.pm:200
+#: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
 msgstr "Arabe"
 
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
 msgstr "Azerbeigjan (latine)"
 
-#: ../lib/keyboard.pm:202
+#: ../lib/keyboard.pm:205
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
 msgstr "Belgjik"
 
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
 msgstr "Bengali (disponibilitet \"Inscript\")"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
 msgstr "Bengali (disponibilitet \"Probhat\")"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
 msgstr "Bulgarishte (fonetik)"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
 msgstr "Bulgarishte (BDS)"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
 msgstr "Brazilishte (ABNT-2)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
 msgstr "Boshjake"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:212
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
 msgstr "Boshjake"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
 msgstr "Beloruse"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
 msgstr "Zvicërrane (gjermanishte)"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
 msgstr "Zvicërrane (frangjishte)"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:217
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
 msgstr "Arabe"
 
-#: ../lib/keyboard.pm:216
+#: ../lib/keyboard.pm:219
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
 msgstr "Çeke (QWERTY)"
 
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
 msgstr "Gjermanishte (pa çelësa të vdekur)"
 
-#: ../lib/keyboard.pm:219
+#: ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
 msgstr "Devanagari"
 
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:223
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
 msgstr "Danishte"
 
-#: ../lib/keyboard.pm:221
+#: ../lib/keyboard.pm:224
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
 msgstr "Dvorak (SHBA)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:225
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
 msgstr "Dvorak (Norvegjishte)"
 
-#: ../lib/keyboard.pm:223
+#: ../lib/keyboard.pm:226
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
 msgstr "Dvorak (Norvegjishte)"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:227
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
 msgstr "Dvorak (SHBA)"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "Dvorak (Norvegjishte)"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:229
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
 msgstr "Dvorak (Suedishte)"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
 msgstr "Dvorak (Suedishte)"
 
-#: ../lib/keyboard.pm:228
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
 msgstr "Estonisht"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:234
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr "Greqishtë"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
 msgstr "Gjeorgjishte (disponibilitet \"Ruse\")"
 
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
 msgstr "Gjeorgjishte (disponibilitet \"Latine\")"
 
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
 msgstr "Greqishtë"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr "Grekë (polytonic)"
 
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
 msgstr "Gujarati"
 
-#: ../lib/keyboard.pm:239
+#: ../lib/keyboard.pm:242
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
 msgstr "Gurmuki"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
 msgstr "Kroatishtë"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
 msgstr "Hungarishtë"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr "Irlandeze"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
 msgstr "Inuktitut"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
 msgstr "Izraelisht"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
 msgstr "Izraelisht (fonetik)"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
 msgstr "Iranisht"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
 msgstr "Islandisht"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:251
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
 msgstr "Italiane"
 
-#: ../lib/keyboard.pm:252
+#: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
 msgstr "Japonishtë me 106 kopsa"
 
-#: ../lib/keyboard.pm:253
+#: ../lib/keyboard.pm:256
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
 msgstr "Kanada"
 
-#: ../lib/keyboard.pm:254
+#: ../lib/keyboard.pm:257
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
 msgstr "tastierë Angleze"
 
-#: ../lib/keyboard.pm:255
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "Tastiere Koreane"
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:260
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "Arabe"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "Latino-Amerikane"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "Laotien"
 
-#: ../lib/keyboard.pm:261
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian AZERTY (old)"
-msgstr "Lituanisë AZERTY (e vjetër)"
-
-#: ../lib/keyboard.pm:263
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian AZERTY (new)"
-msgstr "Lituanisë AZERTY (e re)"
-
 #: ../lib/keyboard.pm:264
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
-"Lithuanian \"number row\" QWERTY"
-msgstr "Lituanisë \"vijë e numrave\" QWERTY"
+"Lithuanian"
+msgstr "Iranisht"
 
 #: ../lib/keyboard.pm:265
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian \"phonetic\" QWERTY"
-msgstr "Lituanisë \"fonetik\" Lituanisë"
-
-#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "Latvien"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "Malajalam"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr ""
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "Maqedone"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "Myanmar (Burmese)"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "Mongolishte (qirilicë)"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "Maltë (UK)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "Maltë (US)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr ""
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "Holandisht"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "Orija"
 
-#: ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "Polonishte (qwerty)"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "Polonishte (qwertz)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:280
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "Polonishte"
 
-#: ../lib/keyboard.pm:282
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "Portugeze"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "Kanadeze (Kebek)"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "Romainshte (qwertz)"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "Romainshte (qwerty)"
 
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "Rusishtë (fonetik)"
 
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "Sllovene"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr ""
 
-#: ../lib/keyboard.pm:292
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "Slovakishte (QWERTZ)"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "Slovakishte (QWERTY)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "Saami (norvegjishte)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr "Saami (suedisht/finish)"
 
-#: ../lib/keyboard.pm:297
+#: ../lib/keyboard.pm:296
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
 msgstr "Tastiera Tajlandeze"
 
-#: ../lib/keyboard.pm:299
+#: ../lib/keyboard.pm:298
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "Serbe (qirilicë)"
 
-#: ../lib/keyboard.pm:300
+#: ../lib/keyboard.pm:299
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "Siriak"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "Siriak (fonetic)"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "Telugu"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "Tamile (ISCII-layout)"
 
-#: ../lib/keyboard.pm:305
+#: ../lib/keyboard.pm:304
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "Tamile (makinë shtypëse)"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:305
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "Tastiera Tajlandeze"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:306
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "Tastiera Tajlandeze"
 
-#: ../lib/keyboard.pm:309
+#: ../lib/keyboard.pm:308
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "Tastiera Tajlandeze"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:310
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:312
+#: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:314
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "Tastiera Tajike"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:315
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "Gjermane"
 
-#: ../lib/keyboard.pm:317
+#: ../lib/keyboard.pm:316
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
 msgstr "Turke (model tradicionel \"F\")"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
 msgstr "Turke (model modern \"Q\""
 
-#: ../lib/keyboard.pm:320
+#: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "Ukrahinës"
 
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:321
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "Orija"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard (international)"
 msgstr "Tastiera e SHBA-ës (internacional)"
 
-#: ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr ""
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "Uzbek (qirilicë)"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "Vietnamisht \"kolonë numerike\" QWERTY"
 
-#: ../lib/keyboard.pm:329
+#: ../lib/keyboard.pm:328
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "Jugoslave (latine)"
 
-#: ../lib/keyboard.pm:336
+#: ../lib/keyboard.pm:335
 #, c-format
 msgid "Right Alt key"
 msgstr "Çelësi Alt djathtas"
 
-#: ../lib/keyboard.pm:337
+#: ../lib/keyboard.pm:336
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "Të Dyja Kopsat Shift njëkohshëm"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Çelësat e njëkohshëm Control dhe Shift"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "CapsLock key"
 msgstr "Kopsa CapsLock (shkronja të mëdha shtypi)"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:339
 #, fuzzy, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Çelësat e njëkohshëm Ctrl dhe Alt"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Çelësat e njëkohshëm Ctrl dhe Alt"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Çelësat e njëkohshëm Alt dhe Shift"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "\"Menu\" key"
 msgstr "Çelësi \"Menu\""
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "Çelësi \"Windows\" majtas"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "Çelësi \"Windows\" djathtas"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "Të Dyja kopsat Kontrol njëkohshëm"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "Të Dyja kopsat njëkohësish Alt"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Left Shift key"
 msgstr "Kopsa Shift e Majtë"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:348
 #, c-format
 msgid "Right Shift key"
 msgstr "Çelësi Shift Djathtas"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:349
 #, c-format
 msgid "Left Alt key"
 msgstr "Kopsa Alt e Majtë"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Control key"
 msgstr "Kopsë e Majtë Kontroluese"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:351
 #, c-format
 msgid "Right Control key"
 msgstr "Çelësi Kontrollues Djathtas"
 
-#: ../lib/keyboard.pm:388
+#: ../lib/keyboard.pm:387
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1403,12 +1387,12 @@ msgstr ""
 "ka mundësi të kalojë në tipe të ndryshme të tastierave\n"
 "(shembull: mes latin dhe jo latin)"
 
-#: ../lib/keyboard.pm:393
+#: ../lib/keyboard.pm:392
 #, c-format
 msgid "Warning"
 msgstr "Kujdes"
 
-#: ../lib/keyboard.pm:394
+#: ../lib/keyboard.pm:393
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1599,73 +1583,78 @@ msgstr "Microsoft Explorer"
 msgid "VirtualBox mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:91
+#: ../lib/mouse.pm:89
+#, fuzzy, c-format
+msgid "VMware mouse"
+msgstr "Ndryshimet"
+
+#: ../lib/mouse.pm:92
 #, c-format
 msgid "none"
 msgstr "asnjë"
 
-#: ../lib/mouse.pm:93
+#: ../lib/mouse.pm:94
 #, c-format
 msgid "No mouse"
 msgstr "Asnjë min"
 
-#: ../lib/mouse.pm:506
+#: ../lib/mouse.pm:510
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:538
+#: ../lib/mouse.pm:532
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Ju lutemi zgjedheni tipin e minit tuaj."
 
-#: ../lib/mouse.pm:539
+#: ../lib/mouse.pm:533
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "manuelë"
 
-#: ../lib/mouse.pm:555
+#: ../lib/mouse.pm:549
 #, c-format
 msgid "Emulate third button?"
 msgstr "Imitoje kopsin e tretë?"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:553
 #, c-format
 msgid "Mouse Port"
 msgstr "Porta e Minit"
 
-#: ../lib/mouse.pm:560
+#: ../lib/mouse.pm:554
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr ""
 "Ju lutemi zgjedheni portën serike, në të cilën është kyqur mini i juaj."
 
-#: ../lib/mouse.pm:569
+#: ../lib/mouse.pm:563
 #, c-format
 msgid "Buttons emulation"
 msgstr "Imitues i Kopsave"
 
-#: ../lib/mouse.pm:571
+#: ../lib/mouse.pm:565
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Imitues i Kopsës 2"
 
-#: ../lib/mouse.pm:572
+#: ../lib/mouse.pm:566
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Imitues Kopse 3"
 
-#: ../lib/mouse.pm:623
+#: ../lib/mouse.pm:617
 #, c-format
 msgid "Please test the mouse"
 msgstr "Ju lutemi testone minin"
 
-#: ../lib/mouse.pm:625
+#: ../lib/mouse.pm:619
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Për t'aktivizuar minin,"
 
-#: ../lib/mouse.pm:626
+#: ../lib/mouse.pm:620
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "DUHET TA LËVIZNI RROTËN!"
@@ -1676,40 +1665,56 @@ msgid "You need to reboot for changes to take effect"
 msgstr ""
 "Ju duhet të lidheni jashtë tij dhe të hyni prapë për ndryshimet bëra më parë"
 
-#: ../tools/keyboarddrake:32
+#: ../tools/keyboarddrake:37
 #, c-format
 msgid "Keyboard"
 msgstr "Tastiera"
 
-#: ../tools/keyboarddrake:33
+#: ../tools/keyboarddrake:38
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "Ju lutemi, zgjedheni tastierën tuaj."
 
-#: ../tools/keyboarddrake:34
+#: ../tools/keyboarddrake:39
 #, fuzzy, c-format
 msgid "Keyboard layout"
 msgstr "Shtrirja e Tastierës"
 
-#: ../tools/keyboarddrake:42
+#: ../tools/keyboarddrake:52
 #, fuzzy, c-format
 msgid "Keyboard type"
 msgstr "Tastiera"
 
-#: ../tools/keyboarddrake:54
+#: ../tools/keyboarddrake:65
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "A dëshironi që kopsa BackSpace ta kthejë Zhdukjen në konsolë?"
 
-#: ../tools/mousedrake:44
-#, c-format
-msgid "Mouse test"
-msgstr "Test i minit"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian AZERTY (old)"
+#~ msgstr "Lituanisë AZERTY (e vjetër)"
 
-#: ../tools/mousedrake:47
-#, c-format
-msgid "Please test your mouse:"
-msgstr "Ju lutemi testone minin tuaj:"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian AZERTY (new)"
+#~ msgstr "Lituanisë AZERTY (e re)"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian \"number row\" QWERTY"
+#~ msgstr "Lituanisë \"vijë e numrave\" QWERTY"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian \"phonetic\" QWERTY"
+#~ msgstr "Lituanisë \"fonetik\" Lituanisë"
+
+#~ msgid "Mouse test"
+#~ msgstr "Test i minit"
+
+#~ msgid "Please test your mouse:"
+#~ msgstr "Ju lutemi testone minin tuaj:"
 
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr ""
@@ -2711,9 +2716,6 @@ msgstr "Ju lutemi testone minin tuaj:"
 
 #~ msgid "Mount options"
 #~ msgstr "Opcionet montuese"
-
-#~ msgid "Various"
-#~ msgstr "Ndryshimet"
 
 #~ msgid "device"
 #~ msgstr "periferik"

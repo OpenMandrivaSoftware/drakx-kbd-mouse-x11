@@ -44,7 +44,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-ro\n"
-"POT-Creation-Date: 2008-01-31 11:40+0100\n"
+"POT-Creation-Date: 2009-04-07 12:42+0200\n"
 "PO-Revision-Date: 2009-03-12 23:15+0200\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Mandrivausers.ro\n"
@@ -101,22 +101,22 @@ msgstr "32 Mo"
 msgid "64 MB or more"
 msgstr "peste 64 Mo"
 
-#: ../lib/Xconfig/card.pm:169
+#: ../lib/Xconfig/card.pm:167
 #, c-format
 msgid "X server"
 msgstr "Server X"
 
-#: ../lib/Xconfig/card.pm:170
+#: ../lib/Xconfig/card.pm:168
 #, c-format
 msgid "Choose an X server"
 msgstr "Alegeți un server X"
 
-#: ../lib/Xconfig/card.pm:201
+#: ../lib/Xconfig/card.pm:199
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Configurare multi-head (ieșiri multiple)"
 
-#: ../lib/Xconfig/card.pm:202
+#: ../lib/Xconfig/card.pm:200
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -125,12 +125,12 @@ msgstr ""
 "Sistemul vă permite configurarea mai multor ieșiri de afișare.\n"
 "Ce doriți să faceți?"
 
-#: ../lib/Xconfig/card.pm:273
+#: ../lib/Xconfig/card.pm:289
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Alegeți cantitatea de memorie a plăcii grafice"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:315
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -141,7 +141,7 @@ msgstr ""
 "suplimentare ale acesteia.\n"
 "Doriți să-l utilizați?"
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:342
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -150,23 +150,23 @@ msgstr ""
 "Pilotul proprietar nu s-a instalat corespunzător, se revine la pilotul "
 "standard."
 
-#: ../lib/Xconfig/card.pm:392
+#: ../lib/Xconfig/card.pm:409
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Configurează toate capetele (ieșirile) independent"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:410
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Folosește extensia Xinerama"
 
-#: ../lib/Xconfig/card.pm:398
+#: ../lib/Xconfig/card.pm:415
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Configurează numai placa \"%s\"%s"
 
 #: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:120
+#: ../lib/Xconfig/monitor.pm:133
 #, c-format
 msgid "Custom"
 msgstr "Personalizat"
@@ -186,7 +186,7 @@ msgstr "Terminare"
 msgid "Graphic Card"
 msgstr "Placă grafică"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:127
 #, c-format
 msgid ""
 "_: This is a display device\n"
@@ -195,7 +195,7 @@ msgstr ""
 "_:Acesta este un afișaj\n"
 "Monitor"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:385
 #, c-format
 msgid "Resolution"
 msgstr "Rezoluție"
@@ -233,32 +233,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Alegeți un monitor pentru ieșirea #%d"
 
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Choose a monitor"
 msgstr "Alegeți un monitor"
 
-#: ../lib/Xconfig/monitor.pm:121
+#: ../lib/Xconfig/monitor.pm:134
 #, c-format
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "Comun"
 
-#: ../lib/Xconfig/monitor.pm:123
+#: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Vendor"
 msgstr "Fabricant"
 
-#: ../lib/Xconfig/monitor.pm:141
+#: ../lib/Xconfig/monitor.pm:154
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -281,12 +281,12 @@ msgstr ""
 "distruge ecranul în acest fel.\n"
 "Dacă nu sînteți sigur, alegeți parametri conservativi."
 
-#: ../lib/Xconfig/monitor.pm:148
+#: ../lib/Xconfig/monitor.pm:161
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Rata de împrospătare orizontală"
 
-#: ../lib/Xconfig/monitor.pm:149
+#: ../lib/Xconfig/monitor.pm:162
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Rata de împrospătare verticală"
@@ -316,43 +316,43 @@ msgstr "65 mii de culori (16 biți)"
 msgid "16 million colors (24 bits)"
 msgstr "16 milioane de culori (24 biți)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:75
+#: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "Automată"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:129
+#: ../lib/Xconfig/resolution_and_depth.pm:135
 #, c-format
 msgid "Resolutions"
 msgstr "Rezoluții"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:408 ../lib/mouse.pm:188
 #, c-format
 msgid "Other"
 msgstr "Alt tip"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:460
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Alegeți rezoluția și adîncimea de culoare"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:398
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Placă video: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Cancel"
 msgstr "Anulează"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Help"
 msgstr "Ajutor"
@@ -448,68 +448,73 @@ msgstr "Rezoluție: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Pilot Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:204
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Xorg configuration"
 msgstr "Configurare Xorg"
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:221
 #, c-format
 msgid "Graphic card options"
 msgstr "Opțiunile plăcii video"
 
-#: ../lib/Xconfig/various.pm:207
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "3D hardware acceleration"
 msgstr "Accelerare materială 3D"
 
-#: ../lib/Xconfig/various.pm:209
+#: ../lib/Xconfig/various.pm:225
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Activați semitransparența (extensia Composite)"
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Utilizați accelerarea materială pentru cursorul mausului"
 
-#: ../lib/Xconfig/various.pm:215
+#: ../lib/Xconfig/various.pm:231
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr "Activați accelerarea RENDER (poate cauza erori la afișarea textului)"
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:235
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Activați dublarea ecranului pe un monitor extern"
 
-#: ../lib/Xconfig/various.pm:220
+#: ../lib/Xconfig/various.pm:236
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Activați dublarea ecranului pe un monitor secundar"
 
-#: ../lib/Xconfig/various.pm:223
+#: ../lib/Xconfig/various.pm:239
+#, c-format
+msgid "Force display mode of DVI"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:242
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Activați tastele rapide BIOS pentru tranferul pe monitorul extern"
 
-#: ../lib/Xconfig/various.pm:226
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 "Utilizați EXA în locul XAA (mai performantă pentru Render și Composite)"
 
-#: ../lib/Xconfig/various.pm:228
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interfața grafică la pornire"
 
-#: ../lib/Xconfig/various.pm:229
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Se pornește automat interfața grafică (Xorg) la pornirea sistemului"
 
-#: ../lib/Xconfig/various.pm:241
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -530,12 +535,12 @@ msgstr ""
 "\n"
 "Placa grafică are facilitatea TV-OUT?"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Ce normă folosește televizorul vostru?"
 
-#: ../lib/Xconfig/xfree.pm:791
+#: ../lib/Xconfig/xfree.pm:833
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -544,7 +549,7 @@ msgstr ""
 "_:aspect anormal\n"
 "altul"
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -553,7 +558,7 @@ msgstr ""
 "_: tastatură\n"
 "Cehă (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -562,7 +567,7 @@ msgstr ""
 "_: tastatură\n"
 "Germană"
 
-#: ../lib/keyboard.pm:185
+#: ../lib/keyboard.pm:188
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -571,7 +576,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -580,7 +585,7 @@ msgstr ""
 "_: tastatură\n"
 "Spaniolă"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -589,7 +594,7 @@ msgstr ""
 "_: tastatură\n"
 "Finlandeză"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -598,12 +603,12 @@ msgstr ""
 "_: tastatură\n"
 "Franceză"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "Tastatură UK"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -612,7 +617,7 @@ msgstr ""
 "_: tastatură\n"
 "Norvegiană"
 
-#: ../lib/keyboard.pm:191
+#: ../lib/keyboard.pm:194
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -621,7 +626,7 @@ msgstr ""
 "_: tastatură\n"
 "Poloneză"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -630,7 +635,7 @@ msgstr ""
 "_: tastatură\n"
 "Rusă"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -639,12 +644,12 @@ msgstr ""
 "_: tastatură\n"
 "Suedeză"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "Tastatură US"
 
-#: ../lib/keyboard.pm:196
+#: ../lib/keyboard.pm:199
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -653,7 +658,7 @@ msgstr ""
 "_: tastatură\n"
 "Albaneză"
 
-#: ../lib/keyboard.pm:197
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -662,7 +667,7 @@ msgstr ""
 "_: tastatură\n"
 "Armeană (vechi)"
 
-#: ../lib/keyboard.pm:198
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -671,7 +676,7 @@ msgstr ""
 "_: tastatură\n"
 "Armeană (mașină de scris)"
 
-#: ../lib/keyboard.pm:199
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -680,7 +685,7 @@ msgstr ""
 "_: tastatură\n"
 "Armeană (fonetic)"
 
-#: ../lib/keyboard.pm:200
+#: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -689,7 +694,7 @@ msgstr ""
 "_: tastatură\n"
 "Arabă"
 
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -698,7 +703,7 @@ msgstr ""
 "_: tastatură\n"
 "Azerbaigiană (latin)"
 
-#: ../lib/keyboard.pm:202
+#: ../lib/keyboard.pm:205
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -707,7 +712,7 @@ msgstr ""
 "_: tastatură\n"
 "Belgiană"
 
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -716,7 +721,7 @@ msgstr ""
 "_: tastatură\n"
 "Bengală (Inscript-layout)"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -725,7 +730,7 @@ msgstr ""
 "_: tastatură\n"
 "Bengală (Probhat)"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -734,7 +739,7 @@ msgstr ""
 "_: tastatură\n"
 "Bulgară (fonetic)"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -743,7 +748,7 @@ msgstr ""
 "_: tastatură\n"
 "Bulgară (BDS)"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -752,7 +757,7 @@ msgstr ""
 "_: tastatură\n"
 "Braziliană (ABNT-2)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -761,7 +766,7 @@ msgstr ""
 "_: tastatură\n"
 "Bosniană"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:212
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -770,7 +775,7 @@ msgstr ""
 "_: tastatură\n"
 "Dzongkha/Tibetană"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -779,7 +784,7 @@ msgstr ""
 "_: tastatură\n"
 "Bielorusă"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -788,7 +793,7 @@ msgstr ""
 "_: tastatură\n"
 "Elvețiană (dispunere germană)"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -797,7 +802,7 @@ msgstr ""
 "_: tastatură\n"
 "Elvețiană (dispunere franceză)"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -806,7 +811,7 @@ msgstr ""
 "_: tastatură\n"
 "Cherokee syllabics"
 
-#: ../lib/keyboard.pm:216
+#: ../lib/keyboard.pm:219
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -815,7 +820,7 @@ msgstr ""
 "_: tastatură\n"
 "Cehă (QWERTY)"
 
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -824,7 +829,7 @@ msgstr ""
 "_: tastatură\n"
 "Germană (fără taste inactive)"
 
-#: ../lib/keyboard.pm:219
+#: ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -833,7 +838,7 @@ msgstr ""
 "_: tastatură\n"
 "Devanagari"
 
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:223
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -842,7 +847,7 @@ msgstr ""
 "_: tastatură\n"
 "Daneză"
 
-#: ../lib/keyboard.pm:221
+#: ../lib/keyboard.pm:224
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -851,7 +856,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (US)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:225
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -860,7 +865,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (Esperanto)"
 
-#: ../lib/keyboard.pm:223
+#: ../lib/keyboard.pm:226
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -869,7 +874,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (Franceză)"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -878,7 +883,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (UK)"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -887,7 +892,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (Norvegiană)"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -896,7 +901,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (Poloneză)"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -905,7 +910,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak (Suedeză)"
 
-#: ../lib/keyboard.pm:228
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -914,7 +919,7 @@ msgstr ""
 "_: tastatură\n"
 "Estoniană"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -923,7 +928,7 @@ msgstr ""
 "_: tastatură\n"
 "Faroese"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -932,7 +937,7 @@ msgstr ""
 "_: tastatură\n"
 "Georgiană (dispunere \"Rusă\")"
 
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -941,7 +946,7 @@ msgstr ""
 "_: tastatură\n"
 "Georgiană (dispunere \"Latină\")"
 
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -950,7 +955,7 @@ msgstr ""
 "_: tastatură\n"
 "Greacă"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -959,7 +964,7 @@ msgstr ""
 "_: tastatură\n"
 "Greacă (polytonic)"
 
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -968,7 +973,7 @@ msgstr ""
 "_: tastatură\n"
 "Gujarati"
 
-#: ../lib/keyboard.pm:239
+#: ../lib/keyboard.pm:242
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -977,7 +982,7 @@ msgstr ""
 "_: tastatură\n"
 "Gurmukhi"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -986,7 +991,7 @@ msgstr ""
 "_: tastatură\n"
 "Croată"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -995,7 +1000,7 @@ msgstr ""
 "_: tastatură\n"
 "Maghiară"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1004,7 +1009,7 @@ msgstr ""
 "_: tastatură\n"
 "Irlandeză"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1013,7 +1018,7 @@ msgstr ""
 "_: tastatură\n"
 "Inuktitut"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1022,7 +1027,7 @@ msgstr ""
 "_: tastatură\n"
 "Israeliană"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1031,7 +1036,7 @@ msgstr ""
 "_: tastatură\n"
 "Israeliană (fonetic)"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1040,7 +1045,7 @@ msgstr ""
 "_: tastatură\n"
 "Iraniană"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1049,7 +1054,7 @@ msgstr ""
 "_: tastatură\n"
 "Islandeză"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:251
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1058,7 +1063,7 @@ msgstr ""
 "_: tastatură\n"
 "Italiană"
 
-#: ../lib/keyboard.pm:252
+#: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1067,7 +1072,7 @@ msgstr ""
 "_: tastatură\n"
 "Japoneză 106 taste"
 
-#: ../lib/keyboard.pm:253
+#: ../lib/keyboard.pm:256
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1076,7 +1081,7 @@ msgstr ""
 "_: tastatură\n"
 "Kannada"
 
-#: ../lib/keyboard.pm:254
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1085,7 +1090,7 @@ msgstr ""
 "_: tastatură\n"
 "Kyrgyz"
 
-#: ../lib/keyboard.pm:255
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1094,7 +1099,7 @@ msgstr ""
 "_: tastatură\n"
 "Coreeană"
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1103,7 +1108,7 @@ msgstr ""
 "_: tastatură\n"
 "Kurdă (arabic script)"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1112,7 +1117,7 @@ msgstr ""
 "_: tastatură\n"
 "America Latină"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1121,43 +1126,16 @@ msgstr ""
 "_: tastatură\n"
 "Laos"
 
-#: ../lib/keyboard.pm:261
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian AZERTY (old)"
-msgstr ""
-"_: tastatură\n"
-"Lituaniană AZERTY (vechi)"
-
-#: ../lib/keyboard.pm:263
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian AZERTY (new)"
-msgstr ""
-"_: tastatură\n"
-"Lituaniană AZERTY (nou)"
-
 #: ../lib/keyboard.pm:264
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
-"Lithuanian \"number row\" QWERTY"
+"Lithuanian"
 msgstr ""
 "_: tastatură\n"
-"Lituaniană QWERTY"
+"Iraniană"
 
 #: ../lib/keyboard.pm:265
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian \"phonetic\" QWERTY"
-msgstr ""
-"_: tastatură\n"
-"Lithuaniană \"fonetic\" QWERTY"
-
-#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1166,7 +1144,7 @@ msgstr ""
 "_: tastatură\n"
 "Letonă"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1175,7 +1153,7 @@ msgstr ""
 "_: tastatură\n"
 "Malayalamă"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1184,7 +1162,7 @@ msgstr ""
 "_: tastatură\n"
 "Maori"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1193,7 +1171,7 @@ msgstr ""
 "_: tastatură\n"
 "Macedoneană"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1202,7 +1180,7 @@ msgstr ""
 "_: tastatură\n"
 "Myanmar (Burma)"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1211,7 +1189,7 @@ msgstr ""
 "_: tastatură\n"
 "Mongolă (chirilic)"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1220,7 +1198,7 @@ msgstr ""
 "_: tastatură\n"
 "Malteză (UK)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1229,7 +1207,7 @@ msgstr ""
 "_: tastatură\n"
 "Malteză (US)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1238,7 +1216,7 @@ msgstr ""
 "_: tastatură\n"
 "Nigeriană"
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1247,7 +1225,7 @@ msgstr ""
 "_: tastatură\n"
 "Olandeză"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1256,7 +1234,7 @@ msgstr ""
 "_: tastatură\n"
 "Oriya"
 
-#: ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1265,7 +1243,7 @@ msgstr ""
 "_: tastatură\n"
 "Poloneză (dispunere qwerty)"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1274,7 +1252,7 @@ msgstr ""
 "_: tastatură\n"
 "Poloneză (dispunere qwertz)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1283,7 +1261,7 @@ msgstr ""
 "_: tastatură\n"
 "Pashto"
 
-#: ../lib/keyboard.pm:282
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1292,7 +1270,7 @@ msgstr ""
 "_: tastatură\n"
 "Portugheză"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1301,7 +1279,7 @@ msgstr ""
 "_: tastatură\n"
 "Canadiană (Quebec)"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1310,7 +1288,7 @@ msgstr ""
 "_: tastatură\n"
 "Românească (QWERTZ)"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1319,7 +1297,7 @@ msgstr ""
 "_: tastatură\n"
 "Românească (QWERTY)"
 
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1328,7 +1306,7 @@ msgstr ""
 "_: tastatură\n"
 "Rusească (fonetic)"
 
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1337,7 +1315,7 @@ msgstr ""
 "_: tastatură\n"
 "Slovenă"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1346,7 +1324,7 @@ msgstr ""
 "_: tastatură\n"
 "Sinhala"
 
-#: ../lib/keyboard.pm:292
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1355,7 +1333,7 @@ msgstr ""
 "_: tastatură\n"
 "Slovacă (QWERTZ)"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1364,7 +1342,7 @@ msgstr ""
 "_: tastatură\n"
 "Slovacă (QWERTY)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1373,7 +1351,7 @@ msgstr ""
 "_: tastatură\n"
 "Saami (norvegiană)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1382,7 +1360,7 @@ msgstr ""
 "_: tastatură\n"
 "Saami (Suedia/Finlanda)"
 
-#: ../lib/keyboard.pm:297
+#: ../lib/keyboard.pm:296
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1391,7 +1369,7 @@ msgstr ""
 "_: tastatură\n"
 "Sindhi"
 
-#: ../lib/keyboard.pm:299
+#: ../lib/keyboard.pm:298
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1400,7 +1378,7 @@ msgstr ""
 "_: tastatură\n"
 "Sîrbă (dispunere chirilică)"
 
-#: ../lib/keyboard.pm:300
+#: ../lib/keyboard.pm:299
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1409,7 +1387,7 @@ msgstr ""
 "_: tastatură\n"
 "Siriană"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1418,7 +1396,7 @@ msgstr ""
 "_: tastatură\n"
 "Siriană (fonetic)"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1427,7 +1405,7 @@ msgstr ""
 "_: tastatură\n"
 "Telugu"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1436,7 +1414,7 @@ msgstr ""
 "_: tastatură\n"
 "Tamilă (TSCII)"
 
-#: ../lib/keyboard.pm:305
+#: ../lib/keyboard.pm:304
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1445,7 +1423,7 @@ msgstr ""
 "_: tastatură\n"
 "Tamilă (mașină de scris)"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1454,7 +1432,7 @@ msgstr ""
 "_: tastatură\n"
 "Tailandeză (Kedmanee)"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1463,7 +1441,7 @@ msgstr ""
 "_: tastatură\n"
 "Tailandeză (TIS-820)"
 
-#: ../lib/keyboard.pm:309
+#: ../lib/keyboard.pm:308
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1472,25 +1450,25 @@ msgstr ""
 "_: tastatură\n"
 "Tailandeză (Pattachote)"
 
+#: ../lib/keyboard.pm:310
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+msgstr ""
+"_: tastatură\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
+
 #: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
-"Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
-"_: tastatură\n"
-"Tifinagh (moroccan layout) (+latin/arabic)"
-
-#: ../lib/keyboard.pm:312
-#, c-format
-msgid ""
-"_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
 "_: tastatură\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 
-#: ../lib/keyboard.pm:314
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1499,7 +1477,7 @@ msgstr ""
 "_: tastatură\n"
 "Tadjică"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:315
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1508,7 +1486,7 @@ msgstr ""
 "_: tastatură\n"
 "Turkmenă"
 
-#: ../lib/keyboard.pm:317
+#: ../lib/keyboard.pm:316
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1517,7 +1495,7 @@ msgstr ""
 "_: tastatură\n"
 "Turcă (model tradițional \"F\")"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1526,7 +1504,7 @@ msgstr ""
 "_: tastatură\n"
 "Turcă (model \"Q\" modern)"
 
-#: ../lib/keyboard.pm:320
+#: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1535,7 +1513,7 @@ msgstr ""
 "_: tastatură\n"
 "Ucrainiană"
 
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:321
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1544,17 +1522,17 @@ msgstr ""
 "_: tastatură\n"
 "Urdu"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard (international)"
 msgstr "Tastatură US (internațional)"
 
-#: ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr "ISO9995-3 (dispunere US cu 3 opțiuni pe tastă)"
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1563,7 +1541,7 @@ msgstr ""
 "_: tastatură\n"
 "Uzbekă (chirilică)"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1572,7 +1550,7 @@ msgstr ""
 "_: tastatură\n"
 "Vietnameză \"numeric row\" QWERTY"
 
-#: ../lib/keyboard.pm:329
+#: ../lib/keyboard.pm:328
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1581,92 +1559,92 @@ msgstr ""
 "_: tastatură\n"
 "Iugoslavă (latină)"
 
-#: ../lib/keyboard.pm:336
+#: ../lib/keyboard.pm:335
 #, c-format
 msgid "Right Alt key"
 msgstr "Tasta Alt dreapta"
 
-#: ../lib/keyboard.pm:337
+#: ../lib/keyboard.pm:336
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "Ambele taste Shift simultan"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Tastele Ctrl și Shift simultan"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "CapsLock key"
 msgstr "Tasta CapsLock"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Tastele Shift și CapsLock simultan"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Tastele Ctrl și Alt simultan"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Tastele Alt și Shift simultan"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "\"Menu\" key"
 msgstr "Tasta \"Menu\""
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "Tasta \"Windows\" stînga"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "Tasta \"Windows\" dreapta"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "Ambele taste Control simultan"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "Ambele taste Alt simultan"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Left Shift key"
 msgstr "Tasta Shift stînga"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:348
 #, c-format
 msgid "Right Shift key"
 msgstr "Tasta Shift dreapta"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:349
 #, c-format
 msgid "Left Alt key"
 msgstr "Tasta Alt stînga"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Control key"
 msgstr "Tasta Control stînga"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:351
 #, c-format
 msgid "Right Control key"
 msgstr "Tasta Control dreapta"
 
-#: ../lib/keyboard.pm:388
+#: ../lib/keyboard.pm:387
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1677,12 +1655,12 @@ msgstr ""
 "permite comutarea între diferitele dispuneri ale tastaturii\n"
 "(de ex. latină și non-latină)"
 
-#: ../lib/keyboard.pm:393
+#: ../lib/keyboard.pm:392
 #, c-format
 msgid "Warning"
 msgstr "Avertisment"
 
-#: ../lib/keyboard.pm:394
+#: ../lib/keyboard.pm:393
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1873,72 +1851,77 @@ msgstr "Microsoft Xbox Controller S"
 msgid "VirtualBox mouse"
 msgstr "Maus VirtualBox"
 
-#: ../lib/mouse.pm:91
+#: ../lib/mouse.pm:89
+#, fuzzy, c-format
+msgid "VMware mouse"
+msgstr "Fără maus"
+
+#: ../lib/mouse.pm:92
 #, c-format
 msgid "none"
 msgstr "nici unul"
 
-#: ../lib/mouse.pm:93
+#: ../lib/mouse.pm:94
 #, c-format
 msgid "No mouse"
 msgstr "Fără maus"
 
-#: ../lib/mouse.pm:506
+#: ../lib/mouse.pm:510
 #, c-format
 msgid "Testing the mouse"
 msgstr "Testare de maus"
 
-#: ../lib/mouse.pm:538
+#: ../lib/mouse.pm:532
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Alegeți tipul de maus folosit."
 
-#: ../lib/mouse.pm:539
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse choice"
 msgstr "Alegere maus"
 
-#: ../lib/mouse.pm:555
+#: ../lib/mouse.pm:549
 #, c-format
 msgid "Emulate third button?"
 msgstr "Emulare 3 Butoane?"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:553
 #, c-format
 msgid "Mouse Port"
 msgstr "Port de maus"
 
-#: ../lib/mouse.pm:560
+#: ../lib/mouse.pm:554
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Pe ce port serial este conectat mausul?"
 
-#: ../lib/mouse.pm:569
+#: ../lib/mouse.pm:563
 #, c-format
 msgid "Buttons emulation"
 msgstr "Emulare butoane"
 
-#: ../lib/mouse.pm:571
+#: ../lib/mouse.pm:565
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Emulare buton 2"
 
-#: ../lib/mouse.pm:572
+#: ../lib/mouse.pm:566
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Emulare buton 3"
 
-#: ../lib/mouse.pm:623
+#: ../lib/mouse.pm:617
 #, c-format
 msgid "Please test the mouse"
 msgstr "Testați mausul"
 
-#: ../lib/mouse.pm:625
+#: ../lib/mouse.pm:619
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Pentru a activa mausul,"
 
-#: ../lib/mouse.pm:626
+#: ../lib/mouse.pm:620
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "MIȘCAȚI ROTIȚA!"
@@ -1948,38 +1931,61 @@ msgstr "MIȘCAȚI ROTIȚA!"
 msgid "You need to reboot for changes to take effect"
 msgstr "Va trebui să reporniți pentru efectuarea schimbărilor"
 
-#: ../tools/keyboarddrake:32
+#: ../tools/keyboarddrake:37
 #, c-format
 msgid "Keyboard"
 msgstr "Tastatură"
 
-#: ../tools/keyboarddrake:33
+#: ../tools/keyboarddrake:38
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "Alegeți dispunerea tastaturii."
 
-#: ../tools/keyboarddrake:34
+#: ../tools/keyboarddrake:39
 #, c-format
 msgid "Keyboard layout"
 msgstr "Dispunere tastatură"
 
-#: ../tools/keyboarddrake:42
+#: ../tools/keyboarddrake:52
 #, c-format
 msgid "Keyboard type"
 msgstr "Tip de tastatură"
 
-#: ../tools/keyboarddrake:54
+#: ../tools/keyboarddrake:65
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vreți ca BackSpace să întoarcă Delete în consolă?"
 
-#: ../tools/mousedrake:44
-#, c-format
-msgid "Mouse test"
-msgstr "Test de maus"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian AZERTY (old)"
+#~ msgstr ""
+#~ "_: tastatură\n"
+#~ "Lituaniană AZERTY (vechi)"
 
-#: ../tools/mousedrake:47
-#, c-format
-msgid "Please test your mouse:"
-msgstr "Testați-vă mausul:"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian AZERTY (new)"
+#~ msgstr ""
+#~ "_: tastatură\n"
+#~ "Lituaniană AZERTY (nou)"
 
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian \"number row\" QWERTY"
+#~ msgstr ""
+#~ "_: tastatură\n"
+#~ "Lituaniană QWERTY"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian \"phonetic\" QWERTY"
+#~ msgstr ""
+#~ "_: tastatură\n"
+#~ "Lithuaniană \"fonetic\" QWERTY"
+
+#~ msgid "Mouse test"
+#~ msgstr "Test de maus"
+
+#~ msgid "Please test your mouse:"
+#~ msgstr "Testați-vă mausul:"

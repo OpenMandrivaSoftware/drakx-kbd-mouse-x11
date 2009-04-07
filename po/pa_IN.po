@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
-"POT-Creation-Date: 2008-01-31 11:40+0100\n"
+"POT-Creation-Date: 2009-04-07 12:42+0200\n"
 "PO-Revision-Date: 2005-03-27 17:55+0530\n"
 "Last-Translator: Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>\n"
 "Language-Team: Punjabi <punlinux-i18n@lists.soruceforge.net>\n"
@@ -61,22 +61,22 @@ msgstr "32 ਮੈਬਾ"
 msgid "64 MB or more"
 msgstr "64 ਮੈਬਾ ਜਾਂ ਵੱਧ"
 
-#: ../lib/Xconfig/card.pm:169
+#: ../lib/Xconfig/card.pm:167
 #, c-format
 msgid "X server"
 msgstr "X ਸਰਵਰ"
 
-#: ../lib/Xconfig/card.pm:170
+#: ../lib/Xconfig/card.pm:168
 #, c-format
 msgid "Choose an X server"
 msgstr "X ਸਰਵਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/card.pm:201
+#: ../lib/Xconfig/card.pm:199
 #, c-format
 msgid "Multi-head configuration"
 msgstr "ਬਹੁ-ਹੈੱਡ ਸੰਰਚਨਾ"
 
-#: ../lib/Xconfig/card.pm:202
+#: ../lib/Xconfig/card.pm:200
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -85,12 +85,12 @@ msgstr ""
 "ਤੁਹਾਡਾ ਸਿਸਟਮ ਬਹੁ ਹੈੱਡ ਸੰਰਚਨਾ ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ।\n"
 "ਤੁਸੀਂ ਕੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../lib/Xconfig/card.pm:273
+#: ../lib/Xconfig/card.pm:289
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "ਆਪਣੇ ਗਰਾਫਿਕਸ ਕਾਰਡ ਦਾ ਮੈਮੋਰੀ ਅਕਾਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:315
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -98,30 +98,30 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:325
+#: ../lib/Xconfig/card.pm:342
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:392
+#: ../lib/Xconfig/card.pm:409
 #, c-format
 msgid "Configure all heads independently"
 msgstr "ਸਾਰੇ ਹੈੱਡ ਨਿਰਭਰਤਾ ਤੋਂ ਬਿਨਾ ਸੰਰਚਿਤ ਕਰੋ"
 
-#: ../lib/Xconfig/card.pm:393
+#: ../lib/Xconfig/card.pm:410
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama ਐਕਸਟੈਂਸ਼ਨ ਵਰਤੋ"
 
-#: ../lib/Xconfig/card.pm:398
+#: ../lib/Xconfig/card.pm:415
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "ਸਿਰਫ ਕਾਰਡ \"%s\"%s ਹੀ ਸੰਰਚਿਤ ਕਰੋ"
 
 #: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:120
+#: ../lib/Xconfig/monitor.pm:133
 #, c-format
 msgid "Custom"
 msgstr "ਪਸੰਦ"
@@ -141,14 +141,14 @@ msgstr "ਬਾਹਰ"
 msgid "Graphic Card"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:114
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:127
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "ਮਾਨੀਟਰ"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:320
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:385
 #, c-format
 msgid "Resolution"
 msgstr "ਰੈਜ਼ੋਲੇਸ਼ਨ"
@@ -186,32 +186,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "ਹੈੱਡ #%d ਲਈ ਮਾਨੀਟਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/monitor.pm:115
+#: ../lib/Xconfig/monitor.pm:128
 #, c-format
 msgid "Choose a monitor"
 msgstr "ਮਾਨੀਟਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/monitor.pm:121
+#: ../lib/Xconfig/monitor.pm:134
 #, c-format
 msgid "Plug'n Play"
 msgstr "ਲਾਓ ਤੇ ਚਲਾਓ"
 
-#: ../lib/Xconfig/monitor.pm:122 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
 msgstr "ਵਿਆਪਕ"
 
-#: ../lib/Xconfig/monitor.pm:123
+#: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Vendor"
 msgstr "ਵਿਕ੍ਰੇਤਾ"
 
-#: ../lib/Xconfig/monitor.pm:141
+#: ../lib/Xconfig/monitor.pm:154
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -233,12 +233,12 @@ msgstr ""
 "ਨਾਲ ਮਾਨੀਟਰ ਕਿਸਮ ਨਹੀਂ ਚੁਣੀ ਹੈ: ਤੁਸੀਂ ਆਪਣਾ ਮਾਨੀਟਰ ਖਰਾਬ ਕਰ ਸਕਦੇ ਹੋ।\n"
 "ਜੇ ਕੋਈ ਸ਼ੱਕ ਹੈ, ਸੰਭਾਲ ਵਿਵਸਥਾ ਚੁਣੋ।"
 
-#: ../lib/Xconfig/monitor.pm:148
+#: ../lib/Xconfig/monitor.pm:161
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "ਖਤਿਜੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ"
 
-#: ../lib/Xconfig/monitor.pm:149
+#: ../lib/Xconfig/monitor.pm:162
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "ਲੰਬਕਾਰੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ"
@@ -268,43 +268,43 @@ msgstr "65 ਹਜ਼ਾਰ ਰੰਗ (16 ਬਿੱਟ)"
 msgid "16 million colors (24 bits)"
 msgstr "16 ਮਿਲੀਅਨ ਰੰਗ (24 ਬਿੱਟ)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:72
-#: ../lib/Xconfig/resolution_and_depth.pm:311 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:75
+#: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
 #, c-format
 msgid "Automatic"
 msgstr "ਸਵੈ-ਚਾਲਿਤ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:129
+#: ../lib/Xconfig/resolution_and_depth.pm:135
 #, c-format
 msgid "Resolutions"
 msgstr "ਰੈਜ਼ੋਲੇਸ਼ਨ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:343 ../lib/mouse.pm:187
+#: ../lib/Xconfig/resolution_and_depth.pm:408 ../lib/mouse.pm:188
 #, c-format
 msgid "Other"
 msgstr "ਹੋਰ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:397
+#: ../lib/Xconfig/resolution_and_depth.pm:460
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "ਰੈਜ਼ੋਲੂਸ਼ਨ ਅਤੇ ਰੰਗ ਡੂੰਘਾਈ ਚੁਣੋ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:398
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Graphics card: %s"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Ok"
 msgstr "ਠੀਕ ਹੈ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:412
+#: ../lib/Xconfig/resolution_and_depth.pm:475
 #, c-format
 msgid "Help"
 msgstr "ਸਹਾਇਤਾ"
@@ -400,62 +400,67 @@ msgstr "ਰੈਜ਼ੋਲੂਸ਼ਨ: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg ਡਰਾਈਵਰ: %s\n"
 
-#: ../lib/Xconfig/various.pm:204
+#: ../lib/Xconfig/various.pm:220
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg ਸੰਰਚਨਾ"
 
-#: ../lib/Xconfig/various.pm:205
+#: ../lib/Xconfig/various.pm:221
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s"
 
-#: ../lib/Xconfig/various.pm:207
+#: ../lib/Xconfig/various.pm:223
 #, c-format
 msgid "3D hardware acceleration"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:209
+#: ../lib/Xconfig/various.pm:225
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:212
+#: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:215
+#: ../lib/Xconfig/various.pm:231
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:219
+#: ../lib/Xconfig/various.pm:235
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:220
+#: ../lib/Xconfig/various.pm:236
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:223
+#: ../lib/Xconfig/various.pm:239
+#, c-format
+msgid "Force display mode of DVI"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:242
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:226
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:228
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "ਸ਼ੁਰੂਆਤੀ ਤੇ ਗਰਾਫੀਕਲ ਇੰਟਰਫੇਸ"
 
-#: ../lib/Xconfig/various.pm:229
+#: ../lib/Xconfig/various.pm:248
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
@@ -463,7 +468,7 @@ msgstr ""
 "ਹੈ।\n"
 "ਕੀ ਤੁਸੀਂ ਮੁੜ ਚਲਾਉਣ ਸਮੇਂ Xorg ਸ਼ੁਰੂ ਕਰਨਾ ਪਸੰਦ ਕਰਦੇ ਹੋ?"
 
-#: ../lib/Xconfig/various.pm:241
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -483,915 +488,894 @@ msgstr ""
 "\n"
 "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ?"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "ਤੁਹਾਡਾ TV ਕਿਹੜਾ norm ਵਰਤ ਰਿਹਾ ਹੈ?"
 
-#: ../lib/Xconfig/xfree.pm:791
+#: ../lib/Xconfig/xfree.pm:833
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
 "other"
 msgstr ""
 
-#: ../lib/keyboard.pm:183 ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "ਚੈੱਕ (QWERTZ)"
 
-#: ../lib/keyboard.pm:184 ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German"
 msgstr "ਜਰਮਨ"
 
-#: ../lib/keyboard.pm:185
+#: ../lib/keyboard.pm:188
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak"
 msgstr "ਡਵੋਰਕ"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "ਸਪੇਨੀ"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "ਫੈਨਿਸ਼"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "ਫਰੈਂਚ"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "UK ਕੀਬੋਰਡ"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Norwegian"
 msgstr "ਨਾਰਵੇਜੀਅਨ"
 
-#: ../lib/keyboard.pm:191
+#: ../lib/keyboard.pm:194
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish"
 msgstr "ਪੋਲੈਂਡੀ"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "ਰੂਸੀ"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "ਸਵੈਡਿਸ਼"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "US ਕੀਬੋਰਡ"
 
-#: ../lib/keyboard.pm:196
+#: ../lib/keyboard.pm:199
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
 msgstr "ਅਲਬੇਨੀਅਨ"
 
-#: ../lib/keyboard.pm:197
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (old)"
 msgstr "ਅਮਰੀਕੀ (ਪੁਰਾਣਾ)"
 
-#: ../lib/keyboard.pm:198
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
 msgstr "ਅਮਰੀਕਨ (ਟਾਈਪਰਾਈਟਰ)"
 
-#: ../lib/keyboard.pm:199
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
 msgstr "ਅਮਰੀਕਨ (ਬੋਲੀ ਮੁਤਾਬਕ)"
 
-#: ../lib/keyboard.pm:200
+#: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
 msgstr "ਅਰਬੀ"
 
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
 msgstr "ਅਜ਼ਰਬਾਈਜਾਨੀ (ਲੈਟਿਨ)"
 
-#: ../lib/keyboard.pm:202
+#: ../lib/keyboard.pm:205
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
 msgstr "ਬੈਲਜੀਅਨ"
 
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
 msgstr "ਬੰਗਾਲੀ (ਇੰਸਕ੍ਰਿਪਟ)"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
 msgstr "ਬੰਗਾਲੀ (ਪਰਭਾਤ)"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
 msgstr "ਬੁਲਗਾਰੀਅਨ (ਬੋਲੀ ਮਤਾਬਕ)"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
 msgstr "ਬੁਲਗਾਰੀਅਨ (BDS)"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
 msgstr "ਬਰਜ਼ੀਲੀ (ABNT-2)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
 msgstr "ਬੋਸਨੀਅਨ"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:212
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
 msgstr "ਡਜ਼ੋਂਖਾ/ਤਿੱਬਤੀ"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
 msgstr "ਬੇਲਾਰੂਸੀ"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
 msgstr "ਸਵਿਸ (ਜਰਮਨ ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
 msgstr "ਸਵਿਸ (ਫਰੈਂਚ ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
 msgstr "ਚੇਰੂਕੀ ਸਿਲੇਬਿਕਸ"
 
-#: ../lib/keyboard.pm:216
+#: ../lib/keyboard.pm:219
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
 msgstr "ਚੈੱਕ (QWERTY)"
 
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
 msgstr "ਜਰਮਨ (ਬਿਨਾ ਡੈੱਡ ਸਵਿੱਚ)"
 
-#: ../lib/keyboard.pm:219
+#: ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
 msgstr "ਦੇਵਨਾਗਰੀ"
 
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:223
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
 msgstr "ਡੈਨਿਸ਼"
 
-#: ../lib/keyboard.pm:221
+#: ../lib/keyboard.pm:224
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
 msgstr "ਡਵਿਰਕ (US)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:225
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
 msgstr "ਡਵੋਰਕ (ਇਸਪੇਰਾਂਟੋ)"
 
-#: ../lib/keyboard.pm:223
+#: ../lib/keyboard.pm:226
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
 msgstr "ਡਵੋਰਕ (ਫਰੈਂਚ)"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
 msgstr "ਡਵੋਰਕ (UK)"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "ਡਵੋਰਕ (ਨਾਰਵੇਜੀਅਨ)"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
 msgstr "ਡਵੋਰਕ (ਪੌਲਿਸ਼)"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
 msgstr "ਡਵੋਰਕ (ਸਵੈਡਿਸ਼)"
 
-#: ../lib/keyboard.pm:228
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
 msgstr "ਇਸਟੋਨੀਅਨ"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr "ਫੈਰੋਈਜ਼"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
 msgstr "ਜੀਓਰਜੀਅਨ (\"ਰੂਸੀ\" ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
 msgstr "ਜੀਓਰਜੀਅਨ (\"ਲੈਟਿਨ\" ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
 msgstr "ਗਰੀਕ"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr "ਗਰੀਕ (ਪੌਲੀਟੋਨਿਕ)"
 
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
 msgstr "ਗੁਜਰਾਤੀ"
 
-#: ../lib/keyboard.pm:239
+#: ../lib/keyboard.pm:242
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
 msgstr "ਗੁਰਮੁਖੀ"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
 msgstr "ਕਰੋਆਟੀਅਨ"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
 msgstr "ਹੁੰਗਾਰੀਅਨ"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr "ਇਰਿਸ਼"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
 msgstr "ਇਨੁਕਟੀਟੁਟ"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
 msgstr "ਇਸਰਾਈਲੀ"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
 msgstr "ਇਸਰਾਈਲੀ (ਬੋਲੀ-ਅਧਾਰਿਤ)"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
 msgstr "ਇਰਾਨੀ"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
 msgstr "ਟਾਪੂਿਕ"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:251
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
 msgstr "ਇਟਲੀਅਨ"
 
-#: ../lib/keyboard.pm:252
+#: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
 msgstr "ਜਪਾਨੀ 106 ਕੁੰਜੀਆਂ"
 
-#: ../lib/keyboard.pm:253
+#: ../lib/keyboard.pm:256
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
 msgstr "ਕਾਨਾਡਾ"
 
-#: ../lib/keyboard.pm:254
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
 msgstr "ਕਾਈਰਗਈਜ਼"
 
-#: ../lib/keyboard.pm:255
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "ਕੋਰੀਅਨ"
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "ਕੁਰਡਿਸ਼ (ਅਰਬਿਕ ਸਕਰਿਪਟ)"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "ਲੈਟਿਨ ਅਮਰੀਕਨ"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "ਲਾਓਟੀਅਨ"
 
-#: ../lib/keyboard.pm:261
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian AZERTY (old)"
-msgstr "ਲਿਥੂਨੀਅਨ ਅਜ਼ਰਟੀ (ਪੁਰਾਣੀ)"
-
-#: ../lib/keyboard.pm:263
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian AZERTY (new)"
-msgstr "ਲਿਥੂਨੀਅਨ ਅਜ਼ਰਟੀ (ਨਵੀਂ)"
-
 #: ../lib/keyboard.pm:264
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
-"Lithuanian \"number row\" QWERTY"
-msgstr "ਲਿਥੂਨੀਅਨ \"ਅੰਕ ਕਤਾਰ\" ਕੁਵੇਰਟੀ"
+"Lithuanian"
+msgstr "ਇਰਾਨੀ"
 
 #: ../lib/keyboard.pm:265
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Lithuanian \"phonetic\" QWERTY"
-msgstr "ਲਿਥੂਨੀਅਨ \"ਬੋਲੀ-ਅਧਾਰਿਤ\" ਕੁਵੇਰਟੀ"
-
-#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "ਲਾਟਵਿਨ"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "ਮਲਿਆਲਮ"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr ""
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "ਮੈਕੇਡੋਨੀਅਨ"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "ਮਯਾਨਮਾਰ (ਬਰਮੀਸ)"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "ਮੰਗੋਲੀਅਨ (ਸਿਰਿੱਲਿਕ)"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "ਮਲਟੀਸ (UK)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "ਮਲਟੀਸ (US)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr ""
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "ਡੱਚ"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "ਉੜੀਆ"
 
-#: ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "ਪੌਲਿਸ਼ (ਕਵੈਰਟੀ ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "ਪੌਲਿਸ਼ (ਕਵੈਰਟਜ਼ ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "ਪਾਸ਼ਟੋ"
 
-#: ../lib/keyboard.pm:282
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "ਪੋਰਤੂਗੈਈਸ"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "ਕੈਨੇਡੀਅਨ (ਕੂਈਬੇਕ)"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "ਰੋਮਾਨੀਅਨ (ਕਵੈਰਟਜ਼)"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "ਰੋਮਾਨੀਅਨ (ਕਵੇਰਟੀ)"
 
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "ਰੂਸੀ (ਬੋਲੀ-ਅਧਾਰਿਤ)"
 
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "ਸਲੋਵੇਨੀਅਨ"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr ""
 
-#: ../lib/keyboard.pm:292
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "ਸਲੋਵਾਕੀਅਨ (ਕਵੇਰਟਜ਼)"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "ਸਲੋਵਾਕੀਅਨ (ਕਵੇਰਟੀ)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "ਸਾਮੀ (ਨਾਰਵੇਜੀਅਨ)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr "ਸਾਮੀ (ਸਵੈਡਿਸ਼/ਫਿਨਿਸ਼)"
 
-#: ../lib/keyboard.pm:297
+#: ../lib/keyboard.pm:296
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
 msgstr "ਸਿੰਧੀ"
 
-#: ../lib/keyboard.pm:299
+#: ../lib/keyboard.pm:298
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "ਸਰਬੀਅਨ (ਸਿਰਿੱਲਿਕ)"
 
-#: ../lib/keyboard.pm:300
+#: ../lib/keyboard.pm:299
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "ਸਾਇਰਿਆਕ"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "ਸਾਇਰਿਆਕ (ਬੋਲੀ-ਅਧਾਰਿਤ)"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "ਤੇਲਗੂ"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "ਤਾਮਿਲ (ISCII-ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:305
+#: ../lib/keyboard.pm:304
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "ਤਾਮਿਲ (ਟਾਈਪ-ਰਾਈਟਰ-ਖਾਕਾ)"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "ਥਾਈ (ਕੇਡਮਾਨੀ)"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "ਥਾਈ ((TIS-820)"
 
-#: ../lib/keyboard.pm:309
+#: ../lib/keyboard.pm:308
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "ਥਾਈ (ਪਾਟਾਚੋਟੇ)"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:310
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:312
+#: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:314
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "ਟਾਜਿਕ"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:315
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "ਤੁਰਕਮੇਨ"
 
-#: ../lib/keyboard.pm:317
+#: ../lib/keyboard.pm:316
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
 msgstr "ਤੁਰਕਿਸ਼ (ਪੁਰਾਣਾ \"F\" ਮਾਡਲ)"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
 msgstr "ਤੁਰਕਿਸ਼ (ਨਵਾਂ \"Q\" ਮਾਡਲ)"
 
-#: ../lib/keyboard.pm:320
+#: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "ਯੁਕਰੇਨੀਅਨ"
 
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:321
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "ਉਰਦੂ ਕੀਬੋਰਡ"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid "US keyboard (international)"
 msgstr "US ਕੀਬੋਰਡ ( ਅੰਤਰਰਾਸ਼ਟਰੀ)"
 
-#: ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr ""
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "ਉਜ਼ਬੇਕ (ਸਿਰਿੱਲਿਕ)"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "ਵੀਅਤਨਾਮੀ \"ਅੰਕੀ ਕਤਾਰ\" ਕਵੇਰਟੀ"
 
-#: ../lib/keyboard.pm:329
+#: ../lib/keyboard.pm:328
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "ਯੂਗੋਸਲਾਵੀਅਨ (ਲੈਟਿਨ)"
 
-#: ../lib/keyboard.pm:336
+#: ../lib/keyboard.pm:335
 #, c-format
 msgid "Right Alt key"
 msgstr "ਸੱਜੀ Alt ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:337
+#: ../lib/keyboard.pm:336
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "ਦੋਨੋ Shift ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Control ਅਤੇ Shift ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "CapsLock key"
 msgstr "CapsLock ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Shift ਅਤੇ CapsLock ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Ctrl ਅਤੇ Alt ਸਵਿੱਚਾਂ ਇਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Alt ਅਤੇ Shift ਸਵਿੱਚਾਂ ਇੱਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "\"Menu\" key"
 msgstr "\"ਮੇਨੂ\" ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "ਖੱਬੀ \"Windows\" ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "ਸੱਜੀ \"Windows\" ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "ਦੋਨੋ Control ਸਵਿੱਚਾਂ ਇਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "ਦੋਨੋ Alt ਸਵਿੱਚਾਂ ਇਕੋ-ਸਮੇਂ"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Left Shift key"
 msgstr "ਖੱਬੀ Shift ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:348
 #, c-format
 msgid "Right Shift key"
 msgstr "ਸੱਜੀ Shift ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:349
 #, c-format
 msgid "Left Alt key"
 msgstr "ਖੱਬੀ Alt ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Control key"
 msgstr "ਖੱਬੀ Control ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:351
 #, c-format
 msgid "Right Control key"
 msgstr "ਸੱਜੀ Control ਸਵਿੱਚ"
 
-#: ../lib/keyboard.pm:388
+#: ../lib/keyboard.pm:387
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1402,12 +1386,12 @@ msgstr ""
 "ਕੀਬੋਰਡ ਵਿੱਚ ਤਬਦੀਲ ਹੋਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੇ ਹਨ\n"
 "(ਉਦਾਹਰਨ: ਲੈਟਿਨ ਅਤੇ ਨਾਨ ਲੈਟਿਨ)"
 
-#: ../lib/keyboard.pm:393
+#: ../lib/keyboard.pm:392
 #, c-format
 msgid "Warning"
 msgstr "ਚੇਤਾਵਨੀ"
 
-#: ../lib/keyboard.pm:394
+#: ../lib/keyboard.pm:393
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1598,72 +1582,77 @@ msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਝਲਕਾਰਾ"
 msgid "VirtualBox mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:91
+#: ../lib/mouse.pm:89
+#, fuzzy, c-format
+msgid "VMware mouse"
+msgstr "ਵੱਖਰੇ"
+
+#: ../lib/mouse.pm:92
 #, c-format
 msgid "none"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: ../lib/mouse.pm:93
+#: ../lib/mouse.pm:94
 #, c-format
 msgid "No mouse"
 msgstr "ਕੋਈ ਮਾਊਸ ਨਹੀਂ"
 
-#: ../lib/mouse.pm:506
+#: ../lib/mouse.pm:510
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:538
+#: ../lib/mouse.pm:532
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਮਾਊਸ ਕਿਸਮ ਚੁਣੋ।"
 
-#: ../lib/mouse.pm:539
+#: ../lib/mouse.pm:533
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "ਦਸਤੀ ਜੰਤਰ"
 
-#: ../lib/mouse.pm:555
+#: ../lib/mouse.pm:549
 #, c-format
 msgid "Emulate third button?"
 msgstr "ਤੀਜਾ ਬਟਨ ਸਮਰੂਪ?"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:553
 #, c-format
 msgid "Mouse Port"
 msgstr "ਮਾਊਸ ਪੋਰਟ"
 
-#: ../lib/mouse.pm:560
+#: ../lib/mouse.pm:554
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਾਊਸ ਜੋੜਨ ਲਈ ਸੀਰੀਅਲ ਪੋਰਟ ਚੁਣੋ।"
 
-#: ../lib/mouse.pm:569
+#: ../lib/mouse.pm:563
 #, c-format
 msgid "Buttons emulation"
 msgstr "ਬਟਨ ਸਮਰੂਪਤਾ"
 
-#: ../lib/mouse.pm:571
+#: ../lib/mouse.pm:565
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "ਬਟਨ 2 ਸਮਰੂਪਤਾ"
 
-#: ../lib/mouse.pm:572
+#: ../lib/mouse.pm:566
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "ਬਟਨ 3 ਸਮਰੂਪਤਾ"
 
-#: ../lib/mouse.pm:623
+#: ../lib/mouse.pm:617
 #, c-format
 msgid "Please test the mouse"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਾਊਸ ਜਾਂਚ ਕਰੋ"
 
-#: ../lib/mouse.pm:625
+#: ../lib/mouse.pm:619
 #, c-format
 msgid "To activate the mouse,"
 msgstr "ਮਾਊਸ ਸਰਗਰਮ ਕਰਨ ਲਈ,"
 
-#: ../lib/mouse.pm:626
+#: ../lib/mouse.pm:620
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "ਆਪਣਾ ਪਹੀਆ ਹਿਲਾਓ!"
@@ -1673,40 +1662,56 @@ msgstr "ਆਪਣਾ ਪਹੀਆ ਹਿਲਾਓ!"
 msgid "You need to reboot for changes to take effect"
 msgstr "ਤੁਹਾਨੂੰ ਤਬਦੀਲੀਆਂ ਲਾਗੂ ਹੋਣ ਲਈ ਮੁੜ ਚਲਾਉਣ ਦੀ ਲੋੜ ਹੈ"
 
-#: ../tools/keyboarddrake:32
+#: ../tools/keyboarddrake:37
 #, c-format
 msgid "Keyboard"
 msgstr "ਕੀ-ਬੋਰਡ"
 
-#: ../tools/keyboarddrake:33
+#: ../tools/keyboarddrake:38
 #, c-format
 msgid "Please, choose your keyboard layout."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ, ਆਪਣਾ ਕੀਬੋਰਡ ਖਾਕਾ ਚੁਣੋ।"
 
-#: ../tools/keyboarddrake:34
+#: ../tools/keyboarddrake:39
 #, fuzzy, c-format
 msgid "Keyboard layout"
 msgstr "ਕੀ-ਬੋਰਡ ਖਾਕ"
 
-#: ../tools/keyboarddrake:42
+#: ../tools/keyboarddrake:52
 #, fuzzy, c-format
 msgid "Keyboard type"
 msgstr "ਕੀਬੋਰਡ"
 
-#: ../tools/keyboarddrake:54
+#: ../tools/keyboarddrake:65
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "ਕੀ ਤੁਸੀਂ ਕੰਸੋਲ ਵਿੱਚ ਹਟਾਉਣ ਕਿਰਿਆ ਵਾਪਿਸ ਲਿਆਉਣ ਲਈ ਬੈਕਸਪੇਸ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../tools/mousedrake:44
-#, c-format
-msgid "Mouse test"
-msgstr "ਮਾਊਸ ਜਾਂਚ"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian AZERTY (old)"
+#~ msgstr "ਲਿਥੂਨੀਅਨ ਅਜ਼ਰਟੀ (ਪੁਰਾਣੀ)"
 
-#: ../tools/mousedrake:47
-#, c-format
-msgid "Please test your mouse:"
-msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਮਾਊਸ ਦੀ ਜਾਂਚ ਕਰੋ:"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian AZERTY (new)"
+#~ msgstr "ਲਿਥੂਨੀਅਨ ਅਜ਼ਰਟੀ (ਨਵੀਂ)"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian \"number row\" QWERTY"
+#~ msgstr "ਲਿਥੂਨੀਅਨ \"ਅੰਕ ਕਤਾਰ\" ਕੁਵੇਰਟੀ"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Lithuanian \"phonetic\" QWERTY"
+#~ msgstr "ਲਿਥੂਨੀਅਨ \"ਬੋਲੀ-ਅਧਾਰਿਤ\" ਕੁਵੇਰਟੀ"
+
+#~ msgid "Mouse test"
+#~ msgstr "ਮਾਊਸ ਜਾਂਚ"
+
+#~ msgid "Please test your mouse:"
+#~ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਮਾਊਸ ਦੀ ਜਾਂਚ ਕਰੋ:"
 
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
 #~ msgstr "ਲਾਓ ਤੇ ਚਲਾਓ ਖੋਜ ਅਸਫਲ ਹੋਈ। ਕਿਰਪਾ ਕਰਕੇ ਠੀਕ ਮਾਨੀਟਰ ਚੁਣੋ"
@@ -2756,9 +2761,6 @@ msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਮਾਊਸ ਦੀ ਜਾਂ�
 
 #~ msgid "Mount options"
 #~ msgstr "ਮਾਊਂਟ ਚੋਣ"
-
-#~ msgid "Various"
-#~ msgstr "ਵੱਖਰੇ"
 
 #~ msgid "device"
 #~ msgstr "ਜੰਤਰ"
