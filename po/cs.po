@@ -1,20 +1,19 @@
 # Translation of cs.po to Czech
-# Copyright (C) 1999,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Copyright (C) 1999,2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 #
 # Radek Vybiral <Radek.Vybiral@vsb.cz>, 2000, 2001-2003.
-# Michal Bukovjan <bukm@centrum.cz>, 2002-2003, 2004, 2005, 2006, 2007, 2008.
+# Michal Bukovjan <bukm@centrum.cz>, 2002-2003, 2004, 2005, 2006, 2007, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: cs\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-17 23:29+0100\n"
+"PO-Revision-Date: 2009-04-07 23:51+0200\n"
 "Last-Translator: Michal Bukovjan <bukm@centrum.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../lib/Xconfig/card.pm:19
@@ -107,8 +106,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
-"Proprietární ovladač nebyl řádně nainstalován, použije se otevřený ovladač."
+msgstr "Proprietární ovladač nebyl řádně nainstalován, použije se otevřený ovladač."
 
 #: ../lib/Xconfig/card.pm:409
 #, c-format
@@ -451,7 +449,7 @@ msgstr "Povolit dvojí zobrazení na druhém displeji"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Vynutit režim zobrazení DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -958,18 +956,18 @@ msgid ""
 msgstr "Laoské"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Íránské"
+msgstr "Litevské"
 
 #: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
-msgstr "Litevské"
+msgstr "Lotyšské"
 
 #: ../lib/keyboard.pm:266
 #, c-format
@@ -1589,9 +1587,9 @@ msgid "VirtualBox mouse"
 msgstr "Myš VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Bez myši"
+msgstr "Myš VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1693,28 +1691,3 @@ msgstr "Typ klávesnice"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Chcete, aby se klávesa Backspace chovala v konzoli jako Delete?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Litevské AZERTY (stará)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Litevské AZERTY (nová)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Litevské \"číselná řada\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Litevské \"foneticky\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Test myši"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Vyzkoušejte prosím, zda funguje myš:"
