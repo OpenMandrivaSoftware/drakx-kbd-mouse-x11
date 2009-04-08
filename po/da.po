@@ -1,25 +1,22 @@
-# translation of da.po to dansk
 # translation of da1.po to
 # translation of da.po to
-# translation of da1.po to Danish
 # translation of da.po to Danish
-# translation of DrakX-da.po to Danish
-# Copyright (C) 2000,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Copyright (C) 2000,2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 # Troels Liebe Bentsen <tlb@iname.com> 2000.
-# Keld Simonsen <keld@dkuug.dk>, 2000-2003, 2004, 2005, 2007, 2008.
-# Keld Simonsen <keld@rap.dk>, 2005, 2006.
 #
+# Keld Simonsen <keld@dkuug.dk>, 2000-2003, 2004, 2005, 2007, 2008, 2009.
+# Keld Simonsen <keld@rap.dk>, 2005, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-26 16:30+0100\n"
+"PO-Revision-Date: 2009-04-08 14:52+0200\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
-"Language-Team: dansk <dansk@dansk-gruppen.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:19
@@ -336,8 +333,7 @@ msgstr "Ønsker du at afprøve konfigurationen?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Advarsel: afprøvning af dette grafikkort kan få din maskine til at fryse"
+msgstr "Advarsel: afprøvning af dette grafikkort kan få din maskine til at fryse"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -460,7 +456,7 @@ msgstr "Aktiv+er duplikeret skærmbillede på skærm nummer 2"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Sæt skærmtilstand til DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -967,11 +963,11 @@ msgid ""
 msgstr "Laotisk"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iransk"
+msgstr "Litauisk"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1598,9 +1594,9 @@ msgid "VirtualBox mouse"
 msgstr "VirtualBox mus"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Ingen mus"
+msgstr "VMware-mus"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1702,28 +1698,3 @@ msgstr "Type af tastatur"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vil du have at Bak-tasten giver Delete i konsollen?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Litauisk AZERTY (gammel)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Litauisk AZERTY (ny)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Litauisk \"talrække\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Litauisk \"fonetisk\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Test af musen"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Afprøv din mus:"
