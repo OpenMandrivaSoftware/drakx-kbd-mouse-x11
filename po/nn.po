@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -954,10 +954,8 @@ msgid ""
 "Laotian"
 msgstr "Laotisk"
 
-#: ../lib/keyboard.pm:264, c-format
-#| msgid ""
-#| "_: keyboard\n"
-#| "Iranian"
+#: ../lib/keyboard.pm:264
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
@@ -1586,8 +1584,8 @@ msgstr "Microsoft Xbox Controller S"
 msgid "VirtualBox mouse"
 msgstr "VirtualBox-mus"
 
-#: ../lib/mouse.pm:89, c-format
-#| msgid "No mouse"
+#: ../lib/mouse.pm:89
+#, c-format
 msgid "VMware mouse"
 msgstr "VMware-mus"
 
