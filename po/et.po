@@ -1,13 +1,13 @@
 # Translation of DrakX.po to Estonian.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # Riho Kurg <rx@linux.ee>, 1999-2003.
-# Marek Laane <bald@starman.ee>, 2002-2008.
+# Marek Laane <bald@starman.ee>, 2002-2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-et\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-22 19:58+0200\n"
+"PO-Revision-Date: 2009-04-08 13:19+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -447,7 +447,7 @@ msgstr "Topeltkuva lubamine teisel kuval"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "DVI kuvarežiimi kehtestamine"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -953,11 +953,11 @@ msgid ""
 msgstr "Laose"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iraani"
+msgstr "Leedu"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1583,9 +1583,9 @@ msgid "VirtualBox mouse"
 msgstr "VirtualBoxi hiir"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Hiir puudub"
+msgstr "VMware hiir"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1687,25 +1687,6 @@ msgstr "Klaviatuuritüüp"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Kas soovite konsoolis kasutada BackSpace-i kui Delete?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Leedu AZERTY (vanem)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Leedu AZERTY (uuem)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Leedu \"numbrireaga\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Leedu \"foneetiline\" QWERTY"
 
 #~ msgid "Mouse test"
 #~ msgstr "Hiire test"
