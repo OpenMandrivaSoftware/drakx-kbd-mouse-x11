@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2009-04-09 09:43+0200\n"
+"PO-Revision-Date: 2009-04-09 09:47+0200\n"
 "Last-Translator: Oliver Burger <oliver@mandrivauser.de>\n"
 "Language-Team: deutsch <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -972,11 +972,11 @@ msgid ""
 msgstr "Laos"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iran"
+msgstr "Litauen"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1607,9 +1607,9 @@ msgid "VirtualBox mouse"
 msgstr "VirtualBox Maus"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Keine Maus"
+msgstr "VMware Maus"
 
 #: ../lib/mouse.pm:92
 #, c-format
