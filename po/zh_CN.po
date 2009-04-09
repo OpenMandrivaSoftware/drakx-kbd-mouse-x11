@@ -444,7 +444,7 @@ msgstr "允许在第二台显示器上复制显示"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "强制 DVI 显示的模式"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -950,11 +950,11 @@ msgid ""
 msgstr "老挝"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "伊朗"
+msgstr "立陶宛"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1580,9 +1580,9 @@ msgid "VirtualBox mouse"
 msgstr "VirtualBox 鼠标"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "无鼠标"
+msgstr "VMware 鼠标"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1683,43 +1683,3 @@ msgstr "键盘类型"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "您是否想要 BackSpace 在控制台起 Delete 的作用?"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "立陶宛 AZERTY(老式)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "立陶宛 AZERTY(新式)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "立陶宛“顺排”QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "立陶宛“同音”QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "鼠标测试"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "请测试您的鼠标:"
-
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "即插即用检测失败。请明确选择一个显示器"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "所使用的显示分辨率可能不正确。\n"
-#~ "\n"
-#~ "如果您的桌面区域超过了显示器的边缘，\n"
-#~ "安装 %s 可能对解决问题有所帮助。现在安装吗?"
