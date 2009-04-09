@@ -1,17 +1,16 @@
 # Icelandic translation of drakx-kbd-mouse-x11.po
 # Translation file for Mandriva Linux graphic install, DrakX
-# Copyright (C) 1999,2003, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Copyright (C) 1999,2003, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 # Copyright (C) 1999 Mandriva
-#
 #
 # Jóhann Þorvarðarson <johann.torvardarson@lais.is>, 1999-2000.
 # Þórarinn (Tony) R. Einarsson <thori@mindspring.com>, 1999-2000.
-# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003, 2005, 2006, 2007, 2008.
+# Pjetur G. Hjaltason <pjetur@pjetur.net>, 2003, 2005, 2006, 2007, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-17 23:47+0000\n"
+"PO-Revision-Date: 2009-04-08 21:32+0000\n"
 "Last-Translator: Pjetur G. Hjaltason <pjetur@pjetur.net>\n"
 "Language-Team: Icelandic <kde-isl@molar.is>\n"
 "MIME-Version: 1.0\n"
@@ -110,8 +109,7 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr ""
-"Ekki tókst að setja inn sérsniðinn rekil, sný til baka að opnum rekli. "
+msgstr "Ekki tókst að setja inn sérsniðinn rekil, sný til baka að opnum rekli. "
 
 #: ../lib/Xconfig/card.pm:409
 #, c-format
@@ -453,7 +451,7 @@ msgstr "Virkja afrit af aðalskjá á aukaskjátengi"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Þvinga DVI ham á skjá"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -960,11 +958,10 @@ msgid ""
 msgstr "Laóteskt"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Íranskt"
+msgstr "Litháskt"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1590,9 +1587,8 @@ msgid "VirtualBox mouse"
 msgstr "Mús sýndarkerfis"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
 msgid "VMware mouse"
-msgstr "Engin mús"
+msgstr "VVMware mús"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1694,28 +1690,3 @@ msgstr "Lyklaborðstegund"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Viltu að Backspace lykilinn skili Delete í skjáham?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Litháenskt AZERTY (gamalt)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Litháenskt AZERTY (nýtt)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Litháenskt \"töluröð\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Litháenskt \"hljóðfræðilegt\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Músaprófun"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Vinsamlega prófaðu músina:"
