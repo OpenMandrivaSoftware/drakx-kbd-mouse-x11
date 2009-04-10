@@ -230,7 +230,7 @@ sub configure_auto_install {
 	    VendorName => "Custom",
 	    BoardName => "Set by boot parameter",
 	};
-	if ($force_driver =~ /^(nvidia.|fglrx)/) {
+	if ($boot_xdriver =~ /^(nvidia.|fglrx)/) {
 	    $card->{Driver} = "vesa";
 	    $card->{Driver2} = $boot_xdriver;
 	}

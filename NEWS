@@ -1,3 +1,6 @@
+- XFdrake:
+  o fix selecting proprietary drivers with xdriver=DRIVER boot option
+
 Version 0.71 - 2 April 2009
 
 - XFdrake:
