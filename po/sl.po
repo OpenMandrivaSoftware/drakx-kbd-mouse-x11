@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-06 05:05+0100\n"
+"PO-Revision-Date: 2009-04-10 17:28+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
@@ -458,7 +458,7 @@ msgstr "Na drugem zaslonu omogoči podvojen prikaz"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Vsili digitalni izhod DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -965,11 +965,11 @@ msgid ""
 msgstr "laoška"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "iranska"
+msgstr "litvijska"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1596,9 +1596,9 @@ msgid "VirtualBox mouse"
 msgstr "Miška VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Brez miške"
+msgstr "Miška v VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
