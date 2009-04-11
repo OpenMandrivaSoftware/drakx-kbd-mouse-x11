@@ -1,4 +1,3 @@
-# Translation of drakx-kdb-mouse-x11.po to Romanian
 # Copyright (c) 1999-2009 Mandriva
 #
 # Vă rugăm să nu actualizaţi fișierul, cu excepția cazului în care sînteți
@@ -34,7 +33,6 @@
 #
 # Traducători de-a lungul timpului:
 #
-#
 # Florin GRAD <florin@mandriva.com>, 1999, 2000.
 # Dragos Marian BARBU <dragosb@softhome.net>, 2000.
 # Ovidiu CONSTANTIN <ovidiu.constantin@gmx.net>, 2002, 2003.
@@ -42,15 +40,17 @@
 # Cristian Ionuț PÎRÎU <piriu.cristian@rdslink.ro>, 2008.
 # Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009.
 # Florin Catalin RUSSEN <cfrussen@yahoo.co.uk>, 2009.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-ro\n"
+"Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2009-04-07 14:48+0200\n"
-"Last-Translator: Florin Catalin RUSSEN <cfrussen@yahoo.co.uk>\n"
-"Language-Team: Mandrivausers.ro\n"
+"PO-Revision-Date: 2009-04-11 15:35+0100\n"
+"Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
+"Language-Team: Mandrivausers.ro <cfrussen@yahoo.co.uk>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3;plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
 "2:1))\n"
@@ -253,7 +253,7 @@ msgstr "Plug'n Play"
 #: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
 #, c-format
 msgid "Generic"
-msgstr "Comun"
+msgstr "Generic"
 
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
@@ -316,7 +316,7 @@ msgstr "65 mii de culori (16 biți)"
 #: ../lib/Xconfig/resolution_and_depth.pm:13
 #, c-format
 msgid "16 million colors (24 bits)"
-msgstr "16 milioane de culori (24 biți)"
+msgstr "16 milioane de culori (24 de biți)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
 #: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
@@ -408,7 +408,7 @@ msgstr "Dispunere de tastatură: %s\n"
 #: ../lib/Xconfig/various.pm:28
 #, c-format
 msgid "Mouse type: %s\n"
-msgstr "Tip de maus: %s\n"
+msgstr "Tip de șoricel: %s\n"
 
 #: ../lib/Xconfig/various.pm:30
 #, c-format
@@ -1676,7 +1676,7 @@ msgstr ""
 #: ../lib/mouse.pm:25
 #, c-format
 msgid "Sun - Mouse"
-msgstr "Maus - Sun"
+msgstr "Șoricel - Sun"
 
 #: ../lib/mouse.pm:31
 #, c-format
@@ -1691,7 +1691,7 @@ msgstr "Logitech MouseMan+"
 #: ../lib/mouse.pm:33
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "Maus PS/2 comun cu rotiță"
+msgstr "Șoricel PS/2 generic cu rotiță"
 
 #: ../lib/mouse.pm:34
 #, c-format
@@ -1701,7 +1701,7 @@ msgstr "GlidePoint"
 #: ../lib/mouse.pm:37 ../lib/mouse.pm:71
 #, c-format
 msgid "Kensington Thinking Mouse"
-msgstr "Maus Kensington Thinking"
+msgstr "Șoricel Kensington Thinking"
 
 #: ../lib/mouse.pm:38 ../lib/mouse.pm:66
 #, c-format
@@ -1726,12 +1726,12 @@ msgstr "1 buton"
 #: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 2 Button Mouse"
-msgstr "Maus comun cu 2 butoane"
+msgstr "Șoricel generic cu 2 butoane"
 
 #: ../lib/mouse.pm:48 ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Maus generic cu 3 butoane cu rotiță emulată"
+msgstr "Șoricel generic cu 3 butoane cu rotiță emulată"
 
 #: ../lib/mouse.pm:49
 #, c-format
@@ -1746,7 +1746,7 @@ msgstr "serial"
 #: ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 3 Button Mouse"
-msgstr "Maus comun cu 3 butoane"
+msgstr "Șoricel generic cu 3 butoane"
 
 #: ../lib/mouse.pm:58
 #, c-format
@@ -1796,17 +1796,17 @@ msgstr "MM HitTablet"
 #: ../lib/mouse.pm:69
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
-msgstr "Maus Logitech (serie, tip vechi C7)"
+msgstr "Șoricel Logitech (serie, tip vechi C7)"
 
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Maus Logitech (serial, tip C7 vechi) cu rotiță emulată"
+msgstr "Șoricel Logitech (serial, tip C7 vechi) cu rotiță emulată"
 
 #: ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Maus Kensington Thinking cu rotiță emulată"
+msgstr "Șoricel Kensington Thinking cu rotiță emulată"
 
 #: ../lib/mouse.pm:75
 #, c-format
@@ -1836,7 +1836,7 @@ msgstr "Generale"
 #: ../lib/mouse.pm:85
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr "Orice maus PS/2 & USB"
+msgstr "Orice șoricel PS/2 & USB"
 
 #: ../lib/mouse.pm:86
 #, c-format
@@ -1851,12 +1851,12 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:88
 #, c-format
 msgid "VirtualBox mouse"
-msgstr "Maus VirtualBox"
+msgstr "Șoricel VirtualBox"
 
 #: ../lib/mouse.pm:89
 #, c-format
 msgid "VMware mouse"
-msgstr "Maus VMware"
+msgstr "Șoricel VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1866,22 +1866,22 @@ msgstr "nici unul"
 #: ../lib/mouse.pm:94
 #, c-format
 msgid "No mouse"
-msgstr "Fără maus"
+msgstr "Fără șoricel"
 
 #: ../lib/mouse.pm:510
 #, c-format
 msgid "Testing the mouse"
-msgstr "Testare de maus"
+msgstr "Testare șoricel"
 
 #: ../lib/mouse.pm:532
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Alegeți tipul de maus folosit."
+msgstr "Alegeți tipul de șoricel folosit."
 
 #: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse choice"
-msgstr "Alegere maus"
+msgstr "Alegere șoricel"
 
 #: ../lib/mouse.pm:549
 #, c-format
@@ -1891,7 +1891,7 @@ msgstr "Emulare 3 Butoane?"
 #: ../lib/mouse.pm:553
 #, c-format
 msgid "Mouse Port"
-msgstr "Port de maus"
+msgstr "Port de șoricel"
 
 #: ../lib/mouse.pm:554
 #, c-format
@@ -1916,12 +1916,12 @@ msgstr "Emulare buton 3"
 #: ../lib/mouse.pm:617
 #, c-format
 msgid "Please test the mouse"
-msgstr "Testați mausul"
+msgstr "Testați șoricelul"
 
 #: ../lib/mouse.pm:619
 #, c-format
 msgid "To activate the mouse,"
-msgstr "Pentru a activa mausul,"
+msgstr "Pentru a activa șoricelul,"
 
 #: ../lib/mouse.pm:620
 #, c-format
@@ -1957,37 +1957,3 @@ msgstr "Tip de tastatură"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vreți ca BackSpace să întoarcă Delete în consolă?"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr ""
-#~ "_: tastatură\n"
-#~ "Lituaniană AZERTY (vechi)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr ""
-#~ "_: tastatură\n"
-#~ "Lituaniană AZERTY (nou)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr ""
-#~ "_: tastatură\n"
-#~ "Lituaniană QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr ""
-#~ "_: tastatură\n"
-#~ "Lithuaniană \"fonetic\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Test de maus"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Testați-vă mausul:"
