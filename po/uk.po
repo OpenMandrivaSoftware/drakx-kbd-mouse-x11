@@ -1,25 +1,24 @@
 # translation of drakx-kbd-mouse-x11.po to ukrainian
 # $Id: uk.po 116995 2007-02-07 09:38:54Z pablo $
-# Copyright (C) 2000,2003, 2004, 2005, 2008 Free Software Foundation, Inc.
+# Copyright (C) 2000,2003, 2004, 2005, 2008, 2009 Free Software Foundation, Inc.
 #
 # Dmytro  Kovalov <kov@tokyo.email.ne.jp>, 2000.
 # Taras Boychuk <btr1@torba.com>, 2003, 2004.
 # Taras Boychuk <btr1@mail.ru>, 2004, 2003.
 # Taras Boychuk <btr1@ukrpost.net>, 2004, 2005.
-# Taras Boychuk <btr0001@ukr.net>, 2008.
+# Taras Boychuk <btr0001@ukr.net>, 2008, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-10-05 21:27+0300\n"
+"PO-Revision-Date: 2009-04-11 20:35+0300\n"
 "Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
 "Language-Team: ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -460,7 +459,7 @@ msgstr "Увімкнути резервний дисплей на другому
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Примусово встановити режим дисплею в DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -969,11 +968,11 @@ msgid ""
 msgstr "Лаоська"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Іранська"
+msgstr "Литовська"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1599,9 +1598,9 @@ msgid "VirtualBox mouse"
 msgstr "Миша VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Немає миші"
+msgstr "миша VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1703,28 +1702,3 @@ msgstr "Тип клавіатури"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Ви хочете, щоб BackSpace повертав Delete на консолі?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Литовська AZERTY (стара)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Литовська AZERTY (нова)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Литовська \"цифровий ряд\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Литовська \"фонетична\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Тест миші"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Випробуйте мишу, будь ласка:"
