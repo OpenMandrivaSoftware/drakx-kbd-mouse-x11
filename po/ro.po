@@ -473,7 +473,7 @@ msgstr "Activați semitransparența (extensia Composite)"
 #: ../lib/Xconfig/various.pm:228
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr "Utilizați accelerarea materială pentru cursorul mausului"
+msgstr "Utilizați accelerarea materială pentru cursorul șoricelului"
 
 #: ../lib/Xconfig/various.pm:231
 #, c-format
@@ -1896,7 +1896,7 @@ msgstr "Port de șoricel"
 #: ../lib/mouse.pm:554
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Pe ce port serial este conectat mausul?"
+msgstr "Pe ce port serial este conectat șoricelul?"
 
 #: ../lib/mouse.pm:563
 #, c-format
