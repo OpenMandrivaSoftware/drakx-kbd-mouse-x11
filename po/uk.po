@@ -1,5 +1,5 @@
 # translation of drakx-kbd-mouse-x11.po to ukrainian
-# $Id: uk.po 116995 2007-02-07 09:38:54Z pablo $
+# $Id$
 # Copyright (C) 2000,2003, 2004, 2005, 2008, 2009 Free Software Foundation, Inc.
 #
 # Dmytro  Kovalov <kov@tokyo.email.ne.jp>, 2000.
