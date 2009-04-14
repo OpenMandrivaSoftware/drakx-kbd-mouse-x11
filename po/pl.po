@@ -17,9 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2009-01-07 10:52+0100\n"
-"Last-Translator: Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz."
-"bednarski@amazis.pl>\n"
+"PO-Revision-Date: 2009-04-14 08:16+0200\n"
+"Last-Translator: Amazis.net sp. z o.o. - Tomasz Bednarski <tomasz.bednarski@amazis.pl>\n"
 "Language-Team:  <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -462,7 +461,7 @@ msgstr "Aktywuj wyświetlanie na drugim monitorze"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Wymuś tryb wyświetlania DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -969,11 +968,11 @@ msgid ""
 msgstr "laotański"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "irański"
+msgstr "litewski"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1601,9 +1600,9 @@ msgid "VirtualBox mouse"
 msgstr "Mysz w VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Brak myszy"
+msgstr "Mysz VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
@@ -1705,28 +1704,3 @@ msgstr "Rodzaj klawiatury"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Czy chcesz używać BackSpace zamiast Delete dla konsoli?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "litewski AZERTY (stary)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "litewski AZERTY (nowy)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "litewski QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "litewski QWERTY - fonetyczny"
-
-#~ msgid "Mouse test"
-#~ msgstr "Test myszy"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Przetestuj swoją mysz:"
