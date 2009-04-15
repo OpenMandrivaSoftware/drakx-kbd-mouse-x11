@@ -1,3 +1,5 @@
+Version 0.72 - 15 April 2009
+
 - XFdrake:
   o fix selecting proprietary drivers with xdriver=DRIVER boot option
   o do not add Load "freetype" to xorg.conf as the module does not exist
