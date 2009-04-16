@@ -109,9 +109,9 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Existe um driver proprietário disponível para sua placa de vídeo que pode "
-"suporta recursos adicionais.\n"
-"Deseja utiliza-lo?"
+"Existe um driver proprietário disponível para sua placa de vídeo "
+"com suporte a recursos adicionais.\n"
+"Deseja instalar ele?"
 
 #: ../lib/Xconfig/card.pm:342
 #, c-format
@@ -119,8 +119,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"O driver proprietário não foi devidamente instalado, usando o driver free "
-"software por padrão."
+"O driver proprietário não foi devidamente instalado, usando o "
+"driver livre por padrão."
 
 #: ../lib/Xconfig/card.pm:409
 #, c-format
