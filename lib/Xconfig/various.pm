@@ -151,10 +151,22 @@ sub config {
     }
 
     if (exists $various->{EXA}) {
-	if ($various->{EXA}) {
-	    $card->{Options}{AccelMethod} = 'EXA';
-	} else {
-	    delete $card->{Options}{AccelMethod};
+	if ($card->{Driver} eq 'intel') {
+	    # the intel driver is able to automatically pick UXA/EXA
+	    #  when xorg.conf has no accel method defined, but XAA
+	    #  has to be explicitly selected, that's why the logic
+	    #  is reversed compared to the other drivers
+	    if ($various->{EXA}) {
+		delete $card->{Options}{AccelMethod};
+	    } else {
+		$card->{Options}{AccelMethod} = 'XAA';
+	    }
+        } else {
+	    if ($various->{EXA}) {
+		$card->{Options}{AccelMethod} = 'EXA';
+	    } else {
+		delete $card->{Options}{AccelMethod};
+	    }
 	}
     }
 
