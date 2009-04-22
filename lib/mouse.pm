@@ -402,7 +402,7 @@ sub set_xfree_conf {
 
     my @mice = map {
 	{
-	    ($_->{Protocol} eq 'vboxmouse' ? "Driver" : "Protocol") => $_->{Protocol},
+	    (member($_->{Protocol}, qw(vboxmouse vmmouse)) ? "Driver" : "Protocol") => $_->{Protocol},
 	    Device => devices::make($_->{device}),
 	    if_($_->{Emulate3Buttons} || $_->{EmulateWheel}, Emulate3Buttons => undef, Emulate3Timeout => 50),
 	    if_($_->{EmulateWheel}, EmulateWheel => undef, EmulateWheelButton => 2),
