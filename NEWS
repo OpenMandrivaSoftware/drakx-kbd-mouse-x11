@@ -1,6 +1,11 @@
 - mousedrake:
   o fix vmmouse configuration for vmware (#49654)
 
+Version 0.73 - 21 April 2009
+
+- tweak Intel driver accel methods in xorg.conf so that it's more consistent
+  with what the new Intel driver expects.
+
 Version 0.72 - 15 April 2009
 
 - XFdrake:
