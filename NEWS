@@ -1,3 +1,5 @@
+Version 0.74 - 22 April 2009
+
 - mousedrake:
   o fix vmmouse configuration for vmware (#49654)
 
