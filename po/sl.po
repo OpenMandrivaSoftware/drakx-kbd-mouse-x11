@@ -5,20 +5,20 @@
 # Matjaž Kaše <matjaz.kase@g-kabel.si>, 2004.
 # Aljoša Ločičnik <aljosa.locicnik@mandrakeprinas.org>, 2005.
 # Gregor Pirnaver <gregor.pirnaver@sdm-si.org>, 2002,2004,2005.
-# Jure Repinc <jlp@holodeck1.com>, 2005, 2006, 2007, 2008.
+# Jure Repinc <jlp@holodeck1.com>, 2005, 2006, 2007, 2008, 2009.
 # Matjaž Kaše <matjaz.kase@telemach.net>, 2006.
 # Matej Štrovs <matej.strovs@gmail.com>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: sl\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2009-04-10 17:28+0200\n"
+"PO-Revision-Date: 2009-04-22 02:25+0200\n"
 "Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms:  nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
 "n%100==4 ? 3 : 0);\n"
 
@@ -1618,7 +1618,7 @@ msgstr "Preizkus miške"
 #: ../lib/mouse.pm:532
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Prosim izberite vrsto vaše miške"
+msgstr "Izberite vrsto svoje miške"
 
 #: ../lib/mouse.pm:533
 #, c-format
@@ -1638,7 +1638,7 @@ msgstr "Vrata za miško"
 #: ../lib/mouse.pm:554
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Prosim izberite serijska vrata, na katera je priključena miška"
+msgstr "Izberite serijska vrata, na katera je priključena miška"
 
 #: ../lib/mouse.pm:563
 #, c-format
@@ -1658,7 +1658,7 @@ msgstr "Posnemanje tretjega gumba"
 #: ../lib/mouse.pm:617
 #, c-format
 msgid "Please test the mouse"
-msgstr "Prosim preizkusite miško"
+msgstr "Preizkusite miško"
 
 #: ../lib/mouse.pm:619
 #, c-format
