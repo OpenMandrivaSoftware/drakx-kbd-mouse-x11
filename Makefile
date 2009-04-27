@@ -44,13 +44,31 @@ install:
 clean:
 	make -C po clean
 
-dis:
-	rm -rf $(NAME)-$(VERSION) ../$(NAME)-$(VERSION).tar*
+dis: dist
+dist:
+	rm -rf ../$(NAME)-$(VERSION).tar*
+	@if [ -e ".svn" ]; then \
+		$(MAKE) dist-svn; \
+	elif [ -e ".git" ]; then \
+		$(MAKE) dist-git; \
+	else \
+		echo "Unknown SCM (not SVN nor GIT)";\
+		exit 1; \
+	fi;
+	$(info $(NAME)-$(VERSION).tar.bz2 is ready)
+
+dist-svn:
+	rm -rf $(NAME)-$(VERSION)
 	svn export -q -rBASE . $(NAME)-$(VERSION)
 	find $(NAME)-$(VERSION) -name .cvsignore |xargs rm -rf
 	tar cf ../$(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
 	bzip2 -9f ../$(NAME)-$(VERSION).tar
 	rm -rf $(NAME)-$(VERSION)
+
+dist-git:
+	 @git archive --prefix=$(NAME)-$(VERSION)/ HEAD | bzip2 >../$(NAME)-$(VERSION).tar.bz2;
+
+
 
 .PHONY: ChangeLog
 
