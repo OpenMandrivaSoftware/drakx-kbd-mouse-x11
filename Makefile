@@ -60,9 +60,7 @@ dist:
 dist-svn:
 	rm -rf $(NAME)-$(VERSION)
 	svn export -q -rBASE . $(NAME)-$(VERSION)
-	find $(NAME)-$(VERSION) -name .cvsignore |xargs rm -rf
-	tar cf ../$(NAME)-$(VERSION).tar $(NAME)-$(VERSION)
-	bzip2 -9f ../$(NAME)-$(VERSION).tar
+	tar jcf ../$(NAME)-$(VERSION).tar.bz2 $(NAME)-$(VERSION)
 	rm -rf $(NAME)-$(VERSION)
 
 dist-git:
