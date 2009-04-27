@@ -618,6 +618,7 @@ sub write {
     } else {
 	run_program::rooted($::prefix, 'dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
+    run_program::run('mandriva-setup-keyboard');
 }
 
 sub configure_xorg {
