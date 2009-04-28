@@ -1,6 +1,11 @@
 - keyboarddrake: 
   o update the xkb HAL keys when the keyboard layout is changed so that it
-    persists after a X server restart
+    persists after a X server restart. Bug #49725
+- XFdrake:
+  o when probing for video cards, ignore cards which are not in the VIDEO_VGA
+    PCI class (it is pretty common for dual-head ATI cards to have a
+    VIDEO_OTHER device for example). This has the potential of breaking
+    dual head setups, so it needs careful testing in Cooker ;) See bug #48028
 
 Version 0.74 - 22 April 2009
 
