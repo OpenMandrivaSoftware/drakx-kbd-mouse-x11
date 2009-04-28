@@ -1,3 +1,7 @@
+- keyboarddrake: 
+  o update the xkb HAL keys when the keyboard layout is changed so that it
+    persists after a X server restart
+
 Version 0.74 - 22 April 2009
 
 - mousedrake:
