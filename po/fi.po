@@ -90,7 +90,7 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"Järjestelmä tukee usean näytön laitteistokokoonpanoa.\n"
+"Järjestelmä tukee usean näytön kokoonpanoa.\n"
 "Mitä tehdään?"
 
 #: ../lib/Xconfig/card.pm:289
@@ -140,7 +140,7 @@ msgstr "Mukautettu"
 #: ../lib/Xconfig/main.pm:123
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Näytönohjaimen ja näytön asettaminen"
+msgstr "Näytönohjaimen ja näytön asetukset"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -182,7 +182,7 @@ msgstr "Liitännäiset"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "X.org-asetustiedosto on viallinen, tiedosto ohitetaan."
+msgstr "Xorg-asetustiedosto on viallinen, tiedosto ohitetaan."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -334,7 +334,7 @@ msgstr "Kokeillaanko asetuksia?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr "Varoitus! Näytönohjaimen testaaminen voi kaataa tietokoneen"
+msgstr "Varoitus! Näytönohjaimen testaaminen voi kaataa tietokoneen."
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -345,7 +345,7 @@ msgid ""
 msgstr ""
 "Tapahtui virhe:\n"
 "%s\n"
-"Kokeile muuttaa joitakin asetuksia"
+"Kokeile muuttaa joitain asetuksia"
 
 #: ../lib/Xconfig/test.pm:126
 #, c-format
@@ -370,7 +370,7 @@ msgstr "Näppäimistön asettelu: %s\n"
 #: ../lib/Xconfig/various.pm:28
 #, c-format
 msgid "Mouse type: %s\n"
-msgstr "Hiiren tyyppi: %s\n"
+msgstr "Hiiren malli: %s\n"
 
 #: ../lib/Xconfig/various.pm:30
 #, c-format
