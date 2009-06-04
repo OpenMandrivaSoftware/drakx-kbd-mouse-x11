@@ -82,7 +82,8 @@ sub configure_auto_install {
 
     my $card_Driver;
     if (!is_valid($monitors->[0])) {
-	$card_Driver ||= first(Xconfig::card::probe())->{Driver};
+	my ($first_card) = Xconfig::card::probe();
+	$card_Driver = $first_card->{Driver} if $first_card;
 	put_in_hash($monitors->[0], probe($card_Driver));
     }
 
