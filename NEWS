@@ -6,6 +6,9 @@
     PCI class (it is pretty common for dual-head ATI cards to have a
     VIDEO_OTHER device for example). This has the potential of breaking
     dual head setups, so it needs careful testing in Cooker ;) See bug #48028
+  o fix crash when both monitor and driver can not be probed (in
+    harddrake service or XFdrake --auto), for example with some Quanta
+    IL1 netbooks using Chrome9 IC3
 
 Version 0.74 - 22 April 2009
 
