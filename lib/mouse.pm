@@ -17,7 +17,7 @@ use log;
 
 my @mouses_fields = qw(nbuttons MOUSETYPE Protocol name EmulateWheel);
 
-sub all_mice() {
+sub _all_mice() {
  arch() =~ /^sparc/ ? 
 (
  'sunmouse' =>
@@ -117,7 +117,7 @@ sub all_mice() {
 #- E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=10ms
 
 
-sub xmouse2xId { 
+sub _xmouse2xId { 
     #- xmousetypes must be sorted as found in /usr/include/X11/extensions/xf86misc.h
     #- so that first mean "0", etc
     my @xmousetypes = (
@@ -166,10 +166,10 @@ my %mouse_btn_keymap = (
     117 => "Num: =",
     96 => "Enter",
 );
-sub ppc_one_button_keys() { keys %mouse_btn_keymap }
-sub ppc_one_button_key2text { $mouse_btn_keymap{$_[0]} }
+sub _ppc_one_button_keys() { keys %mouse_btn_keymap }
+sub _ppc_one_button_key2text { $mouse_btn_keymap{$_[0]} }
 
-sub raw2mouse {
+sub _raw2mouse {
     my ($type, $raw) = @_;
     $raw or return;
 
@@ -177,33 +177,33 @@ sub raw2mouse {
     +{ %l, type => $type, if_($l{nbuttons} < 3, Emulate3Buttons => 1) };
 }
 
-sub fullnames() { 
+sub _fullnames() { 
     map_each { 
 	my $type = $::a;
 	grep { $_ } map {
 	    if ($_) {
-		my $l = raw2mouse($type, $_);
+		my $l = _raw2mouse($type, $_);
 		"$type|$l->{name}";
 	    } else { 
 		$type .= "|[" . N("Other") . "]";
 		'';
 	    }
 	} @{$::b->[1]};
-    } all_mice();
+    } _all_mice();
 }
 
 sub fullname2mouse {
     my ($fname, %opts) = @_;
     my ($type, @l) = split '\|', $fname;
     my $name = pop @l; #- ensure we get rid of "[Other]"
-    my %mice = all_mice();
+    my %mice = _all_mice();
 
     if (my @devices = @{$mice{$type}[0]}) {
 	member($opts{device}, @devices) or delete $opts{device};
 	$opts{device} ||= $devices[0];
     }
     foreach (@{$mice{$type}[1]}) {
-	my $l = raw2mouse($type, $_);
+	my $l = _raw2mouse($type, $_);
 	$name eq $l->{name} and return { %$l, %opts };
     }
     die "$fname not found ($type, $name)";
@@ -243,7 +243,7 @@ sub write {
     }
 }
 
-sub input_entry_to_device_by_id {
+sub _input_entry_to_device_by_id {
     my ($input) = @_;
 
     my $ID_SERIAL = chomp_(run_program::get_stdout('usb_id', $input->{sysfs_path}));
@@ -257,15 +257,15 @@ sub input_entry_to_device_by_id {
     }
 }
 
-sub probe_usb_wacom_devices() {
+sub _probe_usb_wacom_devices() {
     detect_devices::hasWacom() or return;
 
     eval { modules::load("wacom", "evdev") };
      
-    map { input_entry_to_device_by_id($_) } detect_devices::usbWacom();
+    map { _input_entry_to_device_by_id($_) } detect_devices::usbWacom();
 }
 
-sub detect_serial() {
+sub _detect_serial() {
     my ($t, $mouse, @wacom);
 
     #- Whouah! probing all devices from ttyS0 to ttyS3 once a time!
@@ -291,7 +291,7 @@ sub detect_serial() {
     $mouse, @wacom;
 }
 
-sub mice2evdev {
+sub _mice2evdev {
     my (@mice) = @_;
 
     [ map {
@@ -299,10 +299,10 @@ sub mice2evdev {
 	#- that way we ensure 6 & 7 is always horizontal wheel
 	#- (cf patch skip-HWheelRelativeAxisButtons-even-if-unused in x11-driver-input-evdev)
 	{ device => "/dev/$_", HWheelRelativeAxisButtons => "7 6" };
-    } map { input_entry_to_device_by_id($_) } @mice ];
+    } map { _input_entry_to_device_by_id($_) } @mice ];
 }
 
-sub detect_evdev_mice {
+sub _detect_evdev_mice {
     my (@mice) = @_;
 
     my $imwheel;
@@ -329,8 +329,8 @@ sub detect_evdev_mice {
     log::l("configuring mice for evdev (" . join(' ', map { "$_->{vendor}:$_->{product}" } @evdev_mice) . ")") if @evdev_mice;
 
     { imwheel => $imwheel, 
-      evdev_mice_all => mice2evdev(@mice),
-      if_(@evdev_mice, evdev_mice => mice2evdev(@evdev_mice)) };
+      evdev_mice_all => _mice2evdev(@mice),
+      if_(@evdev_mice, evdev_mice => _mice2evdev(@evdev_mice)) };
 }
 
 sub detect {
@@ -341,7 +341,7 @@ sub detect {
     detect_devices::probe_category('input/tablet');
     detect_devices::probe_category('input/touchscreen');
 
-    my @wacom = probe_usb_wacom_devices();
+    my @wacom = _probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
     if (detect_devices::is_virtualbox()) {
@@ -353,7 +353,7 @@ sub detect {
 	    { ALPS => $_->{ALPS} };
 	} grep { $_->{Synaptics} || $_->{ALPS} } @mice;
 
-	my $evdev_opts = detect_evdev_mice(@mice);
+	my $evdev_opts = _detect_evdev_mice(@mice);
 
 	my $fullname = detect_devices::is_xbox() ? 
 	  'Universal|Microsoft Xbox Controller S' :
@@ -373,7 +373,7 @@ sub detect {
     } else {
 	#- probe serial device to make sure a wacom has been detected.
 	eval { modules::load("serial") };
-	my ($serial_mouse, @serial_wacom) = detect_serial(); 
+	my ($serial_mouse, @serial_wacom) = _detect_serial(); 
 	push @wacom, @serial_wacom;
 	if ($serial_mouse) {
 	    { wacom => \@wacom, %$serial_mouse };
@@ -486,8 +486,8 @@ sub write_conf {
 sub change_mouse_live {
     my ($mouse, $old) = @_;
 
-    my $xId = xmouse2xId($mouse->{Protocol});
-    $old->{device} ne $mouse->{device} || $xId != xmouse2xId($old->{Protocol}) or return;
+    my $xId = _xmouse2xId($mouse->{Protocol});
+    $old->{device} ne $mouse->{device} || $xId != _xmouse2xId($old->{Protocol}) or return;
 
     log::l("telling X server to use another mouse ($mouse->{Protocol}, $xId)");
     eval { modules::load('serial') } if $mouse->{device} =~ /ttyS/;
@@ -534,7 +534,7 @@ sub select {
 		     interactive_help_id => 'selectMouse',
 		     if_($mouse->{unsafe}, cancel => ''),
 		 },
-		   [ { list => [ fullnames() ], separator => '|', val => \$fullname, 
+		   [ { list => [ _fullnames() ], separator => '|', val => \$fullname, 
 		       format => sub { join('|', map { translate($_) } split('\|', $_[0])) } } ]) or return;
 
     if ($fullname ne $prev) {
@@ -562,8 +562,8 @@ sub select {
 	$mouse->{button3_key} = 88;
 	$in->ask_from('', N("Buttons emulation"),
 		[
-		{ label => N("Button 2 Emulation"), val => \$mouse->{button2_key}, list => [ ppc_one_button_keys() ], format => \&ppc_one_button_key2text },
-		{ label => N("Button 3 Emulation"), val => \$mouse->{button3_key}, list => [ ppc_one_button_keys() ], format => \&ppc_one_button_key2text },
+		{ label => N("Button 2 Emulation"), val => \$mouse->{button2_key}, list => [ _ppc_one_button_keys() ], format => \&_ppc_one_button_key2text },
+		{ label => N("Button 3 Emulation"), val => \$mouse->{button3_key}, list => [ _ppc_one_button_keys() ], format => \&_ppc_one_button_key2text },
 		]) or return;
     }
     1;
