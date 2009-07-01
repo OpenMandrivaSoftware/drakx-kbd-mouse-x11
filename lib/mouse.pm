@@ -209,11 +209,6 @@ sub fullname2mouse {
     die "$fname not found ($type, $name)";
 }
 
-sub serial_ports() { map { "ttyS$_" } 0..7 }
-sub serial_port2text {
-    $_[0] =~ /ttyS(\d+)/ ? "$_[0] / COM" . ($1 + 1) : $_[0];
-}
-
 sub read() {
     my %mouse = getVarsFromSh "$::prefix/etc/sysconfig/mouse";
     eval { fullname2mouse($mouse{FULLNAME}, device => $mouse{device}) } || \%mouse;
@@ -553,7 +548,7 @@ sub select {
 	$in->ask_from_({ title => N("Mouse Port"),
 			 messages => N("Please choose which serial port your mouse is connected to."),
 			 interactive_help_id => 'selectSerialPort',
-		     }, [ { list => [ serial_ports() ], format => \&serial_port2text, val => \$mouse->{device} } ]) or return &select;
+		     }, [ { list => [ detect_devices::serialPorts() ], format => \&detect_devices::serialPort2text, val => \$mouse->{device} } ]) or return &select;
     }
 
     if (arch() =~ /ppc/ && $mouse->{nbuttons} == 1) {
