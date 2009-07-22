@@ -70,7 +70,8 @@ sub may_use_Driver2 {
 
     my $check_drv = sub {
 	my ($drv, $o_subdir) = @_;
-	my @l = (if_($o_subdir, "$modules_dir/drivers/$o_subdir/$drv.so"),
+	my @l = (if_($o_subdir, "$modules_dir/drivers/$o_subdir/$drv.so",
+		 "/usr/$lib/$o_subdir/xorg/$drv.so"),
 		 "$modules_dir/drivers/$drv.so",
 		 "$modules_dir/drivers/$drv.o");
 	my $has = find { -e "$::prefix$_" } @l;
