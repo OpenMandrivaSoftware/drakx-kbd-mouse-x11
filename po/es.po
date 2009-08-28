@@ -7,17 +7,18 @@
 # Pablo Saratxaga <pablo@mandriva.com>, 2004, 2006.
 # Jaime Crespo <505201@unizar.es>, 2004, 2005.
 # José Manuel Pérez <jmprodu@hotmail.com>, 2005.
+# Andre Paulo Machado <andre.panm@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: es\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-03-25 11:55-0300\n"
-"Last-Translator: Fabián Mandelbaum <fmandelbaum@gmail.com>\n"
-"Language-Team: Español <es@li.org>\n"
+"PO-Revision-Date: 2009-08-28 15:20-0300\n"
+"Last-Translator: Andre Paulo Machado <andre.panm@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 0.3\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:19
@@ -455,7 +456,7 @@ msgstr "Habilitar pantalla duplicada en la segunda pantalla"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Forzar el modo de visualización de la DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -963,12 +964,11 @@ msgid ""
 "Laotian"
 msgstr "Laosiano"
 
-#: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#: ../lib/keyboard.pm:264, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iraní"
+msgstr "Lituano"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1594,10 +1594,9 @@ msgstr "Controlador S de Microsoft Xbox"
 msgid "VirtualBox mouse"
 msgstr "Ratón de VirtualBox"
 
-#: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#: ../lib/mouse.pm:89, c-format
 msgid "VMware mouse"
-msgstr "Sin ratón"
+msgstr "Ráton VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
