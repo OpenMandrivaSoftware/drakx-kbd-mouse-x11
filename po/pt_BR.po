@@ -4412,7 +4412,7 @@ msgstr "Você quer que o BackSpace retorne o Delete no console?"
 #~ msgstr "Saara do oeste"
 
 #~ msgid "Eritrea"
-#~ msgstr "Eritréia"
+#~ msgstr "Eritreia"
 
 #~ msgid "Spain"
 #~ msgstr "Espanha"
@@ -4565,10 +4565,10 @@ msgstr "Você quer que o BackSpace retorne o Delete no console?"
 #~ msgstr "Saint Kitts e Nevis"
 
 #~ msgid "Korea (North)"
-#~ msgstr "Coréia (Norte)"
+#~ msgstr "Coreia do Norte"
 
 #~ msgid "Korea"
-#~ msgstr "Coréia"
+#~ msgstr "Coreia"
 
 #~ msgid "Kuwait"
 #~ msgstr "Kuwait"
@@ -6287,7 +6287,7 @@ msgstr "Você quer que o BackSpace retorne o Delete no console?"
 #~ "to various system log files.  It is a good idea to always run syslog."
 #~ msgstr ""
 #~ "O Syslog é um recurso que muitos serviços usam para gravar mensagens\n"
-#~ "em vários arquivos de registro ou de log. É uma boa idéia sempre estar "
+#~ "em vários arquivos de registro ou de log. É uma boa ideia sempre estar "
 #~ "com o syslog sendo executado."
 
 #~ msgid "Load the drivers for your usb devices."
