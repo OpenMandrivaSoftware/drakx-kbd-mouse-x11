@@ -23,6 +23,7 @@ sub info {
     my $device = eval { $raw_X->get_device } || {};
     my $mouse = eval { first($raw_X->get_mice) } || {};
 
+    $info .= N("Disable Ctrl-Alt-Backspace: %s\n", configure_ServerFlag($raw_X, 'DontZap') eq 'True' ? N("yes") : N("no"));
     $info .= N("3D hardware acceleration: %s\n", translate(bool2yesno($card->{use_DRI_GLX} || $card->{DRI_GLX_SPECIAL})));
     $info .= N("Keyboard layout: %s\n", $keyboard->{XkbLayout});
     $info .= N("Mouse type: %s\n", $mouse->{Protocol});
@@ -49,6 +50,7 @@ sub default {
     add2hash_($various, { 
 	isLaptop => $isLaptop,
 	xdm => 1,
+	DontZap => 1,
 	Composite => !($card->{Driver} eq 'fglrx' || $card->{Driver} eq 'nvidia' && $card->{DriverVersion} eq '71xx'),
 	if_($card->{Driver} eq 'nvidia', RenderAccel => !member($card->{DriverVersion}, qw(71xx 96xx)), 
 	                                 Clone => 0, ForceModeDVI => 0),
@@ -86,6 +88,7 @@ sub various {
 	    RenderAccel => !$card->{Options}{RenderAccel},
 	      ),
 	    HWCursor => !$card->{Options}{SWCursor},
+	    DontZap => (configure_ServerFlag($raw_X, 'DontZap') eq 'True' ? 1 : 0),
 	    if_($card->{DRI_GLX} || $use_DRI_GLX, use_DRI_GLX => $use_DRI_GLX),
 	),
     };
@@ -110,6 +113,9 @@ sub various_auto_install {
 sub config {
     my ($raw_X, $card, $various) = @_;
 
+    if (exists $various->{DontZap}) {
+	configure_ServerFlag($raw_X, 'DontZap', $various->{DontZap} eq 1 ? 'True' : 'False');
+    }
     if ($various->{Composite}) {
 	$raw_X->remove_extension('Composite');
 	if ($card->{Driver} eq 'nvidia') {
@@ -230,6 +236,9 @@ sub choose {
     my ($in, $various) = @_;
 
     $in->ask_from_({ title => N("Xorg configuration") }, [
+	{ label => N("Global options"), title => 1 },
+	{ text => N("Disable Ctrl-Alt-Backspace"),
+	  type => 'bool', val => \$various->{DontZap} },
 	{ label => N("Graphic card options"), title => 1 },
 	  exists $various->{use_DRI_GLX} ?
 	{ text => N("3D hardware acceleration"),
@@ -324,6 +333,14 @@ sub configure_FB_TVOUT {
 	    bootloader::install($bootloader, $all_hds);
 	}
     }
+}
+
+sub configure_ServerFlag {
+    my ($raw_X, $option, $value) = @_;
+    my $ServerFlags = $raw_X->get_Section('ServerFlags');
+    my $option_ref = $ServerFlags->{$option}->[0];
+    $option_ref->{val} = $value if $value;
+    $option_ref->{val};
 }
 
 sub check_xorg_conf_symlink() {
