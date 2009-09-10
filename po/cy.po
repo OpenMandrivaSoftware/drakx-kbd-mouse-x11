@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva DrakX.cy\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-02-14 20:48-0000\n"
-"Last-Translator: Rhoslyn Prys <post@meddal.com>\n"
+"PO-Revision-Date: 2009-08-24 19:18-0000\n"
+"Last-Translator: Rhoslyn Prys <rprys@yahoo.com>\n"
 "Language-Team: Cymraeg <post@meddal.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -449,7 +449,7 @@ msgstr "Galluogi dangos dyblyg ar ail ddangosydd"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Gorfodi modd dangos DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -957,11 +957,11 @@ msgid ""
 msgstr "Laotiaidd"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iranaidd"
+msgstr "Lithwanaidd"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -982,9 +982,7 @@ msgstr "Malayalamaidd"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
-"_: bysellfwrdd\n"
-"Maori"
+msgstr "Maori"
 
 #: ../lib/keyboard.pm:268
 #, c-format
@@ -1026,9 +1024,7 @@ msgstr "Maltaidd (UDA)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
-"_: bysellfwrdd\n"
-"Nigerian"
+msgstr "Nigeraidd"
 
 #: ../lib/keyboard.pm:274
 #, c-format
@@ -1112,9 +1108,7 @@ msgstr "Slfenaidd"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
-"_: keyboard\n"
-"Sinhala"
+msgstr "Sinhala"
 
 #: ../lib/keyboard.pm:291
 #, c-format
@@ -1219,18 +1213,14 @@ msgstr "Thai (Pattachote)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
-"_: keyboard\n"
-"Tifinagh (cynllun moroccot) (+lladin/arabeg)"
+msgstr "Tifinagh (cynllun moroccot) (+lladin/arabeg)"
 
 #: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr ""
-"_: keyboard\n"
-"Tifinagh (phonetig) (+lladin/arabeg)"
+msgstr "Tifinagh (phonetig) (+lladin/arabeg)"
 
 #: ../lib/keyboard.pm:313
 #, c-format
@@ -1598,9 +1588,9 @@ msgid "VirtualBox mouse"
 msgstr "Llygoden VirtualBox"
 
 #: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Dim llygoden"
+msgstr "Llygoden VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
