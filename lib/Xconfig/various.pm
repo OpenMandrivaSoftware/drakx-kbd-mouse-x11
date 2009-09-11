@@ -23,7 +23,7 @@ sub info {
     my $device = eval { $raw_X->get_device } || {};
     my $mouse = eval { first($raw_X->get_mice) } || {};
 
-    $info .= N("Disable Ctrl-Alt-Backspace: %s\n", configure_ServerFlag($raw_X, 'DontZap') eq 'True' ? N("yes") : N("no"));
+    $info .= N("Disable Ctrl-Alt-Backspace: %s\n", configure_ServerFlag($raw_X, 'DontZap') eq 'False' ? N("no") : N("yes"));
     $info .= N("3D hardware acceleration: %s\n", translate(bool2yesno($card->{use_DRI_GLX} || $card->{DRI_GLX_SPECIAL})));
     $info .= N("Keyboard layout: %s\n", $keyboard->{XkbLayout});
     $info .= N("Mouse type: %s\n", $mouse->{Protocol});
@@ -88,7 +88,7 @@ sub various {
 	    RenderAccel => !$card->{Options}{RenderAccel},
 	      ),
 	    HWCursor => !$card->{Options}{SWCursor},
-	    DontZap => (configure_ServerFlag($raw_X, 'DontZap') eq 'True' ? 1 : 0),
+	    DontZap => (configure_ServerFlag($raw_X, 'DontZap') eq 'False' ? 0 : 1),
 	    if_($card->{DRI_GLX} || $use_DRI_GLX, use_DRI_GLX => $use_DRI_GLX),
 	),
     };
@@ -339,7 +339,12 @@ sub configure_ServerFlag {
     my ($raw_X, $option, $value) = @_;
     my $ServerFlags = $raw_X->get_Section('ServerFlags');
     my $option_ref = $ServerFlags->{$option}->[0];
-    $option_ref->{val} = $value if $value;
+    if ($value) {
+	$option_ref->{val} = $value;
+	$option_ref->{commented} = 0;
+	$option_ref->{Option} = 1;
+    }
+    return undef if $option_ref->{commented} eq 1;
     $option_ref->{val};
 }
 

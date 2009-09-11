@@ -1,3 +1,6 @@
+- XFdrake: 
+  o fix DontZap option issue with old xorg.conf files
+
 Version 0.78 - 9 September 2009
 
 - XFdrake:
