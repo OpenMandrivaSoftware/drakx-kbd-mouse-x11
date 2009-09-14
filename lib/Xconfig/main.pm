@@ -54,7 +54,7 @@ sub configure_everything_auto_install {
     Xconfig::screen::configure($raw_X) or return;
     $X->{resolutions} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card}, $X->{monitors}, $old_X);
 
-    my $action = &write($raw_X, $X);
+    my $action = &write($raw_X, $X, $options->{skip_fb_setup});
 
     $action;
 }
@@ -203,13 +203,13 @@ The current configuration is:
 }
 
 sub write {
-    my ($raw_X, $X) = @_;
+    my ($raw_X, $X, $o_skip_fb_setup) = @_;
     export_to_install_X($X) if $::isInstall;
     my $only_resolution = $raw_X->is_only_resolution_modified;
     $raw_X->write;
     Xconfig::various::check_xorg_conf_symlink();
     if ($X->{resolutions}[0]{bios}) {
-	Xconfig::various::setupFB($X->{resolutions}[0]{bios});
+	Xconfig::various::setupFB($X->{resolutions}[0]{bios}) if !$o_skip_fb_setup;;
 	'need_reboot';
     } elsif (my $resolution = $only_resolution && eval { $raw_X->get_resolution }) {
 	'need_xrandr' . sprintf(' --size %dx%d', @$resolution{'X', 'Y'});

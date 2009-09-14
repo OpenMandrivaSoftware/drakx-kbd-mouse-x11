@@ -1,5 +1,7 @@
 - XFdrake: 
   o fix DontZap option issue with old xorg.conf files
+- allow to skip framebuffer setup (and thus splash removal) for newer
+  harddrake releases
 
 Version 0.78 - 9 September 2009
 
