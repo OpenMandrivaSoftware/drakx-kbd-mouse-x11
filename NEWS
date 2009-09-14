@@ -1,3 +1,5 @@
+Version 0.79 - 14 September 2009
+
 - XFdrake: 
   o fix DontZap option issue with old xorg.conf files
 - allow to skip framebuffer setup (and thus splash removal) for newer
