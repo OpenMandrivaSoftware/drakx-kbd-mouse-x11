@@ -281,12 +281,12 @@ sub set_wacoms {
     each_index {
 	my $wacom = $_;
 	foreach (@Modes) {
+	    next if ($wacom->{USB});
 	    my $identifier = $_ . ($::i + 1);
 	    my $h = { Identifier => { val => $identifier }, 
 		      Driver => { val => 'wacom' },
 		      Type => { val => lc $_, Option => 1 },
-		      Device => { val => $wacom->{Device}, Option => 1 },
-		      if_($wacom->{USB}, USB => { Option => 1 })
+		      Device => { val => $wacom->{Device}, Option => 1 }
 		    };
 	    $raw_X->add_Section('InputDevice', $h);
 	    push @$layout, { val => qq("$identifier" "SendCoreEvents") };
