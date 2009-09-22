@@ -315,7 +315,7 @@ sub set_synaptics {
         my %opts = (
             if_($synaptics_mouse->{ALPS},
                 #- from /usr/share/doc/synaptics-0.14.0/README.alps
-                #- and http://qa.mandrakesoft.com/show_bug.cgi?id=14512
+                #- and http://qa.mandriva.com/show_bug.cgi?id=14512
                 LeftEdge => 120,
                 RightEdge => 830,
                 TopEdge => 120,
