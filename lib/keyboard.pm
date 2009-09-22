@@ -357,32 +357,32 @@ my %grp_toggles = (
 #-######################################################################################
 sub KEYBOARDs() { keys %keyboards }
 sub KEYBOARD2text { $keyboards{$_[0]} && $keyboards{$_[0]}[0] }
-sub keyboards() { map { { KEYBOARD => $_ } } keys %keyboards }
-sub keyboard2one {
+sub _keyboards() { map { { KEYBOARD => $_ } } keys %keyboards }
+sub _keyboard2one {
     my ($keyboard, $nb) = @_;
     ref $keyboard or (detect_devices::is_xbox() ? return undef : internal_error());
     my $l = $keyboards{$keyboard->{KEYBOARD}} or return;
     $l->[$nb];
 }
-sub keyboard2text { keyboard2one($_[0], 0) }
-sub keyboard2kmap { keyboard2one($_[0], 1) }
-sub keyboard2xkb  { keyboard2one($_[0], 2) }
+sub keyboard2text { _keyboard2one($_[0], 0) }
+sub keyboard2kmap { _keyboard2one($_[0], 1) }
+sub _keyboard2xkb  { _keyboard2one($_[0], 2) }
 
 sub xkb_models() {
-    my $models = parse_xkb_rules()->{model};
+    my $models = _parse_xkb_rules()->{model};
     [ map { $_->[0] } @$models ], { map { @$_ } @$models };
 }
 
-sub grp_toggles {
+sub _grp_toggles {
     my ($keyboard) = @_;
-    keyboard2one($keyboard, 3) or return;
+    _keyboard2one($keyboard, 3) or return;
     \%grp_toggles;
 }
 
 sub group_toggle_choose {
     my ($in, $keyboard) = @_;
 
-    if (my $grp_toggles = grp_toggles($keyboard)) {
+    if (my $grp_toggles = _grp_toggles($keyboard)) {
 	my $GRP_TOGGLE = $keyboard->{GRP_TOGGLE} || 'caps_toggle';
 	$GRP_TOGGLE = $in->ask_from_listf('', N("Here you can choose the key or key combination that will 
 allow switching between the different keyboard layouts
@@ -433,7 +433,7 @@ sub loadkeys_files {
     uniq(@l, keys %l, grep { -e $_ } map { "$p/$_.inc.gz" } qw(compose euro windowkeys linux-keys-bare));
 }
 
-sub unpack_keyboards {
+sub _unpack_keyboards {
     my ($k) = @_; $k or return;
     [ grep { 
 	my $b = $keyboards{$_->[0]};
@@ -447,7 +447,7 @@ sub lang2keyboards {
 	#- example: pt_BR and pt
 	my @l = (if_($h->{country}, $h->{main} . '_' . $h->{country}), $h->{main}, 'en');
 	my $k = find { $_ } map { $lang2keyboard{$_} } @l;
-	unpack_keyboards($k) || internal_error();
+	_unpack_keyboards($k) || internal_error();
     } @_;
     \@li;
 }
@@ -479,7 +479,7 @@ sub from_DMI() {
     $XkbModel && { XkbModel => $XkbModel };
 }
 
-sub builtin_loadkeys {
+sub _builtin_loadkeys {
     my ($keymap) = @_;
     return if $::testing;
 
@@ -505,7 +505,7 @@ sub builtin_loadkeys {
     } @$tables_given;
 }
 
-sub parse_xkb_rules() {
+sub _parse_xkb_rules() {
     my $cat;
     my %l;
     my $lst_file = "$::prefix/usr/share/X11/xkb/rules/xorg.lst";
@@ -517,7 +517,7 @@ sub parse_xkb_rules() {
 	} elsif (/^\s*(\w\S*)\s+(.*)/) {
 	    push @{$l{$cat}}, [ $1, $2 ];
 	} else {
-	    log::l("parse_xkb_rules:$lst_file: bad line $_");
+	    log::l("_parse_xkb_rules:$lst_file: bad line $_");
 	}
     }
     \%l;
@@ -526,7 +526,7 @@ sub parse_xkb_rules() {
 sub default_XkbModel {
     my ($keyboard) = @_;
 
-    my $Layout = keyboard2xkb($keyboard);
+    my $Layout = _keyboard2xkb($keyboard);
 
     (arch() =~ /sparc/ ? 'sun' :
        $Layout eq 'jp' ? 'jp106' : 
@@ -536,7 +536,7 @@ sub default_XkbModel {
 sub keyboard2full_xkb {
     my ($keyboard) = @_;
 
-    my $Layout = keyboard2xkb($keyboard) or return { XkbDisable => '' };
+    my $Layout = _keyboard2xkb($keyboard) or return { XkbDisable => '' };
     if ($keyboard->{GRP_TOGGLE} && $Layout !~ /,/) {
 	$Layout = join(',', 'us', $Layout);
     }
@@ -551,13 +551,13 @@ sub keyboard2full_xkb {
     { XkbModel => $Model, XkbLayout => $Layout, XkbOptions => $Options };
 }
 
-sub xmodmap_file {
+sub _xmodmap_file {
     my ($keyboard) = @_;
     my $f = "$ENV{SHARE_PATH}/xmodmap/xmodmap.$keyboard->{KEYBOARD}";
     -e $f && $f;
 }
 
-sub setxkbmap {
+sub _setxkbmap {
     my ($keyboard) = @_;
     my $xkb = keyboard2full_xkb($keyboard) or return;
     run_program::run('setxkbmap', '-option', '') if $xkb->{XkbOptions}; #- need re-initialised other toggles are cumulated
@@ -582,7 +582,7 @@ sub setup_install {
 
     log::l("loading keymap $kmap");
     if (-e (my $f = "$ENV{SHARE_PATH}/keymaps/$kmap.bkmap")) {
-	builtin_loadkeys(scalar cat_($f));
+	_builtin_loadkeys(scalar cat_($f));
     } elsif (-x '/bin/loadkeys') {
 	run_program::run('loadkeys', $kmap);
     } else {
@@ -590,9 +590,9 @@ sub setup_install {
     }
 
     if (-x "/usr/bin/setxkbmap") {
-	setxkbmap($keyboard) or log::l("setxkbmap failed");
+	_setxkbmap($keyboard) or log::l("setxkbmap failed");
     } else {
-	my $f = xmodmap_file($keyboard);
+	my $f = _xmodmap_file($keyboard);
 	#- timeout is needed for drakx-in-chroot to kill xmodmap when it gets crazy with:
 	#- please release the following keys within 2 seconds: Alt_L (keysym 0xffe9, keycode 64)
 	eval { run_program::raw({ timeout => 3 }, 'xmodmap', $f) } if $f && !$::testing && $ENV{DISPLAY};
@@ -621,7 +621,7 @@ sub write {
     run_program::run('mandriva-setup-keyboard');
 }
 
-sub configure_xorg {
+sub _configure_xorg {
     my ($keyboard) = @_;
 
     require Xconfig::default;
@@ -634,8 +634,8 @@ sub configure_xorg {
 sub configure_and_set_standalone {
     my ($keyboard) = @_;
 
-    configure_xorg($keyboard);
-    setxkbmap($keyboard);
+    _configure_xorg($keyboard);
+    _setxkbmap($keyboard);
 
     &write($keyboard);
     system('/etc/init.d/keytable', 'restart');
@@ -644,7 +644,7 @@ sub configure_and_set_standalone {
 sub read() {
     my %keyboard = getVarsFromSh("$::prefix/etc/sysconfig/keyboard") or return;
     if (!$keyboard{KEYBOARD}) {
-	add2hash(\%keyboard, grep { keyboard2kmap($_) eq $keyboard{KEYTABLE} } keyboards());
+	add2hash(\%keyboard, grep { keyboard2kmap($_) eq $keyboard{KEYTABLE} } _keyboards());
     }
     keyboard2text(\%keyboard) && \%keyboard;
 }
@@ -682,10 +682,10 @@ sub check() {
     my @xkb_layouts = (#- (map { (split)[0] } grep { /^! layout/ .. /^\s*$/ } cat_('/usr/lib/X11/xkb/rules/xfree86.lst')),
 		       all('/usr/lib/X11/xkb/symbols'),
 		       (map { (split)[2] } cat_('/usr/lib/X11/xkb/symbols.dir')));
-    $err->("invalid xkb layout $_") foreach difference2([ map { keyboard2xkb($_) } keyboards() ], \@xkb_layouts);
+    $err->("invalid xkb layout $_") foreach difference2([ map { _keyboard2xkb($_) } _keyboards() ], \@xkb_layouts);
 
     my @kmaps_available = map { if_(m|.*/(.*)\.bkmap|, $1) } `tar tfj share/keymaps.tar.bz2`;
-    my @kmaps_wanted = map { keyboard2kmap($_) } keyboards();
+    my @kmaps_wanted = map { keyboard2kmap($_) } _keyboards();
     $err->("missing KEYTABLE $_ (either share/keymaps.tar.bz2 need updating or $_ is bad)") foreach difference2(\@kmaps_wanted, \@kmaps_available);
     $err->("unused KEYTABLE $_ (update share/keymaps.tar.bz2 using share/keymaps_generate)") foreach difference2(\@kmaps_available, \@kmaps_wanted);
 
