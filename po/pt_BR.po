@@ -86,7 +86,7 @@ msgstr "Escolha um servidor X"
 #: ../lib/Xconfig/card.pm:199
 #, c-format
 msgid "Multi-head configuration"
-msgstr "Configuração multi-terminal"
+msgstr "Configuração multiterminal"
 
 #: ../lib/Xconfig/card.pm:200
 #, c-format
@@ -3783,7 +3783,7 @@ msgstr "Você quer que o BackSpace retorne o Delete no console?"
 #~ "montagem %s"
 
 #~ msgid "Not enough free space for auto-allocating"
-#~ msgstr "Sem espaço livre suficiente para auto-alocação"
+#~ msgstr "Sem espaço livre suficiente para autoalocação"
 
 #~ msgid "Nothing to do"
 #~ msgstr "Nada a fazer"
@@ -6088,7 +6088,7 @@ msgstr "Você quer que o BackSpace retorne o Delete no console?"
 #~ "disables\n"
 #~ "all of the services it is responsible for."
 #~ msgstr ""
-#~ "O serviço do super-servidor Internet (Internet Superserver Daemon ou "
+#~ "O serviço do superservidor Internet (Internet Superserver Daemon ou "
 #~ "normalmente chamado inetd) inicia\n"
 #~ "uma variedade de outros serviços de Internet quando necessário. Ele é\n"
 #~ "responsável pela inicialização de vários serviços, incluindo telnet,\n"
