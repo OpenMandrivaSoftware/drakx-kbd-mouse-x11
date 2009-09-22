@@ -15,8 +15,6 @@ use modules;
 use any;
 use log;
 
-my @mouses_fields = qw(nbuttons MOUSETYPE Protocol name EmulateWheel);
-
 sub _all_mice() {
  arch() =~ /^sparc/ ? 
 (
@@ -117,39 +115,6 @@ sub _all_mice() {
 #- E:  Ad=81(I) Atr=03(Int.) MxPS=   8 Ivl=10ms
 
 
-sub _xmouse2xId { 
-    #- xmousetypes must be sorted as found in /usr/include/X11/extensions/xf86misc.h
-    #- so that first mean "0", etc
-    my @xmousetypes = (
-		   "Microsoft",
-		   "MouseSystems",
-		   "MMSeries",
-		   "Logitech",
-		   "BusMouse", #MouseMan,
-		   "Logitech",
-		   "PS/2",
-		   "MMHittab",
-		   "GlidePoint",
-		   "IntelliMouse",
-		   "ThinkingMouse",
-		   "IMPS/2",
-		   "ThinkingMousePS/2",
-		   "MouseManPlusPS/2",
-		   "GlidePointPS/2",
-		   "NetMousePS/2",
-		   "NetScrollPS/2",
-		   "SysMouse",
-		   "Auto",
-		   "AceCad",
-		   "ExplorerPS/2",
-		   "USB",
-    );
-    my ($id) = @_;
-    $id = 'BusMouse' if $id eq 'MouseMan';
-    $id = 'IMPS/2' if $id eq 'ExplorerPS/2' && $::isInstall;
-    eval { find_index { $_ eq $id } @xmousetypes } || 0;
-}
-
 my %mouse_btn_keymap = (
     0   => "NONE",
     67  => "F9",
@@ -169,27 +134,14 @@ my %mouse_btn_keymap = (
 sub _ppc_one_button_keys() { keys %mouse_btn_keymap }
 sub _ppc_one_button_key2text { $mouse_btn_keymap{$_[0]} }
 
+my @mouses_fields = qw(nbuttons MOUSETYPE Protocol name EmulateWheel);
+
 sub _raw2mouse {
     my ($type, $raw) = @_;
     $raw or return;
 
     my %l; @l{@mouses_fields} = @$raw;
     +{ %l, type => $type, if_($l{nbuttons} < 3, Emulate3Buttons => 1) };
-}
-
-sub _fullnames() { 
-    map_each { 
-	my $type = $::a;
-	grep { $_ } map {
-	    if ($_) {
-		my $l = _raw2mouse($type, $_);
-		"$type|$l->{name}";
-	    } else { 
-		$type .= "|[" . N("Other") . "]";
-		'';
-	    }
-	} @{$::b->[1]};
-    } _all_mice();
 }
 
 sub fullname2mouse {
@@ -478,6 +430,39 @@ sub write_conf {
     };
 }
 
+sub _xmouse2xId { 
+    #- xmousetypes must be sorted as found in /usr/include/X11/extensions/xf86misc.h
+    #- so that first mean "0", etc
+    my @xmousetypes = (
+		   "Microsoft",
+		   "MouseSystems",
+		   "MMSeries",
+		   "Logitech",
+		   "BusMouse", #MouseMan,
+		   "Logitech",
+		   "PS/2",
+		   "MMHittab",
+		   "GlidePoint",
+		   "IntelliMouse",
+		   "ThinkingMouse",
+		   "IMPS/2",
+		   "ThinkingMousePS/2",
+		   "MouseManPlusPS/2",
+		   "GlidePointPS/2",
+		   "NetMousePS/2",
+		   "NetScrollPS/2",
+		   "SysMouse",
+		   "Auto",
+		   "AceCad",
+		   "ExplorerPS/2",
+		   "USB",
+    );
+    my ($id) = @_;
+    $id = 'BusMouse' if $id eq 'MouseMan';
+    $id = 'IMPS/2' if $id eq 'ExplorerPS/2' && $::isInstall;
+    eval { find_index { $_ eq $id } @xmousetypes } || 0;
+}
+
 sub change_mouse_live {
     my ($mouse, $old) = @_;
 
@@ -517,6 +502,21 @@ sub test_mouse_install {
     my $r = $w->main;
     Gtk2::Gdk->pointer_ungrab(0);
     $r;
+}
+
+sub _fullnames() { 
+    map_each { 
+	my $type = $::a;
+	grep { $_ } map {
+	    if ($_) {
+		my $l = _raw2mouse($type, $_);
+		"$type|$l->{name}";
+	    } else { 
+		$type .= "|[" . N("Other") . "]";
+		'';
+	    }
+	} @{$::b->[1]};
+    } _all_mice();
 }
 
 sub select {
