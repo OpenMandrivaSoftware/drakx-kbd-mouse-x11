@@ -294,58 +294,6 @@ sub set_wacoms {
     } @wacoms;
 }
 
-
-################################################################################
-# synaptics ####################################################################
-################################################################################
-sub set_synaptics {
-    my ($raw_X, @synaptics) = @_;
-    $raw_X->remove_InputDevices('synaptics');
-
-    @synaptics or return;
-
-    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];    
-    each_index {
-	my $synaptics_mouse = $_;
-        my $identifier = "SynapticsMouse" . ($::i + 1);
-        my $h = {
-            Identifier => { val => $identifier },
-            Driver => { val => "synaptics" },
-        };
-        my %opts = (
-            if_($synaptics_mouse->{ALPS},
-                #- from /usr/share/doc/synaptics-0.14.0/README.alps
-                #- and http://qa.mandriva.com/show_bug.cgi?id=14512
-                LeftEdge => 120,
-                RightEdge => 830,
-                TopEdge => 120,
-                BottomEdge => 650,
-                FingerLow => 14,
-                FingerHigh => 15,
-                MaxTapMove => 110,
-                VertScrollDelta => 20,
-                HorizScrollDelta => 20,
-                MinSpeed => '0.8',
-                MaxSpeed => '1.00',
-                AccelFactor => '0.015',
-                EdgeMotionMinSpeed => 200,
-                EdgeMotionMaxSpeed => 200,
-                UpDownScrolling => 1,
-                CircularScrolling => 1,
-                CircScrollTrigger => 2,
-                UpDownScrolling => 0,
-            ), #- use default driver options for non-ALPS
-            SHMConfig => "on",
-        );
-        while (my ($k, $v) = each %opts) {
-            $h->{$k} = { val => $v, Option => 1 };
-        }
-        $raw_X->add_Section('InputDevice', $h);
-        push @$layout, { val => qq("$identifier" "SendCoreEvents") };
-    } @synaptics;
-}
-
-
 ################################################################################
 # monitor ######################################################################
 ################################################################################
