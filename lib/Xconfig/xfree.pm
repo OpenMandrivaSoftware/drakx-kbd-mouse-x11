@@ -120,8 +120,8 @@ sub get_mice {
 }
 sub set_mice {
     my ($raw_X, @mice) = @_;
-    @mice =  grep { $_->{Driver} || !$_->{Protocol} } @mice;
-    my @raw_mice = _new_mouse_sections($raw_X, map { delete $_->{Driver} || 'evdev' } @mice);
+    @mice =  grep { $_->{Driver} && $_->{Driver} ne 'evdev' } @mice;
+    my @raw_mice = _new_mouse_sections($raw_X, map { delete $_->{Driver} } @mice);
     mapn { 
 	my ($raw_mouse, $mouse) = @_;
 	raw_import_section($raw_mouse, $mouse);
