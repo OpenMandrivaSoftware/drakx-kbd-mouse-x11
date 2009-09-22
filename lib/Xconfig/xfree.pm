@@ -98,12 +98,6 @@ sub get_keyboard {
     my $raw_kbd = _raw_get_keyboard($raw_X) or die "no keyboard section";
     raw_export_section($raw_kbd, \@keyboard_fields);
 }
-sub set_keyboard {
-    my ($raw_X, $kbd) = @_;
-    my $raw_kbd = _raw_get_keyboard($raw_X) || _new_keyboard_section($raw_X);
-    raw_import_section($raw_kbd, $kbd);
-    _set_Option('keyboard', $raw_kbd, keys %$kbd);
-}
 sub _raw_get_keyboard {
     my ($raw_X) = @_;
     first($raw_X->get_Sections('InputDevice', sub { 
@@ -112,17 +106,6 @@ sub _raw_get_keyboard {
 	$Driver eq 'kbd' || $Driver eq 'evdev' && val($entry->{XkbLayout});
     }));
 }
-sub _new_keyboard_section {
-    my ($raw_X) = @_;
-    my $raw_kbd = { Identifier => { val => 'Keyboard1' }, Driver => { val => 'kbd' } };
-    $raw_X->add_Section('InputDevice', $raw_kbd);
-
-    my $layout = get_ServerLayout($raw_X)->{InputDevice} ||= [];
-    push @$layout, { val => '"Keyboard1" "CoreKeyboard"' };
-
-    $raw_kbd;
-}
-
 
 ################################################################################
 # mouse ########################################################################

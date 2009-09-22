@@ -621,20 +621,9 @@ sub write {
     run_program::run('mandriva-setup-keyboard');
 }
 
-sub _configure_xorg {
-    my ($keyboard) = @_;
-
-    require Xconfig::default;
-    if (my $xfree_conf = Xconfig::xfree->read) {
-	Xconfig::default::config_keyboard($xfree_conf, $keyboard);
-	$xfree_conf->write;
-    }
-}
-
 sub configure_and_set_standalone {
     my ($keyboard) = @_;
 
-    _configure_xorg($keyboard);
     _setxkbmap($keyboard);
 
     &write($keyboard);

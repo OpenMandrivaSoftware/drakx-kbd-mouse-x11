@@ -24,7 +24,6 @@ sub configure {
 
     $raw_X->add_load_module($_) foreach qw(dbe v4l extmod);
 
-    config_keyboard($raw_X, $keyboard);
     config_mouse($raw_X, $do_pkgs, $mouse);
 
     $raw_X;
@@ -34,11 +33,6 @@ sub config_mouse {
     my ($raw_X, $do_pkgs, $mouse) = @_;
     mouse::set_xfree_conf($mouse, $raw_X);
     mouse::various_xfree_conf($do_pkgs, $mouse);
-}
-
-sub config_keyboard {
-    my ($raw_X, $keyboard) = @_;
-    $raw_X->set_keyboard(keyboard::keyboard2full_xkb($keyboard));
 }
 
 1;

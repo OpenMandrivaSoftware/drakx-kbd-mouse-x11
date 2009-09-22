@@ -1,6 +1,6 @@
 - XFdrake:
   o don't write sections in xorg.conf for USB wacom tablets, Synaptics
-    touchpads and mouses
+    touchpads, mouses and keyboards
 
 Version 0.79 - 14 September 2009
 
