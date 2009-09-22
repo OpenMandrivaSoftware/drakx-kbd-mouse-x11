@@ -264,7 +264,7 @@ sub set_wacoms {
     each_index {
 	my $wacom = $_;
 	foreach (@Modes) {
-	    next if ($wacom->{USB});
+	    next if $wacom->{USB};
 	    my $identifier = $_ . ($::i + 1);
 	    my $h = { Identifier => { val => $identifier }, 
 		      Driver => { val => 'wacom' },
