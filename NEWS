@@ -1,3 +1,5 @@
+Version 0.80 - 22 September 2009
+
 - XFdrake:
   o don't write sections in xorg.conf for USB wacom tablets, Synaptics
     touchpads, mouses using "evdev" or "mouse" and keyboards
