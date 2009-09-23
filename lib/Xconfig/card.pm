@@ -363,10 +363,12 @@ sub libgl_config_and_more {
     #- ensure old deprecated conf files are not there anymore
     unlink("/etc/ld.so.conf.d/$_.conf") foreach 'nvidia', 'nvidia_legacy', 'ati';
 
-    my $wanted = $card->{Driver} eq 'fglrx' ? "/etc/ld.so.conf.d/GL/ati$card->{DriverVersion}.conf" :
-                 $card->{Driver} eq 'nvidia' ? "/etc/nvidia$card->{DriverVersion}/ld.so.conf" :
-                 $card->{Driver} eq 'psb' ? "/etc/ld.so.conf.d/GL/libdrm-psb.conf" :
-		   '/etc/ld.so.conf.d/GL/standard.conf';
+    my %files = (
+        fglrx => "/etc/ld.so.conf.d/GL/ati$card->{DriverVersion}.conf",
+        nvidia => "/etc/nvidia$card->{DriverVersion}/ld.so.conf",
+        psb => "/etc/ld.so.conf.d/GL/libdrm-psb.conf",
+    );
+    my $wanted = $files{$card->{Driver}} || '/etc/ld.so.conf.d/GL/standard.conf';
     my $link = "$::prefix/etc/alternatives/gl_conf";
     my $need_run_ldconfig = readlink($link) ne $wanted;
     -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
