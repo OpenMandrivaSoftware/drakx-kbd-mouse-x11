@@ -172,7 +172,7 @@ sub configure_everything_or_configure_chooser {
 
     my $raw_X = eval { Xconfig::xfree->read };
     my $err = $@ && formatError($@);
-    $err ||= check_valid($raw_X) if $raw_X; #- that's ok if config is empty
+    $err ||= _check_valid($raw_X) if $raw_X; #- that's ok if config is empty
     if ($err) {
 	log::l("ERROR: bad X config file (error: $err)");
 	$options->{ignore_bad_conf} or $in->ask_okcancel('',
@@ -231,7 +231,7 @@ sub export_to_install_X {
     $::o->{X}{Xinerama} = 1 if $X->{card}{Xinerama};
 }
 
-sub check_valid {
+sub _check_valid {
     my ($raw_X) = @_;
 
     my %_sections = map { 
