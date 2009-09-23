@@ -29,7 +29,7 @@ my %VideoRams = (
 
 my @xfree4_Drivers = ((arch() =~ /^sparc/ ? qw(sunbw2 suncg14 suncg3 suncg6 sunffb sunleo suntcx) :
 		    qw(amd apm ark ast avivo chips cirrus cyrix glide i128 i740 imstt intel
-                       mga nsc neomagic newport nv rendition openchrome vesa via nouveau
+                       mga nsc neomagic newport nv rendition openchrome vesa via nouveau psb
                        s3 s3virge savage siliconmotion sis sisusb tdfx tga trident tseng vmware)), 
 		    qw(ati glint vga fbdev));
 
@@ -365,6 +365,7 @@ sub libgl_config_and_more {
 
     my $wanted = $card->{Driver} eq 'fglrx' ? "/etc/ld.so.conf.d/GL/ati$card->{DriverVersion}.conf" :
                  $card->{Driver} eq 'nvidia' ? "/etc/nvidia$card->{DriverVersion}/ld.so.conf" :
+                 $card->{Driver} eq 'psb' ? "/etc/ld.so.conf.d/GL/libdrm-psb.conf" :
 		   '/etc/ld.so.conf.d/GL/standard.conf';
     my $link = "$::prefix/etc/alternatives/gl_conf";
     my $need_run_ldconfig = readlink($link) ne $wanted;
