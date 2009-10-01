@@ -1,21 +1,23 @@
 # translation of drakx-kbd-mouse-x11 to Galician
 #
-# Jesús Bravo Álvarez (mdk) <jba@pobox.com>, 2001.
-# Leandro Regueiro <leandro.regueiro@gmail.com>, 2004, 2005, 2006, 2008.
 #
 # Proxecto Trasno http://trasno.net
 #
+# Jesús Bravo Álvarez (mdk) <jba@pobox.com>, 2001.
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2004, 2005, 2006, 2008.
+# Alejo Pacín Jul <alejopj@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-gl\n"
 "POT-Creation-Date: 2009-04-07 12:42+0200\n"
-"PO-Revision-Date: 2008-04-13 22:14+0100\n"
-"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
-"Language-Team: Galician <proxecto@trasno.net>\n"
+"PO-Revision-Date: 2009-09-24 18:44+0200\n"
+"Last-Translator: Alejo Pacín Jul <alejopj@gmail.com>\n"
+"Language-Team: Galician <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 0.3\n"
 
 #: ../lib/Xconfig/card.pm:19
 #, c-format
@@ -72,10 +74,9 @@ msgstr "Servidor X"
 msgid "Choose an X server"
 msgstr "Elixa un servidor X"
 
-#: ../lib/Xconfig/card.pm:199
-#, fuzzy, c-format
+#: ../lib/Xconfig/card.pm:199, c-format
 msgid "Multi-head configuration"
-msgstr "Configuración multicabezal"
+msgstr "Configuración multimonitor"
 
 #: ../lib/Xconfig/card.pm:200
 #, c-format
@@ -83,6 +84,8 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
+"O seu sistema soporta configuración multimonitor.\n"
+"Que desexa facer?"
 
 #: ../lib/Xconfig/card.pm:289
 #, c-format
@@ -112,7 +115,7 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:409
 #, c-format
 msgid "Configure all heads independently"
-msgstr ""
+msgstr "Configurar tódolas saídas de vídeo independentemente"
 
 #: ../lib/Xconfig/card.pm:410
 #, c-format
@@ -190,10 +193,9 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:128
-#, fuzzy, c-format
+#: ../lib/Xconfig/monitor.pm:128, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Escolla un monitor para a cabeza #%d"
+msgstr "Escolla un monitor para a saída de vídeo #%d"
 
 #: ../lib/Xconfig/monitor.pm:128
 #, c-format
@@ -424,7 +426,7 @@ msgstr "Aceleración 3D por hardware"
 #: ../lib/Xconfig/various.pm:225
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Habilitar Translucidez (extensión Composite)"
 
 #: ../lib/Xconfig/various.pm:228
 #, c-format
@@ -434,7 +436,7 @@ msgstr "Usar punteiro de rato acelerado por hardware"
 #: ../lib/Xconfig/various.pm:231
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "Habilitar Aceleración RENDER (pode causar problemas ó amosar texto)"
 
 #: ../lib/Xconfig/various.pm:235
 #, c-format
@@ -449,12 +451,12 @@ msgstr "Permitir duplicar a visualización na segunda pantalla"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Forzar modo de visualización da DVI"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Habilitar o atallo da BIOS para o cambio externo de monitor"
 
 #: ../lib/Xconfig/various.pm:245
 #, c-format
@@ -955,12 +957,11 @@ msgid ""
 "Laotian"
 msgstr "Laosiano"
 
-#: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#: ../lib/keyboard.pm:264, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iraniano"
+msgstr "Lituano"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1586,10 +1587,9 @@ msgstr "Microsoft Xbox Controller S"
 msgid "VirtualBox mouse"
 msgstr "Rato de VirtualBox"
 
-#: ../lib/mouse.pm:89
-#, fuzzy, c-format
+#: ../lib/mouse.pm:89, c-format
 msgid "VMware mouse"
-msgstr "Ningún rato"
+msgstr "Rato VMware"
 
 #: ../lib/mouse.pm:92
 #, c-format
