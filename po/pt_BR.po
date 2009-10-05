@@ -1845,7 +1845,7 @@ msgstr "Testando o mouse"
 #: ../lib/mouse.pm:532
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Por favor, escolha o tipo do seu mouse."
+msgstr "Escolha o tipo do seu mouse."
 
 #: ../lib/mouse.pm:533
 #, c-format
@@ -1865,7 +1865,7 @@ msgstr "Porta do Mouse"
 #: ../lib/mouse.pm:554
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Por favor, escolha em qual porta serial seu mouse está conectado."
+msgstr "Escolha em qual porta serial seu mouse está conectado."
 
 #: ../lib/mouse.pm:563
 #, c-format
@@ -1885,7 +1885,7 @@ msgstr "Emulação do Botão 3"
 #: ../lib/mouse.pm:617
 #, c-format
 msgid "Please test the mouse"
-msgstr "Por favor, teste o mouse"
+msgstr "Teste o mouse"
 
 #: ../lib/mouse.pm:619
 #, c-format
@@ -1910,7 +1910,7 @@ msgstr "Teclado"
 #: ../tools/keyboarddrake:38
 #, c-format
 msgid "Please, choose your keyboard layout."
-msgstr "Por favor, escolha o layout do seu teclado."
+msgstr "Escolha o layout do seu teclado."
 
 #: ../tools/keyboarddrake:39
 #, c-format
