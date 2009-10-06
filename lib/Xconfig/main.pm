@@ -237,7 +237,7 @@ sub _check_valid {
     my %_sections = map { 
 	my @l = $raw_X->get_Sections($_) or return "missing section $_";
 	$_ => \@l;
-    } qw(InputDevice Device Screen ServerLayout);
+    } qw(Device Screen ServerLayout);
 
     '';
 }
