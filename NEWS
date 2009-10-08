@@ -1,3 +1,5 @@
+- use 28.8kHz as lower HorizSync (for 800x480)
+
 Version 0.82 - 23 September 2009
 
 - don't consider xorg.conf files with no InputDevice sections as invalid, fixes   bug reported on cooker mailing list
