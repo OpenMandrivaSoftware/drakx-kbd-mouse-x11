@@ -1,3 +1,5 @@
+Version 0.84 - 9 October 2009
+
 - run ldconfig after update-alternatives during installer too
   (psb alternative does not have a higher priority than standard
    alternative, and ldconfig was run by the installer only before
