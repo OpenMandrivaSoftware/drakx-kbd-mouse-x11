@@ -1,3 +1,8 @@
+- run ldconfig after update-alternatives during installer too
+  (psb alternative does not have a higher priority than standard
+   alternative, and ldconfig was run by the installer only before
+   manually setting the alternative, which was not enough)
+
 Version 0.83 - 8 October 2009
 
 - use 28.8kHz as lower HorizSync (for 800x480)

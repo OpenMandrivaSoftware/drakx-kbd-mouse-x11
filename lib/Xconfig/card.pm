@@ -10,6 +10,7 @@ use modules;
 use common;
 use interactive;
 use log;
+use run_program;
 
 my $lib = arch() =~ /x86_64/ ? "lib64" : "lib";
 
@@ -373,9 +374,9 @@ sub libgl_config_and_more {
     my $need_run_ldconfig = readlink($link) ne $wanted;
     -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
     common::symlinkf_update_alternatives('gl_conf', $wanted);
-    if ($need_run_ldconfig && $::isStandalone) {
+    if ($need_run_ldconfig) {
 	    log::explanations("ldconfig will be run because the GL library was $wanted");
-	    system("/sbin/ldconfig");
+	    run_program::rooted($::prefix, 'ldconfig');
     }
 
     if (member($card->{Driver}, 'fglrx', 'nvidia')) {
