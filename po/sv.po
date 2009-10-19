@@ -967,7 +967,8 @@ msgid ""
 "Laotian"
 msgstr "Laotian"
 
-#: ../lib/keyboard.pm:264, c-format
+#: ../lib/keyboard.pm:264
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
@@ -1597,9 +1598,10 @@ msgstr "Microsofts XBOX kontrollenheter"
 msgid "VirtualBox mouse"
 msgstr "VirtualBox mus"
 
-#: ../lib/mouse.pm:89, c-format
+#: ../lib/mouse.pm:89
+#, c-format
 msgid "VMware mouse"
-msgstr "WMware mus"
+msgstr "VMware mus"
 
 #: ../lib/mouse.pm:92
 #, c-format
