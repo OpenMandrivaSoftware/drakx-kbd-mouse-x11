@@ -453,7 +453,8 @@ msgstr "Kahdenna kuva erilliseen näyttöön"
 msgid "Enable duplicate display on the second display"
 msgstr "Kahdenna kuva toiseen näyttöön"
 
-#: ../lib/Xconfig/various.pm:239, c-format
+#: ../lib/Xconfig/various.pm:239
+#, c-format
 msgid "Force display mode of DVI"
 msgstr "Pakota DVI-näyttötila"
 
@@ -961,7 +962,8 @@ msgid ""
 "Laotian"
 msgstr "Laoslainen"
 
-#: ../lib/keyboard.pm:264, c-format
+#: ../lib/keyboard.pm:264
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
@@ -1592,7 +1594,8 @@ msgstr "Microsoft Xbox Controller S"
 msgid "VirtualBox mouse"
 msgstr "VirtualBox-hiiri"
 
-#: ../lib/mouse.pm:89, c-format
+#: ../lib/mouse.pm:89
+#, c-format
 msgid "VMware mouse"
 msgstr "VMware-hiiri"
 
