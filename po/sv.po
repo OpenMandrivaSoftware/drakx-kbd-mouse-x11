@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-sv\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-10-11 13:00+0300\n"
-"Last-Translator: \n"
-"Language-Team: Swedish <kde-i18n-doc@kde.org>\n"
+"PO-Revision-Date: 2009-10-21 18:33+0300\n"
+"Last-Translator: Thomas Backlund <tmb@mandriva.org>\n"
+"Language-Team: Swedish <sv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -362,17 +362,16 @@ msgstr "Är detta korrekt inställning?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Inaktivera Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
-msgstr "ingen"
+msgstr "nej"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -437,12 +436,12 @@ msgstr "Xorg-konfiguration"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Globala alternativ"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Inaktivera Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
