@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2009-04-07 12:42+0200\n"
+"POT-Creation-Date: 2009-10-21 15:48+0200\n"
 "PO-Revision-Date: 2009-04-10 10:23+0200\n"
 "Last-Translator: Reinout van Schouwen <reinout@gmail.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -21,67 +21,67 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../lib/Xconfig/card.pm:19
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "256 kB"
 msgstr "256 kB"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "512 kB"
 msgstr "512 kB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "1 MB"
 msgstr "1 MB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "2 MB"
 msgstr "2 MB"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "4 MB"
 msgstr "4 MB"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "8 MB"
 msgstr "8 MB"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "16 MB"
 msgstr "16 MB"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "32 MB"
 msgstr "32 MB"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:28
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB of meer"
 
-#: ../lib/Xconfig/card.pm:167
+#: ../lib/Xconfig/card.pm:171
 #, c-format
 msgid "X server"
 msgstr "X-server"
 
-#: ../lib/Xconfig/card.pm:168
+#: ../lib/Xconfig/card.pm:172
 #, c-format
 msgid "Choose an X server"
 msgstr "Kies een X-server"
 
-#: ../lib/Xconfig/card.pm:199
+#: ../lib/Xconfig/card.pm:203
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Multi-koppen instelling"
 
-#: ../lib/Xconfig/card.pm:200
+#: ../lib/Xconfig/card.pm:204
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -90,12 +90,12 @@ msgstr ""
 "Uw computer ondersteunt een instelling met meerdere koppen.\n"
 "Want wenst u te doen?"
 
-#: ../lib/Xconfig/card.pm:289
+#: ../lib/Xconfig/card.pm:293
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Selecteer de geheugengrootte van uw grafische kaart"
 
-#: ../lib/Xconfig/card.pm:315
+#: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -106,7 +106,7 @@ msgstr ""
 "die extra functionaliteit ondersteunt.\n"
 "Wilt u deze gebruiken?"
 
-#: ../lib/Xconfig/card.pm:342
+#: ../lib/Xconfig/card.pm:346
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -115,23 +115,23 @@ msgstr ""
 "Het fabrikantseigen stuurprogramma is niet correct geïnstalleerd. Het "
 "standaard vrije software-stuurprogramma zal worden gebruikt."
 
-#: ../lib/Xconfig/card.pm:409
+#: ../lib/Xconfig/card.pm:416
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Alle koppen afzonderlijk configureren"
 
-#: ../lib/Xconfig/card.pm:410
+#: ../lib/Xconfig/card.pm:417
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama-uitbreiding gebruiken"
 
-#: ../lib/Xconfig/card.pm:415
+#: ../lib/Xconfig/card.pm:422
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Alleen kaart \"%s\"%s configureren"
 
 #: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:133
+#: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Custom"
 msgstr "Aangepast"
@@ -151,14 +151,14 @@ msgstr "Afsluiten"
 msgid "Graphic Card"
 msgstr "Grafische kaart"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:127
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Beeldscherm"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:385
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Resolutie"
@@ -196,32 +196,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:128
+#: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Selecteer een monitor voor head #%d"
 
-#: ../lib/Xconfig/monitor.pm:128
+#: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor"
 msgstr "Selecteer een monitor"
 
-#: ../lib/Xconfig/monitor.pm:134
+#: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
 #, c-format
 msgid "Generic"
 msgstr "Algemeen"
 
-#: ../lib/Xconfig/monitor.pm:136
+#: ../lib/Xconfig/monitor.pm:139
 #, c-format
 msgid "Vendor"
 msgstr "Fabrikant"
 
-#: ../lib/Xconfig/monitor.pm:154
+#: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -246,12 +246,12 @@ msgstr ""
 "van uw monitor overschrijdt: u kan uw monitor beschadigen.\n"
 "Bij twijfel maak een voorzichtige keuze."
 
-#: ../lib/Xconfig/monitor.pm:161
+#: ../lib/Xconfig/monitor.pm:164
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Horizontale verversingsfrequentie"
 
-#: ../lib/Xconfig/monitor.pm:162
+#: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Verticale verversingsfrequentie"
@@ -282,42 +282,42 @@ msgid "16 million colors (24 bits)"
 msgstr "16 miljoen kleuren (24 bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
 #, c-format
 msgid "Automatic"
 msgstr "Automatisch"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:135
+#: ../lib/Xconfig/resolution_and_depth.pm:133
 #, c-format
 msgid "Resolutions"
 msgstr "Resoluties"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:408 ../lib/mouse.pm:188
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Overig"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:460
+#: ../lib/Xconfig/resolution_and_depth.pm:446
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "Kies resolutie en kleurdiepte"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:461
+#: ../lib/Xconfig/resolution_and_depth.pm:447
 #, c-format
 msgid "Graphics card: %s"
 msgstr "Grafische kaart: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:475
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Ok"
 msgstr "Ok"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:475
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:475
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Help"
 msgstr "Hulp"
@@ -362,127 +362,152 @@ msgstr "Is dit de correcte instelling?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
+msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:26
+#, fuzzy, c-format
+msgid "no"
+msgstr "geen"
+
+#: ../lib/Xconfig/various.pm:26
+#, fuzzy, c-format
+msgid "yes"
+msgstr "Ja"
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
 msgid "3D hardware acceleration: %s\n"
 msgstr "3D hardware-versnelling: %s\n"
 
-#: ../lib/Xconfig/various.pm:27
+#: ../lib/Xconfig/various.pm:28
 #, c-format
 msgid "Keyboard layout: %s\n"
 msgstr "Toetsenbordindeling: %s\n"
 
-#: ../lib/Xconfig/various.pm:28
+#: ../lib/Xconfig/various.pm:29
 #, c-format
 msgid "Mouse type: %s\n"
 msgstr "Muistype: %s\n"
 
-#: ../lib/Xconfig/various.pm:30
+#: ../lib/Xconfig/various.pm:31
 #, c-format
 msgid "Monitor: %s\n"
 msgstr "Beeldscherm: %s\n"
 
-#: ../lib/Xconfig/various.pm:31
+#: ../lib/Xconfig/various.pm:32
 #, c-format
 msgid "Monitor HorizSync: %s\n"
 msgstr "Horizontale sync beeldscherm: %s\n"
 
-#: ../lib/Xconfig/various.pm:32
+#: ../lib/Xconfig/various.pm:33
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
 msgstr "Verticale frequentie beeldscherm: %s\n"
 
-#: ../lib/Xconfig/various.pm:34
+#: ../lib/Xconfig/various.pm:35
 #, c-format
 msgid "Graphics card: %s\n"
 msgstr "Grafische kaart: %s\n"
 
-#: ../lib/Xconfig/various.pm:35
+#: ../lib/Xconfig/various.pm:36
 #, c-format
 msgid "Graphics memory: %s kB\n"
 msgstr "Videogeheugen: %s kB\n"
 
-#: ../lib/Xconfig/various.pm:37
+#: ../lib/Xconfig/various.pm:38
 #, c-format
 msgid "Color depth: %s\n"
 msgstr "Kleurdiepte: %s\n"
 
-#: ../lib/Xconfig/various.pm:38
+#: ../lib/Xconfig/various.pm:39
 #, c-format
 msgid "Resolution: %s\n"
 msgstr "Resolutie: %s\n"
 
-#: ../lib/Xconfig/various.pm:40
+#: ../lib/Xconfig/various.pm:41
 #, c-format
 msgid "Xorg driver: %s\n"
 msgstr "Xorg stuurprogramma: %s\n"
 
-#: ../lib/Xconfig/various.pm:220
+#: ../lib/Xconfig/various.pm:238
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg instellingen"
 
-#: ../lib/Xconfig/various.pm:221
+#: ../lib/Xconfig/various.pm:239
+#, fuzzy, c-format
+msgid "Global options"
+msgstr "Hoofdopties"
+
+#: ../lib/Xconfig/various.pm:240
+#, c-format
+msgid "Disable Ctrl-Alt-Backspace"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:242
 #, c-format
 msgid "Graphic card options"
 msgstr "Opties voor grafische kaart"
 
-#: ../lib/Xconfig/various.pm:223
+#: ../lib/Xconfig/various.pm:244
 #, c-format
 msgid "3D hardware acceleration"
 msgstr "3D hardwarematige versnelling"
 
-#: ../lib/Xconfig/various.pm:225
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Doorschijnendheid inschakelen (Composite-uitbreiding)"
 
-#: ../lib/Xconfig/various.pm:228
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Hardwarematig versnelde muiscursor gebruiken"
 
-#: ../lib/Xconfig/various.pm:231
+#: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "RENDER-acceleratie inschakelen (dit kan tot fouten leiden in tekstweergave)"
 
-#: ../lib/Xconfig/various.pm:235
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Duplicaatweergave op externe monitor inschakelen"
 
-#: ../lib/Xconfig/various.pm:236
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Duplicaatweergave op tweede beeldscherm inschakelen"
 
-#: ../lib/Xconfig/various.pm:239
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Weergavemodus van DVI afdwingen"
 
-#: ../lib/Xconfig/various.pm:242
+#: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Externe monitor-omschakeling via BIOS-sneltoets inschakelen"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 "EXA in plaats van XAA gebruiken (betere prestaties voor Render en Composite)"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Grafisch gebruiksoppervlak bij opstarten"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:269
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "De grafische omgeving (Xorg) automatisch starten na de opstartfase"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:281
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -503,12 +528,12 @@ msgstr ""
 "\n"
 "Heeft u deze mogelijkheid?"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:293
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Welke norm gebruikt uw TV?"
 
-#: ../lib/Xconfig/xfree.pm:833
+#: ../lib/Xconfig/xfree.pm:765
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -1419,257 +1444,257 @@ msgstr ""
 "Tijdens de installatie heeft u de rechter Control-toets nodig\n"
 "om tussen de verschillende toetsenbord-layouts te schakelen."
 
-#: ../lib/mouse.pm:25
+#: ../lib/mouse.pm:23
 #, c-format
 msgid "Sun - Mouse"
 msgstr "Sun - muis"
 
-#: ../lib/mouse.pm:31
+#: ../lib/mouse.pm:29
 #, c-format
 msgid "Standard"
 msgstr "Standaard"
 
-#: ../lib/mouse.pm:32
+#: ../lib/mouse.pm:30
 #, c-format
 msgid "Logitech MouseMan+"
 msgstr "Logitech MouseMan+"
 
-#: ../lib/mouse.pm:33
+#: ../lib/mouse.pm:31
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
 msgstr "Algemene PS/2 wielmuis"
 
-#: ../lib/mouse.pm:34
+#: ../lib/mouse.pm:32
 #, c-format
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
 
-#: ../lib/mouse.pm:39
+#: ../lib/mouse.pm:37
 #, c-format
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
 #, c-format
 msgid "1 button"
 msgstr "1 knop"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Algemene 2-knopsmuis"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Algemene drieknopsmuis met wiel-emulatie"
 
-#: ../lib/mouse.pm:49
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Wheel"
 msgstr "Wiel"
 
-#: ../lib/mouse.pm:53
+#: ../lib/mouse.pm:51
 #, c-format
 msgid "serial"
 msgstr "seriëel"
 
-#: ../lib/mouse.pm:56
+#: ../lib/mouse.pm:54
 #, c-format
 msgid "Generic 3 Button Mouse"
 msgstr "Algemene 3-knopsmuis"
 
-#: ../lib/mouse.pm:58
+#: ../lib/mouse.pm:56
 #, c-format
 msgid "Microsoft IntelliMouse"
 msgstr "Microsoft IntelliMouse"
 
-#: ../lib/mouse.pm:59
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Logitech MouseMan"
 msgstr "Logitech MouseMan"
 
-#: ../lib/mouse.pm:60
+#: ../lib/mouse.pm:58
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
 msgstr "Logitech MouseMan met wiel-emultatie"
 
-#: ../lib/mouse.pm:61
+#: ../lib/mouse.pm:59
 #, c-format
 msgid "Mouse Systems"
 msgstr "Mouse Systems"
 
-#: ../lib/mouse.pm:63
+#: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech CC Series"
 msgstr "Logitech CC Series"
 
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:62
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
 msgstr "Logitech CC Series met wiel-emulatie"
 
-#: ../lib/mouse.pm:65
+#: ../lib/mouse.pm:63
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
 msgstr "Logitech MouseMan+/FirstMouse+"
 
-#: ../lib/mouse.pm:67
+#: ../lib/mouse.pm:65
 #, c-format
 msgid "MM Series"
 msgstr "MM Series"
 
-#: ../lib/mouse.pm:68
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "MM HitTablet"
 msgstr "MM HitTablet"
 
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:67
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "Logitech-muis (seriëel, oud C7-type)"
 
-#: ../lib/mouse.pm:70
+#: ../lib/mouse.pm:68
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr "Logitech-muis (seriëel, oud C7-type) met wiel-emulatie"
 
-#: ../lib/mouse.pm:72
+#: ../lib/mouse.pm:70
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
 msgstr "Kensington Thinking Mouse met wiel-emulatie"
 
-#: ../lib/mouse.pm:75
+#: ../lib/mouse.pm:73
 #, c-format
 msgid "busmouse"
 msgstr "busmuis"
 
-#: ../lib/mouse.pm:78
+#: ../lib/mouse.pm:76
 #, c-format
 msgid "2 buttons"
 msgstr "2 knoppen"
 
-#: ../lib/mouse.pm:79
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "3 buttons"
 msgstr "3 knoppen"
 
-#: ../lib/mouse.pm:80
+#: ../lib/mouse.pm:78
 #, c-format
 msgid "3 buttons with Wheel emulation"
 msgstr "Drie knoppen met wiel-emulatie"
 
-#: ../lib/mouse.pm:83
+#: ../lib/mouse.pm:81
 #, c-format
 msgid "Universal"
 msgstr "Universeel"
 
-#: ../lib/mouse.pm:85
+#: ../lib/mouse.pm:83
 #, c-format
 msgid "Any PS/2 & USB mice"
 msgstr "Iedere PS/2 & USB-muis"
 
-#: ../lib/mouse.pm:86
+#: ../lib/mouse.pm:84
 #, c-format
 msgid "Force evdev"
 msgstr "Evdev afdwingen"
 
-#: ../lib/mouse.pm:87
+#: ../lib/mouse.pm:85
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
-#: ../lib/mouse.pm:88
+#: ../lib/mouse.pm:86
 #, c-format
 msgid "VirtualBox mouse"
 msgstr "VirtualBox-muis"
 
-#: ../lib/mouse.pm:89
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "VMware mouse"
 msgstr "VMware-muis"
 
-#: ../lib/mouse.pm:92
+#: ../lib/mouse.pm:90
 #, c-format
 msgid "none"
 msgstr "geen"
 
-#: ../lib/mouse.pm:94
+#: ../lib/mouse.pm:92
 #, c-format
 msgid "No mouse"
 msgstr "Geen muis"
 
-#: ../lib/mouse.pm:510
+#: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
 msgstr "Muistest"
 
-#: ../lib/mouse.pm:532
+#: ../lib/mouse.pm:525
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Kies uw type muis alstublieft."
 
-#: ../lib/mouse.pm:533
+#: ../lib/mouse.pm:526
 #, c-format
 msgid "Mouse choice"
 msgstr "Muiskeuze"
 
-#: ../lib/mouse.pm:549
+#: ../lib/mouse.pm:542
 #, c-format
 msgid "Emulate third button?"
 msgstr "Derde knop nabootsen?"
 
-#: ../lib/mouse.pm:553
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Mouse Port"
 msgstr "Muispoort"
 
-#: ../lib/mouse.pm:554
+#: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Met welke seriële poort is uw muis verbonden?"
 
-#: ../lib/mouse.pm:563
+#: ../lib/mouse.pm:556
 #, c-format
 msgid "Buttons emulation"
 msgstr "Knoppenemulatie"
 
-#: ../lib/mouse.pm:565
+#: ../lib/mouse.pm:558
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Knop 2-emulatie"
 
-#: ../lib/mouse.pm:566
+#: ../lib/mouse.pm:559
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Knop 3-emulatie"
 
-#: ../lib/mouse.pm:617
+#: ../lib/mouse.pm:610
 #, c-format
 msgid "Please test the mouse"
 msgstr "Test uw muis alstublieft"
 
-#: ../lib/mouse.pm:619
+#: ../lib/mouse.pm:612
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Om de muis te activeren,"
 
-#: ../lib/mouse.pm:620
+#: ../lib/mouse.pm:613
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "BEWEEG UW WIELTJE!"
@@ -1854,9 +1879,6 @@ msgstr "Wilt u dat de BackSpace toets Delete geeft in de console?"
 
 #~ msgid "Boot device"
 #~ msgstr "Opstartapparaat"
-
-#~ msgid "Main options"
-#~ msgstr "Hoofdopties"
 
 #~ msgid "Delay before booting default image"
 #~ msgstr "Wachttijd voor het opstarten van standaard image"
@@ -3924,9 +3946,6 @@ msgstr "Wilt u dat de BackSpace toets Delete geeft in de console?"
 
 #~ msgid "enable radio support"
 #~ msgstr "activeer radio ondersteuning"
-
-#~ msgid "Yes"
-#~ msgstr "Ja"
 
 #~ msgid "No"
 #~ msgstr "Nee"

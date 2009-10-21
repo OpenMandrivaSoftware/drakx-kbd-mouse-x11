@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
-"POT-Creation-Date: 2009-04-07 12:42+0200\n"
+"POT-Creation-Date: 2009-10-21 15:48+0200\n"
 "PO-Revision-Date: 2005-03-27 17:55+0530\n"
 "Last-Translator: Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>\n"
 "Language-Team: Punjabi <punlinux-i18n@lists.soruceforge.net>\n"
@@ -16,67 +16,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9.1\n"
 
-#: ../lib/Xconfig/card.pm:19
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "256 kB"
 msgstr "256 ਕਿਬਾ"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "512 kB"
 msgstr "512 ਕਿਬਾ"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "1 MB"
 msgstr "1 ਮੈਬਾ"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "2 MB"
 msgstr "2 ਮੈਬਾ"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "4 MB"
 msgstr "4 ਮੈਬਾ"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "8 MB"
 msgstr "8 ਮੈਬਾ"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "16 MB"
 msgstr "16 ਮੈਬਾ"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "32 MB"
 msgstr "32 ਮੈਬਾ"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:28
 #, c-format
 msgid "64 MB or more"
 msgstr "64 ਮੈਬਾ ਜਾਂ ਵੱਧ"
 
-#: ../lib/Xconfig/card.pm:167
+#: ../lib/Xconfig/card.pm:171
 #, c-format
 msgid "X server"
 msgstr "X ਸਰਵਰ"
 
-#: ../lib/Xconfig/card.pm:168
+#: ../lib/Xconfig/card.pm:172
 #, c-format
 msgid "Choose an X server"
 msgstr "X ਸਰਵਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/card.pm:199
+#: ../lib/Xconfig/card.pm:203
 #, c-format
 msgid "Multi-head configuration"
 msgstr "ਬਹੁ-ਹੈੱਡ ਸੰਰਚਨਾ"
 
-#: ../lib/Xconfig/card.pm:200
+#: ../lib/Xconfig/card.pm:204
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -85,12 +85,12 @@ msgstr ""
 "ਤੁਹਾਡਾ ਸਿਸਟਮ ਬਹੁ ਹੈੱਡ ਸੰਰਚਨਾ ਨੂੰ ਸਹਿਯੋਗ ਦਿੰਦਾ ਹੈ।\n"
 "ਤੁਸੀਂ ਕੀ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../lib/Xconfig/card.pm:289
+#: ../lib/Xconfig/card.pm:293
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "ਆਪਣੇ ਗਰਾਫਿਕਸ ਕਾਰਡ ਦਾ ਮੈਮੋਰੀ ਅਕਾਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/card.pm:315
+#: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -98,30 +98,30 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:342
+#: ../lib/Xconfig/card.pm:346
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:409
+#: ../lib/Xconfig/card.pm:416
 #, c-format
 msgid "Configure all heads independently"
 msgstr "ਸਾਰੇ ਹੈੱਡ ਨਿਰਭਰਤਾ ਤੋਂ ਬਿਨਾ ਸੰਰਚਿਤ ਕਰੋ"
 
-#: ../lib/Xconfig/card.pm:410
+#: ../lib/Xconfig/card.pm:417
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama ਐਕਸਟੈਂਸ਼ਨ ਵਰਤੋ"
 
-#: ../lib/Xconfig/card.pm:415
+#: ../lib/Xconfig/card.pm:422
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "ਸਿਰਫ ਕਾਰਡ \"%s\"%s ਹੀ ਸੰਰਚਿਤ ਕਰੋ"
 
 #: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:133
+#: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Custom"
 msgstr "ਪਸੰਦ"
@@ -141,14 +141,14 @@ msgstr "ਬਾਹਰ"
 msgid "Graphic Card"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:127
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "ਮਾਨੀਟਰ"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:385
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "ਰੈਜ਼ੋਲੇਸ਼ਨ"
@@ -186,32 +186,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:128
+#: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "ਹੈੱਡ #%d ਲਈ ਮਾਨੀਟਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/monitor.pm:128
+#: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor"
 msgstr "ਮਾਨੀਟਰ ਚੁਣੋ"
 
-#: ../lib/Xconfig/monitor.pm:134
+#: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Plug'n Play"
 msgstr "ਲਾਓ ਤੇ ਚਲਾਓ"
 
-#: ../lib/Xconfig/monitor.pm:135 ../lib/mouse.pm:47
+#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
 #, c-format
 msgid "Generic"
 msgstr "ਵਿਆਪਕ"
 
-#: ../lib/Xconfig/monitor.pm:136
+#: ../lib/Xconfig/monitor.pm:139
 #, c-format
 msgid "Vendor"
 msgstr "ਵਿਕ੍ਰੇਤਾ"
 
-#: ../lib/Xconfig/monitor.pm:154
+#: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -233,12 +233,12 @@ msgstr ""
 "ਨਾਲ ਮਾਨੀਟਰ ਕਿਸਮ ਨਹੀਂ ਚੁਣੀ ਹੈ: ਤੁਸੀਂ ਆਪਣਾ ਮਾਨੀਟਰ ਖਰਾਬ ਕਰ ਸਕਦੇ ਹੋ।\n"
 "ਜੇ ਕੋਈ ਸ਼ੱਕ ਹੈ, ਸੰਭਾਲ ਵਿਵਸਥਾ ਚੁਣੋ।"
 
-#: ../lib/Xconfig/monitor.pm:161
+#: ../lib/Xconfig/monitor.pm:164
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "ਖਤਿਜੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ"
 
-#: ../lib/Xconfig/monitor.pm:162
+#: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "ਲੰਬਕਾਰੀ ਮੁੜ-ਤਾਜ਼ਾ ਦਰ"
@@ -269,42 +269,42 @@ msgid "16 million colors (24 bits)"
 msgstr "16 ਮਿਲੀਅਨ ਰੰਗ (24 ਬਿੱਟ)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:376 ../lib/mouse.pm:35
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
 #, c-format
 msgid "Automatic"
 msgstr "ਸਵੈ-ਚਾਲਿਤ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:135
+#: ../lib/Xconfig/resolution_and_depth.pm:133
 #, c-format
 msgid "Resolutions"
 msgstr "ਰੈਜ਼ੋਲੇਸ਼ਨ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:408 ../lib/mouse.pm:188
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "ਹੋਰ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:460
+#: ../lib/Xconfig/resolution_and_depth.pm:446
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "ਰੈਜ਼ੋਲੂਸ਼ਨ ਅਤੇ ਰੰਗ ਡੂੰਘਾਈ ਚੁਣੋ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:461
+#: ../lib/Xconfig/resolution_and_depth.pm:447
 #, c-format
 msgid "Graphics card: %s"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:475
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Ok"
 msgstr "ਠੀਕ ਹੈ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:475
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Cancel"
 msgstr "ਰੱਦ ਕਰੋ"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:475
+#: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
 msgid "Help"
 msgstr "ਸਹਾਇਤਾ"
@@ -347,120 +347,145 @@ msgstr "ਕੀ ਇਹ ਠੀਕ ਵਿਵਸਥਾ ਹੈ?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
+msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:26
+#, fuzzy, c-format
+msgid "no"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: ../lib/Xconfig/various.pm:26
+#, fuzzy, c-format
+msgid "yes"
+msgstr "ਹਾਂ"
+
+#: ../lib/Xconfig/various.pm:27
+#, c-format
 msgid "3D hardware acceleration: %s\n"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:27
+#: ../lib/Xconfig/various.pm:28
 #, c-format
 msgid "Keyboard layout: %s\n"
 msgstr "ਕੀਬੋਰਡ ਖਾਕਾ: %s\n"
 
-#: ../lib/Xconfig/various.pm:28
+#: ../lib/Xconfig/various.pm:29
 #, c-format
 msgid "Mouse type: %s\n"
 msgstr "ਮਾਊਸ ਕਿਸਮ: %s\n"
 
-#: ../lib/Xconfig/various.pm:30
+#: ../lib/Xconfig/various.pm:31
 #, c-format
 msgid "Monitor: %s\n"
 msgstr "ਮਾਨੀਟਰ: %s\n"
 
-#: ../lib/Xconfig/various.pm:31
+#: ../lib/Xconfig/various.pm:32
 #, c-format
 msgid "Monitor HorizSync: %s\n"
 msgstr "ਮਾਨੀਟਰ ਖਤਿਜੀ-ਸਮਾਕਾਲਤਾ: %s\n"
 
-#: ../lib/Xconfig/various.pm:32
+#: ../lib/Xconfig/various.pm:33
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
 msgstr "ਮਾਨੀਟਰ ਲੰਬਕਾਰੀ-ਮੁੜਤਾਜ਼ਾ: %s\n"
 
-#: ../lib/Xconfig/various.pm:34
+#: ../lib/Xconfig/various.pm:35
 #, c-format
 msgid "Graphics card: %s\n"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s\n"
 
-#: ../lib/Xconfig/various.pm:35
+#: ../lib/Xconfig/various.pm:36
 #, c-format
 msgid "Graphics memory: %s kB\n"
 msgstr "ਗਰਾਫਿਕਸ ਮੈਮੋਰੀ: %s ਕਿਬਾ\n"
 
-#: ../lib/Xconfig/various.pm:37
+#: ../lib/Xconfig/various.pm:38
 #, c-format
 msgid "Color depth: %s\n"
 msgstr "ਰੰਗ ਡੂੰਘਾਈ: %s\n"
 
-#: ../lib/Xconfig/various.pm:38
+#: ../lib/Xconfig/various.pm:39
 #, c-format
 msgid "Resolution: %s\n"
 msgstr "ਰੈਜ਼ੋਲੂਸ਼ਨ: %s\n"
 
-#: ../lib/Xconfig/various.pm:40
+#: ../lib/Xconfig/various.pm:41
 #, c-format
 msgid "Xorg driver: %s\n"
 msgstr "Xorg ਡਰਾਈਵਰ: %s\n"
 
-#: ../lib/Xconfig/various.pm:220
+#: ../lib/Xconfig/various.pm:238
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg ਸੰਰਚਨਾ"
 
-#: ../lib/Xconfig/various.pm:221
+#: ../lib/Xconfig/various.pm:239
+#, fuzzy, c-format
+msgid "Global options"
+msgstr "ਮੈਡਿਊਲ ਚੋਣ:"
+
+#: ../lib/Xconfig/various.pm:240
+#, c-format
+msgid "Disable Ctrl-Alt-Backspace"
+msgstr ""
+
+#: ../lib/Xconfig/various.pm:242
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "ਗਰਾਫਿਕਸ ਕਾਰਡ: %s"
 
-#: ../lib/Xconfig/various.pm:223
+#: ../lib/Xconfig/various.pm:244
 #, c-format
 msgid "3D hardware acceleration"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:225
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:228
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:231
+#: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:235
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:236
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:239
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:242
+#: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "ਸ਼ੁਰੂਆਤੀ ਤੇ ਗਰਾਫੀਕਲ ਇੰਟਰਫੇਸ"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:269
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
@@ -468,7 +493,7 @@ msgstr ""
 "ਹੈ।\n"
 "ਕੀ ਤੁਸੀਂ ਮੁੜ ਚਲਾਉਣ ਸਮੇਂ Xorg ਸ਼ੁਰੂ ਕਰਨਾ ਪਸੰਦ ਕਰਦੇ ਹੋ?"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:281
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -488,12 +513,12 @@ msgstr ""
 "\n"
 "ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਇਹ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ?"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:293
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "ਤੁਹਾਡਾ TV ਕਿਹੜਾ norm ਵਰਤ ਰਿਹਾ ਹੈ?"
 
-#: ../lib/Xconfig/xfree.pm:833
+#: ../lib/Xconfig/xfree.pm:765
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
@@ -1402,257 +1427,257 @@ msgstr ""
 "ਦੌਰਾਨ, ਤੁਹਾਨੂੰ ਵੱਖ-ਵੱਖ ਕੀਬੋਰਡ ਖਾਕਿਆਂ ਵਿੱਚ ਤਬਦੀਲੀ ਲਈ ਸੱਜੀ\n"
 "ਕੰਟਰੋਲ ਸਵਿੱਚ ਵਰਤਣ ਦੀ ਲੋੜ ਪਵੇਗੀ।"
 
-#: ../lib/mouse.pm:25
+#: ../lib/mouse.pm:23
 #, c-format
 msgid "Sun - Mouse"
 msgstr "ਸੰਨ - ਮਾਊਸ"
 
-#: ../lib/mouse.pm:31
+#: ../lib/mouse.pm:29
 #, c-format
 msgid "Standard"
 msgstr "ਮਿਆਰੀ"
 
-#: ../lib/mouse.pm:32
+#: ../lib/mouse.pm:30
 #, c-format
 msgid "Logitech MouseMan+"
 msgstr "ਲੌਜੀਟਿਕ ਮਾਊਸਮੈਨ+"
 
-#: ../lib/mouse.pm:33
+#: ../lib/mouse.pm:31
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
 msgstr "ਸਧਾਰਨ PS2 ਪਹੀਆ ਮਾਊਸ"
 
-#: ../lib/mouse.pm:34
+#: ../lib/mouse.pm:32
 #, c-format
 msgid "GlidePoint"
 msgstr "ਗਲਾਈਡ-ਬਿੰਦੂ"
 
-#: ../lib/mouse.pm:37 ../lib/mouse.pm:71
+#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "ਕੇਨਸਿੰਗਟੋਨ ਥਿੰਕਿੰਗ ਮਾਊਸ"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:66
+#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
 msgid "Genius NetMouse"
 msgstr "ਸਧਾਰਨ ਨੈੱਟ-ਮਾਊਸ"
 
-#: ../lib/mouse.pm:39
+#: ../lib/mouse.pm:37
 #, c-format
 msgid "Genius NetScroll"
 msgstr "ਸਧਾਰਨ ਨੈੱਟ-ਸਕਰਾਲ"
 
-#: ../lib/mouse.pm:40 ../lib/mouse.pm:50
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਝਲਕਾਰਾ"
 
-#: ../lib/mouse.pm:45 ../lib/mouse.pm:77
+#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
 #, c-format
 msgid "1 button"
 msgstr "1 ਬਟਨ"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "ਸਧਾਰਨ 2 ਬਟਨ ਮਾਊਸ"
 
-#: ../lib/mouse.pm:48 ../lib/mouse.pm:57
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "ਪਹਿਆ ਸਮਰੂਪ ਨਾਲ ਸਧਾਰਨ 3 ਬਟਨ ਮਾਊਸ"
 
-#: ../lib/mouse.pm:49
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "Wheel"
 msgstr "ਚੱਕਰ"
 
-#: ../lib/mouse.pm:53
+#: ../lib/mouse.pm:51
 #, c-format
 msgid "serial"
 msgstr "ਸੀਰੀਅਲ"
 
-#: ../lib/mouse.pm:56
+#: ../lib/mouse.pm:54
 #, c-format
 msgid "Generic 3 Button Mouse"
 msgstr "ਸਧਾਰਨ 3 ਬਟਨ ਮਾਊਸ"
 
-#: ../lib/mouse.pm:58
+#: ../lib/mouse.pm:56
 #, c-format
 msgid "Microsoft IntelliMouse"
 msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਇੰਟੈਲੀ-ਮਾਊਸ"
 
-#: ../lib/mouse.pm:59
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Logitech MouseMan"
 msgstr "ਲੌਜਿਟਿਕ ਮਾਊਸ-ਮੈਨ"
 
-#: ../lib/mouse.pm:60
+#: ../lib/mouse.pm:58
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
 msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਲੌਜਿਟਿਕ ਮਾਊਸ-ਮੈਨ"
 
-#: ../lib/mouse.pm:61
+#: ../lib/mouse.pm:59
 #, c-format
 msgid "Mouse Systems"
 msgstr "ਮਾਊਸ ਸਿਸਟਮ"
 
-#: ../lib/mouse.pm:63
+#: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech CC Series"
 msgstr "ਲੌਜੀਟਿਕ CC ਲੜੀ"
 
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:62
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
 msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਲੌਜੀਟਿਕ CC ਲੜੀ"
 
-#: ../lib/mouse.pm:65
+#: ../lib/mouse.pm:63
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
 msgstr "ਲੌਜੀਟਿਕ ਮਾਊਸਮੈਨ+/ਪਹਿਲਾਮਾਊਸ+"
 
-#: ../lib/mouse.pm:67
+#: ../lib/mouse.pm:65
 #, c-format
 msgid "MM Series"
 msgstr "MM ਲੜੀ"
 
-#: ../lib/mouse.pm:68
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "MM HitTablet"
 msgstr "MM ਹਿੱਟਟੈਬਲਿਟ"
 
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:67
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "ਲੌਜੀਟਿਕ ਮਾਊਸ (ਸੀਰੀਅਲ, ਪੁਰਾਣਾ C7 ਕਿਸਮ)"
 
-#: ../lib/mouse.pm:70
+#: ../lib/mouse.pm:68
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਲੌਜੀਟਿਕ ਮਾਊਸ (ਸੀਰੀਅਲ, ਪੁਰਾਣਾ C7 ਕਿਸਮ)"
 
-#: ../lib/mouse.pm:72
+#: ../lib/mouse.pm:70
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
 msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ ਕੇਨਸਿੰਗਟੋਨ ਥਿੰਕਿੰਗ ਮਾਊਸ"
 
-#: ../lib/mouse.pm:75
+#: ../lib/mouse.pm:73
 #, c-format
 msgid "busmouse"
 msgstr "ਬਸਮਾਊਸ"
 
-#: ../lib/mouse.pm:78
+#: ../lib/mouse.pm:76
 #, c-format
 msgid "2 buttons"
 msgstr "2 ਬਟਨ"
 
-#: ../lib/mouse.pm:79
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "3 buttons"
 msgstr "3 ਬਟਨ"
 
-#: ../lib/mouse.pm:80
+#: ../lib/mouse.pm:78
 #, c-format
 msgid "3 buttons with Wheel emulation"
 msgstr "ਪਹੀਆ ਸਮਰੂਪ ਨਾਲ 3 ਬਟਨ"
 
-#: ../lib/mouse.pm:83
+#: ../lib/mouse.pm:81
 #, c-format
 msgid "Universal"
 msgstr "ਸਰਬ-ਵਿਆਪਕ"
 
-#: ../lib/mouse.pm:85
+#: ../lib/mouse.pm:83
 #, c-format
 msgid "Any PS/2 & USB mice"
 msgstr "ਕੋਈ PS/2 ਤੇ USB ਮਾਊਸ"
 
-#: ../lib/mouse.pm:86
+#: ../lib/mouse.pm:84
 #, c-format
 msgid "Force evdev"
 msgstr ""
 
-#: ../lib/mouse.pm:87
+#: ../lib/mouse.pm:85
 #, fuzzy, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "ਮਾਈਕ੍ਰੋਸਾਫਟ ਝਲਕਾਰਾ"
 
-#: ../lib/mouse.pm:88
+#: ../lib/mouse.pm:86
 #, c-format
 msgid "VirtualBox mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:89
+#: ../lib/mouse.pm:87
 #, fuzzy, c-format
 msgid "VMware mouse"
 msgstr "ਵੱਖਰੇ"
 
-#: ../lib/mouse.pm:92
+#: ../lib/mouse.pm:90
 #, c-format
 msgid "none"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: ../lib/mouse.pm:94
+#: ../lib/mouse.pm:92
 #, c-format
 msgid "No mouse"
 msgstr "ਕੋਈ ਮਾਊਸ ਨਹੀਂ"
 
-#: ../lib/mouse.pm:510
+#: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:532
+#: ../lib/mouse.pm:525
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਮਾਊਸ ਕਿਸਮ ਚੁਣੋ।"
 
-#: ../lib/mouse.pm:533
+#: ../lib/mouse.pm:526
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "ਦਸਤੀ ਜੰਤਰ"
 
-#: ../lib/mouse.pm:549
+#: ../lib/mouse.pm:542
 #, c-format
 msgid "Emulate third button?"
 msgstr "ਤੀਜਾ ਬਟਨ ਸਮਰੂਪ?"
 
-#: ../lib/mouse.pm:553
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Mouse Port"
 msgstr "ਮਾਊਸ ਪੋਰਟ"
 
-#: ../lib/mouse.pm:554
+#: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਾਊਸ ਜੋੜਨ ਲਈ ਸੀਰੀਅਲ ਪੋਰਟ ਚੁਣੋ।"
 
-#: ../lib/mouse.pm:563
+#: ../lib/mouse.pm:556
 #, c-format
 msgid "Buttons emulation"
 msgstr "ਬਟਨ ਸਮਰੂਪਤਾ"
 
-#: ../lib/mouse.pm:565
+#: ../lib/mouse.pm:558
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "ਬਟਨ 2 ਸਮਰੂਪਤਾ"
 
-#: ../lib/mouse.pm:566
+#: ../lib/mouse.pm:559
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "ਬਟਨ 3 ਸਮਰੂਪਤਾ"
 
-#: ../lib/mouse.pm:617
+#: ../lib/mouse.pm:610
 #, c-format
 msgid "Please test the mouse"
 msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਾਊਸ ਜਾਂਚ ਕਰੋ"
 
-#: ../lib/mouse.pm:619
+#: ../lib/mouse.pm:612
 #, c-format
 msgid "To activate the mouse,"
 msgstr "ਮਾਊਸ ਸਰਗਰਮ ਕਰਨ ਲਈ,"
 
-#: ../lib/mouse.pm:620
+#: ../lib/mouse.pm:613
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "ਆਪਣਾ ਪਹੀਆ ਹਿਲਾਓ!"
@@ -3641,9 +3666,6 @@ msgstr "ਕੀ ਤੁਸੀਂ ਕੰਸੋਲ ਵਿੱਚ ਹਟਾਉਣ ਕ�
 #~ msgid "enable radio support"
 #~ msgstr "ਰੇਡੀਓ ਸਹਿਯੋਗ ਯੋਗ"
 
-#~ msgid "Yes"
-#~ msgstr "ਹਾਂ"
-
 #~ msgid "No"
 #~ msgstr "ਨਹੀਂ"
 
@@ -4505,9 +4527,6 @@ msgstr "ਕੀ ਤੁਸੀਂ ਕੰਸੋਲ ਵਿੱਚ ਹਟਾਉਣ ਕ�
 #~ "ਤੁਸੀਂ ਹੁਣ ਮੈਡਿਊਲ %s ਲਈ ਚੋਣ ਮੁਹੱਈਆ ਕਰ ਸਕਦੇ ਹੋ।\n"
 #~ "ਚੋਣ ਫਾਰਮਿਟ ਹੈ ``ਨਾਂ=ਮੁੱਲ ਨਾਂ2=ਮੁੱਲ2 ...''।\n"
 #~ "ਉਦਾਹਰਨ ਲਈ, ``io=0x300 irq=7''"
-
-#~ msgid "Module options:"
-#~ msgstr "ਮੈਡਿਊਲ ਚੋਣ:"
 
 #~ msgid "Which %s driver should I try?"
 #~ msgstr "ਮੈਂ ਕਿਸ %s ਡਰਾਈਵਰ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਾਂ?"
