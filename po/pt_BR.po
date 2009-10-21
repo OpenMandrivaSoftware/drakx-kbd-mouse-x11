@@ -15,17 +15,18 @@
 # Arthur Renato Mello <renato@conectiva.com.br>, 2005.
 # Wanderlei Antonio Cavassin <cavassin@mandriva.com>, 2006.
 # Felipe Arruda <felipemiguel@gmail.com>, 2006, 2007.
+# Sergio Rafael Lemke <sergio@mandriva.com.br>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2007-05-21 11:02-0300\n"
-"Last-Translator: Felipe Arruda <felipemiguel@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@mail.kde.org>\n"
+"PO-Revision-Date: 2009-10-21 14:21-0200\n"
+"Last-Translator: Sergio Rafael Lemke <sergio@mandriva.com.br>\n"
+"Language-Team: Brazilian Portuguese <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=2; plural=(n > 1);\n"
 
 #: ../lib/Xconfig/card.pm:20
@@ -371,17 +372,15 @@ msgstr "Esta é a configuração correta?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Desabilitar Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
-msgstr "nenhum"
+msgstr "não"
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "yes"
-msgstr "Sim"
+msgstr "sim"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -443,15 +442,14 @@ msgstr "Driver do Xorg: %s\n"
 msgid "Xorg configuration"
 msgstr "Configuração do Xorg"
 
-#: ../lib/Xconfig/various.pm:239
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:239, c-format
 msgid "Global options"
-msgstr "Opções principais"
+msgstr "Opções globais"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Desabilitar Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
