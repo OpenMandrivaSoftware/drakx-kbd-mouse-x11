@@ -1,3 +1,4 @@
+# translation of nb.po to Norwegian Bokmål
 # translation of nb.po to
 # KTranslator Generated File
 # Translation file of Mandriva Linux graphic install
@@ -18,13 +19,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nb\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-04-07 14:00+0200\n"
+"PO-Revision-Date: 2009-10-22 00:13+0200\n"
 "Last-Translator: Olav Dahlum <odahlum@gmail.com>\n"
 "Language-Team: Norwegian Bokmål <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: KBabel 1.11.4\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Language: nb_NO\n"
 
@@ -368,17 +369,17 @@ msgstr "Er dette riktig oppsett?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Slå av Ctrl + Alt + Rettetast: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "no"
-msgstr "ingen"
+msgstr "nei"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -443,12 +444,12 @@ msgstr "Xorg-oppsett"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Globale valg"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Slå av Ctrl + Alt + Rettetast"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -1732,28 +1733,3 @@ msgstr "Tastaturtype"
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Ønsker du at BackSpace skal returnere Delete i konsoll?"
 
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Liauisk AZERTY (gammel)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Liauisk AZERTY (ny)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Litauisk «nummerrekke» QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Litauisk «fonétisk» QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Musetest"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Vær vennlig å teste musen di:"
