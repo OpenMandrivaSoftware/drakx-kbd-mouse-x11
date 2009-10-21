@@ -807,7 +807,7 @@ our $default_header = <<'END';
 # **********************************************************************
 
 Section "ServerFlags"
-    Option "DontZap" "True" # disable <Ctrl><Alt><BS> (server abort)
+    Option "DontZap" "False" # disable <Ctrl><Alt><BS> (server abort)
     #DontZoom # disable <Ctrl><Alt><KP_+>/<KP_-> (resolution switching)
     AllowMouseOpenFail # allows the server to start up even if the mouse does not work
 END
