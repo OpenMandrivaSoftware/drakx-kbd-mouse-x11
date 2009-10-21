@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-et\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-04-08 13:19+0200\n"
+"PO-Revision-Date: 2009-10-21 17:03+0200\n"
 "Last-Translator: Marek Laane <bald@starman.ee>\n"
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -175,7 +175,7 @@ msgstr "Pluginad"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "Teie Xorgi konfiguratsioonifail on vigane, seda ignoreeritakse."
+msgstr "Teie Xorg-i seadistustefail on vigane, seda eiratakse."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -352,17 +352,17 @@ msgstr "Kas see on sobiv?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Ctrl+Alt+Backspace'i keelamine: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "no"
-msgstr "puudub"
+msgstr "ei"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "jah"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -417,22 +417,22 @@ msgstr "Ekraanilahutus: %s\n"
 #: ../lib/Xconfig/various.pm:41
 #, c-format
 msgid "Xorg driver: %s\n"
-msgstr "Xorg'i draiver: %s\n"
+msgstr "Xorg-i draiver: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
 #, c-format
 msgid "Xorg configuration"
-msgstr "Xorg seadistused"
+msgstr "Xorg-i seadistused"
 
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Globaalsed valikud"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Ctrl+Alt+Backspace'i keelamine"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
