@@ -1,3 +1,9 @@
+- mousedrake:
+    o fix input module path on 64 bit machines
+    o don't install input drivers if X isn't here
+- XFdrake:
+    o enable ctrl+alt+backspace by default
+
 Version 0.84 - 9 October 2009
 
 - run ldconfig after update-alternatives during installer too
