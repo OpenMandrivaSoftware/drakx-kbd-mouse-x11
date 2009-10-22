@@ -1,3 +1,5 @@
+Version 0.85 - 22 October 2009
+
 - mousedrake:
     o fix input module path on 64 bit machines
     o don't install input drivers if X isn't here
