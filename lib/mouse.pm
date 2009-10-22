@@ -14,6 +14,7 @@ use devices;
 use modules;
 use any;
 use log;
+use Xconfig::card;
 
 sub _all_mice() {
  arch() =~ /^sparc/ ? 
@@ -383,8 +384,11 @@ sub various_xfree_conf {
 	    output_with_perm($f, 0755, "xset m 1/8 1\n");
 	}
     }
-  
-    my $inputdrvpath = '/usr/lib/xorg/modules/input';
+
+    if (! -e "/usr/bin/X") {
+	return;
+    }
+    my $inputdrvpath = Xconfig::card::modules_dir() . '/input';
     my $pkgs = [
 	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
 	if_($mouse->{evdev_mice}, ['x11-driver-input-evdev', "$inputdrvpath/evdev_drv.so"]),
