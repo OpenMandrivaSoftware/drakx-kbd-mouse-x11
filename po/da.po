@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-04-08 14:52+0200\n"
+"PO-Revision-Date: 2009-10-22 13:01+0200\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -333,8 +333,7 @@ msgstr "Ønsker du at afprøve konfigurationen?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Advarsel: afprøvning af dette grafikkort kan få din maskine til at fryse"
+msgstr "Advarsel: afprøvning af dette grafikkort kan få din maskine til at fryse"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -360,17 +359,17 @@ msgstr "Er dette den korrekte indstilling?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Deaktivér Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "no"
-msgstr "ingenting"
+msgstr "nej"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "ja"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -435,12 +434,12 @@ msgstr "Xorg konfiguration"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Overordnede valgmuligheder"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Deaktivér Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -1723,3 +1722,4 @@ msgstr "Type af tastatur"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vil du have at Bak-tasten giver Delete i konsollen?"
+
