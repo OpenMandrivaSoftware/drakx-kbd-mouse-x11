@@ -1,4 +1,4 @@
-# translation of it.po to Italian
+# translation of drakx-kbd-mouse-x11.po to Italian
 # Copyright (C) 2000, 2001 Mandriva S.A.
 #
 # Paolo Lorenzin <pasusu@tin.it>, 2000.
@@ -7,14 +7,15 @@
 # Marco De Vitis <mdv@spin.it>, 2003.
 # Giuseppe Levi <giuseppe.levi@email.it>, 2005.
 # Andrea Celli <andrea.celli@libero.it>, 2003, 2004, 2005, 2006, 2007, 2008.
+# Moreno Manzini <moreno.mg@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: it\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-04-07 20:25+0200\n"
-"Last-Translator: \n"
-"Language-Team: Italian <timl@freelists.org>\n"
+"PO-Revision-Date: 2009-10-22 06:23+0200\n"
+"Last-Translator: Moreno Manzini <moreno.mg@gmail.com>\n"
+"Language-Team: Italian <timl@freelist.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -355,22 +356,22 @@ msgstr "Uscita tra %d secondi"
 #: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Is this the correct setting?"
-msgstr "È l'impostazione corretta?"
+msgstr "L'impostazione è corretta?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Ctrl-Alt-Backspace disabilitato: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "no"
-msgstr "nessuno"
+msgstr "no"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "sì"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -400,7 +401,7 @@ msgstr "Frequenza orizzontale del monitor: %s\n"
 #: ../lib/Xconfig/various.pm:33
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
-msgstr "Refresh verticale del monitor: %s\n"
+msgstr "Frequenza verticale del monitor: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
@@ -435,12 +436,12 @@ msgstr "Configurazione di Xorg"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Opzioni Globali"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Disabilita Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -1727,3 +1728,4 @@ msgstr "Tipo di tastiera"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vuoi che in console il tasto BackSpace funzioni come Canc?"
+
