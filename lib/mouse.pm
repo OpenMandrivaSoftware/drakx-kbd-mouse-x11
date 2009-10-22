@@ -374,6 +374,8 @@ sub set_xfree_conf {
 sub various_xfree_conf {
     my ($do_pkgs, $mouse) = @_;
 
+    -e "/usr/bin/X" or return;
+
     #- we don't need this anymore. Remove it for upgrades
     unlink("$::prefix/etc/X11/xinit.d/mouse_buttons");
     {
@@ -385,9 +387,6 @@ sub various_xfree_conf {
 	}
     }
 
-    if (! -e "/usr/bin/X") {
-	return;
-    }
     my $inputdrvpath = Xconfig::card::modules_dir() . '/input';
     my $pkgs = [
 	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
