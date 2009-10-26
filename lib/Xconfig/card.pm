@@ -108,7 +108,7 @@ sub probe() {
 	#dual head ATI card have a dummy DISPLAY_OTHER pci device because it 
 	#was needed by Win2000, filter those out because we don't want to 
 	#behave as if there were 2 video cards in the system in such cases
-	($_->{'media_type'} eq 'DISPLAY_VGA')?$card:();
+	($_->{media_type} eq 'DISPLAY_VGA') ? $card : ();
     } @c;
 
     if (@cards >= 2 && $cards[0]{card_name} eq $cards[1]{card_name} && $cards[0]{card_name} eq 'Intel 830 - 965') {
