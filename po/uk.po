@@ -7,19 +7,20 @@
 # Taras Boychuk <btr1@mail.ru>, 2004, 2003.
 # Taras Boychuk <btr1@ukrpost.net>, 2004, 2005.
 # Taras Boychuk <btr0001@ukr.net>, 2008, 2009.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-04-11 20:35+0300\n"
-"Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
-"Language-Team: ukrainian <translation@linux.org.ua>\n"
+"PO-Revision-Date: 2009-10-22 07:19+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -34,37 +35,37 @@ msgstr "512 кБ"
 #: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "1 MB"
-msgstr "1 Мб"
+msgstr "1 МБ"
 
 #: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "2 MB"
-msgstr "2 Мб"
+msgstr "2 МБ"
 
 #: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "4 MB"
-msgstr "4 Мб"
+msgstr "4 МБ"
 
 #: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "8 MB"
-msgstr "8 Мб"
+msgstr "8 МБ"
 
 #: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "16 MB"
-msgstr "16 Мб"
+msgstr "16 МБ"
 
 #: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "32 MB"
-msgstr "32 Мб"
+msgstr "32 МБ"
 
 #: ../lib/Xconfig/card.pm:28
 #, c-format
 msgid "64 MB or more"
-msgstr "64 Мб чи більше"
+msgstr "64 МБ чи більше"
 
 #: ../lib/Xconfig/card.pm:171
 #, c-format
@@ -118,7 +119,7 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:416
 #, c-format
 msgid "Configure all heads independently"
-msgstr "Сконфігурувати всі головки незалежно"
+msgstr "Налаштувати всі виводи незалежно"
 
 #: ../lib/Xconfig/card.pm:417
 #, c-format
@@ -363,17 +364,16 @@ msgstr "Це правильні установки?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Вимикання Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
-msgstr "нічого"
+msgstr "ні"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "так"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -413,7 +413,7 @@ msgstr "Графічна плата: %s\n"
 #: ../lib/Xconfig/various.pm:36
 #, c-format
 msgid "Graphics memory: %s kB\n"
-msgstr "Відео пам'ять: %s кБ\n"
+msgstr "Відеопам'ять: %s кБ\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
@@ -438,12 +438,12 @@ msgstr "Налаштування Xorg"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Загальні параметри"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Вимикання Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -718,7 +718,7 @@ msgstr "Боснійська"
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr "Джонха/Тібетська"
+msgstr "Джонга/Тибетська"
 
 #: ../lib/keyboard.pm:213
 #, c-format
@@ -774,7 +774,7 @@ msgstr "Деванагарі"
 msgid ""
 "_: keyboard\n"
 "Danish"
-msgstr "Датська"
+msgstr "Данська"
 
 #: ../lib/keyboard.pm:224
 #, c-format
@@ -1194,7 +1194,7 @@ msgstr "Сербська (кирилиця)"
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "Сірійська"
+msgstr "Сирійська"
 
 #: ../lib/keyboard.pm:300
 #, c-format
@@ -1727,3 +1727,5 @@ msgstr "Тип клавіатури"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Ви хочете, щоб BackSpace повертав Delete на консолі?"
+
+
