@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-10-22 07:19+0300\n"
+"PO-Revision-Date: 2009-10-27 07:19+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
@@ -119,7 +119,7 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:416
 #, c-format
 msgid "Configure all heads independently"
-msgstr "Налаштувати всі виводи незалежно"
+msgstr "Сконфігурувати всі головки незалежно"
 
 #: ../lib/Xconfig/card.pm:417
 #, c-format
@@ -718,7 +718,7 @@ msgstr "Боснійська"
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr "Джонга/Тибетська"
+msgstr "Джонха/Тібетська"
 
 #: ../lib/keyboard.pm:213
 #, c-format
@@ -774,7 +774,7 @@ msgstr "Деванагарі"
 msgid ""
 "_: keyboard\n"
 "Danish"
-msgstr "Данська"
+msgstr "Датська"
 
 #: ../lib/keyboard.pm:224
 #, c-format
@@ -788,7 +788,7 @@ msgstr "Дворака (США)"
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
-msgstr "Дворака"
+msgstr "Дворака (Есперанто)"
 
 #: ../lib/keyboard.pm:226
 #, c-format
@@ -1194,7 +1194,7 @@ msgstr "Сербська (кирилиця)"
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "Сирійська"
+msgstr "Сірійська"
 
 #: ../lib/keyboard.pm:300
 #, c-format
