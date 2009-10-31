@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-04-14 19:40+0200\n"
+"PO-Revision-Date: 2009-10-31 12:51+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -357,17 +357,16 @@ msgstr "Ezarpen hau zuzena da?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Ezgaitu Ktrl-Alt-Atzera: %s\n"
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
-msgstr "bat ere ez"
+msgstr "ez"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "bai"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -432,12 +431,12 @@ msgstr "Xorg konfigurazioa"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Aukera orokorrak"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Ezgaitu Ktrl-Alt-Atzera"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
