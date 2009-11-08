@@ -366,7 +366,8 @@ msgstr "Είναι σωστή η ρύθμιση;"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Απενεργοποίηση του Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "όχι"
 
