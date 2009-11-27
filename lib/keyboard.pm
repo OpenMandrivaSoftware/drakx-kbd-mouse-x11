@@ -625,9 +625,9 @@ sub configure_and_set_standalone {
     my ($keyboard) = @_;
 
     _setxkbmap($keyboard);
+    run_program::run('loadkeys', keyboard2kmap($keyboard));
 
     &write($keyboard);
-    system('/etc/init.d/keytable', 'restart');
 }
 
 sub read() {
