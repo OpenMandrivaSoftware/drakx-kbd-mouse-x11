@@ -4,17 +4,19 @@
 #
 # Mashrab Kuvatov <kmashrab@uni-bremen.de>, 2003, 2004, 2006, 2007.
 # Behzod Saidov <behzodsaidov@gmail.com>, 2007.
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-uz\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2007-03-08 22:47+0100\n"
-"Last-Translator: Mashrab Kuvatov <kmashrab@uni-bremen.de>\n"
-"Language-Team: Uzbek <floss-uz-l10n@googlegroups.com>\n"
+"PO-Revision-Date: 2009-12-22 21:22+0500\n"
+"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -74,7 +76,7 @@ msgstr "График картани танлаш"
 #: ../lib/Xconfig/card.pm:203
 #, c-format
 msgid "Multi-head configuration"
-msgstr ""
+msgstr "Бир неча ядрони созлаш"
 
 #: ../lib/Xconfig/card.pm:204
 #, c-format
@@ -82,6 +84,8 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
+"Тизимингиз бир неча ядрони қўллай олада.\n"
+"Нима қилишни истайсиз?"
 
 #: ../lib/Xconfig/card.pm:293
 #, c-format
@@ -105,11 +109,12 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
+"Проприетар драйвер тўғри ўрнатилмаган, очиқ кодли дарйвердан фойдаланилади."
 
 #: ../lib/Xconfig/card.pm:416
 #, c-format
 msgid "Configure all heads independently"
-msgstr ""
+msgstr "Барча ядроларни алоҳида-алоҳида созлаш"
 
 #: ../lib/Xconfig/card.pm:417
 #, c-format
@@ -172,7 +177,7 @@ msgstr "Плагинлар"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
+msgstr "Сизнинг Xorg файлингиз хато, унга эътибор берилмайди."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -190,7 +195,7 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor for head #%d"
-msgstr ""
+msgstr "#%d ядро учун мониторни танланг"
 
 #: ../lib/Xconfig/monitor.pm:131
 #, c-format
@@ -230,12 +235,12 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:164
 #, c-format
 msgid "Horizontal refresh rate"
-msgstr ""
+msgstr "Горизонтал яргилаш частотаси"
 
 #: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Vertical refresh rate"
-msgstr ""
+msgstr "Вертикал янгилаш частотаси"
 
 #: ../lib/Xconfig/plugins.pm:219
 #, c-format
@@ -344,17 +349,16 @@ msgstr "Бу тўғрими?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Ctrl-Alt-Backspace ни ўчириш: %s\n"
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
 msgstr "йўқ"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "ҳа"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -419,12 +423,12 @@ msgstr "Xorg мосламаси"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Умумий параметрлар"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Ctrl-Alt-Backspace ни ўчириш"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -444,7 +448,7 @@ msgstr "Шаффофлик имкониятидан фойдаланиш (Compos
 #: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Сичқонча кўрсатгичи учун ускуна акселераторидан фойдаланиш"
 
 #: ../lib/Xconfig/various.pm:252
 #, c-format
@@ -454,12 +458,12 @@ msgstr "Render имкониятидан фойдаланиш (матнни кў�
 #: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Экранни ташқи моноторда айни нусхасини кўрсатиш"
 
 #: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Иккинчи дисплейда айни шу дисплейни кўрсатиш"
 
 #: ../lib/Xconfig/various.pm:260
 #, c-format
@@ -469,7 +473,7 @@ msgstr ""
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Ташқи мониторга ўтиш учун BIOS тугмаларидан фойдаланиш"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
@@ -498,11 +502,19 @@ msgid ""
 "\n"
 "Do you have this feature?"
 msgstr ""
+"Сизнинг видеокартангизда TV-OUT борга ўхшайди.\n"
+"Уни frame-buffer билан ишлашга созлаш мумкин.\n"
+"\n"
+"Бунинг учун компьютерни юклашдан аввал видеокартангизни телевизорга "
+"улашингиз керак.\n"
+"Сўнгра ОТ юклагичидан \"TVout\" бандини танланг\n"
+"\n"
+"Ушбу имкониятдан фойдаланишни истайсизми?"
 
 #: ../lib/Xconfig/various.pm:293
 #, c-format
 msgid "What norm is your TV using?"
-msgstr ""
+msgstr "Телевизорингиз қайси форматдан фойдаланади?"
 
 #: ../lib/Xconfig/xfree.pm:765
 #, c-format
@@ -716,6 +728,8 @@ msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
 msgstr ""
+"_: keyboard\n"
+"Cherokee syllabics"
 
 #: ../lib/keyboard.pm:219
 #, c-format
@@ -807,6 +821,8 @@ msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr ""
+"_: keyboard\n"
+"Faroese"
 
 #: ../lib/keyboard.pm:237
 #, c-format
@@ -962,12 +978,11 @@ msgid ""
 "Laotian"
 msgstr "Лаосча"
 
-#: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#: ../lib/keyboard.pm:264, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Эронча"
+msgstr "Литвача"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1115,6 +1130,8 @@ msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr ""
+"_: keyboard\n"
+"Sinhala"
 
 #: ../lib/keyboard.pm:291
 #, c-format
@@ -1220,6 +1237,8 @@ msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr ""
+"_: keyboard\n"
+"Tifinagh (moroccan layout) (+latin/arabic)"
 
 #: ../lib/keyboard.pm:311
 #, c-format
@@ -1227,6 +1246,8 @@ msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
+"_: keyboard\n"
+"Tifinagh (phonetic) (+latin/arabic)"
 
 #: ../lib/keyboard.pm:313
 #, c-format
@@ -1278,7 +1299,7 @@ msgstr "АҚШ (халқаро)"
 #: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (ҳар бир тугма учун 3 даражали US клавиатураси)"
 
 #: ../lib/keyboard.pm:325
 #, c-format
@@ -1471,7 +1492,7 @@ msgstr "2 тугмали андоза сичқонча"
 #: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr ""
+msgstr "Ғилдиракни эмуляция қиладиган андоза уч тугмали сичқонча"
 
 #: ../lib/mouse.pm:47
 #, c-format
@@ -1501,7 +1522,7 @@ msgstr "Logitech MouseMan"
 #: ../lib/mouse.pm:58
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr ""
+msgstr "Ғилдиракни эмуляция қиладиган Logitech MouseMan"
 
 #: ../lib/mouse.pm:59
 #, c-format
@@ -1511,12 +1532,12 @@ msgstr "Mouse Systems"
 #: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech CC Series"
-msgstr ""
+msgstr "Logitech CC Series"
 
 #: ../lib/mouse.pm:62
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr ""
+msgstr "Ғилидиракни эмуляция қиладиган Logitech CC Series"
 
 #: ../lib/mouse.pm:63
 #, c-format
@@ -1526,7 +1547,7 @@ msgstr "Logitech MouseMan+/FirstMouse+"
 #: ../lib/mouse.pm:65
 #, c-format
 msgid "MM Series"
-msgstr ""
+msgstr "MM Series"
 
 #: ../lib/mouse.pm:66
 #, c-format
@@ -1542,16 +1563,18 @@ msgstr "Logitech сичқонча (кетма-кет, эски C7 тури)"
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr ""
+"Ғилдиракни эмуляция қиладиган Logitech сичқончаси (серия портлиl, эск C7 "
+"турли)"
 
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr ""
+msgstr "Ғилдиракни эмуляция қиладиган Kensington Thinking сичқончаси"
 
 #: ../lib/mouse.pm:73
 #, c-format
 msgid "busmouse"
-msgstr ""
+msgstr "busmouse"
 
 #: ../lib/mouse.pm:76
 #, c-format
@@ -1566,7 +1589,7 @@ msgstr "3 тугмали"
 #: ../lib/mouse.pm:78
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr ""
+msgstr "Ғилдиракни эмуляция қиладиган уч тугмали"
 
 #: ../lib/mouse.pm:81
 #, c-format
@@ -1591,12 +1614,11 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "VirtualBox сичқончаси"
 
-#: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#: ../lib/mouse.pm:87, c-format
 msgid "VMware mouse"
-msgstr "Сичқонча йўқ"
+msgstr "VMware сичқончаси"
 
 #: ../lib/mouse.pm:90
 #, c-format
@@ -1626,7 +1648,7 @@ msgstr "Сичқончани танлаш"
 #: ../lib/mouse.pm:542
 #, c-format
 msgid "Emulate third button?"
-msgstr ""
+msgstr "Учинчи тугма эмуляция қилинсинми?"
 
 #: ../lib/mouse.pm:546
 #, c-format
@@ -1641,17 +1663,17 @@ msgstr "Илтимос сичқонча уланган кетма-кет пор�
 #: ../lib/mouse.pm:556
 #, c-format
 msgid "Buttons emulation"
-msgstr ""
+msgstr "Тугма эмуляцияси"
 
 #: ../lib/mouse.pm:558
 #, c-format
 msgid "Button 2 Emulation"
-msgstr ""
+msgstr "Иккинчи тугмани эмулячия қилиш"
 
 #: ../lib/mouse.pm:559
 #, c-format
 msgid "Button 3 Emulation"
-msgstr ""
+msgstr "Учинчи тугмани эмуляция қилиш"
 
 #: ../lib/mouse.pm:610
 #, c-format
@@ -1676,7 +1698,7 @@ msgstr "Ўзгаришлар тўлиқ қўлланилиши учун тизи
 #: ../tools/keyboarddrake:37
 #, c-format
 msgid "Keyboard"
-msgstr "Тугматаг"
+msgstr "Клавиатура"
 
 #: ../tools/keyboarddrake:38
 #, c-format
@@ -1686,12 +1708,12 @@ msgstr "Илтимос тугмалар тартибини танланг."
 #: ../tools/keyboarddrake:39
 #, c-format
 msgid "Keyboard layout"
-msgstr "Тугмалар тартиби"
+msgstr "Клавиатура тартиби"
 
 #: ../tools/keyboarddrake:52
 #, c-format
 msgid "Keyboard type"
-msgstr "Тугматаг тури"
+msgstr "Клавиатура тури"
 
 #: ../tools/keyboarddrake:65
 #, c-format
