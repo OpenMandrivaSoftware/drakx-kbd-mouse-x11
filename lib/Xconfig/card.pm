@@ -375,8 +375,8 @@ sub libgl_config_and_more {
     -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
     common::symlinkf_update_alternatives('gl_conf', $wanted);
     if ($need_run_ldconfig) {
-	    log::explanations("ldconfig will be run because the GL library was $wanted");
-	    run_program::rooted($::prefix, 'ldconfig');
+	    log::explanations("ldconfig will be run because the GL library was switched to $wanted");
+	    run_program::rooted($::prefix, 'ldconfig', '-X');
     }
 
     if (member($card->{Driver}, 'fglrx', 'nvidia')) {
