@@ -51,7 +51,7 @@ sub default {
 	isLaptop => $isLaptop,
 	xdm => 1,
 	DontZap => 0,
-	Composite => !($card->{Driver} eq 'fglrx' || $card->{Driver} eq 'nvidia' && $card->{DriverVersion} eq '71xx'),
+	Composite => !($card->{Driver} eq 'nvidia' && $card->{DriverVersion} eq '71xx'),
 	if_($card->{Driver} eq 'nvidia', RenderAccel => !member($card->{DriverVersion}, qw(71xx 96xx)), 
 	                                 Clone => 0, ForceModeDVI => 0),
 	if_($card->{Driver} eq 'savage', HWCursor => 1),

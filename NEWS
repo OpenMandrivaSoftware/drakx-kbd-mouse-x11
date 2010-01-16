@@ -1,6 +1,8 @@
 - XFdrake:
   o use -X option for ldconfig when switching alternatives, we only need the
     cache rebuilt (Anssi Hannula)
+  o do not disable Composite extension by default when using fglrx driver
+    (Anssi Hannula)
 
 Version 0.86 - 26 November 2009
 
