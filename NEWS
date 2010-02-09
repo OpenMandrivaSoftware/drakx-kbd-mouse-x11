@@ -3,6 +3,12 @@
     cache rebuilt (Anssi Hannula)
   o do not disable Composite extension by default when using fglrx driver
     (Anssi Hannula)
+  o do not disable loading of dri module for non-glx drivers, as KMS drivers
+    require it as well
+  o do not disable loading of glx module for fbdev, in order to allow AIGLX
+    to work in software rasterizer mode
+  o do not add dbe and extmod modules to xorg.conf anymore, they are loaded
+    by default anyway
 
 Version 0.86 - 26 November 2009
 

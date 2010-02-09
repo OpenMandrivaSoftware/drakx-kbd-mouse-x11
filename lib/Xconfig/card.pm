@@ -77,8 +77,9 @@ sub to_raw_X {
     #- if we have some special ModulePath, ensure the last one is the standard ModulePath
     $raw_X->add_ModulePath(modules_dir()) if $raw_X->get_ModulePaths;
 
-    $raw_X->set_load_module('glx', $card->{Driver} ne 'fbdev'); #- glx for everyone, except fbdev
-    $raw_X->set_load_module('dri', $card->{use_DRI_GLX}); #- dri when needed, except proprietary nvidia
+    #- un-disable modules that we previously disabled
+    $raw_X->remove_disable_module('glx');
+    $raw_X->remove_disable_module('dri');
 
     $raw_X->remove_Section('DRI');
 

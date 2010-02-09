@@ -22,7 +22,7 @@ sub configure {
 
     my $raw_X = Xconfig::xfree->empty_config;
 
-    $raw_X->add_load_module($_) foreach qw(dbe v4l extmod);
+    $raw_X->add_load_module('v4l');
 
     config_mouse($raw_X, $do_pkgs, $mouse);
 
