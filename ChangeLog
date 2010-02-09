@@ -1,3 +1,726 @@
+2010-02-09 18:55  
+
+	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/default.pm: XFrake:
+	  o do not disable loading of dri module for non-glx drivers, as
+	  KMS drivers
+	  require it as well
+	  o do not disable loading of glx module for fbdev, in order to
+	  allow AIGLX
+	  to work in software rasterizer mode
+	  o do not add dbe and extmod modules to xorg.conf anymore, they
+	  are loaded
+	  by default anyway
+
+2010-01-31 11:02  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2010-01-27 19:34  
+
+	* po/ast.po: Created translation
+
+2010-01-16 08:38  
+
+	* NEWS, lib/Xconfig/various.pm: XFdrake: do not disable Composite
+	  extension by default when using fglrx driver
+
+2010-01-10 11:01  
+
+	* po/pl.po: -update polish translation
+
+2010-01-10 10:07  
+
+	* NEWS, lib/Xconfig/card.pm: - XFdrake:
+	  o use -X option for ldconfig when switching alternatives, we only
+	  need the
+	  cache rebuilt
+
+2010-01-09 03:05  
+
+	* po/uz.po, po/uz@cyrillic.po: updated uzbek translations by nurali
+
+2009-12-25 16:51  
+
+	* po/ky.po: update translation for kirghiz language
+
+2009-11-27 09:26  
+
+	* Makefile.config, NEWS: 0.86
+
+2009-11-27 09:26  
+
+	* lib/keyboard.pm: load the right console keymap before dumping it
+	  
+	  We now rely on /etc/sysconfig/console/default.kmap for the
+	  console
+	  keyboard layout which we generate by calling dumpkeys. However,
+	  in
+	  finish-install, we have to make sure the right keymap is loaded
+	  before calling dumpkeys otherwise we'll end up with having the
+	  default
+	  (qwerty) keymap in console.
+
+2009-11-08 09:49  
+
+	* po/el.po: updated el translation
+
+2009-10-31 11:51  
+
+	* po/eu.po: Osatuta.
+
+2009-10-28 10:33  
+
+	* po/uk.po: translation update for ukrainian language
+
+2009-10-27 11:55  
+
+	* po/uk.po: translation update
+
+2009-10-26 15:42  
+
+	* lib/Xconfig/card.pm: perl_checker cleanups
+
+2009-10-26 15:42  
+
+	* .perl_checker: supplement list
+
+2009-10-26 15:42  
+
+	* lib/Xconfig/.perl_checker: enable perl_checker to work
+
+2009-10-26 07:25  
+
+	* po/hu.po: Hungarian translation update
+
+2009-10-24 09:06  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2009-10-22 20:17  
+
+	* po/el.po: updated el translation
+
+2009-10-22 16:45  
+
+	* Makefile.config, NEWS: 0.85
+
+2009-10-22 16:36  
+
+	* lib/mouse.pm: don't inconditionnally load Xconfig::card
+
+2009-10-22 16:36  
+
+	* lib/mouse.pm: bail out earlier if X isn't installed
+
+2009-10-22 16:28  
+
+	* NEWS: update NEWS
+
+2009-10-22 16:27  
+
+	* lib/mouse.pm: - fix input module path on 64 bit machines
+	  - don't install input drivers if X isn't here
+
+2009-10-22 15:43  
+
+	* po/it.po: update Italian translation - by Moreno Manzini
+
+2009-10-22 11:23  
+
+	* po/da.po: updates
+
+2009-10-22 07:33  
+
+	* po/fi.po: updated fi translation
+
+2009-10-21 22:14  
+
+	* po/nb.po: Updated Translation for Norwegian Bokmål.
+
+2009-10-21 19:54  
+
+	* po/cs.po: Updated Czech translation.
+
+2009-10-21 19:10  
+
+	* po/ru.po: update russian translation
+
+2009-10-21 19:06  
+
+	* po/ro.po: Updated Romanian translation
+
+2009-10-21 17:57  
+
+	* po/tr.po: updated tr translation
+
+2009-10-21 17:19  
+
+	* po/sl.po: Updated Slovenian translation
+
+2009-10-21 16:24  
+
+	* po/fr.po: Update French translation
+
+2009-10-21 16:22  
+
+	* po/pt_BR.po: updated translation for pt_BR
+
+2009-10-21 15:35  
+
+	* po/sv.po: update swedish translation
+
+2009-10-21 14:06  
+
+	* po/et.po: Updated Estonian translation.
+
+2009-10-21 13:54  
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
+	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
+	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/uz.po, po/uz@cyrillic.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: update po files
+
+2009-10-21 13:46  
+
+	* lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: enable
+	  ctrl+alt+backspace (twice) by default (pzanoni)
+
+2009-10-19 23:07  
+
+	* po/fi.po: sync finnish translation with .pot file
+
+2009-10-19 15:29  
+
+	* po/sv.po: fix typo in swedish translation
+
+2009-10-17 11:29  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2009-10-11 10:01  
+
+	* po/sv.po: update swedish translation
+
+2009-10-09 15:35  
+
+	* Makefile.config, NEWS: 0.84
+
+2009-10-09 15:35  
+
+	* NEWS, lib/Xconfig/card.pm: - run ldconfig after
+	  update-alternatives during installer too
+	  (psb alternative does not have a higher priority than standard
+	  alternative, and ldconfig was run by the installer only before
+	  manually setting the alternative, which was not enough)
+
+2009-10-08 17:13  
+
+	* Makefile.config, NEWS: 0.83
+
+2009-10-08 17:02  
+
+	* NEWS, lib/Xconfig/monitor.pm: use 28.8kHz as lower HorizSync (for
+	  800x480)
+
+2009-10-06 10:15  
+
+	* Makefile.config, NEWS: 0.82
+
+2009-10-06 10:15  
+
+	* lib/Xconfig/main.pm: xorg.conf files with no InputDevice sections
+	  are valid
+
+2009-10-05 04:43  
+
+	* po/pt_BR.po: updated translations for pt_BR
+
+2009-10-03 15:26  
+
+	* po/sl.po: Updated Slovenian translation
+
+2009-10-01 16:02  
+
+	* po/gl.po: update translation for Galician language
+
+2009-09-23 15:42  
+
+	* lib/Xconfig/main.pm: mark check_valid as internal
+
+2009-09-23 15:29  
+
+	* NEWS: fix date (I suck, thanks teuf)
+
+2009-09-23 14:17  
+
+	* Makefile.config, NEWS: 0.81
+
+2009-09-23 14:14  
+
+	* lib/Xconfig/card.pm: (libgl_config_and_more) make it more
+	  readable
+
+2009-09-23 14:09  
+
+	* lib/Xconfig/card.pm: psb support
+
+2009-09-22 14:07  
+
+	* NEWS: forgot NEWS 0.80 header
+
+2009-09-22 14:04  
+
+	* lib/Xconfig/xfree.pm: remove useless ()
+
+2009-09-22 14:01  
+
+	* Makefile.config: 0.80 release
+
+2009-09-22 14:01  
+
+	* NEWS, lib/Xconfig/xfree.pm: don't write entries for evdev mice
+	  either
+
+2009-09-22 14:01  
+
+	* NEWS, lib/Xconfig/default.pm, lib/Xconfig/xfree.pm,
+	  lib/keyboard.pm: don't add keyboard sections to xorg.conf
+
+2009-09-22 14:01  
+
+	* lib/keyboard.pm: add _ at the beginning of local functions
+
+2009-09-22 14:01  
+
+	* NEWS: update NEWS
+
+2009-09-22 14:01  
+
+	* lib/Xconfig/xfree.pm, lib/mouse.pm: don't add sections for
+	  synaptics devices to xorg.conf
+
+2009-09-22 14:01  
+
+	* lib/Xconfig/xfree.pm: s/mandrakesoft/mandriva
+
+2009-09-22 14:01  
+
+	* lib/Xconfig/xfree.pm: don't add USB wacom tablets to xorg.conf
+
+2009-09-22 14:01  
+
+	* lib/mouse.pm: move functions closer to their place of use
+
+2009-09-22 14:01  
+
+	* lib/Xconfig/xfree.pm: don't write mouse xorg.conf entries when
+	  driver is "mouse"
+
+2009-09-22 01:44  
+
+	* po/pt_BR.po: new hyphen rules
+
+2009-09-14 16:10  
+
+	* Makefile.config, NEWS: 0.79
+
+2009-09-14 16:08  
+
+	* NEWS, lib/Xconfig/main.pm: allow to skip framebuffer setup (and
+	  thus splash removal) for newer harddrake releases
+
+2009-09-11 15:46  
+
+	* NEWS, lib/Xconfig/various.pm: - XFdrake:
+	  o fix DontZap option issue with old xorg.conf files
+
+2009-09-10 09:23  
+
+	* po/cy.po: update (Rhoslyn Prys)
+
+2009-09-09 16:19  
+
+	* Makefile.config, NEWS: 0.78
+
+2009-09-09 14:57  
+
+	* NEWS, lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: - XFdrake:
+	  o added "Disable Ctrl-Alt-Backspace" option
+
+2009-09-04 22:36  
+
+	* po/pt_BR.po: no more pára and ói in 'paroxítonas'
+
+2009-09-04 22:04  
+
+	* po/pt_BR.po: no more acute accents in diphthongs éi
+
+2009-09-04 21:44  
+
+	* po/pt_BR.po: goodbye trema
+
+2009-08-28 19:44  
+
+	* po/es.po: updated translations for Spanish, made translated by
+	  André P. Machado
+
+2009-08-22 10:46  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2009-07-22 14:09  
+
+	* Makefile.config, NEWS: 0.77
+
+2009-07-22 14:06  
+
+	* NEWS, lib/Xconfig/proprietary.pm: XFdrake: correctly detect
+	  proprietary drivers that are located in
+	  /usr/lib/drivername/xorg (#52384)
+
+2009-07-01 15:56  
+
+	* lib/mouse.pm: move serial_ports to detect_devices.pm
+
+2009-07-01 12:32  
+
+	* lib/mouse.pm: Prefix functions with _ when they are internal
+
+2009-07-01 12:32  
+
+	* NEWS: Forgot to add date to NEWS file
+
+2009-06-25 10:21  
+
+	* Makefile.config: 0.76
+
+2009-06-04 14:43  
+
+	* NEWS: log
+
+2009-06-04 14:31  
+
+	* lib/Xconfig/monitor.pm: fix crash when both monitor and driver
+	  can not be probed (for example with some Quanta IL1 netbooks
+	  using Chrome9 IC3)
+	  this crash happens with harddrake service or XFdrake --auto:
+	  Can't use an undefined value as a HASH reference at
+	  /usr/lib/libDrakX/Xconfig/monitor.pm line 85
+
+2009-05-04 19:10  
+
+	* po/fi.po: updated finnish translation
+
+2009-04-28 08:40  
+
+	* NEWS: More NEWS (especially about a commit I didn't want to
+	  commit just now :(
+
+2009-04-28 07:55  
+
+	* NEWS: Forgot to update NEWS
+
+2009-04-28 07:54  
+
+	* lib/Xconfig/card.pm: Check PCI class when detecting video cards
+	  
+	  Dual-head ATI cards appears twice on the PCI bus, once in the
+	  DISPLAY_OTHER class and once in the DISPLAY_VGA class. They did
+	  that
+	  for compatibility with Win2000. Make sure we don't think the
+	  system has
+	  2 video cards in such cases.
+
+2009-04-27 16:59  
+
+	* Makefile: Small cleanups in make dist-svn
+
+2009-04-27 16:59  
+
+	* Makefile: Add git support to make dist/dis
+
+2009-04-27 16:59  
+
+	* lib/keyboard.pm: When modifying keyboard configuration, refresh
+	  associated hal keys
+	  
+	  Nowadays, the X server picks its keyboard configuration from HAL.
+	  Make
+	  sure we update the hal information when the keyboard
+	  configuration is
+	  modified
+
+2009-04-22 12:31  
+
+	* Makefile.config, NEWS: 0.74
+
+2009-04-22 12:31  
+
+	* NEWS: add missing 0.73 logs
+
+2009-04-22 12:14  
+
+	* NEWS, lib/mouse.pm: (set_xfree_conf) fix vmmouse configuration
+	  for vmware (#49654)
+
+2009-04-22 12:12  
+
+	* lib/Xconfig/xfree.pm: (_is_mouse) detect 'vmmouse' driven input
+	  devices as mice
+
+2009-04-22 03:48  
+
+	* po/sl.po: Updated Slovenian translation
+
+2009-04-21 13:01  
+
+	* Makefile.config: 0.73
+
+2009-04-21 13:01  
+
+	* lib/Xconfig/various.pm: Tweak xorg.conf writing with intel driver
+
+2009-04-21 13:00  
+
+	* lib/Xconfig/various.pm: Don't show the "EXA/XAA" switch by
+	  default on Intel cards
+	  
+	  Newer intel drivers properly autoselect UXA/EXA if KMS is
+	  available or
+	  not, and XAA should really only be used as a fallback. For now,
+	  don't
+	  set EXA => 0 in the default values for the Intel cards. This will
+	  hide
+	  the XAA/EXA switch from the configuration UI. If an accel method
+	  was
+	  explicitly selected in xorg.conf by the user, the UI will be
+	  shown so
+	  that he has a chance to unselect EXA.
+
+2009-04-20 12:27  
+
+	* po/fi.po: updated finnish translation
+
+2009-04-18 13:16  
+
+	* po/ky.po: update translation for kirghiz language
+
+2009-04-16 17:42  
+
+	* po/pt_BR.po: updated translation for pt_BR
+
+2009-04-15 11:55  
+
+	* Makefile.config, NEWS: Release 0.72
+
+2009-04-14 17:40  
+
+	* po/eu.po: Osatuta.
+
+2009-04-14 14:35  
+
+	* NEWS, lib/Xconfig/monitor.pm: Use plugnplay monitor for virtual
+	  box, fixes #49642. Thanks Titi for the patch!
+
+2009-04-14 07:03  
+
+	* po/pl.po: update translation for Polish
+
+2009-04-13 11:32  
+
+	* po/ro.po: Minor revision of Romanian translation
+
+2009-04-13 06:01  
+
+	* po/uk.po: propset svn:keywords Id
+
+2009-04-13 05:59  
+
+	* po/uk.po: translation update for Ukrainian language
+
+2009-04-12 21:51  
+
+	* NEWS, lib/Xconfig/default.pm: do not add Load "freetype" to
+	  xorg.conf as the module does not exist
+	  anymore
+
+2009-04-11 13:36  
+
+	* po/ro.po: Updated Romanian translation
+
+2009-04-10 15:28  
+
+	* po/sl.po: Updated Slovenian translation
+
+2009-04-10 15:07  
+
+	* po/de.po: update translation for de language
+
+2009-04-10 10:48  
+
+	* NEWS, lib/Xconfig/card.pm: Fix selecting proprietary drivers with
+	  xdriver=DRIVER boot option.
+
+2009-04-10 08:23  
+
+	* po/nl.po: * 2009-04-10 Reinout van Schouwen <reinout@gmail.com>
+	  
+	  - nl.po: Updated Dutch translation
+	  
+
+2009-04-09 12:56  
+
+	* po/fr.po: Update French translation
+
+2009-04-09 11:54  
+
+	* po/hu.po: Hungarian translation update
+
+2009-04-09 07:47  
+
+	* po/de.po: update for German translation
+
+2009-04-09 07:43  
+
+	* po/de.po: update for German translation
+
+2009-04-09 06:37  
+
+	* po/zh_CN.po: updated zh_CN translation
+
+2009-04-09 01:59  
+
+	* po/is.po: latest updates
+
+2009-04-08 19:34  
+
+	* po/tr.po: updated translation for turkish language
+
+2009-04-08 13:02  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2009-04-08 12:55  
+
+	* po/da.po: updates
+
+2009-04-08 10:23  
+
+	* po/et.po: Updated Estonian translation.
+
+2009-04-07 21:52  
+
+	* po/cs.po: Updated Czech translation.
+
+2009-04-07 21:47  
+
+	* po/pt_BR.po: updated pt_br translation
+
+2009-04-07 19:26  
+
+	* po/el.po: Update Greek translation
+
+2009-04-07 18:25  
+
+	* po/it.po: update translation for Italian
+
+2009-04-07 17:28  
+
+	* po/nn.po: Updated Norwegian Nynorsk translation.
+
+2009-04-07 12:50  
+
+	* po/ro.po: Updated Romanian translation
+
+2009-04-07 12:11  
+
+	* po/ru.po: Russian translation updated
+
+2009-04-07 12:01  
+
+	* po/nb.po: Update for Norwegian Bokmål translation
+
+2009-04-07 11:51  
+
+	* po/nb.po: Update for Norwegian Bokmål translation
+
+2009-04-07 10:44  
+
+	* po/fr.po: update
+
+2009-04-07 10:43  
+
+	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
+	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
+	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
+	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
+	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
+	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
+	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
+	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
+	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
+	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
+	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
+	  po/uk.po, po/uz.po, po/uz@cyrillic.po, po/vi.po, po/wa.po,
+	  po/zh_CN.po, po/zh_TW.po: sync with code
+
+2009-04-06 17:20  
+
+	* po/el.po: Update Greek translation
+
+2009-04-02 16:47  
+
+	* Makefile.config, NEWS: 0.71
+
+2009-04-02 16:46  
+
+	* NEWS, lib/Xconfig/card.pm: add nouveau driver into the driver
+	  list
+
+2009-04-02 16:43  
+
+	* NEWS, lib/Xconfig/card.pm: Add support for boot option
+	  xdriver=foo for overriding the driver in
+	  non-interactive probe. Allowed special values:
+	  auto = normal mode
+	  free = only use free drivers
+	  
+	  Last entry on commandline is used.
+
+2009-03-30 13:31  
+
+	* ChangeLog: Generated by cvs2cl the 30_Mar
+
+2009-03-20 19:01  
+
+	* Makefile.config, NEWS: 0.70
+
+2009-03-20 19:01  
+
+	* NEWS: fix years in NEWS
+
+2009-03-20 18:58  
+
+	* ChangeLog: Generated by cvs2cl the 20_Mar
+
+2009-03-20 18:57  
+
+	* ChangeLog: Generated by cvs2cl the 20_Mar
+
+2009-03-20 18:55  
+
+	* NEWS, lib/Xconfig/proprietary.pm: - XFdrake:
+	  o adapt for recent changes in proprietary driver alternatives
+
 2009-03-20 19:01  anssi
 
 	* Makefile.config, NEWS: 0.70
