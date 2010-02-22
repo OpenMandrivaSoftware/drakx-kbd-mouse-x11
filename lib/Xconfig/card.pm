@@ -29,10 +29,12 @@ my %VideoRams = (
 );
 
 my @xfree4_Drivers = ((arch() =~ /^sparc/ ? qw(sunbw2 suncg14 suncg3 suncg6 sunffb sunleo suntcx) :
-		    qw(amd apm ark ast avivo chips cirrus cyrix glide i128 i740 imstt intel
-                       mga nsc neomagic newport nv rendition openchrome vesa via nouveau psb
-                       s3 s3virge savage siliconmotion sis sisusb tdfx tga trident tseng vmware)), 
-		    qw(ati glint vga fbdev));
+                       qw(apm ark ast chips cirrus glide i128 i740 intel mga
+                          neomagic newport nouveau nv openchrome psb qxl
+                          rendition s3 s3virge savage siliconmotion sis sisusb
+                          tdfx tga trident tseng vesa vmware xgi xgixp)),
+                      if_(arch() =~ /i.86/, qw(geode)),
+                      qw(ati glint fbdev));
 
 sub from_raw_X {
     my ($raw_X) = @_;
