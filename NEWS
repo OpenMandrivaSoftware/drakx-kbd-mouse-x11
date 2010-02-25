@@ -1,3 +1,6 @@
+Version 0.88 - 25 February 2010
+
+- rename wacom driver package to its current name
 - remove obsoleted video drivers from video driver list, add some new ones
 
 Version 0.87 - 9 February 2010
