@@ -393,7 +393,7 @@ sub various_xfree_conf {
 	if_($mouse->{evdev_mice}, ['x11-driver-input-evdev', "$inputdrvpath/evdev_drv.so"]),
 	if_($mouse->{Protocol} eq 'vboxmouse', ['x11-driver-input-vboxmouse', "$inputdrvpath/vboxmouse_drv.so"]),
 	if_($mouse->{imwheel}, ['imwheel', "/usr/bin/imwheel"]),
-	if_(@{$mouse->{wacom}}, ['linuxwacom', "$inputdrvpath/wacom_drv.so"]),
+	if_(@{$mouse->{wacom}}, ['x11-driver-input-wacom', "$inputdrvpath/wacom_drv.so"]),
 	if_($mouse->{name} =~ /VMware/i, ['x11-driver-input-vmmouse', "$inputdrvpath/vmmouse_drv.so"]),
     ];
     $do_pkgs->ensure_files_are_installed($pkgs, 1);
