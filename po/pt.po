@@ -15,19 +15,19 @@
 # José Melo <mmodem00@gmail.com>, 2005.
 # José Melo <mmodme00@gmail.com>, 2005.
 # Jose JORGE <jjorge@free.fr>, 2005.
-# Zé <mmodem00@gmail.com>, 2006, 2007, 2008.
+# Zé <mmodem00@gmail.com>, 2006, 2007, 2008, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2008-02-02 22:17+0000\n"
+"PO-Revision-Date: 2010-03-11 09:38+0000\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
-"Language-Team: Português <pt@li.org>\n"
+"Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: ../lib/Xconfig/card.pm:20
@@ -371,10 +371,9 @@ msgstr "Esta é a configuração correcta?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
-msgstr "nenhum"
+msgstr "não"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
@@ -997,12 +996,11 @@ msgid ""
 "Laotian"
 msgstr "Laotian"
 
-#: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#: ../lib/keyboard.pm:264, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iraniano"
+msgstr "Lituano"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1628,10 +1626,9 @@ msgstr "Controlador Microsoft Xbox S"
 msgid "VirtualBox mouse"
 msgstr "Rato VirtualBox"
 
-#: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#: ../lib/mouse.pm:87, c-format
 msgid "VMware mouse"
-msgstr "Nenhum Rato"
+msgstr "Rato VMware"
 
 #: ../lib/mouse.pm:90
 #, c-format
