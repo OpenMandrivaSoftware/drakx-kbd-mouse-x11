@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2010-03-11 09:38+0000\n"
+"PO-Revision-Date: 2010-03-14 03:30+0000\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -369,7 +369,7 @@ msgstr "Esta é a configuração correcta?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Desactivar Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26, c-format
 msgid "no"
@@ -378,7 +378,7 @@ msgstr "não"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -443,12 +443,12 @@ msgstr "Configuração Xorg"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Opções gerais"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Desactivar Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -489,7 +489,7 @@ msgstr "Activar ecrã duplicado no segundo monitor"
 #: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Forçar modo do ecrã DVI"
 
 #: ../lib/Xconfig/various.pm:263
 #, c-format
