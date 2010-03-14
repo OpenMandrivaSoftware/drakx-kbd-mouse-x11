@@ -6,19 +6,19 @@
 # Taras Boychuk <btr1@torba.com>, 2003, 2004.
 # Taras Boychuk <btr1@mail.ru>, 2004, 2003.
 # Taras Boychuk <btr1@ukrpost.net>, 2004, 2005.
-# Taras Boychuk <btr0001@ukr.net>, 2008, 2009.
+# Taras Boychuk <btr0001@ukr.net>, 2008, 2009, 2010.
 # Yuri Chornoivan <yurchor@ukr.net>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-10-27 07:19+0300\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"PO-Revision-Date: 2010-03-14 10:44-0400\n"
+"Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -89,7 +89,7 @@ msgid ""
 "What do you want to do?"
 msgstr ""
 "Ваша система підтримує налаштування багатосекційної головки.\n"
-"Що Ви хочете зробити?"
+"Що хочете зробити?"
 
 #: ../lib/Xconfig/card.pm:293
 #, c-format
@@ -241,10 +241,10 @@ msgstr ""
 "найбільш важлива частота горизонтальної синхронізації (тобто та\n"
 "частота, з якою на екрані малюються горизонтальні рядки).\n"
 "\n"
-"ДУЖЕ ВАЖЛИВО ПАМ'ЯТАТИ, що Ви повинні вибрати такий монітор, параметри\n"
+"ДУЖЕ ВАЖЛИВО ПАМ'ЯТАТИ, що потрібно вибрати такий монітор, параметри\n"
 "якого не перевищують справжніх параметрів Вашого монітора, інакше Ви\n"
 "можете його пошкодити. \n"
-"Якщо Ви маєте сумніви щодо характеристик свого монітора, виберіть\n"
+"Якщо маєте сумніви щодо характеристик свого монітора, виберіть\n"
 "гірший монітор."
 
 #: ../lib/Xconfig/monitor.pm:164
@@ -331,14 +331,14 @@ msgstr "Тестування конфігурації"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Do you want to test the configuration?"
-msgstr "Чи хочете Ви випробувати нову конфігурацію?"
+msgstr "Чи хочете випробувати нову конфігурацію?"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
 msgstr ""
 "Попередження: тестування цієї графічної карти може призвести до зависання "
-"Вашого комп'ютера"
+"комп'ютера"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -704,7 +704,7 @@ msgstr "Болгарська (BDS)"
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
-msgstr "Бразілійська (ABNT-2)"
+msgstr "Бразилійська (ABNT-2)"
 
 #: ../lib/keyboard.pm:211
 #, c-format
@@ -774,7 +774,7 @@ msgstr "Деванагарі"
 msgid ""
 "_: keyboard\n"
 "Danish"
-msgstr "Датська"
+msgstr "Данська"
 
 #: ../lib/keyboard.pm:224
 #, c-format
@@ -1033,7 +1033,7 @@ msgstr "Македонська"
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr "М`янма (Бірманська)"
+msgstr "М’янма (Бірманська)"
 
 #: ../lib/keyboard.pm:270
 #, c-format
@@ -1194,14 +1194,14 @@ msgstr "Сербська (кирилиця)"
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "Сірійська"
+msgstr "Сирійська"
 
 #: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
-msgstr "Сірійська (фонетична)"
+msgstr "Сирійська (фонетична)"
 
 #: ../lib/keyboard.pm:301
 #, c-format
@@ -1424,7 +1424,7 @@ msgid ""
 "allow switching between the different keyboard layouts\n"
 "(eg: latin and non latin)"
 msgstr ""
-"Тут Ви можете вибрати клавішу або комбінацію клавіш, якими Ви будете\n"
+"Тут Ви можете вибрати клавішу або комбінацію клавіш, якими будете\n"
 "перемикати різні розкладки клавіатури (наприклад, англійську і українську)"
 
 #: ../lib/keyboard.pm:392
@@ -1440,7 +1440,7 @@ msgid ""
 "key to switch between the different keyboard layouts."
 msgstr ""
 "Ці налаштування буде задіяно після встановлення.\n"
-"Під час встановлення Вам потрібно буде використовувати праву\n"
+"Під час встановлення потрібно буде використовувати праву\n"
 "клавішу Control для перемикання між різними мапами клавіатури."
 
 #: ../lib/mouse.pm:23
@@ -1716,7 +1716,7 @@ msgstr "Будь ласка, виберіть мапу клавіатури."
 #: ../tools/keyboarddrake:39
 #, c-format
 msgid "Keyboard layout"
-msgstr "Розкладка клавіатури"
+msgstr "Мапа клавіатури"
 
 #: ../tools/keyboarddrake:52
 #, c-format
