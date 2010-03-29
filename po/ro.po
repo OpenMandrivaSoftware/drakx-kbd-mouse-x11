@@ -1,4 +1,5 @@
-# Copyright (c) 1999-2009 Mandriva
+# Translation of drakx-kbd-mouse-x11.po to Romanian
+# Copyright (c) 1999-2010 Mandriva
 #
 # Vă rugăm să nu actualizaţi fișierul, cu excepția cazului în care sînteți
 # sigur de calitatea traducerii dumneavoastră, de gramatică și de ortografie.
@@ -40,13 +41,13 @@
 # Harald ERSCH <harald@ersch.ro>, 2003.
 # Cristian Ionuț PÎRÎU <piriu.cristian@rdslink.ro>, 2008.
 # Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009.
-# Florin Catalin RUSSEN <cfrussen@yahoo.co.uk>, 2009.
+# Florin Catalin RUSSEN <cfrussen@yahoo.co.uk>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-ro\n"
 "Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-10-21 21:05+0200\n"
+"PO-Revision-Date: 2010-03-29 23:38+0100\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: Romanian <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -176,7 +177,7 @@ msgstr "Personalizat"
 #: ../lib/Xconfig/main.pm:123
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Configurare placă grafică & monitor"
+msgstr "Configurare placă grafică & ecran"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -195,7 +196,7 @@ msgid ""
 "Monitor"
 msgstr ""
 "_:Acesta este un afișaj\n"
-"Monitor"
+"Ecran"
 
 #: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
@@ -238,12 +239,12 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Alegeți un monitor pentru ieșirea #%d"
+msgstr "Alegeți un ecran pentru ieșirea #%d"
 
 #: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor"
-msgstr "Alegeți un monitor"
+msgstr "Alegeți un ecran"
 
 #: ../lib/Xconfig/monitor.pm:137
 #, c-format
@@ -306,12 +307,12 @@ msgstr "256 de culori (8 biți)"
 #: ../lib/Xconfig/resolution_and_depth.pm:11
 #, c-format
 msgid "32 thousand colors (15 bits)"
-msgstr "32 mii de culori (15 biți)"
+msgstr "32 de mii de culori (15 biți)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:12
 #, c-format
 msgid "65 thousand colors (16 bits)"
-msgstr "65 mii de culori (16 biți)"
+msgstr "65 de mii de culori (16 biți)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:13
 #, c-format
@@ -422,22 +423,22 @@ msgstr "Dispunere de tastatură: %s\n"
 #: ../lib/Xconfig/various.pm:29
 #, c-format
 msgid "Mouse type: %s\n"
-msgstr "Tip de șoricel: %s\n"
+msgstr "Tip de maus: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
 msgid "Monitor: %s\n"
-msgstr "Monitor: %s\n"
+msgstr "Ecran: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
 msgid "Monitor HorizSync: %s\n"
-msgstr "Frecvența orizontală a monitorului: %s\n"
+msgstr "Frecvența orizontală a ecranului: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
-msgstr "Frecvența verticală a monitorului: %s\n"
+msgstr "Frecvența verticală a ecranului: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
@@ -447,7 +448,7 @@ msgstr "Placă grafică: %s\n"
 #: ../lib/Xconfig/various.pm:36
 #, c-format
 msgid "Graphics memory: %s kB\n"
-msgstr "Memorie video: %s Ko\n"
+msgstr "Memorie grafică: %s Ko\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
@@ -482,7 +483,7 @@ msgstr "Dezactivează Ctrl-Alt-Backspace"
 #: ../lib/Xconfig/various.pm:242
 #, c-format
 msgid "Graphic card options"
-msgstr "Opțiunile plăcii video"
+msgstr "Opțiunile plăcii grafice"
 
 #: ../lib/Xconfig/various.pm:244
 #, c-format
@@ -492,27 +493,27 @@ msgstr "Accelerare materială 3D"
 #: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr "Activați semitransparența (extensia Composite)"
+msgstr "Activează semitransparența (extensia de compoziționare)"
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr "Utilizați accelerarea materială pentru cursorul șoricelului"
+msgstr "Utilizează accelerarea materială pentru cursorul mausului"
 
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Activați accelerarea RENDER (poate cauza erori la afișarea textului)"
+msgstr "Activează accelerarea RENDER (poate cauza erori la afișarea textului)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr "Activați dublarea ecranului pe un monitor extern"
+msgstr "Activează dublarea ecranului pe un ecran extern"
 
 #: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr "Activați dublarea ecranului pe un monitor secundar"
+msgstr "Activează dublarea ecranului pe un ecran secundar"
 
 #: ../lib/Xconfig/various.pm:260
 #, c-format
@@ -522,13 +523,14 @@ msgstr "Forțează modul de afișare pentru DVI"
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr "Activați tastele rapide BIOS pentru tranferul pe monitorul extern"
+msgstr "Activează tastele BIOS rapide pentru tranferul pe ecranul extern"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
-"Utilizați EXA în locul XAA (mai performantă pentru Render și Composite)"
+"Utilizează EXA în locul XAA (mai performantă pentru randare și "
+"compoziționare)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -591,7 +593,7 @@ msgid ""
 "German"
 msgstr ""
 "_: tastatură\n"
-"Germană"
+"Nemțească"
 
 #: ../lib/keyboard.pm:188
 #, c-format
@@ -627,7 +629,7 @@ msgid ""
 "French"
 msgstr ""
 "_: tastatură\n"
-"Franceză"
+"Franțuzească"
 
 #: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
@@ -659,7 +661,7 @@ msgid ""
 "Russian"
 msgstr ""
 "_: tastatură\n"
-"Rusă"
+"Rusească"
 
 #: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
@@ -745,7 +747,7 @@ msgid ""
 "Bengali (Inscript-layout)"
 msgstr ""
 "_: tastatură\n"
-"Bengală (Inscript-layout)"
+"Bengaleză (Inscript-layout)"
 
 #: ../lib/keyboard.pm:207
 #, c-format
@@ -754,7 +756,7 @@ msgid ""
 "Bengali (Probhat)"
 msgstr ""
 "_: tastatură\n"
-"Bengală (Probhat)"
+"Bengaleză (Probhat)"
 
 #: ../lib/keyboard.pm:208
 #, c-format
@@ -763,7 +765,7 @@ msgid ""
 "Bulgarian (phonetic)"
 msgstr ""
 "_: tastatură\n"
-"Bulgară (fonetic)"
+"Bulgărească (fonetic)"
 
 #: ../lib/keyboard.pm:209
 #, c-format
@@ -772,7 +774,7 @@ msgid ""
 "Bulgarian (BDS)"
 msgstr ""
 "_: tastatură\n"
-"Bulgară (BDS)"
+"Bulgărească (BDS)"
 
 #: ../lib/keyboard.pm:210
 #, c-format
@@ -853,7 +855,7 @@ msgid ""
 "German (no dead keys)"
 msgstr ""
 "_: tastatură\n"
-"Germană (fără taste inactive)"
+"Nemțească (fără taste inactive)"
 
 #: ../lib/keyboard.pm:222
 #, c-format
@@ -979,7 +981,7 @@ msgid ""
 "Greek"
 msgstr ""
 "_: tastatură\n"
-"Greacă"
+"Grecească"
 
 #: ../lib/keyboard.pm:240
 #, c-format
@@ -988,7 +990,7 @@ msgid ""
 "Greek (polytonic)"
 msgstr ""
 "_: tastatură\n"
-"Greacă (polytonic)"
+"Grecească (polytonic)"
 
 #: ../lib/keyboard.pm:241
 #, c-format
@@ -1700,7 +1702,7 @@ msgstr ""
 #: ../lib/mouse.pm:23
 #, c-format
 msgid "Sun - Mouse"
-msgstr "Șoricel - Sun"
+msgstr "Maus - Sun"
 
 #: ../lib/mouse.pm:29
 #, c-format
@@ -1715,7 +1717,7 @@ msgstr "Logitech MouseMan+"
 #: ../lib/mouse.pm:31
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "Șoricel PS/2 generic cu rotiță"
+msgstr "Maus PS/2 generic cu rotiță"
 
 #: ../lib/mouse.pm:32
 #, c-format
@@ -1725,7 +1727,7 @@ msgstr "GlidePoint"
 #: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
-msgstr "Șoricel Kensington Thinking"
+msgstr "Maus Kensington Thinking"
 
 #: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
@@ -1750,12 +1752,12 @@ msgstr "1 buton"
 #: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
-msgstr "Șoricel generic cu 2 butoane"
+msgstr "Maus generic cu 2 butoane"
 
 #: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Șoricel generic cu 3 butoane cu rotiță emulată"
+msgstr "Maus generic cu 3 butoane cu rotiță emulată"
 
 #: ../lib/mouse.pm:47
 #, c-format
@@ -1770,7 +1772,7 @@ msgstr "serial"
 #: ../lib/mouse.pm:54
 #, c-format
 msgid "Generic 3 Button Mouse"
-msgstr "Șoricel generic cu 3 butoane"
+msgstr "Maus generic cu 3 butoane"
 
 #: ../lib/mouse.pm:56
 #, c-format
@@ -1820,17 +1822,17 @@ msgstr "MM HitTablet"
 #: ../lib/mouse.pm:67
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
-msgstr "Șoricel Logitech (serie, tip vechi C7)"
+msgstr "Maus Logitech (serial, tip vechi C7)"
 
 #: ../lib/mouse.pm:68
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Șoricel Logitech (serial, tip C7 vechi) cu rotiță emulată"
+msgstr "Maus Logitech (serial, tip C7 vechi) cu rotiță emulată"
 
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Șoricel Kensington Thinking cu rotiță emulată"
+msgstr "Maus Kensington Thinking cu rotiță emulată"
 
 #: ../lib/mouse.pm:73
 #, c-format
@@ -1860,7 +1862,7 @@ msgstr "Universal"
 #: ../lib/mouse.pm:83
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr "Orice șoricel PS/2 & USB"
+msgstr "Orice maus PS/2 & USB"
 
 #: ../lib/mouse.pm:84
 #, c-format
@@ -1870,17 +1872,17 @@ msgstr "Forțează evdev"
 #: ../lib/mouse.pm:85
 #, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Microsoft Xbox Controller S"
+msgstr "Manetă S Microsoft Xbox"
 
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "VirtualBox mouse"
-msgstr "Șoricel VirtualBox"
+msgstr "Maus VirtualBox"
 
 #: ../lib/mouse.pm:87
 #, c-format
 msgid "VMware mouse"
-msgstr "Șoricel VMware"
+msgstr "Maus VMware"
 
 #: ../lib/mouse.pm:90
 #, c-format
@@ -1890,22 +1892,22 @@ msgstr "nici unul"
 #: ../lib/mouse.pm:92
 #, c-format
 msgid "No mouse"
-msgstr "Fără șoricel"
+msgstr "Fără maus"
 
 #: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
-msgstr "Testare șoricel"
+msgstr "Testare de maus"
 
 #: ../lib/mouse.pm:525
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Alegeți tipul de șoricel folosit."
+msgstr "Alegeți tipul de maus folosit."
 
 #: ../lib/mouse.pm:526
 #, c-format
 msgid "Mouse choice"
-msgstr "Alegere șoricel"
+msgstr "Alegere maus"
 
 #: ../lib/mouse.pm:542
 #, c-format
@@ -1915,12 +1917,12 @@ msgstr "Emulare 3 Butoane?"
 #: ../lib/mouse.pm:546
 #, c-format
 msgid "Mouse Port"
-msgstr "Port de șoricel"
+msgstr "Port de maus"
 
 #: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Pe ce port serial este conectat șoricelul?"
+msgstr "Pe ce port serial este conectat mausul?"
 
 #: ../lib/mouse.pm:556
 #, c-format
@@ -1940,12 +1942,12 @@ msgstr "Emulare buton 3"
 #: ../lib/mouse.pm:610
 #, c-format
 msgid "Please test the mouse"
-msgstr "Testați șoricelul"
+msgstr "Testați mausul"
 
 #: ../lib/mouse.pm:612
 #, c-format
 msgid "To activate the mouse,"
-msgstr "Pentru a activa șoricelul,"
+msgstr "Pentru a activa mausul,"
 
 #: ../lib/mouse.pm:613
 #, c-format
