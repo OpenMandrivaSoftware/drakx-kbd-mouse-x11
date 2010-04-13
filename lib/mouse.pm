@@ -252,31 +252,23 @@ sub _mice2evdev {
 sub _detect_evdev_mice {
     my (@mice) = @_;
 
-    my $imwheel;
     foreach (@mice) {
 	my @l = $_->{usb} && $_->{usb}{driver} =~ /^Mouse:(.*)/ ? split('\|', $1) : ();
 	foreach my $opt (@l) {
 	    if ($opt eq 'evdev') {
 		$_->{want_evdev} = 1;
-	    } elsif ($opt =~ /imwheel:(.*)/) {
-		$imwheel = $1;
 	    }
 	}
 	if ($_->{HWHEEL}) {
 	    $_->{want_evdev} = 1;
 	}
-	if ($_->{SIDE}) {
-	    $imwheel ||= 'generic';
-	}
     }
 
     my @evdev_mice = grep { $_->{want_evdev} } @mice;
 
-    log::l("configuring mice with imwheel for thumb buttons (imwheel=$imwheel)") if $imwheel;
     log::l("configuring mice for evdev (" . join(' ', map { "$_->{vendor}:$_->{product}" } @evdev_mice) . ")") if @evdev_mice;
 
-    { imwheel => $imwheel, 
-      evdev_mice_all => _mice2evdev(@mice),
+    { evdev_mice_all => _mice2evdev(@mice),
       if_(@evdev_mice, evdev_mice => _mice2evdev(@evdev_mice)) };
 }
 
@@ -392,19 +384,11 @@ sub various_xfree_conf {
 	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
 	if_($mouse->{evdev_mice}, ['x11-driver-input-evdev', "$inputdrvpath/evdev_drv.so"]),
 	if_($mouse->{Protocol} eq 'vboxmouse', ['x11-driver-input-vboxmouse', "$inputdrvpath/vboxmouse_drv.so"]),
-	if_($mouse->{imwheel}, ['imwheel', "/usr/bin/imwheel"]),
 	if_(@{$mouse->{wacom}}, ['x11-driver-input-wacom', "$inputdrvpath/wacom_drv.so"]),
 	if_($mouse->{name} =~ /VMware/i, ['x11-driver-input-vmmouse', "$inputdrvpath/vmmouse_drv.so"]),
     ];
     $do_pkgs->ensure_files_are_installed($pkgs, 1);
 
-    if ($mouse->{imwheel}) {
-	my $rc = "/etc/X11/imwheel/imwheelrc.$mouse->{imwheel}";
-	eval { setVarsInSh("$::prefix/etc/X11/imwheel/startup.conf", { 
-	    IMWHEEL_START => 1, 
-	    IMWHEEL_PARAMS => join(' ', '-k', if_(-e "$::prefix$rc", '--rc', $rc)),
-	}) };
-    }
 }
 
 #- write_conf : write the mouse infos into the Xconfig files.

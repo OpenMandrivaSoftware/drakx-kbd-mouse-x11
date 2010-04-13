@@ -1,3 +1,6 @@
+- mouse:
+  o remove imwheel support
+
 Version 0.88 - 25 February 2010
 
 - rename wacom driver package to its current name
