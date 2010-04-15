@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: tr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2009-10-21 20:56+0200\n"
+"PO-Revision-Date: 2010-04-15 08:57+0200\n"
 "Last-Translator: Atilla ÖNTAŞ <atilla_ontas@mandriva.org>\n"
 "Language-Team: Turkish <cooker-i18n@mandrivalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -105,16 +105,22 @@ msgstr "Ekran kartınızın bellek miktarını seçin"
 #: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may support additional features.\n"
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Ekran kartınız için ek özellikler detekleyebilen tescilli bir sürücü mevcut.\n"
-" Bunu kullanmak ister misiniz?"
+"Ekran kartınız için ek özellikler destekleyebilen tescilli bir sürücü "
+"mevcut.\n"
+"Bunu kullanmak ister misiniz?"
 
 #: ../lib/Xconfig/card.pm:346
 #, c-format
-msgid "The proprietary driver was not properly installed, defaulting to free software driver."
-msgstr "Tescilli sürücü düzgün şekilde kurulamadı, özgür yazılım sürücüsüne dönülüyor."
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+"Tescilli sürücü düzgün şekilde kurulamadı, özgür yazılım sürücüsüne "
+"dönülüyor."
 
 #: ../lib/Xconfig/card.pm:416
 #, c-format
@@ -131,8 +137,7 @@ msgstr "Xinerama eklentisini kullan"
 msgid "Configure only card \"%s\"%s"
 msgstr "Sadece \"%s\" %s kartı yapılandırılsın"
 
-#: ../lib/Xconfig/main.pm:88
-#: ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Custom"
@@ -153,16 +158,14 @@ msgstr "Çık"
 msgid "Graphic Card"
 msgstr "Ekran Kartı"
 
-#: ../lib/Xconfig/main.pm:129
-#: ../lib/Xconfig/monitor.pm:130
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitör"
 
-#: ../lib/Xconfig/main.pm:132
-#: ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Çözünürlük"
@@ -215,8 +218,7 @@ msgstr "Monitörünüzü seçin"
 msgid "Plug'n Play"
 msgstr "Tak ve Kullan"
 
-#: ../lib/Xconfig/monitor.pm:138
-#: ../lib/mouse.pm:45
+#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
 #, c-format
 msgid "Generic"
 msgstr "Genel"
@@ -229,12 +231,15 @@ msgstr "Üretici"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the rate\n"
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
-"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Burada ki iki önemli parametre dikey ve yatay tazeleme hızlarıdır.\n"
@@ -278,8 +283,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 milyon renk (24 bit)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362
-#: ../lib/mouse.pm:33
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
 #, c-format
 msgid "Automatic"
 msgstr "Otomatik"
@@ -289,8 +293,7 @@ msgstr "Otomatik"
 msgid "Resolutions"
 msgstr "Çözünürlükler"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394
-#: ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Diğer"
@@ -464,7 +467,8 @@ msgstr "Donanım hızlandırmalı fare imleci kullan"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Sunum Hızlandırmayı etkinleştir. (metin gösterilirken hatalara yol açabilir)"
+msgstr ""
+"Sunum Hızlandırmayı etkinleştir. (metin gösterilirken hatalara yol açabilir)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -507,7 +511,8 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your computer.\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -515,7 +520,8 @@ msgstr ""
 "Ekran kartınızda TV-OUT (televizyon çıkışı) bağlayıcısı\n"
 "var gibi görünüyor. Frame-buffer ile çalışmaya ayarlanabilir.\n"
 "\n"
-"Bunun için bilgisayarı açmadan önce ekran kartınızı televizyonunuza bağlamanız ve açılış yükleyicisinde \"TVout\" girişini seçmeniz gerekli.\n"
+"Bunun için bilgisayarı açmadan önce ekran kartınızı televizyonunuza "
+"bağlamanız ve açılış yükleyicisinde \"TVout\" girişini seçmeniz gerekli.\n"
 "\n"
 "Kartınızda bu özellik var mı?"
 
@@ -531,16 +537,14 @@ msgid ""
 "other"
 msgstr "diğer"
 
-#: ../lib/keyboard.pm:186
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Çekçe (QWERTZ)"
 
-#: ../lib/keyboard.pm:187
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -554,38 +558,33 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak dili"
 
-#: ../lib/keyboard.pm:189
-#: ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "İspanyolca"
 
-#: ../lib/keyboard.pm:190
-#: ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Fince"
 
-#: ../lib/keyboard.pm:191
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Fransızca"
 
-#: ../lib/keyboard.pm:192
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "İngiliz (UK) klavye"
 
-#: ../lib/keyboard.pm:193
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -599,24 +598,21 @@ msgid ""
 "Polish"
 msgstr "Lehçe"
 
-#: ../lib/keyboard.pm:195
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Rusça"
 
-#: ../lib/keyboard.pm:196
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "İsveççe"
 
-#: ../lib/keyboard.pm:197
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "Amerikan (US) klavye"
@@ -1468,14 +1464,12 @@ msgstr "Sıradan Tekerli PS2 Fare"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:35
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:36
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1485,26 +1479,22 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:38
-#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:43
-#: ../lib/mouse.pm:75
+#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
 #, c-format
 msgid "1 button"
 msgstr "1 tuşlu"
 
-#: ../lib/mouse.pm:44
-#: ../lib/mouse.pm:53
+#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Sıradan 2 Tuşlu Fare"
 
-#: ../lib/mouse.pm:46
-#: ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Tekerlek Öykünmeli Genel 3 tuşlu Fare"
@@ -1733,4 +1723,3 @@ msgstr "Klavye türü"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Konsolda BackSpace tuşunun Silme işlemi yapmasını ister misiniz?"
-
