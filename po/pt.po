@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2010-03-14 03:30+0000\n"
+"PO-Revision-Date: 2010-04-17 22:33+0100\n"
 "Last-Translator: Zé <mmodem00@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -959,7 +959,7 @@ msgstr "Japonês 106 teclas"
 msgid ""
 "_: keyboard\n"
 "Kannada"
-msgstr "Canada"
+msgstr "Kannada"
 
 #: ../lib/keyboard.pm:257
 #, c-format
@@ -994,7 +994,7 @@ msgstr "Americano Latino"
 msgid ""
 "_: keyboard\n"
 "Laotian"
-msgstr "Laotian"
+msgstr "Laotiano"
 
 #: ../lib/keyboard.pm:264, c-format
 msgid ""
@@ -1035,7 +1035,7 @@ msgstr "Macedónio"
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr "Myanmar (Birmane)"
+msgstr "Myanmar (Burmês)"
 
 #: ../lib/keyboard.pm:270
 #, c-format
@@ -1427,8 +1427,8 @@ msgid ""
 "(eg: latin and non latin)"
 msgstr ""
 "Aqui pode escolher a tecla ou a combinação de teclas que\n"
-"irão permitir mudar entre as diferentes disposições de teclado\n"
-"(ex: latino e não latino)"
+"irão permitir mudar entre as diferentes disposições do teclado\n"
+"(ex: latim e não latim)"
 
 #: ../lib/keyboard.pm:392
 #, c-format
@@ -1443,8 +1443,8 @@ msgid ""
 "key to switch between the different keyboard layouts."
 msgstr ""
 "Esta opção irá ser activada após a instalação.\n"
-"Durante a instalação, irá ter de usar a tecla Control Direita\n"
-"para mudar a disposição de teclado."
+"Durante a instalação, irá ter de usar a tecla de Controlo Direita\n"
+"para mudar a disposição do teclado."
 
 #: ../lib/mouse.pm:23
 #, c-format
