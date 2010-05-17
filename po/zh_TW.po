@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
 "POT-Creation-Date: 2009-10-21 15:48+0200\n"
-"PO-Revision-Date: 2008-02-13 22:11+0800\n"
+"PO-Revision-Date: 2010-05-17 18:29+0800\n"
 "Last-Translator: Shiva Huang <shivahuang@gmail.com>\n"
 "Language-Team: Traditional Chinese <zh@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -365,12 +365,11 @@ msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "不使用 Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
 msgid "no"
-msgstr "無"
+msgstr "不是"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "yes"
 msgstr "是的"
 
@@ -435,14 +434,14 @@ msgid "Xorg configuration"
 msgstr "Xorg 設定"
 
 #: ../lib/Xconfig/various.pm:239
-#, fuzzy, c-format
+#, c-format
 msgid "Global options"
-msgstr "主要選項"
+msgstr "全域選項"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "停用 Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -988,11 +987,11 @@ msgid ""
 msgstr "寮國"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "伊朗"
+msgstr "立陶宛"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1617,9 +1616,9 @@ msgid "VirtualBox mouse"
 msgstr "VirtualBox 滑鼠"
 
 #: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "各種的"
+msgstr "VMware 滑鼠"
 
 #: ../lib/mouse.pm:90
 #, c-format
