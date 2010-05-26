@@ -367,12 +367,12 @@ msgstr "不使用 Ctrl-Alt-Backspace: %s\n"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "no"
-msgstr "不是"
+msgstr "否"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr "是的"
+msgstr "是"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
@@ -482,7 +482,7 @@ msgstr "在第二顯示器上啟用同步顯示"
 #: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "強制 DVI 顯示模式"
 
 #: ../lib/Xconfig/various.pm:263
 #, c-format
