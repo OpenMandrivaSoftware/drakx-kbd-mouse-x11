@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX VERSION\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2000-09-24 12:30 +0100\n"
 "Last-Translator: Alexander Bokovoy <ab@avilink.net>\n"
 "Language-Team: be\n"
@@ -58,34 +58,34 @@ msgstr "32 Мб"
 msgid "64 MB or more"
 msgstr "64 Мб ці болей"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "X сэервер"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, fuzzy, c-format
 msgid "Choose an X server"
 msgstr "X сэервер"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, fuzzy, c-format
 msgid "Multi-head configuration"
 msgstr "Канфігурацыя"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Пазначце памер відэапамяці"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -93,24 +93,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, fuzzy, c-format
 msgid "Configure all heads independently"
 msgstr "Настроіць панэль"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, fuzzy, c-format
 msgid "Use Xinerama extension"
 msgstr "Пашырэнне файла"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, fuzzy, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Наладка вашага сэансу"
@@ -276,7 +276,7 @@ msgstr "Аўтаматычна"
 msgid "Resolutions"
 msgstr "Памеры экрану"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "Іншыя"
@@ -1602,62 +1602,62 @@ msgstr "няма"
 msgid "No mouse"
 msgstr "Няма мышы"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, fuzzy, c-format
 msgid "Please choose your type of mouse."
 msgstr "калі ласка, пазначце тып вашай мышы."
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "Выбар мовы"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "Эмуляваць трэцюю кнопку?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "Порт мышы"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Калі ласка, пазначце послядоўны порт, да якога падключана вашая мыш."
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr ""
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, fuzzy, c-format
 msgid "Button 2 Emulation"
 msgstr "Калькулятар"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr ""
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "Калі ласка, зрабіце некалькі рухаў мышшу."
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, fuzzy, c-format
 msgid "To activate the mouse,"
 msgstr "Калі ласка, зрабіце некалькі рухаў мышшу."
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "Рушце колам мышы!"

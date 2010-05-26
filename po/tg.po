@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-tg\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2005-09-17 16:03+0500\n"
 "Last-Translator: Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
 "Language-Team: Tajik\n"
@@ -69,22 +69,22 @@ msgstr "32 МБ"
 msgid "64 MB or more"
 msgstr "64 МБ ё зиёдтар"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "X Хидматрасон"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr "X хидматрасонро интихоб кунед"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Шакли бисёр-сарлавҳа дор"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -93,12 +93,12 @@ msgstr ""
 "Системаи шумо батанзимдарории бисёр саракҳоро пуштибонӣ мекунад.\n"
 "Чӣ кор кардан мехоҳед?"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Ҳаҷми ҳофизаи карти графикии худро интихоб кунед"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -106,24 +106,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Танзимдарории мустақили ҳама сарлавҳаҳо"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Истифодаи пасванди Xinerama"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Танзимдарории танҳо карти \"%s\"%s"
@@ -289,7 +289,7 @@ msgstr "Худкор"
 msgid "Resolutions"
 msgstr "Ҳалнокиҳо"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "Дигар"
@@ -1634,63 +1634,63 @@ msgstr "мавҷуд нест"
 msgid "No mouse"
 msgstr "Муш нест"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Лутфан намуди мушатонро интихоб кунед."
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "Интихоби дастӣ"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "Дагмаи сеюмро намунасозӣ кардан?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "Даргоҳи муш"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr ""
 "Лутфан дар кадом бандари беруна муши шумо пайваст буданашро интихоб кунед."
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "Намунаи дагмаҳо"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Намунаи дагмаи 2"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Намунаи тугмачаи сеюм"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "Лутфан кори мушро санҷед"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Барои фаъол намудани муш,"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "ҒИЛДИРАКИ ХУДРО ДАВР ЗАНОНЕД!"

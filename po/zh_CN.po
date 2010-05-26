@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: zh_CN\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2008-03-29 20:59+0800\n"
 "Last-Translator: 汤诗语 <shiyu@mandriva.org>\n"
 "Language-Team: Mandriva Linux i18n Team <cooker-i18n@mandrivalinux.org>\n"
@@ -60,22 +60,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB 或更多"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "X 服务器"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr "选择 X 服务器"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr "多显示器配置"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -84,12 +84,12 @@ msgstr ""
 "您的系统支持多显示器。\n"
 "是否进行设置?"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "请选择您显示卡上内存的大小"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -99,24 +99,24 @@ msgstr ""
 "您的显示卡可使用私有驱动程序，这样可以支持额外的特性。\n"
 "您是否想要使用私有驱动程序？"
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr "私有驱动程序未正确安装，默认使用自由软件驱动程序。"
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "独立配置所有头"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "使用 Xinerama 扩展"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "只配置“%s”%s 卡"
@@ -280,7 +280,7 @@ msgstr "自动"
 msgid "Resolutions"
 msgstr "分辨率"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "其它"
@@ -1619,62 +1619,62 @@ msgstr "无"
 msgid "No mouse"
 msgstr "无鼠标"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr "测试鼠标"
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "请选择您的鼠标类型。"
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, c-format
 msgid "Mouse choice"
 msgstr "鼠标选择"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "模拟三键吗?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "鼠标端口"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "请选择您的鼠标是连接到那个串行口。"
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "模拟按键"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "模拟第二键"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "模拟第三键"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "请测试您的鼠标"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, c-format
 msgid "To activate the mouse,"
 msgstr "要激活鼠标,"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "请移动您的滚轮！"

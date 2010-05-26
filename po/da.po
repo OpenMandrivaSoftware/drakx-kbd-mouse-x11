@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: da\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2009-10-22 13:01+0200\n"
 "Last-Translator: Keld Simonsen <keld@dkuug.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -64,22 +64,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB eller mere"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "X-server"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr "Vælg en X-server"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Flerskærms-konfiguration"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -88,12 +88,12 @@ msgstr ""
 "Dit system understøtter konfiguration af flere skærme\n"
 "Hvad vil du gøre?"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Vælg hukommelsesmængde for dit grafikkort"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -104,7 +104,7 @@ msgstr ""
 "understøtter flere faciliteter.\n"
 "Ønsker du at bruge dette?"
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -113,17 +113,17 @@ msgstr ""
 "Den proprietære driver blev ikke installeret rigtigt, falder tilbage til den "
 "frie programmel-driver."
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Konfigurér alle skærme uafhængigt"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Brug Xinerama-udvidelse"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Konfigurér kun kort \"%s\"%s"
@@ -290,7 +290,7 @@ msgstr "Automatisk"
 msgid "Resolutions"
 msgstr "Opløsninger"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "Andet"
@@ -1634,62 +1634,62 @@ msgstr "ingenting"
 msgid "No mouse"
 msgstr "Ingen mus"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr "Tester musen"
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Vælg typen på din mus."
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, c-format
 msgid "Mouse choice"
 msgstr "Valg af mus"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "Emulering af tredje knap?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "Muse-port"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Vælg hvilken seriel port din mus er forbundet til."
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "Emulering af knapper"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Emulering af knap 2"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Emulering af knap 3"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "Test musen"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, c-format
 msgid "To activate the mouse,"
 msgstr "For at aktivere musen,"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "FLYT PÅ HJULET!"

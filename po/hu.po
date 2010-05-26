@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-2010.0\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2009-10-26 08:25+0100\n"
 "Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
@@ -65,22 +65,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB vagy több"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "X kiszolgáló"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr "Válasszon egy X kiszolgálót"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr "A többképernyős mód beállítása"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -89,12 +89,12 @@ msgstr ""
 "A grafikus kártya lehetővé teszi több képernyő használatát.\n"
 "Mit szeretne tenni?"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Válassza ki a grafikus kártyán található memória mennyiségét"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -105,7 +105,7 @@ msgstr ""
 "esetleg további funkciókat támogathat.\n"
 "Szeretné azt használni?"
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -115,17 +115,17 @@ msgstr ""
 "ezért az alapértelmezés szerinti szabad szoftveres meghajtóprogram lesz "
 "használva."
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "A képernyők egymástól független beállítása"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "A Xinerama kiterjesztés használata"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Csak a(z) \"%s\"%s kártya beállítása"
@@ -290,7 +290,7 @@ msgstr "Automatikus"
 msgid "Resolutions"
 msgstr "Felbontások"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "Egyéb"
@@ -1638,62 +1638,62 @@ msgstr "egyik sem"
 msgid "No mouse"
 msgstr "nincs egér"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr "Az egér tesztelése"
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Válassza ki az egér típusát."
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, c-format
 msgid "Mouse choice"
 msgstr "Egérválasztás"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "Emulálva legyen a harmadik gomb?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "Egér port"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Válassza ki, hogy melyik soros porthoz csatlakozik az egere."
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "Gombemuláció"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "2. gomb emulálása"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "3. gomb emulálása"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "Tesztelje az egeret"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Az egér aktiválásához "
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "MOZGASSA AZ EGÉRGÖRGŐT!"

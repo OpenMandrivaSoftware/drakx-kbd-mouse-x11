@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-hi\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2004-04-04 21:54+0530\n"
 "Last-Translator: धनञ्जय शर्मा (Dhananjaya Sharma) <dysxhi@yahoo.co.in>\n"
 "Language-Team: हिन्दी (Hindi) <dysxhi@yahoo.co.in>\n"
@@ -59,22 +59,22 @@ msgstr "३२ एम०बी०"
 msgid "64 MB or more"
 msgstr "६४ मेगाबाईट और अधिक"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "एक्स सर्वर"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr "एक एक्स सर्वर का चयन करें"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr "बहु-शीर्ष संरचना"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -83,12 +83,12 @@ msgstr ""
 "आपका तंत्र बहु शीर्ष संरचना का समर्थन करता है ।\n"
 "आप क्या करना चाहते है ?"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "अपने ग्राफ़िक्स कार्ड के स्मृति आकार का चयन करें"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -96,24 +96,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "सभी शीर्षों की स्वतंत्रता-पूर्वक संरचना"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "ज़ाइनरामा (Xinerama) विस्तार का उपयोग"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "\"%s\"%s कार्ड को सिर्फ़ संरचित"
@@ -278,7 +278,7 @@ msgstr "स्वचालित"
 msgid "Resolutions"
 msgstr "रेजॅल्यूशनों के प्रकार"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "अन्य"
@@ -1622,62 +1622,62 @@ msgstr "कुछ भी नहीं"
 msgid "No mouse"
 msgstr "कोई माउस नहीं"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "कृपया अपने माउस के प्रकार का चयन करें"
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "मैनुअल पसन्द"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "तीसरे बटन को एम्यूलेट करा जायें ?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "माउस पोर्ट"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "कृपया उस सीरियल पोर्ट का चयन करें जिससे आपका माउस जुड़ा हुआ है ।"
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "बटनों का ऐम्यूलेशन"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "२ बटन ऐम्युलेशन"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "३ बटन ऐम्युलेशन"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "कृपया माउस का परीक्षण करें"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, c-format
 msgid "To activate the mouse,"
 msgstr "माउस को सक्रिय करने के लिए,"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "अपने व्हील को चलायें"

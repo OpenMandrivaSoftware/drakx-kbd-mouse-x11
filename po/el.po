@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11_2008-01-09\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2009-10-22 22:15+0200\n"
 "Last-Translator: Glentadakis Dimitrios <dglent@gmail.com>\n"
 "Language-Team: Greek <i18ngr@lists.hellug.gr>\n"
@@ -67,22 +67,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB ή περισσότερα"
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr "εξυπηρετητής X"
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr "Επέλεξε τον εξυπηρετητή Χ"
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Ρύθμιση πολλών κεφαλών"
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -91,12 +91,12 @@ msgstr ""
 "Το σύστημά σου υποστηρίζει ρύθμιση πολλαπλών κεφαλών.\n"
 "Τι θα ήθελες να κάνεις;"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Επιλέξτε το μέγεθος της μνήμης της κάρτας γραφικών"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -107,7 +107,7 @@ msgstr ""
 "να υποστηρίζει επιπλέον χαρακτηριστικά.\n"
 "Θέλεις να χρησιμοποιηθεί;"
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -116,17 +116,17 @@ msgstr ""
 "Ο ιδιόκτητος οδηγός δεν εγκαταστάθηκε σωστά. Γίνεται προεπιλεγμένη χρήση του "
 "ελεύθερου οδηγού λογισμικού."
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Ανεξάρτητη ρύθμιση όλων των κεφαλών"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Χρήση επέκτασης Xinerama"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Ρύθμιση μόνο της κάρτας \"%s\" %s"
@@ -293,7 +293,7 @@ msgstr "Αυτόματο"
 msgid "Resolutions"
 msgstr "Αναλύσεις"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "Άλλο"
@@ -1741,63 +1741,63 @@ msgstr "κανένα"
 msgid "No mouse"
 msgstr "Χωρίς ποντίκι"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr "Έλεγχος του ποντικιού"
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Παρακαλώ επιλέξτε το τύπο του ποντικιού."
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, c-format
 msgid "Mouse choice"
 msgstr "Επιλογή ποντικιού"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr "Εξομοίωση τρίτου πλήκτρου;"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
 msgstr "Θύρα ποντικιού"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr ""
 "Παρακαλώ επιλέξτε σειριακή θύρα στην οποία είναι συνδεδεμένο το ποντίκι σας."
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "Προσομοίωση πλήκτρων"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Προσομοίωση 2 Πλήκτρων"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Προσομοίωση 3 Πλήκτρων"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr "Παρακαλώ δοκιμάστε το ποντίκι"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Για ενεργοποίηση ποντικιού"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "ΚΙΝΗΣΤΕ ΤΟ ΡΟΔΑΚΙ!"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
-"POT-Creation-Date: 2009-10-21 15:48+0200\n"
+"POT-Creation-Date: 2010-05-26 17:42+0200\n"
 "PO-Revision-Date: 2004-01-02 00:35+0100\n"
 "Last-Translator: Sanlig Badral <Badral@openmn.org>\n"
 "Language-Team: Mongolian <openmn-core@lists.sf.net>\n"
@@ -61,34 +61,34 @@ msgstr "32 МБ"
 msgid "64 MB or more"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:171
+#: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:172
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:203
+#: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:204
+#: ../lib/Xconfig/card.pm:207
 #, fuzzy, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr "вы?"
 
-#: ../lib/Xconfig/card.pm:293
+#: ../lib/Xconfig/card.pm:296
 #, fuzzy, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "хэмжээ аас"
 
-#: ../lib/Xconfig/card.pm:319
+#: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -96,24 +96,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:346
+#: ../lib/Xconfig/card.pm:349
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:416
+#: ../lib/Xconfig/card.pm:419
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Бүх толгойг хамааралгүйгээр тохируулах"
 
-#: ../lib/Xconfig/card.pm:417
+#: ../lib/Xconfig/card.pm:420
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama өргөтгөлийг хэрэглэх"
 
-#: ../lib/Xconfig/card.pm:422
+#: ../lib/Xconfig/card.pm:425
 #, fuzzy, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Тоноглол"
@@ -268,7 +268,7 @@ msgstr "Автомат"
 msgid "Resolutions"
 msgstr ""
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
 msgstr "Бусад"
@@ -1592,62 +1592,62 @@ msgstr "аль нь ч үгүй (none)"
 msgid "No mouse"
 msgstr "Үгүй"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:512
 #, fuzzy, c-format
 msgid "Please choose your type of mouse."
 msgstr "төрөл аас."
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:513
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "Хэл"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:529
 #, c-format
 msgid "Emulate third button?"
 msgstr ""
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:533
 #, fuzzy, c-format
 msgid "Mouse Port"
 msgstr "Хулгана"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:534
 #, fuzzy, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "бол."
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
 msgstr "Товчинууд тоолуур"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:545
 #, fuzzy, c-format
 msgid "Button 2 Emulation"
 msgstr "Товч"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Товч 3 эмуляц"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:597
 #, c-format
 msgid "Please test the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:599
 #, fuzzy, c-format
 msgid "To activate the mouse,"
 msgstr "тийш"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:600
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr ""
