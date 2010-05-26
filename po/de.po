@@ -1736,4 +1736,3 @@ msgstr "Tastaturtyp"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Wollen Sie, dass die Rücktaste auf den Konsolen Entfernen sendet?"
-

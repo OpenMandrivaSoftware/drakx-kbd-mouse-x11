@@ -102,16 +102,22 @@ msgstr "Określ rozmiar pamięci karty graficznej"
 #: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may support additional features.\n"
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Istnieje zamknięty sterownik dla twojej kardy wideo, który być może obsługuje więcej funkcji.\n"
+"Istnieje zamknięty sterownik dla twojej kardy wideo, który być może "
+"obsługuje więcej funkcji.\n"
 "Czy chcesz go użyć?"
 
 #: ../lib/Xconfig/card.pm:346
 #, c-format
-msgid "The proprietary driver was not properly installed, defaulting to free software driver."
-msgstr "Sterownik własnościowy nie został prawidłowo zainstalowany. Przywracanie sterownika otwartego."
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+"Sterownik własnościowy nie został prawidłowo zainstalowany. Przywracanie "
+"sterownika otwartego."
 
 #: ../lib/Xconfig/card.pm:416
 #, c-format
@@ -128,8 +134,7 @@ msgstr "Użyj rozszerzenia Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Konfiguruj tylko kartę \"%s\"%s"
 
-#: ../lib/Xconfig/main.pm:88
-#: ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Custom"
@@ -150,16 +155,14 @@ msgstr "Zakończ"
 msgid "Graphic Card"
 msgstr "Karta graficzna"
 
-#: ../lib/Xconfig/main.pm:129
-#: ../lib/Xconfig/monitor.pm:130
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:132
-#: ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Rozdzielczość"
@@ -212,8 +215,7 @@ msgstr "Wybierz monitor"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:138
-#: ../lib/mouse.pm:45
+#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
 #, c-format
 msgid "Generic"
 msgstr "Standardowa"
@@ -226,16 +228,20 @@ msgstr "Dostawca"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the rate\n"
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
-"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Dwa krytyczne parametry to częstotliwość synchronizacji pionowej,\n"
-"która określa, jak często odświeżany jest cały ekran oraz najbardziej istotny\n"
+"która określa, jak często odświeżany jest cały ekran oraz najbardziej "
+"istotny\n"
 "- częstotliwość synchronizacji poziomej - rysowania linii.\n"
 "\n"
 "Jest BARDZO WAŻNE aby nie podać typu monitora o większym zakresie\n"
@@ -279,8 +285,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 mln. kolorów (24 bity)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362
-#: ../lib/mouse.pm:33
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
 #, c-format
 msgid "Automatic"
 msgstr "Automatycznie"
@@ -290,8 +295,7 @@ msgstr "Automatycznie"
 msgid "Resolutions"
 msgstr "Rozdzielczości"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394
-#: ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Inne"
@@ -465,7 +469,9 @@ msgstr "Użyj sprzętowej akceleracji wskaźnika myszy"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Aktywuj akcelerację renderingu (może spowodować wyświetlanie informacji o błędzie)"
+msgstr ""
+"Aktywuj akcelerację renderingu (może spowodować wyświetlanie informacji o "
+"błędzie)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -508,7 +514,8 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your computer.\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -534,16 +541,14 @@ msgid ""
 "other"
 msgstr "inne"
 
-#: ../lib/keyboard.pm:186
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "czeski (QWERTZ)"
 
-#: ../lib/keyboard.pm:187
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -557,38 +562,33 @@ msgid ""
 "Dvorak"
 msgstr "Dvoraka"
 
-#: ../lib/keyboard.pm:189
-#: ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "hiszpański"
 
-#: ../lib/keyboard.pm:190
-#: ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "fiński"
 
-#: ../lib/keyboard.pm:191
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "francuski"
 
-#: ../lib/keyboard.pm:192
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "angielski"
 
-#: ../lib/keyboard.pm:193
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -602,24 +602,21 @@ msgid ""
 "Polish"
 msgstr "polski"
 
-#: ../lib/keyboard.pm:195
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "rosyjski"
 
-#: ../lib/keyboard.pm:196
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "szwedzki"
 
-#: ../lib/keyboard.pm:197
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "amerykański"
@@ -1472,14 +1469,12 @@ msgstr "Mysz standardowa PS/2 z kółkiem"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:35
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:36
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1489,26 +1484,22 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:38
-#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:43
-#: ../lib/mouse.pm:75
+#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
 #, c-format
 msgid "1 button"
 msgstr "1-przyciskowa"
 
-#: ../lib/mouse.pm:44
-#: ../lib/mouse.pm:53
+#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Mysz standardowa 2-przyciskowa"
 
-#: ../lib/mouse.pm:46
-#: ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Mysz standardowa 3-przyciskowa z emulacją kółka"
@@ -1737,4 +1728,3 @@ msgstr "Rodzaj klawiatury"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Czy chcesz używać BackSpace zamiast Delete dla konsoli?"
-

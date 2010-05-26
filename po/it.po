@@ -1728,4 +1728,3 @@ msgstr "Tipo di tastiera"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vuoi che in console il tasto BackSpace funzioni come Canc?"
-

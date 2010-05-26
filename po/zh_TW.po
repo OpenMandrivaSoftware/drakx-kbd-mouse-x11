@@ -365,6 +365,7 @@ msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "不使用 Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "不是"
 

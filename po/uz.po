@@ -109,7 +109,8 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"Proprietar drayver toʻgʻri oʻrnatilmagan, ochiq kodli daryverdan foydalaniladi."
+"Proprietar drayver toʻgʻri oʻrnatilmagan, ochiq kodli daryverdan "
+"foydalaniladi."
 
 #: ../lib/Xconfig/card.pm:416
 #, c-format
@@ -322,8 +323,8 @@ msgstr "Moslamalarni sinab koʻrishni istaysizmi?"
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
 msgstr ""
-"Diqqat: bu grafik kartani sinab koʻrish kompyuterni qotib qolishiga olib kelishi "
-"mumkin"
+"Diqqat: bu grafik kartani sinab koʻrish kompyuterni qotib qolishiga olib "
+"kelishi mumkin"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -351,7 +352,8 @@ msgstr "Bu toʻgʻrimi?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Ctrl-Alt-Backspace ni oʻchirish: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "yoʻq"
 
@@ -453,7 +455,8 @@ msgstr "Sichqoncha koʻrsatgichi uchun uskuna akseleratoridan foydalanish"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Render imkoniyatidan foydalanish (matnni koʻrsatishda xato boʻlishi mumkin)"
+msgstr ""
+"Render imkoniyatidan foydalanish (matnni koʻrsatishda xato boʻlishi mumkin)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -978,7 +981,8 @@ msgid ""
 "Laotian"
 msgstr "Laoscha"
 
-#: ../lib/keyboard.pm:264, c-format
+#: ../lib/keyboard.pm:264
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
@@ -1563,8 +1567,8 @@ msgstr "Logitech sichqoncha (ketma-ket, eski C7 turi)"
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr ""
-"Gʻildirakni emulyasiya qiladigan Logitech sichqonchasi (seriya portlil, esk C7 "
-"turli)"
+"Gʻildirakni emulyasiya qiladigan Logitech sichqonchasi (seriya portlil, esk "
+"C7 turli)"
 
 #: ../lib/mouse.pm:70
 #, c-format
@@ -1616,7 +1620,8 @@ msgstr "Microsoft Xbox Controller S"
 msgid "VirtualBox mouse"
 msgstr "VirtualBox sichqonchasi"
 
-#: ../lib/mouse.pm:87, c-format
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "VMware mouse"
 msgstr "VMware sichqonchasi"
 
@@ -1693,7 +1698,8 @@ msgstr "GʻILDIRAKNI AYLANTIRING!"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "Oʻzgarishlar toʻliq qoʻllanilishi uchun tizimga boshqadan kirishingiz kerak"
+msgstr ""
+"Oʻzgarishlar toʻliq qoʻllanilishi uchun tizimga boshqadan kirishingiz kerak"
 
 #: ../tools/keyboarddrake:37
 #, c-format

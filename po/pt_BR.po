@@ -374,11 +374,13 @@ msgstr "Esta é a configuração correta?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Desabilitar Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "não"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "yes"
 msgstr "sim"
 
@@ -442,7 +444,8 @@ msgstr "Driver do Xorg: %s\n"
 msgid "Xorg configuration"
 msgstr "Configuração do Xorg"
 
-#: ../lib/Xconfig/various.pm:239, c-format
+#: ../lib/Xconfig/various.pm:239
+#, c-format
 msgid "Global options"
 msgstr "Opções globais"
 

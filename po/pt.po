@@ -371,7 +371,8 @@ msgstr "Esta é a configuração correcta?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Desactivar Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "não"
 
@@ -996,7 +997,8 @@ msgid ""
 "Laotian"
 msgstr "Laotiano"
 
-#: ../lib/keyboard.pm:264, c-format
+#: ../lib/keyboard.pm:264
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
@@ -1626,7 +1628,8 @@ msgstr "Controlador Microsoft Xbox S"
 msgid "VirtualBox mouse"
 msgstr "Rato VirtualBox"
 
-#: ../lib/mouse.pm:87, c-format
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "VMware mouse"
 msgstr "Rato VMware"
 

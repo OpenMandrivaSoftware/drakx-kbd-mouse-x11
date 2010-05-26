@@ -359,7 +359,8 @@ msgstr "Ezarpen hau zuzena da?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Ezgaitu Ktrl-Alt-Atzera: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "ez"
 

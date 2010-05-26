@@ -1732,4 +1732,3 @@ msgstr "Tastaturtype"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Ønsker du at BackSpace skal returnere Delete i konsoll?"
-

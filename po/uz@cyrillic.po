@@ -351,7 +351,8 @@ msgstr "Бу тўғрими?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Ctrl-Alt-Backspace ни ўчириш: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "йўқ"
 
@@ -978,7 +979,8 @@ msgid ""
 "Laotian"
 msgstr "Лаосча"
 
-#: ../lib/keyboard.pm:264, c-format
+#: ../lib/keyboard.pm:264
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
@@ -1616,7 +1618,8 @@ msgstr "Microsoft Xbox Controller S"
 msgid "VirtualBox mouse"
 msgstr "VirtualBox сичқончаси"
 
-#: ../lib/mouse.pm:87, c-format
+#: ../lib/mouse.pm:87
+#, c-format
 msgid "VMware mouse"
 msgstr "VMware сичқончаси"
 

@@ -401,7 +401,8 @@ msgstr "Configurația este corectă?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Dezactivează Ctrl-Alt-Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "nu"
 

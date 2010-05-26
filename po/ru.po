@@ -18,7 +18,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -330,7 +331,8 @@ msgstr "Хотите протестировать настройки?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr "Предупреждение: тестирование этой видеокарты может подвесить ваш компьютер"
+msgstr ""
+"Предупреждение: тестирование этой видеокарты может подвесить ваш компьютер"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -500,7 +502,8 @@ msgstr "Графический интерфейс при загрузке"
 #: ../lib/Xconfig/various.pm:269
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr "Автоматический запускать графический интерфейс (Xorg) во время загрузки"
+msgstr ""
+"Автоматический запускать графический интерфейс (Xorg) во время загрузки"
 
 #: ../lib/Xconfig/various.pm:281
 #, c-format
@@ -1721,4 +1724,3 @@ msgstr "Тип клавиатуры"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Хотите, чтобы клавиша BackSpace в консоли возвращала Delete?"
-

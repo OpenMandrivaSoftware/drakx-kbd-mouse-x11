@@ -91,16 +91,22 @@ msgstr "Escueyi la cantidá de memoria de la tarxeta gráfica"
 #: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may support additional features.\n"
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Hai un controlador propietariu disponible pa la tarxeta de vídeu que puede sofitar carauterístiques adicionales.\n"
+"Hai un controlador propietariu disponible pa la tarxeta de vídeu que puede "
+"sofitar carauterístiques adicionales.\n"
 "¿Quies usalu?"
 
 #: ../lib/Xconfig/card.pm:346
 #, c-format
-msgid "The proprietary driver was not properly installed, defaulting to free software driver."
-msgstr "El controlador propietariu nun se instaló bien, camudando al controlador llibre."
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+"El controlador propietariu nun se instaló bien, camudando al controlador "
+"llibre."
 
 #: ../lib/Xconfig/card.pm:416
 #, c-format
@@ -117,8 +123,7 @@ msgstr "Usar estensión Xinerama"
 msgid "Configure only card \"%s\"%s"
 msgstr "Configurar namái la tarxeta \"%s\"%s"
 
-#: ../lib/Xconfig/main.pm:88
-#: ../lib/Xconfig/main.pm:89
+#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:136
 #, c-format
 msgid "Custom"
@@ -139,8 +144,7 @@ msgstr "Colar"
 msgid "Graphic Card"
 msgstr "Tarxeta gráfica"
 
-#: ../lib/Xconfig/main.pm:129
-#: ../lib/Xconfig/monitor.pm:130
+#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
 #, c-format
 msgid ""
 "_: This is a display device\n"
@@ -149,8 +153,7 @@ msgstr ""
 "_: Esti ye un preséu de visualización\n"
 "Monitor"
 
-#: ../lib/Xconfig/main.pm:132
-#: ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Resolución"
@@ -203,8 +206,7 @@ msgstr "Escueyi una pantalla"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:138
-#: ../lib/mouse.pm:45
+#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
 #, c-format
 msgid "Generic"
 msgstr "Xenéricu"
@@ -217,16 +219,21 @@ msgstr "Fabricante"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the rate\n"
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
-"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Los dos parámetros críticos son la frecuencia de barríu vertical, qu'indica la frecuencia\n"
-"de refrescu de la pantalla entera, y más importante entá, la frecuencia de sincronización\n"
+"Los dos parámetros críticos son la frecuencia de barríu vertical, qu'indica "
+"la frecuencia\n"
+"de refrescu de la pantalla entera, y más importante entá, la frecuencia de "
+"sincronización\n"
 "horizontal, la frecuencia de les llínies de barríu horizontal.\n"
 "\n"
 "Ye MUI IMPORTANTE que nun especifiques una triba de pantalla con una\n"
@@ -270,8 +277,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 millones de colores (24 bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362
-#: ../lib/mouse.pm:33
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
 #, c-format
 msgid "Automatic"
 msgstr "Automáticu"
@@ -281,8 +287,7 @@ msgstr "Automáticu"
 msgid "Resolutions"
 msgstr "Resoluciones"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394
-#: ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Otros"
@@ -499,7 +504,8 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your computer.\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -507,7 +513,8 @@ msgstr ""
 "Parez que la tarxeta gráfica tien un coneutor de salida pa TV.\n"
 "Puede configurase pa trabayar col frame-buffer.\n"
 "\n"
-"Pa eso tienes que coneutar la tarxeta gráfica a la TV enantes d'arrancar l'ordenador.\n"
+"Pa eso tienes que coneutar la tarxeta gráfica a la TV enantes d'arrancar "
+"l'ordenador.\n"
 "Dempués, escueyi la entrada \"TVout\" nel cargador d'arranque\n"
 "\n"
 "¿Tienes esta carauterística?"
@@ -526,16 +533,14 @@ msgstr ""
 "_:opción estraña de ratiu\n"
 "otru"
 
-#: ../lib/keyboard.pm:186
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Checu (QWERTZ)"
 
-#: ../lib/keyboard.pm:187
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -549,38 +554,33 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak"
 
-#: ../lib/keyboard.pm:189
-#: ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Español"
 
-#: ../lib/keyboard.pm:190
-#: ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Finlandés"
 
-#: ../lib/keyboard.pm:191
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Francés"
 
-#: ../lib/keyboard.pm:192
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
 msgstr "Británicu"
 
-#: ../lib/keyboard.pm:193
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -594,24 +594,21 @@ msgid ""
 "Polish"
 msgstr "Polacu"
 
-#: ../lib/keyboard.pm:195
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Rusu"
 
-#: ../lib/keyboard.pm:196
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Suecu"
 
-#: ../lib/keyboard.pm:197
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
 #, c-format
 msgid "US keyboard"
 msgstr "Estadounidense"
@@ -1418,7 +1415,8 @@ msgid ""
 "allow switching between the different keyboard layouts\n"
 "(eg: latin and non latin)"
 msgstr ""
-"Equí puedes escoyer la tecla o combinación de tecles que permitiránncamudar ente los estremao esquemes de tecláu\n"
+"Equí puedes escoyer la tecla o combinación de tecles que permitiránncamudar "
+"ente los estremao esquemes de tecláu\n"
 "(ex.: llatín y non llatín)"
 
 #: ../lib/keyboard.pm:392
@@ -1462,14 +1460,12 @@ msgstr "Mur xenéricu PS2 con rueda"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:35
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:36
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1479,26 +1475,22 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:38
-#: ../lib/mouse.pm:48
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:43
-#: ../lib/mouse.pm:75
+#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
 #, c-format
 msgid "1 button"
 msgstr "1 botón"
 
-#: ../lib/mouse.pm:44
-#: ../lib/mouse.pm:53
+#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Mur de 2 botones xenéricu"
 
-#: ../lib/mouse.pm:46
-#: ../lib/mouse.pm:55
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Mur de 3 botones xenéricu con emulación de rueda"
@@ -1732,24 +1724,32 @@ msgstr "¿Quies que la tecla BackSpace unvíe un Delete na consola?"
 #~ "_: keyboard\n"
 #~ "Lithuanian AZERTY (old)"
 #~ msgstr "Lituano AZERTY (antiguo)"
+
 #~ msgid ""
 #~ "_: keyboard\n"
 #~ "Lithuanian AZERTY (new)"
 #~ msgstr "Lituano AZERTY (nuevu)"
+
 #~ msgid ""
 #~ "_: keyboard\n"
 #~ "Lithuanian \"number row\" QWERTY"
 #~ msgstr "Lituano \"numbéricu\" QWERTY"
+
 #~ msgid ""
 #~ "_: keyboard\n"
 #~ "Lithuanian \"phonetic\" QWERTY"
 #~ msgstr "Lituano \"fonético\" QWERTY"
+
 #~ msgid "Mouse test"
 #~ msgstr "Preba del mur"
+
 #~ msgid "Please test your mouse:"
 #~ msgstr "Por favor, pruebe su mur:"
+
 #~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Falló la preba Plug'n Play. Por favor, escueya un monitor específico"
+#~ msgstr ""
+#~ "Falló la preba Plug'n Play. Por favor, escueya un monitor específico"
+
 #~ msgid ""
 #~ "The display resolution being used may not be correct. \n"
 #~ "\n"
@@ -1761,4 +1761,3 @@ msgstr "¿Quies que la tecla BackSpace unvíe un Delete na consola?"
 #~ "Si su escritoriu aparece estirase más allá de los berbesos de la "
 #~ "pantalla, \n"
 #~ "puede instalar %s pa ayudar a resolver el problema ¿Instalarlo agora?"
-

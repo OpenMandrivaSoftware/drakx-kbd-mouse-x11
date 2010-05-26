@@ -363,7 +363,8 @@ msgstr "Ali je to prava nastavitev?"
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Onemogoči Ctrl+Alt+Backspace: %s\n"
 
-#: ../lib/Xconfig/various.pm:26, c-format
+#: ../lib/Xconfig/various.pm:26
+#, c-format
 msgid "no"
 msgstr "ne"
 
