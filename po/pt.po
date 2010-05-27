@@ -10,7 +10,7 @@
 # Jose Jorge <jjorge@free.fr>, 2003, 2004, 2005.
 # Jose Carlos D. S. Saraiva <jose.d.s.saraiva@clix.pt>, 2004.
 # Zé <mmodem00@netvisao.pt>, 2004, 2005, 2006.
-# Américo José Melo <mmodem00@netvisao.pt>, 2004, 2005, 2006.
+# José Melo <mmodem00@netvisao.pt>, 2004, 2005, 2006.
 # Ze <mmodem00@netvisao.pt>, 2004.
 # José Melo <mmodem00@gmail.com>, 2005.
 # José Melo <mmodme00@gmail.com>, 2005.
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2010-05-27 05:22+0100\n"
+"PO-Revision-Date: 2010-05-27 06:34+0100\n"
 "Last-Translator: Zé <ze@mandriva.org>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -475,34 +475,33 @@ msgstr "Usar apontador de rato com aceleração de material"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Activar Aceleração RENDER (pode provocar alguns erros ao mostrar texto)"
+msgstr "Activar Aceleração RENDER (Isto pode causar erros mostrando texto)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr "Activar ecrã duplicado no monitor externo"
+msgstr "Activar exibição duplicada no monitor externo"
 
 #: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr "Activar ecrã duplicado no segundo monitor"
+msgstr "Activar exibição duplicada no segundo monitor"
 
 #: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
-msgstr "Forçar modo do ecrã DVI"
+msgstr "Forçar modo de exibição do DVI"
 
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr "Activar atalho da BIOS para troca externa de ecrã"
+msgstr "Activar tecla de atalho da BIOS para mudança de monitor externa"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
-"Usar EXA em vez de XAA (melhor desempenho para Composição e Renderização)"
+"Usar EXA em vez de XAA (melhor desempenho para Apresentação e Composição)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -512,7 +511,7 @@ msgstr "Interface gráfico no arranque"
 #: ../lib/Xconfig/various.pm:269
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr "Iniciar interface gráfico automaticamente (Xorg) após arrancar"
+msgstr "Iniciar automaticamente o interface gráfico (Xorg) após arrancar"
 
 #: ../lib/Xconfig/various.pm:281
 #, c-format
@@ -526,10 +525,10 @@ msgid ""
 "\n"
 "Do you have this feature?"
 msgstr ""
-"A sua placa gráfica parece ter uma ligação TV-OUT.\n"
-"Pode ser configurada para funcionar usando o 'frame-buffer'.\n"
+"A sua placa gráfica parece ter uma conector TV-OUT.\n"
+"Pode ser configurado para funcionar usando o 'frame-buffer'.\n"
 "\n"
-"Para isso tem que ligar a placa gráfica à TV antes de arrancar o seu "
+"Para tal tem que ligar a placa gráfica à TV antes de arrancar o seu "
 "computador.\n"
 "Então escolha a entrada \"TVout\" no carregador de arranque\n"
 "\n"
@@ -545,7 +544,7 @@ msgstr "Que norma usa a sua TV?"
 msgid ""
 "_:weird aspect ratio\n"
 "other"
-msgstr "outro"
+msgstr "mais"
 
 #: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
@@ -667,7 +666,7 @@ msgstr "Arábico"
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
-msgstr "Azerbaijanês (latino)"
+msgstr "Azerbaijanês (latim)"
 
 #: ../lib/keyboard.pm:205
 #, c-format
@@ -1010,7 +1009,7 @@ msgstr "Lituano"
 msgid ""
 "_: keyboard\n"
 "Latvian"
-msgstr "Latvian"
+msgstr "Letão"
 
 #: ../lib/keyboard.pm:266
 #, c-format
@@ -1227,7 +1226,7 @@ msgstr "Tamil (disposição ISCII)"
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
-msgstr "Tamil (máquina de escrever)"
+msgstr "Tamil (disposição de máquina de escrever)"
 
 #: ../lib/keyboard.pm:305
 #, c-format
@@ -1255,14 +1254,14 @@ msgstr "Tailandês (Pattachote)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr "Tifinagh (disposição marroquina) (+latin/arábico)"
+msgstr "Tifinagh (disposição marroquina) (+latim/arábico)"
 
 #: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr "Tifinagh (fonético) (+latin/arábico)"
+msgstr "Tifinagh (fonético) (+latim/arábico)"
 
 #: ../lib/keyboard.pm:313
 #, c-format
@@ -1321,21 +1320,21 @@ msgstr "ISO9995-3 (teclado US com 3 níveis por tecla)"
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
-msgstr "Uzbek (cirílico)"
+msgstr "Usbequistão (cirílico)"
 
 #: ../lib/keyboard.pm:327
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
-msgstr "Vietnamita \"número de colunas\" QWERTY"
+msgstr "\"linha numérica\" QWERTY Vietnamita"
 
 #: ../lib/keyboard.pm:328
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
-msgstr "Jugoslavo (latino)"
+msgstr "Jugoslavo (latim)"
 
 #: ../lib/keyboard.pm:335
 #, c-format
@@ -1462,7 +1461,7 @@ msgstr "Padrão"
 #: ../lib/mouse.pm:30
 #, c-format
 msgid "Logitech MouseMan+"
-msgstr "Logitech MouseMan+"
+msgstr "MouseMan+ Logitech"
 
 #: ../lib/mouse.pm:31
 #, c-format
@@ -1477,7 +1476,7 @@ msgstr "GlidePoint"
 #: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
-msgstr "Rato Kensington Thinking"
+msgstr "Rato Thinking Kensington"
 
 #: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
