@@ -16,13 +16,14 @@
 # José Melo <mmodme00@gmail.com>, 2005.
 # Jose JORGE <jjorge@free.fr>, 2005.
 # Zé <mmodem00@gmail.com>, 2006, 2007, 2008, 2010.
+# Zé <ze@mandriva.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2010-04-17 22:33+0100\n"
-"Last-Translator: Zé <mmodem00@gmail.com>\n"
+"PO-Revision-Date: 2010-05-27 05:22+0100\n"
+"Last-Translator: Zé <ze@mandriva.org>\n"
 "Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -228,7 +229,7 @@ msgstr "Genérico"
 #: ../lib/Xconfig/monitor.pm:139
 #, c-format
 msgid "Vendor"
-msgstr "Marca"
+msgstr "Fabricante"
 
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
@@ -303,7 +304,7 @@ msgstr "Resoluções"
 #: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
-msgstr "Mais"
+msgstr "Outros"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:446
 #, c-format
