@@ -1,3 +1,6 @@
+- use UseEdid instead of IgnoreEDID with nvidia96xx since the latter is
+  obsolete (#40006)
+
 Version 0.90 - 26 May 2010
 
 - translation updates
