@@ -240,9 +240,6 @@ sub choose {
 	{ text => N("Disable Ctrl-Alt-Backspace"),
 	  type => 'bool', val => \$various->{DontZap} },
 	{ label => N("Graphic card options"), title => 1 },
-	  exists $various->{use_DRI_GLX} ?
-	{ text => N("3D hardware acceleration"),
-	  type => 'bool', val => \$various->{use_DRI_GLX} } : (),
 	{ text => N("Enable Translucency (Composite extension)"),
 	  type => 'bool', val => \$various->{Composite} },
 	  exists $various->{HWCursor} ?
