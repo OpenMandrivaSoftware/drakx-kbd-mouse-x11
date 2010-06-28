@@ -22,9 +22,9 @@ msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2010-05-27 06:34+0100\n"
+"PO-Revision-Date: 2010-06-28 02:00+0100\n"
 "Last-Translator: Zé <ze@mandriva.org>\n"
-"Language-Team: Portuguese <kde-i18n-doc@kde.org>\n"
+"Language-Team: Portuguese <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -97,7 +97,7 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"O seu sistema suporta a configuração de cabeças múltiplas.\n"
+"O seu sistema suporta uma configuração de cabeças múltiplas.\n"
 "O que deseja fazer?"
 
 #: ../lib/Xconfig/card.pm:296
@@ -201,7 +201,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"Manter as alterações?\n"
+"Deseja manter as alterações?\n"
 "A configuração actual é:\n"
 "\n"
 "%s"
@@ -219,7 +219,7 @@ msgstr "Escolha um monitor"
 #: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Plug'n Play"
-msgstr "Plug'n Play"
+msgstr "'Plug'n Play'"
 
 #: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
 #, c-format
@@ -304,7 +304,7 @@ msgstr "Resoluções"
 #: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
 #, c-format
 msgid "Other"
-msgstr "Outros"
+msgstr "Mais"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:446
 #, c-format
@@ -334,7 +334,7 @@ msgstr "Ajuda"
 #: ../lib/Xconfig/test.pm:30
 #, c-format
 msgid "Test of the configuration"
-msgstr "Teste de configuração"
+msgstr "Teste da configuração"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
@@ -344,7 +344,7 @@ msgstr "Deseja testar a configuração?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr "Atenção: testar esta placa gráfica pode bloquear o seu computador"
+msgstr "Aviso: ao testar esta placa gráfica pode bloquear o seu computador"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -475,7 +475,7 @@ msgstr "Usar apontador de rato com aceleração de material"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Activar Aceleração RENDER (Isto pode causar erros mostrando texto)"
+msgstr "Activar Aceleração RENDER (Isto pode causar erros ao mostrar texto)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -495,7 +495,7 @@ msgstr "Forçar modo de exibição do DVI"
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr "Activar tecla de atalho da BIOS para mudança de monitor externa"
+msgstr "Activar tecla de atalho da BIOS para mudança de monitor externo"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
@@ -525,14 +525,14 @@ msgid ""
 "\n"
 "Do you have this feature?"
 msgstr ""
-"A sua placa gráfica parece ter uma conector TV-OUT.\n"
+"A sua placa gráfica parece ter um conector TV-OUT.\n"
 "Pode ser configurado para funcionar usando o 'frame-buffer'.\n"
 "\n"
-"Para tal tem que ligar a placa gráfica à TV antes de arrancar o seu "
+"Para tal precisa de ligar a placa gráfica à TV antes de arrancar o seu "
 "computador.\n"
-"Então escolha a entrada \"TVout\" no carregador de arranque\n"
+"Depois escolha a entrada \"TVout\" no carregador de arranque\n"
 "\n"
-"Tem esta opção?"
+"Tem esta funcionalidade?"
 
 #: ../lib/Xconfig/various.pm:293
 #, c-format
@@ -1651,12 +1651,12 @@ msgstr "A testar o rato"
 #: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Por favor escolha o seu tipo de rato."
+msgstr "Por favor seleccione o seu tipo de rato."
 
 #: ../lib/mouse.pm:513
 #, c-format
 msgid "Mouse choice"
-msgstr "Escolha de rato"
+msgstr "Seleccionar rato"
 
 #: ../lib/mouse.pm:529
 #, c-format
@@ -1671,7 +1671,7 @@ msgstr "Porto do Rato"
 #: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Por favor escolha a que porto série o seu rato está ligado."
+msgstr "Por favor escolha em que porto série o seu rato está ligado."
 
 #: ../lib/mouse.pm:543
 #, c-format
