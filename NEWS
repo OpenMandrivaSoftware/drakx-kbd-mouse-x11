@@ -1,3 +1,5 @@
+Version 0.91 - 17 April 2011
+
 - use UseEdid instead of IgnoreEDID with nvidia96xx since the latter is
   obsolete (#40006)
 - remove "3D hardware acceleration" from the UI, it will always be enabled
