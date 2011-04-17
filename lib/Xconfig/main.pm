@@ -215,7 +215,10 @@ sub write {
     } elsif (my $resolution = $only_resolution && eval { $raw_X->get_resolution }) {
 	'need_xrandr' . sprintf(' --size %dx%d', @$resolution{'X', 'Y'});
     } else {
-	'need_restart';
+	# Always ask for reboot as the driver could've changed.
+	# TODO: Do 'need_restart' instead when no reboot needed, like no driver
+	# change.
+	'need_reboot';
     }
 }
 
