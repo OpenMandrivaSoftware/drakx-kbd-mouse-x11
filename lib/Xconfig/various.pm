@@ -353,8 +353,8 @@ sub check_xorg_conf_symlink() {
     }
 }
 
-sub setupFB {
-    my ($bios_vga_mode) = @_;
+sub change_bootloader_config {
+    my ($do, @do_params) = @_;
 
     require bootloader;
     my ($bootloader, $all_hds);
@@ -372,13 +372,25 @@ sub setupFB {
 	$bootloader = bootloader::read($all_hds) or return;
     }
 
-    foreach (@{$bootloader->{entries}}) {
-	$_->{vga} = $bios_vga_mode if $_->{vga}; #- replace existing vga= with
-    }
+    $do->($bootloader, @do_params) or return;
 
-    bootloader::update_splash($bootloader);
     bootloader::action($bootloader, 'write', $all_hds);
     bootloader::action($bootloader, 'when_config_changed');
+    1;
+}
+
+sub setupFB {
+    my ($bios_vga_mode) = @_;
+
+    change_bootloader_config(
+	sub {
+	    my ($bootloader, $bios_vga_mode) = @_;
+	    foreach (@{$bootloader->{entries}}) {
+		$_->{vga} = $bios_vga_mode if $_->{vga}; #- replace existing vga= with
+	    }
+	    bootloader::update_splash($bootloader);
+	    1;
+	}, $bios_vga_mode);
 }
 
 1;
