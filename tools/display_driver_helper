@@ -1,0 +1,461 @@
+#!/bin/sh
+#
+# Display driver helper
+#
+# Copyright (c) 2010, 2011 Anssi Hannula <anssi.hannula@iki.fi>
+#
+# - Load drivers for specified modaliases, skipping disabled display drivers
+#   that would cause conflicts (KMS vs. vesa, KMS vs. proprietary).
+# - Get information about enabled driver modules
+# - Check that the loaded modules are correct
+#
+# Licensed under terms of GPLv2 or later.
+#
+# When updating, check:
+# - the variables below
+# - check_driver function
+# - check_dkms_status function
+#
+
+echo "$(date) $*" >> /dev/tmp7
+exec 2>>/dev/tmp7
+set -x
+
+export LC_ALL=C
+
+KMS_DRIVERS="i915 radeon nouveau"
+# module names at run-time (hence nvidia instead of nvidia*):
+KNOWN_MODULES="i915|radeon|nouveau|fglrx|nvidia"
+
+XORG_i915="intel"
+CONFLICTS_i915=""
+
+XORG_nouveau="nouveau"
+CONFLICTS_nouveau="nv nvidia"
+
+XORG_radeon="ati radeon"
+CONFLICTS_radeon="fglrx"
+
+# Note: no /usr
+# See end of script for descriptions of global variables.
+check_driver() {
+	local name="$1"
+	case "$name" in
+	i915)
+		# implicitely loaded by X.org
+		check_xorg $name 0 || return 1
+		IS_KMS=1
+		;;
+	radeon)
+		# implicitely loaded by X.org
+		check_xorg $name 0 || return 1
+		IS_KMS=1
+		# radeon needs to loaded before X server
+		NEEDS_LOAD_NOW=1
+		;;
+	nouveau)
+		# these KMS drivers require an explicit directive in xorg.conf
+		check_xorg $name 1 || return 1
+		IS_KMS=1
+		;;
+	fglrx)
+		check_xorg fglrx 1 || return 1
+		check_dkms fglrx || return 1
+		;;
+	nvidia)
+		# manually installed driver or a call from check_loaded()
+		UNSURE=1
+		check_xorg nvidia 1 || return 1
+		;;
+	nvidiafb)
+		# this is only reached if nvidiafb is manually unblacklisted
+		return 2
+		;;
+	nvidia*)
+		[ "$name" = "nvidia_current" ] && name=nvidia-current
+		# there are multiple co-installable driver versions, so check
+		# the active alternative as well
+		check_gl /etc/$name/ld.so.conf || return 1
+		check_xorg nvidia 1 || return 1
+		check_dkms $name || return 1
+		;;
+	*)
+		# unknown, will be loaded only if no known drivers were found
+		return 2
+		;;
+	esac
+	return 0
+}
+
+# Return success if there is no new pending DKMS build (needed to disallow
+# speedboot on very early boot).
+# Previously failed build or a missing module is counted as no pending build.
+# Note: no /usr
+check_dkms_status() {
+	[ -e /etc/alternatives/gl_conf ] || return 0
+	# return fast for non-DKMS
+	check_gl /etc/ld.so.conf.d/GL/standard.conf && return 0
+
+	local active="$(ls -l /etc/alternatives/gl_conf | awk '{ print $NF }')"
+
+	local modname=
+
+	case $active in
+	/etc/nvidia*/ld.so.conf)
+		modname="nvidia${active#*nvidia}"
+		modname="${modname%/*}"
+		;;
+	/etc/ld.so.conf.d/GL/ati.conf)
+		modname="fglrx"
+		;;
+	*)
+		# Unknown DKMS-looking driver,
+		# allow speedboot.
+		return 0
+		;;
+	esac
+	check_dkms "$modname" 1
+}
+
+# Check if all loaded kernel modules have correct xorg.conf
+check_loaded() {
+	for module in $(grep -oE "^($KNOWN_MODULES) " /proc/modules); do
+		check_driver "$module" || return 1
+	done
+	return 0
+}
+
+# Check that specified DKMS driver is not queued for build for the current
+# kernel. Used to check if we 1) should disable speedboot for this boot
+# (--check-dkms-status), and 2) if should should load the currently
+# existing driver (--load). Doing otherwise might cause us to load a wrong old
+# version of the driver that had been installed using e.g. binary DKMS
+# packages.
+# Note: no /usr
+check_dkms() {
+	local driver="$1"
+	local force="$2"
+
+	# If called from DKMS itself or we are not in rc.sysinit anymore,
+	# there are no pending builds.
+	if [ -z "$force" ]; then
+		[ "$DKMS_AUTOLOAD_MODULE" = "$driver" ] && return 0
+		[ -z "$STARTUP" ] && [ ! -f "/dev/.in_sysinit" ] && return 0
+	fi
+
+	local found=
+	local uname_r="$(uname -r)"
+
+	for dir in /var/lib/dkms/$driver/*; do
+		[ -e "$dir" ] || return 0 # no module, no build; or no /var
+		[ -L "$dir" ] && continue # not a module version
+		found=1 # module version found
+		[ -e "$dir/$uname_r" ] && return 0
+		[ -e "/var/lib/dkms-binary/$driver/$(basename "$dir")/$uname_r" ] && return 0
+
+		if [ -e "$dir/build/make.log" ]; then
+			# Build has failed for some kernel, check if it is this one.
+			# If so, there is no point in returning 1.
+			grep -q "^DKMS make\.log.* $uname_r " && return 0
+		fi
+	done
+
+	# if module versions were found but none were built for this kernel, return 1
+	[ -n "$found" ] && return 1 || return 0
+}
+
+# Note: no /usr
+check_gl() {
+	local alt_inode="$(stat -L -c%i $1 2>/dev/null)"
+	[ -n "$alt_inode" ] || return 1
+	[ -n "$GL_INODE" ] || GL_INODE="$(stat -L -c%i /etc/alternatives/gl_conf 2>/dev/null)"
+	[ "$alt_inode" = "$GL_INODE" ] || return 1
+	return 0
+}
+
+# Note: no /usr
+get_xorg_drivers() {
+	if [ -z "$XORG_DRIVERS" ]; then
+		XORG_DRIVERS="$(cat /etc/X11/xorg.conf /etc/X11/xorg.conf.d/*.conf 2>/dev/null |
+			awk -F'"' -vORS=' ' -vIGNORECASE=1 '
+			/^[[:space:]]+*section[[:space:]]+"device"/	{ device=1 }
+			/endsection/					{ device=0 }
+			/^[[:space:]]*driver[[:space:]]*".*"/		{ if (device) drivers[$2]=$2 }
+			END						{ for (driver in drivers) print driver }
+			')"
+		[ -n "$XORG_DRIVERS" ] || XORG_DRIVERS="-"
+	fi
+}
+
+# Note: no /usr
+# parameter 1: xorg driver
+# parameter 2: 1 the check if the driver is explicitely enabled
+#              0 means that check only for conflicts
+check_xorg() {
+	local driver="$1"
+	local explicit_only="$2"
+
+	eval local xorg_drivers=\"\$XORG_$driver\"
+	eval local conflicts=\"\$CONFLICTS_$driver\"
+
+	get_xorg_drivers
+
+	conflict_found=
+	for enabled_driver in $XORG_DRIVERS; do
+		for xorg_driver in $xorg_drivers; do
+			[ "$enabled_driver" = "$xorg_driver" ] && return 0
+		done
+
+		# if the X.org driver can be loaded implicitely, check that
+		# there are no conflicting drivers that override the driver
+		if [ "$explicit_only" = "0" -a -z "$conflict_found" ]; then
+			for conflict in vesa $conflicts; do
+				if [ "$enabled_driver" = "$conflict" ]; then
+				       conflict_found=1
+				       continue 2
+				       # continue loop to check for an explicit load
+				fi
+			done
+		fi
+	done
+
+	# in case of a conflict, do not load the module
+	[ -n "$conflict_found" ] && return 1
+
+	# no driver is selected - don't load if explicit_only is 1
+	[ "$explicit_only" = "1" ] && return 1
+
+	# implicit load allowed; still don't load if no xorg.conf (i.e. live cd)
+	[ -e "/etc/X11/xorg.conf" ]
+}
+
+# Load the driver for the specified modalias, if configured.
+# Note: no /usr
+load_driver() {
+	local modulename
+	local load_default=1
+
+	# NOTE: UPDATE when module-init-tools is upgraded to get better performance
+	# modprobe has -R option:
+	#for modulename in $(/home/anssi/module-init-tools-3.12/build/modprobe -Rq "$1"); do
+	# modprobe does not have -R option:
+	for mod in $(/sbin/modprobe -biqvn "$1"); do
+		[ "$mod" = "insmod" ] && continue
+		modulename="${mod##*/}"
+		modulename="${modulename%%.*}"
+
+		check_driver "$modulename"
+		case $? in
+		1)	# a driver which needs handling by this script matches
+			# the modalias, but was not configured - do not run
+			# the generic modprobe if no other drivers are
+			# configured either
+			load_default=
+			continue
+			;;
+		2)	continue
+			;;
+		esac
+
+		if [ -n "$IS_KMS" ]; then
+			grep -q "^$modulename " /proc/modules && return 0
+			echo "$modulename" > /dev/.late_kms 2>/dev/null
+			# If NEEDS_LOAD_NOW is not set and plymouth is running,
+			# skip loading the driver to avoid quitting plymouth.
+			# The driver will be loaded later by X server itself.
+			[ -z "$NEEDS_LOAD_NOW" ] && /bin/plymouth --ping 2>/dev/null && return 0
+			/bin/plymouth quit 2>/dev/null
+		fi
+		/sbin/modprobe -b "$modulename" && return 0
+	done
+
+	# no specially handled modules were loaded, so load all modules normally
+	# unless $load_default was set above
+	[ -z "$load_default" ] || /sbin/modprobe -b "$1"
+}
+
+is_kms_allowed() {
+	for driver in $KMS_DRIVERS; do
+		# Check all drivers for conflicts only.
+		check_xorg $driver 0 || return 1
+	done
+	return 0
+}
+
+get_initrd_kms_drivers() {
+	local initrd="$1"
+
+	local kms_drivers="$(echo "$KMS_DRIVERS" | tr " " "|")"
+	zcat "$initrd" | cpio -t --quiet | sed -nr "s,.*/($kms_drivers)\.ko.*$,\1,p"
+}
+
+# Check that the initrd doesn't contain disabled modules
+check_initrd() {
+	local initrd="$1"
+	local initrd_drivers="$(get_initrd_kms_drivers "$initrd")"
+	for driver in $initrd_drivers; do
+		check_driver "$driver" || return 1
+	done
+	for driver2 in $(get_active_kms_drivers); do
+		for driver in $initrd_drivers; do
+			[ "$driver" = "$driver2" ] && continue 2
+		done
+		# An enabled module for present hardware was not in initrd
+		return 1
+	done
+	return 0
+}
+
+get_active_kms_drivers() {
+	local kms_drivers=
+	for device in $(grep -l 0x03 /sys/bus/pci/devices/0000\:0*/class); do
+		[ -e "$device" ] || continue
+		device="$(dirname $device)"
+		[ -f "$device/modalias" ] || continue
+		modalias="$(cat "$device/modalias")"
+		for mod in $(/sbin/modprobe --first-time -biqvn "$modalias" 2>&1); do
+			modulename="${mod##*/}"
+			modulename="${modulename%%.*}"
+			IS_KMS=
+			check_driver "$modulename" || continue
+			[ -n "$IS_KMS" ] && echo $modulename
+		done
+	done
+}
+
+usage() {
+	cat <<EOF
+Usage: $0 action [arguments]
+
+Known actions:
+
+  --load MODALIAS
+        Load drivers matching MODALIAS, checking that they are enabled and
+        configured.
+
+  --load-dkms-autoload MODNAME MODALIAS
+        Same as --load, but assume MODNAME is built and correct so that
+        checking dkms status is unnecessary.
+
+  --is-disabled MODNAME
+        Checks whether the driver corresponding to MODNAME is disabled (e.g.
+        a conflicting driver is configured, etc.). Unknown MODNAMEs are
+        considered not disabled.
+
+  --is-enabled-kms MODNAME
+        Checks whether the driver corresponding to MODNAME is enabled and
+        MODNAME is a known KMS module. Note that drivers may be enabled even
+        if there is no such hardware. This just checks that there are
+        no conflicting drivers in use etc.
+
+  --is-kms-allowed
+        Checks whether it is ok to load KMS drivers in initrd. This returns
+        a failure when a conflicting driver is set up (vesa or a proprietary
+        one).
+
+  --get-all-kms-drivers
+        Get a list of the known KMS drivers.
+
+  --get-active-kms-drivers
+        Get a list of the known KMS drivers which are enabled and the hardware
+        is present.
+
+  --get-initrd-kms-drivers INITRD
+        Get a list of the known KMS drivers in initrd INITRD.
+
+  --check-dkms-status
+        Checks if there are no pending DKMS builds for the currently enabled
+        drivers.
+
+  --check-loaded
+        Checks that there are no disabled drivers loaded.
+
+  --check-speedboot
+        Does --check-dkms-status and --check-loaded.
+
+  --check-loaded-strict
+        As --check-loaded, and consider ambigious cases (e.g. nvidia where
+        we can't detect if the loaded driver has the correct version) as
+        failure.
+
+  --check-initrd INITRD
+        Check that INITRD doesn't contain disabled KMS drivers.
+EOF
+}
+
+# clear global variables
+
+# cache for check_gl()
+GL_INODE=
+
+# cache for check_xorg()
+XORG_DRIVERS=
+
+# The driver is a KMS enabled driver. This will cause the script to quit
+# plymouth when a driver is loaded by --load and NEEDS_LOAD_NOW below is set.
+# This is done as plymouth is still attached to the default framebuffer (the
+# issues caused by not doing this don't seem to be fatal, though, but the
+# display may be lost completely until plymouth eventually stops).
+# There is no option in plymouth to "reload" a driver, it expects any KMS
+# driver to be loaded be before starting it.
+IS_KMS=
+
+# This KMS driver needs to be loaded before X server starts, so load it now
+# even if we have to shut down plymouth (see above).
+NEEDS_LOAD_NOW=
+
+# dkms module that was built when calling from DKMS
+DKMS_AUTOLOAD_MODULE=
+
+# Set by check_loaded() when it can't be sure that the correct driver is loaded
+# (e.g. in case of the multiple proprietary nvidia drivers which all identify as
+# "nvidia" in loaded modules list).
+UNSURE=
+
+case "$1" in
+--load)
+	load_driver "$2"
+	;;
+--load-dkms-autoload)
+	DKMS_AUTOLOAD_MODULE="$2"
+	load_driver "$3"
+	;;
+--is-disabled)
+	check_driver "$2"
+	[ $? -eq 1 ]
+	# unknown (2) are not considered disabled :)
+	;;
+--is-enabled-kms)
+	check_driver "$2" && [ -n "$IS_KMS" ]
+	;;
+--is-kms-allowed)
+	is_kms_allowed
+	;;
+--check-dkms-status)
+	check_dkms_status
+	;;
+--get-all-kms-drivers)
+	echo $KMS_DRIVERS
+	;;
+--get-active-kms-drivers)
+	get_active_kms_drivers
+	;;
+--get-initrd-kms-drivers)
+	get_initrd_kms_drivers "$2"
+	;;
+--check-initrd)
+	check_initrd "$2"
+	;;
+--check-loaded)
+	check_loaded
+	;;
+--check-loaded-strict)
+	check_loaded && [ -z "$UNSURE" ]
+	;;
+--check-speedboot)
+	check_dkms_status && check_loaded
+	;;
+*)
+	usage
+	;;
+esac

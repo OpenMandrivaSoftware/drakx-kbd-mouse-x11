@@ -208,6 +208,7 @@ sub write {
     my $only_resolution = $raw_X->is_only_resolution_modified;
     $raw_X->write;
     Xconfig::various::check_xorg_conf_symlink();
+    Xconfig::various::setup_kms();
     if ($X->{resolutions}[0]{bios}) {
 	Xconfig::various::setupFB($X->{resolutions}[0]{bios}) if !$o_skip_fb_setup;;
 	'need_reboot';

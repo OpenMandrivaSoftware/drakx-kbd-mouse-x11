@@ -393,4 +393,19 @@ sub setupFB {
 	}, $bios_vga_mode);
 }
 
+sub setup_kms {
+    change_bootloader_config(
+	sub {
+	    my ($bootloader) = @_;
+	    my $kms_ok = run_program::rooted($::prefix, "/sbin/display_driver_helper", "--is-kms-allowed") || 0;
+	    return if $kms_ok != bootloader::get_append_simple($bootloader, "nokmsboot");
+	    if ($kms_ok) {
+		bootloader::remove_append_simple($bootloader, "nokmsboot");
+	    } else {
+		bootloader::set_append_simple($bootloader, "nokmsboot");
+	    }
+	    1;
+	});
+}
+
 1;

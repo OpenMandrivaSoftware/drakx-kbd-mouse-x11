@@ -3,6 +3,8 @@
 - remove "3D hardware acceleration" from the UI, it will always be enabled
   by default since we unconditionnally add the "dri" module to xorg.conf now
   (#58933) 
+- add display_driver_helper script (used by XFdrake, udev, drakx, dkms)
+- add/remove nokmsboot boot option as needed
 
 Version 0.90 - 26 May 2010
 
