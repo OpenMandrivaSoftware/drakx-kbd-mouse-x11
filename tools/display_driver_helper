@@ -198,6 +198,7 @@ check_xorg() {
 	local explicit_only="$2"
 
 	eval local xorg_drivers=\"\$XORG_$driver\"
+	[ -n "$xorg_drivers" ] || xorg_drivers="$driver"
 	eval local conflicts=\"\$CONFLICTS_$driver\"
 
 	get_xorg_drivers

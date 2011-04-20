@@ -1,4 +1,5 @@
 - disable debug output of display_driver_helper by default
+- fix ahead-of-X-server loading of proprietary and fglrx kernel modules
 
 Version 0.91 - 17 April 2011
 
