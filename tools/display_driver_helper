@@ -17,9 +17,11 @@
 # - check_dkms_status function
 #
 
-echo "$(date) $*" >> /dev/tmp7
-exec 2>>/dev/tmp7
-set -x
+if [ -n "$DEBUG_DISPLAY_DRIVER_HELPER" ]; then
+	echo "$(date) $*" >> /dev/ddh_debug
+	exec 2>>/dev/ddh_debug
+	set -x
+fi
 
 export LC_ALL=C
 

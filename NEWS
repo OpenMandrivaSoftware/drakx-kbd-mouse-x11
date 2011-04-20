@@ -1,3 +1,5 @@
+- disable debug output of display_driver_helper by default
+
 Version 0.91 - 17 April 2011
 
 - use UseEdid instead of IgnoreEDID with nvidia96xx since the latter is
