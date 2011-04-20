@@ -122,7 +122,8 @@ check_dkms_status() {
 # Check if all loaded kernel modules have correct xorg.conf
 check_loaded() {
 	for module in $(grep -oE "^($KNOWN_MODULES) " /proc/modules); do
-		check_driver "$module" || return 1
+		# try to unload the driver in case it is not in use before bailing
+		check_driver "$module" || rmmod "$module" &>/dev/null || return 1
 	done
 	return 0
 }
