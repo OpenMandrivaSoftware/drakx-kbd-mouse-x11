@@ -1,3 +1,6 @@
+- display_driver_helper: do not load radeon driver if the proprietary
+  driver is temporarily disabled on a PowerXpress system
+
 Version 0.92 - 21 April 2011
 
 - disable debug output of display_driver_helper by default
