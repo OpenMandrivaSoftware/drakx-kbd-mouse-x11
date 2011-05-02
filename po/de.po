@@ -368,7 +368,7 @@ msgstr "Ist dies die richtige Einstellung?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr "Strg-Alt-Rücktaste deaktivieren: %\n"
+msgstr "Strg-Alt-Rücktaste deaktivieren: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
 #, fuzzy, c-format
