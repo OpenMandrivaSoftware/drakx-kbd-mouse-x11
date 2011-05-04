@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2011-04-28 21:33+0100\n"
+"PO-Revision-Date: 2011-05-05 00:55+0100\n"
 "Last-Translator: Zé <ze@mandriva.org>\n"
 "Language-Team: Portuguese <>\n"
 "MIME-Version: 1.0\n"
@@ -248,13 +248,13 @@ msgid ""
 msgstr ""
 "Os dois parâmetros críticos são a taxa de refrescamento vertical, que é a "
 "taxa\n"
-"em que todo o ecrã é refrescado, e principalmente a taxa de sincronização\n"
-"horizontal, que é a taxa em que linhas de varredura são mostradas.\n"
+"onde todo o ecrã é refrescado, e a mais importante, a taxa de sincronização\n"
+"horizontal, que é a taxa onde linhas de varredura são mostradas.\n"
 "\n"
 "É MUITO IMPORTANTE que não escolha um tipo de monitor com um intervalo de\n"
 "sincronização que esteja além das capacidades do monitor: pode danificar o "
 "seu monitor.\n"
-"Se tiver dúvidas, escolha as definições conservadoras."
+"Em caso de dúvida, escolha uma definição conservadora."
 
 #: ../lib/Xconfig/monitor.pm:164
 #, c-format
@@ -446,7 +446,7 @@ msgstr "Configuração Xorg"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr "Opções gerais"
+msgstr "Opções globais"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
@@ -466,7 +466,7 @@ msgstr "Aceleração de material 3D"
 #: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr "Activar Translucência (extensão composta)"
+msgstr "Activar Translucência (extensão compósita)"
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
@@ -476,7 +476,7 @@ msgstr "Usar apontador de rato com aceleração de material"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Activar Aceleração RENDER (Isto pode causar erros ao mostrar texto)"
+msgstr "Activar Aceleração RENDER (isto pode causar erros ao mostrar texto)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -501,8 +501,7 @@ msgstr "Activar tecla de atalho da BIOS para mudança de monitor externo"
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Usar EXA em vez de XAA (melhor desempenho para Apresentação e Composição)"
+msgstr "Usar EXA em vez de XAA (melhor desempenho para Apresentar e Compósita)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -1038,7 +1037,7 @@ msgstr "Macedónio"
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
-msgstr "Myanmar (Burmês)"
+msgstr "Myanmar (Birmanês)"
 
 #: ../lib/keyboard.pm:270
 #, c-format
@@ -1087,14 +1086,14 @@ msgstr "Oriya"
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
-msgstr "Polaco (disposição QWERTY)"
+msgstr "Polaco (disposição qwerty)"
 
 #: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
-msgstr "Polaco (disposição QWERTZ)"
+msgstr "Polaco (disposição qwertz)"
 
 #: ../lib/keyboard.pm:280
 #, c-format
@@ -1192,21 +1191,21 @@ msgstr "Sindhi"
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
-msgstr "Serbo (cirílico)"
+msgstr "Sérvio (cirílico)"
 
 #: ../lib/keyboard.pm:299
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
-msgstr "Syriac"
+msgstr "Siríaco"
 
 #: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
-msgstr "Syriac (fonético)"
+msgstr "Siríaco (fonético)"
 
 #: ../lib/keyboard.pm:301
 #, c-format
@@ -1328,7 +1327,7 @@ msgstr "Usbequistão (cirílico)"
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
-msgstr "\"linha numérica\" QWERTY Vietnamita"
+msgstr "Vietnamita \"linha numérica\" QWERTY"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1446,7 +1445,7 @@ msgid ""
 "key to switch between the different keyboard layouts."
 msgstr ""
 "Esta opção irá ser activada após a instalação.\n"
-"Durante a instalação, irá ter de usar a tecla de Controlo Direita\n"
+"Durante a instalação, terá de usar a tecla de Controlo Direita\n"
 "para mudar a disposição do teclado."
 
 #: ../lib/mouse.pm:23
@@ -1462,12 +1461,12 @@ msgstr "Padrão"
 #: ../lib/mouse.pm:30
 #, c-format
 msgid "Logitech MouseMan+"
-msgstr "MouseMan+ Logitech"
+msgstr "Logitech MouseMan+"
 
 #: ../lib/mouse.pm:31
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "Rato de Roda Genérico PS2"
+msgstr "Rato de Roda PS2 Genérico"
 
 #: ../lib/mouse.pm:32
 #, c-format
@@ -1477,17 +1476,17 @@ msgstr "GlidePoint"
 #: ../lib/mouse.pm:35 ../lib/mouse.pm:69
 #, c-format
 msgid "Kensington Thinking Mouse"
-msgstr "Rato Thinking Kensington"
+msgstr "Rato Thinking da Kensington"
 
 #: ../lib/mouse.pm:36 ../lib/mouse.pm:64
 #, c-format
 msgid "Genius NetMouse"
-msgstr "NetMouse Genius"
+msgstr "NetMouse da Genius"
 
 #: ../lib/mouse.pm:37
 #, c-format
 msgid "Genius NetScroll"
-msgstr "Genius NetScroll"
+msgstr "NetScroll da Genius"
 
 #: ../lib/mouse.pm:38 ../lib/mouse.pm:48
 #, c-format
@@ -1527,17 +1526,17 @@ msgstr "Rato de 3 Botões Genérico"
 #: ../lib/mouse.pm:56
 #, c-format
 msgid "Microsoft IntelliMouse"
-msgstr "Microsoft IntelliMouse"
+msgstr "IntelliMouse da Microsoft"
 
 #: ../lib/mouse.pm:57
 #, c-format
 msgid "Logitech MouseMan"
-msgstr "Logitech MouseMan"
+msgstr "MouseMan da Logitech"
 
 #: ../lib/mouse.pm:58
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr "Logitech MouseMan com emulação de Roda"
+msgstr "MouseMan com emulação de Roda da Logitech"
 
 #: ../lib/mouse.pm:59
 #, c-format
@@ -1547,17 +1546,17 @@ msgstr "Sistemas de Rato"
 #: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech CC Series"
-msgstr "Séries Logitech CC"
+msgstr "Séries CC da Logitech"
 
 #: ../lib/mouse.pm:62
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr "Séries Logitech CC com emulação de Roda"
+msgstr "Séries CC com emulação de Roda da Logitech"
 
 #: ../lib/mouse.pm:63
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
-msgstr "Logitech MouseMan+/FirstMouse+"
+msgstr "MouseMan+/FirstMouse+ da Logitech"
 
 #: ../lib/mouse.pm:65
 #, c-format
@@ -1567,7 +1566,7 @@ msgstr "Séries MM"
 #: ../lib/mouse.pm:66
 #, c-format
 msgid "MM HitTablet"
-msgstr "MM HitTablet"
+msgstr "HitTablet MM"
 
 #: ../lib/mouse.pm:67
 #, c-format
@@ -1582,7 +1581,7 @@ msgstr "Rato Logitech (série, tipo C7 antigo) com emulação de Roda"
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Rato Kensington Thinking com emulação de Roda"
+msgstr "Rato Thinking com emulação de Roda da Kensington"
 
 #: ../lib/mouse.pm:73
 #, c-format
@@ -1602,7 +1601,7 @@ msgstr "3 botões"
 #: ../lib/mouse.pm:78
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "3 botões com emulação de Roda"
+msgstr "3 botões com emulação da Roda"
 
 #: ../lib/mouse.pm:81
 #, c-format
@@ -1622,7 +1621,7 @@ msgstr "Forçar evdev"
 #: ../lib/mouse.pm:85
 #, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "Controlador Microsoft Xbox S"
+msgstr "Controlador Xbox S da Microsoft"
 
 #: ../lib/mouse.pm:86
 #, c-format
@@ -1672,7 +1671,7 @@ msgstr "Porta do Rato"
 #: ../lib/mouse.pm:534
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Por favor escolha a porta série onde o seu rato está ligado."
+msgstr "Por favor escolha em que porta série o seu rato está ligado."
 
 #: ../lib/mouse.pm:543
 #, c-format
@@ -1707,7 +1706,7 @@ msgstr "MOVA A SUA RODA!"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "Precisa reiniciar para que as alterações surtam efeito"
+msgstr "Precisa reiniciar para que as alterações tenham efeito"
 
 #: ../tools/keyboarddrake:37
 #, c-format
@@ -1717,7 +1716,7 @@ msgstr "Teclado"
 #: ../tools/keyboarddrake:38
 #, c-format
 msgid "Please, choose your keyboard layout."
-msgstr "Por favor, escolha a disposição do seu teclado."
+msgstr "Por favor escolha a disposição do seu teclado."
 
 #: ../tools/keyboarddrake:39
 #, c-format
