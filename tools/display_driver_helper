@@ -234,8 +234,13 @@ check_xorg() {
 	# no driver is selected - don't load if explicit_only is 1
 	[ "$explicit_only" = "1" ] && return 1
 
-	# implicit load allowed; still don't load if no xorg.conf (i.e. live cd)
-	[ -e "/etc/X11/xorg.conf" ]
+	# implicit load allowed; only load if there is evidence that this is
+	# not a live cd or similar with automatic configuration occurring later
+	# in the boot process (which might configure a driver conflicting with
+	# the implicit driver, e.g. a proprietary one)
+	# TODO: Could this be replaced with a more robust check?
+	[ -e "/etc/X11/xorg.conf" ] || [ -e "/etc/sysconfig/harddrake2/kernels" ] ||
+		[ -e "/etc/sysconfig/harddrake2/xorg" ] || [ -e "/boot/grub/menu.lst" ]
 }
 
 # Load the driver for the specified modalias, if configured.

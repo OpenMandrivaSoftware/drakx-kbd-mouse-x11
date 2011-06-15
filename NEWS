@@ -1,5 +1,9 @@
 - display_driver_helper: do not load radeon driver if the proprietary
   driver is temporarily disabled on a PowerXpress system
+- display_driver_helper: allow automatic loading of the implicit driver
+  on systems without xorg.conf if the presence of other files indicates
+  that this is not a live cd boot before automatic X.org configuration
+  (fixes radeon KMS without xorg.conf)
 
 Version 0.92 - 21 April 2011
 
