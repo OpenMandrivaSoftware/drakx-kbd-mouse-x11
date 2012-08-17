@@ -1,5 +1,3 @@
-# translation of sl.po to Slovenian
-# translation of libDrakX-sl.po to
 # Copyright (C) 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
 #
 # Matjaž Kaše <matjaz.kase@g-kabel.si>, 2004.
@@ -8,20 +6,19 @@
 # Jure Repinc <jlp@holodeck1.com>, 2005, 2006, 2007, 2008, 2009.
 # Matjaž Kaše <matjaz.kase@telemach.net>, 2006.
 # Matej Štrovs <matej.strovs@gmail.com>, 2006.
+# Filip Komar <filip.komar@gmail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: sl\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2009-10-21 19:19+0200\n"
-"Last-Translator: Jure Repinc <jlp@holodeck1.com>\n"
-"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
-"Language: sl\n"
+"PO-Revision-Date: 2011-07-12 13:46+0000\n"
+"Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
+"Language-Team: Translation list <mageia-i18n@mageia.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || "
-"n%100==4 ? 3 : 0);\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -81,7 +78,7 @@ msgstr "Izberite grafični strežnik"
 #: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
-msgstr "Nastavitev več zaslonov"
+msgstr "Nastavitev večih zaslonov"
 
 #: ../lib/Xconfig/card.pm:207
 #, c-format
@@ -89,7 +86,7 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"Vaš sistem podpira nastavitev z več zasloni.\n"
+"Vaš sistem podpira konfiguracijo z več zasloni.\n"
 "Kaj želite storiti?"
 
 #: ../lib/Xconfig/card.pm:296
@@ -100,22 +97,16 @@ msgstr "Izberite velikost pomnilnika na grafični kartici"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Na voljo je poseben gonilnik za vašo grafično kartico, ki mogoče vsebuje "
-"dodatne  funkcije, a ni odprto-koden.\n"
+"Na voljo je lastniški gonilnik za vašo grafično kartico, ki mogoče vsebuje dodatne funkcije, a njegova koda ni odprta.\n"
 "Ali ga želite uporabiti?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"Ta zaprto-kodni gonilnik ni bil pravilno nameščen. Preklapljam na odprto-"
-"kodni gonilnik."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Ta lastniški gonilnik ni bil pravilno nameščen. Preklapljam na odprtokodni gonilnik."
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -130,7 +121,7 @@ msgstr "Uporabi razširitev Xinerama"
 #: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure only card \"%s\"%s"
-msgstr "Nastavi samo kartico »%s«%s"
+msgstr "Nastavi samo kartico »%s« %s"
 
 #: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
 #: ../lib/Xconfig/monitor.pm:136
@@ -226,23 +217,17 @@ msgstr "Proizvajalec"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Kritična parametra sta: navpično osveževanje (hitrost, s katero se osvežuje "
-"celoten zaslon) in najbolj pomembno, vodoravno osveževanje (hitrost, s "
-"katero se izrisujejo vrstice).\n"
+"Kritična parametra sta dva: navpično osveževanje (hitrost, s katero se osvežuje celoten zaslon) in najbolj pomembno, vodoravno osveževanje (hitrost, s katero se izrisujejo vrstice).\n"
 "\n"
-"ZELO POMEMBNO je, da ne izberete zaslona z osvežitvami, ki presegajo "
-"zmožnosti vašega zaslona, ker s tem lahko poškodujete zaslon!\n"
+"ZELO POMEMBNO je, da ne izberete tipa zaslona z osvežitvami, ki presegajo zmožnosti vašega, ker ga s tem lahko poškodujete!\n"
 "Če ste v dvomih, izberite konservativno nastavitev."
 
 #: ../lib/Xconfig/monitor.pm:164
@@ -334,9 +319,7 @@ msgstr "Ali želite preizkusiti nastavitve?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Pozor: preizkušanje te grafične kartice lahko povzroči, da se računalnik "
-"preneha odzivati."
+msgstr "Pozor: preizkušanje te grafične kartice lahko povzroči, da se računalnik preneha odzivati."
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -352,7 +335,7 @@ msgstr ""
 #: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Leaving in %d seconds"
-msgstr "Izhod čez %d s"
+msgstr "Izhod čez %d sekund"
 
 #: ../lib/Xconfig/test.pm:126
 #, c-format
@@ -361,7 +344,9 @@ msgstr "Ali je to prava nastavitev?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgid ""
+"Disable Ctrl-Alt-Backspace: %s\n"
+""
 msgstr "Onemogoči Ctrl+Alt+Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -376,63 +361,85 @@ msgstr "da"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid "3D hardware acceleration: %s\n"
+msgid ""
+"3D hardware acceleration: %s\n"
+""
 msgstr "Strojno 3D pospeševanje: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid "Keyboard layout: %s\n"
+msgid ""
+"Keyboard layout: %s\n"
+""
 msgstr "Razpored tipkovnice: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid "Mouse type: %s\n"
+msgid ""
+"Mouse type: %s\n"
+""
 msgstr "Vrsta miške: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid "Monitor: %s\n"
+msgid ""
+"Monitor: %s\n"
+""
 msgstr "Zaslon: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid "Monitor HorizSync: %s\n"
+msgid ""
+"Monitor HorizSync: %s\n"
+""
 msgstr "Vodoravno osveževanje zaslona: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid "Monitor VertRefresh: %s\n"
+msgid ""
+"Monitor VertRefresh: %s\n"
+""
 msgstr "Navpično osveževanje zaslona: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid "Graphics card: %s\n"
+msgid ""
+"Graphics card: %s\n"
+""
 msgstr "Grafična kartica: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid "Graphics memory: %s kB\n"
+msgid ""
+"Graphics memory: %s kB\n"
+""
 msgstr "Grafični pomnilnik: %s KiB\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid "Color depth: %s\n"
+msgid ""
+"Color depth: %s\n"
+""
 msgstr "Barvna globina: %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid "Resolution: %s\n"
+msgid ""
+"Resolution: %s\n"
+""
 msgstr "Ločljivost: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid "Xorg driver: %s\n"
-msgstr "Gonilnik: %s\n"
+msgid ""
+"Xorg driver: %s\n"
+""
+msgstr "Gonilnik Xorg: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
 #, c-format
 msgid "Xorg configuration"
-msgstr "Nastavitev grafičnega strežnika"
+msgstr "Nastavitev grafičnega strežnika Xorg"
 
 #: ../lib/Xconfig/various.pm:239
 #, c-format
@@ -467,9 +474,7 @@ msgstr "Uporabi strojno pospeševanje za miškin kazalec"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Omogoči pospeševanje RENDER (to lahko povzroči napake pri prikazovanju "
-"besedila)"
+msgstr "Omogoči pospeševanje RENDER (to lahko povzroči napake pri prikazovanju besedila)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -494,7 +499,7 @@ msgstr "Omogoči tipko za preklop zunanjega zaslona"
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Namesto XAA uporabi EXA (boljše zmogljivosti za Render in Composite)"
+msgstr "Namesto XAA uporabi EXA (boljše zmogljivosti za razširitev Render in Composite)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -512,8 +517,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -521,8 +525,7 @@ msgstr ""
 "Izgleda, da ima vaša grafična kartica TV izhod.\n"
 "Deluje lahko s pomočjo medpomnilnika sličic.\n"
 "\n"
-"Da bi to dosegli, morate grafično kartico povezati s TV sprejemnikom, preden "
-"zaženete računalnik.\n"
+"Da bi to dosegli, morate grafično kartico povezati s TV sprejemnikom, preden zaženete računalnik.\n"
 "Nato pa v zagonskem nalagalniku izberete vnos »TVout«.\n"
 "\n"
 "Ali ima vaša kartica TV izhod?"
@@ -1439,7 +1442,7 @@ msgid ""
 msgstr ""
 "Ta nastavitev bo uveljavljena po namestitvi.\n"
 "Med namestitvijo boste morali za preklapljanje\n"
-"uporabljati desno tipko Ctrl."
+"uporabljati desno tipko »Ctrl«."
 
 #: ../lib/mouse.pm:23
 #, c-format
@@ -1724,30 +1727,4 @@ msgstr "Vrsta tipkovnice"
 #: ../tools/keyboarddrake:65
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
-msgstr "Ali želite, da ima Vračalka v konzoli funkcijo »izbriši«?"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "litovska (AZERTY, stara)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "litovska (AZERTY, nova)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "litovska (»številčna vrsta« QWERTY)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "litovska (\"fonetična\" QWERTY)"
-
-#~ msgid "Mouse test"
-#~ msgstr "Preizkus miške"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Preizkusite miško:"
+msgstr "Ali želite, da ima Vračalka (BackSpace) v konzoli funkcijo »izbriši«?"
