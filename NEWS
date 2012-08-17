@@ -1,5 +1,6 @@
 Version 0.93 - 17 August 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
+- add support for Asturian keyboard
 - prefer boot display devices when probing cards (fixes at least an issue
   with an SLI laptop as reported by Maarten Vanraes)
 - harddrake: configure default resolution (and background) even if card
