@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2011-05-02 09:59+0000\n"
+"PO-Revision-Date: 2011-05-12 19:34+0000\n"
 "Last-Translator: Rémi Verschelde <rverschelde@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1703,7 +1703,7 @@ msgstr "VEUILLEZ FAIRE TOURNER LA MOLETTE !"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "Vous devez vous déconnecter puis vous connecter à nouveau afin de prendre les changements en considération"
+msgstr "Vous devez redémarrer votre ordinateur pour que les changements soient pris en compte"
 
 #: ../tools/keyboarddrake:37
 #, c-format
