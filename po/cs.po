@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2011-05-24 12:44+0000\n"
+"PO-Revision-Date: 2012-03-10 14:24+0000\n"
 "Last-Translator: Tomas Kindl <supp@mageia-devel.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -343,9 +343,7 @@ msgstr "Je toto správné nastavení?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid ""
-"Disable Ctrl-Alt-Backspace: %s\n"
-""
+msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Vypnout Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -360,79 +358,57 @@ msgstr "ano"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid ""
-"3D hardware acceleration: %s\n"
-""
+msgid "3D hardware acceleration: %s\n"
 msgstr "Hardwarová 3D akcelerace: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid ""
-"Keyboard layout: %s\n"
-""
+msgid "Keyboard layout: %s\n"
 msgstr "Rozložení klávesnice: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid ""
-"Mouse type: %s\n"
-""
+msgid "Mouse type: %s\n"
 msgstr "Typ myši: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid ""
-"Monitor: %s\n"
-""
+msgid "Monitor: %s\n"
 msgstr "Monitor: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid ""
-"Monitor HorizSync: %s\n"
-""
+msgid "Monitor HorizSync: %s\n"
 msgstr "Horizontální frekvence monitoru: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid ""
-"Monitor VertRefresh: %s\n"
-""
+msgid "Monitor VertRefresh: %s\n"
 msgstr "Vertikální frekvence monitoru: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid ""
-"Graphics card: %s\n"
-""
+msgid "Graphics card: %s\n"
 msgstr "Grafická karta: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid ""
-"Graphics memory: %s kB\n"
-""
+msgid "Graphics memory: %s kB\n"
 msgstr "Paměť na gr. kartě: %s kB\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid ""
-"Color depth: %s\n"
-""
+msgid "Color depth: %s\n"
 msgstr "Barevná hloubka: %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid ""
-"Resolution: %s\n"
-""
+msgid "Resolution: %s\n"
 msgstr "Rozlišení: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid ""
-"Xorg driver: %s\n"
-""
+msgid "Xorg driver: %s\n"
 msgstr "Xorg ovladač: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
