@@ -93,22 +93,16 @@ msgstr "Valige graafikamälu suurus"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Teie videokaardile on olemas kommertsdraiver, mis võib pakkuda täiendavaid "
-"võimalusi.\n"
+"Teie videokaardile on olemas kommertsdraiver, mis võib pakkuda täiendavaid võimalusi.\n"
 "Kas soovite seda kasutada?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"Kommertsdraiver ei ole korrektselt paigaldatud, kasutatakse vaba tarkvara "
-"draiverit."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Kommertsdraiver ei ole korrektselt paigaldatud, kasutatakse vaba tarkvara draiverit."
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -219,23 +213,19 @@ msgstr "Tootja"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Kaks kriitilist suurust on ekraanisagedus, mis määrab kogu kuva\n"
 "uuendamise aja, ja realaotussagedus\n"
 "\n"
 "On VÄGA TÄHTIS, et Te ei määraks siinkohal monitori, mille realaotus on\n"
-"suurem, kui Teie monitor võimaldab. Vastasel juhul võib Teie monitor "
-"hävida.\n"
+"suurem, kui Teie monitor võimaldab. Vastasel juhul võib Teie monitor hävida.\n"
 "Kui kahtlete, valige pigem väiksem väärtus."
 
 #: ../lib/Xconfig/monitor.pm:164
@@ -352,7 +342,9 @@ msgstr "Kas see on sobiv?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgid ""
+"Disable Ctrl-Alt-Backspace: %s\n"
+""
 msgstr "Ctrl+Alt+Backspace'i keelamine: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -367,57 +359,79 @@ msgstr "jah"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid "3D hardware acceleration: %s\n"
+msgid ""
+"3D hardware acceleration: %s\n"
+""
 msgstr "3D riistvaraline kiirendus: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid "Keyboard layout: %s\n"
+msgid ""
+"Keyboard layout: %s\n"
+""
 msgstr "Klaviatuuriasetus: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid "Mouse type: %s\n"
+msgid ""
+"Mouse type: %s\n"
+""
 msgstr "Hiire tüüp: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid "Monitor: %s\n"
+msgid ""
+"Monitor: %s\n"
+""
 msgstr "Monitor: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid "Monitor HorizSync: %s\n"
+msgid ""
+"Monitor HorizSync: %s\n"
+""
 msgstr "Realaotussagedus: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid "Monitor VertRefresh: %s\n"
+msgid ""
+"Monitor VertRefresh: %s\n"
+""
 msgstr "Ekraaniuuendussagedus: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid "Graphics card: %s\n"
+msgid ""
+"Graphics card: %s\n"
+""
 msgstr "Graafikakaart: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid "Graphics memory: %s kB\n"
+msgid ""
+"Graphics memory: %s kB\n"
+""
 msgstr "Videomälu: %s kB\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid "Color depth: %s\n"
+msgid ""
+"Color depth: %s\n"
+""
 msgstr "Värvisügavus: %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid "Resolution: %s\n"
+msgid ""
+"Resolution: %s\n"
+""
 msgstr "Ekraanilahutus: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid "Xorg driver: %s\n"
+msgid ""
+"Xorg driver: %s\n"
+""
 msgstr "Xorg-i draiver: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
@@ -501,8 +515,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -1712,23 +1725,3 @@ msgstr "Klaviatuuritüüp"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Kas soovite konsoolis kasutada BackSpace-i kui Delete?"
-
-#~ msgid "Mouse test"
-#~ msgstr "Hiire test"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Palun testige hiirt:"
-
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Plug'n Play test ebaõnnestus. Palun valige monitor täpsemalt"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "Kasutatav ekraanilahutus ei pruugi olla korrektne. \n"
-#~ "\n"
-#~ "Kui töölaud tundub ulatuvat kuvari nähtavast osast välja, \n"
-#~ "võib abiks olla %s paigaldamine. Kas paigaldada see kohe?"
