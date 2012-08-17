@@ -7,19 +7,19 @@
 # Taras Boychuk <btr1@mail.ru>, 2004, 2003.
 # Taras Boychuk <btr1@ukrpost.net>, 2004, 2005.
 # Taras Boychuk <btr0001@ukr.net>, 2008, 2009, 2010.
-# Yuri Chornoivan <yurchor@ukr.net>, 2009.
+# Yuri Chornoivan <yurchor@ukr.net>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2012-04-05 03:54+0300\n"
-"PO-Revision-Date: 2010-03-14 10:44-0400\n"
-"Last-Translator: Taras Boychuk <btr0001@ukr.net>\n"
+"PO-Revision-Date: 2012-04-05 15:47+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -277,6 +277,19 @@ msgid ""
 "driver by going to \"Set up the graphical server\" at Mageia Control Center "
 "and re-selecting your graphics card."
 msgstr ""
+"Щоб вільний драйвер до вашої графічної картки, «%s», міг працювати належним "
+"чином (зокрема скористатися апаратним прискоренням просторової графіки), слід "
+"встановити пакунок з закритою мікропрограмою, «%s». Втім, цього пакунка немає "
+"на увімкнених вами носіях даних сховища пакунків.\n"
+"\n"
+"Замість повноцінного драйвера буде використано базовий драйвер, «%s», у якому "
+"не передбачено можливостей апаратного прискорення обробки графічних даних.\n"
+"\n"
+"Щоб увімкнути всі можливості графічної картки пізніше, надайте системі доступ "
+"до сховища «nonfree» у вікні програми «Встановити і вилучити програми» і "
+"виконайте повторну процедуру налаштування графічного драйвера за допомогою "
+"пункту «Налаштувати графічний сервер» у Центрі керування Mageia (повторно "
+"виберіть пункт встановленої у вашій системі графічної картки)."
 
 #: ../lib/Xconfig/proprietary.pm:67
 #, c-format
@@ -290,6 +303,15 @@ msgid ""
 "section at \"Install and remove software\" and install the firmware package "
 "manually or reconfigure your graphics card."
 msgstr ""
+"Щоб вільний драйвер до вашої графічної картки, «%s», міг працювати належним "
+"чином (зокрема скористатися апаратним прискоренням просторової графіки), слід "
+"встановити пакунок з закритою мікропрограмою, «%s». Втім, цього пакунка немає "
+"на увімкнених вами носіях даних сховища пакунків.\n"
+"\n"
+"Щоб увімкнути всі можливості графічної картки пізніше, надайте системі доступ "
+"до сховища «nonfree» у вікні програми «Встановити і вилучити програми» і "
+"встановіть пакунок з мікропрограмою (firmware) вручну або виконайте повторну "
+"процедуру налаштування вашої графічної картки."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -683,11 +705,11 @@ msgid ""
 msgstr "Арабська"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Естонська"
+msgstr "Астурійська"
 
 #: ../lib/keyboard.pm:206
 #, c-format
@@ -1247,14 +1269,14 @@ msgstr "Телуґу"
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
-msgstr "Тамільська (мапа ISCII)"
+msgstr "Тамільська (розкладка ISCII)"
 
 #: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
-msgstr "Тамільська (машинописна мапа)"
+msgstr "Тамільська (машинописна розкладка)"
 
 #: ../lib/keyboard.pm:307
 #, c-format
@@ -1473,7 +1495,7 @@ msgid ""
 msgstr ""
 "Ці налаштування буде задіяно після встановлення.\n"
 "Під час встановлення потрібно буде використовувати праву\n"
-"клавішу Control для перемикання між різними мапами клавіатури."
+"клавішу Control для перемикання між різними розкладками клавіатури."
 
 #: ../lib/mouse.pm:26
 #, c-format
@@ -1748,7 +1770,7 @@ msgstr "Будь ласка, виберіть мапу клавіатури."
 #: ../tools/keyboarddrake:39
 #, c-format
 msgid "Keyboard layout"
-msgstr "Мапа клавіатури"
+msgstr "Розкладка клавіатури"
 
 #: ../tools/keyboarddrake:52
 #, c-format
