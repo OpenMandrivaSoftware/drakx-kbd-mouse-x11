@@ -380,8 +380,14 @@ sub change_bootloader_config {
 
     $do->($bootloader, @do_params) or return;
 
-    bootloader::action($bootloader, 'write', $all_hds);
-    bootloader::action($bootloader, 'when_config_changed');
+    # Do not install bootloader when configuring X during install.
+    # This will be done at end of summary to allow selecting where
+    # to install bootloader.
+    unless ($::isInstall) {
+	bootloader::action($bootloader, 'write', $all_hds);
+	bootloader::action($bootloader, 'when_config_changed');
+    }
+
     1;
 }
 
