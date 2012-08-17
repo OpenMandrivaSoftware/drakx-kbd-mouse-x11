@@ -78,10 +78,11 @@ $configure_this ||= $::auto ? 'auto_install' : 'everything';
 sub check_XFree {
     my ($in) = @_;
 
+    # FIXME: drop this very old useless block in mga3
     #- set the standard configuration
     {
 	my $f = "/etc/X11/xorg.conf";
-	symlinkf("$_.standard", $f) if -l $f && -e "$f.standard";
+	symlinkf("xorg.conf.standard", $f) if -l $f && -e "$f.standard";
     }
 
     $in->do_pkgs->ensure_are_installed(['task-x11']) or $in->exit;
