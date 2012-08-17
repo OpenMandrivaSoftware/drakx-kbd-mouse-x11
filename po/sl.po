@@ -11,9 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2012-04-05 03:54+0300\n"
-"PO-Revision-Date: 2011-07-12 13:46+0000\n"
+"PO-Revision-Date: 2012-04-05 16:46+0000\n"
 "Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
-"Language-Team: Translation list <mageia-i18n@mageia.org>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>, Translation list <mageia-"
+"i18n@mageia.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -272,6 +273,16 @@ msgid ""
 "driver by going to \"Set up the graphical server\" at Mageia Control Center "
 "and re-selecting your graphics card."
 msgstr ""
+"Odprtokodni gonilnik »%s« za vašo grafično kartico zahteva paket »%s« z "
+"lastniško strojno programsko opremo, ki v omogočenih virih ni na voljo.\n"
+"\n"
+"Zato bo uporabljen osnovni, nepospešeni gonilnik »%s«.\n"
+"\n"
+"Za uporabo naprednega, pospešenega gonilnika, kasneje omogočite vir z "
+"»lastniško« programsko opremo v Nadzornem središču v delu »Namestite in "
+"odstranite programe«. Nato ponovno nastavite gonilnik za vašo grafično "
+"kartico v delu »Nastavite grafični strežnik« s ponovnim izborom vaše "
+"grafične kartice."
 
 #: ../lib/Xconfig/proprietary.pm:67
 #, c-format
@@ -285,6 +296,14 @@ msgid ""
 "section at \"Install and remove software\" and install the firmware package "
 "manually or reconfigure your graphics card."
 msgstr ""
+"Odprtokodni gonilnik »%s« za polno funkcionalnost (vključno s 3D "
+"pospeševanjem) vaše grafične kartice zahteva paket »%s« z lastniško strojno "
+"programsko opremo, ki v omogočenih virih ni na voljo.\n"
+"\n"
+"Za uporabo vseh zmožnosti vaše grafične kartice, kasneje omogočite vir z "
+"»lastniško« programsko opremo v Nadzornem središču v delu »Namestite in "
+"odstranite programe«. Nato ročno namestite lastniško strojno programsko "
+"opremo ali ponovno nastavite gonilnik za vašo grafično kartico."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -678,11 +697,11 @@ msgid ""
 msgstr "Arabska"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Estonska"
+msgstr "Asturijska"
 
 #: ../lib/keyboard.pm:206
 #, c-format
