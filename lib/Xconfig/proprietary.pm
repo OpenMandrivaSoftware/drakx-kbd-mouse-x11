@@ -48,17 +48,25 @@ sub handle_DRIVER2_NO_SSE {
 }
 
 sub handle_FIRMWARE {
-    my ($do_pkgs, $card) = @_;
+    my ($do_pkgs, $card, $o_in) = @_;
 
     my $pkg = $card->{FIRMWARE} or return;
 
-    $do_pkgs->is_installed($pkg) || $do_pkgs->install($pkg) and return;
+    $do_pkgs->is_installed($pkg) || ($do_pkgs->is_available($pkg) && $do_pkgs->install($pkg)) and return;
+
     if ($card->{DRIVER_NO_FIRMWARE}) {
 	log::l("$card->{Driver} need a firmware to work, switching back to $card->{DRIVER_NO_FIRMWARE}");
+
+        # do not show warning if the user selected the proprietary driver
+        !$card->{Driver2} and $o_in and $o_in->ask_warn('', N("The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed, but it was not available on the enabled media.\n\nThe basic non-accelerated '%s' driver will be configured instead.\n\nTo enable full graphics support later, enable the 'nonfree' repository section at \"Install and remove software\" and reconfigure the graphics driver by going to \"Set up the graphical server\" at Mageia Control Center and re-selecting your graphics card.", $card->{Driver}, $card->{FIRMWARE}, $card->{DRIVER_NO_FIRMWARE}));
+
 	$card->{Driver} = $card->{DRIVER_NO_FIRMWARE};
 
     } else {
 	log::l("$card->{Driver} needs a firmware to work smoothly/better (eg: 3D, KMS) but will still work");
+
+        # do not show warning if the user selected the proprietary driver
+        !$card->{Driver2} and $o_in and $o_in->ask_warn('', N("The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed in order for all features (including 3D acceleration) to work properly, but that package was not available in the enabled media.\n\nTo enable all graphics card features later, enable the 'nonfree' repository section at \"Install and remove software\" and install the firmware package manually or reconfigure your graphics card.", $card->{Driver}, $card->{FIRMWARE}));
     }
 }
 

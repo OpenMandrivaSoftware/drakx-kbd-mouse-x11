@@ -328,7 +328,7 @@ Do you wish to use it?")), 1))) {
 	}
     }
 
-    Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card);
+    Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card, $o_in);
 
     # handle_FIRMWARE could've changed $card->{Driver}
     my @must_have = "x11-driver-video-$card->{Driver}";
