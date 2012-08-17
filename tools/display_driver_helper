@@ -66,8 +66,8 @@ check_driver() {
 		NEEDS_LOAD_NOW=1
 		;;
 	nouveau)
-		# these KMS drivers require an explicit directive in xorg.conf
-		check_xorg $name 1 || return 1
+		# implicitely loaded by X.org
+		check_xorg $name 0 || return 1
 		IS_KMS=1
 		;;
 	fglrx)

@@ -2,6 +2,8 @@ Version 0.93 - 17 August 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - display_driver_helper changes:
   o drop support for unused and unuseful --check-initrd option
+  o allow use of nouveau without xorg.conf as it is now autoselected by
+    X server in that case
 - do not generate a xorg.conf symlink pointing to nothing if
   xorg.conf.standard exists
 - do not run setxkbmap during text install
