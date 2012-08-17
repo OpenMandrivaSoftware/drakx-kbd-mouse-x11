@@ -496,6 +496,7 @@ sub readCardsDB {
 	CHIPSET => sub { $card->{Chipset} = $val },
 	DRIVER => sub { $card->{Driver} = $val },
 	DRIVER2 => sub { $card->{Driver2} = $val },
+	DRIVER2_NEEDS_SSE => sub { $card->{DRIVER2_NEEDS_SSE} = 1 },
 	DRIVER2_NO_SSE => sub { $card->{DRIVER2_NO_SSE} = $val },
 	NEEDVIDEORAM => sub { $card->{needVideoRam} = 1 },
 	DRI_GLX => sub { $card->{DRI_GLX} = 1 if $card->{Driver} },

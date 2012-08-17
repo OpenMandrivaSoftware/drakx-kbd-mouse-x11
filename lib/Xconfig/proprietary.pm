@@ -37,12 +37,13 @@ sub install_matrox_hal {
 sub handle_DRIVER2_NO_SSE {
     my ($card) = @_;
 
-    $card->{DRIVER2_NO_SSE} or return;
+    $card->{DRIVER2_NO_SSE} || $card->{DRIVER2_NEEDS_SSE} or return;
 
     require detect_devices;
     if (!detect_devices::has_cpu_flag('sse')) {
-	log::l("$card->{Driver2} need a processor featuring SSE, switching back to $card->{DRIVER2_NO_SSE}");
-	$card->{Driver2} = $card->{DRIVER2_NO_SSE};
+	my $driver = $card->{DRIVER2_NEEDS_SSE} ? $card->{DRIVER} : $card->{DRIVER2_NO_SSE};
+	log::l("$card->{Driver2} need a processor featuring SSE, switching back to $driver");
+	$card->{Driver2} = $driver;
     }
 }
 
