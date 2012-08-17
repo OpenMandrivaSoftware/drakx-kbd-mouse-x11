@@ -93,12 +93,14 @@ sub probe() {
 #-    my @c = { driver => 'Card:Matrox Millennium G400 DualHead', description => 'Matrox|Millennium G400 Dual HeadCard' };
     my @c = detect_devices::matching_driver__regexp('^(Card|Server|Driver):');
 
-    my @cards = map {
+    # prefer the boot device
+    my @cards = sort { $b->{boot_device} cmp $a->{boot_device} } map {
 	my @l = $_->{description} =~ /(.*?)\|(.*)/;
 	my $card = { 
 	    description => $_->{description},
 	    VendorName => $l[0], BoardName => $l[1],
 	    BusID => "PCI:$_->{pci_bus}:$_->{pci_device}:$_->{pci_function}",
+	    boot_device => chomp_(cat_($_->{sysfs_device} . "/boot_vga")) || 0,
 	};
 	if (my ($card_name) = $_->{driver} =~ /Card:(.*)/) { 
 	    $card->{BoardName} = $card_name; 
