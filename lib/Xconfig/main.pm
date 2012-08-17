@@ -55,7 +55,7 @@ sub configure_everything_auto_install {
 
     #- still try to configure screen and resolution (to set default background)
     #- if card configuration failed (for example if best driver is not available)
-    $X->{resolutions} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card} ||{}, $X->{monitors}, $old_X);
+    $X->{resolutions} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card} || {}, $X->{monitors}, $old_X);
     return if !$configured;
 
     my $action = &write($raw_X, $X, $options->{skip_fb_setup});
@@ -214,7 +214,7 @@ sub write {
     Xconfig::various::check_xorg_conf_symlink();
     Xconfig::various::setup_kms();
     if ($X->{resolutions}[0]{bios}) {
-	Xconfig::various::setupFB($X->{resolutions}[0]{bios}) if !$o_skip_fb_setup;;
+	Xconfig::various::setupFB($X->{resolutions}[0]{bios}) if !$o_skip_fb_setup;
 	'need_reboot';
     } elsif (my $resolution = $only_resolution && eval { $raw_X->get_resolution }) {
 	'need_xrandr' . sprintf(' --size %dx%d', @$resolution{'X', 'Y'});

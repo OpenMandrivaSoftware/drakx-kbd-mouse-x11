@@ -114,7 +114,7 @@ sub config {
     my ($raw_X, $card, $various) = @_;
 
     if (exists $various->{DontZap}) {
-	configure_ServerFlag($raw_X, 'DontZap', $various->{DontZap} eq 1 ? 'True' : 'False');
+	configure_ServerFlag($raw_X, 'DontZap', $various->{DontZap} == 1 ? 'True' : 'False');
     }
     if ($various->{Composite}) {
 	$raw_X->remove_extension('Composite');
@@ -339,15 +339,15 @@ sub configure_FB_TVOUT {
 }
 
 sub configure_ServerFlag {
-    my ($raw_X, $option, $value) = @_;
+    my ($raw_X, $option, $o_value) = @_;
     my $ServerFlags = $raw_X->get_Section('ServerFlags');
-    my $option_ref = $ServerFlags->{$option}->[0];
-    if ($value) {
-	$option_ref->{val} = $value;
+    my $option_ref = $ServerFlags->{$option}[0];
+    if ($o_value) {
+	$option_ref->{val} = $o_value;
 	$option_ref->{commented} = 0;
 	$option_ref->{Option} = 1;
     }
-    return undef if $option_ref->{commented} eq 1;
+    return undef if $option_ref->{commented} == 1;
     $option_ref->{val};
 }
 
@@ -399,7 +399,7 @@ sub setupFB {
 	}, $bios_vga_mode);
 }
 
-sub setup_kms {
+sub setup_kms() {
     change_bootloader_config(
 	sub {
 	    my ($bootloader) = @_;
