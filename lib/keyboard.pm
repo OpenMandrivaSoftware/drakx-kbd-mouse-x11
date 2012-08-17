@@ -585,7 +585,7 @@ sub setup_install {
     log::l("loading keymap $kmap");
     if (-e (my $f = "$ENV{SHARE_PATH}/keymaps/$kmap.bkmap")) {
 	_builtin_loadkeys(scalar cat_($f));
-    } elsif (-x '/bin/loadkeys') {
+    } elsif (-x '/usr/bin/loadkeys') {
 	run_program::run('loadkeys', $kmap);
     } else {
 	log::l("ERROR: can not load keymap");
