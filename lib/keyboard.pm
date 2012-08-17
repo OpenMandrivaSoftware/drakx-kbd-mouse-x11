@@ -590,7 +590,11 @@ sub setup_install {
     } else {
 	log::l("ERROR: can not load keymap");
     }
+    setup_install_X11($keyboard);
+}
 
+sub setup_install_X11 {
+    my ($keyboard) = @_;
     if (-x "/usr/bin/setxkbmap") {
 	_setxkbmap($keyboard) or log::l("setxkbmap failed");
     } else {
