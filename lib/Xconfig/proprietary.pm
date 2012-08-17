@@ -49,7 +49,7 @@ sub handle_DRIVER2_NO_SSE {
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;
 
-    my ($pkg, $base_name) = ($Driver2 =~ /^fglrx|^nvidia/) ?
+    my ($pkg, $base_name) = $Driver2 =~ /^fglrx|^nvidia/ ?
                             ("x11-driver-video-$Driver2", $Driver2) : () or return;
 
     $do_pkgs->is_installed($pkg) || $do_pkgs->is_available($pkg) or
@@ -96,8 +96,8 @@ sub may_use_Driver2 {
 
 	log::explanations("Using specific NVIDIA driver and GLX extensions");
 	$card2->{DRI_GLX_SPECIAL} = 1;
-	$card2->{Options}{IgnoreEDID} = 1 if ($card2->{DriverVersion} eq "71xx");
-	$card2->{Options}{UseEDID} = 0 if ($card2->{DriverVersion} eq "96xx");
+	$card2->{Options}{IgnoreEDID} = 1 if $card2->{DriverVersion} eq "71xx";
+	$card2->{Options}{UseEDID} = 0 if $card2->{DriverVersion} eq "96xx";
 	$card2;
     } elsif ($card2->{Driver} eq 'fglrx') {
 	$check_drv->('fglrx_drv', "fglrx$card2->{DriverVersion}") or return;
