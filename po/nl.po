@@ -8,13 +8,13 @@
 # Peter Bosch <peter.bosch@hccnet.nl>, 2002.
 # Rob Teng <mandrake.tips@free.fr>, 2005.
 # Arno Fleming, 2006.
-# Remco Rijnders <remco@webconquest.com>, 2011.
+# Remco Rijnders <remco@webconquest.com>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2012-04-05 03:54+0300\n"
-"PO-Revision-Date: 2011-05-01 13:39+0100\n"
+"PO-Revision-Date: 2012-04-06 12:06+0100\n"
 "Last-Translator: Remco Rijnders <remco@webconquest.com>\n"
 "Language-Team: Dutch <i18n-nl@ml.mageia.org>\n"
 "Language: nl\n"
@@ -276,6 +276,18 @@ msgid ""
 "driver by going to \"Set up the graphical server\" at Mageia Control Center "
 "and re-selecting your graphics card."
 msgstr ""
+"Het vrije '%s'-besturingsprogramma voor uw videokaart benodigt de installatie "
+"van het niet vrije firmwarepakket '%s', welke niet beschikbaar is op de "
+"ingeschakelde media.\n"
+"\n"
+"In plaats daarvan wordt het niet versnelde basisbesturingsprogramma '%s' "
+"geconfigureerd.\n"
+"\n"
+"Om later alsnog de volledige ondersteuning voor uw videokaart in te schakelen, "
+"schakelt u de 'nonfree'-repository in onder \"Softwarebeheer\" in het Mageia "
+"Configuratiecentrum en stelt u vervolgens het besturingsprogramma opnieuw in "
+"door nogmaals uw videokaart in te stellen onder \"Apparatuur\" van het "
+"configuratiecentrum."
 
 #: ../lib/Xconfig/proprietary.pm:67
 #, c-format
@@ -289,6 +301,16 @@ msgid ""
 "section at \"Install and remove software\" and install the firmware package "
 "manually or reconfigure your graphics card."
 msgstr ""
+"Het vrije '%s'-besturingsprogramma voor uw videokaart benodigt de installatie "
+"van het niet vrije firmwarepakket '%s' om alle mogelijkheden (waaronder "
+"3D-acceleratie) correct te laten werken. Dit pakket is echter niet beschikbaar "
+"op de ingeschakelde media.\n"
+"\n"
+"Om later alsnog de volledige ondersteuning voor uw videokaart in te schakelen, "
+"schakelt u de 'nonfree'-repository in onder \"Softwarebeheer\" in het Mageia "
+"Configuratiecentrum en stelt u vervolgens het besturingsprogramma opnieuw in "
+"door het pakket met de firmware handmatig te installeren of nogmaals uw "
+"videokaart in te stellen onder \"Apparatuur\" van het configuratiecentrum."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -682,11 +704,11 @@ msgid ""
 msgstr "Arabisch"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Ests"
+msgstr "Asturisch"
 
 #: ../lib/keyboard.pm:206
 #, c-format
