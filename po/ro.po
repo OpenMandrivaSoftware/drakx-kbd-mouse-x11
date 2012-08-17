@@ -1,64 +1,19 @@
-# Translation of drakx-kbd-mouse-x11.po to Romanian
-# Copyright (c) 1999-2010 Mandriva
-#
-# Vă rugăm să nu actualizaţi fișierul, cu excepția cazului în care sînteți
-# sigur de calitatea traducerii dumneavoastră, de gramatică și de ortografie.
-# Acestea din urmă sînt de prea multe ori aproximative.
-# Corectarea lor ulterioară nu are nici un alt rezultat decît acela de
-# pierdere de timp pentru toata lumea.
-#
-# VĂ RUGĂM SĂ RESPECTAȚI SEMNELE DE PUNCTUAȚIE ALE LIMBII ROMÂNE!
-#
-# Nu suprimați spațiul care urmează unui semn de punctuație de sfîrșit de
-# frază; trebuie respectată versiunea originală. În acest caz, este foarte
-# probabil ca programul să afișeze un mesaj la sfîrșit. Suprimînd acel spațiu,
-# cele două cuvintele vor fi afișate legat.
-#
-# Traduceți de manieră INTELIGENTĂ (de ce nu și prin comparație cu alte
-# traduceri ale acestui fișier în alte limbi) și nu cuvînt cu cuvînt. Unele
-# astfel de traduceri nu au nici un sens în limba română.
-#
-# ATENȚIE LA FONTURILE UTILIZATE! Pentru a reda corect diacriticele folosiți
-# disponerea tastaturii românească standard, codarea de caractere UTF-8 și
-# asigurați-vă că fonturile utilizate sînt cu virgulițe, NU CU SEDILE!
-# Exemplu:
-#          font incorect (cu sedile): şŞ ţŢ
-#          font corect (cu virgule): șȘ țȚ
-#
-# Pentru a vă asigura că folosiți fonturile corecte, vizitați:
-#          http://i18n.ro/Fonturi_romanesti/testare
-#
-# Vă mulțumim pentru înțelegere.
-#                                                       Echipa de traducători,
-#                                                       www.Mandrivausers.ro
-#
-# Traducători de-a lungul timpului:
-#
-#
-# Florin GRAD <florin@mandriva.com>, 1999, 2000.
-# Dragos Marian BARBU <dragosb@softhome.net>, 2000.
-# Ovidiu CONSTANTIN <ovidiu.constantin@gmx.net>, 2002, 2003.
-# Harald ERSCH <harald@ersch.ro>, 2003.
-# Cristian Ionuț PÎRÎU <piriu.cristian@rdslink.ro>, 2008.
-# Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2009.
-# Florin Catalin RUSSEN <cfrussen@yahoo.co.uk>, 2009, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2010-05-26 18:17+0100\n"
-"Last-Translator: Cătălin Florin RUSSEN <cfrussen@yahoo.co.uk>\n"
-"Language-Team: Romanian <cooker-i18n@mandrivalinux.org>\n"
-"Language: ro\n"
+"PO-Revision-Date: 2011-05-19 13:11+0000\n"
+"Last-Translator: Florin Catalin RUSSEN <cfrussen@yahoo.co.uk>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
-"2:1))\n"
-"X-Poedit-Language: Romanian\n"
-"X-Poedit-Country: ROMANIA\n"
-"X-Generator: Lokalize 1.0\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2)\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -137,21 +92,16 @@ msgstr "Alegeți cantitatea de memorie a plăcii grafice"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Există și un pilot proprietar al plăcii voastre grafice cu suport pentru "
-"funcționalități suplimentare.\n"
+"Există și un pilot proprietar al plăcii voastre grafice cu suport pentru funcționalități suplimentare.\n"
 "Doriți să-l utilizați?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"Pilotul proprietar nu s-a instalat corespunzător, se revine la pilotul liber."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Pilotul proprietar nu s-a instalat corespunzător, se revine la pilotul liber."
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -264,27 +214,20 @@ msgstr "Fabricant"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Cei doi parametri critici sînt rata de împrospătare verticală, care este "
-"rata\n"
-"la care întregul ecran este actualizat și mai important, rata de "
-"sincronizare\n"
-"orizontală, care este rata la care liniile de scan sînt afișate.\n"
+"Cei doi parametri critici sînt rata de împrospătare verticală, care este rata\n"
+"la care întregul ecran este actualizat și mai important, rata de sincronizare\n"
+"orizontală, care este rata la care liniile sînt afișate.\n"
 "\n"
-"Este FOARTE IMPORTANT să nu specificați un tip de ecran cu interval de "
-"sincronizare\n"
-"care depășește capabilitățile ecranului vostru: puteți distruge ecranul în "
-"acest fel.\n"
+"Este FOARTE IMPORTANT să nu specificați un tip de ecran cu interval de sincronizare\n"
+"care depășește capabilitățile ecranului vostru: puteți distruge ecranul în acest fel.\n"
 "Dacă nu sînteți sigur, alegeți parametrii conservativi."
 
 #: ../lib/Xconfig/monitor.pm:164
@@ -401,7 +344,9 @@ msgstr "Configurația este corectă?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgid ""
+"Disable Ctrl-Alt-Backspace: %s\n"
+""
 msgstr "Dezactivează Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -416,57 +361,79 @@ msgstr "da"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid "3D hardware acceleration: %s\n"
+msgid ""
+"3D hardware acceleration: %s\n"
+""
 msgstr "Accelerare materială 3D: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid "Keyboard layout: %s\n"
+msgid ""
+"Keyboard layout: %s\n"
+""
 msgstr "Dispunere de tastatură: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid "Mouse type: %s\n"
+msgid ""
+"Mouse type: %s\n"
+""
 msgstr "Tip de maus: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid "Monitor: %s\n"
+msgid ""
+"Monitor: %s\n"
+""
 msgstr "Ecran: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid "Monitor HorizSync: %s\n"
+msgid ""
+"Monitor HorizSync: %s\n"
+""
 msgstr "Frecvența orizontală a ecranului: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid "Monitor VertRefresh: %s\n"
+msgid ""
+"Monitor VertRefresh: %s\n"
+""
 msgstr "Frecvența verticală a ecranului: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid "Graphics card: %s\n"
+msgid ""
+"Graphics card: %s\n"
+""
 msgstr "Placă grafică: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid "Graphics memory: %s kB\n"
+msgid ""
+"Graphics memory: %s kB\n"
+""
 msgstr "Memorie grafică: %s Ko\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid "Color depth: %s\n"
+msgid ""
+"Color depth: %s\n"
+""
 msgstr "Adîncime de culoare: %s:\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid "Resolution: %s\n"
+msgid ""
+"Resolution: %s\n"
+""
 msgstr "Rezoluție: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid "Xorg driver: %s\n"
+msgid ""
+"Xorg driver: %s\n"
+""
 msgstr "Pilot Xorg: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
@@ -497,7 +464,7 @@ msgstr "Accelerare materială 3D"
 #: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr "Activează semitransparența (extensia de compoziționare)"
+msgstr "Activează semi-transparența (extensia de compoziționare)"
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
@@ -527,14 +494,12 @@ msgstr "Forțează modul de afișare pentru DVI"
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr "Activează tastele BIOS rapide pentru trasnferul pe ecranul extern"
+msgstr "Activează tastele BIOS rapide pentru transferul pe ecranul extern"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Utilizează EXA în locul XAA (mai performantă pentru randare și "
-"compoziționare)"
+msgstr "Utilizează EXA în locul XAA (mai performantă pentru randare și compoziționare)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -552,8 +517,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -561,8 +525,7 @@ msgstr ""
 "Placa grafică pare a avea un conector TV-OUT.\n"
 "Acesta poate fi configurat folosind „frame-buffer”.\n"
 "\n"
-"Pentru aceasta trebuie să conectați placa grafică la un TV înainte de a "
-"porni calculatorul.\n"
+"Pentru aceasta trebuie să conectați placa grafică la un TV înainte de a porni calculatorul.\n"
 "Atunci alegeți ieșirea „TVout” în încărcătorul de sistem\n"
 "\n"
 "Placa grafică are facilitatea TV-OUT?"
@@ -733,7 +696,7 @@ msgid ""
 "Azerbaidjani (latin)"
 msgstr ""
 "_: tastatură\n"
-"Azerbaigiană (latină)"
+"Azerbaidjană (latină)"
 
 #: ../lib/keyboard.pm:205
 #, c-format
@@ -751,7 +714,7 @@ msgid ""
 "Bengali (Inscript-layout)"
 msgstr ""
 "_: tastatură\n"
-"Bengaleză (Inscript-layout)"
+"Bengaleză (dispunere Inscript)"
 
 #: ../lib/keyboard.pm:207
 #, c-format
@@ -1120,7 +1083,7 @@ msgid ""
 "Kyrgyz"
 msgstr ""
 "_: tastatură\n"
-"Kyrgyză"
+"Kirghiză"
 
 #: ../lib/keyboard.pm:258
 #, c-format
@@ -1156,7 +1119,7 @@ msgid ""
 "Laotian"
 msgstr ""
 "_: tastatură\n"
-"Laosiană"
+"Laoțiană"
 
 #: ../lib/keyboard.pm:264
 #, c-format
@@ -1183,7 +1146,7 @@ msgid ""
 "Malayalam"
 msgstr ""
 "_: tastatură\n"
-"Malayalamă"
+"Malayalam"
 
 #: ../lib/keyboard.pm:267
 #, c-format
@@ -1571,7 +1534,7 @@ msgid ""
 "Uzbek (cyrillic)"
 msgstr ""
 "_: tastatură\n"
-"Uzbekă (chirilică)"
+"Uzbecă (chirilică)"
 
 #: ../lib/keyboard.pm:327
 #, c-format
@@ -1580,7 +1543,7 @@ msgid ""
 "Vietnamese \"numeric row\" QWERTY"
 msgstr ""
 "_: tastatură\n"
-"Vietnameză „numeric row” QWERTY"
+"Vietnameză „rînd numeric” QWERTY"
 
 #: ../lib/keyboard.pm:328
 #, c-format
@@ -1921,7 +1884,7 @@ msgstr "Emulați al treilea buton?"
 #: ../lib/mouse.pm:533
 #, c-format
 msgid "Mouse Port"
-msgstr "Port de maus"
+msgstr "Port maus"
 
 #: ../lib/mouse.pm:534
 #, c-format

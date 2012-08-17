@@ -1,25 +1,19 @@
-# translation of DrakX.po to Arabic
-# Amr Fathy <amr10@menanet.net>, 2001.
-# Mohammed Gamal <f2c2001@yahoo.com>, 2002.
-# Youcef Rabah Rahal <rahal@arabeyes.org>, 2004.
-# Ossama M. Khayat <okhayat@yahoo.com>, 2004, 2005.
-# Munzir Taha <munzir@kacst.edu.sa>, 2004.
-# Abdulaziz Al-Arfaj <alarfaj@arabeyes.org>, 2005.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2005-03-03 01:06+0300\n"
-"Last-Translator: Ossama M. Khayat <okhayat@yahoo.com>\n"
-"Language-Team: Arabic <support@arabeyes.org>\n"
-"Language: ar\n"
+"PO-Revision-Date: 2011-05-19 13:11+0000\n"
+"Last-Translator: salim salim <almusalimalmusalimah@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && n<=10 ? 2 : "
-"3\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -98,17 +92,16 @@ msgstr "اختيار حجم ذاكرة بطاقة الشاشة"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"هنالك تعريف مملوك متوفر لـلبطاقة الرسوميات لديك و هنالك إمكانية لوجود دعم لبعض الوظائف الخاصة بها.\n"
+"هل تريد استخدامها؟"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "التعريف المملوك غير مثبت حاليًّا ، سيتم العودة إفتراضيا للتعريف المجاني"
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -132,9 +125,9 @@ msgid "Custom"
 msgstr "مخصّص"
 
 #: ../lib/Xconfig/main.pm:123
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "تهيئة الاتصال"
+msgstr "إعداد بطاقة الرسوميات و الشاشة"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -219,15 +212,12 @@ msgstr "المصنع"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "المعاملان المهمان جدا هما نسبة الإنعاش الأفقي، وهي النسبة التي\n"
@@ -249,9 +239,9 @@ msgid "Vertical refresh rate"
 msgstr "نسبة الإنعاش الرأسي"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "اختيار عمل"
+msgstr "اختر اﻹضافات/الملحقات"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -352,72 +342,96 @@ msgstr "هل هذا هو الإعداد الصحيح؟"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgid ""
+"Disable Ctrl-Alt-Backspace: %s\n"
+""
+msgstr "عطّل Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "no"
-msgstr "لاشئ"
+msgstr "لا"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "نعم"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgid ""
+"3D hardware acceleration: %s\n"
+""
+msgstr "التسريع الثلاثي اﻷبعاد للعتاد: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid "Keyboard layout: %s\n"
+msgid ""
+"Keyboard layout: %s\n"
+""
 msgstr "لوحة المفاتيح: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid "Mouse type: %s\n"
+msgid ""
+"Mouse type: %s\n"
+""
 msgstr "نوع الماوس: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid "Monitor: %s\n"
+msgid ""
+"Monitor: %s\n"
+""
 msgstr "الشاشة: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid "Monitor HorizSync: %s\n"
+msgid ""
+"Monitor HorizSync: %s\n"
+""
 msgstr "تزامن الشاشة الأفقي: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid "Monitor VertRefresh: %s\n"
+msgid ""
+"Monitor VertRefresh: %s\n"
+""
 msgstr "إنعاش الشاشة الرأسي: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid "Graphics card: %s\n"
+msgid ""
+"Graphics card: %s\n"
+""
 msgstr "بطاقة الشاشة: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid "Graphics memory: %s kB\n"
+msgid ""
+"Graphics memory: %s kB\n"
+""
 msgstr "ذاكرة بطاقة الشاشة: %s كيلوبايت\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid "Color depth: %s\n"
+msgid ""
+"Color depth: %s\n"
+""
 msgstr "عمق الألوان: %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid "Resolution: %s\n"
+msgid ""
+"Resolution: %s\n"
+""
 msgstr "الاستبانة: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid "Xorg driver: %s\n"
+msgid ""
+"Xorg driver: %s\n"
+""
 msgstr "برنامج تشغيل Xorg: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
@@ -428,62 +442,62 @@ msgstr "تهيئة Xorg"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "خيارات عمومية"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "عطّل Ctrl-Alt-Backspace"
 
 #: ../lib/Xconfig/various.pm:242
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "بطاقة الشاشة: %s"
+msgstr "خيارات بطاقة الرسوميات"
 
 #: ../lib/Xconfig/various.pm:244
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "التسريع الثلاثي اﻷبعاد للعتاد"
 
 #: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "مكِّن شبه الشفافية"
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "استخدم مؤشر الفأرة المسرّع"
 
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "مكِّن تسريع النقاء (ربما يبب مشكلة في عرض النصوص)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "مكِّن العرض المزدوج على الشاشة الخارجية"
 
 #: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "مكِّن العرض المزدوج على العرض الثاني"
 
 #: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "أجبر وضع العرض لـ DVI"
 
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "مكِّن المفتاح الساخن - السريع - لـ BIOS ﻷجل التبديل للشاشة الخارجية"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "استخدم EXA عوضا عن  of XAA (أفضل أداء في النقاء و الخلط)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -491,11 +505,9 @@ msgid "Graphical interface at startup"
 msgstr "واجهة رسومية عند بدء التشغيل"
 
 #: ../lib/Xconfig/various.pm:269
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"يمكنني إعداد حاسبك ليبدأ الواجهة الرّسومية (Xorg) آليا بعد الإقلاع.\n"
-"هل تريد Xorg أن يبدأ بعد إعادة إقلاع جهازك ؟"
+msgstr "بدء تلقائي للواجهة الرسومية  (Xorg) عند اﻹقلاع "
 
 #: ../lib/Xconfig/various.pm:281
 #, c-format
@@ -503,8 +515,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -527,7 +538,7 @@ msgstr "أي نظام يستخدمه جهاز التلفاز لديك؟"
 msgid ""
 "_:weird aspect ratio\n"
 "other"
-msgstr ""
+msgstr "أخرى"
 
 #: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
 #, c-format
@@ -978,14 +989,14 @@ msgstr "الأمريكية اللاتينية"
 msgid ""
 "_: keyboard\n"
 "Laotian"
-msgstr "الليتوانيّة"
+msgstr "اللاوسية"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "الفارسيّة"
+msgstr "الليتوانية"
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1006,7 +1017,7 @@ msgstr "المالايالام"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "الماورية"
 
 #: ../lib/keyboard.pm:268
 #, c-format
@@ -1048,7 +1059,7 @@ msgstr "المالطية (أمريكا)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "النيجيرية"
 
 #: ../lib/keyboard.pm:274
 #, c-format
@@ -1132,7 +1143,7 @@ msgstr "السلوفينية"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "السنهالية"
 
 #: ../lib/keyboard.pm:291
 #, c-format
@@ -1237,14 +1248,14 @@ msgstr "تايلنديّة (باتشوتي)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr ""
+msgstr "تيفيناغ (تخطيط مغربي) (+لاتينية/عربية)"
 
 #: ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
-msgstr ""
+msgstr "تفتناغ (لفظي) (+لاتينية/عربية)"
 
 #: ../lib/keyboard.pm:313
 #, c-format
@@ -1296,7 +1307,7 @@ msgstr "لوحة مفاتيح أمريكية (دولي)"
 #: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (لوحة مفاتيح US مع ثلاث مستويات لكل مفتاح)"
 
 #: ../lib/keyboard.pm:325
 #, c-format
@@ -1599,22 +1610,22 @@ msgstr "أيّ ماوس PS/2 و USB"
 #: ../lib/mouse.pm:84
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "اجبر و ألزم evdev"
 
 #: ../lib/mouse.pm:85
-#, fuzzy, c-format
+#, c-format
 msgid "Microsoft Xbox Controller S"
-msgstr "ميكروسوفت Explorer"
+msgstr "يد التحكم S لميكروسوفت إكس بوكس"
 
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "فأرة الصندوق الوهمي - virtualbox -"
 
 #: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "لا ماوس"
+msgstr "فأرة اﻵلة الوهمية - VMware -"
 
 #: ../lib/mouse.pm:90
 #, c-format
@@ -1629,7 +1640,7 @@ msgstr "لا ماوس"
 #: ../lib/mouse.pm:475
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "اختبار الفأرة"
 
 #: ../lib/mouse.pm:512
 #, c-format
@@ -1637,9 +1648,9 @@ msgid "Please choose your type of mouse."
 msgstr "الرجاء اختيار نوع الماوس."
 
 #: ../lib/mouse.pm:513
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse choice"
-msgstr "اختيار يدوي"
+msgstr "خيار الفأرة"
 
 #: ../lib/mouse.pm:529
 #, c-format
@@ -1702,45 +1713,16 @@ msgid "Please, choose your keyboard layout."
 msgstr "من فضلك اختر توزيعة لوحة مفاتيحك"
 
 #: ../tools/keyboarddrake:39
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
-msgstr "لوحة المفاتيح: %s\n"
+msgstr "تخطيط لوحة المفاتيح"
 
 #: ../tools/keyboarddrake:52
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "لوحة المفاتيح"
+msgstr "نوع لوحة المفاتيح"
 
 #: ../tools/keyboarddrake:65
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "هل تريد أن يقوم زر BackSpace بعمل وظيفة زر Delete في سطر الأوامر؟"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "الليتوانية AZERTY (قديم)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "الليتوانية AZERTY (جديد)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "الليتوانية \"صف رقمي\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "الليتوانية \"صوتي\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "اختبار الماوس"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "الرجاء اختبار الماوس:"
-
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "تعذر التأكد من وجود Plug 'n Play. الرجاء اختيار الشاشة الصحيحة"
