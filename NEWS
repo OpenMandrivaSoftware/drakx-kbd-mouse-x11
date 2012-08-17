@@ -6,6 +6,9 @@ Version 0.93 - 17 August 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
     X server in that case
   o load radeon module with modeset=0 when no firmware is installed
     (see mga#3466)
+  o report KMS as not allowed with --is-kms-allowed on radeon hardware
+    without radeon firmware, so that 'nokmsboot' will be used on such
+    cases
 - do not generate a xorg.conf symlink pointing to nothing if
   xorg.conf.standard exists
 - do not run setxkbmap during text install

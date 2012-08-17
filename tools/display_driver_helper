@@ -330,6 +330,22 @@ is_kms_allowed() {
 		# Check all drivers for conflicts only.
 		check_xorg $driver 0 || return 1
 	done
+
+	# Perform full check for KMS drivers of present hardware.
+	# Needed for e.g. checking if radeon firmware is present.
+	for modalias in $(get_hw_display_modaliases); do
+		for modulename in $(/sbin/modprobe -Rq "$modalias"); do
+			for driver in $KMS_DRIVERS; do
+				if [ "$driver" = "$modulename" ]; then
+					check_driver "$modulename" "$modalias" || return 1
+					# Driver was ok but needs KMS disabled:
+					[ -n "$IS_KMS" ] || return 1
+					break
+				fi
+			done
+		done
+	done
+
 	return 0
 }
 
