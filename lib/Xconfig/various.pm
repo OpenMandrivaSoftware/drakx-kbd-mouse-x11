@@ -231,7 +231,7 @@ sub runlevel {
 	if (!$::testing && -f $t) {
 	    my $d = "$::prefix/etc/systemd/system/default.target";
 	    unlink($d);
-	    symlink($t, "$::prefix/etc/systemd/system/default.target");
+	    symlink($t, $d);
 	}
     } else {
 	cat_($f) =~ /^id:(\d):initdefault:\s*$/m && $1;

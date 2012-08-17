@@ -1,5 +1,7 @@
 Version 0.93 - 17 August 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
+- runlevel: Ensure that systemd targets corresponding to the required
+  runlevel are also updated (in addition to inittab).
 - fallback to X server run-time autodetection on laptops instead of
   1024x768 when the monitor could not be probed (Mageia #1059)
 - do not try to probe monitor information via X server on laptops (it
