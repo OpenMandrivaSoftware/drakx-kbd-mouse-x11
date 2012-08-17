@@ -60,7 +60,7 @@ sub to_raw_X {
     my @cards = ($card, @{$card->{cards} || []});
 
     foreach (@cards) {
-	if (arch() =~ /ppc/ && ($_->{Driver} eq 'r128' || $_->{Driver} eq 'radeon')) {
+	if (arch() =~ /ppc/ && member($_->{Driver}, qw(r128 radeon))) {
 	    $_->{UseFBDev} = 1;
 	}
     }
