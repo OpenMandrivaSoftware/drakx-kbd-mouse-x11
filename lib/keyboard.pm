@@ -404,6 +404,7 @@ key to switch between the different keyboard layouts.")));
     1;
 }
 
+# used by rescue's make_rescue_img:
 sub loadkeys_files {
     my ($err) = @_;
     my $archkbd = arch() =~ /^sparc/ ? "sun" : arch() =~ /i.86|x86_64/ ? "i386" : arch() =~ /ppc/ ? "mac" : arch();
