@@ -81,10 +81,8 @@ sub may_use_Driver2 {
 
     my $card2 = { 
 	%$card,
-	$card->{Driver2} =~ /^nvidia(.*)/ ?
-	  (Driver => 'nvidia', DriverVersion => $1) :
-	  $card->{Driver2} =~ /^fglrx(.*)/ ?
-	  (Driver => 'fglrx', DriverVersion => $1) :
+	$card->{Driver2} =~ /^(fglrx|nvidia)(.*)/ ?
+	  (Driver => $1, DriverVersion => $2) :
 	  (Driver => $card->{Driver2}),
     };
 
