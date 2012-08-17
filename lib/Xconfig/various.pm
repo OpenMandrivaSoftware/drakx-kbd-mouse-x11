@@ -227,8 +227,8 @@ sub runlevel {
     -r $f or log::l("missing inittab!!!"), return;
     if ($o_runlevel) {
 	substInFile { s/^id:\d:initdefault:\s*$/id:$o_runlevel:initdefault:\n/ } $f if !$::testing;
-	my $t = "$::prefix/lib/systemd/system/runlevel$o_runlevel.target";
-	if (!$::testing && -f $t) {
+	my $t = "/lib/systemd/system/runlevel$o_runlevel.target";
+	if (!$::testing && -f "$::prefix$t") {
 	    my $d = "$::prefix/etc/systemd/system/default.target";
 	    unlink($d);
 	    symlink($t, $d);
