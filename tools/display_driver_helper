@@ -376,6 +376,10 @@ get_active_kms_drivers() {
 	done
 }
 
+setup_boot_kms() {
+	perl -I/usr/lib/libDrakX -MXconfig::various -e 'Xconfig::various::setup_kms()'
+}
+
 usage() {
 	cat <<EOF
 Usage: $0 action [arguments]
@@ -430,6 +434,9 @@ Known actions:
         As --check-loaded, and consider ambiguous cases (e.g. nvidia where
         we can't detect if the loaded driver has the correct version) as
         failure.
+
+  --setup-boot-kms
+        Set or unset the 'nokmsboot' option as necessary.
 EOF
 }
 
@@ -505,6 +512,9 @@ case "$1" in
 	;;
 --check-speedboot)
 	check_dkms_status && check_loaded
+	;;
+--setup-boot-kms)
+	setup_boot_kms
 	;;
 *)
 	usage
