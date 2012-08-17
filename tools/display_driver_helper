@@ -340,13 +340,18 @@ get_initrd_kms_drivers() {
 	zcat "$initrd" | cpio -t --quiet | sed -nr "s,.*/($kms_drivers)\.ko.*$,\1,p"
 }
 
-get_active_kms_drivers() {
-	local kms_drivers=
+get_hw_display_modaliases() {
 	for device in $(grep -l 0x03 /sys/bus/pci/devices/0000\:0*/class); do
 		[ -e "$device" ] || continue
 		device="$(dirname $device)"
 		[ -f "$device/modalias" ] || continue
-		modalias="$(cat "$device/modalias")"
+		cat "$device/modalias"
+	done
+}
+
+get_active_kms_drivers() {
+	local kms_drivers=
+	for modalias in $(get_hw_display_modaliases); do
 		for modulename in $(/sbin/modprobe -Rq "$modalias"); do
 			IS_KMS=
 			check_driver "$modulename" "$modalias" || continue
