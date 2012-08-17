@@ -91,7 +91,7 @@ msgstr "Escolha um servidor X"
 #: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
-msgstr "Configuração multi-cabeça"
+msgstr "Configuração multi-cabeças"
 
 #: ../lib/Xconfig/card.pm:207
 #, c-format
@@ -99,7 +99,7 @@ msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
-"O seu sistema suporta uma configuração de cabeças múltiplas.\n"
+"O seu sistema suporta uma configuração para múltiplas cabeças.\n"
 "O que deseja fazer?"
 
 #: ../lib/Xconfig/card.pm:296
@@ -110,22 +110,16 @@ msgstr "Seleccione o tamanho da memória da sua placa gráfica"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Existe um controlador proprietário disponível para a sua placa gráfica que "
-"pode suportar funcionalidades adicionais.\n"
-"Deseja-o usar?"
+"Existe um controlador proprietário disponível para a sua placa gráfica que pode suportar funcionalidades adicionais.\n"
+"Deseja usar este controlador proprietário?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"O controlador proprietário não foi devidamente instalado, a usar por "
-"predefinição o controlador de código livre."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "O controlador proprietário não foi devidamente instalado, a mudar para o controlador livre predefinido."
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -371,7 +365,9 @@ msgstr "Esta é a configuração correcta?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgid ""
+"Disable Ctrl-Alt-Backspace: %s\n"
+""
 msgstr "Desactivar Ctrl-Alt-Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -386,57 +382,79 @@ msgstr "sim"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid "3D hardware acceleration: %s\n"
+msgid ""
+"3D hardware acceleration: %s\n"
+""
 msgstr "Aceleração de material 3D: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid "Keyboard layout: %s\n"
+msgid ""
+"Keyboard layout: %s\n"
+""
 msgstr "Disposição do teclado: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid "Mouse type: %s\n"
+msgid ""
+"Mouse type: %s\n"
+""
 msgstr "Tipo de rato: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid "Monitor: %s\n"
+msgid ""
+"Monitor: %s\n"
+""
 msgstr "Monitor: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid "Monitor HorizSync: %s\n"
+msgid ""
+"Monitor HorizSync: %s\n"
+""
 msgstr "Actualização Horizontal do Monitor: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid "Monitor VertRefresh: %s\n"
+msgid ""
+"Monitor VertRefresh: %s\n"
+""
 msgstr "Actualização Vertical do Monitor: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid "Graphics card: %s\n"
+msgid ""
+"Graphics card: %s\n"
+""
 msgstr "Placa gráfica: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid "Graphics memory: %s kB\n"
+msgid ""
+"Graphics memory: %s kB\n"
+""
 msgstr "Memória gráfica: %s kB\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid "Color depth: %s\n"
-msgstr "Profundidade da cor: %s\n"
+msgid ""
+"Color depth: %s\n"
+""
+msgstr "Color depth: %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid "Resolution: %s\n"
+msgid ""
+"Resolution: %s\n"
+""
 msgstr "Resolução: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid "Xorg driver: %s\n"
+msgid ""
+"Xorg driver: %s\n"
+""
 msgstr "Controlador Xorg: %s\n"
 
 #: ../lib/Xconfig/various.pm:238
@@ -520,8 +538,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -529,8 +546,7 @@ msgstr ""
 "A sua placa gráfica parece ter um conector TV-OUT.\n"
 "Pode ser configurado para funcionar usando o 'frame-buffer'.\n"
 "\n"
-"Para tal precisa de ligar a placa gráfica à TV antes de arrancar o seu "
-"computador.\n"
+"Para tal precisa de ligar a placa gráfica à TV antes de arrancar o seu computador.\n"
 "Depois escolha a entrada \"TVout\" no carregador de arranque\n"
 "\n"
 "Tem esta funcionalidade?"
@@ -1733,29 +1749,3 @@ msgstr "Tipo de teclado"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Deseja que a tecla BackSpace devolva Delete na consola?"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Lituano AZERTY (antigo)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Lituano AZERTY (novo)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Lituano \"número de colunas\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Lituano \"fonético\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Teste do Rato"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Por favor teste o seu rato:"
