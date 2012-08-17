@@ -53,12 +53,12 @@ sub handle_FIRMWARE {
     my $pkg = $card->{FIRMWARE} or return;
 
     $do_pkgs->is_installed($pkg) || $do_pkgs->install($pkg) and return;
+    if ($card->{DRIVER_NO_FIRMWARE}) {
+	log::l("$card->{Driver} need a firmware to work, switching back to $card->{DRIVER_NO_FIRMWARE}");
+	$card->{Driver} = $card->{DRIVER_NO_FIRMWARE};
 
-    if ($card->{DRIVER2_NO_FIRMWARE}) {
-	log::l("$card->{Driver2} need a firmware to work, switching back to $card->{DRIVER2_NO_FIRMWARE}");
-	$card->{Driver2} = $card->{DRIVER2_NO_FIRMWARE};
     } else {
-	log::l("$card->{Driver2} needs a firmware to work smoothly/better (eg: 3D, KMS) but will still work");
+	log::l("$card->{Driver} needs a firmware to work smoothly/better (eg: 3D, KMS) but will still work");
     }
 }
 

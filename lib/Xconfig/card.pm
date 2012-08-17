@@ -311,7 +311,6 @@ sub install_server {
     my ($card, $options, $do_pkgs, $o_in) = @_;
 
     my @packages;
-    my @must_have = "x11-driver-video-$card->{Driver}";
 
     if ($options->{freedriver}) {
 	delete $card->{Driver2};
@@ -320,7 +319,6 @@ sub install_server {
     if ($card->{Driver2}) {       
 	require Xconfig::proprietary;
 	Xconfig::proprietary::handle_DRIVER2_NO_SSE($card);
-	Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card);
 	my @pkgs = Xconfig::proprietary::pkgs_for_Driver2($card->{Driver2}, $do_pkgs);
 	if (@pkgs && (!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
 Do you wish to use it?")), 1))) {
@@ -329,6 +327,11 @@ Do you wish to use it?")), 1))) {
 	    delete $card->{Driver2};
 	}
     }
+
+    Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card);
+
+    # handle_FIRMWARE could've changed $card->{Driver}
+    my @must_have = "x11-driver-video-$card->{Driver}";
 
     $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
       @must_have == listlength($do_pkgs->are_installed(@must_have))
@@ -496,10 +499,10 @@ sub readCardsDB {
         LINE => sub { $val =~ s/^\s*//; $card->{raw_LINES} .= "$val\n" },
 	CHIPSET => sub { $card->{Chipset} = $val },
 	DRIVER => sub { $card->{Driver} = $val },
+	DRIVER_NO_FIRMWARE => sub { $card->{DRIVER_NO_FIRMWARE} = $val },
 	DRIVER2 => sub { $card->{Driver2} = $val },
 	DRIVER2_NEEDS_SSE => sub { $card->{DRIVER2_NEEDS_SSE} = 1 },
 	DRIVER2_NO_SSE => sub { $card->{DRIVER2_NO_SSE} = $val },
-	DRIVER2_NO_FIRMWARE => sub { $card->{DRIVER2_NO_FIRMWARE} = $val },
 	FIRMWARE => sub { $card->{FIRMWARE} = $val },
 	NEEDVIDEORAM => sub { $card->{needVideoRam} = 1 },
 	DRI_GLX => sub { $card->{DRI_GLX} = 1 if $card->{Driver} },
