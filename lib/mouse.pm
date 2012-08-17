@@ -284,14 +284,14 @@ sub _detect_evdev_mice {
 sub detect {
     my ($modules_conf) = @_;
 
+    # evdev needs to be loaded before calling getInputDevices_and_usb
+    # else it will lead to a crash
+    eval { modules::load("evdev") };
+
     # let more USB tablets and touchscreens magically work at install time
     # through /dev/input/mice multiplexing:
     detect_devices::probe_category('input/tablet');
     detect_devices::probe_category('input/touchscreen');
-
-    # evdev needs to be loaded before calling getInputDevices_and_usb
-    # else it will lead to a crash
-    eval { modules::load("evdev") };
 
     my @wacom = _probe_usb_wacom_devices();
 
