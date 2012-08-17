@@ -4,12 +4,16 @@ Carp::Heavy
 constant
 Digest::MD5
 Encode
+File::Basename
 File::FnMatch
+File::Glob
 File::Path
 File::Sync
 Filesys::Df
 Gtk2::Gdk::Keysyms
 IO::Handle
+IO::Pipe
+Symbol
 Text::ParseWords
 XSLoader
 do_pkgs
