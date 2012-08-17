@@ -7,6 +7,7 @@ use common;
 use Xconfig::card;
 
 my $lib = arch() =~ /x86_64/ ? "lib64" : "lib";
+my $libdir = "/usr/$lib";
 
 sub install_matrox_hal {
     my ($prefix) = @_;
@@ -71,7 +72,7 @@ sub may_use_Driver2 {
     my $check_drv = sub {
 	my ($drv, $o_subdir) = @_;
 	my @l = (if_($o_subdir, "$modules_dir/drivers/$o_subdir/$drv.so",
-		 "/usr/$lib/$o_subdir/xorg/$drv.so"),
+		 "$libdir/$o_subdir/xorg/$drv.so"),
 		 "$modules_dir/drivers/$drv.so",
 		 "$modules_dir/drivers/$drv.o");
 	my $has = find { -e "$::prefix$_" } @l;
@@ -89,7 +90,7 @@ sub may_use_Driver2 {
     if ($card2->{Driver} eq 'nvidia') {
 	$check_drv->('nvidia_drv', "nvidia$card2->{DriverVersion}") or return;
 
-	my $libglx_path = "/usr/$lib/nvidia$card2->{DriverVersion}/xorg";
+	my $libglx_path = "$libdir/nvidia$card2->{DriverVersion}/xorg";
 	-e "$::prefix$libglx_path/libglx.so" or log::l("special NVIDIA libglx missing"), return;
 
 	log::explanations("Using specific NVIDIA driver and GLX extensions");
@@ -100,7 +101,7 @@ sub may_use_Driver2 {
     } elsif ($card2->{Driver} eq 'fglrx') {
 	$check_drv->('fglrx_drv', "fglrx$card2->{DriverVersion}") or return;
         find { -e "$::prefix/$_/dri/fglrx_dri.so" } (
-            "/usr/$lib/fglrx$card2->{DriverVersion}", $modules_dir, "/usr/$lib") or
+            "$libdir/fglrx$card2->{DriverVersion}", $modules_dir, $libdir) or
 	  log::l("proprietary fglrx_dri.so missing"), return;
 
 	log::explanations("Using specific ATI fglrx and DRI drivers");
