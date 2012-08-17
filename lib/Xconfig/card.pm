@@ -466,6 +466,12 @@ sub check_bad_card {
 
     log::explanations("the graphics card does not like X in framebuffer") if $bad_card;
 
+    #- avoid testing during install at any price:
+    if (!$bad_card && !$::isStandalone) {
+        $bad_card = member($card->{Driver}, qw(ati intel nouveau));
+        log::explanations("the graphics card does not like using KMS in framebuffer") if $bad_card;
+    }
+
     !$bad_card;
 }
 
