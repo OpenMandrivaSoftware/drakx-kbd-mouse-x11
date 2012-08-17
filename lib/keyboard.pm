@@ -590,7 +590,7 @@ sub setup_install {
     } else {
 	log::l("ERROR: can not load keymap");
     }
-    setup_install_X11($keyboard);
+    setup_install_X11($keyboard) if $::o->{interactive} ne "curses";
 }
 
 sub setup_install_X11 {
