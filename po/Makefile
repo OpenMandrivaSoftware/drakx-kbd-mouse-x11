@@ -6,7 +6,7 @@ localedir = $(DESTDIR)/usr/share/locale
 PGOAL = $(NAME)
 
 # perl files to search translatable strings in
-PL_FILES:= ../tools/* ../lib/*.pm ../lib/*/*.pm
+PL_FILES:= $(filter-out ../tools/display_driver_helper,$(wildcard ../tools/*)) ../lib/*.pm ../lib/*/*.pm
 
 POFILES = $(shell ls *.po)
 MOFILES = $(POFILES:%.po=%.mo)
