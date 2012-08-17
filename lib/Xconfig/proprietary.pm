@@ -47,6 +47,21 @@ sub handle_DRIVER2_NO_SSE {
     }
 }
 
+sub handle_FIRMWARE {
+    my ($do_pkgs, $card) = @_;
+
+    my $pkg = $card->{FIRMWARE} or return;
+
+    $do_pkgs->is_installed($pkg) || $do_pkgs->install($pkg) and return;
+
+    if ($card->{DRIVER2_NO_FIRMWARE}) {
+	log::l("$card->{Driver2} need a firmware to work, switching back to $card->{DRIVER2_NO_FIRMWARE}");
+	$card->{Driver2} = $card->{DRIVER2_NO_FIRMWARE};
+    } else {
+	log::l("$card->{Driver2} needs a firmware to work smoothly/better (eg: 3D, KMS) but will still work");
+    }
+}
+
 
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;

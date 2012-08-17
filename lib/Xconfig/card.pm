@@ -320,6 +320,7 @@ sub install_server {
     if ($card->{Driver2}) {       
 	require Xconfig::proprietary;
 	Xconfig::proprietary::handle_DRIVER2_NO_SSE($card);
+	Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card);
 	my @pkgs = Xconfig::proprietary::pkgs_for_Driver2($card->{Driver2}, $do_pkgs);
 	if (@pkgs && (!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
 Do you wish to use it?")), 1))) {
@@ -498,6 +499,8 @@ sub readCardsDB {
 	DRIVER2 => sub { $card->{Driver2} = $val },
 	DRIVER2_NEEDS_SSE => sub { $card->{DRIVER2_NEEDS_SSE} = 1 },
 	DRIVER2_NO_SSE => sub { $card->{DRIVER2_NO_SSE} = $val },
+	DRIVER2_NO_FIRMWARE => sub { $card->{DRIVER2_NO_FIRMWARE} = $val },
+	FIRMWARE => sub { $card->{FIRMWARE} = $val },
 	NEEDVIDEORAM => sub { $card->{needVideoRam} = 1 },
 	DRI_GLX => sub { $card->{DRI_GLX} = 1 if $card->{Driver} },
 	DRI_GLX_EXPERIMENTAL => sub { $card->{DRI_GLX_EXPERIMENTAL} = 1 if $card->{Driver} },
