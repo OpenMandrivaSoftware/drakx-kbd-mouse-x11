@@ -20,7 +20,7 @@ my $keyboard = keyboard::read_or_default();
 if (my ($kb) = grep { !/^-/ } @ARGV) {
     keyboard::KEYBOARD2text($kb) or die "bad keyboard $kb\n";
     $keyboard->{KEYBOARD} = $kb;
-} elsif (grep { $_ eq '--migrate' } @ARGV) {
+} elsif (member('--migrate', @ARGV)) {
     keyboard::write($keyboard);
     exit 0;
 } else {

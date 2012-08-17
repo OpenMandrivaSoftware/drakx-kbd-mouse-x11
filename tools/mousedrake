@@ -20,7 +20,6 @@ my $in = 'interactive'->vnew('su');
 my $modules_conf = modules::any_conf->read;
 
 my $mouse = mouse::read();
-my %old = %$mouse;
 
 if (!$::noauto) {
     my $probed_mouse = mouse::detect($modules_conf);
