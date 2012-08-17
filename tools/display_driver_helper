@@ -2,7 +2,7 @@
 #
 # Display driver helper
 #
-# Copyright (c) 2010, 2011 Anssi Hannula <anssi.hannula@iki.fi>
+# Copyright (c) 2010, 2011, 2012 Anssi Hannula <anssi.hannula@iki.fi>
 #
 # - Load drivers for specified modaliases, skipping disabled display drivers
 #   that would cause conflicts (KMS vs. vesa, KMS vs. proprietary).
@@ -47,6 +47,12 @@ CONFLICTS_radeon="fglrx"
 # See end of script for descriptions of global variables.
 check_driver() {
 	local name="$1"
+	# modalias is optional, only needed to set MODOPTIONS for radeon
+	# this should not be set when not intending to load the module
+	local modalias="$2"
+
+	MODOPTIONS=
+
 	case "$name" in
 	i915)
 		# implicitely loaded by X.org
@@ -61,9 +67,42 @@ check_driver() {
 		# TODO: this check could be omitted if radeon was explicitely
 		# specified in xorg.conf - but that is only known by check_xorg.
 		check_gl /etc/fglrx/pxpress-free.ld.so.conf && return 1
+
 		IS_KMS=1
-		# radeon needs to be loaded before X server
+		# radeon KMS needs to be loaded before X server
 		NEEDS_LOAD_NOW=1
+
+		# check if firmware is needed and present (random fw checked)
+		if [ -n "$modalias" ] && [ ! -e "/lib/firmware/radeon/R700_rlc.bin" ]; then
+			# no firmware, lets check if it is needed
+			pciid="${modalias#pci:v00001002d0000}"
+			pciid="${pciid%sv*}"
+			case "$pciid" in
+			# All Radeons up to PALM (see radeon_probe.c)
+			31??|3E??|4???|5???|7???|68??|94??|95??|961?|971?|98??)
+				# The radeon driver reportedly has some issues
+				# when loaded without firmware - it doesn't fallback to noaccel
+				# nicely as it should, instead the framebuffer gets messed up.
+				# However, these cards are still supported by usermode modesetting,
+				# so just disable KMS. (Mageia bug #3466)
+				# TODO: actually fix the driver to not mess up framebuffer when no firmware
+				# is present and disable accel cleanly so that this workaround
+				# wouldn't be needed -Anssi
+				MODOPTIONS="$MODOPTIONS modeset=0"
+				IS_KMS=
+				# needs to be loaded now in order to set the module option
+				NEEDS_LOAD_NOW=1
+				;;
+			????)
+				# Cards newer than PALM don't support UMS, so don't load the driver
+				# at all (it might still get done by X server, though).
+				return 1
+				;;
+			*)
+				# Modalias parse error, strange. Load normally...
+				;;
+			esac
+		fi
 		;;
 	nouveau)
 		# implicitely loaded by X.org
@@ -256,7 +295,7 @@ load_driver() {
 	local load_default=1
 
 	for modulename in $(/sbin/modprobe -Rq "$modalias"); do
-		check_driver "$modulename"
+		check_driver "$modulename" "$modalias"
 		case $? in
 		1)	# a driver which needs handling by this script matches
 			# the modalias, but was not configured - do not run
@@ -278,7 +317,7 @@ load_driver() {
 			[ -z "$NEEDS_LOAD_NOW" ] && /bin/plymouth --ping 2>/dev/null && return 0
 			/bin/plymouth quit 2>/dev/null
 		fi
-		/sbin/modprobe -b "$modulename" && return 0
+		/sbin/modprobe -b "$modulename" $MODOPTIONS && return 0
 	done
 
 	# no specially handled modules were loaded, so load all modules normally
@@ -310,7 +349,7 @@ get_active_kms_drivers() {
 		modalias="$(cat "$device/modalias")"
 		for modulename in $(/sbin/modprobe -Rq "$modalias"); do
 			IS_KMS=
-			check_driver "$modulename" || continue
+			check_driver "$modulename" "$modalias" || continue
 			[ -n "$IS_KMS" ] && echo $modulename
 		done
 	done
@@ -401,6 +440,10 @@ DKMS_AUTOLOAD_MODULE=
 # (e.g. in case of the multiple proprietary nvidia drivers which all identify as
 # "nvidia" in loaded modules list).
 UNSURE=
+
+# Extra module options - used to disable radeon modesetting when no firmware
+# is present and it is needed.
+MODOPTIONS=
 
 case "$1" in
 --load)
