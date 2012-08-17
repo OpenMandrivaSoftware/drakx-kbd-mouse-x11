@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2012-04-05 03:54+0300\n"
-"PO-Revision-Date: 2011-05-10 19:16+0200\n"
-"Last-Translator: Oliver Burger <oliver.bgr@googlemail.com>\n"
+"PO-Revision-Date: 2012-04-05 10:45+0100\n"
+"Last-Translator: Oliver Burger <obgr_seneca@mageia.org>\n"
 "Language-Team: German <mageia-i18n@mageia.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -92,22 +92,16 @@ msgstr "Wählen Sie die Speichergröße Ihrer Grafikkarte"
 #: ../lib/Xconfig/card.pm:323
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Es gibt ein proprietären Treiber für diese Grafikkarte, welche einige "
-"zusätzlichen Funktionen enthält.\n"
+"Es gibt ein proprietären Treiber für diese Grafikkarte, welche einige zusätzlichen Funktionen enthält.\n"
 "Wollen sie diesen Verwenden?"
 
 #: ../lib/Xconfig/card.pm:355
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"Der Propitäre Treiber wurde nicht installiert, standardmäßig wird der freie "
-"Treiber verwendet."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Der Propitäre Treiber wurde nicht installiert, standardmäßig wird der freie Treiber verwendet."
 
 #: ../lib/Xconfig/card.pm:425
 #, c-format
@@ -124,7 +118,8 @@ msgstr "Xinerama-Erweiterung verwenden"
 msgid "Configure only card \"%s\"%s"
 msgstr "Nur Karte „%s“ (%s) konfigurieren"
 
-#: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93
+#: ../lib/Xconfig/main.pm:92
+#: ../lib/Xconfig/main.pm:93
 #: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
@@ -145,14 +140,16 @@ msgstr "Verlassen"
 msgid "Graphic Card"
 msgstr "Grafikkarte"
 
-#: ../lib/Xconfig/main.pm:133 ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/main.pm:133
+#: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:136
+#: ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Auflösung"
@@ -205,7 +202,8 @@ msgstr "Wählen Sie Ihren Monitor"
 msgid "Plug'n Play"
 msgstr "Plug'n'Play"
 
-#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
+#: ../lib/Xconfig/monitor.pm:139
+#: ../lib/mouse.pm:48
 #, c-format
 msgid "Generic"
 msgstr "Generisch"
@@ -218,15 +216,12 @@ msgstr "Hersteller"
 #: ../lib/Xconfig/monitor.pm:158
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Die beiden kritischen Parameter sind die vertikale Wiederholfrequenz\n"
@@ -255,30 +250,28 @@ msgstr "Wählen Sie die Plugins"
 #: ../lib/Xconfig/proprietary.pm:60
 #, c-format
 msgid ""
-"The free '%s' driver for your graphics card requires a proprietary firmware "
-"package '%s' to be installed, but it was not available on the enabled "
-"media.\n"
+"The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed, but it was not available on the enabled media.\n"
 "\n"
 "The basic non-accelerated '%s' driver will be configured instead.\n"
 "\n"
-"To enable full graphics support later, enable the 'nonfree' repository "
-"section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mageia Control Center "
-"and re-selecting your graphics card."
+"To enable full graphics support later, enable the 'nonfree' repository section at \"Install and remove software\" and reconfigure the graphics driver by going to \"Set up the graphical server\" at Mageia Control Center and re-selecting your graphics card."
 msgstr ""
+"Der freie „%s“-Treiber für Ihre Grafikkarte benötigt die Installation eines proprietären Firmware-Paketes „%s“, dieses befindet sich aber nicht in den verwendeten Installationsmedien.\n"
+"\n"
+"Der grundlegende, nicht-beschleunigte „%s“-Treiber wird stattdessen eingerichtet.\n"
+"\n"
+"Um die vollständige Grafik-Unterstützung später zu aktivieren, aktivieren Sie die „nonfree“-Paketquellen in der Paketverwaltung und konfigurieren Sie den Grafiktreiber erneut, indem Sie „Grafischen Server einrichten“ im Mageia-Kontrollzentrum aufrufen und ihre Grafikkarte erneut auswählen."
 
 #: ../lib/Xconfig/proprietary.pm:67
 #, c-format
 msgid ""
-"The free '%s' driver for your graphics card requires a proprietary firmware "
-"package '%s' to be installed in order for all features (including 3D "
-"acceleration) to work properly, but that package was not available in the "
-"enabled media.\n"
+"The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed in order for all features (including 3D acceleration) to work properly, but that package was not available in the enabled media.\n"
 "\n"
-"To enable all graphics card features later, enable the 'nonfree' repository "
-"section at \"Install and remove software\" and install the firmware package "
-"manually or reconfigure your graphics card."
+"To enable all graphics card features later, enable the 'nonfree' repository section at \"Install and remove software\" and install the firmware package manually or reconfigure your graphics card."
 msgstr ""
+"Der freie „%s“-Treiber für Ihre Grafikkarte benötigt die Installation eines proprietäres Firmware-Paket „%s“, so dass alle Funktionalitäten (inklusive der 3D-Unterstützung) richtig funktionieren, dieses Paket befindet sich aber nicht in den verwendeten Installationsmedien.\n"
+"\n"
+"Um die vollständige Grafik-Unterstützung später zu aktivieren, aktivieren Sie die „nonfree“-Paketquellen in der Paketverwaltung und installieren Sie das Firmware-Paket manuell oder rekonfigurieren Sie Ihre Grafikkarte."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -301,7 +294,8 @@ msgid "16 million colors (24 bits)"
 msgstr "16 Millionen Farben (24 Bit)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:36
+#: ../lib/Xconfig/resolution_and_depth.pm:362
+#: ../lib/mouse.pm:36
 #, c-format
 msgid "Automatic"
 msgstr "Automatisch"
@@ -311,7 +305,8 @@ msgstr "Automatisch"
 msgid "Resolutions"
 msgstr "Auflösungen"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394
+#: ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Andere"
@@ -480,9 +475,7 @@ msgstr "Verwende Mauszeiger-Beschleunigung"
 #: ../lib/Xconfig/various.pm:255
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Aktiviere RENDER-Beschleunigung (dies kann zu Fehlern in der Textdarstellung "
-"führen)"
+msgstr "Aktiviere RENDER-Beschleunigung (dies kann zu Fehlern in der Textdarstellung führen)"
 
 #: ../lib/Xconfig/various.pm:259
 #, c-format
@@ -507,8 +500,7 @@ msgstr "Aktiviere Bootmeldungen für den externen Monitor"
 #: ../lib/Xconfig/various.pm:269
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Verwende EXA anstelle von XAA (bessere Performance für Render und Composite)"
+msgstr "Verwende EXA anstelle von XAA (bessere Performance für Render und Composite)"
 
 #: ../lib/Xconfig/various.pm:271
 #, c-format
@@ -526,17 +518,14 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
 msgstr ""
-"Ihre Grafikkarte scheint einen TV-Ausgang zu haben, der mittels Frame-Buffer "
-"angesprochen werden kann.\n"
+"Ihre Grafikkarte scheint einen TV-Ausgang zu haben, der mittels Frame-Buffer angesprochen werden kann.\n"
 "\n"
-"Wenn Sie das wünschen, schließen Sie bitte Ihren Fernseher an die "
-"Grafikkarte an, bevor Sie den Rechner neu starten.\n"
+"Wenn Sie das wünschen, schließen Sie bitte Ihren Fernseher an die Grafikkarte an, bevor Sie den Rechner neu starten.\n"
 "Wählen Sie „TV-Ausgang“ im Bootloader.\n"
 "\n"
 "Haben Sie einen solchen Ausgang und wollen Sie ihn verwenden?"
@@ -553,14 +542,16 @@ msgid ""
 "other"
 msgstr "andere"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187
+#: ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Tschechien (QWERTZ)"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -574,33 +565,38 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:190
+#: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Spanien"
 
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191
+#: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Finnland"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:192
+#: ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Frankreich"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:193
+#: ../lib/keyboard.pm:238
 #, c-format
 msgid "UK keyboard"
 msgstr "Großbritannien"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -614,21 +610,24 @@ msgid ""
 "Polish"
 msgstr "Polen"
 
-#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196
+#: ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Russland"
 
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:197
+#: ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Schweden"
 
-#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:198
+#: ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard"
 msgstr "US Tastatur"
@@ -669,11 +668,11 @@ msgid ""
 msgstr "Arabisch"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Estland"
+msgstr "Asturisch"
 
 #: ../lib/keyboard.pm:206
 #, c-format
@@ -1491,12 +1490,14 @@ msgstr "Generische PS2-Rad-Maus"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
+#: ../lib/mouse.pm:38
+#: ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Maus"
 
-#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
+#: ../lib/mouse.pm:39
+#: ../lib/mouse.pm:67
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMaus"
@@ -1506,22 +1507,26 @@ msgstr "Genius NetMaus"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
+#: ../lib/mouse.pm:41
+#: ../lib/mouse.pm:51
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
+#: ../lib/mouse.pm:46
+#: ../lib/mouse.pm:78
 #, c-format
 msgid "1 button"
 msgstr "1 Taste"
 
-#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
+#: ../lib/mouse.pm:47
+#: ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Generische 2-Tasten-Maus"
 
-#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
+#: ../lib/mouse.pm:49
+#: ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Generische 3-Tasten-Maus mit Mausrad-Emulation"
