@@ -286,6 +286,10 @@ sub detect {
     detect_devices::probe_category('input/tablet');
     detect_devices::probe_category('input/touchscreen');
 
+    # evdev needs to be loaded before calling getInputDevices_and_usb
+    # else it will lead to a crash
+    eval { modules::load("evdev") };
+
     my @wacom = _probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
