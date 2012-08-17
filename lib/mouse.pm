@@ -2,6 +2,9 @@ package mouse; # $Id$
 
 #use diagnostics;
 #use strict;
+# perl_checker:
+use lib qw(/usr/lib/libDrakX);
+
 
 #-######################################################################################
 #- misc imports
