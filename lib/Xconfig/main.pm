@@ -50,9 +50,13 @@ sub configure_everything_auto_install {
     my $X = {};
     $X->{monitors} = Xconfig::monitor::configure_auto_install($raw_X, $old_X) or return;
     $options->{VideoRam_probed} = $X->{monitors}[0]{VideoRam_probed};
-    $X->{card} = Xconfig::card::configure_auto_install($raw_X, $do_pkgs, $old_X, $options) or return;
-    Xconfig::screen::configure($raw_X) or return;
-    $X->{resolutions} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card}, $X->{monitors}, $old_X);
+    $X->{card} = Xconfig::card::configure_auto_install($raw_X, $do_pkgs, $old_X, $options);
+    my $configured = $X->{card} && Xconfig::screen::configure($raw_X);
+
+    #- still try to configure screen and resolution (to set default background)
+    #- if card configuration failed (for example if best driver is not available)
+    $X->{resolutions} = Xconfig::resolution_and_depth::configure_auto_install($raw_X, $X->{card} ||{}, $X->{monitors}, $old_X);
+    return if !$configured;
 
     my $action = &write($raw_X, $X, $options->{skip_fb_setup});
 
