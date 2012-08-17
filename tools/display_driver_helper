@@ -9,6 +9,9 @@
 # - Get information about enabled driver modules
 # - Check that the loaded modules are correct
 #
+# Note that drivers not known by this script are handled normally, i.e.
+# loaded automatically as udev normally would've.
+#
 # Licensed under terms of GPLv2 or later.
 #
 # When updating, check:
@@ -16,6 +19,8 @@
 # - check_driver function
 # - check_dkms_status function
 #
+
+# DEBUG_DISPLAY_DRIVER_HELPER=yes
 
 if [ -n "$DEBUG_DISPLAY_DRIVER_HELPER" ]; then
 	echo "$(date) $*" >> /dev/ddh_debug
@@ -196,9 +201,9 @@ get_xorg_drivers() {
 }
 
 # Note: no /usr
-# parameter 1: xorg driver
-# parameter 2: 1 the check if the driver is explicitely enabled
-#              0 means that check only for conflicts
+# parameter 1: KMS module or xorg driver
+# parameter 2: 1 - check if the driver is explicitely enabled
+#              0 - check only for conflicts
 check_xorg() {
 	local driver="$1"
 	local explicit_only="$2"
@@ -246,10 +251,11 @@ check_xorg() {
 # Load the driver for the specified modalias, if configured.
 # Note: no /usr
 load_driver() {
+	local modalias="$1"
 	local modulename
 	local load_default=1
 
-	for modulename in $(/sbin/modprobe -Rq "$1"); do
+	for modulename in $(/sbin/modprobe -Rq "$modalias"); do
 		check_driver "$modulename"
 		case $? in
 		1)	# a driver which needs handling by this script matches
@@ -277,7 +283,7 @@ load_driver() {
 
 	# no specially handled modules were loaded, so load all modules normally
 	# unless $load_default was set above
-	[ -z "$load_default" ] || /sbin/modprobe -b "$1"
+	[ -z "$load_default" ] || /sbin/modprobe -b "$modalias"
 }
 
 is_kms_allowed() {
@@ -378,7 +384,7 @@ Known actions:
         Does --check-dkms-status and --check-loaded.
 
   --check-loaded-strict
-        As --check-loaded, and consider ambigious cases (e.g. nvidia where
+        As --check-loaded, and consider ambiguous cases (e.g. nvidia where
         we can't detect if the loaded driver has the correct version) as
         failure.
 
