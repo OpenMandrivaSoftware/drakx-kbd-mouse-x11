@@ -249,15 +249,7 @@ load_driver() {
 	local modulename
 	local load_default=1
 
-	# NOTE: UPDATE when module-init-tools is upgraded to get better performance
-	# modprobe has -R option:
-	#for modulename in $(/home/anssi/module-init-tools-3.12/build/modprobe -Rq "$1"); do
-	# modprobe does not have -R option:
-	for mod in $(/sbin/modprobe -biqvn "$1"); do
-		[ "$mod" = "insmod" ] && continue
-		modulename="${mod##*/}"
-		modulename="${modulename%%.*}"
-
+	for modulename in $(/sbin/modprobe -Rq "$1"); do
 		check_driver "$modulename"
 		case $? in
 		1)	# a driver which needs handling by this script matches
@@ -327,9 +319,7 @@ get_active_kms_drivers() {
 		device="$(dirname $device)"
 		[ -f "$device/modalias" ] || continue
 		modalias="$(cat "$device/modalias")"
-		for mod in $(/sbin/modprobe --first-time -biqvn "$modalias" 2>&1); do
-			modulename="${mod##*/}"
-			modulename="${modulename%%.*}"
+		for modulename in $(/sbin/modprobe -Rq "$modalias"); do
 			IS_KMS=
 			check_driver "$modulename" || continue
 			[ -n "$IS_KMS" ] && echo $modulename
