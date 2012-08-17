@@ -1,22 +1,19 @@
-# translation of ca.po to Catalan
-# translation of DrakX.po to Catalan
-# Copyright (C) 2000-2004, 2005 Free Software Foundation, Inc.
-# Softcatala, softcatala.org, 2000-2003
-# Albert Astals Cid <astals11@terra.es>, 2003-2004, 2005.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: ca\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2005-09-13 23:24+0200\n"
-"Last-Translator: Albert Astals Cid <astals11@terra.es>\n"
-"Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
-"Language: ca\n"
+"PO-Revision-Date: 2012-03-08 23:48+0000\n"
+"Last-Translator: Francesc Pinyol Margalef <francesc.pinyol.m@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -76,7 +73,7 @@ msgstr "Escolliu un servidor X"
 #: ../lib/Xconfig/card.pm:206
 #, c-format
 msgid "Multi-head configuration"
-msgstr "Configuració Multi-head"
+msgstr "Configuració Multi-capçalera"
 
 #: ../lib/Xconfig/card.pm:207
 #, c-format
@@ -95,17 +92,16 @@ msgstr "Seleccioneu la mida de la memòria de la vostra targeta gràfica"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
+"Hi ha un controlador propietari disponible per a la seva targeta gràfica que potser pot admetre característiques addicionals.\n"
+"Vol utilitzar-lo?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Aquest controlador propietari"
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -129,9 +125,9 @@ msgid "Custom"
 msgstr "Personalitzada"
 
 #: ../lib/Xconfig/main.pm:123
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Configuració de la connexió"
+msgstr "Configuració de Targeta Gràfica i Pantalla"
 
 #: ../lib/Xconfig/main.pm:124
 #, c-format
@@ -148,7 +144,7 @@ msgstr "Targeta gràfica"
 msgid ""
 "_: This is a display device\n"
 "Monitor"
-msgstr "Monitor"
+msgstr "Pantalla"
 
 #: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
@@ -158,7 +154,7 @@ msgstr "Resolució"
 #: ../lib/Xconfig/main.pm:135
 #, c-format
 msgid "Test"
-msgstr "Test"
+msgstr "Prova"
 
 #: ../lib/Xconfig/main.pm:140
 #, c-format
@@ -173,7 +169,7 @@ msgstr "Connectors"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "El vostre fitxer de configuració de Xorg no és vàlid, s'ignora."
+msgstr "El vostre fitxer de configuració d'Xorg no és vàlid, s'ignora."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -211,23 +207,20 @@ msgstr "Genèric"
 #: ../lib/Xconfig/monitor.pm:139
 #, c-format
 msgid "Vendor"
-msgstr "Venedor"
+msgstr "Proveïdor"
 
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Els dos paràmetres més importants son la velocitat de refresc vertical, que\n"
+"Els dos paràmetres més importants són la velocitat de refresc vertical, que\n"
 "és la velocitat a què es refresca tota la pantalla, i el més important, la\n"
 "velocitat de sincronització horitzontal, que és la velocitat a què es\n"
 "visualitzen les línies d'exploració.\n"
@@ -248,9 +241,9 @@ msgid "Vertical refresh rate"
 msgstr "Velocitat de refresc vertical"
 
 #: ../lib/Xconfig/plugins.pm:219
-#, fuzzy, c-format
+#, c-format
 msgid "Choose plugins"
-msgstr "Trieu una acció"
+msgstr "Escolliu els connectors"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -316,18 +309,17 @@ msgstr "Ajuda"
 #: ../lib/Xconfig/test.pm:30
 #, c-format
 msgid "Test of the configuration"
-msgstr "Comprova la configuració"
+msgstr "Prova la configuració"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Do you want to test the configuration?"
-msgstr "Voleu comprovar la configuració?"
+msgstr "Voleu provar la configuració?"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr ""
-"Avís: la comprovació d'aquesta targeta gràfica pot penjar-vos l'ordinador"
+msgstr "Avís: la prova d'aquesta targeta gràfica pot penjar-vos l'ordinador"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -348,27 +340,27 @@ msgstr "Se sortirà en %d segons"
 #: ../lib/Xconfig/test.pm:126
 #, c-format
 msgid "Is this the correct setting?"
-msgstr "És aquest el paràmetre correcte?"
+msgstr "Aquesta configuració és correcta?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr ""
+msgstr "Deshabilita Ctrl-Alt-Retrocès: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
-#, fuzzy, c-format
+#, c-format
 msgid "no"
-msgstr "cap"
+msgstr "no"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "yes"
-msgstr ""
+msgstr "sí"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
 msgid "3D hardware acceleration: %s\n"
-msgstr ""
+msgstr "Acceleració 3D per maquinari: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
@@ -428,62 +420,62 @@ msgstr "Configuració de l'Xorg"
 #: ../lib/Xconfig/various.pm:239
 #, c-format
 msgid "Global options"
-msgstr ""
+msgstr "Opcions globals"
 
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr ""
+msgstr "Deshabilita Ctrl-Alt-Retrocès"
 
 #: ../lib/Xconfig/various.pm:242
-#, fuzzy, c-format
+#, c-format
 msgid "Graphic card options"
-msgstr "Targeta gràfica: %s"
+msgstr "Opcions de la targeta gràfica"
 
 #: ../lib/Xconfig/various.pm:244
 #, c-format
 msgid "3D hardware acceleration"
-msgstr ""
+msgstr "Acceleració 3D per maquinari"
 
 #: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr ""
+msgstr "Habilita la translucidesa (extensió de Composite) "
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr ""
+msgstr "Utilitza un punter de ratolí accelerat per maquinari"
 
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
+msgstr "Habilita l'acceleració RENDER (pot causar errors quan es mostra text)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable duplicate display on the external monitor"
-msgstr ""
+msgstr "Habilita la pantalla duplicada en el monitor extern"
 
 #: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable duplicate display on the second display"
-msgstr ""
+msgstr "Habilita la pantalla duplicada en el segon monitor"
 
 #: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Force display mode of DVI"
-msgstr ""
+msgstr "Força el mode de visualització de DVI"
 
 #: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
-msgstr ""
+msgstr "Habilita la tecla de drecera de la BIOS per canviar al monitor extern"
 
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
+msgstr "Utilitza EXA en lloc d'XAA (millor rendiment per Render i Composite)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -491,12 +483,9 @@ msgid "Graphical interface at startup"
 msgstr "Interfície gràfica a l'inici"
 
 #: ../lib/Xconfig/various.pm:269
-#, fuzzy, c-format
+#, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
-msgstr ""
-"Puc configurar el vostre ordinador de manera que executi automàticament la "
-"interfície gràfica durant l'arrencada.\n"
-"Voleu que Xorg s'iniciï quan torneu a arrencar l'ordinador?"
+msgstr "Inicia automàticament la interfície gràfica (Xorg) a l'arrencada"
 
 #: ../lib/Xconfig/various.pm:281
 #, c-format
@@ -504,8 +493,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -513,8 +501,7 @@ msgstr ""
 "Sembla que la vostra targeta gràfica té un connector TV-OUT.\n"
 "Pot configurar-se de manera que faci servir memòria d'imatge.\n"
 "\n"
-"A tal efecte, heu de connectar la targeta gràfica al televisor abans "
-"d'arrencar l'ordinador.\n"
+"A tal efecte, heu de connectar la targeta gràfica al televisor abans d'arrencar l'ordinador.\n"
 "Llavors, escolliu l'opció \"TVout\" en el carregador de l'arrencada\n"
 "\n"
 "Teniu aquesta característica?"
@@ -959,7 +946,7 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Korean"
-msgstr "Teclat coreà"
+msgstr "Coreà"
 
 #: ../lib/keyboard.pm:260
 #, c-format
@@ -983,11 +970,11 @@ msgid ""
 msgstr "Laosià"
 
 #: ../lib/keyboard.pm:264
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr "Iranià"
+msgstr ""
 
 #: ../lib/keyboard.pm:265
 #, c-format
@@ -1050,7 +1037,7 @@ msgstr "Maltès (Estats Units)"
 msgid ""
 "_: keyboard\n"
 "Nigerian"
-msgstr ""
+msgstr "Nigerià"
 
 #: ../lib/keyboard.pm:274
 #, c-format
@@ -1253,7 +1240,7 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Tajik"
-msgstr "Teclat tadjik"
+msgstr "Tadjik"
 
 #: ../lib/keyboard.pm:315
 #, c-format
@@ -1298,7 +1285,7 @@ msgstr "Teclat Estats Units (internacional)"
 #: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr ""
+msgstr "ISO9995-3 (Teclat Estats Units amb 3 nivells per tecla)"
 
 #: ../lib/keyboard.pm:325
 #, c-format
@@ -1342,9 +1329,9 @@ msgid "CapsLock key"
 msgstr "Tecla de Fixació de Majúscules"
 
 #: ../lib/keyboard.pm:339
-#, fuzzy, c-format
+#, c-format
 msgid "Shift and CapsLock keys simultaneously"
-msgstr "Tecles de Control i d'Alternativa simultàniament"
+msgstr ""
 
 #: ../lib/keyboard.pm:340
 #, c-format
@@ -1611,9 +1598,9 @@ msgid "VirtualBox mouse"
 msgstr ""
 
 #: ../lib/mouse.pm:87
-#, fuzzy, c-format
+#, c-format
 msgid "VMware mouse"
-msgstr "Cap ratolí"
+msgstr ""
 
 #: ../lib/mouse.pm:90
 #, c-format
@@ -1636,9 +1623,9 @@ msgid "Please choose your type of mouse."
 msgstr "Si us plau, seleccioneu el tipus del vostre ratolí."
 
 #: ../lib/mouse.pm:513
-#, fuzzy, c-format
+#, c-format
 msgid "Mouse choice"
-msgstr "Selecció manual"
+msgstr ""
 
 #: ../lib/mouse.pm:529
 #, c-format
@@ -1688,8 +1675,7 @@ msgstr "MOVEU LA RODETA!"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr ""
-"Heu de tornar a engegar l'ordinador per tal que els canvis tinguin efecte"
+msgstr "Heu de tornar a engegar l'ordinador per tal que els canvis tinguin efecte"
 
 #: ../tools/keyboarddrake:37
 #, c-format
@@ -1702,45 +1688,16 @@ msgid "Please, choose your keyboard layout."
 msgstr "Si us plau, seleccioneu la disposició del vostre teclat."
 
 #: ../tools/keyboarddrake:39
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard layout"
-msgstr "Disposició del teclat: %s\n"
+msgstr ""
 
 #: ../tools/keyboarddrake:52
-#, fuzzy, c-format
+#, c-format
 msgid "Keyboard type"
-msgstr "Teclat"
+msgstr ""
 
 #: ../tools/keyboarddrake:65
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Voleu que la tecla Enrere efectuï un Suprimeix en la consola?"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Lituà AZERTY (antic)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Lituà AZERTY (nou)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Lituà \"fila de números\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Lituà \"fonètic\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Prova del ratolí"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Si us plau, comproveu el ratolí:"
-
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "L'exploració Plug'n'Play ha fallat. Especifiqueu un monitor"
