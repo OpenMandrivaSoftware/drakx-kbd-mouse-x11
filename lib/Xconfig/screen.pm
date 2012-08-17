@@ -4,10 +4,10 @@ use diagnostics;
 use strict;
 
 use common;
-
+# perl_checker: require Xconfig::xfree
 
 sub configure {
-    my ($raw_X) = @_;
+    my ($raw_X) = @_; # perl_checker: $raw_X = Xconfig::xfree->new
 
     my @devices = $raw_X->get_devices;
     my @monitors = $raw_X->get_monitors;

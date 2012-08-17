@@ -200,7 +200,7 @@ sub _input_entry_to_device_by_id {
     foreach (split /^/,  run_program::get_stdout('udevadm', 'info', '--query', 'env', '--path', $input->{sysfs_path})) {
       if (/^ID_SERIAL=(.*)/) {
         $ID_SERIAL = $1;
-        $ID_SERIAL =~ s/[^\w#+\-.:=@_]/_/g; #- udev do a further cleanup, eg: "Wacom_Co.,Ltd._MTE-450" => "Wacom_Co._Ltd._MTE-450". cf ALLOWED_CHARS udev.h
+        $ID_SERIAL =~ s/[^\w#+\-.:=\@_]/_/g; #- udev do a further cleanup, eg: "Wacom_Co.,Ltd._MTE-450" => "Wacom_Co._Ltd._MTE-450". cf ALLOWED_CHARS udev.h
         last;
       }
     }
