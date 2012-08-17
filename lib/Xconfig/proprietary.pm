@@ -49,7 +49,7 @@ sub handle_DRIVER2_NO_SSE {
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;
 
-    my ($pkg, $base_name) = ($Driver2 =~ /^fglrx/ || $Driver2 =~ /^nvidia/) ?
+    my ($pkg, $base_name) = ($Driver2 =~ /^fglrx|^nvidia/) ?
                             ("x11-driver-video-$Driver2", $Driver2) : () or return;
 
     $do_pkgs->is_installed($pkg) || $do_pkgs->is_available($pkg) or
