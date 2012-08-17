@@ -1,46 +1,29 @@
-# translation of de.po to deutsch
-# translation of de.po to
-# german translation of the MandrivaInstaller.
-# Copyright (C) 2000-2003 Mandriva S.A.
+# Copyright (C) 2011 Free Software Foundation, Inc.
 #
-#
-# Stefan Siegel <siegel@linux-mandrake.com>, 2000, 2001, 2002, 2003.
-# Sebastian Deutscher <sebastian.deutscher@web.de>, 2003,2004,2006.
-# Gerhard Ortner <gerhard.ortner@aon.at>, 2003, 2004.
-# Roy Steuber <roysteuber@mittweida-net.de>, 2004.
-# Marcus Fischer <i18n@marcusfischer.com>, 2004.
-# Frank Köster <frank@dueppel13.de>, 2004, 2005.
-# Ronny Standtke <Ronny.Standtke@gmx.de>, 2003, 2004.
-# Ronny Standtke <Ronny.Standtke@gmx.net>, 2004, 2005.
-# Nicolas Bauer <webmaster@mandrakeusers.de>, 2005, 2006.
-# Frank Koester <frank@dueppel13.de>, 2005.Frank Koester <frank@dueppel13.de>, 2006.
-# Nicolas Bauer <rastafarii@mandrivauer.de>, 2006, 2007.
-# Nicolas Bauer <rastafarii@mandrivauser.de>, 2007.
-# Oliver Burger <oliver@mandrivauser.de>, 2009, 2010.
+# Oliver Burger <oliver.bgr@googlemail.com>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: de\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2010-04-11 19:01+0200\n"
-"Last-Translator: Oliver Burger <oliver@mandrivauser.de>\n"
-"Language-Team: German <cooker-i18n@mandrivalinux.org>\n"
-"Language: de\n"
+"PO-Revision-Date: 2011-05-10 19:16+0200\n"
+"Last-Translator: Oliver Burger <oliver.bgr@googlemail.com>\n"
+"Language-Team: German <mageia-i18n@mageia.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "256 kB"
-msgstr "256 KB"
+msgstr "256 kB"
 
 #: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "512 kB"
-msgstr "512 KB"
+msgstr "512 kB"
 
 #: ../lib/Xconfig/card.pm:22
 #, c-format
@@ -109,8 +92,8 @@ msgstr "Wählen Sie die Speichergröße Ihrer Grafikkarte"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support "
+"additional features.\n"
 "Do you wish to use it?"
 msgstr ""
 "Es gibt ein proprietären Treiber für diese Grafikkarte, welche einige "
@@ -123,7 +106,7 @@ msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
-"Der Propitäre Treiber wurde nicht installiert, standartmäßig wird der freie "
+"Der Propitäre Treiber wurde nicht installiert, standardmäßig wird der freie "
 "Treiber verwendet."
 
 #: ../lib/Xconfig/card.pm:419
@@ -192,7 +175,7 @@ msgstr "Plugins"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "Ihre Xorg-Konfigurationsdatei ist kaputt und wird ignoriert."
+msgstr "Ihre Xorg-Konfigurationsdatei ist defekt und wird ignoriert."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -235,15 +218,14 @@ msgstr "Hersteller"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
 "It is VERY IMPORTANT that you do not specify a monitor type with a sync "
 "range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor."
+"\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Die beiden kritischen Parameter sind die vertikale Wiederholfrequenz\n"
@@ -333,12 +315,12 @@ msgstr "Hilfe"
 #: ../lib/Xconfig/test.pm:30
 #, c-format
 msgid "Test of the configuration"
-msgstr "Prüfen der Einstellungen"
+msgstr "Testen der Einstellungen"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Do you want to test the configuration?"
-msgstr "Möchten Sie die vorgenommenen Einstellungen prüfen?"
+msgstr "Möchten Sie die vorgenommenen Einstellungen testen?"
 
 #: ../lib/Xconfig/test.pm:31
 #, c-format
@@ -354,7 +336,7 @@ msgid ""
 msgstr ""
 "Es trat ein Fehler auf:\n"
 "%s\n"
-"Versuchen Sie, einen Parameter zu ändern."
+"Versuchen Sie, Parameter zu verändern."
 
 #: ../lib/Xconfig/test.pm:126
 #, c-format
@@ -449,7 +431,7 @@ msgstr "Globale Einstellungen"
 #: ../lib/Xconfig/various.pm:240
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr "Strg-Alt-Rücktaste deaktivieren"
+msgstr "<Strg>-<Alt>-Rücktaste deaktivieren"
 
 #: ../lib/Xconfig/various.pm:242
 #, c-format
@@ -464,18 +446,18 @@ msgstr "3D-Hardware-Beschleunigung"
 #: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Enable Translucency (Composite extension)"
-msgstr "Aktiviere Translucency (Composite Erweiterung)"
+msgstr "Aktiviere Translucency (Composite-Erweiterung)"
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
-msgstr "Verwende Maus Zeiger Beschleunigung"
+msgstr "Verwende Mauszeiger-Beschleunigung"
 
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
-"Aktiviere RENDER Beschleunigung (dies kann zu Fehlern in der Textdarstellung "
+"Aktiviere RENDER-Beschleunigung (dies kann zu Fehlern in der Textdarstellung "
 "führen)"
 
 #: ../lib/Xconfig/various.pm:256
@@ -529,8 +511,8 @@ msgstr ""
 "Ihre Grafikkarte scheint einen TV-Ausgang zu haben, der mittels Frame-Buffer "
 "angesprochen werden kann.\n"
 "\n"
-"Wenn Sie das wünschen, schließen Sie bitte Ihren Fernseher an die "
-"Grafikkarte an, bevor Sie den Rechner neu starten.\n"
+"Wenn Sie das wünschen, schließen Sie bitte Ihren Fernseher an die Grafikkarte "
+"an, bevor Sie den Rechner neu starten.\n"
 "Wählen Sie „TV-Ausgang“ im Bootloader.\n"
 "\n"
 "Haben Sie einen solchen Ausgang und wollen Sie ihn verwenden?"
@@ -793,7 +775,7 @@ msgstr "Dvorak (USA)"
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
-msgstr "Dvorak (Spanien)"
+msgstr "Dvorak (Esperanto)"
 
 #: ../lib/keyboard.pm:226
 #, c-format
@@ -961,14 +943,14 @@ msgstr "Japan (106 Tasten)"
 msgid ""
 "_: keyboard\n"
 "Kannada"
-msgstr "Kanada"
+msgstr "Indien (Kannada)"
 
 #: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr "Kyrgyz Tastatur"
+msgstr "Kirgisistan"
 
 #: ../lib/keyboard.pm:258
 #, c-format
@@ -1025,7 +1007,7 @@ msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr ""
-"_: keyboard\n"
+"_: Tastatur\n"
 "Maori"
 
 #: ../lib/keyboard.pm:268
@@ -1069,7 +1051,7 @@ msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr ""
-"_: keyboard\n"
+"_: Tastatur\n"
 "Nigerian"
 
 #: ../lib/keyboard.pm:274
@@ -1318,7 +1300,7 @@ msgstr "Vereinigte Staaten von Amerika (international)"
 #: ../lib/keyboard.pm:324
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr "ISO9995-3 (US keyboard mit 3 Funktionen pro Taste)"
+msgstr "ISO9995-3 (US Tastatur mit 3 Funktionen pro Taste)"
 
 #: ../lib/keyboard.pm:325
 #, c-format
@@ -1344,7 +1326,7 @@ msgstr "Jugoslawien (Lateinisches Layout)"
 #: ../lib/keyboard.pm:335
 #, c-format
 msgid "Right Alt key"
-msgstr "AltGr-Taste"
+msgstr "<AltGr>-Taste"
 
 #: ../lib/keyboard.pm:336
 #, c-format
@@ -1354,27 +1336,27 @@ msgstr "Beide Umschalttasten gleichzeitig"
 #: ../lib/keyboard.pm:337
 #, c-format
 msgid "Control and Shift keys simultaneously"
-msgstr "Strg und Umschalttaste gleichzeitig"
+msgstr "<Strg>- und Umschalttaste gleichzeitig"
 
 #: ../lib/keyboard.pm:338
 #, c-format
 msgid "CapsLock key"
-msgstr "CapsLock Taste"
+msgstr "Umschalt-Feststell-Taste"
 
 #: ../lib/keyboard.pm:339
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
-msgstr "Shift und CapsLock gleichzeitig"
+msgstr "Umschalt- und Umschalt-Feststell-Taste  gleichzeitig"
 
 #: ../lib/keyboard.pm:340
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
-msgstr "Strg und Alt gleichzeitig"
+msgstr "<Strg>- und <Alt>-Taste gleichzeitig"
 
 #: ../lib/keyboard.pm:341
 #, c-format
 msgid "Alt and Shift keys simultaneously"
-msgstr "Alt und Umschalttaste gleichzeitig"
+msgstr "<Alt>- und Umschalttaste gleichzeitig"
 
 #: ../lib/keyboard.pm:342
 #, c-format
@@ -1394,12 +1376,12 @@ msgstr "Rechte „Windows“-Taste"
 #: ../lib/keyboard.pm:345
 #, c-format
 msgid "Both Control keys simultaneously"
-msgstr "Beide Steuerungstasten gleichzeitig"
+msgstr "Beide <Strg>-Tasten gleichzeitig"
 
 #: ../lib/keyboard.pm:346
 #, c-format
 msgid "Both Alt keys simultaneously"
-msgstr "Beide ALT-Tasten gleichzeitig"
+msgstr "Beide <Alt>-Tasten gleichzeitig"
 
 #: ../lib/keyboard.pm:347
 #, c-format
@@ -1409,22 +1391,22 @@ msgstr "Linke Umschalt-Taste"
 #: ../lib/keyboard.pm:348
 #, c-format
 msgid "Right Shift key"
-msgstr "Rechte Shift-Taste"
+msgstr "Rechte Umschalt-Taste"
 
 #: ../lib/keyboard.pm:349
 #, c-format
 msgid "Left Alt key"
-msgstr "Linke Alt-Taste"
+msgstr "Linke <Alt>-Taste"
 
 #: ../lib/keyboard.pm:350
 #, c-format
 msgid "Left Control key"
-msgstr "Linke STRG Taste"
+msgstr "Linke <Strg>-Taste"
 
 #: ../lib/keyboard.pm:351
 #, c-format
 msgid "Right Control key"
-msgstr "Rechte STRG-Taste"
+msgstr "Rechte <Strg>-Taste"
 
 #: ../lib/keyboard.pm:387
 #, c-format
@@ -1450,7 +1432,7 @@ msgid ""
 "key to switch between the different keyboard layouts."
 msgstr ""
 "Diese Einstellung wird nach der Installation aktiviert.\n"
-"Während der Installation, benutzen Sie die rechte STRG-Taste,\n"
+"Während der Installation, benutzen Sie die rechte <Strg>-Taste,\n"
 "um zwischen den verschiedenen Tastatur Layouts zu wechseln."
 
 #: ../lib/mouse.pm:23
@@ -1471,7 +1453,7 @@ msgstr "Logitech MausMan/FirstMaus (Seriell)"
 #: ../lib/mouse.pm:31
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "Generische PS2 Rad-Maus"
+msgstr "Generische PS2-Rad-Maus"
 
 #: ../lib/mouse.pm:32
 #, c-format
@@ -1506,12 +1488,12 @@ msgstr "1 Taste"
 #: ../lib/mouse.pm:44 ../lib/mouse.pm:53
 #, c-format
 msgid "Generic 2 Button Mouse"
-msgstr "Generische 2 Tasten Maus/usr/share/sane/firmware"
+msgstr "Generische 2-Tasten-Maus"
 
 #: ../lib/mouse.pm:46 ../lib/mouse.pm:55
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Generische 3 Tasten Maus mit Mausrad Emulation"
+msgstr "Generische 3-Tasten-Maus mit Mausrad-Emulation"
 
 #: ../lib/mouse.pm:47
 #, c-format
@@ -1526,7 +1508,7 @@ msgstr "Seriell"
 #: ../lib/mouse.pm:54
 #, c-format
 msgid "Generic 3 Button Mouse"
-msgstr "Generische 3 Tasten Maus"
+msgstr "Generische 3-Tasten-Maus"
 
 #: ../lib/mouse.pm:56
 #, c-format
@@ -1536,12 +1518,12 @@ msgstr "Microsoft IntelliMaus"
 #: ../lib/mouse.pm:57
 #, c-format
 msgid "Logitech MouseMan"
-msgstr "Logitech MausMan/FirstMaus"
+msgstr "Logitech MouseMan"
 
 #: ../lib/mouse.pm:58
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr "Logitech MausMan mitMausrad Emulation"
+msgstr "Logitech MouseMan mit Mausrad-Emulation"
 
 #: ../lib/mouse.pm:59
 #, c-format
@@ -1556,12 +1538,12 @@ msgstr "Logitech CC Serie"
 #: ../lib/mouse.pm:62
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr "Logitech CC Serie mit Mausrad Emulation"
+msgstr "Logitech CC Serie mit Mausrad-Emulation"
 
 #: ../lib/mouse.pm:63
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
-msgstr "Logitech MausMan+/FirstMaus+"
+msgstr "Logitech MouseMan+/FirstMouse+"
 
 #: ../lib/mouse.pm:65
 #, c-format
@@ -1581,12 +1563,12 @@ msgstr "Logitech Maus (Seriell, alter C7 Typ)"
 #: ../lib/mouse.pm:68
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Logitech Maus (Seriell, alter C7 Typ) mit Mausrad Emulation"
+msgstr "Logitech Maus (Seriell, alter C7 Typ) mit Mausrad-Emulation"
 
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Kensington Thinking Maus mit Mausrad Emulation"
+msgstr "Kensington Thinking Maus mit Mausrad-Emulation"
 
 #: ../lib/mouse.pm:73
 #, c-format
@@ -1606,7 +1588,7 @@ msgstr "3 Tasten"
 #: ../lib/mouse.pm:78
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "3 Tasten mit Mausrad Emulation"
+msgstr "3 Tasten mit Mausrad-Emulation"
 
 #: ../lib/mouse.pm:81
 #, c-format
@@ -1616,12 +1598,12 @@ msgstr "Universell"
 #: ../lib/mouse.pm:83
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr "Einige PS/2 & USB Mäuse"
+msgstr "Einige PS/2- & USB-Mäuse"
 
 #: ../lib/mouse.pm:84
 #, c-format
 msgid "Force evdev"
-msgstr "Force evdev"
+msgstr "evdev erzwingen"
 
 #: ../lib/mouse.pm:85
 #, c-format
@@ -1656,12 +1638,12 @@ msgstr "Testen der Maus"
 #: ../lib/mouse.pm:512
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Bitte wählen Sie Ihren Maus Typ."
+msgstr "Bitte wählen Sie Ihren Maus-Typ."
 
 #: ../lib/mouse.pm:513
 #, c-format
 msgid "Mouse choice"
-msgstr "Maus Auswahl"
+msgstr "Maus-Auswahl"
 
 #: ../lib/mouse.pm:529
 #, c-format
@@ -1681,17 +1663,17 @@ msgstr "Bitte wählen Sie den seriellen Anschluss, an dem Ihre Maus hängt."
 #: ../lib/mouse.pm:543
 #, c-format
 msgid "Buttons emulation"
-msgstr "Tasten Emulation"
+msgstr "Tasten-Emulation"
 
 #: ../lib/mouse.pm:545
 #, c-format
 msgid "Button 2 Emulation"
-msgstr "2 Tasten Emulation"
+msgstr "2- Tasten-Emulation"
 
 #: ../lib/mouse.pm:546
 #, c-format
 msgid "Button 3 Emulation"
-msgstr "3 Tasten Emulation"
+msgstr "3-Tasten-Emulation"
 
 #: ../lib/mouse.pm:597
 #, c-format
@@ -1737,3 +1719,4 @@ msgstr "Tastaturtyp"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Wollen Sie, dass die Rücktaste auf den Konsolen Entfernen sendet?"
+
