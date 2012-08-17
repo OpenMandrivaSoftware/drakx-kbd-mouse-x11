@@ -68,7 +68,7 @@ sub configure_everything {
     my $X = {};
     my $ok = 1;
 
-    my $probed_info = Xconfig::monitor::probe($raw_X->get_Driver);
+    my $probed_info = Xconfig::monitor::probe();
     $options->{VideoRam_probed} = $probed_info->{VideoRam_probed};
     $ok &&= $X->{card} = Xconfig::card::configure($in, $raw_X, $do_pkgs, $auto, $options);
     $ok &&= $X->{monitors} = Xconfig::monitor::configure($in, $raw_X, int($raw_X->get_devices), $probed_info, $auto);

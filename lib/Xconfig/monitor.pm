@@ -84,7 +84,7 @@ sub configure_auto_install {
     if (!is_valid($monitors->[0])) {
 	my ($first_card) = Xconfig::card::probe();
 	$card_Driver = $first_card->{Driver} if $first_card;
-	put_in_hash($monitors->[0], probe($card_Driver));
+	put_in_hash($monitors->[0], probe());
     }
 
     foreach my $monitor (@$monitors) {
@@ -143,7 +143,7 @@ sub choose {
 	local $::noauto = 0; #- hey, you asked for plug'n play, so i do probe!
 	delete @$monitor{'VendorName', 'ModelName', 'EISA_ID', 'HorizSync', 'VertRefresh'};
 	if ($head_nb <= 1) {
-	    if (my $probed_info = probe($raw_X->get_Driver)) {
+	    if (my $probed_info = probe()) {
 		put_in_hash($monitor, $probed_info);
 	    } else {
 		log::l("Plug'n Play probing failed, but Xorg may do better");
@@ -213,8 +213,7 @@ sub is_valid {
 }
 
 sub probe {
-    my ($o_card_Driver) = @_;
-    probe_DDC() || probe_DMI() || probe_using_X($o_card_Driver);
+    probe_DDC() || probe_DMI();
 }
 
 #- some EDID are much too strict:
@@ -283,32 +282,6 @@ sub use_EDID {
     }
     configure_automatic($monitor) or return;
     $monitor;
-}
-
-sub probe_using_X {
-    my ($card_Driver) = @_;
-
-    detect_devices::isLaptop() or return;
-
-    $card_Driver ||= do {
-	require Xconfig::card;
-	my @cards = Xconfig::card::probe();
-	$cards[0]{Driver};
-    } or return;
-
-    require modules;
-    my @old_modules = modules::loaded_modules();
-    my $resolution = run_program::rooted_get_stdout($::prefix, 'monitor-probe-using-X', '--perl', $card_Driver);
-    modules::unload(difference2([ modules::loaded_modules() ], \@old_modules));
-
-    $resolution = eval($resolution) or return;
-
-    if (my $res = $resolution->[0]{preferred_resolution}) {
-	generic_flat_panel($res);
-    } else {
-	log::l("at least one EDID was found in Xorg.log, so let Xorg autodetect the monitor");
-	{ VendorName => "Plug'n Play" };
-    }
 }
 
 sub probe_DMI() {
