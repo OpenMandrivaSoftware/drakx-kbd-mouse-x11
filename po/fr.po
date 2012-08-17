@@ -1,89 +1,19 @@
-# translation of DrakX-fr.po to Français
-# Translation file of Mandriva Linux graphic install
-# Copyright (C) 1999,2000,2001,2002,2003,2004,2005,2006 Mandriva
-#
-# Veuillez ne pas mettre à jour ce fichier à moins d'être
-# certain tant de vos traductions que de votre grammaire et
-# de votre orthographe. Ces dernières sont trop souvent
-# approximatives. Elles nécessitent alors des relectures et
-# des corrections qui n'ont d'autre conséquence que de faire
-# perdre du temps à tout le monde (à vous si votre travail est
-# imparfait et aux relecteurs qui doivent rechercher puis corriger
-# vos éventuelles fautes).
-#
-# VEUILLEZ RESPECTER LA TYPOGRAPHIE FRANÇAISE !
-# Les majuscules doivent être accentuées si besoin est. Respectez
-# les espaces nécessaires pour la ponctuation (espace après la virgule et
-# le point, espace insécables avant les points d'interrogation,
-# d'exclamation, les deux-points et le point virgule, espace aussi après
-# le point virgule).
-# N'enlevez pas l'espace qui suit un signe de ponctuation en fin de
-# phrase; vous devez respecter la version originale.  Dans ce type de
-# cas, il est extrèmement probable que le programme va afficher
-# quelque chose d'autre à la fin.  En enlevant l'espace, vous allez
-# accoller deux mots.
-#
-# ESPACES INSÉCABLES
-# Vous devez utiliser un espace insécable (c'est un espace qui ne peut
-# pas servir de rupture à la ligne) avant le point d'exclamation, le
-# point d'interrogation, le deux-points, le point virgules, et pour les
-# "quantités", entre le nombre et l'unité abbrégée (par exemple "10 g").
-# L'espace normal en ISO et UTF8 est le caractere 0x20 tandis que l'espace
-# insécable est le caractère 0xA0. Sous Emacs en utilisant le po mode
-# livré avec gettext >= 0.10.40-4mdk vous pouvez voir celui-ci avec un
-# fond de couleur spécial. Sous Vi celui-ci est normalement affiché
-# précédé du caractère pipe "|". Pour le taper sous la plupart des
-# éditeurs, vous pouvez utiliser la touche "Compose" puis en tapant
-# deux espaces. Si vous n'avez pas de touche compose, vous pouvez
-# donner cette fonction à la touche "Windows" droite de votre clavier
-# avec la commande suivante :
-#   xmodmap -e 'keycode 116 = Multi_key'
-#
-# Les guillemets françaises sont « et » et non ". La guillemet ouvrante
-# « est suivie d'un espace insécable et la guillemet fermante » est
-# précédée du même type d'espace. Pour le taper, vous pouvez utiliser
-# la combinaison Compose < <, et Compose > > (ou alt-z et alt-x).
-#
-# Enfin, traduisez INTELLIGEMMENT et non mot à mot. Certaines traductions
-# n'ont aucun sens en français.
-#
-# MOTS À ÉVITER
-#  - application. Ce terme n'étant pas compris par le grand public, il est
-#    préférable de le remplacer par le mot "programme".
-#
-# Nous vous remercions de votre compréhension.
-#
-#
-#
-# Stéphane Teletchéa, 2005.
-# David BAUDENS <baudens@mandriva.com>, 1999-2004.
-# David ODIN <odin@mandriva.com>, 2000.
-# Pablo Saratxaga <pablo@mandriva.com>, 2001, 2005.
-# KAtiOS <katios@nolabel.net>, 2001.
-# Guillaume Cottenceau <gc@mandriva.com>, 2001-2002.
-# Thierry Vignaud <tvignaud@mandriva.com>, 2001-2004.
-# Christophe Combelles <ccomb@free.fr>, 2002,2003.
-# Adrien REZER <monsieurdidi@free.fr>, 2003.
-# RICHARD Nicolas <richardnicolas22@yahoo.fr>, 2004.
-# Lecureuil Nicolas <n1c0l4s.l3@wanadoo.fr>, 2004.
-# Teletchéa <steletch@free.fr>, 2004, 2005.
-# Christophe Berthelé <cpjc@free.fr>, 2005, 2006, 2007, 2008.
-# Didier Hérisson <didier.herisson@angstrom.uu.se>, 2005.
-# Nicolas Lécureuil <neoclust@mandriva.org>, 2005.
-# Christophe Berthelé <berthy@mandriva.org>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: DrakX-fr\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2009-10-21 18:23+0200\n"
-"Last-Translator: Christophe Berthelé <berthy@mandriva.org>\n"
-"Language-Team: French <cooker-i18n@mandrivalinux.org>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2011-05-02 09:59+0000\n"
+"Last-Translator: Rémi Verschelde <rverschelde@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2;plural=(n>1);\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -133,12 +63,12 @@ msgstr "64 Mo ou plus"
 #: ../lib/Xconfig/card.pm:174
 #, c-format
 msgid "X server"
-msgstr "serveur Xorg"
+msgstr "serveur X"
 
 #: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "Choose an X server"
-msgstr "Choisissez un serveur d'affichage (serveur Xorg)"
+msgstr "Choisissez un serveur d'affichage (serveur X)"
 
 #: ../lib/Xconfig/card.pm:206
 #, c-format
@@ -157,28 +87,21 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:296
 #, c-format
 msgid "Select the memory size of your graphics card"
-msgstr ""
-"Veuillez préciser la quantité de mémoire vidéo de votre carte graphique"
+msgstr "Veuillez préciser la quantité de mémoire vidéo de votre carte graphique"
 
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Il existe un pilote propriétaire pour votre carte graphique qui peut fournir "
-"des fonctionnalités additionnelles.\n"
+"Il existe un pilote propriétaire pour votre carte graphique qui peut fournir des fonctionnalités additionnelles.\n"
 "Voulez-vous l'utiliser ?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"Le pilote propriétaire n'a pu être installé correctement, utilisation du "
-"pilote libre par défaut."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "Le pilote propriétaire n'a pu être installé correctement, utilisation du pilote libre par défaut."
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -246,8 +169,7 @@ msgstr "Greffons"
 #: ../lib/Xconfig/main.pm:179
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr ""
-"Votre fichier de configuration Xorg est invalide, nous allons l'ignorer."
+msgstr "Votre fichier de configuration Xorg est invalide, nous allons l'ignorer."
 
 #: ../lib/Xconfig/main.pm:197
 #, c-format
@@ -265,7 +187,7 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Choisissez un moniteur pour l'écran nº %d"
+msgstr "Choisissez un moniteur pour l'écran nº%d"
 
 #: ../lib/Xconfig/monitor.pm:131
 #, c-format
@@ -290,15 +212,12 @@ msgstr "Vendeur"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Les deux paramètres importants sont la fréquence de rafraîchissement\n"
@@ -366,7 +285,7 @@ msgstr "Autre"
 #: ../lib/Xconfig/resolution_and_depth.pm:446
 #, c-format
 msgid "Choose the resolution and the color depth"
-msgstr "Choix de la résolution et du nombre de couleurs"
+msgstr "Choix de la résolution et de la profondeur des couleurs"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:447
 #, c-format
@@ -412,7 +331,7 @@ msgid ""
 msgstr ""
 "Une erreur est survenue :\n"
 "%s\n"
-"Essayez de changer les paramètres"
+"Essayez de changer certains paramètres"
 
 #: ../lib/Xconfig/test.pm:126
 #, c-format
@@ -426,7 +345,9 @@ msgstr "La configuration est-elle correcte ?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid "Disable Ctrl-Alt-Backspace: %s\n"
+msgid ""
+"Disable Ctrl-Alt-Backspace: %s\n"
+""
 msgstr "Désactiver le Ctrl-Alt-Retour arrière : %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -441,57 +362,79 @@ msgstr "oui"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid "3D hardware acceleration: %s\n"
+msgid ""
+"3D hardware acceleration: %s\n"
+""
 msgstr "Accélération 3D matérielle : %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid "Keyboard layout: %s\n"
+msgid ""
+"Keyboard layout: %s\n"
+""
 msgstr "Disposition du clavier : %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid "Mouse type: %s\n"
+msgid ""
+"Mouse type: %s\n"
+""
 msgstr "Type de souris : %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid "Monitor: %s\n"
+msgid ""
+"Monitor: %s\n"
+""
 msgstr "Moniteur : %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid "Monitor HorizSync: %s\n"
+msgid ""
+"Monitor HorizSync: %s\n"
+""
 msgstr "Fréquence de synchronisation horizontale : %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid "Monitor VertRefresh: %s\n"
-msgstr "Fréquence de synchronisation verticale : %s\n"
+msgid ""
+"Monitor VertRefresh: %s\n"
+""
+msgstr "Fréquence de rafraîchissement : %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid "Graphics card: %s\n"
+msgid ""
+"Graphics card: %s\n"
+""
 msgstr "Carte graphique : %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid "Graphics memory: %s kB\n"
+msgid ""
+"Graphics memory: %s kB\n"
+""
 msgstr "Mémoire vidéo : %s ko\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid "Color depth: %s\n"
-msgstr "Nombre de couleurs : %s\n"
+msgid ""
+"Color depth: %s\n"
+""
+msgstr "Profondeur des couleurs : %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid "Resolution: %s\n"
+msgid ""
+"Resolution: %s\n"
+""
 msgstr "Résolution : %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid "Xorg driver: %s\n"
+msgid ""
+"Xorg driver: %s\n"
+""
 msgstr "Pilote Xorg : %s\n"
 
 #: ../lib/Xconfig/various.pm:238
@@ -532,9 +475,7 @@ msgstr "Utiliser l'accélération matérielle pour le pointeur de la souris"
 #: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr ""
-"Activer l'accélération RENDER (peut causer des anomalies dans l'affichage de "
-"textes)"
+msgstr "Activer l'accélération RENDER (peut causer des anomalies dans l'affichage de textes)"
 
 #: ../lib/Xconfig/various.pm:256
 #, c-format
@@ -559,9 +500,7 @@ msgstr "Activer le basculement d'affichage par la touche de raccourci du BIOS"
 #: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Utiliser EXA au lieu de XAA (meilleures performances pour Render et "
-"Composite)"
+msgstr "Utiliser EXA au lieu de XAA (meilleures performances pour Render et Composite)"
 
 #: ../lib/Xconfig/various.pm:268
 #, c-format
@@ -579,8 +518,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -588,8 +526,7 @@ msgstr ""
 "Votre carte graphique semble avoir un connecteur TV-OUT.\n"
 "Elle peut être configurée pour fonctionner avec le « frame-buffer ».\n"
 "\n"
-"Pour cela vous devez connecter votre carte graphique à votre TV avant de "
-"démarrer votre ordinateur.\n"
+"Pour cela vous devez connecter votre carte graphique à votre TV avant de démarrer votre ordinateur.\n"
 "Ensuite choisissez l'option « TVout » dans le menu d'amorçage\n"
 "\n"
 "Avez-vous cette fonction ?"
@@ -651,7 +588,7 @@ msgstr "Français"
 #: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid "UK keyboard"
-msgstr "Anglais (Angleterre)"
+msgstr "Anglais (Royaume-Uni)"
 
 #: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
 #, c-format
@@ -726,7 +663,7 @@ msgstr "Arabe"
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
-msgstr "Azerbaïdjanais (latin)"
+msgstr "Azéri (latin)"
 
 #: ../lib/keyboard.pm:205
 #, c-format
@@ -768,7 +705,7 @@ msgstr "Bulgare (BDS)"
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
-msgstr "Brésilien"
+msgstr "Brésilien (ABNT-2)"
 
 #: ../lib/keyboard.pm:211
 #, c-format
@@ -845,7 +782,7 @@ msgstr "Danois"
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
-msgstr "Dvorak américain"
+msgstr "Dvorak (Américain)"
 
 #: ../lib/keyboard.pm:225
 #, c-format
@@ -873,7 +810,7 @@ msgstr "Dvorak (Royaume-Uni)"
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
-msgstr "Dvorak norvégien"
+msgstr "Dvorak (Norvégien)"
 
 #: ../lib/keyboard.pm:229
 #, c-format
@@ -887,7 +824,7 @@ msgstr "Dvorak (Polonais)"
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
-msgstr "Dvorak suédois"
+msgstr "Dvorak (Suédois)"
 
 #: ../lib/keyboard.pm:231
 #, c-format
@@ -929,7 +866,7 @@ msgstr "Grec"
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
-msgstr "Grec (polytonic)"
+msgstr "Grec (polytonique)"
 
 #: ../lib/keyboard.pm:241
 #, c-format
@@ -1489,8 +1426,8 @@ msgid ""
 "(eg: latin and non latin)"
 msgstr ""
 "Vous pouvez choisir ici la touche ou la combinaison de touches qui\n"
-"permettra de commuter entre les différents types de claviers\n"
-"(ex : latin et non latin)"
+"permettra de commuter entre les différents dispositions de claviers\n"
+"(par exemple : latin et non latin)"
 
 #: ../lib/keyboard.pm:392
 #, c-format
@@ -1506,7 +1443,7 @@ msgid ""
 msgstr ""
 "Ce paramètre sera activé après l'installation.\n"
 "Pendant l'installation, vous devrez utiliser la touche « Ctrl » droite\n"
-"pour commuter entre les différentes configurations du clavier."
+"pour commuter entre les différentes dispositions de clavier."
 
 #: ../lib/mouse.pm:23
 #, c-format
@@ -1571,7 +1508,7 @@ msgstr "Souris standard à 3 boutons avec émulation de la molette"
 #: ../lib/mouse.pm:47
 #, c-format
 msgid "Wheel"
-msgstr "Roulette"
+msgstr "Molette"
 
 #: ../lib/mouse.pm:51
 #, c-format
@@ -1766,9 +1703,7 @@ msgstr "VEUILLEZ FAIRE TOURNER LA MOLETTE !"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr ""
-"Vous devez vous déconnecter puis vous connecter à nouveau afin de prendre "
-"les changements en considération"
+msgstr "Vous devez vous déconnecter puis vous connecter à nouveau afin de prendre les changements en considération"
 
 #: ../tools/keyboarddrake:37
 #, c-format
@@ -1778,12 +1713,12 @@ msgstr "Clavier"
 #: ../tools/keyboarddrake:38
 #, c-format
 msgid "Please, choose your keyboard layout."
-msgstr "Veuillez choisir votre type de clavier."
+msgstr "Veuillez choisir votre disposition de clavier."
 
 #: ../tools/keyboarddrake:39
 #, c-format
 msgid "Keyboard layout"
-msgstr "Disposition du clavier"
+msgstr "Disposition de clavier"
 
 #: ../tools/keyboarddrake:52
 #, c-format
