@@ -43,7 +43,7 @@ sub from_raw_X {
 
     my $card = {
 	use_DRI_GLX  => eval { any { /dri/ } $raw_X->get_modules },
-	DRI_GLX_SPECIAL => $device->{Driver} eq 'nvidia' && eval { any { $_ eq 'glx' } $raw_X->get_modules },
+	DRI_GLX_SPECIAL => $device->{Driver} eq 'nvidia' && eval { member('glx', $raw_X->get_modules) },
 	%$device,
 	if_($device->{Driver} eq 'nvidia',
 	    DriverVersion => 
@@ -461,7 +461,7 @@ sub add_to_card__using_Cards {
 sub check_bad_card {
     my ($card) = @_;
     my $bad_card = $card->{BAD_FB_RESTORE};
-    $bad_card ||= $card->{Driver} eq 'intel' || $card->{Driver} eq 'fbdev';
+    $bad_card ||= member($card->{Driver}, qw(intel fbdev));
     $bad_card ||= member($card->{Driver}, 'nvidia', 'vmware') if !$::isStandalone; #- avoid testing during install at any price.
 
     log::explanations("the graphics card does not like X in framebuffer") if $bad_card;
