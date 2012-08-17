@@ -57,7 +57,7 @@ check_driver() {
 		# specified in xorg.conf - but that is only known by check_xorg.
 		check_gl /etc/fglrx/pxpress-free.ld.so.conf && return 1
 		IS_KMS=1
-		# radeon needs to loaded before X server
+		# radeon needs to be loaded before X server
 		NEEDS_LOAD_NOW=1
 		;;
 	nouveau)
