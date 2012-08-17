@@ -316,8 +316,8 @@ sub install_server {
 	delete $card->{Driver2};
     }
 
+    require Xconfig::proprietary;
     if ($card->{Driver2}) {       
-	require Xconfig::proprietary;
 	Xconfig::proprietary::handle_DRIVER2_NO_SSE($card);
 	my @pkgs = Xconfig::proprietary::pkgs_for_Driver2($card->{Driver2}, $do_pkgs);
 	if (@pkgs && (!$o_in || $o_in->ask_yesorno('', formatAlaTeX(N("There is a proprietary driver available for your video card which may support additional features.
