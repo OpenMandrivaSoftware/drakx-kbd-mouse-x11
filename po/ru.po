@@ -62,22 +62,22 @@ msgstr "32 МБ"
 msgid "64 MB or more"
 msgstr "64 МБ или больше"
 
-#: ../lib/Xconfig/card.pm:174
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "X server"
 msgstr "X-сервер"
 
-#: ../lib/Xconfig/card.pm:175
+#: ../lib/Xconfig/card.pm:177
 #, c-format
 msgid "Choose an X server"
 msgstr "Выберите X-сервер"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Настройка нескольких ядер"
 
-#: ../lib/Xconfig/card.pm:207
+#: ../lib/Xconfig/card.pm:209
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -86,12 +86,12 @@ msgstr ""
 "Ваша система поддерживает конфигурацию с несколькими графическими ядрами.\n"
 "Что вы хотите сделать?"
 
-#: ../lib/Xconfig/card.pm:296
+#: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Укажите объём памяти вашей видеокарты"
 
-#: ../lib/Xconfig/card.pm:322
+#: ../lib/Xconfig/card.pm:323
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may support additional features.\n"
@@ -235,12 +235,12 @@ msgstr ""
 "пределами возможностей вашего монитора: вы можете испортить свой монитор.\n"
 "Если сомневаетесь - выберите безопасную установку."
 
-#: ../lib/Xconfig/monitor.pm:164
+#: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Частота обновления по горизонтали"
 
-#: ../lib/Xconfig/monitor.pm:165
+#: ../lib/Xconfig/monitor.pm:166
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Частота обновления по вертикали"
@@ -249,6 +249,34 @@ msgstr "Частота обновления по вертикали"
 #, c-format
 msgid "Choose plugins"
 msgstr "Выберите модули"
+
+#: ../lib/Xconfig/proprietary.pm:60
+#, c-format
+msgid ""
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed, but it was not available on the enabled "
+"media.\n"
+"\n"
+"The basic non-accelerated '%s' driver will be configured instead.\n"
+"\n"
+"To enable full graphics support later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and reconfigure the graphics "
+"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"and re-selecting your graphics card."
+msgstr ""
+
+#: ../lib/Xconfig/proprietary.pm:67
+#, c-format
+msgid ""
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed in order for all features (including 3D "
+"acceleration) to work properly, but that package was not available in the "
+"enabled media.\n"
+"\n"
+"To enable all graphics card features later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and install the firmware package "
+"manually or reconfigure your graphics card."
+msgstr ""
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -513,7 +541,7 @@ msgstr ""
 "\n"
 "Есть у вас этот разъем?"
 
-#: ../lib/Xconfig/various.pm:293
+#: ../lib/Xconfig/various.pm:296
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Какой формат использует ваш телевизор?"
@@ -1421,12 +1449,12 @@ msgstr ""
 "переключения между различными раскладками клавиатуры\n"
 "(например: английской и русской)"
 
-#: ../lib/keyboard.pm:392
+#: ../lib/keyboard.pm:394
 #, c-format
 msgid "Warning"
 msgstr "Внимание"
 
-#: ../lib/keyboard.pm:393
+#: ../lib/keyboard.pm:395
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"

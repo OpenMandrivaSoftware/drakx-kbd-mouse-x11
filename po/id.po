@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX 0.1\n"
-"POT-Creation-Date: 2010-05-26 17:42+0200\n"
+"POT-Creation-Date: 2012-04-05 03:54+0300\n"
 "PO-Revision-Date: 2007-09-28 08:13+0700\n"
 "Last-Translator: Willy Sudiarto Raharjo <willysr@gmail.com>\n"
 "Language-Team: Indonesia <mdk-id@yahoogroups.com>\n"
@@ -70,22 +70,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "64 MB atau lebih"
 
-#: ../lib/Xconfig/card.pm:174
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "X server"
 msgstr "Server X"
 
-#: ../lib/Xconfig/card.pm:175
+#: ../lib/Xconfig/card.pm:177
 #, c-format
 msgid "Choose an X server"
 msgstr "Memilih server X"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Konfigurasi multi-head"
 
-#: ../lib/Xconfig/card.pm:207
+#: ../lib/Xconfig/card.pm:209
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -94,12 +94,12 @@ msgstr ""
 "Sistem Anda mendukung konfigurasi multiple head.\n"
 "Apa yang ingin Anda lakukan?"
 
-#: ../lib/Xconfig/card.pm:296
+#: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Pilih ukuran memori kartu grafis Anda"
 
-#: ../lib/Xconfig/card.pm:322
+#: ../lib/Xconfig/card.pm:323
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -110,7 +110,7 @@ msgstr ""
 "fitur-fitur tambahan.\n"
 "Apakah Anda hendak menggunakannya?"
 
-#: ../lib/Xconfig/card.pm:349
+#: ../lib/Xconfig/card.pm:355
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -118,75 +118,75 @@ msgid ""
 msgstr ""
 "Driver proprietary tidak diinstall dengan baik, kembali ke driver bebas."
 
-#: ../lib/Xconfig/card.pm:419
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Konfigurasi semua head secara terpisah"
 
-#: ../lib/Xconfig/card.pm:420
+#: ../lib/Xconfig/card.pm:426
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Gunakan ekstensi Xinerama"
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:431
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Konfigurasi hanya kartu \"%s\"%s"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:136
+#: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93
+#: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
 msgstr "Kebiasaan"
 
-#: ../lib/Xconfig/main.pm:123
+#: ../lib/Xconfig/main.pm:127
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
 msgstr "Konfigurasi Kartu Grafis & Monitor"
 
-#: ../lib/Xconfig/main.pm:124
+#: ../lib/Xconfig/main.pm:128
 #, c-format
 msgid "Quit"
 msgstr "Keluar"
 
-#: ../lib/Xconfig/main.pm:126
+#: ../lib/Xconfig/main.pm:130
 #, c-format
 msgid "Graphic Card"
 msgstr "Kartu Grafis"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
+#: ../lib/Xconfig/main.pm:133 ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Monitor"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Resolusi"
 
-#: ../lib/Xconfig/main.pm:135
+#: ../lib/Xconfig/main.pm:139
 #, c-format
 msgid "Test"
 msgstr "Tes"
 
-#: ../lib/Xconfig/main.pm:140
+#: ../lib/Xconfig/main.pm:144
 #, c-format
 msgid "Options"
 msgstr "Opsi"
 
-#: ../lib/Xconfig/main.pm:145
+#: ../lib/Xconfig/main.pm:149
 #, c-format
 msgid "Plugins"
 msgstr "Plugin"
 
-#: ../lib/Xconfig/main.pm:179
+#: ../lib/Xconfig/main.pm:183
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr "File konfigurasi Xorg Anda rusak, akan diabaikan."
 
-#: ../lib/Xconfig/main.pm:197
+#: ../lib/Xconfig/main.pm:201
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -199,32 +199,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Pilih Monitor untuk head #%d"
 
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor"
 msgstr "Pilih monitor"
 
-#: ../lib/Xconfig/monitor.pm:137
+#: ../lib/Xconfig/monitor.pm:138
 #, c-format
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
 #, c-format
 msgid "Generic"
 msgstr "Generik"
 
-#: ../lib/Xconfig/monitor.pm:139
+#: ../lib/Xconfig/monitor.pm:140
 #, c-format
 msgid "Vendor"
 msgstr "Pembuat"
 
-#: ../lib/Xconfig/monitor.pm:157
+#: ../lib/Xconfig/monitor.pm:158
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -247,12 +247,12 @@ msgstr ""
 "yang melebihi kemampuan monitor Anda: Anda bisa merusak monitor Anda.\n"
 "Jika ragu-ragu, gunakan setting yang umum."
 
-#: ../lib/Xconfig/monitor.pm:164
+#: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Kecepatan refresh horisontal"
 
-#: ../lib/Xconfig/monitor.pm:165
+#: ../lib/Xconfig/monitor.pm:166
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "kecepatan refresh vertikal"
@@ -261,6 +261,34 @@ msgstr "kecepatan refresh vertikal"
 #, c-format
 msgid "Choose plugins"
 msgstr "Pilih plugin"
+
+#: ../lib/Xconfig/proprietary.pm:60
+#, c-format
+msgid ""
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed, but it was not available on the enabled "
+"media.\n"
+"\n"
+"The basic non-accelerated '%s' driver will be configured instead.\n"
+"\n"
+"To enable full graphics support later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and reconfigure the graphics "
+"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"and re-selecting your graphics card."
+msgstr ""
+
+#: ../lib/Xconfig/proprietary.pm:67
+#, c-format
+msgid ""
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed in order for all features (including 3D "
+"acceleration) to work properly, but that package was not available in the "
+"enabled media.\n"
+"\n"
+"To enable all graphics card features later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and install the firmware package "
+"manually or reconfigure your graphics card."
+msgstr ""
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -283,7 +311,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 juta warna (24 bit)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:36
 #, c-format
 msgid "Automatic"
 msgstr "Otomatis"
@@ -293,7 +321,7 @@ msgstr "Otomatis"
 msgid "Resolutions"
 msgstr "Resolusi"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Lainnya"
@@ -429,85 +457,80 @@ msgstr "Resolusi: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Driver Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:238
+#: ../lib/Xconfig/various.pm:244
 #, c-format
 msgid "Xorg configuration"
 msgstr "Konfigurasi Xorg"
 
-#: ../lib/Xconfig/various.pm:239
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Global options"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:240
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:242
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Graphic card options"
 msgstr "Opsi kartu grafis"
 
-#: ../lib/Xconfig/various.pm:244
-#, c-format
-msgid "3D hardware acceleration"
-msgstr "Akselerasi 3D perangkat keras"
-
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Aktifkan Translucency (ekstensi Composite)"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Gunakan akselerasi 3D perangkat keras"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:255
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Aktifkan Akselerasi RENDER (ini mungkin menyebabkan kesalahan dalam "
 "menampilkan teks"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:259
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Aktifkan duplikasi tampilan pada monitor eksternal"
 
-#: ../lib/Xconfig/various.pm:257
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Aktifkan duplikasi tampilan pada layar kedua"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Aktifkan tombol BIOS untuk pergantian monitor eksternal"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:269
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
 msgstr ""
 "Gunakan EXA dan bukan XAA (performa lebih baik untuk Render dan Composite)"
 
-#: ../lib/Xconfig/various.pm:268
+#: ../lib/Xconfig/various.pm:271
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Antarmuka grafis saat startup"
 
-#: ../lib/Xconfig/various.pm:269
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Menjalankan antarmuka grafis (Xorg) saat boot secara otomatis"
 
-#: ../lib/Xconfig/various.pm:281
+#: ../lib/Xconfig/various.pm:284
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -527,7 +550,7 @@ msgstr ""
 "\n"
 "Apakah Anda punya fitur ini?"
 
-#: ../lib/Xconfig/various.pm:293
+#: ../lib/Xconfig/various.pm:296
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Norm apa yang digunakan TV Anda?"
@@ -541,7 +564,7 @@ msgstr ""
 "_:aspek rasio aneh\n"
 "lainnya"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -550,7 +573,7 @@ msgstr ""
 "_: keyboard\n"
 "Ceko (QWERTZ)"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -559,7 +582,7 @@ msgstr ""
 "_: keyboard\n"
 "Jerman"
 
-#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:189
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -568,7 +591,7 @@ msgstr ""
 "_: keyboard\n"
 "Dvorak"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -577,7 +600,7 @@ msgstr ""
 "_: keyboard\n"
 "Spanyol"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -586,7 +609,7 @@ msgstr ""
 "_: keyboard\n"
 "Finlandia"
 
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -595,12 +618,12 @@ msgstr ""
 "_: keyboard\n"
 "Perancis"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
 #, c-format
 msgid "UK keyboard"
 msgstr "Keyboard UK"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -609,7 +632,7 @@ msgstr ""
 "_: keyboard\n"
 "Norwegia"
 
-#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:195
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -618,7 +641,7 @@ msgstr ""
 "_: keyboard\n"
 "Polandia"
 
-#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -627,7 +650,7 @@ msgstr ""
 "_: keyboard\n"
 "Rusia"
 
-#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -636,12 +659,12 @@ msgstr ""
 "_: keyboard\n"
 "Swedia"
 
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard"
 msgstr "Keyboard US"
 
-#: ../lib/keyboard.pm:199
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -650,7 +673,7 @@ msgstr ""
 "_: keyboard\n"
 "Albania"
 
-#: ../lib/keyboard.pm:200
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -659,7 +682,7 @@ msgstr ""
 "_: keyboard\n"
 "Armenia (lama)"
 
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -668,7 +691,7 @@ msgstr ""
 "_: keyboard\n"
 "Armenia (mesin ketik)"
 
-#: ../lib/keyboard.pm:202
+#: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -677,7 +700,7 @@ msgstr ""
 "_: keyboard\n"
 "Armenia (fonetik)"
 
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -686,7 +709,16 @@ msgstr ""
 "_: keyboard\n"
 "Arab"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:205
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Asturian"
+msgstr ""
+"_: keyboard\n"
+"Estonia"
+
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -695,7 +727,7 @@ msgstr ""
 "_: keyboard\n"
 "Azerbaijan (latin)"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -704,7 +736,7 @@ msgstr ""
 "_: keyboard\n"
 "Belgia"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -713,7 +745,7 @@ msgstr ""
 "_: keyboard\n"
 "Bengal (Inscript)"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -722,7 +754,7 @@ msgstr ""
 "_: keyboard\n"
 "Bengal (Probhat)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -731,7 +763,7 @@ msgstr ""
 "_: keyboard\n"
 "Bulagaria (fonetik)"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -740,7 +772,7 @@ msgstr ""
 "_: keyboard\n"
 "Bulgaria (BDS)"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:212
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -749,7 +781,7 @@ msgstr ""
 "_: keyboard\n"
 "Brazil (ABNT-2)"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -758,7 +790,7 @@ msgstr ""
 "_: keyboard\n"
 "Bosnia"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -767,7 +799,7 @@ msgstr ""
 "_: keyboard\n"
 "Dzongkha/Tibet"
 
-#: ../lib/keyboard.pm:213
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -776,7 +808,7 @@ msgstr ""
 "_: keyboard\n"
 "Belarusia"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:216
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -785,7 +817,7 @@ msgstr ""
 "_: keyboard\n"
 "Swis (layout Jerman)"
 
-#: ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -794,7 +826,7 @@ msgstr ""
 "_: keyboard\n"
 "Swis (layout Prancis)"
 
-#: ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:219
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -803,7 +835,7 @@ msgstr ""
 "_: keyboard\n"
 "Cherokee silabis"
 
-#: ../lib/keyboard.pm:219
+#: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -812,7 +844,7 @@ msgstr ""
 "_: keyboard\n"
 "Ceko (QWERTY)"
 
-#: ../lib/keyboard.pm:221
+#: ../lib/keyboard.pm:223
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -821,7 +853,7 @@ msgstr ""
 "_: keyboard\n"
 "Jerman (tanpa dead key)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:224
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -830,7 +862,7 @@ msgstr ""
 "_: keyboard\n"
 "Devanagari"
 
-#: ../lib/keyboard.pm:223
+#: ../lib/keyboard.pm:225
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -839,25 +871,25 @@ msgstr ""
 "_: keyboard\n"
 "Denmark"
 
-#: ../lib/keyboard.pm:224
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Dvorak (US)"
-msgstr ""
-"_: keyboard\n"
-"Dvorak (US)"
-
-#: ../lib/keyboard.pm:225
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Dvorak (Esperanto)"
-msgstr ""
-"_: keyboard\n"
-"Dvorak (Esperanto)"
-
 #: ../lib/keyboard.pm:226
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (US)"
+msgstr ""
+"_: keyboard\n"
+"Dvorak (US)"
+
+#: ../lib/keyboard.pm:227
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+msgstr ""
+"_: keyboard\n"
+"Dvorak (Esperanto)"
+
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -866,7 +898,7 @@ msgstr ""
 "_: keyboard\n"
 "Dvorak (Perancis)"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -875,14 +907,14 @@ msgstr ""
 "_: keyboard\n"
 "Dvorak (UK)"
 
-#: ../lib/keyboard.pm:228
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "Dvorak (Norwegia)"
 
-#: ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -891,7 +923,7 @@ msgstr ""
 "_: keyboard\n"
 "Dvorak (Polandia)"
 
-#: ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -900,7 +932,7 @@ msgstr ""
 "_: keyboard\n"
 "Dvorak (Swedia)"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -909,7 +941,7 @@ msgstr ""
 "_: keyboard\n"
 "Estonia"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:236
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -918,7 +950,7 @@ msgstr ""
 "_: keyboard\n"
 "Faroese"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -927,7 +959,7 @@ msgstr ""
 "_: keyboard\n"
 "Georgia (layout \"Rusia\")"
 
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -936,7 +968,7 @@ msgstr ""
 "_: keyboard\n"
 "Georgia (layout \"Latin\")"
 
-#: ../lib/keyboard.pm:239
+#: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -945,7 +977,7 @@ msgstr ""
 "_: keyboard\n"
 "Yunani"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:242
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -954,7 +986,7 @@ msgstr ""
 "_: keyboard\n"
 "Yunani (politonik)"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -963,7 +995,7 @@ msgstr ""
 "_: keyboard\n"
 "Gujarat"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -972,7 +1004,7 @@ msgstr ""
 "_: keyboard\n"
 "Gurmukh"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -981,7 +1013,7 @@ msgstr ""
 "_: keyboard\n"
 "Kroasia"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -990,7 +1022,7 @@ msgstr ""
 "_: keyboard\n"
 "Hungaria"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -999,7 +1031,7 @@ msgstr ""
 "_: keyboard\n"
 "Irlandia"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1008,7 +1040,7 @@ msgstr ""
 "_: keyboard\n"
 "Inuktitut"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1017,7 +1049,7 @@ msgstr ""
 "_: keyboard\n"
 "Israel"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1026,7 +1058,7 @@ msgstr ""
 "_: keyboard\n"
 "Israel (fonetik)"
 
-#: ../lib/keyboard.pm:249
+#: ../lib/keyboard.pm:251
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1035,7 +1067,7 @@ msgstr ""
 "_: keyboard\n"
 "Iran"
 
-#: ../lib/keyboard.pm:250
+#: ../lib/keyboard.pm:252
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1044,7 +1076,7 @@ msgstr ""
 "_: keyboard\n"
 "Islandia"
 
-#: ../lib/keyboard.pm:251
+#: ../lib/keyboard.pm:253
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1053,7 +1085,7 @@ msgstr ""
 "_: keyboard\n"
 "Italia"
 
-#: ../lib/keyboard.pm:255
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1062,7 +1094,7 @@ msgstr ""
 "_: keyboard\n"
 "Jepang 106 tombol"
 
-#: ../lib/keyboard.pm:256
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1071,7 +1103,7 @@ msgstr ""
 "_: keyboard\n"
 "Kannada"
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:259
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1080,7 +1112,7 @@ msgstr ""
 "_: keyboard\n"
 "Kirgiztan"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1089,7 +1121,7 @@ msgstr ""
 "_: keyboard\n"
 "Korea"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:262
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1098,7 +1130,7 @@ msgstr ""
 "_: keyboard\n"
 "Kurdi (script Arab)"
 
-#: ../lib/keyboard.pm:261
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1107,7 +1139,7 @@ msgstr ""
 "_: keyboard\n"
 "Amerika Latin"
 
-#: ../lib/keyboard.pm:263
+#: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1116,7 +1148,7 @@ msgstr ""
 "_: keyboard\n"
 "Laos"
 
-#: ../lib/keyboard.pm:264
+#: ../lib/keyboard.pm:266
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
@@ -1125,7 +1157,7 @@ msgstr ""
 "_: keyboard\n"
 "Iran"
 
-#: ../lib/keyboard.pm:265
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1134,7 +1166,7 @@ msgstr ""
 "_: keyboard\n"
 "Latvia"
 
-#: ../lib/keyboard.pm:266
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1143,14 +1175,14 @@ msgstr ""
 "_: keyboard\n"
 "Malayalam"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr "Maori"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1159,7 +1191,7 @@ msgstr ""
 "_: keyboard\n"
 "Makedonia"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1168,7 +1200,7 @@ msgstr ""
 "_: keyboard\n"
 "Myanmar (Burma)"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1177,7 +1209,7 @@ msgstr ""
 "_: keyboard\n"
 "Mongol (cyrillic)"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1186,7 +1218,7 @@ msgstr ""
 "_: keyboard\n"
 "Malta (Inggris)"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1195,14 +1227,14 @@ msgstr ""
 "_: keyboard\n"
 "Malta (Amerika)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr "Nigeria"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1211,7 +1243,7 @@ msgstr ""
 "_: keyboard\n"
 "Belanda"
 
-#: ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1220,7 +1252,7 @@ msgstr ""
 "_: keyboard\n"
 "Oriya"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:279
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1229,7 +1261,7 @@ msgstr ""
 "_: keyboard\n"
 "Polandia (layout qwerty)"
 
-#: ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1238,7 +1270,7 @@ msgstr ""
 "_: keyboard\n"
 "Polandia (layout qwertz)"
 
-#: ../lib/keyboard.pm:280
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1247,7 +1279,7 @@ msgstr ""
 "_: keyboard\n"
 "Pashto"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1256,7 +1288,7 @@ msgstr ""
 "_: keyboard\n"
 "Portugis"
 
-#: ../lib/keyboard.pm:282
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1265,7 +1297,7 @@ msgstr ""
 "_: keyboard\n"
 "Kanada (Quebec)"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1274,7 +1306,7 @@ msgstr ""
 "_: keyboard\n"
 "Romania (qwertz)"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1283,7 +1315,7 @@ msgstr ""
 "_: keyboard\n"
 "Romania (qwerty)"
 
-#: ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1292,7 +1324,7 @@ msgstr ""
 "_: keyboard\n"
 "Rusia (fonetik)"
 
-#: ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1301,7 +1333,7 @@ msgstr ""
 "_: keyboard\n"
 "Slovenia"
 
-#: ../lib/keyboard.pm:290
+#: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1310,7 +1342,7 @@ msgstr ""
 "_: keyboard\n"
 "Sinhala"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1319,7 +1351,7 @@ msgstr ""
 "_: keyboard\n"
 "Slovakia (QWERTZ)"
 
-#: ../lib/keyboard.pm:292
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1328,7 +1360,7 @@ msgstr ""
 "_: keyboard\n"
 "Slovakia (QWERTY)"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:295
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1337,7 +1369,7 @@ msgstr ""
 "_: keyboard\n"
 "Saami (norwegia)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:296
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1346,7 +1378,7 @@ msgstr ""
 "_: keyboard\n"
 "Saami (Swedia/Finlandia)"
 
-#: ../lib/keyboard.pm:296
+#: ../lib/keyboard.pm:298
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1355,7 +1387,7 @@ msgstr ""
 "_: keyboard\n"
 "Sindhi"
 
-#: ../lib/keyboard.pm:298
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1364,7 +1396,7 @@ msgstr ""
 "_: keyboard\n"
 "Serbia (cyrillic)"
 
-#: ../lib/keyboard.pm:299
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1373,7 +1405,7 @@ msgstr ""
 "_: keyboard\n"
 "Syria"
 
-#: ../lib/keyboard.pm:300
+#: ../lib/keyboard.pm:302
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1382,7 +1414,7 @@ msgstr ""
 "_: keyboard\n"
 "Syiria (fonetik)"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1391,7 +1423,7 @@ msgstr ""
 "_: keyboard\n"
 "Telugu"
 
-#: ../lib/keyboard.pm:303
+#: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1400,7 +1432,7 @@ msgstr ""
 "_: keyboard\n"
 "Tamil (layout ISCII)"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1409,7 +1441,7 @@ msgstr ""
 "_: keyboard\n"
 "Tamil (layout mesin ketik)"
 
-#: ../lib/keyboard.pm:305
+#: ../lib/keyboard.pm:307
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1417,26 +1449,26 @@ msgid ""
 msgstr ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
-
-#: ../lib/keyboard.pm:306
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Thai (TIS-820)"
-msgstr ""
-"_: keyboard\n"
-"Thai (TIS-820)"
 
 #: ../lib/keyboard.pm:308
 #, c-format
 msgid ""
 "_: keyboard\n"
+"Thai (TIS-820)"
+msgstr ""
+"_: keyboard\n"
+"Thai (TIS-820)"
+
+#: ../lib/keyboard.pm:310
+#, c-format
+msgid ""
+"_: keyboard\n"
 "Thai (Pattachote)"
 msgstr ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 
-#: ../lib/keyboard.pm:310
+#: ../lib/keyboard.pm:312
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1445,7 +1477,7 @@ msgstr ""
 "_: keyboard\n"
 "Tifinagh (layout moroko) (+latin/arab)"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1454,7 +1486,7 @@ msgstr ""
 "_: keyboard\n"
 "Tifinagh (fonetik) (+latin/arab)"
 
-#: ../lib/keyboard.pm:313
+#: ../lib/keyboard.pm:315
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1463,7 +1495,7 @@ msgstr ""
 "_: keyboard\n"
 "Tajik"
 
-#: ../lib/keyboard.pm:315
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1472,7 +1504,7 @@ msgstr ""
 "_: keyboard\n"
 "Turkmenistan"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:318
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1481,7 +1513,7 @@ msgstr ""
 "_: keyboard\n"
 "Turki (model \"F\" tradisional)"
 
-#: ../lib/keyboard.pm:317
+#: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1490,7 +1522,7 @@ msgstr ""
 "_: keyboard\n"
 "Turki (model \"Q\" modern)"
 
-#: ../lib/keyboard.pm:319
+#: ../lib/keyboard.pm:321
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1499,7 +1531,7 @@ msgstr ""
 "_: keyboard\n"
 "Ukraina"
 
-#: ../lib/keyboard.pm:321
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1508,17 +1540,17 @@ msgstr ""
 "_: keyboard\n"
 "Keyboard Urdu"
 
-#: ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid "US keyboard (international)"
 msgstr "Keyboard US (internasional)"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:326
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr "ISO9995-3 (keyboard US dengan 3 level setiap kunci)"
 
-#: ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1527,7 +1559,7 @@ msgstr ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 
-#: ../lib/keyboard.pm:327
+#: ../lib/keyboard.pm:329
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1536,7 +1568,7 @@ msgstr ""
 "_: keyboard\n"
 "Vietnam \"jumlah baris\" QWERTY"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:330
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -1545,92 +1577,92 @@ msgstr ""
 "_: keyboard\n"
 "Yugoslavia (latin)"
 
-#: ../lib/keyboard.pm:335
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Right Alt key"
 msgstr "Tombol Alt Kanan"
 
-#: ../lib/keyboard.pm:336
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "Kedua tombol Shift bersamaan"
 
-#: ../lib/keyboard.pm:337
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Tombol Control dan Shift bersamaan"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "CapsLock key"
 msgstr "Tombol CapsLock"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Tombol Shift dan CapsLock bersamaan"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Tombol Ctrl dan Alt bersamaan"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Tombol Alt dan Shift bersamaan"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "\"Menu\" key"
 msgstr "Tombol \"Menu\""
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "Tombol \"Windows\" kiri"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "Tombol \"Windows\" kanan"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "Kedua Tombol Control bersamaan"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:348
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "Kedua Tombol Alt bersamaan"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:349
 #, c-format
 msgid "Left Shift key"
 msgstr "Tombol Shift kiri"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:350
 #, c-format
 msgid "Right Shift key"
 msgstr "Tombol Shift kanan"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:351
 #, c-format
 msgid "Left Alt key"
 msgstr "Tombol Alt Kiri"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:352
 #, c-format
 msgid "Left Control key"
 msgstr "Tombol Control kiri"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:353
 #, c-format
 msgid "Right Control key"
 msgstr "Tombol Control kanan"
 
-#: ../lib/keyboard.pm:387
+#: ../lib/keyboard.pm:389
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1640,12 +1672,12 @@ msgstr ""
 "Di sini Anda dapat memilih tombol atau kombinasinya untuk \n"
 "berganti antar layout keyboard (mis: latin dan non latin)"
 
-#: ../lib/keyboard.pm:392
+#: ../lib/keyboard.pm:394
 #, c-format
 msgid "Warning"
 msgstr "Peringatan"
 
-#: ../lib/keyboard.pm:393
+#: ../lib/keyboard.pm:395
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1656,257 +1688,257 @@ msgstr ""
 "installasi, Anda perlu menggunakan tombol Control \n"
 "kanan untuk berganti antar layout keyboard."
 
-#: ../lib/mouse.pm:23
+#: ../lib/mouse.pm:26
 #, c-format
 msgid "Sun - Mouse"
 msgstr "Mouse Sun"
 
-#: ../lib/mouse.pm:29
+#: ../lib/mouse.pm:32
 #, c-format
 msgid "Standard"
 msgstr "Standar"
 
-#: ../lib/mouse.pm:30
+#: ../lib/mouse.pm:33
 #, c-format
 msgid "Logitech MouseMan+"
 msgstr "Logitech MouseMan+"
 
-#: ../lib/mouse.pm:31
+#: ../lib/mouse.pm:34
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
 msgstr "Mouse PS2 roda generik"
 
-#: ../lib/mouse.pm:32
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
+#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
 
-#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:40
 #, c-format
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
+#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
 #, c-format
 msgid "1 button"
 msgstr "1 tombol"
 
-#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
+#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Mouse Generik 2 Tombol"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Mouse Generik 3 Tombol dengan emulasi roda"
 
-#: ../lib/mouse.pm:47
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Wheel"
 msgstr "Roda"
 
-#: ../lib/mouse.pm:51
+#: ../lib/mouse.pm:54
 #, c-format
 msgid "serial"
 msgstr "serial"
 
-#: ../lib/mouse.pm:54
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse"
 msgstr "Mouse Generik 3 Tombol"
 
-#: ../lib/mouse.pm:56
+#: ../lib/mouse.pm:59
 #, c-format
 msgid "Microsoft IntelliMouse"
 msgstr "Microsoft IntelliMouse"
 
-#: ../lib/mouse.pm:57
+#: ../lib/mouse.pm:60
 #, c-format
 msgid "Logitech MouseMan"
 msgstr "Logitech MouseMan"
 
-#: ../lib/mouse.pm:58
+#: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
 msgstr "Logitech MouseMan dengan emulasi roda"
 
-#: ../lib/mouse.pm:59
+#: ../lib/mouse.pm:62
 #, c-format
 msgid "Mouse Systems"
 msgstr "Sistem Mouse"
 
-#: ../lib/mouse.pm:61
+#: ../lib/mouse.pm:64
 #, c-format
 msgid "Logitech CC Series"
 msgstr "Seri Logitech CC"
 
-#: ../lib/mouse.pm:62
+#: ../lib/mouse.pm:65
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
 msgstr "Seri Logitech CC dengan emulasi roda"
 
-#: ../lib/mouse.pm:63
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
 msgstr "Logitech MouseMan+/FirstMouse+"
 
-#: ../lib/mouse.pm:65
+#: ../lib/mouse.pm:68
 #, c-format
 msgid "MM Series"
 msgstr "Seri MM"
 
-#: ../lib/mouse.pm:66
+#: ../lib/mouse.pm:69
 #, c-format
 msgid "MM HitTablet"
 msgstr "MM HitTablet"
 
-#: ../lib/mouse.pm:67
+#: ../lib/mouse.pm:70
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "Logitech Mouse (serial, tipe C7 lama)"
 
-#: ../lib/mouse.pm:68
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr "Logitech Mouse (serial, tipe C7 lama) dengan emulasi roda"
 
-#: ../lib/mouse.pm:70
+#: ../lib/mouse.pm:73
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
 msgstr "Kensington Thinking Mouse dengan emulasi roda"
 
-#: ../lib/mouse.pm:73
+#: ../lib/mouse.pm:76
 #, c-format
 msgid "busmouse"
 msgstr "busmouse"
 
-#: ../lib/mouse.pm:76
+#: ../lib/mouse.pm:79
 #, c-format
 msgid "2 buttons"
 msgstr "2 tombol"
 
-#: ../lib/mouse.pm:77
+#: ../lib/mouse.pm:80
 #, c-format
 msgid "3 buttons"
 msgstr "3 tombol"
 
-#: ../lib/mouse.pm:78
+#: ../lib/mouse.pm:81
 #, c-format
 msgid "3 buttons with Wheel emulation"
 msgstr "3 tombol dengan emulasi roda"
 
-#: ../lib/mouse.pm:81
+#: ../lib/mouse.pm:84
 #, c-format
 msgid "Universal"
 msgstr "Universal"
 
-#: ../lib/mouse.pm:83
+#: ../lib/mouse.pm:86
 #, c-format
 msgid "Any PS/2 & USB mice"
 msgstr "Sembarang mouse PS/2 & USB"
 
-#: ../lib/mouse.pm:84
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "Force evdev"
 msgstr "Paksa evdev"
 
-#: ../lib/mouse.pm:85
+#: ../lib/mouse.pm:88
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Pengontrol S Xbox Microsoft"
 
-#: ../lib/mouse.pm:86
+#: ../lib/mouse.pm:89
 #, c-format
 msgid "VirtualBox mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:87
+#: ../lib/mouse.pm:90
 #, fuzzy, c-format
 msgid "VMware mouse"
 msgstr "Tanpa mouse"
 
-#: ../lib/mouse.pm:90
+#: ../lib/mouse.pm:93
 #, c-format
 msgid "none"
 msgstr "tidak ada"
 
-#: ../lib/mouse.pm:92
+#: ../lib/mouse.pm:95
 #, c-format
 msgid "No mouse"
 msgstr "Tanpa mouse"
 
-#: ../lib/mouse.pm:475
+#: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
 msgstr "Menguji mouse"
 
-#: ../lib/mouse.pm:512
+#: ../lib/mouse.pm:525
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Harap pilih jenis mouse Anda."
 
-#: ../lib/mouse.pm:513
+#: ../lib/mouse.pm:526
 #, c-format
 msgid "Mouse choice"
 msgstr "Pilihan mouse"
 
-#: ../lib/mouse.pm:529
+#: ../lib/mouse.pm:542
 #, c-format
 msgid "Emulate third button?"
 msgstr "Emulasikan tombol ketiga?"
 
-#: ../lib/mouse.pm:533
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Mouse Port"
 msgstr "Port Mouse"
 
-#: ../lib/mouse.pm:534
+#: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Pilih serial port yang digunakan mouse Anda."
 
-#: ../lib/mouse.pm:543
+#: ../lib/mouse.pm:556
 #, c-format
 msgid "Buttons emulation"
 msgstr "Emulsi tombol"
 
-#: ../lib/mouse.pm:545
+#: ../lib/mouse.pm:558
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Emulasi Tombol 2"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:559
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Emulasi Tombol 3"
 
-#: ../lib/mouse.pm:597
+#: ../lib/mouse.pm:610
 #, c-format
 msgid "Please test the mouse"
 msgstr "Silakan uji mouse Anda"
 
-#: ../lib/mouse.pm:599
+#: ../lib/mouse.pm:612
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Untuk mengaktifkan mouse,"
 
-#: ../lib/mouse.pm:600
+#: ../lib/mouse.pm:613
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "GERAKKAN RODANYA!"
@@ -1940,6 +1972,9 @@ msgstr "Jenis keyboard"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Apakah Anda ingin membuat tombol BackSpace menjadi Delete pada konsol?"
+
+#~ msgid "3D hardware acceleration"
+#~ msgstr "Akselerasi 3D perangkat keras"
 
 #~ msgid ""
 #~ "_: keyboard\n"

@@ -10,15 +10,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2010-05-26 17:42+0200\n"
+"POT-Creation-Date: 2012-04-05 03:54+0300\n"
 "PO-Revision-Date: 2011-07-12 13:46+0000\n"
 "Last-Translator: Filip Komar <filip.komar@gmail.com>\n"
 "Language-Team: Translation list <mageia-i18n@mageia.org>\n"
+"Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3)\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -65,22 +66,22 @@ msgstr "32 MiB"
 msgid "64 MB or more"
 msgstr "64 MiB ali več"
 
-#: ../lib/Xconfig/card.pm:174
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "X server"
 msgstr "Grafični strežnik"
 
-#: ../lib/Xconfig/card.pm:175
+#: ../lib/Xconfig/card.pm:177
 #, c-format
 msgid "Choose an X server"
 msgstr "Izberite grafični strežnik"
 
-#: ../lib/Xconfig/card.pm:206
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Nastavitev večih zaslonov"
 
-#: ../lib/Xconfig/card.pm:207
+#: ../lib/Xconfig/card.pm:209
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -89,94 +90,100 @@ msgstr ""
 "Vaš sistem podpira konfiguracijo z več zasloni.\n"
 "Kaj želite storiti?"
 
-#: ../lib/Xconfig/card.pm:296
+#: ../lib/Xconfig/card.pm:298
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Izberite velikost pomnilnika na grafični kartici"
 
-#: ../lib/Xconfig/card.pm:322
+#: ../lib/Xconfig/card.pm:323
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may support additional features.\n"
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Na voljo je lastniški gonilnik za vašo grafično kartico, ki mogoče vsebuje dodatne funkcije, a njegova koda ni odprta.\n"
+"Na voljo je lastniški gonilnik za vašo grafično kartico, ki mogoče vsebuje "
+"dodatne funkcije, a njegova koda ni odprta.\n"
 "Ali ga želite uporabiti?"
 
-#: ../lib/Xconfig/card.pm:349
+#: ../lib/Xconfig/card.pm:355
 #, c-format
-msgid "The proprietary driver was not properly installed, defaulting to free software driver."
-msgstr "Ta lastniški gonilnik ni bil pravilno nameščen. Preklapljam na odprtokodni gonilnik."
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+"Ta lastniški gonilnik ni bil pravilno nameščen. Preklapljam na odprtokodni "
+"gonilnik."
 
-#: ../lib/Xconfig/card.pm:419
+#: ../lib/Xconfig/card.pm:425
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Nastavi vsak zaslon posebej"
 
-#: ../lib/Xconfig/card.pm:420
+#: ../lib/Xconfig/card.pm:426
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Uporabi razširitev Xinerama"
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:431
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Nastavi samo kartico »%s« %s"
 
-#: ../lib/Xconfig/main.pm:88 ../lib/Xconfig/main.pm:89
-#: ../lib/Xconfig/monitor.pm:136
+#: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93
+#: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
 msgstr "Po meri"
 
-#: ../lib/Xconfig/main.pm:123
+#: ../lib/Xconfig/main.pm:127
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
 msgstr "Nastavitev grafične kartice in zaslona"
 
-#: ../lib/Xconfig/main.pm:124
+#: ../lib/Xconfig/main.pm:128
 #, c-format
 msgid "Quit"
 msgstr "Končaj"
 
-#: ../lib/Xconfig/main.pm:126
+#: ../lib/Xconfig/main.pm:130
 #, c-format
 msgid "Graphic Card"
 msgstr "Grafična kartica"
 
-#: ../lib/Xconfig/main.pm:129 ../lib/Xconfig/monitor.pm:130
+#: ../lib/Xconfig/main.pm:133 ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Zaslon"
 
-#: ../lib/Xconfig/main.pm:132 ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Ločljivost"
 
-#: ../lib/Xconfig/main.pm:135
+#: ../lib/Xconfig/main.pm:139
 #, c-format
 msgid "Test"
 msgstr "Preizkus"
 
-#: ../lib/Xconfig/main.pm:140
+#: ../lib/Xconfig/main.pm:144
 #, c-format
 msgid "Options"
 msgstr "Možnosti"
 
-#: ../lib/Xconfig/main.pm:145
+#: ../lib/Xconfig/main.pm:149
 #, c-format
 msgid "Plugins"
 msgstr "Vstavki"
 
-#: ../lib/Xconfig/main.pm:179
+#: ../lib/Xconfig/main.pm:183
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
 msgstr "Nastavitve za grafični strežnik so napačne, zato ne bodo upoštevane."
 
-#: ../lib/Xconfig/main.pm:197
+#: ../lib/Xconfig/main.pm:201
 #, c-format
 msgid ""
 "Keep the changes?\n"
@@ -189,53 +196,59 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Izberite zaslon za izhod št. %d"
 
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor"
 msgstr "Izberite zaslon"
 
-#: ../lib/Xconfig/monitor.pm:137
+#: ../lib/Xconfig/monitor.pm:138
 #, c-format
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
 #, c-format
 msgid "Generic"
 msgstr "Splošno"
 
-#: ../lib/Xconfig/monitor.pm:139
+#: ../lib/Xconfig/monitor.pm:140
 #, c-format
 msgid "Vendor"
 msgstr "Proizvajalec"
 
-#: ../lib/Xconfig/monitor.pm:157
+#: ../lib/Xconfig/monitor.pm:158
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the rate\n"
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
-"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Kritična parametra sta dva: navpično osveževanje (hitrost, s katero se osvežuje celoten zaslon) in najbolj pomembno, vodoravno osveževanje (hitrost, s katero se izrisujejo vrstice).\n"
+"Kritična parametra sta dva: navpično osveževanje (hitrost, s katero se "
+"osvežuje celoten zaslon) in najbolj pomembno, vodoravno osveževanje "
+"(hitrost, s katero se izrisujejo vrstice).\n"
 "\n"
-"ZELO POMEMBNO je, da ne izberete tipa zaslona z osvežitvami, ki presegajo zmožnosti vašega, ker ga s tem lahko poškodujete!\n"
+"ZELO POMEMBNO je, da ne izberete tipa zaslona z osvežitvami, ki presegajo "
+"zmožnosti vašega, ker ga s tem lahko poškodujete!\n"
 "Če ste v dvomih, izberite konservativno nastavitev."
 
-#: ../lib/Xconfig/monitor.pm:164
+#: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Vodoravno osveževanje"
 
-#: ../lib/Xconfig/monitor.pm:165
+#: ../lib/Xconfig/monitor.pm:166
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Navpično osveževanje"
@@ -244,6 +257,34 @@ msgstr "Navpično osveževanje"
 #, c-format
 msgid "Choose plugins"
 msgstr "Izberite vstavke"
+
+#: ../lib/Xconfig/proprietary.pm:60
+#, c-format
+msgid ""
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed, but it was not available on the enabled "
+"media.\n"
+"\n"
+"The basic non-accelerated '%s' driver will be configured instead.\n"
+"\n"
+"To enable full graphics support later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and reconfigure the graphics "
+"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"and re-selecting your graphics card."
+msgstr ""
+
+#: ../lib/Xconfig/proprietary.pm:67
+#, c-format
+msgid ""
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed in order for all features (including 3D "
+"acceleration) to work properly, but that package was not available in the "
+"enabled media.\n"
+"\n"
+"To enable all graphics card features later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and install the firmware package "
+"manually or reconfigure your graphics card."
+msgstr ""
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -266,7 +307,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 milijonov barv (24 bitov)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:33
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:36
 #, c-format
 msgid "Automatic"
 msgstr "Samodejno"
@@ -276,7 +317,7 @@ msgstr "Samodejno"
 msgid "Resolutions"
 msgstr "Ločljivosti"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:500
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Drugo"
@@ -319,7 +360,9 @@ msgstr "Ali želite preizkusiti nastavitve?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr "Pozor: preizkušanje te grafične kartice lahko povzroči, da se računalnik preneha odzivati."
+msgstr ""
+"Pozor: preizkušanje te grafične kartice lahko povzroči, da se računalnik "
+"preneha odzivati."
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -344,9 +387,7 @@ msgstr "Ali je to prava nastavitev?"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
-msgid ""
-"Disable Ctrl-Alt-Backspace: %s\n"
-""
+msgid "Disable Ctrl-Alt-Backspace: %s\n"
 msgstr "Onemogoči Ctrl+Alt+Backspace: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
@@ -361,163 +402,141 @@ msgstr "da"
 
 #: ../lib/Xconfig/various.pm:27
 #, c-format
-msgid ""
-"3D hardware acceleration: %s\n"
-""
+msgid "3D hardware acceleration: %s\n"
 msgstr "Strojno 3D pospeševanje: %s\n"
 
 #: ../lib/Xconfig/various.pm:28
 #, c-format
-msgid ""
-"Keyboard layout: %s\n"
-""
+msgid "Keyboard layout: %s\n"
 msgstr "Razpored tipkovnice: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
 #, c-format
-msgid ""
-"Mouse type: %s\n"
-""
+msgid "Mouse type: %s\n"
 msgstr "Vrsta miške: %s\n"
 
 #: ../lib/Xconfig/various.pm:31
 #, c-format
-msgid ""
-"Monitor: %s\n"
-""
+msgid "Monitor: %s\n"
 msgstr "Zaslon: %s\n"
 
 #: ../lib/Xconfig/various.pm:32
 #, c-format
-msgid ""
-"Monitor HorizSync: %s\n"
-""
+msgid "Monitor HorizSync: %s\n"
 msgstr "Vodoravno osveževanje zaslona: %s\n"
 
 #: ../lib/Xconfig/various.pm:33
 #, c-format
-msgid ""
-"Monitor VertRefresh: %s\n"
-""
+msgid "Monitor VertRefresh: %s\n"
 msgstr "Navpično osveževanje zaslona: %s\n"
 
 #: ../lib/Xconfig/various.pm:35
 #, c-format
-msgid ""
-"Graphics card: %s\n"
-""
+msgid "Graphics card: %s\n"
 msgstr "Grafična kartica: %s\n"
 
 #: ../lib/Xconfig/various.pm:36
 #, c-format
-msgid ""
-"Graphics memory: %s kB\n"
-""
+msgid "Graphics memory: %s kB\n"
 msgstr "Grafični pomnilnik: %s KiB\n"
 
 #: ../lib/Xconfig/various.pm:38
 #, c-format
-msgid ""
-"Color depth: %s\n"
-""
+msgid "Color depth: %s\n"
 msgstr "Barvna globina: %s\n"
 
 #: ../lib/Xconfig/various.pm:39
 #, c-format
-msgid ""
-"Resolution: %s\n"
-""
+msgid "Resolution: %s\n"
 msgstr "Ločljivost: %s\n"
 
 #: ../lib/Xconfig/various.pm:41
 #, c-format
-msgid ""
-"Xorg driver: %s\n"
-""
+msgid "Xorg driver: %s\n"
 msgstr "Gonilnik Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:238
+#: ../lib/Xconfig/various.pm:244
 #, c-format
 msgid "Xorg configuration"
 msgstr "Nastavitev grafičnega strežnika Xorg"
 
-#: ../lib/Xconfig/various.pm:239
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Global options"
 msgstr "Globalne možnosti"
 
-#: ../lib/Xconfig/various.pm:240
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Onemogoči Ctrl+Alt+Backspace"
 
-#: ../lib/Xconfig/various.pm:242
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Graphic card options"
 msgstr "Nastavitev grafične kartice"
 
-#: ../lib/Xconfig/various.pm:244
-#, c-format
-msgid "3D hardware acceleration"
-msgstr "Strojno 3D pospeševanje"
-
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Omogoči prosojnost (razširitev Composite)"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Uporabi strojno pospeševanje za miškin kazalec"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:255
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Omogoči pospeševanje RENDER (to lahko povzroči napake pri prikazovanju besedila)"
+msgstr ""
+"Omogoči pospeševanje RENDER (to lahko povzroči napake pri prikazovanju "
+"besedila)"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:259
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Na zunanjem zaslonu omogoči podvojen prikaz"
 
-#: ../lib/Xconfig/various.pm:257
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Na drugem zaslonu omogoči podvojen prikaz"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:263
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Vsili digitalni izhod DVI"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Omogoči tipko za preklop zunanjega zaslona"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:269
 #, c-format
 msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Namesto XAA uporabi EXA (boljše zmogljivosti za razširitev Render in Composite)"
+msgstr ""
+"Namesto XAA uporabi EXA (boljše zmogljivosti za razširitev Render in "
+"Composite)"
 
-#: ../lib/Xconfig/various.pm:268
+#: ../lib/Xconfig/various.pm:271
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Grafični vmesnik ob zagonu"
 
-#: ../lib/Xconfig/various.pm:269
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Pri zagonu sistema samodejno zaženi grafični vmesnik (Xorg)"
 
-#: ../lib/Xconfig/various.pm:281
+#: ../lib/Xconfig/various.pm:284
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your computer.\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -525,12 +544,13 @@ msgstr ""
 "Izgleda, da ima vaša grafična kartica TV izhod.\n"
 "Deluje lahko s pomočjo medpomnilnika sličic.\n"
 "\n"
-"Da bi to dosegli, morate grafično kartico povezati s TV sprejemnikom, preden zaženete računalnik.\n"
+"Da bi to dosegli, morate grafično kartico povezati s TV sprejemnikom, preden "
+"zaženete računalnik.\n"
 "Nato pa v zagonskem nalagalniku izberete vnos »TVout«.\n"
 "\n"
 "Ali ima vaša kartica TV izhod?"
 
-#: ../lib/Xconfig/various.pm:293
+#: ../lib/Xconfig/various.pm:296
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Kateri standard uporablja vaš TV?"
@@ -542,882 +562,889 @@ msgid ""
 "other"
 msgstr "drugo"
 
-#: ../lib/keyboard.pm:186 ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Češka (QWERTZ)"
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German"
 msgstr "Nemška"
 
-#: ../lib/keyboard.pm:188
+#: ../lib/keyboard.pm:189
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak"
 msgstr "Dvorakova"
 
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Španska"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Finska"
 
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Francoska"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
 #, c-format
 msgid "UK keyboard"
 msgstr "Angleška (Združeno kraljestvo)"
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Norwegian"
 msgstr "Norveška"
 
-#: ../lib/keyboard.pm:194
+#: ../lib/keyboard.pm:195
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish"
 msgstr "Poljska"
 
-#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Ruska"
 
-#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Švedska"
 
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard"
 msgstr "Angleška (ZDA)"
 
-#: ../lib/keyboard.pm:199
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
 msgstr "Albanska"
 
-#: ../lib/keyboard.pm:200
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (old)"
 msgstr "Armenska (stara)"
 
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
 msgstr "Armenska (pisalni stroj)"
 
-#: ../lib/keyboard.pm:202
+#: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
 msgstr "Armenska (fonetična)"
 
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
 msgstr "Arabska"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:205
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Asturian"
+msgstr "Estonska"
+
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
 msgstr "Azerbajdžanska (latinična)"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
 msgstr "Belgijska"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
 msgstr "Bengalska (razpored inscript)"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
 msgstr "Bengalska (Probhat)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
 msgstr "Bolgarska (fonetična)"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
 msgstr "Bolgarska (BDS)"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:212
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
 msgstr "Brazilska (ABNT-2)"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
 msgstr "Bosanska"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
 msgstr "Tibetanska (Dzongkha)"
 
-#: ../lib/keyboard.pm:213
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
 msgstr "Beloruska"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:216
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
 msgstr "Švicarska (nemški razpored)"
 
-#: ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
 msgstr "Švicarska (francoski razpored)"
 
-#: ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:219
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
 msgstr "Cherokeeška zlogovna"
 
-#: ../lib/keyboard.pm:219
+#: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
 msgstr "Češka (QWERTY)"
 
-#: ../lib/keyboard.pm:221
+#: ../lib/keyboard.pm:223
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
 msgstr "Nemška (brez mrtvih tipk)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:224
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
 msgstr "Indijska (devanagari)"
 
-#: ../lib/keyboard.pm:223
+#: ../lib/keyboard.pm:225
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
 msgstr "Danska"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:226
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
 msgstr "Dvorakova (ZDA)"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
 msgstr "Dvorakova (esperanto)"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
 msgstr "Dvorakova (francoska)"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
 msgstr "Dvorakova (Združeno kraljestvo)"
 
-#: ../lib/keyboard.pm:228
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "Dvorakova (norveška)"
 
-#: ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
 msgstr "Dvorakova (poljska)"
 
-#: ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
 msgstr "Dvorakova (švedska)"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
 msgstr "Estonska"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:236
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr "Farska"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
 msgstr "Gruzijska (»ruski« razpored)"
 
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
 msgstr "Gruzijska (latinica)"
 
-#: ../lib/keyboard.pm:239
+#: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
 msgstr "Grška"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:242
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr "Grška (politonična)"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
 msgstr "Indijska (gujarati)"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
 msgstr "Indijska (gurmukhi)"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
 msgstr "Hrvaška"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
 msgstr "Madžarska"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr "Irska"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
 msgstr "Kanadska (inuktitut)"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
 msgstr "Izraelska"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
 msgstr "Izraelska (fonetična)"
 
-#: ../lib/keyboard.pm:249
+#: ../lib/keyboard.pm:251
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
 msgstr "Iranska"
 
-#: ../lib/keyboard.pm:250
+#: ../lib/keyboard.pm:252
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
 msgstr "Islandska"
 
-#: ../lib/keyboard.pm:251
+#: ../lib/keyboard.pm:253
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
 msgstr "Italijanska"
 
-#: ../lib/keyboard.pm:255
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
 msgstr "Japonska s 106 tipkami"
 
-#: ../lib/keyboard.pm:256
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
 msgstr "Indijska (kannada)"
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:259
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
 msgstr "Kirgiška"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "Korejska"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:262
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "Kurdska (arabska pisava)"
 
-#: ../lib/keyboard.pm:261
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "Latinsko ameriška"
 
-#: ../lib/keyboard.pm:263
+#: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "Laoška"
 
-#: ../lib/keyboard.pm:264
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
 msgstr "Litvijska"
 
-#: ../lib/keyboard.pm:265
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "Latvijska"
 
-#: ../lib/keyboard.pm:266
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "Indijska (malayalam)"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr "Maorska"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "Makedonska"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "Mjanmarska (burmanska)"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "Mongolska (cirilica)"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "Malteška (Združeno kraljestvo)"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "Malteška (ZDA)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr "Nigerijska"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "Nizozemska"
 
-#: ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "Indijska (oriya)"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:279
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "Poljska (QWERTY)"
 
-#: ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "Poljska (QWERTZ)"
 
-#: ../lib/keyboard.pm:280
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "Afganistanska (Pashto)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "Portugalska"
 
-#: ../lib/keyboard.pm:282
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "Kanadska (Quebec)"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "Romunska (QWERTZ)"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "Romunska (QWERTY)"
 
-#: ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "Ruska (fonetična)"
 
-#: ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "Slovenska"
 
-#: ../lib/keyboard.pm:290
+#: ../lib/keyboard.pm:292
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr "Sinhala"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "Slovaška (QWERTZ)"
 
-#: ../lib/keyboard.pm:292
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "Slovaška (QWERTY)"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:295
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "Laponska (norveška)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:296
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr "Laponska (švedska/finska)"
 
-#: ../lib/keyboard.pm:296
+#: ../lib/keyboard.pm:298
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
 msgstr "Sindhi (Indija, Pakistan)"
 
-#: ../lib/keyboard.pm:298
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "Srbska (cirilica)"
 
-#: ../lib/keyboard.pm:299
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "Sirska"
 
-#: ../lib/keyboard.pm:300
+#: ../lib/keyboard.pm:302
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "Sirska (fonetična)"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "Indijska (telugu)"
 
-#: ../lib/keyboard.pm:303
+#: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "Tamilska (razpored ISCII)"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "Tamilska (pisalni stroj)"
 
-#: ../lib/keyboard.pm:305
+#: ../lib/keyboard.pm:307
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "Tajska (Kedmanee)"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:308
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "Tajska (TIS-820)"
 
-#: ../lib/keyboard.pm:308
+#: ../lib/keyboard.pm:310
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "Tajska (Pattachote)"
 
-#: ../lib/keyboard.pm:310
+#: ../lib/keyboard.pm:312
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr "Tifinagh (maroški razpored) (+latinsko/arabsko)"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr "Tifinagh (fonetsko) (+latinsko/arabsko)"
 
-#: ../lib/keyboard.pm:313
+#: ../lib/keyboard.pm:315
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "Tadžiška"
 
-#: ../lib/keyboard.pm:315
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "Turkmenska"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:318
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
 msgstr "Turška (tradicionalna, model »F«)"
 
-#: ../lib/keyboard.pm:317
+#: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
 msgstr "Turška (moderna, model »Q«)"
 
-#: ../lib/keyboard.pm:319
+#: ../lib/keyboard.pm:321
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "Ukrajinska"
 
-#: ../lib/keyboard.pm:321
+#: ../lib/keyboard.pm:323
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "Pakistanska (urdu)"
 
-#: ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:325
 #, c-format
 msgid "US keyboard (international)"
 msgstr "Ameriška (mednarodna)"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:326
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr "ISO9995-3 (ameriška s tremi nivoji na tipko)"
 
-#: ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "Uzbeška (cirilica)"
 
-#: ../lib/keyboard.pm:327
+#: ../lib/keyboard.pm:329
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "Vietnamska (»numerična vrsta« QWERTY)"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:330
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "Srbsko - črnogorska (latinica)"
 
-#: ../lib/keyboard.pm:335
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Right Alt key"
 msgstr "Desna tipka Alt"
 
-#: ../lib/keyboard.pm:336
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "Obe tipki »Shift« istočasno"
 
-#: ../lib/keyboard.pm:337
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Tipki »Shift« in »Ctrl« istočasno"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "CapsLock key"
 msgstr "Tipka »CapsLock«"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Tipki »Shift« in »CapsLock« istočasno"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Tipki »Ctrl« in »Alt« istočasno"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Tipki »Alt« in »Shift« istočasno"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "\"Menu\" key"
 msgstr "Tipka »Meni«"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "Leva tipka »Windows«"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "Desna tipka »Windows«"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "Obe tipki »Ctrl« istočasno"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:348
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "Obe tipki »Alt« istočasno"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:349
 #, c-format
 msgid "Left Shift key"
 msgstr "Leva tipka »Shift«"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:350
 #, c-format
 msgid "Right Shift key"
 msgstr "Desna tipka »Shift«"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:351
 #, c-format
 msgid "Left Alt key"
 msgstr "Leva tipka »Alt«"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:352
 #, c-format
 msgid "Left Control key"
 msgstr "Leva tipka »Ctrl«"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:353
 #, c-format
 msgid "Right Control key"
 msgstr "Desna tipka »Ctrl«"
 
-#: ../lib/keyboard.pm:387
+#: ../lib/keyboard.pm:389
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1428,12 +1455,12 @@ msgstr ""
 "lahko preklapljali med različnimi razporedi tipk\n"
 "(npr. latiničnim in ciriličnim)"
 
-#: ../lib/keyboard.pm:392
+#: ../lib/keyboard.pm:394
 #, c-format
 msgid "Warning"
 msgstr "Opozorilo"
 
-#: ../lib/keyboard.pm:393
+#: ../lib/keyboard.pm:395
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1444,257 +1471,257 @@ msgstr ""
 "Med namestitvijo boste morali za preklapljanje\n"
 "uporabljati desno tipko »Ctrl«."
 
-#: ../lib/mouse.pm:23
+#: ../lib/mouse.pm:26
 #, c-format
 msgid "Sun - Mouse"
 msgstr "Sun - Mouse"
 
-#: ../lib/mouse.pm:29
+#: ../lib/mouse.pm:32
 #, c-format
 msgid "Standard"
 msgstr "Standardna"
 
-#: ../lib/mouse.pm:30
+#: ../lib/mouse.pm:33
 #, c-format
 msgid "Logitech MouseMan+"
 msgstr "Logitech MouseMan+"
 
-#: ../lib/mouse.pm:31
+#: ../lib/mouse.pm:34
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
 msgstr "Generična miška PS/2 s kolescem"
 
-#: ../lib/mouse.pm:32
+#: ../lib/mouse.pm:35
 #, c-format
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:35 ../lib/mouse.pm:69
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:36 ../lib/mouse.pm:64
+#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
 
-#: ../lib/mouse.pm:37
+#: ../lib/mouse.pm:40
 #, c-format
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:48
+#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:43 ../lib/mouse.pm:75
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
 #, c-format
 msgid "1 button"
 msgstr "1 gumb"
 
-#: ../lib/mouse.pm:44 ../lib/mouse.pm:53
+#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Generična miška z dvema gumboma"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:55
+#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Generična miška s tremi gumbi in posnemanjem kolesca"
 
-#: ../lib/mouse.pm:47
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Wheel"
 msgstr "Kolesce"
 
-#: ../lib/mouse.pm:51
+#: ../lib/mouse.pm:54
 #, c-format
 msgid "serial"
 msgstr "serijska"
 
-#: ../lib/mouse.pm:54
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse"
 msgstr "Generična miška s tremi gumbi"
 
-#: ../lib/mouse.pm:56
+#: ../lib/mouse.pm:59
 #, c-format
 msgid "Microsoft IntelliMouse"
 msgstr "Microsoft IntelliMouse"
 
-#: ../lib/mouse.pm:57
+#: ../lib/mouse.pm:60
 #, c-format
 msgid "Logitech MouseMan"
 msgstr "Logitech MouseMan"
 
-#: ../lib/mouse.pm:58
+#: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
 msgstr "Logitech MouseMan s posnemanjem kolesca"
 
-#: ../lib/mouse.pm:59
+#: ../lib/mouse.pm:62
 #, c-format
 msgid "Mouse Systems"
 msgstr "Mouse Systems"
 
-#: ../lib/mouse.pm:61
+#: ../lib/mouse.pm:64
 #, c-format
 msgid "Logitech CC Series"
 msgstr "Logitech CC Series"
 
-#: ../lib/mouse.pm:62
+#: ../lib/mouse.pm:65
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
 msgstr "Logitech CC Series s posnemanjem kolesca"
 
-#: ../lib/mouse.pm:63
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
 msgstr "Logitech MouseMan+/FirstMouse+"
 
-#: ../lib/mouse.pm:65
+#: ../lib/mouse.pm:68
 #, c-format
 msgid "MM Series"
 msgstr "MM Series"
 
-#: ../lib/mouse.pm:66
+#: ../lib/mouse.pm:69
 #, c-format
 msgid "MM HitTablet"
 msgstr "MM HitTablet"
 
-#: ../lib/mouse.pm:67
+#: ../lib/mouse.pm:70
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "Logitech Mouse (serijska, stari C7 tip)"
 
-#: ../lib/mouse.pm:68
+#: ../lib/mouse.pm:71
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr "Logitech Mouse (serijska, stari C7 tip) s posnemanjem kolesca"
 
-#: ../lib/mouse.pm:70
+#: ../lib/mouse.pm:73
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
 msgstr "Kensington Thinking Mouse s posnemanjem kolesca"
 
-#: ../lib/mouse.pm:73
+#: ../lib/mouse.pm:76
 #, c-format
 msgid "busmouse"
 msgstr "busmouse"
 
-#: ../lib/mouse.pm:76
+#: ../lib/mouse.pm:79
 #, c-format
 msgid "2 buttons"
 msgstr "2 gumba"
 
-#: ../lib/mouse.pm:77
+#: ../lib/mouse.pm:80
 #, c-format
 msgid "3 buttons"
 msgstr "3 gumbi"
 
-#: ../lib/mouse.pm:78
+#: ../lib/mouse.pm:81
 #, c-format
 msgid "3 buttons with Wheel emulation"
 msgstr "3 gumbi s posnemanjem kolesca"
 
-#: ../lib/mouse.pm:81
+#: ../lib/mouse.pm:84
 #, c-format
 msgid "Universal"
 msgstr "Univerzalna"
 
-#: ../lib/mouse.pm:83
+#: ../lib/mouse.pm:86
 #, c-format
 msgid "Any PS/2 & USB mice"
 msgstr "Katerakoli miška PS/2 ali USB"
 
-#: ../lib/mouse.pm:84
+#: ../lib/mouse.pm:87
 #, c-format
 msgid "Force evdev"
 msgstr "Vsili splošni vmesnik za vhodne naprave (evdev)"
 
-#: ../lib/mouse.pm:85
+#: ../lib/mouse.pm:88
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Xbox Controller S"
 
-#: ../lib/mouse.pm:86
+#: ../lib/mouse.pm:89
 #, c-format
 msgid "VirtualBox mouse"
 msgstr "Miška v VirtualBox"
 
-#: ../lib/mouse.pm:87
+#: ../lib/mouse.pm:90
 #, c-format
 msgid "VMware mouse"
 msgstr "Miška v VMware"
 
-#: ../lib/mouse.pm:90
+#: ../lib/mouse.pm:93
 #, c-format
 msgid "none"
 msgstr "brez"
 
-#: ../lib/mouse.pm:92
+#: ../lib/mouse.pm:95
 #, c-format
 msgid "No mouse"
 msgstr "Brez miške"
 
-#: ../lib/mouse.pm:475
+#: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
 msgstr "Preizkus miške"
 
-#: ../lib/mouse.pm:512
+#: ../lib/mouse.pm:525
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Izberite vrsto svoje miške"
 
-#: ../lib/mouse.pm:513
+#: ../lib/mouse.pm:526
 #, c-format
 msgid "Mouse choice"
 msgstr "Izbira miške"
 
-#: ../lib/mouse.pm:529
+#: ../lib/mouse.pm:542
 #, c-format
 msgid "Emulate third button?"
 msgstr "Ali želite posnemanje tretjega gumba?"
 
-#: ../lib/mouse.pm:533
+#: ../lib/mouse.pm:546
 #, c-format
 msgid "Mouse Port"
 msgstr "Vrata za miško"
 
-#: ../lib/mouse.pm:534
+#: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Izberite zaporedna vrata, na katera je priključena miška"
 
-#: ../lib/mouse.pm:543
+#: ../lib/mouse.pm:556
 #, c-format
 msgid "Buttons emulation"
 msgstr "Posnemanje gumbov"
 
-#: ../lib/mouse.pm:545
+#: ../lib/mouse.pm:558
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "Posnemanje drugega gumba"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:559
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "Posnemanje tretjega gumba"
 
-#: ../lib/mouse.pm:597
+#: ../lib/mouse.pm:610
 #, c-format
 msgid "Please test the mouse"
 msgstr "Preizkusite miško"
 
-#: ../lib/mouse.pm:599
+#: ../lib/mouse.pm:612
 #, c-format
 msgid "To activate the mouse,"
 msgstr "Za aktiviranje miške,"
 
-#: ../lib/mouse.pm:600
+#: ../lib/mouse.pm:613
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "ZAVRTITE KOLESCE!"
@@ -1728,3 +1755,6 @@ msgstr "Vrsta tipkovnice"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Ali želite, da ima Vračalka (BackSpace) v konzoli funkcijo »izbriši«?"
+
+#~ msgid "3D hardware acceleration"
+#~ msgstr "Strojno 3D pospeševanje"
