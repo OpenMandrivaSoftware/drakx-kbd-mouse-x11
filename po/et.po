@@ -267,6 +267,16 @@ msgid ""
 "driver by going to \"Set up the graphical server\" at Mageia Control Center "
 "and re-selecting your graphics card."
 msgstr ""
+"Teie videokaardile sobiv vaba '%s' nõuab omandusliku püsivara paketi "
+"'%s' paigaldamist, aga seda paketti ei leidu praegu lubatud andmekandjatel.\n"
+"\n"
+"Selle asemel seadistatakse lihtne kiirenduseta '%s' draiver.\n"
+"\n"
+"Täieliku videotoetuse hilisemaks jõustamiseks lülitage Mageia juhtimiskeskuse "
+"sektsioonis \"Tarkvara paigaldamine ja eemaldamine\" sisse 'nonfree' "
+"hoidla kasutamine ning seadistage graafikadraiver ümber, valides "
+"juhtimiskeskuses sektsiooni \"Graafikaserveri seadistamine\" "
+"ja seal juba oma videokaardi."
 
 #: ../lib/Xconfig/proprietary.pm:67
 #, c-format
@@ -280,6 +290,14 @@ msgid ""
 "section at \"Install and remove software\" and install the firmware package "
 "manually or reconfigure your graphics card."
 msgstr ""
+"Teie videokaardile sobiv vaba '%s' nõuab omandusliku püsivara paketi "
+"'%s' paigaldamist, et kõik võimalused (sealhulgas 3D kiirendus) korralikult "
+"toimiksid, aga seda paketti ei leidu praegu lubatud andmekandjatel.\n"
+"\n"
+"Kõigi videokaardi võimaluste hilisemaks jõustamiseks lülitage Mageia "
+"juhtimiskeskuse sektsioonis \"Tarkvara paigaldamine ja eemaldamine\" "
+"sisse 'nonfree' hoidla kasutamine ning paigaldage püsivarapakett käsitsi "
+"või seadistage videokaart uuesti."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -666,11 +684,11 @@ msgid ""
 msgstr "Araabia"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Eesti"
+msgstr "Astuuria"
 
 #: ../lib/keyboard.pm:206
 #, c-format
