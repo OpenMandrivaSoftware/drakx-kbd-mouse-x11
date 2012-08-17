@@ -1,26 +1,24 @@
-# translation of es.po to Español
-# traducción de DrakX-es.po to Español
-# spanish translation of DrakX
-# Copyright (C) 2000, 2001,2002 Mandriva S.A.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
 #
 # Fabián Mandelbaum <fmandelbaum@gmail.com>, 2000-2003, 2006-2008.
 # Pablo Saratxaga <pablo@mandriva.com>, 2004, 2006.
 # Jaime Crespo <505201@unizar.es>, 2004, 2005.
 # José Manuel Pérez <jmprodu@hotmail.com>, 2005.
 # Andre Paulo Machado <andre.panm@gmail.com>, 2009.
+ 
 msgid ""
 msgstr ""
-"Project-Id-Version: es\n"
+"Project-Id-Version: drakx-kbd-mouse-x11\n"
 "POT-Creation-Date: 2010-05-26 17:42+0200\n"
-"PO-Revision-Date: 2010-03-22 16:12-0300\n"
+"PO-Revision-Date: 2012-03-05 02:49+0000\n"
 "Last-Translator: Diego Bello <dbello@gmail.com>\n"
-"Language-Team: Spanish <es@li.org>\n"
-"Language: es\n"
+"Language-Team: Spanish <mdktrans@blogdrake.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../lib/Xconfig/card.pm:20
 #, c-format
@@ -99,22 +97,16 @@ msgstr "Seleccione la cantidad de memoria de su tarjeta gráfica"
 #: ../lib/Xconfig/card.pm:322
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may "
-"support additional features.\n"
+"There is a proprietary driver available for your video card which may support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Hay un controlador propietario disponible para su tarjeta de vídeo que puede "
-"soportar características adicionales.\n"
+"Hay un controlador propietario disponible para su tarjeta de vídeo que puede soportar características adicionales.\n"
 "¿Desea utilizarlo?"
 
 #: ../lib/Xconfig/card.pm:349
 #, c-format
-msgid ""
-"The proprietary driver was not properly installed, defaulting to free "
-"software driver."
-msgstr ""
-"El controlador propietario no se instaló adecuadamente, cambiando al "
-"controlador de software libre."
+msgid "The proprietary driver was not properly installed, defaulting to free software driver."
+msgstr "El controlador propietario no se instaló adecuadamente, cambiando al controlador de software libre."
 
 #: ../lib/Xconfig/card.pm:419
 #, c-format
@@ -225,21 +217,16 @@ msgstr "Fabricante"
 #: ../lib/Xconfig/monitor.pm:157
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the "
-"rate\n"
+"The two critical parameters are the vertical refresh rate, which is the rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
-"range\n"
-"that is beyond the capabilities of your monitor: you may damage your "
-"monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
+"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Los dos parámetros críticos son la frecuencia de barrido vertical, que "
-"indica la frecuencia\n"
-"a la cual se refresca la pantalla entera, y más importante aún, la "
-"frecuencia de sincronización\n"
+"Los dos parámetros críticos son la frecuencia de barrido vertical, que indica la frecuencia\n"
+"a la cual se refresca la pantalla entera, y más importante aún, la frecuencia de sincronización\n"
 "horizontal, la cual es la frecuencia de las líneas de barrido horizontal.\n"
 "\n"
 "Es MUY IMPORTANTE que no especifique un tipo de monitor con una\n"
@@ -510,8 +497,7 @@ msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your "
-"computer.\n"
+"For this you have to plug your graphic card to your TV before booting your computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -519,8 +505,7 @@ msgstr ""
 "Parece que su tarjeta gráfica tiene un conector de salida para TV.\n"
 "Se puede configurar para trabajar con el frame-buffer.\n"
 "\n"
-"Para esto Usted tiene que conectar su tarjeta gráfica a su TV antes de "
-"arrancar su computadora.\n"
+"Para esto Usted tiene que conectar su tarjeta gráfica a su TV antes de arrancar su computadora.\n"
 "Luego, elija la entrada \"TVout\" en el cargador de arranque\n"
 "\n"
 "¿Tiene Usted esta característica?"
@@ -1725,44 +1710,3 @@ msgstr "Tipo de teclado"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "¿Desea que la tecla BackSpace envíe un Delete en la consola?"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (old)"
-#~ msgstr "Lituano AZERTY (antiguo)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian AZERTY (new)"
-#~ msgstr "Lituano AZERTY (nuevo)"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"number row\" QWERTY"
-#~ msgstr "Lituano \"numérico\" QWERTY"
-
-#~ msgid ""
-#~ "_: keyboard\n"
-#~ "Lithuanian \"phonetic\" QWERTY"
-#~ msgstr "Lituano \"fonético\" QWERTY"
-
-#~ msgid "Mouse test"
-#~ msgstr "Prueba del ratón"
-
-#~ msgid "Please test your mouse:"
-#~ msgstr "Por favor, pruebe su ratón:"
-
-#~ msgid "Plug'n Play probing failed. Please select the correct monitor"
-#~ msgstr "Falló la prueba Plug'n Play. Por favor, elija un monitor específico"
-
-#~ msgid ""
-#~ "The display resolution being used may not be correct. \n"
-#~ "\n"
-#~ "If your desktop appears to stretch beyond the edges of the display, \n"
-#~ "installing %s may help fix the problem. Install it now?"
-#~ msgstr ""
-#~ "La resolución de la pantalla usada puede no ser correcta. \n"
-#~ "\n"
-#~ "Si su escritorio aparece estirarse más allá de los bordes de la "
-#~ "pantalla, \n"
-#~ "puede instalar %s para ayudar a resolver el problema ¿Instalarlo ahora?"
