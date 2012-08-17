@@ -19,11 +19,12 @@ sub good_default_monitor() {
 
 sub default_monitor {
     my ($card_Driver) = @_;
-    if (detect_devices::is_virtualbox() || ($card_Driver eq 'siliconmotion' && arch() =~ /mips/)) {
+    if (detect_devices::is_virtualbox() || detect_devices::isLaptop() || ($card_Driver eq 'siliconmotion' && arch() =~ /mips/)) {
 	# HACK: since there is no way to get the EDID on gdium, the resolution is passed to the kernel
 	# so we can rely on it
 	# in vbox, we return Plug'n'Play because the vbox integration addons
 	# will take care of everything for us
+	# On laptops the X server should usually be able to autodetect everything.
 	{ VendorName => "Plug'n Play" };
     } else {
 	good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
