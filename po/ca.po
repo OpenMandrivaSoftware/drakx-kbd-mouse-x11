@@ -186,7 +186,7 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor for head #%d"
-msgstr ""
+msgstr "Escolliu un monitor per a la capçalera #%d"
 
 #: ../lib/Xconfig/monitor.pm:132
 #, c-format
@@ -656,11 +656,11 @@ msgid ""
 msgstr "Àrab"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Estonià"
+msgstr "Asturià"
 
 #: ../lib/keyboard.pm:206
 #, c-format
@@ -723,7 +723,7 @@ msgstr "Bosnià"
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
-msgstr ""
+msgstr "Dzongkha/Tibetà"
 
 #: ../lib/keyboard.pm:215
 #, c-format
@@ -1360,7 +1360,7 @@ msgstr "Tecla de Fixació de Majúscules"
 #: ../lib/keyboard.pm:341
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
-msgstr ""
+msgstr "Tecles Majúscula i Fixació de Majúscules simultàniament"
 
 #: ../lib/keyboard.pm:342
 #, c-format
@@ -1445,6 +1445,9 @@ msgid ""
 "During installation, you will need to use the Right Control\n"
 "key to switch between the different keyboard layouts."
 msgstr ""
+"Aquesta configuració s'activarà després de la instal·lació.\n"
+"Durant la instal·lació haureu de fer servir la tecla Control Dreta\n"
+"per a commutar entre les diverses disposicions de teclat."
 
 #: ../lib/mouse.pm:26
 #, c-format
@@ -1614,7 +1617,7 @@ msgstr "Qualsevol ratolí PS/2 o USB"
 #: ../lib/mouse.pm:87
 #, c-format
 msgid "Force evdev"
-msgstr ""
+msgstr "Força evdev"
 
 #: ../lib/mouse.pm:88
 #, c-format
@@ -1624,12 +1627,12 @@ msgstr "Microsoft Xbox Controller S"
 #: ../lib/mouse.pm:89
 #, c-format
 msgid "VirtualBox mouse"
-msgstr ""
+msgstr "Ratolí de VirtualBox"
 
 #: ../lib/mouse.pm:90
 #, c-format
 msgid "VMware mouse"
-msgstr ""
+msgstr "Ratolí de VMware"
 
 #: ../lib/mouse.pm:93
 #, c-format
@@ -1644,7 +1647,7 @@ msgstr "Cap ratolí"
 #: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
-msgstr ""
+msgstr "S'està provant el ratolí"
 
 #: ../lib/mouse.pm:525
 #, c-format
@@ -1654,7 +1657,7 @@ msgstr "Si us plau, seleccioneu el tipus del vostre ratolí."
 #: ../lib/mouse.pm:526
 #, c-format
 msgid "Mouse choice"
-msgstr ""
+msgstr "Opció de ratolí"
 
 #: ../lib/mouse.pm:542
 #, c-format
@@ -1720,12 +1723,12 @@ msgstr "Si us plau, seleccioneu la disposició del vostre teclat."
 #: ../tools/keyboarddrake:39
 #, c-format
 msgid "Keyboard layout"
-msgstr ""
+msgstr "Disposició del teclat"
 
 #: ../tools/keyboarddrake:52
 #, c-format
 msgid "Keyboard type"
-msgstr ""
+msgstr "Tipus de teclat"
 
 #: ../tools/keyboarddrake:65
 #, c-format
