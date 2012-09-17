@@ -136,7 +136,7 @@ msgstr "Konfigurasikan hanya kartu \"%s\"%s"
 #: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93 ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
-msgstr "Penyesuaian"
+msgstr "Kustom"
 
 #: ../lib/Xconfig/main.pm:127
 #, c-format
@@ -168,7 +168,7 @@ msgstr "Resolusi"
 #: ../lib/Xconfig/main.pm:144
 #, c-format
 msgid "Options"
-msgstr "Pilihan"
+msgstr "Opsi"
 
 #: ../lib/Xconfig/main.pm:149
 #, c-format
@@ -178,7 +178,7 @@ msgstr "Plugin"
 #: ../lib/Xconfig/main.pm:183
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "Berkas konfigurasi Xorg Anda rusak, akan diabaikan."
+msgstr "File konfigurasi Xorg Anda rusak, akan diabaikan."
 
 #: ../lib/Xconfig/main.pm:201
 #, c-format
@@ -216,7 +216,7 @@ msgstr "Generik"
 #: ../lib/Xconfig/monitor.pm:140
 #, c-format
 msgid "Vendor"
-msgstr "Pembuat"
+msgstr "Vendor"
 
 #: ../lib/Xconfig/monitor.pm:158
 #, c-format
@@ -229,8 +229,8 @@ msgid ""
 "that is beyond the capabilities of your monitor: you may damage your monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Dua parameter penting adalah kecepatan refresh vertikal, yaitu kecepatan\n"
-"saat seluruh layar direfresh, dan yang paling penting adalah kecepatan sync\n"
+"Dua parameter penting adalah refresh rate vertikal, yaitu kecepatan\n"
+"saat seluruh layar direfresh, dan yang paling penting adalah sync rate\n"
 "horizontal yaitu kecepatan saat menanyangkan scan line.\n"
 "\n"
 "Ini SANGAT PENTING sehingga Anda jangan menentukan jenis monitor dengan jangkauan\n"
@@ -240,12 +240,12 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Horizontal refresh rate"
-msgstr "Kecepatan refresh horizontal"
+msgstr "Refresh rate horizontal"
 
 #: ../lib/Xconfig/monitor.pm:166
 #, c-format
 msgid "Vertical refresh rate"
-msgstr "Kecepatan refresh vertikal"
+msgstr "Refresh rate vertikal"
 
 #: ../lib/Xconfig/plugins.pm:219
 #, c-format
@@ -362,7 +362,7 @@ msgid ""
 "%s\n"
 "Try to change some parameters"
 msgstr ""
-"Terjadi galat:\n"
+"Terjadi error:\n"
 "%s\n"
 "Cobalah ubah beberapa parameter"
 
@@ -401,7 +401,7 @@ msgid ""
 "3D hardware acceleration: %s\n"
 ""
 msgstr ""
-"Akselerasi perangkat keras 3D: %s\n"
+"Akselerasi hardware 3D: %s\n"
 ""
 
 #: ../lib/Xconfig/various.pm:28
@@ -410,7 +410,7 @@ msgid ""
 "Keyboard layout: %s\n"
 ""
 msgstr ""
-"Tata letak papan ketik: %s\n"
+"Layout keyboard: %s\n"
 ""
 
 #: ../lib/Xconfig/various.pm:29
@@ -419,7 +419,7 @@ msgid ""
 "Mouse type: %s\n"
 ""
 msgstr ""
-"Jenis tetikus: %s\n"
+"Tipe mouse: %s\n"
 ""
 
 #: ../lib/Xconfig/various.pm:31
@@ -491,7 +491,7 @@ msgid ""
 "Xorg driver: %s\n"
 ""
 msgstr ""
-"Penggerak Xorg: %s\n"
+"Driver Xorg: %s\n"
 ""
 
 #: ../lib/Xconfig/various.pm:245
@@ -637,7 +637,7 @@ msgstr "Perancis"
 #: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
 #, c-format
 msgid "UK keyboard"
-msgstr "Papan ketik UK"
+msgstr "Keyboard UK"
 
 #: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
 #, c-format
@@ -670,7 +670,7 @@ msgstr "Swedia"
 #: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard"
-msgstr "Papan ketik US"
+msgstr "Keyboard US"
 
 #: ../lib/keyboard.pm:200
 #, c-format
@@ -733,7 +733,7 @@ msgstr "Belgia"
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
-msgstr "Bengali Inscript-layout"
+msgstr "Bengali (Inscript-layout)"
 
 #: ../lib/keyboard.pm:209
 #, c-format
@@ -789,14 +789,14 @@ msgstr "Belarusia"
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
-msgstr "Swis (tampilan Jerman)"
+msgstr "Swis (layout Jerman)"
 
 #: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
-msgstr "Swis (tampilan Perancis"
+msgstr "Swis (layout Perancis)"
 
 #: ../lib/keyboard.pm:219
 #, c-format
@@ -901,14 +901,14 @@ msgstr "Faroe"
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
-msgstr "Georgia (tampilan \"Rusia\")"
+msgstr "Georgia (layout \"Rusia\")"
 
 #: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
-msgstr "Georgia (tampilan \"Latin\")"
+msgstr "Georgia (layout \"Latin\")"
 
 #: ../lib/keyboard.pm:241
 #, c-format
@@ -1139,14 +1139,14 @@ msgstr "Oriya"
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
-msgstr "Polandia (tampilan qwerty)"
+msgstr "Polandia (layout qwerty)"
 
 #: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
-msgstr "Polandia (tampilan qwertz)"
+msgstr "Polandia (layout qwertz)"
 
 #: ../lib/keyboard.pm:282
 #, c-format
@@ -1174,7 +1174,7 @@ msgstr "Kanada (Quebec)"
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
-msgstr "Romania"
+msgstr "Romania (qwertz)"
 
 #: ../lib/keyboard.pm:286
 #, c-format
@@ -1272,14 +1272,14 @@ msgstr "Telugu"
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
-msgstr "Tamil (tampilan ISCII)"
+msgstr "Tamil (layout ISCII)"
 
 #: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
-msgstr "Tamil (tampilan mesin tik)"
+msgstr "Tamil (layout mesin tik)"
 
 #: ../lib/keyboard.pm:307
 #, c-format
@@ -1307,7 +1307,7 @@ msgstr "Thai (Pattachote)"
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
-msgstr "Tifinagh (tampilan maroko) (+latin/arab)"
+msgstr "Tifinagh (layout maroko) (+latin/arab)"
 
 #: ../lib/keyboard.pm:313
 #, c-format
@@ -1356,17 +1356,17 @@ msgstr "Ukraina"
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
-msgstr "Papan ketik Urdu"
+msgstr "Keyboard Urdu"
 
 #: ../lib/keyboard.pm:325
 #, c-format
 msgid "US keyboard (international)"
-msgstr "Papan ketik US (internasional)"
+msgstr "Keyboard US (internasional)"
 
 #: ../lib/keyboard.pm:326
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
-msgstr "ISO9995-3 (papan ketik US dengan 3 tingkat per tombol)"
+msgstr "ISO9995-3 (keyboard US dengan 3 level per tombol)"
 
 #: ../lib/keyboard.pm:327
 #, c-format
@@ -1482,7 +1482,7 @@ msgid ""
 "(eg: latin and non latin)"
 msgstr ""
 "Di sini Anda dapat memilih tombol atau kombinasi tombol yang akan \n"
-"memungkinkan peralihan di antara tata letak papan ketik yang berbeda\n"
+"memungkinkan peralihan di antara layout keyboard yang berbeda\n"
 "(misalnya: latin dan non latin)"
 
 #: ../lib/keyboard.pm:394
@@ -1499,12 +1499,12 @@ msgid ""
 msgstr ""
 "Pengaturan ini akan diaktifkan setelah instalasi.\n"
 "Selama instalasi, Anda harus menggunakan tombol Control Kanan\n"
-"untuk beralih di antara tata letak papan ketik yang berbeda."
+"untuk beralih di antara layout keyboard yang berbeda."
 
 #: ../lib/mouse.pm:26
 #, c-format
 msgid "Sun - Mouse"
-msgstr "Tetikus Sun"
+msgstr "Mouse Sun"
 
 #: ../lib/mouse.pm:32
 #, c-format
@@ -1519,7 +1519,7 @@ msgstr "Logitech MouseMan+"
 #: ../lib/mouse.pm:34
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "Tetikus roda PS2 generik"
+msgstr "Mouse roda PS2 generik"
 
 #: ../lib/mouse.pm:35
 #, c-format
@@ -1554,12 +1554,12 @@ msgstr "1 tombol"
 #: ../lib/mouse.pm:47 ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 2 Button Mouse"
-msgstr "Tetikus Generik 2 Tombol"
+msgstr "Mouse Generik 2 Tombol"
 
 #: ../lib/mouse.pm:49 ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Tetikus Generik 3 Tombol dengan emulasi roda"
+msgstr "Mouse Generik 3 Tombol dengan emulasi roda"
 
 #: ../lib/mouse.pm:50
 #, c-format
@@ -1574,7 +1574,7 @@ msgstr "serial"
 #: ../lib/mouse.pm:57
 #, c-format
 msgid "Generic 3 Button Mouse"
-msgstr "Tetikus Generik 3 Tombol"
+msgstr "Mouse Generik 3 Tombol"
 
 #: ../lib/mouse.pm:59
 #, c-format
@@ -1594,7 +1594,7 @@ msgstr "Logitech MouseMan dengan emulasi roda"
 #: ../lib/mouse.pm:62
 #, c-format
 msgid "Mouse Systems"
-msgstr "Sistem Tetikus"
+msgstr "Sistem Mouse"
 
 #: ../lib/mouse.pm:64
 #, c-format
@@ -1664,7 +1664,7 @@ msgstr "Universal"
 #: ../lib/mouse.pm:86
 #, c-format
 msgid "Any PS/2 & USB mice"
-msgstr "Sembarang tetikus PS/2 & USB"
+msgstr "Sembarang mouse PS/2 & USB"
 
 #: ../lib/mouse.pm:87
 #, c-format
@@ -1679,12 +1679,12 @@ msgstr "Pengendali S Xbox Microsoft"
 #: ../lib/mouse.pm:89
 #, c-format
 msgid "VirtualBox mouse"
-msgstr "Tetikus VirtualBox"
+msgstr "Mouse VirtualBox"
 
 #: ../lib/mouse.pm:90
 #, c-format
 msgid "VMware mouse"
-msgstr "Tetikus VMware"
+msgstr "Mouse VMware"
 
 #: ../lib/mouse.pm:93
 #, c-format
@@ -1694,22 +1694,22 @@ msgstr "tidak ada"
 #: ../lib/mouse.pm:95
 #, c-format
 msgid "No mouse"
-msgstr "Tidak ada tetikus"
+msgstr "Tidak ada mouse"
 
 #: ../lib/mouse.pm:488
 #, c-format
 msgid "Testing the mouse"
-msgstr "Pengujian tetikus"
+msgstr "Pengujian mouse"
 
 #: ../lib/mouse.pm:525
 #, c-format
 msgid "Please choose your type of mouse."
-msgstr "Silakan pilih tipe tetikus Anda"
+msgstr "Silakan pilih tipe mouse Anda"
 
 #: ../lib/mouse.pm:526
 #, c-format
 msgid "Mouse choice"
-msgstr "Pilihan tetikus"
+msgstr "Pilihan mouse"
 
 #: ../lib/mouse.pm:542
 #, c-format
@@ -1719,12 +1719,12 @@ msgstr "Emulasi tombol ketiga?"
 #: ../lib/mouse.pm:546
 #, c-format
 msgid "Mouse Port"
-msgstr "Port Tetikus"
+msgstr "Port Mouse"
 
 #: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Silakan pilih pada serial port yang mana tetikus Anda terhubung."
+msgstr "Silakan pilih pada serial port yang mana mouse Anda terhubung."
 
 #: ../lib/mouse.pm:556
 #, c-format
