@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+use lib qw(/usr/lib/libDrakX);
+use common;
+use Xconfig::xfree;
+use Xconfig::resolution_and_depth;
+
+require_root_capability();
+
+Xconfig::resolution_and_depth::set_default_background(Xconfig::xfree->read->get_resolution);
