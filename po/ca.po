@@ -842,7 +842,7 @@ msgstr "Estonià"
 msgid ""
 "_: keyboard\n"
 "Faroese"
-msgstr ""
+msgstr "Feroès"
 
 #: ../lib/keyboard.pm:239
 #, c-format
@@ -968,7 +968,7 @@ msgstr "Kannada"
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
-msgstr ""
+msgstr "Kirguís"
 
 #: ../lib/keyboard.pm:260
 #, c-format
@@ -1003,7 +1003,7 @@ msgstr "Laosià"
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
-msgstr ""
+msgstr "Lituà"
 
 #: ../lib/keyboard.pm:267
 #, c-format
@@ -1024,7 +1024,7 @@ msgstr "Malaialam"
 msgid ""
 "_: keyboard\n"
 "Maori"
-msgstr ""
+msgstr "Maori"
 
 #: ../lib/keyboard.pm:270
 #, c-format
@@ -1101,7 +1101,7 @@ msgstr "Polonès (disposició qwertz)"
 msgid ""
 "_: keyboard\n"
 "Pashto"
-msgstr ""
+msgstr "Paixtu"
 
 #: ../lib/keyboard.pm:283
 #, c-format
@@ -1185,7 +1185,7 @@ msgstr "Saami (suec/finès)"
 msgid ""
 "_: keyboard\n"
 "Sindhi"
-msgstr ""
+msgstr "Sindhi"
 
 #: ../lib/keyboard.pm:300
 #, c-format
