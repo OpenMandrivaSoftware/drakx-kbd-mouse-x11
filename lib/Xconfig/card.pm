@@ -1,8 +1,5 @@
 package Xconfig::card; # $Id$
 
-use diagnostics;
-use strict;
-
 use lib '/usr/lib/libDrakX';
 use detect_devices;
 use Xconfig::xfree;
@@ -43,11 +40,11 @@ sub from_raw_X {
 
     my $card = {
 	use_DRI_GLX  => eval { any { /dri/ } $raw_X->get_modules },
-	DRI_GLX_SPECIAL => $device->{Driver} eq 'nvidia' && eval { member('glx', $raw_X->get_modules) },
+	DRI_GLX_SPECIAL => $device->{Driver} eq 'nvidia-current' && eval { member('glx', $raw_X->get_modules) },
 	%$device,
-	if_($device->{Driver} eq 'nvidia',
+	if_($device->{Driver} eq 'nvidia-current',
 	    DriverVersion => 
-	      readlink("$::prefix/etc/alternatives/gl_conf") =~ m!nvidia(.*)/! ? $1 : '97xx'),
+	      readlink("$::prefix/etc/alternatives/gl_conf") =~ m!nvidia-current(.*)/! ? $1 : '173'),
 	if_(@cards, cards => \@cards),
     };
     add_to_card__using_Cards($card, $card->{BoardName});
@@ -60,7 +57,7 @@ sub to_raw_X {
     my @cards = ($card, @{$card->{cards} || []});
 
     foreach (@cards) {
-	if (arch() =~ /ppc/ && member($_->{Driver}, qw(r128 radeon))) {
+	if (arch() =~ /ppc/ && member($_->{Driver}, qw(r128 ati))) {
 	    $_->{UseFBDev} = 1;
 	}
     }
@@ -70,11 +67,11 @@ sub to_raw_X {
     $raw_X->get_ServerLayout->{Xinerama} = { commented => !$card->{Xinerama}, Option => 1 }
       if defined $card->{Xinerama};
 
-    # cleanup deprecated previous special nvidia explicit libglx
-    $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia', '/extensions/nvidia_legacy', '/extensions';
+    # cleanup deprecated previous special nvidia-current explicit libglx
+    $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia-current', '/extensions/nvidia-current_legacy', '/extensions';
 
     # remove ModulePath that we added
-    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx', 'nvidia-current';
+    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia-current173', 'nvidia-current-current';
     $raw_X->remove_ModulePath(modules_dir());
     #- if we have some special ModulePath, ensure the last one is the standard ModulePath
     $raw_X->add_ModulePath(modules_dir()) if $raw_X->get_ModulePaths;
@@ -156,7 +153,7 @@ sub card_config__not_listed {
         'Dell', 'Diamond', 'Digital',
         'ET', 'Elsa',
         'Genoa', 'Guillemot', 'Hercules', 'Intel', 'Leadtek',
-        'Matrox', 'Miro', 'NVIDIA', 'NeoMagic', 'Number Nine',
+        'Matrox', 'Miro', 'nvidia-current', 'NeoMagic', 'Number Nine',
         'Oak', 'Orchid',
         'RIVA', 'Rendition Verite',
         'S3', 'Silicon Motion', 'STB', 'SiS', 'Sun',
@@ -239,7 +236,7 @@ sub configure_auto_install {
 	    VendorName => "Custom",
 	    BoardName => "Set by boot parameter",
 	};
-	if ($boot_xdriver =~ /^(nvidia.|fglrx)/) {
+	if ($boot_xdriver =~ /^(nvidia-current.|fglrx)/) {
 	    $card->{Driver} = "vesa";
 	    $card->{Driver2} = $boot_xdriver;
 	}
@@ -362,20 +359,20 @@ sub configure_Driver2 {
 }
 
 #- configures which libGL.so.1 to use, using update-alternatives
-#- it also configures nvidia_drv.so (using a slave alternative, cf "update-alternatives --display gl_conf")
+#- it also configures nvidia-current_drv.so (using a slave alternative, cf "update-alternatives --display gl_conf")
 sub libgl_config_and_more {
     my ($card) = @_;
 
-    if ($card->{Driver} eq 'nvidia') {
-	$card->{DriverVersion} or internal_error("DriverVersion should be set for driver nvidia!");
+    if ($card->{Driver} eq 'nvidia-current') {
+	$card->{DriverVersion} or internal_error("DriverVersion should be set for driver nvidia-current!");
     }
 
     #- ensure old deprecated conf files are not there anymore
-    unlink("/etc/ld.so.conf.d/$_.conf") foreach 'nvidia', 'nvidia_legacy', 'ati';
+    unlink("/etc/ld.so.conf.d/$_.conf") foreach 'nvidia-current', 'nvidia-current_legacy', 'ati';
 
     my %files = (
         fglrx => "/etc/ld.so.conf.d/GL/ati$card->{DriverVersion}.conf",
-        nvidia => "/etc/nvidia$card->{DriverVersion}/ld.so.conf",
+        nvidia-current => "/etc/nvidia-current$card->{DriverVersion}/ld.so.conf",
         psb => "/etc/ld.so.conf.d/GL/libdrm-psb.conf",
     );
     my $wanted = $files{$card->{Driver}} || '/etc/ld.so.conf.d/GL/standard.conf';
@@ -388,8 +385,8 @@ sub libgl_config_and_more {
 	    run_program::rooted($::prefix, 'ldconfig', '-X');
     }
 
-    if (member($card->{Driver}, 'fglrx', 'nvidia')) {
-	log::l("workaround buggy fglrx/nvidia driver: make dm restart xserver (#29550, #38297)");
+    if (member($card->{Driver}, 'fglrx', 'nvidia-current')) {
+	log::l("workaround buggy fglrx/nvidia-current driver: make dm restart xserver (#29550, #38297)");
         eval { common::update_gnomekderc_no_create("$::prefix/etc/kde/kdm/kdmrc", 'X-:0-Core' => (
             TerminateServer => "true",
         )) };
@@ -466,7 +463,7 @@ sub check_bad_card {
     my ($card) = @_;
     my $bad_card = $card->{BAD_FB_RESTORE};
     $bad_card ||= member($card->{Driver}, qw(intel fbdev));
-    $bad_card ||= member($card->{Driver}, 'nvidia', 'vmware') if !$::isStandalone; #- avoid testing during install at any price.
+    $bad_card ||= member($card->{Driver}, 'nvidia-current', 'vmware') if !$::isStandalone; #- avoid testing during install at any price.
 
     log::explanations("the graphics card does not like X in framebuffer") if $bad_card;
 

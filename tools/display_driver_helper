@@ -38,7 +38,7 @@ XORG_i915="intel"
 CONFLICTS_i915=""
 
 XORG_nouveau="nouveau"
-CONFLICTS_nouveau="nv nvidia"
+CONFLICTS_nouveau="vesa nv nvidia"
 
 XORG_radeon="ati radeon"
 CONFLICTS_radeon="fglrx"
@@ -284,7 +284,7 @@ check_xorg() {
 	# the implicit driver, e.g. a proprietary one)
 	# TODO: Could this be replaced with a more robust check?
 	[ -e "/etc/X11/xorg.conf" ] || [ -e "/etc/sysconfig/harddrake2/kernels" ] ||
-		[ -e "/etc/sysconfig/harddrake2/xorg" ] || [ -e "/boot/grub/menu.lst" ]
+		[ -e "/etc/sysconfig/harddrake2/xorg" ] || [ -e "/boot/grub/menu.lst" || [ -e "/boot/grub2/grub.cfg" ]
 }
 
 # Load the driver for the specified modalias, if configured.
