@@ -1,8 +1,7 @@
 package Xconfig::proprietary; # $Id$
 
-
-
-
+use diagnostics;		
+use strict;
 use common;
 use Xconfig::card;
 
@@ -74,7 +73,7 @@ sub handle_FIRMWARE {
 sub pkgs_for_Driver2 {
     my ($Driver2, $do_pkgs) = @_;
 
-    my ($pkg, $base_name) = $Driver2 =~ /^fglrx|^nvidia-current/ ?
+    my ($pkg, $base_name) = $Driver2 =~ /^fglrx|^nvidia/ ?
                             ("x11-driver-video-$Driver2", $Driver2) : () or return;
 
     $do_pkgs->is_installed($pkg) || $do_pkgs->is_available($pkg) or
@@ -106,18 +105,18 @@ sub may_use_Driver2 {
 
     my $card2 = { 
 	%$card,
-	$card->{Driver2} =~ /^(fglrx|nvidia-current)(.*)/ ?
+	$card->{Driver2} =~ /^(fglrx|nvidia)(.*)/ ?
 	  (Driver => $1, DriverVersion => $2) :
 	  (Driver => $card->{Driver2}),
     };
 
-    if ($card2->{Driver} eq 'nvidia-current') {
-	$check_drv->('nvidia-current_drv', "nvidia-current$card2->{DriverVersion}") or return;
+    if ($card2->{Driver} eq 'nvidia') {
+	$check_drv->('nvidia_drv', "nvidia$card2->{DriverVersion}") or return;
 
-	my $libglx_path = "$libdir/nvidia-current$card2->{DriverVersion}/xorg";
-	-e "$::prefix$libglx_path/libglx.so" or log::l("special nvidia-current libglx missing"), return;
+	my $libglx_path = "$libdir/nvidia$card2->{DriverVersion}/xorg";
+	-e "$::prefix$libglx_path/libglx.so" or log::l("special nvidia libglx missing"), return;
 
-	log::explanations("Using specific nvidia-current driver and GLX extensions");
+	log::explanations("Using specific nvidia driver and GLX extensions");
 	$card2->{DRI_GLX_SPECIAL} = 1;
 	$card2->{Options}{IgnoreEDID} = 1 if $card2->{DriverVersion} eq "71xx";
 	$card2->{Options}{UseEDID} = 0 if $card2->{DriverVersion} eq "96xx";
