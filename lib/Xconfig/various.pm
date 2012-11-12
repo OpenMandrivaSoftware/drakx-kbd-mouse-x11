@@ -454,6 +454,7 @@ sub setup_kms() {
 		print $grub $_;
 	}
 	close($grub);
+	system('grub2-mkconfig -o /boot/grub2/grub.cfg');
 	return 1;
 }
 
