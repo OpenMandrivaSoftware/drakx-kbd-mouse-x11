@@ -1,3 +1,7 @@
+Version 0.94 - 12 November 2012 akdengi <akdengi>
+- Fix nokmsboot option in Grub2 moving
+- Fix ru(winkeys) error
+
 Version 0.93 - 17 August 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - load evdev slightly earlier and in actual time before required
