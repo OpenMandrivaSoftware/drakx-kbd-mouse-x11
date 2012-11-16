@@ -1,3 +1,7 @@
+Version 0.95 - 16 November 2012 akdengi <akdengi>
+- Update alternatives fix. Using /usr/sbin/update-alternatives --set 
+directly instead common::function.
+
 Version 0.94 - 12 November 2012 akdengi <akdengi>
 - Fix nokmsboot option in Grub2 moving
 - Fix ru(winkeys) error
