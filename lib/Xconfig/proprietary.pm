@@ -120,6 +120,7 @@ sub may_use_Driver2 {
 	$card2->{DRI_GLX_SPECIAL} = 1;
 	$card2->{Options}{IgnoreEDID} = 1 if $card2->{DriverVersion} eq "71xx";
 	$card2->{Options}{UseEDID} = 0 if $card2->{DriverVersion} eq "96xx";
+	$card2->{Options}{UseEDID} = 0 if $card2->{DriverVersion} eq "173xx";
 	$card2;
     } elsif ($card2->{Driver} eq 'fglrx') {
 	$check_drv->('fglrx_drv', "fglrx$card2->{DriverVersion}") or return;

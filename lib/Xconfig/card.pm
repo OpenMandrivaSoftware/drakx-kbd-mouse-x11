@@ -374,15 +374,15 @@ sub libgl_config_and_more {
 
     my %files = (
         fglrx => "/etc/ld.so.conf.d/GL/ati$card->{DriverVersion}.conf",
-        nvidia-current => "/etc/nvidia$card->{DriverVersion}/ld.so.conf",
+        nvidia => "/etc/nvidia$card->{DriverVersion}/ld.so.conf",
         psb => "/etc/ld.so.conf.d/GL/libdrm-psb.conf",
     );
     my $wanted = $files{$card->{Driver}} || '/etc/ld.so.conf.d/GL/standard.conf';
-    system('/usr/sbin/update-alternatives --set gl_conf ' . $wanted);
+#    system('/usr/sbin/update-alternatives --set gl_conf ' . $wanted);
     my $link = "$::prefix/etc/alternatives/gl_conf";
     my $need_run_ldconfig = readlink($link) ne $wanted;
     -e "$::prefix$wanted" or log::l("ERROR: $wanted does not exist, linking $link to it anyway");
-#    common::symlinkf_update_alternatives('gl_conf', $wanted);
+    common::symlinkf_update_alternatives('gl_conf', $wanted);
     if ($need_run_ldconfig) {
 	    log::explanations("ldconfig will be run because the GL library was switched to $wanted");
 	    run_program::rooted($::prefix, 'ldconfig', '-X');
