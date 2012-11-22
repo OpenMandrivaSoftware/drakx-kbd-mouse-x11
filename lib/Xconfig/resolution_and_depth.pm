@@ -81,7 +81,7 @@ sub allowed {
 
     my ($prefered_depth, @resolution_and_depth);
     
-    if ($card->{Driver} eq 'fbdev') {
+    if ($card->{Driver} eq 'fbdev' && $card->{BoardName} !~ /Poulsbo/) {
 	@resolution_and_depth = grep { $_->{Depth} == 16 } @bios_vga_modes;
     } else {
 	my @depths;
