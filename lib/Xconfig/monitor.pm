@@ -1,7 +1,7 @@
 package Xconfig::monitor; #- $Id$
 
-use diagnostics;
-use strict;
+
+
 
 use Xconfig::xfree;
 use detect_devices;
@@ -11,25 +11,25 @@ use log;
 
 
 sub good_default_monitor() {
-  detect_devices::is_xbox() ? 'Generic|640x480 @ 60 Hz' :
-    arch() =~ /ppc/ ? 
-      (detect_devices::get_mac_model() =~ /^iBook/ ? 'Apple|iBook 800x600' : 'Apple|iMac/PowerBook 1024x768') :
-      (detect_devices::isLaptop() ? 'Generic|Flat Panel 1024x768' : 'Generic|1024x768 @ 60 Hz');
+#  detect_devices::is_xbox() ? 'Generic|640x480 @ 60 Hz' :
+#    arch() =~ /ppc/ ? 
+#      (detect_devices::get_mac_model() =~ /^iBook/ ? 'Apple|iBook 800x600' : 'Apple|iMac/PowerBook 1024x768');
+    "Plug'n'Play"
 }
 
 sub default_monitor {
     my ($card_Driver) = @_;
-    if (detect_devices::is_virtualbox() || detect_devices::isLaptop() || $card_Driver eq 'siliconmotion' && arch() =~ /mips/) {
+#    if (detect_devices::is_virtualbox() || detect_devices::isLaptop() || $card_Driver eq 'siliconmotion' && arch() =~ /mips/) {
 	# HACK: since there is no way to get the EDID on gdium, the resolution is passed to the kernel
 	# so we can rely on it
 	# in vbox, we return Plug'n'Play because the vbox integration addons
 	# will take care of everything for us
 	# On laptops the X server should usually be able to autodetect everything.
 	{ VendorName => "Plug'n Play" };
-    } else {
-	good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
-	{ VendorName => $1, ModelName => $2 };
-    } 
+#    } else {
+#	good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
+#	{ VendorName => $1, ModelName => $2 };
+#    } 
 }
 
 my @VertRefresh_ranges = ("50-70", "50-90", "50-100", "40-150");
