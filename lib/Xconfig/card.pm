@@ -1,7 +1,7 @@
 package Xconfig::card; # $Id$
 
-use diagnostics;		
-use strict;
+
+
 use lib '/usr/lib/libDrakX';
 use detect_devices;
 use Xconfig::xfree;
@@ -44,9 +44,9 @@ sub from_raw_X {
 	use_DRI_GLX  => eval { any { /dri/ } $raw_X->get_modules },
 	DRI_GLX_SPECIAL => $device->{Driver} eq 'nvidia' && eval { member('glx', $raw_X->get_modules) },
 	%$device,
-	if_($device->{Driver} eq 'nvidia',
+	if_($device->{Driver} eq 'nvidia-current',
 	    DriverVersion => 
-	      readlink("$::prefix/etc/alternatives/gl_conf") =~ m!nvidia(.*)/! ? $1 : '97xx'),
+	      readlink("$::prefix/etc/alternatives/gl_conf") =~ m!nvidia(.*)/! ? $1 : '173'),
 	if_(@cards, cards => \@cards),
     };
     add_to_card__using_Cards($card, $card->{BoardName});
@@ -59,7 +59,7 @@ sub to_raw_X {
     my @cards = ($card, @{$card->{cards} || []});
 
     foreach (@cards) {
-	if (arch() =~ /ppc/ && member($_->{Driver}, qw(r128 radeon))) {
+	if (arch() =~ /ppc/ && member($_->{Driver}, qw(r128 radeon ati))) {
 	    $_->{UseFBDev} = 1;
 	}
     }
@@ -69,11 +69,11 @@ sub to_raw_X {
     $raw_X->get_ServerLayout->{Xinerama} = { commented => !$card->{Xinerama}, Option => 1 }
       if defined $card->{Xinerama};
 
-    # cleanup deprecated previous special nvidia explicit libglx
-    $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia', '/extensions/nvidia_legacy', '/extensions';
+    # cleanup deprecated previous special nvidia-current explicit libglx
+    $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia-current', '/extensions/nvidia-current_legacy', '/extensions';
 
     # remove ModulePath that we added
-    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx', 'nvidia-current';
+    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia173', 'nvidia';
     $raw_X->remove_ModulePath(modules_dir());
     #- if we have some special ModulePath, ensure the last one is the standard ModulePath
     $raw_X->add_ModulePath(modules_dir()) if $raw_X->get_ModulePaths;
@@ -327,6 +327,12 @@ Do you wish to use it?")), 1))) {
 	}
     }
 
+        my $kernel_pkgs_devel = `uname -r`;
+        $kernel_pkgs_devel =~ s/^[^\-]+-(.*)-[^\-]+$/$1/;
+        $kernel_pkgs_devel .= '-devel-latest';
+        $kernel_pkgs_devel = 'kernel-'.$kernel_pkgs_devel;
+        $do_pkgs->ensure_is_installed($kernel_pkgs_devel);
+    
     Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card, $o_in);
 
     # handle_FIRMWARE could've changed $card->{Driver}
