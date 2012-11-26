@@ -47,8 +47,7 @@ CONFLICTS_radeon="fglrx"
 # See end of script for descriptions of global variables.
 check_driver() {
 	local name="$1"
-	# modalias is optional, only needed to set MODOPTIONS for radeon
-	# this should not be set when not intending to load the module
+	# modalias is optional and currently unused
 	local modalias="$2"
 
 	MODOPTIONS=
@@ -71,38 +70,6 @@ check_driver() {
 		IS_KMS=1
 		# radeon KMS needs to be loaded before X server
 		NEEDS_LOAD_NOW=1
-
-		# check if firmware is needed and present (random fw checked)
-		if [ -n "$modalias" ] && [ ! -e "/lib/firmware/radeon/R700_rlc.bin" ]; then
-			# no firmware, lets check if it is needed
-			pciid="${modalias#pci:v00001002d0000}"
-			pciid="${pciid%sv*}"
-			case "$pciid" in
-			# All Radeons up to PALM (see radeon_probe.c)
-			31??|3E??|4???|5???|7???|68??|94??|95??|961?|971?|98??)
-				# The radeon driver reportedly has some issues
-				# when loaded without firmware - it doesn't fallback to noaccel
-				# nicely as it should, instead the framebuffer gets messed up.
-				# However, these cards are still supported by usermode modesetting,
-				# so just disable KMS. (Mageia bug #3466)
-				# TODO: actually fix the driver to not mess up framebuffer when no firmware
-				# is present and disable accel cleanly so that this workaround
-				# wouldn't be needed -Anssi
-				MODOPTIONS="$MODOPTIONS modeset=0"
-				IS_KMS=
-				# needs to be loaded now in order to set the module option
-				NEEDS_LOAD_NOW=1
-				;;
-			????)
-				# Cards newer than PALM don't support UMS, so don't load the driver
-				# at all (it might still get done by X server, though).
-				return 1
-				;;
-			*)
-				# Modalias parse error, strange. Load normally...
-				;;
-			esac
-		fi
 		;;
 	nouveau)
 		# implicitely loaded by X.org
@@ -331,21 +298,6 @@ is_kms_allowed() {
 		check_xorg $driver 0 || return 1
 	done
 
-	# Perform full check for KMS drivers of present hardware.
-	# Needed for e.g. checking if radeon firmware is present.
-	for modalias in $(get_hw_display_modaliases); do
-		for modulename in $(/sbin/modprobe -Rq "$modalias"); do
-			for driver in $KMS_DRIVERS; do
-				if [ "$driver" = "$modulename" ]; then
-					check_driver "$modulename" "$modalias" || return 1
-					# Driver was ok but needs KMS disabled:
-					[ -n "$IS_KMS" ] || return 1
-					break
-				fi
-			done
-		done
-	done
-
 	return 0
 }
 
@@ -469,8 +421,7 @@ DKMS_AUTOLOAD_MODULE=
 # "nvidia" in loaded modules list).
 UNSURE=
 
-# Extra module options - used to disable radeon modesetting when no firmware
-# is present and it is needed.
+# Extra module options, could be set in check_driver()
 MODOPTIONS=
 
 case "$1" in
