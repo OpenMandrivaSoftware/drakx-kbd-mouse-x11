@@ -264,6 +264,11 @@ sub configure_auto_install {
 	log::explanations("argh, I need to know VideoRam! Taking " . ($options->{probed_VideoRam} ? "the probed" : "a default") . " value: VideoRam = $card->{VideoRam}");
     }
     to_raw_X($card, $raw_X);
+#    $card;
+    #Some hack. If not blob - delete Xorg.conf
+    if (!member($card->{Driver}, 'fglrx', 'nvidia')) {
+		system('rm -f /etc/X11/xorg.conf');
+    }
     $card;
 }
 
@@ -303,6 +308,11 @@ sub configure {
     }
 
     to_raw_X($card, $raw_X);
+#    $card;
+	#Some hack. If not blob - delete Xorg.conf
+    if (!member($card->{Driver}, 'fglrx', 'nvidia')) {
+		system('rm -f /etc/X11/xorg.conf');
+	}
     $card;
 }
 

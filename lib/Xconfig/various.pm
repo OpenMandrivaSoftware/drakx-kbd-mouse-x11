@@ -1,7 +1,7 @@
 package Xconfig::various; # $Id$
 
-
-
+use diagnostics;
+use strict;
 
 use Xconfig::card;
 use Xconfig::default;
