@@ -9,7 +9,7 @@ use Xconfig::plugins;
 use Xconfig::resolution_and_depth;
 use Xconfig::various;
 use Xconfig::screen;
-use Xconfig::test;
+#use Xconfig::test;
 use Xconfig::xfree;
 use common;
 
@@ -46,6 +46,8 @@ sub configure_resolution {
 
 
 sub configure_everything_auto_install {
+  # Write Xorg.conf only for proprietary blob
+  if (member($card->{Driver}, 'fglrx', 'nvidia')) {
     my ($raw_X, $do_pkgs, $old_X, $options) = @_;
     my $X = {};
     $X->{monitors} = Xconfig::monitor::configure_auto_install($raw_X, $old_X) or return;
@@ -61,6 +63,7 @@ sub configure_everything_auto_install {
     my $action = &write($raw_X, $X, $options->{skip_fb_setup});
 
     $action;
+  }
 }
 
 sub configure_everything {
@@ -74,7 +77,7 @@ sub configure_everything {
     $ok &&= $X->{monitors} = Xconfig::monitor::configure($in, $raw_X, int($raw_X->get_devices), $probed_info, $auto);
     $ok &&= Xconfig::screen::configure($raw_X);
     $ok &&= $X->{resolutions} = Xconfig::resolution_and_depth::configure($in, $raw_X, $X->{card}, $X->{monitors}, $auto, {});
-    $ok &&= Xconfig::test::test($in, $raw_X, $X->{card}, '', 'skip_badcard') if !$auto;
+#    $ok &&= Xconfig::test::test($in, $raw_X, $X->{card}, '', 'skip_badcard') if !$auto;
 
     if (!$ok) {
 	return if $auto;
@@ -136,10 +139,10 @@ sub configure_chooser_raw {
 		    { label => N("Resolution"), val => \$texts{resolutions}, disabled => sub { !$X->{card} || !$X->{monitors} },
 		      clicked => $prompt_for_resolution },
 		        if_(Xconfig::card::check_bad_card($X->{card}) || $::isStandalone,
-		     { val => N("Test"), disabled => sub { !$X->{card} || !$X->{monitors} },
-		       clicked => sub { 
-			  $ok = Xconfig::test::test($in, $raw_X, $X->{card}, 'auto', 0);
-		      } },
+#		     { val => N("Test"), disabled => sub { !$X->{card} || !$X->{monitors} },
+#		       clicked => sub { 
+#			  $ok = Xconfig::test::test($in, $raw_X, $X->{card}, 'auto', 0);
+#		      } },
 			),
 		    { val => N("Options"), clicked => sub {
 			  Xconfig::various::various($in, $raw_X, $X->{card}, $options, 0, 'read_existing');
