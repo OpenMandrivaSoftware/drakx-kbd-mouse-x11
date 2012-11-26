@@ -1,7 +1,7 @@
 package Xconfig::various; # $Id$
 
-use diagnostics;
-use strict;
+
+
 
 use Xconfig::card;
 use Xconfig::default;
@@ -58,7 +58,6 @@ sub default {
 	if_($card->{Driver} eq 'intel' && $isLaptop, Clone => 0),
 	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
 	if_(exists $card->{DRI_GLX}, use_DRI_GLX => $card->{DRI_GLX} && !$card->{Xinerama}),
-#	Tilt Xserver 13 ALL card need use EXA
 #	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
     });
 }
@@ -81,9 +80,8 @@ sub various {
 	    Clone => 0),
 	       if_($card->{Options}{BIOSHotkeys}, 
 	    BIOSHotkeys => 1),
-#	Tilt Xserver 13 ALL card need use EXA
-#	      if_($card->{Options}{AccelMethod},
-#	    EXA => $card->{Options}{AccelMethod} eq 'EXA'),
+	      if_($card->{Options}{AccelMethod},
+	    EXA => $card->{Options}{AccelMethod} eq 'EXA'),
 	      if_($card->{Options}{ModeValidation},
 	    ForceModeDVI => 1),
 	      if_($card->{Driver} eq 'nvidia', 
@@ -158,26 +156,26 @@ sub config {
 	}
     }
 
-#	Tilt Xserver 13 ALL card need use EXA
-#    if (exists $various->{EXA}) {
-#	if ($card->{Driver} eq 'intel') {
+    if (exists $various->{EXA}) {
+	if ($card->{Driver} eq 'intel') {
 	    # the intel driver is able to automatically pick UXA/EXA
 	    #  when xorg.conf has no accel method defined, but XAA
 	    #  has to be explicitly selected, that's why the logic
 	    #  is reversed compared to the other drivers
-#	    if ($various->{EXA}) {
-#		delete $card->{Options}{AccelMethod};
-#	    } else {
-#		$card->{Options}{AccelMethod} = 'XAA';
-#	    }
-#        } else {
+	    if ($various->{EXA}) {
+		delete $card->{Options}{AccelMethod};
+	    } else {
+		$card->{Options}{AccelMethod} = 'EXA';
+	    }
+        } 
+#        else {
 #	    if ($various->{EXA}) {
 #		$card->{Options}{AccelMethod} = 'EXA';
 #	    } else {
 #		delete $card->{Options}{AccelMethod};
 #	    }
 #	}
-#    }
+    }
 
     if (exists $various->{ForceModeDVI}) {
 	if ($card->{Driver} eq 'nvidia') {
@@ -268,7 +266,6 @@ sub choose {
 	  exists $various->{BIOSHotkeys} ?
 	{ text => N("Enable BIOS hotkey for external monitor switching"),
 	  type => 'bool', val => \$various->{BIOSHotkeys} } : (),	
-#	Tilt Xserver 13 ALL card need use EXA
 #	  exists $various->{EXA} ?
 #	{ text => N("Use EXA instead of XAA (better performance for Render and Composite)"),
 #	  type => 'bool', val => \$various->{EXA} } : (),
