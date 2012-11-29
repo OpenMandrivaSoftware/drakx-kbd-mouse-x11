@@ -97,7 +97,7 @@ msgstr ""
 #: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
-msgstr "Pilih ukuran memori kartu grafis Anda"
+msgstr "Pilih ukuran memori perangkat grafis Anda"
 
 #: ../lib/Xconfig/card.pm:332
 #, c-format
@@ -131,17 +131,17 @@ msgstr "Gunakan ekstensi Xinerama"
 #: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
-msgstr "Konfigurasikan hanya kartu \"%s\"%s"
+msgstr "Konfigurasi hanya perangkat \"%s\"%s"
 
 #: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93 ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
-msgstr "Kustom"
+msgstr "Kustomisasi"
 
 #: ../lib/Xconfig/main.pm:127
 #, c-format
 msgid "Graphic Card & Monitor Configuration"
-msgstr "Konfigurasi Kartu Grafis & Monitor"
+msgstr "Konfigurasi Perangkat Grafis & Monitor"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
@@ -151,7 +151,7 @@ msgstr ""
 #: ../lib/Xconfig/main.pm:130
 #, c-format
 msgid "Graphic Card"
-msgstr "Kartu Grafis"
+msgstr "Perangkat Grafis"
 
 #: ../lib/Xconfig/main.pm:133 ../lib/Xconfig/monitor.pm:131
 #, c-format
@@ -231,11 +231,11 @@ msgid ""
 msgstr ""
 "Dua parameter penting adalah refresh rate vertikal, yaitu kecepatan\n"
 "saat seluruh layar direfresh, dan yang paling penting adalah sync rate\n"
-"horizontal yaitu kecepatan saat menanyangkan scan line.\n"
+"horizontal, yaitu kecepatan saat menanyangkan scanline.\n"
 "\n"
-"Ini SANGAT PENTING sehingga Anda jangan menentukan jenis monitor dengan jangkauan\n"
-"yang melebihi kemampuan monitor Anda: Anda bisa merusak monitor Anda.\n"
-"Jika ragu-ragu, gunakan setting yang umum."
+"Ini SANGAT PENTING bahwa Anda tidak menentukan jenis monitor dengan\n"
+"jangkauan diluar kemampuan monitor Anda: Anda bisa merusak monitor Anda.\n"
+"Jika ragu-ragu, gunakan pengaturan yang biasa."
 
 #: ../lib/Xconfig/monitor.pm:165
 #, c-format
@@ -323,7 +323,7 @@ msgstr "Pilih resolusi dan kedalaman warna"
 #: ../lib/Xconfig/resolution_and_depth.pm:447
 #, c-format
 msgid "Graphics card: %s"
-msgstr "Kartu grafis: %s"
+msgstr "Perangkat grafis: %s"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:461
 #, c-format
@@ -353,7 +353,7 @@ msgstr "Apakah Anda ingin menguji konfigurasi?"
 #: ../lib/Xconfig/test.pm:31
 #, c-format
 msgid "Warning: testing this graphic card may freeze your computer"
-msgstr "Peringatan: pengujian kartu grafis ini mungkin membuat komputer Anda membeku"
+msgstr "Peringatan: pengujian perangkat grafis ini mungkin membuat komputer Anda membeku"
 
 #: ../lib/Xconfig/test.pm:65
 #, c-format
@@ -382,7 +382,7 @@ msgid ""
 "Disable Ctrl-Alt-Backspace: %s\n"
 ""
 msgstr ""
-"Nonaktifkan Ctrl-Alt-Backspace: %s\n"
+"Matikan Ctrl-Alt-Backspace: %s\n"
 ""
 
 #: ../lib/Xconfig/various.pm:26
@@ -455,7 +455,7 @@ msgid ""
 "Graphics card: %s\n"
 ""
 msgstr ""
-"Kartu grafis: %s\n"
+"Perangkat grafis: %s\n"
 ""
 
 #: ../lib/Xconfig/various.pm:36
@@ -572,10 +572,10 @@ msgid ""
 "\n"
 "Do you have this feature?"
 msgstr ""
-"Kartu grafis Anda sepertinya memiliki konektor TV-OUT.\n"
-"Ini dapat dikonfigurasikan agar bekerja menggunakan frame-buffer.\n"
+"Perangkat grafis Anda sepertinya memiliki konektor TV-OUT.\n"
+"Ini bisa dikonfigurasikan agar bekerja menggunakan frame-buffer.\n"
 "\n"
-"Agar bisa menggunakannya, Anda harus memasang kartu grafis Anda ke TV sebelum komputer booting.\n"
+"Untuk ini Anda harus memasang perangkat grafis Anda ke TV sebelum komputer booting.\n"
 "Lalu pilih entri \"TVout\" pada bootloader\n"
 "\n"
 "Apakah Anda memiliki fitur ini?"
@@ -817,7 +817,7 @@ msgstr "Ceko (QWERTY)"
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
-msgstr "Jerman (tanpa tombol dead)"
+msgstr "Jerman (tanpa tombol mati)"
 
 #: ../lib/keyboard.pm:224
 #, c-format
@@ -1481,9 +1481,9 @@ msgid ""
 "allow switching between the different keyboard layouts\n"
 "(eg: latin and non latin)"
 msgstr ""
-"Di sini Anda dapat memilih tombol atau kombinasi tombol yang akan \n"
+"Di sini Anda bisa memilih tombol atau kombinasi tombol yang akan \n"
 "memungkinkan peralihan di antara layout keyboard yang berbeda\n"
-"(misalnya: latin dan non latin)"
+"(mis: latin dan non latin)"
 
 #: ../lib/keyboard.pm:394
 #, c-format
@@ -1519,7 +1519,7 @@ msgstr "Logitech MouseMan+"
 #: ../lib/mouse.pm:34
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
-msgstr "Mouse roda PS2 generik"
+msgstr "Mouse Roda PS2 Generik"
 
 #: ../lib/mouse.pm:35
 #, c-format
@@ -1529,7 +1529,7 @@ msgstr "GlidePoint"
 #: ../lib/mouse.pm:38 ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse"
-msgstr "Kensington Thinking Mouse"
+msgstr "Mouse Kensington Thinking"
 
 #: ../lib/mouse.pm:39 ../lib/mouse.pm:67
 #, c-format
@@ -1559,7 +1559,7 @@ msgstr "Mouse Generik 2 Tombol"
 #: ../lib/mouse.pm:49 ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
-msgstr "Mouse Generik 3 Tombol dengan emulasi roda"
+msgstr "Mouse Generik 3 Tombol dengan emulasi Roda"
 
 #: ../lib/mouse.pm:50
 #, c-format
@@ -1589,7 +1589,7 @@ msgstr "Logitech MouseMan"
 #: ../lib/mouse.pm:61
 #, c-format
 msgid "Logitech MouseMan with Wheel emulation"
-msgstr "Logitech MouseMan dengan emulasi roda"
+msgstr "Logitech MouseMan dengan emulasi Roda"
 
 #: ../lib/mouse.pm:62
 #, c-format
@@ -1604,7 +1604,7 @@ msgstr "Logitech CC Series"
 #: ../lib/mouse.pm:65
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
-msgstr "Logitech CC Series dengan emulasi roda"
+msgstr "Logitech CC Series dengan emulasi Roda"
 
 #: ../lib/mouse.pm:66
 #, c-format
@@ -1624,17 +1624,17 @@ msgstr "MM HitTablet"
 #: ../lib/mouse.pm:70
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
-msgstr "Logitech Mouse (serial, tipe C7 lama)"
+msgstr "Mouse Logitech (serial, tipe C7 lama)"
 
 #: ../lib/mouse.pm:71
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
-msgstr "Logitech Mouse (serial, tipe C7 lama) dengan emulasi roda"
+msgstr "Mouse Logitech (serial, tipe C7 lama) dengan emulasi Roda"
 
 #: ../lib/mouse.pm:73
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
-msgstr "Kensington Thinking Mouse dengan emulasi roda"
+msgstr "Mouse Kensington Thinking dengan emulasi Roda"
 
 #: ../lib/mouse.pm:76
 #, c-format
@@ -1654,7 +1654,7 @@ msgstr "3 tombol"
 #: ../lib/mouse.pm:81
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "3 tombol dengan roda emulasi"
+msgstr "3 tombol dengan emulasi Roda"
 
 #: ../lib/mouse.pm:84
 #, c-format
@@ -1724,7 +1724,7 @@ msgstr "Port Mouse"
 #: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Silakan pilih pada serial port yang mana mouse Anda terhubung."
+msgstr "Silakan pilih pada serial port mana mouse Anda terhubung."
 
 #: ../lib/mouse.pm:556
 #, c-format
