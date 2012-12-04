@@ -1,0 +1,8 @@
+[main]
+host = http://translations.rosalinux.com/
+
+[drakx-kbd-mouse-x11.pot]
+file_filter = po/<lang>.po
+source_file = po/drakx-kbd-mouse-x11.pot
+source_lang = en
+type = PO
