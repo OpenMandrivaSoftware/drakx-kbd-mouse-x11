@@ -38,7 +38,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-04-05 03:54+0300\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2012-04-23 23:31+0100\n"
 "Last-Translator: Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>\n"
 "Language-Team: ROMANIAN <cfrussen@yahoo.co.uk>\n"
@@ -46,72 +46,73 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2)\n"
 "X-Poedit-Language: Romanian\n"
 "X-Poedit-Country: ROMANIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 Ko"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 Ko"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 Mo"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 Mo"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 Mo"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 Mo"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 Mo"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 Mo"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "peste 64 Mo"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "Server X"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Alegeți un server X"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Configurare ieșiri multiple"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -120,42 +121,46 @@ msgstr ""
 "Sistemul vă permite configurarea mai multor ieșiri de afișare.\n"
 "Ce doriți să faceți?"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Alegeți cantitatea de memorie a plăcii grafice"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may support additional features.\n"
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Există și un pilot proprietar al plăcii voastre grafice cu suport pentru funcționalități suplimentare.\n"
+"Există și un pilot proprietar al plăcii voastre grafice cu suport pentru "
+"funcționalități suplimentare.\n"
 "Doriți să-l utilizați?"
 
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
-msgid "The proprietary driver was not properly installed, defaulting to free software driver."
-msgstr "Pilotul proprietar nu s-a instalat corespunzător, se revine la pilotul liber."
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+"Pilotul proprietar nu s-a instalat corespunzător, se revine la pilotul liber."
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Configurează toate ieșirile independent"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Folosește extensia Xinerama"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Configurează numai placa „%s”%s"
 
-#: ../lib/Xconfig/main.pm:92
-#: ../lib/Xconfig/main.pm:93
+#: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93
 #: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
@@ -168,16 +173,15 @@ msgstr "Configurare placă grafică & ecran"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "Terminare"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
 msgid "Graphic Card"
 msgstr "Placă grafică"
 
-#: ../lib/Xconfig/main.pm:133
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/main.pm:133 ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid ""
 "_: This is a display device\n"
@@ -186,16 +190,10 @@ msgstr ""
 "_:Acesta este un dispozitiv de afișare\n"
 "Ecran"
 
-#: ../lib/Xconfig/main.pm:136
-#: ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Rezoluție"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "Test"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -240,8 +238,7 @@ msgstr "Alegeți un ecran"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:139
-#: ../lib/mouse.pm:48
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
 #, c-format
 msgid "Generic"
 msgstr "Generic"
@@ -254,20 +251,27 @@ msgstr "Fabricant"
 #: ../lib/Xconfig/monitor.pm:158
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the rate\n"
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
-"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
-"Cei doi parametri critici sînt rata de împrospătare verticală, care este rata\n"
-"la care întregul ecran este actualizat și mai important, rata de sincronizare\n"
+"Cei doi parametri critici sînt rata de împrospătare verticală, care este "
+"rata\n"
+"la care întregul ecran este actualizat și mai important, rata de "
+"sincronizare\n"
 "orizontală, care este rata la care liniile sînt afișate.\n"
 "\n"
-"Este FOARTE IMPORTANT să nu specificați un tip de ecran cu interval de sincronizare\n"
-"care depășește capabilitățile ecranului vostru: puteți distruge ecranul în acest fel.\n"
+"Este FOARTE IMPORTANT să nu specificați un tip de ecran cu interval de "
+"sincronizare\n"
+"care depășește capabilitățile ecranului vostru: puteți distruge ecranul în "
+"acest fel.\n"
 "Dacă nu sînteți sigur, alegeți parametrii conservativi."
 
 #: ../lib/Xconfig/monitor.pm:165
@@ -288,28 +292,47 @@ msgstr "Alegeți modulele"
 #: ../lib/Xconfig/proprietary.pm:60
 #, c-format
 msgid ""
-"The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed, but it was not available on the enabled media.\n"
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed, but it was not available on the enabled "
+"media.\n"
 "\n"
 "The basic non-accelerated '%s' driver will be configured instead.\n"
 "\n"
-"To enable full graphics support later, enable the 'nonfree' repository section at \"Install and remove software\" and reconfigure the graphics driver by going to \"Set up the graphical server\" at Mageia Control Center and re-selecting your graphics card."
+"To enable full graphics support later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and reconfigure the graphics "
+"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"and re-selecting your graphics card."
 msgstr ""
-"Pilotul liber '%s' pentru placa grafică necesită ca pachetul '%s' cu microcod proprietar să fie instalat, însă nu a fost găsit pe mediul activ.\n"
+"Pilotul liber '%s' pentru placa grafică necesită ca pachetul '%s' cu "
+"microcod proprietar să fie instalat, însă nu a fost găsit pe mediul activ.\n"
 "\n"
 "Va fi configurat în schimb pilotul de bază neaccelerat '%s'.\n"
 "\n"
-"Pentru a activa ulterior suportul grafic complet, activați depozitul „nonfree” în secțiunea „Instalați și dezinstalați aplicații” și reconfigurați pilotul plăcii grafice din secțiunea „Configurați serverul grafic” din centrul de control Mageia și reselecționați placa grafică."
+"Pentru a activa ulterior suportul grafic complet, activați depozitul "
+"„nonfree” în secțiunea „Instalați și dezinstalați aplicații” și "
+"reconfigurați pilotul plăcii grafice din secțiunea „Configurați serverul "
+"grafic” din centrul de control Mageia și reselecționați placa grafică."
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
-"The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed in order for all features (including 3D acceleration) to work properly, but that package was not available in the enabled media.\n"
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed in order for all features (including 3D "
+"acceleration) to work properly, but that package was not available in the "
+"enabled media.\n"
 "\n"
-"To enable all graphics card features later, enable the 'nonfree' repository section at \"Install and remove software\" and install the firmware package manually or reconfigure your graphics card."
+"To enable all graphics card features later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and install the firmware package "
+"manually or reconfigure your graphics card."
 msgstr ""
-"Pilotul liber '%s' pentru placa grafică necesită ca pachetul '%s' cu microcod proprietar să fie instalat pentru ca toate funcționalitățile (inclusiv accelerarea 3D) să funcționeze corect, însă pachetul nu a fost găsit pe mediul activ.\n"
+"Pilotul liber '%s' pentru placa grafică necesită ca pachetul '%s' cu "
+"microcod proprietar să fie instalat pentru ca toate funcționalitățile "
+"(inclusiv accelerarea 3D) să funcționeze corect, însă pachetul nu a fost "
+"găsit pe mediul activ.\n"
 "\n"
-"Pentru a activa ulterior toate funcționalitățile plăcii grafice, activați depozitul „nonfree” în secțiunea „Instalați și dezinstalați aplicații” și instalați manual pachetul cu microcod sau reconfigurați placa grafică."
+"Pentru a activa ulterior toate funcționalitățile plăcii grafice, activați "
+"depozitul „nonfree” în secțiunea „Instalați și dezinstalați aplicații” și "
+"instalați manual pachetul cu microcod sau reconfigurați placa grafică."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -332,8 +355,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 milioane de culori (24 de biți)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362
-#: ../lib/mouse.pm:36
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:36
 #, c-format
 msgid "Automatic"
 msgstr "Automată"
@@ -343,8 +365,7 @@ msgstr "Automată"
 msgid "Resolutions"
 msgstr "Rezoluții"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394
-#: ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Alta"
@@ -480,83 +501,79 @@ msgstr "Rezoluție: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Pilot Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Configurare Xorg"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr "Opțiuni globale"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Dezactivează Ctrl-Alt-Backspace"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "Opțiunile plăcii grafice"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Activează semi-transparența (extensia de compoziționare)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Utilizează accelerarea materială pentru cursorul mausului"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr "Activează accelerarea RENDER (poate cauza erori la afișarea textului)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Activează dublarea ecranului pe un ecran extern"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Activează dublarea ecranului pe un ecran secundar"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Forțează modul de afișare pentru DVI"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Activează tastele BIOS rapide pentru transferul pe ecranul extern"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Utilizează EXA în locul XAA (mai performantă pentru randare și compoziționare)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interfața grafică la pornire"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Se pornește automat interfața grafică (Xorg) la pornirea sistemului"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your computer.\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -564,12 +581,13 @@ msgstr ""
 "Placa grafică pare a avea un conector TV-OUT.\n"
 "Acesta poate fi configurat folosind „frame-buffer”.\n"
 "\n"
-"Pentru aceasta trebuie să conectați placa grafică la un TV înainte de a porni calculatorul.\n"
+"Pentru aceasta trebuie să conectați placa grafică la un TV înainte de a "
+"porni calculatorul.\n"
 "Atunci alegeți ieșirea „TVout” în încărcătorul de sistem\n"
 "\n"
 "Placa grafică are facilitatea TV-OUT?"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Ce normă folosește televizorul vostru?"
@@ -583,8 +601,7 @@ msgstr ""
 "_:aspect anormal\n"
 "altul"
 
-#: ../lib/keyboard.pm:187
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -593,8 +610,7 @@ msgstr ""
 "_: tastatură\n"
 "Cehă (QWERTZ)"
 
-#: ../lib/keyboard.pm:188
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -612,8 +628,7 @@ msgstr ""
 "_: tastatură\n"
 "Dvorak"
 
-#: ../lib/keyboard.pm:190
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -622,8 +637,7 @@ msgstr ""
 "_: tastatură\n"
 "Spaniolă"
 
-#: ../lib/keyboard.pm:191
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -632,8 +646,7 @@ msgstr ""
 "_: tastatură\n"
 "Finlandeză"
 
-#: ../lib/keyboard.pm:192
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -642,14 +655,12 @@ msgstr ""
 "_: tastatură\n"
 "Franceză"
 
-#: ../lib/keyboard.pm:193
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
 #, c-format
 msgid "UK keyboard"
 msgstr "Tastatură UK"
 
-#: ../lib/keyboard.pm:194
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -667,8 +678,7 @@ msgstr ""
 "_: tastatură\n"
 "Poloneză"
 
-#: ../lib/keyboard.pm:196
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -677,8 +687,7 @@ msgstr ""
 "_: tastatură\n"
 "Rusească"
 
-#: ../lib/keyboard.pm:197
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -687,8 +696,7 @@ msgstr ""
 "_: tastatură\n"
 "Suedeză"
 
-#: ../lib/keyboard.pm:198
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard"
 msgstr "Tastatură US"
@@ -1749,14 +1757,12 @@ msgstr "Maus PS/2 generic cu rotiță"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:38
-#: ../lib/mouse.pm:72
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Maus Kensington Thinking"
 
-#: ../lib/mouse.pm:39
-#: ../lib/mouse.pm:67
+#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1766,26 +1772,22 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:41
-#: ../lib/mouse.pm:51
+#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:46
-#: ../lib/mouse.pm:78
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
 #, c-format
 msgid "1 button"
 msgstr "1 buton"
 
-#: ../lib/mouse.pm:47
-#: ../lib/mouse.pm:56
+#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Maus generic cu 2 butoane"
 
-#: ../lib/mouse.pm:49
-#: ../lib/mouse.pm:58
+#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Maus generic cu 3 butoane cu rotiță emulată"
@@ -2014,6 +2016,17 @@ msgstr "Tipul tastaturii"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vreți ca BackSpace să întoarcă Delete în consolă?"
+
+#~ msgid "Quit"
+#~ msgstr "Terminare"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr ""
+#~ "Utilizează EXA în locul XAA (mai performantă pentru randare și "
+#~ "compoziționare)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "Accelerare materială 3D"

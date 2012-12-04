@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-04-05 03:54+0300\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2012-04-07 08:46+0200\n"
 "Last-Translator: Dimitrios Glentadakis <dglent@gmail.com>\n"
 "Language-Team: Greek <i18n-el@ml.mageia.org>\n"
@@ -20,67 +20,67 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Lokalize 1.2\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 kB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 kB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MB"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MB"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MB"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MB"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MB"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MB"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB ή περισσότερα"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "εξυπηρετητής X"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Επιλέξτε έναν εξυπηρετητή Χ"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Ρύθμιση πολλαπλών οθονών"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -89,12 +89,12 @@ msgstr ""
 "Το σύστημά σας υποστηρίζει τη ρύθμιση πολλαπλών οθονών.\n"
 "Τι θα θέλατε να κάνετε;"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Επιλέξτε το μέγεθος της μνήμης της κάρτας γραφικών σας"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -105,7 +105,7 @@ msgstr ""
 "μπορεί να υποστηρίζει επιπλέον χαρακτηριστικά.\n"
 "Θέλετε να τον χρησιμοποιήσετε;"
 
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -114,17 +114,17 @@ msgstr ""
 "Ο ιδιόκτητος οδηγός δεν εγκαταστάθηκε σωστά, θα χρησιμοποιηθεί ο "
 "προκαθορισμένος ελεύθερος οδηγός."
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Ανεξάρτητη ρύθμιση όλων των οθονών"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Χρήση της επέκτασης Xinerama για απεικόνιση σε περισσότερες οθόνες"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Ρύθμιση μόνο της κάρτας «%s» %s"
@@ -142,8 +142,8 @@ msgstr "Ρύθμιση της κάρτας γραφικών και της οθό
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "Έξοδος"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -161,11 +161,6 @@ msgstr "Οθόνη"
 #, c-format
 msgid "Resolution"
 msgstr "Ανάλυση"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "Δοκιμή"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -285,12 +280,12 @@ msgstr ""
 "υλικού.\n"
 "\n"
 "Για να ενεργοποιήσετε την πλήρης υποστήριξη γραφικών αργότερα, ενεργοποιήστε "
-"το αποθετήριο «nonfree» από το μενού «Ρύθμιση των πηγών μέσων για εγκατάσταση "
-"και ενημέρωση του λογισμικού» και διαμορφώστε ξανά τον οδηγό γραφικών από το "
-"μενού «Ρυθμίστε τον εξυπηρετητή γραφικών» από το Κέντρο Ελέγχου Mageia και "
-"επιλέξτε εκ νέου την κάρτα γραφικών σας."
+"το αποθετήριο «nonfree» από το μενού «Ρύθμιση των πηγών μέσων για "
+"εγκατάσταση και ενημέρωση του λογισμικού» και διαμορφώστε ξανά τον οδηγό "
+"γραφικών από το μενού «Ρυθμίστε τον εξυπηρετητή γραφικών» από το Κέντρο "
+"Ελέγχου Mageia και επιλέξτε εκ νέου την κάρτα γραφικών σας."
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
 "The free '%s' driver for your graphics card requires a proprietary firmware "
@@ -308,10 +303,10 @@ msgstr ""
 "είναι διαθέσιμο στα ενεργοποιημένα μέσα.\n"
 "\n"
 "Για να ενεργοποιήσετε την πλήρης υποστήριξη γραφικών αργότερα, ενεργοποιήστε "
-"το αποθετήριο «nonfree» από το μενού «Ρύθμιση των πηγών μέσων για εγκατάσταση "
-"και ενημέρωση του λογισμικού» και εγκαταστήστε το πακέτο με το firmware "
-"χειροκίνητα ή διαμορφώστε εκ νέου την κάρτα γραφικών σας από το μενού "
-"«Ρυθμίστε τον εξυπηρετητή γραφικών» στο Κέντρο Ελέγχου Mageia."
+"το αποθετήριο «nonfree» από το μενού «Ρύθμιση των πηγών μέσων για "
+"εγκατάσταση και ενημέρωση του λογισμικού» και εγκαταστήστε το πακέτο με το "
+"firmware χειροκίνητα ή διαμορφώστε εκ νέου την κάρτα γραφικών σας από το "
+"μενού «Ρυθμίστε τον εξυπηρετητή γραφικών» στο Κέντρο Ελέγχου Mageia."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -482,83 +477,78 @@ msgstr "Ανάλυση: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Οδηγός Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Ρυθμίσεις Xorg"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr "Καθολικές επιλογές"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Απενεργοποίηση του Ctrl-Alt-Backspace"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "Επιλογές της κάρτας γραφικών"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Ενεργοποίηση της διαφάνειας (επέκταση Composite)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Χρήση της επιτάχυνσης συσκευής για τον δείκτη ποντικιού"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Ενεργοποίηση της επιτάχυνσης RENDER (αυτή η επιλογή ίσως να προκαλέσει "
 "σφάλματα στην εμφάνιση κειμένου)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Ενεργοποίηση της πανομοιότυπης προβολής στην εξωτερική οθόνη"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Ενεργοποίηση πανομοιότυπης προβολής στην δεύτερη οθόνη"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Εξαναγκασμός ρυθμίσεων απεικόνισης του DVI"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 "Ενεργοποίηση της εναλλαγής εξωτερικών οθονών με την συντόμευση πληκτρολογίου "
 "του BIOS"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Χρήση του EXA αντί του XAA (καλύτερη απόδοση για Render και Composite)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Γραφικό περιβάλλον στην εκκίνηση"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "Αυτόματη εκκίνηση του γραφικού περιβάλλοντος εργασίας (Xorg), κατά την "
 "εκκίνηση του συστήματος"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -579,7 +569,7 @@ msgstr ""
 "\n"
 "Διαθέτετε αυτό το χαρακτηριστικό;"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Ποιο σύστημα χρησιμοποιεί η τηλεόρασή σας;"
@@ -1878,6 +1868,16 @@ msgstr "Τύπος πληκτρολογίου"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Θέλετε το BackSpace να επιστρέφει Delete στην κονσόλα;"
+
+#~ msgid "Quit"
+#~ msgstr "Έξοδος"
+
+#~ msgid "Test"
+#~ msgstr "Δοκιμή"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr ""
+#~ "Χρήση του EXA αντί του XAA (καλύτερη απόδοση για Render και Composite)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "Με επιτάχυνση  3D της συσκευής"

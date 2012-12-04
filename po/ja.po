@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libDrakX-ja\n"
-"POT-Creation-Date: 2012-04-05 03:54+0300\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2008-08-29 21:57+0900\n"
 "Last-Translator: Yukiko Bando <ybando@k6.dion.ne.jp>\n"
 "Language-Team: Japanese <cooker-i18n@mandrivalinux.org>\n"
@@ -19,67 +19,67 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 KB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 KB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MB"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MB"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MB"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MB"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MB"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MB"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB 以上"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "X サーバ"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "X サーバを選んでください"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "マルチヘッド設定"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -88,12 +88,12 @@ msgstr ""
 "お使いのシステムはマルチヘッド設定をサポートしています。\n"
 "どうしますか？"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "グラフィックカードのメモリサイズを選んでください"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -104,7 +104,7 @@ msgstr ""
 "あります。\n"
 "それを使いますか？"
 
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -113,17 +113,17 @@ msgstr ""
 "プロプライエタリドライバが正しくインストールされていません。代わりにフリーの"
 "ドライバを使います。"
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "ヘッドを別々に設定"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama 拡張を使う"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "以下のカードだけを設定: %s %s"
@@ -141,8 +141,8 @@ msgstr "グラフィックカードとモニタの設定"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "終了"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -160,11 +160,6 @@ msgstr "モニタ"
 #, c-format
 msgid "Resolution"
 msgstr "解像度"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "テスト"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -271,7 +266,7 @@ msgid ""
 "and re-selecting your graphics card."
 msgstr ""
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
 "The free '%s' driver for your graphics card requires a proprietary firmware "
@@ -452,79 +447,74 @@ msgstr "解像度: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg ドライバ: %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg の設定"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "グラフィックカードのオプション"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "半透明性を有効にする (コンポジット拡張機能)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "ハードウェアアクセラレーションのマウスポインタを使う"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "RENDER アクセラレーションを有効にする (テキストの表示に問題が生じる可能性があ"
 "ります)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "外部モニタを使っての二重表示を有効にする"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "セカンドディスプレイを使っての二重表示を有効にする"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "BIOS ホットキーによる外部モニタの切り替えを有効にする"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "XAA の代わりに EXA を使う (Render と Composite のパフォーマンスを向上)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "起動時のグラフィカルインターフェース"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "起動時に自動的にグラフィカルインターフェース (Xorg) を立ち上げる"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -545,7 +535,7 @@ msgstr ""
 "\n"
 "グラフィックカードにこの機能はありますか？"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "テレビの画像方式は何ですか？"
@@ -1749,6 +1739,16 @@ msgstr "キーボードの種類"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "BackSpace キーがコンソールで Delete の働きをするようにしますか？"
+
+#~ msgid "Quit"
+#~ msgstr "終了"
+
+#~ msgid "Test"
+#~ msgstr "テスト"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr ""
+#~ "XAA の代わりに EXA を使う (Render と Composite のパフォーマンスを向上)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "3D ハードウェアアクセラレーション"

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-26 17:42+0200\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2011-05-05 00:55+0100\n"
 "Last-Translator: Zé <ze@mandriva.org>\n"
 "Language-Team: Portuguese <>\n"
@@ -31,69 +31,68 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.2\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"Language: pt\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 kB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 kB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MB"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MB"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MB"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MB"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MB"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MB"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MB ou mais"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "Servidor X"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Escolha um servidor X"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Configuração multi-cabeças"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -102,12 +101,12 @@ msgstr ""
 "O seu sistema suporta uma configuração para múltiplas cabeças.\n"
 "O que deseja fazer?"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Seleccione o tamanho da memória da sua placa gráfica"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -118,7 +117,7 @@ msgstr ""
 "pode suportar funcionalidades adicionais.\n"
 "Deseja usar este controlador proprietário?"
 
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -127,17 +126,17 @@ msgstr ""
 "O controlador proprietário não foi devidamente instalado, a mudar para o "
 "controlador livre predefinido."
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Configurar todas as cabeças independentemente"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Usar extensão Xinerama"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Configurar apenas a placa \"%s\"%s"
@@ -155,8 +154,8 @@ msgstr "Placa Gráfica e Configuração do Monitor"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "Sair"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -174,11 +173,6 @@ msgstr "Monitor"
 #, c-format
 msgid "Resolution"
 msgstr "Resolução"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "Teste"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -208,32 +202,32 @@ msgstr ""
 "\n"
 "%s"
 
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor for head #%d"
 msgstr "Escolha um monitor para a cabeça #%d"
 
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor"
 msgstr "Escolha um monitor"
 
-#: ../lib/Xconfig/monitor.pm:137
+#: ../lib/Xconfig/monitor.pm:138
 #, c-format
 msgid "Plug'n Play"
 msgstr "'Plug'n Play'"
 
-#: ../lib/Xconfig/monitor.pm:138 ../lib/mouse.pm:45
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
 #, c-format
 msgid "Generic"
 msgstr "Genérico"
 
-#: ../lib/Xconfig/monitor.pm:139
+#: ../lib/Xconfig/monitor.pm:140
 #, c-format
 msgid "Vendor"
 msgstr "Fabricante"
 
-#: ../lib/Xconfig/monitor.pm:157
+#: ../lib/Xconfig/monitor.pm:158
 #, c-format
 msgid ""
 "The two critical parameters are the vertical refresh rate, which is the "
@@ -257,12 +251,12 @@ msgstr ""
 "seu monitor.\n"
 "Em caso de dúvida, escolha uma definição conservadora."
 
-#: ../lib/Xconfig/monitor.pm:164
+#: ../lib/Xconfig/monitor.pm:165
 #, c-format
 msgid "Horizontal refresh rate"
 msgstr "Taxa de refrescamento horizontal"
 
-#: ../lib/Xconfig/monitor.pm:165
+#: ../lib/Xconfig/monitor.pm:166
 #, c-format
 msgid "Vertical refresh rate"
 msgstr "Taxa de refrescamento vertical"
@@ -287,7 +281,7 @@ msgid ""
 "and re-selecting your graphics card."
 msgstr ""
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
 "The free '%s' driver for your graphics card requires a proprietary firmware "
@@ -467,77 +461,72 @@ msgstr "Resolução: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Controlador Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Configuração Xorg"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr "Opções globais"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Desactivar Ctrl-Alt-Backspace"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "Opções da placa gráfica"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Activar Translucência (extensão compósita)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Usar apontador de rato com aceleração de material"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr "Activar Aceleração RENDER (isto pode causar erros ao mostrar texto)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Activar exibição duplicada no monitor externo"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Activar exibição duplicada no segundo monitor"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Forçar modo de exibição do DVI"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Activar tecla de atalho da BIOS para mudança de monitor externo"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Usar EXA em vez de XAA (melhor desempenho para Apresentar e Compósita)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interface gráfico no arranque"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Iniciar automaticamente o interface gráfico (Xorg) após arrancar"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -558,7 +547,7 @@ msgstr ""
 "\n"
 "Tem esta funcionalidade?"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Que norma usa a sua TV?"
@@ -1763,6 +1752,16 @@ msgstr "Tipo de teclado"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Deseja que a tecla BackSpace devolva Delete na consola?"
+
+#~ msgid "Quit"
+#~ msgstr "Sair"
+
+#~ msgid "Test"
+#~ msgstr "Teste"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr ""
+#~ "Usar EXA em vez de XAA (melhor desempenho para Apresentar e Compósita)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "Aceleração de material 3D"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-04-05 03:54+0300\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2009-10-24 10:43+0200\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
@@ -15,67 +15,67 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 KiB"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 KiB"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 MiB"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 MiB"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 MiB"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 MiB"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 MiB"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 MiB"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 MiB eller meir"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "X-tenar"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Vel X-tenar"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Fleirhovudoppsett"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -84,12 +84,12 @@ msgstr ""
 "Systemet ditt støttar fleirhovudoppsett.\n"
 "Kva vil du gjera?"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Vel minnestorleik til skjermkortet"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -101,7 +101,7 @@ msgstr ""
 "Ønskjer du å bruka han?"
 
 # skip-rule: passiv
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -110,17 +110,17 @@ msgstr ""
 "Den ikkje-frie drivaren vart ikkje skikkeleg installert. Brukar derfor den "
 "frie drivaren."
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Set opp alle hovuda for seg"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Bruk Xinerama-utviding"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Set berre opp kortet «%s»%s"
@@ -138,8 +138,8 @@ msgstr "Skjem- og skjermkortoppsett"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "Avslutt"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -157,11 +157,6 @@ msgstr "Skjerm"
 #, c-format
 msgid "Resolution"
 msgstr "Oppløysing"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "Test"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -268,7 +263,7 @@ msgid ""
 "and re-selecting your graphics card."
 msgstr ""
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
 "The free '%s' driver for your graphics card requires a proprietary firmware "
@@ -448,77 +443,72 @@ msgstr "Oppløysing: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg-drivar: %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg-oppsett"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr "Globale val"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Gjer «Ctrl + Alt + Rettetast» uverksam"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "Skjermkortval"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Slå på gjennomsikt (Composite-utvidinga)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Bruk maskinvareakselerert muspeikar"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr "Bruk RENDER-akselerering (kan føra til feil ved vising av tekst)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Slå på skjermbiletkopi på ekstern skjerm"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Slå på skjermbiletkopi på skjerm 2"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Tving skjermmodus til DVI"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Slå på BIOS-tast for eksternt skjermbyte"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Bruk EXA i staden for XAA (betre yting for Render og Composite)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Grafisk oppstart"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Start automatisk det grafiske grensesnittet (Xorg) ved oppstart"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -539,7 +529,7 @@ msgstr ""
 "\n"
 "Ønskjer du denne funksjonen?"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Kva fjernsynsstandard brukar fjernsynet ditt?"
@@ -1743,6 +1733,15 @@ msgstr "Tastaturtype"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Vil du at rettetasten skal senda same signal som «Delete» i konsollen?"
+
+#~ msgid "Quit"
+#~ msgstr "Avslutt"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr "Bruk EXA i staden for XAA (betre yting for Render og Composite)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "3D-maskinvareakselerasjon"

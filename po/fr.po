@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-04-05 03:54+0300\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2012-04-12 21:39+0100\n"
 "Last-Translator: Rémi Verschelde <remi@verschelde.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,67 +15,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 ko"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 ko"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 Mo"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 Mo"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 Mo"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 Mo"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 Mo"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 Mo"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 Mo ou plus"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "serveur X"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Choisissez un serveur d'affichage (serveur X)"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Configuration multi-écrans"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -84,42 +84,48 @@ msgstr ""
 "Votre système peut utiliser simultanément plusieurs écrans.\n"
 "Que souhaitez-vous faire ?"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
-msgstr "Veuillez préciser la quantité de mémoire vidéo de votre carte graphique"
+msgstr ""
+"Veuillez préciser la quantité de mémoire vidéo de votre carte graphique"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
-"There is a proprietary driver available for your video card which may support additional features.\n"
+"There is a proprietary driver available for your video card which may "
+"support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Il existe un pilote propriétaire pour votre carte graphique qui peut fournir des fonctionnalités additionnelles.\n"
+"Il existe un pilote propriétaire pour votre carte graphique qui peut fournir "
+"des fonctionnalités additionnelles.\n"
 "Voulez-vous l'utiliser ?"
 
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
-msgid "The proprietary driver was not properly installed, defaulting to free software driver."
-msgstr "Le pilote propriétaire n'a pu être installé correctement, utilisation du pilote libre par défaut."
+msgid ""
+"The proprietary driver was not properly installed, defaulting to free "
+"software driver."
+msgstr ""
+"Le pilote propriétaire n'a pu être installé correctement, utilisation du "
+"pilote libre par défaut."
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Configurer les écrans séparément"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Répartir l'affichage sur plusieurs écrans (Xinerama)"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Configurer seulement la carte « %s » %s"
 
-#: ../lib/Xconfig/main.pm:92
-#: ../lib/Xconfig/main.pm:93
+#: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93
 #: ../lib/Xconfig/monitor.pm:137
 #, c-format
 msgid "Custom"
@@ -132,32 +138,25 @@ msgstr "Configuration de la carte graphique et du moniteur"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "Quitter"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
 msgid "Graphic Card"
 msgstr "Carte graphique"
 
-#: ../lib/Xconfig/main.pm:133
-#: ../lib/Xconfig/monitor.pm:131
+#: ../lib/Xconfig/main.pm:133 ../lib/Xconfig/monitor.pm:131
 #, c-format
 msgid ""
 "_: This is a display device\n"
 "Monitor"
 msgstr "Moniteur"
 
-#: ../lib/Xconfig/main.pm:136
-#: ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:371
 #, c-format
 msgid "Resolution"
 msgstr "Résolution"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "Test"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -172,7 +171,8 @@ msgstr "Greffons"
 #: ../lib/Xconfig/main.pm:183
 #, c-format
 msgid "Your Xorg configuration file is broken, we will ignore it."
-msgstr "Votre fichier de configuration Xorg est invalide, nous allons l'ignorer."
+msgstr ""
+"Votre fichier de configuration Xorg est invalide, nous allons l'ignorer."
 
 #: ../lib/Xconfig/main.pm:201
 #, c-format
@@ -202,8 +202,7 @@ msgstr "Choisissez un moniteur"
 msgid "Plug'n Play"
 msgstr "Plug'n Play"
 
-#: ../lib/Xconfig/monitor.pm:139
-#: ../lib/mouse.pm:48
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
 #, c-format
 msgid "Generic"
 msgstr "Générique"
@@ -216,12 +215,15 @@ msgstr "Vendeur"
 #: ../lib/Xconfig/monitor.pm:158
 #, c-format
 msgid ""
-"The two critical parameters are the vertical refresh rate, which is the rate\n"
+"The two critical parameters are the vertical refresh rate, which is the "
+"rate\n"
 "at which the whole screen is refreshed, and most importantly the horizontal\n"
 "sync rate, which is the rate at which scanlines are displayed.\n"
 "\n"
-"It is VERY IMPORTANT that you do not specify a monitor type with a sync range\n"
-"that is beyond the capabilities of your monitor: you may damage your monitor.\n"
+"It is VERY IMPORTANT that you do not specify a monitor type with a sync "
+"range\n"
+"that is beyond the capabilities of your monitor: you may damage your "
+"monitor.\n"
 " If in doubt, choose a conservative setting."
 msgstr ""
 "Les deux paramètres importants sont la fréquence de rafraîchissement\n"
@@ -253,28 +255,50 @@ msgstr "Choix des greffons"
 #: ../lib/Xconfig/proprietary.pm:60
 #, c-format
 msgid ""
-"The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed, but it was not available on the enabled media.\n"
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed, but it was not available on the enabled "
+"media.\n"
 "\n"
 "The basic non-accelerated '%s' driver will be configured instead.\n"
 "\n"
-"To enable full graphics support later, enable the 'nonfree' repository section at \"Install and remove software\" and reconfigure the graphics driver by going to \"Set up the graphical server\" at Mageia Control Center and re-selecting your graphics card."
+"To enable full graphics support later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and reconfigure the graphics "
+"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"and re-selecting your graphics card."
 msgstr ""
-"Le pilote libre « %s » correspondant à votre carte graphique requiert l'installation du firmware propriétaire « %s », lequel n'est pas disponible sur les médias configurés.\n"
+"Le pilote libre « %s » correspondant à votre carte graphique requiert "
+"l'installation du firmware propriétaire « %s », lequel n'est pas disponible "
+"sur les médias configurés.\n"
 "\n"
 "À défaut, le pilote basique et non accéléré « %s » va être configuré.\n"
 "\n"
-"Pour activer la totalité des capacités graphiques plus tard, activez le dépôt « Nonfree » dans « Installer et désinstaller des logiciels », puis reconfigurez le pilote graphique en choisissant le modèle de votre carte graphique dans l'utilitaire « Configurer le serveur d'affichage » du Centre de contrôle de Mageia."
+"Pour activer la totalité des capacités graphiques plus tard, activez le "
+"dépôt « Nonfree » dans « Installer et désinstaller des logiciels », puis "
+"reconfigurez le pilote graphique en choisissant le modèle de votre carte "
+"graphique dans l'utilitaire « Configurer le serveur d'affichage » du Centre "
+"de contrôle de Mageia."
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
-"The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed in order for all features (including 3D acceleration) to work properly, but that package was not available in the enabled media.\n"
+"The free '%s' driver for your graphics card requires a proprietary firmware "
+"package '%s' to be installed in order for all features (including 3D "
+"acceleration) to work properly, but that package was not available in the "
+"enabled media.\n"
 "\n"
-"To enable all graphics card features later, enable the 'nonfree' repository section at \"Install and remove software\" and install the firmware package manually or reconfigure your graphics card."
+"To enable all graphics card features later, enable the 'nonfree' repository "
+"section at \"Install and remove software\" and install the firmware package "
+"manually or reconfigure your graphics card."
 msgstr ""
-"Le pilote libre « %s » correspondant à votre carte graphique requiert l'installation du firmware propriétaire « %s » pour que toutes les fonctionnalités (accélération 3D comprise) soient effectives, or ce paquetage n'est pas disponible sur les médias configurés.\n"
+"Le pilote libre « %s » correspondant à votre carte graphique requiert "
+"l'installation du firmware propriétaire « %s » pour que toutes les "
+"fonctionnalités (accélération 3D comprise) soient effectives, or ce "
+"paquetage n'est pas disponible sur les médias configurés.\n"
 "\n"
-"Pour activer toutes les fonctionnalités graphiques plus tard, activez le dépôt « Nonfree » dans « Installer et désinstaller des logiciels », puis installez le paquet du firmware manuellement ou reconfigurez votre carte graphique."
+"Pour activer toutes les fonctionnalités graphiques plus tard, activez le "
+"dépôt « Nonfree » dans « Installer et désinstaller des logiciels », puis "
+"installez le paquet du firmware manuellement ou reconfigurez votre carte "
+"graphique."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -297,8 +321,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 millions de couleurs (24 bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362
-#: ../lib/mouse.pm:36
+#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:36
 #, c-format
 msgid "Automatic"
 msgstr "Automatique"
@@ -308,8 +331,7 @@ msgstr "Automatique"
 msgid "Resolutions"
 msgstr "Résolutions"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394
-#: ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
 #, c-format
 msgid "Other"
 msgstr "Autre"
@@ -445,83 +467,81 @@ msgstr "Résolution : %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Pilote Xorg : %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Configuration d'Xorg"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr "Options globales"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Désactiver Ctrl-Alt-Retour arrière"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "Options de la carte graphique"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Activer la transparence (extension Composite)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Utiliser l'accélération matérielle pour le pointeur de la souris"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
-msgstr "Activer l'accélération RENDER (peut causer des anomalies dans l'affichage de textes)"
+msgstr ""
+"Activer l'accélération RENDER (peut causer des anomalies dans l'affichage de "
+"textes)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Activer l'affichage dupliqué sur le moniteur externe"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Activer l'affichage dupliqué sur le second écran"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Forcer le mode d'affichage du DVI"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Activer le basculement d'affichage par la touche de raccourci du BIOS"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr "Utiliser EXA au lieu de XAA (meilleures performances pour Render et Composite)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interface graphique lors du démarrage"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Lancement automatique de l'interface graphique (Xorg) au démarrage"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
 "It can be configured to work using frame-buffer.\n"
 "\n"
-"For this you have to plug your graphic card to your TV before booting your computer.\n"
+"For this you have to plug your graphic card to your TV before booting your "
+"computer.\n"
 "Then choose the \"TVout\" entry in the bootloader\n"
 "\n"
 "Do you have this feature?"
@@ -529,12 +549,13 @@ msgstr ""
 "Votre carte graphique semble avoir un connecteur TV-OUT.\n"
 "Elle peut être configurée pour fonctionner avec le « frame-buffer ».\n"
 "\n"
-"Pour cela vous devez connecter votre carte graphique à votre TV avant de démarrer votre ordinateur.\n"
+"Pour cela vous devez connecter votre carte graphique à votre TV avant de "
+"démarrer votre ordinateur.\n"
 "Ensuite choisissez l'option « TVout » dans le menu d'amorçage\n"
 "\n"
 "Avez-vous cette fonction ?"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Quelle norme utilise votre téléviseur ?"
@@ -546,16 +567,14 @@ msgid ""
 "other"
 msgstr "autre"
 
-#: ../lib/keyboard.pm:187
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "Tchèque (QWERTZ)"
 
-#: ../lib/keyboard.pm:188
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -569,38 +588,33 @@ msgid ""
 "Dvorak"
 msgstr "Dvorak standard"
 
-#: ../lib/keyboard.pm:190
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "Espagnol"
 
-#: ../lib/keyboard.pm:191
-#: ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "Finlandais"
 
-#: ../lib/keyboard.pm:192
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "Français"
 
-#: ../lib/keyboard.pm:193
-#: ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
 #, c-format
 msgid "UK keyboard"
 msgstr "Anglais (Royaume-Uni)"
 
-#: ../lib/keyboard.pm:194
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
@@ -614,24 +628,21 @@ msgid ""
 "Polish"
 msgstr "Polonais"
 
-#: ../lib/keyboard.pm:196
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "Russe"
 
-#: ../lib/keyboard.pm:197
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "Suédois"
 
-#: ../lib/keyboard.pm:198
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
 #, c-format
 msgid "US keyboard"
 msgstr "Américain (États-Unis)"
@@ -1490,14 +1501,12 @@ msgstr "Souris standard PS2 à molette"
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:38
-#: ../lib/mouse.pm:72
+#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington Thinking Mouse"
 
-#: ../lib/mouse.pm:39
-#: ../lib/mouse.pm:67
+#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genius NetMouse"
@@ -1507,26 +1516,22 @@ msgstr "Genius NetMouse"
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:41
-#: ../lib/mouse.pm:51
+#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:46
-#: ../lib/mouse.pm:78
+#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
 #, c-format
 msgid "1 button"
 msgstr "1 bouton"
 
-#: ../lib/mouse.pm:47
-#: ../lib/mouse.pm:56
+#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Souris standard à 2 boutons"
 
-#: ../lib/mouse.pm:49
-#: ../lib/mouse.pm:58
+#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Souris standard à 3 boutons avec émulation de la molette"
@@ -1729,7 +1734,9 @@ msgstr "VEUILLEZ FAIRE TOURNER LA MOLETTE !"
 #: ../tools/XFdrake:71
 #, c-format
 msgid "You need to reboot for changes to take effect"
-msgstr "Vous devez redémarrer votre ordinateur pour que les changements soient pris en compte"
+msgstr ""
+"Vous devez redémarrer votre ordinateur pour que les changements soient pris "
+"en compte"
 
 #: ../tools/keyboarddrake:37
 #, c-format
@@ -1755,6 +1762,17 @@ msgstr "Type du clavier"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Souhaitez-vous que la touche BackSpace retourne Delete en console ?"
+
+#~ msgid "Quit"
+#~ msgstr "Quitter"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr ""
+#~ "Utiliser EXA au lieu de XAA (meilleures performances pour Render et "
+#~ "Composite)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "Avec accélération 3D matérielle"

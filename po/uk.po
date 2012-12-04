@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-04-05 03:54+0300\n"
+"POT-Creation-Date: 2012-12-04 15:50+0400\n"
 "PO-Revision-Date: 2012-04-05 15:47+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
@@ -23,67 +23,67 @@ msgstr ""
 "Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../lib/Xconfig/card.pm:20
+#: ../lib/Xconfig/card.pm:19
 #, c-format
 msgid "256 kB"
 msgstr "256 кБ"
 
-#: ../lib/Xconfig/card.pm:21
+#: ../lib/Xconfig/card.pm:20
 #, c-format
 msgid "512 kB"
 msgstr "512 кБ"
 
-#: ../lib/Xconfig/card.pm:22
+#: ../lib/Xconfig/card.pm:21
 #, c-format
 msgid "1 MB"
 msgstr "1 МБ"
 
-#: ../lib/Xconfig/card.pm:23
+#: ../lib/Xconfig/card.pm:22
 #, c-format
 msgid "2 MB"
 msgstr "2 МБ"
 
-#: ../lib/Xconfig/card.pm:24
+#: ../lib/Xconfig/card.pm:23
 #, c-format
 msgid "4 MB"
 msgstr "4 МБ"
 
-#: ../lib/Xconfig/card.pm:25
+#: ../lib/Xconfig/card.pm:24
 #, c-format
 msgid "8 MB"
 msgstr "8 МБ"
 
-#: ../lib/Xconfig/card.pm:26
+#: ../lib/Xconfig/card.pm:25
 #, c-format
 msgid "16 MB"
 msgstr "16 МБ"
 
-#: ../lib/Xconfig/card.pm:27
+#: ../lib/Xconfig/card.pm:26
 #, c-format
 msgid "32 MB"
 msgstr "32 МБ"
 
-#: ../lib/Xconfig/card.pm:28
+#: ../lib/Xconfig/card.pm:27
 #, c-format
 msgid "64 MB or more"
 msgstr "64 МБ чи більше"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:175
 #, c-format
 msgid "X server"
 msgstr "X сервер"
 
-#: ../lib/Xconfig/card.pm:177
+#: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
 msgstr "Виберіть X сервер"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:207
 #, c-format
 msgid "Multi-head configuration"
 msgstr "Конфігурація з багатьма головками"
 
-#: ../lib/Xconfig/card.pm:209
+#: ../lib/Xconfig/card.pm:208
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -92,12 +92,12 @@ msgstr ""
 "Ваша система підтримує налаштування багатосекційної головки.\n"
 "Що хочете зробити?"
 
-#: ../lib/Xconfig/card.pm:298
+#: ../lib/Xconfig/card.pm:302
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Виберіть розмір пам'яті графічної плати"
 
-#: ../lib/Xconfig/card.pm:323
+#: ../lib/Xconfig/card.pm:332
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -108,7 +108,7 @@ msgstr ""
 "можливості.\n"
 "Чи хочете його використовувати?"
 
-#: ../lib/Xconfig/card.pm:355
+#: ../lib/Xconfig/card.pm:370
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -117,17 +117,17 @@ msgstr ""
 "Драйвер виробника не було встановлено, використовується вільно розроблений "
 "драйвер."
 
-#: ../lib/Xconfig/card.pm:425
+#: ../lib/Xconfig/card.pm:441
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Сконфігурувати всі головки незалежно"
 
-#: ../lib/Xconfig/card.pm:426
+#: ../lib/Xconfig/card.pm:442
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Користуватися розширенням Xinerama"
 
-#: ../lib/Xconfig/card.pm:431
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Налаштувати тільки плату \"%s\" %s"
@@ -145,8 +145,8 @@ msgstr "Налаштування графічної карти і монітор
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Quit"
-msgstr "Вийти"
+msgid "Apply settings"
+msgstr ""
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -164,11 +164,6 @@ msgstr "Монітор"
 #, c-format
 msgid "Resolution"
 msgstr "Роздільна здатність"
-
-#: ../lib/Xconfig/main.pm:139
-#, c-format
-msgid "Test"
-msgstr "Перевірити"
 
 #: ../lib/Xconfig/main.pm:144
 #, c-format
@@ -278,20 +273,21 @@ msgid ""
 "and re-selecting your graphics card."
 msgstr ""
 "Щоб вільний драйвер до вашої графічної картки, «%s», міг працювати належним "
-"чином (зокрема скористатися апаратним прискоренням просторової графіки), слід "
-"встановити пакунок з закритою мікропрограмою, «%s». Втім, цього пакунка немає "
-"на увімкнених вами носіях даних сховища пакунків.\n"
+"чином (зокрема скористатися апаратним прискоренням просторової графіки), "
+"слід встановити пакунок з закритою мікропрограмою, «%s». Втім, цього пакунка "
+"немає на увімкнених вами носіях даних сховища пакунків.\n"
 "\n"
-"Замість повноцінного драйвера буде використано базовий драйвер, «%s», у якому "
-"не передбачено можливостей апаратного прискорення обробки графічних даних.\n"
+"Замість повноцінного драйвера буде використано базовий драйвер, «%s», у "
+"якому не передбачено можливостей апаратного прискорення обробки графічних "
+"даних.\n"
 "\n"
-"Щоб увімкнути всі можливості графічної картки пізніше, надайте системі доступ "
-"до сховища «nonfree» у вікні програми «Встановити і вилучити програми» і "
-"виконайте повторну процедуру налаштування графічного драйвера за допомогою "
-"пункту «Налаштувати графічний сервер» у Центрі керування Mageia (повторно "
-"виберіть пункт встановленої у вашій системі графічної картки)."
+"Щоб увімкнути всі можливості графічної картки пізніше, надайте системі "
+"доступ до сховища «nonfree» у вікні програми «Встановити і вилучити "
+"програми» і виконайте повторну процедуру налаштування графічного драйвера за "
+"допомогою пункту «Налаштувати графічний сервер» у Центрі керування Mageia "
+"(повторно виберіть пункт встановленої у вашій системі графічної картки)."
 
-#: ../lib/Xconfig/proprietary.pm:67
+#: ../lib/Xconfig/proprietary.pm:68
 #, c-format
 msgid ""
 "The free '%s' driver for your graphics card requires a proprietary firmware "
@@ -304,14 +300,14 @@ msgid ""
 "manually or reconfigure your graphics card."
 msgstr ""
 "Щоб вільний драйвер до вашої графічної картки, «%s», міг працювати належним "
-"чином (зокрема скористатися апаратним прискоренням просторової графіки), слід "
-"встановити пакунок з закритою мікропрограмою, «%s». Втім, цього пакунка немає "
-"на увімкнених вами носіях даних сховища пакунків.\n"
+"чином (зокрема скористатися апаратним прискоренням просторової графіки), "
+"слід встановити пакунок з закритою мікропрограмою, «%s». Втім, цього пакунка "
+"немає на увімкнених вами носіях даних сховища пакунків.\n"
 "\n"
-"Щоб увімкнути всі можливості графічної картки пізніше, надайте системі доступ "
-"до сховища «nonfree» у вікні програми «Встановити і вилучити програми» і "
-"встановіть пакунок з мікропрограмою (firmware) вручну або виконайте повторну "
-"процедуру налаштування вашої графічної картки."
+"Щоб увімкнути всі можливості графічної картки пізніше, надайте системі "
+"доступ до сховища «nonfree» у вікні програми «Встановити і вилучити "
+"програми» і встановіть пакунок з мікропрограмою (firmware) вручну або "
+"виконайте повторну процедуру налаштування вашої графічної картки."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -482,81 +478,74 @@ msgstr "Роздільна здатність: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg драйвер: %s\n"
 
-#: ../lib/Xconfig/various.pm:244
+#: ../lib/Xconfig/various.pm:245
 #, c-format
 msgid "Xorg configuration"
 msgstr "Налаштування Xorg"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Global options"
 msgstr "Загальні параметри"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Вимикання Ctrl-Alt-Backspace"
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:249
 #, c-format
 msgid "Graphic card options"
 msgstr "Параметри графічної плати"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Увімкнути напівпрозорість (розширення Composite)"
 
-#: ../lib/Xconfig/various.pm:252
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Використовувати вказівник миші з апаратним прискоренням"
 
-#: ../lib/Xconfig/various.pm:255
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Увімкнути прискорення зображення (може призвести до помилок відображення "
 "тексту)"
 
-#: ../lib/Xconfig/various.pm:259
+#: ../lib/Xconfig/various.pm:260
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Увімкнути резервний дисплей на додатковому моніторі"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Увімкнути резервний дисплей на другому моніторі"
 
-#: ../lib/Xconfig/various.pm:263
+#: ../lib/Xconfig/various.pm:264
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Примусово встановити режим дисплею в DVI"
 
-#: ../lib/Xconfig/various.pm:266
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Увімкнути гарячу клавішу для перемикання резервного монітора"
 
-#: ../lib/Xconfig/various.pm:269
-#, c-format
-msgid "Use EXA instead of XAA (better performance for Render and Composite)"
-msgstr ""
-"Використовувати EXA на відміну від XAA (краща продуктивність для Render і "
-"Composite)"
-
-#: ../lib/Xconfig/various.pm:271
+#: ../lib/Xconfig/various.pm:272
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Графічний інтерфейс при завантаженні"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Автоматично стартувати графічну оболонку (Xorg) при завантаженні"
 
-#: ../lib/Xconfig/various.pm:284
+#: ../lib/Xconfig/various.pm:285
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -577,7 +566,7 @@ msgstr ""
 "\n"
 "У Вас є така можливість?"
 
-#: ../lib/Xconfig/various.pm:296
+#: ../lib/Xconfig/various.pm:297
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Який формат використовує Ваш телевізор?"
@@ -1781,6 +1770,17 @@ msgstr "Тип клавіатури"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr "Ви хочете, щоб BackSpace повертав Delete на консолі?"
+
+#~ msgid "Quit"
+#~ msgstr "Вийти"
+
+#~ msgid "Test"
+#~ msgstr "Перевірити"
+
+#~ msgid "Use EXA instead of XAA (better performance for Render and Composite)"
+#~ msgstr ""
+#~ "Використовувати EXA на відміну від XAA (краща продуктивність для Render і "
+#~ "Composite)"
 
 #~ msgid "3D hardware acceleration"
 #~ msgstr "Апаратне 3D-прискорення"
