@@ -235,7 +235,7 @@ msgstr ""
 "\n"
 "Ini SANGAT PENTING bahwa Anda tidak menentukan jenis monitor dengan\n"
 "jangkauan diluar kemampuan monitor Anda: Anda bisa merusak monitor Anda.\n"
-"Jika ragu-ragu, gunakan pengaturan yang biasa."
+" Jika ragu-ragu, gunakan pengaturan yang biasa."
 
 #: ../lib/Xconfig/monitor.pm:165
 #, c-format
