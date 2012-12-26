@@ -309,7 +309,7 @@ sub configure {
 
     to_raw_X($card, $raw_X);
 #    $card;
-	#Some hack. If not blob - delete Xorg.conf
+    #Some hack. If not blob - delete Xorg.conf
     if (!member($card->{Driver}, 'fglrx', 'nvidia')) {
 		system('rm -f /etc/X11/xorg.conf');
 	}
@@ -347,7 +347,13 @@ Do you wish to use it?")), 1))) {
 
     # handle_FIRMWARE could've changed $card->{Driver}
     my @must_have = "x11-driver-video-$card->{Driver}";
-
+    
+#In Card+ we use radeon, but in package is ati
+    
+    if ($card->{Driver} eq 'radeon') {
+	my @mast_have="x11-driver-video-ati";
+    }
+    
     $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
       @must_have == listlength($do_pkgs->are_installed(@must_have))
 	or return;
