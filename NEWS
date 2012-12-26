@@ -1,3 +1,15 @@
+Vestion 0.99 - 26 December 2012 akdengi <akdengi>
+- if driver radeon use package x11-driver-video-ati
+- fix translate
+
+* Thu Nov 27 2012 akdengi <akdengi> 0.97-1
+- 0.97
+- Change Quit to Apply settings. Really delete xorg.conf for non-proprietary drivers
+- Skip test. Not write Xorg.conf, only for proprietary blobs
+- Not need detect XAA/EXA - all card since XServer 13 use EXA only
+- Use Plug'n'play as default to all. Not need detect oldest devices
+- Install kernel-devel-latest if not present in system for current kernel (by uname -r)
+
 Version 0.95 - 16 November 2012 akdengi <akdengi>
 - Update alternatives fix. Using /usr/sbin/update-alternatives --set 
 directly instead common::function.
