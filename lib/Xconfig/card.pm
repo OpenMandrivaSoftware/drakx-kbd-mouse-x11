@@ -351,7 +351,7 @@ Do you wish to use it?")), 1))) {
 #In Card+ we use radeon, but in package is ati
     
     if ($card->{Driver} eq 'radeon') {
-	my @mast_have="x11-driver-video-ati";
+	@must_have = "x11-driver-video-ati";
     }
     
     $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
