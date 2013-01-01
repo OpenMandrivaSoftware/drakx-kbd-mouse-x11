@@ -120,7 +120,7 @@ msgstr "Utilitza l'extensió Xinerama"
 #: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure only card \"%s\"%s"
-msgstr "Configura només la targeta \"%s\"%s"
+msgstr "Configura només la targeta «%s»%s"
 
 #: ../lib/Xconfig/main.pm:92 ../lib/Xconfig/main.pm:93
 #: ../lib/Xconfig/monitor.pm:137
@@ -261,18 +261,18 @@ msgid ""
 "driver by going to \"Set up the graphical server\" at Mageia Control Center "
 "and re-selecting your graphics card."
 msgstr ""
-"El controlador lliure '%s' per a la targeta gràfica requereix la instal·lació "
-"del paquet '%s' que conté microprogramari de propietat, "
+"El controlador lliure «%s» per a la targeta gràfica requereix la instal·lació "
+"del paquet «%s» que conté microprogramari de propietat, "
 "però aquest paquet no es troba disponible als suports habilitats.\n"
 "\n"
 "En el seu lloc es configurarà el controlador bàsic i no accelerat '%s'."
 "\n"
 "Per a habilitar més endavant totes les característiques de la targeta "
 "gràfica, "
-"activeu la secció de dipòsit 'nonfree' a \"Instal·la i desinstal·la "
-"programari\" i "
-"reconfigureu el controlador de gràfics anant a \"Configuració del servidor "
-"gràfic\" al Centre de Control de Mageia i torneu a seleccionar la vostra "
+"activeu la secció de dipòsit 'nonfree' a «Instal·la i desinstal·la "
+"programari» i "
+"reconfigureu el controlador de gràfics anant a «Configuració del servidor "
+"gràfic» al Centre de Control de Mageia i torneu a seleccionar la vostra "
 "targeta gràfica."
 
 #: ../lib/Xconfig/proprietary.pm:68
@@ -287,15 +287,15 @@ msgid ""
 "section at \"Install and remove software\" and install the firmware package "
 "manually or reconfigure your graphics card."
 msgstr ""
-"El controlador lliure '%s' per a la targeta gràfica requereix la instal·lació "
-"del paquet '%s' que conté microprogramari de propietat, per tal que "
+"El controlador lliure «%s» per a la targeta gràfica requereix la instal·lació "
+"del paquet «%s» que conté microprogramari de propietat, per tal que "
 "totes les característiques (inclosa l'acceleració 3D) funcionin correctament, "
 "però aquest paquet no es troba disponible als suports habilitats.\n"
 "\n"
 "Per a habilitar més endavant totes les característiques de la targeta "
 "gràfica, "
-"activeu la secció de dipòsit 'nonfree' a \"Instal·la i desinstal·la "
-"programari\" i "
+"activeu la secció de dipòsit 'nonfree' a «Instal·la i desinstal·la "
+"programari» i "
 "instal·leu manualment el paquet de microprogramari o bé reconfigureu la "
 "targeta gràfica."
 
@@ -548,7 +548,7 @@ msgstr ""
 "\n"
 "A tal efecte, heu de connectar la targeta gràfica al televisor abans "
 "d'arrencar l'ordinador.\n"
-"Llavors, escolliu l'opció \"TVout\" en el carregador de l'arrencada\n"
+"Llavors, escolliu l'opció «TVout» en el carregador de l'arrencada\n"
 "\n"
 "Teniu aquesta característica?"
 
@@ -873,14 +873,14 @@ msgstr "Feroès"
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
-msgstr "Georgià (disposició \"russa\")"
+msgstr "Georgià (disposició «russa»)"
 
 #: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
-msgstr "Georgià (disposició \"llatina\")"
+msgstr "Georgià (disposició «llatina»)"
 
 #: ../lib/keyboard.pm:241
 #, c-format
@@ -1307,14 +1307,14 @@ msgstr ""
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
-msgstr "Turc (tradicional, model \"F\")"
+msgstr "Turc (tradicional, model «F»)"
 
 #: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
-msgstr "Turc (modern, model \"Q\")"
+msgstr "Turc (modern, model «Q»)"
 
 #: ../lib/keyboard.pm:321
 #, c-format
@@ -1352,7 +1352,7 @@ msgstr "Uzbek (ciríl·lic)"
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
-msgstr "Vietnamita \"fila numèrica\" QWERTY"
+msgstr "Vietnamita «fila numèrica» QWERTY"
 
 #: ../lib/keyboard.pm:330
 #, c-format
@@ -1399,17 +1399,17 @@ msgstr "Tecles d'Alternativa i de Majúscules simultàniament"
 #: ../lib/keyboard.pm:344
 #, c-format
 msgid "\"Menu\" key"
-msgstr "tecla de \"Menú\""
+msgstr "tecla de «Menú»"
 
 #: ../lib/keyboard.pm:345
 #, c-format
 msgid "Left \"Windows\" key"
-msgstr "Tecla de \"Windows\" Esquerra"
+msgstr "Tecla de «Windows» Esquerra"
 
 #: ../lib/keyboard.pm:346
 #, c-format
 msgid "Right \"Windows\" key"
-msgstr "Tecla de \"Windows\" Dreta"
+msgstr "Tecla de «Windows» Dreta"
 
 #: ../lib/keyboard.pm:347
 #, c-format
