@@ -1006,7 +1006,7 @@ msgstr "Coreà"
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
-msgstr ""
+msgstr "Kurd (escriptura aràbiga)"
 
 #: ../lib/keyboard.pm:263
 #, c-format
@@ -1174,7 +1174,7 @@ msgstr "Eslovè"
 msgid ""
 "_: keyboard\n"
 "Sinhala"
-msgstr ""
+msgstr "Singalès"
 
 #: ../lib/keyboard.pm:293
 #, c-format
@@ -1258,7 +1258,7 @@ msgstr "Tàmil (disposició de màquina d'escriure)"
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
-msgstr ""
+msgstr "Tai (Kedmanee)"
 
 #: ../lib/keyboard.pm:308
 #, c-format
@@ -1272,7 +1272,7 @@ msgstr "Tai (TIS-820)"
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
-msgstr ""
+msgstr "Tai (Pattachote)"
 
 #: ../lib/keyboard.pm:312
 #, c-format
@@ -1300,7 +1300,7 @@ msgstr "Tadjik"
 msgid ""
 "_: keyboard\n"
 "Turkmen"
-msgstr ""
+msgstr "Turcman"
 
 #: ../lib/keyboard.pm:318
 #, c-format
@@ -1328,7 +1328,7 @@ msgstr "Ucraïnès"
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
-msgstr ""
+msgstr "Urdú"
 
 #: ../lib/keyboard.pm:325
 #, c-format
