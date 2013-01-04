@@ -96,7 +96,8 @@ msgid ""
 "support additional features.\n"
 "Do you wish to use it?"
 msgstr ""
-"Hi ha un controlador propietari disponible per a la seva targeta gràfica que "
+"Hi ha un controlador de propietat disponible per a la seva targeta gràfica "
+"que "
 "potser pot admetre característiques addicionals.\n"
 "Vol utilitzar-lo?"
 
@@ -105,7 +106,9 @@ msgstr ""
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
-msgstr "Aquest controlador propietari"
+msgstr ""
+"Aquest controlador de propietat no s'ha instal·lat correctament, "
+"es torna al controlador lliure."
 
 #: ../lib/Xconfig/card.pm:441
 #, c-format
