@@ -678,11 +678,11 @@ msgid ""
 msgstr "Araba"
 
 #: ../lib/keyboard.pm:205
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
-msgstr "Estone"
+msgstr "Asturiano"
 
 #: ../lib/keyboard.pm:206
 #, c-format
