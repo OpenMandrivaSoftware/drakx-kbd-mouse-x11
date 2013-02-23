@@ -68,7 +68,7 @@ msgstr "Servidor X"
 #: ../lib/Xconfig/card.pm:176
 #, c-format
 msgid "Choose an X server"
-msgstr "Escolliu un servidor X"
+msgstr "Trieu un servidor X"
 
 #: ../lib/Xconfig/card.pm:207
 #, c-format
@@ -189,12 +189,12 @@ msgstr ""
 #: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor for head #%d"
-msgstr "Escolliu un monitor per a la capçalera #%d"
+msgstr "Trieu un monitor per a la capçalera #%d"
 
 #: ../lib/Xconfig/monitor.pm:132
 #, c-format
 msgid "Choose a monitor"
-msgstr "Escolliu un monitor"
+msgstr "Trieu un monitor"
 
 #: ../lib/Xconfig/monitor.pm:138
 #, c-format
@@ -248,7 +248,7 @@ msgstr "Velocitat de refresc vertical"
 #: ../lib/Xconfig/plugins.pm:219
 #, c-format
 msgid "Choose plugins"
-msgstr "Escolliu els connectors"
+msgstr "Trieu els connectors"
 
 #: ../lib/Xconfig/proprietary.pm:60
 #, c-format
@@ -341,7 +341,7 @@ msgstr "Altres"
 #: ../lib/Xconfig/resolution_and_depth.pm:446
 #, c-format
 msgid "Choose the resolution and the color depth"
-msgstr "Escolliu la resolució i la profunditat de color"
+msgstr "Trieu la resolució i la profunditat de color"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:447
 #, c-format
@@ -402,7 +402,7 @@ msgstr "Aquesta configuració és correcta?"
 #: ../lib/Xconfig/various.pm:26
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace: %s\n"
-msgstr "Deshabilita Ctrl-Alt-Retrocès: %s\n"
+msgstr "Deshabilita Ctrl-Alt-Retrocés: %s\n"
 
 #: ../lib/Xconfig/various.pm:26
 #, c-format
@@ -482,7 +482,7 @@ msgstr "Opcions globals"
 #: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
-msgstr "Deshabilita Ctrl-Alt-Retrocès"
+msgstr "Deshabilita Ctrl-Alt-Retrocés"
 
 #: ../lib/Xconfig/various.pm:249
 #, c-format
@@ -551,7 +551,7 @@ msgstr ""
 "\n"
 "A tal efecte, heu de connectar la targeta gràfica al televisor abans "
 "d'arrencar l'ordinador.\n"
-"Llavors, escolliu l'opció «TVout» en el carregador de l'arrencada\n"
+"Llavors, trieu l'opció «TVout» en el carregador de l'arrencada\n"
 "\n"
 "Teniu aquesta característica?"
 
@@ -1629,7 +1629,7 @@ msgstr "3 botons"
 #: ../lib/mouse.pm:81
 #, c-format
 msgid "3 buttons with Wheel emulation"
-msgstr "3·botons amb emulació de rodeta"
+msgstr "3 botons amb emulació de rodeta"
 
 #: ../lib/mouse.pm:84
 #, c-format
@@ -1699,7 +1699,7 @@ msgstr "Port del ratolí"
 #: ../lib/mouse.pm:547
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
-msgstr "Si us plau, seleccioneu el port sèrie a què està connectat el ratolí."
+msgstr "Si us plau, seleccioneu el port sèrie on està connectat el ratolí."
 
 #: ../lib/mouse.pm:556
 #, c-format
