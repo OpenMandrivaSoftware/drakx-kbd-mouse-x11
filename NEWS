@@ -1,13 +1,20 @@
-Version 0.100 - 25 Februar 2012 Per Øyvind Karlsen <peroyvind@mandriva.org>
+Version 0.101 - 25 Februar 2012 Per Øyvind Karlsen <peroyvind@mandriva.org>
 
-- allow to select depth other than 16bit on Poulsbo (mga#5695)
-- fix test background (Manuel Hiebel, mga#6349)
+- use 'es-latin1' mapping instead of 'es' for asturian (mga#6639)
 - keyboardrake:
   o german keyboard: default to variant with enabled deadkeys instead of
     "nodeadkeys variant" (mga#3791)
 - display_driver_helper:
   o never select ums for radeon driver, it is not supported by current
     X11 driver anymore
+
+Version 0.100 - 26 December 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
+
+- allow to select depth other than 16bit on Poulsbo (mga#5695)
+- fix test background (Manuel Hiebel, mga#6349)
+- keyboardrake:
+  o german keyboard: default to variant with enabled deadkeys instead of
+    "nodeadkeys variant" (mga#3791)
 
 Vestion 0.99 - 26 December 2012 akdengi <akdengi>
 - if driver radeon use package x11-driver-video-ati
