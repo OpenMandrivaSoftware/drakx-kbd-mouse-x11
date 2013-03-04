@@ -1,7 +1,7 @@
 # translation of drakx-kbd-mouse-x11 to Nederlands
 # Dutch translation of DrakX.
 # Copyright (c) 2000 Mandriva
-# Copyright (c) 2011 Mageia
+# Copyright (c) 2011 Mandriva
 # Niels Gras <niels.gras@wanadoo.nl>, 2000.
 # Jeroen ten Berge <j.ten.berge@twinbit.nl>, 2002.
 # Reinout van Schouwen <reinout@gmail.com>, 2002-2009.
@@ -268,7 +268,7 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
 "and re-selecting your graphics card."
 msgstr ""
 "Het vrije '%s'-besturingsprogramma voor uw videokaart benodigt de "
@@ -280,7 +280,7 @@ msgstr ""
 "\n"
 "Om later alsnog de volledige ondersteuning voor uw videokaart in te "
 "schakelen, schakelt u de 'nonfree'-repository in onder \"Softwarebeheer\" in "
-"het Mageia Configuratiecentrum en stelt u vervolgens het besturingsprogramma "
+"het Mandriva Configuratiecentrum en stelt u vervolgens het besturingsprogramma "
 "opnieuw in door nogmaals uw videokaart in te stellen onder \"Apparatuur\" "
 "van het configuratiecentrum."
 
@@ -303,7 +303,7 @@ msgstr ""
 "\n"
 "Om later alsnog de volledige ondersteuning voor uw videokaart in te "
 "schakelen, schakelt u de 'nonfree'-repository in onder \"Softwarebeheer\" in "
-"het Mageia Configuratiecentrum en stelt u vervolgens het besturingsprogramma "
+"het Mandriva Configuratiecentrum en stelt u vervolgens het besturingsprogramma "
 "opnieuw in door het pakket met de firmware handmatig te installeren of "
 "nogmaals uw videokaart in te stellen onder \"Apparatuur\" van het "
 "configuratiecentrum."

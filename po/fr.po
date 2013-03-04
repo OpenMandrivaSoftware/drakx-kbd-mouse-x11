@@ -263,7 +263,7 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
 "and re-selecting your graphics card."
 msgstr ""
 "Le pilote libre « %s » correspondant à votre carte graphique requiert "
@@ -276,7 +276,7 @@ msgstr ""
 "dépôt « Nonfree » dans « Installer et désinstaller des logiciels », puis "
 "reconfigurez le pilote graphique en choisissant le modèle de votre carte "
 "graphique dans l'utilitaire « Configurer le serveur d'affichage » du Centre "
-"de contrôle de Mageia."
+"de contrôle de Mandriva."
 
 #: ../lib/Xconfig/proprietary.pm:68
 #, c-format

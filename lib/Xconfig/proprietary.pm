@@ -57,7 +57,7 @@ sub handle_FIRMWARE {
 	log::l("$card->{Driver} need a firmware to work, switching back to $card->{DRIVER_NO_FIRMWARE}");
 
         # do not show warning if the user selected the proprietary driver
-        !$card->{Driver2} and $o_in and $o_in->ask_warn('', N("The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed, but it was not available on the enabled media.\n\nThe basic non-accelerated '%s' driver will be configured instead.\n\nTo enable full graphics support later, enable the 'nonfree' repository section at \"Install and remove software\" and reconfigure the graphics driver by going to \"Set up the graphical server\" at Mageia Control Center and re-selecting your graphics card.", $card->{Driver}, $card->{FIRMWARE}, $card->{DRIVER_NO_FIRMWARE}));
+        !$card->{Driver2} and $o_in and $o_in->ask_warn('', N("The free '%s' driver for your graphics card requires a proprietary firmware package '%s' to be installed, but it was not available on the enabled media.\n\nThe basic non-accelerated '%s' driver will be configured instead.\n\nTo enable full graphics support later, enable the 'nonfree' repository section at \"Install and remove software\" and reconfigure the graphics driver by going to \"Set up the graphical server\" at Mandriva Control Center and re-selecting your graphics card.", $card->{Driver}, $card->{FIRMWARE}, $card->{DRIVER_NO_FIRMWARE}));
 
 	$card->{Driver} = $card->{DRIVER_NO_FIRMWARE};
 

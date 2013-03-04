@@ -269,7 +269,7 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
 "and re-selecting your graphics card."
 msgstr ""
 "Ο ελεύθερος οδηγός «%s» για την κάρτα γραφικών σας απαιτεί την εγκατάσταση "
@@ -283,7 +283,7 @@ msgstr ""
 "το αποθετήριο «nonfree» από το μενού «Ρύθμιση των πηγών μέσων για "
 "εγκατάσταση και ενημέρωση του λογισμικού» και διαμορφώστε ξανά τον οδηγό "
 "γραφικών από το μενού «Ρυθμίστε τον εξυπηρετητή γραφικών» από το Κέντρο "
-"Ελέγχου Mageia και επιλέξτε εκ νέου την κάρτα γραφικών σας."
+"Ελέγχου Mandriva και επιλέξτε εκ νέου την κάρτα γραφικών σας."
 
 #: ../lib/Xconfig/proprietary.pm:68
 #, c-format
@@ -306,7 +306,7 @@ msgstr ""
 "το αποθετήριο «nonfree» από το μενού «Ρύθμιση των πηγών μέσων για "
 "εγκατάσταση και ενημέρωση του λογισμικού» και εγκαταστήστε το πακέτο με το "
 "firmware χειροκίνητα ή διαμορφώστε εκ νέου την κάρτα γραφικών σας από το "
-"μενού «Ρυθμίστε τον εξυπηρετητή γραφικών» στο Κέντρο Ελέγχου Mageia."
+"μενού «Ρυθμίστε τον εξυπηρετητή γραφικών» στο Κέντρο Ελέγχου Mandriva."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format

@@ -1,5 +1,5 @@
 # Translation of drakx-kbd-mouse.po to Romanian
-# Copyright (c) 2010-2012 Mageia
+# Copyright (c) 2010-2012 Mandriva
 #
 # Vă rugăm să nu actualizaţi fișierul, cu excepția cazului în care sînteți
 # sigur de calitatea traducerii dumneavoastră, de gramatică și de ortografie.
@@ -30,7 +30,7 @@
 #
 # Vă mulțumim pentru înțelegere.
 #                                                       Echipa de traducători,
-#                                                       www.MageiaUsers.ro
+#                                                       www.MandrivaUsers.ro
 #
 # Traducători de-a lungul timpului:
 # Florin Cătălin RUSSEN <cfrussen@yahoo.co.uk>, 2010 - 2012.
@@ -300,7 +300,7 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mageia Control Center "
+"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
 "and re-selecting your graphics card."
 msgstr ""
 "Pilotul liber '%s' pentru placa grafică necesită ca pachetul '%s' cu "
@@ -311,7 +311,7 @@ msgstr ""
 "Pentru a activa ulterior suportul grafic complet, activați depozitul "
 "„nonfree” în secțiunea „Instalați și dezinstalați aplicații” și "
 "reconfigurați pilotul plăcii grafice din secțiunea „Configurați serverul "
-"grafic” din centrul de control Mageia și reselecționați placa grafică."
+"grafic” din centrul de control Mandriva și reselecționați placa grafică."
 
 #: ../lib/Xconfig/proprietary.pm:68
 #, c-format
