@@ -1,5 +1,6 @@
-Version 0.102 -  3 March 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
+Version 0.102 - 31 March 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
 
+- fix detecting whether X11 is started on boot or not (mga#3618)
 - fix enabling of CTRL+ALT+BACKSPACE termination again
 
 Version 0.101 - 25 Februar 2012 Per Øyvind Karlsen <peroyvind@mandriva.org>
