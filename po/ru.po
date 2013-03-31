@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
 "Report-Msgid-Bugs-To: https://qa.mandriva.com\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2011-08-26 13:34+0300\n"
 "Last-Translator: Alexander Kazancev <kazancas@mandriva.ru>\n"
 "Language-Team: Russian (http://transifex.mandriva.com/projects/p/"
@@ -104,24 +104,24 @@ msgstr ""
 "обеспечить дополнительные функциональные возможности.\n"
 "Хотите использовать их?"
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr "Проприетарный драйвер не был установлен, используется свободный."
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Настроить все головки независимо"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Использовать расширение Xinerama"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Настроить только карту \"%s\"%s"
@@ -261,18 +261,19 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
-"Свободный драйвер '%s' для вашей графической карты требует установки проприетарного "
-"пакета с прошивкой '%s', отсутствующего в использующихся источниках.\n"
+"Свободный драйвер '%s' для вашей графической карты требует установки "
+"проприетарного пакета с прошивкой '%s', отсутствующего в использующихся "
+"источниках.\n"
 "\n"
 "Будет настроен базовый драйвер '%s', не использующий ускорение.\n"
 "\n"
-"Для полноценного использования графической карты включите репозитории 'non-free' "
-"в разделе \"Настройка источников установки/обновления ПО\" и перенастройте графический "
-"драйвер, выбрав пункт \"Настройка графического сервера\" в Центре управления ROSA "
-"и повторно отметив вашу графическую карту."
+"Для полноценного использования графической карты включите репозитории 'non-"
+"free' в разделе \"Настройка источников установки/обновления ПО\" и "
+"перенастройте графический драйвер, выбрав пункт \"Настройка графического "
+"сервера\" в Центре управления ROSA и повторно отметив вашу графическую карту."
 
 #: ../lib/Xconfig/proprietary.pm:68
 #, c-format
@@ -286,13 +287,14 @@ msgid ""
 "section at \"Install and remove software\" and install the firmware package "
 "manually or reconfigure your graphics card."
 msgstr ""
-"Свободный драйвер '%s' для вашей графической карты требует установки проприетарного "
-"пакета с прошивкой '%s', чтобы включить поддержку всех возможностей (включая ускорение "
-"3D), но этот пакет отсутствует в использующихся источниках.\n"
+"Свободный драйвер '%s' для вашей графической карты требует установки "
+"проприетарного пакета с прошивкой '%s', чтобы включить поддержку всех "
+"возможностей (включая ускорение 3D), но этот пакет отсутствует в "
+"использующихся источниках.\n"
 "\n"
-"Для полноценного использования графической карты включите репозитории 'non-free' "
-"в разделе \"Настройка источников установки/обновления ПО\" и установите пакет с "
-"прошивкой вручную или перенастройте графическую карту."
+"Для полноценного использования графической карты включите репозитории 'non-"
+"free' в разделе \"Настройка источников установки/обновления ПО\" и "
+"установите пакет с прошивкой вручную или перенастройте графическую карту."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -462,75 +464,75 @@ msgstr "Разрешение: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Драйвер Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Настройка Xorg"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Global options"
 msgstr "Глобальные параметры"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Отключить Ctrl-Alt-Backspace"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Graphic card options"
 msgstr "Параметры видеокарты"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Включить прозрачность (расширение Composite)"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Использовать для курсора мыши аппаратное ускорение"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Включить ускорение RENDER (это может привести к проблемам с отображением "
 "текста)"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Включить дублирование экрана на внешнем мониторе"
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Включить дублирование экрана на втором мониторе"
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Принудительно включить вывод на DVI"
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Включить горячие клавиши BIOS для переключения внешнего монитора"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Графический интерфейс при загрузке"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "Автоматический запускать графический интерфейс (Xorg) во время загрузки"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -551,7 +553,7 @@ msgstr ""
 "\n"
 "Есть у вас этот разъем?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Какой формат использует ваш телевизор?"

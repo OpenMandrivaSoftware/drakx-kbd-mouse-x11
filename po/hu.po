@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11-2010.0\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2009-10-26 08:25+0100\n"
 "Last-Translator: Gergely Lónyai <aleph@mandriva.org>\n"
 "Language-Team: Hungarian <aleph@mandriva.org>\n"
@@ -106,7 +106,7 @@ msgstr ""
 "esetleg további funkciókat támogathat.\n"
 "Szeretné azt használni?"
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -116,17 +116,17 @@ msgstr ""
 "ezért az alapértelmezés szerinti szabad szoftveres meghajtóprogram lesz "
 "használva."
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "A képernyők egymástól független beállítása"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "A Xinerama kiterjesztés használata"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Csak a(z) \"%s\"%s kártya beállítása"
@@ -266,8 +266,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 
 #: ../lib/Xconfig/proprietary.pm:68
@@ -452,76 +452,76 @@ msgstr "Felbontás: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg meghajtó: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg beállítások"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Global options"
 msgstr "Globális opciók"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Ctrl-Alt-Backspace letiltása"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Graphic card options"
 msgstr "A grafikus kártya beállításai"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Áttetszőség bekapcsolása (Composite kiterjesztés)"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Hardveresen gyorsított egérmutató használata"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "A megjelenítés gyorsításának bekapcsolása (szövegmegjelenítésnél problémákat "
 "okozhat)"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Dupla megjelenítés bekapcsolása a külső monitoron"
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Dupla megjelenítés bekapcsolása a második képernyőn"
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "DVI kijelző erőltetése"
 
 # It is to allow switching to external monitor.
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Külső monitorra kapcsoló BIOS billentyűkombináció engedélyezése"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Indítás grafikus módban"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "Rendszerindításkor automatikusan induljon el a grafikus felület (az Xorg)"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -542,7 +542,7 @@ msgstr ""
 "\n"
 "Valóban van tévékimenet a grafikus kártyán?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Milyen normát használ a televízió?"

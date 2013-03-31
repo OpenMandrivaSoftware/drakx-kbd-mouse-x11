@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX HEAD\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2005-03-19 23:18+0600\n"
 "Last-Translator: Samia <mailsamia2001@yahoo.com>\n"
 "Language-Team: Bangla <mdk-translation@bengalinux.org>\n"
@@ -99,24 +99,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "সমস্থ head-গুলিকে আলাদাভাবে কনফিগার কারো"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama এক্সটেনশন ব্যবহার করো"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "শুধু \"%s\"%s কার্ড কনফিগ করো"
@@ -255,8 +255,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 
 #: ../lib/Xconfig/proprietary.pm:68
@@ -441,67 +441,67 @@ msgstr "রেজুলেশন: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg ড্রাইভার: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg কনফিগারেশন"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Global options"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "%s গ্রাফিক কার্ড"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "শুরু থেকেই গ্রাফিকাল ইন্টারফস থাকবে"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
@@ -509,7 +509,7 @@ msgstr ""
 "কম্পিউটার সেট করতে পারি।\n"
 "আপনি কি রিবুটের পরে Xorg চালু করতে চান?"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -529,7 +529,7 @@ msgstr ""
 "\n"
 "আপনার কি এই সুবিধাটি আছে?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "আপনি কি ধরণের টিভি ব্যবহার করছেন?"

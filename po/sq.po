@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX for MDK 9.2\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2004-09-15 13:33+0200\n"
 "Last-Translator: Naim Daka <naim70@freesurf.ch>\n"
 "Language-Team: Albanian <LL@li.org>\n"
@@ -97,24 +97,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Konfigurimi i ekraneve veqmas"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Përdore çfaqjesin në më shumë ekrane (Xinerama)"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Konfiguroje vetëm kartelën \"%s\"%s"
@@ -256,8 +256,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 
 #: ../lib/Xconfig/proprietary.pm:68
@@ -441,74 +441,74 @@ msgstr "Vendosmëria: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Pilot Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Konfigurimi i Xorg"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, fuzzy, c-format
 msgid "Global options"
 msgstr "Opcionet e moduleve:"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "Kartelë grafike: %s"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Interfaci grafike në nisje"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "A dëshironi që intefac grafik (Xorg) të niset automatikisht\n"
 "gjatë nisjes së kompjuterit?"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -528,7 +528,7 @@ msgstr ""
 "\n"
 "A e posedoni këtë fuksion?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Cilat norma përdorë televizori juaj?"
@@ -2291,8 +2291,8 @@ msgstr "A dëshironi që kopsa BackSpace ta kthejë Zhdukjen në konsolë?"
 #~ "If networking is not yet enabled, Drakx will attempt to join the domain "
 #~ "after the network setup step.\n"
 #~ "Should this setup fail for some reason and domain authentication is not "
-#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
-#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your "
+#~ "Windows(tm) Domain, and Admin Username/Password, after system boot.\n"
 #~ "The command 'wbinfo -t' will test whether your authentication secrets are "
 #~ "good."
 #~ msgstr ""
@@ -2301,8 +2301,8 @@ msgstr "A dëshironi që kopsa BackSpace ta kthejë Zhdukjen në konsolë?"
 #~ "nisës:  C:\\>net localgroup \"Pre-Windows 2000 Compatible Access\" ku "
 #~ "secili /shton dhe e rinisë serverin.\n"
 #~ "Ju njashtu keni nevojë për emrin përdorues dhe parullën e një "
-#~ "administratori të pronës për tu bashkuar në makinën me pronën Windows"
-#~ "(TM).\n"
+#~ "administratori të pronës për tu bashkuar në makinën me pronën "
+#~ "Windows(TM).\n"
 #~ "Nëse rrjeti është ende i aktivizuar, prona do të bashkohet mbasë etapës "
 #~ "konfiguruese të rrjetit.\n"
 #~ "Nëse kjo etapë dështon nga ndonji arrësye, e nëse vërtetësimi nuk "
@@ -5082,13 +5082,13 @@ msgstr "A dëshironi që kopsa BackSpace ta kthejë Zhdukjen në konsolë?"
 #~ "\n"
 #~ "- none if set to \"NONE\".\n"
 #~ "\n"
-#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
-#~ "(5))."
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts."
+#~ "allow(5))."
 #~ msgstr ""
 #~ "Autorizim:\n"
 #~ "\n"
-#~ "- të gjitha shërbimet kontrolohen nga tcp_wrappers (shiqo tek hosts.deny"
-#~ "(5) faqe ndihmuese) nëse konfigurohet me \"GJITHA\",\n"
+#~ "- të gjitha shërbimet kontrolohen nga tcp_wrappers (shiqo tek hosts."
+#~ "deny(5) faqe ndihmuese) nëse konfigurohet me \"GJITHA\",\n"
 #~ "\n"
 #~ "- vetëm ata lokal nëse konfigurohen me \"LOKAL\".\n"
 #~ "\n"

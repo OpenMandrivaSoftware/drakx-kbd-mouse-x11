@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2012-04-05 15:47+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation@linux.org.ua>\n"
@@ -108,7 +108,7 @@ msgstr ""
 "можливості.\n"
 "Чи хочете його використовувати?"
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -117,17 +117,17 @@ msgstr ""
 "Драйвер виробника не було встановлено, використовується вільно розроблений "
 "драйвер."
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Сконфігурувати всі головки незалежно"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Користуватися розширенням Xinerama"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Налаштувати тільки плату \"%s\" %s"
@@ -269,8 +269,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 "Щоб вільний драйвер до вашої графічної картки, «%s», міг працювати належним "
 "чином (зокрема скористатися апаратним прискоренням просторової графіки), "
@@ -478,74 +478,74 @@ msgstr "Роздільна здатність: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg драйвер: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Налаштування Xorg"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Global options"
 msgstr "Загальні параметри"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Вимикання Ctrl-Alt-Backspace"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Graphic card options"
 msgstr "Параметри графічної плати"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Увімкнути напівпрозорість (розширення Composite)"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Використовувати вказівник миші з апаратним прискоренням"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Увімкнути прискорення зображення (може призвести до помилок відображення "
 "тексту)"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Увімкнути резервний дисплей на додатковому моніторі"
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Увімкнути резервний дисплей на другому моніторі"
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Примусово встановити режим дисплею в DVI"
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Увімкнути гарячу клавішу для перемикання резервного монітора"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Графічний інтерфейс при завантаженні"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "Автоматично стартувати графічну оболонку (Xorg) при завантаженні"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -566,7 +566,7 @@ msgstr ""
 "\n"
 "У Вас є така можливість?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Який формат використовує Ваш телевізор?"

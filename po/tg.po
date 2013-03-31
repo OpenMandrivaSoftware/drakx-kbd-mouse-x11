@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-tg\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2005-09-17 16:03+0500\n"
 "Last-Translator: Victor Ibragimov <youth_opportunities@tajikngo.org>\n"
 "Language-Team: Tajik\n"
@@ -107,24 +107,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Танзимдарории мустақили ҳама сарлавҳаҳо"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Истифодаи пасванди Xinerama"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Танзимдарории танҳо карти \"%s\"%s"
@@ -265,8 +265,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 
 #: ../lib/Xconfig/proprietary.pm:68
@@ -449,67 +449,67 @@ msgstr "Ҳалнокӣ: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Гардони Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Шоакли Xorg"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, fuzzy, c-format
 msgid "Global options"
 msgstr "Хосиятҳои модул:"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "Карти графикӣ: %s"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Интерфейси графикӣ ҳангоми оғозёбӣ"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
@@ -517,7 +517,7 @@ msgstr ""
 "интерфейси графикӣ (Xorg) ба таври автоматикӣ сар шавад оғоз шавад.\n"
 "Шумо мехоҳед ҳангоми бозхудборшавӣ бо Xorg оғоз кунед?"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -539,7 +539,7 @@ msgstr ""
 "\n"
 "Оё шумо ин хусусиятро доред?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Кадом намудро телевизори шумо истифода мебарад?"
@@ -2357,8 +2357,8 @@ msgstr "Мехоҳед, ки калиди BackSpace ба нозиргоҳ Delete
 #~ "If networking is not yet enabled, Drakx will attempt to join the domain "
 #~ "after the network setup step.\n"
 #~ "Should this setup fail for some reason and domain authentication is not "
-#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
-#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your "
+#~ "Windows(tm) Domain, and Admin Username/Password, after system boot.\n"
 #~ "The command 'wbinfo -t' will test whether your authentication secrets are "
 #~ "good."
 #~ msgstr ""
@@ -5223,8 +5223,8 @@ msgstr "Мехоҳед, ки калиди BackSpace ба нозиргоҳ Delete
 #~ "\n"
 #~ "- none if set to \"NONE\".\n"
 #~ "\n"
-#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
-#~ "(5))."
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts."
+#~ "allow(5))."
 #~ msgstr ""
 #~ "Иҷозат додан:\n"
 #~ "\n"
@@ -6223,10 +6223,10 @@ msgstr "Мехоҳед, ки калиди BackSpace ба нозиргоҳ Delete
 #~ "--disable        : хомӯш кардан MTS\n"
 #~ "--start          : оғоз намудан MTS\n"
 #~ "--stop           : қатъ кардан MTS\n"
-#~ "--adduser        : корванди мавҷудбудаи системро илова намудан ба MTS"
-#~ "(номи корванд талаб карда мешавад)\n"
-#~ "--deluser        : корванди мавҷудбудаи системро хориҷ намудан аз MTS"
-#~ "(номи корванд талаб карда мешавад)\n"
+#~ "--adduser        : корванди мавҷудбудаи системро илова намудан ба "
+#~ "MTS(номи корванд талаб карда мешавад)\n"
+#~ "--deluser        : корванди мавҷудбудаи системро хориҷ намудан аз "
+#~ "MTS(номи корванд талаб карда мешавад)\n"
 #~ "--addclient      : мошинаи мизоҷиро илова намудан ба MTS (талаб карда "
 #~ "мешавад MAC-суроға, IP, номи симои nbi)\n"
 #~ "--delclient      : мошинаи мизоҷиро хориҷ намудан аз MTS (талаб карда "

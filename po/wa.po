@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2006-09-05 23:14+0200\n"
 "Last-Translator: Pablo Saratxaga <pablo@walon.org>\n"
 "Language-Team: Walloon <linux-wa@walon.org>\n"
@@ -105,24 +105,24 @@ msgstr ""
 "di pus di fonccionålités.\n"
 "El voloz vs eployî?"
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Apontyî totes les waitroûles sepårumint"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Eployî l' egztension «Xinerama»"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Apontyî rén kel cåte «%s»%s"
@@ -260,8 +260,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 
 #: ../lib/Xconfig/proprietary.pm:68
@@ -445,78 +445,78 @@ msgstr "Fintés: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Mineu di Xorg: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Apontiaedje di Xorg"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, fuzzy, c-format
 msgid "Global options"
 msgstr "Mwaissès tchuzes"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Graphic card options"
 msgstr "Tchuzes del cåte grafike"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Mete en alaedje li voeyaedje hoûte (egztinsion composite)"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Eployî ene sori avou acceleråcion d' éndjolreye"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "Mete en alaedje l' acceleråcion RENDER (çoula pout fé des bugs sol håynaedje "
 "di tecse)"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 "Mete en alaedje li duplicaedje di håynaedje so ene difoûtrinne waitroûle"
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Mete en alaedje li duplicaedje di håynaedje so ene deujhinme waitroûle"
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 "Mete en alaedje tape rascourti pol discandje di håynaedje so ene difoûtrinne "
 "waitroûle"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Enonder X a l' enondaedje"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "Enondaedje dins l' môde grafike (dizo X) do côp ki l' éndjole s' enonde."
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -538,7 +538,7 @@ msgstr ""
 "\n"
 "Voloz vs sopoirter cisse possibilité?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Kéne nôrme fåt i eployî po vosse TV?"
@@ -2406,8 +2406,8 @@ msgstr "Voloz vs kel tape «BackSpace» evoye on «Delete» el conzôle?"
 #~ "If networking is not yet enabled, Drakx will attempt to join the domain "
 #~ "after the network setup step.\n"
 #~ "Should this setup fail for some reason and domain authentication is not "
-#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
-#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your "
+#~ "Windows(tm) Domain, and Admin Username/Password, after system boot.\n"
 #~ "The command 'wbinfo -t' will test whether your authentication secrets are "
 #~ "good."
 #~ msgstr ""
@@ -5039,8 +5039,8 @@ msgstr "Voloz vs kel tape «BackSpace» evoye on «Delete» el conzôle?"
 #~ "\n"
 #~ "- none if set to \"NONE\".\n"
 #~ "\n"
-#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
-#~ "(5))."
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts."
+#~ "allow(5))."
 #~ msgstr ""
 #~ "Otorijhî:\n"
 #~ "\n"

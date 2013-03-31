@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: drakx-kbd-mouse-x11\n"
-"POT-Creation-Date: 2012-12-04 15:50+0400\n"
+"POT-Creation-Date: 2013-03-31 21:45+0200\n"
 "PO-Revision-Date: 2012-04-06 12:06+0100\n"
 "Last-Translator: Remco Rijnders <remco@webconquest.com>\n"
 "Language-Team: Dutch <i18n-nl@ml.mageia.org>\n"
@@ -107,7 +107,7 @@ msgstr ""
 "die extra functionaliteit ondersteunt.\n"
 "Wilt u deze gebruiken?"
 
-#: ../lib/Xconfig/card.pm:370
+#: ../lib/Xconfig/card.pm:376
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
@@ -116,17 +116,17 @@ msgstr ""
 "Het fabrikantseigen stuurprogramma is niet correct geïnstalleerd. Het "
 "standaard vrije software-stuurprogramma zal worden gebruikt."
 
-#: ../lib/Xconfig/card.pm:441
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Alle koppen afzonderlijk configureren"
 
-#: ../lib/Xconfig/card.pm:442
+#: ../lib/Xconfig/card.pm:448
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama-uitbreiding gebruiken"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:453
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Alleen kaart \"%s\"%s configureren"
@@ -268,8 +268,8 @@ msgid ""
 "\n"
 "To enable full graphics support later, enable the 'nonfree' repository "
 "section at \"Install and remove software\" and reconfigure the graphics "
-"driver by going to \"Set up the graphical server\" at Mandriva Control Center "
-"and re-selecting your graphics card."
+"driver by going to \"Set up the graphical server\" at Mandriva Control "
+"Center and re-selecting your graphics card."
 msgstr ""
 "Het vrije '%s'-besturingsprogramma voor uw videokaart benodigt de "
 "installatie van het niet vrije firmwarepakket '%s', welke niet beschikbaar "
@@ -280,9 +280,9 @@ msgstr ""
 "\n"
 "Om later alsnog de volledige ondersteuning voor uw videokaart in te "
 "schakelen, schakelt u de 'nonfree'-repository in onder \"Softwarebeheer\" in "
-"het Mandriva Configuratiecentrum en stelt u vervolgens het besturingsprogramma "
-"opnieuw in door nogmaals uw videokaart in te stellen onder \"Apparatuur\" "
-"van het configuratiecentrum."
+"het Mandriva Configuratiecentrum en stelt u vervolgens het "
+"besturingsprogramma opnieuw in door nogmaals uw videokaart in te stellen "
+"onder \"Apparatuur\" van het configuratiecentrum."
 
 #: ../lib/Xconfig/proprietary.pm:68
 #, c-format
@@ -303,10 +303,10 @@ msgstr ""
 "\n"
 "Om later alsnog de volledige ondersteuning voor uw videokaart in te "
 "schakelen, schakelt u de 'nonfree'-repository in onder \"Softwarebeheer\" in "
-"het Mandriva Configuratiecentrum en stelt u vervolgens het besturingsprogramma "
-"opnieuw in door het pakket met de firmware handmatig te installeren of "
-"nogmaals uw videokaart in te stellen onder \"Apparatuur\" van het "
-"configuratiecentrum."
+"het Mandriva Configuratiecentrum en stelt u vervolgens het "
+"besturingsprogramma opnieuw in door het pakket met de firmware handmatig te "
+"installeren of nogmaals uw videokaart in te stellen onder \"Apparatuur\" van "
+"het configuratiecentrum."
 
 #: ../lib/Xconfig/resolution_and_depth.pm:10
 #, c-format
@@ -477,73 +477,73 @@ msgstr "Resolutie: %s\n"
 msgid "Xorg driver: %s\n"
 msgstr "Xorg stuurprogramma: %s\n"
 
-#: ../lib/Xconfig/various.pm:245
+#: ../lib/Xconfig/various.pm:246
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg instellingen"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:247
 #, c-format
 msgid "Global options"
 msgstr "Globale opties"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:248
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr "Ctrl-Alt-Backspace uitschakelen"
 
-#: ../lib/Xconfig/various.pm:249
+#: ../lib/Xconfig/various.pm:250
 #, c-format
 msgid "Graphic card options"
 msgstr "Opties voor grafische kaart"
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "Doorschijnendheid inschakelen (Composite-uitbreiding)"
 
-#: ../lib/Xconfig/various.pm:253
+#: ../lib/Xconfig/various.pm:254
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "Hardwarematig versnelde muiscursor gebruiken"
 
-#: ../lib/Xconfig/various.pm:256
+#: ../lib/Xconfig/various.pm:257
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 "RENDER-acceleratie inschakelen (dit kan tot fouten leiden in tekstweergave)"
 
-#: ../lib/Xconfig/various.pm:260
+#: ../lib/Xconfig/various.pm:261
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "Duplicaatweergave op externe monitor inschakelen"
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "Duplicaatweergave op tweede beeldscherm inschakelen"
 
-#: ../lib/Xconfig/various.pm:264
+#: ../lib/Xconfig/various.pm:265
 #, c-format
 msgid "Force display mode of DVI"
 msgstr "Weergavemodus van DVI afdwingen"
 
-#: ../lib/Xconfig/various.pm:267
+#: ../lib/Xconfig/various.pm:268
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "Externe monitor-omschakeling via BIOS-sneltoets inschakelen"
 
-#: ../lib/Xconfig/various.pm:272
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "Grafisch gebruiksoppervlak bij opstarten"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:274
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr "De grafische omgeving (Xorg) automatisch starten na de opstartfase"
 
-#: ../lib/Xconfig/various.pm:285
+#: ../lib/Xconfig/various.pm:286
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -564,7 +564,7 @@ msgstr ""
 "\n"
 "Heeft u deze mogelijkheid?"
 
-#: ../lib/Xconfig/various.pm:297
+#: ../lib/Xconfig/various.pm:298
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Welke norm gebruikt uw TV?"
@@ -2440,8 +2440,8 @@ msgstr "Wilt u dat de BackSpace toets Delete geeft in de console?"
 #~ "If networking is not yet enabled, Drakx will attempt to join the domain "
 #~ "after the network setup step.\n"
 #~ "Should this setup fail for some reason and domain authentication is not "
-#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your Windows"
-#~ "(tm) Domain, and Admin Username/Password, after system boot.\n"
+#~ "working, run 'smbpasswd -j DOMAIN -U USER%%PASSWORD' using your "
+#~ "Windows(tm) Domain, and Admin Username/Password, after system boot.\n"
 #~ "The command 'wbinfo -t' will test whether your authentication secrets are "
 #~ "good."
 #~ msgstr ""
@@ -2455,8 +2455,8 @@ msgstr "Wilt u dat de BackSpace toets Delete geeft in de console?"
 #~ "instellingen.\n"
 #~ "Mocht deze instelling om wat voor reden dan ook mislukken en de "
 #~ "domeinaanmeldingscontrole werkt niet, herstart dan het systeem en voer "
-#~ "'smbpasswd -j DOMEIN -U GEBRUIKER%%WACHTWOORD' uit waarbij u uw Windows"
-#~ "(TM)-domein en beheerdersgebruikersnaam en -wachtwoord invult.\n"
+#~ "'smbpasswd -j DOMEIN -U GEBRUIKER%%WACHTWOORD' uit waarbij u uw "
+#~ "Windows(TM)-domein en beheerdersgebruikersnaam en -wachtwoord invult.\n"
 #~ "De opdracht 'wbinfo -t' gaat na of uw aanmeldingscontrole-geheimen "
 #~ "kloppen."
 
@@ -3786,8 +3786,8 @@ msgstr "Wilt u dat de BackSpace toets Delete geeft in de console?"
 #~ "There's no known OSS/ALSA alternative driver for your sound card (%s) "
 #~ "which currently uses \"%s\""
 #~ msgstr ""
-#~ "Er is geen alternatief OSS/ALSA-stuurprogramma bekend voor uw geluidskaart"
-#~ "(%s) welke momenteel \"%s\" gebruikt"
+#~ "Er is geen alternatief OSS/ALSA-stuurprogramma bekend voor uw "
+#~ "geluidskaart(%s) welke momenteel \"%s\" gebruikt"
 
 #~ msgid "Sound configuration"
 #~ msgstr "Geluidsconfiguratie"
@@ -5413,8 +5413,8 @@ msgstr "Wilt u dat de BackSpace toets Delete geeft in de console?"
 #~ "\n"
 #~ "- none if set to \"NONE\".\n"
 #~ "\n"
-#~ "To authorize the services you need, use /etc/hosts.allow (see hosts.allow"
-#~ "(5))."
+#~ "To authorize the services you need, use /etc/hosts.allow (see hosts."
+#~ "allow(5))."
 #~ msgstr ""
 #~ "Goedkeuren:\n"
 #~ "\n"
