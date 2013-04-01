@@ -1,3 +1,7 @@
+Version 0.103 -  1 April 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
+
+- fix breakage in display_driver_helper due to missing ']'
+
 Version 0.102 - 31 March 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - fix detecting whether X11 is started on boot or not (mga#3618)
