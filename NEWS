@@ -1,5 +1,6 @@
-Version 0.103 -  1 April 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
+Version 0.103 - 25 April 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
 
+- only install kernel-devel package if proprietary drivers are selected
 - fix breakage in display_driver_helper due to missing ']'
 
 Version 0.102 - 31 March 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
