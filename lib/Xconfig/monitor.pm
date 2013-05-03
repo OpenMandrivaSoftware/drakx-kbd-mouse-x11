@@ -266,11 +266,10 @@ sub use_EDID {
 	      { val => $_->{ModeLine}, pre_comment => $_->{ModeLine_comment} . "\n" };
 	}
 
-	if (@different_timings == 1 && $_->{horizontal_active} >= 1024) {
+	if ((@different_timings == 1 || $_->{preferred}) && $_->{horizontal_active} >= 1024) {
 	    #- we don't use detailed_timing when it is 640x480 or 800x600,
 	    #- since 14" CRTs often give this even when they handle 1024x768 correctly (and desktop is no good in poor resolutions)
 
-	    #- should we care about {has_preferred_timing} ?
 	    $monitor->{preferred_resolution} = { X => $_->{horizontal_active}, Y => $_->{vertical_active} };
 	}
     }
