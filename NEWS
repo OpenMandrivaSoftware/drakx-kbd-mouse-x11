@@ -1,3 +1,7 @@
+- never fallback to guessing display resolution from display size or
+  forcing it to 1024x768, instead fallback to automatic display mode
+  (mga#9934)
+
 Version 0.103 - 25 April 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - only install kernel-devel package if proprietary drivers are selected

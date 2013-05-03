@@ -40,31 +40,6 @@ sub from_bios {
 
 sub bios_vga_modes() { @bios_vga_modes }
 
-sub size2default_resolution {
-    my ($size) = @_; #- size in inch
-
-    require detect_devices;
-    if (arch() =~ /ppc/) {
-	return "1024x768" if detect_devices::get_mac_model() =~ /^PowerBook|^iMac/;
-    } elsif (detect_devices::is_xbox()) {
-	return "640x480";
-    }
-
-    my %monitorSize2resolution = (
-	13 => "640x480",
-	14 => "800x600",
-	15 => "800x600",
-	16 => "1024x768",
-	17 => "1024x768",
-	18 => "1024x768",
-	19 => "1280x1024",
-	20 => "1280x1024",
-	21 => "1600x1200",
-	22 => "1600x1200",
-    );
-    $monitorSize2resolution{round($size)} || ($size < 13 ? "640x480" : "1600x1200");
-}
-
 sub XxY { &Xconfig::xfree::XxY }
 
 sub to_string {
@@ -167,11 +142,8 @@ sub choices {
 	    put_in_hash($resolution_wanted, $monitors->[0]{preferred_resolution});
 	} elsif ($monitors->[0]{ModelName} =~ /^Flat Panel (\d+)x(\d+)$/) {
 	    put_in_hash($resolution_wanted, { X => $1, Y => $2 });
-	} elsif ($monitors->[0]{diagonal_size}) {
-	    my ($X, $Y) = split('x', size2default_resolution($monitors->[0]{diagonal_size} * 1.08));
-	    put_in_hash($resolution_wanted, { X => $X, Y => $Y });
 	} else {
-	    put_in_hash($resolution_wanted, { X => 1024, Y => 768 });
+	    return { automatic => 1, Depth => $resolution_wanted->{Depth} }, @resolutions;
 	}
     }
     my @matching = grep { $_->{X} eq $resolution_wanted->{X} && $_->{Y} eq $resolution_wanted->{Y} } @resolutions;
