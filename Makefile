@@ -12,7 +12,7 @@ iconsdir=/usr/lib/libDrakX/icons
 pixmapsdir=/usr/share/libDrakX/pixmaps
 
 BIN_TOOLS= 
-SBIN_TOOLS= keyboarddrake mousedrake XFdrake
+SBIN_TOOLS= keyboarddrake mousedrake XFdrake drakx-update-background
 ROOTSBIN_TOOLS = display_driver_helper
 INLIBDEST_DIRS = lib/xf86misc
 
