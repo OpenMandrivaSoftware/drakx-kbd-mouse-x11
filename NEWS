@@ -7,17 +7,17 @@ Version 0.104 - 15 May 2013, by Per Øyvind Karlsen <proyvind@moondrake.net>
 - select the preferred timing in case of multiple detailed timings
   in EDID (mga#9934)
 
-Version 0.103 - 25 April 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
+Version 0.103 - 25 April 2013, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - only install kernel-devel package if proprietary drivers are selected
 - fix breakage in display_driver_helper due to missing ']'
 
-Version 0.102 - 31 March 2013 Per Øyvind Karlsen <peroyvind@mandriva.org>
+Version 0.102 - 31 March 2013, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - fix detecting whether X11 is started on boot or not (mga#3618)
 - fix enabling of CTRL+ALT+BACKSPACE termination again
 
-Version 0.101 - 25 Februar 2012 Per Øyvind Karlsen <peroyvind@mandriva.org>
+Version 0.101 - 25 Februar 2012, by Per Øyvind Karlsen <peroyvind@mandriva.org>
 
 - use 'es-latin1' mapping instead of 'es' for asturian (mga#6639)
 - keyboardrake:
