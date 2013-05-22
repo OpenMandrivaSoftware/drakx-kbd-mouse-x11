@@ -295,9 +295,7 @@ sub detect {
     my @wacom = _probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
-    if (detect_devices::is_virtualbox()) {
-	fullname2mouse("Universal|VirtualBox mouse");
-    } elsif (detect_devices::is_vmware()) {
+    if (detect_devices::is_vmware()) {
 	fullname2mouse("Universal|VMware mouse");
     } elsif (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
 	my @synaptics = map {

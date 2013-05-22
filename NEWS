@@ -1,3 +1,7 @@
+Version 0.106 - 22 May 2013, by Per Øyvind Karlsen <proyvind@moondrake.net>
+
+- really remove all code for using dead vboxmouse driver
+
 Version 0.105 - 16 May 2013, by Per Øyvind Karlsen <proyvind@moondrake.net>
 
 - drop support for dead vboxmouse driver
