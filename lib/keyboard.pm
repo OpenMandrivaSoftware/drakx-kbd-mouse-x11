@@ -18,6 +18,7 @@ use c;
 #- Globals
 #-######################################################################################
 my $KMAP_MAGIC = 0x8B39C07F;
+my $localectl = "/usr/bin/localectl";
 
 #- a best guess of the keyboard layout, based on the choosen locale
 #- beware only the first 5 characters of the locale are used
@@ -369,6 +370,16 @@ sub _keyboard2one {
 sub keyboard2text { _keyboard2one($_[0], 0) }
 sub keyboard2kmap { _keyboard2one($_[0], 1) }
 sub _keyboard2xkb  { _keyboard2one($_[0], 2) }
+sub _xkb2keyboardkey {
+    my ($xkb) = @_;
+    $xkb =~ s/^us,(.*)$/$1/;
+    $xkb =~ /n\/a/ and return;
+    my $keyboardkey = "custom";
+    foreach (keys %keyboards) {
+	$keyboards{$_}[2] eq $xkb and $keyboardkey = $_, last;
+    }
+    $keyboardkey;
+}
 
 sub xkb_models() {
     my $models = _parse_xkb_rules()->{model};
@@ -615,7 +626,6 @@ sub write {
     delete $keyboard->{unsafe};
     $keyboard->{KEYTABLE} = keyboard2kmap($keyboard);
 
-    setVarsInSh("$::prefix/etc/sysconfig/keyboard", $keyboard);
     if (arch() =~ /ppc/) {
 	my $s = "dev.mac_hid.keyboard_sends_linux_keycodes = 1\n";
 	substInFile { 
@@ -625,7 +635,15 @@ sub write {
     } else {
 	run_program::rooted($::prefix, 'dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
-    run_program::run('mandriva-setup-keyboard');
+    if (-x $localectl) { # systemd service
+	run_program::run($localectl, '--no-convert', 'set-keymap', 
+		$keyboard->{KEYTABLE}, $keyboard->{GRP_TOGGLE});
+	run_program::run($localectl, '--no-convert', 'set-x11-keymap', 
+		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
+    } else {
+	setVarsInSh("$::prefix/etc/sysconfig/keyboard", $keyboard);
+	run_program::run('mageia-setup-keyboard');
+    }
 }
 
 sub configure_and_set_standalone {
@@ -638,7 +656,25 @@ sub configure_and_set_standalone {
 }
 
 sub read() {
-    my %keyboard = getVarsFromSh("$::prefix/etc/sysconfig/keyboard") or return;
+    local $ENV{LANGUAGE} = 'C';	
+    my %keyboard;
+  if (-x $timedatectl) { # systemd dbus based service
+    foreach (run_program::rooted_get_stdout($::prefix, $timedatectl)) {
+	/^ *VC Keymap: (.*)$/ and $keyboard{KEYTABLE} = $1;
+	/^ *VC Toggle Keymap: (.*)$/ and $keyboard{GRP_TOGGLE} = $1;
+	/^ *X11 Layout: (.*)$/ and $keyboard{XkbLayout} = $1;
+	/^ *X11 Model: (.*)$/ and $keyboard{XkbModel} = $1;
+	/^ *X11 Variant: (.*)$/ and $keyboard{XkbVariant} = $1;
+	/^ *X11 Options: (.*)$/ and $keyboard{XkbOptions} = $1;
+    }
+    $keyboard{KEYBOARD} = _xkb2keyboardkey($keyboard{XkbLayout});
+    # if keyboard not defined, we fallback to old config file
+    if ($keyboard{XkbModel} =~ m/n\/a/ || $keyboard{KEYTABLE} =~  m/n\/a/ ) {
+	%keyboard = getVarsFromSh("$::prefix/etc/sysconfig/keyboard") or return;
+    }
+  } else {
+    %keyboard = getVarsFromSh("$::prefix/etc/sysconfig/keyboard") or return;
+  }
     if (!$keyboard{KEYBOARD}) {
 	add2hash(\%keyboard, grep { keyboard2kmap($_) eq $keyboard{KEYTABLE} } _keyboards());
     }
