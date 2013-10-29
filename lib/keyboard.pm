@@ -633,7 +633,7 @@ sub write {
             $_ .= $s if eof;
         } "$::prefix/etc/sysctl.conf";
     } else {
-	run_program::rooted($::prefix, 'dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
+	run_program::rooted($::prefix, '/bin/dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
     if (-x $localectl) { # systemd service
 	run_program::run($localectl, '--no-convert', 'set-keymap', 
