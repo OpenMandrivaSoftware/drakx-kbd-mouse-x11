@@ -19,6 +19,7 @@ use c;
 #-######################################################################################
 my $KMAP_MAGIC = 0x8B39C07F;
 my $localectl = "/usr/bin/localectl";
+my $timedatectl = "/usr/bin/timedatectl";
 
 #- a best guess of the keyboard layout, based on the choosen locale
 #- beware only the first 5 characters of the locale are used
