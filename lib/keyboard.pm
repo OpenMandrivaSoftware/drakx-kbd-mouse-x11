@@ -19,7 +19,6 @@ use c;
 #-######################################################################################
 my $KMAP_MAGIC = 0x8B39C07F;
 my $localectl = "/usr/bin/localectl";
-my $timedatectl = "/usr/bin/timedatectl";
 
 #- a best guess of the keyboard layout, based on the choosen locale
 #- beware only the first 5 characters of the locale are used
@@ -659,8 +658,8 @@ sub configure_and_set_standalone {
 sub read() {
     local $ENV{LANGUAGE} = 'C';	
     my %keyboard;
-  if (-x $timedatectl) { # systemd dbus based service
-    foreach (run_program::rooted_get_stdout($::prefix, $timedatectl)) {
+  if (-x $localectl) { # systemd dbus based service
+    foreach (run_program::rooted_get_stdout($::prefix, $localectl)) {
 	/^ *VC Keymap: (.*)$/ and $keyboard{KEYTABLE} = $1;
 	/^ *VC Toggle Keymap: (.*)$/ and $keyboard{GRP_TOGGLE} = $1;
 	/^ *X11 Layout: (.*)$/ and $keyboard{XkbLayout} = $1;
