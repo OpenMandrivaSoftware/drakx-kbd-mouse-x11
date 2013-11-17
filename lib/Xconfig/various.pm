@@ -120,6 +120,7 @@ sub config {
 	$raw_X->remove_extension('Composite');
 	if ($card->{Driver} eq 'nvidia') {
 	    $card->{Options}{AddARGBGLXVisuals} = undef;
+	    $card->{Options}{NoLogo} = 1;
 	}
     } else {
 	$raw_X->set_extension('Composite', 'Disable');
