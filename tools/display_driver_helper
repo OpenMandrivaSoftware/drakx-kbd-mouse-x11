@@ -38,7 +38,7 @@ XORG_i915="intel"
 CONFLICTS_i915=""
 
 XORG_nouveau="nouveau"
-CONFLICTS_nouveau="vesa nv nvidia"
+CONFLICTS_nouveau="nv nvidia"
 
 XORG_radeon="ati radeon"
 CONFLICTS_radeon="fglrx"
@@ -75,6 +75,8 @@ check_driver() {
 		# implicitely loaded by X.org
 		check_xorg $name 0 || return 1
 		IS_KMS=1
+                # X fails to load nouveau on atleast G84 (mga #7982)
+                NEEDS_LOAD_NOW=1
 		;;
 	fglrx)
 		check_xorg fglrx 1 || return 1
