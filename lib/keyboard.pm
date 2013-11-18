@@ -44,7 +44,7 @@ our %lang2keyboard =
   'cs'  => 'cz_qwerty:70 cz:50',
   'cy'  => 'gb:90',
   'da'  => 'dk:90',
-  'de'  => 'de_nodeadkeys:70 de:50 be:50 ch_de:50',
+  'de'  => 'de:70 de_nodeadkeys:50 be:50 ch_de:50',
   'dz'	=> 'bt',
   'el'  => 'gr:90',
   'en'  => 'us:89 us3:80 us_intl:50 qc:50 gb:50 dvorak:10',
@@ -597,7 +597,7 @@ sub setup_install {
     log::l("loading keymap $kmap");
     if (-e (my $f = "$ENV{SHARE_PATH}/keymaps/$kmap.bkmap")) {
 	_builtin_loadkeys(scalar cat_($f));
-    } elsif (-x '/usr/bin/loadkeys') {
+    } elsif (-x '/bin/loadkeys') {
 	run_program::run('loadkeys', $kmap);
     } else {
 	log::l("ERROR: can not load keymap");
@@ -642,7 +642,7 @@ sub write {
 		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
     } else {
 	setVarsInSh("$::prefix/etc/sysconfig/keyboard", $keyboard);
-	run_program::run('mageia-setup-keyboard');
+	run_program::run('mandriva-setup-keyboard');
     }
 }
 

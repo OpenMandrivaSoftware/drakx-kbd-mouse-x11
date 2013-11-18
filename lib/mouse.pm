@@ -86,6 +86,7 @@ sub _all_mice() {
    [ [ 7, 'ps/2', 'ExplorerPS/2', N_("Any PS/2 & USB mice") ],
      [ 7, 'ps/2', 'ExplorerPS/2', N_("Force evdev") ], #- evdev is magically handled in mouse::select()
      if_(detect_devices::is_xbox(), [ 5, 'ps/2', 'IMPS/2', N_("Microsoft Xbox Controller S") ]),
+     if_(detect_devices::is_virtualbox(), [ 7, 'ps/2', 'vboxmouse', N_("VirtualBox mouse") ]),
      if_(detect_devices::is_vmware(), [ 7, 'ps/2', 'vmmouse', N_("VMware mouse") ]),
    ] ],
 
@@ -283,19 +284,21 @@ sub _detect_evdev_mice {
 sub detect {
     my ($modules_conf) = @_;
 
-    # evdev needs to be loaded before calling getInputDevices_and_usb
-    # else it will lead to a crash
-    eval { modules::load("evdev") };
-
     # let more USB tablets and touchscreens magically work at install time
     # through /dev/input/mice multiplexing:
     detect_devices::probe_category('input/tablet');
     detect_devices::probe_category('input/touchscreen');
 
+    # evdev needs to be loaded before calling getInputDevices_and_usb
+    # else it will lead to a crash
+    eval { modules::load("evdev") };
+
     my @wacom = _probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
-    if (detect_devices::is_vmware()) {
+    if (detect_devices::is_virtualbox()) {
+        fullname2mouse("Universal|VirtualBox mouse");
+     } elsif (detect_devices::is_vmware()) {
 	fullname2mouse("Universal|VMware mouse");
     } elsif (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
 	my @synaptics = map {
@@ -351,7 +354,7 @@ sub set_xfree_conf {
 
     my @mice = map {
 	{
-	    (member($_->{Protocol}, qw(vmmouse)) ? "Driver" : "Protocol") => $_->{Protocol},
+            (member($_->{Protocol}, qw(vboxmouse vmmouse)) ? "Driver" : "Protocol") => $_->{Protocol},
 	    Device => devices::make($_->{device}),
 	    if_($_->{Emulate3Buttons} || $_->{EmulateWheel}, Emulate3Buttons => undef, Emulate3Timeout => 50),
 	    if_($_->{EmulateWheel}, EmulateWheel => undef, EmulateWheelButton => 2),
@@ -393,6 +396,7 @@ sub various_xfree_conf {
     my $pkgs = [
 	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
 	if_($mouse->{evdev_mice}, ['x11-driver-input-evdev', "$inputdrvpath/evdev_drv.so"]),
+        if_($mouse->{Protocol} eq 'vboxmouse', ['x11-driver-input-vboxmouse', "$inputdrvpath/vboxmouse_drv.so"]),
 	if_(@{$mouse->{wacom}}, ['x11-driver-input-wacom', "$inputdrvpath/wacom_drv.so"]),
 	if_($mouse->{name} =~ /VMware/i, ['x11-driver-input-vmmouse', "$inputdrvpath/vmmouse_drv.so"]),
     ];
