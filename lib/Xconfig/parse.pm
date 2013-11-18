@@ -4,7 +4,6 @@ use diagnostics;
 use strict;
 
 use common;
-use Xconfig::card;
 
 sub read_XF86Config {
     my ($file) = @_;
@@ -19,9 +18,9 @@ sub prepare_write_XF86Config {
 }
 
 sub write_XF86Config {
-		my ($raw, $file) = @_;
-		my @blocks = prepare_write_XF86Config($raw);
-		@blocks ? output($file, @blocks) : unlink $file;
+     my ($raw, $file) = @_;
+     my @blocks = prepare_write_XF86Config($raw);
+     @blocks ? output($file, @blocks) : unlink $file;
 }
 
 sub read_XF86Config_from_string {
