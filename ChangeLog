@@ -1,2677 +1,2832 @@
-2010-02-09 18:55  
+2013-11-18 23:18:11 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/default.pm: XFrake:
-	  o do not disable loading of dri module for non-glx drivers, as
-	  KMS drivers
-	  require it as well
-	  o do not disable loading of glx module for fbdev, in order to
-	  allow AIGLX
-	  to work in software rasterizer mode
-	  o do not add dbe and extmod modules to xorg.conf anymore, they
-	  are loaded
-	  by default anyway
+	* fix changelog generation (HEAD, master)
 
-2010-01-31 11:02  
+2013-11-18 23:14:50 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* more sync (origin/master, origin/HEAD)
 
-2010-01-27 19:34  
+2013-11-18 23:06:45 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/ast.po: Created translation
+	* more sync with Mageia
 
-2010-01-16 08:38  
+2013-11-18 22:54:31 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* NEWS, lib/Xconfig/various.pm: XFdrake: do not disable Composite
-	  extension by default when using fglrx driver
+	* sync again
 
-2010-01-10 11:01  
+2013-11-18 22:48:28 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/pl.po: -update polish translation
+	* sync again
 
-2010-01-10 10:07  
+2013-11-18 22:46:49 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* NEWS, lib/Xconfig/card.pm: - XFdrake:
-	  o use -X option for ldconfig when switching alternatives, we only
-	  need the
-	  cache rebuilt
+	* sync with mageia
 
-2010-01-09 03:05  
+2013-11-18 22:41:44 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/uz.po, po/uz@cyrillic.po: updated uzbek translations by nurali
+	* do not hardcode input section
 
-2009-12-25 16:51  
+2013-11-18 22:19:27 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/ky.po: update translation for kirghiz language
+	* use Quit instead of Apply Settings button name
 
-2009-11-27 09:26  
+2013-11-18 22:12:54 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* Makefile.config, NEWS: 0.86
+	* fix grub save settings on driver change
 
-2009-11-27 09:26  
+2013-11-17 17:30:48 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* lib/keyboard.pm: load the right console keymap before dumping it
-	  
-	  We now rely on /etc/sysconfig/console/default.kmap for the
-	  console
-	  keyboard layout which we generate by calling dumpkeys. However,
-	  in
-	  finish-install, we have to make sure the right keymap is loaded
-	  before calling dumpkeys otherwise we'll end up with having the
-	  default
-	  (qwerty) keymap in console.
+	* clean extensiondir for all nvidia modules
 
-2009-11-08 09:49  
+2013-11-17 16:12:10 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/el.po: updated el translation
+	* enable coolbits 4 to have thermal control settings
 
-2009-10-31 11:51  
+2013-11-17 16:08:25 +0100 tpg (Tomasz Paweł Gajc) 
 
-	* po/eu.po: Osatuta.
+	* add NoLogo = 1 for nvidia drivers
 
-2009-10-28 10:33  
+2013-11-06 23:48:32 +0400 Tomasz Paweł Gajc 
 
-	* po/uk.po: translation update for ukrainian language
+	* s/timedatectl/localectl
 
-2009-10-27 11:55  
+2013-11-06 23:43:08 +0400 Tomasz Paweł Gajc 
 
-	* po/uk.po: translation update
+	* add missing $timedatectl
 
-2009-10-26 15:42  
+2013-10-29 13:47:16 +0400 Tomasz Paweł Gajc 
 
-	* lib/Xconfig/card.pm: perl_checker cleanups
+	* fix path to dumpkeys
 
-2009-10-26 15:42  
+2013-09-26 02:13:40 +0400 Tomasz Paweł Gajc 
 
-	* .perl_checker: supplement list
+	* add support for localectl (systemd)
 
-2009-10-26 15:42  
+2013-05-22 02:03:43 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* lib/Xconfig/.perl_checker: enable perl_checker to work
+	* really remove all code for using dead vboxmouse driver
 
-2009-10-26 07:25  
+2013-05-16 06:21:55 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/hu.po: Hungarian translation update
+	* drop other dist-svn rule
 
-2009-10-24 09:06  
+2013-05-16 06:20:30 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* 0.105
 
-2009-10-22 20:17  
+2013-05-16 06:19:54 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/el.po: updated el translation
+	* drop support for dead vboxmouse driver
 
-2009-10-22 16:45  
+2013-05-15 05:29:56 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* Makefile.config, NEWS: 0.85
+	* fix changelog entries
 
-2009-10-22 16:36  
+2013-05-15 05:29:33 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* lib/mouse.pm: don't inconditionnally load Xconfig::card
+	* 0.104
 
-2009-10-22 16:36  
+2013-05-07 23:17:30 +0000 blino 
 
-	* lib/mouse.pm: bail out earlier if X isn't installed
+	* install drakx-update-background (in /usr/sbin)
 
-2009-10-22 16:28  
+2013-05-03 22:47:39 +0000 anssi 
 
-	* NEWS: update NEWS
+	* Xconfig: select the preferred timing in case of multiple detailed timings in EDID (mga#9934)
 
-2009-10-22 16:27  
+2013-05-03 22:47:32 +0000 anssi 
 
-	* lib/mouse.pm: - fix input module path on 64 bit machines
-	  - don't install input drivers if X isn't here
+	* Xconfig: never fallback to guessing display resolution
 
-2009-10-22 15:43  
+2013-04-25 07:25:57 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/it.po: update Italian translation - by Moreno Manzini
+	* only install kernel-devel package if proprietary drivers are selected
 
-2009-10-22 11:23  
+2013-04-01 04:07:22 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/da.po: updates
+	* fix breakage in display_driver_helper due to missing ']'
 
-2009-10-22 07:33  
+2013-03-31 21:45:09 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/fi.po: updated fi translation
+	* sync translation strings with code
 
-2009-10-21 22:14  
+2013-03-31 21:40:41 +0200 Per Øyvind Karlsen (proyvind) 
 
-	* po/nb.po: Updated Translation for Norwegian Bokmål.
+	* write archive to current worked directory
 
-2009-10-21 19:54  
+2013-03-16 12:41:43 +0000 tv@5b7c3c08-40e5-403b-9995-ace06908e4af 
 
-	* po/cs.po: Updated Czech translation.
+	* fix detecting whether X11 is started on boot or not (mga#3618)
 
-2009-10-21 19:10  
+2013-03-04 06:54:23 +0100 Per Øyvind Karlsen (proyvind) 
 
-	* po/ru.po: update russian translation
+	* "Mageia" got merged by accident, fix to say "Mandriva"
 
-2009-10-21 19:06  
+2013-03-03 15:34:41 +0100 Per Øyvind Karlsen (proyvind) 
 
-	* po/ro.po: Updated Romanian translation
+	* fix enabling of CTRL+ALT+BACKSPACE termination again
 
-2009-10-21 17:57  
+2013-02-25 18:00:42 +0100 Per Øyvind Karlsen (proyvind) 
 
-	* po/tr.po: updated tr translation
+	* fix news & version
 
-2009-10-21 17:19  
+2013-02-25 17:56:32 +0100 Per Øyvind Karlsen (proyvind) 
 
-	* po/sl.po: Updated Slovenian translation
+	* merge latest changes from Mageia as well
 
-2009-10-21 16:24  
+2013-02-24 18:08:20 +0000 akien 
 
-	* po/fr.po: Update French translation
+	* Updated various pt_BR translations (Padula)
 
-2009-10-21 16:22  
+2013-02-23 15:58:10 +0000 francescpinyol 
 
-	* po/pt_BR.po: updated translation for pt_BR
+	* updated Catalan translation
 
-2009-10-21 15:35  
+2013-01-12 16:27:27 +0000 matteo 
 
-	* po/sv.po: update swedish translation
+	* updated Italian translations
 
-2009-10-21 14:06  
+2013-01-04 17:45:12 +0000 francescpinyol 
 
-	* po/et.po: Updated Estonian translation.
+	* Updated Catalan translation
 
-2009-10-21 13:54  
+2013-01-04 15:37:28 +0000 francescpinyol 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
-	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
-	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
-	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
-	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
-	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
-	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
-	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
-	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
-	  po/uk.po, po/uz.po, po/uz@cyrillic.po, po/vi.po, po/wa.po,
-	  po/zh_CN.po, po/zh_TW.po: update po files
+	* Updated Catalan translation
 
-2009-10-21 13:46  
+2013-01-02 09:56:56 +0000 kiki 
 
-	* lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: enable
-	  ctrl+alt+backspace (twice) by default (pzanoni)
+	* Updated Indonesian translation
 
-2009-10-19 23:07  
+2013-01-01 20:22:47 +0000 francescpinyol 
 
-	* po/fi.po: sync finnish translation with .pot file
+	* Updated Catalan translation
 
-2009-10-19 15:29  
+2013-01-01 19:04:31 +0000 francescpinyol 
 
-	* po/sv.po: fix typo in swedish translation
+	* Updated Catalan translation
 
-2009-10-17 11:29  
+2012-12-20 06:52:24 +0000 kiki 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* Updated Indonesian translation
 
-2009-10-11 10:01  
+2012-12-06 08:11:37 +0000 tv@5b7c3c08-40e5-403b-9995-ace06908e4af 
 
-	* po/sv.po: update swedish translation
+	* use 'es-latin1' mapping instead of 'es' for asturian (mga#6639)
 
-2009-10-09 15:35  
+2012-11-29 01:31:12 +0000 kiki 
 
-	* Makefile.config, NEWS: 0.84
+	* Updated Indonesian translation
 
-2009-10-09 15:35  
+2012-11-26 22:09:33 +0000 anssi 
 
-	* NEWS, lib/Xconfig/card.pm: - run ldconfig after
-	  update-alternatives during installer too
-	  (psb alternative does not have a higher priority than standard
-	  alternative, and ldconfig was run by the installer only before
-	  manually setting the alternative, which was not enough)
+	* display_driver_helper: never select ums for radeon driver, it is not supported by current X11 driver anymore
 
-2009-10-08 17:13  
+2012-11-01 11:56:51 +0000 francescpinyol 
 
-	* Makefile.config, NEWS: 0.83
+	* Updated Catalan translation
 
-2009-10-08 17:02  
+2012-09-17 04:13:35 +0000 kiki 
 
-	* NEWS, lib/Xconfig/monitor.pm: use 28.8kHz as lower HorizSync (for
-	  800x480)
+	* Updated Indonesian translation
 
-2009-10-06 10:15  
+2012-09-08 10:29:27 +0000 francescpinyol 
 
-	* Makefile.config, NEWS: 0.82
+	* Updated Catalan translation
 
-2009-10-06 10:15  
+2012-09-07 03:09:08 +0000 kiki 
 
-	* lib/Xconfig/main.pm: xorg.conf files with no InputDevice sections
-	  are valid
+	* Updated Indonesian translation
 
-2009-10-05 04:43  
+2012-12-27 01:13:55 +0400 akdengi 
 
-	* po/pt_BR.po: updated translations for pt_BR
+	* fix radeon replace
 
-2009-10-03 15:26  
+2012-12-26 23:13:26 +0400 akdengi 
 
-	* po/sl.po: Updated Slovenian translation
+	* 0.99
 
-2009-10-01 16:02  
+2012-12-26 23:08:40 +0400 akdengi 
 
-	* po/gl.po: update translation for Galician language
+	* if radeon driver install x11-driver-video-ati package
 
-2009-09-23 15:42  
+2012-12-05 20:02:55 +0400 Konstantin Vlasov 
 
-	* lib/Xconfig/main.pm: mark check_valid as internal
+	* Minor translation fix
 
-2009-09-23 15:29  
+2012-12-04 16:58:20 +0400 Konstantin Vlasov 
 
-	* NEWS: fix date (I suck, thanks teuf)
+	* Added Transifex binding
 
-2009-09-23 14:17  
+2012-12-04 16:41:01 +0400 Konstantin Vlasov 
 
-	* Makefile.config, NEWS: 0.81
+	* Updated translation files
 
-2009-09-23 14:14  
+2012-11-26 23:40:05 +0400 akdengi 
 
-	* lib/Xconfig/card.pm: (libgl_config_and_more) make it more
-	  readable
+	* Change Quit to Apply settings. Really delete xorg.conf for non-proprietary drivers
 
-2009-09-23 14:09  
+2012-11-26 23:17:39 +0400 akdengi 
 
-	* lib/Xconfig/card.pm: psb support
+	* fix code
 
-2009-09-22 14:07  
+2012-11-26 22:25:45 +0400 akdengi 
 
-	* NEWS: forgot NEWS 0.80 header
+	* Skip test. Not write Xorg.conf, only for proprietary blobs
 
-2009-09-22 14:04  
+2012-11-26 22:01:21 +0400 akdengi 
 
-	* lib/Xconfig/xfree.pm: remove useless ()
+	* Not need detect XAA/EXA - all card tilt XServer 13 use EXA only
 
-2009-09-22 14:01  
+2012-11-23 18:43:28 +0400 akdengi 
 
-	* Makefile.config: 0.80 release
+	* Use Plug'n'play as default to all. Not need detect oldest devices
 
-2009-09-22 14:01  
+2012-11-23 18:36:26 +0400 akdengi 
 
-	* NEWS, lib/Xconfig/xfree.pm: don't write entries for evdev mice
-	  either
+	* Install kernel-devel-latest if not present in system for current kernel (by uname -r)
 
-2009-09-22 14:01  
+2012-11-22 15:57:29 +0400 akdengi 
 
-	* NEWS, lib/Xconfig/default.pm, lib/Xconfig/xfree.pm,
-	  lib/keyboard.pm: don't add keyboard sections to xorg.conf
+	* fix some error. Sync with Mageia upstream
 
-2009-09-22 14:01  
+2012-11-16 15:01:35 +0400 akdengi 
 
-	* lib/keyboard.pm: add _ at the beginning of local functions
+	* return old alternatives and fix stupid bug with non-responce nvidia
 
-2009-09-22 14:01  
+2012-11-16 14:18:28 +0400 akdengi 
 
-	* NEWS: update NEWS
+	* 0.95
 
-2009-09-22 14:01  
+2012-11-16 14:16:28 +0400 akdengi 
 
-	* lib/Xconfig/xfree.pm, lib/mouse.pm: don't add sections for
-	  synaptics devices to xorg.conf
+	* retur ld need after alternatives update
 
-2009-09-22 14:01  
+2012-11-16 14:09:30 +0400 Konstantin Vlasov 
 
-	* lib/Xconfig/xfree.pm: s/mandrakesoft/mandriva
+	* Fixed gl_conf alternatives
 
-2009-09-22 14:01  
+2012-11-12 16:52:07 +0400 Konstantin Vlasov 
 
-	* lib/Xconfig/xfree.pm: don't add USB wacom tablets to xorg.conf
+	* Forgotten update Grub2 config
 
-2009-09-22 14:01  
+2012-11-12 14:43:23 +0400 akdengi 
 
-	* lib/mouse.pm: move functions closer to their place of use
+	* 0.94
 
-2009-09-22 14:01  
+2012-11-12 14:14:35 +0400 akdengi 
 
-	* lib/Xconfig/xfree.pm: don't write mouse xorg.conf entries when
-	  driver is "mouse"
+	* s/ru(winkeys)/ru/
 
-2009-09-22 01:44  
+2012-11-08 15:14:24 +0400 Konstantin Vlasov 
 
-	* po/pt_BR.po: new hyphen rules
+	* Fixed setup_kms
 
-2009-09-14 16:10  
+2012-11-07 15:36:06 +0400 akdengi 
 
-	* Makefile.config, NEWS: 0.79
+	* fix broken nvidia part
 
-2009-09-14 16:08  
+2012-11-07 15:27:05 +0400 akdengi 
 
-	* NEWS, lib/Xconfig/main.pm: allow to skip framebuffer setup (and
-	  thus splash removal) for newer harddrake releases
+	* search modeset and kms options in grub2 too
 
-2009-09-11 15:46  
+2012-10-05 18:26:49 +0400 akdengi 
 
-	* NEWS, lib/Xconfig/various.pm: - XFdrake:
-	  o fix DontZap option issue with old xorg.conf files
+	* add drakx-update-background tool to replace perl one-liner using Xconfig::xfree in bootsplash/scripts/switch-themes
 
-2009-09-10 09:23  
+2012-10-05 18:25:57 +0400 akdengi 
 
-	* po/cy.po: update (Rhoslyn Prys)
+	* add drakx-update-background tool to replace perl one-liner using Xconfig::xfree in bootsplash/scripts/switch-themes
 
-2009-09-09 16:19  
+2012-08-17 10:55:41 +0000 peroyvind 
 
-	* Makefile.config, NEWS: 0.78
+	* load evdev slightly earlier and in actual time before required
 
-2009-09-09 14:57  
+2012-08-17 08:52:13 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: - XFdrake:
-	  o added "Disable Ctrl-Alt-Backspace" option
+	* From: pterjan <pterjan@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 29 Apr 2012 22:59:37 +0000 Subject: [PATCH 108/116] Do not install bootloader when configuring X during  install. This will be done at end of summary to  allow selecting where to install  bootloader(mga#5044)
 
-2009-09-04 22:36  
+2012-08-17 08:51:34 +0000 peroyvind 
 
-	* po/pt_BR.po: no more pára and ói in 'paroxítonas'
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Fri, 27 Apr 2012 17:28:35 +0000 Subject: [PATCH 107/116] explain than loadkeys_files() is used by rescue's  make_rescue_img
 
-2009-09-04 22:04  
+2012-08-17 08:51:14 +0000 peroyvind 
 
-	* po/pt_BR.po: no more acute accents in diphthongs éi
+	* From: piratu <piratu@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 23 Apr 2012 21:32:39 +0000 Subject: [PATCH 106/116] updated Romanian translation
 
-2009-09-04 21:44  
+2012-08-17 08:51:03 +0000 peroyvind 
 
-	* po/pt_BR.po: goodbye trema
+	* From: akien <akien@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 12 Apr 2012 20:02:37 +0000 Subject: [PATCH 105/116] Adding of a few missing French translations (urpmi,  drakx-kbd-mouse-x11)
 
-2009-08-28 19:44  
+2012-08-17 08:50:52 +0000 peroyvind 
 
-	* po/es.po: updated translations for Spanish, made translated by
-	  André P. Machado
+	* From: dglent <dglent@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 7 Apr 2012 06:52:36 +0000 Subject: [PATCH 104/116] Update Greek translation
 
-2009-08-22 10:46  
+2012-08-17 08:50:37 +0000 peroyvind 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* From: remmy <remmy@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Fri, 6 Apr 2012 10:29:45 +0000 Subject: [PATCH 102/116] Updated Dutch translation
 
-2009-07-22 14:09  
+2012-08-17 08:50:20 +0000 peroyvind 
 
-	* Makefile.config, NEWS: 0.77
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 17:42:02 +0000 Subject: [PATCH 100/116] (install_server) fix loading functions
 
-2009-07-22 14:06  
+2012-08-17 08:49:31 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/proprietary.pm: XFdrake: correctly detect
-	  proprietary drivers that are located in
-	  /usr/lib/drivername/xorg (#52384)
+	* From: filip <filip@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 17:01:51 +0000 Subject: [PATCH 099/116] updated Slovenian translation
 
-2009-07-01 15:56  
+2012-08-17 08:49:19 +0000 peroyvind 
 
-	* lib/mouse.pm: move serial_ports to detect_devices.pm
+	* From: matteo <matteo@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 15:02:37 +0000 Subject: [PATCH 098/116] - updated italian translation
 
-2009-07-01 12:32  
+2012-08-17 08:49:03 +0000 peroyvind 
 
-	* lib/mouse.pm: Prefix functions with _ when they are internal
+	* From: yurchor <yurchor@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 12:48:22 +0000 Subject: [PATCH 097/116] Ukrainian translation update
 
-2009-07-01 12:32  
+2012-08-17 08:48:51 +0000 peroyvind 
 
-	* NEWS: Forgot to add date to NEWS file
+	* From: obgr_seneca <obgr_seneca@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 08:46:34 +0000 Subject: [PATCH 096/116] Updated German translation
 
-2009-06-25 10:21  
+2012-08-17 08:48:40 +0000 peroyvind 
 
-	* Makefile.config: 0.76
+	* From: mareklaane <mareklaane@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 08:34:55 +0000 Subject: [PATCH 095/116] Updated Estonian translation.
 
-2009-06-04 14:43  
+2012-08-17 08:48:09 +0000 peroyvind 
 
-	* NEWS: log
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:50:08 +0000 Subject: [PATCH 093/116] update drakx-kbd-mouse-x11 po files
 
-2009-06-04 14:31  
+2012-08-17 08:47:46 +0000 peroyvind 
 
-	* lib/Xconfig/monitor.pm: fix crash when both monitor and driver
-	  can not be probed (for example with some Quanta IL1 netbooks
-	  using Chrome9 IC3)
-	  this crash happens with harddrake service or XFdrake --auto:
-	  Can't use an undefined value as a HASH reference at
-	  /usr/lib/libDrakX/Xconfig/monitor.pm line 85
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:50:00 +0000 Subject: [PATCH 092/116] Fix po/Makefile to ignore display_driver_helper
 
-2009-05-04 19:10  
+2012-08-17 08:47:33 +0000 peroyvind 
 
-	* po/fi.po: updated finnish translation
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:56 +0000 Subject: [PATCH 091/116] add a 'nice' warning message when firmware is not  available instead of a simple "Package not found:  radeon-firmware"
 
-2009-04-28 08:40  
+2012-08-17 08:46:55 +0000 peroyvind 
 
-	* NEWS: More NEWS (especially about a commit I didn't want to
-	  commit just now :(
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:52 +0000 Subject: [PATCH 090/116] Fix firmware handling (it is DRIVER which needs it,  not DRIVER2)
 
-2009-04-28 07:55  
+2012-08-17 08:46:36 +0000 peroyvind 
 
-	* NEWS: Forgot to update NEWS
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:47 +0000 Subject: [PATCH 089/116] display_driver_helper: add --setup-boot-kms action  which sets/unsets 'nokmsboot' boot option as  necessary
 
-2009-04-28 07:54  
+2012-08-17 08:46:04 +0000 peroyvind 
 
-	* lib/Xconfig/card.pm: Check PCI class when detecting video cards
-	  
-	  Dual-head ATI cards appears twice on the PCI bus, once in the
-	  DISPLAY_OTHER class and once in the DISPLAY_VGA class. They did
-	  that
-	  for compatibility with Win2000. Make sure we don't think the
-	  system has
-	  2 video cards in such cases.
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:43 +0000 Subject: [PATCH 088/116] display_driver_helper: return false for  --is-kms-allowed when radeon firmware is needed but  not installed
 
-2009-04-27 16:59  
+2012-08-17 08:45:29 +0000 peroyvind 
 
-	* Makefile: Small cleanups in make dist-svn
+	* Date: Thu, 5 Apr 2012 02:49:39 +0000 Subject: [PATCH 087/116] display_driver_helper: factor  get_hw_display_modaliases out of  get_active_kms_drivers
 
-2009-04-27 16:59  
+2012-08-17 08:45:14 +0000 peroyvind 
 
-	* Makefile: Add git support to make dist/dis
+	* Date: Thu, 5 Apr 2012 02:49:35 +0000 Subject: [PATCH 086/116] display_driver_helper: load radeon module with  modeset=0 when no firmware is installed (see  mga#3466)
 
-2009-04-27 16:59  
+2012-08-17 08:44:40 +0000 peroyvind 
 
-	* lib/keyboard.pm: When modifying keyboard configuration, refresh
-	  associated hal keys
-	  
-	  Nowadays, the X server picks its keyboard configuration from HAL.
-	  Make
-	  sure we update the hal information when the keyboard
-	  configuration is
-	  modified
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:31 +0000 Subject: [PATCH 085/116] display_driver_helper: allow use of nouveau without  xorg.conf
 
-2009-04-22 12:31  
+2012-08-17 08:44:09 +0000 peroyvind 
 
-	* Makefile.config, NEWS: 0.74
+	* [peroyvind@localhost mandriva-2]$ P ../0084-display_driver_helper-drop-unused-and-unuseful-check.patch From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:26 +0000 Subject: [PATCH 084/116] display_driver_helper: drop unused and unuseful  --check-initrd option
 
-2009-04-22 12:31  
+2012-08-17 08:43:35 +0000 peroyvind 
 
-	* NEWS: add missing 0.73 logs
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 5 Apr 2012 02:49:21 +0000 Subject: [PATCH 083/116] display_driver_helper: cosmetics
 
-2009-04-22 12:14  
+2012-08-17 08:43:23 +0000 peroyvind 
 
-	* NEWS, lib/mouse.pm: (set_xfree_conf) fix vmmouse configuration
-	  for vmware (#49654)
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 24 Mar 2012 06:53:34 +0000 Subject: [PATCH 082/116] switch from bzip2 to xz
 
-2009-04-22 12:12  
+2012-08-17 08:43:06 +0000 peroyvind 
 
-	* lib/Xconfig/xfree.pm: (_is_mouse) detect 'vmmouse' driven input
-	  devices as mice
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 24 Mar 2012 06:37:22 +0000 Subject: [PATCH 081/116] (check_XFree) fix a very ancient bug where we would  symlink xorg.conf to nothing if xorg.conf.standard  exists
 
-2009-04-22 03:48  
+2012-08-17 08:40:43 +0000 peroyvind 
 
-	* po/sl.po: Updated Slovenian translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 24 Mar 2012 06:37:19 +0000 Subject: [PATCH 080/116] perl_checker cleanups
 
-2009-04-21 13:01  
+2012-08-17 08:40:27 +0000 peroyvind 
 
-	* Makefile.config: 0.73
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 24 Mar 2012 06:29:49 +0000 Subject: [PATCH 079/116] perl_checker cleanups
 
-2009-04-21 13:01  
+2012-08-17 08:40:12 +0000 peroyvind 
 
-	* lib/Xconfig/various.pm: Tweak xorg.conf writing with intel driver
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 24 Mar 2012 06:29:46 +0000 Subject: [PATCH 078/116] help perl_checker
 
-2009-04-21 13:00  
+2012-08-17 08:31:11 +0000 peroyvind 
 
-	* lib/Xconfig/various.pm: Don't show the "EXA/XAA" switch by
-	  default on Intel cards
-	  
-	  Newer intel drivers properly autoselect UXA/EXA if KMS is
-	  available or
-	  not, and XAA should really only be used as a fallback. For now,
-	  don't
-	  set EXA => 0 in the default values for the Intel cards. This will
-	  hide
-	  the XAA/EXA switch from the configuration UI. If an accel method
-	  was
-	  explicitly selected in xorg.conf by the user, the UI will be
-	  shown so
-	  that he has a chance to unselect EXA.
+	* From: petos <petos@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 10 Mar 2012 14:25:33 +0000 Subject: [PATCH 077/116] updated Czech translation
 
-2009-04-20 12:27  
+2012-08-17 08:31:00 +0000 peroyvind 
 
-	* po/fi.po: updated finnish translation
+	* From: obgr_seneca <obgr_seneca@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 10 Mar 2012 12:52:20 +0000 Subject: [PATCH 076/116] - Updated Catalan translations
 
-2009-04-18 13:16  
+2012-08-17 08:30:42 +0000 peroyvind 
 
-	* po/ky.po: update translation for kirghiz language
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 5 Mar 2012 19:01:34 +0000 Subject: [PATCH 075/116] (setup_install) do not run setxkbmap during text  install
 
-2009-04-16 17:42  
+2012-08-17 08:30:07 +0000 peroyvind 
 
-	* po/pt_BR.po: updated translation for pt_BR
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 5 Mar 2012 19:01:28 +0000 Subject: [PATCH 074/116] (setup_install_X11) split it out of setup_install()
 
-2009-04-15 11:55  
+2012-08-17 08:29:51 +0000 peroyvind 
 
-	* Makefile.config, NEWS: Release 0.72
+	* From: jacen <jacen@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 5 Mar 2012 02:54:47 +0000 Subject: [PATCH 073/116] Updating Spanish translation
 
-2009-04-14 17:40  
+2012-08-17 08:29:35 +0000 peroyvind 
 
-	* po/eu.po: Osatuta.
+	* From: matteo <matteo@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 1 Mar 2012 14:29:37 +0000 Subject: [PATCH 072/116] updated Italian translation
 
-2009-04-14 14:35  
+2012-08-17 08:29:23 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/monitor.pm: Use plugnplay monitor for virtual
-	  box, fixes #49642. Thanks Titi for the patch!
+	* From: akien <akien@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 23 Feb 2012 15:43:38 +0000 Subject: [PATCH 071/116] Uploaded all the French translations from Transifex
 
-2009-04-14 07:03  
+2012-08-17 08:29:11 +0000 peroyvind 
 
-	* po/pl.po: update translation for Polish
+	* From: dglent <dglent@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 22 Jan 2012 11:23:01 +0000 Subject: [PATCH 070/116] Update Greek translation
 
-2009-04-13 11:32  
+2012-08-17 08:28:56 +0000 peroyvind 
 
-	* po/ro.po: Minor revision of Romanian translation
+	* From: numand <numand@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 16 Jan 2012 15:45:11 +0000 Subject: [PATCH 069/116] updated Turkish translation
 
-2009-04-13 06:01  
+2012-08-17 08:28:45 +0000 peroyvind 
 
-	* po/uk.po: propset svn:keywords Id
+	* From: numand <numand@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 16 Jan 2012 15:16:50 +0000 Subject: [PATCH 068/116] updated Turkish translation
 
-2009-04-13 05:59  
+2012-08-17 08:28:27 +0000 peroyvind 
 
-	* po/uk.po: translation update for Ukrainian language
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Wed, 4 Jan 2012 18:31:50 +0000 Subject: [PATCH 067/116] (readCardsDB,install_server,handle_FIRMWARE) handle  new DRIVER2_NO_FIRMWARE and FIRMWARE keywords
 
-2009-04-12 21:51  
+2012-08-17 08:27:40 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/default.pm: do not add Load "freetype" to
-	  xorg.conf as the module does not exist
-	  anymore
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Wed, 4 Jan 2012 18:31:48 +0000 Subject: [PATCH 066/116] (readCardsDB,handle_DRIVER2_NO_SSE) handle new  DRIVER2_NEEDS_SSE keyword
 
-2009-04-11 13:36  
+2012-08-17 08:27:05 +0000 peroyvind 
 
-	* po/ro.po: Updated Romanian translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 19 Dec 2011 09:55:21 +0000 Subject: [PATCH 065/116] cleanups
 
-2009-04-10 15:28  
+2012-08-17 08:26:53 +0000 peroyvind 
 
-	* po/sl.po: Updated Slovenian translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 19 Dec 2011 09:55:20 +0000 Subject: [PATCH 064/116] help perl_checker
 
-2009-04-10 15:07  
+2012-08-17 08:26:40 +0000 peroyvind 
 
-	* po/de.po: update translation for de language
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 19 Dec 2011 09:55:19 +0000 Subject: [PATCH 063/116] supplement blacklist
 
-2009-04-10 10:48  
+2012-08-17 08:26:11 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/card.pm: Fix selecting proprietary drivers with
-	  xdriver=DRIVER boot option.
+	* From: colin <colin@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 18 Dec 2011 21:03:21 +0000 Subject: [PATCH 061/116] evdev needs to be loaded before calling  getInputDevices_and_usb else it will lead to a  crash (pterjan)
 
-2009-04-10 08:23  
+2012-08-17 08:25:25 +0000 peroyvind 
 
-	* po/nl.po: * 2009-04-10 Reinout van Schouwen <reinout@gmail.com>
-	  
-	  - nl.po: Updated Dutch translation
-	  
+	* From: colin <colin@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 18 Dec 2011 20:57:14 +0000 Subject: [PATCH 060/116] Convert mouse helper to use udevadm in order to work  with udev 175+
 
-2009-04-09 12:56  
+2012-08-17 08:24:54 +0000 peroyvind 
 
-	* po/fr.po: Update French translation
+	* From: dglent <dglent@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 17 Dec 2011 20:43:56 +0000 Subject: [PATCH 059/116] Update Greek translation
 
-2009-04-09 11:54  
+2012-08-17 08:24:33 +0000 peroyvind 
 
-	* po/hu.po: Hungarian translation update
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Fri, 16 Dec 2011 19:10:11 +0000 Subject: [PATCH 058/116] (allowed) default to 24bit with QXL driver (16 bit  doesn't work)
 
-2009-04-09 07:47  
+2012-08-17 08:24:12 +0000 peroyvind 
 
-	* po/de.po: update for German translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Fri, 16 Dec 2011 19:10:09 +0000 Subject: [PATCH 057/116] (allowed) simplify
 
-2009-04-09 07:43  
+2012-08-17 08:23:57 +0000 peroyvind 
 
-	* po/de.po: update for German translation
+	* Date: Mon, 12 Dec 2011 19:54:51 +0000 Subject: [PATCH 056/116] one definition for libdir
 
-2009-04-09 06:37  
+2012-08-17 08:23:42 +0000 peroyvind 
 
-	* po/zh_CN.po: updated zh_CN translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:50 +0000 Subject: [PATCH 055/116] (may_use_Driver2) simplify
 
-2009-04-09 01:59  
+2012-08-17 08:23:15 +0000 peroyvind 
 
-	* po/is.po: latest updates
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:48 +0000 Subject: [PATCH 054/116] (may_use_Driver2) simplify (more generic, more  readable)
 
-2009-04-08 19:34  
+2012-08-17 08:22:58 +0000 peroyvind 
 
-	* po/tr.po: updated translation for turkish language
+	* [peroyvind@localhost mandriva]$ P ../0053-may_use_Driver2-pkgs_for_Driver2-perl_checker-cleanu.patch From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:47 +0000 Subject: [PATCH 053/116] (may_use_Driver2,pkgs_for_Driver2) perl_checker  cleanups
 
-2009-04-08 13:02  
+2012-08-17 08:22:38 +0000 peroyvind 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:45 +0000 Subject: [PATCH 052/116] (to_raw_X) simplify
 
-2009-04-08 12:55  
+2012-08-17 08:21:57 +0000 peroyvind 
 
-	* po/da.po: updates
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:44 +0000 Subject: [PATCH 051/116] (pkgs_for_Driver2) simplify
 
-2009-04-08 10:23  
+2012-08-17 08:21:02 +0000 peroyvind 
 
-	* po/et.po: Updated Estonian translation.
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:42 +0000 Subject: [PATCH 050/116] (check_bad_card) do not coffer to try KMS drivers  during installation (mga#3711 and the like)
 
-2009-04-07 21:52  
+2012-08-17 08:20:33 +0000 peroyvind 
 
-	* po/cs.po: Updated Czech translation.
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:40 +0000 Subject: [PATCH 049/116] (probe) perl_checker cleanup
 
-2009-04-07 21:47  
+2012-08-17 08:20:03 +0000 peroyvind 
 
-	* po/pt_BR.po: updated pt_br translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:39 +0000 Subject: [PATCH 048/116] supplement black list
 
-2009-04-07 19:26  
+2012-08-17 08:19:23 +0000 peroyvind 
 
-	* po/el.po: Update Greek translation
+	* From: tv <tv@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 12 Dec 2011 19:54:37 +0000 Subject: [PATCH 047/116] (check_bad_card,from_raw_X) simplify
 
-2009-04-07 18:25  
+2012-08-17 08:19:05 +0000 peroyvind 
 
-	* po/it.po: update translation for Italian
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Fri, 2 Dec 2011 21:32:31 +0000 Subject: [PATCH 046/116] display_driver_helper: use modprobe --resolve-alias
 
-2009-04-07 17:28  
+2012-08-17 08:18:30 +0000 peroyvind 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Fri, 2 Dec 2011 21:32:27 +0000 Subject: [PATCH 045/116] fix typo in a comment
 
-2009-04-07 12:50  
+2012-08-17 08:17:58 +0000 peroyvind 
 
-	* po/ro.po: Updated Romanian translation
+	* From: colin <colin@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 7 Nov 2011 12:58:09 +0000 Subject: [PATCH 044/116] Do not include chroot path in symlink.
 
-2009-04-07 12:11  
+2012-08-17 08:17:37 +0000 peroyvind 
 
-	* po/ru.po: Russian translation updated
+	* fix path to 'loadkeys'
 
-2009-04-07 12:01  
+2012-08-17 08:17:22 +0000 peroyvind 
 
-	* po/nb.po: Update for Norwegian Bokmål translation
+	* From: colin <colin@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 7 Nov 2011 11:38:18 +0000 Subject: [PATCH 042/116] Use the actual variable defined + update NEWS
 
-2009-04-07 11:51  
+2012-08-17 08:15:03 +0000 peroyvind 
 
-	* po/nb.po: Update for Norwegian Bokmål translation
+	* From: colin <colin@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 7 Nov 2011 11:22:36 +0000 Subject: [PATCH 041/116] Ensure we update the default systemd target when  setting runlevel.
 
-2009-04-07 10:44  
+2012-08-17 08:14:34 +0000 peroyvind 
 
-	* po/fr.po: update
+	* From: filip <filip@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Tue, 12 Jul 2011 13:55:55 +0000 Subject: [PATCH 040/116] updated Slovenian translation
 
-2009-04-07 10:43  
+2012-08-17 08:13:58 +0000 peroyvind 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
-	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
-	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
-	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
-	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
-	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
-	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
-	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
-	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
-	  po/uk.po, po/uz.po, po/uz@cyrillic.po, po/vi.po, po/wa.po,
-	  po/zh_CN.po, po/zh_TW.po: sync with code
+	* From: petos <petos@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Tue, 24 May 2011 12:45:25 +0000 Subject: [PATCH 038/116] updated Czech translation
 
-2009-04-06 17:20  
+2012-08-17 08:13:47 +0000 peroyvind 
 
-	* po/el.po: Update Greek translation
+	* From: akien <akien@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 19 May 2011 13:38:35 +0000 Subject: [PATCH 037/116] Update of the Arabic and Romanian translations for  almost all of the projects. Add of new Arabic  translations for indexhtml, and new Romanian  translations for indexhtml, drakpxelinux, identity.
 
-2009-04-02 16:47  
+2012-08-17 08:13:29 +0000 peroyvind 
 
-	* Makefile.config, NEWS: 0.71
+	* From: akien <akien@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 12 May 2011 19:56:23 +0000 Subject: [PATCH 035/116] Update of the Italian translations for almost every  project with the po files from Transifex. Update of  the French po file for drakx-kbd-mouse-x11 with the  latest file from Tx.
 
-2009-04-02 16:46  
+2012-08-17 08:12:54 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/card.pm: add nouveau driver into the driver
-	  list
+	* From: obgr_seneca <obgr_seneca@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Tue, 10 May 2011 17:17:33 +0000 Subject: [PATCH 034/116] Updated German translation
 
-2009-04-02 16:43  
+2012-08-17 08:12:31 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/card.pm: Add support for boot option
-	  xdriver=foo for overriding the driver in
-	  non-interactive probe. Allowed special values:
-	  auto = normal mode
-	  free = only use free drivers
-	  
-	  Last entry on commandline is used.
+	* From: dglent <dglent@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 9 May 2011 18:52:30 +0000 Subject: [PATCH 033/116] Update Greek translation CCMAIL:  mageia_gr@list.mageia.org.uk
 
-2009-03-30 13:31  
+2012-08-17 08:12:13 +0000 peroyvind 
 
-	* ChangeLog: Generated by cvs2cl the 30_Mar
+	* From: mareklaane <mareklaane@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 9 May 2011 15:43:11 +0000 Subject: [PATCH 032/116] Updated Estonian translation.
 
-2009-03-20 19:01  
+2012-08-17 08:11:42 +0000 peroyvind 
 
-	* Makefile.config, NEWS: 0.70
+	* From: ze <ze@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 8 May 2011 03:22:30 +0000 Subject: [PATCH 030/116] update
 
-2009-03-20 19:01  
+2012-08-17 08:10:08 +0000 peroyvind 
 
-	* NEWS: fix years in NEWS
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Wed, 4 May 2011 20:14:19 +0000 Subject: [PATCH 027/116] Fallback to X server run-time autodetection on  laptops instead of 1024x768 when the monitor could  not be probed (Mageia #1059).
 
-2009-03-20 18:58  
+2012-08-17 08:09:31 +0000 peroyvind 
 
-	* ChangeLog: Generated by cvs2cl the 20_Mar
+	* do not try to probe monitor information via X server on laptops (it doesn't work with recent X servers)
 
-2009-03-20 18:57  
+2012-08-17 08:08:12 +0000 peroyvind 
 
-	* ChangeLog: Generated by cvs2cl the 20_Mar
+	* From: akien <akien@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Mon, 2 May 2011 10:06:33 +0000 Subject: [PATCH 025/116] Update of the French locale for the following  softwares and projets: control-center,  drakpxelinux, drakwizard, mageia-gfxboot-theme,  drakx-kbd-mouse-x11, drakx_install.
 
-2009-03-20 18:55  
+2012-08-17 08:07:26 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/proprietary.pm: - XFdrake:
-	  o adapt for recent changes in proprietary driver alternatives
+	* add support for Asturian keyboard
 
-2009-03-20 19:01  anssi
+2012-08-17 08:06:52 +0000 peroyvind 
 
-	* Makefile.config, NEWS: 0.70
+	* From: remmy <remmy@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 1 May 2011 11:41:50 +0000 Subject: [PATCH 023/116] Updated Dutch translations, updated copyright notice
 
-2009-03-20 19:01  anssi
+2012-08-17 08:05:59 +0000 peroyvind 
 
-	* NEWS: fix years in NEWS
+	* From: franklin <franklin@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 28 Apr 2011 07:54:00 +0000 Subject: [PATCH 022/116] 20110428 committed by Franklin
 
-2009-03-20 18:58  anssi
+2012-08-17 08:05:39 +0000 peroyvind 
 
-	* ChangeLog: Generated by cvs2cl the 20_Mar
+	* From: anssi <anssi@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Wed, 27 Apr 2011 19:40:18 +0000 Subject: [PATCH 021/116] prefer boot display devices when probing cards  (fixes at least an issue with an SLI laptop as  reported by Maarten Vanraes)
 
-2009-03-20 18:57  anssi
+2012-08-17 08:04:57 +0000 peroyvind 
 
-	* ChangeLog: Generated by cvs2cl the 20_Mar
+	* From: blino <blino@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sat, 23 Apr 2011 00:21:48 +0000 Subject: [PATCH 018/116] - harddrake: configure default resolution (and  background) even if card   configuration fails  (useful if vbox video driver is not available)
 
-2009-03-20 18:55  anssi
+2012-08-17 08:02:43 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/proprietary.pm: - XFdrake:
-	  o adapt for recent changes in proprietary driver alternatives
+	* From: dmorgan <dmorgan@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Sun, 17 Apr 2011 14:26:21 +0000 Subject: [PATCH 013/116] Revert commit 759, we will keep as  a patch in the  rpm as long as there is not "real" fix
 
-2009-03-20 18:57  anssi
+2012-08-17 07:57:44 +0000 peroyvind 
 
-	* ChangeLog: Generated by cvs2cl the 20_Mar
+	* update version and NEWS
 
-2009-03-20 18:55  anssi
+2012-08-17 07:55:23 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/proprietary.pm: - XFdrake:
-	  o adapt for recent changes in proprietary driver alternatives
+	* From: ennael <ennael@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Wed, 30 Mar 2011 10:42:28 +0000 Subject: [PATCH 005/116] evdev needs to be loaded before calling  getInputDevices_and_usb else it will lead to a  crash (pterjan)
 
-2009-03-20 18:55  
+2012-08-17 07:54:57 +0000 peroyvind 
 
-	* NEWS, lib/Xconfig/proprietary.pm: - XFdrake:
-	  o adapt for recent changes in proprietary driver alternatives
+	* From: dmorgan <dmorgan@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Wed, 30 Mar 2011 08:48:01 +0000 Subject: [PATCH 004/116] Fix pot file
 
-2009-03-20 14:38  
+2012-08-17 07:53:29 +0000 peroyvind 
 
-	* lib/mouse.pm: (various_xfree_conf) install
-	  'x11-driver-input-vmmouse' if needed
+	* From: dmorgan <dmorgan@5b7c3c08-40e5-403b-9995-ace06908e4af> Date: Thu, 3 Feb 2011 21:26:51 +0000 Subject: [PATCH 002/116] Use msgmerge on the po  files
 
-2009-03-20 14:34  
+2012-03-15 17:38:01 +0000 bedi 
 
-	* NEWS, lib/mouse.pm: (detect) configure input driver as 'vmmouse'
-	  if running in vmware (#29106)
-	  (needs drakxtools >= 12.17)
+	* updated and cleaned
 
-2009-03-19 18:57  
+2011-08-26 09:47:12 +0000 kazancas 
 
-	* po/nb.po: update for Norwegian Bokmål translation
+	* update russian
 
-2009-03-18 13:10  
+2011-06-15 12:40:08 +0000 anssi 
 
-	* po/nb.po: update for Norwegian Bokmål translation
+	* display_driver_helper: allow automatic loading of the implicit driver on systems without xorg.conf if the presence of other files indicates that this is not a live cd boot before automatic X.org configuration (fixes radeon KMS without xorg.conf)
 
-2009-03-13 14:15  
+2011-05-06 14:50:03 +0000 jpbraun 
 
-	* po/nb.po: update for Norwegian Bokmål translation
+	* set some default values for not breaking Transifex export when the team is not present on Transifex
 
-2009-03-12 22:16  
+2011-05-04 23:57:53 +0000 mmodem 
 
-	* po/ro.po: Minor revision of Romanian translation
+	* update
 
-2009-02-11 17:57  
+2011-05-02 11:35:05 +0000 jpbraun 
 
-	* lib/mouse.pm: small fix noticed by pixel's eagle eye
+	* fix format specification
 
-2009-02-11 14:54  
+2011-04-28 20:34:12 +0000 mmodem 
 
-	* NEWS, lib/mouse.pm: mousedrake: test if the file is there before
-	  trying to install the packages
+	* update
 
-2009-02-08 14:45  
+2011-04-27 01:33:25 +0000 anssi 
 
-	* po/el.po: update translation for greek language
+	* display_driver_helper: do not load radeon driver if the proprietary driver is temporarily disabled on a PowerXpress system
 
-2009-02-04 11:18  
+2011-04-25 11:17:47 +0000 mareklaane 
 
-	* tools/mousedrake: begin label is now unused (since mouse test has
-	  been removed)
+	* Fixed Estonian translation.
 
-2009-01-29 17:58  
+2011-04-20 23:45:30 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.69
+	* drakx-kbd-mouse-x11 0.92
 
-2009-01-29 17:57  
+2011-04-20 23:07:15 +0000 anssi 
 
-	* NEWS, lib/Xconfig/test.pm: - XFdrake:
-	  o use option -noAutoAddDevices when testing X
-	  (useful during installation, #47237)
-	  
-	  nb: this works if x11-server has patch
-	  Add-noAutoAddDevices-command-line-option.patch
+	* Try unloading unconfigured drivers in "display_driver_helper --check-loaded".
 
-2009-01-28 15:24  
+2011-04-20 01:27:47 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.68
+	* Fix ahead-of-X-server loading of proprietary and fglrx kernel modules.
 
-2009-01-28 15:24  
+2011-04-20 01:27:22 +0000 anssi 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake:
-	  o bug fix: overwrite previous /etc/sysconfig/keyboard Xkb
-	  information when
-	  changing keyboard
+	* Disable debug output of display_driver_helper by default.
 
-2009-01-08 11:26  
+2011-04-17 12:44:34 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.67
+	* Version 0.91
 
-2009-01-08 11:25  
+2011-04-17 10:49:38 +0000 anssi 
 
-	* NEWS, lib/mouse.pm: - mousedrake:
-	  o synaptics driver in now in package x11-driver-input-synaptics
-	  (#45531)
+	* Ask for reboot instead of X restart, as it is commonly needed.
 
-2009-01-07 09:53  
+2011-04-17 10:49:35 +0000 anssi 
 
-	* po/pl.po: update translation for Polish
+	* Add display_driver_helper script and add/remove nokmsboot boot option as needed.
 
-2008-12-18 14:47  
+2011-04-17 10:49:31 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.66
+	* Factorize change_bootloader_config for next commit.
 
-2008-12-18 14:47  
+2010-06-28 01:01:52 +0000 mmodem 
 
-	* NEWS, tools/keyboarddrake: o new option "--migrate" which adds
-	  Xkb information in
-	  /etc/sysconfig/keyboard
+	* update
 
-2008-12-18 14:43  
+2010-06-02 09:25:35 +0000 cfergeau 
 
-	* tools/keyboarddrake: enhance "correctly handle default XkbModel"
-	  commit
+	* remove "disable 3D Hardware Accel" from UI
 
-2008-12-18 14:41  
+2010-06-02 09:25:33 +0000 cfergeau 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake:
-	  o do not configure hal directly, but write in
-	  /etc/sysconfig/keyboard Xkb
-	  information so hal can get them
+	* use UseEDID with nvidia96xx
 
-2008-12-18 14:29  
+2010-05-27 05:35:05 +0000 mmodem 
 
-	* NEWS: - keyboarddrake:
-	  o do not configure hal directly, but write in
-	  /etc/sysconfig/keyboard Xkb
-	  information so hal can get them
-	  
-	  (nb: this goes with commit 250540)
+	* update
 
-2008-12-18 14:27  
+2010-05-27 04:22:57 +0000 mmodem 
 
-	* NEWS, lib/keyboard.pm, tools/keyboarddrake: - keyboarddrake:
-	  o correctly handle default XkbModel
-	  (so that we do not force pc105 when we should not)
-	  
-	  (nb: this is not very important nowadays because XkbModel is
-	  deprecated with
-	  evdev, but hell, it's easy to fix :)
+	* update
 
-2008-12-12 11:12  
+2010-05-26 21:38:58 +0000 cfrussen 
 
-	* po/ky.po: update translation for kirghiz language
+	* Updated Romanian translation
 
-2008-12-08 12:04  
+2010-05-26 18:21:56 +0000 shivahuang 
 
-	* Makefile.config, NEWS: 0.65
+	* update translation for zh_TW language
 
-2008-12-08 12:03  
+2010-05-26 15:43:27 +0000 cfergeau 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake:
-	  o configure hal so Xorg can get xkb info
-	  (nb: for now, you must "service haldaemon restart" to be taken
-	  into account)
+	* really update po files
 
-2008-12-08 09:59  
+2010-05-26 15:40:29 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm, lib/Xconfig/xfree.pm:
-	  - XFdrake
-	  o there is no reason "automatic" resolution should imply
-	  "automatic" color
-	  depth
+	* update po files
 
-2008-12-08 09:57  
+2010-05-26 15:40:25 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/monitor.pm: - XFdrake
-	  o special hack for gdium: the "default monitor" is "Plug'n Play"
-	  instead of
-	  good_default_monitor() (it will work since the resolution is
-	  passed to the
-	  kernel on gdium)
+	* 0.90
 
-2008-12-08 09:52  
+2010-05-17 10:31:54 +0000 shivahuang 
 
-	* NEWS: fix formatting
+	* update translation for zh_TW language
 
-2008-12-02 11:27  
+2010-05-17 10:26:31 +0000 shivahuang 
 
-	* NEWS, lib/Xconfig/default.pm: (configure) do not load "Type1"
-	  module by default (disabled in xserver-1.5.x)
+	* update translation for zh_TW language
 
-2008-11-26 22:34  
+2010-05-11 14:15:49 +0000 pzanoni 
 
-	* po/nl.po: Fix translation of 'Belarussian' (thanks to Kristof
-	  Bal)
+	* 0.89
 
-2008-11-21 17:08  
+2010-05-10 05:37:45 +0000 fwang 
 
-	* lib/Xconfig/monitor.pm: move things (prepare next commit)
+	* update zh_CN translation
 
-2008-11-21 17:05  
+2010-04-17 21:33:37 +0000 mmodem 
 
-	* lib/Xconfig/monitor.pm: fix 2 previous commits:
-	  - $raw_X->get_Driver can't be used in auto_installs since monitor
-	  is
-	  configured first
-	  - $raw_X is now needed in choose()
+	* update
 
-2008-11-21 16:32  
+2010-04-15 06:02:19 +0000 atilla 
 
-	* lib/Xconfig/monitor.pm: simplify
+	* updated tr translation
 
-2008-11-21 16:31  
+2010-04-13 13:48:09 +0000 pzanoni 
 
-	* lib/Xconfig/monitor.pm: fix passing xorg "Driver" for monitor
-	  probe (for auto_installs)
+	* Remove imwheel support
 
-2008-11-21 16:19  
+2010-04-11 17:07:57 +0000 obgr_seneca 
 
-	* lib/Xconfig/resolution_and_depth.pm: if {resolution_wanted} is
-	  not set in auto_install, don't have
-	  { 'X' => undef, 'Depth' => undef, 'Y' => undef } as the
-	  $resolution_wanted
+	* updated German translation in drakx-kbd-mouse-x11
 
-2008-11-14 10:09  
+2010-03-29 21:39:33 +0000 cfrussen 
 
-	* NEWS, lib/Xconfig/xfree.pm: - XFdrake
-	  o do not display the weird ratios 128/75, 85/48 (for 1024x600 and
-	  1360x768)
+	* Updated Romanian translation
 
-2008-11-14 07:44  
+2010-03-22 19:12:56 +0000 dbello 
 
-	* NEWS, lib/Xconfig/main.pm, lib/Xconfig/resolution_and_depth.pm: -
-	  XFdrake:
-	  o have Option "PanelGeometry" "XXxYY" on geode driver
+	* Translated 4 remaining strings
 
-2008-11-13 16:19  
+2010-03-14 13:49:36 +0000 btr0001 
 
-	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
-	  o generic flat planel must allow "800x480 @ 60.00 Hz (GTF) hsync:
-	  29.82 kHz"
-	  so "HorizSync 31.5-90" is too strict, generating "HorizSync
-	  29.5-90"
-	  
-	  (especially useful when the resolution is given by dmitable)
+	* update translation for ukrainian
 
-2008-11-11 13:47  
+2010-03-14 03:31:06 +0000 mmodem 
 
-	* po/ru.po: updated Russian translation
+	* update
 
-2008-10-24 12:38  
+2010-03-11 09:38:42 +0000 mmodem 
 
-	* NEWS, lib/mouse.pm, tools/mousedrake: - mousedrake:
-	  o do not use /dev/mouse symlink (in xorg.conf)
-	  o do not propose to test the chosen mice
-	  (it doesn't handle evdev/synaptics and so is quite obsolete
-	  nowadays)
+	* update
 
-2008-10-15 13:17  
+2010-02-25 13:43:28 +0000 cfergeau 
 
-	* po/pt_BR.po: Fixing a typo
+	* 0.88
 
-2008-10-07 18:47  
+2010-02-25 12:50:16 +0000 fcrozat 
 
-	* po/tr.po: update translation for turkish language
+	* - wacom driver is now in x11-driver-input-wacom
 
-2008-10-05 18:46  
+2010-02-22 20:51:38 +0000 pzanoni 
 
-	* po/tr.po: update translation for turkish language
+	* Remove the 'glide' driver from xfree4_Drivers since we don't have it
 
-2008-10-05 06:47  
+2010-02-22 19:40:55 +0000 pzanoni 
 
-	* po/uk.po: small typos in ukrainian translation
+	* - updated the xfree4_Drivers list:   o removed amd (replaced by geode)   o removed avivo (driver doesn't exist)   o removed cyrix (replaced by geode)   o removed imstt (driver doesn't exist)   o removed nsc (replaced by geode)   o removed via (driver doesn't exist)   o removed vga (driver removed)   o added geode (ix86 only)   o added xgi, xgixp and qxl   o sort list lexicographically
 
-2008-10-01 13:57  
+2010-02-09 19:33:19 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.64
+	* 0.87
 
-2008-10-01 13:57  
+2010-02-09 19:32:18 +0000 anssi 
 
-	* NEWS, lib/Xconfig/parse.pm, lib/Xconfig/xfree.pm: - XFdrake:
-	  o explicitly Load or Disable module "dri"
-	  (to be independent of Xorg's default choice)
+	* Generated by cvs2cl the 09_Feb
 
-2008-09-29 23:35  
+2010-02-09 18:55:05 +0000 anssi 
 
-	* Makefile.config: 0.63
+	* XFrake:   o do not disable loading of dri module for non-glx drivers, as KMS drivers     require it as well   o do not disable loading of glx module for fbdev, in order to allow AIGLX     to work in software rasterizer mode   o do not add dbe and extmod modules to xorg.conf anymore, they are loaded     by default anyway
 
-2008-09-29 23:34  
+2010-01-31 11:02:49 +0000 huftis 
 
-	* NEWS: 0.63
+	* Updated Norwegian Nynorsk translation.
 
-2008-09-29 23:33  
+2010-01-27 19:34:48 +0000 marquinos 
 
-	* ChangeLog: Generated by cvs2cl the 30_Sep
+	* Created translation
 
-2008-09-28 06:35  
+2010-01-16 08:38:36 +0000 anssi 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* XFdrake: do not disable Composite extension by default when using fglrx driver
 
-2008-09-28 06:35  Karl Ove Hufthammer <karl at huftis.org>
+2010-01-10 11:01:30 +0000 mtw 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* -update polish translation
 
-2008-09-25 15:12  Pixel <pixel at mandriva.com>
+2010-01-10 10:07:14 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.62
+	* - XFdrake:   o use -X option for ldconfig when switching alternatives, we only need the     cache rebuilt
 
-2008-09-25 15:11  Pixel <pixel at mandriva.com>
+2010-01-09 03:05:39 +0000 mavnur 
 
-	* NEWS, lib/Xconfig/main.pm, lib/Xconfig/parse.pm,
-	  lib/Xconfig/resolution_and_depth.pm, lib/Xconfig/xfree.pm: -
-	  XFdrake:
-	  o set "PreferredMode" in Monitor section if the user changes the
-	  resolution
-	  (we still do not use PreferredMode for the default resolution)
+	* updated uzbek translations by nurali
 
-2008-09-25 14:51  Pixel <pixel at mandriva.com>
+2009-12-25 16:51:28 +0000 ilyas 
 
-	* lib/Xconfig/resolution_and_depth.pm: cleanup: don't modify
-	  $default_resolution, use a new var ($resolution) instead
-	  (needed for next commit)
+	* update translation for kirghiz language
 
-2008-09-25 14:50  Pixel <pixel at mandriva.com>
+2009-11-27 09:26:44 +0000 cfergeau 
 
-	* lib/Xconfig/resolution_and_depth.pm: create XxY() and use it
+	* 0.86
 
-2008-09-25 14:48  Pixel <pixel at mandriva.com>
+2009-11-27 09:26:40 +0000 cfergeau 
 
-	* lib/Xconfig/xfree.pm: create XxY() and use it
+	* load the right console keymap before dumping it
 
-2008-09-22 20:10  Thierry Vignaud <tvignaud at mandriva.com>
+2009-11-08 09:49:37 +0000 dimitrios 
 
-	* ChangeLog: Generated by cvs2cl the 22_Sep
+	* updated el translation
 
-2008-09-11 15:44  Pixel <pixel at mandriva.com>
+2009-10-31 11:51:59 +0000 xalba 
 
-	* Makefile.config, NEWS: 0.61
+	* Osatuta.
 
-2008-09-11 15:34  Pixel <pixel at mandriva.com>
+2009-10-28 10:33:12 +0000 fisher 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake:
-	  o fix lithuanian keyboard choices (cf #41031)
+	* translation update for ukrainian language
 
-2008-09-11 15:44  Pixel <pixel at mandriva.com>
+2009-10-27 11:55:52 +0000 fisher 
 
-	* Makefile.config, NEWS: 0.61
+	* translation update
 
-2008-09-11 15:34  Pixel <pixel at mandriva.com>
+2009-10-26 15:42:56 +0000 tv 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake:
-	  o fix lithuanian keyboard choices (cf #41031)
+	* perl_checker cleanups
 
-2008-09-11 10:41  Pixel <pixel at mandriva.com>
+2009-10-26 15:42:53 +0000 tv 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
-	  o do set a background image when using resolution "Automatic"
-	  (#43644)
-	  
-	  (thanks to derek at jennings dot homelinux dot net)
+	* supplement list
 
-2008-09-09 15:00  Pixel <pixel at mandriva.com>
+2009-10-26 15:42:50 +0000 tv 
 
-	* Makefile.config, NEWS: .60
+	* enable perl_checker to work
 
-2008-09-09 15:00  Pixel <pixel at mandriva.com>
+2009-10-26 07:25:34 +0000 aleph 
 
-	* NEWS: add bug number
+	* Hungarian translation update
 
-2008-08-29 13:01  Yukiko Bando <ybando at k6.dion.ne.jp>
+2009-10-24 09:06:33 +0000 huftis 
 
-	* po/ja.po: Japanese translation updated.
+	* Updated Norwegian Nynorsk translation.
 
-2008-08-26 13:27  Pixel <pixel at mandriva.com>
+2009-10-22 20:17:32 +0000 dimitrios 
 
-	* lib/Xconfig/resolution_and_depth.pm: don't create symlink
-	  /usr/share/mdk/backgrounds/default.png to jpg files
-	  (it's not needed anymore)
+	* updated el translation
 
-2008-08-19 15:45  Pixel <pixel at mandriva.com>
+2009-10-22 16:45:49 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/parse.pm, lib/Xconfig/xfree.pm: - XFdrake:
-	  o [bugfix] fix clicking on "Options" when Composite is disabled
-	  (regression introduced in 0.58)
+	* 0.85
 
-2008-08-18 12:24  Pixel <pixel at mandriva.com>
+2009-10-22 16:36:43 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/main.pm: - XFdrake:
-	  o allow xorg.conf to have no "Monitor" section (#42793)
-	  
-	  (XFdrake will no break too much without it :)
+	* don't inconditionnally load Xconfig::card
 
-2008-08-18 11:12  Pixel <pixel at mandriva.com>
+2009-10-22 16:36:39 +0000 cfergeau 
 
-	* Makefile.config, NEWS: 0.59
+	* bail out earlier if X isn't installed
 
-2008-08-18 11:11  Pixel <pixel at mandriva.com>
+2009-10-22 16:28:00 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
-	  o use 24dpp by default, even on DRI (needed for kde4)
-	  
-	  as requested by qa (damien)
+	* update NEWS
 
-2008-07-31 10:17  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+2009-10-22 16:27:58 +0000 cfergeau 
 
-	* po/uk.po: uk translation update
+	* - fix input module path on 64 bit machines - don't install input drivers if X isn't here
 
-2008-07-05 23:09  kmashrab
+2009-10-22 15:43:02 +0000 acelli 
 
-	* po/uz.po: Converted from Uzbek Cyrillic using a proper script.
+	* update Italian translation - by Moreno Manzini
 
-2008-07-04 08:43  Pixel <pixel at mandriva.com>
+2009-10-22 11:23:49 +0000 keld 
 
-	* NEWS, lib/Xconfig/card.pm: o no need to force
-	  XaaNoOffscreenPixmaps, it is the default now in
-	  x11-server
+	* updates
 
-2008-06-19 00:36  anssi
+2009-10-22 07:33:08 +0000 wally 
 
-	* NEWS, lib/Xconfig/proprietary.pm, lib/Xconfig/various.pm: -
-	  XFdrake:
-	  o use nvidia-current default settings for nvidia173 as well
+	* updated fi translation
 
-2008-06-13 12:06  Сергій Рибалченко (Sergey Ribalchenko) <fisher at obu.ck.ua>
+2009-10-21 22:14:07 +0000 olorin 
 
-	* po/uk.po: translation update
+	* Updated Translation for Norwegian Bokmål.
 
-2008-06-13 07:21  Pixel <pixel at mandriva.com>
+2009-10-21 19:54:59 +0000 mbukovjan 
 
-	* NEWS, lib/Xconfig/card.pm: - XFdrake:
-	  o ensure we don't drop non-main "Device" (when modifying
-	  "Options", #41410)
+	* Updated Czech translation.
 
-2008-06-09 14:46  Pixel <pixel at mandriva.com>
+2009-10-21 19:10:35 +0000 kazancas 
 
-	* Makefile.config, NEWS: 0.58
+	* update russian translation
 
-2008-06-09 14:46  Pixel <pixel at mandriva.com>
+2009-10-21 19:06:37 +0000 cfrussen 
 
-	* lib/Xconfig/main.pm, lib/Xconfig/test.pm, lib/Xconfig/various.pm,
-	  tools/XFdrake: o drop support for /etc/X11/XF86Config (replaced
-	  by xorg.conf for some time now)
+	* Updated Romanian translation
 
-2008-06-06 07:34  Pixel <pixel at mandriva.com>
+2009-10-21 17:57:05 +0000 atilla 
 
-	* lib/Xconfig/xfree.pm: fix last typo
+	* updated tr translation
 
-2008-06-06 06:50  Pixel <pixel at mandriva.com>
+2009-10-21 17:19:25 +0000 jure 
 
-	* lib/Xconfig/xfree.pm: fix typo (thanks to pcpa)
+	* Updated Slovenian translation
 
-2008-06-05 17:32  Pixel <pixel at mandriva.com>
+2009-10-21 16:24:54 +0000 berthy 
 
-	* lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: create
-	  set_extension() and use it
+	* Update French translation
 
-2008-06-05 17:30  Pixel <pixel at mandriva.com>
+2009-10-21 16:22:52 +0000 bedi 
 
-	* NEWS, lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: - XFdrake:
-	  o Composite is now the default in xserver 1.4 (#35043)
+	* updated translation for pt_BR
 
-2008-06-05 17:10  Pixel <pixel at mandriva.com>
+2009-10-21 15:35:56 +0000 thomas 
 
-	* lib/Xconfig/various.pm, lib/Xconfig/xfree.pm: create
-	  remove_extension() and use it
+	* update swedish translation
 
-2008-06-05 17:03  Pixel <pixel at mandriva.com>
+2009-10-21 14:06:48 +0000 mareklaane 
 
-	* lib/Xconfig/main.pm: it's not XFdrake's task to handle /etc/X11/X
-	  symlink to ../../usr/bin/Xorg (thanks to pcpa)
+	* Updated Estonian translation.
 
-2008-06-05 17:02  Pixel <pixel at mandriva.com>
+2009-10-21 13:54:53 +0000 cfergeau 
 
-	* lib/Xconfig/xfree.pm: add Section "Extensions" before other
-	  sections (pcpa)
+	* update po files
 
-2008-05-04 14:18  nikos
+2009-10-21 13:46:52 +0000 cfergeau 
 
-	* po/el.po: greek (el) language update by Dimitris
+	* enable ctrl+alt+backspace (twice) by default (pzanoni)
 
-2008-05-02 16:12  Sharuzzaman Ahmat Raslan <sharuzzaman at myrealbox.com>
+2009-10-19 23:07:27 +0000 thomas 
 
-	* po/ms.po: Updated Malay translation
+	* sync finnish translation with .pot file
 
-2008-04-28 08:06  Pixel <pixel at mandriva.com>
+2009-10-19 15:29:14 +0000 thomas 
 
-	* NEWS, lib/mouse.pm: - mousedrake:
-	  o evdev and imwheel handle orthogonal things, so do use imwheel
-	  even if we
-	  need evdev (#40088)
-	  
-	  nb: the tests on logitech mice were ok because of the ubstable
-	  entry
+	* fix typo in swedish translation
 
-2008-04-14 16:23  Thierry Vignaud <tvignaud at mandriva.com>
+2009-10-17 11:29:48 +0000 huftis 
 
-	* po/ro.po: update (Pîrîu Cristian Ionuţ)
+	* Updated Norwegian Nynorsk translation.
 
-2008-04-14 10:43  unho
+2009-10-11 10:01:46 +0000 thomas 
 
-	* po/gl.po: update translation for galician
+	* update swedish translation
 
-2008-04-08 19:43  Karl Ove Hufthammer <karl at huftis.org>
+2009-10-09 15:35:31 +0000 blino 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* 0.84
 
-2008-04-03 16:20  Karl Ove Hufthammer <karl at huftis.org>
+2009-10-09 15:35:12 +0000 blino 
 
-	* po/nn.po: Fixed nn translation.
+	* - run ldconfig after update-alternatives during installer too   (psb alternative does not have a higher priority than standard    alternative, and ldconfig was run by the installer only before    manually setting the alternative, which was not enough)
 
-2008-04-02 14:23  Pixel <pixel at mandriva.com>
+2009-10-08 17:13:11 +0000 blino 
 
-	* Makefile.config, NEWS: 0.57
+	* 0.83
 
-2008-04-02 14:22  Pixel <pixel at mandriva.com>
+2009-10-08 17:02:40 +0000 blino 
 
-	* NEWS, lib/Xconfig/card.pm: - workaround pb with nvidia driver:
-	  make dm restart xserver (#38297)
+	* use 28.8kHz as lower HorizSync (for 800x480)
 
-2008-04-02 14:01  Pixel <pixel at mandriva.com>
+2009-10-06 10:15:37 +0000 cfergeau 
 
-	* Makefile.config, NEWS: 0.56
+	* 0.82
 
-2008-04-02 13:59  Pixel <pixel at mandriva.com>
+2009-10-06 10:15:34 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/various.pm: - XFdrake:
-	  o do not disable RenderAccel on nvidia-current
-	  (regression introduced in 0.21)
-	  
-	  (Anssi gave the proper patch, and i failed miserably, let me dig
-	  the sand with
-	  my head and a pile of brown paper bags...)
+	* xorg.conf files with no InputDevice sections are valid
 
-2008-03-30 20:05  Arpad Biro <biro_arpad at yahoo.com>
+2009-10-05 04:43:36 +0000 bedi 
 
-	* po/hu.po: update
+	* updated translations for pt_BR
 
-2008-03-29 12:50  shiyu
+2009-10-03 15:26:42 +0000 jure 
 
-	* po/zh_CN.po: update translation for Chinese Simplified
+	* Updated Slovenian translation
 
-2008-03-29 12:18  unho
+2009-10-01 16:02:26 +0000 xuco 
 
-	* po/gl.po: update translation for galician
+	* update translation for Galician language
 
-2008-03-27 10:53  Pixel <pixel at mandriva.com>
+2009-09-23 15:42:28 +0000 cfergeau 
 
-	* Makefile.config, NEWS: 0.55
+	* mark check_valid as internal
 
-2008-03-27 10:53  Pixel <pixel at mandriva.com>
+2009-09-23 15:29:21 +0000 blino 
 
-	* NEWS, lib/Xconfig/various.pm: - XFdrake:
-	  o disable "DynamicTwinView" when not using TwinView (#39171)
-	  
-	  it disables runtime setting of TwinView via nvidia-settings
-	  it helps on Compiz (#39171)
+	* fix date (I suck, thanks teuf)
 
-2008-03-25 19:21  Fabian Mandelbaum <fabman at mandriva.com>
+2009-09-23 14:17:39 +0000 blino 
 
-	* po/es.po: Updated ES translation
+	* 0.81
 
-2008-03-25 14:52  Pixel <pixel at mandriva.com>
+2009-09-23 14:14:44 +0000 tv 
 
-	* Makefile.config, NEWS: 0.54
+	* (libgl_config_and_more) make it more readable
 
-2008-03-25 14:51  Pixel <pixel at mandriva.com>
+2009-09-23 14:09:40 +0000 blino 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake library:
-	  o in drakx-finish-install, keyboard is asked after asking
-	  country, so have a
-	  good default based on country too (was done for pt_BR but not
-	  fr_XX)
-	  (#39221)
+	* psb support
 
-2008-03-21 13:57  Pixel <pixel at mandriva.com>
+2009-09-22 14:07:41 +0000 cfergeau 
 
-	* Makefile.config, NEWS: 0.53
+	* forgot NEWS 0.80 header
 
-2008-03-21 13:56  Pixel <pixel at mandriva.com>
+2009-09-22 14:04:49 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/various.pm: - XFdrake:
-	  o allow to set "EXA" on "intel" driver (#39162)
+	* remove useless ()
 
-2008-03-20 16:33  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:44 +0000 cfergeau 
 
-	* Makefile.config, NEWS: 0.52
+	* 0.80 release
 
-2008-03-20 16:32  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:40 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/various.pm: - XFdrake:
-	  o add option "Force display mode of DVI" on driver "nvidia"
-	  (#30066)
+	* don't write entries for evdev mice either
 
-2008-03-20 13:50  Karl Ove Hufthammer <karl at huftis.org>
+2009-09-22 14:01:38 +0000 cfergeau 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* don't add keyboard sections to xorg.conf
 
-2008-03-19 13:37  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:36 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake library:
-	  o ensure set_default_background() doesn't fail (#39065)
-	  (ie default to 1024x768 if 0x0 is given)
+	* add _ at the beginning of local functions
 
-2008-03-19 10:43  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:33 +0000 cfergeau 
 
-	* Makefile.config, NEWS, lib/Xconfig/monitor.pm: 0.51
+	* update NEWS
 
-2008-03-14 10:40  Thierry Vignaud <tvignaud at mandriva.com>
+2009-09-22 14:01:30 +0000 cfergeau 
 
-	* po/Makefile: (update_n_merge) split it out of (merge) ; now
-	  (merge) only update po w/o updating main pot file
+	* don't add sections for synaptics devices to xorg.conf
 
-2008-03-14 10:40  Thierry Vignaud <tvignaud at mandriva.com>
+2009-09-22 14:01:28 +0000 cfergeau 
 
-	* po/de.po: update (Nicolas Bauer)
+	* s/mandrakesoft/mandriva
 
-2008-03-13 14:25  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:26 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
-	  o use 24bpp on savage (#38750)
+	* don't add USB wacom tablets to xorg.conf
 
-2008-03-11 16:25  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:24 +0000 cfergeau 
 
-	* NEWS, lib/keyboard.pm: - keyboarddrake:
-	  o default romanian keyboard is qwerty (cf #38450)
-	  o "ro" really is "ro(std_cedilla)"
-	  (to be more standard on unpatched xkeyboard-config)
-	  o "ro(us)" is wrong and not qwerty, use "ro(winkeys)" which is
-	  the only
-	  qwertz from symbols/ro
+	* move functions closer to their place of use
 
-2008-03-11 13:50  Pixel <pixel at mandriva.com>
+2009-09-22 14:01:18 +0000 cfergeau 
 
-	* Makefile.config, NEWS: 0.50
+	* don't write mouse xorg.conf entries when driver is "mouse"
 
-2008-03-11 13:50  Pixel <pixel at mandriva.com>
+2009-09-22 01:44:22 +0000 cavassin 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: - XFdrake
-	  o handle DRIVER2_NO_SSE (from Cards+), needed by nvidia-current
-	  requiring SSE
+	* new hyphen rules
 
-2008-03-07 00:48  Reinout van Schouwen <reinout at gmail.com>
+2009-09-14 16:10:59 +0000 blino 
 
-	* po/nl.po: 2008-03-07 Reinout van Schouwen <reinout@gmail.com>
-	  
-	  - nl.po: Updated Dutch translation
+	* 0.79
 
-2008-03-01 20:09  nikos
+2009-09-14 16:08:07 +0000 blino 
 
-	* po/el.po: update translation for greek language (el)
+	* allow to skip framebuffer setup (and thus splash removal) for newer harddrake releases
 
-2008-02-29 16:25  thomas
+2009-09-11 15:46:53 +0000 alefebvre 
 
-	* po/fi.po: Update Finnish translation
+	* - XFdrake:   o fix DontZap option issue with old xorg.conf files
 
-2008-02-28 17:20  Pixel <pixel at mandriva.com>
+2009-09-10 09:23:33 +0000 tv 
 
-	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
-	  o if the EDID gives a valid 16/10 preferred resolution (even if
-	  duplicated),
-	  but no HorizSync/VertRefresh, use a generic flat panel
-	  HorizSync/VertRefresh (needed for edid.lcd.dell-inspiron-6400,
-	  #37971)
+	* update (Rhoslyn Prys)
 
-2008-02-28 16:58  Pixel <pixel at mandriva.com>
+2009-09-09 16:19:15 +0000 alefebvre 
 
-	* Makefile.config, NEWS, lib/Xconfig/resolution_and_depth.pm: -
-	  0.49:
-	  - XFdrake: background images are now jpeg files
+	* 0.78
 
-2008-02-28 11:06  Pixel <pixel at mandriva.com>
+2009-09-09 14:57:10 +0000 alefebvre 
 
-	* Makefile.config, NEWS: 0.48
+	* - XFdrake:   o added "Disable Ctrl-Alt-Backspace" option
 
-2008-02-28 11:06  Pixel <pixel at mandriva.com>
+2009-09-04 22:36:49 +0000 cavassin 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
-	  o when setting background for the resolution, handle "hour"-based
-	  backgrounds (also add Mandriva.xml symlink)
+	* no more pára and ói in 'paroxítonas'
 
-2008-02-27 15:15  thomas
+2009-09-04 22:04:50 +0000 cavassin 
 
-	* po/sv.po: update Swedish translation
+	* no more acute accents in diphthongs éi
 
-2008-02-27 14:20  Pixel <pixel at mandriva.com>
+2009-09-04 21:44:50 +0000 cavassin 
 
-	* Makefile.config, NEWS: 0.47
+	* goodbye trema
 
-2008-02-27 14:14  Pixel <pixel at mandriva.com>
+2009-08-28 19:44:03 +0000 bedi 
 
-	* po: ignore *.mo
+	* updated translations for Spanish, made translated by André P. Machado
 
-2008-02-26 15:39  Keld Jørn Simonsen <keld at dkuug.dk>
+2009-08-22 10:46:21 +0000 huftis 
 
-	* po/da.po: updates
+	* Updated Norwegian Nynorsk translation.
 
-2008-02-23 21:58  Andrea Celli <andrea.celli at libero.it>
+2009-07-22 14:09:15 +0000 anssi 
 
-	* po/it.po: update translation for Italian
+	* 0.77
 
-2008-02-22 18:03  Marek Laane <bald at starman.ee>
+2009-07-22 14:06:20 +0000 anssi 
 
-	* po/et.po: Updated Estonian translation.
+	* XFdrake: correctly detect proprietary drivers that are located in          /usr/lib/drivername/xorg (#52384)
 
-2008-02-21 17:07  Pixel <pixel at mandriva.com>
+2009-07-01 15:56:07 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/resolution_and_depth.pm: - XFdrake:
-	  o when setting background for the resolution, handle "hour"-based
-	  backgrounds
+	* move serial_ports to detect_devices.pm
 
-2008-02-20 17:10  Thierry Vignaud <tvignaud at mandriva.com>
+2009-07-01 12:32:49 +0000 cfergeau 
 
-	* po/cy.po: update (Rhoslyn Prys)
+	* Prefix functions with _ when they are internal
 
-2008-02-18 22:38  Christophe Berthelé <cpjc at free.fr>
+2009-07-01 12:32:47 +0000 cfergeau 
 
-	* po/fr.po: Update fr translation on behalf of fr team
+	* Forgot to add date to NEWS file
 
-2008-02-18 14:56  Tomasz Bednarski <tbednarski at mandrivalinux.pl>
+2009-06-25 10:21:14 +0000 cfergeau 
 
-	* po/pl.po: update translation for Polish
+	* 0.76
 
-2008-02-18 14:41  Pixel <pixel at mandriva.com>
+2009-06-04 14:43:06 +0000 blino 
 
-	* Makefile.config, NEWS: 0.46
+	* log
 
-2008-02-18 14:41  Pixel <pixel at mandriva.com>
+2009-06-04 14:31:51 +0000 blino 
 
-	* NEWS, lib/Xconfig/xfree.pm: - XFdrake:
-	  o add 1024x600 (used on Samsung Q1Ultra) (#37889)
+	* fix crash when both monitor and driver can not be probed (for example with some Quanta IL1 netbooks using Chrome9 IC3) this crash happens with harddrake service or XFdrake --auto: Can't use an undefined value as a HASH reference at /usr/lib/libDrakX/Xconfig/monitor.pm line 85
 
-2008-02-18 00:56  Pjetur G. Hjaltason <pjetur at pjetur.net>
+2009-05-04 19:10:45 +0000 wally 
 
-	* po/is.po: 2008.1 update
+	* updated finnish translation
 
-2008-02-17 22:30  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+2009-04-28 08:40:12 +0000 cfergeau 
 
-	* po/cs.po: Update Czech translation.
+	* More NEWS (especially about a commit I didn't want to commit just now :(
 
-2008-02-16 13:48  Christophe Berthelé <cpjc at free.fr>
+2009-04-28 07:55:04 +0000 cfergeau 
 
-	* po/hu.po: Update hu translation on behalf of hu team
+	* Forgot to update NEWS
 
-2008-02-16 11:37  Christophe Berthelé <cpjc at free.fr>
+2009-04-28 07:54:56 +0000 cfergeau 
 
-	* po/eo.po: Update eo translation on behalf of eo team
+	* Check PCI class when detecting video cards
 
-2008-02-14 17:18  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+2009-04-27 16:59:52 +0000 cfergeau 
 
-	* po/pt_BR.po: updated translation
+	* Small cleanups in make dist-svn
 
-2008-02-13 14:11  Shiva Huang <blueshiva at giga.net.tw>
+2009-04-27 16:59:50 +0000 cfergeau 
 
-	* po/zh_TW.po: Update zh_TW translation
+	* Add git support to make dist/dis
 
-2008-02-06 04:06  Jure Repinc
+2009-04-27 16:59:48 +0000 cfergeau 
 
-	* po/sl.po: Updated Slovenian translation
+	* When modifying keyboard configuration, refresh associated hal keys
 
-2008-02-05 08:20  Pixel <pixel at mandriva.com>
+2009-04-22 12:31:32 +0000 tv 
 
-	* NEWS: add bug number
+	* 0.74
 
-2008-02-05 08:17  Pixel <pixel at mandriva.com>
+2009-04-22 12:31:12 +0000 tv 
 
-	* Makefile.config, NEWS: 0.45
+	* add missing 0.73 logs
 
-2008-02-02 22:17  Zé <ze at mandriva.org>
+2009-04-22 12:14:21 +0000 tv 
 
-	* po/pt.po: update
+	* (set_xfree_conf) fix vmmouse configuration for vmware (#49654)
 
-2008-02-02 22:13  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+2009-04-22 12:12:19 +0000 tv 
 
-	* po/eu.po: Osatuta.
+	* (_is_mouse) detect 'vmmouse' driven input devices as mice
 
-2008-02-02 18:47  Karl Ove Hufthammer <karl at huftis.org>
+2009-04-22 03:48:44 +0000 jure 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* Updated Slovenian translation
 
-2008-02-01 19:25  Dotan Kamber <kamberd at yahoo.com>
+2009-04-21 13:01:06 +0000 cfergeau 
 
-	* po/he.po: update translation for Hebrew
+	* 0.73
 
-2008-02-01 13:50  Pavel Maryanov <acid_jack at ukr.net>
+2009-04-21 13:01:03 +0000 cfergeau 
 
-	* po/ru.po: updated translation
+	* Tweak xorg.conf writing with intel driver
 
-2008-01-31 10:41  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-21 13:00:59 +0000 cfergeau 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
-	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
-	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
-	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
-	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
-	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
-	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
-	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
-	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
-	  po/uk.po, po/uz.po, po/uz@cyrillic.po, po/vi.po, po/wa.po,
-	  po/zh_CN.po, po/zh_TW.po: sync with code
+	* Don't show the "EXA/XAA" switch by default on Intel cards
 
-2008-01-29 10:15  Pixel <pixel at mandriva.com>
+2009-04-20 12:27:20 +0000 wally 
 
-	* lib/keyboard.pm: log failing setxkbmap
+	* updated finnish translation
 
-2008-01-28 15:17  Pixel <pixel at mandriva.com>
+2009-04-18 13:16:37 +0000 ilyas 
 
-	* NEWS, lib/Xconfig/xfree.pm: - XFdrake:
-	  o add 800x480 (used on belinea s.book)
+	* update translation for kirghiz language
 
-2008-01-25 10:32  Pixel <pixel at mandriva.com>
+2009-04-16 17:42:15 +0000 bedi 
 
-	* Makefile.config, NEWS: 0.44
+	* updated translation for pt_BR
 
-2008-01-25 10:32  Pixel <pixel at mandriva.com>
+2009-04-15 11:55:57 +0000 cfergeau 
 
-	* NEWS, lib/keyboard.pm: - library for installer:
-	  o do not force "us" keyboard on everybody that choose "English
-	  (American)"
-	  (#36575)
+	* Release 0.72
 
-2008-01-23 11:27  Pixel <pixel at mandriva.com>
+2009-04-14 17:40:51 +0000 xalba 
 
-	* Makefile.config, NEWS: 0.43
+	* Osatuta.
 
-2008-01-23 11:19  Pixel <pixel at mandriva.com>
+2009-04-14 14:35:42 +0000 cfergeau 
 
-	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
-	  o if the EDID gives a valid EISA_ID, a valid 16/10 preferred
-	  resolution, but
-	  no HorizSync/VertRefresh, use a generic flat panel
-	  HorizSync/VertRefresh
-	  
-	  reproduced on a Elonex PLC - MSI Notebook PR600, EISA_ID CMO1526
+	* Use plugnplay monitor for virtual box, fixes #49642. Thanks Titi for the patch!
 
-2008-01-23 11:16  Pixel <pixel at mandriva.com>
+2009-04-14 07:03:09 +0000 tbednarski 
 
-	* lib/Xconfig/resolution_and_depth.pm, lib/Xconfig/xfree.pm: move
-	  resolution2ratio() to Xconfig::xfree (for next commit)
+	* update translation for Polish
 
-2008-01-22 16:56  Pixel <pixel at mandriva.com>
+2009-04-13 11:32:46 +0000 cfrussen 
 
-	* Makefile.config, NEWS: 0.42
+	* Minor revision of Romanian translation
 
-2008-01-22 16:55  Pixel <pixel at mandriva.com>
+2009-04-13 06:01:35 +0000 fisher 
 
-	* NEWS, lib/mouse.pm: - mousedrake:
-	  o use udev in $PATH instead of /lib/udev/usb_id
-	  (need latest udev pkg)
+	* propset svn:keywords Id
 
-2008-01-22 16:55  Pixel <pixel at mandriva.com>
+2009-04-13 05:59:44 +0000 fisher 
 
-	* NEWS, lib/Xconfig/xfree.pm: - use SendCoreEvents instead of
-	  AlwaysCore for wacoms
-	  (needed with new xorg server)
+	* translation update for Ukrainian language
 
-2008-01-21 18:21  Shiva Huang <blueshiva at giga.net.tw>
+2009-04-12 21:51:16 +0000 anssi 
 
-	* po/zh_TW.po: Update zh_TW translation
+	* do not add Load "freetype" to xorg.conf as the module does not exist anymore
 
-2008-01-19 17:50  Pavel Maryanov <acid_jack at ukr.net>
+2009-04-11 13:36:08 +0000 cfrussen 
 
-	* po/ru.po: updated translation
+	* Updated Romanian translation
 
-2008-01-11 13:02  Pixel <pixel at mandriva.com>
+2009-04-10 15:28:42 +0000 jure 
 
-	* NEWS, lib/Xconfig/monitor.pm: - XFdrake:
-	  o sort monitors in text mode so that "Generic|..." monitors do
-	  not appear
-	  in the middle of "Vendor|..." monitors
+	* Updated Slovenian translation
 
-2007-12-16 04:50  Keld Jørn Simonsen <keld at dkuug.dk>
+2009-04-10 15:07:34 +0000 wobo 
 
-	* po/nb.po: updates
+	* update translation for de language
 
-2007-12-14 16:42  Olivier Blin <oblin at mandriva.com>
+2009-04-10 10:48:45 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.41
+	* Fix selecting proprietary drivers with xdriver=DRIVER boot option.
 
-2007-12-14 16:41  Olivier Blin <oblin at mandriva.com>
+2009-04-10 08:23:49 +0000 reinouts 
 
-	* NEWS, lib/Xconfig/xfree.pm: use SendCoreEvents instead of
-	  AlwaysCore for Synaptics touchpads (#36140)
+	* * 2009-04-10  Reinout van Schouwen <reinout@gmail.com>
 
-2007-12-14 16:35  Olivier Blin <oblin at mandriva.com>
+2009-04-09 12:56:55 +0000 berthy 
 
-	* lib/Xconfig/xfree.pm, lib/mouse.pm: drop unused Primary option in
-	  set_synaptics
+	* Update French translation
 
-2007-12-10 08:14  Pixel <pixel at mandriva.com>
+2009-04-09 11:54:29 +0000 aleph 
 
-	* Makefile.config, NEWS: 0.40
+	* Hungarian translation update
 
-2007-12-10 08:13  Pixel <pixel at mandriva.com>
+2009-04-09 07:47:12 +0000 obgr_seneca 
 
-	* NEWS, lib/Xconfig/xfree.pm: - XFdrake:
-	  o never write a ModeLine when using fglrx driver (#30934)
+	* update for German translation
 
-2007-12-09 22:26  kmashrab
+2009-04-09 07:43:40 +0000 obgr_seneca 
 
-	* po/uz.po, po/uz@Latn.po, po/uz@cyrillic.po: Renamed Uzbek
-	  translations to follow the libc standard. Aproved by Pixel. For
-	  details, see bug #35090.
+	* update for German translation
 
-2007-12-03 13:10  Pixel <pixel at mandriva.com>
+2009-04-09 06:37:03 +0000 fwang 
 
-	* lib/xf86misc/Makefile.PL: simplify: -L/usr/X11R6/$lib is not
-	  needed anymore
+	* updated zh_CN translation
 
-2007-11-30 15:30  Pixel <pixel at mandriva.com>
+2009-04-09 01:59:38 +0000 pjetur 
 
-	* Makefile.config, NEWS: 0.39
+	* latest updates
 
-2007-11-01 18:41  anssi
+2009-04-08 19:34:55 +0000 atilla 
 
-	* Makefile.config, NEWS: 0.38
+	* updated translation for turkish language
 
-2007-10-30 22:33  Keld Jørn Simonsen <keld at dkuug.dk>
+2009-04-08 13:02:18 +0000 huftis 
 
-	* po/da.po: updates
+	* Updated Norwegian Nynorsk translation.
 
-2007-10-28 18:42  anssi
+2009-04-08 12:55:09 +0000 keld 
 
-	* NEWS, lib/Xconfig/proprietary.pm: handle fglrx_dri.so handled by
-	  alternatives
+	* updates
 
-2007-10-17 20:40  Arpad Biro <biro_arpad at yahoo.com>
+2009-04-08 10:23:30 +0000 mareklaane 
 
-	* po/ru.po: update by Alexander
+	* Updated Estonian translation.
 
-2007-10-08 15:08  Pixel <pixel at mandriva.com>
+2009-04-07 21:52:52 +0000 mbukovjan 
 
-	* NEWS, lib/keyboard.pm: - display message This setting will be
-	  activated after the installation."
-	  only during installation
+	* Updated Czech translation.
 
-2007-10-04 17:17  Pixel <pixel at mandriva.com>
+2009-04-07 21:47:25 +0000 bedi 
 
-	* NEWS: fix typo
+	* updated pt_br translation
 
-2007-10-04 17:05  Pixel <pixel at mandriva.com>
+2009-04-07 19:26:03 +0000 dimitrios 
 
-	* Makefile.config, NEWS: 0.37
+	* Update Greek translation
 
-2007-10-04 17:05  Pixel <pixel at mandriva.com>
+2009-04-07 18:25:36 +0000 acelli 
 
-	* NEWS, lib/Xconfig/monitor.pm: - if we probe a monitor EISA_ID but
-	  we don't have corresponding
-	  HorizSync/VertRefresh, we must not the monitor info
-	  
-	  yet another regression introduced when modifying is_valid() for
-	  automatic
-	  resolution
+	* update translation for Italian
 
-2007-10-04 16:58  Olivier Blin <oblin at mandriva.com>
+2009-04-07 17:28:30 +0000 huftis 
 
-	* NEWS, lib/Xconfig/proprietary.pm: when checking dkms module
-	  packages, check that modules are either available in urpmi media,
-	  or already installed (fix detection in live)
+	* Updated Norwegian Nynorsk translation.
 
-2007-10-04 08:50  Pixel <pixel at mandriva.com>
+2009-04-07 12:50:49 +0000 cfrussen 
 
-	* NEWS: add the bug number
+	* Updated Romanian translation
 
-2007-10-04 08:09  Pixel <pixel at mandriva.com>
+2009-04-07 12:11:16 +0000 pmaryanov 
 
-	* Makefile.config, NEWS: 0.36
+	* Russian translation updated
 
-2007-10-04 08:09  Pixel <pixel at mandriva.com>
+2009-04-07 12:01:17 +0000 olorin 
 
-	* NEWS, lib/Xconfig/main.pm, lib/Xconfig/resolution_and_depth.pm,
-	  lib/Xconfig/xfree.pm: - better fix for typo in 0.32: don't
-	  wrongly default to "automatic" resolution
-	  when creating xorg.conf (in non --auto)
+	* Update for Norwegian Bokmål translation
 
-2007-10-03 16:22  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-07 11:51:09 +0000 olorin 
 
-	* NEWS: typo fix
+	* Update for Norwegian Bokmål translation
 
-2007-10-03 16:22  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-07 10:44:15 +0000 tv 
 
-	* Makefile.config, NEWS: 0.35
+	* update
 
-2007-10-03 16:21  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-07 10:43:45 +0000 tv 
 
-	* ChangeLog: Generated by cvs2cl the 03_Oct
+	* sync with code
 
-2007-10-03 15:43  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-06 17:20:59 +0000 dimitrios 
 
-	* po/es.po: update (Fabián Mandelbaum)
+	* Update Greek translation
 
-2007-10-03 15:43  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-02 16:47:50 +0000 anssi 
 
-	* po/es.po: update (Fabián Mandelbaum)
+	* 0.71
 
-2007-10-01 17:40  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-02 16:46:18 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.34
+	* add nouveau driver into the driver list
 
-2007-10-01 17:39  Thierry Vignaud <tvignaud at mandriva.com>
+2009-04-02 16:43:37 +0000 anssi 
 
-	* ChangeLog: Generated by cvs2cl the 01_Oct
+	* Add support for boot option xdriver=foo for overriding the driver in non-interactive probe. Allowed special values: auto = normal mode free = only use free drivers
 
-2007-10-01 17:39  Thierry Vignaud <tvignaud at mandriva.com>
+2009-03-30 13:31:19 +0000 tv 
 
-	* Makefile: std changelog aliases
+	* Generated by cvs2cl the 30_Mar
 
-2007-10-01 17:39  Thierry Vignaud <tvignaud at mandriva.com>
+2009-03-20 19:01:57 +0000 anssi 
 
-	* Makefile: std changelog aliases
+	* 0.70
 
-2007-09-30 00:43  anssi
+2009-03-20 19:01:01 +0000 anssi 
 
-	* po/fi.po: Update Finnish translation.
+	* fix years in NEWS
 
-2007-09-29 16:49  Karl Ove Hufthammer <karl at huftis.org>
+2009-03-20 18:58:46 +0000 anssi 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* Generated by cvs2cl the 20_Mar
 
-2007-09-28 20:17  Olivier Blin <oblin at mandriva.com>
+2009-03-20 18:57:48 +0000 anssi 
 
-	* Makefile.config, NEWS: 0.33
+	* Generated by cvs2cl the 20_Mar
 
-2007-09-28 16:21  Pixel <pixel at mandriva.com>
+2009-03-20 18:55:25 +0000 anssi 
 
-	* NEWS, lib/Xconfig/xfree.pm: - fix typo in 0.32: don't wrongly
-	  default to "automatic" resolution when
-	  creating xorg.conf (in non --auto)
+	* - XFdrake:   o adapt for recent changes in proprietary driver alternatives
 
-2007-09-28 15:21  Olivier Blin <oblin at mandriva.com>
+2009-03-20 14:38:35 +0000 tv 
 
-	* NEWS, lib/Xconfig/xfree.pm, lib/mouse.pm: add support for
-	  x11-driver-input-vboxmouse when inside a VirtualBox guest
+	* (various_xfree_conf) install 'x11-driver-input-vmmouse' if needed
 
-2007-09-28 15:13  Olivier Blin <oblin at mandriva.com>
+2009-03-20 14:34:48 +0000 tv 
 
-	* lib/mouse.pm: make mice list dynamic, since it probes pci bus
+	* (detect) configure input driver as 'vmmouse' if running in vmware (#29106) (needs drakxtools >= 12.17)
 
-2007-09-28 01:36  Willy Sudiarto Raharjo <willysr at gmail.com>
+2009-03-19 18:57:52 +0000 olorin 
 
-	* po/id.po: Update Indonesian Translations
+	* update for Norwegian Bokmål translation
 
-2007-09-26 17:52  acelli
+2009-03-18 13:10:55 +0000 olorin 
 
-	* po/it.po: update translation for Italian
+	* update for Norwegian Bokmål translation
 
-2007-09-26 14:59  ybando
+2009-03-13 14:15:22 +0000 olorin 
 
-	* po/ja.po: Japanese translation updated.
+	* update for Norwegian Bokmål translation
 
-2007-09-26 14:23  Thierry Vignaud <tvignaud at mandriva.com>
+2009-03-12 22:16:28 +0000 cfrussen 
 
-	* po/tr.po: restore a translation
+	* Minor revision of Romanian translation
 
-2007-09-26 14:18  Thierry Vignaud <tvignaud at mandriva.com>
+2009-02-11 17:57:47 +0000 pterjan 
 
-	* po/tr.po: restore deleted strings
+	* small fix noticed by pixel's eagle eye
 
-2007-09-26 13:27  guclu
+2009-02-11 14:54:16 +0000 pterjan 
 
-	* po/tr.po: update translation for Turkish
+	* mousedrake: test if the file is there before trying to install the packages
 
-2007-09-26 13:21  Tomasz Bednarski <tbednarski at mandrivalinux.pl>
+2009-02-08 14:45:26 +0000 dimitrios 
 
-	* po/pl.po: update
+	* update translation for greek language
 
-2007-09-26 13:00  guclu
+2009-02-04 11:18:44 +0000 blino 
 
-	* po/tr.po: update translation for Turkish
+	* begin label is now unused (since mouse test has been removed)
 
-2007-09-26 11:51  Thierry Vignaud <tvignaud at mandriva.com>
+2009-01-29 17:58:02 +0000 pixel 
 
-	* po/cy.po: update (Rhoslyn Prys)
+	* 0.69
 
-2007-09-26 11:47  mmodem
+2009-01-29 17:57:45 +0000 pixel 
 
-	* po/pt.po: up
+	* - XFdrake:   o use option -noAutoAddDevices when testing X     (useful during installation, #47237)
 
-2007-09-26 11:34  Pixel <pixel at mandriva.com>
+2009-01-28 15:24:51 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: - we don't
-	  set ModulesPath to DRI_GLX_SPECIAL value, so we must read it
-	  differently so that Xconfig::various::info() is correct (#31326)
+	* 0.68
 
-2007-09-26 11:32  Thierry Vignaud <tvignaud at mandriva.com>
+2009-01-28 15:24:33 +0000 pixel 
 
-	* po/ko.po: revert a wrong bit
+	* - keyboarddrake:   o bug fix: overwrite previous /etc/sysconfig/keyboard Xkb information when     changing keyboard
 
-2007-09-26 11:26  Thierry Vignaud <tvignaud at mandriva.com>
+2009-01-08 11:26:13 +0000 pixel 
 
-	* po/ko.po: update (metq.com>)
+	* 0.67
 
-2007-09-26 10:41  mmodem
+2009-01-08 11:25:53 +0000 pixel 
 
-	* po/pt.po: up
+	* - mousedrake:   o synaptics driver in now in package x11-driver-input-synaptics (#45531)
 
-2007-09-26 10:10  Pixel <pixel at mandriva.com>
+2009-01-07 09:53:08 +0000 tbednarski 
 
-	* Makefile.config, NEWS: 0.32
+	* update translation for Polish
 
-2007-09-26 10:10  Pixel <pixel at mandriva.com>
+2008-12-18 14:47:50 +0000 pixel 
 
-	* lib/Xconfig/monitor.pm: add a log
+	* 0.66
 
-2007-09-26 10:08  Pixel <pixel at mandriva.com>
+2008-12-18 14:47:22 +0000 pixel 
 
-	* NEWS: do log the typo fix
+	*   o new option "--migrate" which adds Xkb information in     /etc/sysconfig/keyboard
 
-2007-09-26 10:04  Pixel <pixel at mandriva.com>
+2008-12-18 14:43:43 +0000 pixel 
 
-	* lib/Xconfig/resolution_and_depth.pm: revert debug code
+	* enhance "correctly handle default XkbModel" commit
 
-2007-09-26 10:02  Pixel <pixel at mandriva.com>
+2008-12-18 14:41:18 +0000 pixel 
 
-	* NEWS: new feature requires monitor-edid 1.12
+	* - keyboarddrake:   o do not configure hal directly, but write in /etc/sysconfig/keyboard Xkb     information so hal can get them
 
-2007-09-26 10:02  Pixel <pixel at mandriva.com>
+2008-12-18 14:29:23 +0000 pixel 
 
-	* NEWS, lib/Xconfig/monitor.pm: - monitor-probe-using-X can now
-	  return EDIDs. if Xorg find an EDID (whereas
-	  monitor-get-edid-using-vbe failed), defaults to "Plug'n Play"
-	  monitor (ie
-	  let Xorg do things automatically) instead of
-	  good_default_monitor.
+	* - keyboarddrake:   o do not configure hal directly, but write in /etc/sysconfig/keyboard Xkb     information so hal can get them
 
-2007-09-26 02:02  Funda Wang <fundawang at linux.net.cn>
+2008-12-18 14:27:13 +0000 pixel 
 
-	* po/et.po: Updated et translation
+	* - keyboarddrake:   o correctly handle default XkbModel     (so that we do not force pc105 when we should not)
 
-2007-09-26 02:00  Funda Wang <fundawang at linux.net.cn>
+2008-12-12 11:12:14 +0000 ilyas 
 
-	* po/zh_CN.po: Updated zh_CN translation
+	* update translation for kirghiz language
 
-2007-09-25 23:22  kamberd
+2008-12-08 12:04:17 +0000 pixel 
 
-	* po/he.po: update translation for Hebrew
+	* 0.65
 
-2007-09-25 21:25  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+2008-12-08 12:03:51 +0000 pixel 
 
-	* po/pt_BR.po: pt_BR translations
+	* - keyboarddrake:   o configure hal so Xorg can get xkb info     (nb: for now, you must "service haldaemon restart" to be taken into account)
 
-2007-09-25 20:55  Arpad Biro <biro_arpad at yahoo.com>
+2008-12-08 09:59:02 +0000 pixel 
 
-	* po/hu.po: update
+	* - XFdrake   o there is no reason "automatic" resolution should imply "automatic" color     depth
 
-2007-09-25 20:46  Reinout van Schouwen <reinout at cs.vu.nl>
+2008-12-08 09:57:02 +0000 pixel 
 
-	* po/nl.po: * 2007-09-25 Reinout van Schouwen <reinouts@gnome.org>
-	  
-	  - nl.po : UPdated Dutch translation
+	* - XFdrake   o special hack for gdium: the "default monitor" is "Plug'n Play" instead of     good_default_monitor() (it will work since the resolution is passed to the     kernel on gdium)
 
-2007-09-25 20:38  jure
+2008-12-08 09:52:19 +0000 pixel 
 
-	* po/sl.po: Updated Slovenian translation
+	* fix formatting
 
-2007-09-25 20:34  jure
+2008-12-02 11:27:38 +0000 tv 
 
-	* po/sl.po: Updated Slovenian translation
+	* (configure) do not load "Type1" module by default (disabled in xserver-1.5.x)
 
-2007-09-25 20:30  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+2008-11-26 22:34:13 +0000 reinouts 
 
-	* po/cs.po: Updated Czech translation.
+	* Fix translation of 'Belarussian' (thanks to Kristof Bal)
 
-2007-09-25 20:27  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-21 17:08:19 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.31
+	* move things (prepare next commit)
 
-2007-09-25 20:26  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-21 17:05:30 +0000 pixel 
 
-	* ChangeLog: Generated by cvs2cl the 25_Sep
+	* fix 2 previous commits: - $raw_X->get_Driver can't be used in auto_installs since monitor is configured first - $raw_X is now needed in choose()
 
-2007-09-25 19:55  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-21 16:32:49 +0000 pixel 
 
-	* po/fr.po: update
+	* simplify
 
-2007-09-25 19:54  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-21 16:31:56 +0000 pixel 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
-	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
-	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
-	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
-	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
-	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
-	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
-	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
-	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
-	  po/uk.po, po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po,
-	  po/zh_CN.po, po/zh_TW.po: sync with code
+	* fix passing xorg "Driver" for monitor probe (for auto_installs)
 
-2007-09-25 19:51  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-21 16:19:33 +0000 pixel 
 
-	* lib/Xconfig/main.pm, lib/Xconfig/monitor.pm, po/af.po, po/am.po,
-	  po/ar.po, po/az.po, po/be.po, po/bg.po, po/bn.po, po/br.po,
-	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
-	  po/drakx-kbd-mouse-x11.pot, po/el.po, po/eo.po, po/es.po,
-	  po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po,
-	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
-	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ky.po,
-	  po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
-	  po/mt.po, po/nb.po, po/nl.po, po/nn.po, po/pa_IN.po, po/pl.po,
-	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po,
-	  po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po,
-	  po/tg.po, po/th.po, po/tl.po, po/tr.po, po/uk.po, po/uz.po,
-	  po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: add
-	  context for "Monitor" (#33773)
+	* if {resolution_wanted} is not set in auto_install, don't have { 'X' => undef, 'Depth' => undef, 'Y' => undef } as the $resolution_wanted
 
-2007-09-25 19:55  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-14 10:09:31 +0000 pixel 
 
-	* po/fr.po: update
+	* - XFdrake   o do not display the weird ratios 128/75, 85/48 (for 1024x600 and 1360x768)
 
-2007-09-25 19:54  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-14 07:44:11 +0000 pixel 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/drakx-kbd-mouse-x11.pot, po/el.po,
-	  po/eo.po, po/es.po, po/et.po, po/eu.po, po/fa.po, po/fi.po,
-	  po/fr.po, po/fur.po, po/ga.po, po/gl.po, po/he.po, po/hi.po,
-	  po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po,
-	  po/ko.po, po/ky.po, po/lt.po, po/ltg.po, po/lv.po, po/mk.po,
-	  po/mn.po, po/ms.po, po/mt.po, po/nb.po, po/nl.po, po/nn.po,
-	  po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po,
-	  po/sc.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po,
-	  po/sv.po, po/ta.po, po/tg.po, po/th.po, po/tl.po, po/tr.po,
-	  po/uk.po, po/uz.po, po/uz@Latn.po, po/vi.po, po/wa.po,
-	  po/zh_CN.po, po/zh_TW.po: sync with code
+	* - XFdrake:   o have Option "PanelGeometry" "XXxYY" on geode driver
 
-2007-09-25 19:51  Thierry Vignaud <tvignaud at mandriva.com>
+2008-11-13 16:19:57 +0000 pixel 
 
-	* lib/Xconfig/main.pm, lib/Xconfig/monitor.pm, po/af.po, po/am.po,
-	  po/ar.po, po/az.po, po/be.po, po/bg.po, po/bn.po, po/br.po,
-	  po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po,
-	  po/drakx-kbd-mouse-x11.pot, po/el.po, po/eo.po, po/es.po,
-	  po/et.po, po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po,
-	  po/ga.po, po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po,
-	  po/id.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ky.po,
-	  po/lt.po, po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po,
-	  po/mt.po, po/nb.po, po/nl.po, po/nn.po, po/pa_IN.po, po/pl.po,
-	  po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po,
-	  po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po,
-	  po/tg.po, po/th.po, po/tl.po, po/tr.po, po/uk.po, po/uz.po,
-	  po/uz@Latn.po, po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: add
-	  context for "Monitor" (#33773)
+	* - XFdrake:   o generic flat planel must allow "800x480 @ 60.00 Hz (GTF) hsync: 29.82 kHz"     so "HorizSync 31.5-90" is too strict, generating "HorizSync 29.5-90"
 
-2007-09-25 14:51  Pixel <pixel at mandriva.com>
+2008-11-11 13:47:48 +0000 pmaryanov 
 
-	* Makefile.config, NEWS: 0.30
+	* updated Russian translation
 
-2007-09-25 14:44  Pixel <pixel at mandriva.com>
+2008-10-24 12:38:10 +0000 pixel 
 
-	* lib/Xconfig/resolution_and_depth.pm: - select "Automatic"
-	  resolution if it was previously chosen
-	  - gray Depth widgets when "Automatic" is selected
+	* - mousedrake:   o do not use /dev/mouse symlink (in xorg.conf)   o do not propose to test the chosen mice     (it doesn't handle evdev/synaptics and so is quite obsolete nowadays)
 
-2007-09-25 14:15  Pixel <pixel at mandriva.com>
+2008-10-15 13:17:20 +0000 felipe 
 
-	* lib/Xconfig/monitor.pm: oops, revert debug code
+	* Fixing a typo
 
-2007-09-25 14:12  Pixel <pixel at mandriva.com>
+2008-10-07 18:47:23 +0000 atilla 
 
-	* NEWS, lib/Xconfig/monitor.pm: - when user asks for "Plug'n Play",
-	  silently default to Xorg auto-detection
-	  when we fail to auto-detect
+	* update translation for turkish language
 
-2007-09-25 14:01  Pixel <pixel at mandriva.com>
+2008-10-05 18:46:06 +0000 atilla 
 
-	* lib/Xconfig/main.pm, lib/Xconfig/resolution_and_depth.pm,
-	  lib/Xconfig/xfree.pm: - add support for "Automatic" resolution
-	  (aka "let xorg do everything")
+	* update translation for turkish language
 
-2007-09-25 13:58  Pixel <pixel at mandriva.com>
+2008-10-05 06:47:29 +0000 fisher 
 
-	* lib/Xconfig/various.pm: cleanup (and prepare for next commits)
+	* small typos in ukrainian translation
 
-2007-09-25 13:30  Pixel <pixel at mandriva.com>
+2008-10-01 13:57:47 +0000 pixel 
 
-	* lib/Xconfig/main.pm: - cleanup
-	  - don't export_to_install_X unset things
-	  (will help for next commits)
+	* 0.64
 
-2007-09-21 12:42  Olivier Blin <oblin at mandriva.com>
+2008-10-01 13:57:30 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.29
+	* - XFdrake:   o explicitly Load or Disable module "dri"     (to be independent of Xorg's default choice)
 
-2007-09-21 11:28  Olivier Blin <oblin at mandriva.com>
+2008-09-29 23:35:10 +0000 tv 
 
-	* NEWS, lib/Xconfig/monitor.pm: unload drivers loaded by
-	  monitor-probe-using-X (fix fglrx usage when harddrake probes
-	  using X and loads radeon driver)
+	* 0.63
 
-2007-09-20 18:42  Pixel <pixel at mandriva.com>
+2008-09-29 23:34:00 +0000 tv 
 
-	* Makefile.config, NEWS: 0.28
+	* 0.63
 
-2007-09-20 18:40  Pixel <pixel at mandriva.com>
+2008-09-29 23:33:30 +0000 tv 
 
-	* NEWS, lib/mouse.pm: - when using evdev for mice, ensure it
-	  doesn't match a keyboard
-	  (eg: in case of a mouse+keyboard combo) (#32905)
+	* Generated by cvs2cl the 30_Sep
 
-2007-09-20 07:03  Pixel <pixel at mandriva.com>
+2008-09-28 06:35:42 +0000 huftis 
 
-	* NEWS, lib/Xconfig/monitor.pm: - fix regression in 0.24: remove
-	  bogus duplicates in monitors tree (#33778)
+	* Updated Norwegian Nynorsk translation.
 
-2007-09-20 04:47  Funda Wang <fundawang at linux.net.cn>
+2008-09-25 15:12:16 +0000 pixel 
 
-	* po/cy.po: Updated cy translation
+	* 0.62
 
-2007-09-19 17:40  Pixel <pixel at mandriva.com>
+2008-09-25 15:11:27 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.27
+	* - XFdrake:   o set "PreferredMode" in Monitor section if the user changes the resolution    (we still do not use PreferredMode for the default resolution)
 
-2007-09-19 13:43  Pixel <pixel at mandriva.com>
+2008-09-25 14:51:31 +0000 pixel 
 
-	* NEWS, lib/Xconfig/xfree.pm, lib/mouse.pm: - for evdev configured
-	  mice, specify bustype
-	  (useful for "Macintosh mouse button emulation" which has same
-	  vendor/product
-	  as "AT Translated Set 2 keyboard")
-	  (need drakxtools-backend 10.4.203)
+	* cleanup: don't modify $default_resolution, use a new var ($resolution) instead (needed for next commit)
 
-2007-09-18 08:27  Michal Bukovjan <bukovjan at mbox.dkm.cz>
+2008-09-25 14:50:01 +0000 pixel 
 
-	* po/cs.po: Updated Czech translation.
+	* create XxY() and use it
 
-2007-09-17 13:58  Pixel <pixel at mandriva.com>
+2008-09-25 14:48:25 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.26
+	* create XxY() and use it
 
-2007-09-15 19:55  Reinout van Schouwen <reinout at cs.vu.nl>
+2008-09-22 20:10:58 +0000 tv 
 
-	* po/nl.po: * 2007-09-15 Reinout van Schouwen <reinouts@gnome.org>
-	  
-	  - nl.po : Updated Dutch translation
+	* Generated by cvs2cl the 22_Sep
 
-2007-09-15 17:04  anssi
+2008-09-11 15:44:07 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: Handle the
-	  new fglrx-hd2000 alternative driver.
+	* 0.61
 
-2007-09-14 13:18  Per Øyvind Karlsen <peroyvind at mandriva.org>
+2008-09-11 15:34:32 +0000 pixel 
 
-	* po/nb.po: completed translation
+	* - keyboarddrake:   o fix lithuanian keyboard choices (cf #41031)
 
-2007-09-13 21:09  acelli
+2008-09-11 10:41:25 +0000 pixel 
 
-	* po/it.po: update translation for Italian
+	* - XFdrake:   o do set a background image when using resolution "Automatic" (#43644)
 
-2007-09-11 20:57  Arpad Biro <biro_arpad at yahoo.com>
+2008-09-09 15:00:43 +0000 pixel 
 
-	* po/hu.po: update
+	* .60
 
-2007-09-11 20:49  Wanderlei Antonio Cavassin <cavassin at mandriva.com>
+2008-09-09 15:00:20 +0000 pixel 
 
-	* po/pt_BR.po: updated pt_BR translation
+	* add bug number
 
-2007-09-10 07:31  Pixel <pixel at mandriva.com>
+2008-08-29 13:01:01 +0000 ybando 
 
-	* Makefile.config, NEWS: 0.25
+	* Japanese translation updated.
 
-2007-09-10 07:31  Pixel <pixel at mandriva.com>
+2008-08-26 13:27:13 +0000 pixel 
 
-	* NEWS: - in the list of available Xorg drivers, add "Driver" from
-	  Cards+
-	  (will ease the maintainance of the list of drivers in
-	  Xconfig/card.pm)
-	  
-	  (see previous commit in card.pm)
+	* don't create symlink /usr/share/mdk/backgrounds/default.png to jpg files (it's not needed anymore)
 
-2007-09-10 07:29  Pixel <pixel at mandriva.com>
+2008-08-19 15:45:04 +0000 pixel 
 
-	* lib/Xconfig/card.pm: - in the list of available Xorg drivers, add
-	  "Driver" from Cards+
-	  (will ease the maintainance of the list of drivers in
-	  Xconfig/card.pm)
+	* - XFdrake:   o [bugfix] fix clicking on "Options" when Composite is disabled     (regression introduced in 0.58)
 
-2007-09-09 10:50  jure
+2008-08-18 12:24:06 +0000 pixel 
 
-	* po/sl.po: Updated Slovenian translation
+	* - XFdrake:   o allow xorg.conf to have no "Monitor" section (#42793)
 
-2007-09-07 12:31  Tomasz Bednarski <tbednarski at mandrivalinux.pl>
+2008-08-18 11:12:18 +0000 pixel 
 
-	* po/pl.po: update
+	* 0.59
 
-2007-09-07 10:40  Pixel <pixel at mandriva.com>
+2008-08-18 11:11:55 +0000 pixel 
 
-	* NEWS, lib/mouse.pm: - minimal support for allowing to choose
-	  evdev on all mice
+	* - XFdrake:   o use 24dpp by default, even on DRI (needed for kde4)
 
-2007-09-07 09:53  Pixel <pixel at mandriva.com>
+2008-07-31 10:17:27 +0000 fisher 
 
-	* Makefile.config, NEWS: 0.24
+	* uk translation update
 
-2007-09-07 09:52  Pixel <pixel at mandriva.com>
+2008-07-05 23:09:30 +0000 kmashrab 
 
-	* NEWS, lib/Xconfig/xfree.pm: revert titi commit which added XFS
-	  configuration again.
-	  
-	  AFAIK, there is no reason to need XFS.
-	  as for
-	  http://archives.mandrivalinux.com/cooker/2007-07/msg04653.php,
-	  it's
-	  simply the result of a badly configured X fontpath. We just have
-	  to ensure
-	  upgrades go smoothly. (nb: XFdrake do not *remove* existing XFS
-	  configuration
-	  from xorg.conf, it simply to not put one when starting from
-	  scratch)
+	* Converted from Uzbek Cyrillic using a proper script.
 
-2007-09-06 07:21  Pixel <pixel at mandriva.com>
+2008-07-04 08:43:08 +0000 pixel 
 
-	* NEWS, lib/Xconfig/monitor.pm: - keep the order from MonitorsDB
-	  file
-	  (allows "Flat Panel 800x600" to be before "Flat Panel 1024x768")
-	  (needs a nicely sorted MonitorsDB though)
+	*   o no need to force XaaNoOffscreenPixmaps, it is the default now in     x11-server
 
-2007-09-06 07:20  Pixel <pixel at mandriva.com>
+2008-06-19 00:36:22 +0000 anssi 
 
-	* NEWS, lib/Xconfig/xfree.pm: - fix default_headers when XFS is
-	  installed
-	  
-	  (ie fixtitypo)
-	  (and do we really want to configure for XFS even if it is not
-	  enabled?)
+	* - XFdrake:   o use nvidia-current default settings for nvidia173 as well
 
-2007-09-06 06:37  Pixel <pixel at mandriva.com>
+2008-06-13 12:06:01 +0000 fisher 
 
-	* Makefile.config, NEWS: 0.23
+	* translation update
 
-2007-09-06 06:37  Pixel <pixel at mandriva.com>
+2008-06-13 07:21:40 +0000 pixel 
 
-	* NEWS, lib/Xconfig/test.pm: - do not start xfs for the test
-	  (#33219)
+	* - XFdrake:   o ensure we don't drop non-main "Device" (when modifying "Options", #41410)
 
-2007-08-29 17:20  nbauer
+2008-06-09 14:46:11 +0000 pixel 
 
-	* po/de.po: Update German translation (Nicolas Bauer)
+	* 0.58
 
-2007-08-27 14:32  Pixel <pixel at mandriva.com>
+2008-06-09 14:46:03 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.22
+	*   o drop support for /etc/X11/XF86Config (replaced by xorg.conf for some time now)
 
-2007-08-27 13:36  anssi
+2008-06-06 07:34:34 +0000 pixel 
 
-	* NEWS, lib/Xconfig/proprietary.pm: handle the renamed proprietary
-	  ati driver (ati => x11-driver-video-fglrx)
+	* fix last typo
 
-2007-08-27 13:31  anssi
+2008-06-06 06:50:40 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm: - use standard.conf as default gl_conf
-	  alternative
-	  - do not add additional libglx ModulePaths for nvidia anymore
+	* fix typo (thanks to pcpa)
 
-2007-08-27 11:54  Pixel <pixel at mandriva.com>
+2008-06-05 17:32:42 +0000 pixel 
 
-	* lib/Xconfig/various.pm: (setupFB) don't die if no bootloader is
-	  configured
-	  (mostly for auto_installs in drakx-in-chroot with broken pci
-	  detection)
+	* create set_extension() and use it
 
-2007-08-21 18:02  Shiva Huang <blueshiva at giga.net.tw>
+2008-06-05 17:30:23 +0000 pixel 
 
-	* po/zh_TW.po: updated po file
+	* - XFdrake:   o Composite is now the default in xserver 1.4 (#35043)
 
-2007-08-21 12:55  Thierry Vignaud <tvignaud at mandriva.com>
+2008-06-05 17:10:15 +0000 pixel 
 
-	* NEWS, lib/Xconfig/xfree.pm: do configure XFS if installed
+	* create remove_extension() and use it
 
-2007-08-21 12:45  Thierry Vignaud <tvignaud at mandriva.com>
+2008-06-05 17:03:30 +0000 pixel 
 
-	* ChangeLog: Generated by cvs2cl the 21_Aug
+	* it's not XFdrake's task to handle /etc/X11/X symlink to ../../usr/bin/Xorg (thanks to pcpa)
 
-2007-08-14 13:25  Thierry Vignaud <tvignaud at mandriva.com>
+2008-06-05 17:02:01 +0000 pixel 
 
-	* Makefile: use -rBASE for svn export in order to please blino by
-	  making sure local changes do not got exported
+	* add Section "Extensions" before other sections (pcpa)
 
-2007-08-14 13:25  Thierry Vignaud <tvignaud at mandriva.com>
+2008-05-04 14:18:37 +0000 nikos 
 
-	* Makefile: use -rBASE for svn export in order to please blino by
-	  making sure local changes do not got exported
+	* greek (el) language update by Dimitris
 
-2007-08-14 09:26  Olivier Blin <oblin at mandriva.com>
+2008-05-02 16:12:03 +0000 sharuzzaman 
 
-	* NEWS, lib/Xconfig/card.pm: add avivo in the Xorg drivers list
+	* Updated Malay translation
 
-2007-08-10 21:01  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+2008-04-28 08:06:15 +0000 pixel 
 
-	* po/eu.po: update translation for basque (euskara)
+	* - mousedrake:   o evdev and imwheel handle orthogonal things, so do use imwheel even if we   need evdev (#40088)
 
-2007-08-10 19:07  Inigo Salvador Azurmendi <xalba at euskalnet.net>
+2008-04-14 16:23:03 +0000 tv 
 
-	* po/eu.po: update translation for basque (euskara)
+	* update (Pîrîu Cristian Ionuţ)
 
-2007-08-09 19:23  Pixel <pixel at mandriva.com>
+2008-04-14 10:43:42 +0000 unho 
 
-	* lib/Xconfig/card.pm: fix typo (thanks to Anssi Hannula)
+	* update translation for galician
 
-2007-08-09 08:57  Pixel <pixel at mandriva.com>
+2008-04-08 19:43:05 +0000 huftis 
 
-	* NEWS, lib/Xconfig/xfree.pm: - when removing/replacing an
-	  InputDevice section, ensure we remove the
-	  corresponding entry in ServerLayout. ie do not rely on
-	  InputDevice sections
-	  to use XFdrake-compatible Identifiers (as suggested by fcrozat)
+	* Updated Norwegian Nynorsk translation.
 
-2007-08-09 08:27  Pixel <pixel at mandriva.com>
+2008-04-03 16:20:19 +0000 huftis 
 
-	* lib/Xconfig/card.pm: perl_checker compliance
+	* Fixed nn translation.
 
-2007-08-09 08:25  Pixel <pixel at mandriva.com>
+2008-04-02 14:23:40 +0000 pixel 
 
-	* lib/Xconfig/card.pm: as suggested by Anssi, do run
-	  update-alternatives even if current alternatives
-	  is the wanted one to ensure the alternative is switched to manual
+	* 0.57
 
-2007-08-08 19:43  Pixel <pixel at mandriva.com>
+2008-04-02 14:22:41 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.21
+	* - workaround pb with nvidia driver: make dm restart xserver (#38297)
 
-2007-08-08 19:42  Pixel <pixel at mandriva.com>
+2008-04-02 14:01:47 +0000 pixel 
 
-	* NEWS, lib/keyboard.pm: - adapt to kbd instead of console-tools:
-	  s/kmap/map/
+	* 0.56
 
-2007-08-08 19:42  Pixel <pixel at mandriva.com>
+2008-04-02 13:59:25 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: - handle
-	  nvidia-current instead of nvidia97xx (thanks to Anssi)
-	  - handle x11-driver-video-$nvidia instead of $nvidia
-	  
-	  nb: pkg_name_for_Driver2() has been dropped, and
-	  pkgs_for_Driver2() arguments
-	  have changed. this allows simplifying install::steps, but causes
-	  incompatibility
+	* - XFdrake:   o do not disable RenderAccel on nvidia-current     (regression introduced in 0.21)
 
-2007-08-07 13:26  Marek Laane <bald at starman.ee>
+2008-03-30 20:05:43 +0000 abiro 
 
-	* po/et.po: Updated Estonian translation.
+	* update
 
-2007-08-07 08:23  ybando
+2008-03-29 12:50:23 +0000 shiyu 
 
-	* po/ja.po: Japanese translation updated.
+	* update translation for Chinese Simplified
 
-2007-08-03 17:08  Pixel <pixel at mandriva.com>
+2008-03-29 12:18:22 +0000 unho 
 
-	* Makefile.config, NEWS: 0.20
+	* update translation for galician
 
-2007-08-03 17:08  Pixel <pixel at mandriva.com>
+2008-03-27 10:53:40 +0000 pixel 
 
-	* lib/Xconfig/main.pm, lib/Xconfig/xfree.pm: since we don't
-	  configure X to use xfs, we don't need to specify a safety
-	  fontpath (was useful when xfs was failing)
+	* 0.55
 
-2007-08-02 14:52  Pixel <pixel at mandriva.com>
+2008-03-27 10:53:16 +0000 pixel 
 
-	* NEWS, lib/mouse.pm: - fix detection of touchpad on some kernels
-	  (#31584)
-	  (need drakxtools-backend >= 10.4.145)
-	  
-	  issue was:
-	  
-	  H: Handlers=event2 ts0 mouse0
-	  
-	  in /proc/bus/input/devices instead of the more usual
-	  
-	  H: Handlers=mouse0 event2 ts0
+	* - XFdrake:   o disable "DynamicTwinView" when not using TwinView (#39171)
 
-2007-08-01 21:08  kmashrab
+2008-03-25 19:21:47 +0000 fabman 
 
-	* po/uz.po, po/uz@Latn.po: Typo fix.
+	* Updated ES translation
 
-2007-08-01 14:49  Pixel <pixel at mandriva.com>
+2008-03-25 14:52:08 +0000 pixel 
 
-	* NEWS, lib/Xconfig/parse.pm, lib/Xconfig/various.pm: - internal:
-	  add many options as having to be used only once, easing their use
-	  and fixing setting them
-	  (eg #31942 where one can't click "Options" after setting EXA)
+	* 0.54
 
-2007-08-01 14:45  Pixel <pixel at mandriva.com>
+2008-03-25 14:51:48 +0000 pixel 
 
-	* lib/Xconfig/parse.pm: get rid of quotes around options, since
-	  they really always want a string (or nothing)
-	  nb: may break around things though
+	* - keyboarddrake library:   o in drakx-finish-install, keyboard is asked after asking country, so have a     good default based on country too (was done for pt_BR but not fr_XX)     (#39221)
 
-2007-08-01 09:20  Pixel <pixel at mandriva.com>
+2008-03-21 13:57:15 +0000 pixel 
 
-	* lib/Xconfig/xfree.pm: ensure "Option" lines ordering is fixed so
-	  that XFdrake doesn't ask to save
-	  config even when no options was changed
+	* 0.53
 
-2007-07-31 09:34  Pixel <pixel at mandriva.com>
+2008-03-21 13:56:55 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/main.pm,
-	  lib/Xconfig/various.pm: - drop support for installing/configuring
-	  915resolution
-	  (no more needed since x11-driver-video-intel 2.0)
+	* - XFdrake:   o allow to set "EXA" on "intel" driver (#39162)
 
-2007-07-30 12:34  Thierry Vignaud <tvignaud at mandriva.com>
+2008-03-20 16:33:51 +0000 pixel 
 
-	* NEWS, lib/Xconfig/xfree.pm: do not configure using xfs anymore
-	  (#32051)
+	* 0.52
 
-2007-07-23 06:23  mmodem
+2008-03-20 16:32:12 +0000 pixel 
 
-	* po/pt.po: update
+	* - XFdrake:   o add option "Force display mode of DVI" on driver "nvidia" (#30066)
 
-2007-07-16 22:39  kamberd
+2008-03-20 13:50:20 +0000 huftis 
 
-	* po/he.po: update translation for Hebrew
+	* Updated Norwegian Nynorsk translation.
 
-2007-07-12 16:45  Karl Ove Hufthammer <karl at huftis.org>
+2008-03-19 13:37:29 +0000 pixel 
 
-	* po/nn.po: Updated Norwegian Nynorsk translation.
+	* - XFdrake library:   o ensure set_default_background() doesn't fail (#39065)     (ie default to 1024x768 if 0x0 is given)
 
-2007-07-09 17:19  Pixel <pixel at mandriva.com>
+2008-03-19 10:43:12 +0000 pixel 
 
-	* Makefile.config, NEWS: 0.19
+	* 0.51
 
-2007-07-09 17:18  Pixel <pixel at mandriva.com>
+2008-03-14 10:40:55 +0000 tv 
 
-	* NEWS, lib/mouse.pm: - wacom configuration:
-	  o enhance configuration by using /dev/input/by-id/xxx
-	  (need drakxtools-backend >= 10.4.144)
+	* (update_n_merge) split it out of (merge) ; now (merge) only update po w/o updating main pot file
 
-2007-07-09 17:11  Pixel <pixel at mandriva.com>
+2008-03-14 10:40:52 +0000 tv 
 
-	* NEWS, lib/Xconfig/xfree.pm: - wacom configuration: add "pad"
-	  InputDevice section
+	* update (Nicolas Bauer)
 
-2007-07-08 12:28  berthy
+2008-03-13 14:25:10 +0000 pixel 
 
-	* po/fr.po: Update fr translation
+	* - XFdrake:   o use 24bpp on savage (#38750)
 
-2007-03-01 16:02  Thierry Vignaud <tvignaud at mandriva.com>
+2008-03-11 16:25:52 +0000 pixel 
 
-	* NEWS: add changelog entries for 0.1, 0.2, 0.3 & 0.5
+	* - keyboarddrake:   o default romanian keyboard is qwerty (cf #38450)   o "ro" really is "ro(std_cedilla)"     (to be more standard on unpatched xkeyboard-config)   o "ro(us)" is wrong and not qwerty, use "ro(winkeys)" which is the only     qwertz from symbols/ro
 
-2007-03-01 15:57  Thierry Vignaud <tvignaud at mandriva.com>
+2008-03-11 13:50:37 +0000 pixel 
 
-	* ChangeLog: kill doble entries
+	* 0.50
 
-2007-03-01 15:57  Thierry Vignaud <tvignaud at mandriva.com>
+2008-03-11 13:50:14 +0000 pixel 
 
-	* ChangeLog: Generated by cvs2cl the 01_Mar
+	* - XFdrake   o handle DRIVER2_NO_SSE (from Cards+), needed by nvidia-current requiring SSE
 
-2007-03-01 15:56  Thierry Vignaud <tvignaud at mandriva.com>
+2008-03-07 00:48:12 +0000 reinouts 
 
-	* Makefile: fix path
+	* 2008-03-07 Reinout van Schouwen  <reinout@gmail.com>
 
-2007-03-01 15:56  Thierry Vignaud <tvignaud at mandriva.com>
+2008-03-01 20:09:27 +0000 nikos 
 
-	* Makefile: make ChangeLog rule working
+	* update translation for greek language (el)
 
-2007-03-01 15:47  Pixel <pixel at mandriva.com>
+2008-02-29 16:25:42 +0000 thomas 
 
-	* Makefile.config, NEWS: 0.6
+	* Update Finnish translation
 
-2007-03-01 15:46  Pixel <pixel at mandriva.com>
+2008-02-28 17:20:11 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: use
-	  ModulePath "/usr/LIB/xorg/modules/extensions/nvidia"
-	  instead of Load
-	  "/usr/LIB/xorg/modules/extensions/nvidia/libglx.so"
-	  (#28779)
+	* - XFdrake:   o if the EDID gives a valid 16/10 preferred resolution (even if duplicated),     but no HorizSync/VertRefresh, use a generic flat panel     HorizSync/VertRefresh (needed for edid.lcd.dell-inspiron-6400, #37971)
 
-2007-03-01 14:55  Pixel <pixel at mandriva.com>
+2008-02-28 16:58:49 +0000 pixel 
 
-	* lib/Xconfig/parse.pm, lib/Xconfig/xfree.pm: add functions to
-	  handle ModulePath (in section "Files")
+	* - 0.49: - XFdrake: background images are now jpeg files
 
-2007-03-01 15:56  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-28 11:06:28 +0000 pixel 
 
-	* Makefile: fix path
+	* 0.48
 
-2007-03-01 15:56  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-28 11:06:07 +0000 pixel 
 
-	* Makefile: make ChangeLog rule working
+	* - XFdrake:   o when setting background for the resolution, handle "hour"-based     backgrounds (also add Mandriva.xml symlink)
 
-2007-03-01 15:47  Pixel <pixel at mandriva.com>
+2008-02-27 15:15:32 +0000 thomas 
 
-	* Makefile.config, NEWS: 0.6
+	* update Swedish translation
 
-2007-03-01 15:46  Pixel <pixel at mandriva.com>
+2008-02-27 14:20:16 +0000 pixel 
 
-	* NEWS, lib/Xconfig/card.pm, lib/Xconfig/proprietary.pm: use
-	  ModulePath "/usr/LIB/xorg/modules/extensions/nvidia"
-	  instead of Load
-	  "/usr/LIB/xorg/modules/extensions/nvidia/libglx.so"
-	  (#28779)
+	* 0.47
 
-2007-03-01 14:55  Pixel <pixel at mandriva.com>
+2008-02-27 14:14:52 +0000 pixel 
 
-	* lib/Xconfig/parse.pm, lib/Xconfig/xfree.pm: add functions to
-	  handle ModulePath (in section "Files")
+	* ignore *.mo
 
-2007-03-01 14:54  Pixel <pixel at mandriva.com>
+2008-02-26 15:39:51 +0000 keld 
 
-	* lib/Xconfig/various.pm: use_DRI_GLX is not for proprietary nvidia
-	  which doesn't use dri
+	* updates
 
-2007-03-01 10:26  ybando
+2008-02-23 21:58:52 +0000 acelli 
 
-	* po/ja.po: Japanese translation revised
+	* update translation for Italian
 
-2007-02-26 18:47  Arpad Biro <biro_arpad at yahoo.com>
+2008-02-22 18:03:34 +0000 mareklaane 
 
-	* po/hu.po: update
+	* Updated Estonian translation.
 
-2007-02-23 13:39  Pablo Saratxaga <pablo at mandriva.com>
+2008-02-21 17:07:22 +0000 pixel 
 
-	* po/br.po: plural forms
+	* - XFdrake:   o when setting background for the resolution, handle "hour"-based backgrounds
 
-2007-02-23 11:30  Pablo Saratxaga <pablo at mandriva.com>
+2008-02-20 17:10:12 +0000 tv 
 
-	* po/pl.po: updated Polish file
+	* update (Rhoslyn Prys)
 
-2007-02-22 21:11  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-18 22:38:36 +0000 berthy 
 
-	* Makefile: (dis) use svn export instead of tar for preparing the
-	  tarball
+	* Update fr translation on behalf of fr team
 
-2007-02-22 21:10  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-18 14:56:36 +0000 tbednarski 
 
-	* po/Makefile: (clean) do not erase drakconf.pot (needed for next
-	  commit) and don't
-	  try to erase twice *.mo
+	* update translation for Polish
 
-2007-02-22 17:42  Pjetur G. Hjaltason <pjetur at pjetur.net>
+2008-02-18 14:41:53 +0000 pixel 
 
-	* po/is.po: few revised strings
+	* 0.46
 
-2007-02-16 14:25  Pixel <pixel at mandriva.com>
+2008-02-18 14:41:32 +0000 pixel 
 
-	* lib/Xconfig/resolution_and_depth.pm: handle both vga=0x3.. and
-	  vga=7..
+	* - XFdrake:   o add 1024x600 (used on Samsung Q1Ultra) (#37889)
 
-2007-02-16 00:48  mmodem
+2008-02-18 00:56:06 +0000 pjetur 
 
-	* po/pt.po: up
+	* 2008.1 update
 
-2007-02-12 11:19  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-17 22:30:00 +0000 mbukovjan 
 
-	* po/cy.po: update (Rhoslyn Prys)
+	* Update Czech translation.
 
-2007-02-08 18:38  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-16 13:48:43 +0000 berthy 
 
-	* Makefile.config: bump release
+	* Update hu translation on behalf of hu team
 
-2007-02-08 09:04  Pixel <pixel at mandriva.com>
+2008-02-16 11:37:34 +0000 berthy 
 
-	* data/pixmaps/colors.png, data/pixmaps/colors16.png,
-	  data/pixmaps/colors8.png, data/pixmaps/monitor-1024.png,
-	  data/pixmaps/monitor-1152.png, data/pixmaps/monitor-1280.png,
-	  data/pixmaps/monitor-1400.png, data/pixmaps/monitor-1600.png,
-	  data/pixmaps/monitor-1920.png, data/pixmaps/monitor-2048.png,
-	  data/pixmaps/monitor-640.png, data/pixmaps/monitor-800.png,
-	  data/pixmaps/monitor.png,
-	  soft/drakx/trunk/perl-install/pixmaps/colors.png,
-	  soft/drakx/trunk/perl-install/pixmaps/colors16.png,
-	  soft/drakx/trunk/perl-install/pixmaps/colors8.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-1024.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-1152.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-1280.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-1400.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-1600.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-1920.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-2048.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-640.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor-800.png,
-	  soft/drakx/trunk/perl-install/pixmaps/monitor.png: move XFdrake
-	  images into drakx-kbd-mouse-x11/
+	* Update eo translation on behalf of eo team
 
-2007-02-08 07:46  Funda Wang <fundawang at linux.net.cn>
+2008-02-14 17:18:03 +0000 cavassin 
 
-	* po/zh_CN.po: Updated Simplified Chinese translations.
+	* updated translation
 
-2007-02-07 19:32  nbauer
+2008-02-13 14:11:08 +0000 shivahuang 
 
-	* po/de.po: Update German translation (Nicolas Bauer)
+	* Update zh_TW translation
 
-2007-02-07 13:33  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-06 04:06:24 +0000 jure 
 
-	* po/br.po: update
+	* Updated Slovenian translation
 
-2007-02-07 11:15  ybando
+2008-02-05 08:20:41 +0000 pixel 
 
-	* po/ja.po: Japanese translation updated.
+	* add bug number
 
-2007-02-07 09:38  Pablo Saratxaga <pablo at mandriva.com>
+2008-02-05 08:17:30 +0000 pixel 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
-	  po/eu.po, po/fa.po, po/fi.po, po/fur.po, po/ga.po, po/gl.po,
-	  po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po,
-	  po/it.po, po/ja.po, po/ko.po, po/ky.po, po/lt.po, po/ltg.po,
-	  po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po, po/nb.po,
-	  po/nl.po, po/nn.po, po/pa_IN.po, po/pl.po, po/pt.po, po/pt_BR.po,
-	  po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po, po/sq.po,
-	  po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po, po/th.po,
-	  po/tl.po, po/tr.po, po/uk.po, po/uz.po, po/uz@Latn.po, po/vi.po,
-	  po/wa.po, po/zh_CN.po, po/zh_TW.po: updated Uzbek file;
-	  retrieved translations from other modules, merged with pot
+	* 0.45
 
-2007-01-29 10:58  Thierry Vignaud <tvignaud at mandriva.com>
+2008-02-02 22:17:21 +0000 mmodem 
 
-	* po/uz.po, po/uz@Latn.po: update (Mashrab Kuvatov)
+	* update
 
-2007-01-29 07:51  Pixel <pixel at mandriva.com>
+2008-02-02 22:13:35 +0000 xalba 
 
-	* Makefile.config, NEWS: 0.4
+	* Osatuta.
 
-2007-01-29 07:48  Pixel <pixel at mandriva.com>
+2008-02-02 18:47:14 +0000 huftis 
 
-	* lib/keyboard.pm: adapt to Xconfig::xfree->read returning a hash
-	  instead of an array
+	* Updated Norwegian Nynorsk translation.
 
-2007-01-28 16:29  Marek Laane <bald at starman.ee>
+2008-02-01 19:25:11 +0000 kamberd 
 
-	* po/et.po: Updated Estonian translation.
+	* update translation for Hebrew
 
-2007-01-23 23:21  mmodem
+2008-02-01 13:50:41 +0000 pmaryanov 
 
-	* po/pt.po: up
+	* updated translation
 
-2007-01-23 19:16  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-31 10:41:45 +0000 tv 
 
-	* .perl_checker, tools/.perl_checker: blacklist enough modules so
-	  that keyboardrake, mousedrake & XFdrake are perl_checker-able
+	* sync with code
 
-2007-01-21 19:11  berthy
+2008-01-29 10:15:45 +0000 pixel 
 
-	* po/fr.po: Update fr translation
+	* log failing setxkbmap
 
-2007-01-21 03:59  Willy Sudiarto Raharjo <willysr at gmail.com>
+2008-01-28 15:17:29 +0000 pixel 
 
-	* po/id.po: Updated
+	* - XFdrake:   o add 800x480 (used on belinea s.book)
 
-2007-01-20 23:02  mmodem
+2008-01-25 10:32:49 +0000 pixel 
 
-	* po/pt.po: up
+	* 0.44
 
-2007-01-19 18:23  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-25 10:32:30 +0000 pixel 
 
-	* Makefile.config: bump release
+	* - library for installer:   o do not force "us" keyboard on everybody that choose "English (American)"     (#36575)
 
-2007-01-19 18:09  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-23 11:27:00 +0000 pixel 
 
-	* tools/XFdrake, tools/keyboarddrake, tools/mousedrake: sync
-	  comments with reality
+	* 0.43
 
-2007-01-19 18:05  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-23 11:19:41 +0000 pixel 
 
-	* lib/Xconfig/glx.pm, tools/XFdrake, tools/keyboarddrake,
-	  tools/mousedrake: lookup translations into drakx-kbd-mouse-x11
-	  domain
+	* - XFdrake:   o if the EDID gives a valid EISA_ID, a valid 16/10 preferred resolution, but     no HorizSync/VertRefresh, use a generic flat panel HorizSync/VertRefresh
 
-2007-01-19 17:35  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-23 11:16:21 +0000 pixel 
 
-	* Makefile.config: bump release
+	* move resolution2ratio() to Xconfig::xfree (for next commit)
 
-2007-01-19 17:35  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-22 16:56:27 +0000 pixel 
 
-	* Makefile: install keyboard.pm & mouse.pm too
+	* 0.42
 
-2007-01-19 14:50  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-22 16:55:54 +0000 pixel 
 
-	* Makefile: fix installing modules
+	* - mousedrake:   o use udev in $PATH instead of /lib/udev/usb_id     (need latest udev pkg)
 
-2007-01-19 14:43  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-22 16:55:09 +0000 pixel 
 
-	* ChangeLog: initial log
+	* - use SendCoreEvents instead of AlwaysCore for wacoms   (needed with new xorg server)
 
-2007-01-19 14:41  Thierry Vignaud <tvignaud at mandriva.com>
+2008-01-21 18:21:35 +0000 shivahuang 
 
-	* COPYING: add license
+	* Update zh_TW translation
 
-2007-01-19 12:18  Pixel <pixel at mandriva.com>
+2008-01-19 17:50:31 +0000 pmaryanov 
 
-	* lib/Xconfig/xfree.pm: - add 2560x1600 (16/10)
-	  - add many more, but commented for now
+	* updated translation
 
-2007-01-19 12:18  Pixel <pixel at mandriva.com>
+2008-01-11 13:02:05 +0000 pixel 
 
-	* lib/Xconfig/xfree.pm: - add 2560x1600 (16/10)
-	  - add many more, but commented for now
+	* - XFdrake:   o sort monitors in text mode so that "Generic|..." monitors do not appear     in the middle of "Vendor|..." monitors
 
-2007-01-18 18:11  Thierry Vignaud <tvignaud at mandriva.com>
+2007-12-16 04:50:30 +0000 keld 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
-	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
-	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po,
-	  po/is.po, po/it.po, po/ja.po, po/ko.po, po/ky.po, po/lt.po,
-	  po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po,
-	  po/nb.po, po/nl.po, po/nn.po, po/pa_IN.po, po/pl.po, po/pt.po,
-	  po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po,
-	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
-	  po/th.po, po/tl.po, po/tr.po, po/uk.po, po/uz.po, po/uz@Latn.po,
-	  po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: cleanup
+	* updates
 
-2007-01-18 17:52  Thierry Vignaud <tvignaud at mandriva.com>
+2007-12-14 16:42:21 +0000 blino 
 
-	* po/af.po, po/am.po, po/ar.po, po/az.po, po/be.po, po/bg.po,
-	  po/bn.po, po/br.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po,
-	  po/da.po, po/de.po, po/el.po, po/eo.po, po/es.po, po/et.po,
-	  po/eu.po, po/fa.po, po/fi.po, po/fr.po, po/fur.po, po/ga.po,
-	  po/gl.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po,
-	  po/is.po, po/it.po, po/ja.po, po/ko.po, po/ky.po, po/lt.po,
-	  po/ltg.po, po/lv.po, po/mk.po, po/mn.po, po/ms.po, po/mt.po,
-	  po/nb.po, po/nl.po, po/nn.po, po/pa_IN.po, po/pl.po, po/pt.po,
-	  po/pt_BR.po, po/ro.po, po/ru.po, po/sc.po, po/sk.po, po/sl.po,
-	  po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/tg.po,
-	  po/th.po, po/tl.po, po/tr.po, po/uk.po, po/uz.po, po/uz@Latn.po,
-	  po/vi.po, po/wa.po, po/zh_CN.po, po/zh_TW.po: import translation
-	  from drakx/trunk/'s share/po and standalone/po
+	* 0.41
 
-2007-01-18 17:50  Thierry Vignaud <tvignaud at mandriva.com>
+2007-12-14 16:41:21 +0000 blino 
 
-	* po/drakx-kbd-mouse-x11.pot: initial catalog
+	* use SendCoreEvents instead of AlwaysCore for Synaptics touchpads (#36140)
 
-2007-01-18 17:40  Thierry Vignaud <tvignaud at mandriva.com>
+2007-12-14 16:35:43 +0000 blino 
 
-	* Makefile, Makefile.config, data, data/icons, data/pixmaps,
-	  data/pixmaps/arrow_down.png, data/pixmaps/arrow_up.png,
-	  data/pixmaps/mouse_2b.png, data/pixmaps/mouse_2b_left.png,
-	  data/pixmaps/mouse_2b_right.png, data/pixmaps/mouse_3b+.png,
-	  data/pixmaps/mouse_3b+_middle.png, data/pixmaps/mouse_3b.png,
-	  data/pixmaps/mouse_3b_left.png, data/pixmaps/mouse_3b_middle.png,
-	  data/pixmaps/mouse_3b_right.png, lib, lib/Xconfig,
-	  lib/keyboard.pm, lib/mouse.pm, lib/xf86misc,
-	  lib/xf86misc/Makefile, po, po/Makefile, tools, tools/XFdrake,
-	  tools/keyboarddrake, tools/mousedrake: move keyboarddrake,
-	  mousedrake and XFdrake in new drakx-kbd-mouse-x11 module
+	* drop unused Primary option in set_synaptics
 
-2007-01-11 12:05  Thierry Vignaud <tvignaud at mandriva.com>
+2007-12-10 08:14:22 +0000 pixel 
 
-	* .: create tree
+	* 0.40
+
+2007-12-10 08:13:36 +0000 pixel 
+
+	* - XFdrake:   o never write a ModeLine when using fglrx driver (#30934)
+
+2007-12-09 22:26:48 +0000 kmashrab 
+
+	* Renamed Uzbek translations to follow the libc standard. Aproved by Pixel. For details, see bug #35090.
+
+2007-12-03 13:10:19 +0000 pixel 
+
+	* simplify: -L/usr/X11R6/$lib is not needed anymore
+
+2007-11-30 15:30:53 +0000 pixel 
+
+	* 0.39
+
+2007-11-21 18:24:53 +0000 pixel 
+
+	* - keyboarddrake:   o use kr(kr104) for the korean keyboard, and don't prompt for a toggle key     since korean use input method instead
+
+2007-11-19 16:53:13 +0000 pixel 
+
+	* - use /dev/input/by-id/xxx device instead of vendor+product for evdev mice   (vendor+product support is dropped in x11-driver-input-evdev-1.2.0)
+
+2007-11-17 17:49:54 +0000 berthy 
+
+	* Update fr translation
+
+2007-11-12 15:51:15 +0000 pixel 
+
+	* - fix device /dev/input/by-id/usb-$ID_SERIAL-event-mouse for wacoms   when the ID_SERIAL contains special chars
+
+2007-11-01 18:42:54 +0000 anssi 
+
+	* Generated by cvs2cl the 01_marras
+
+2007-11-01 18:41:27 +0000 anssi 
+
+	* 0.38
+
+2007-10-30 22:33:01 +0000 keld 
+
+	* updates
+
+2007-10-28 18:42:42 +0000 anssi 
+
+	* handle fglrx_dri.so handled by alternatives
+
+2007-10-17 20:40:10 +0000 abiro 
+
+	* update by Alexander
+
+2007-10-08 15:08:55 +0000 pixel 
+
+	* - display message This setting will be activated after the installation."   only during installation
+
+2007-10-04 17:17:42 +0000 pixel 
+
+	* fix typo
+
+2007-10-04 17:05:49 +0000 pixel 
+
+	* 0.37
+
+2007-10-04 17:05:22 +0000 pixel 
+
+	* - if we probe a monitor EISA_ID but we don't have corresponding   HorizSync/VertRefresh, we must not the monitor info
+
+2007-10-04 16:58:50 +0000 blino 
+
+	* when checking dkms module packages, check that modules are either available in urpmi media, or already installed (fix detection in live)
+
+2007-10-04 08:50:10 +0000 pixel 
+
+	* add the bug number
+
+2007-10-04 08:09:40 +0000 pixel 
+
+	* 0.36
+
+2007-10-04 08:09:05 +0000 pixel 
+
+	* - better fix for typo in 0.32: don't wrongly default to "automatic" resolution   when creating xorg.conf (in non --auto)
+
+2007-10-03 16:22:30 +0000 tv 
+
+	* typo fix
+
+2007-10-03 16:22:20 +0000 tv 
+
+	* 0.35
+
+2007-10-03 16:21:38 +0000 tv 
+
+	* Generated by cvs2cl the 03_Oct
+
+2007-10-03 15:43:51 +0000 tv 
+
+	* update (Fabián Mandelbaum)
+
+2007-10-01 17:40:40 +0000 tv 
+
+	* 0.34
+
+2007-10-01 17:39:40 +0000 tv 
+
+	* Generated by cvs2cl the 01_Oct
+
+2007-10-01 17:39:38 +0000 tv 
+
+	* std changelog aliases
+
+2007-09-30 00:43:56 +0000 anssi 
+
+	* Update Finnish translation.
+
+2007-09-29 16:49:04 +0000 huftis 
+
+	* Updated Norwegian Nynorsk translation.
+
+2007-09-28 20:17:50 +0000 blino 
+
+	* 0.33
+
+2007-09-28 16:21:57 +0000 pixel 
+
+	* - fix typo in 0.32: don't wrongly default to "automatic" resolution when   creating xorg.conf (in non --auto)
+
+2007-09-28 15:21:48 +0000 blino 
+
+	* add support for x11-driver-input-vboxmouse when inside a VirtualBox guest
+
+2007-09-28 15:13:39 +0000 blino 
+
+	* make mice list dynamic, since it probes pci bus
+
+2007-09-28 01:36:58 +0000 willysr 
+
+	* Update Indonesian Translations
+
+2007-09-26 17:52:55 +0000 acelli 
+
+	* update translation for Italian
+
+2007-09-26 14:59:06 +0000 ybando 
+
+	* Japanese translation updated.
+
+2007-09-26 14:23:13 +0000 tv 
+
+	* restore a translation
+
+2007-09-26 14:18:57 +0000 tv 
+
+	* restore deleted strings
+
+2007-09-26 13:27:50 +0000 guclu 
+
+	* update translation for Turkish
+
+2007-09-26 13:21:33 +0000 tbednarski 
+
+	* update
+
+2007-09-26 13:00:28 +0000 guclu 
+
+	* update translation for Turkish
+
+2007-09-26 11:51:56 +0000 tv 
+
+	* update (Rhoslyn Prys)
+
+2007-09-26 11:47:37 +0000 mmodem 
+
+	* up
+
+2007-09-26 11:34:00 +0000 pixel 
+
+	* - we don't set ModulesPath to DRI_GLX_SPECIAL value, so we must read it   differently so that Xconfig::various::info() is correct (#31326)
+
+2007-09-26 11:32:05 +0000 tv 
+
+	* revert a wrong bit
+
+2007-09-26 11:26:03 +0000 tv 
+
+	* update (metq.com>)
+
+2007-09-26 10:41:56 +0000 mmodem 
+
+	* up
+
+2007-09-26 10:10:36 +0000 pixel 
+
+	* 0.32
+
+2007-09-26 10:10:11 +0000 pixel 
+
+	* add a log
+
+2007-09-26 10:08:25 +0000 pixel 
+
+	* do log the typo fix
+
+2007-09-26 10:04:34 +0000 pixel 
+
+	* revert debug code
+
+2007-09-26 10:02:37 +0000 pixel 
+
+	* new feature requires monitor-edid 1.12
+
+2007-09-26 10:02:03 +0000 pixel 
+
+	* - monitor-probe-using-X can now return EDIDs. if Xorg find an EDID (whereas   monitor-get-edid-using-vbe failed), defaults to "Plug'n Play" monitor (ie   let Xorg do things automatically) instead of good_default_monitor.
+
+2007-09-26 02:02:27 +0000 fwang 
+
+	* Updated et translation
+
+2007-09-26 02:00:43 +0000 fwang 
+
+	* Updated zh_CN translation
+
+2007-09-25 23:22:33 +0000 kamberd 
+
+	* update translation for Hebrew
+
+2007-09-25 21:25:46 +0000 cavassin 
+
+	* pt_BR translations
+
+2007-09-25 20:55:20 +0000 abiro 
+
+	* update
+
+2007-09-25 20:46:08 +0000 reinouts 
+
+	* * 2007-09-25 Reinout van Schouwen <reinouts@gnome.org>
+
+2007-09-25 20:38:00 +0000 jure 
+
+	* Updated Slovenian translation
+
+2007-09-25 20:34:30 +0000 jure 
+
+	* Updated Slovenian translation
+
+2007-09-25 20:30:43 +0000 mbukovjan 
+
+	* Updated Czech translation.
+
+2007-09-25 20:27:45 +0000 tv 
+
+	* 0.31
+
+2007-09-25 20:26:54 +0000 tv 
+
+	* Generated by cvs2cl the 25_Sep
+
+2007-09-25 19:55:17 +0000 tv 
+
+	* update
+
+2007-09-25 19:54:58 +0000 tv 
+
+	* sync with code
+
+2007-09-25 19:51:39 +0000 tv 
+
+	* add context for "Monitor" (#33773)
+
+2007-09-25 14:51:58 +0000 pixel 
+
+	* 0.30
+
+2007-09-25 14:44:56 +0000 pixel 
+
+	* - select "Automatic" resolution if it was previously chosen - gray Depth widgets when "Automatic" is selected
+
+2007-09-25 14:15:39 +0000 pixel 
+
+	* oops, revert debug code
+
+2007-09-25 14:12:18 +0000 pixel 
+
+	* - when user asks for "Plug'n Play", silently default to Xorg auto-detection   when we fail to auto-detect
+
+2007-09-25 14:01:30 +0000 pixel 
+
+	* - add support for "Automatic" resolution (aka "let xorg do everything")
+
+2007-09-25 13:58:10 +0000 pixel 
+
+	* cleanup (and prepare for next commits)
+
+2007-09-25 13:30:16 +0000 pixel 
+
+	* - cleanup - don't export_to_install_X unset things   (will help for next commits)
+
+2007-09-21 12:42:28 +0000 blino 
+
+	* 0.29
+
+2007-09-21 11:28:31 +0000 blino 
+
+	* unload drivers loaded by monitor-probe-using-X (fix fglrx usage when harddrake probes using X and loads radeon driver)
+
+2007-09-20 18:42:13 +0000 pixel 
+
+	* 0.28
+
+2007-09-20 18:40:49 +0000 pixel 
+
+	* - when using evdev for mice, ensure it doesn't match a keyboard   (eg: in case of a mouse+keyboard combo) (#32905)
+
+2007-09-20 07:03:10 +0000 pixel 
+
+	* - fix regression in 0.24: remove bogus duplicates in monitors tree (#33778)
+
+2007-09-20 04:47:32 +0000 fwang 
+
+	* Updated cy translation
+
+2007-09-19 17:40:01 +0000 pixel 
+
+	* 0.27
+
+2007-09-19 13:43:42 +0000 pixel 
+
+	* - for evdev configured mice, specify bustype   (useful for "Macintosh mouse button emulation" which has same vendor/product    as "AT Translated Set 2 keyboard")   (need drakxtools-backend 10.4.203)
+
+2007-09-18 08:27:04 +0000 mbukovjan 
+
+	* Updated Czech translation.
+
+2007-09-17 13:58:40 +0000 pixel 
+
+	* 0.26
+
+2007-09-15 19:55:01 +0000 reinouts 
+
+	* * 2007-09-15 Reinout van Schouwen <reinouts@gnome.org>
+
+2007-09-15 17:04:05 +0000 anssi 
+
+	* Handle the new fglrx-hd2000 alternative driver.
+
+2007-09-14 13:18:43 +0000 peroyvind 
+
+	* completed translation
+
+2007-09-13 21:09:54 +0000 acelli 
+
+	* update translation for Italian
+
+2007-09-11 20:57:22 +0000 abiro 
+
+	* update
+
+2007-09-11 20:49:39 +0000 cavassin 
+
+	* updated pt_BR translation
+
+2007-09-10 07:31:27 +0000 pixel 
+
+	* 0.25
+
+2007-09-10 07:31:06 +0000 pixel 
+
+	* - in the list of available Xorg drivers, add "Driver" from Cards+   (will ease the maintainance of the list of drivers in Xconfig/card.pm)
+
+2007-09-10 07:29:34 +0000 pixel 
+
+	* - in the list of available Xorg drivers, add "Driver" from Cards+   (will ease the maintainance of the list of drivers in Xconfig/card.pm)
+
+2007-09-09 10:50:22 +0000 jure 
+
+	* Updated Slovenian translation
+
+2007-09-07 12:31:31 +0000 tbednarski 
+
+	* update
+
+2007-09-07 10:40:19 +0000 pixel 
+
+	* - minimal support for allowing to choose evdev on all mice
+
+2007-09-07 09:53:31 +0000 pixel 
+
+	* 0.24
+
+2007-09-07 09:52:53 +0000 pixel 
+
+	* revert titi commit which added XFS configuration again.
+
+2007-09-06 07:21:37 +0000 pixel 
+
+	* - keep the order from MonitorsDB file   (allows "Flat Panel 800x600" to be before "Flat Panel 1024x768")   (needs a nicely sorted MonitorsDB though)
+
+2007-09-06 07:20:10 +0000 pixel 
+
+	* - fix default_headers when XFS is installed
+
+2007-09-06 06:37:44 +0000 pixel 
+
+	* 0.23
+
+2007-09-06 06:37:19 +0000 pixel 
+
+	* - do not start xfs for the test (#33219)
+
+2007-08-29 17:20:58 +0000 nbauer 
+
+	* Update German translation (Nicolas Bauer)
+
+2007-08-27 14:32:21 +0000 pixel 
+
+	* 0.22
+
+2007-08-27 13:36:47 +0000 anssi 
+
+	* handle the renamed proprietary ati driver (ati => x11-driver-video-fglrx)
+
+2007-08-27 13:31:58 +0000 anssi 
+
+	* - use standard.conf as default gl_conf alternative - do not add additional libglx ModulePaths for nvidia anymore
+
+2007-08-27 11:54:17 +0000 pixel 
+
+	* (setupFB) don't die if no bootloader is configured (mostly for auto_installs in drakx-in-chroot with broken pci detection)
+
+2007-08-21 18:02:15 +0000 shivahuang 
+
+	* updated po file
+
+2007-08-21 12:55:33 +0000 tv 
+
+	* do configure XFS if installed
+
+2007-08-21 12:45:17 +0000 tv 
+
+	* Generated by cvs2cl the 21_Aug
+
+2007-08-14 13:25:04 +0000 tv 
+
+	* use -rBASE for svn export in order to please blino by making sure local changes do not got exported
+
+2007-08-14 09:26:59 +0000 blino 
+
+	* add avivo in the Xorg drivers list
+
+2007-08-10 21:01:06 +0000 xalba 
+
+	* update translation for basque (euskara)
+
+2007-08-10 19:07:17 +0000 xalba 
+
+	* update translation for basque (euskara)
+
+2007-08-09 19:23:54 +0000 pixel 
+
+	* fix typo (thanks to Anssi Hannula)
+
+2007-08-09 08:57:05 +0000 pixel 
+
+	* - when removing/replacing an InputDevice section, ensure we remove the   corresponding entry in ServerLayout. ie do not rely on InputDevice sections   to use XFdrake-compatible Identifiers (as suggested by fcrozat)
+
+2007-08-09 08:27:35 +0000 pixel 
+
+	* perl_checker compliance
+
+2007-08-09 08:25:35 +0000 pixel 
+
+	* as suggested by Anssi, do run update-alternatives even if current alternatives is the wanted one to ensure the alternative is switched to manual
+
+2007-08-08 19:43:23 +0000 pixel 
+
+	* 0.21
+
+2007-08-08 19:42:56 +0000 pixel 
+
+	* - adapt to kbd instead of console-tools: s/kmap/map/
+
+2007-08-08 19:42:06 +0000 pixel 
+
+	* - handle nvidia-current instead of nvidia97xx (thanks to Anssi) - handle x11-driver-video-$nvidia instead of $nvidia
+
+2007-08-07 13:26:31 +0000 mareklaane 
+
+	* Updated Estonian translation.
+
+2007-08-07 08:23:38 +0000 ybando 
+
+	* Japanese translation updated.
+
+2007-08-03 17:08:52 +0000 pixel 
+
+	* 0.20
+
+2007-08-03 17:08:26 +0000 pixel 
+
+	* since we don't configure X to use xfs, we don't need to specify a safety fontpath (was useful when xfs was failing)
+
+2007-08-02 14:52:38 +0000 pixel 
+
+	* - fix detection of touchpad on some kernels (#31584)   (need drakxtools-backend >= 10.4.145)
+
+2007-08-01 21:08:06 +0000 kmashrab 
+
+	* Typo fix.
+
+2007-08-01 14:49:03 +0000 pixel 
+
+	* - internal: add many options as having to be used only once, easing their use   and fixing setting them   (eg #31942 where one can't click "Options" after setting EXA)
+
+2007-08-01 14:45:12 +0000 pixel 
+
+	* get rid of quotes around options, since they really always want a string (or nothing) nb: may break around things though
+
+2007-08-01 09:20:39 +0000 pixel 
+
+	* ensure "Option" lines ordering is fixed so that XFdrake doesn't ask to save config even when no options was changed
+
+2007-07-31 09:34:10 +0000 pixel 
+
+	* - drop support for installing/configuring 915resolution   (no more needed since x11-driver-video-intel 2.0)
+
+2007-07-30 12:34:18 +0000 tv 
+
+	* do not configure using xfs anymore (#32051)
+
+2007-07-23 06:23:19 +0000 mmodem 
+
+	* update
+
+2007-07-16 22:39:23 +0000 kamberd 
+
+	* update translation for Hebrew
+
+2007-07-12 16:45:52 +0000 huftis 
+
+	* Updated Norwegian Nynorsk translation.
+
+2007-07-09 17:19:57 +0000 pixel 
+
+	* 0.19
+
+2007-07-09 17:18:11 +0000 pixel 
+
+	* - wacom configuration:   o enhance configuration by using /dev/input/by-id/xxx     (need drakxtools-backend >= 10.4.144)
+
+2007-07-09 17:11:14 +0000 pixel 
+
+	* - wacom configuration: add "pad" InputDevice section
+
+2007-07-08 12:28:08 +0000 berthy 
+
+	* Update fr translation
+
+2007-07-04 16:06:40 +0000 tv 
+
+	* (changelog) typo fix
+
+2007-07-03 17:50:15 +0000 tv 
+
+	* (changelog) --strip-prefix is now uneeded with svn2cl-0.9
+
+2007-07-02 09:46:20 +0000 fwang 
+
+	* Updated POT file
+
+2007-06-21 06:54:03 +0000 pixel 
+
+	* - fix displaying "3D hardware acceleration: no" for nvidia proprietary driver   (#31326)
+
+2007-06-14 08:40:49 +0000 pixel 
+
+	* 0.18
+
+2007-06-14 08:40:19 +0000 pixel 
+
+	* - handle resolution switch via xrandr without restarting X (#30896)
+
+2007-06-14 08:03:21 +0000 pixel 
+
+	* create ->is_modified and internalize in the raw_X object the handling of saying wether it is modified
+
+2007-06-14 07:48:18 +0000 pixel 
+
+	* prepare next commit
+
+2007-06-14 07:46:46 +0000 pixel 
+
+	* add 1360x768 resolution
+
+2007-06-11 15:23:20 +0000 pixel 
+
+	* - add 1366x768 and 1360x765 resolutions - add big standard resolutions (4/3, 16/10, 16/9) - re-organise the list of resolutions
+
+2007-06-05 06:52:35 +0000 pixel 
+
+	* - [bugfix] fix test message not translated (#30261)
+
+2007-05-30 08:44:22 +0000 pixel 
+
+	* add the bug number
+
+2007-05-21 14:04:10 +0000 felipe 
+
+	* fixing some fuzzy entries and translating messages to pt_BR
+
+2007-05-18 11:04:55 +0000 blino 
+
+	* fix typo in ServerFlags keystrokes
+
+2007-05-18 10:08:51 +0000 pixel 
+
+	* - remove all fglrx options, hopefully default is good enough   (and at least MonitorLayout option is depreacated as reported on cooker    by Colin Close)
+
+2007-05-09 08:09:19 +0000 pixel 
+
+	* 0.17
+
+2007-05-09 08:08:19 +0000 pixel 
+
+	* - fix using proprietary driver (remove debug code) (thanks to Michael Altizer)
+
+2007-04-30 14:45:01 +0000 pixel 
+
+	* 0.16
+
+2007-04-30 14:44:12 +0000 pixel 
+
+	* - ask "Do you wish to use proprietary driver" before installing the needed packages
+
+2007-04-30 14:36:01 +0000 pixel 
+
+	* revert change, may_use_Driver2 returns true even if kernel drivers are missing
+
+2007-04-30 13:10:52 +0000 pixel 
+
+	* don't install proprietary packages if drivers are already available (it helps not forcing to install the nvidia-kernel-2.6.xxx)
+
+2007-04-30 13:09:09 +0000 pixel 
+
+	* "i810" is now "intel"
+
+2007-04-30 13:08:47 +0000 pixel 
+
+	* - handle new intel driver (including migration from "i810")
+
+2007-04-30 13:06:31 +0000 pixel 
+
+	* - handle new intel driver (don't propose 915resolution when using new driver)
+
+2007-04-30 13:04:59 +0000 pixel 
+
+	* - don't use 1280x1024 prefered resolution   (using prefered resolution only when adding explicit gtf modelines)
+
+2007-04-30 12:30:14 +0000 blino 
+
+	* use intel driver instead of i810
+
+2007-04-25 12:26:16 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:14:41 +0000 pixel 
+
+	* oops, wrongly moved to drakx-kbd-mouse-x11 instead of drakx-net
+
+2007-04-25 10:11:01 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:10:49 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:10:12 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:10:09 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:06:11 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:05:59 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:05:53 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:05:45 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:05:19 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:04:32 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:04:12 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:04:06 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:03:06 +0000 pixel 
+
+	* re-sync after the big svn loss
+
+2007-04-25 10:03:03 +0000 pixel 
+
+	* re-sync after the big svn loss
 
