@@ -58,7 +58,7 @@ sub default {
 	if_($card->{Driver} eq 'intel' && $isLaptop, Clone => 0),
 	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
 	if_(exists $card->{DRI_GLX}, use_DRI_GLX => $card->{DRI_GLX} && !$card->{Xinerama}),
-#	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
+	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
     });
 }
 
@@ -167,16 +167,15 @@ sub config {
 	    if ($various->{EXA}) {
 		delete $card->{Options}{AccelMethod};
 	    } else {
+                $card->{Options}{AccelMethod} = 'XAA';
+            }
+         } else {
+            if ($various->{EXA}) {
 		$card->{Options}{AccelMethod} = 'EXA';
+            } else {
+                delete $card->{Options}{AccelMethod};
 	    }
         } 
-#        else {
-#	    if ($various->{EXA}) {
-#		$card->{Options}{AccelMethod} = 'EXA';
-#	    } else {
-#		delete $card->{Options}{AccelMethod};
-#	    }
-#	}
     }
 
     if (exists $various->{ForceModeDVI}) {
@@ -269,9 +268,9 @@ sub choose {
 	  exists $various->{BIOSHotkeys} ?
 	{ text => N("Enable BIOS hotkey for external monitor switching"),
 	  type => 'bool', val => \$various->{BIOSHotkeys} } : (),	
-#	  exists $various->{EXA} ?
-#	{ text => N("Use EXA instead of XAA (better performance for Render and Composite)"),
-#	  type => 'bool', val => \$various->{EXA} } : (),
+          exists $various->{EXA} ?
+        { text => N("Use EXA instead of XAA (better performance for Render and Composite)"),
+          type => 'bool', val => \$various->{EXA} } : (),
 	{ label => N("Graphical interface at startup"), title => 1 },
 	{ text => N("Automatically start the graphical interface (Xorg) upon booting"),
 	  type => 'bool', val => \$various->{xdm} },
