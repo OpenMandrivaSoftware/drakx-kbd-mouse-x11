@@ -810,11 +810,6 @@ Section "ServerFlags"
     Option "DontZap" "False" # disable <Ctrl><Alt><BS> (server abort)
     #DontZoom # disable <Ctrl><Alt><KP_+>/<KP_-> (resolution switching)
     AllowMouseOpenFail # allows the server to start up even if the mouse does not work
-EndSection
-Section "InputClass"
-    Identifier      "Keyboard Defaults"
-    MatchIsKeyboard "yes"
-    Option          "XkbOptions" "terminate:ctrl_alt_bksp"
 END
 
 require detect_devices;
