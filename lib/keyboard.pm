@@ -636,10 +636,8 @@ sub write {
 	run_program::rooted($::prefix, '/bin/dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
     if (-x $localectl) { # systemd service
-	run_program::run($localectl, '--no-convert', 'set-keymap', 
-		$keyboard->{KEYTABLE}, $keyboard->{GRP_TOGGLE});
-	run_program::run($localectl, '--no-convert', 'set-x11-keymap', 
-		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
+    run_program::run('localectl', 'set-keymap', '--no-convert', keyboard2kmap($keyboard));
+    run_program::run('localectl', 'set-x11-keymap', '--no-convert', $keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
     } else {
 	setVarsInSh("$::prefix/etc/sysconfig/keyboard", $keyboard);
 	run_program::run('mandriva-setup-keyboard');
