@@ -189,7 +189,7 @@ sub write {
 	substInFile { 
 	    $_ = '' if /^\Qdev.mac_hid.mouse_button/;
 	    $_ .= $s if eof;
-	} "$::prefix/etc/sysctl.conf";
+	} "$::prefix/etc/sysctl.d/51-drakx.conf";
     }
 }
 
