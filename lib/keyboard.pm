@@ -631,7 +631,7 @@ sub write {
 	substInFile { 
             $_ = '' if /^\Qdev.mac_hid.keyboard_sends_linux_keycodes/;
             $_ .= $s if eof;
-        } "$::prefix/etc/sysctl.conf";
+        } "$::prefix/etc/sysctl.d/51-drakx.conf";
     } else {
 	run_program::rooted($::prefix, '/bin/dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
