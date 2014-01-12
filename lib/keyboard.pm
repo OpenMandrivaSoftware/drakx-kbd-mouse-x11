@@ -419,7 +419,7 @@ key to switch between the different keyboard layouts.")));
 sub loadkeys_files {
     my ($err) = @_;
     my $archkbd = arch() =~ /^sparc/ ? "sun" : arch() =~ /i.86|x86_64/ ? "i386" : arch() =~ /ppc/ ? "mac" : arch();
-    my $p = "/usr/lib/kbd/keymaps/$archkbd";
+    my $p = "/lib/kbd/keymaps/$archkbd";
     my $post = ".map.gz";
     my %trans = ("cz-latin2" => "cz-lat2");
     my %find_file;
