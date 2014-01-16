@@ -31,8 +31,8 @@ if (!$mouse || !$::auto) {
     mouse::select($in, $mouse) or $in->exit(0);
 }
 
-mouse::write_conf($in->do_pkgs, $modules_conf, $mouse, 1);
+mouse::write_conf($in->do_pkgs, $modules_conf, $mouse, 1)
 
-system('service', 'gpm', 'restart') if -e '/var/lock/subsys/gpm';
+system('systemctl', 'try-restart', 'gpm.service') if -e '/lib/systemd/system/gpm.service';
 
 $in->exit(0);
