@@ -88,7 +88,9 @@ sub to_raw_X {
 }
 
 sub probe() {
-    my @c = detect_devices::probeall();
+#-for Pixel tests
+#-    my @c = { driver => 'Card:Matrox Millennium G400 DualHead', description => 'Matrox|Millennium G400 Dual HeadCard' };
+    my @c = detect_devices::matching_driver__regexp('^(Card|Server|Driver):');
 
     # prefer the boot device
     my @cards = sort { $b->{boot_device} cmp $a->{boot_device} } map {
@@ -102,9 +104,8 @@ sub probe() {
 	if (my ($card_name) = $_->{driver} =~ /Card:(.*)/) { 
 	    $card->{BoardName} = $card_name; 
 	    add_to_card__using_Cards($card, $card_name);
-	} elsif ($_->{driver} =~ /(.*)/) { 
+	} elsif ($_->{driver} =~ /Driver:(.*)/) { 
 	    $card->{Driver} = $1;
-	    $card->{Driver2} = $1;
 	} else { 
 	    internal_error();
 	}
