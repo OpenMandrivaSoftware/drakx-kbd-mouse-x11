@@ -396,21 +396,21 @@ sub group_toggle_choose {
     my ($in, $keyboard) = @_;
 
     if (my $grp_toggles = _grp_toggles($keyboard)) {
-	my $GRP_TOGGLE = $keyboard->{GRP_TOGGLE} || 'caps_toggle';
-	$GRP_TOGGLE = $in->ask_from_listf('', N("Here you can choose the key or key combination that will 
+ 	my $KEYMAP_TOGGLE = $keyboard->{KEYMAP_TOGGLE} || 'caps_toggle';
+	$KEYMAP_TOGGLE = $in->ask_from_listf('', N("Here you can choose the key or key combination that will 
 allow switching between the different keyboard layouts
-(eg: latin and non latin)"), sub { translate($grp_toggles->{$_[0]}) }, [ sort keys %$grp_toggles ], $GRP_TOGGLE) or return;
+(eg: latin and non latin)"), sub { translate($grp_toggles->{$_[0]}) }, [ sort keys %$grp_toggles ], $KEYMAP_TOGGLE) or return;
 
-        if ($::isInstall && $GRP_TOGGLE ne 'rctrl_toggle') {
+        if ($::isInstall && $KEYMAP_TOGGLE ne 'rctrl_toggle') {
 	    $in->ask_warn(N("Warning"), formatAlaTeX(
 N("This setting will be activated after the installation.
 During installation, you will need to use the Right Control
 key to switch between the different keyboard layouts.")));
 	}
-        log::l("GRP_TOGGLE: $GRP_TOGGLE");
-        $keyboard->{GRP_TOGGLE} = $GRP_TOGGLE;
+        log::l("KEYMAP_TOGGLE: $KEYMAP_TOGGLE");
+        $keyboard->{KEYMAP_TOGGLE} = $KEYMAP_TOGGLE;
     } else {
-        $keyboard->{GRP_TOGGLE} = '';
+        $keyboard->{KEYMAP_TOGGLE} = '';
     }
     1;
 }
@@ -551,15 +551,15 @@ sub keyboard2full_xkb {
     my ($keyboard) = @_;
 
     my $Layout = _keyboard2xkb($keyboard) or return { XkbDisable => '' };
-    if ($keyboard->{GRP_TOGGLE} && $Layout !~ /,/) {
+    if ($keyboard->{KEYMAP_TOGGLE} && $Layout !~ /,/) {
 	$Layout = join(',', 'us', $Layout);
     }
 
     my $Model = $keyboard->{XkbModel} || default_XkbModel($keyboard);
 
     my $Options = join(',', 
-	if_($keyboard->{GRP_TOGGLE}, "grp:$keyboard->{GRP_TOGGLE}", 'grp_led:scroll'),
-	if_($keyboard->{GRP_TOGGLE} ne 'rwin_toggle', 'compose:rwin'), 
+	if_($keyboard->{KEYMAP_TOGGLE}, "grp:$keyboard->{KEYMAP_TOGGLE}", 'grp_led:scroll'),
+	if_($keyboard->{KEYMAP_TOGGLE} ne 'rwin_toggle', 'compose:rwin'), 
     );
 
     { XkbModel => $Model, XkbLayout => $Layout, XkbOptions => $Options };
@@ -624,7 +624,7 @@ sub write {
     $keyboard = { %$keyboard };
     put_in_hash($keyboard, keyboard2full_xkb($keyboard));
     delete $keyboard->{unsafe};
-    $keyboard->{KEYTABLE} = keyboard2kmap($keyboard);
+    $keyboard->{KEYMAP} = keyboard2kmap($keyboard);
 
     if (arch() =~ /ppc/) {
 	my $s = "dev.mac_hid.keyboard_sends_linux_keycodes = 1\n";
@@ -636,10 +636,12 @@ sub write {
 	run_program::rooted($::prefix, '/bin/dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
     if (-x $localectl) { # systemd service
-    run_program::run('localectl', 'set-keymap', '--no-convert', keyboard2kmap($keyboard));
-    run_program::run('localectl', 'set-x11-keymap', '--no-convert', $keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
+	run_program::run($localectl, '--no-convert', 'set-keymap', 
+		$keyboard->{KEYMAP}, $keyboard->{KEYMAP_TOGGLE});
+	run_program::run($localectl, '--no-convert', 'set-x11-keymap', 
+		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
     } else {
-	setVarsInSh("$::prefix/etc/sysconfig/keyboard", $keyboard);
+	setVarsInSh("$::prefix/etc/vconsole.conf", $keyboard);
 	run_program::run('mandriva-setup-keyboard');
     }
 }
@@ -658,8 +660,8 @@ sub read() {
     my %keyboard;
   if (-x $localectl) { # systemd dbus based service
     foreach (run_program::rooted_get_stdout($::prefix, $localectl)) {
-	/^ *VC Keymap: (.*)$/ and $keyboard{KEYTABLE} = $1;
-	/^ *VC Toggle Keymap: (.*)$/ and $keyboard{GRP_TOGGLE} = $1;
+	/^ *VC Keymap: (.*)$/ and $keyboard{KEYMAP} = $1;
+	/^ *VC Toggle Keymap: (.*)$/ and $keyboard{KEYMAP_TOGGLE} = $1;
 	/^ *X11 Layout: (.*)$/ and $keyboard{XkbLayout} = $1;
 	/^ *X11 Model: (.*)$/ and $keyboard{XkbModel} = $1;
 	/^ *X11 Variant: (.*)$/ and $keyboard{XkbVariant} = $1;
@@ -667,17 +669,19 @@ sub read() {
     }
     $keyboard{KEYBOARD} = _xkb2keyboardkey($keyboard{XkbLayout});
     # if keyboard not defined, we fallback to old config file
-    if ($keyboard{XkbModel} =~ m/n\/a/ || $keyboard{KEYTABLE} =~  m/n\/a/ ) {
+    if ($keyboard{XkbModel} =~ m/n\/a/ || $keyboard{KEYMAP} =~  m/n\/a/ ) {
 	%keyboard = getVarsFromSh("$::prefix/etc/sysconfig/keyboard") or return;
     }
   } else {
-    %keyboard = getVarsFromSh("$::prefix/etc/sysconfig/keyboard") or return;
+    %keyboard = getVarsFromSh("$::prefix/etc/vconsole.conf") or return;
   }
     if (!$keyboard{KEYBOARD}) {
-	add2hash(\%keyboard, grep { keyboard2kmap($_) eq $keyboard{KEYTABLE} } _keyboards());
+	add2hash(\%keyboard, grep { keyboard2kmap($_) eq $keyboard{KEYMAP} } _keyboards());
     }
     keyboard2text(\%keyboard) && \%keyboard;
+
 }
+
 sub read_or_default() { &read() || default() }
 
 sub check() {
@@ -716,8 +720,8 @@ sub check() {
 
     my @kmaps_available = map { if_(m|.*/(.*)\.bkmap|, $1) } `tar tfj share/keymaps.tar.bz2`;
     my @kmaps_wanted = map { keyboard2kmap($_) } _keyboards();
-    $err->("missing KEYTABLE $_ (either share/keymaps.tar.bz2 need updating or $_ is bad)") foreach difference2(\@kmaps_wanted, \@kmaps_available);
-    $err->("unused KEYTABLE $_ (update share/keymaps.tar.bz2 using share/keymaps_generate)") foreach difference2(\@kmaps_available, \@kmaps_wanted);
+    $err->("missing KEYMAP $_ (either share/keymaps.tar.bz2 need updating or $_ is bad)") foreach difference2(\@kmaps_wanted, \@kmaps_available);
+    $err->("unused KEYMAP $_ (update share/keymaps.tar.bz2 using share/keymaps_generate)") foreach difference2(\@kmaps_available, \@kmaps_wanted);
 
     loadkeys_files($err);
 

@@ -58,7 +58,7 @@ sub default {
 	if_($card->{Driver} eq 'intel' && $isLaptop, Clone => 0),
 	if_($card->{Driver} eq 'ati' && $isLaptop, Clone => 1, BIOSHotkeys => 0),
 	if_(exists $card->{DRI_GLX}, use_DRI_GLX => $card->{DRI_GLX} && !$card->{Xinerama}),
-	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
+#	if_(member($card->{Driver}, qw(i128 ati sis trident via savage)), EXA => 0), #- list taken from http://wiki.x.org/wiki/ExaStatus
     });
 }
 
@@ -167,15 +167,16 @@ sub config {
 	    if ($various->{EXA}) {
 		delete $card->{Options}{AccelMethod};
 	    } else {
-                $card->{Options}{AccelMethod} = 'XAA';
-            }
-         } else {
-            if ($various->{EXA}) {
 		$card->{Options}{AccelMethod} = 'EXA';
-            } else {
-                delete $card->{Options}{AccelMethod};
 	    }
         } 
+#        else {
+#	    if ($various->{EXA}) {
+#		$card->{Options}{AccelMethod} = 'EXA';
+#	    } else {
+#		delete $card->{Options}{AccelMethod};
+#	    }
+#	}
     }
 
     if (exists $various->{ForceModeDVI}) {
@@ -268,9 +269,9 @@ sub choose {
 	  exists $various->{BIOSHotkeys} ?
 	{ text => N("Enable BIOS hotkey for external monitor switching"),
 	  type => 'bool', val => \$various->{BIOSHotkeys} } : (),	
-          exists $various->{EXA} ?
-        { text => N("Use EXA instead of XAA (better performance for Render and Composite)"),
-          type => 'bool', val => \$various->{EXA} } : (),
+#	  exists $various->{EXA} ?
+#	{ text => N("Use EXA instead of XAA (better performance for Render and Composite)"),
+#	  type => 'bool', val => \$various->{EXA} } : (),
 	{ label => N("Graphical interface at startup"), title => 1 },
 	{ text => N("Automatically start the graphical interface (Xorg) upon booting"),
 	  type => 'bool', val => \$various->{xdm} },
@@ -409,18 +410,56 @@ sub setupFB {
 }
 
 sub setup_kms() {
-    change_bootloader_config(
-       sub {
-           my ($bootloader) = @_;
-           my $kms_ok = run_program::rooted($::prefix, "/sbin/display_driver_helper", "--is-kms-allowed") || 0;
-           return if $kms_ok != bootloader::get_append_simple($bootloader, "nokmsboot");
-           if ($kms_ok) {
-               bootloader::remove_append_simple($bootloader, "nokmsboot");
-           } else {
-               bootloader::set_append_simple($bootloader, "nokmsboot");
-           }
-           1;
-       });
+	# Check whether KMS is supported
+	my $kms_ok = run_program::rooted($::prefix, "/sbin/display_driver_helper", "--is-kms-allowed") || 0;
+
+	# Read the current Grub2 configuration
+	my $grub;
+	open($grub, '<', '/etc/default/grub') or return 0;
+	my @lines = <$grub>;
+	close($grub);
+
+	# Update the kernel command line with KMS option
+	my $cmdline_found = 0;
+	foreach my $line (@lines) {
+		# Skip comments
+		next if ($line =~ m/^\s*#/);
+
+		# If found the command line update it
+		if ($line =~ m/^\s*GRUB_CMDLINE_LINUX_DEFAULT\s*=\s*(.*)/) {
+			$cmdline_found = 1;
+			# Strip the value from surrounding quotes (if any)
+			my $value = $1;
+			$value =~ s/^['"]//;
+			$value =~ s/['"]$//;
+			# To avoid messing with starting/trailing spaces, just split the list of parameters
+			# and join it afterwards
+			my @params = split(m/\s+/, $value);
+			if ($kms_ok) {
+				# KMS is supported, remove nokmsboot parameter
+				$value = join(' ', grep { $_ ne 'nokmsboot' } @params);
+			}
+			else {
+				# KMS is not supported, add nokmsboot (but remove it first to avoid duplicates)
+				$value = join(' ', grep { $_ ne 'nokmsboot' } @params, 'nokmsboot');
+			}
+			# Finally update the source line of the config
+			$line = "GRUB_CMDLINE_LINUX_DEFAULT=\"$value\"\n";
+		}
+	}
+
+	# Save resultant config file
+	open($grub, '>', '/etc/default/grub') or return 0;
+	if (!$cmdline_found && !$kms_ok) {
+		# We needed to add nokmsboot, but the command line option was not present in the config -> add it manually
+		print $grub "GRUB_CMDLINE_LINUX_DEFAULT=\"nokmsboot\"\n"
+	}
+	foreach (@lines) {
+		print $grub $_;
+	}
+	close($grub);
+	system('grub2-mkconfig -o /boot/grub2/grub.cfg');
+	return 1;
 }
 
 1;

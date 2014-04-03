@@ -131,7 +131,7 @@ sub set_mice {
 sub _is_mouse {
     my ($entry) = @_;
     my $Driver = val($entry->{Driver});
-    member($Driver, qw(mouse vboxmouse vmmouse)) || $Driver eq 'evdev' && !val($entry->{XkbLayout});
+    member($Driver, qw(mouse vmmouse)) || $Driver eq 'evdev' && !val($entry->{XkbLayout});
 }
 sub _new_mouse_sections {
     my ($raw_X, @Drivers) = @_;
@@ -814,7 +814,7 @@ EndSection
 Section "InputClass"
     Identifier      "Keyboard Defaults"
     MatchIsKeyboard "yes"
-    Option          "XkbOptions" "terminate:ctrl_alt_bksp
+    Option          "XkbOptions" "terminate:ctrl_alt_bksp"
 END
 
 require detect_devices;
