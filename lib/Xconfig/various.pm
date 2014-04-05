@@ -443,7 +443,7 @@ sub setup_kms() {
 			}
 			else {
 				# KMS is not supported, add nokmsboot (but remove it first to avoid duplicates)
-				$value = join(' ', grep { $_ ne 'nokmsboot' } @params, 'nokmsboot');
+				$value = join(' ', (grep { $_ ne 'nokmsboot' } @params), 'nokmsboot');
 			}
 			# Finally update the source line of the config
 			$line = "GRUB_CMDLINE_LINUX_DEFAULT=\"$value\"\n";
