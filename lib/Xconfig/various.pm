@@ -238,7 +238,9 @@ sub runlevel {
 	}
     } else {
 	cat_($f) =~ /^id:(\d):initdefault:\s*$/m && return $1;
-	readlink("$::prefix/etc/systemd/system/default.target") =~ /runlevel(\d).target/m && return $1;
+	my $link = readlink("$::prefix/etc/systemd/system/default.target")
+        $link =~ /runlevel(\d).target/m && return $1;
+        $link =~ /graphical.target/m && return 5;
     }
 }
 
