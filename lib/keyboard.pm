@@ -12,7 +12,7 @@ use run_program;
 use lang;
 use log;
 use c;
-
+use bootloader;
 
 #-######################################################################################
 #- Globals
@@ -640,6 +640,7 @@ sub write {
 		$keyboard->{KEYMAP}, $keyboard->{KEYMAP_TOGGLE});
 	run_program::run($localectl, '--no-convert', 'set-x11-keymap', 
 		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
+        bootloader::set_default_grub_var('vconsole.keymap', $keyboard->{KEYMAP});
     } else {
 	setVarsInSh("$::prefix/etc/vconsole.conf", $keyboard);
 	run_program::run('mandriva-setup-keyboard');
