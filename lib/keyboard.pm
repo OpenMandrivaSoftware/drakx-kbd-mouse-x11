@@ -635,15 +635,15 @@ sub write {
     } else {
 	run_program::rooted($::prefix, '/bin/dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
-    if (-x $localectl) { # systemd service
-	run_program::run($localectl, '--no-convert', 'set-keymap', 
+    if (-x "$::prefix$localectl") { # systemd service
+	run_program::rooted($::prefix, $localectl, '--no-convert', 'set-keymap',
 		$keyboard->{KEYMAP}, $keyboard->{KEYMAP_TOGGLE});
-	run_program::run($localectl, '--no-convert', 'set-x11-keymap', 
+	run_program::rooted($localectl, '--no-convert', 'set-x11-keymap', 
 		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
         bootloader::set_default_grub_var('vconsole.keymap', $keyboard->{KEYMAP});
     } else {
 	setVarsInSh("$::prefix/etc/vconsole.conf", $keyboard);
-	run_program::run('mandriva-setup-keyboard');
+	run_program::rooted('mandriva-setup-keyboard');
     }
 }
 
