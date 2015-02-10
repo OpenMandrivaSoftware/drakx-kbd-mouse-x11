@@ -626,6 +626,31 @@ sub write {
     delete $keyboard->{unsafe};
     $keyboard->{KEYMAP} = keyboard2kmap($keyboard);
 
+    if ($keyboard->{'KEYTABLE'}) {
+	my $h2 = { 'KEYMAP' => $keyboard->{'KEYTABLE'} };
+	addVarsInShMode("$::prefix/etc/vconsole.conf", 0644, $h2);
+    }
+
+    my $xorgconf = "# Read and parsed by systemd-localed. It's probably wise not to edit this file\n" .
+    "# manually too freely.\n" .
+    "Section \"InputClass\"\n" .
+    " Identifier \"system-keyboard\"\n" .
+    " MatchIsKeyboard \"on\"\n";
+    if ($keyboard->{'XkbLayout'}) {
+	$xorgconf .= " Option \"XkbLayout\" \"" . $keyboard->{'XkbLayout'} . "\"\n";
+    }
+    if ($keyboard->{'XkbModel'}) {
+	$xorgconf .= " Option \"XkbModel\" \"" . $keyboard->{'XkbModel'} . "\"\n";
+    }
+    if ($keyboard->{'XkbVariant'}) {
+	$xorgconf .= " Option \"XkbVariant\" \"" . $keyboard->{'XkbVariant'} . "\"\n";
+    }
+    if ($keyboard->{'XkbOptions'}) {
+	$xorgconf .= " Option \"XkbOptions\" \"" . $keyboard->{'XkbOptions'} . "\"\n";
+    }
+    $xorgconf .= "EndSection\n";
+    output_p("$::prefix/etc/X11/xorg.conf.d/00-keyboard.conf", $xorgconf);
+
     if (arch() =~ /ppc/) {
 	my $s = "dev.mac_hid.keyboard_sends_linux_keycodes = 1\n";
 	substInFile { 
