@@ -73,7 +73,7 @@ sub to_raw_X {
     $raw_X->remove_load_module(modules_dir() . "$_/libglx.so") foreach '/extensions/nvidia-current', '/extensions/nvidia-current_legacy', '/extensions';
 
     # remove ModulePath that we added
-    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia97xx', 'nvidia96xx', 'nvidia71xx', 'nvidia173', 'nvidia304', 'nvidia-long-lived', 'nvidia-current';
+    $raw_X->remove_ModulePath(modules_dir() . "/extensions/$_") foreach 'nvidia173', 'nvidia';
     $raw_X->remove_ModulePath(modules_dir());
     #- if we have some special ModulePath, ensure the last one is the standard ModulePath
     $raw_X->add_ModulePath(modules_dir()) if $raw_X->get_ModulePaths;

@@ -479,22 +479,22 @@ sub change_mouse_live {
 
 sub test_mouse_install {
     my ($mouse, $x_protocol_changed) = @_;
-    require ugtk2;
-    ugtk2->import(qw(:wrappers :create));
-    my $w = ugtk2->new(N("Testing the mouse"), disallow_big_help => 1);
-    my $darea = Gtk2::DrawingArea->new;
-    $darea->set_events([ 'button_press_mask', 'button_release_mask' ]);  #$darea must be unrealized.
+    require ugtk3;
+    ugtk3->import(qw(:wrappers :create));
+    my $w = ugtk3->new(N("Testing the mouse"), disallow_big_help => 1);
+    my $darea = Gtk3::DrawingArea->new;
+    $darea->set_events(${ Gtk3::Gdk::EventMask->new([ 'button_press_mask', 'button_release_mask' ]) });  #$darea must be unrealized.
     gtkadd($w->{window},
-  	   gtkpack(my $vbox_grab = Gtk2::VBox->new(0, 0),
+  	   gtkpack(my $vbox_grab = Gtk3::VBox->new(0, 0),
 		   $darea,
 		   gtkset_sensitive(create_okcancel($w, undef, '', 'edge'), 1)
 		  ),
 	  );
     test_mouse($mouse, $darea, $x_protocol_changed);
     $w->sync; # HACK
-    Gtk2::Gdk->pointer_grab($vbox_grab->window, 1, 'pointer_motion_mask', $vbox_grab->window, undef, 0);
+    Gtk3::Gdk->pointer_grab($vbox_grab->get_window, 1, 'pointer_motion_mask', $vbox_grab->get_window, undef, 0);
     my $r = $w->main;
-    Gtk2::Gdk->pointer_ungrab(0);
+    Gtk3::Gdk->pointer_ungrab(0);
     $r;
 }
 
@@ -561,8 +561,8 @@ sub select {
 sub test_mouse {
     my ($mouse, $darea, $b_x_protocol_changed) = @_;
 
-    require ugtk2;
-    ugtk2->import(qw(:wrappers));
+    require ugtk3;
+    ugtk3->import(qw(:wrappers));
     my $suffix = $mouse->{nbuttons} <= 2 ? '2b' : $mouse->{nbuttons} == 3 ? '3b' : '3b+';
     my %offsets = (mouse_2b_right => [ 93, 0 ], mouse_3b_right => [ 117, 0 ],
 		   mouse_2b_middle => [ 82, 80 ], mouse_3b_middle => [ 68, 0 ], 'mouse_3b+_middle' => [ 85, 67 ]);
@@ -573,25 +573,25 @@ sub test_mouse {
 		       if_($mouse->{nbuttons} > 2, middle => 'mouse_' . $suffix . '_middle'),
 		       up => 'arrow_up',
 		       down => 'arrow_down');
-    my %images = map { $_ => ugtk2::gtkcreate_pixbuf("$image_files{$_}.png") } keys %image_files;
-    my $width = $images{mouse}->get_width;
-    my $height = round_up($images{mouse}->get_height, 6);
+    my %images = map { $_ => ugtk3::gtkcreate_pixbuf("$image_files{$_}.png") } keys %image_files;
+    my $width = $images{mouse}->get_allocated_width;
+    my $height = round_up($images{mouse}->get_allocated_height, 6);
 
     my $draw_text = sub {
   	my ($t, $y) = @_;
 	my $layout = $darea->create_pango_layout($t);
 	my ($w) = $layout->get_pixel_size;
-	$darea->window->draw_layout($darea->style->black_gc,
-				    ($darea->allocation->width-$w)/2,
-				    ($darea->allocation->height-$height)/2 + $y,
+	$darea->get_window->draw_layout($darea->get_style->black_gc,
+				    ($darea->get_allocation->width-$w)/2,
+				    ($darea->get_allocation->height-$height)/2 + $y,
 				    $layout);
     };
     my $draw_pixbuf = sub {
 	my ($p, $x, $y, $w, $h) = @_;
-	$w = $p->get_width;
-	$h = $p->get_height;
-	$p->render_to_drawable($darea->window, $darea->style->bg_gc('normal'), 0, 0,
-			       ($darea->allocation->width-$width)/2 + $x, ($darea->allocation->height-$height)/2 + $y,
+	$w = $p->get_allocated_width;
+	$h = $p->get_allocated_height;
+	$p->render_to_drawable($darea->get_window, $darea->get_style->bg_gc('normal'), 0, 0,
+			       ($darea->get_allocation->width-$width)/2 + $x, ($darea->get_allocation->height-$height)/2 + $y,
 			       $w, $h, 'none', 0, 0);
     };
     my $draw_by_name = sub {
@@ -624,8 +624,8 @@ sub test_mouse {
 		$draw_by_name->('middle');
 	    } else {
 		my ($x, $y) = @{$offsets{mouse_2b_middle}};
-  		$darea->window->draw_arc($darea->style->black_gc,
-  					  1, ($darea->allocation->width-$width)/2 + $x, ($darea->allocation->height-$height)/2 + $y, 20, 25,
+  		$darea->get_window->draw_arc($darea->get_style->black_gc,
+  					  1, ($darea->get_allocation->width-$width)/2 + $x, ($darea->get_allocation->height-$height)/2 + $y, 20, 25,
   					  0, 360 * 64);
 	    }
 	} elsif ($mouse->{nbuttons} > 3) {
@@ -633,7 +633,7 @@ sub test_mouse {
 	    if ($nb == 3) {
 		$draw_pixbuf->($images{up}, $x+6, $y-10);
 	    } elsif ($nb == 4) {
-		$draw_pixbuf->($images{down}, $x+6, $y + $images{middle}->get_height + 2);
+		$draw_pixbuf->($images{down}, $x+6, $y + $images{middle}->get_allocated_height + 2);
 	    }
 	    $draw_by_name->('middle');
 	    $timeout and Glib::Source->remove($timeout);
@@ -644,7 +644,7 @@ sub test_mouse {
     $darea->signal_connect(button_press_event => sub { $paintButton->($_[1]->button - 1) });
     $darea->signal_connect(scroll_event => sub { $paintButton->($_[1]->direction eq 'up' ? 3 : 4) });
     $darea->signal_connect(button_release_event => $drawarea);
-    $darea->signal_connect(expose_event => $drawarea);
+    $darea->signal_connect(draw => $drawarea);
     $darea->set_size_request($width, $height);
 }
 

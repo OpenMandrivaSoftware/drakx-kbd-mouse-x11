@@ -1,3 +1,54 @@
+Version 1.2.1 - 29 April 2014
+
+- fix adding of nokmsboot to grub for proprietary drivers (omvbz#645, crisb)
+- fix dm status when default target link is not to runlevel (omvbz#320, crisb)
+- add support for merging updated translations from Mageia
+
+Version 1.2 - 25 January 2014
+
+- do not exec pkexec but run it so it has a parent process to fix double fork
+  issues mga#11184 mga#12364
+- gpm now is managed in systemd and it does not use a lock file 
+  anymore (use of systemctl instead of service)
+
+Version 1.1 - 28 December 2013
+
+- adapt to new /etc/sysctl.d
+
+Version 1.0 - 23 November 2013
+
+- port to Gtk+3
+- polkit: only use pkexec when not already root
+
+Version 0.115 -  2 February 2014
+
+- fix stray 'i' in lib/keyboard.pm that broke everything
+
+Version 0.114 - 11 January 2014
+
+- fix issue with auto detection of gfx devices
+- fix no longer /usr/lib/kbd since it was moved to /lib/kbd
+
+Version 0.113 - 28 October 2013
+- add support for localectl (systemd)
+
+Version 0.112 - 13 October 2013
+
+- tidy up polkit support
+
+Version 0.111 - 1 October 2013
+
+- make the polkit policy files translatable (mga#11125)
+- add a legacy compatibility symlink for XFdrake
+
+Version 0.110 - 4 September 2013
+
+- use polkit for authorisation (mga#11125)
+
+Version 0.109 - 8 May 2013
+
+- install drakx-update-background (in /usr/sbin)
+
 Version 0.106 - 22 May 2013, by Per Øyvind Karlsen <proyvind@moondrake.net>
 
 - really remove all code for using dead vboxmouse driver

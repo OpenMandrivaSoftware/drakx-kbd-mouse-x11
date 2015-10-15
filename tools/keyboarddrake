@@ -24,7 +24,7 @@ if (my ($kb) = grep { !/^-/ } @ARGV) {
     keyboard::write($keyboard);
     exit 0;
 } else {
-    $ugtk2::wm_icon = "/usr/share/mcc/themes/default/keyboard-mdk.png";
+    $ugtk3::wm_icon = "/usr/share/mcc/themes/default/keyboard-mdk.png";
     $in = 'interactive'->vnew('su');
 
     my ($xkb_models, $model2text) = keyboard::xkb_models();

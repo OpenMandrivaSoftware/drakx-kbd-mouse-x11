@@ -2,7 +2,8 @@ package Xconfig::resolution_and_depth; # $Id$
 
 use diagnostics;
 use strict;
-
+# perl_checker: require MDK::Common
+# perl_checker: require ugtk3
 use common;
 
 
@@ -282,7 +283,7 @@ sub set_default_background {
     my @wanted = grep { $best->[0] == $_->{X} && $best->[1] == $_->{Y} } @l;
 
     if (-e "$dir/$theme{THEME}.xml") {
-	symlinkf "$theme{THEME}.xml", "$dir/OpenMandriva.xml";
+	symlinkf "$theme{THEME}.xml", "$dir/Mandriva.xml";
     }
     
     foreach (@wanted) {
@@ -337,14 +338,14 @@ sub choose_gtk {
       #- $chosen_res must be one of @resolutions, so that it has a correct {ratio} field
       first($filter_on_res->(@resolutions)) || $resolutions[0];
 
-    require ugtk2;
-    mygtk2->import;
-    ugtk2->import(qw(:create :helpers :wrappers));
-    my $W = ugtk2->new(N("Resolution"), modal => 1);
+    require ugtk3;
+    mygtk3->import;
+    ugtk3->import(qw(:create :helpers :wrappers));
+    my $W = ugtk3->new(N("Resolution"), modal => 1);
 
     my %monitor_images_x_res = do {
 	my @l = qw(640 800 1024 1152 1280 1400 1600 1920 2048);
-	my %h = map { $_ => ugtk2::_find_imgfile("monitor-$_.png") } @l;
+	my %h = map { $_ => ugtk3::_find_imgfile("monitor-$_.png") } @l;
 
 	#- for the other, use the biggest smaller
 	foreach my $x_res (uniq map { $_->{X} } @resolutions) {

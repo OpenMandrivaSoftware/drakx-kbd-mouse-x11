@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX 1.0\n"
-"POT-Creation-Date: 2013-03-31 21:45+0200\n"
+"POT-Creation-Date: 2014-04-29 18:59+0200\n"
 "PO-Revision-Date: 2002-09-06 00:35+0800\n"
 "Last-Translator: prabu anand <prabu_anand2000@yahoo.com>\n"
 "Language-Team: Tamil <tamilinix@yahoogroups.com>\n"
@@ -100,24 +100,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:376
+#: ../lib/Xconfig/card.pm:375
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:446
 #, c-format
 msgid "Configure all heads independently"
 msgstr "அனைத்து திரைகளையும் தனித்தனியாக வடிவமைக்கவும்"
 
-#: ../lib/Xconfig/card.pm:448
+#: ../lib/Xconfig/card.pm:447
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "சினிராமா நீட்டிப்புகளை பயன்படுத்தவும்"
 
-#: ../lib/Xconfig/card.pm:453
+#: ../lib/Xconfig/card.pm:452
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "\"%s\"%s என்ற அட்ைடயை மட்டும்  வடிவமைக்கவும்"
@@ -150,7 +150,7 @@ msgid ""
 "Monitor"
 msgstr "திரையகம்"
 
-#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:371
+#: ../lib/Xconfig/main.pm:136 ../lib/Xconfig/resolution_and_depth.pm:344
 #, c-format
 msgid "Resolution"
 msgstr "பரிமாணங்கள்"
@@ -274,63 +274,63 @@ msgid ""
 "manually or reconfigure your graphics card."
 msgstr ""
 
-#: ../lib/Xconfig/resolution_and_depth.pm:10
+#: ../lib/Xconfig/resolution_and_depth.pm:11
 #, c-format
 msgid "256 colors (8 bits)"
 msgstr "256 வண்ணங்கள் (8 பிட்டுகள்)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:11
+#: ../lib/Xconfig/resolution_and_depth.pm:12
 #, c-format
 msgid "32 thousand colors (15 bits)"
 msgstr "32000 வண்ணங்கள் (15 பிட்டுகள்)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:12
+#: ../lib/Xconfig/resolution_and_depth.pm:13
 #, c-format
 msgid "65 thousand colors (16 bits)"
 msgstr "65000 வண்ணங்கள் (16 பிட்டுகள்)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:13
+#: ../lib/Xconfig/resolution_and_depth.pm:14
 #, c-format
 msgid "16 million colors (24 bits)"
 msgstr "16 மில்லியன் வண்ணங்கள் (24 பிட்டுகள்)"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:75
-#: ../lib/Xconfig/resolution_and_depth.pm:362 ../lib/mouse.pm:36
+#: ../lib/Xconfig/resolution_and_depth.pm:51
+#: ../lib/Xconfig/resolution_and_depth.pm:335 ../lib/mouse.pm:36
 #, c-format
 msgid "Automatic"
 msgstr "தானாக"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:133
+#: ../lib/Xconfig/resolution_and_depth.pm:109
 #, c-format
 msgid "Resolutions"
 msgstr "பரிமாணங்கள்"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:394 ../lib/mouse.pm:513
+#: ../lib/Xconfig/resolution_and_depth.pm:367 ../lib/mouse.pm:509
 #, c-format
 msgid "Other"
 msgstr "மற்றவை"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:446
+#: ../lib/Xconfig/resolution_and_depth.pm:419
 #, c-format
 msgid "Choose the resolution and the color depth"
 msgstr "உங்களுக்கு விருப்பமான பரிமாணங்களையும், ஆழங்களையும் தேர்ந்ெதடுங்கள்"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:447
+#: ../lib/Xconfig/resolution_and_depth.pm:420
 #, c-format
 msgid "Graphics card: %s"
 msgstr "காட்சியமைப்பு அட்ைட: %s"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:461
+#: ../lib/Xconfig/resolution_and_depth.pm:434
 #, c-format
 msgid "Ok"
 msgstr "சரி"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:461
+#: ../lib/Xconfig/resolution_and_depth.pm:434
 #, c-format
 msgid "Cancel"
 msgstr "தவிர்"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:461
+#: ../lib/Xconfig/resolution_and_depth.pm:434
 #, c-format
 msgid "Help"
 msgstr "உதவி"
@@ -541,889 +541,889 @@ msgid ""
 "other"
 msgstr ""
 
-#: ../lib/keyboard.pm:187 ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTZ)"
 msgstr "செக்(குவர்டி)"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:223
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German"
 msgstr "ெஜர்மன்"
 
-#: ../lib/keyboard.pm:189
+#: ../lib/keyboard.pm:190
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak"
 msgstr "வோராக்"
 
-#: ../lib/keyboard.pm:190 ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Spanish"
 msgstr "ஸ்பானிஷ்"
 
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
+#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Finnish"
 msgstr "பின்னிஷ்"
 
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "French"
 msgstr "பிரஞ்சு "
 
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
+#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:239
 #, c-format
 msgid "UK keyboard"
 msgstr "ஆங்கில விசைப்பலகை"
 
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Norwegian"
 msgstr "நார்ேவ "
 
-#: ../lib/keyboard.pm:195
+#: ../lib/keyboard.pm:196
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish"
 msgstr "பொலிஸ்"
 
-#: ../lib/keyboard.pm:196 ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian"
 msgstr "ரஷியன்"
 
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swedish"
 msgstr "சுவிடிஷ்"
 
-#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:199 ../lib/keyboard.pm:325
 #, c-format
 msgid "US keyboard"
 msgstr "அமெரிக்க விசைப்பலகை"
 
-#: ../lib/keyboard.pm:200
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
 msgstr "அல்பேனியன்"
 
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (old)"
 msgstr "ஆர்மினியன்(பழைய)"
 
-#: ../lib/keyboard.pm:202
+#: ../lib/keyboard.pm:203
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
 msgstr "ஆர்மினியன்(தட்டச்சு)"
 
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:204
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
 msgstr "ஆர்மினியன்(ஒலியமைப்பு)"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:205
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
 msgstr ""
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:206
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
 msgstr "எஸ்ேதானியா"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:207
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
 msgstr "அசர்பைஜான்"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
 msgstr "பெல்ஜியன்"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
 msgstr "வங்காளம் (Inscript)"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
 msgstr "வங்காளம் (Probhat)"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
 msgstr "பல்ேகரிய(ஒலியமைப்பு)"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:212
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
 msgstr "பல்ேகரிய(பிடிஸ)"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
 msgstr "பிரேசில்"
 
-#: ../lib/keyboard.pm:213
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
 msgstr "போஸ்னியா"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:215
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
 msgstr "போஸ்னியா"
 
-#: ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:216
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
 msgstr "பேலாருஸ்"
 
-#: ../lib/keyboard.pm:216
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
 msgstr "சுவிஷ்(ெஜர்மன்)"
 
-#: ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
 msgstr "சுவிஷ்(பிரெஞ்சு)"
 
-#: ../lib/keyboard.pm:219
+#: ../lib/keyboard.pm:220
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Cherokee syllabics"
 msgstr "செர்பிய"
 
-#: ../lib/keyboard.pm:221
+#: ../lib/keyboard.pm:222
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
 msgstr "செக்(குவர்ட்டி)"
 
-#: ../lib/keyboard.pm:223
+#: ../lib/keyboard.pm:224
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
 msgstr "ெஜர்மன்(ெடட் விைச இல்லாமல்"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:225
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
 msgstr "ேதவநாகரி"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:226
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
 msgstr "டச்சு"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
 msgstr "வோரக்(US)"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:228
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Esperanto)"
 msgstr "வோரக்(நார்ேவ)"
 
-#: ../lib/keyboard.pm:228
+#: ../lib/keyboard.pm:229
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
 msgstr "வோரக்(நார்ேவ)"
 
-#: ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:230
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
 msgstr "வோரக்(US)"
 
-#: ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "வோரக்(நார்ேவ)"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:232
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
 msgstr "வோரக்-சுவிடிசு "
 
-#: ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
 msgstr "வோரக்-சுவிடிசு "
 
-#: ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
 msgstr "எஸ்ேதானியா"
 
-#: ../lib/keyboard.pm:236
+#: ../lib/keyboard.pm:237
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr "கிரேக்கம் "
 
-#: ../lib/keyboard.pm:239
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
 msgstr "ஜார்ஜியா(\"Russian\" layout)"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:241
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
 msgstr "ஜார்ஜியா"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:242
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
 msgstr "கிரேக்கம் "
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:243
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
 msgstr "குஜராத்தி"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
 msgstr ""
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
 msgstr "குரேசிய "
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
 msgstr "அங்கேரிய "
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:248
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr ""
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
 msgstr ""
 
-#: ../lib/keyboard.pm:249
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
 msgstr "இஸ்ரலேிய"
 
-#: ../lib/keyboard.pm:250
+#: ../lib/keyboard.pm:251
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
 msgstr "இஸ்ரலேிய(ஒலியமைப்பு)"
 
-#: ../lib/keyboard.pm:251
+#: ../lib/keyboard.pm:252
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
 msgstr "இரானிய"
 
-#: ../lib/keyboard.pm:252
+#: ../lib/keyboard.pm:253
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
 msgstr "ஐஸ்லாந்து "
 
-#: ../lib/keyboard.pm:253
+#: ../lib/keyboard.pm:254
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
 msgstr "இத்தாலிய "
 
-#: ../lib/keyboard.pm:257
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
 msgstr "ஜப்பானிய 106 விசை"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:259
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
 msgstr "கனடா"
 
-#: ../lib/keyboard.pm:259
+#: ../lib/keyboard.pm:260
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
 msgstr "ஆங்கில விசைப்பலகை"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "கொரிய விசைப்பலகை"
 
-#: ../lib/keyboard.pm:262
+#: ../lib/keyboard.pm:263
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "ஆர்மினியன்(ஒலியமைப்பு)"
 
-#: ../lib/keyboard.pm:263
+#: ../lib/keyboard.pm:264
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "லத்தின் அமெரிக்க"
 
-#: ../lib/keyboard.pm:265
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "லாவோஸ்"
 
-#: ../lib/keyboard.pm:266
+#: ../lib/keyboard.pm:267
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
 msgstr "இரானிய"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:268
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "லாட்விய"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "மலையாளம்"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr ""
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "மாசிடோனிய"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "மியான்மார்(பர்மீஸ்)"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "மங்ேகாலியன்(சிரிலிக்)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:274
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "மால்டீஸ்(UK)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:275
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "மால்டீஸ்(US)"
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr ""
 
-#: ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:277
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "டச்சு"
 
-#: ../lib/keyboard.pm:278
+#: ../lib/keyboard.pm:279
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "லைபிரியா"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "பொலிஷ்(குவர்ட்டி)"
 
-#: ../lib/keyboard.pm:280
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "பொலிஷ்(குவார்ட்ஸ்)"
 
-#: ../lib/keyboard.pm:282
+#: ../lib/keyboard.pm:283
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "பொலிஸ்"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "போர்த்துகிசிய"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:285
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "கனடிய(Quebec)"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:286
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "ரோமேனிய(குவார்ட்ஸ்)"
 
-#: ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:287
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "ரோமேனிய(குவர்ட்டி)"
 
-#: ../lib/keyboard.pm:288
+#: ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "ரஷிய(ஒலியமைப்பு)"
 
-#: ../lib/keyboard.pm:290
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "சுலோவெனிய"
 
-#: ../lib/keyboard.pm:292
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr ""
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "சுலோவெனிய(குவார்ட்ஸ்)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:295
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "சுலோவெனிய(குவர்ட்டி)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:296
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "வோரக்(நார்ேவ)"
 
-#: ../lib/keyboard.pm:296
+#: ../lib/keyboard.pm:297
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr ""
 
-#: ../lib/keyboard.pm:298
+#: ../lib/keyboard.pm:299
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Sindhi"
 msgstr "தாய் விசைப்பலகை"
 
-#: ../lib/keyboard.pm:300
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "செர்பிய"
 
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:302
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "தொடர்நிலைத் துறை"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:303
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "ஆர்மினியன்(ஒலியமைப்பு)"
 
-#: ../lib/keyboard.pm:303
+#: ../lib/keyboard.pm:304
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "பெல்ஜியம்"
 
-#: ../lib/keyboard.pm:305
+#: ../lib/keyboard.pm:306
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "தமிழ்(இஸ்கி) "
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:307
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "தமிழ்(தட்டச்சு)"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:308
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "தாய் விசைப்பலகை"
 
-#: ../lib/keyboard.pm:308
+#: ../lib/keyboard.pm:309
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "தாய் விசைப்பலகை"
 
-#: ../lib/keyboard.pm:310
+#: ../lib/keyboard.pm:311
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "தாய் விசைப்பலகை"
 
-#: ../lib/keyboard.pm:312
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:313
+#: ../lib/keyboard.pm:314
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:315
+#: ../lib/keyboard.pm:316
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "தாஜிக் விசைப்பலகை"
 
-#: ../lib/keyboard.pm:317
+#: ../lib/keyboard.pm:318
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "ெஜர்மன்"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:319
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (traditional \"F\" model)"
 msgstr "துருக்கிய "
 
-#: ../lib/keyboard.pm:319
+#: ../lib/keyboard.pm:320
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkish (modern \"Q\" model)"
 msgstr "புது துருக்கிய "
 
-#: ../lib/keyboard.pm:321
+#: ../lib/keyboard.pm:322
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "உக்ேரனிய"
 
-#: ../lib/keyboard.pm:323
+#: ../lib/keyboard.pm:324
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "லைபிரியா"
 
-#: ../lib/keyboard.pm:325
+#: ../lib/keyboard.pm:326
 #, c-format
 msgid "US keyboard (international)"
 msgstr "அமெரிக்க விசைப்பலகை(சர்வதேச)"
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr ""
 
-#: ../lib/keyboard.pm:327
+#: ../lib/keyboard.pm:328
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "செர்பிய"
 
-#: ../lib/keyboard.pm:329
+#: ../lib/keyboard.pm:330
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "வியட்நாமிய "
 
-#: ../lib/keyboard.pm:330
+#: ../lib/keyboard.pm:331
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "யுகோஸ்சுலோவிய"
 
-#: ../lib/keyboard.pm:337
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "Right Alt key"
 msgstr "வலது  Alt விசை"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "இரண்டு Shift விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Control  மற்றும் Shift விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "CapsLock key"
 msgstr "CapsLock விசை"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:342
 #, fuzzy, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Ctrl மற்றும் Alt  விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Ctrl மற்றும் Alt  விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:344
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Alt மற்றும் Shift விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:345
 #, c-format
 msgid "\"Menu\" key"
 msgstr "\"Menu\" விசை"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:346
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "இடது விண்ேடாஸ் விசை"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:347
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "வலது விண்ேடாஸ் விசை"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:348
 #, fuzzy, c-format
 msgid "Both Control keys simultaneously"
 msgstr "இரண்டு Shift விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:349
 #, fuzzy, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "இரண்டு Shift விசைகளும் ஒன்றாக"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:350
 #, fuzzy, c-format
 msgid "Left Shift key"
 msgstr "இடது விண்ேடாஸ் விசை"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:351
 #, fuzzy, c-format
 msgid "Right Shift key"
 msgstr "வலது  Alt விசை"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:352
 #, fuzzy, c-format
 msgid "Left Alt key"
 msgstr "வலது  Alt விசை"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:353
 #, fuzzy, c-format
 msgid "Left Control key"
 msgstr "டிரேக்தொலைப்புழங்கி"
 
-#: ../lib/keyboard.pm:353
+#: ../lib/keyboard.pm:354
 #, fuzzy, c-format
 msgid "Right Control key"
 msgstr "வலது  Alt விசை"
 
-#: ../lib/keyboard.pm:389
+#: ../lib/keyboard.pm:400
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1434,12 +1434,12 @@ msgstr ""
 "மாற்ற எந்த விசை அல்லது விசை சேர்மானங்களை தேர்வுச் செய்க\n"
 "(உதாரனத்திற்கு தமிழ் மற்றும் ஆங்கிலம்)"
 
-#: ../lib/keyboard.pm:394
+#: ../lib/keyboard.pm:405
 #, c-format
 msgid "Warning"
 msgstr "எச்சரிக்ைக"
 
-#: ../lib/keyboard.pm:395
+#: ../lib/keyboard.pm:406
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1623,81 +1623,76 @@ msgid "Microsoft Xbox Controller S"
 msgstr "மைக்ேரசாப்ட் Explorer-மேலோடி"
 
 #: ../lib/mouse.pm:89
-#, c-format
-msgid "VirtualBox mouse"
-msgstr ""
-
-#: ../lib/mouse.pm:90
 #, fuzzy, c-format
 msgid "VMware mouse"
 msgstr "வேறு"
 
-#: ../lib/mouse.pm:93
+#: ../lib/mouse.pm:92
 #, c-format
 msgid "none"
 msgstr "ஒன்றுமில்ைல"
 
-#: ../lib/mouse.pm:95
+#: ../lib/mouse.pm:94
 #, c-format
 msgid "No mouse"
 msgstr "எலி ஏதுமில்ைல"
 
-#: ../lib/mouse.pm:488
+#: ../lib/mouse.pm:484
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:525
+#: ../lib/mouse.pm:521
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "தயவுசெய்து, உங்கள் எலியின் வகையைத் தேர்வுச் செய்யுங்கள் "
 
-#: ../lib/mouse.pm:526
+#: ../lib/mouse.pm:522
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "மியான்மர்"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:538
 #, c-format
 msgid "Emulate third button?"
 msgstr "மூன்றாவது பொத்தான் இருப்பதாக கருதுங்கள்?"
 
-#: ../lib/mouse.pm:546
+#: ../lib/mouse.pm:542
 #, c-format
 msgid "Mouse Port"
 msgstr "எலி இணைக்கப்பட்டுள்ள துறை"
 
-#: ../lib/mouse.pm:547
+#: ../lib/mouse.pm:543
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "தயவுசெய்து, உங்கள் எலி இணைக்கப்பட்டுள்ள தொடர்நிலைத் துறைவயைத் தேர்வுச் செய்யுங்கள்"
 
-#: ../lib/mouse.pm:556
+#: ../lib/mouse.pm:552
 #, c-format
 msgid "Buttons emulation"
 msgstr "பொத்தான் போன்மி"
 
-#: ../lib/mouse.pm:558
+#: ../lib/mouse.pm:554
 #, c-format
 msgid "Button 2 Emulation"
 msgstr "2-பொத்தான் போன்மி"
 
-#: ../lib/mouse.pm:559
+#: ../lib/mouse.pm:555
 #, c-format
 msgid "Button 3 Emulation"
 msgstr "3-பொத்தான் போன்மி"
 
-#: ../lib/mouse.pm:610
+#: ../lib/mouse.pm:606
 #, c-format
 msgid "Please test the mouse"
 msgstr "தயவுசெய்து, உங்கள் எலியை சோதனை செய்யுங்கள்"
 
-#: ../lib/mouse.pm:612
+#: ../lib/mouse.pm:608
 #, c-format
 msgid "To activate the mouse,"
 msgstr "உங்கள் எலியை செயல்பட வைக்க"
 
-#: ../lib/mouse.pm:613
+#: ../lib/mouse.pm:609
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "உங்கள் சக்கரத்ைத உருட்டுங்கள்"
@@ -1731,6 +1726,35 @@ msgstr "விசைப்பலகை"
 #, c-format
 msgid "Do you want the BackSpace to return Delete in console?"
 msgstr ""
+
+#: ../polkit/org.moondrake.drakkeyboard.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Keyboard Configuration"
+msgstr "பல்திரையக வடிவமைப்பு"
+
+#: ../polkit/org.moondrake.drakkeyboard.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Keyboard Configuration"
+msgstr "பல்திரையக வடிவமைப்பு"
+
+#: ../polkit/org.moondrake.drakmouse.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Mouse Configuration"
+msgstr "கைமுறை வடிவமைப்பு "
+
+#: ../polkit/org.moondrake.drakmouse.policy.in.h:2
+msgid "Authentication is required to run DrakX Mouse Configuration"
+msgstr ""
+
+#: ../polkit/org.moondrake.drakx11.policy.in.h:1
+#, fuzzy
+msgid "Run DrakX Graphics Configuration"
+msgstr "ஒலி வடிவமைப்பு"
+
+#: ../polkit/org.moondrake.drakx11.policy.in.h:2
+#, fuzzy
+msgid "Authentication is required to run DrakX Graphics Configuration"
+msgstr "ஒலி வடிவமைப்பு"
 
 #~ msgid "Quit"
 #~ msgstr "வெளிச்ெசல்"
@@ -3360,9 +3384,6 @@ msgstr ""
 #~ msgstr ""
 #~ "உங்கள் (%s) ஒலியட்ைடக்கு OSS/ALSA இயக்க நிரல் ஏதுமில்ைல. அதனால் \"%s\" பயன்படுகிறது"
 
-#~ msgid "Sound configuration"
-#~ msgstr "ஒலி வடிவமைப்பு"
-
 #~ msgid ""
 #~ "Here you can select an alternative driver (either OSS or ALSA) for your "
 #~ "sound card (%s)."
@@ -4538,10 +4559,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "This driver has no configuration parameter!"
 #~ msgstr "OKI அச்சுபொறியின் வடிவமைப்பு"
-
-#, fuzzy
-#~ msgid "Module configuration"
-#~ msgstr "கைமுறை வடிவமைப்பு "
 
 #~ msgid "You can configure each parameter of the module here."
 #~ msgstr "கூற்ைற நீங்கள் இங்கே வடிவமைக்கலாம்"

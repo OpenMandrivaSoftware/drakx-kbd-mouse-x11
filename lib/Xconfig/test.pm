@@ -88,8 +88,8 @@ sub test {
         BEGIN { $::no_ugtk_init = 1 }
         BEGIN { unshift @::textdomains, 'drakx-kbd-mouse-x11' }
         require lang;
-        require ugtk2; #- help perl_checker
-        ugtk2->import(qw(:wrappers :helpers)); #- help perl_checker
+        require ugtk3; #- help perl_checker
+        ugtk3->import(qw(:wrappers :helpers)); #- help perl_checker
 	use interactive::gtk;
         use run_program;
         use common;
@@ -99,23 +99,23 @@ sub test {
         lang::bindtextdomain();
 
 	$ENV{DISPLAY} = ":9";
-        Gtk2->init;
+        Gtk3->init;
 
         gtkset_background(200 * 257, 210 * 257, 210 * 257);
-        my $text = Gtk2::Label->new;
+        my $text = Gtk3::Label->new;
         my $time = 12;
         Glib::Timeout->add(1000, sub {
 	    $text->set(sprintf(translate("%s"), $time));
-	    $time-- or Gtk2->main_quit;
+	    $time-- or Gtk3->main_quit;
             1;
 	});
 
         eval {  #- eval it so that missing pixmap will not break the test completely
             my $root = gtkroot();
-            my $gc = Gtk2::Gdk::GC->new($root);
-            my $pixbuf = Gtk2::Gdk::Pixbuf->new_from_file("$::prefix/usr/share/mdk/xfdrake/xfdrake-test-card.png");
-            my ($w, $h) = ($pixbuf->get_width, $pixbuf->get_height);
-            my $pixmap = Gtk2::Gdk::Pixmap->new($root, $w, $h, $root->get_depth);
+            my $gc = Gtk3::Gdk::GC->new($root);
+            my $pixbuf = Gtk3::Gdk::Pixbuf->new_from_file("$::prefix/usr/share/mdk/xfdrake/xfdrake-test-card.png");
+            my ($w, $h) = ($pixbuf->get_allocated_width, $pixbuf->get_allocated_height);
+            my $pixmap = Gtk3::Gdk::Pixmap->new($root, $w, $h, $root->get_depth);
             $pixbuf->render_to_drawable($pixmap, $gc, 0, 0, 0, 0, $w, $h, 'none', 0, 0);
             $root->set_back_pixmap($pixmap, 0);
             $root->clear;

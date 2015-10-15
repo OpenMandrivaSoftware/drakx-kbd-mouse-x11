@@ -14,7 +14,7 @@ use mouse;
 use c;
 
 
-$ugtk2::wm_icon = "/usr/share/mcc/themes/default/mousedrake-mdk.png";
+$ugtk3::wm_icon = "/usr/share/mcc/themes/default/mousedrake-mdk.png";
 my $in = 'interactive'->vnew('su');
 
 my $modules_conf = modules::any_conf->read;
@@ -33,6 +33,6 @@ if (!$mouse || !$::auto) {
 
 mouse::write_conf($in->do_pkgs, $modules_conf, $mouse, 1);
 
-system('systemctl', 'try-restart', 'gpm.service') if -e '/lib/systemd/system/gpm.service';
+system('systemctl', 'try-restart', 'gpm.service') if -e '/usr/lib/systemd/system/gpm.service';
 
 $in->exit(0);

@@ -10,6 +10,27 @@ use any;
 use log;
 
 
+sub good_default_monitor() {
+#  detect_devices::is_xbox() ? 'Generic|640x480 @ 60 Hz' :
+#    arch() =~ /ppc/ ? 
+#      (detect_devices::get_mac_model() =~ /^iBook/ ? 'Apple|iBook 800x600' : 'Apple|iMac/PowerBook 1024x768');
+    "Plug'n'Play"
+}
+
+sub default_monitor {
+    my ($card_Driver) = @_;
+#    if (detect_devices::is_virtualbox() || detect_devices::isLaptop() || $card_Driver eq 'siliconmotion' && arch() =~ /mips/) {
+	# HACK: since there is no way to get the EDID on gdium, the resolution is passed to the kernel
+	# so we can rely on it
+	# in vbox, we return Plug'n'Play because the vbox integration addons
+	# will take care of everything for us
+	# On laptops the X server should usually be able to autodetect everything.
+	{ VendorName => "Plug'n Play" };
+#    } else {
+#	good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
+#	{ VendorName => $1, ModelName => $2 };
+#    } 
+}
 
 my @VertRefresh_ranges = ("50-70", "50-90", "50-100", "40-150");
 
@@ -69,8 +90,8 @@ sub configure_auto_install {
 
     foreach my $monitor (@$monitors) {
 	if (!is_valid($monitor)) {
-            put_in_hash($monitor, { VendorName => "Plug'n Play" });
-            configure_automatic($monitor) or internal_error("default monitor is unknown in MonitorsDB");
+	    put_in_hash($monitor, default_monitor($card_Driver));
+	    configure_automatic($monitor) or internal_error("good_default_monitor (" . good_default_monitor()  . ") is unknown in MonitorsDB");
 	}
     }
     $raw_X->set_monitors(@$monitors);
@@ -101,7 +122,8 @@ sub choose {
     my $merged_name = do {
 	my $merged_name = $merge_name->($monitor);
 	if (!exists $h_monitors{$merged_name}) {
-            $merged_name = is_valid($monitor) ? 'Custom' : "Plug'n Play";
+	    $merged_name = is_valid($monitor) ? 'Custom' : 
+	                                        $merge_name->(default_monitor($raw_X->get_Driver));
 	}
 	$merged_name;
     };
@@ -244,7 +266,7 @@ sub use_EDID {
 	      { val => $_->{ModeLine}, pre_comment => $_->{ModeLine_comment} . "\n" };
 	}
 
-        if ((@different_timings == 1 || $_->{preferred}) && $_->{horizontal_active} >= 1024) {
+	if ((@different_timings == 1 || $_->{preferred}) && $_->{horizontal_active} >= 1024) {
 	    #- we don't use detailed_timing when it is 640x480 or 800x600,
 	    #- since 14" CRTs often give this even when they handle 1024x768 correctly (and desktop is no good in poor resolutions)
 
