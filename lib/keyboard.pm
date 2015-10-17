@@ -643,7 +643,7 @@ sub write {
         bootloader::set_default_grub_var('vconsole.keymap', $keyboard->{KEYMAP});
 	# (tpg) restart these services to pull keyboard settings into environment
 	run_program::run('systemctl', 'restart', 'systemd-localed.service');
-	run_program::run('systemctl', 'restart', 'systemd-vconsole.service');
+	run_program::run('systemctl', 'restart', 'systemd-vconsole-setup.service');
     } else {
 	setVarsInSh("$::prefix/etc/vconsole.conf", $keyboard);
 	run_program::run('mandriva-setup-keyboard');
