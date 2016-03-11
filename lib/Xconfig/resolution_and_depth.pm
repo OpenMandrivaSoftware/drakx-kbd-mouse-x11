@@ -252,7 +252,7 @@ sub set_resolution_ {
 }
 sub set_default_background {
     my ($resolution) = @_;
-    
+
     $resolution->{X} && $resolution->{Y} or do {
 	$resolution = { X => 1024, Y => 768 };
 	log::l("defaulting background resolution to $resolution->{X}x$resolution->{Y}");
@@ -283,12 +283,12 @@ sub set_default_background {
     my @wanted = grep { $best->[0] == $_->{X} && $best->[1] == $_->{Y} } @l;
 
     if (-e "$dir/$theme{THEME}.xml") {
-	symlinkf "$theme{THEME}.xml", "$dir/Mandriva.xml";
+	symlinkf "$theme{THEME}.xml", "$dir/OpenMandriva.xml";
     }
-    
+
     foreach (@wanted) {
 	if ($_->{hour}) {
-	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.jpg";    
+	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.jpg";
 	} else {
 	    symlinkf $_->{file}, "$dir/default.jpg";
 	}

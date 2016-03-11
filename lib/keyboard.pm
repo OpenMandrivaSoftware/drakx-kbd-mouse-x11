@@ -44,7 +44,7 @@ our %lang2keyboard =
   'cs'  => 'cz_qwerty:70 cz:50',
   'cy'  => 'gb:90',
   'da'  => 'dk:90',
-  'de'  => 'de_nodeadkeys:70 de:50 be:50 ch_de:50',
+  'de'  => 'de:70 de_nodeadkeys:50 be:50 ch_de:50',
   'dz'	=> 'bt',
   'el'  => 'gr:90',
   'en'  => 'us:89 us3:80 us_intl:50 qc:50 gb:50 dvorak:10',
@@ -233,9 +233,9 @@ arch() =~ /^sparc/ ? (
  "dvorak_se" => [ N_("_: keyboard\nDvorak (Swedish)"), "se-dvorak", "se(dvorak)", 0 ],
  "ee" => [ N_("_: keyboard\nEstonian"),       "ee-latin9",       "ee",    0 ],
  "es" => [ N_("_: keyboard\nSpanish"),        "es-latin1",       "es",    0 ],
- "fi" => [ N_("_: keyboard\nFinnish"),        "fi-latin1",       "fi",    0 ],
+ "fi" => [ N_("_: keyboard\nFinnish"),        "fi-latin9",       "fi",    0 ],
  "fo" => [ N_("_: keyboard\nFaroese"),        "is-latin1",       "fo",    0 ],
- "fr" => [ N_("_: keyboard\nFrench"),         "fr-latin1",       "fr",    0 ],
+ "fr" => [ N_("_: keyboard\nFrench"),         "fr-latin9",       "fr",    0 ],
  "gb" => [ N_("UK keyboard"),                 "uk-latin1",       "gb",    0 ],
  "ge_ru" => [N_("_: keyboard\nGeorgian (\"Russian\" layout)"), "ge_ru-georgian_academy", "ge(ru)",1],
  "ge_la" => [N_("_: keyboard\nGeorgian (\"Latin\" layout)"), "ge_la-georgian_academy", "ge(la)",1],
@@ -281,7 +281,7 @@ arch() =~ /^sparc/ ? (
  "pl2" => [ N_("_: keyboard\nPolish (qwertz layout)"), "pl-latin2", "pl(qwertz)", 0 ],
 # TODO: console map
  "pus" => [ N_("_: keyboard\nPashto"),        "us",              "pus",   1 ],
- "pt" => [ N_("_: keyboard\nPortuguese"),     "pt-latin1",       "pt",    0 ],
+ "pt" => [ N_("_: keyboard\nPortuguese"),     "pt-latin9",       "pt",    0 ],
  "qc" => [ N_("_: keyboard\nCanadian (Quebec)"), "qc-latin1",    "ca",    0 ],
  "ro_qwertz" => [ N_("_: keyboard\nRomanian (qwertz)"), "ro2",         "ro(winkeys)", 0 ],
  "ro" => [ N_("_: keyboard\nRomanian (qwerty)"), "ro",           "ro(std_cedilla)", 0 ],
@@ -449,7 +449,7 @@ sub loadkeys_files {
 
 sub _unpack_keyboards {
     my ($k) = @_; $k or return;
-    [ grep { 
+    [ grep {
 	my $b = $keyboards{$_->[0]};
 	$b or log::l("bad keyboard $_->[0] in %keyboard::lang2keyboard");
 	$b;
@@ -626,6 +626,31 @@ sub write {
     delete $keyboard->{unsafe};
     $keyboard->{KEYMAP} = keyboard2kmap($keyboard);
 
+    if ($keyboard->{'KEYTABLE'}) {
+	my $h2 = { 'KEYMAP' => $keyboard->{'KEYTABLE'} };
+	addVarsInShMode("$::prefix/etc/vconsole.conf", 0644, $h2);
+    }
+
+    my $xorgconf = "# Read and parsed by systemd-localed. It's probably wise not to edit this file\n" .
+    "# manually too freely.\n" .
+    "Section \"InputClass\"\n" .
+    " Identifier \"system-keyboard\"\n" .
+    " MatchIsKeyboard \"on\"\n";
+    if ($keyboard->{'XkbLayout'}) {
+	$xorgconf .= " Option \"XkbLayout\" \"" . $keyboard->{'XkbLayout'} . "\"\n";
+    }
+    if ($keyboard->{'XkbModel'}) {
+	$xorgconf .= " Option \"XkbModel\" \"" . $keyboard->{'XkbModel'} . "\"\n";
+    }
+    if ($keyboard->{'XkbVariant'}) {
+	$xorgconf .= " Option \"XkbVariant\" \"" . $keyboard->{'XkbVariant'} . "\"\n";
+    }
+    if ($keyboard->{'XkbOptions'}) {
+	$xorgconf .= " Option \"XkbOptions\" \"" . $keyboard->{'XkbOptions'} . "\"\n";
+    }
+    $xorgconf .= "EndSection\n";
+    output_p("$::prefix/etc/X11/xorg.conf.d/00-keyboard.conf", $xorgconf);
+
     if (arch() =~ /ppc/) {
 	my $s = "dev.mac_hid.keyboard_sends_linux_keycodes = 1\n";
 	substInFile { 
@@ -633,17 +658,17 @@ sub write {
             $_ .= $s if eof;
         } "$::prefix/etc/sysctl.d/51-drakx.conf";
     } else {
-	run_program::rooted($::prefix, 'dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
+	run_program::rooted($::prefix, '/bin/dumpkeys', '>', '/etc/sysconfig/console/default.kmap') or log::l("dumpkeys failed");
     }
     if (-x $localectl) { # systemd service
-	run_program::run($localectl, '--no-convert', 'set-keymap', 
+	run_program::run($localectl, '--no-convert', 'set-keymap',
 		$keyboard->{KEYMAP}, $keyboard->{KEYMAP_TOGGLE});
-	run_program::run($localectl, '--no-convert', 'set-x11-keymap', 
+	run_program::run($localectl, '--no-convert', 'set-x11-keymap',
 		$keyboard->{XkbLayout}, $keyboard->{XkbModel}, $keyboard->{XkbVariant}, $keyboard->{XkbOptions});
         bootloader::set_default_grub_var('vconsole.keymap', $keyboard->{KEYMAP});
 	# (tpg) restart these services to pull keyboard settings into environment
-	run_program::run('systemctl', 'restart', 'systemd-localed.service');
-	run_program::run('systemctl', 'restart', 'systemd-vconsole.service');
+       run_program::run('systemctl', 'restart', 'systemd-localed.service');
+       run_program::run('systemctl', 'restart', 'systemd-vconsole-setup.service');
     } else {
 	setVarsInSh("$::prefix/etc/vconsole.conf", $keyboard);
 	run_program::run('mandriva-setup-keyboard');
@@ -664,8 +689,8 @@ sub configure_and_set_standalone {
 sub read() {
     local $ENV{LANGUAGE} = 'C';
     my %keyboard;
-  if (-x $timedatectl) { # systemd dbus based service
-    foreach (run_program::rooted_get_stdout($::prefix, $timedatectl)) {
+  if (-x $localectl) { # systemd dbus based service
+    foreach (run_program::rooted_get_stdout($::prefix, $localectl)) {
 	/^ *VC Keymap: (.*)$/ and $keyboard{KEYMAP} = $1;
 	/^ *VC Toggle Keymap: (.*)$/ and $keyboard{KEYMAP_TOGGLE} = $1;
 	/^ *X11 Layout: (.*)$/ and $keyboard{XkbLayout} = $1;
