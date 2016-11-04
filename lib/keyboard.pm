@@ -285,7 +285,7 @@ arch() =~ /^sparc/ ? (
  "qc" => [ N_("_: keyboard\nCanadian (Quebec)"), "qc-latin1",    "ca",    0 ],
  "ro_qwertz" => [ N_("_: keyboard\nRomanian (qwertz)"), "ro2",         "ro(winkeys)", 0 ],
  "ro" => [ N_("_: keyboard\nRomanian (qwerty)"), "ro",           "ro(std_cedilla)", 0 ],
- "ru" => [ N_("_: keyboard\nRussian"),        "ru4",             "ru", 1 ],
+ "ru" => [ N_("_: keyboard\nRussian"),        "ru",             "ru", 1 ],
  "ru_yawerty" => [ N_("_: keyboard\nRussian (phonetic)"), "ru-yawerty", "ru(phonetic)", 1 ],
  "se" => [ N_("_: keyboard\nSwedish"),        "se-latin1",       "se",    0 ],
  "si" => [ N_("_: keyboard\nSlovenian"),      "slovene",         "si",    0 ],
@@ -313,7 +313,7 @@ arch() =~ /^sparc/ ? (
  "tifinagh" => [ N_("_: keyboard\nTifinagh (moroccan layout) (+latin/arabic)"), "fr-tifinagh", "fr,tifinagh(basic),ara(azerty)", 1 ],
  "tifinagh_p" => [ N_("_: keyboard\nTifinagh (phonetic) (+latin/arabic)"), "fr-tifinaghp", "fr,tifinagh(phonetic),ara(azerty)", 1 ],
 # TODO: console map
- "tj" => [ N_("_: keyboard\nTajik"),          "ru4",             "tj",    1 ],
+ "tj" => [ N_("_: keyboard\nTajik"),          "ru",             "tj",    1 ],
 # TODO: console map
  "tm" => [ N_("_: keyboard\nTurkmen"),        "us",              "tm",    0 ],
  "tr_f" => [ N_("_: keyboard\nTurkish (traditional \"F\" model)"), "trf", "tr(f)", 0 ],
@@ -396,7 +396,7 @@ sub group_toggle_choose {
     my ($in, $keyboard) = @_;
 
     if (my $grp_toggles = _grp_toggles($keyboard)) {
-	my $KEYMAP_TOGGLE = $keyboard->{KEYMAP_TOGGLE} || 'caps_toggle';
+	my $KEYMAP_TOGGLE = $keyboard->{KEYMAP_TOGGLE} || 'alt_shift_toggle';
 	$KEYMAP_TOGGLE = $in->ask_from_listf('', N("Here you can choose the key or key combination that will 
 allow switching between the different keyboard layouts
 (eg: latin and non latin)"), sub { translate($grp_toggles->{$_[0]}) }, [ sort keys %$grp_toggles ], $KEYMAP_TOGGLE) or return;
