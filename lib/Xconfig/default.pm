@@ -21,7 +21,13 @@ sub configure {
 
     my $raw_X = Xconfig::xfree->empty_config;
 
-    $raw_X->add_load_module('v4l');
+    # disabled to avoid crash with X11 1.17
+    # $raw_X->add_load_module('v4l');
+
+    # add empty Module section by default
+    if(not $raw_X->get_Section('Module')) {
+        $raw_X->add_Section('Module', {});
+    }
 
     config_mouse($raw_X, $do_pkgs, $mouse);
 
@@ -35,4 +41,3 @@ sub config_mouse {
 }
 
 1;
-
