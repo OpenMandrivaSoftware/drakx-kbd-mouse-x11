@@ -47,13 +47,13 @@ sub test {
     $raw_X->write("$::prefix/$f");
 
     my $f_err = common::secured_file($::prefix . ($ENV{TMPDIR} || "$ENV{HOME}/tmp") . '/.drakx.Xoutput');
-    
+
     my $pid;
     unless ($pid = fork()) {
 	system("xauth add :9 . `mcookie`");
 	open STDERR, ">$f_err";
 	chroot $::prefix if $::prefix;
-	exec 'Xorg', '-noAutoAddDevices', '-xf86config', $f, ":9" or c::_exit(0);
+	exec 'Xorg', '-xf86config', $f, ":9" or c::_exit(0);
     }
 
     do { sleep 1 } until xtest(":9") || waitpid($pid, c::WNOHANG());

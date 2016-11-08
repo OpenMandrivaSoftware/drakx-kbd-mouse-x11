@@ -714,6 +714,7 @@ our %ratio2resolutions = (
 		 '1680x1050', # WSXGA+
 		 '1920x1200', # WUXGA
 		 '2560x1600', # WQXGA
+		 '2880x1800', # Retina MacBook
 		 '3840x2400', # WQUXGA
 		 '5120x3200', # WHXGA
 		 '7680x4800', # WHUXGA
@@ -723,17 +724,24 @@ our %ratio2resolutions = (
     '15/9' => [ '800x480',
 		'1280x768', # WXGA ?? should be 1366x768 ??
 	    ],
-    
+
     # 1.78
     '16/9' => [ #'854x480', # WVGA
 	        #'960x540',
 		#'1024x576',
-		'1280x720', # HD 720		
+		'1280x720', # HD 720
 		'1360x765', # one kind of WXGA (rounded down)
 		'1366x768', # HDTV
 		'1600x900', # WSXGA?
 		'1920x1080', # HD 1080
 		'7680x4320', # UHDTV
+		'2560x1440', # WSXGA
+		'2880x1620', # WQHD
+		'3200x1800', # WQXGA+
+		'3840x2160', # UHD 4K
+		'5120x2880', # UHD+ 5K
+		'7680x4320', # FUHD (UHD 8K)
+		'15360x8640', # QUHD (UHD 16K Digital Cinema)
 	    ],
 
     # now more weird things
@@ -772,6 +780,13 @@ our %ratio2resolutions = (
 
 	# 2.13 = 32/15
 	'1024x480', '1280x600', # VAIO
+
+	# 2.370 (commercially falls at 21/9)
+	'2560x1080', # UW-UXGA
+	'5120x2160', # 5K ExtraWide UHD
+
+	# 2.389 (commercially falls at 21/9)
+	'3440x1440', # UWQHD (e.g. HP Z34C-34, Samsung S34E790C, Dell U3415W, ...)
 
 	# 2.67 = 8/3
 	'2048x768', '2560x960', '3200x1200',
