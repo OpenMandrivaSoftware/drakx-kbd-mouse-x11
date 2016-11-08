@@ -254,7 +254,7 @@ sub set_default_background {
     my ($resolution) = @_;
 
     $resolution->{X} && $resolution->{Y} or do {
-	$resolution = { X => 1024, Y => 768 };
+	$resolution = { X => 1600, Y => 1200 }
 	log::l("defaulting background resolution to $resolution->{X}x$resolution->{Y}");
     };
 
@@ -263,7 +263,7 @@ sub set_default_background {
     my %theme = getVarsFromSh("$::prefix/etc/sysconfig/bootsplash");
 
     my @l = map {
-	if (my ($X, $Y, undef, $hour) = /^\Q$theme{THEME}\E-(\d+)x(\d+)(-(.*))?.jpg$/) {
+	if (my ($X, $Y, undef, $hour) = /^\Q$theme{THEME}\E-(\d+)x(\d+)(-(.*))?.png$/) {
 	    { file => $_, X => $X, Y => $Y, hour => $hour };
 	} else { () }
     } all($dir);
@@ -288,9 +288,9 @@ sub set_default_background {
 
     foreach (@wanted) {
 	if ($_->{hour}) {
-	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.jpg";
+	    symlinkf $_->{file}, "$dir/$theme{THEME}-$_->{hour}.png";
 	} else {
-	    symlinkf $_->{file}, "$dir/default.jpg";
+	    symlinkf $_->{file}, "$dir/default.png";
 	}
     }
 }

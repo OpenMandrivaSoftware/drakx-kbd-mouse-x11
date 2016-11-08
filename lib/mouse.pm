@@ -19,15 +19,8 @@ use any;
 use log;
 
 sub _all_mice() {
- arch() =~ /^sparc/ ? 
 (
- 'sunmouse' =>
- [ [ 'sunmouse' ],
-   [ [ 3, 'sun', 'sun', N_("Sun - Mouse") ]
-   ] ]
-) :
-(
- 'PS/2' => 
+ 'PS/2' =>
  [ [ 'psaux' ],
    [ [ 2, 'ps/2', 'PS/2', N_("Standard") ],
      [ 5, 'ps/2', 'MouseManPlusPS/2', N_("Logitech MouseMan+") ],
@@ -40,7 +33,7 @@ sub _all_mice() {
      [ 5, 'netmouse', 'NetScrollPS/2', N_("Genius NetScroll") ],
      [ 7, 'ps/2', 'ExplorerPS/2', N_("Microsoft Explorer") ],
    ] ],
-     
+
  'USB' =>
  [ [ 'input/mice' ],
    [ [ 1, 'ps/2', 'ExplorerPS/2', N_("1 button") ],
@@ -74,8 +67,8 @@ sub _all_mice() {
    ] ],
 
  N_("busmouse") =>
- [ [ arch() eq 'ppc' ? 'adbmouse' : ('atibm', 'inportbm', 'logibm') ],
-   [ if_(arch() eq 'ppc', [ 1, 'Busmouse', 'BusMouse', N_("1 button") ]),
+ [ [ ('atibm', 'inportbm', 'logibm') ],
+   [
      [ 2, 'Busmouse', 'BusMouse', N_("2 buttons") ],
      [ 3, 'Busmouse', 'BusMouse', N_("3 buttons") ],
      [ 3, 'Busmouse', 'BusMouse', N_("3 buttons with Wheel emulation"), 'wheel' ],
@@ -86,7 +79,6 @@ sub _all_mice() {
    [ [ 7, 'ps/2', 'ExplorerPS/2', N_("Any PS/2 & USB mice") ],
      [ 7, 'ps/2', 'ExplorerPS/2', N_("Force evdev") ], #- evdev is magically handled in mouse::select()
      if_(detect_devices::is_xbox(), [ 5, 'ps/2', 'IMPS/2', N_("Microsoft Xbox Controller S") ]),
-     if_(detect_devices::is_vmware(), [ 7, 'ps/2', 'vmmouse', N_("VMware mouse") ]),
    ] ],
 
  N_("none") =>
@@ -133,8 +125,6 @@ my %mouse_btn_keymap = (
     117 => "Num: =",
     96 => "Enter",
 );
-sub _ppc_one_button_keys() { keys %mouse_btn_keymap }
-sub _ppc_one_button_key2text { $mouse_btn_keymap{$_[0]} }
 
 my @mouses_fields = qw(nbuttons MOUSETYPE Protocol name EmulateWheel);
 
@@ -179,17 +169,6 @@ sub write {
 
     various_xfree_conf($do_pkgs, $mouse);
 
-    if (arch() =~ /ppc/) {
-	my $s = join('',
-	  "dev.mac_hid.mouse_button_emulation = " . to_bool($mouse->{button2_key} || $mouse->{button3_key}) . "\n",
-	  if_($mouse->{button2_key}, "dev.mac_hid.mouse_button2_keycode = $mouse->{button2_key}\n"),
-	  if_($mouse->{button3_key}, "dev.mac_hid.mouse_button3_keycode = $mouse->{button3_key}\n"),
-	);
-	substInFile { 
-	    $_ = '' if /^\Qdev.mac_hid.mouse_button/;
-	    $_ .= $s if eof;
-	} "$::prefix/etc/sysctl.d/51-drakx.conf";
-    }
 }
 
 sub _input_entry_to_device_by_id {
@@ -295,30 +274,20 @@ sub detect {
     my @wacom = _probe_usb_wacom_devices();
 
     $modules_conf->get_probeall("usb-interface") and eval { modules::load('usbhid') };
-    if (detect_devices::is_vmware()) {
-	fullname2mouse("Universal|VMware mouse");
-    } elsif (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
+    if (my @mice = grep { $_->{Handlers}{mouse} } detect_devices::getInputDevices_and_usb()) {
 	my @synaptics = map {
 	    { ALPS => $_->{ALPS} };
 	} grep { $_->{Synaptics} || $_->{ALPS} } @mice;
 
 	my $evdev_opts = _detect_evdev_mice(@mice);
 
-	my $fullname = detect_devices::is_xbox() ? 
+	my $fullname = detect_devices::is_xbox() ?
 	  'Universal|Microsoft Xbox Controller S' :
-	    arch() eq "ppc" ? 
-	  'USB|1 button' :
 	  'Universal|Any PS/2 & USB mice';
 
-	fullname2mouse($fullname, wacom => \@wacom, 
-		       synaptics => $synaptics[0], 
+	fullname2mouse($fullname, wacom => \@wacom,
+		       synaptics => $synaptics[0],
 		       if_($evdev_opts, %$evdev_opts));
-    } elsif (arch() eq 'ppc') {
-	# No need to search for an ADB mouse.  If I did, the PPC kernel would
-	# find one whether or not I had one installed!  So..  default to it.
-	fullname2mouse("busmouse|1 button");
-    } elsif (arch() =~ /^sparc/) {
-	fullname2mouse("sunmouse|Sun - Mouse");
     } else {
 	#- probe serial device to make sure a wacom has been detected.
 	eval { modules::load("serial") };
@@ -351,7 +320,7 @@ sub set_xfree_conf {
 
     my @mice = map {
 	{
-	    (member($_->{Protocol}, qw(vmmouse)) ? "Driver" : "Protocol") => $_->{Protocol},
+	    Protocol => $_->{Protocol},
 	    Device => devices::make($_->{device}),
 	    if_($_->{Emulate3Buttons} || $_->{EmulateWheel}, Emulate3Buttons => undef, Emulate3Timeout => 50),
 	    if_($_->{EmulateWheel}, EmulateWheel => undef, EmulateWheelButton => 2),
@@ -392,9 +361,8 @@ sub various_xfree_conf {
     my $inputdrvpath = Xconfig::card::modules_dir() . '/input';
     my $pkgs = [
 	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
-	if_($mouse->{evdev_mice}, ['x11-driver-input-evdev', "$inputdrvpath/evdev_drv.so"]),
+	if_($mouse->{evdev_mice}, ['x11-driver-input-libinput', "$inputdrvpath/evdev_drv.so"]),
 	if_(@{$mouse->{wacom}}, ['x11-driver-input-wacom', "$inputdrvpath/wacom_drv.so"]),
-	if_($mouse->{name} =~ /VMware/i, ['x11-driver-input-vmmouse', "$inputdrvpath/vmmouse_drv.so"]),
     ];
     $do_pkgs->ensure_files_are_installed($pkgs, 1);
 
@@ -545,16 +513,6 @@ sub select {
 		     }, [ { list => [ detect_devices::serialPorts() ], format => \&detect_devices::serialPort2text, val => \$mouse->{device} } ]) or return &select;
     }
 
-    if (arch() =~ /ppc/ && $mouse->{nbuttons} == 1) {
-	#- set a sane default F11/F12
-	$mouse->{button2_key} = 87;
-	$mouse->{button3_key} = 88;
-	$in->ask_from('', N("Buttons emulation"),
-		[
-		{ label => N("Button 2 Emulation"), val => \$mouse->{button2_key}, list => [ _ppc_one_button_keys() ], format => \&_ppc_one_button_key2text },
-		{ label => N("Button 3 Emulation"), val => \$mouse->{button3_key}, list => [ _ppc_one_button_keys() ], format => \&_ppc_one_button_key2text },
-		]) or return;
-    }
     1;
 }
 

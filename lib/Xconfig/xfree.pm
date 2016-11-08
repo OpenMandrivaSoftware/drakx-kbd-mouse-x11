@@ -92,7 +92,7 @@ sub set_Revision {
 ################################################################################
 # keyboard #####################################################################
 ################################################################################
-my @keyboard_fields = qw(XkbLayout XkbModel XkbDisable XkbOptions XkbCompat);
+my @keyboard_fields = qw(XkbLayout XkbVariant XkbModel XkbDisable XkbOptions XkbCompat);
 sub get_keyboard {
     my ($raw_X) = @_;
     my $raw_kbd = _raw_get_keyboard($raw_X) or die "no keyboard section";
@@ -131,14 +131,14 @@ sub set_mice {
 sub _is_mouse {
     my ($entry) = @_;
     my $Driver = val($entry->{Driver});
-    member($Driver, qw(mouse vmmouse)) || $Driver eq 'evdev' && !val($entry->{XkbLayout});
+    $Driver eq 'mouse' || $Driver eq 'evdev' && !val($entry->{XkbLayout});
 }
 sub _new_mouse_sections {
     my ($raw_X, @Drivers) = @_;
     $raw_X->remove_InputDevices_when(\&_is_mouse);
-    
+
     @Drivers or return;
-    
+
     my @l = map_index {
 	my $h = { Identifier => { val => 'Mouse' . ($::i + 1) }, Driver => { val => $_ } };
 	$raw_X->add_Section('InputDevice', $h);
@@ -366,7 +366,7 @@ sub add_gtf_ModeLines {
 	);
 	$_;
     } $raw_X->get_monitors);
-    
+
     1;
 }
 
@@ -845,7 +845,7 @@ $default_header .= <<'END';
 EndSection
 END
 
-our $default_ModeLine = arch() =~ /ppc/ ? <<'END_PPC' : <<'END';
+our $default_ModeLine = <<'END';
     # Apple iMac modes
     ModeLine "1024x768"   78.525 1024 1049 1145 1312   768  769  772  800 +hsync +vsync
     ModeLine "800x600"    62.357  800  821  901 1040   600  601  604  632 +hsync +vsync
@@ -866,7 +866,6 @@ our $default_ModeLine = arch() =~ /ppc/ ? <<'END_PPC' : <<'END';
     ModeLine "1280x1024"  135    1280 1288 1392 1664  1024 1027 1030 1064
     # Another variation
     ModeLine "1280x1024"  134.989 1280 1317 1429 1688  1024 1025 1028 1066 +hsync +vsync
-END_PPC
     # TV fullscreen mode or DVD fullscreen output.
     # 768x576 @ 79 Hz, 50 kHz hsync
     ModeLine "768x576"     50.00  768  832  846 1000   576  590  595  630

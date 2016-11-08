@@ -26,6 +26,7 @@ sub info {
     $info .= N("Disable Ctrl-Alt-Backspace: %s\n", configure_ServerFlag($raw_X, 'DontZap') eq 'False' ? N("no") : N("yes"));
     $info .= N("3D hardware acceleration: %s\n", translate(bool2yesno($card->{use_DRI_GLX} || $card->{DRI_GLX_SPECIAL})));
     $info .= N("Keyboard layout: %s\n", $keyboard->{XkbLayout});
+    $info .= N("Keyboard variant: %s\n", $keyboard->{XkbVariant}) if $keyboard->{XkbVariant};
     $info .= N("Mouse type: %s\n", $mouse->{Protocol});
     foreach my $monitor (@monitors) {
 	$info .= N("Monitor: %s\n", $monitor->{ModelName});

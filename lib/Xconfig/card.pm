@@ -27,7 +27,7 @@ my %VideoRams = (
    65536 => N_("64 MB or more"),
 );
 
-my @xfree4_Drivers = ((arch() =~ /^sparc/ ? qw(sunbw2 suncg14 suncg3 suncg6 sunffb sunleo suntcx) :
+my @xfree4_Drivers = ((
                        qw(apm ark ast chips cirrus i128 i740 intel mga
                           neomagic newport nouveau nv openchrome psb qxl
                           rendition s3 s3virge savage siliconmotion sis sisusb
@@ -57,12 +57,6 @@ sub to_raw_X {
     my ($card, $raw_X) = @_;
 
     my @cards = ($card, @{$card->{cards} || []});
-
-    foreach (@cards) {
-	if (arch() =~ /ppc/ && member($_->{Driver}, qw(r128 radeon ati))) {
-	    $_->{UseFBDev} = 1;
-	}
-    }
 
     $raw_X->set_devices(@cards);
 
@@ -118,12 +112,6 @@ sub probe() {
     if (@cards >= 2 && $cards[0]{card_name} eq $cards[1]{card_name} && $cards[0]{card_name} eq 'Intel 830 - 965') {
 	shift @cards;
     }
-    #- take a default on sparc if nothing has been found.
-    if (arch() =~ /^sparc/ && !@cards) {
-        log::l("Using probe with /proc/fb as nothing has been found!");
-	my $s = cat_("/proc/fb");
-	@cards = { server => $s =~ /Mach64/ ? "Mach64" : $s =~ /Permedia2/ ? "3DLabs" : "Sun24" };
-    }
 
     #- disabling MULTI_HEAD when not available
     foreach (@cards) { 
@@ -137,8 +125,7 @@ sub probe() {
 
     #- in case of only one cards, remove all BusID reference, this will avoid
     #- need of change of it if the card is moved.
-    #- on many PPC machines, card is on-board, BusID is important, leave?
-    if (@cards == 1 && !$cards[0]{MULTI_HEAD} && arch() !~ /ppc/) {
+    if (@cards == 1 && !$cards[0]{MULTI_HEAD}) {
 	delete $cards[0]{BusID};
     }
 

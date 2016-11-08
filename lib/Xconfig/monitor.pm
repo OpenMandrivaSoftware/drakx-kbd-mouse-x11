@@ -29,7 +29,7 @@ sub default_monitor {
 #    } else {
 #	good_default_monitor() =~ /(.*)\|(.*)/ or internal_error("bad good_default_monitor");
 #	{ VendorName => $1, ModelName => $2 };
-#    } 
+#    }
 }
 
 my @VertRefresh_ranges = ("50-70", "50-90", "50-100", "40-150");
@@ -99,7 +99,7 @@ sub configure_auto_install {
 }
 
 sub choose {
-    my ($in, $raw_X, $monitor, $head_nb, $b_auto) = @_;
+    my ($in, $_raw_X, $monitor, $head_nb, $b_auto) = @_;
 
     my $ok = is_valid($monitor);
     if ($b_auto && $ok) {
