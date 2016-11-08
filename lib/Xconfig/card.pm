@@ -341,18 +341,18 @@ Do you wish to use it?")), 1))) {
 	    delete $card->{Driver2};
 	}
     }
-    
+
     Xconfig::proprietary::handle_FIRMWARE($do_pkgs, $card, $o_in);
 
     # handle_FIRMWARE could've changed $card->{Driver}
-    my @must_have = "x11-driver-video-$card->{Driver}";
-    
+    my @must_have = if_($card->{Driver} ne 'modesetting', "x11-driver-video-$card->{Driver}");
+
 #In Card+ we use radeon, but in package is ati
-    
+
     if ($card->{Driver} eq 'radeon') {
 	@must_have = "x11-driver-video-ati";
     }
-    
+
     $do_pkgs->ensure_are_installed([ @must_have, @packages ], 1) or
       @must_have == listlength($do_pkgs->are_installed(@must_have))
 	or return;
