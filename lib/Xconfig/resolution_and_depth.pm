@@ -254,7 +254,7 @@ sub set_default_background {
     my ($resolution) = @_;
 
     $resolution->{X} && $resolution->{Y} or do {
-	$resolution = { X => 1600, Y => 1200 }
+	$resolution = { X => 1600, Y => 1200 };
 	log::l("defaulting background resolution to $resolution->{X}x$resolution->{Y}");
     };
 

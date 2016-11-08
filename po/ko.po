@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ko(metanav)\n"
-"POT-Creation-Date: 2014-04-29 18:59+0200\n"
+"POT-Creation-Date: 2016-11-08 18:53+0100\n"
 "PO-Revision-Date: 2007-06-19 12:23+0900\n"
 "Last-Translator: meta <hbahn@metq.com>\n"
 "Language-Team: ahb hong-bae <ko@li.org>\n"
@@ -64,22 +64,22 @@ msgstr "32 MB"
 msgid "64 MB or more"
 msgstr "16 MB 이상"
 
-#: ../lib/Xconfig/card.pm:175
+#: ../lib/Xconfig/card.pm:162
 #, c-format
 msgid "X server"
 msgstr "X 서버"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:163
 #, fuzzy, c-format
 msgid "Choose an X server"
 msgstr "X 서버 선택"
 
-#: ../lib/Xconfig/card.pm:207
+#: ../lib/Xconfig/card.pm:194
 #, c-format
 msgid "Multi-head configuration"
 msgstr "다중 헤드 설정"
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:195
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
@@ -88,12 +88,12 @@ msgstr ""
 "현재 사용하는 시스템은 다중 헤드 설정을 지원합니다.\n"
 "어떻게 하겠습니까?"
 
-#: ../lib/Xconfig/card.pm:302
+#: ../lib/Xconfig/card.pm:289
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "그래픽 카드의 메모리 용량을 선택하세요"
 
-#: ../lib/Xconfig/card.pm:332
+#: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -104,24 +104,24 @@ msgstr ""
 "다.\n"
 "사용합니까?"
 
-#: ../lib/Xconfig/card.pm:375
+#: ../lib/Xconfig/card.pm:362
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:446
+#: ../lib/Xconfig/card.pm:433
 #, c-format
 msgid "Configure all heads independently"
 msgstr "모든 헤드를 독립적으로 설정"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:434
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Xinerama 확장 사용"
 
-#: ../lib/Xconfig/card.pm:452
+#: ../lib/Xconfig/card.pm:439
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "「%s」%s 카드만 설정"
@@ -139,8 +139,8 @@ msgstr "그래픽 카드와 모니터 설정"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Apply settings"
-msgstr ""
+msgid "Quit"
+msgstr "종료"
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -204,7 +204,7 @@ msgstr "모니터 선택"
 msgid "Plug'n Play"
 msgstr "플러그앤플레이"
 
-#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:41
 #, c-format
 msgid "Generic"
 msgstr "일반 마우스"
@@ -300,7 +300,7 @@ msgid "16 million colors (24 bits)"
 msgstr "천6백만 색상  (24bits)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:51
-#: ../lib/Xconfig/resolution_and_depth.pm:335 ../lib/mouse.pm:36
+#: ../lib/Xconfig/resolution_and_depth.pm:335 ../lib/mouse.pm:29
 #, c-format
 msgid "Automatic"
 msgstr "자동"
@@ -310,7 +310,7 @@ msgstr "자동"
 msgid "Resolutions"
 msgstr "해상도"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:367 ../lib/mouse.pm:509
+#: ../lib/Xconfig/resolution_and_depth.pm:367 ../lib/mouse.pm:477
 #, c-format
 msgid "Other"
 msgstr "기타"
@@ -402,118 +402,123 @@ msgid "Keyboard layout: %s\n"
 msgstr "키보드 형태: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
+#, fuzzy, c-format
+msgid "Keyboard variant: %s\n"
+msgstr "키보드 형태: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
 #, c-format
 msgid "Mouse type: %s\n"
 msgstr "마우스 종류: %s\n"
 
-#: ../lib/Xconfig/various.pm:31
+#: ../lib/Xconfig/various.pm:32
 #, c-format
 msgid "Monitor: %s\n"
 msgstr "모니터: %s\n"
 
-#: ../lib/Xconfig/various.pm:32
+#: ../lib/Xconfig/various.pm:33
 #, c-format
 msgid "Monitor HorizSync: %s\n"
 msgstr "모니터 수평주파수: %s\n"
 
-#: ../lib/Xconfig/various.pm:33
+#: ../lib/Xconfig/various.pm:34
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
 msgstr "모니터 수직주파수: %s\n"
 
-#: ../lib/Xconfig/various.pm:35
+#: ../lib/Xconfig/various.pm:36
 #, c-format
 msgid "Graphics card: %s\n"
 msgstr "그래픽 카드: %s\n"
 
-#: ../lib/Xconfig/various.pm:36
+#: ../lib/Xconfig/various.pm:37
 #, c-format
 msgid "Graphics memory: %s kB\n"
 msgstr "비디오 메모리: %s kB\n"
 
-#: ../lib/Xconfig/various.pm:38
+#: ../lib/Xconfig/various.pm:39
 #, c-format
 msgid "Color depth: %s\n"
 msgstr "색상 심도: %s\n"
 
-#: ../lib/Xconfig/various.pm:39
+#: ../lib/Xconfig/various.pm:40
 #, c-format
 msgid "Resolution: %s\n"
 msgstr "해상도: %s\n"
 
-#: ../lib/Xconfig/various.pm:41
+#: ../lib/Xconfig/various.pm:42
 #, c-format
 msgid "Xorg driver: %s\n"
 msgstr "Xorg 드라이버: %s\n"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Xorg configuration"
 msgstr "Xorg 설정"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Global options"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:255
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "그래픽 카드: %s"
 
-#: ../lib/Xconfig/various.pm:251
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr "투명도 사용(Composite extension)"
 
-#: ../lib/Xconfig/various.pm:254
+#: ../lib/Xconfig/various.pm:259
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr "하드웨어 가속된 마우스 포인터 사용"
 
-#: ../lib/Xconfig/various.pm:257
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr "렌더 가속 사용(이것은 문자 표현시 버그가 발생할 수 있습니다."
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr "외부 모니터 상에 중복 화면 사용"
 
-#: ../lib/Xconfig/various.pm:262
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr "두번째 화면 위에 중복화면 사용"
 
-#: ../lib/Xconfig/various.pm:265
+#: ../lib/Xconfig/various.pm:270
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:268
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr "외부 모니터에 스위칭 하기 위한 BIOS hotkey 사용"
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:278
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "시작시 바로 X-Window 실행"
 
-#: ../lib/Xconfig/various.pm:274
+#: ../lib/Xconfig/various.pm:279
 #, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "부팅시에 자동으로 X-윈도우가 시작되도록 할수 있습니다.\n"
 "재부팅시 자동으로 X-윈도우를 시작할까요?"
 
-#: ../lib/Xconfig/various.pm:286
+#: ../lib/Xconfig/various.pm:291
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -533,901 +538,885 @@ msgstr ""
 "\n"
 "이 기능이 있습니까?"
 
-#: ../lib/Xconfig/various.pm:298
+#: ../lib/Xconfig/various.pm:303
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "TV 카드가 어떤 표준(norm)을 사용합니까?"
 
-#: ../lib/Xconfig/xfree.pm:765
+#: ../lib/Xconfig/xfree.pm:773
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
 "other"
 msgstr "기타"
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:221
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Czech (QWERTZ)"
-msgstr "체코 (QWERTZ)"
-
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:223
-#, c-format
-msgid ""
-"_: keyboard\n"
-"German"
-msgstr "독일"
-
-#: ../lib/keyboard.pm:190
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Dvorak"
-msgstr "드보락"
-
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Spanish"
-msgstr "스페인"
-
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Finnish"
-msgstr "핀란드"
-
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
-#, c-format
-msgid ""
-"_: keyboard\n"
-"French"
-msgstr "프랑스"
-
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:239
-#, c-format
-msgid "UK keyboard"
-msgstr "영국"
-
-#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:278
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Norwegian"
-msgstr "노르웨이"
-
-#: ../lib/keyboard.pm:196
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Polish"
-msgstr "폴란드"
-
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:288
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Russian"
-msgstr "러시아"
-
-#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:290
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Swedish"
-msgstr "스웨덴"
-
-#: ../lib/keyboard.pm:199 ../lib/keyboard.pm:325
-#, c-format
-msgid "US keyboard"
-msgstr "미국"
-
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:185
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
 msgstr "알바니아"
 
-#: ../lib/keyboard.pm:202
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Armenian (old)"
-msgstr "미국 (구버전)"
-
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:187
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
 msgstr "미국 (타자기)"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:188
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
 msgstr "미국 (음성학)"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:189
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
 msgstr "Arabic(아라비아)"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:190
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
 msgstr "에스토니아"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:191
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
 msgstr "아제르바이잔 (라틴)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:192
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
 msgstr "벨기에"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:193
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
 msgstr "벵갈"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:194
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
 msgstr "벵갈"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:195
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
 msgstr "불가리아 (음성학)"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:196
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
 msgstr "불가리아 (BDS)"
 
-#: ../lib/keyboard.pm:213
+#: ../lib/keyboard.pm:197
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
 msgstr "브라질 (ABNT-2)"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:198
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
 msgstr "보스니아"
 
-#: ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:199
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
 msgstr "종카/티벳"
 
-#: ../lib/keyboard.pm:216
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
 msgstr "벨라루시아"
 
-#: ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
 msgstr "스위스 (독어)"
 
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
 msgstr "스위스 (불어)"
 
-#: ../lib/keyboard.pm:220
+#: ../lib/keyboard.pm:205
 #, c-format
 msgid ""
 "_: keyboard\n"
-"Cherokee syllabics"
-msgstr "체로키"
+"Czech (QWERTZ)"
+msgstr "체코 (QWERTZ)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
 msgstr "체코 (QWERTY)"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "독일"
+
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
 msgstr "독일 (dead 키 없음)"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
 msgstr "데봐나가리(범어)"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
 msgstr "덴마크"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
 msgstr "드보락(US)"
 
-#: ../lib/keyboard.pm:228
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Dvorak (Esperanto)"
-msgstr "드보락(에스페란토)"
-
-#: ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:213
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
 msgstr "드보락(프랑스)"
 
-#: ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:214
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
 msgstr "드보락(UK)"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "드보락(노르웨이)"
 
-#: ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:216
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
 msgstr "드보락(폴란드)"
 
-#: ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
 msgstr "드보락(스웨덴)"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
 msgstr "에스토니아"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "스페인"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "핀란드"
+
+#: ../lib/keyboard.pm:221
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr "파로스"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "프랑스"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"French (Bepo)"
+msgstr "프랑스"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"French (Bepo, only latin-9)"
+msgstr "그리스(Polytonic)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid "UK keyboard"
+msgstr "영국"
+
+#: ../lib/keyboard.pm:226
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
 msgstr "그루지아(러시아어)"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
 msgstr "그루지아 (라틴)"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
 msgstr "그리스"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr "그리스(Polytonic)"
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
 msgstr "구자라티(아프리카)"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
 msgstr "Gurmukhi"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
 msgstr "크로아티아"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
 msgstr "헝가리"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr "아일랜드"
 
-#: ../lib/keyboard.pm:249
+#: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
 msgstr "Inuktitut"
 
-#: ../lib/keyboard.pm:250
+#: ../lib/keyboard.pm:236
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
 msgstr "이스라엘"
 
-#: ../lib/keyboard.pm:251
+#: ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
 msgstr "이스라엘 (음성학)"
 
-#: ../lib/keyboard.pm:252
+#: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
 msgstr "이란"
 
-#: ../lib/keyboard.pm:253
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
 msgstr "아이슬랜드"
 
-#: ../lib/keyboard.pm:254
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
 msgstr "이탈리아"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
 msgstr "일본 106키"
 
-#: ../lib/keyboard.pm:259
+#: ../lib/keyboard.pm:245
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
 msgstr "캐나다"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:246
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
 msgstr "키르기즈"
 
-#: ../lib/keyboard.pm:261
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "한글 키보드"
 
-#: ../lib/keyboard.pm:263
+#: ../lib/keyboard.pm:249
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "쿠르드(아랍)"
 
-#: ../lib/keyboard.pm:264
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "라틴 아메리카"
 
-#: ../lib/keyboard.pm:266
+#: ../lib/keyboard.pm:252
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "라오스"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:253
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
 msgstr "이란"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:254
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "라트바아"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "말라얄람(드라비다)"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:256
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr "마오리"
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "마케도니아"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "미얀마(버마)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:259
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "몽골(시릴)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "몰타(영국)"
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "몰타(미국)"
 
-#: ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:262
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr "나이지리아"
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "네델란드"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:264
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "노르웨이"
+
+#: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "오리야(인도)"
 
-#: ../lib/keyboard.pm:280
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "폴란드 (QwertY)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "폴란드 (QwertZ)"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:269
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "파슈토(아프간)"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "포루투갈"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "캐나다 (퀘벡)"
 
-#: ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "로만 (QWERTZ)"
 
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "로만 (QWERTY)"
 
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:274
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (basic)"
+msgstr "로만 (QWERTZ)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "러시아"
+
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "러시아 (음성학)"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "스웨덴"
+
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "슬로베니아"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr "신할라(스리랑카)"
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "슬로바키아 (QWERTZ)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "슬로바키아 (QWERTY)"
 
-#: ../lib/keyboard.pm:296
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "사미(노르웨이)"
 
-#: ../lib/keyboard.pm:297
+#: ../lib/keyboard.pm:284
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr "사미(스웨덴/핀란드)"
 
-#: ../lib/keyboard.pm:299
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Sindhi"
-msgstr "신드"
-
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "세르비아 (시릴)"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "시리아"
 
-#: ../lib/keyboard.pm:303
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "시리아 (음성학)"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "텔루그(인도)"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "타밀(아스키)"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "타밀 (타자기)"
 
-#: ../lib/keyboard.pm:308
+#: ../lib/keyboard.pm:295
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "타이"
 
-#: ../lib/keyboard.pm:309
+#: ../lib/keyboard.pm:296
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "타이(TIS-820)"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:298
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "타이(Pattachote)"
 
-#: ../lib/keyboard.pm:313
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr "티피나그 (모로코) (라틴/아라비아 더해짐)"
 
-#: ../lib/keyboard.pm:314
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr "티피나그 (음성학) (라틴/아라비아 더해짐)"
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "타지크"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:305
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "투르크멘"
 
-#: ../lib/keyboard.pm:319
-#, c-format
+#: ../lib/keyboard.pm:306
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
-"Turkish (traditional \"F\" model)"
-msgstr "터기 (전통 「F」모델"
-
-#: ../lib/keyboard.pm:320
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Turkish (modern \"Q\" model)"
+"Turkish (\"F\" model)"
 msgstr "터키 (현대 「Q」모델"
 
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:307
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (\"Q\" model)"
+msgstr "터키 (현대 「Q」모델"
+
+#: ../lib/keyboard.pm:309 ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "우크라이나"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:313
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "우르두(파키스탄)"
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid "US keyboard"
+msgstr "미국"
+
+#: ../lib/keyboard.pm:315
 #, c-format
 msgid "US keyboard (international)"
 msgstr "US 키보드 (국제)"
 
-#: ../lib/keyboard.pm:327
+#: ../lib/keyboard.pm:316
+#, fuzzy, c-format
+msgid "US keyboard (Macintosh)"
+msgstr "US 키보드 (국제)"
+
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr "ISO9995-3 (US keyboard with 3 levels per key)"
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:318
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "우즈벡 (시릴)"
 
-#: ../lib/keyboard.pm:330
+#: ../lib/keyboard.pm:320
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "베트남 (숫자열 QWERTY)"
 
-#: ../lib/keyboard.pm:331
+#: ../lib/keyboard.pm:321
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "유고슬라비아 (라틴)"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid "Right Alt key"
 msgstr "오른쪽 Alt 키"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:328
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "양쪽 쉬프트키를 같이"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:329
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "컨트롤키와 쉬프트키를 같이"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:330
 #, c-format
 msgid "CapsLock key"
 msgstr "CapsLock key"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:331
 #, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "쉬프트키와 캡스락키를 같이"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:332
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "컨트롤키와 알트키를 같이"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:333
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "알트키와 쉬프트키를 같이"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:334
 #, c-format
 msgid "\"Menu\" key"
 msgstr "\"메뉴\"키"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:335
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "왼쪽 \"윈도우\"키"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:336
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "오른쪽 \"윈도우\"키"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "양쪽 컨트롤키를 같이"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "양쪽 알트키를 같이"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Left Shift key"
 msgstr "왼쪽 쉬프트 키"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Right Shift key"
 msgstr "오른쪽 쉬프트 키"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Left Alt key"
 msgstr "왼쪽 알트 키"
 
-#: ../lib/keyboard.pm:353
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "Left Control key"
 msgstr "왼쪽 컨트롤 키"
 
-#: ../lib/keyboard.pm:354
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Right Control key"
 msgstr "오른쪽 컨트롤 키"
 
-#: ../lib/keyboard.pm:400
+#: ../lib/keyboard.pm:391
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1437,12 +1426,12 @@ msgstr ""
 "서로 다른 키보드 방식으로 전환하는 \n"
 "키 또는 키조합을 선택하시오."
 
-#: ../lib/keyboard.pm:405
+#: ../lib/keyboard.pm:396
 #, c-format
 msgid "Warning"
 msgstr "경고"
 
-#: ../lib/keyboard.pm:406
+#: ../lib/keyboard.pm:397
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1453,252 +1442,227 @@ msgstr ""
 "설치 도중에 다른 키보드 방식과 전환하려면 \n"
 "오른쪽 CTRL 키를 사용하십시오."
 
-#: ../lib/mouse.pm:26
-#, c-format
-msgid "Sun - Mouse"
-msgstr "Sun - 마우스"
-
-#: ../lib/mouse.pm:32
+#: ../lib/mouse.pm:25
 #, c-format
 msgid "Standard"
 msgstr "표준"
 
-#: ../lib/mouse.pm:33
+#: ../lib/mouse.pm:26
 #, c-format
 msgid "Logitech MouseMan+"
 msgstr "로지텍 마우스맨/퍼스트마우스 (시리얼)"
 
-#: ../lib/mouse.pm:34
+#: ../lib/mouse.pm:27
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
 msgstr "일반적인 PS2 휠 마우스"
 
-#: ../lib/mouse.pm:35
+#: ../lib/mouse.pm:28
 #, c-format
 msgid "GlidePoint"
 msgstr "ALPS 글라이드포인트"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
+#: ../lib/mouse.pm:31 ../lib/mouse.pm:65
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "켄싱턴 씽킹 마우스"
 
-#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
+#: ../lib/mouse.pm:32 ../lib/mouse.pm:60
 #, c-format
 msgid "Genius NetMouse"
 msgstr "지니어스 넷마우스"
 
-#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:33
 #, c-format
 msgid "Genius NetScroll"
 msgstr "지니어스 넷스크롤"
 
-#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
+#: ../lib/mouse.pm:34 ../lib/mouse.pm:44
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "마이크로소프트 익스플로러"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
+#: ../lib/mouse.pm:39
 #, c-format
 msgid "1 button"
 msgstr "1 버튼"
 
-#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:49
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "일반적인 2버튼 마우스"
 
-#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
+#: ../lib/mouse.pm:42 ../lib/mouse.pm:51
 #, fuzzy, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "일반적인 3버튼 마우스"
 
-#: ../lib/mouse.pm:50
+#: ../lib/mouse.pm:43
 #, c-format
 msgid "Wheel"
 msgstr "휠 마우스"
 
-#: ../lib/mouse.pm:54
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "serial"
 msgstr "시리얼 마우스"
 
-#: ../lib/mouse.pm:57
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Generic 3 Button Mouse"
 msgstr "일반적인 3버튼 마우스"
 
-#: ../lib/mouse.pm:59
+#: ../lib/mouse.pm:52
 #, c-format
 msgid "Microsoft IntelliMouse"
 msgstr "마이크로소프트 인텔리마우스"
 
-#: ../lib/mouse.pm:60
+#: ../lib/mouse.pm:53
 #, c-format
 msgid "Logitech MouseMan"
 msgstr "로지텍 마우스맨"
 
-#: ../lib/mouse.pm:61
+#: ../lib/mouse.pm:54
 #, fuzzy, c-format
 msgid "Logitech MouseMan with Wheel emulation"
 msgstr "로지텍 마우스맨"
 
-#: ../lib/mouse.pm:62
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Mouse Systems"
 msgstr "마우스 시스템"
 
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Logitech CC Series"
 msgstr "로지텍 CC 시리즈"
 
-#: ../lib/mouse.pm:65
+#: ../lib/mouse.pm:58
 #, fuzzy, c-format
 msgid "Logitech CC Series with Wheel emulation"
 msgstr "로지텍 CC 시리즈"
 
-#: ../lib/mouse.pm:66
+#: ../lib/mouse.pm:59
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
 msgstr "로지텍 마우스맨+/퍼스트마우스+"
 
-#: ../lib/mouse.pm:68
+#: ../lib/mouse.pm:61
 #, c-format
 msgid "MM Series"
 msgstr "MM 시리즈"
 
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:62
 #, c-format
 msgid "MM HitTablet"
 msgstr "MM 히트타블렛"
 
-#: ../lib/mouse.pm:70
+#: ../lib/mouse.pm:63
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "로지텍 마우스 (시리얼, 오래된 C7 형태)"
 
-#: ../lib/mouse.pm:71
+#: ../lib/mouse.pm:64
 #, fuzzy, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr "로지텍 마우스 (시리얼, 오래된 C7 형태)"
 
-#: ../lib/mouse.pm:73
+#: ../lib/mouse.pm:66
 #, fuzzy, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
 msgstr "켄싱턴 씽킹 마우스"
 
-#: ../lib/mouse.pm:76
+#: ../lib/mouse.pm:69
 #, c-format
 msgid "busmouse"
 msgstr "버스마우스"
 
-#: ../lib/mouse.pm:79
+#: ../lib/mouse.pm:72
 #, c-format
 msgid "2 buttons"
 msgstr "2 버튼"
 
-#: ../lib/mouse.pm:80
+#: ../lib/mouse.pm:73
 #, c-format
 msgid "3 buttons"
 msgstr "3 버튼"
 
-#: ../lib/mouse.pm:81
+#: ../lib/mouse.pm:74
 #, c-format
 msgid "3 buttons with Wheel emulation"
 msgstr "3버튼 휠 에뮬레이션"
 
-#: ../lib/mouse.pm:84
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "Universal"
 msgstr "세계 공용"
 
-#: ../lib/mouse.pm:86
+#: ../lib/mouse.pm:79
 #, c-format
 msgid "Any PS/2 & USB mice"
 msgstr "일반적인 PS/2 나 USB 마우스"
 
-#: ../lib/mouse.pm:87
+#: ../lib/mouse.pm:80
 #, c-format
 msgid "Force evdev"
 msgstr ""
 
-#: ../lib/mouse.pm:88
+#: ../lib/mouse.pm:81
 #, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "마이크로소프트 xbox 컨트롤 S"
 
-#: ../lib/mouse.pm:89
-#, fuzzy, c-format
-msgid "VMware mouse"
-msgstr "마우스 없음"
-
-#: ../lib/mouse.pm:92
+#: ../lib/mouse.pm:84
 #, c-format
 msgid "none"
 msgstr "없음"
 
-#: ../lib/mouse.pm:94
+#: ../lib/mouse.pm:86
 #, c-format
 msgid "No mouse"
 msgstr "마우스 없음"
 
-#: ../lib/mouse.pm:484
+#: ../lib/mouse.pm:452
 #, c-format
 msgid "Testing the mouse"
 msgstr "마우스 테스트"
 
-#: ../lib/mouse.pm:521
+#: ../lib/mouse.pm:489
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "마우스 종류를 선택하세요."
 
-#: ../lib/mouse.pm:522
+#: ../lib/mouse.pm:490
 #, c-format
 msgid "Mouse choice"
 msgstr "마우스 선택"
 
-#: ../lib/mouse.pm:538
+#: ../lib/mouse.pm:506
 #, c-format
 msgid "Emulate third button?"
 msgstr "3버튼 에뮬레이트?"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:510
 #, c-format
 msgid "Mouse Port"
 msgstr "마우스 포트"
 
-#: ../lib/mouse.pm:543
+#: ../lib/mouse.pm:511
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "마우스에 연결된 시리얼 포트는 어떤 것입니까?"
 
-#: ../lib/mouse.pm:552
-#, c-format
-msgid "Buttons emulation"
-msgstr "버튼 에뮬레이션"
-
-#: ../lib/mouse.pm:554
-#, c-format
-msgid "Button 2 Emulation"
-msgstr "버튼 2 에뮬레이션"
-
-#: ../lib/mouse.pm:555
-#, c-format
-msgid "Button 3 Emulation"
-msgstr "버튼 3 에뮬레이션"
-
-#: ../lib/mouse.pm:606
+#: ../lib/mouse.pm:564
 #, c-format
 msgid "Please test the mouse"
 msgstr "마우스를 테스트하세요."
 
-#: ../lib/mouse.pm:608
+#: ../lib/mouse.pm:566
 #, c-format
 msgid "To activate the mouse,"
 msgstr "마우스를 활성화하려면"
 
-#: ../lib/mouse.pm:609
+#: ../lib/mouse.pm:567
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "마우스 휠을 움직이십시오."
@@ -1762,8 +1726,56 @@ msgstr "그래픽 카드와 모니터 설정"
 msgid "Authentication is required to run DrakX Graphics Configuration"
 msgstr "그래픽 카드와 모니터 설정"
 
-#~ msgid "Quit"
-#~ msgstr "종료"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Dvorak"
+#~ msgstr "드보락"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Polish"
+#~ msgstr "폴란드"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Armenian (old)"
+#~ msgstr "미국 (구버전)"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Cherokee syllabics"
+#~ msgstr "체로키"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Dvorak (Esperanto)"
+#~ msgstr "드보락(에스페란토)"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Sindhi"
+#~ msgstr "신드"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Turkish (traditional \"F\" model)"
+#~ msgstr "터기 (전통 「F」모델"
+
+#~ msgid "Sun - Mouse"
+#~ msgstr "Sun - 마우스"
+
+#, fuzzy
+#~ msgid "VMware mouse"
+#~ msgstr "마우스 없음"
+
+#~ msgid "Buttons emulation"
+#~ msgstr "버튼 에뮬레이션"
+
+#~ msgid "Button 2 Emulation"
+#~ msgstr "버튼 2 에뮬레이션"
+
+#~ msgid "Button 3 Emulation"
+#~ msgstr "버튼 3 에뮬레이션"
 
 #~ msgid "Test"
 #~ msgstr "테스트"

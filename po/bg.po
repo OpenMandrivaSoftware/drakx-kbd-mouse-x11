@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DrakX-bg\n"
-"POT-Creation-Date: 2014-04-29 18:59+0200\n"
+"POT-Creation-Date: 2016-11-08 18:53+0100\n"
 "PO-Revision-Date: 2004-09-15 13:27+0200\n"
 "Last-Translator: Boyan Ivanov <boyan17@bulgaria.com>\n"
 "Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
@@ -64,34 +64,34 @@ msgstr "32 МБ"
 msgid "64 MB or more"
 msgstr "64 МБ или повече"
 
-#: ../lib/Xconfig/card.pm:175
+#: ../lib/Xconfig/card.pm:162
 #, c-format
 msgid "X server"
 msgstr "X сървър"
 
-#: ../lib/Xconfig/card.pm:176
+#: ../lib/Xconfig/card.pm:163
 #, c-format
 msgid "Choose an X server"
 msgstr "Изберете X сървър"
 
-#: ../lib/Xconfig/card.pm:207
+#: ../lib/Xconfig/card.pm:194
 #, c-format
 msgid "Multi-head configuration"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:208
+#: ../lib/Xconfig/card.pm:195
 #, c-format
 msgid ""
 "Your system supports multiple head configuration.\n"
 "What do you want to do?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:302
+#: ../lib/Xconfig/card.pm:289
 #, c-format
 msgid "Select the memory size of your graphics card"
 msgstr "Изберете капацитет на паметта на графичната си карта"
 
-#: ../lib/Xconfig/card.pm:332
+#: ../lib/Xconfig/card.pm:319
 #, c-format
 msgid ""
 "There is a proprietary driver available for your video card which may "
@@ -99,24 +99,24 @@ msgid ""
 "Do you wish to use it?"
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:375
+#: ../lib/Xconfig/card.pm:362
 #, c-format
 msgid ""
 "The proprietary driver was not properly installed, defaulting to free "
 "software driver."
 msgstr ""
 
-#: ../lib/Xconfig/card.pm:446
+#: ../lib/Xconfig/card.pm:433
 #, c-format
 msgid "Configure all heads independently"
 msgstr "Настройка на всички глави по отделно"
 
-#: ../lib/Xconfig/card.pm:447
+#: ../lib/Xconfig/card.pm:434
 #, c-format
 msgid "Use Xinerama extension"
 msgstr "Използвай разширението Xinerama"
 
-#: ../lib/Xconfig/card.pm:452
+#: ../lib/Xconfig/card.pm:439
 #, c-format
 msgid "Configure only card \"%s\"%s"
 msgstr "Настройка само на карта \"%s\"(%s)"
@@ -134,8 +134,8 @@ msgstr "Настройка на връзката"
 
 #: ../lib/Xconfig/main.pm:128
 #, c-format
-msgid "Apply settings"
-msgstr ""
+msgid "Quit"
+msgstr "Изход"
 
 #: ../lib/Xconfig/main.pm:130
 #, c-format
@@ -197,7 +197,7 @@ msgstr "Изберете монитор"
 msgid "Plug'n Play"
 msgstr "Plug & Play"
 
-#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:48
+#: ../lib/Xconfig/monitor.pm:139 ../lib/mouse.pm:41
 #, c-format
 msgid "Generic"
 msgstr "Общ"
@@ -296,7 +296,7 @@ msgid "16 million colors (24 bits)"
 msgstr "16 милиона цвята (24 бита)"
 
 #: ../lib/Xconfig/resolution_and_depth.pm:51
-#: ../lib/Xconfig/resolution_and_depth.pm:335 ../lib/mouse.pm:36
+#: ../lib/Xconfig/resolution_and_depth.pm:335 ../lib/mouse.pm:29
 #, c-format
 msgid "Automatic"
 msgstr "Автоматично"
@@ -306,7 +306,7 @@ msgstr "Автоматично"
 msgid "Resolutions"
 msgstr "Разделителна способност"
 
-#: ../lib/Xconfig/resolution_and_depth.pm:367 ../lib/mouse.pm:509
+#: ../lib/Xconfig/resolution_and_depth.pm:367 ../lib/mouse.pm:477
 #, c-format
 msgid "Other"
 msgstr "Друга"
@@ -399,118 +399,123 @@ msgid "Keyboard layout: %s\n"
 msgstr "Тип клавиатура: %s\n"
 
 #: ../lib/Xconfig/various.pm:29
+#, fuzzy, c-format
+msgid "Keyboard variant: %s\n"
+msgstr "Тип клавиатура: %s\n"
+
+#: ../lib/Xconfig/various.pm:30
 #, c-format
 msgid "Mouse type: %s\n"
 msgstr "Тип мишка: %s\n"
 
-#: ../lib/Xconfig/various.pm:31
+#: ../lib/Xconfig/various.pm:32
 #, c-format
 msgid "Monitor: %s\n"
 msgstr "Монитор: %s\n"
 
-#: ../lib/Xconfig/various.pm:32
+#: ../lib/Xconfig/various.pm:33
 #, c-format
 msgid "Monitor HorizSync: %s\n"
 msgstr "Хоризонтална синхронизация на монитора: %s\n"
 
-#: ../lib/Xconfig/various.pm:33
+#: ../lib/Xconfig/various.pm:34
 #, c-format
 msgid "Monitor VertRefresh: %s\n"
 msgstr "Вертикално опресняване на монитора: %s\n"
 
-#: ../lib/Xconfig/various.pm:35
+#: ../lib/Xconfig/various.pm:36
 #, c-format
 msgid "Graphics card: %s\n"
 msgstr "Графична карта: %s\n"
 
-#: ../lib/Xconfig/various.pm:36
+#: ../lib/Xconfig/various.pm:37
 #, c-format
 msgid "Graphics memory: %s kB\n"
 msgstr "Графична памет: %s kB\n"
 
-#: ../lib/Xconfig/various.pm:38
+#: ../lib/Xconfig/various.pm:39
 #, c-format
 msgid "Color depth: %s\n"
 msgstr "Дълбочина на цвета: %s\n"
 
-#: ../lib/Xconfig/various.pm:39
+#: ../lib/Xconfig/various.pm:40
 #, c-format
 msgid "Resolution: %s\n"
 msgstr "Разделителна способност: %s\n"
 
-#: ../lib/Xconfig/various.pm:41
+#: ../lib/Xconfig/various.pm:42
 #, c-format
 msgid "Xorg driver: %s\n"
 msgstr "Xorg драйвер: %s\n"
 
-#: ../lib/Xconfig/various.pm:246
+#: ../lib/Xconfig/various.pm:251
 #, c-format
 msgid "Xorg configuration"
 msgstr "Настройка на Xorg"
 
-#: ../lib/Xconfig/various.pm:247
+#: ../lib/Xconfig/various.pm:252
 #, c-format
 msgid "Global options"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:248
+#: ../lib/Xconfig/various.pm:253
 #, c-format
 msgid "Disable Ctrl-Alt-Backspace"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:250
+#: ../lib/Xconfig/various.pm:255
 #, fuzzy, c-format
 msgid "Graphic card options"
 msgstr "Графична карта: %s"
 
-#: ../lib/Xconfig/various.pm:251
+#: ../lib/Xconfig/various.pm:256
 #, c-format
 msgid "Enable Translucency (Composite extension)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:254
+#: ../lib/Xconfig/various.pm:259
 #, c-format
 msgid "Use hardware accelerated mouse pointer"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:257
+#: ../lib/Xconfig/various.pm:262
 #, c-format
 msgid "Enable RENDER Acceleration (this may cause bugs displaying text)"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:261
+#: ../lib/Xconfig/various.pm:266
 #, c-format
 msgid "Enable duplicate display on the external monitor"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:262
+#: ../lib/Xconfig/various.pm:267
 #, c-format
 msgid "Enable duplicate display on the second display"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:265
+#: ../lib/Xconfig/various.pm:270
 #, c-format
 msgid "Force display mode of DVI"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:268
+#: ../lib/Xconfig/various.pm:273
 #, c-format
 msgid "Enable BIOS hotkey for external monitor switching"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:273
+#: ../lib/Xconfig/various.pm:278
 #, c-format
 msgid "Graphical interface at startup"
 msgstr "X при стартиране на системата"
 
-#: ../lib/Xconfig/various.pm:274
+#: ../lib/Xconfig/various.pm:279
 #, fuzzy, c-format
 msgid "Automatically start the graphical interface (Xorg) upon booting"
 msgstr ""
 "Компютъра ви може автоматично, да влезе в X при стартиране.\n"
 "Искате ли X да се стартира, когато рестартирате системата?"
 
-#: ../lib/Xconfig/various.pm:286
+#: ../lib/Xconfig/various.pm:291
 #, c-format
 msgid ""
 "Your graphic card seems to have a TV-OUT connector.\n"
@@ -523,901 +528,885 @@ msgid ""
 "Do you have this feature?"
 msgstr ""
 
-#: ../lib/Xconfig/various.pm:298
+#: ../lib/Xconfig/various.pm:303
 #, c-format
 msgid "What norm is your TV using?"
 msgstr "Какъв е типът на използваният TV ?"
 
-#: ../lib/Xconfig/xfree.pm:765
+#: ../lib/Xconfig/xfree.pm:773
 #, c-format
 msgid ""
 "_:weird aspect ratio\n"
 "other"
 msgstr ""
 
-#: ../lib/keyboard.pm:188 ../lib/keyboard.pm:221
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Czech (QWERTZ)"
-msgstr "Чешка (QWERTZ)"
-
-#: ../lib/keyboard.pm:189 ../lib/keyboard.pm:223
-#, c-format
-msgid ""
-"_: keyboard\n"
-"German"
-msgstr "Немска"
-
-#: ../lib/keyboard.pm:190
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Dvorak"
-msgstr "Дворак"
-
-#: ../lib/keyboard.pm:191 ../lib/keyboard.pm:235
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Spanish"
-msgstr "Испанска"
-
-#: ../lib/keyboard.pm:192 ../lib/keyboard.pm:236
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Finnish"
-msgstr "Финландска"
-
-#: ../lib/keyboard.pm:193 ../lib/keyboard.pm:238
-#, c-format
-msgid ""
-"_: keyboard\n"
-"French"
-msgstr "Френска"
-
-#: ../lib/keyboard.pm:194 ../lib/keyboard.pm:239
-#, c-format
-msgid "UK keyboard"
-msgstr "UK клавиатура"
-
-#: ../lib/keyboard.pm:195 ../lib/keyboard.pm:278
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Norwegian"
-msgstr "Норвежка"
-
-#: ../lib/keyboard.pm:196
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Polish"
-msgstr "Полска"
-
-#: ../lib/keyboard.pm:197 ../lib/keyboard.pm:288
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Russian"
-msgstr "Руска"
-
-#: ../lib/keyboard.pm:198 ../lib/keyboard.pm:290
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Swedish"
-msgstr "Шведска"
-
-#: ../lib/keyboard.pm:199 ../lib/keyboard.pm:325
-#, c-format
-msgid "US keyboard"
-msgstr "US клавиатура"
-
-#: ../lib/keyboard.pm:201
+#: ../lib/keyboard.pm:185
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Albanian"
 msgstr "Албанска"
 
-#: ../lib/keyboard.pm:202
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Armenian (old)"
-msgstr "Арменска (стара)"
-
-#: ../lib/keyboard.pm:203
+#: ../lib/keyboard.pm:187
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (typewriter)"
 msgstr "Арменска (пишеща машина)"
 
-#: ../lib/keyboard.pm:204
+#: ../lib/keyboard.pm:188
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Armenian (phonetic)"
 msgstr "Арменска (фонетичен)"
 
-#: ../lib/keyboard.pm:205
+#: ../lib/keyboard.pm:189
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Arabic"
 msgstr "Арабски"
 
-#: ../lib/keyboard.pm:206
+#: ../lib/keyboard.pm:190
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Asturian"
 msgstr "Естонска"
 
-#: ../lib/keyboard.pm:207
+#: ../lib/keyboard.pm:191
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Azerbaidjani (latin)"
 msgstr "Азербайджанска (латиница)"
 
-#: ../lib/keyboard.pm:208
+#: ../lib/keyboard.pm:192
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belgian"
 msgstr "Белгийска"
 
-#: ../lib/keyboard.pm:209
+#: ../lib/keyboard.pm:193
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Inscript-layout)"
 msgstr "Бенгалска (Inscript-подредба)"
 
-#: ../lib/keyboard.pm:210
+#: ../lib/keyboard.pm:194
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bengali (Probhat)"
 msgstr "Бенгалска (Probhat-подредба)"
 
-#: ../lib/keyboard.pm:211
+#: ../lib/keyboard.pm:195
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (phonetic)"
 msgstr "Българска (фонетичен)"
 
-#: ../lib/keyboard.pm:212
+#: ../lib/keyboard.pm:196
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bulgarian (BDS)"
 msgstr "Българска (BDS)"
 
-#: ../lib/keyboard.pm:213
+#: ../lib/keyboard.pm:197
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Brazilian (ABNT-2)"
 msgstr "Бразилска (ABNT-2)"
 
-#: ../lib/keyboard.pm:214
+#: ../lib/keyboard.pm:198
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Bosnian"
 msgstr "Босненска"
 
-#: ../lib/keyboard.pm:215
+#: ../lib/keyboard.pm:199
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dzongkha/Tibetan"
 msgstr "Босненска"
 
-#: ../lib/keyboard.pm:216
+#: ../lib/keyboard.pm:200
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Belarusian"
 msgstr "Беларуска"
 
-#: ../lib/keyboard.pm:217
+#: ../lib/keyboard.pm:201
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (German layout)"
 msgstr "Швейцарска (немска наредба)"
 
-#: ../lib/keyboard.pm:218
+#: ../lib/keyboard.pm:202
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Swiss (French layout)"
 msgstr "Швейцарска (френски наредба)"
 
-#: ../lib/keyboard.pm:220
-#, fuzzy, c-format
+#: ../lib/keyboard.pm:205
+#, c-format
 msgid ""
 "_: keyboard\n"
-"Cherokee syllabics"
-msgstr "Арабски"
+"Czech (QWERTZ)"
+msgstr "Чешка (QWERTZ)"
 
-#: ../lib/keyboard.pm:222
+#: ../lib/keyboard.pm:206
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Czech (QWERTY)"
 msgstr "Чешка (QWERTY)"
 
-#: ../lib/keyboard.pm:224
+#: ../lib/keyboard.pm:207
+#, c-format
+msgid ""
+"_: keyboard\n"
+"German"
+msgstr "Немска"
+
+#: ../lib/keyboard.pm:208
 #, c-format
 msgid ""
 "_: keyboard\n"
 "German (no dead keys)"
 msgstr "Немска (без неработещи клавиши)"
 
-#: ../lib/keyboard.pm:225
+#: ../lib/keyboard.pm:209
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Devanagari"
 msgstr "Давенаджари"
 
-#: ../lib/keyboard.pm:226
+#: ../lib/keyboard.pm:210
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Danish"
 msgstr "Датска"
 
-#: ../lib/keyboard.pm:227
+#: ../lib/keyboard.pm:211
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (US)"
 msgstr "Дворак (US)"
 
-#: ../lib/keyboard.pm:228
-#, fuzzy, c-format
-msgid ""
-"_: keyboard\n"
-"Dvorak (Esperanto)"
-msgstr "Дворак (Норвежка)"
-
-#: ../lib/keyboard.pm:229
+#: ../lib/keyboard.pm:213
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (French)"
 msgstr "Дворак (Норвежка)"
 
-#: ../lib/keyboard.pm:230
+#: ../lib/keyboard.pm:214
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (UK)"
 msgstr "Дворак (US)"
 
-#: ../lib/keyboard.pm:231
+#: ../lib/keyboard.pm:215
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Norwegian)"
 msgstr "Дворак (Норвежка)"
 
-#: ../lib/keyboard.pm:232
+#: ../lib/keyboard.pm:216
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Polish)"
 msgstr "Дворак (Шведска)"
 
-#: ../lib/keyboard.pm:233
+#: ../lib/keyboard.pm:217
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dvorak (Swedish)"
 msgstr "Дворак (Шведска)"
 
-#: ../lib/keyboard.pm:234
+#: ../lib/keyboard.pm:218
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Estonian"
 msgstr "Естонска"
 
-#: ../lib/keyboard.pm:237
+#: ../lib/keyboard.pm:219
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Spanish"
+msgstr "Испанска"
+
+#: ../lib/keyboard.pm:220
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Finnish"
+msgstr "Финландска"
+
+#: ../lib/keyboard.pm:221
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Faroese"
 msgstr "Гръцка"
 
-#: ../lib/keyboard.pm:240
+#: ../lib/keyboard.pm:222
+#, c-format
+msgid ""
+"_: keyboard\n"
+"French"
+msgstr "Френска"
+
+#: ../lib/keyboard.pm:223
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"French (Bepo)"
+msgstr "Френска"
+
+#: ../lib/keyboard.pm:224
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"French (Bepo, only latin-9)"
+msgstr "Арменска (фонетичен)"
+
+#: ../lib/keyboard.pm:225
+#, c-format
+msgid "UK keyboard"
+msgstr "UK клавиатура"
+
+#: ../lib/keyboard.pm:226
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Russian\" layout)"
 msgstr "Грузинска (\"Руска\" наредба)"
 
-#: ../lib/keyboard.pm:241
+#: ../lib/keyboard.pm:227
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Georgian (\"Latin\" layout)"
 msgstr "Грузинска (\"Латинска\" наредба)"
 
-#: ../lib/keyboard.pm:242
+#: ../lib/keyboard.pm:228
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek"
 msgstr "Гръцка"
 
-#: ../lib/keyboard.pm:243
+#: ../lib/keyboard.pm:229
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Greek (polytonic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:244
+#: ../lib/keyboard.pm:230
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gujarati"
 msgstr "Гуаджарати"
 
-#: ../lib/keyboard.pm:245
+#: ../lib/keyboard.pm:231
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Gurmukhi"
 msgstr "Гурмукчи"
 
-#: ../lib/keyboard.pm:246
+#: ../lib/keyboard.pm:232
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Croatian"
 msgstr "Хърватска"
 
-#: ../lib/keyboard.pm:247
+#: ../lib/keyboard.pm:233
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Hungarian"
 msgstr "Унгарска"
 
-#: ../lib/keyboard.pm:248
+#: ../lib/keyboard.pm:234
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Irish"
 msgstr ""
 
-#: ../lib/keyboard.pm:249
+#: ../lib/keyboard.pm:235
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Inuktitut"
 msgstr "Инуктитут"
 
-#: ../lib/keyboard.pm:250
+#: ../lib/keyboard.pm:236
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli"
 msgstr "Израелска"
 
-#: ../lib/keyboard.pm:251
+#: ../lib/keyboard.pm:237
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Israeli (phonetic)"
 msgstr "Израелска (фонетична)"
 
-#: ../lib/keyboard.pm:252
+#: ../lib/keyboard.pm:238
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Iranian"
 msgstr "Иранска"
 
-#: ../lib/keyboard.pm:253
+#: ../lib/keyboard.pm:239
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Icelandic"
 msgstr "Исландска"
 
-#: ../lib/keyboard.pm:254
+#: ../lib/keyboard.pm:240
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Italian"
 msgstr "Италианска"
 
-#: ../lib/keyboard.pm:258
+#: ../lib/keyboard.pm:244
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Japanese 106 keys"
 msgstr "Японска 106 клавиша"
 
-#: ../lib/keyboard.pm:259
+#: ../lib/keyboard.pm:245
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Kannada"
 msgstr "Канада"
 
-#: ../lib/keyboard.pm:260
+#: ../lib/keyboard.pm:246
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kyrgyz"
 msgstr "UK клавиатура"
 
-#: ../lib/keyboard.pm:261
+#: ../lib/keyboard.pm:247
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Korean"
 msgstr "Корейска клавиатура"
 
-#: ../lib/keyboard.pm:263
+#: ../lib/keyboard.pm:249
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Kurdish (arabic script)"
 msgstr "Арабски"
 
-#: ../lib/keyboard.pm:264
+#: ../lib/keyboard.pm:250
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latin American"
 msgstr "Латиноамериканска"
 
-#: ../lib/keyboard.pm:266
+#: ../lib/keyboard.pm:252
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Laotian"
 msgstr "Лаоска"
 
-#: ../lib/keyboard.pm:267
+#: ../lib/keyboard.pm:253
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Lithuanian"
 msgstr "Иранска"
 
-#: ../lib/keyboard.pm:268
+#: ../lib/keyboard.pm:254
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Latvian"
 msgstr "Латвийска"
 
-#: ../lib/keyboard.pm:269
+#: ../lib/keyboard.pm:255
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Malayalam"
 msgstr "Малайлам"
 
-#: ../lib/keyboard.pm:270
+#: ../lib/keyboard.pm:256
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maori"
 msgstr ""
 
-#: ../lib/keyboard.pm:271
+#: ../lib/keyboard.pm:257
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Macedonian"
 msgstr "Македонска"
 
-#: ../lib/keyboard.pm:272
+#: ../lib/keyboard.pm:258
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Myanmar (Burmese)"
 msgstr "Майнмар (бирманска)"
 
-#: ../lib/keyboard.pm:273
+#: ../lib/keyboard.pm:259
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Mongolian (cyrillic)"
 msgstr "Монголска (кирилица)"
 
-#: ../lib/keyboard.pm:274
+#: ../lib/keyboard.pm:260
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (UK)"
 msgstr "Малтийска (UK)"
 
-#: ../lib/keyboard.pm:275
+#: ../lib/keyboard.pm:261
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Maltese (US)"
 msgstr "Малтийска (US)"
 
-#: ../lib/keyboard.pm:276
+#: ../lib/keyboard.pm:262
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Nigerian"
 msgstr ""
 
-#: ../lib/keyboard.pm:277
+#: ../lib/keyboard.pm:263
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Dutch"
 msgstr "Холандска"
 
-#: ../lib/keyboard.pm:279
+#: ../lib/keyboard.pm:264
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Norwegian"
+msgstr "Норвежка"
+
+#: ../lib/keyboard.pm:265
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Oriya"
 msgstr "Орийска"
 
-#: ../lib/keyboard.pm:280
+#: ../lib/keyboard.pm:266
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwerty layout)"
 msgstr "Полска (QWERTY наредба)"
 
-#: ../lib/keyboard.pm:281
+#: ../lib/keyboard.pm:267
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Polish (qwertz layout)"
 msgstr "Полска (QWERTZ наредба)"
 
-#: ../lib/keyboard.pm:283
+#: ../lib/keyboard.pm:269
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Pashto"
 msgstr "Полска"
 
-#: ../lib/keyboard.pm:284
+#: ../lib/keyboard.pm:270
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Portuguese"
 msgstr "Португалска"
 
-#: ../lib/keyboard.pm:285
+#: ../lib/keyboard.pm:271
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Canadian (Quebec)"
 msgstr "Канадска (Квебек)"
 
-#: ../lib/keyboard.pm:286
+#: ../lib/keyboard.pm:272
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwertz)"
 msgstr "Румънска (qwertz)"
 
-#: ../lib/keyboard.pm:287
+#: ../lib/keyboard.pm:273
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Romanian (qwerty)"
 msgstr "Румънска (qwerty)"
 
-#: ../lib/keyboard.pm:289
+#: ../lib/keyboard.pm:274
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Romanian (basic)"
+msgstr "Румънска (qwertz)"
+
+#: ../lib/keyboard.pm:275
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Russian"
+msgstr "Руска"
+
+#: ../lib/keyboard.pm:276
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Russian (phonetic)"
 msgstr "Руска (фонетична)"
 
-#: ../lib/keyboard.pm:291
+#: ../lib/keyboard.pm:277
+#, c-format
+msgid ""
+"_: keyboard\n"
+"Swedish"
+msgstr "Шведска"
+
+#: ../lib/keyboard.pm:278
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovenian"
 msgstr "Словенска"
 
-#: ../lib/keyboard.pm:293
+#: ../lib/keyboard.pm:280
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Sinhala"
 msgstr ""
 
-#: ../lib/keyboard.pm:294
+#: ../lib/keyboard.pm:281
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTZ)"
 msgstr "Словашка (QWERTZ)"
 
-#: ../lib/keyboard.pm:295
+#: ../lib/keyboard.pm:282
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Slovakian (QWERTY)"
 msgstr "Словашка (QWERTY)"
 
-#: ../lib/keyboard.pm:296
+#: ../lib/keyboard.pm:283
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (norwegian)"
 msgstr "Саами (норвежка)"
 
-#: ../lib/keyboard.pm:297
+#: ../lib/keyboard.pm:284
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Saami (swedish/finnish)"
 msgstr "Саами (норвежка)"
 
-#: ../lib/keyboard.pm:299
-#, fuzzy, c-format
-msgid ""
-"_: keyboard\n"
-"Sindhi"
-msgstr "Тайванска клавиатура"
-
-#: ../lib/keyboard.pm:301
+#: ../lib/keyboard.pm:288
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Serbian (cyrillic)"
 msgstr "Сръбска (кирилица)"
 
-#: ../lib/keyboard.pm:302
+#: ../lib/keyboard.pm:289
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac"
 msgstr "Сирийски"
 
-#: ../lib/keyboard.pm:303
+#: ../lib/keyboard.pm:290
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Syriac (phonetic)"
 msgstr "Сирийски (фонетичен)"
 
-#: ../lib/keyboard.pm:304
+#: ../lib/keyboard.pm:291
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Telugu"
 msgstr "Телугу"
 
-#: ../lib/keyboard.pm:306
+#: ../lib/keyboard.pm:293
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (ISCII-layout)"
 msgstr "Тамилска (ISCII-подредба)"
 
-#: ../lib/keyboard.pm:307
+#: ../lib/keyboard.pm:294
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tamil (Typewriter-layout)"
 msgstr "Тамилска (пишеща машина)"
 
-#: ../lib/keyboard.pm:308
+#: ../lib/keyboard.pm:295
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Kedmanee)"
 msgstr "Тайванска клавиатура"
 
-#: ../lib/keyboard.pm:309
+#: ../lib/keyboard.pm:296
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (TIS-820)"
 msgstr "Тайванска клавиатура"
 
-#: ../lib/keyboard.pm:311
+#: ../lib/keyboard.pm:298
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Thai (Pattachote)"
 msgstr "Тайванска клавиатура"
 
-#: ../lib/keyboard.pm:313
+#: ../lib/keyboard.pm:300
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (moroccan layout) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:314
+#: ../lib/keyboard.pm:301
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tifinagh (phonetic) (+latin/arabic)"
 msgstr ""
 
-#: ../lib/keyboard.pm:316
+#: ../lib/keyboard.pm:303
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Tajik"
 msgstr "Таджикистанска клавиатура"
 
-#: ../lib/keyboard.pm:318
+#: ../lib/keyboard.pm:305
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Turkmen"
 msgstr "Немска"
 
-#: ../lib/keyboard.pm:319
-#, c-format
+#: ../lib/keyboard.pm:306
+#, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
-"Turkish (traditional \"F\" model)"
-msgstr "Турска (традиционен \"F\" модел)"
-
-#: ../lib/keyboard.pm:320
-#, c-format
-msgid ""
-"_: keyboard\n"
-"Turkish (modern \"Q\" model)"
+"Turkish (\"F\" model)"
 msgstr "Турска (модерен \"Q\" модел)"
 
-#: ../lib/keyboard.pm:322
+#: ../lib/keyboard.pm:307
+#, fuzzy, c-format
+msgid ""
+"_: keyboard\n"
+"Turkish (\"Q\" model)"
+msgstr "Турска (модерен \"Q\" модел)"
+
+#: ../lib/keyboard.pm:309 ../lib/keyboard.pm:311
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Ukrainian"
 msgstr "Украинска"
 
-#: ../lib/keyboard.pm:324
+#: ../lib/keyboard.pm:313
 #, fuzzy, c-format
 msgid ""
 "_: keyboard\n"
 "Urdu keyboard"
 msgstr "Орийска"
 
-#: ../lib/keyboard.pm:326
+#: ../lib/keyboard.pm:314
+#, c-format
+msgid "US keyboard"
+msgstr "US клавиатура"
+
+#: ../lib/keyboard.pm:315
 #, c-format
 msgid "US keyboard (international)"
 msgstr "US клавиатура (международна)"
 
-#: ../lib/keyboard.pm:327
+#: ../lib/keyboard.pm:316
+#, fuzzy, c-format
+msgid "US keyboard (Macintosh)"
+msgstr "US клавиатура (международна)"
+
+#: ../lib/keyboard.pm:317
 #, c-format
 msgid "ISO9995-3 (US keyboard with 3 levels per key)"
 msgstr ""
 
-#: ../lib/keyboard.pm:328
+#: ../lib/keyboard.pm:318
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Uzbek (cyrillic)"
 msgstr "Узбекистанска (кирилица)"
 
-#: ../lib/keyboard.pm:330
+#: ../lib/keyboard.pm:320
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Vietnamese \"numeric row\" QWERTY"
 msgstr "Виетнамска \"числова редица\" QWERTY"
 
-#: ../lib/keyboard.pm:331
+#: ../lib/keyboard.pm:321
 #, c-format
 msgid ""
 "_: keyboard\n"
 "Yugoslavian (latin)"
 msgstr "Югославска (латиница)"
 
-#: ../lib/keyboard.pm:338
+#: ../lib/keyboard.pm:327
 #, c-format
 msgid "Right Alt key"
 msgstr "Десен Alt клавиш"
 
-#: ../lib/keyboard.pm:339
+#: ../lib/keyboard.pm:328
 #, c-format
 msgid "Both Shift keys simultaneously"
 msgstr "Двата Shift клавиша едновременно"
 
-#: ../lib/keyboard.pm:340
+#: ../lib/keyboard.pm:329
 #, c-format
 msgid "Control and Shift keys simultaneously"
 msgstr "Control и Shift клавиши едновремено"
 
-#: ../lib/keyboard.pm:341
+#: ../lib/keyboard.pm:330
 #, c-format
 msgid "CapsLock key"
 msgstr "CapsLock клавиш"
 
-#: ../lib/keyboard.pm:342
+#: ../lib/keyboard.pm:331
 #, fuzzy, c-format
 msgid "Shift and CapsLock keys simultaneously"
 msgstr "Ctrl и Alt клавиши едновременно"
 
-#: ../lib/keyboard.pm:343
+#: ../lib/keyboard.pm:332
 #, c-format
 msgid "Ctrl and Alt keys simultaneously"
 msgstr "Ctrl и Alt клавиши едновременно"
 
-#: ../lib/keyboard.pm:344
+#: ../lib/keyboard.pm:333
 #, c-format
 msgid "Alt and Shift keys simultaneously"
 msgstr "Alt и Shift клавиши едновременно"
 
-#: ../lib/keyboard.pm:345
+#: ../lib/keyboard.pm:334
 #, c-format
 msgid "\"Menu\" key"
 msgstr "\"Menu\" клавиш"
 
-#: ../lib/keyboard.pm:346
+#: ../lib/keyboard.pm:335
 #, c-format
 msgid "Left \"Windows\" key"
 msgstr "Ляв \"Windows\" клавиш"
 
-#: ../lib/keyboard.pm:347
+#: ../lib/keyboard.pm:336
 #, c-format
 msgid "Right \"Windows\" key"
 msgstr "Десен \"Windows\" клавиш"
 
-#: ../lib/keyboard.pm:348
+#: ../lib/keyboard.pm:337
 #, c-format
 msgid "Both Control keys simultaneously"
 msgstr "Двата Ctrl клавиша едновременно"
 
-#: ../lib/keyboard.pm:349
+#: ../lib/keyboard.pm:338
 #, c-format
 msgid "Both Alt keys simultaneously"
 msgstr "Двата Alt клавиша едновременно"
 
-#: ../lib/keyboard.pm:350
+#: ../lib/keyboard.pm:339
 #, c-format
 msgid "Left Shift key"
 msgstr "Ляв Shift клавиш"
 
-#: ../lib/keyboard.pm:351
+#: ../lib/keyboard.pm:340
 #, c-format
 msgid "Right Shift key"
 msgstr "Десен Shift клавиш"
 
-#: ../lib/keyboard.pm:352
+#: ../lib/keyboard.pm:341
 #, c-format
 msgid "Left Alt key"
 msgstr "Ляв Alt клавиш"
 
-#: ../lib/keyboard.pm:353
+#: ../lib/keyboard.pm:342
 #, c-format
 msgid "Left Control key"
 msgstr "Ляв клавиш Ctrl"
 
-#: ../lib/keyboard.pm:354
+#: ../lib/keyboard.pm:343
 #, c-format
 msgid "Right Control key"
 msgstr "Десен Control клавиш"
 
-#: ../lib/keyboard.pm:400
+#: ../lib/keyboard.pm:391
 #, c-format
 msgid ""
 "Here you can choose the key or key combination that will \n"
@@ -1428,12 +1417,12 @@ msgstr ""
 "ще ви позволи да избирате различни клавиатурни подредби\n"
 "(напр. latin и не latin)"
 
-#: ../lib/keyboard.pm:405
+#: ../lib/keyboard.pm:396
 #, c-format
 msgid "Warning"
 msgstr "Предупреждение"
 
-#: ../lib/keyboard.pm:406
+#: ../lib/keyboard.pm:397
 #, c-format
 msgid ""
 "This setting will be activated after the installation.\n"
@@ -1441,252 +1430,227 @@ msgid ""
 "key to switch between the different keyboard layouts."
 msgstr ""
 
-#: ../lib/mouse.pm:26
-#, c-format
-msgid "Sun - Mouse"
-msgstr "Мишка на Sun"
-
-#: ../lib/mouse.pm:32
+#: ../lib/mouse.pm:25
 #, c-format
 msgid "Standard"
 msgstr "Стандартна"
 
-#: ../lib/mouse.pm:33
+#: ../lib/mouse.pm:26
 #, c-format
 msgid "Logitech MouseMan+"
 msgstr "Logitech MouseMan+"
 
-#: ../lib/mouse.pm:34
+#: ../lib/mouse.pm:27
 #, c-format
 msgid "Generic PS2 Wheel Mouse"
 msgstr "Обикновенна PS2 мишка"
 
-#: ../lib/mouse.pm:35
+#: ../lib/mouse.pm:28
 #, c-format
 msgid "GlidePoint"
 msgstr "GlidePoint"
 
-#: ../lib/mouse.pm:38 ../lib/mouse.pm:72
+#: ../lib/mouse.pm:31 ../lib/mouse.pm:65
 #, c-format
 msgid "Kensington Thinking Mouse"
 msgstr "Kensington THinking Mouse"
 
-#: ../lib/mouse.pm:39 ../lib/mouse.pm:67
+#: ../lib/mouse.pm:32 ../lib/mouse.pm:60
 #, c-format
 msgid "Genius NetMouse"
 msgstr "Genuis NetMouse"
 
-#: ../lib/mouse.pm:40
+#: ../lib/mouse.pm:33
 #, c-format
 msgid "Genius NetScroll"
 msgstr "Genius NetScroll"
 
-#: ../lib/mouse.pm:41 ../lib/mouse.pm:51
+#: ../lib/mouse.pm:34 ../lib/mouse.pm:44
 #, c-format
 msgid "Microsoft Explorer"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:46 ../lib/mouse.pm:78
+#: ../lib/mouse.pm:39
 #, c-format
 msgid "1 button"
 msgstr "1 бутон"
 
-#: ../lib/mouse.pm:47 ../lib/mouse.pm:56
+#: ../lib/mouse.pm:40 ../lib/mouse.pm:49
 #, c-format
 msgid "Generic 2 Button Mouse"
 msgstr "Обикновенна 2-бутонна мишка"
 
-#: ../lib/mouse.pm:49 ../lib/mouse.pm:58
+#: ../lib/mouse.pm:42 ../lib/mouse.pm:51
 #, c-format
 msgid "Generic 3 Button Mouse with Wheel emulation"
 msgstr "Обикновенна 3-бутонна мишка с емулация на колелце"
 
-#: ../lib/mouse.pm:50
+#: ../lib/mouse.pm:43
 #, c-format
 msgid "Wheel"
 msgstr "Wheel"
 
-#: ../lib/mouse.pm:54
+#: ../lib/mouse.pm:47
 #, c-format
 msgid "serial"
 msgstr "серийна"
 
-#: ../lib/mouse.pm:57
+#: ../lib/mouse.pm:50
 #, c-format
 msgid "Generic 3 Button Mouse"
 msgstr "Обикновенна 3-бутонна мишка"
 
-#: ../lib/mouse.pm:59
+#: ../lib/mouse.pm:52
 #, c-format
 msgid "Microsoft IntelliMouse"
 msgstr "Microsoft IntelliMouse"
 
-#: ../lib/mouse.pm:60
+#: ../lib/mouse.pm:53
 #, c-format
 msgid "Logitech MouseMan"
 msgstr "Logitech MouseMan"
 
-#: ../lib/mouse.pm:61
+#: ../lib/mouse.pm:54
 #, fuzzy, c-format
 msgid "Logitech MouseMan with Wheel emulation"
 msgstr "Logitech MouseMan"
 
-#: ../lib/mouse.pm:62
+#: ../lib/mouse.pm:55
 #, c-format
 msgid "Mouse Systems"
 msgstr "Mouse Systems"
 
-#: ../lib/mouse.pm:64
+#: ../lib/mouse.pm:57
 #, c-format
 msgid "Logitech CC Series"
 msgstr "Logitech CC Series"
 
-#: ../lib/mouse.pm:65
+#: ../lib/mouse.pm:58
 #, c-format
 msgid "Logitech CC Series with Wheel emulation"
 msgstr "Logitech CC Series с емулация на колелце"
 
-#: ../lib/mouse.pm:66
+#: ../lib/mouse.pm:59
 #, c-format
 msgid "Logitech MouseMan+/FirstMouse+"
 msgstr "Logitech MouseMan+/FirstMouse+"
 
-#: ../lib/mouse.pm:68
+#: ../lib/mouse.pm:61
 #, c-format
 msgid "MM Series"
 msgstr "MM Series"
 
-#: ../lib/mouse.pm:69
+#: ../lib/mouse.pm:62
 #, c-format
 msgid "MM HitTablet"
 msgstr "MM HitTablet"
 
-#: ../lib/mouse.pm:70
+#: ../lib/mouse.pm:63
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type)"
 msgstr "Logitech Mouse (серийна, от стария тип C7)"
 
-#: ../lib/mouse.pm:71
+#: ../lib/mouse.pm:64
 #, c-format
 msgid "Logitech Mouse (serial, old C7 type) with Wheel emulation"
 msgstr "Logitech Mouse (серийна, от стария тип C7) с емулация на колелце"
 
-#: ../lib/mouse.pm:73
+#: ../lib/mouse.pm:66
 #, c-format
 msgid "Kensington Thinking Mouse with Wheel emulation"
 msgstr "Kensington THinking Mouse с колелце"
 
-#: ../lib/mouse.pm:76
+#: ../lib/mouse.pm:69
 #, c-format
 msgid "busmouse"
 msgstr "BUS мишка"
 
-#: ../lib/mouse.pm:79
+#: ../lib/mouse.pm:72
 #, c-format
 msgid "2 buttons"
 msgstr "2 бутона"
 
-#: ../lib/mouse.pm:80
+#: ../lib/mouse.pm:73
 #, c-format
 msgid "3 buttons"
 msgstr "3 бутона"
 
-#: ../lib/mouse.pm:81
+#: ../lib/mouse.pm:74
 #, c-format
 msgid "3 buttons with Wheel emulation"
 msgstr "3 бутона с емулация на колелце"
 
-#: ../lib/mouse.pm:84
+#: ../lib/mouse.pm:77
 #, c-format
 msgid "Universal"
 msgstr "Universal"
 
-#: ../lib/mouse.pm:86
+#: ../lib/mouse.pm:79
 #, c-format
 msgid "Any PS/2 & USB mice"
 msgstr ""
 
-#: ../lib/mouse.pm:87
+#: ../lib/mouse.pm:80
 #, c-format
 msgid "Force evdev"
 msgstr ""
 
-#: ../lib/mouse.pm:88
+#: ../lib/mouse.pm:81
 #, fuzzy, c-format
 msgid "Microsoft Xbox Controller S"
 msgstr "Microsoft Explorer"
 
-#: ../lib/mouse.pm:89
-#, fuzzy, c-format
-msgid "VMware mouse"
-msgstr "Без мишка"
-
-#: ../lib/mouse.pm:92
+#: ../lib/mouse.pm:84
 #, c-format
 msgid "none"
 msgstr "няма"
 
-#: ../lib/mouse.pm:94
+#: ../lib/mouse.pm:86
 #, c-format
 msgid "No mouse"
 msgstr "Без мишка"
 
-#: ../lib/mouse.pm:484
+#: ../lib/mouse.pm:452
 #, c-format
 msgid "Testing the mouse"
 msgstr ""
 
-#: ../lib/mouse.pm:521
+#: ../lib/mouse.pm:489
 #, c-format
 msgid "Please choose your type of mouse."
 msgstr "Моля, изберете тип на мишката."
 
-#: ../lib/mouse.pm:522
+#: ../lib/mouse.pm:490
 #, fuzzy, c-format
 msgid "Mouse choice"
 msgstr "ръчно"
 
-#: ../lib/mouse.pm:538
+#: ../lib/mouse.pm:506
 #, c-format
 msgid "Emulate third button?"
 msgstr "Да симулирам ли трети бутон ?"
 
-#: ../lib/mouse.pm:542
+#: ../lib/mouse.pm:510
 #, c-format
 msgid "Mouse Port"
 msgstr "Порт на мишката"
 
-#: ../lib/mouse.pm:543
+#: ../lib/mouse.pm:511
 #, c-format
 msgid "Please choose which serial port your mouse is connected to."
 msgstr "Моля, изберете към кой сериен порт е свързана мишката ви."
 
-#: ../lib/mouse.pm:552
-#, c-format
-msgid "Buttons emulation"
-msgstr "Имитация на бутони"
-
-#: ../lib/mouse.pm:554
-#, c-format
-msgid "Button 2 Emulation"
-msgstr "Имитация на 2 бутона"
-
-#: ../lib/mouse.pm:555
-#, c-format
-msgid "Button 3 Emulation"
-msgstr "Имитация на 3 бутона"
-
-#: ../lib/mouse.pm:606
+#: ../lib/mouse.pm:564
 #, c-format
 msgid "Please test the mouse"
 msgstr "Моля, пробвайте мишката си"
 
-#: ../lib/mouse.pm:608
+#: ../lib/mouse.pm:566
 #, c-format
 msgid "To activate the mouse,"
 msgstr "За да активирате мишката си,"
 
-#: ../lib/mouse.pm:609
+#: ../lib/mouse.pm:567
 #, c-format
 msgid "MOVE YOUR WHEEL!"
 msgstr "БУТНЕТЕ ТОПЧЕТО !"
@@ -1749,8 +1713,59 @@ msgstr "Настройка на връзката"
 msgid "Authentication is required to run DrakX Graphics Configuration"
 msgstr "Настройка на връзката"
 
-#~ msgid "Quit"
-#~ msgstr "Изход"
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Dvorak"
+#~ msgstr "Дворак"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Polish"
+#~ msgstr "Полска"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Armenian (old)"
+#~ msgstr "Арменска (стара)"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Cherokee syllabics"
+#~ msgstr "Арабски"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Dvorak (Esperanto)"
+#~ msgstr "Дворак (Норвежка)"
+
+#, fuzzy
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Sindhi"
+#~ msgstr "Тайванска клавиатура"
+
+#~ msgid ""
+#~ "_: keyboard\n"
+#~ "Turkish (traditional \"F\" model)"
+#~ msgstr "Турска (традиционен \"F\" модел)"
+
+#~ msgid "Sun - Mouse"
+#~ msgstr "Мишка на Sun"
+
+#, fuzzy
+#~ msgid "VMware mouse"
+#~ msgstr "Без мишка"
+
+#~ msgid "Buttons emulation"
+#~ msgstr "Имитация на бутони"
+
+#~ msgid "Button 2 Emulation"
+#~ msgstr "Имитация на 2 бутона"
+
+#~ msgid "Button 3 Emulation"
+#~ msgstr "Имитация на 3 бутона"
 
 #~ msgid "Test"
 #~ msgstr "Тест"

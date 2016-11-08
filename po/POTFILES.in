@@ -1,0 +1,3 @@
+polkit/org.moondrake.drakkeyboard.policy.in
+polkit/org.moondrake.drakmouse.policy.in
+polkit/org.moondrake.drakx11.policy.in
