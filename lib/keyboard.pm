@@ -614,23 +614,24 @@ sub write {
 	addVarsInShMode("$::prefix/etc/vconsole.conf", 0644, $h2);
     }
 
-    my $xorgconf = "# Read and parsed by systemd-localed. It's probably wise not to edit this file\n" .
-    "# manually too freely.\n" .
-    q(Section "InputClass"\n) .
-    qq(        Identifier "system-keyboard"\n) .
-    q(        MatchIsKeyboard "on"\n);
+    my $xorgconf = qq(# Read and parsed by systemd-localed. It's probably wise not to edit this file
+# manually too freely.
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+);
     my $isus = $keyboard->{XkbLayout} && $keyboard->{XkbLayout} eq "us";
-    if ($keyboard->{XkbLayout} && !$isus) {
-        $xorgconf .= "        Option \"XkbLayout\" \"" . $keyboard->{XkbLayout} . "\"\n";
-    }
-    if ($keyboard->{XkbModel} && (!$isus || $keyboard->{XkbModel} ne "pc105")) {
-        $xorgconf .= "        Option \"XkbModel\" \"" . $keyboard->{XkbModel} . "\"\n";
-    }
-    if ($keyboard->{XkbVariant}) {
-        $xorgconf .= "        Option \"XkbVariant\" \"" . $keyboard->{XkbVariant} . "\"\n";
-    }
-    if ($keyboard->{XkbOptions}) {
-        $xorgconf .= "        Option \"XkbOptions\" \"" . $keyboard->{XkbOptions} . "\"\n";
+    # kbd_option => enabled?
+    my %is_opt_enabled = (
+	XkbLayout  => sub { !$isus },
+	XkbModel   => sub { !$isus || $keyboard->{XkbModel} ne "pc105" },
+	XkbVariant => sub { 1 },
+	XkbOptions => sub { 1 },
+	);
+    foreach my $opt (keys %is_opt_enabled) {
+	if ($keyboard->{$opt} && $is_opt_enabled{$opt}) {
+	    $xorgconf .= sprintf(q( Option "%s" "%s") . "\n", $opt, $keyboard->{$opt});
+	}
     }
     $xorgconf .= "EndSection\n";
     output_p("$::prefix/etc/X11/xorg.conf.d/00-keyboard.conf", $xorgconf);

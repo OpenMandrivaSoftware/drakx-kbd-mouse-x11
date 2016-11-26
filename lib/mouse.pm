@@ -545,9 +545,9 @@ sub test_mouse {
 				    $layout);
     };
     my $draw_pixbuf = sub {
-	my ($p, $x, $y, $w, $h) = @_;
-	$w = $p->get_allocated_width;
-	$h = $p->get_allocated_height;
+	my ($p, $x, $y) = @_;
+	my $w = $p->get_allocated_width;
+	my $h = $p->get_allocated_height;
 	$p->render_to_drawable($darea->get_window, $darea->get_style->bg_gc('normal'), 0, 0,
 			       ($darea->get_allocation->width-$width)/2 + $x, ($darea->get_allocation->height-$height)/2 + $y,
 			       $w, $h, 'none', 0, 0);
