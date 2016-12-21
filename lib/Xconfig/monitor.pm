@@ -99,7 +99,7 @@ sub configure_auto_install {
 }
 
 sub choose {
-    my ($in, $_raw_X, $monitor, $head_nb, $b_auto) = @_;
+    my ($in, $raw_X, $monitor, $head_nb, $b_auto) = @_;
 
     my $ok = is_valid($monitor);
     if ($b_auto && $ok) {
