@@ -360,8 +360,7 @@ sub various_xfree_conf {
     require Xconfig::card;
     my $inputdrvpath = Xconfig::card::modules_dir() . '/input';
     my $pkgs = [
-	if_($mouse->{synaptics}, ['x11-driver-input-synaptics', "$inputdrvpath/synaptics_drv.so"]),
-	if_($mouse->{evdev_mice}, ['x11-driver-input-libinput', "$inputdrvpath/evdev_drv.so"]),
+	if_($mouse->{synaptics} || $mouse->{evdev_mice}, ['x11-driver-input-libinput', "$inputdrvpath/libinput_drv.so"]),
 	if_(@{$mouse->{wacom}}, ['x11-driver-input-wacom', "$inputdrvpath/wacom_drv.so"]),
     ];
     $do_pkgs->ensure_files_are_installed($pkgs, 1);

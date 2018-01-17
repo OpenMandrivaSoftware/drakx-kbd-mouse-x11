@@ -30,9 +30,9 @@ fi
 
 export LC_ALL=C
 
-KMS_DRIVERS="i915 radeon nouveau"
+KMS_DRIVERS="i915 amdgpu radeon nouveau"
 # module names at run-time (hence nvidia instead of nvidia*):
-KNOWN_MODULES="i915|radeon|nouveau|fglrx|nvidia"
+KNOWN_MODULES="i915|amdgpu|radeon|nouveau|fglrx|nvidia"
 
 XORG_i915="intel"
 CONFLICTS_i915=""
@@ -41,7 +41,10 @@ XORG_nouveau="nouveau"
 CONFLICTS_nouveau="vesa nv nvidia"
 
 XORG_radeon="ati radeon"
-CONFLICTS_radeon="fglrx"
+CONFLICTS_radeon="fglrx amdgpu"
+
+XORG_amdgpu="amdgpu"
+CONFLICTS_amdgpu="radeon"
 
 # Note: no /usr
 # See end of script for descriptions of global variables.
@@ -57,6 +60,13 @@ check_driver() {
 		# implicitely loaded by X.org
 		check_xorg $name 0 || return 1
 		IS_KMS=1
+		;;
+	amdgpu)
+		# implicitely loaded by X.org
+		check_xorg $name 0 || return 1
+		IS_KMS=1
+		# amdgpu KMS needs to be loaded before X server
+		NEEDS_LOAD_NOW=1
 		;;
 	radeon)
 		# implicitely loaded by X.org

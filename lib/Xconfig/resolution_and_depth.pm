@@ -63,7 +63,9 @@ sub allowed {
 	my @depths;
 	if (member($card->{Driver}, qw(fglrx qxl savage))) {
 	    @depths = 24;
-	} elsif ($card->{BoardName} eq 'NVIDIA RIVA 128') { 
+	} elsif ($card->{Driver} eq 'geode') {
+	    @depths = qw(16);
+	} elsif ($card->{BoardName} eq 'NVIDIA RIVA 128') {
 	    @depths = qw(8 15 24);
 	} elsif ($card->{use_DRI_GLX}) {
 	    $prefered_depth = 24;
